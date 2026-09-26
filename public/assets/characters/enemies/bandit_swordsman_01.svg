@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768">
+<defs>
+  <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5a4030"/><stop offset=".5" stop-color="#3a2a24"/><stop offset="1" stop-color="#241b18"/>
+  </linearGradient>
+  <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6d4a31"/><stop offset=".55" stop-color="#47301f"/><stop offset="1" stop-color="#281c15"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#596064"/><stop offset=".45" stop-color="#d6dbdc"/><stop offset=".75" stop-color="#8b9397"/><stop offset="1" stop-color="#3d4447"/>
+  </linearGradient>
+  <radialGradient id="skin" cx=".35" cy=".25" r=".8">
+    <stop offset="0" stop-color="#c58f6a"/><stop offset=".7" stop-color="#94654d"/><stop offset="1" stop-color="#6b4738"/>
+  </radialGradient>
+  <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="9" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.4"/>
+  </filter>
+  <filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+
+<!-- transparent background -->
+<ellipse cx="384" cy="642" rx="130" ry="34" fill="#000" opacity=".2" filter="url(#shadow)"/>
+
+<!-- rear leg -->
+<path d="M394 496 L443 503 L468 615 L428 628 L390 544Z" fill="#262322" stroke="#171413" stroke-width="7" filter="url(#rough)"/>
+<path d="M427 614 L470 608 Q490 619 490 633 Q466 646 419 637Z" fill="#181716" stroke="#0d0c0c" stroke-width="6"/>
+
+<!-- front leg -->
+<path d="M341 492 L389 501 L359 614 L316 616 L323 539Z" fill="#2a2725" stroke="#171413" stroke-width="7" filter="url(#rough)"/>
+<path d="M313 609 L359 607 Q369 622 354 636 Q321 644 294 629Z" fill="#171615" stroke="#0c0b0b" stroke-width="6"/>
+
+<!-- lower robe skirts -->
+<path d="M303 383 Q342 361 402 371 Q443 382 466 424 L437 545 Q396 520 370 503 Q339 528 294 538 L281 437Z" fill="url(#robe)" stroke="#251b17" stroke-width="8" filter="url(#rough)"/>
+<path d="M307 432 Q357 450 449 424" fill="none" stroke="#251c17" stroke-width="9" opacity=".65"/>
+<path d="M289 481 Q330 470 367 489" fill="none" stroke="#72503a" stroke-width="8" opacity=".5"/>
+
+<!-- torso -->
+<path d="M300 266 Q343 239 392 245 Q435 247 465 284 L446 403 Q391 427 316 398 L287 323Z" fill="url(#robe)" stroke="#241a17" stroke-width="9" filter="url(#rough)"/>
+<path d="M320 273 L388 373 M421 269 L345 376" stroke="#6b4934" stroke-width="16" opacity=".82"/>
+<path d="M317 280 L392 385 M427 278 L344 385" stroke="#2f211b" stroke-width="6" opacity=".8"/>
+<path d="M291 334 Q367 359 456 326" fill="none" stroke="#1f1815" stroke-width="8" opacity=".7"/>
+
+<!-- belt -->
+<path d="M298 390 Q371 412 448 390 L445 420 Q372 440 299 418Z" fill="#241a15" stroke="#130e0c" stroke-width="6"/>
+<rect x="356" y="399" width="40" height="30" rx="7" fill="#8b6a43" stroke="#3c2c1d" stroke-width="6"/>
+<path d="M304 407 Q283 435 274 479" fill="none" stroke="#8f3028" stroke-width="15"/>
+<path d="M306 409 Q281 443 280 486" fill="none" stroke="#b64737" stroke-width="5"/>
+
+<!-- arms -->
+<path d="M302 294 Q261 305 231 351 Q215 377 228 405 Q247 419 264 400 L319 342Z" fill="url(#robe)" stroke="#241a17" stroke-width="8"/>
+<path d="M449 294 Q490 298 526 337 Q544 357 536 381 Q518 398 498 378 L432 338Z" fill="url(#robe)" stroke="#241a17" stroke-width="8"/>
+<!-- forearms/hands -->
+<path d="M231 353 Q210 376 211 402 Q216 422 236 421 Q252 411 259 389Z" fill="url(#skin)" stroke="#5e3d30" stroke-width="6"/>
+<path d="M515 340 Q538 354 551 375 Q558 394 541 408 Q523 412 510 394 L493 365Z" fill="url(#skin)" stroke="#5e3d30" stroke-width="6"/>
+
+<!-- neck -->
+<path d="M345 231 L409 233 L414 268 Q380 287 342 266Z" fill="url(#skin)" stroke="#603f31" stroke-width="6"/>
+
+<!-- head -->
+<path d="M326 152 Q350 118 392 118 Q434 123 455 160 L446 221 Q423 253 383 258 Q343 252 319 218Z" fill="url(#skin)" stroke="#50342a" stroke-width="7" filter="url(#rough)"/>
+<!-- hair mass -->
+<path d="M316 166 Q318 117 365 95 Q416 83 456 119 Q470 136 469 168 Q443 153 420 149 Q390 142 367 152 Q341 166 316 166Z" fill="#171414" stroke="#0d0b0b" stroke-width="8"/>
+<path d="M432 118 Q474 108 486 136 Q465 145 449 151Z" fill="#151212"/>
+<path d="M365 101 Q372 73 393 64 Q411 80 412 104Z" fill="#141111"/>
+<ellipse cx="393" cy="68" rx="18" ry="13" fill="#171313"/>
+<!-- headband -->
+<path d="M319 162 Q384 143 463 160 L462 176 Q387 160 320 179Z" fill="#191515" stroke="#0b0909" stroke-width="4"/>
+<path d="M456 168 L492 182 L463 191Z" fill="#8d2d27"/>
+<!-- facial hair / eyes -->
+<path d="M346 196 Q360 188 375 193" fill="none" stroke="#2b1b18" stroke-width="5"/>
+<path d="M407 191 Q421 186 435 193" fill="none" stroke="#2b1b18" stroke-width="5"/>
+<circle cx="365" cy="196" r="4" fill="#15100f"/><circle cx="421" cy="195" r="4" fill="#15100f"/>
+<path d="M376 226 Q393 235 411 225" fill="none" stroke="#543127" stroke-width="5"/>
+<path d="M352 218 Q384 249 425 215 Q414 250 386 255 Q360 250 352 218Z" fill="#2a1d19" opacity=".8"/>
+
+<!-- shoulder leather -->
+<path d="M292 281 Q311 251 345 249 L339 312 Q310 310 284 329Z" fill="url(#leather)" stroke="#2c1f18" stroke-width="7"/>
+<path d="M420 252 Q453 256 470 285 L461 326 Q438 310 414 308Z" fill="url(#leather)" stroke="#2c1f18" stroke-width="7"/>
+
+<!-- curved dao sword held across front -->
+<g transform="translate(485 374) rotate(-18)">
+  <path d="M0 0 L32 -6 L173 -24 Q215 -28 251 -14 Q207 3 173 7 L35 12Z" fill="url(#metal)" stroke="#30383b" stroke-width="6"/>
+  <path d="M36 4 L170 -13 Q206 -17 231 -12" fill="none" stroke="#eef2f1" stroke-width="4" opacity=".65"/>
+  <rect x="-48" y="-5" width="62" height="18" rx="7" fill="#3c281c" stroke="#1d1410" stroke-width="5"/>
+  <rect x="-58" y="-11" width="14" height="30" rx="4" fill="#8b6c43" stroke="#3a2b1c" stroke-width="4"/>
+  <path d="M-64 2 L-94 10" stroke="#241712" stroke-width="12" stroke-linecap="round"/>
+</g>
+
+<!-- hand gripping -->
+<ellipse cx="515" cy="380" rx="18" ry="16" fill="url(#skin)" stroke="#5e3d30" stroke-width="5"/>
+
+<!-- fabric tatters -->
+<path d="M301 414 L280 445 L298 446 L286 470 L307 462" fill="#3a2821"/>
+<path d="M442 413 L466 442 L447 443 L458 465 L438 458" fill="#33231e"/>
+</svg>
