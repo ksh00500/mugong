@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256" viewBox="0 0 512 256">
+  <defs>
+    <filter id="p"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="11" result="n"/><feColorMatrix in="n" values=".8 0 0 0 .1 0 .7 0 0 .08 0 0 .6 0 .05 0 0 0 .12 0"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
+    <filter id="s"><feGaussianBlur stdDeviation="4"/></filter>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#efe3c8"/><stop offset="1" stop-color="#dfcfab"/></linearGradient>
+  </defs>
+  <rect x="10" y="12" width="492" height="238" rx="12" fill="#000" opacity=".35" filter="url(#s)"/>
+  <path d="M14 8 H498 L507 18 V238 L494 250 H18 L6 238 V18Z" fill="url(#g)" stroke="#6e5332" stroke-width="5" filter="url(#p)"/>
+  <path d="M24 18 H488 M24 238 H488" stroke="#b58f50" stroke-width="1.8" opacity=".9"/>
+  <path d="M14 15 h34 l-14 10 14 10 H14 M498 15 h-34 l14 10 -14 10 h34 M14 241 h34 l-14 -10 14 -10 H14 M498 241 h-34 l14 -10 -14 -10 h34" fill="none" stroke="#b58f50" stroke-width="2.5"/>
+</svg>

@@ -17,8 +17,14 @@ class MainScene extends Phaser.Scene{
   private basicText!:Phaser.GameObjects.Text;
   private cooldown=0;
 
+  preload(){
+    this.load.svg('room','/assets/rooms/cheongha/room01.svg');
+    this.load.svg('ui-panel','/assets/ui/panel.svg');
+    this.load.svg('ui-boss','/assets/ui/boss-panel.svg');
+  }
+
   create(){
-    this.drawRoom();
+    this.add.image(W/2,H/2,'room').setDisplaySize(W,H).setDepth(0);
     this.player=this.fighter(960,560,true,1);
     [[720,350],[1160,330],[690,610],[1190,630],[980,300]].forEach(([x,y])=>{
       const e=this.fighter(x,y,false,1.08);
@@ -47,7 +53,7 @@ class MainScene extends Phaser.Scene{
     if(this.keys.D.isDown)v.x++;
     if(v.lengthSq()>0){
       v.normalize(); this.facing=v.clone();
-      const sp=240*dt/1000;
+      const sp=225*dt/1000;
       this.player.x=Phaser.Math.Clamp(this.player.x+v.x*sp,340,1580);
       this.player.y=Phaser.Math.Clamp(this.player.y+v.y*sp,210,820);
     }
@@ -84,15 +90,15 @@ class MainScene extends Phaser.Scene{
     const sword=this.add.graphics();
     sword.lineStyle(5,0xdfe5e4,1).lineBetween(18,0,76,-18);
     sword.lineStyle(7,0x3e2c1e,1).lineBetween(10,3,25,-2);
-    c.add([sh,robe,head,hair,sword]); c.setScale(scale); return c;
+    const belt=this.add.rectangle(0,8,42,5,player?0x9f7f55:0x6c4939,1);
+    const sleeveL=this.add.ellipse(-24,-4,16,42,player?0xded7c7:0x44332b,1).setRotation(-0.5);
+    const sleeveR=this.add.ellipse(24,-3,16,42,player?0xded7c7:0x44332b,1).setRotation(0.45);
+    c.add([sh,robe,sleeveL,sleeveR,belt,head,hair,sword]); c.setScale(scale); return c;
   }
 
-  private panel(x:number,y:number,w:number,h:number,alpha=.95){
-    const g=this.add.graphics().setDepth(200);
-    g.fillStyle(C.parchment,alpha).fillRoundedRect(x,y,w,h,12);
-    g.lineStyle(5,0x2b2118,1).strokeRoundedRect(x,y,w,h,12);
-    g.lineStyle(2,C.gold,.85).strokeRoundedRect(x+8,y+8,w-16,h-16,9);
-    return g;
+  private panel(x:number,y:number,w:number,h:number,_alpha=.95){
+    const key=(w>=680&&h<=110)?'ui-boss':'ui-panel';
+    return this.add.image(x+w/2,y+h/2,key).setDisplaySize(w,h).setDepth(200);
   }
 
   private drawHud(){
