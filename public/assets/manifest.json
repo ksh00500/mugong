@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "rules": {
+    "baked_room_plate": false,
+    "runtime_assets_only_in_public": true,
+    "approved_only_in_production": true
+  },
+  "assets": [
+    {
+      "id": "player_idle_v001",
+      "type": "character",
+      "path": "/assets/characters/player/player_idle_v001.webp",
+      "status": "temporary-runtime",
+      "note": "현재 검객 idle. 추후 원본 고해상도 교체 예정."
+    },
+    {
+      "id": "cheongha_ground_dirt_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_path_decal_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_bamboo_cluster_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_bamboo_cluster_02",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_rock_large_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_rock_small_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_fence_segment_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_fence_corner_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_hut_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_brazier_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_barrel_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_banner_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_foreground_bamboo_01",
+      "type": "environment",
+      "status": "todo"
+    },
+    {
+      "id": "cheongha_shadow_decal_01",
+      "type": "environment",
+      "status": "todo"
+    }
+  ]
+}

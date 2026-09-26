@@ -18,14 +18,11 @@ class MainScene extends Phaser.Scene{
   private cooldown=0;
 
   preload(){
-    this.load.svg('room','/assets/rooms/cheongha/room01.svg');
-    this.load.image('player-idle','/assets/player/player_idle.webp');
-    this.load.svg('ui-panel','/assets/ui/panel.svg');
-    this.load.svg('ui-boss','/assets/ui/boss-panel.svg');
+    this.load.image('player-idle','/assets/characters/player/player_idle_v001.webp');
   }
 
   create(){
-    this.add.image(W/2,H/2,'room').setDisplaySize(W,H).setDepth(0);
+    this.drawAssetStagingGround();
     this.player=this.fighter(960,565,true,1);
     this.keys=this.input.keyboard!.addKeys('W,A,S,D,Q,E') as Record<string,Phaser.Input.Keyboard.Key>;
     this.keys.Q.on('down',()=>this.switchMartial(-1));
@@ -50,6 +47,13 @@ class MainScene extends Phaser.Scene{
       this.player.x=Phaser.Math.Clamp(this.player.x+v.x*sp,340,1580);
       this.player.y=Phaser.Math.Clamp(this.player.y+v.y*sp,210,820);
     }
+  }
+
+  private drawAssetStagingGround(){
+    const g=this.add.graphics().setDepth(0);
+    g.fillStyle(0x9c825f,1).fillRect(0,0,W,H);
+    g.fillStyle(0xb79a6e,.52).fillEllipse(W/2,H/2,1420,760);
+    g.lineStyle(2,0x6f5b42,.22).strokeEllipse(W/2,H/2,1420,760);
   }
 
   private drawRoom(){
