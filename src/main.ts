@@ -18,7 +18,8 @@ class MainScene extends Phaser.Scene{
   private cooldown=0;
 
   preload(){
-    this.load.svg('room','/assets/rooms/cheongha/room01.svg');
+    this.load.image('room','/assets/rooms/cheongha/room01.webp');
+    this.load.image('player-idle','/assets/player/player_idle.webp');
     this.load.svg('ui-panel','/assets/ui/panel.svg');
     this.load.svg('ui-boss','/assets/ui/boss-panel.svg');
   }
@@ -81,19 +82,31 @@ class MainScene extends Phaser.Scene{
 
   private fighter(x:number,y:number,player:boolean,scale:number){
     const c=this.add.container(x,y).setDepth(50);
-    const sh=this.add.ellipse(0,25,66,22,0x000000,.22);
+    const sh=this.add.ellipse(0,28,82,26,0x000000,.24);
+
+    if(player){
+      const body=this.add.image(0,4,'player-idle')
+        .setOrigin(.5,.80)
+        .setDisplaySize(205,205);
+      c.add([sh,body]);
+      c.setScale(scale);
+      return c;
+    }
+
     const robe=this.add.graphics();
-    robe.fillStyle(player?0xeee9db:0x4a382f,1).fillTriangle(-30,24,30,24,0,-24);
-    robe.fillStyle(player?0x27313a:0x251d19,1).fillRect(-15,-22,30,34);
-    const head=this.add.circle(0,-37,16,player?0xe2b99a:0xb88768,1);
+    robe.fillStyle(0x4a382f,1).fillTriangle(-30,24,30,24,0,-24);
+    robe.fillStyle(0x251d19,1).fillRect(-15,-22,30,34);
+    const head=this.add.circle(0,-37,16,0xb88768,1);
     const hair=this.add.circle(0,-47,18,0x151313,1);
     const sword=this.add.graphics();
     sword.lineStyle(5,0xdfe5e4,1).lineBetween(18,0,76,-18);
     sword.lineStyle(7,0x3e2c1e,1).lineBetween(10,3,25,-2);
-    const belt=this.add.rectangle(0,8,42,5,player?0x9f7f55:0x6c4939,1);
-    const sleeveL=this.add.ellipse(-24,-4,16,42,player?0xded7c7:0x44332b,1).setRotation(-0.5);
-    const sleeveR=this.add.ellipse(24,-3,16,42,player?0xded7c7:0x44332b,1).setRotation(0.45);
-    c.add([sh,robe,sleeveL,sleeveR,belt,head,hair,sword]); c.setScale(scale); return c;
+    const belt=this.add.rectangle(0,8,42,5,0x6c4939,1);
+    const sleeveL=this.add.ellipse(-24,-4,16,42,0x44332b,1).setRotation(-0.5);
+    const sleeveR=this.add.ellipse(24,-3,16,42,0x44332b,1).setRotation(0.45);
+    c.add([sh,robe,sleeveL,sleeveR,belt,head,hair,sword]);
+    c.setScale(scale);
+    return c;
   }
 
   private panel(x:number,y:number,w:number,h:number,_alpha=.95){
