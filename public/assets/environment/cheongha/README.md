@@ -7,7 +7,7 @@
 | cheongha_ground_dirt_01 | 전투 영역 기본 흙바닥 | TODO |
 | cheongha_path_decal_01 | 길/마모 흔적 | TODO |
 | cheongha_bamboo_cluster_01 | 대나무 군락 A | DRAFT v001 |
-| cheongha_bamboo_cluster_02 | 대나무 군락 B | TODO |
+| cheongha_bamboo_cluster_02 | 대나무 군락 B | DRAFT v001 |
 | cheongha_rock_large_01 | 큰 바위 | TODO |
 | cheongha_rock_small_01 | 작은 바위 | TODO |
 | cheongha_fence_segment_01 | 목책 직선 | TODO |
