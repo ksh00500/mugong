@@ -3,7 +3,12 @@
   "rules": {
     "baked_room_plate": false,
     "runtime_assets_only_in_public": true,
-    "approved_only_in_production": true
+    "approved_only_in_production": true,
+    "no_common_mana_mp": true,
+    "martial_art_resource_only_when_defined": true,
+    "no_runtime_asset_sheets": true,
+    "map_assets_separate_files": true,
+    "ui_after_gameplay_scale_lock": true
   },
   "assets": [
     {
