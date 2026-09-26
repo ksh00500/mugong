@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768">
+<defs>
+  <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a5a59a"/>
+    <stop offset=".28" stop-color="#85877f"/>
+    <stop offset=".62" stop-color="#666a64"/>
+    <stop offset="1" stop-color="#454a47"/>
+  </linearGradient>
+  <linearGradient id="stoneLight" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#c3c0ae"/>
+    <stop offset=".48" stop-color="#94968d"/>
+    <stop offset="1" stop-color="#626761"/>
+  </linearGradient>
+  <linearGradient id="moss" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7d8650"/>
+    <stop offset=".55" stop-color="#58653d"/>
+    <stop offset="1" stop-color="#39472d"/>
+  </linearGradient>
+  <radialGradient id="grass" cx=".5" cy=".25" r=".9">
+    <stop offset="0" stop-color="#6f7849"/>
+    <stop offset=".65" stop-color="#455036"/>
+    <stop offset="1" stop-color="#2d3828"/>
+  </radialGradient>
+  <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="4" seed="41" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="rockClip">
+    <path d="M189 495 C184 420 220 331 278 268 C337 204 432 198 500 244 C570 292 603 376 581 461 C565 525 503 573 430 591 C348 612 260 594 211 547 C196 533 190 516 189 495Z"/>
+  </clipPath>
+</defs>
+
+<!-- grounding shadow -->
+<ellipse cx="383" cy="584" rx="205" ry="54" fill="#000" opacity=".22" filter="url(#soft)"/>
+<ellipse cx="383" cy="574" rx="165" ry="30" fill="#1c211d" opacity=".16"/>
+
+<!-- grass bed -->
+<path d="M153 566 C179 527 213 523 242 549 C259 508 300 499 330 541 C359 505 407 503 434 543 C462 507 506 509 531 547 C564 525 598 540 615 574 C573 618 207 622 153 566Z" fill="url(#grass)" opacity=".96" filter="url(#rough)"/>
+
+<!-- main boulder -->
+<path d="M189 495 C184 420 220 331 278 268 C337 204 432 198 500 244 C570 292 603 376 581 461 C565 525 503 573 430 591 C348 612 260 594 211 547 C196 533 190 516 189 495Z" fill="url(#stone)" stroke="#3e4542" stroke-width="8" filter="url(#rough)"/>
+
+<!-- rock planes -->
+<path d="M287 275 C337 224 411 211 469 240 C434 278 402 320 377 368 C335 347 300 316 287 275Z" fill="url(#stoneLight)" opacity=".92"/>
+<path d="M377 368 C402 320 434 278 469 240 C533 276 570 331 578 389 C529 377 480 382 437 402 C417 390 397 378 377 368Z" fill="#777b74" opacity=".9"/>
+<path d="M210 450 C223 382 248 327 287 275 C300 316 335 347 377 368 C343 407 315 451 295 502 C258 492 231 476 210 450Z" fill="#85887f" opacity=".82"/>
+<path d="M295 502 C315 451 343 407 377 368 C397 378 417 390 437 402 C416 449 401 495 393 548 C351 548 318 531 295 502Z" fill="#686d68" opacity=".9"/>
+<path d="M437 402 C480 382 529 377 578 389 C580 425 571 461 551 492 C516 470 481 458 443 456 C438 436 436 418 437 402Z" fill="#5a605c" opacity=".88"/>
+<path d="M393 548 C401 495 416 449 437 402 C436 418 438 436 443 456 C479 458 516 470 551 492 C524 535 480 561 430 574 C416 565 404 557 393 548Z" fill="#525854" opacity=".92"/>
+
+<!-- cracks -->
+<g fill="none" stroke="#3b403d" stroke-width="5" stroke-linecap="round" opacity=".65">
+  <path d="M332 300 Q351 329 350 358 Q355 374 371 389"/>
+  <path d="M470 294 Q449 327 455 361 Q450 377 436 395"/>
+  <path d="M271 420 Q295 414 311 426 Q326 437 342 432"/>
+  <path d="M486 433 Q510 423 531 430 Q545 435 556 452"/>
+  <path d="M353 482 Q369 469 388 475 Q407 482 417 500"/>
+</g>
+
+<!-- moss patches -->
+<g clip-path="url(#rockClip)" opacity=".82">
+  <path d="M218 365 C254 329 294 322 327 343 C309 367 292 395 277 424 C248 413 229 393 218 365Z" fill="url(#moss)"/>
+  <path d="M432 240 C459 237 487 246 506 263 C490 279 478 296 466 315 C448 300 434 276 432 240Z" fill="#687844"/>
+  <path d="M506 466 C536 469 558 483 565 506 C544 522 520 532 493 537 C498 510 502 486 506 466Z" fill="#56653b"/>
+</g>
+
+<!-- lichen speckles -->
+<g fill="#c7c5ad" opacity=".56">
+  <circle cx="302" cy="323" r="8"/><circle cx="322" cy="344" r="5"/><circle cx="280" cy="351" r="4"/>
+  <circle cx="453" cy="275" r="7"/><circle cx="478" cy="300" r="4"/><circle cx="492" cy="326" r="5"/>
+  <circle cx="247" cy="459" r="5"/><circle cx="266" cy="474" r="3"/><circle cx="511" cy="430" r="6"/>
+  <circle cx="532" cy="448" r="4"/><circle cx="375" cy="535" r="5"/>
+</g>
+
+<!-- grass blades around foot -->
+<g fill="none" stroke-linecap="round" stroke-width="7">
+  <path d="M188 586 Q179 546 194 520 M205 592 Q226 549 221 517 M238 597 Q248 553 267 525" stroke="#6e7a4d"/>
+  <path d="M521 592 Q527 552 548 525 M548 591 Q566 553 576 529 M578 584 Q595 552 607 539" stroke="#596a42"/>
+  <path d="M300 601 Q300 565 316 540 M462 599 Q467 562 484 539" stroke="#74804f"/>
+</g>
+</svg>
