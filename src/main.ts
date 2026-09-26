@@ -18,7 +18,7 @@ class MainScene extends Phaser.Scene{
   private cooldown=0;
 
   preload(){
-    this.load.image('room','/assets/rooms/cheongha/room01.webp');
+    this.load.svg('room','/assets/rooms/cheongha/room01.svg');
     this.load.image('player-idle','/assets/player/player_idle.webp');
     this.load.svg('ui-panel','/assets/ui/panel.svg');
     this.load.svg('ui-boss','/assets/ui/boss-panel.svg');
@@ -26,22 +26,14 @@ class MainScene extends Phaser.Scene{
 
   create(){
     this.add.image(W/2,H/2,'room').setDisplaySize(W,H).setDepth(0);
-    this.player=this.fighter(960,560,true,1);
-    [[720,350],[1160,330],[690,610],[1190,630],[980,300]].forEach(([x,y])=>{
-      const e=this.fighter(x,y,false,1.08);
-      this.enemies.push(e);
-      const hp=this.add.graphics().setDepth(55);
-      hp.fillStyle(0x1b1511,1).fillRect(x-34,y-58,68,8);
-      hp.fillStyle(C.red,1).fillRect(x-32,y-56,64,4);
-    });
-    this.drawHud();
+    this.player=this.fighter(960,565,true,1);
     this.keys=this.input.keyboard!.addKeys('W,A,S,D,Q,E') as Record<string,Phaser.Input.Keyboard.Key>;
     this.keys.Q.on('down',()=>this.switchMartial(-1));
     this.keys.E.on('down',()=>this.switchMartial(1));
     this.input.on('pointerdown',(p:Phaser.Input.Pointer)=>{
       const d=new Phaser.Math.Vector2(p.worldX-this.player.x,p.worldY-this.player.y);
       if(d.lengthSq()>1)this.facing=d.normalize();
-      this.attack();
+      // Attack VFX is intentionally disabled until the real sword-slash asset exists.
     });
   }
 
@@ -87,7 +79,7 @@ class MainScene extends Phaser.Scene{
     if(player){
       const body=this.add.image(0,4,'player-idle')
         .setOrigin(.5,.80)
-        .setDisplaySize(205,205);
+        .setDisplaySize(185,196);
       c.add([sh,body]);
       c.setScale(scale);
       return c;
