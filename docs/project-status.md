@@ -1,6 +1,6 @@
 # 현재 구현과 남은 제작
 
-2026-10-18 최신 저장소 결정: LFS 예산 초과로 전체 업로드가 거부되어 사용자가 소스 GitHub / 에셋 개인 서버 별도 보관을 선택했다. 현재 작업 브랜치는 `codex/source-assets-split`이며 코드·프롬프트·메타데이터와 미디어2,414개 SHA 목록을 추적한다. 실행용/제작용 압축본은 로컬에 준비했다. [분리 구조와 검증](verification/source-assets-split-20261018/README.md). 개인 서버 전송·공개 배포는 아직이다.
+2026-10-18 최신 저장소 결정: LFS 예산 초과로 전체 업로드가 거부되어 사용자가 소스 GitHub / 에셋 개인 서버 별도 보관을 선택했다. `codex/source-assets-split`에 코드·프롬프트·메타데이터와 미디어2,414개 SHA 목록을 업로드하고 [draft PR #2](https://github.com/ksh00500/mugong/pull/2)를 만들었다. 실행용/제작용 압축본은 로컬에 준비했다. 복원한 별도 폴더의 단위1,295개·실제 Docker/Nginx5검사는 통과했으며 GitHub Actions는 계정 결제 문제로 작업을 시작하지 못했다. [분리 구조와 검증](verification/source-assets-split-20261018/README.md). main 병합·개인 서버 전송·공개 배포는 아직이다.
 
 2026-10-18 GitHub 정리 재개: 현재본 소스·런타임/제작 자산·문서와 Linux/Docker 구성을 작업 브랜치에 정리했다. Node 타입 의존성 누락과 Nginx 캐시 경로 우선순위를 수정했다. 단위1,295개·실제 Docker 빌드·Nginx 브라우저/HTTP5개 통과. [최신 검증](verification/github-self-hosting-20261018/README.md). 개인 서버 공개 배포와 미완성 원화 제작은 이번에 진행하지 않는다.
 

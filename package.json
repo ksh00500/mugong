@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "npm run check:assets && tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
     "check:assets": "node scripts/check-runtime-assets.mjs",
     "assets:catalog": "node scripts/asset-bundles.mjs catalog",

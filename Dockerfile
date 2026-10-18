@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 COPY . .
-RUN npm run check:assets && npm run build
+RUN npm run build
 
 FROM ${NGINX_IMAGE} AS runtime
 COPY deploy/docker/nginx.conf /etc/nginx/nginx.conf
