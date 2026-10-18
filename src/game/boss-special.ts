@@ -10,6 +10,7 @@ import tianjian from './tianjian-special-frames.json' with { type: 'json' };
 import dokmu from './dokmu-special-frames.json' with { type: 'json' };
 import qingha from './qingha-special-frames.json' with { type: 'json' };
 import three from './three-special-frames.json' with { type: 'json' };
+import threeComplete from './three-complete-frames.json' with { type: 'json' };
 
 import snow from './snow-special-frames.json' with { type: 'json' };
 import snowComplete from './snow-special-complete-frames.json' with { type: 'json' };
@@ -27,6 +28,7 @@ export const DOKMU_SPECIAL_ART = dokmu;
 export const QINGHA_SPECIAL_ART = qingha;
 export const BOSS_REMAINING_ART = remaining;
 export const THREE_SPECIAL_ART = three;
+export const THREE_COMPLETE_ART = threeComplete;
 const remainingRegistry = new Map(remaining.characters.map((art) => [art.bossId, art]));
 const originals = [
   ...special.characters,
@@ -39,6 +41,7 @@ const originals = [
 ];
 const snowRegistry = new Map(snowComplete.characters.map((art) => [art.bossId, art]));
 const tombBambooRegistry = new Map(tombBambooComplete.characters.map((art) => [art.bossId, art]));
+const threeCompleteRegistry = new Map(threeComplete.characters.map((art) => [art.bossId, art]));
 const characters = [
   ...originals,
   ...snowComplete.characters.filter((a) => !originals.some((b) => b.bossId === a.bossId)),
@@ -46,7 +49,8 @@ const characters = [
   const extra =
     remainingRegistry.get(art.bossId) ??
     (originals.some((a) => a.bossId === art.bossId) ? snowRegistry.get(art.bossId) : undefined) ??
-    tombBambooRegistry.get(art.bossId);
+    tombBambooRegistry.get(art.bossId) ??
+    threeCompleteRegistry.get(art.bossId);
   return {
     ...art,
     moves: [...art.moves, ...(extra?.moves ?? [])],

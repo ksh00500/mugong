@@ -29,7 +29,7 @@ describe('whole Zhuge authored family', () => {
   });
   it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(9);
-    expect(Object.keys(manifest)).toHaveLength(56);
+    expect(Object.keys(manifest)).toHaveLength(60);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/zhuge-family-v1/')),
     ).toHaveLength(35);

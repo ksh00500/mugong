@@ -33,7 +33,7 @@ describe('whole Hyeolma authored family', () => {
   });
   it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(8);
-    expect(Object.keys(manifest)).toHaveLength(56);
+    expect(Object.keys(manifest)).toHaveLength(60);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/hyeolma-family-v1/')),
     ).toHaveLength(35);

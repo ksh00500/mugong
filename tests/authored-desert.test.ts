@@ -31,7 +31,7 @@ describe('whole Desert authored family', () => {
   });
   it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(7);
-    expect(Object.keys(manifest)).toHaveLength(57);
+    expect(Object.keys(manifest)).toHaveLength(61);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/desert-family-v1/')),
     ).toHaveLength(35);

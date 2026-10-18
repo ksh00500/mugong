@@ -4,6 +4,7 @@ import tombBamboo from '../game/tomb-bamboo-special-frames.json' with { type: 'j
 import tombBambooComplete from '../game/tomb-bamboo-complete-frames.json' with { type: 'json' };
 import remaining from '../game/boss-remaining-frames.json' with { type: 'json' };
 import three from '../game/three-special-frames.json' with { type: 'json' };
+import threeComplete from '../game/three-complete-frames.json' with { type: 'json' };
 import { REGIONS, regionName, bossById } from '../domain/campaign';
 import type { Enemy, Run } from '../domain/model';
 import staff from '../game/shaolin-staff-frames.json' with { type: 'json' };
@@ -31,6 +32,14 @@ export function regionArtManifest(index: number): Record<string, string> {
     ? {}
     : {
         [`region-floor-${index}`]: `/art/regions-v1/${index}-floor.webp`,
+        ...Object.fromEntries(
+          threeComplete.characters
+            .filter((a) => Number(a.bossId.split('-')[0]) === index)
+            .map((a) => {
+              const key = `three-complete-${a.id}` as keyof typeof threeComplete.textures;
+              return [key, threeComplete.textures[key]];
+            }),
+        ),
         ...Object.fromEntries(
           tombBambooComplete.characters
             .filter((a) => Number(a.bossId.split('-')[0]) === index)
