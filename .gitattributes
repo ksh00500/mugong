@@ -7,3 +7,5 @@
 # Provenance manifests may hash prompt/source bytes; preserve their original endings.
 docs/source/** -text
 assets/** -text
+# Exact image-generation inputs include intentional end-of-line spaces.
+docs/source/tomb-bamboo-special-v2/generated/*.used-prompt.txt whitespace=-blank-at-eol

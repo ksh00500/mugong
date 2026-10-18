@@ -27,9 +27,9 @@ describe('whole Tomb authored family', () => {
     );
     for (const e of cases) expect(authoredEnemyArt(e, 5)?.id).not.toBe(authoredEnemyArt(e, 6)?.id);
   });
-  it('loads only its 35 native character sheets and floor for the region', () => {
+  it('loads its 35 basic sheets, 20 special sheets and floor', () => {
     const manifest = regionArtManifest(6);
-    expect(Object.keys(manifest)).toHaveLength(36);
+    expect(Object.keys(manifest)).toHaveLength(56);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/tomb-family-v1/')),
     ).toHaveLength(35);

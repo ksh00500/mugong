@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "jeokho-front",
+    "character": "jeokho",
+    "family": "tomb",
+    "bossId": "6-1",
+    "view": 0,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "slam",
+        "name": "적화 곡괭이 내려찍기",
+        "windup": 1,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "stance",
+        "name": "적화 가열 발판 작동",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/jeokho-front-layout.png",
+    "prompt": "generated/jeokho-front.prompt.txt",
+    "source": "generated/jeokho-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "jeokho-front-right",
+    "character": "jeokho",
+    "family": "tomb",
+    "bossId": "6-1",
+    "view": 1,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "slam",
+        "name": "적화 곡괭이 내려찍기",
+        "windup": 1,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "stance",
+        "name": "적화 가열 발판 작동",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/jeokho-front-right-layout.png",
+    "prompt": "generated/jeokho-front-right.prompt.txt",
+    "source": "generated/jeokho-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "jeokho-right",
+    "character": "jeokho",
+    "family": "tomb",
+    "bossId": "6-1",
+    "view": 2,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "slam",
+        "name": "적화 곡괭이 내려찍기",
+        "windup": 1,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "stance",
+        "name": "적화 가열 발판 작동",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/jeokho-right-layout.png",
+    "prompt": "generated/jeokho-right.prompt.txt",
+    "source": "generated/jeokho-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "jeokho-rear-right",
+    "character": "jeokho",
+    "family": "tomb",
+    "bossId": "6-1",
+    "view": 3,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "slam",
+        "name": "적화 곡괭이 내려찍기",
+        "windup": 1,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "stance",
+        "name": "적화 가열 발판 작동",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/jeokho-rear-right-layout.png",
+    "prompt": "generated/jeokho-rear-right.prompt.txt",
+    "source": "generated/jeokho-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "jeokho-back",
+    "character": "jeokho",
+    "family": "tomb",
+    "bossId": "6-1",
+    "view": 4,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "slam",
+        "name": "적화 곡괭이 내려찍기",
+        "windup": 1,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-1",
+        "character": "jeokho",
+        "move": "stance",
+        "name": "적화 가열 발판 작동",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 0.95,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/jeokho-back-layout.png",
+    "prompt": "generated/jeokho-back.prompt.txt",
+    "source": "generated/jeokho-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "seokmun-front",
+    "character": "seokmun",
+    "family": "tomb",
+    "bossId": "6-2",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "dash",
+        "name": "석갑 방패 밀치기",
+        "windup": 0.8,
+        "duration": 0.38,
+        "recovery": 0.85,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "stance",
+        "name": "석갑 방패 수세",
+        "windup": 0.65,
+        "duration": 0.32,
+        "recovery": 0.55,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": true
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/seokmun-front-layout.png",
+    "prompt": "generated/seokmun-front.prompt.txt",
+    "source": "generated/seokmun-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "seokmun-front-right",
+    "character": "seokmun",
+    "family": "tomb",
+    "bossId": "6-2",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "dash",
+        "name": "석갑 방패 밀치기",
+        "windup": 0.8,
+        "duration": 0.38,
+        "recovery": 0.85,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "stance",
+        "name": "석갑 방패 수세",
+        "windup": 0.65,
+        "duration": 0.32,
+        "recovery": 0.55,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": true
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/seokmun-front-right-layout.png",
+    "prompt": "generated/seokmun-front-right.prompt.txt",
+    "source": "generated/seokmun-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "seokmun-right",
+    "character": "seokmun",
+    "family": "tomb",
+    "bossId": "6-2",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "dash",
+        "name": "석갑 방패 밀치기",
+        "windup": 0.8,
+        "duration": 0.38,
+        "recovery": 0.85,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "stance",
+        "name": "석갑 방패 수세",
+        "windup": 0.65,
+        "duration": 0.32,
+        "recovery": 0.55,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": true
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/seokmun-right-layout.png",
+    "prompt": "generated/seokmun-right.prompt.txt",
+    "source": "generated/seokmun-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "seokmun-rear-right",
+    "character": "seokmun",
+    "family": "tomb",
+    "bossId": "6-2",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "dash",
+        "name": "석갑 방패 밀치기",
+        "windup": 0.8,
+        "duration": 0.38,
+        "recovery": 0.85,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "stance",
+        "name": "석갑 방패 수세",
+        "windup": 0.65,
+        "duration": 0.32,
+        "recovery": 0.55,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": true
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/seokmun-rear-right-layout.png",
+    "prompt": "generated/seokmun-rear-right.prompt.txt",
+    "source": "generated/seokmun-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "seokmun-back",
+    "character": "seokmun",
+    "family": "tomb",
+    "bossId": "6-2",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "dash",
+        "name": "석갑 방패 밀치기",
+        "windup": 0.8,
+        "duration": 0.38,
+        "recovery": 0.85,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-2",
+        "character": "seokmun",
+        "move": "stance",
+        "name": "석갑 방패 수세",
+        "windup": 0.65,
+        "duration": 0.32,
+        "recovery": 0.55,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": true
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/seokmun-back-layout.png",
+    "prompt": "generated/seokmun-back.prompt.txt",
+    "source": "generated/seokmun-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "gwakgi-front",
+    "character": "gwakgi",
+    "family": "tomb",
+    "bossId": "6-3",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "fan",
+        "name": "기관 단일 톱날 발사",
+        "windup": 0.9,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "stance",
+        "name": "기관 수리와 회전날 전개",
+        "windup": 1.1,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/gwakgi-front-layout.png",
+    "prompt": "generated/gwakgi-front.prompt.txt",
+    "source": "generated/gwakgi-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "gwakgi-front-right",
+    "character": "gwakgi",
+    "family": "tomb",
+    "bossId": "6-3",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "fan",
+        "name": "기관 단일 톱날 발사",
+        "windup": 0.9,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "stance",
+        "name": "기관 수리와 회전날 전개",
+        "windup": 1.1,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/gwakgi-front-right-layout.png",
+    "prompt": "generated/gwakgi-front-right.prompt.txt",
+    "source": "generated/gwakgi-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "gwakgi-right",
+    "character": "gwakgi",
+    "family": "tomb",
+    "bossId": "6-3",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "fan",
+        "name": "기관 단일 톱날 발사",
+        "windup": 0.9,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "stance",
+        "name": "기관 수리와 회전날 전개",
+        "windup": 1.1,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/gwakgi-right-layout.png",
+    "prompt": "generated/gwakgi-right.prompt.txt",
+    "source": "generated/gwakgi-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "gwakgi-rear-right",
+    "character": "gwakgi",
+    "family": "tomb",
+    "bossId": "6-3",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "fan",
+        "name": "기관 단일 톱날 발사",
+        "windup": 0.9,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "stance",
+        "name": "기관 수리와 회전날 전개",
+        "windup": 1.1,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/gwakgi-rear-right-layout.png",
+    "prompt": "generated/gwakgi-rear-right.prompt.txt",
+    "source": "generated/gwakgi-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "gwakgi-back",
+    "character": "gwakgi",
+    "family": "tomb",
+    "bossId": "6-3",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "fan",
+        "name": "기관 단일 톱날 발사",
+        "windup": 0.9,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-3",
+        "character": "gwakgi",
+        "move": "stance",
+        "name": "기관 수리와 회전날 전개",
+        "windup": 1.1,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/gwakgi-back-layout.png",
+    "prompt": "generated/gwakgi-back.prompt.txt",
+    "source": "generated/gwakgi-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "wolryeong-front",
+    "character": "wolryeong",
+    "family": "tomb",
+    "bossId": "6-4",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "dash",
+        "name": "월영 가짜 길 추격",
+        "windup": 0.8,
+        "duration": 0.4,
+        "recovery": 0.75,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "stance",
+        "name": "월영 가짜 상자와 석문",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/wolryeong-front-layout.png",
+    "prompt": "generated/wolryeong-front.prompt.txt",
+    "source": "generated/wolryeong-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "wolryeong-front-right",
+    "character": "wolryeong",
+    "family": "tomb",
+    "bossId": "6-4",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "dash",
+        "name": "월영 가짜 길 추격",
+        "windup": 0.8,
+        "duration": 0.4,
+        "recovery": 0.75,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "stance",
+        "name": "월영 가짜 상자와 석문",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/wolryeong-front-right-layout.png",
+    "prompt": "generated/wolryeong-front-right.prompt.txt",
+    "source": "generated/wolryeong-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "wolryeong-right",
+    "character": "wolryeong",
+    "family": "tomb",
+    "bossId": "6-4",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "dash",
+        "name": "월영 가짜 길 추격",
+        "windup": 0.8,
+        "duration": 0.4,
+        "recovery": 0.75,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "stance",
+        "name": "월영 가짜 상자와 석문",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/wolryeong-right-layout.png",
+    "prompt": "generated/wolryeong-right.prompt.txt",
+    "source": "generated/wolryeong-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "wolryeong-rear-right",
+    "character": "wolryeong",
+    "family": "tomb",
+    "bossId": "6-4",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "dash",
+        "name": "월영 가짜 길 추격",
+        "windup": 0.8,
+        "duration": 0.4,
+        "recovery": 0.75,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "stance",
+        "name": "월영 가짜 상자와 석문",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/wolryeong-rear-right-layout.png",
+    "prompt": "generated/wolryeong-rear-right.prompt.txt",
+    "source": "generated/wolryeong-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "wolryeong-back",
+    "character": "wolryeong",
+    "family": "tomb",
+    "bossId": "6-4",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "dash",
+        "name": "월영 가짜 길 추격",
+        "windup": 0.8,
+        "duration": 0.4,
+        "recovery": 0.75,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "6-4",
+        "character": "wolryeong",
+        "move": "stance",
+        "name": "월영 가짜 상자와 석문",
+        "windup": 1.15,
+        "duration": 0.5,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/wolryeong-back-layout.png",
+    "prompt": "generated/wolryeong-back.prompt.txt",
+    "source": "generated/wolryeong-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "qingbi-front",
+    "character": "qingbi",
+    "family": "bamboo",
+    "bossId": "5-1",
+    "view": 0,
+    "moves": [
+      "ring",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "ring",
+        "name": "청죽 귀환 단도",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "stance",
+        "name": "청죽 은신 연막",
+        "windup": 0.85,
+        "duration": 0.4,
+        "recovery": 0.7,
+        "contacts": [
+          0.18
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/qingbi-front-layout.png",
+    "prompt": "generated/qingbi-front.prompt.txt",
+    "source": "generated/qingbi-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "qingbi-front-right",
+    "character": "qingbi",
+    "family": "bamboo",
+    "bossId": "5-1",
+    "view": 1,
+    "moves": [
+      "ring",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "ring",
+        "name": "청죽 귀환 단도",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "stance",
+        "name": "청죽 은신 연막",
+        "windup": 0.85,
+        "duration": 0.4,
+        "recovery": 0.7,
+        "contacts": [
+          0.18
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/qingbi-front-right-layout.png",
+    "prompt": "generated/qingbi-front-right.prompt.txt",
+    "source": "generated/qingbi-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "qingbi-right",
+    "character": "qingbi",
+    "family": "bamboo",
+    "bossId": "5-1",
+    "view": 2,
+    "moves": [
+      "ring",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "ring",
+        "name": "청죽 귀환 단도",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "stance",
+        "name": "청죽 은신 연막",
+        "windup": 0.85,
+        "duration": 0.4,
+        "recovery": 0.7,
+        "contacts": [
+          0.18
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/qingbi-right-layout.png",
+    "prompt": "generated/qingbi-right.prompt.txt",
+    "source": "generated/qingbi-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "qingbi-rear-right",
+    "character": "qingbi",
+    "family": "bamboo",
+    "bossId": "5-1",
+    "view": 3,
+    "moves": [
+      "ring",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "ring",
+        "name": "청죽 귀환 단도",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "stance",
+        "name": "청죽 은신 연막",
+        "windup": 0.85,
+        "duration": 0.4,
+        "recovery": 0.7,
+        "contacts": [
+          0.18
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/qingbi-rear-right-layout.png",
+    "prompt": "generated/qingbi-rear-right.prompt.txt",
+    "source": "generated/qingbi-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "qingbi-back",
+    "character": "qingbi",
+    "family": "bamboo",
+    "bossId": "5-1",
+    "view": 4,
+    "moves": [
+      "ring",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "ring",
+        "name": "청죽 귀환 단도",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.9,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-1",
+        "character": "qingbi",
+        "move": "stance",
+        "name": "청죽 은신 연막",
+        "windup": 0.85,
+        "duration": 0.4,
+        "recovery": 0.7,
+        "contacts": [
+          0.18
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/qingbi-back-layout.png",
+    "prompt": "generated/qingbi-back.prompt.txt",
+    "source": "generated/qingbi-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "nogae-front",
+    "character": "nogae",
+    "family": "bamboo",
+    "bossId": "5-2",
+    "view": 0,
+    "moves": [
+      "sweep",
+      "slam"
+    ],
+    "timings": [
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "sweep",
+        "name": "취봉 회전 횡소",
+        "windup": 0.88,
+        "duration": 0.55,
+        "recovery": 0.8,
+        "contacts": [
+          0.24
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "slam",
+        "name": "봉끝 지면 강타",
+        "windup": 1.02,
+        "duration": 0.56,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/nogae-front-layout.png",
+    "prompt": "generated/nogae-front.prompt.txt",
+    "source": "generated/nogae-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "nogae-front-right",
+    "character": "nogae",
+    "family": "bamboo",
+    "bossId": "5-2",
+    "view": 1,
+    "moves": [
+      "sweep",
+      "slam"
+    ],
+    "timings": [
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "sweep",
+        "name": "취봉 회전 횡소",
+        "windup": 0.88,
+        "duration": 0.55,
+        "recovery": 0.8,
+        "contacts": [
+          0.24
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "slam",
+        "name": "봉끝 지면 강타",
+        "windup": 1.02,
+        "duration": 0.56,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/nogae-front-right-layout.png",
+    "prompt": "generated/nogae-front-right.prompt.txt",
+    "source": "generated/nogae-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "nogae-right",
+    "character": "nogae",
+    "family": "bamboo",
+    "bossId": "5-2",
+    "view": 2,
+    "moves": [
+      "sweep",
+      "slam"
+    ],
+    "timings": [
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "sweep",
+        "name": "취봉 회전 횡소",
+        "windup": 0.88,
+        "duration": 0.55,
+        "recovery": 0.8,
+        "contacts": [
+          0.24
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "slam",
+        "name": "봉끝 지면 강타",
+        "windup": 1.02,
+        "duration": 0.56,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/nogae-right-layout.png",
+    "prompt": "generated/nogae-right.prompt.txt",
+    "source": "generated/nogae-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "nogae-rear-right",
+    "character": "nogae",
+    "family": "bamboo",
+    "bossId": "5-2",
+    "view": 3,
+    "moves": [
+      "sweep",
+      "slam"
+    ],
+    "timings": [
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "sweep",
+        "name": "취봉 회전 횡소",
+        "windup": 0.88,
+        "duration": 0.55,
+        "recovery": 0.8,
+        "contacts": [
+          0.24
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "slam",
+        "name": "봉끝 지면 강타",
+        "windup": 1.02,
+        "duration": 0.56,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/nogae-rear-right-layout.png",
+    "prompt": "generated/nogae-rear-right.prompt.txt",
+    "source": "generated/nogae-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "nogae-back",
+    "character": "nogae",
+    "family": "bamboo",
+    "bossId": "5-2",
+    "view": 4,
+    "moves": [
+      "sweep",
+      "slam"
+    ],
+    "timings": [
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "sweep",
+        "name": "취봉 회전 횡소",
+        "windup": 0.88,
+        "duration": 0.55,
+        "recovery": 0.8,
+        "contacts": [
+          0.24
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-2",
+        "character": "nogae",
+        "move": "slam",
+        "name": "봉끝 지면 강타",
+        "windup": 1.02,
+        "duration": 0.56,
+        "recovery": 0.95,
+        "contacts": [
+          0.28
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/nogae-back-layout.png",
+    "prompt": "generated/nogae-back.prompt.txt",
+    "source": "generated/nogae-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "yanqing-front",
+    "character": "yanqing",
+    "family": "bamboo",
+    "bossId": "5-3",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "dash",
+        "name": "죽영 숲길 추격",
+        "windup": 0.75,
+        "duration": 0.38,
+        "recovery": 0.7,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "stance",
+        "name": "죽영 낙죽 유도",
+        "windup": 0.95,
+        "duration": 0.45,
+        "recovery": 0.95,
+        "contacts": [
+          0.2
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/yanqing-front-layout.png",
+    "prompt": "generated/yanqing-front.prompt.txt",
+    "source": "generated/yanqing-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "yanqing-front-right",
+    "character": "yanqing",
+    "family": "bamboo",
+    "bossId": "5-3",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "dash",
+        "name": "죽영 숲길 추격",
+        "windup": 0.75,
+        "duration": 0.38,
+        "recovery": 0.7,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "stance",
+        "name": "죽영 낙죽 유도",
+        "windup": 0.95,
+        "duration": 0.45,
+        "recovery": 0.95,
+        "contacts": [
+          0.2
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/yanqing-front-right-layout.png",
+    "prompt": "generated/yanqing-front-right.prompt.txt",
+    "source": "generated/yanqing-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "yanqing-right",
+    "character": "yanqing",
+    "family": "bamboo",
+    "bossId": "5-3",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "dash",
+        "name": "죽영 숲길 추격",
+        "windup": 0.75,
+        "duration": 0.38,
+        "recovery": 0.7,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "stance",
+        "name": "죽영 낙죽 유도",
+        "windup": 0.95,
+        "duration": 0.45,
+        "recovery": 0.95,
+        "contacts": [
+          0.2
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/yanqing-right-layout.png",
+    "prompt": "generated/yanqing-right.prompt.txt",
+    "source": "generated/yanqing-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "yanqing-rear-right",
+    "character": "yanqing",
+    "family": "bamboo",
+    "bossId": "5-3",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "dash",
+        "name": "죽영 숲길 추격",
+        "windup": 0.75,
+        "duration": 0.38,
+        "recovery": 0.7,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "stance",
+        "name": "죽영 낙죽 유도",
+        "windup": 0.95,
+        "duration": 0.45,
+        "recovery": 0.95,
+        "contacts": [
+          0.2
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/yanqing-rear-right-layout.png",
+    "prompt": "generated/yanqing-rear-right.prompt.txt",
+    "source": "generated/yanqing-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "yanqing-back",
+    "character": "yanqing",
+    "family": "bamboo",
+    "bossId": "5-3",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "dash",
+        "name": "죽영 숲길 추격",
+        "windup": 0.75,
+        "duration": 0.38,
+        "recovery": 0.7,
+        "contacts": [
+          0.3
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-3",
+        "character": "yanqing",
+        "move": "stance",
+        "name": "죽영 낙죽 유도",
+        "windup": 0.95,
+        "duration": 0.45,
+        "recovery": 0.95,
+        "contacts": [
+          0.2
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/yanqing-back-layout.png",
+    "prompt": "generated/yanqing-back.prompt.txt",
+    "source": "generated/yanqing-back.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "songwol-front",
+    "character": "songwol",
+    "family": "bamboo",
+    "bossId": "5-4",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "fan",
+        "name": "죽림 부채 침우",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.8,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "stance",
+        "name": "죽림 반사 죽벽",
+        "windup": 1.15,
+        "duration": 0.48,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-front.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/songwol-front-layout.png",
+    "prompt": "generated/songwol-front.prompt.txt",
+    "source": "generated/songwol-front.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "songwol-front-right",
+    "character": "songwol",
+    "family": "bamboo",
+    "bossId": "5-4",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "fan",
+        "name": "죽림 부채 침우",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.8,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "stance",
+        "name": "죽림 반사 죽벽",
+        "windup": 1.15,
+        "duration": 0.48,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-front-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/songwol-front-right-layout.png",
+    "prompt": "generated/songwol-front-right.prompt.txt",
+    "source": "generated/songwol-front-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "songwol-right",
+    "character": "songwol",
+    "family": "bamboo",
+    "bossId": "5-4",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "fan",
+        "name": "죽림 부채 침우",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.8,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "stance",
+        "name": "죽림 반사 죽벽",
+        "windup": 1.15,
+        "duration": 0.48,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/songwol-right-layout.png",
+    "prompt": "generated/songwol-right.prompt.txt",
+    "source": "generated/songwol-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "songwol-rear-right",
+    "character": "songwol",
+    "family": "bamboo",
+    "bossId": "5-4",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "fan",
+        "name": "죽림 부채 침우",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.8,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "stance",
+        "name": "죽림 반사 죽벽",
+        "windup": 1.15,
+        "duration": 0.48,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-rear-right.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/songwol-rear-right-layout.png",
+    "prompt": "generated/songwol-rear-right.prompt.txt",
+    "source": "generated/songwol-rear-right.png",
+    "columns": 3,
+    "rows": 4
+  },
+  {
+    "id": "songwol-back",
+    "character": "songwol",
+    "family": "bamboo",
+    "bossId": "5-4",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "timings": [
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "fan",
+        "name": "죽림 부채 침우",
+        "windup": 0.8,
+        "duration": 0.32,
+        "recovery": 0.8,
+        "contacts": [
+          0.1
+        ],
+        "holdEligible": false
+      },
+      {
+        "bossId": "5-4",
+        "character": "songwol",
+        "move": "stance",
+        "name": "죽림 반사 죽벽",
+        "windup": 1.15,
+        "duration": 0.48,
+        "recovery": 1,
+        "contacts": [
+          0.22
+        ],
+        "holdEligible": false
+      }
+    ],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-back.png",
+    "guide": "docs/source/tomb-bamboo-special-v2/references/songwol-back-layout.png",
+    "prompt": "generated/songwol-back.prompt.txt",
+    "source": "generated/songwol-back.png",
+    "columns": 3,
+    "rows": 4
+  }
+]

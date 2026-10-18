@@ -6,8 +6,8 @@ GitHub LFS 예산 초과 이후 사용자가 **소스는 GitHub, 에셋은 개�
 
 | 구분 | 파일 | 용도 |
 | --- | --- | --- |
-| 실행용 | `mugong-runtime-7fa6bc2b4a8f6eb9.tar.gz` | public 아래 그림·소리·폰트945개, 게임 실행/호스팅에 필요 |
-| 제작용 | `mugong-authoring-bca28aa772f10780.tar.gz` | 원본·교정/참고 미디어1,596개, 원화 제작/복원용 |
+| 실행용 | `mugong-runtime-50e2266d1f294fe8.tar.gz` | public 아래 그림·소리·폰트985개, 게임 실행/호스팅에 필요 |
+| 제작용 | `mugong-authoring-855b7015b6b8f8b1.tar.gz` | 원본·교정/참고 미디어1,691개, 원화 제작/복원용 |
 
 최신 SHA256·압축 크기는 `docs/asset-bundles/runtime.json`, `authoring.json`에 기록한다. 압축본과 `.sha256` 사이드카는 로컬 `.asset-bundles/`에 생성하며 개인 서버에 복사해 보관한다. GitHub에는 올리지 않는다. 실제 개인 서버 전송 여부는 작업 기록에서 별도로 확인한다.
 
@@ -19,7 +19,7 @@ GitHub LFS 예산 초과 이후 사용자가 **소스는 GitHub, 에셋은 개�
 
 ```sh
 (cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)
-tar -xzf /srv/mugong-assets/mugong-runtime-7fa6bc2b4a8f6eb9.tar.gz -C .
+tar -xzf /srv/mugong-assets/mugong-runtime-50e2266d1f294fe8.tar.gz -C .
 npm run check:assets
 ```
 

@@ -13,10 +13,12 @@ import three from './three-special-frames.json' with { type: 'json' };
 
 import snow from './snow-special-frames.json' with { type: 'json' };
 import snowComplete from './snow-special-complete-frames.json' with { type: 'json' };
+import tombBamboo from './tomb-bamboo-special-frames.json' with { type: 'json' };
 
 export const SNOW_SPECIAL_ART = snow;
 /** Additional Snow actions; existing Mokjin dash/slam retain their source frames. */
 export const SNOW_COMPLETE_ART = snowComplete;
+export const TOMB_BAMBOO_SPECIAL_ART = tombBamboo;
 export const SHAOLIN_SPECIAL_ART = special;
 export const TIANJIAN_SPECIAL_ART = tianjian;
 export const DOKMU_SPECIAL_ART = dokmu;
@@ -31,6 +33,7 @@ const originals = [
   ...qingha.characters,
   ...snow.characters,
   ...three.characters,
+  ...tombBamboo.characters,
 ];
 const snowRegistry = new Map(snowComplete.characters.map((art) => [art.bossId, art]));
 const characters = [

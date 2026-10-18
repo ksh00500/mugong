@@ -31,9 +31,9 @@ describe('whole Bamboo authored family', () => {
     );
     for (const e of cases) expect(authoredEnemyArt(e, 6)?.id).not.toBe(authoredEnemyArt(e, 5)?.id);
   });
-  it('loads only its 35 native character sheets and floor for the region', () => {
+  it('loads its 35 basic sheets, 20 special sheets and floor', () => {
     const manifest = regionArtManifest(5);
-    expect(Object.keys(manifest)).toHaveLength(36);
+    expect(Object.keys(manifest)).toHaveLength(56);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/bamboo-family-v1/')),
     ).toHaveLength(35);

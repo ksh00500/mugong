@@ -8,7 +8,7 @@
 | 프롬프트·메타데이터·원화 선택/교정 이력 | 소리·폰트·동영상 |
 | 기능 문서·검증 요약·파일 SHA256 목록 | 실행용/제작용 압축본과 SHA256 사이드카 |
 
-`public`의 미디어는 실행용, `assets`·`docs/source`·`docs/references`의 미디어는 제작/보관용이다. `asset-manifest.json`은 전체2,541경로를 추적한다. 런타임945개와 제작/참고1,596개를 독립 묶음으로 나눈다. SVG·HTML·JSON·프롬프트·라이선스 문서는 Git에 남는다. 자세한 복원 순서는 [외부 에셋 안내](external-assets.md)를 따른다.
+`public`의 미디어는 실행용, `assets`·`docs/source`·`docs/references`의 미디어는 제작/보관용이다. `asset-manifest.json`은 전체2,676경로를 추적한다. 런타임985개와 제작/참고1,691개를 독립 묶음으로 나눈다. SVG·HTML·JSON·프롬프트·라이선스 문서는 Git에 남는다. 자세한 복원 순서는 [외부 에셋 안내](external-assets.md)를 따른다.
 
 파일 경로는 제작 스크립트와 메타데이터가 참조하므로 임의로 이동하지 않는다. `assets/`와 `docs/source/`의 텍스트는 입력 해시를 보존하도록 줄바꿈 자동 변환을 끈다. 이전 프롬프트의 공백을 일괄 정리하지 않는다.
 
