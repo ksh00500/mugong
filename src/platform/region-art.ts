@@ -1,6 +1,7 @@
 import snowSpecial from '../game/snow-special-frames.json' with { type: 'json' };
 import snowComplete from '../game/snow-special-complete-frames.json' with { type: 'json' };
 import tombBamboo from '../game/tomb-bamboo-special-frames.json' with { type: 'json' };
+import tombBambooComplete from '../game/tomb-bamboo-complete-frames.json' with { type: 'json' };
 import remaining from '../game/boss-remaining-frames.json' with { type: 'json' };
 import three from '../game/three-special-frames.json' with { type: 'json' };
 import { REGIONS, regionName, bossById } from '../domain/campaign';
@@ -30,6 +31,14 @@ export function regionArtManifest(index: number): Record<string, string> {
     ? {}
     : {
         [`region-floor-${index}`]: `/art/regions-v1/${index}-floor.webp`,
+        ...Object.fromEntries(
+          tombBambooComplete.characters
+            .filter((a) => Number(a.bossId.split('-')[0]) === index)
+            .map((a) => {
+              const key = `tb-complete-${a.id}` as keyof typeof tombBambooComplete.textures;
+              return [key, tombBambooComplete.textures[key]];
+            }),
+        ),
         ...Object.fromEntries(
           [
             ...new Set(

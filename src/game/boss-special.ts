@@ -14,11 +14,13 @@ import three from './three-special-frames.json' with { type: 'json' };
 import snow from './snow-special-frames.json' with { type: 'json' };
 import snowComplete from './snow-special-complete-frames.json' with { type: 'json' };
 import tombBamboo from './tomb-bamboo-special-frames.json' with { type: 'json' };
+import tombBambooComplete from './tomb-bamboo-complete-frames.json' with { type: 'json' };
 
 export const SNOW_SPECIAL_ART = snow;
 /** Additional Snow actions; existing Mokjin dash/slam retain their source frames. */
 export const SNOW_COMPLETE_ART = snowComplete;
 export const TOMB_BAMBOO_SPECIAL_ART = tombBamboo;
+export const TOMB_BAMBOO_COMPLETE_ART = tombBambooComplete;
 export const SHAOLIN_SPECIAL_ART = special;
 export const TIANJIAN_SPECIAL_ART = tianjian;
 export const DOKMU_SPECIAL_ART = dokmu;
@@ -36,13 +38,15 @@ const originals = [
   ...tombBamboo.characters,
 ];
 const snowRegistry = new Map(snowComplete.characters.map((art) => [art.bossId, art]));
+const tombBambooRegistry = new Map(tombBambooComplete.characters.map((art) => [art.bossId, art]));
 const characters = [
   ...originals,
   ...snowComplete.characters.filter((a) => !originals.some((b) => b.bossId === a.bossId)),
 ].map((art) => {
   const extra =
     remainingRegistry.get(art.bossId) ??
-    (originals.some((a) => a.bossId === art.bossId) ? snowRegistry.get(art.bossId) : undefined);
+    (originals.some((a) => a.bossId === art.bossId) ? snowRegistry.get(art.bossId) : undefined) ??
+    tombBambooRegistry.get(art.bossId);
   return {
     ...art,
     moves: [...art.moves, ...(extra?.moves ?? [])],

@@ -7,17 +7,17 @@
 Docker Engine·Compose 플러그인·Git을 준비하고, 전달받은 실행용 에셋과 SHA256 파일을 `/srv/mugong-assets` 같은 비공개 폴더에 보관한다. 제작용 묶음은 게임 호스팅에 필요 없다.
 
 ```sh
-git clone --branch codex/tomb-bamboo-specials https://github.com/ksh00500/mugong.git
+git clone --branch codex/tomb-bamboo-complete https://github.com/ksh00500/mugong.git
 cd mugong
 (cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)
-tar -xzf /srv/mugong-assets/mugong-runtime-50e2266d1f294fe8.tar.gz -C .
+tar -xzf /srv/mugong-assets/mugong-runtime-03463e6029340b39.tar.gz -C .
 cp .env.example .env
 docker compose up -d --build
 curl -f http://127.0.0.1:8080/healthz
 docker compose ps
 ```
 
-파일명·바이트 수·파일별 SHA256은 [에셋 안내](external-assets.md) 및 `asset-manifest.json`을 기준으로 한다. 압축본은 신뢰하는 개인 보관소에서 받은 뒤 SHA256을 먼저 확인한다. Docker 빌드 안에서도985개 런타임 파일의 바이트/SHA256을 확인하므로 누락되거나 다른 버전이면 실패한다.
+파일명·바이트 수·파일별 SHA256은 [에셋 안내](external-assets.md) 및 `asset-manifest.json`을 기준으로 한다. 압축본은 신뢰하는 개인 보관소에서 받은 뒤 SHA256을 먼저 확인한다. Docker 빌드 안에서도993개 런타임 파일의 바이트/SHA256을 확인하므로 누락되거나 다른 버전이면 실패한다.
 
 기본 바인드는 서버의 `127.0.0.1:8080`이다. HTTPS 역방향 프록시의 upstream으로 연결한다. LAN 직접 접속이 필요하면 `.env`의 `MUGONG_BIND`를 서버 LAN IP로 바꾼다. 도메인·TLS 인증서는 서버 환경에서 설정한다. `.env`는 Git에 올리지 않는다.
 

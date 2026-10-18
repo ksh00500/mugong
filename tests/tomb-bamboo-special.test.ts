@@ -78,7 +78,7 @@ describe('Tomb and Bamboo special action art', () => {
       const unused = Object.keys(BOSS_KITS[a.bossId].moves).filter((m) => !a.moves.includes(m));
       for (const move of unused) {
         const spec = BOSS_KITS[a.bossId].moves[move as keyof (typeof BOSS_KITS)[string]['moves']]!;
-        expect(bossSpecialFrame(e, region, 0, move, 'strike', 0.5, spec)).toBeUndefined();
+        expect(bossSpecialFrame(e, region, 0, move, 'strike', 0.5, spec)).toBeDefined();
       }
     }
   });

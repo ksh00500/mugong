@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-18",
+  "sourceBranch": "codex/tomb-bamboo-complete",
+  "baseCommit": "c16cf3710aacbb43492e9478e548ca5b7ce9f08e",
+  "new": {
+    "bosses": 8,
+    "actions": 23,
+    "logicalFrames": 870,
+    "physicalPoses": 125,
+    "selectedSources": 19,
+    "textures": 8,
+    "readyReuse": 290
+  },
+  "regional": {
+    "actions": 39,
+    "logicalFrames": 1350
+  },
+  "global": {
+    "bosses": 40,
+    "kitActions": 185,
+    "specialActions": 154,
+    "logicalFrames": 5280,
+    "remaining": 31
+  },
+  "unit": {
+    "files": 66,
+    "tests": 1307,
+    "passed": true
+  },
+  "sourceOnly": {
+    "files": 66,
+    "tests": 1307,
+    "passed": true
+  },
+  "render": {
+    "tests": 8,
+    "samples": 50144,
+    "contacts": 1440,
+    "holds": 32,
+    "records": [
+      {
+        "file": "5-canvas-full.json",
+        "renderer": 1,
+        "reduced": false,
+        "count": 6440,
+        "contacts": 200,
+        "holds": 0
+      },
+      {
+        "file": "5-canvas-reduced.json",
+        "renderer": 1,
+        "reduced": true,
+        "count": 6440,
+        "contacts": 200,
+        "holds": 0
+      },
+      {
+        "file": "5-webgl-full.json",
+        "renderer": 2,
+        "reduced": false,
+        "count": 6440,
+        "contacts": 200,
+        "holds": 0
+      },
+      {
+        "file": "5-webgl-reduced.json",
+        "renderer": 2,
+        "reduced": true,
+        "count": 6440,
+        "contacts": 200,
+        "holds": 0
+      },
+      {
+        "file": "6-canvas-full.json",
+        "renderer": 1,
+        "reduced": false,
+        "count": 6096,
+        "contacts": 160,
+        "holds": 8
+      },
+      {
+        "file": "6-canvas-reduced.json",
+        "renderer": 1,
+        "reduced": true,
+        "count": 6096,
+        "contacts": 160,
+        "holds": 8
+      },
+      {
+        "file": "6-webgl-full.json",
+        "renderer": 2,
+        "reduced": false,
+        "count": 6096,
+        "contacts": 160,
+        "holds": 8
+      },
+      {
+        "file": "6-webgl-reduced.json",
+        "renderer": 2,
+        "reduced": true,
+        "count": 6096,
+        "contacts": 160,
+        "holds": 8
+      }
+    ]
+  },
+  "compiled": {
+    "tests": 8,
+    "passed": true,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1093,
+        614
+      ]
+    ],
+    "poseSelections": 810,
+    "usedTextureShaMatches": 88,
+    "port": 5201,
+    "review": "/art/tomb-bamboo-complete-v3/review.html"
+  },
+  "assetSha": {
+    "files": 2745,
+    "manifest": "ee5b96a8a0f3a899",
+    "runtime": 993,
+    "authoring": 1752,
+    "passed": true
+  },
+  "directVisualReview": [
+    "8 READY/contact grounded boards, all 125 new selected physical poses",
+    "Two regions four WebGL contact plates, combo second/third contact and Gwakgi load",
+    "Compiled 1093 combat both regions and 1093 review controls"
+  ],
+  "limitations": [
+    "No long natural-combat balance certification",
+    "Existing 1800 kB chunk warning",
+    "No personal-server upload, public deployment, main merge or new PR"
+  ]
+}

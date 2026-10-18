@@ -29,7 +29,7 @@ describe('whole Tomb authored family', () => {
   });
   it('loads its 35 basic sheets, 20 special sheets and floor', () => {
     const manifest = regionArtManifest(6);
-    expect(Object.keys(manifest)).toHaveLength(56);
+    expect(Object.keys(manifest)).toHaveLength(60);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/tomb-family-v1/')),
     ).toHaveLength(35);
