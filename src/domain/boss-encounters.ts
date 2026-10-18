@@ -1,5 +1,6 @@
 import { pendingChoices } from './character';
 import { FIELD } from './content';
+import { combatOrigin } from './combat-body';
 import { bossById } from './campaign';
 import { regionName } from './campaign';
 import { applyFieldContact, FIELD_EFFECTS } from './field-effects';
@@ -292,7 +293,7 @@ export function stepEncounters(
         const angle = object.aim + (n - 1) * 0.25;
         r.projectiles.push({
           x: object.x,
-          y: object.y,
+          y: combatOrigin(object).y,
           vx: Math.cos(angle) * 260,
           vy: Math.sin(angle) * 260,
           life: 2.6,
@@ -312,7 +313,7 @@ export function stepEncounters(
         if (object.pulse <= -1) {
           r.projectiles.push({
             x: object.x,
-            y: object.y,
+            y: combatOrigin(object).y,
             vx: Math.cos(object.aim) * 350,
             vy: Math.sin(object.aim) * 350,
             life: 3,

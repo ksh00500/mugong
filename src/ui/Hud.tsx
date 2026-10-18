@@ -38,7 +38,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
     jegal: '기문보',
   };
   return (
-    <div className="hud wuxia-hud" ref={scope}>
+    <div className="hud wuxia-hud" data-phase={run.phase} ref={scope}>
       <div className="hud-top">
         <section
           className={`player-panel ${f.hp / maximumHp(f) <= 0.25 ? 'critical-health' : ''}`}

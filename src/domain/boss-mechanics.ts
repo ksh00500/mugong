@@ -1,5 +1,6 @@
 import { FIELD, maximumHp } from './content';
 import { segmentDistance } from './enemy-geometry';
+import { combatOrigin } from './combat-body';
 import type { EncounterObject, Enemy, Projectile, Run } from './model';
 import type { CombatCueSink } from './combat';
 import { applyFieldContact, FIELD_EFFECTS } from './field-effects';
@@ -52,7 +53,7 @@ export function castMechanic(
         const aim = Math.atan2(f.y - e.y, f.x - e.x) + offset;
         r.projectiles.push({
           x: e.x,
-          y: e.y,
+          y: combatOrigin(e).y,
           vx: Math.cos(aim) * 400,
           vy: Math.sin(aim) * 400,
           life: 3,
@@ -87,7 +88,7 @@ export function castMechanic(
         const aim = Math.atan2(bamboo.y - e.y, bamboo.x + 22 - e.x);
         r.projectiles.push({
           x: e.x,
-          y: e.y,
+          y: combatOrigin(e).y,
           vx: Math.cos(aim) * 320,
           vy: Math.sin(aim) * 320,
           life: 5,

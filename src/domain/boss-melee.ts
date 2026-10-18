@@ -1,6 +1,6 @@
 import type { BossMove } from './campaign';
 import type { Enemy } from './model';
-import { segmentDistance } from './enemy-geometry';
+import { combatOrigin, projectileHitsBody, sectorHitsBody } from './combat-body';
 import { attack as punch, type MeleeMove, type BossKit } from './boss-kit';
 import { BOSS_WAVE3 } from './boss-wave3';
 import { BOSS_WAVE4 } from './boss-wave4';
@@ -513,8 +513,13 @@ export const BOSS_KITS: Record<string, BossKit> = {
 export const meleeKit = (e: Pick<Enemy, 'bossId'>) => (e.bossId ? BOSS_KITS[e.bossId] : undefined);
 export function meleeMove(e: Enemy, move: BossMove) {
   const spec = meleeKit(e)?.moves[move];
-  return spec && !spec.dash && !spec.shot && !spec.zone && spec.range < 330 &&
-    ['line', 'sector'].includes(spec.shape) && (e.pressure?.advance ?? 0) > 0
+  return spec &&
+    !spec.dash &&
+    !spec.shot &&
+    !spec.zone &&
+    spec.range < 330 &&
+    ['line', 'sector'].includes(spec.shape) &&
+    (e.pressure?.advance ?? 0) > 0
     ? { ...spec, dash: e.pressure!.advance }
     : spec;
 }
@@ -532,22 +537,20 @@ export function meleeHits(
   if (spec.shape === 'none') return false;
   if (spec.shape === 'circle') return d <= spec.range + 18;
   if (spec.shape === 'line') {
-    const projection = dx * Math.cos(angle) + dy * Math.sin(angle);
+    const origin = combatOrigin(e),
+      body = combatOrigin(target);
+    const projection =
+      (body.x - origin.x) * Math.cos(angle) + (body.y - origin.y) * Math.sin(angle);
     return (
       projection >= -18 &&
       projection <= spec.range + 18 &&
-      segmentDistance(
-        e,
-        { x: e.x + Math.cos(angle) * spec.range, y: e.y + Math.sin(angle) * spec.range },
+      projectileHitsBody(
+        origin,
+        { x: origin.x + Math.cos(angle) * spec.range, y: origin.y + Math.sin(angle) * spec.range },
         target,
-      ) <=
-        (spec.width ?? 30) + 18
+        spec.width ?? 30,
+      )
     );
   }
-  return (
-    d <= spec.range + 18 &&
-    Math.abs(
-      Math.atan2(Math.sin(Math.atan2(dy, dx) - angle), Math.cos(Math.atan2(dy, dx) - angle)),
-    ) <= (spec.arc ?? 0.8)
-  );
+  return sectorHitsBody(e, target, angle, spec.range, spec.arc ?? 0.8);
 }

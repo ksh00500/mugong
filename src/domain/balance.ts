@@ -1,9 +1,9 @@
-/** Tactical balance v3: enemy HP/damage are 70% of v2; movement stays responsive. */
+/** Combat v4 restores the pre-v3 pressure; final warnings remain readable. */
 export const BALANCE = {
-  bossHp: [630, 1050, 1540, 2100],
-  enemyHpFactor: 1.155,
-  bossDamageFactor: 0.945,
-  enemyDamageFactor: 0.84,
+  bossHp: [900, 1500, 2200, 3000],
+  enemyHpFactor: 1.65,
+  bossDamageFactor: 1.35,
+  enemyDamageFactor: 1.2,
   bossRecoveryFactor: 0.65,
   bossWindupFactor: 0.85,
   bossApproachSpeed: 125,

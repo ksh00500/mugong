@@ -9,6 +9,7 @@ import {
 } from './character';
 import { recruitmentAction, recruitmentView } from './recruitment';
 import { BALANCE, encounterHp } from './balance';
+import { healingOffer } from './preparation';
 import { isBossEnemy, clearBossControl } from './boss-resilience';
 import { bossCommitRange, commitBossPressure, stepBossPressure } from './boss-pressure';
 import {
@@ -39,6 +40,7 @@ import {
   repositionFactor,
 } from './enemy-tactics';
 import { segmentDistance } from './enemy-geometry';
+import { COMBAT_HEIGHT, combatOrigin, projectileHitsBody, sectorHitsBody } from './combat-body';
 import { DEFENSE_RULES, techniqueStats } from './techniques';
 import { supportStats } from './support';
 import {
@@ -334,7 +336,7 @@ export function spawnWave(r: Run) {
       pulse: 0,
     });
   const boss = isBoss(r.wave),
-    count = boss ? 1 : 3 + Math.floor(r.wave / 3);
+    count = boss ? 1 : 4 + Math.floor(r.wave / 3) + Math.floor((r.wave - 1) / 5);
   const featured = boss ? bossDefinition(r) : null;
   const waveXp = r.xpBudget[r.wave - 1];
   for (let i = 0; i < count; i++) {
@@ -497,7 +499,7 @@ function hitEnemy(
     } else
       r.projectiles.push({
         x: e.x,
-        y: e.y,
+        y: combatOrigin(e).y,
         vx: Math.cos(aim) * 320,
         vy: Math.sin(aim) * 320,
         life: 2,
@@ -617,7 +619,7 @@ function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) 
       const angle = a.angle + (n - (count - 1) / 2) * 0.18;
       r.projectiles.push({
         x: f.x + Math.cos(angle) * 42,
-        y: f.y + Math.sin(angle) * 42,
+        y: combatOrigin(f).y + Math.sin(angle) * 42,
         vx: Math.cos(angle) * 680,
         vy: Math.sin(angle) * 680,
         life: 1.2 * supportStats(f).attackRangeFactor,
@@ -667,8 +669,7 @@ function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) 
     const angle = Math.atan2(e.y - f.y, e.x - f.x);
     if (
       !(a.art === 'samja' && (art?.level ?? 0) >= 9) &&
-      distance(e, f) < a.range + 20 &&
-      angularDistance(angle, a.angle) < a.arc
+      sectorHitsBody(f, e, a.angle, a.range, a.arc)
     ) {
       hits++;
       const damage = a.damage;
@@ -716,7 +717,7 @@ function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) 
     const angle = target ? Math.atan2(target.y - f.y, target.x - f.x) : a.angle;
     r.projectiles.push({
       x: f.x + Math.cos(angle) * 80,
-      y: f.y + Math.sin(angle) * 80,
+      y: combatOrigin(f).y + Math.sin(angle) * 80,
       vx: Math.cos(angle) * 680,
       vy: Math.sin(angle) * 680,
       life: 1.7 * supportStats(f).attackRangeFactor,
@@ -1006,7 +1007,7 @@ function ultimate(r: Run, input: InputFrame, emit?: CombatCueSink) {
       const a = Math.atan2(e.y - f.y, e.x - f.x);
       r.projectiles.push({
         x: f.x,
-        y: f.y,
+        y: combatOrigin(f).y,
         vx: Math.cos(a) * 700,
         vy: Math.sin(a) * 700,
         life: 2.5,
@@ -1173,9 +1174,9 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
       if (profile.move === 'hazard' && profile.zone) {
         r.projectiles.push({
           x: e.x,
-          y: e.y,
+          y: combatOrigin(e).y,
           vx: (center.x - e.x) / 0.65,
-          vy: (center.y - e.y) / 0.65,
+          vy: (center.y - combatOrigin(e).y) / 0.65,
           life: 0.65,
           friendly: false,
           damage: profile.zone === 'brew' ? 0 : damage,
@@ -1198,7 +1199,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
         const a = shot.angle;
         r.projectiles.push({
           x: e.x,
-          y: e.y,
+          y: combatOrigin(e).y,
           vx: Math.cos(a) * shot.speed,
           vy: Math.sin(a) * shot.speed,
           life: shot.life,
@@ -1248,9 +1249,14 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
     if (strike) {
       const from = { x: e.x, y: e.y };
       const progress = clamp(1 - e.timer / strike.duration, 0, 1);
-      const travelProgress = (e.pressure?.advance ?? 0) > 0
-        ? clamp((strike.duration - e.timer) / Math.max(0.15, profile.melee?.contacts[0] ?? 0.15), 0, 1)
-        : progress;
+      const travelProgress =
+        (e.pressure?.advance ?? 0) > 0
+          ? clamp(
+              (strike.duration - e.timer) / Math.max(0.15, profile.melee?.contacts[0] ?? 0.15),
+              0,
+              1,
+            )
+          : progress;
       const eased = travelProgress * travelProgress * (3 - 2 * travelProgress);
       if (profile.dash) {
         e.x = strike.fromX + (strike.toX - strike.fromX) * eased;
@@ -1263,7 +1269,8 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
       const contact = profile.dash
         ? progress >= 1
         : strike.duration - e.timer >= STRIKE_TIMING.contact;
-      const swept = profile.dash > 0 && !(e.pressure?.advance ?? 0) && victim && dashHits(from, e, victim);
+      const swept =
+        profile.dash > 0 && !(e.pressure?.advance ?? 0) && victim && dashHits(from, e, victim);
       if (profile.melee) {
         const spec = profile.melee,
           elapsed = strike.duration - e.timer;
@@ -1282,7 +1289,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
               const wide = e.bossId === '2-4' && e.hp <= e.maxHp * 0.5;
               r.projectiles.push({
                 x: e.x,
-                y: e.y,
+                y: combatOrigin(e).y,
                 vx: Math.cos(angle) * shot.speed,
                 vy: Math.sin(angle) * shot.speed,
                 life,
@@ -1312,9 +1319,9 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
             const center = { x: e.targetX ?? e.x, y: e.targetY ?? e.y };
             r.projectiles.push({
               x: e.x,
-              y: e.y,
+              y: combatOrigin(e).y,
               vx: (center.x - e.x) / 0.65,
-              vy: (center.y - e.y) / 0.65,
+              vy: (center.y - combatOrigin(e).y) / 0.65,
               life: 0.65,
               friendly: false,
               damage: strike.damage,
@@ -1434,10 +1441,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
         // portion it has actually crossed, then its final warned sector.
         const hit =
           victim &&
-          (swept ||
-            (contact &&
-              distance(e, victim) < profile.range + 20 &&
-              angularDistance(Math.atan2(victim.y - e.y, victim.x - e.x), e.aim) < profile.arc));
+          (swept || (contact && sectorHitsBody(e, victim, e.aim, profile.range, profile.arc)));
         if (contact || hit) {
           strike.hit = true;
           const thrust = profile.move === 'thrust' || e.kind === 'spear';
@@ -1665,8 +1669,8 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
     const reachesWall =
       p.x + p.vx * dt < FIELD.left ||
       p.x + p.vx * dt > FIELD.right ||
-      p.y + p.vy * dt < FIELD.top ||
-      p.y + p.vy * dt > FIELD.bottom;
+      p.y + p.vy * dt < FIELD.top - COMBAT_HEIGHT ||
+      p.y + p.vy * dt > FIELD.bottom - COMBAT_HEIGHT;
     if (p.returnAt !== undefined && (p.life <= p.returnAt || reachesWall) && !p.returned) {
       p.returned = true;
       p.vx *= -1;
@@ -1675,11 +1679,11 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
     if (p.returned) {
       const owner = r.enemies.find((e) => e.id === p.owner && e.hp > 0);
       if (owner) {
-        if (distance(p, owner) < 20) {
+        if (distance(p, combatOrigin(owner)) < 20) {
           p.life = 0;
           continue;
         }
-        const angle = Math.atan2(owner.y - p.y, owner.x - p.x);
+        const angle = Math.atan2(combatOrigin(owner).y - p.y, owner.x - p.x);
         const speed = Math.max(360, Math.hypot(p.vx, p.vy));
         p.vx = Math.cos(angle) * speed;
         p.vy = Math.sin(angle) * speed;
@@ -1748,7 +1752,7 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
           e.hp > 0 &&
           e.id !== p.owner &&
           !p.hits.includes(e.id) &&
-          segmentDistance(previous, p, e) < p.radius + 23
+          projectileHitsBody(previous, p, e, p.radius)
         ) {
           p.hits.push(e.id);
           if (p.art === 'tang' && e.hp > 0) {
@@ -1777,11 +1781,7 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
           break;
         }
       }
-    } else if (
-      !p.friendly &&
-      !p.hostileToEnemies &&
-      segmentDistance(previous, p, f) < p.radius + 18
-    ) {
+    } else if (!p.friendly && !p.hostileToEnemies && projectileHitsBody(previous, p, f, p.radius)) {
       const before = f.hp;
       damagePlayer(r, p.damage, emit);
       if (f.hp > 0 && f.hp < before) {
@@ -2095,9 +2095,10 @@ export function command(state: GameState, cmd: Command, now = Date.now()): boole
   if (cmd.type === 'buy' || cmd.type === 'heal') {
     if (!r || r.phase !== 'prep') return false;
     if (cmd.type === 'heal') {
-      if (r.gold < 12 || f.hp >= maximumHp(f)) return false;
-      r.gold -= 12;
-      f.hp = Math.min(maximumHp(f), f.hp + 45);
+      const offer = healingOffer(f, r.gold);
+      if (!offer.available) return false;
+      r.gold -= offer.price;
+      f.hp += offer.amount;
       return true;
     }
     // Old clients use the same persisted stock and price; there is no second purchase path.

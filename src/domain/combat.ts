@@ -5,7 +5,8 @@ import { BOSS_ATTACKS } from './boss-attacks';
 import { meleeMove } from './boss-melee';
 import { bossShots } from './boss-kit';
 import { roleAttack } from './region-enemies';
-import { dashOrigin, fanOffset, segmentDistance } from './enemy-geometry';
+import { dashOrigin, fanOffset } from './enemy-geometry';
+import { combatOrigin, projectileHitsBody } from './combat-body';
 
 export const STRIKE_TIMING = { duration: 0.28, contact: 0.09 } as const;
 
@@ -125,7 +126,7 @@ export function dashHits(
   to: { x: number; y: number },
   target: { x: number; y: number },
 ) {
-  return segmentDistance(from, to, target) < 48;
+  return projectileHitsBody(combatOrigin(from), combatOrigin(to), target, 30);
 }
 
 /** Ephemeral presentation cues: never included in a save or used for damage rules. */

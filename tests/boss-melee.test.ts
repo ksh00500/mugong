@@ -334,7 +334,9 @@ it('표두는 긴 창의 옆 판정을 좁히고 가까이 붙으면 창 거리�
   const { r, e, f } = fixture('0-2', 'thrust', 50);
   const spec = enemyAttack(e).melee!;
   expect(meleeHits(e, { x: e.x + 350, y: e.y }, spec)).toBe(true);
-  expect(meleeHits(e, { x: e.x + 350, y: e.y + 60 }, spec)).toBe(false);
+  // A 60px foot offset still puts the upper body in the spear's corridor.
+  expect(meleeHits(e, { x: e.x + 350, y: e.y + 60 }, spec)).toBe(true);
+  expect(meleeHits(e, { x: e.x + 350, y: e.y + 100 }, spec)).toBe(false);
   expect(tacticalMovement(r, e, f, enemyAttack(e)).x).toBeLessThan(0);
   e.move = 'combo';
   expect(hostileMotion(e)).toBe('thrust');

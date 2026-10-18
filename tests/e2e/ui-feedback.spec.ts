@@ -2,8 +2,11 @@ import { test, expect, type Page } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { seedRegion, observeScene } from './support/region';
 
-const proof = 'docs/verification/ui-feedback-v1';
+const proof = process.env.MUGONG_FEEDBACK_PROOF ?? 'docs/verification/ui-feedback-v1';
 const player = '.player-panel .meter.health';
+test.beforeAll(async () => {
+  await mkdir(proof, { recursive: true });
+});
 
 async function advance(page: Page, ms: number) {
   await page.clock.runFor(ms);
@@ -163,7 +166,7 @@ test('카메라 강도·정지·조준 보정·고정 HUD·움직임 감소', as
     const point = camera.getWorldPoint(pointer.x, pointer.y);
     s.input.emit('pointermove', pointer);
     const aimError = Math.abs(
-      s.aim - Math.atan2(point.y - offset.y - (f.y - 35), point.x - offset.x - f.x),
+      s.aim - Math.atan2(point.y - offset.y - (f.y - 34), point.x - offset.x - f.x),
     );
     const afterHud = document.querySelector('.player-panel')!.getBoundingClientRect().toJSON();
     s.feedback.updateCamera(s.animationTime + 1, false);

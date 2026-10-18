@@ -47,6 +47,7 @@ import { bossSpecialFrame, bossHealthClearance } from './boss-special';
 import { bossMotionClock } from './boss-motion';
 import { PLAYER_VISUAL_SCALE } from './player-visual';
 import { HealthTrail } from './health-trail';
+import { COMBAT_HEIGHT } from '../domain/combat-body';
 
 export class CombatScene extends Phaser.Scene {
   private heroFrames = new Map<string, CharacterFrame>();
@@ -320,7 +321,7 @@ export class CombatScene extends Phaser.Scene {
         world = this.cameras.main.getWorldPoint(p.x, p.y);
       if (f)
         this.aim = Math.atan2(
-          world.y - this.feedback.cameraOffset.y - (f.y - 35),
+          world.y - this.feedback.cameraOffset.y - (f.y - COMBAT_HEIGHT),
           world.x - this.feedback.cameraOffset.x - f.x,
         );
     });
@@ -331,7 +332,7 @@ export class CombatScene extends Phaser.Scene {
       const world = this.cameras.main.getWorldPoint(p.x, p.y);
       if (f)
         this.aim = Math.atan2(
-          world.y - this.feedback.cameraOffset.y - (f.y - 35),
+          world.y - this.feedback.cameraOffset.y - (f.y - COMBAT_HEIGHT),
           world.x - this.feedback.cameraOffset.x - f.x,
         );
       this.left = p.leftButtonDown();

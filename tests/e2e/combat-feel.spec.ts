@@ -295,6 +295,8 @@ test('네 무공의 실제 검격 이펙트 크기·그림·지속 시간을 확
 
 test('돌진·원형 발사·반격·방어와 움직임 줄이기 실제 캡처', async ({ page }) => {
   test.skip(publicBuild, '개발 모듈을 관찰하는 독립 로컬 컨텍스트 전용');
+  // Five complete renderer/save fixtures are exercised in this single test.
+  test.setTimeout(120000);
   await mkdir(proof, { recursive: true });
   await page.setViewportSize({ width: 1093, height: 614 });
   const errors: string[] = [];

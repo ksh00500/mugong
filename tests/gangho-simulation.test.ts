@@ -6,7 +6,7 @@ import { compatibleWeapon, firstSpace } from '../src/domain/inventory';
 import { isGameSave } from '../src/platform/save-validation';
 import type { ArtId, BoundFighter, InputFrame } from '../src/domain/model';
 
-const proof = 'docs/verification/gangho-completion-v1';
+const proof = process.env.MUGONG_COMBAT_PREP_PROOF ?? 'docs/verification/gangho-completion-v1';
 const idle: InputFrame = { dx: 0, dy: 0, aim: 0, attack: false, ultimate: false, defense: false };
 const order: ArtId[] = [
   'tianmo',

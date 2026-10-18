@@ -86,9 +86,9 @@ describe('character progression', () => {
     expect(isGameSave(migrated)).toBe(true);
   });
   it('Samja trains through ten stars, other arts cap at five, and its ultimate opens at eight', () => {
-    const {r,f}=fixture();f.arts=[{id:'samja',level:5,gauge:100,combo:0,defenseCd:0}];f.trainingPoints=20;
+    const {r,f}=fixture();f.arts=['samja','huashan','wudang','tianmo'].map(id=>({id:id as 'samja'|'huashan'|'wudang'|'tianmo',level:5,gauge:100,combo:0,defenseCd:0}));f.trainingPoints=20;
     rollOffers(r);expect(r.offers.some(o=>o.art==='samja')).toBe(true);
-    expect(techniqueStats('samja',5,f).attackInterval).toBe(.43);
+    expect(techniqueStats('samja',5).attackInterval).toBe(.43); // Base, before the other capped arts' passives.
     expect(techniqueStats('samja',5,f).ultimateLevel).toBe(8);
     f.arts[0].level=10;r.offers=[];rollOffers(r);
     expect(r.offers.some(o=>o.art==='samja')).toBe(false);

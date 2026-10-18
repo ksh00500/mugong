@@ -122,7 +122,7 @@ for (const role of ['rider', 'assassin', 'icehunter'] as const)
     expect(state).toEqual(copy);
     expect(new Set(hp)).toHaveLength(2);
     expect(landing).toBe(role === 'rider' ? 860 : role === 'assassin' ? 820 : 800);
-    expect(f.hp).toBeCloseTo(114.12);
+    expect(f.hp).toBeCloseTo(111.6);
   });
 for (const role of ['bombardier', 'iceweaver', 'trapper', 'hexer', 'engineer'] as const)
   it(`${role}: 준비 중 플레이어를 조준하고 마지막 0.4초부터 착탄까지 목표를 고정한다`, () => {
@@ -146,12 +146,12 @@ it('얼음 폭탄은 착탄 예고 후 폭발 피해·지속 피해·둔화를 �
   e.timer = 100;
   frames(r, 40);
   expect(f.hp).toBe(120);
-  expect(r.zones?.[0].impactDamage).toBeCloseTo(5.88);
+  expect(r.zones?.[0].impactDamage).toBeCloseTo(8.4);
   const dodge = structuredClone(r);
   dodge.fighter.x = 1500;
   frames(r, 15);
   frames(dodge, 15);
-  expect(f.hp).toBeCloseTo(114.12);
+  expect(f.hp).toBeCloseTo(111.6);
   expect(dodge.fighter.hp).toBe(120);
   expect(movementFactor(r)).toBe(0.7);
   frames(r, 55);
@@ -193,7 +193,7 @@ it('서역 회수환은 조준한 곳까지 날아가고 회수 중 움직인 �
   e.y = 650;
   tick(r, idle, 1 / 60);
   expect(Math.atan2(p.vy, p.vx)).toBeCloseTo(
-    Math.atan2(e.y - (p.y - p.vy / 60), e.x - (p.x - p.vx / 60)),
+    Math.atan2(e.y - 34 - (p.y - p.vy / 60), e.x - (p.x - p.vx / 60)),
   );
   frames(r, 100);
   expect(r.projectiles).not.toContain(p);
@@ -202,13 +202,14 @@ for (const role of ['guard', 'gatekeeper'] as const)
   it(`${role}: 넓어진 창끝의 경계 안에서는 맞고 바깥에서는 피한다`, () => {
     const { r, e, f } = fixture(role);
     Object.assign(e, { state: 'windup', timer: 0, aim: 0 });
-    const profile = enemyAttack(e),
-      radius = profile.range + 19;
-    f.x = e.x + Math.cos(profile.arc - 0.01) * radius;
-    f.y = e.y + Math.sin(profile.arc - 0.01) * radius;
+    const profile = enemyAttack(e), x = profile.range * .6;
+    // Tangency of the upper torso capsule to the lower sector edge. Feet alone
+    // being outside the cone is no longer evidence that the whole body dodged.
+    const boundary = e.y + 18 + x * Math.tan(profile.arc) + 20 / Math.cos(profile.arc);
+    f.x = e.x + x;
+    f.y = boundary - 3;
     const outside = structuredClone(r);
-    outside.fighter.x = e.x + Math.cos(profile.arc + 0.01) * radius;
-    outside.fighter.y = e.y + Math.sin(profile.arc + 0.01) * radius;
+    outside.fighter.y = boundary + 3;
     frames(r, 10);
     frames(outside, 10);
     expect(f.hp).toBeLessThan(120);

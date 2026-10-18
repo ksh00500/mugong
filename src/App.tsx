@@ -15,6 +15,7 @@ import { Field } from './ui/Field';
 import { LoadingScreen } from './ui/LoadingScreen';
 import { SaveRecovery } from './ui/SaveRecovery';
 import { RestMarket } from './ui/RestMarket';
+import { PrepStop } from './ui/PrepStop';
 import { JourneySummary } from './ui/JourneySummary';
 import type { JourneyResult } from './domain/model';
 import { UI_IMAGES, prepareImages, preloadFonts, type ImageProgress } from './platform/assets';
@@ -207,50 +208,14 @@ export default function App() {
               </span>
             </div>
           </div>
-          {fieldReady && r && r.phase === 'prep' && !pendingChoices(r) && !view.bagOpen && (
-            <div className="intermission panel">
-              <div>
-                <span className="eyebrow">
-                  {r.phase === 'prep'
-                    ? t('잠시 숨을 고르다')
-                    : r.wave === 20
-                      ? t('강호 완주')
-                      : t('전투 종료')}
-                </span>
-                <h2>
-                  {r.phase === 'prep'
-                    ? t('다음 시련을 준비하세요')
-                    : r.wave === 20
-                      ? t('세가에 이름을 남기세요')
-                      : t('물품을 챙기세요')}
-                </h2>
-                <p>{t(r.message)}</p>
-              </div>
-              <div className="intermission-actions">
-                <button disabled={view.busy} onClick={() => gameStore.openBag(true)}>
-                  {t('가방과 획득 물품')}
-                </button>
-                {r.phase === 'prep' && (
-                  <>
-                    <button
-                      disabled={view.busy || r.gold < 12 || r.fighter.hp >= 120}
-                      onClick={() => void gameStore.dispatch({ type: 'heal' })}
-                    >
-                      {t('의원 · 회복 12전')}
-                    </button>
-                    <button disabled={view.busy} onClick={() => setMarketOpen(true)}>
-                      {t('정비 상인')}
-                    </button>
-                    <small>{t('소지금 {0}전', { 0: r.gold })}</small>
-                  </>
-                )}
-                <button className="primary" disabled={view.busy} onClick={leaveNext}>
-                  {r.wave === 20
-                    ? t('명부 등록하고 귀환 →')
-                    : t('다음 {0}웨이브 →', { 0: r.wave + 1 })}
-                </button>
-              </div>
-            </div>
+          {fieldReady && r && r.phase === 'prep' && !pendingChoices(r) && (
+            <PrepStop
+              run={r}
+              busy={view.busy}
+              hidden={view.bagOpen || view.paused || !!view.error}
+              onMarket={() => setMarketOpen(true)}
+              onNext={leaveNext}
+            />
           )}
           {marketOpen && r?.phase === 'prep' && (
             <RestMarket run={r} busy={view.busy} onClose={() => setMarketOpen(false)} />
@@ -280,7 +245,9 @@ export default function App() {
           )}
         </main>
       )}
-      {view.bagOpen && !pendingChoices(r) && !view.state.family.training && <Inventory view={view} onNext={leaveNext} />}
+      {view.bagOpen && !pendingChoices(r) && !view.state.family.training && (
+        <Inventory view={view} onNext={leaveNext} />
+      )}
       {leaving && r && (
         <Modal title={t('남은 물품 확인')} onClose={() => setLeaving(false)}>
           <div className="departure-confirm">
@@ -318,8 +285,17 @@ export default function App() {
         </Modal>
       )}
       {warehouse && <Warehouse view={view} close={() => setWarehouse(false)} />}
-      {fieldReady && view.screen === 'field' && r?.fighter.augmentOffers?.length ? <AugmentChoices fighter={r.fighter} busy={view.busy} key={`${r.id}-augment-${r.fighter.augments?.length}`} /> : null}
-      {fieldReady && view.screen === 'field' && r?.offers.length && !r.fighter.augmentOffers?.length ? (
+      {fieldReady && view.screen === 'field' && r?.fighter.augmentOffers?.length ? (
+        <AugmentChoices
+          fighter={r.fighter}
+          busy={view.busy}
+          key={`${r.id}-augment-${r.fighter.augments?.length}`}
+        />
+      ) : null}
+      {fieldReady &&
+      view.screen === 'field' &&
+      r?.offers.length &&
+      !r.fighter.augmentOffers?.length ? (
         <Choices
           key={`run-${r.id}-${r.spent}`}
           fighter={r.fighter}
@@ -327,8 +303,16 @@ export default function App() {
           busy={view.busy}
         />
       ) : null}
-      {trainedFighter?.augmentOffers?.length ? <AugmentChoices fighter={trainedFighter} busy={view.busy} key={`${trainedFighter.id}-augment-${trainedFighter.augments?.length}`} /> : null}
-      {trainedFighter && view.state.family.training?.offers.length && !trainedFighter.augmentOffers?.length ? (
+      {trainedFighter?.augmentOffers?.length ? (
+        <AugmentChoices
+          fighter={trainedFighter}
+          busy={view.busy}
+          key={`${trainedFighter.id}-augment-${trainedFighter.augments?.length}`}
+        />
+      ) : null}
+      {trainedFighter &&
+      view.state.family.training?.offers.length &&
+      !trainedFighter.augmentOffers?.length ? (
         <Choices
           key={`family-${trainedFighter.id}-${trainedFighter.spent}`}
           fighter={trainedFighter}

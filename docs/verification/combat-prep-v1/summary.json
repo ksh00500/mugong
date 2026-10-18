@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "branch": "codex/combat-prep-v1",
+  "base": "fe4ee31ee411f2f604d3888ffd96a16b64a50d5b",
+  "typecheck": true,
+  "unit": { "files": 70, "tests": 1340, "passed": 1340 },
+  "sourceOnly": { "files": 70, "tests": 1340, "passed": 1340, "mediaPixelsValidated": false },
+  "runtimePaths": { "files": 1043, "references": 337, "missing": 0, "lfsPointers": 0 },
+  "build": { "directory": "dist-combat-prep-v1", "modules": 199, "seconds": 7.05, "largeChunkWarning": true },
+  "browserLatestValid": {
+    "total": 20,
+    "preparation": 5,
+    "bodyCanvasWebGL": 2,
+    "combatRegression": 5,
+    "healthCameraRegression": 4,
+    "compiled": 4,
+    "singleUninterruptedRun": false,
+    "preparationWaves": [4, 9, 14, 19],
+    "viewports": [[1440, 900], [1366, 768], [1093, 614]],
+    "languages": ["ko", "en", "ja", "zh-CN", "zh-TW"]
+  },
+  "playerSaveTouched": false,
+  "isolatedBrowserContexts": true,
+  "newRasterAssets": 0,
+  "bossArt": { "bosses": 40, "actions": 185, "logicalFrames": 6660, "changed": false },
+  "localUrl": "http://127.0.0.1:5205/",
+  "publicDeployment": false,
+  "mainMerged": false,
+  "humanBalanceFinalized": false,
+  "initialFailuresAndReruns": "README.md"
+}

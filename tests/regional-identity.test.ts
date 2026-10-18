@@ -150,7 +150,7 @@ it('기마 돌진 경로 안만 피해를 받고 잠근 방향은 뒤따라 바�
   f.x = 780;
   f.y = 500;
   const copy = structuredClone(r);
-  copy.fighter.y = 550;
+  copy.fighter.y = 580; // The torso, not only the feet, must clear the dash corridor.
   tick(r, idle, 1 / 60);
   tick(copy, idle, 1 / 60);
   expect(e.x).toBe(600);
@@ -163,7 +163,7 @@ it('기마 돌진 경로 안만 피해를 받고 잠근 방향은 뒤따라 바�
   expect(copy.fighter.hp).toBe(120);
   expect(e.x).toBe(970);
   expect(e.y).toBe(500);
-  expect(dashHits({ x: 600, y: 500 }, { x: 970, y: 500 }, { x: 780, y: 550 })).toBe(false);
+  expect(dashHits({ x: 600, y: 500 }, { x: 970, y: 500 }, { x: 780, y: 580 })).toBe(false);
 });
 it('호위의 정면 방어는 측후방 공략으로 우회한다', () => {
   const { r, e, f } = fixture(0);

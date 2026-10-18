@@ -229,9 +229,12 @@ it('40보스의 실제 이동·사격 순환을 기록하고 보법 없는 비�
     }
     rows.push({ id, runs });
   }
-  mkdirSync('docs/verification/boss-pressure-v1', { recursive: true });
+  const proof = process.env.MUGONG_COMBAT_PREP_PROOF ?? 'docs/verification/boss-pressure-v1';
+  mkdirSync(proof, { recursive: true });
   writeFileSync(
-    'docs/verification/boss-pressure-v1/simulation.json',
+    process.env.MUGONG_COMBAT_PREP_PROOF
+      ? `${proof}/boss-pressure-simulation.json`
+      : `${proof}/simulation.json`,
     JSON.stringify(rows, null, 2),
   );
   const enabled = rows.map((r) => r.runs[1]);

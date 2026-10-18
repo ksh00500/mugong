@@ -8,6 +8,7 @@ import { lootMessages } from './loot-messages';
 import { supportMessages } from './support-messages';
 import { inventoryMessages } from './inventory-messages';
 import { comparisonMessages } from './comparison-messages';
+import { preparationMessages } from './preparation-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
   ...trainingMessages,
   ...characterMessages,
@@ -18,6 +19,7 @@ export const messages: Record<string, readonly [string, string, string, string]>
   ...supportMessages,
   ...inventoryMessages,
   ...comparisonMessages,
+  ...preparationMessages,
   '화면 흔들림': ['Screen shake', '画面の揺れ', '画面震动', '畫面震動'],
   '끄기': ['Off', 'オフ', '关闭', '關閉'],
   '약하게': ['Subtle', '弱め', '轻微', '輕微'],

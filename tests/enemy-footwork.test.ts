@@ -65,7 +65,9 @@ describe('all hostile roles and bosses: active combat timing', () => {
     });
 });
 afterAll(async () => {
-  const dir = 'docs/verification/enemy-footwork-v4';
+  const dir = process.env.MUGONG_COMBAT_PREP_PROOF
+    ? `${process.env.MUGONG_COMBAT_PREP_PROOF}/footwork`
+    : 'docs/verification/enemy-footwork-v4';
   await mkdir(dir, { recursive: true });
   await writeFile(`${dir}/simulation.json`, JSON.stringify(report, null, 2));
 });
