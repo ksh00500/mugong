@@ -14,7 +14,10 @@
   padding: 4px 10px;
   font-size: 18px;
 }
-.app-shell .settings-dialog .dialog-header > button .ui-icon { width: 20px; height: 20px; }
+.app-shell .settings-dialog .dialog-header > button .ui-icon {
+  width: 20px;
+  height: 20px;
+}
 .app-shell .settings-dialog .settings-tabs {
   display: flex;
   gap: 8px;
@@ -51,6 +54,30 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-content: center;
+}
+.app-shell .settings-dialog .feedback-setting {
+  display: grid;
+  gap: 6px;
+  align-content: center;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-control);
+  background: var(--paper-light);
+}
+.app-shell .settings-dialog .feedback-setting label {
+  font-weight: 700;
+  font-size: 18px;
+}
+.app-shell .settings-dialog .feedback-setting select {
+  width: 100%;
+  min-height: 36px;
+  font-size: 17px;
+}
+.app-shell .settings-dialog .feedback-setting small {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.35;
 }
 .app-shell .settings-dialog .language-setting label {
   font-weight: 700;
@@ -199,9 +226,18 @@
   }
 }
 @media (max-height: 580px) {
-  .app-shell .settings-dialog .audio-settings > p { font-size: 16px; }
-  .app-shell .settings-dialog .audio-settings > small { font-size: 13px; line-height: 1.3; }
-  .app-shell .settings-dialog .audio-channel input { min-height: 24px; max-height: 24px; height: 24px; }
+  .app-shell .settings-dialog .audio-settings > p {
+    font-size: 16px;
+  }
+  .app-shell .settings-dialog .audio-settings > small {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .app-shell .settings-dialog .audio-channel input {
+    min-height: 24px;
+    max-height: 24px;
+    height: 24px;
+  }
   .app-shell .settings-dialog .dialog-header {
     min-height: 48px;
     padding: 8px 12px;

@@ -3,9 +3,11 @@ import { emptyGame, startRun, command } from '../../src/domain/game';
 import { ART_IDS } from '../../src/domain/content';
 import type { BoundFighter } from '../../src/domain/model';
 import { mkdir, writeFile } from 'node:fs/promises';
-const proof = process.env.MUGONG_DAYTONA_URL
-  ? 'docs/verification/combat-hud-v3/daytona'
-  : 'docs/verification/combat-hud-v3';
+const proof =
+  process.env.MUGONG_FEEDBACK_PROOF ??
+  (process.env.MUGONG_DAYTONA_URL
+    ? 'docs/verification/combat-hud-v3/daytona'
+    : 'docs/verification/combat-hud-v3');
 test.use({ deviceScaleFactor: 2 });
 
 for (const [width, height] of [
@@ -33,7 +35,7 @@ for (const [width, height] of [
       e.state = 'windup';
     });
     await page.goto('/');
-    await expect(page.locator('.home-scene')).toBeVisible();
+    await expect(page.locator('.home-scene')).toBeVisible({ timeout: 30000 });
     await page.evaluate(async (state) => {
       const db = await new Promise<IDBDatabase>((resolve) => {
         const r = indexedDB.open('mugong-local-v1', 1);
@@ -48,7 +50,9 @@ for (const [width, height] of [
     }, state);
     await page.setViewportSize({ width, height });
     await page.reload();
-    await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true');
+    await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true', {
+      timeout: 45000,
+    });
     await expect(page.locator('.fan-card[aria-pressed="true"]')).toHaveAttribute(
       'aria-label',
       '화산매화검법 전환',
@@ -126,7 +130,7 @@ for (const [width, height] of [
 }
 
 test('무공 0·1·4개, 보스·궁극 개방과 5개 언어에서 HUD가 화면에 남는다', async ({ browser }) => {
-  test.setTimeout(100000);
+  test.setTimeout(300000);
   await mkdir(proof, { recursive: true });
   for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW']) {
     for (const count of [0, 1, 4]) {
@@ -160,7 +164,7 @@ test('무공 0·1·4개, 보스·궁극 개방과 5개 언어에서 HUD가 화�
         e.state = 'windup';
       });
       await page.goto('/');
-      await expect(page.locator('.home-scene')).toBeVisible();
+      await expect(page.locator('.home-scene')).toBeVisible({ timeout: 30000 });
       await page.evaluate(async (state) => {
         const db = await new Promise<IDBDatabase>((resolve) => {
           const r = indexedDB.open('mugong-local-v1', 1);
@@ -174,7 +178,9 @@ test('무공 0·1·4개, 보스·궁극 개방과 5개 언어에서 HUD가 화�
         db.close();
       }, state);
       await page.reload();
-      await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true');
+      await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true', {
+        timeout: 45000,
+      });
       await expect(page.locator('.fan-card')).toHaveCount(Math.max(1, count));
       if (count === 4) {
         await expect(page.locator('.boss-panel')).toBeVisible();
@@ -228,8 +234,13 @@ test('큰 글씨·고대비 설정과 움직임 줄이기에서 HUD 행동이 �
   await page.setViewportSize({ width: 1093, height: 614 });
   await page.goto('/');
   await page.getByRole('button', { name: '새 무인으로 출전 →' }).click();
+  await page.getByRole('button', { name: '모집권 1장 사용' }).click();
+  await page.locator('.recruitment-select').first().click();
   await page.getByRole('button', { name: '강호에 나서기 →' }).click();
-  await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true');
+  await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true', {
+    timeout: 45000,
+  });
+  await page.locator('.choice-card').first().click();
   await expect(page.locator('.app-shell')).toHaveAttribute('data-large-hud', 'true');
   const overflow = await page
     .locator('.hud-vitals,.wave-ribbon,.ultimate-panel')

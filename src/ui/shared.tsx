@@ -1,5 +1,7 @@
 import { t } from '../platform/i18n';
-import { useRef, type ReactNode } from 'react';
+import { useRef, type ReactNode, type CSSProperties } from 'react';
+import { useMeterFeedback } from './use-meter-feedback';
+import { healthRatio } from '../game/health-trail';
 import type { ArtId } from '../domain/model';
 import { Icon } from './Icons';
 import { PaintedSprite } from './PaintedSprite';
@@ -24,20 +26,33 @@ export function Meter({
   value,
   max,
   kind = 'health',
+  identity = '',
+  label,
 }: {
   value: number;
   max: number;
   kind?: string;
+  identity?: string;
+  label?: string;
 }) {
+  const ratio = healthRatio(value, max),
+    ref = useMeterFeedback(value, max, identity, kind === 'health');
   return (
     <div
-      className={`meter ${kind}`}
+      ref={ref}
+      className={`meter ${kind} feedback-meter`}
+      style={{ '--meter-value': ratio, '--meter-trail': ratio } as CSSProperties}
       role="meter"
+      aria-label={
+        label ?? t(kind === 'health' ? '체력' : kind === 'experience' ? '경험치' : '궁극')
+      }
       aria-valuemin={0}
-      aria-valuemax={max}
-      aria-valuenow={Math.round(value)}
+      aria-valuemax={Math.max(0, max)}
+      aria-valuenow={Math.round(Math.max(0, Math.min(max, value)))}
     >
-      <i style={{ width: `${Math.max(0, Math.min(100, (value / max) * 100))}%` }} />
+      {kind === 'health' && <span className="meter-trail" aria-hidden="true" />}
+      <i className="meter-fill" aria-hidden="true" />
+      <span className="meter-sheen" aria-hidden="true" />
     </div>
   );
 }

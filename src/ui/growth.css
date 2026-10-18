@@ -155,7 +155,16 @@
   padding: 14px 8px;
   font-size: 20px;
   color: #fff8e6;
-  background: #315548;
+  background: linear-gradient(#367b66, #265747);
+  box-shadow: inset 0 1px #bff1d94d;
+  transition: box-shadow var(--motion-fast) var(--ease-ui);
+}
+.app-shell .choice-card:not(:disabled):active .choose-label {
+  box-shadow: inset 0 3px 8px #09251d70;
+}
+.app-shell .choice-card:focus-visible {
+  outline: 3px solid #9bf3de;
+  outline-offset: 4px;
 }
 .app-shell .choice-card.cooldown .choose-label {
   color: #f1e5c9;

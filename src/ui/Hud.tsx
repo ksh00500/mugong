@@ -41,26 +41,30 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
     <div className="hud wuxia-hud" ref={scope}>
       <div className="hud-top">
         <section
-          className={`player-panel ${f.hp < 30 ? 'critical-health' : ''}`}
+          className={`player-panel ${f.hp / maximumHp(f) <= 0.25 ? 'critical-health' : ''}`}
           aria-label={t('무인 상태')}
         >
           <HudArtwork shape="player" />
-          <div className={`hud-portrait ${f.portrait === undefined && f.appearance === undefined ? '' : 'portrait-variant'}`}>
+          <div
+            className={`hud-portrait ${f.portrait === undefined && f.appearance === undefined ? '' : 'portrait-variant'}`}
+          >
             <img src={characterPortrait(f)} decoding="async" alt="" />
           </div>
           <div className="hud-vitals">
             <div className="player-name">
               <b title={f.name}>{f.name}</b>
-              <span>Lv.{f.level}</span>
+              <span className="hud-level" key={f.level}>
+                Lv.{f.level}
+              </span>
             </div>
             <div className="hud-health">
               <div className="health-line">
-                <small>{t('체력')}</small>
+                <small>{t(f.hp / maximumHp(f) <= 0.25 ? '체력 · 위험' : '체력')}</small>
                 <span>
                   {Math.ceil(f.hp)} / {maximumHp(f)}
                 </span>
               </div>
-              <Meter value={f.hp} max={maximumHp(f)} />
+              <Meter value={f.hp} max={maximumHp(f)} identity={f.id} />
             </div>
             <div className="hud-experience">
               <div className="xp-line">
@@ -71,6 +75,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                 </span>
               </div>
               <Meter
+                key={`${f.id}-${f.level}`}
                 value={f.xp - xpThreshold(f.level)}
                 max={nextXp(f.level) - xpThreshold(f.level)}
                 kind="experience"
@@ -95,7 +100,12 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                 )}
               </b>
               <div className="boss-health">
-                <Meter value={boss.hp} max={boss.maxHp} />
+                <Meter
+                  value={boss.hp}
+                  max={boss.maxHp}
+                  identity={`${run.id}-${boss.id}`}
+                  label={t('보스 체력')}
+                />
                 <small>
                   {Math.ceil(boss.hp)} / {boss.maxHp}
                 </small>
@@ -200,7 +210,12 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             <b>{t(art?.id === 'gaebang' ? '취기' : '궁극')}</b>
             <span>{unlocked ? `${Math.floor(art.gauge)} / ${gaugeMax}` : t('미개방')}</span>
           </div>
-          <Meter value={unlocked ? art.gauge : 0} max={gaugeMax} kind="ultimate" />
+          <Meter
+            key={art?.id ?? 'locked'}
+            value={unlocked ? art.gauge : 0}
+            max={gaugeMax}
+            kind="ultimate"
+          />
           <small>
             {unlocked
               ? art.gauge >= 100
@@ -208,7 +223,9 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                   ? t('우클릭으로 강화 예약 · {0}/2', { 0: art.queuedBoosts ?? 0 })
                   : t('우클릭으로 궁극 행동')
                 : t('현재 무공으로 적을 타격해 충전')
-              : t('무공 Lv.{0} 개방', { 0: art ? techniqueStats(art.id, art.level).ultimateLevel : 5 })}
+              : t('무공 Lv.{0} 개방', {
+                  0: art ? techniqueStats(art.id, art.level).ultimateLevel : 5,
+                })}
           </small>
         </section>
         <section className="defense-panel" aria-label={t('방어 행동')}>
@@ -226,10 +243,13 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                   key={a.id}
                   className={`defense-slot ${index === f.active ? 'active' : ''}`}
                   data-art={a.id}
+                  data-state={!available ? 'unarmed' : a.defenseCd > 0 ? 'cooling' : 'ready'}
                   title={t(ARTS[a.id].defense)}
                 >
                   <div
                     className="cooldown-dial"
+                    role="img"
+                    aria-label={`${t(defenseName[a.id])} · ${!available ? t('무장 필요') : a.defenseCd > 0 ? t('{0}초', { 0: a.defenseCd.toFixed(1) }) : t('준비')}`}
                     style={
                       {
                         '--cooldown-turn': `${Math.min(1, a.defenseCd / max) * 360}deg`,
@@ -238,7 +258,9 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                   >
                     <HudArtwork shape="medallion" />
                     <ArtGlyph id={a.id} />
-                    <b>{a.defenseCd > 0 ? a.defenseCd.toFixed(1) : available ? '✓' : '—'}</b>
+                    <b aria-hidden="true">
+                      {a.defenseCd > 0 ? a.defenseCd.toFixed(1) : available ? '✓' : '—'}
+                    </b>
                   </div>
                   <span>{t(defenseName[a.id])}</span>
                 </div>

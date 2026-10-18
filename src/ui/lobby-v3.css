@@ -139,11 +139,14 @@
   padding: 14px 20px;
   gap: 14px;
   border-radius: 13px;
-  background-image: none;
+  background-image: linear-gradient(180deg, #347969, #225347);
   background-color: var(--jade);
-  border: 1px solid #8f845d;
+  border: 1px solid #d0b878;
   color: #fff8e7;
-  box-shadow: 0 7px 20px #2447353c;
+  box-shadow:
+    inset 0 1px 0 #b7ecd84d,
+    inset 0 -2px 0 #102e294d,
+    0 7px 20px #2447353c;
   transition:
     background-color 140ms ease-out,
     border-color 140ms ease-out,
@@ -153,9 +156,17 @@
 .app-shell .home-v3 .home-launch:hover:not(:disabled) {
   transform: none;
   filter: none;
-  background-color: #244739;
-  border-color: #b9a372;
-  box-shadow: 0 9px 24px #2447354a;
+  background-color: #326e5d;
+  border-color: #f4d79a;
+  box-shadow:
+    inset 0 1px 0 #e3fff480,
+    0 0 0 2px #d6b87350,
+    0 9px 24px #2447354a;
+}
+.app-shell .home-v3 .home-launch:active:not(:disabled) {
+  box-shadow:
+    inset 0 3px 8px #102e2973,
+    0 2px 6px #2447353c;
 }
 
 .app-shell .home-v3 .home-launch b {
@@ -355,7 +366,11 @@
   white-space: nowrap;
 }
 
-.app-shell .home-v3 .home-roster-avatar img { width:100%; height:100%; object-fit:contain; }
+.app-shell .home-v3 .home-roster-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .app-shell .home-v3 .home-roster-avatar {
   width: 40px;
   height: 40px;

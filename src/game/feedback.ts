@@ -3,6 +3,8 @@ import type { CombatCue } from '../domain/combat';
 import { sound } from '../platform/audio';
 import { fieldSound, weaponSound } from '../platform/combat-sounds';
 import { t } from '../platform/i18n';
+import { CameraImpulse } from './camera-impulse';
+import { shakeStrength } from '../platform/feedback-preferences';
 
 type Impact = Extract<CombatCue, { kind: 'impact' }> & { born: number };
 type Mark = Extract<CombatCue, { kind: 'defense' }> & { born: number };
@@ -18,6 +20,8 @@ type Caption = {
 
 /** Local recoil and contact feedback only; never freezes the simulation or input. */
 export class CombatFeedback {
+  private cameraImpulse = new CameraImpulse();
+  cameraOffset = { x: 0, y: 0 };
   private impacts = new Map<number | 'hero', Impact>();
   private marks: Mark[] = [];
   private captions: Caption[] = [];
@@ -25,6 +29,7 @@ export class CombatFeedback {
   constructor(private scene: Phaser.Scene) {}
 
   reset() {
+    this.resetCamera();
     for (const caption of this.captions) caption.object.destroy();
     this.captions = [];
     this.impacts.clear();
@@ -34,6 +39,7 @@ export class CombatFeedback {
 
   receive(cues: CombatCue[], now: number, reducedMotion: boolean) {
     let impact = 0,
+      impulse = 0,
       hurt = false,
       counter = false,
       evaded = false,
@@ -41,19 +47,50 @@ export class CombatFeedback {
     const seen = new Set<string>();
     for (const cue of cues) {
       if (cue.kind === 'ultimate') {
-        sound(cue.art === 'tianmo' ? 'blood-burst' : cue.art === 'tang' ? 'poison-burst' : cue.art === 'gaebang' ? 'brew-splash' : cue.art === 'shaolin' ? 'fist-swing' : 'magic-shot');
+        impulse = Math.max(impulse, 0.35);
+        sound(
+          cue.art === 'tianmo'
+            ? 'blood-burst'
+            : cue.art === 'tang'
+              ? 'poison-burst'
+              : cue.art === 'gaebang'
+                ? 'brew-splash'
+                : cue.art === 'shaolin'
+                  ? 'fist-swing'
+                  : 'magic-shot',
+        );
       } else if (cue.kind === 'field') {
         const key = `field-${cue.action}`;
         if (!seen.has(key)) sound(fieldSound(cue.action));
         seen.add(key);
       } else if (cue.kind === 'mechanic') {
-        sound(cue.action === 'bell' ? 'bell' : cue.action === 'reflect' ? 'block' : cue.action === 'repair' ? 'drone-repair' : cue.action === 'sand' ? 'sand-burst' : 'health-exchange');
+        sound(
+          cue.action === 'bell'
+            ? 'bell'
+            : cue.action === 'reflect'
+              ? 'block'
+              : cue.action === 'repair'
+                ? 'drone-repair'
+                : cue.action === 'sand'
+                  ? 'sand-burst'
+                  : 'health-exchange',
+        );
       } else if (cue.kind === 'strike') {
         if (cue.friendly) {
           this.contact = now;
           sound(weaponSound(cue.weapon));
         }
       } else if (cue.kind === 'impact') {
+        impulse = Math.max(
+          impulse,
+          cue.target === 'hero'
+            ? 0.42 + Math.min(0.25, cue.amount / 120)
+            : cue.killed
+              ? 0.16
+              : cue.amount >= 30
+                ? 0.12
+                : 0,
+        );
         this.impacts.set(cue.target, { ...cue, born: now });
         if (cue.target === 'hero') hurt = true;
         else impact = Math.max(impact, cue.killed ? 1 : 0.65);
@@ -70,6 +107,7 @@ export class CombatFeedback {
         seen.add(cue.action);
         this.marks.push({ ...cue, born: now });
         counter ||= cue.action === 'counter';
+        if (cue.action === 'counter') impulse = Math.max(impulse, 0.3);
         evaded ||= cue.action === 'evade';
         blocked ||= cue.action === 'block';
         const label = {
@@ -86,8 +124,10 @@ export class CombatFeedback {
     if (impact) sound('impact', impact);
     if (hurt) {
       sound('hit');
-      if (!reducedMotion) this.scene.cameras.main.shake(65, 0.0012);
     }
+    // Use the strongest cue once per simulation batch; an area hit on twenty
+    // targets must not produce twenty simultaneous camera kicks.
+    if (!reducedMotion && shakeStrength() > 0 && impulse) this.cameraImpulse.add(impulse, now);
     if (counter) sound('parry');
     else if (blocked) sound('block');
     else if (evaded) sound('evade');
@@ -131,6 +171,29 @@ export class CombatFeedback {
   pose(target: number | 'hero', now: number) {
     const hit = this.impacts.get(target);
     return hit ? { ...hit, age: Math.max(0, now - hit.born) } : undefined;
+  }
+
+  resetCamera() {
+    const camera = this.scene.cameras.main;
+    camera.setScroll(camera.scrollX - this.cameraOffset.x, camera.scrollY - this.cameraOffset.y);
+    this.cameraOffset = { x: 0, y: 0 };
+    this.cameraImpulse.reset();
+    camera.shakeEffect.reset();
+  }
+
+  updateCamera(now: number, disabled: boolean) {
+    if (disabled || !shakeStrength()) {
+      this.resetCamera();
+      return;
+    }
+    const camera = this.scene.cameras.main,
+      offset = this.cameraImpulse.sample(now, shakeStrength());
+    const next = { x: offset.x / camera.zoom, y: offset.y / camera.zoom };
+    camera.setScroll(
+      camera.scrollX - this.cameraOffset.x + next.x,
+      camera.scrollY - this.cameraOffset.y + next.y,
+    );
+    this.cameraOffset = next;
   }
 
   draw(g: Phaser.GameObjects.Graphics, now: number, reducedMotion: boolean) {
@@ -215,7 +278,10 @@ export class CombatFeedback {
         return false;
       }
       const rise = reducedMotion ? 0 : 21 * (1 - (1 - p) ** 3);
-      c.object.setPosition(c.x, c.y - rise).setAlpha(p < 0.6 ? 1 : (1 - p) / 0.4);
+      c.object
+        .setPosition(c.x, c.y - rise)
+        .setAlpha(p < 0.6 ? 1 : (1 - p) / 0.4)
+        .setScale(reducedMotion ? 1 : 1 + 0.14 * Math.max(0, 1 - p / 0.22) ** 2);
       return true;
     });
   }

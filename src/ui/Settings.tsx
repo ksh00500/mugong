@@ -2,6 +2,11 @@ import { t, useLanguage, LANGUAGES, setLanguage, isLanguagePreference } from '..
 import { Modal } from './shared';
 import { useEffect, useState } from 'react';
 import { useAudio, setAudioPreferences, setMuted, sound } from '../platform/audio';
+import {
+  useShakePreference,
+  setShakePreference,
+  type ShakePreference,
+} from '../platform/feedback-preferences';
 
 export type UiPreferences = {
   largeHud: boolean;
@@ -22,6 +27,7 @@ export function Settings({
   const [notice, setNotice] = useState('');
   const [tab, setTab] = useState<'display' | 'audio'>('display');
   const audio = useAudio();
+  const shake = useShakePreference();
   const channels = [
     ['master', '전체 음량'],
     ['music', '배경음악'],
@@ -161,6 +167,19 @@ export function Settings({
           </span>
           <i aria-hidden="true" />
         </button>
+        <div className="feedback-setting" data-setting="display">
+          <label htmlFor="screen-shake">{t('화면 흔들림')}</label>
+          <select
+            id="screen-shake"
+            value={shake}
+            onChange={(event) => setShakePreference(event.target.value as ShakePreference)}
+          >
+            <option value="off">{t('끄기')}</option>
+            <option value="subtle">{t('약하게')}</option>
+            <option value="standard">{t('보통')}</option>
+          </select>
+          <small>{t('움직임 감소 설정에서는 흔들림이 꺼집니다.')}</small>
+        </div>
       </div>
       <div
         id="audio-settings"

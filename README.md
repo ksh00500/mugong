@@ -2,6 +2,8 @@
 
 탑뷰 무협 액션 로그라이크 브라우저 게임. 새 무인을 Lv.0부터 키우며 강호20웨이브를 진행하고 세가 명부·가방·창고를 관리한다. 현재 소스는 **React19 · Phaser4 · TypeScript · Vite7** 기반이다.
 
+현재 UI는 즉시 체력 감소·흰 피해 잔량·회복·위험 상태, 강도 조절 카메라 충격, 청옥색 궁극기와 방어 준비 표시를 사용한다. [UI 피드백 범위와 검사](docs/ui-feedback-v1.md).
+
 **소스·메타데이터·문서는 GitHub, 그림·소리·폰트는 개인 서버에 별도 보관**한다. 이 브랜치는 Git LFS를 사용하지 않는다. 소스만 복제한 상태에서는 게임을 실행할 수 없으며 일치하는 실행용 에셋 묶음을 복원해야 한다.
 
 ## 개인 Linux 서버에서 실행
@@ -9,7 +11,7 @@
 Docker Engine·Compose가 필요하다. 에셋 묶음과 SHA256 파일을 개인 서버에 먼저 복사한다.
 
 ```sh
-git clone --branch codex/three-regions-complete https://github.com/ksh00500/mugong.git
+git clone --branch codex/ui-feedback-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 # /srv/mugong-assets에 전달받은 에셋이 있다고 가정
 (cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)

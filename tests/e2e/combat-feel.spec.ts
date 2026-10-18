@@ -6,7 +6,9 @@ import { makeLootItem } from '../../src/domain/items';
 import type { ArtId, BoundFighter, GameState } from '../../src/domain/model';
 
 const publicBuild = !!process.env.MUGONG_DAYTONA_URL;
-const proof = `docs/verification/combat-feel-v1${publicBuild ? '/daytona' : ''}`;
+const proof =
+  process.env.MUGONG_FEEDBACK_PROOF ??
+  `docs/verification/combat-feel-v1${publicBuild ? '/daytona' : ''}`;
 test.use({ deviceScaleFactor: 2 });
 
 function fixture(kind: 'impact' | 'dash' | 'radial' | 'counter' | 'block') {
@@ -145,6 +147,9 @@ async function observe(page: Page, freeze: 'impact' | 'counter' | 'block' | null
         }
       });
   }, freeze);
+  // Wait for the actual Phaser scene to render with the observer attached before
+  // a cue can freeze it. Module readiness alone does not guarantee a rendered frame.
+  await page.waitForFunction(() => !!(window as any).combatScene);
 }
 
 for (const [width, height] of [

@@ -151,7 +151,7 @@ export function Lobby({
                   {Math.ceil(run.fighter.hp)} / {maximumHp(run.fighter)}
                 </b>
               </div>
-              <Meter value={run.fighter.hp} max={maximumHp(run.fighter)} />
+              <Meter value={run.fighter.hp} max={maximumHp(run.fighter)} identity={run.fighter.id} />
             </div>
           ) : (
             <div className="home-start-facts">
@@ -270,7 +270,7 @@ export function Lobby({
                       {Math.ceil(fighter.hp)} / {maximumHp(fighter)}
                     </b>
                   </div>
-                  <Meter value={fighter.hp} max={maximumHp(fighter)} />
+                  <Meter value={fighter.hp} max={maximumHp(fighter)} identity={fighter.id} />
                   <div className="home-art-list">
                     {fighter.arts.map((a) => (
                       <div

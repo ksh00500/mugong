@@ -442,7 +442,7 @@ export function Inventory({
                   {Math.ceil(f.hp)} / {maximumHp(f)}
                 </b>
               </div>
-              <Meter value={f.hp} max={maximumHp(f)} />
+              <Meter value={f.hp} max={maximumHp(f)} identity={f.id} />
               {f.expiresAt && <p className="remaining">
                 <Icon name="clock" />
                 {lifespan(f.expiresAt)}

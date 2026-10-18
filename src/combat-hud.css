@@ -14,8 +14,8 @@
   background:
     radial-gradient(ellipse at 0 100%, #09140d78, transparent 38%),
     radial-gradient(ellipse at 100% 100%, #09140d70, transparent 32%),
-    linear-gradient(to top, #0b190fa6, transparent 150px),
-    linear-gradient(#10170c35, transparent 18%);
+    linear-gradient(to top, #0b190f78, transparent 150px),
+    linear-gradient(#10170c20, transparent 18%);
   pointer-events: none;
 }
 .app-shell .wuxia-hud .hud-artwork {
@@ -155,10 +155,20 @@
 .app-shell .wuxia-hud .health-line small {
   font-size: 10px;
   color: #fff5df;
+  text-shadow:
+    0 1px 2px #51101a,
+    0 0 3px #25151c;
 }
 .app-shell .wuxia-hud .health-line > span {
   font-size: 11px;
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: #10212bd9;
   color: #fff5df;
+  font-weight: 700;
+  text-shadow:
+    0 1px 2px #51101a,
+    0 0 3px #25151c;
 }
 .app-shell .wuxia-hud .hud-experience {
   margin-top: 3px;
@@ -185,9 +195,9 @@
 }
 .app-shell .wuxia-hud .meter {
   margin: 0;
-  border: 1px solid #59442f;
+  border: 1px solid var(--meter-edge);
   border-radius: 8px;
-  background: #2c3128;
+  background: var(--meter-track);
   box-shadow:
     inset 0 1px 3px #0008,
     0 1px 0 #fff5;
@@ -196,15 +206,38 @@
 .app-shell .wuxia-hud .meter i {
   border-radius: inherit;
   box-shadow: inset 0 1px 1px #fff5;
-  background: linear-gradient(#e56249, #b83b31);
-  transition: width 120ms ease-out;
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
+}
+.app-shell .wuxia-hud .hud-level {
+  border-radius: 4px;
+  padding: 1px 4px;
+  background: #f9e3a47a;
+  color: #624417;
+  font-variant-numeric: tabular-nums;
+  animation: hud-level-in 320ms var(--ease-ui) both;
+}
+@keyframes hud-level-in {
+  from {
+    background-color: #ffe5a0;
+    box-shadow: 0 0 0 3px #edbd4b6b;
+  }
+  to {
+    background-color: #f9e3a47a;
+    box-shadow: 0 0 0 0 #edbd4b00;
+  }
+}
+.app-shell .wuxia-hud .critical-health .hud-portrait {
+  filter: drop-shadow(0 0 3px #f4506599);
+}
+.app-shell .wuxia-hud .critical-health .health-line small {
+  font-weight: 700;
 }
 .app-shell .wuxia-hud .meter.experience {
   height: 4px;
   border: 0;
 }
 .app-shell .wuxia-hud .meter.experience i {
-  background: #bba169;
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
 }
 .app-shell .wuxia-hud .boss-area {
   display: block;
@@ -267,7 +300,15 @@
 }
 .app-shell .wuxia-hud .boss-panel small {
   position: absolute;
-  inset: 0;
+  top: 1px;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 100%;
+  padding: 0 5px;
+  border-radius: 3px;
+  background: #10212bd9;
   display: grid;
   place-items: center;
   font-size: 11px;
@@ -462,7 +503,7 @@
 .app-shell .wuxia-hud .fan-leaf .art-glyph {
   width: 42px;
   height: 42px;
-  filter: saturate(0.65) contrast(1.15);
+  filter: saturate(1.08) contrast(1.08);
 }
 .app-shell .wuxia-hud .fan-card.selected .fan-leaf {
   background: radial-gradient(#fff2c5e8, #e5c67b6b);
@@ -540,7 +581,7 @@
   border-radius: 3px 7px 3px 6px;
 }
 .app-shell .wuxia-hud .ultimate-panel .meter i {
-  background: linear-gradient(#e8c980, #a37d3e);
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
 }
 .app-shell .wuxia-hud .ultimate-panel small {
   position: absolute;
@@ -553,7 +594,7 @@
     0 0 3px #071a0b;
 }
 .app-shell .wuxia-hud .ultimate-ready .hud-artwork {
-  filter: drop-shadow(0 0 4px #e9c56c);
+  filter: drop-shadow(0 0 5px #6adce1a0);
 }
 .app-shell .wuxia-hud .ultimate-ready {
   animation: none;
@@ -564,7 +605,34 @@
   color: var(--hud-ivory);
 }
 .app-shell .wuxia-hud .ultimate-ready .meter i {
-  background: linear-gradient(#fff0aa, #d5ae58);
+  background: linear-gradient(#d8ffff, #30bbd2);
+}
+.app-shell .wuxia-hud .ultimate-ready .ultimate-heading span {
+  color: #b8fbff;
+  text-shadow: 0 1px 2px #062431;
+}
+.app-shell .wuxia-hud .ultimate-ready .meter {
+  border-color: #a3f3e8;
+  box-shadow:
+    0 0 0 1px #082c42,
+    0 0 8px #3fe3ee70;
+}
+.app-shell .wuxia-hud .ultimate-ready .meter::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: linear-gradient(110deg, transparent 35%, #fff9 50%, transparent 65%);
+  animation: hud-ready-sweep 440ms ease-out both;
+  pointer-events: none;
+}
+@keyframes hud-ready-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
 .app-shell .wuxia-hud .defense-panel {
   height: 132px;
@@ -622,7 +690,7 @@
   position: relative;
   width: 40px;
   height: 40px;
-  opacity: 0.58;
+  opacity: 0.7;
 }
 .app-shell .wuxia-hud .cooldown-dial::after {
   content: '';
@@ -647,6 +715,49 @@
   box-shadow:
     0 0 0 2px #e4c27e90,
     0 2px 5px #071810a0;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .cooldown-dial {
+  border-color: #88ddbd;
+  background: #164b47;
+  box-shadow:
+    inset 0 1px 3px #d7fff755,
+    0 2px 5px #071810a0;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .art-glyph {
+  opacity: 1;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .cooldown-dial b {
+  inset: auto 0 0 auto;
+  min-width: 14px;
+  height: 16px;
+  padding: 0 1px;
+  border-radius: 50%;
+  background: #173f34;
+  color: #beffe4;
+  font-size: 12px;
+}
+.app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border: 2px solid #c7ffe6;
+  border-radius: 50%;
+  animation: hud-defense-ready 360ms ease-out both;
+  pointer-events: none;
+}
+@keyframes hud-defense-ready {
+  from {
+    transform: scale(0.94);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(1.16);
+    opacity: 0;
+  }
+}
+.app-shell .wuxia-hud .defense-slot[data-state='unarmed'] .art-glyph {
+  filter: grayscale(0.8);
+  opacity: 0.35;
 }
 .app-shell .wuxia-hud .defense-slot > span {
   display: block;
@@ -1078,6 +1189,15 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .app-shell .wuxia-hud .hud-level,
+  .app-shell .wuxia-hud .ultimate-ready .meter::after,
+  .app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+    animation: none;
+  }
+  .app-shell .wuxia-hud .ultimate-ready .meter::after,
+  .app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+    display: none;
+  }
   .app-shell .wuxia-hud :is(.meter i, .fan-card, .fan-leaf) {
     transition: none;
   }

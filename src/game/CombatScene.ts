@@ -46,6 +46,7 @@ import { authoredEnemyFrame, registerAuthoredEnemy, authoredEnemyArt } from './a
 import { bossSpecialFrame, bossHealthClearance } from './boss-special';
 import { bossMotionClock } from './boss-motion';
 import { PLAYER_VISUAL_SCALE } from './player-visual';
+import { HealthTrail } from './health-trail';
 
 export class CombatScene extends Phaser.Scene {
   private heroFrames = new Map<string, CharacterFrame>();
@@ -56,6 +57,7 @@ export class CombatScene extends Phaser.Scene {
   private paintedEffects!: PaintedEffects;
   private paintedZones!: PaintedZones;
   private feedback!: CombatFeedback;
+  private healthTrails = new Map<number, HealthTrail>();
   private cues: CombatCue[] = [];
   private aim = -Math.PI / 2;
   private left = false;
@@ -171,7 +173,7 @@ export class CombatScene extends Phaser.Scene {
     const onMotion = () => {
       this.reducedMotion = motion.matches;
       this.paintedEffects.reducedMotion = motion.matches;
-      if (motion.matches) this.cameras.main.shakeEffect.reset();
+      if (motion.matches) this.feedback.resetCamera();
     };
     motion.addEventListener('change', onMotion);
     const props = this.textures.get('encounter-props'),
@@ -316,14 +318,22 @@ export class CombatScene extends Phaser.Scene {
     this.input.on('pointermove', (p: Phaser.Input.Pointer) => {
       const f = gameStore.state.run?.fighter,
         world = this.cameras.main.getWorldPoint(p.x, p.y);
-      if (f) this.aim = Math.atan2(world.y - (f.y - 35), world.x - f.x);
+      if (f)
+        this.aim = Math.atan2(
+          world.y - this.feedback.cameraOffset.y - (f.y - 35),
+          world.x - this.feedback.cameraOffset.x - f.x,
+        );
     });
     this.input.on('pointerdown', (p: Phaser.Input.Pointer) => {
       if (!gameStore.rendererReady) return;
       unlockAudio();
       const f = gameStore.state.run?.fighter;
       const world = this.cameras.main.getWorldPoint(p.x, p.y);
-      if (f) this.aim = Math.atan2(world.y - (f.y - 35), world.x - f.x);
+      if (f)
+        this.aim = Math.atan2(
+          world.y - this.feedback.cameraOffset.y - (f.y - 35),
+          world.x - this.feedback.cameraOffset.x - f.x,
+        );
       this.left = p.leftButtonDown();
       this.right = p.rightButtonDown();
       this.attackPressed ||= this.left;
@@ -346,6 +356,7 @@ export class CombatScene extends Phaser.Scene {
       window.removeEventListener('pointerup', pointerUp);
       motion.removeEventListener('change', onMotion);
       this.feedback.reset();
+      this.healthTrails.clear();
       this.motionClock.reset();
       this.poseTransition.reset();
       this.heldWeapon.destroy();
@@ -373,6 +384,7 @@ export class CombatScene extends Phaser.Scene {
     if (run && this.activeRun !== run.id) {
       this.activeRun = run.id;
       this.feedback.reset();
+      this.healthTrails.clear();
       this.cues = [];
       this.lastLevel = run.fighter.level;
       this.wasDead = run.phase === 'dead';
@@ -437,6 +449,15 @@ export class CombatScene extends Phaser.Scene {
       }
     }
     this.draw(gameStore.state.run);
+    this.feedback.updateCamera(
+      this.animationTime,
+      this.reducedMotion ||
+        gameStore.paused ||
+        gameStore.bagOpen ||
+        this.artLoading ||
+        pendingChoices(gameStore.state.run) ||
+        gameStore.state.run?.phase !== 'combat',
+    );
   }
   private actor(id: string, texture: string) {
     let actor = this.actors.get(id);
@@ -1104,14 +1125,7 @@ export class CombatScene extends Phaser.Scene {
       clearance,
     });
     g.fillStyle(0x152b20, 0.22).fillEllipse(e.x, e.y + 3, 40 * scale, 13 * scale);
-    g.fillStyle(0x19201b, 0.85).fillRoundedRect(e.x - 26 * scale, barY, 52 * scale, 5, 2);
-    g.fillStyle(0xb84136, 1).fillRoundedRect(
-      e.x - 26 * scale,
-      barY,
-      (52 * scale * e.hp) / e.maxHp,
-      5,
-      2,
-    );
+    this.drawHealthBar(e, e.x - 26 * scale, barY, 52 * scale);
     // Rank markers work in Canvas too, where sprite tint is not a reliable distinction.
     if (boss || e.elite) {
       const markY = barY - 10;
@@ -1252,15 +1266,43 @@ export class CombatScene extends Phaser.Scene {
     this.graphics
       .fillStyle(0x152b20, 0.22)
       .fillEllipse(e.x, e.y + 3, art.id === 'rider' ? 70 : 40, art.id === 'rider' ? 19 : 13);
-    this.graphics.fillStyle(0x19201b, 0.85).fillRoundedRect(e.x - 26, barY, 52, 5, 2);
-    this.graphics
-      .fillStyle(0xb84136, 1)
-      .fillRoundedRect(e.x - 26, barY, (52 * e.hp) / e.maxHp, 5, 2);
+    this.drawHealthBar(e, e.x - 26, barY, 52);
     if (isBossEnemy(e) || e.elite)
       this.graphics
         .fillStyle(e.elite ? 0xe8bdd0 : 0xf2d287, 1)
         .fillTriangle(e.x, barY - 14, e.x - 3, barY - 7, e.x + 3, barY - 7);
   }
+  private drawHealthBar(enemy: Enemy, x: number, y: number, width: number) {
+    let health = this.healthTrails.get(enemy.id);
+    if (!health) {
+      health = new HealthTrail();
+      this.healthTrails.set(enemy.id, health);
+    }
+    health.update(enemy.hp, enemy.maxHp, this.animationTime, enemy.bossId ?? enemy.kind);
+    const sample = health.sample(this.animationTime, this.reducedMotion),
+      g = this.graphics;
+    const inner = width - 2;
+    // Keep the existing five-pixel envelope and fixed ground clearance. Every
+    // renderer, including Canvas, gets real white damage pixels and a bright fill.
+    g.fillStyle(isBossEnemy(enemy) ? 0x997442 : 0x45606a, 0.95).fillRoundedRect(x, y, width, 5, 2);
+    g.fillStyle(0x10212b, 1).fillRect(x + 1, y + 1, inner, 3);
+    if (sample.trail > sample.ratio)
+      g.fillStyle(sample.phase === 'hit' ? 0xffffff : 0xffe6b7, 1).fillRect(
+        x + 1,
+        y + 1,
+        inner * sample.trail,
+        3,
+      );
+    if (sample.ratio > 0) {
+      g.fillStyle(
+        sample.phase === 'heal' ? 0x3bd1a0 : sample.level === 'critical' ? 0xff4956 : 0xf46a50,
+        1,
+      ).fillRect(x + 1, y + 1, inner * sample.ratio, 3);
+      g.fillStyle(0xffc293, 0.9).fillRect(x + 1, y + 1, inner * sample.ratio, 1);
+    }
+    this.actors.get(String(enemy.id))?.setData('healthTrail', sample);
+  }
+
   private drawContinuous(
     id: string,
     image: Phaser.GameObjects.Image,
@@ -1360,6 +1402,7 @@ export class CombatScene extends Phaser.Scene {
     }
     if (this.renderWave !== r.wave) {
       this.renderWave = r.wave;
+      this.healthTrails.clear();
       this.seenAlive.clear();
       this.deaths.clear();
     }
@@ -1497,6 +1540,7 @@ export class CombatScene extends Phaser.Scene {
       ) {
         this.actors.get(id)?.destroy();
         this.actors.delete(id);
+        this.healthTrails.delete(Number(id));
         this.continuousActors.get(id)?.destroy();
         this.continuousActors.delete(id);
         this.motionClock.delete(id);
