@@ -27,9 +27,9 @@ describe('whole Zhuge authored family', () => {
     );
     for (const e of cases) expect(authoredEnemyArt(e, 6)?.id).not.toBe(authoredEnemyArt(e, 9)?.id);
   });
-  it('loads only its 35 native character sheets and floor for the region', () => {
+  it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(9);
-    expect(Object.keys(manifest)).toHaveLength(36);
+    expect(Object.keys(manifest)).toHaveLength(56);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/zhuge-family-v1/')),
     ).toHaveLength(35);
@@ -43,7 +43,9 @@ describe('whole Zhuge authored family', () => {
       expect(art.frames).toHaveLength(60);
       expect(art.pixelScale).toBe(0.225);
       for (const f of art.frames) {
-        expect([f.width, f.height]).toEqual([art.cell.width, art.cell.height]);
+        // Corrected southeast sources have spacious sheets of their own.
+        const sibling = art.frames.find((g) => g.texture === f.texture)!;
+        expect([f.width, f.height]).toEqual([sibling.width, sibling.height]);
         expect(
           Math.min(
             f.bounds.left,

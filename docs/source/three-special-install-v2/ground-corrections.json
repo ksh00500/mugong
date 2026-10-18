@@ -1,0 +1,22 @@
+{
+  "coordinateSpace": "packed native frame pixels, before runtime scale 0.225",
+  "review": "Reviewed boot-marked 5-view plates for all twelve actors. Enlarged ruler plates used for Asar/Arkan where low blades contaminated the old automatic proposals. Planted soles, not blade tips, define corrected ground points.",
+  "basicReady": {
+    "asar": { "0": [205,337], "1": [210,340], "2": [190,347], "3": [212,368], "4": [171,342] },
+    "arkan": { "0": [213,330], "1": [219,334], "2": [212,342], "3": [212,342], "4": [176,343] }
+  },
+  "special": {
+    "asar": {
+      "0-dash-3": [72,294], "0-stance-1": [180,332], "0-stance-3": [300,344], "0-stance-4": [315,345],
+      "1-dash-3": [305,327], "1-stance-1": [170,350], "1-stance-2": [350,315], "1-stance-3": [350,318], "1-stance-4": [110,330],
+      "2-dash-2": [80,303], "2-dash-3": [80,275]
+    },
+    "arkan": {
+      "0-stance-1": [120,333], "0-stance-2": [210,330], "0-stance-3": [210,330], "0-stance-4": [255,330],
+      "1-stance-1": [115,350], "1-stance-2": [235,320], "1-stance-3": [250,342], "1-stance-4": [250,344],
+      "2-sweep-4": [120,329], "2-stance-1": [120,343], "2-stance-2": [75,325], "2-stance-3": [120,337], "2-stance-4": [115,350]
+    }
+  },
+  "newNayaSourceBoots": [[250,492],[828,505],[275,962],[805,986],[270,1480]],
+  "otherActors": "Draft proposals retained after foot-marked plate review; no automatic scan runs in the renderer. Art review is not a guarantee of anatomical perfection."
+}

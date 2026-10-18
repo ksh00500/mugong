@@ -31,9 +31,9 @@ describe('whole Hyeolma authored family', () => {
     );
     for (const e of cases) expect(authoredEnemyArt(e, 6)?.id).not.toBe(authoredEnemyArt(e, 8)?.id);
   });
-  it('loads only its 35 native character sheets and floor for the region', () => {
+  it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(8);
-    expect(Object.keys(manifest)).toHaveLength(36);
+    expect(Object.keys(manifest)).toHaveLength(56);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/hyeolma-family-v1/')),
     ).toHaveLength(35);

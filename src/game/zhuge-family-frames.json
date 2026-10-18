@@ -7746,312 +7746,330 @@
       "frames": [
         {
           "name": "1-locomotion-0",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 0,
           "sourcePose": 0,
           "x": 0,
           "y": 0,
-          "width": 512,
-          "height": 448,
-          "footX": 166,
-          "footY": 355,
+          "width": 480,
+          "height": 416,
+          "footX": 152,
+          "footY": 354,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 283,
+            "right": 272,
             "bottom": 357
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 0
           },
           "sourceBounds": {
-            "left": 54,
-            "top": 49,
-            "right": 305,
-            "bottom": 374
-          }
+            "left": 83,
+            "top": 38,
+            "right": 336,
+            "bottom": 380
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-locomotion-1",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 1,
           "sourcePose": 1,
-          "x": 512,
+          "x": 480,
           "y": 0,
-          "width": 512,
-          "height": 448,
-          "footX": 162,
-          "footY": 355,
+          "width": 480,
+          "height": 416,
+          "footX": 155,
+          "footY": 362,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 266,
-            "bottom": 357
+            "right": 277,
+            "bottom": 365
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 1
           },
           "sourceBounds": {
-            "left": 425,
-            "top": 49,
-            "right": 659,
-            "bottom": 374
-          }
+            "left": 440,
+            "top": 37,
+            "right": 698,
+            "bottom": 387
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-locomotion-2",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 2,
           "sourcePose": 2,
-          "x": 1024,
+          "x": 960,
           "y": 0,
-          "width": 512,
-          "height": 448,
-          "footX": 116,
-          "footY": 355,
+          "width": 480,
+          "height": 416,
+          "footX": 152,
+          "footY": 366,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 280,
-            "bottom": 357
+            "right": 272,
+            "bottom": 368
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 2
           },
           "sourceBounds": {
-            "left": 777,
-            "top": 50,
-            "right": 1025,
-            "bottom": 375
-          }
+            "left": 808,
+            "top": 38,
+            "right": 1061,
+            "bottom": 392
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-locomotion-3",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 3,
           "sourcePose": 3,
-          "x": 1536,
+          "x": 1440,
           "y": 0,
-          "width": 512,
-          "height": 448,
-          "footX": 107,
-          "footY": 358,
+          "width": 480,
+          "height": 416,
+          "footX": 155,
+          "footY": 362,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 276,
-            "bottom": 360
+            "right": 277,
+            "bottom": 365
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 3
           },
           "sourceBounds": {
-            "left": 1146,
-            "top": 48,
-            "right": 1390,
-            "bottom": 376
-          }
+            "left": 1166,
+            "top": 37,
+            "right": 1424,
+            "bottom": 387
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-locomotion-4",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 4,
           "sourcePose": 4,
           "x": 0,
-          "y": 448,
-          "width": 512,
-          "height": 448,
-          "footX": 147,
-          "footY": 319,
+          "y": 416,
+          "width": 480,
+          "height": 416,
+          "footX": 145,
+          "footY": 314,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 263,
-            "bottom": 321
+            "right": 257,
+            "bottom": 317
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 4
           },
           "sourceBounds": {
-            "left": 73,
-            "top": 421,
-            "right": 304,
-            "bottom": 710
-          }
+            "left": 81,
+            "top": 429,
+            "right": 318,
+            "bottom": 729
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-locomotion-5",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 5,
           "sourcePose": 5,
-          "x": 512,
-          "y": 448,
-          "width": 512,
-          "height": 448,
-          "footX": 229,
-          "footY": 187,
+          "x": 480,
+          "y": 416,
+          "width": 480,
+          "height": 416,
+          "footX": 224,
+          "footY": 176,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 425,
-            "bottom": 189
+            "right": 417,
+            "bottom": 179
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 5
           },
           "sourceBounds": {
-            "left": 356,
-            "top": 558,
-            "right": 749,
-            "bottom": 715
-          }
+            "left": 354,
+            "top": 581,
+            "right": 759,
+            "bottom": 736
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-0",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 0,
           "sourcePose": 6,
-          "x": 1024,
-          "y": 448,
-          "width": 512,
-          "height": 448,
-          "footX": 169,
-          "footY": 336,
+          "x": 960,
+          "y": 416,
+          "width": 480,
+          "height": 416,
+          "footX": 154,
+          "footY": 333,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 265,
-            "bottom": 338
+            "right": 276,
+            "bottom": 336
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 6
           },
           "sourceBounds": {
-            "left": 782,
-            "top": 404,
-            "right": 1015,
-            "bottom": 710
-          }
+            "left": 803,
+            "top": 412,
+            "right": 1060,
+            "bottom": 732
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-1",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1536,
-          "y": 448,
-          "width": 512,
-          "height": 448,
-          "footX": 217,
-          "footY": 338,
+          "x": 1440,
+          "y": 416,
+          "width": 480,
+          "height": 416,
+          "footX": 166,
+          "footY": 328,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 307,
-            "bottom": 340
+            "right": 301,
+            "bottom": 331
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 7
           },
           "sourceBounds": {
-            "left": 1153,
-            "top": 404,
-            "right": 1428,
-            "bottom": 712
-          }
+            "left": 1155,
+            "top": 416,
+            "right": 1438,
+            "bottom": 731
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-2",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 2,
           "sourcePose": 8,
           "x": 0,
-          "y": 896,
-          "width": 512,
-          "height": 448,
-          "footX": 153,
-          "footY": 338,
+          "y": 832,
+          "width": 480,
+          "height": 416,
+          "footX": 191,
+          "footY": 332,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 350,
-            "bottom": 340
+            "right": 349,
+            "bottom": 335
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 8
           },
           "sourceBounds": {
-            "left": 58,
-            "top": 732,
-            "right": 376,
-            "bottom": 1040
-          }
+            "left": 64,
+            "top": 746,
+            "right": 398,
+            "bottom": 1065
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-3",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 3,
           "sourcePose": 9,
-          "x": 512,
-          "y": 896,
-          "width": 512,
-          "height": 448,
-          "footX": 61,
-          "footY": 342,
+          "x": 480,
+          "y": 832,
+          "width": 480,
+          "height": 416,
+          "footX": 180,
+          "footY": 335,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 331,
-            "bottom": 344
+            "right": 328,
+            "bottom": 338
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
@@ -8059,74 +8077,80 @@
           },
           "sourceBounds": {
             "left": 430,
-            "top": 731,
-            "right": 729,
-            "bottom": 1043
-          }
+            "top": 743,
+            "right": 742,
+            "bottom": 1065
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-4",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 4,
           "sourcePose": 10,
-          "x": 1024,
-          "y": 896,
-          "width": 512,
-          "height": 448,
-          "footX": 148,
-          "footY": 339,
+          "x": 960,
+          "y": 832,
+          "width": 480,
+          "height": 416,
+          "footX": 157,
+          "footY": 337,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 282,
-            "bottom": 341
+            "right": 283,
+            "bottom": 340
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 10
           },
           "sourceBounds": {
-            "left": 801,
-            "top": 734,
-            "right": 1051,
-            "bottom": 1043
-          }
+            "left": 797,
+            "top": 743,
+            "right": 1061,
+            "bottom": 1067
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "1-combat-5",
-          "texture": "zhuge-family-mukyeon-front-right",
+          "texture": "zhuge-family-mukyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 5,
           "sourcePose": 11,
-          "x": 1536,
-          "y": 896,
-          "width": 512,
-          "height": 448,
-          "footX": 167,
-          "footY": 343,
+          "x": 1440,
+          "y": 832,
+          "width": 480,
+          "height": 416,
+          "footX": 156,
+          "footY": 333,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 281,
-            "bottom": 345
+            "right": 279,
+            "bottom": 336
           },
-          "source": "mukyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 11
           },
           "sourceBounds": {
-            "left": 1158,
-            "top": 730,
-            "right": 1407,
-            "bottom": 1043
-          }
+            "left": 1164,
+            "top": 748,
+            "right": 1424,
+            "bottom": 1068
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9502923976608187
         },
         {
           "name": "0-locomotion-0",
@@ -9679,387 +9703,411 @@
       "frames": [
         {
           "name": "1-locomotion-0",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 0,
           "sourcePose": 0,
           "x": 0,
           "y": 0,
-          "width": 704,
-          "height": 448,
-          "footX": 209,
-          "footY": 365,
+          "width": 576,
+          "height": 416,
+          "footX": 201,
+          "footY": 364,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 316,
+            "right": 371,
             "bottom": 367
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 0
           },
           "sourceBounds": {
-            "left": 9,
-            "top": 67,
-            "right": 293,
-            "bottom": 402
-          }
+            "left": 27,
+            "top": 58,
+            "right": 371,
+            "bottom": 398
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-locomotion-1",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 1,
           "sourcePose": 1,
-          "x": 704,
+          "x": 576,
           "y": 0,
-          "width": 704,
-          "height": 448,
-          "footX": 172,
-          "footY": 354,
+          "width": 576,
+          "height": 416,
+          "footX": 196,
+          "footY": 362,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 316,
-            "bottom": 356
+            "right": 360,
+            "bottom": 365
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 1
           },
           "sourceBounds": {
-            "left": 384,
-            "top": 82,
-            "right": 668,
-            "bottom": 406
-          }
+            "left": 423,
+            "top": 60,
+            "right": 756,
+            "bottom": 398
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-locomotion-2",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 2,
           "sourcePose": 2,
-          "x": 1408,
+          "x": 1152,
           "y": 0,
-          "width": 704,
-          "height": 448,
-          "footX": 171,
-          "footY": 358,
+          "width": 576,
+          "height": 416,
+          "footX": 199,
+          "footY": 354,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 307,
-            "bottom": 360
+            "right": 366,
+            "bottom": 357
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 2
           },
           "sourceBounds": {
-            "left": 790,
-            "top": 79,
-            "right": 1065,
-            "bottom": 407
-          }
+            "left": 783,
+            "top": 64,
+            "right": 1122,
+            "bottom": 394
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-locomotion-3",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 3,
           "sourcePose": 3,
-          "x": 2112,
+          "x": 1728,
           "y": 0,
-          "width": 704,
-          "height": 448,
-          "footX": 176,
-          "footY": 352,
+          "width": 576,
+          "height": 416,
+          "footX": 212,
+          "footY": 365,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 306,
-            "bottom": 354
+            "right": 393,
+            "bottom": 367
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-two-poses.png",
           "sourceCell": {
-            "columns": 4,
-            "rows": 3,
-            "index": 3
+            "columns": 2,
+            "rows": 1,
+            "index": 0
           },
           "sourceBounds": {
-            "left": 1125,
-            "top": 79,
-            "right": 1399,
-            "bottom": 401
-          }
+            "left": 163,
+            "top": 64,
+            "right": 875,
+            "bottom": 725
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.5068078668683812
         },
         {
           "name": "1-locomotion-4",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 4,
           "sourcePose": 4,
           "x": 0,
-          "y": 448,
-          "width": 704,
-          "height": 448,
-          "footX": 181,
-          "footY": 358,
+          "y": 416,
+          "width": 576,
+          "height": 416,
+          "footX": 152,
+          "footY": 336,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 287,
-            "bottom": 360
+            "right": 271,
+            "bottom": 339
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 4
           },
           "sourceBounds": {
-            "left": 48,
-            "top": 421,
-            "right": 303,
-            "bottom": 749
-          }
+            "left": 38,
+            "top": 445,
+            "right": 281,
+            "bottom": 757
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-locomotion-5",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 5,
           "sourcePose": 5,
-          "x": 704,
-          "y": 448,
-          "width": 704,
-          "height": 448,
-          "footX": 275,
-          "footY": 192,
+          "x": 576,
+          "y": 416,
+          "width": 576,
+          "height": 416,
+          "footX": 278,
+          "footY": 185,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 518,
-            "bottom": 194
+            "right": 524,
+            "bottom": 188
           },
-          "source": "jingwal-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 5
           },
           "sourceBounds": {
-            "left": 360,
-            "top": 596,
-            "right": 846,
-            "bottom": 758
-          }
+            "left": 324,
+            "top": 620,
+            "right": 823,
+            "bottom": 778
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-combat-0",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 0,
           "sourcePose": 6,
-          "x": 1408,
-          "y": 448,
-          "width": 704,
-          "height": 448,
-          "footX": 192,
-          "footY": 348,
+          "x": 1152,
+          "y": 416,
+          "width": 576,
+          "height": 416,
+          "footX": 251,
+          "footY": 338,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 464,
-            "bottom": 359
+            "right": 469,
+            "bottom": 341
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
-            "columns": 3,
+            "columns": 4,
             "rows": 3,
-            "index": 0
+            "index": 6
           },
           "sourceBounds": {
-            "left": 49,
-            "top": 93,
-            "right": 481,
-            "bottom": 420
-          }
+            "left": 756,
+            "top": 447,
+            "right": 1200,
+            "bottom": 761
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-combat-1",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 1,
           "sourcePose": 7,
-          "x": 2112,
-          "y": 448,
-          "width": 704,
-          "height": 448,
-          "footX": 181,
-          "footY": 332,
+          "x": 1728,
+          "y": 416,
+          "width": 576,
+          "height": 416,
+          "footX": 275,
+          "footY": 322,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 429,
-            "bottom": 342
+            "right": 518,
+            "bottom": 324
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-two-poses.png",
           "sourceCell": {
-            "columns": 3,
-            "rows": 3,
+            "columns": 2,
+            "rows": 1,
             "index": 1
           },
           "sourceBounds": {
-            "left": 535,
-            "top": 98,
-            "right": 932,
-            "bottom": 408
-          }
+            "left": 1052,
+            "top": 135,
+            "right": 2010,
+            "bottom": 711
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.5068078668683812
         },
         {
           "name": "1-combat-2",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 2,
           "sourcePose": 8,
           "x": 0,
-          "y": 896,
-          "width": 704,
-          "height": 448,
-          "footX": 178,
-          "footY": 343,
+          "y": 832,
+          "width": 576,
+          "height": 416,
+          "footX": 236,
+          "footY": 291,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 508,
-            "bottom": 346
+            "right": 441,
+            "bottom": 294
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
-            "columns": 3,
+            "columns": 4,
             "rows": 3,
-            "index": 2
+            "index": 8
           },
           "sourceBounds": {
-            "left": 952,
-            "top": 98,
-            "right": 1428,
-            "bottom": 412
-          }
+            "left": 25,
+            "top": 802,
+            "right": 440,
+            "bottom": 1068
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-combat-3",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 3,
           "sourcePose": 9,
-          "x": 704,
-          "y": 896,
-          "width": 704,
-          "height": 448,
-          "footX": 181,
-          "footY": 336,
+          "x": 576,
+          "y": 832,
+          "width": 576,
+          "height": 416,
+          "footX": 258,
+          "footY": 294,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 562,
-            "bottom": 338
+            "right": 484,
+            "bottom": 297
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
-            "columns": 3,
+            "columns": 4,
             "rows": 3,
-            "index": 3
+            "index": 9
           },
           "sourceBounds": {
-            "left": 41,
-            "top": 453,
-            "right": 571,
-            "bottom": 759
-          }
+            "left": 402,
+            "top": 799,
+            "right": 861,
+            "bottom": 1068
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-combat-4",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 4,
           "sourcePose": 10,
-          "x": 1408,
-          "y": 896,
-          "width": 704,
-          "height": 448,
-          "footX": 153,
-          "footY": 334,
+          "x": 1152,
+          "y": 832,
+          "width": 576,
+          "height": 416,
+          "footX": 180,
+          "footY": 303,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 453,
-            "bottom": 335
+            "right": 328,
+            "bottom": 306
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
-            "columns": 3,
+            "columns": 4,
             "rows": 3,
-            "index": 4
+            "index": 10
           },
           "sourceBounds": {
-            "left": 560,
-            "top": 451,
-            "right": 981,
-            "bottom": 754
-          }
+            "left": 828,
+            "top": 798,
+            "right": 1128,
+            "bottom": 1076
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "1-combat-5",
-          "texture": "zhuge-family-jingwal-front-right",
+          "texture": "zhuge-family-jingwal-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 5,
           "sourcePose": 11,
-          "x": 2112,
-          "y": 896,
-          "width": 704,
-          "height": 448,
-          "footX": 154,
-          "footY": 339,
+          "x": 1728,
+          "y": 832,
+          "width": 576,
+          "height": 416,
+          "footX": 169,
+          "footY": 313,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 431,
-            "bottom": 355
+            "right": 306,
+            "bottom": 316
           },
-          "source": "jingwal-attack-v2-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/jingwal-front-right-v2.png",
           "sourceCell": {
-            "columns": 3,
+            "columns": 4,
             "rows": 3,
-            "index": 5
+            "index": 11
           },
           "sourceBounds": {
-            "left": 1037,
-            "top": 458,
-            "right": 1436,
-            "bottom": 781
-          }
+            "left": 1168,
+            "top": 785,
+            "right": 1446,
+            "bottom": 1073
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9852941176470589
         },
         {
           "name": "0-locomotion-0",
@@ -11618,387 +11666,411 @@
       "frames": [
         {
           "name": "1-locomotion-0",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 0,
           "sourcePose": 0,
           "x": 0,
           "y": 0,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 158,
-          "footY": 381,
+          "footX": 174,
+          "footY": 380,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 311,
+            "right": 316,
             "bottom": 383
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 0
           },
           "sourceBounds": {
-            "left": 39,
-            "top": 33,
-            "right": 318,
-            "bottom": 384
-          }
+            "left": 46,
+            "top": 28,
+            "right": 335,
+            "bottom": 385
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-locomotion-1",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 1,
           "sourcePose": 1,
-          "x": 544,
+          "x": 512,
           "y": 0,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 202,
-          "footY": 397,
+          "footX": 173,
+          "footY": 393,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 333,
-            "bottom": 399
+            "right": 313,
+            "bottom": 396
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 1
           },
           "sourceBounds": {
-            "left": 416,
-            "top": 35,
-            "right": 717,
+            "left": 391,
+            "top": 32,
+            "right": 677,
             "bottom": 402
-          }
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-locomotion-2",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 2,
           "sourcePose": 2,
-          "x": 1088,
+          "x": 1024,
           "y": 0,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 244,
-          "footY": 392,
+          "footX": 170,
+          "footY": 393,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 315,
-            "bottom": 394
+            "right": 308,
+            "bottom": 396
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 2
           },
           "sourceBounds": {
-            "left": 800,
-            "top": 37,
-            "right": 1083,
-            "bottom": 399
-          }
+            "left": 761,
+            "top": 30,
+            "right": 1042,
+            "bottom": 400
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-locomotion-3",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 3,
           "sourcePose": 3,
-          "x": 1632,
+          "x": 1536,
           "y": 0,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 233,
-          "footY": 396,
+          "footX": 177,
+          "footY": 398,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 339,
-            "bottom": 398
+            "right": 322,
+            "bottom": 401
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 3
           },
           "sourceBounds": {
-            "left": 1112,
-            "top": 38,
-            "right": 1419,
-            "bottom": 404
-          }
+            "left": 1109,
+            "top": 28,
+            "right": 1404,
+            "bottom": 403
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-locomotion-4",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 4,
           "sourcePose": 4,
           "x": 0,
           "y": 448,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 160,
-          "footY": 358,
+          "footX": 169,
+          "footY": 348,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 294,
-            "bottom": 360
+            "right": 305,
+            "bottom": 351
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 4
           },
           "sourceBounds": {
-            "left": 53,
-            "top": 403,
-            "right": 315,
-            "bottom": 731
-          }
+            "left": 52,
+            "top": 409,
+            "right": 330,
+            "bottom": 733
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-locomotion-5",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "locomotion",
           "pose": 5,
           "sourcePose": 5,
-          "x": 544,
+          "x": 512,
           "y": 448,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 256,
-          "footY": 202,
+          "footX": 253,
+          "footY": 198,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 480,
-            "bottom": 204
+            "right": 473,
+            "bottom": 201
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 5
           },
           "sourceBounds": {
-            "left": 361,
-            "top": 561,
-            "right": 809,
-            "bottom": 733
-          }
+            "left": 335,
+            "top": 568,
+            "right": 784,
+            "bottom": 740
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-0",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 0,
           "sourcePose": 6,
-          "x": 1088,
+          "x": 1024,
           "y": 448,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 206,
-          "footY": 343,
+          "footX": 190,
+          "footY": 345,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 370,
-            "bottom": 345
+            "right": 348,
+            "bottom": 348
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 6
           },
           "sourceBounds": {
-            "left": 795,
-            "top": 418,
-            "right": 1133,
-            "bottom": 731
-          }
+            "left": 784,
+            "top": 412,
+            "right": 1105,
+            "bottom": 733
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-1",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1632,
+          "x": 1536,
           "y": 448,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 177,
-          "footY": 350,
+          "footX": 171,
+          "footY": 348,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 327,
-            "bottom": 352
+            "right": 310,
+            "bottom": 351
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 7
           },
           "sourceBounds": {
-            "left": 1139,
-            "top": 415,
-            "right": 1434,
-            "bottom": 735
-          }
+            "left": 1132,
+            "top": 410,
+            "right": 1415,
+            "bottom": 734
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-2",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 2,
           "sourcePose": 8,
           "x": 0,
           "y": 896,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 182,
-          "footY": 365,
+          "footX": 220,
+          "footY": 351,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 434,
-            "bottom": 367
+            "right": 409,
+            "bottom": 354
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 8
           },
           "sourceBounds": {
-            "left": 33,
-            "top": 734,
-            "right": 435,
-            "bottom": 1069
-          }
+            "left": 31,
+            "top": 735,
+            "right": 414,
+            "bottom": 1062
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-3",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 3,
           "sourcePose": 9,
-          "x": 544,
+          "x": 512,
           "y": 896,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 206,
-          "footY": 362,
+          "footX": 207,
+          "footY": 349,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 389,
-            "bottom": 364
+            "right": 382,
+            "bottom": 352
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 9
           },
           "sourceBounds": {
-            "left": 437,
-            "top": 735,
-            "right": 794,
-            "bottom": 1067
-          }
+            "left": 419,
+            "top": 740,
+            "right": 775,
+            "bottom": 1065
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-4",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 4,
           "sourcePose": 10,
-          "x": 1088,
+          "x": 1024,
           "y": 896,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 200,
-          "footY": 361,
+          "footX": 189,
+          "footY": 354,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 351,
-            "bottom": 363
+            "right": 346,
+            "bottom": 356
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 10
           },
           "sourceBounds": {
-            "left": 822,
-            "top": 735,
-            "right": 1141,
-            "bottom": 1066
-          }
+            "left": 792,
+            "top": 737,
+            "right": 1111,
+            "bottom": 1067
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "1-combat-5",
-          "texture": "zhuge-family-zhugehyeon-front-right",
+          "texture": "zhuge-family-zhugehyeon-front-right-v2",
           "view": 1,
           "kind": "combat",
           "pose": 5,
           "sourcePose": 11,
-          "x": 1632,
+          "x": 1536,
           "y": 896,
-          "width": 544,
+          "width": 512,
           "height": 448,
-          "footX": 170,
-          "footY": 368,
+          "footX": 174,
+          "footY": 350,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 309,
-            "bottom": 370
+            "right": 315,
+            "bottom": 353
           },
-          "source": "zhugehyeon-front-right.png",
+          "source": "docs/source/three-special-install-v2/generated/zhugehyeon-front-right-v2.png",
           "sourceCell": {
             "columns": 4,
             "rows": 3,
             "index": 11
           },
           "sourceBounds": {
-            "left": 1150,
-            "top": 729,
+            "left": 1139,
+            "top": 738,
             "right": 1427,
-            "bottom": 1067
-          }
+            "bottom": 1064
+          },
+          "provenance": "corrected-native-direction",
+          "normalizationFactor": 0.9831932773109243
         },
         {
           "name": "0-locomotion-0",

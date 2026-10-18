@@ -19,6 +19,9 @@ coverage/
 # Per-frame renderer samples are local evidence; keep their Markdown summaries.
 /docs/verification/**/canvas-*.json
 /docs/verification/**/webgl-*.json
+/docs/verification/three-special-v2/*-full.json
+/docs/verification/three-special-v2/*-reduced.json
+/docs/verification/three-special-v2/unit-tests.json
 
 # Personal note snapshots stay local; feature/verification docs are versioned.
 /docs/obsidian-sync/

@@ -9,6 +9,7 @@ import special from './shaolin-special-frames.json' with { type: 'json' };
 import tianjian from './tianjian-special-frames.json' with { type: 'json' };
 import dokmu from './dokmu-special-frames.json' with { type: 'json' };
 import qingha from './qingha-special-frames.json' with { type: 'json' };
+import three from './three-special-frames.json' with { type: 'json' };
 
 import snow from './snow-special-frames.json' with { type: 'json' };
 
@@ -18,6 +19,7 @@ export const TIANJIAN_SPECIAL_ART = tianjian;
 export const DOKMU_SPECIAL_ART = dokmu;
 export const QINGHA_SPECIAL_ART = qingha;
 export const BOSS_REMAINING_ART = remaining;
+export const THREE_SPECIAL_ART = three;
 const remainingRegistry = new Map(remaining.characters.map((art) => [art.bossId, art]));
 const characters = [
   ...special.characters,
@@ -25,6 +27,7 @@ const characters = [
   ...dokmu.characters,
   ...qingha.characters,
   ...snow.characters,
+  ...three.characters,
 ].map((art) => {
   const extra = remainingRegistry.get(art.bossId);
   return {
@@ -72,7 +75,8 @@ export function bossSpecialFrame(
   const name = extra?.moves.includes(selectedMove)
     ? `${view}-remaining-${selectedMove}-${cycle}-${motion.pose}`
     : `${view}-${selectedMove}-${motion.pose}`;
-  const frame = frames.get(art.bossId)!.get(name);
+  const bank = frames.get(art.bossId)!;
+  const frame = bank.get(`${view}-${selectedMove}-cycle-${cycle}-${motion.pose}`) ?? bank.get(name);
   if (!frame) return undefined;
   return { frame, flip, view, action, motion: { ...motion, cycle } };
 }

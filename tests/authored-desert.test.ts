@@ -29,9 +29,9 @@ describe('whole Desert authored family', () => {
     expect(authoredEnemyArt({ kind: 'chief', bossId: '7-2', role: 'rider' }, 7)?.id).toBe('naya');
     for (const e of cases) expect(authoredEnemyArt(e, 6)?.id).not.toBe(authoredEnemyArt(e, 7)?.id);
   });
-  it('loads only its 35 native character sheets and floor for the region', () => {
+  it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(7);
-    expect(Object.keys(manifest)).toHaveLength(36);
+    expect(Object.keys(manifest)).toHaveLength(57);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/desert-family-v1/')),
     ).toHaveLength(35);

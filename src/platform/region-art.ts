@@ -1,5 +1,6 @@
 import snowSpecial from '../game/snow-special-frames.json' with { type: 'json' };
 import remaining from '../game/boss-remaining-frames.json' with { type: 'json' };
+import three from '../game/three-special-frames.json' with { type: 'json' };
 import { REGIONS, regionName, bossById } from '../domain/campaign';
 import type { Enemy, Run } from '../domain/model';
 import staff from '../game/shaolin-staff-frames.json' with { type: 'json' };
@@ -28,9 +29,22 @@ export function regionArtManifest(index: number) {
     : {
         [`region-floor-${index}`]: `/art/regions-v1/${index}-floor.webp`,
         ...Object.fromEntries(
-          [...new Set(remaining.characters
-            .filter((art) => Number(art.bossId.split('-')[0]) === index)
-            .flatMap((art) => art.frames.map((frame) => frame.texture)))]
+          [
+            ...new Set(
+              three.characters
+                .filter((art) => Number(art.bossId.split('-')[0]) === index)
+                .flatMap((art) => art.frames.map((frame) => frame.texture)),
+            ),
+          ].map((key) => [key, three.textures[key as keyof typeof three.textures]]),
+        ),
+        ...Object.fromEntries(
+          [
+            ...new Set(
+              remaining.characters
+                .filter((art) => Number(art.bossId.split('-')[0]) === index)
+                .flatMap((art) => art.frames.map((frame) => frame.texture)),
+            ),
+          ]
             .filter((key) => key.startsWith('boss-remaining-'))
             .map((key) => [key, remaining.textures[key as keyof typeof remaining.textures]]),
         ),
