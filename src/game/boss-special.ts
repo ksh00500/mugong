@@ -12,8 +12,11 @@ import qingha from './qingha-special-frames.json' with { type: 'json' };
 import three from './three-special-frames.json' with { type: 'json' };
 
 import snow from './snow-special-frames.json' with { type: 'json' };
+import snowComplete from './snow-special-complete-frames.json' with { type: 'json' };
 
 export const SNOW_SPECIAL_ART = snow;
+/** Additional Snow actions; existing Mokjin dash/slam retain their source frames. */
+export const SNOW_COMPLETE_ART = snowComplete;
 export const SHAOLIN_SPECIAL_ART = special;
 export const TIANJIAN_SPECIAL_ART = tianjian;
 export const DOKMU_SPECIAL_ART = dokmu;
@@ -21,15 +24,22 @@ export const QINGHA_SPECIAL_ART = qingha;
 export const BOSS_REMAINING_ART = remaining;
 export const THREE_SPECIAL_ART = three;
 const remainingRegistry = new Map(remaining.characters.map((art) => [art.bossId, art]));
-const characters = [
+const originals = [
   ...special.characters,
   ...tianjian.characters,
   ...dokmu.characters,
   ...qingha.characters,
   ...snow.characters,
   ...three.characters,
+];
+const snowRegistry = new Map(snowComplete.characters.map((art) => [art.bossId, art]));
+const characters = [
+  ...originals,
+  ...snowComplete.characters.filter((a) => !originals.some((b) => b.bossId === a.bossId)),
 ].map((art) => {
-  const extra = remainingRegistry.get(art.bossId);
+  const extra =
+    remainingRegistry.get(art.bossId) ??
+    (originals.some((a) => a.bossId === art.bossId) ? snowRegistry.get(art.bossId) : undefined);
   return {
     ...art,
     moves: [...art.moves, ...(extra?.moves ?? [])],

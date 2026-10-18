@@ -1,4 +1,5 @@
 import snowSpecial from '../game/snow-special-frames.json' with { type: 'json' };
+import snowComplete from '../game/snow-special-complete-frames.json' with { type: 'json' };
 import remaining from '../game/boss-remaining-frames.json' with { type: 'json' };
 import three from '../game/three-special-frames.json' with { type: 'json' };
 import { REGIONS, regionName, bossById } from '../domain/campaign';
@@ -23,7 +24,7 @@ export function regionArtIndex(run?: Pick<Run, 'wave' | 'regionRoute'> | null) {
   return run ? REGIONS.findIndex((region) => region.name === regionName(run)) : -1;
 }
 
-export function regionArtManifest(index: number) {
+export function regionArtManifest(index: number): Record<string, string> {
   return index < 0 || index >= REGIONS.length
     ? {}
     : {
@@ -185,6 +186,7 @@ export function regionArtManifest(index: number) {
           : {}),
         ...(index === 3
           ? {
+              ...snowComplete.textures,
               ...Object.fromEntries(
                 [
                   ...new Set(snow.characters.flatMap((art) => art.frames.map((f) => f.texture))),

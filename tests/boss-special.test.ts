@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import {runtimeAssetPresent as existsSync} from './support/runtime-asset';
+import { runtimeAssetPresent as existsSync } from './support/runtime-asset';
 import { BOSS_KITS } from '../src/domain/boss-melee';
 import { bossMotionClock } from '../src/game/boss-motion';
 import {
@@ -147,11 +147,15 @@ describe('boss special motion', () => {
     ).toBe('grab');
     expect(bossSpecialFrame(e, 4, 2, 'stance', 'idle', 0, timing)).toBeUndefined();
   });
-  it('keeps unfinished Snow bosses on the basic art path', () => {
+  it('selects the completed Snow signature activations and returns to ready', () => {
     for (const bossId of ['3-2', '3-3', '3-4']) {
       const timing = BOSS_KITS[bossId].moves.stance!;
       const e = { id: 7, bossId, guardTime: 0 } as Enemy;
-      expect(bossSpecialFrame(e, 3, 2, 'stance', 'strike', 0.2, timing)).toBeUndefined();
+      expect(bossSpecialFrame(e, 3, 2, 'stance', 'strike', 0.2, timing)?.frame.move).toBe('stance');
+      expect(bossSpecialFrame(e, 3, 2, 'stance', 'recover', 0.8, timing)?.motion.phase).toBe(
+        'ready',
+      );
+      expect(bossSpecialFrame(e, 3, 2, 'stance', 'idle', 0, timing)).toBeUndefined();
     }
   });
   it('returns poison rituals to ready without inventing a guard hold', () => {

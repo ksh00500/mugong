@@ -41,9 +41,9 @@ describe('whole Snow authored family', () => {
     );
     for (const e of cases) expect(authoredEnemyArt(e, 6)?.id).not.toBe(authoredEnemyArt(e, 3)?.id);
   });
-  it('loads only its 35 basic sheets, 5 Mokjin special sheets and floor for the region', () => {
+  it('loads 35 basic sheets, 5 Mokjin sheets, 18 completion sheets and floor', () => {
     const manifest = regionArtManifest(3);
-    expect(Object.keys(manifest)).toHaveLength(41);
+    expect(Object.keys(manifest)).toHaveLength(59);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/snow-family-v1/')),
     ).toHaveLength(35);

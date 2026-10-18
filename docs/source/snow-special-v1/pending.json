@@ -1,7 +1,13 @@
 {
   "reason": "built-in imagegen usage_limit_reached (429)",
-  "completedBosses": ["3-1"],
-  "pendingBosses": ["3-2", "3-3", "3-4"],
+  "completedBosses": [
+    "3-1"
+  ],
+  "pendingBosses": [
+    "3-2",
+    "3-3",
+    "3-4"
+  ],
   "plannedSources": 40,
   "selectedSources": 10,
   "generatedUnselectedSource": "xuelan-front-hazard-candidate-v1.png",
@@ -16,5 +22,13 @@
     "newlyInstalled": 0,
     "preparedSources": 30,
     "preparedMoves": 6
+  },
+  "historical": true,
+  "supersededBy": "docs/snow-special-complete-v2.md",
+  "completion": {
+    "date": "2026-10-18",
+    "remainingBosses": [],
+    "snowKitActions": 18,
+    "logicalFrames": 630
   }
 }
