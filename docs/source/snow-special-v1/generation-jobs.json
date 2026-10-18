@@ -1,0 +1,502 @@
+[
+  {
+    "id": "mokjin-front",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 0,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-front.png",
+    "source": "mokjin-front-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-front-dash",
+        "source": "mokjin-front-dash.png",
+        "prompt": "mokjin-front-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-front-slam",
+        "source": "mokjin-front-slam.png",
+        "prompt": "mokjin-front-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-front-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 1,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-front-right.png",
+    "source": "mokjin-front-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-front-right-dash",
+        "source": "mokjin-front-right-dash.png",
+        "prompt": "mokjin-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-front-right-slam",
+        "source": "mokjin-front-right-slam.png",
+        "prompt": "mokjin-front-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 2,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-right.png",
+    "source": "mokjin-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-right-dash",
+        "source": "mokjin-right-dash.png",
+        "prompt": "mokjin-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-right-slam",
+        "source": "mokjin-right-slam.png",
+        "prompt": "mokjin-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-rear-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 3,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-rear-right.png",
+    "source": "mokjin-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-rear-right-dash",
+        "source": "mokjin-rear-right-dash.png",
+        "prompt": "mokjin-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-rear-right-slam",
+        "source": "mokjin-rear-right-slam.png",
+        "prompt": "mokjin-rear-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-back",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 4,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-back.png",
+    "source": "mokjin-back-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-back-dash",
+        "source": "mokjin-back-dash.png",
+        "prompt": "mokjin-back-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-back-slam",
+        "source": "mokjin-back-slam.png",
+        "prompt": "mokjin-back-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

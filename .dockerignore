@@ -1,0 +1,22 @@
+# Only production build inputs enter the Docker context.
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!asset-manifest.json
+!index.html
+!tsconfig.json
+!vite.config.ts
+!playwright.config.ts
+!src/
+!src/**
+!next-stage/
+!next-stage/index.html
+!public/
+!public/**
+!scripts/
+!scripts/check-runtime-assets.mjs
+!scripts/asset-bundles.mjs
+!deploy/
+!deploy/docker/
+!deploy/docker/nginx.conf

@@ -1,0 +1,394 @@
+{
+  "status": "prepared only; no generated or installed art",
+  "plannedBosses": 4,
+  "plannedMoves": 8,
+  "plannedSources": 40,
+  "timings": [
+    {
+      "bossId": "6-1",
+      "character": "jeokho",
+      "move": "slam",
+      "name": "적화 곡괭이 내려찍기",
+      "windup": 1,
+      "duration": 0.5,
+      "recovery": 0.95,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-1",
+      "character": "jeokho",
+      "move": "stance",
+      "name": "적화 가열 발판 작동",
+      "windup": 1.15,
+      "duration": 0.5,
+      "recovery": 0.95,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-2",
+      "character": "seokmun",
+      "move": "dash",
+      "name": "석갑 방패 밀치기",
+      "windup": 0.8,
+      "duration": 0.38,
+      "recovery": 0.85,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-2",
+      "character": "seokmun",
+      "move": "stance",
+      "name": "석갑 방패 수세",
+      "windup": 0.65,
+      "duration": 0.32,
+      "recovery": 0.55,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": true
+    },
+    {
+      "bossId": "6-3",
+      "character": "gwakgi",
+      "move": "fan",
+      "name": "기관 단일 톱날 발사",
+      "windup": 0.9,
+      "duration": 0.32,
+      "recovery": 0.9,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-3",
+      "character": "gwakgi",
+      "move": "stance",
+      "name": "기관 수리와 회전날 전개",
+      "windup": 1.1,
+      "duration": 0.5,
+      "recovery": 1,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-4",
+      "character": "wolryeong",
+      "move": "dash",
+      "name": "월영 가짜 길 추격",
+      "windup": 0.8,
+      "duration": 0.4,
+      "recovery": 0.75,
+      "contacts": [
+        0.3
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "6-4",
+      "character": "wolryeong",
+      "move": "stance",
+      "name": "월영 가짜 상자와 석문",
+      "windup": 1.15,
+      "duration": 0.5,
+      "recovery": 1,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    }
+  ],
+  "promptRecords": [
+    {
+      "id": "jeokho-front-slam",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-front.png",
+      "referenceSha256": "469c5622889be117ea3e00fa06741602154e860c8daa86e1a0f035f31ae62677",
+      "prompt": "docs/source/tomb-special-v1/jeokho-front-slam.prompt.txt",
+      "promptSha256": "6957c828d8a5acd07eeaf589ae78d6e64b6d1351cfc6bf957d3a0d4625e44791"
+    },
+    {
+      "id": "jeokho-front-stance",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-front.png",
+      "referenceSha256": "469c5622889be117ea3e00fa06741602154e860c8daa86e1a0f035f31ae62677",
+      "prompt": "docs/source/tomb-special-v1/jeokho-front-stance.prompt.txt",
+      "promptSha256": "38bbbe22c7dae5f9feb1d614f03608c953945c8913d73c5877cd030cbe4746f3"
+    },
+    {
+      "id": "jeokho-front-right-slam",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-front-right.png",
+      "referenceSha256": "da42e697fb82deba4141b58704ea3819660d309f5f6d7e4b25b9e61499e2f6f0",
+      "prompt": "docs/source/tomb-special-v1/jeokho-front-right-slam.prompt.txt",
+      "promptSha256": "05fe7b8672be6b961dec689c149c149961a391c9013401fc2a212f8370746a22"
+    },
+    {
+      "id": "jeokho-front-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-front-right.png",
+      "referenceSha256": "da42e697fb82deba4141b58704ea3819660d309f5f6d7e4b25b9e61499e2f6f0",
+      "prompt": "docs/source/tomb-special-v1/jeokho-front-right-stance.prompt.txt",
+      "promptSha256": "b903d6d8ed4fc0d00eb735de0661d0b2617cfe5fffad1d587d1eb9a4ba7e5281"
+    },
+    {
+      "id": "jeokho-right-slam",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-right.png",
+      "referenceSha256": "f34588dc6732c82a5a20b8ca18d4c2bc4d70c04987157000227fa5a1d89ce273",
+      "prompt": "docs/source/tomb-special-v1/jeokho-right-slam.prompt.txt",
+      "promptSha256": "e011712192dfa8a01a31ac5b1246295b71c3ce68e85461a11942a20ec4b04c1f"
+    },
+    {
+      "id": "jeokho-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-right.png",
+      "referenceSha256": "f34588dc6732c82a5a20b8ca18d4c2bc4d70c04987157000227fa5a1d89ce273",
+      "prompt": "docs/source/tomb-special-v1/jeokho-right-stance.prompt.txt",
+      "promptSha256": "b774dbfc8d39f27645cfca8083edbc2047e88a4e0f08152f13e9d5c776da44d5"
+    },
+    {
+      "id": "jeokho-rear-right-slam",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-rear-right.png",
+      "referenceSha256": "af46bf09908d8fd910ca5f3d9396893bf696b1b58f3190884dd89b48a6053723",
+      "prompt": "docs/source/tomb-special-v1/jeokho-rear-right-slam.prompt.txt",
+      "promptSha256": "23b3fee238b6a5eedc638894ce1cb82c06eadbd49687ff3833fbf8f8770f1513"
+    },
+    {
+      "id": "jeokho-rear-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-rear-right.png",
+      "referenceSha256": "af46bf09908d8fd910ca5f3d9396893bf696b1b58f3190884dd89b48a6053723",
+      "prompt": "docs/source/tomb-special-v1/jeokho-rear-right-stance.prompt.txt",
+      "promptSha256": "99d2850e3fc2ccffee06380a9e6cccff721db13ef17555efc553872a9a20fd68"
+    },
+    {
+      "id": "jeokho-back-slam",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-back.png",
+      "referenceSha256": "c4148192af92b957505577396acbb3a86c6b32032293fd01db66c532e88f3ae5",
+      "prompt": "docs/source/tomb-special-v1/jeokho-back-slam.prompt.txt",
+      "promptSha256": "981712f2934837c5219574d410dde3fff80b20d4fc661ee10ff23f6d7a0c102e"
+    },
+    {
+      "id": "jeokho-back-stance",
+      "reference": "docs/source/tomb-special-v1/references/jeokho-back.png",
+      "referenceSha256": "c4148192af92b957505577396acbb3a86c6b32032293fd01db66c532e88f3ae5",
+      "prompt": "docs/source/tomb-special-v1/jeokho-back-stance.prompt.txt",
+      "promptSha256": "e97e0921c7f765e5ad487db4a24d9f51ed65b8e0c523eec548e9f090229ecbc8"
+    },
+    {
+      "id": "seokmun-front-dash",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-front.png",
+      "referenceSha256": "22202bb3ab2fce301bf82d317af8532e4812d9d0420fd7ffa1aca23b28112559",
+      "prompt": "docs/source/tomb-special-v1/seokmun-front-dash.prompt.txt",
+      "promptSha256": "3770b94597d92ce0aa5850c7268af8af66c52c238074cb53e9ff187f16c3fa0f"
+    },
+    {
+      "id": "seokmun-front-stance",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-front.png",
+      "referenceSha256": "22202bb3ab2fce301bf82d317af8532e4812d9d0420fd7ffa1aca23b28112559",
+      "prompt": "docs/source/tomb-special-v1/seokmun-front-stance.prompt.txt",
+      "promptSha256": "f150ee3c059a713fb1eaad0ad863fb0b487364dac6e88ab6cc43cbc1eafe6321"
+    },
+    {
+      "id": "seokmun-front-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-front-right.png",
+      "referenceSha256": "86b43ac42646ac975eeeb2e374f1d4e9bb561c7b301682f078eab24dcdb0f0ff",
+      "prompt": "docs/source/tomb-special-v1/seokmun-front-right-dash.prompt.txt",
+      "promptSha256": "d57be0d26dfc97510b10fd98c92fb1990a636e0572e6ffcbbfade47c949f8e6b"
+    },
+    {
+      "id": "seokmun-front-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-front-right.png",
+      "referenceSha256": "86b43ac42646ac975eeeb2e374f1d4e9bb561c7b301682f078eab24dcdb0f0ff",
+      "prompt": "docs/source/tomb-special-v1/seokmun-front-right-stance.prompt.txt",
+      "promptSha256": "64668ca374a98c623904198e12aaa5e30b3dad05b51c9ca4d103cd80e874f3a2"
+    },
+    {
+      "id": "seokmun-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-right.png",
+      "referenceSha256": "877095041a7ba927d648d160976c97edb3a073655eee802d9a32e7bb8e837ed0",
+      "prompt": "docs/source/tomb-special-v1/seokmun-right-dash.prompt.txt",
+      "promptSha256": "98329ad31ae419499a6e69d4e23f06df84d01decd65c95ec6eb46e6eea89ce22"
+    },
+    {
+      "id": "seokmun-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-right.png",
+      "referenceSha256": "877095041a7ba927d648d160976c97edb3a073655eee802d9a32e7bb8e837ed0",
+      "prompt": "docs/source/tomb-special-v1/seokmun-right-stance.prompt.txt",
+      "promptSha256": "b8f685a83576f4ebba028f100c8b5241b6fa4e7afec5d48b6032ba0c90421179"
+    },
+    {
+      "id": "seokmun-rear-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-rear-right.png",
+      "referenceSha256": "e7aa344961caff486c2d1daf861277cd1b4c03243d1e5cc55facb73acf3c4a43",
+      "prompt": "docs/source/tomb-special-v1/seokmun-rear-right-dash.prompt.txt",
+      "promptSha256": "7b8fe65121ff4f9b9aa29f516a0c3df115a7ab8af1fc7980d16b9290bb2ffc61"
+    },
+    {
+      "id": "seokmun-rear-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-rear-right.png",
+      "referenceSha256": "e7aa344961caff486c2d1daf861277cd1b4c03243d1e5cc55facb73acf3c4a43",
+      "prompt": "docs/source/tomb-special-v1/seokmun-rear-right-stance.prompt.txt",
+      "promptSha256": "1d437d4465b0da9882a48c1188db01f1848b564d70cafbf2b2b166e0d70d5e13"
+    },
+    {
+      "id": "seokmun-back-dash",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-back.png",
+      "referenceSha256": "9dfb8ec9895be2382ccbb84efed74df0403af493c4de9c9f3e4a4f6b2fea27fd",
+      "prompt": "docs/source/tomb-special-v1/seokmun-back-dash.prompt.txt",
+      "promptSha256": "bd81805d6fdf48170f53ecaf2453885934a095429f7feee91dcf571dac111c43"
+    },
+    {
+      "id": "seokmun-back-stance",
+      "reference": "docs/source/tomb-special-v1/references/seokmun-back.png",
+      "referenceSha256": "9dfb8ec9895be2382ccbb84efed74df0403af493c4de9c9f3e4a4f6b2fea27fd",
+      "prompt": "docs/source/tomb-special-v1/seokmun-back-stance.prompt.txt",
+      "promptSha256": "470c2fb6b168cdf85458d193c467b92d8aa4b323db81b074319a41047c24acaa"
+    },
+    {
+      "id": "gwakgi-front-fan",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-front.png",
+      "referenceSha256": "aac18907aa935e1ac45d7e86b4c16720563ab06bbafca1b04c3c35417ec0adab",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-front-fan.prompt.txt",
+      "promptSha256": "55913112c3fb77ecf48b3380f3812fdc6317db4aeff0c5ebdcb791b62f26d103"
+    },
+    {
+      "id": "gwakgi-front-stance",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-front.png",
+      "referenceSha256": "aac18907aa935e1ac45d7e86b4c16720563ab06bbafca1b04c3c35417ec0adab",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-front-stance.prompt.txt",
+      "promptSha256": "0d6b3d550c50a3c4b3c8a3c69421c08033bf03706473c2cc5abc81bff825a5d6"
+    },
+    {
+      "id": "gwakgi-front-right-fan",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-front-right.png",
+      "referenceSha256": "03f8b6cd14410bde293afc835eb39a1a57cf599652e52ec23b75c394a2f2b8ce",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-front-right-fan.prompt.txt",
+      "promptSha256": "fc94d3d14ec7e2e766ff32c172942f285480fbd28c78ad392914c499313116fb"
+    },
+    {
+      "id": "gwakgi-front-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-front-right.png",
+      "referenceSha256": "03f8b6cd14410bde293afc835eb39a1a57cf599652e52ec23b75c394a2f2b8ce",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-front-right-stance.prompt.txt",
+      "promptSha256": "b5cb36ba2c513be3083b70c670f6566ff57e753e84800053e1e6afc04393c6c9"
+    },
+    {
+      "id": "gwakgi-right-fan",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-right.png",
+      "referenceSha256": "fbcf576a94accd7cdd846e583283e1bb68bc128ace81c4a2fbb25640edca176b",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-right-fan.prompt.txt",
+      "promptSha256": "f56d0506a424ea018b94ce11d193d4a2be4bf65ff8686015284c670a3fb0b034"
+    },
+    {
+      "id": "gwakgi-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-right.png",
+      "referenceSha256": "fbcf576a94accd7cdd846e583283e1bb68bc128ace81c4a2fbb25640edca176b",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-right-stance.prompt.txt",
+      "promptSha256": "cb217e36c710d704f750e558334beff42d17b8e13e626015d69b8b427aeb6093"
+    },
+    {
+      "id": "gwakgi-rear-right-fan",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-rear-right.png",
+      "referenceSha256": "bc663d29b43fc80627249506e5842f871c3700918fd93bb41bed8b2888f066a6",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-rear-right-fan.prompt.txt",
+      "promptSha256": "54bc3e81bd6c23343173096a7d4c15beb7df423de24d654bf20a9e86e2068f19"
+    },
+    {
+      "id": "gwakgi-rear-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-rear-right.png",
+      "referenceSha256": "bc663d29b43fc80627249506e5842f871c3700918fd93bb41bed8b2888f066a6",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-rear-right-stance.prompt.txt",
+      "promptSha256": "dd119578d9ad785ef6d1413a4cd229cb27f260e7ab2776c89be2c073fd9f59f6"
+    },
+    {
+      "id": "gwakgi-back-fan",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-back.png",
+      "referenceSha256": "a8712a4f603e3340d40c11f880199f018534949170e80e6fa8a39ff88161854e",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-back-fan.prompt.txt",
+      "promptSha256": "3ffc0a1737d2f3f0d5bb2ccaefc68d9cdb2fe7c52cc692a3113e04622c3a761a"
+    },
+    {
+      "id": "gwakgi-back-stance",
+      "reference": "docs/source/tomb-special-v1/references/gwakgi-back.png",
+      "referenceSha256": "a8712a4f603e3340d40c11f880199f018534949170e80e6fa8a39ff88161854e",
+      "prompt": "docs/source/tomb-special-v1/gwakgi-back-stance.prompt.txt",
+      "promptSha256": "a6561ade5dc89cfa173442367c094637382f772326f8450a7bd7d90ca50b0aab"
+    },
+    {
+      "id": "wolryeong-front-dash",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-front.png",
+      "referenceSha256": "9eef1253d964baaee53da404e8fc174b4dcb60fe2e869af3da7232055bf5acd7",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-front-dash.prompt.txt",
+      "promptSha256": "3675033af6e127200f601e8511b738a5c8e9ebc63ba997410eefb2f42b78f577"
+    },
+    {
+      "id": "wolryeong-front-stance",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-front.png",
+      "referenceSha256": "9eef1253d964baaee53da404e8fc174b4dcb60fe2e869af3da7232055bf5acd7",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-front-stance.prompt.txt",
+      "promptSha256": "a3043c31547c31ceb7ed54f68270c8d3afd6e19af31b3cefbaa3bdf06dc964ad"
+    },
+    {
+      "id": "wolryeong-front-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-front-right.png",
+      "referenceSha256": "3b4ed83d2e9ccab87fa5a707d43fdd1bcdfc45cf1739b379a96421318246be97",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-front-right-dash.prompt.txt",
+      "promptSha256": "fdc49b70224d90b2dca4995923fe39a4943114a0fefd5c9fa65f7feb4952b849"
+    },
+    {
+      "id": "wolryeong-front-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-front-right.png",
+      "referenceSha256": "3b4ed83d2e9ccab87fa5a707d43fdd1bcdfc45cf1739b379a96421318246be97",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-front-right-stance.prompt.txt",
+      "promptSha256": "0dbb35b91c07c68c2b1141fb7b91fcd38f275a94cc1913b776323cbd7945281f"
+    },
+    {
+      "id": "wolryeong-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-right.png",
+      "referenceSha256": "3dce517bc41bf6db24eb28c719c39c4e0115a21b062a7b5ff31d27091e705a1d",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-right-dash.prompt.txt",
+      "promptSha256": "82297097de14613df300e09bb7ceff3afb46ee77685636b824bb10671fb21741"
+    },
+    {
+      "id": "wolryeong-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-right.png",
+      "referenceSha256": "3dce517bc41bf6db24eb28c719c39c4e0115a21b062a7b5ff31d27091e705a1d",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-right-stance.prompt.txt",
+      "promptSha256": "a21eba3609d8b0941fe144321ffd3a5de553a59389572210d268520d86fe581d"
+    },
+    {
+      "id": "wolryeong-rear-right-dash",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-rear-right.png",
+      "referenceSha256": "d6232290bf75d7e2eba781dbb472484efd95cf19dd9a0a5ee42c8840ca9c3ac1",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-rear-right-dash.prompt.txt",
+      "promptSha256": "609cd37c1266d831d182ab9d9e0b99e635c34670c5134454f65edec6ddc1e61e"
+    },
+    {
+      "id": "wolryeong-rear-right-stance",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-rear-right.png",
+      "referenceSha256": "d6232290bf75d7e2eba781dbb472484efd95cf19dd9a0a5ee42c8840ca9c3ac1",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-rear-right-stance.prompt.txt",
+      "promptSha256": "9d36f5dfd48cc7e6a4f03391604929f23428106c2a6a6420dde8864f887bf155"
+    },
+    {
+      "id": "wolryeong-back-dash",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-back.png",
+      "referenceSha256": "e46c84d3ad206c637b6674a01357e72be1dc3ac546391599012e3cb724784415",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-back-dash.prompt.txt",
+      "promptSha256": "3335cdf3f0117b76126b85bb081271dac50c6d87e145f35c1a8c76f5ad34cd95"
+    },
+    {
+      "id": "wolryeong-back-stance",
+      "reference": "docs/source/tomb-special-v1/references/wolryeong-back.png",
+      "referenceSha256": "e46c84d3ad206c637b6674a01357e72be1dc3ac546391599012e3cb724784415",
+      "prompt": "docs/source/tomb-special-v1/wolryeong-back-stance.prompt.txt",
+      "promptSha256": "6213cacdca3e998e6d5e341ae5dd4af37667ec4424679bdecc183cdeab646053"
+    }
+  ]
+}

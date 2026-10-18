@@ -1,0 +1,1703 @@
+[
+  {
+    "id": "duelist-front-right",
+    "character": "duelist",
+    "slot": 0,
+    "view": 1,
+    "source": "duelist-front-right.png",
+    "prompt": "duelist-front-right.prompt.txt"
+  },
+  {
+    "id": "duelist-front",
+    "character": "duelist",
+    "slot": 0,
+    "view": 0,
+    "source": "duelist-front.png",
+    "prompt": "duelist-front.prompt.txt"
+  },
+  {
+    "id": "duelist-right",
+    "character": "duelist",
+    "slot": 0,
+    "view": 2,
+    "source": "duelist-right.png",
+    "prompt": "duelist-right.prompt.txt",
+    "poseSources": {
+      "6": "duelist-right-attack-v3.png",
+      "7": "duelist-right-attack-v3.png",
+      "8": "duelist-right-attack-v3.png",
+      "9": "duelist-right-attack-v3.png",
+      "10": "duelist-right-attack-v3.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      }
+    }
+  },
+  {
+    "id": "duelist-rear-right",
+    "character": "duelist",
+    "slot": 0,
+    "view": 3,
+    "source": "duelist-rear-right.png",
+    "prompt": "duelist-rear-right.prompt.txt",
+    "poseSources": {
+      "6": "duelist-rear-right-attack-v4.png",
+      "7": "duelist-rear-right-attack-v4.png",
+      "8": "duelist-rear-right-attack-v4.png",
+      "9": "duelist-rear-right-attack-v4.png",
+      "10": "duelist-rear-right-attack-v4.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      }
+    }
+  },
+  {
+    "id": "duelist-back",
+    "character": "duelist",
+    "slot": 0,
+    "view": 4,
+    "source": "duelist-back.png",
+    "prompt": "duelist-back.prompt.txt"
+  },
+  {
+    "id": "spearguard-front-right",
+    "character": "spearguard",
+    "slot": 1,
+    "view": 1,
+    "source": "spearguard-front-right.png",
+    "prompt": "spearguard-front-right.prompt.txt"
+  },
+  {
+    "id": "spearguard-front",
+    "character": "spearguard",
+    "slot": 1,
+    "view": 0,
+    "source": "spearguard-front.png",
+    "prompt": "spearguard-front.prompt.txt"
+  },
+  {
+    "id": "spearguard-right",
+    "character": "spearguard",
+    "slot": 1,
+    "view": 2,
+    "source": "spearguard-right.png",
+    "prompt": "spearguard-right.prompt.txt",
+    "poseSources": {
+      "6": "spearguard-right-attack-v4.png",
+      "7": "spearguard-right-attack-v4.png",
+      "8": "spearguard-right-attack-v4.png",
+      "9": "spearguard-right-attack-v4.png",
+      "10": "spearguard-right-attack-v4.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      }
+    }
+  },
+  {
+    "id": "spearguard-rear-right",
+    "character": "spearguard",
+    "slot": 1,
+    "view": 3,
+    "source": "spearguard-rear-right.png",
+    "prompt": "spearguard-rear-right.prompt.txt",
+    "poseSources": {
+      "6": "spearguard-rear-right-attack-v3.png",
+      "7": "spearguard-rear-right-attack-v3.png",
+      "8": "spearguard-rear-right-attack-v3.png",
+      "9": "spearguard-rear-right-attack-v3.png",
+      "10": "spearguard-rear-right-attack-v3.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      }
+    }
+  },
+  {
+    "id": "spearguard-back",
+    "character": "spearguard",
+    "slot": 1,
+    "view": 4,
+    "source": "spearguard-back.png",
+    "prompt": "spearguard-back.prompt.txt",
+    "poseSources": {
+      "6": "spearguard-back-attack-v3.png",
+      "7": "spearguard-back-attack-v3.png",
+      "8": "spearguard-back-attack-v3.png",
+      "9": "spearguard-back-attack-v3.png",
+      "10": "spearguard-back-attack-v3.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      }
+    }
+  },
+  {
+    "id": "swordcaster-front-right",
+    "character": "swordcaster",
+    "slot": 2,
+    "view": 1,
+    "source": "swordcaster-front-right.png",
+    "prompt": "swordcaster-front-right.prompt.txt",
+    "poseSources": {
+      "9": "swordcaster-front-right-spacing-v2.png",
+      "10": "swordcaster-front-right-spacing-v2.png"
+    }
+  },
+  {
+    "id": "swordcaster-front",
+    "character": "swordcaster",
+    "slot": 2,
+    "view": 0,
+    "source": "swordcaster-front.png",
+    "prompt": "swordcaster-front.prompt.txt"
+  },
+  {
+    "id": "swordcaster-right",
+    "character": "swordcaster",
+    "slot": 2,
+    "view": 2,
+    "source": "swordcaster-right.png",
+    "prompt": "swordcaster-right.prompt.txt"
+  },
+  {
+    "id": "swordcaster-rear-right",
+    "character": "swordcaster",
+    "slot": 2,
+    "view": 3,
+    "source": "swordcaster-rear-right.png",
+    "prompt": "swordcaster-rear-right.prompt.txt",
+    "poseSources": {
+      "9": "swordcaster-rear-right-spacing-v5.png",
+      "10": "swordcaster-rear-right-spacing-v5.png"
+    }
+  },
+  {
+    "id": "swordcaster-back",
+    "character": "swordcaster",
+    "slot": 2,
+    "view": 4,
+    "source": "swordcaster-back.png",
+    "prompt": "swordcaster-back.prompt.txt"
+  },
+  {
+    "id": "ujin-front-right",
+    "character": "ujin",
+    "slot": 3,
+    "view": 1,
+    "source": "ujin-front-right.png",
+    "prompt": "ujin-front-right.portrait.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ujin-front",
+    "character": "ujin",
+    "slot": 3,
+    "view": 0,
+    "source": "ujin-front.png",
+    "prompt": "ujin-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ujin-right",
+    "character": "ujin",
+    "slot": 3,
+    "view": 2,
+    "source": "ujin-right.png",
+    "prompt": "ujin-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ujin-rear-right",
+    "character": "ujin",
+    "slot": 3,
+    "view": 3,
+    "source": "ujin-rear-right.png",
+    "prompt": "ujin-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ujin-back",
+    "character": "ujin",
+    "slot": 3,
+    "view": 4,
+    "source": "ujin-back.png",
+    "prompt": "ujin-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekhong-front-right",
+    "character": "baekhong",
+    "slot": 4,
+    "view": 1,
+    "source": "baekhong-front-right.png",
+    "prompt": "baekhong-front-right.portrait.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekhong-front",
+    "character": "baekhong",
+    "slot": 4,
+    "view": 0,
+    "source": "baekhong-front.png",
+    "prompt": "baekhong-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekhong-right",
+    "character": "baekhong",
+    "slot": 4,
+    "view": 2,
+    "source": "baekhong-right.png",
+    "prompt": "baekhong-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekhong-rear-right",
+    "character": "baekhong",
+    "slot": 4,
+    "view": 3,
+    "source": "baekhong-rear-right.png",
+    "prompt": "baekhong-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekhong-back",
+    "character": "baekhong",
+    "slot": 4,
+    "view": 4,
+    "source": "baekhong-back.png",
+    "prompt": "baekhong-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "mumyeong-front-right",
+    "character": "mumyeong",
+    "slot": 5,
+    "view": 1,
+    "source": "mumyeong-front-right.png",
+    "prompt": "mumyeong-front-right.portrait.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "mumyeong-front",
+    "character": "mumyeong",
+    "slot": 5,
+    "view": 0,
+    "source": "mumyeong-front.png",
+    "prompt": "mumyeong-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "mumyeong-right",
+    "character": "mumyeong",
+    "slot": 5,
+    "view": 2,
+    "source": "mumyeong-right.png",
+    "prompt": "mumyeong-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "mumyeong-rear-right",
+    "character": "mumyeong",
+    "slot": 5,
+    "view": 3,
+    "source": "mumyeong-rear-right.png",
+    "prompt": "mumyeong-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "mumyeong-back",
+    "character": "mumyeong",
+    "slot": 5,
+    "view": 4,
+    "source": "mumyeong-back.png",
+    "prompt": "mumyeong-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekun-front-right",
+    "character": "baekun",
+    "slot": 6,
+    "view": 1,
+    "source": "baekun-front-right.png",
+    "prompt": "baekun-front-right.portrait.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekun-front",
+    "character": "baekun",
+    "slot": 6,
+    "view": 0,
+    "source": "baekun-front.png",
+    "prompt": "baekun-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekun-right",
+    "character": "baekun",
+    "slot": 6,
+    "view": 2,
+    "source": "baekun-right.png",
+    "prompt": "baekun-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "5": "baekun-right-death-v2.png"
+    }
+  },
+  {
+    "id": "baekun-rear-right",
+    "character": "baekun",
+    "slot": 6,
+    "view": 3,
+    "source": "baekun-rear-right.png",
+    "prompt": "baekun-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baekun-back",
+    "character": "baekun",
+    "slot": 6,
+    "view": 4,
+    "source": "baekun-back.png",
+    "prompt": "baekun-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  }
+]

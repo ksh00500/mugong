@@ -1,0 +1,120 @@
+{
+  "actors": [
+    {
+      "role": "bloodblade",
+      "texture": "region-motion-8-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "hexer",
+      "texture": "region-motion-8-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "assassin",
+      "texture": "region-motion-8-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "8-1",
+      "texture": "region-motion-8-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "8-2",
+      "texture": "region-motion-8-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "8-3",
+      "texture": "region-motion-8-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "8-4",
+      "texture": "region-motion-8-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-8-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "bloodblade",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "role": "hexer",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "role": "assassin",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "8-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "bossId": "8-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "8-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "bossId": "8-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [
+    {
+      "texture": "hostile-projectiles",
+      "frame": "blood-orb"
+    }
+  ],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

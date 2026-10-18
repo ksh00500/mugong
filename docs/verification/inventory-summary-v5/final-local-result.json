@@ -1,0 +1,1106 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/combat-feel.spec.ts",
+      "tests/e2e/inventory-summary.spec.ts",
+      "tests/e2e/responsive.spec.ts",
+      "tests/e2e/unification.spec.ts",
+      "tests/e2e/game.spec.ts",
+      "--grep",
+      "검격|돌진|정보 전환|요약과|선택한 검|창 크기|긴 영어|전체 화면 가방|지연된 자동|예상하지|WebGL|여러 번",
+      "--reporter=list,json"
+    ],
+    "configFile": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\playwright.config.ts",
+    "rootDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/Documents/ChatGPT/MUGONG/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "combat-feel.spec.ts",
+      "file": "combat-feel.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "검격·회피 입력과 전투 가독성 1440×900",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:40:36.715Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-05eff636cc7bb3b64330",
+          "file": "combat-feel.spec.ts",
+          "line": 140,
+          "column": 3
+        },
+        {
+          "title": "검격·회피 입력과 전투 가독성 1366×768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4894,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:40:42.560Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-8fa26e564c14de8af6e3",
+          "file": "combat-feel.spec.ts",
+          "line": 140,
+          "column": 3
+        },
+        {
+          "title": "검격·회피 입력과 전투 가독성 1093×614",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4334,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:40:47.468Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-fc3f64b87d5c2f58ba1c",
+          "file": "combat-feel.spec.ts",
+          "line": 140,
+          "column": 3
+        },
+        {
+          "title": "돌진·원형 발사·반격·방어와 움직임 줄이기 실제 캡처",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12498,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:40:51.814Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-0de6a03701d0f67a1720",
+          "file": "combat-feel.spec.ts",
+          "line": 223,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "game.spec.ts",
+      "file": "game.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "전체 화면 가방은 노트북·125% 배율·좁은 화면에서 핵심 행동이 잘리지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7073,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:04.371Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-57efb63c025f15429e4b",
+          "file": "game.spec.ts",
+          "line": 715,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "inventory-summary.spec.ts",
+      "file": "inventory-summary.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1920×1080",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2944,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:11.475Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-03ec8798efa270f13dc7",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1440×900",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:14.432Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-d2986d4b24ad003db090",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1366×768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:16.933Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-b5234ba60af5675a6ded",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1093×614",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2318,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:19.270Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-bd744b1e597a7a887745",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1000×620",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1578,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray warehouse-section\",\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray board-section\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray warehouse-section\",\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray board-section\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at fits (C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts:101:18)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts:123:5",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts",
+                      "column": 18,
+                      "line": 101
+                    },
+                    "snippet": "   99 |     await page.screenshot({ path: `${proof}/debug-${page.viewportSize()!.width}.png` });\n  100 |   }\n> 101 |   expect(issues).toEqual([]);\n      |                  ^\n  102 | }\n  103 | for (const [width, height] of [\n  104 |   [1920, 1080],"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts",
+                        "column": 18,
+                        "line": 101
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray warehouse-section\",\u001b[39m\n\u001b[31m+   \"item-detail overlaps inventory-tray board-section\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n   99 |     await page.screenshot({ path: `${proof}/debug-${page.viewportSize()!.width}.png` });\n  100 |   }\n> 101 |   expect(issues).toEqual([]);\n      |                  ^\n  102 | }\n  103 | for (const [width, height] of [\n  104 |   [1920, 1080],\n    at fits (C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts:101:18)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts:123:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:21.603Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\inventory-summary-정보-전환-없이-상태·무공·장비·선택-정보-1000×620\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\inventory-summary-정보-전환-없이-상태·무공·장비·선택-정보-1000×620\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts",
+                    "column": 18,
+                    "line": 101
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-bfa88d27ff61de95a082",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1000×500",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:24.319Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-a5d5f21a887f6261a902",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 800×600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:26.558Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-308c259a535ca4b8504e",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 390×600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:28.713Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-4ada70332751404d1066",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "선택한 검을 탭 전환 없이 연결하고 작은 수납 미리보기로 이동한다",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45310,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts",
+                        "column": 64,
+                        "line": 154
+                      },
+                      "message": "Error: locator.click: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '무당태극검법에 선택한 검 연결' })\u001b[22m\n\n\n  152 |   await page.getByRole('button', { name: '가방', exact: true }).click();\n  153 |   await page.locator('[data-item-id=\"second-sword\"]').click();\n> 154 |   await page.getByRole('button', { name: '무당태극검법에 선택한 검 연결' }).click();\n      |                                                                ^\n  155 |   await expect\n  156 |     .poll(async () => ((await saved(page)).family.roster[0] as BoundFighter).bindings?.wudang)\n  157 |     .toBe('second-sword');\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\inventory-summary.spec.ts:154:64"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:41:30.894Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\inventory-summary-선택한-검을-탭-전환-없이-연결하고-작은-수납-미리보기로-이동한다\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\inventory-summary-선택한-검을-탭-전환-없이-연결하고-작은-수납-미리보기로-이동한다\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-517672769f6d019e9f04",
+          "file": "inventory-summary.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "요약과 연결·사용 안내 ko",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1763,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:17.234Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-9b38ea09445d6e1c2c99",
+          "file": "inventory-summary.spec.ts",
+          "line": 177,
+          "column": 3
+        },
+        {
+          "title": "요약과 연결·사용 안내 en",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:19.135Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-4030db2cf0aef42ca922",
+          "file": "inventory-summary.spec.ts",
+          "line": 177,
+          "column": 3
+        },
+        {
+          "title": "요약과 연결·사용 안내 ja",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1808,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:20.819Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-7eac77be1fcb57795281",
+          "file": "inventory-summary.spec.ts",
+          "line": 177,
+          "column": 3
+        },
+        {
+          "title": "요약과 연결·사용 안내 zh-CN",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:22.640Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-753731793f5d57004a1b",
+          "file": "inventory-summary.spec.ts",
+          "line": 177,
+          "column": 3
+        },
+        {
+          "title": "요약과 연결·사용 안내 zh-TW",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1816,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:24.477Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-4858730551166ca5a37f",
+          "file": "inventory-summary.spec.ts",
+          "line": 177,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "responsive.spec.ts",
+      "file": "responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "창 크기 연속 변경: 긴 이름·네 무공·큰 HUD·가방·성장",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 33604,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"fighter\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"equipment\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"fighter\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"equipment\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts:211:20",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                      "column": 20,
+                      "line": 211
+                    },
+                    "snippet": "  209 |     JSON.stringify({ sizes, checkedStates: sizes.length * 9, failures }, null, 2),\n  210 |   );\n> 211 |   expect(failures).toEqual([]);\n      |                    ^\n  212 | });\n  213 |\n  214 | test('긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장', async ({ page }) => {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                        "column": 20,
+                        "line": 211
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"fighter\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 620,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: inventory-columns 980×430/980×465\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"equipment\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  209 |     JSON.stringify({ sizes, checkedStates: sizes.length * 9, failures }, null, 2),\n  210 |   );\n> 211 |   expect(failures).toEqual([]);\n      |                    ^\n  212 | });\n  213 |\n  214 | test('긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장', async ({ page }) => {\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts:211:20"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:42:26.339Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\responsive-창-크기-연속-변경-긴-이름·네-무공·큰-HUD·가방·성장\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\responsive-창-크기-연속-변경-긴-이름·네-무공·큰-HUD·가방·성장\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                    "column": 20,
+                    "line": 211
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-80137d239850d736d967",
+          "file": "responsive.spec.ts",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7711,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:43:03.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-68b0e831d22f9b19e531",
+          "file": "responsive.spec.ts",
+          "line": 214,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "unification.spec.ts",
+      "file": "unification.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "지연된 자동 저장 중 실제 E 전환·이동을 받아들이고 마지막 상태를 저장한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2771,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:43:11.020Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-bfc216f70ab4ab9c14e6",
+          "file": "unification.spec.ts",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "예상하지 못한 React 예외에서도 빈 화면 대신 원본 보관·새로고침을 제공한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 738,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:43:13.803Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-937c32a4889cab6aab13",
+          "file": "unification.spec.ts",
+          "line": 339,
+          "column": 1
+        },
+        {
+          "title": "WebGL 컨텍스트 손실은 정지·재시도로 복구하고 무인과 저장을 유지한다",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2612,
+                  "error": {
+                    "message": "Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'renderer')\n    at eval (eval at evaluate (:311:30), <anonymous>:2:39)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                    "stack": "Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'renderer')\n    at eval (eval at evaluate (:311:30), <anonymous>:2:39)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:311:30), <anonymous>:2:39)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\unification.spec.ts:568:14",
+                    "location": {
+                      "file": "eval at evaluate (:311:30), <anonymous>",
+                      "column": 39,
+                      "line": 2
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "eval at evaluate (:311:30), <anonymous>",
+                        "column": 39,
+                        "line": 2
+                      },
+                      "message": "Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'renderer')\n    at eval (eval at evaluate (:311:30), <anonymous>:2:39)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:311:30), <anonymous>:2:39)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\unification.spec.ts:568:14"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:43:14.555Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\unification-WebGL-컨텍스트-손실은-정지·재시도로-복구하고-무인과-저장을-유지한다\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\unification-WebGL-컨텍스트-손실은-정지·재시도로-복구하고-무인과-저장을-유지한다\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "eval at evaluate (:311:30), <anonymous>",
+                    "column": 39,
+                    "line": 2
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-1e019ce9619d33367d7a",
+          "file": "unification.spec.ts",
+          "line": 528,
+          "column": 1
+        },
+        {
+          "title": "전투 화면을 여러 번 재진입해도 캔버스와 무공 전환 입력이 중복되지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11538,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:43:18.487Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-4dda6be893848a4c7ae6",
+          "file": "unification.spec.ts",
+          "line": 597,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T15:40:35.632Z",
+    "duration": 174712.708,
+    "expected": 21,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

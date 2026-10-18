@@ -1,0 +1,21 @@
+{
+  "id": "snowhunter-front",
+  "key": "snowhunter-front-spacious-combat",
+  "source": "snowhunter-front-axial-thrust.png",
+  "output": "snowhunter-front-spacious-combat.png",
+  "promptFile": "snowhunter-front-spacious-combat.prompt.txt",
+  "prompt": "EDIT attached transparent spear fighter sheet into exactly FOUR corrected combat drawings arranged2columns x2rows on SAME1024x1536 transparent canvas. IMPORTANT identical native head diameter, torso width, limb thickness and weapon thickness as attachment, never shrink. Reuse identity, blue winter scarf/mouth cover, white fur, brown boots and one silver leaf point/blue tassel/plain wood butt. DIRECT FRONTAL SOUTH camera, centered eyes/face, stable pelvis. Shaft foreshortens DOWN toward viewer, two separated closed grips on same straight shaft. Only forward silver leaf point, rear end plain.\nFOUR poses row-major:1CONTACT lunge pushing spear DOWN at target;2FOLLOWTHROUGH spear still forward/down;3WITHDRAW pull spear back with elbow beside ribs;4RETURN READY spear aimed forward-down at diagonal beside body. Every pose connected shoulders/elbows/wrists and stable body size, boots fully drawn. Render each500px-tall physical figure with at least100px VERTICAL gaps using taller768pxcells; never let tip touch boots of another drawing. Keep20px padding at external canvas edges. No other characters, no backgrounds, glow, shadows or trails. Alpha0 outside all figures. Native head/torso scale is fixed even though source layout changes.",
+  "poses": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "references": [
+    "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowhunter-front-axial-thrust.png"
+  ],
+  "cell": {
+    "columns": 2,
+    "rows": 2
+  }
+}

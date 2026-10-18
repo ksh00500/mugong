@@ -1,0 +1,50 @@
+/* Preserve the Korean typeface; CJK glyphs use the device's language fonts. */
+html:lang(ja) {
+  --font-ui: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Noto Sans CJK JP', sans-serif;
+  --font-display: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif CJK JP', serif;
+}
+html:lang(zh-CN) {
+  --font-ui: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;
+  --font-display: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+}
+html:lang(zh-TW) {
+  --font-ui: 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+  --font-display: 'Songti TC', 'PMingLiU', 'Noto Serif CJK TC', serif;
+}
+.app-shell .item-pagination button,
+.app-shell .roster-pagination button {
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  padding: 0;
+}
+.app-shell[data-locale='en'] .home-brand b {
+  letter-spacing: 0.06em;
+  font-size: 39px;
+}
+.app-shell[data-locale='en'] .home-departure h1 {
+  font-size: clamp(45px, 4.8vw, 72px);
+}
+.app-shell[data-locale='en'] .current-art b {
+  font-size: 22.5px;
+}
+.app-shell[data-locale='en'] .inventory-mobile-nav button {
+  font-size: 18px;
+}
+.app-shell[data-locale='en'] .item-detail h4 {
+  font-size: 27px;
+}
+.app-shell[data-locale='en'] .inventory-columns .bag-column > h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  min-height: 40px;
+  line-height: 1.2;
+}
+.app-shell[data-locale='en'] .inventory-columns .bag-column > h3 small {
+  margin: 0;
+  line-height: 1.2;
+}

@@ -1,0 +1,38 @@
+{
+  "author": "MUGONG original procedural composition",
+  "source": "scripts/compose-audio.py",
+  "license": "Original project assets; no third-party samples",
+  "tracks": [
+    {
+      "file": "lobby-v1.wav",
+      "bpm": 80,
+      "seconds": 24,
+      "peak": 0.5800000000000001,
+      "rms": 0.13901925620008243,
+      "clipping_samples": 0
+    },
+    {
+      "file": "combat-v1.wav",
+      "bpm": 96,
+      "seconds": 20,
+      "peak": 0.58,
+      "rms": 0.119610774381684,
+      "clipping_samples": 0
+    }
+  ],
+  "delivery": {
+    "codec": "Opus/WebM",
+    "bitrate": 96000,
+    "encoder": "Browser MediaRecorder",
+    "files": [
+      {
+        "file": "lobby-v1.webm",
+        "bytes": 289970
+      },
+      {
+        "file": "combat-v1.webm",
+        "bytes": 242054
+      }
+    ]
+  }
+}

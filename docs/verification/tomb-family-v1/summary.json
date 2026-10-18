@@ -1,0 +1,97 @@
+{
+  "verifiedAtUTC": "2026-10-05T20:43:50.271Z",
+  "family": "tomb",
+  "unit": {
+    "files": 59,
+    "passed": 1278,
+    "success": true
+  },
+  "build": {
+    "passed": true,
+    "mainScript": "/assets/main-DK_c92Al.js",
+    "log": "build.log"
+  },
+  "art": {
+    "characters": 7,
+    "nativeViews": 5,
+    "gameplayDirections": 8,
+    "frames": 420,
+    "selectedSources": 53,
+    "uniqueHashes": 420,
+    "encodedSheets": 35,
+    "scale": 0.225,
+    "padding": 32
+  },
+  "matrices": [
+    {
+      "id": "canvas-full",
+      "renderer": 1,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 160,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "canvas-reduced",
+      "renderer": 1,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 160,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-full",
+      "renderer": 2,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 160,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-reduced",
+      "renderer": 2,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 160,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    }
+  ],
+  "totalStateSamples": 7840,
+  "totalBossContacts": 640,
+  "actualReleaseCases": 24,
+  "production": [
+    {
+      "width": 1440,
+      "height": 900,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "uniqueAssets": 35,
+      "errors": []
+    }
+  ],
+  "passedBrowserTests": 8,
+  "manualReview": "manual-review.json",
+  "limitations": [
+    "Five native viewpoints produce eight gameplay directions by horizontal mirroring; the apparent weapon hand also mirrors.",
+    "Each boss uses one representative attack cycle retimed to its existing skill contact events. Separate bespoke artwork for every boss skill is outside this regional-art update.",
+    "Rear-facing limbs and weapons can be occluded or foreshortened. Painted poses retain small drawing variations; native proportions are preserved without frame-by-frame rescaling.",
+    "Death uses one drawn pose with a fade. Projectiles, traps and combat effects are rendered by the existing game systems.",
+    "The crossbow character's selected artwork places the basket on the right hip, differing from an early prompt's left-hip instruction."
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

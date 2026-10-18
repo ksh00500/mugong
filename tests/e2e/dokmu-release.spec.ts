@@ -1,0 +1,122 @@
+import { test, expect } from '@playwright/test';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { seedRegion, observeScene } from './support/region';
+
+test('Dokmu tools show their contact drawing when damage or projectiles actually release', async ({
+  page,
+}) => {
+  test.setTimeout(90000);
+  await seedRegion(page, 1, true, undefined, ['needle', 'guard', 'bombardier']);
+  await observeScene(page);
+  const records = await page.evaluate(async () => {
+    const load = (window as any).regionModule;
+    const { gameStore } = await load('/src/platform/store.ts');
+    const { tick } = await load('/src/domain/game.ts');
+    const scene = (window as any).regionScene,
+      run = gameStore.state.run;
+    gameStore.paused = true;
+    scene.scene.pause();
+    const base = run.enemies[0],
+      records = [];
+    for (const role of ['needle', 'guard', 'bombardier'])
+      for (let d = 0; d < 8; d++) {
+        for (const key of [
+          'offers',
+          'zones',
+          'projectiles',
+          'encounterObjects',
+          'formations',
+          'encounters',
+        ])
+          run[key] = [];
+        const angle = (d * Math.PI) / 4;
+        const e = {
+          ...base,
+          id: 9000 + d,
+          kind: role === 'guard' ? 'spear' : 'archer',
+          role,
+          bossId: undefined,
+          elite: false,
+          x: 800,
+          y: 500,
+          targetX: 800 + Math.cos(angle) * 75,
+          targetY: 500 + Math.sin(angle) * 75,
+          state: 'windup',
+          timer: 0,
+          aim: angle,
+          facing: angle,
+          staggerTime: 0,
+          skillClock: 100,
+          hp: 10000,
+          maxHp: 10000,
+          strike: undefined,
+          move: undefined,
+          pattern: 0,
+        };
+        run.enemies = [e];
+        Object.assign(run.fighter, {
+          x: e.targetX,
+          y: e.targetY,
+          hp: 120,
+          arts: [],
+          shield: 0,
+          guard: 0,
+          fortify: 0,
+          invulnerable: 0,
+        });
+        scene.motionClock.reset();
+        scene.feedback.reset();
+        const step = () => {
+          tick(
+            run,
+            { dx: 0, dy: 0, aim: angle, attack: false, defense: false, ultimate: false },
+            1 / 120,
+          );
+          scene.animationTime += 1 / 120;
+        };
+        step();
+        const before = run.fighter.hp;
+        if (role === 'guard')
+          for (let frame = 0; frame < 20 && run.fighter.hp === before; frame++) step();
+        scene.drawEnemy(e);
+        const actor = scene.actors.get(String(e.id)),
+          f = actor.getData('authoredFrame');
+        const released = run.projectiles.filter((p: any) => p.owner === e.id);
+        records.push({
+          role,
+          d,
+          state: e.state,
+          action: actor.getData('motionAction'),
+          kind: f.kind,
+          pose: f.pose,
+          texture: f.texture,
+          before,
+          hp: run.fighter.hp,
+          projectiles: released.length,
+          landing: released[0]?.landing?.kind,
+          forward: released.map((p: any) => p.vx * Math.cos(angle) + p.vy * Math.sin(angle)),
+        });
+      }
+    return records;
+  });
+  for (const r of records) {
+    expect(r.state).toBe('strike');
+    expect(r.action).toBe('strike');
+    expect(r.kind).toBe('combat');
+    expect(r.pose).toBe(2);
+    expect(r.texture).toContain(`dokmu-family-${r.role === 'guard' ? 'poisonguard' : r.role}-`);
+    if (r.role === 'guard') {
+      expect(r.before).toBe(120);
+      expect(r.hp).toBeLessThan(120);
+    } else {
+      expect(r.projectiles).toBe(r.role === 'needle' ? 3 : 1);
+      if (r.role === 'bombardier') expect(r.landing).toBe('poison');
+      for (const forward of r.forward) expect(forward).toBeGreaterThan(0);
+    }
+  }
+  await mkdir('docs/verification/dokmu-family-v1', { recursive: true });
+  await writeFile(
+    'docs/verification/dokmu-family-v1/actual-release.json',
+    JSON.stringify(records, null, 2),
+  );
+});

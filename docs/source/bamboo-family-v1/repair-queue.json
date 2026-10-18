@@ -1,0 +1,76 @@
+[
+  {
+    "id": "bambooassassin-right",
+    "poses": [
+      8
+    ],
+    "reason": "Knife contact reaches source canvas edge; redraw complete blade with room, same body/head and right-hand grip."
+  },
+  {
+    "id": "bambooneedle-right",
+    "poses": [
+      5
+    ],
+    "reason": "Prone figure reaches source canvas edge; redraw complete hair, boots and needle bundle without shrinking body."
+  },
+  {
+    "id": "bambootrapper-front-right",
+    "poses": [
+      8
+    ],
+    "reason": "Contact candidate swaps iron device hand. Keep device in anatomical LEFT and deploy with anatomical RIGHT empty hand."
+  },
+  {
+    "id": "bambootrapper-back",
+    "poses": [
+      3
+    ],
+    "reason": "Right-step candidate swaps iron device hand. North camera: left device must stay screen LEFT, right arm empty."
+  },
+  {
+    "id": "nogae-front",
+    "poses": [
+      7
+    ],
+    "reason": "Maximum anticipation has TWO disconnected bamboo rods with incompatible axes. Redraw ONE continuous straight staff gripped by BOTH hands above shoulder, natural connected elbows, constant head/body."
+  },
+  {
+    "id": "qingbi-back",
+    "poses": [
+      2,
+      4
+    ],
+    "reason": "Passing walk and hurt replace RIGHT three leaf needles with a single knife. Preserve RIGHT bundle of THREE short silver leaf needles and LEFT one reserve dagger in all held states."
+  },
+  {
+    "id": "songwol-right",
+    "poses": [
+      4,
+      3,
+      6
+    ],
+    "reason": "Side-view hurt candidate shifts the fan into the opposite hand while right hand touches beard. Preserve fan in anatomical RIGHT near-side hand held at the root; free LEFT hand may guard chest. Only tiny hurt reaction, no ownership swap."
+  },
+  {
+    "id": "songwol-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "Rear-right anticipation candidates switch fan into LEFT far hand. Preserve anatomical RIGHT near-side shoulder-elbow-wrist grip on fan root, raised outside rear RIGHT shoulder (screen right side), while LEFT hand balances empty. Keep mostly back and right side visible, face away northeast."
+  },
+  {
+    "id": "songwol-back",
+    "poses": [
+      3
+    ],
+    "reason": "North back-facing right-step candidate swaps fan into LEFT screen-left hand. Preserve RIGHT screen-right hand holding fan root, LEFT screen-left empty, head and chest facing away north. No mirror of whole body."
+  },
+  {
+    "id": "nogae-right",
+    "poses": [
+      9
+    ],
+    "reason": "Source drawing touches/crosses image boundary. Restore the complete body and weapon inside transparent margin without shrinking the head/body."
+  }
+]

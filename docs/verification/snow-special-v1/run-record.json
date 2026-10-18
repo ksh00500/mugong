@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-06",
+  "deployment": "local production preview at 127.0.0.1:5173",
+  "completedBosses": ["3-1"],
+  "completedMoves": ["dash", "slam"],
+  "pendingBosses": ["3-2", "3-3", "3-4"],
+  "pendingReason": "built-in imagegen usage_limit_reached (429)",
+  "unit": {
+    "total": 1293,
+    "passed": 1293,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "typecheck": "passed",
+    "vite": "passed",
+    "modules": 184
+  },
+  "sourceBrowser": {
+    "passed": 9,
+    "failed": 0,
+    "port": 5182,
+    "output": "playwright-source",
+    "elapsedMinutes": 7.33355775
+  },
+  "productionBrowser": {
+    "passed": 3,
+    "failed": 0,
+    "port": 5173,
+    "output": "playwright-production",
+    "elapsedMinutes": 1.1249339666666667
+  },
+  "originals": 10,
+  "revisedOriginals": 2,
+  "nativeFrames": 60,
+  "independentUsedSourceFigures": 60,
+  "textures": 5,
+  "specialTimeSamples": 11712,
+  "specialContactSamples": 64,
+  "basicTimeSamples": 7840,
+  "basicContactSamples": 672,
+  "originalCopiesIdentical": true,
+  "distTexturesIdentical": true,
+  "userSaveModified": false,
+  "publicDeploymentPerformed": false,
+  "reviewGeometry": "Measured horizontal reach and top/bottom bounds, 32px margins; no asset scaling change",
+  "initialProductionFailures": 3
+}

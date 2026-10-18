@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "defense",
+    "x": 960,
+    "y": 650,
+    "angle": -1.5707963267948966,
+    "action": "guard",
+    "elapsed": 0.11666666666666665,
+    "time": 2315.5
+  },
+  {
+    "kind": "strike",
+    "x": 1030,
+    "y": 650,
+    "angle": 3.141592653589793,
+    "friendly": false,
+    "thrust": false,
+    "elapsed": 0.3333333333333333,
+    "time": 3363.7999999970198
+  },
+  {
+    "kind": "defense",
+    "x": 960,
+    "y": 650,
+    "angle": -1.5707963267948966,
+    "action": "counter",
+    "elapsed": 0.3333333333333333,
+    "time": 3364
+  },
+  {
+    "kind": "impact",
+    "x": 1030,
+    "y": 650,
+    "angle": 0,
+    "target": 100,
+    "amount": 65,
+    "killed": false,
+    "elapsed": 0.3333333333333333,
+    "time": 3364.2999999970198
+  }
+]

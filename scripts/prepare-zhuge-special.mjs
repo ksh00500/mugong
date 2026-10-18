@@ -1,0 +1,66 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+const patterns={
+  "yanggi": {
+    "bossId": "9-1",
+    "kit": "src/domain/boss-wave5.ts",
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "stories": [
+      "Two-hand SINGLE plain wooden staff horizontal sweep. 0 exact READY. 1 draw staff beside rear flank with BOTH spaced grips firm, rear knee loads and shoulder/pelvis coil together. 2 waist-height FORWARD horizontal sweep toward target with BOTH hands on same rigid shaft, lead boot planted, rear heel turns. 3 controlled horizontal follow-through outside far flank, same anatomy, not full backspin. 4 retract staff outside torso to ready. 5 exact original READY. Plain rounded shaft ends, simple gold ferrule only, no spearhead, second handle or shaft. Never shrink body for extended staff.",
+      "Stone-gate deployment command. NOT held guard. 0 exact READY two hands on staff. 1 settle SINGLE staff into LEFT hand beside left hip with lower plain end grounded, RIGHT hand releases shaft and draws beside chest. 2 RIGHT empty palm extends toward target at chest height, LEFT hand holds same staff at its central grip, knees modestly flex, torso/pelvis coherent. 3 hold command briefly, ONE staff stable in LEFT hand, RIGHT empty and separate. 4 RIGHT hand returns to its original READY grip. 5 exact READY. Two arms only, no hand remaining on released grip, no stone/gate/glyph painted."
+    ]
+  },
+  "mukyeon": {
+    "bossId": "9-2",
+    "kit": "src/domain/boss-wave5.ts",
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "stories": [
+      "Repeating CROSSBOW THREE-BOLT shot. 0 exact READY one crossbow RIGHT hand at rear trigger stock and LEFT palm supporting underside forward of trigger. 1 raise SINGLE crossbow to aim toward target, stock rests alongside chest/shoulder, elbows connected. 2 FIRE: tiny backward recoil against right shoulder, RIGHT hand remains trigger grip, LEFT support beneath same stock, planted lead boot. 3 small settled aim after recoil. 4 lower/recover aim with both same grips. 5 exact READY. In FRONT view bow arms must foreshorten toward camera naturally; do not point to unrelated side. In BACK view weapon aims away with forearms seen forward. Do not turn crossbow into short sword, gun or two bows; no bolts drawn outside weapon, game emits3 shots simultaneously.",
+      "Mechanical crossbow-and-flying-device placement signal, NOT defensive stance. Keep crossbow intact. 0 original READY with two hands. 1 retain crossbow stock/trigger firmly in RIGHT hand outside right hip, release LEFT support hand and lift empty left palm beside chest. 2 LEFT empty hand signals FORWARD-DOWN, right elbow supports SAME intact crossbow at hip, stock and bow assembly remain connected. 3 brief planted command, only two hands, no duplicate support hand under crossbow. 4 LEFT returns beneath same crossbow stock. 5 exact READY. No device materializes in hand; game spawns machines independently."
+    ]
+  },
+  "jingwal": {
+    "bossId": "9-3",
+    "kit": "src/domain/boss-wave4.ts",
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "stories": [
+      "Two-handed pursuit SPEAR drive. 0 exact READY single long gold/silver spearhead on dark wood shaft, blue tassel, plain butt. 1 rear knee loads and two hands draw shaft back beside ribs, point FORWARD toward target, NOT overhead like a sword. 2 rear boot drives planted forward lunge, leading LEFT hand guides shaft toward target and rear RIGHT hand pushes butt, palms spaced on same unbroken straight shaft. Head/chest/pelvis all face target, torso leans only slightly and neck attached. 3 retain extended spear thrust with rear leg following, no third hand, no spear flying away. 4 both hands pull SAME spear to original diagonal guard outside torso. 5 READY. Spear length/head/skull constant, no camera zoom or shrink-to-fit. FRONT/BACK spear thrust foreshortens naturally, rightward for side; no backwards spine.",
+      "Rotating-gate deployment command with spear retained. 0 original READY. 1 transfer SPEAR to anatomical LEFT support hand near left hip with plain butt grounded, spearhead remains upper-forward safely outside head; RIGHT hand releases its rear shaft grip and draws to chest. 2 RIGHT EMPTY palm signals FORWARD toward target while LEFT single hand retains spear at central support point and butt grounded. 3 deliberate command with connected shoulders/hips, two hands only. 4 RIGHT returns to original separated rear grip. 5 exact READY. No duplicate grip/hand, no floating spear, blade never held directly, no new pole or second handle. Game supplies rotating walls, do not paint gate or glow."
+    ]
+  },
+  "zhugehyeon": {
+    "bossId": "9-4",
+    "kit": "src/domain/boss-wave5.ts",
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "stories": [
+      "White-feather fan triple wind release. 0 READY ONE fan in anatomical RIGHT hand at original gold hub, LEFT empty. 1 RIGHT fan draws beside rear shoulder/chest, elbow bends and hips load subtly, left open hand counterbalances. 2 crisp outward DOWN-FORWARD fan sweep toward target at chest height, RIGHT fingers visibly hold gold hub, left remains empty, head/torso/hips rotate together only modestly. 3 forward sweep follow-through and open left balance palm. 4 retract same fan outside ribs. 5 original READY. Fan is WHITE FEATHERS with BLACK tips, not red folding paper fan. Same width/hub and skull/beard size. No painted wind waves; game emits three wind blades.",
+      "Eight-trigram safe-gate forward cycle command, NOT held defense. 0 original RIGHT fan and empty LEFT hand. 1 right fan held steady beside chest, empty LEFT palm lifts slightly with gently flexed knees. 2 LEFT empty palm extends DOWN-FORWARD toward target ground while RIGHT grips original fan gold hub near chest, robe and pelvis remain coherent. 3 brief planted ritual command, fan stays same right hand and ONLY two arms. 4 withdraw left palm and settle fan. 5 exact original READY. No floating fan, weapon swap, magic circle/gate/runes/glow or drawn projectile; game supplies formation."
+    ]
+  }
+};
+let p=await readFile('scripts/prepare-hyeolma-special.mjs','utf8');
+const start=p.indexOf('const patterns = {'),end=p.indexOf('const template =');
+p=p.slice(0,start)+'const patterns = '+JSON.stringify(patterns)+';\n'+p.slice(end);
+p=p.replaceAll('hyeolma','zhuge').replaceAll('혈마전','팔진고성');
+p=p.replace("const start=template.indexOf", "const start=template.indexOf");
+p=p.replace(".replaceAll('bamboo','zhuge')", ".replaceAll('bamboo','zhuge')");
+p=p.replace("await mkdir(root,{recursive:true});", `program=program.replace("const identities = JSON.parse(await readFile('docs/source/zhuge-family-v1/identities.json'));", "const identities = await Promise.all(['yanggi','mukyeon','jingwal','zhugehyeon'].map(async id => [id,id,0,(await readFile('docs/source/zhuge-family-v1/'+id+'-front-right.prompt.txt','utf8')).match(/^IDENTITY: (.+)$/m)[1]]));");\nawait mkdir(root,{recursive:true});`);
+p=p.replace("const placements=Array.from({length:6},(_,i)=>({input:raw,left:(i%2)*512+Math.floor((512-meta.width)/2),top:Math.floor(i/2)*512+512-meta.height-48}));","const placements=Array.from({length:6},(_,i)=>({input:raw,left:(i%2)*768+Math.floor((768-meta.width)/2),top:Math.floor((Math.floor(i/2)+1)*2048/3)-meta.height-48}));");
+p=p.replaceAll('1024x1536','1536x2048').replaceAll('Six512x512 slots','Six roomy768xapproximately683 slots');
+p=p.replace('meta.width>480||meta.height>440','meta.width>700||meta.height>620');
+p=p.replace('width:1024,height:1536','width:1536,height:2048');
+p=p.replace('not512px','not683px');
+await writeFile('scripts/prepare-zhuge-special-generated.mjs',p);
+await import('./prepare-zhuge-special-generated.mjs');
+

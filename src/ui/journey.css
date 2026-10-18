@@ -1,0 +1,189 @@
+/* Rest and completion own these layouts. No changes to the bag or combat HUD. */
+.app-shell .rest-market,
+.app-shell .journey-summary,
+.app-shell .journey-records {
+  width: min(680px, calc(100vw - 32px));
+  padding: 20px;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header {
+  min-height: 64px;
+  padding: 8px 12px;
+  gap: 12px;
+  position: static;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header h2 {
+  margin: 0;
+  min-width: 0;
+  min-height: 48px;
+  font-size: 30px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-seal {
+  width: 36px;
+  height: 36px;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header > button {
+  min-height: 44px;
+  padding: 4px 12px;
+}
+.app-shell :is(.rest-market, .journey-summary) > button {
+  min-height: 44px;
+  padding: 8px 16px;
+  font-size: 18px;
+}
+.rest-market-status,
+.journey-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-block: 12px;
+}
+.rest-market-stock {
+  display: grid;
+  gap: 10px;
+}
+.rest-market-stock article {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper-light);
+}
+.rest-market-stock article > .item-art {
+  width: 52px;
+  height: 62px;
+}
+.rest-market-stock article > div {
+  font-size: 17px;
+  line-height: 1.35;
+}
+.rest-market-stock h3 {
+  margin: 0 0 4px;
+  font-size: 21px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.rest-market-stock small {
+  display: block;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.3;
+}
+.rest-market-stock button {
+  font-size: 17px;
+  padding: 10px 14px;
+  min-height: 44px;
+}
+.rest-market p,
+.journey-summary p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-block: 12px;
+}
+.journey-heading {
+  justify-content: start;
+}
+.journey-heading h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.journey-heading .ui-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.journey-totals {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.journey-totals span {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.journey-totals small {
+  font-size: 16px;
+  color: var(--muted);
+}
+.journey-totals b {
+  font-size: 23px;
+  overflow-wrap: anywhere;
+}
+.journey-route {
+  color: var(--jade);
+}
+.journey-records .home-records {
+  padding: 12px 0 0;
+}
+.journey-records .home-records > h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 8px 0 12px;
+}
+.journey-records .home-record-grid {
+  gap: 8px;
+}
+.journey-records .home-record-grid > div {
+  padding: 10px 14px;
+  gap: 4px;
+}
+.journey-records .home-record-grid b {
+  font-size: 34px;
+  line-height: 1.3;
+}
+.journey-records .home-record-grid > div > span {
+  font-size: 38px;
+  line-height: 1.3;
+  bottom: 8px;
+}
+.journey-records .home-record-summary {
+  margin-top: 12px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+.journey-records .home-records > p {
+  margin-block: 10px 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+@media (max-height: 660px) {
+  .app-shell .rest-market,
+  .app-shell .journey-summary,
+  .app-shell .journey-records {
+    padding: 12px 16px;
+  }
+  .rest-market-stock {
+    gap: 6px;
+  }
+  .rest-market-stock article {
+    padding: 8px;
+  }
+  .rest-market-stock article > .item-art {
+    height: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .rest-market-stock article {
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 8px;
+  }
+  .rest-market-stock article > .item-art {
+    width: 40px;
+  }
+  .rest-market-stock article button {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .journey-totals {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

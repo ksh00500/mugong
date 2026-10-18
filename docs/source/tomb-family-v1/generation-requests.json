@@ -1,0 +1,520 @@
+[
+  {
+    "id": "tombtrapper-front",
+    "jobId": "tombtrapper-front",
+    "character": "tombtrapper",
+    "view": 0,
+    "kind": "all",
+    "source": "tombtrapper-front.png",
+    "prompt": "tombtrapper-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombtrapper-front-right",
+    "jobId": "tombtrapper-front-right",
+    "character": "tombtrapper",
+    "view": 1,
+    "kind": "all",
+    "source": "tombtrapper-front-right.png",
+    "prompt": "tombtrapper-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombtrapper-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombtrapper-right",
+    "jobId": "tombtrapper-right",
+    "character": "tombtrapper",
+    "view": 2,
+    "kind": "all",
+    "source": "tombtrapper-right.png",
+    "prompt": "tombtrapper-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombtrapper-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombtrapper-rear-right",
+    "jobId": "tombtrapper-rear-right",
+    "character": "tombtrapper",
+    "view": 3,
+    "kind": "all",
+    "source": "tombtrapper-rear-right.png",
+    "prompt": "tombtrapper-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombtrapper-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombtrapper-back",
+    "jobId": "tombtrapper-back",
+    "character": "tombtrapper",
+    "view": 4,
+    "kind": "all",
+    "source": "tombtrapper-back.png",
+    "prompt": "tombtrapper-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombtrapper-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombguard-front",
+    "jobId": "tombguard-front",
+    "character": "tombguard",
+    "view": 0,
+    "kind": "all",
+    "source": "tombguard-front-v2.png",
+    "prompt": "tombguard-front-v2.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombguard-front-right",
+    "jobId": "tombguard-front-right",
+    "character": "tombguard",
+    "view": 1,
+    "kind": "all",
+    "source": "tombguard-front-right.png",
+    "prompt": "tombguard-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombguard-front-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombguard-right",
+    "jobId": "tombguard-right",
+    "character": "tombguard",
+    "view": 2,
+    "kind": "all",
+    "source": "tombguard-right.png",
+    "prompt": "tombguard-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombguard-front-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombguard-rear-right",
+    "jobId": "tombguard-rear-right",
+    "character": "tombguard",
+    "view": 3,
+    "kind": "all",
+    "source": "tombguard-rear-right.png",
+    "prompt": "tombguard-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombguard-front-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombguard-back",
+    "jobId": "tombguard-back",
+    "character": "tombguard",
+    "view": 4,
+    "kind": "all",
+    "source": "tombguard-back.png",
+    "prompt": "tombguard-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombguard-front-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombcrossbow-front",
+    "jobId": "tombcrossbow-front",
+    "character": "tombcrossbow",
+    "view": 0,
+    "kind": "all",
+    "source": "tombcrossbow-front.png",
+    "prompt": "tombcrossbow-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombcrossbow-front-right",
+    "jobId": "tombcrossbow-front-right",
+    "character": "tombcrossbow",
+    "view": 1,
+    "kind": "all",
+    "source": "tombcrossbow-front-right.png",
+    "prompt": "tombcrossbow-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombcrossbow-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombcrossbow-right",
+    "jobId": "tombcrossbow-right",
+    "character": "tombcrossbow",
+    "view": 2,
+    "kind": "all",
+    "source": "tombcrossbow-right.png",
+    "prompt": "tombcrossbow-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombcrossbow-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombcrossbow-rear-right",
+    "jobId": "tombcrossbow-rear-right",
+    "character": "tombcrossbow",
+    "view": 3,
+    "kind": "all",
+    "source": "tombcrossbow-rear-right.png",
+    "prompt": "tombcrossbow-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombcrossbow-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "tombcrossbow-back",
+    "jobId": "tombcrossbow-back",
+    "character": "tombcrossbow",
+    "view": 4,
+    "kind": "all",
+    "source": "tombcrossbow-back.png",
+    "prompt": "tombcrossbow-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/tombcrossbow-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "jeokho-front",
+    "jobId": "jeokho-front",
+    "character": "jeokho",
+    "view": 0,
+    "kind": "all",
+    "source": "jeokho-front.png",
+    "prompt": "jeokho-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "jeokho-front-right",
+    "jobId": "jeokho-front-right",
+    "character": "jeokho",
+    "view": 1,
+    "kind": "all",
+    "source": "jeokho-front-right.png",
+    "prompt": "jeokho-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/jeokho-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "jeokho-right",
+    "jobId": "jeokho-right",
+    "character": "jeokho",
+    "view": 2,
+    "kind": "all",
+    "source": "jeokho-right.png",
+    "prompt": "jeokho-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/jeokho-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "jeokho-rear-right",
+    "jobId": "jeokho-rear-right",
+    "character": "jeokho",
+    "view": 3,
+    "kind": "all",
+    "source": "jeokho-rear-right.png",
+    "prompt": "jeokho-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/jeokho-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "jeokho-back",
+    "jobId": "jeokho-back",
+    "character": "jeokho",
+    "view": 4,
+    "kind": "all",
+    "source": "jeokho-back.png",
+    "prompt": "jeokho-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/jeokho-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "seokmun-front",
+    "jobId": "seokmun-front",
+    "character": "seokmun",
+    "view": 0,
+    "kind": "all",
+    "source": "seokmun-front.png",
+    "prompt": "seokmun-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "seokmun-front-right",
+    "jobId": "seokmun-front-right",
+    "character": "seokmun",
+    "view": 1,
+    "kind": "all",
+    "source": "seokmun-front-right.png",
+    "prompt": "seokmun-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/seokmun-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "seokmun-right",
+    "jobId": "seokmun-right",
+    "character": "seokmun",
+    "view": 2,
+    "kind": "all",
+    "source": "seokmun-right.png",
+    "prompt": "seokmun-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/seokmun-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "seokmun-rear-right",
+    "jobId": "seokmun-rear-right",
+    "character": "seokmun",
+    "view": 3,
+    "kind": "all",
+    "source": "seokmun-rear-right.png",
+    "prompt": "seokmun-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/seokmun-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "seokmun-back",
+    "jobId": "seokmun-back",
+    "character": "seokmun",
+    "view": 4,
+    "kind": "all",
+    "source": "seokmun-back.png",
+    "prompt": "seokmun-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/seokmun-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "gwakgi-front",
+    "jobId": "gwakgi-front",
+    "character": "gwakgi",
+    "view": 0,
+    "kind": "all",
+    "source": "gwakgi-front.png",
+    "prompt": "gwakgi-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "gwakgi-front-right",
+    "jobId": "gwakgi-front-right",
+    "character": "gwakgi",
+    "view": 1,
+    "kind": "all",
+    "source": "gwakgi-front-right.png",
+    "prompt": "gwakgi-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/gwakgi-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "gwakgi-right",
+    "jobId": "gwakgi-right",
+    "character": "gwakgi",
+    "view": 2,
+    "kind": "all",
+    "source": "gwakgi-right.png",
+    "prompt": "gwakgi-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/gwakgi-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "gwakgi-rear-right",
+    "jobId": "gwakgi-rear-right",
+    "character": "gwakgi",
+    "view": 3,
+    "kind": "all",
+    "source": "gwakgi-rear-right.png",
+    "prompt": "gwakgi-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/gwakgi-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "gwakgi-back",
+    "jobId": "gwakgi-back",
+    "character": "gwakgi",
+    "view": 4,
+    "kind": "all",
+    "source": "gwakgi-back.png",
+    "prompt": "gwakgi-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/gwakgi-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "wolryeong-front",
+    "jobId": "wolryeong-front",
+    "character": "wolryeong",
+    "view": 0,
+    "kind": "all",
+    "source": "wolryeong-front.png",
+    "prompt": "wolryeong-front.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "wolryeong-front-right",
+    "jobId": "wolryeong-front-right",
+    "character": "wolryeong",
+    "view": 1,
+    "kind": "all",
+    "source": "wolryeong-front-right.png",
+    "prompt": "wolryeong-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/wolryeong-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "wolryeong-right",
+    "jobId": "wolryeong-right",
+    "character": "wolryeong",
+    "view": 2,
+    "kind": "all",
+    "source": "wolryeong-right.png",
+    "prompt": "wolryeong-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/wolryeong-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "wolryeong-rear-right",
+    "jobId": "wolryeong-rear-right",
+    "character": "wolryeong",
+    "view": 3,
+    "kind": "all",
+    "source": "wolryeong-rear-right.png",
+    "prompt": "wolryeong-rear-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/wolryeong-front.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "wolryeong-back",
+    "jobId": "wolryeong-back",
+    "character": "wolryeong",
+    "view": 4,
+    "kind": "all",
+    "source": "wolryeong-back.png",
+    "prompt": "wolryeong-back.prompt.txt",
+    "references": [
+      "public/art/regions-v1/6-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "docs/source/tomb-family-v1/wolryeong-front.png"
+    ],
+    "status": "generated"
+  }
+]

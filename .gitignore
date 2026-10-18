@@ -1,0 +1,60 @@
+# Dependencies and generated builds
+node_modules/
+/dist/
+/dist-*/
+coverage/
+*.tsbuildinfo
+
+# Local validation and browser recordings
+/test-results*/
+/playwright-report/
+/.cache/
+/.local-preview/
+/.validation/
+/.codex-remote-attachments/
+/docs/verification/**
+!/docs/verification/**/
+!/docs/verification/**/*.md
+!/docs/verification/**/*.json
+# Per-frame renderer samples are local evidence; keep their Markdown summaries.
+/docs/verification/**/canvas-*.json
+/docs/verification/**/webgl-*.json
+
+# Personal note snapshots stay local; feature/verification docs are versioned.
+/docs/obsidian-sync/
+
+# Credentials, server-local settings, and packages
+.env
+.env.*
+!.env.example
+!.env.*.example
+.ssh/
+.aws/
+*.pem
+*.key
+known_hosts*
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+.DS_Store
+Thumbs.db
+
+# Media is kept on the personal server, outside GitHub/LFS.
+/.asset-bundles/
+*.png
+*.webp
+*.jpg
+*.jpeg
+*.gif
+*.avif
+*.wav
+*.mp3
+*.ogg
+*.webm
+*.mp4
+*.woff
+*.woff2
+*.ttf
+*.otf

@@ -1,0 +1,167 @@
+<div id="mugong-draft-v1">
+  <div class="viz-controls">
+    <label class="form-label" for="mugong-preview-screen">검토 화면
+      <select class="form-select" id="mugong-preview-screen">
+        <option value="lobby">세가 로비 · 명부</option><option value="inventory">로비 가방</option><option value="warehouse">세가 창고</option><option value="market">장비 시장</option><option value="gangho">강호 전투</option><option value="raid">레이드 전투</option><option value="gangho-prep">강호 정비</option><option value="raid-prep">레이드 층 사이</option>
+      </select>
+    </label>
+    <span class="text-small text-muted">1차 화면 구조 · 인물과 수치는 예시</span>
+  </div>
+  <div id="mugong-product" aria-label="무공 화면 구성"></div>
+  <div id="mugong-preview-result" class="sr-only" aria-live="polite"></div>
+</div>
+<style>
+#mugong-draft-v1 .mg{--paper:light-dark(#f4eee2,#292721);--panel:light-dark(#faf6ed,#343029);--ink:light-dark(#272820,#ebe3d5);--soft:light-dark(#655f51,#c0b59f);--edge:light-dark(#c8b99e,#655a45);--gold:light-dark(#6c542b,#d3b681);--wash:light-dark(#e6ddca,#433c2d);--danger:light-dark(#962f2f,#e7a3a0);--field:light-dark(#d8d7c3,#33382c);--route:light-dark(#e6ddc5,#514a39);background:var(--paper);color:var(--ink);border:1px solid var(--edge);font:14px/1.5 "Malgun Gothic",sans-serif;min-width:0;--gap:14px}
+#mugong-draft-v1 .mg *{box-sizing:border-box;min-width:0}
+#mugong-draft-v1 .mg button,#mugong-draft-v1 .mg input,#mugong-draft-v1 .mg select{font:inherit;color:inherit}
+#mugong-draft-v1 .mg button{background:var(--panel);border:1px solid var(--edge);padding:8px 12px;border-radius:3px;min-height:36px}
+#mugong-draft-v1 .mg button:disabled{opacity:.45}
+#mugong-draft-v1 .mg button.active,#mugong-draft-v1 .mg button.major{background:var(--gold);color:var(--paper);border-color:var(--gold)}
+#mugong-draft-v1 .mg input,#mugong-draft-v1 .mg select{background:var(--panel);border:1px solid var(--edge);padding:7px;width:100%;border-radius:3px}
+#mugong-draft-v1 .mg h2{font-size:20px;font-weight:500;margin:0}
+#mugong-draft-v1 .mg h3{font-size:14px;font-weight:500;margin:0 0 12px}
+#mugong-draft-v1 .mg p{margin:6px 0}
+#mugong-draft-v1 .mg small{font-size:12px;color:var(--soft)}
+#mugong-draft-v1 .mg .bar{height:6px;background:var(--wash);margin:6px 0}
+#mugong-draft-v1 .mg .bar>span{display:block;height:100%;background:var(--gold)}
+#mugong-draft-v1 .mg .head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:16px;border-bottom:1px solid var(--edge)}
+#mugong-draft-v1 .mg .head .brand{font:500 23px "Batang",serif;letter-spacing:2px}
+#mugong-draft-v1 .mg nav{display:flex;gap:6px;flex-wrap:wrap}
+#mugong-draft-v1 .mg .body{padding:var(--gap)}
+#mugong-draft-v1 .mg .panel{padding:var(--gap);border:1px solid var(--edge);background:var(--panel)}
+#mugong-draft-v1 .mg .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#mugong-draft-v1 .mg .between{justify-content:space-between}
+#mugong-draft-v1 .mg .two{display:grid;grid-template-columns:1.35fr 1fr;gap:var(--gap)}
+#mugong-draft-v1 .mg .roster{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+#mugong-draft-v1 .mg .roster>button{text-align:left;padding:16px}
+#mugong-draft-v1 .mg .roster>button.selected{box-shadow:inset 0 0 0 2px var(--gold)}
+#mugong-draft-v1 .mg .arts{display:grid;gap:8px}
+#mugong-draft-v1 .mg .arts>div{display:flex;gap:10px;justify-content:space-between;border-bottom:1px solid var(--edge);padding:8px 0}
+#mugong-draft-v1 .mg .inventory{display:grid;grid-template-columns:150px minmax(120px,160px) minmax(0,1fr) 175px;gap:10px}
+#mugong-draft-v1 .mg .inv-title{display:flex;justify-content:space-between;margin-bottom:10px;gap:4px}
+#mugong-draft-v1 .mg .grid{display:grid;position:relative;border:1px solid var(--edge);background-color:var(--paper);background-image:linear-gradient(to right,var(--edge) 1px,transparent 1px),linear-gradient(to bottom,var(--edge) 1px,transparent 1px);background-size:calc(100% / var(--cols)) calc(100% / var(--rows));grid-template-columns:repeat(var(--cols),minmax(0,1fr));grid-template-rows:repeat(var(--rows),minmax(0,1fr));aspect-ratio:var(--cols) / var(--rows)}
+#mugong-draft-v1 .mg .grid>button{padding:2px;min-height:0;border:1px solid var(--gold);background:var(--wash);border-radius:1px;overflow-wrap:anywhere;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2px;font-size:12px}
+#mugong-draft-v1 .mg .grid>button.selected{background:var(--gold);color:var(--paper)}
+#mugong-draft-v1 .mg .grid>button i{display:block}
+#mugong-draft-v1 .mg .detail{display:flex;flex-direction:column;gap:10px}
+#mugong-draft-v1 .mg .detail .item-display{background:var(--wash);padding:20px;text-align:center}
+#mugong-draft-v1 .mg .stage{margin-top:12px;padding:var(--gap);border:1px solid var(--edge);background:var(--panel)}
+#mugong-draft-v1 .mg .stage-items{display:flex;flex-wrap:wrap;gap:8px;min-height:55px;align-items:center}
+#mugong-draft-v1 .mg .note{padding:8px 12px;background:var(--wash);margin-bottom:12px;color:var(--soft)}
+#mugong-draft-v1 .mg .market{display:grid;grid-template-columns:160px minmax(0,1fr) 205px;gap:var(--gap)}
+#mugong-draft-v1 .mg .filters{display:grid;gap:12px;align-content:start}
+#mugong-draft-v1 .mg .listing{display:grid;grid-template-columns:minmax(0,1.6fr) 1fr 1fr 1fr;gap:7px;align-items:center}
+#mugong-draft-v1 .mg button.listing{width:100%;text-align:left;margin-top:6px}
+#mugong-draft-v1 .mg .combat{padding:12px;background:var(--field)}
+#mugong-draft-v1 .mg .hud-top{display:grid;grid-template-columns:1fr 1.6fr 1fr;gap:12px;align-items:start}
+#mugong-draft-v1 .mg .hud-box{background:var(--panel);padding:12px;border:1px solid var(--edge)}
+#mugong-draft-v1 .mg .battlefield{min-height:290px;position:relative;margin:12px 0;background:linear-gradient(122deg,transparent 30%,var(--route) 30%,var(--route) 70%,transparent 70%)}
+#mugong-draft-v1 .mg .actor{position:absolute;display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--soft)}
+#mugong-draft-v1 .mg .actor>span{width:36px;height:36px;border-radius:50%;background:var(--panel);border:2px solid var(--edge);display:grid;place-items:center}
+#mugong-draft-v1 .mg .actor.hero>span{border-color:var(--gold);background:var(--wash)}
+#mugong-draft-v1 .mg .actor.enemy>span{border-color:var(--danger)}
+#mugong-draft-v1 .mg .hud-bottom{display:grid;grid-template-columns:1.1fr 1fr 1.1fr;gap:12px}
+#mugong-draft-v1 .mg .art-switch{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+#mugong-draft-v1 .mg .art-switch button{padding:5px 8px}
+#mugong-draft-v1 .mg .party{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}
+#mugong-draft-v1 .mg .party>div{padding:12px;border:1px solid var(--edge);background:var(--panel)}
+#mugong-draft-v1 .mg .decisions{display:grid;gap:14px}
+#mugong-draft-v1 .mg .modal{margin:12px 0;padding:18px;border:2px solid var(--gold);background:var(--panel)}
+#mugong-draft-v1 .mg .modal ul{margin:10px 0;padding-left:22px}
+#mugong-draft-v1 .mg .warehouse{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+#mugong-draft-v1 .mg .warehouse>button{padding:20px 10px}
+#mugong-draft-v1 .mg svg{width:18px;height:18px}
+#mugong-draft-v1 .mg[data-density="compact"]{--gap:9px}
+@media(max-width:900px){#mugong-draft-v1 .mg .inventory{grid-template-columns:140px 150px minmax(0,1fr)}#mugong-draft-v1 .mg .inventory>.detail{grid-column:1/-1;display:grid;grid-template-columns:1fr 2fr 1fr}#mugong-draft-v1 .mg .market{grid-template-columns:145px minmax(0,1fr)}#mugong-draft-v1 .mg .market>.detail{grid-column:1/-1}}
+@media(max-width:600px){#mugong-draft-v1 .mg .two,#mugong-draft-v1 .mg .inventory,#mugong-draft-v1 .mg .market,#mugong-draft-v1 .mg .hud-top,#mugong-draft-v1 .mg .hud-bottom{grid-template-columns:1fr}#mugong-draft-v1 .mg .inventory>.detail{grid-template-columns:1fr}#mugong-draft-v1 .mg .inventory>.panel:nth-child(2){max-width:220px;width:100%}#mugong-draft-v1 .mg .party,#mugong-draft-v1 .mg .warehouse{grid-template-columns:repeat(2,minmax(0,1fr))}#mugong-draft-v1 .mg .listing{grid-template-columns:1.4fr 1fr}#mugong-draft-v1 .mg .roster{grid-template-columns:1fr}#mugong-draft-v1 .mg .battlefield{min-height:240px}#mugong-draft-v1 .mg .head{padding:12px}#mugong-draft-v1 .mg button{min-height:42px}}
+</style>
+<script>
+(()=>{
+const root=document.getElementById('mugong-draft-v1'),product=document.getElementById('mugong-product'),screenSelect=document.getElementById('mugong-preview-screen'),announcement=document.getElementById('mugong-preview-result');
+const screens=['lobby','inventory','warehouse','market','gangho','raid','gangho-prep','raid-prep'];
+const saved=window.openai?.widgetState?.privateContent||{};
+const state={screen:screens.includes(saved.screen)?saved.screen:'lobby',bag:!!saved.bag,density:saved.density==='compact'?'compact':'normal',selected:'herb1',stage:[],partyPhase:'choice',raidParty:4,art:0,market:'sword',filter:'all',query:'',modal:'',message:'',roster:0};
+const items=[
+ {id:'sword',name:'정련검',glyph:'검',icon:'sword',kind:'equipment',bag:'weapon',x:1,y:1,w:1,h:5,detail:'화산매화검법에 연결',linked:true},
+ {id:'fan',name:'팔괘선',glyph:'선',icon:'fan',kind:'equipment',bag:'weapon',x:2,y:1,w:2,h:3,detail:'제갈팔괘진에 연결',linked:true},
+ {id:'glove',name:'권갑',glyph:'권',icon:'hand',kind:'equipment',bag:'weapon',x:2,y:5,w:2,h:2,detail:'무장 가방에 수납',linked:false},
+ {id:'robe',name:'경무도포',glyph:'옷',icon:'shirt',kind:'equipment',bag:'general',x:1,y:1,w:3,h:3,detail:'가벼운 방어구'},
+ {id:'herb1',name:'지혈산',glyph:'약',icon:'sprout',kind:'consume',bag:'general',x:4,y:1,w:1,h:1,detail:'비전투 중 체력 회복'},
+ {id:'herb2',name:'지혈산',glyph:'약',icon:'sprout',kind:'consume',bag:'general',x:5,y:1,w:1,h:1,detail:'비전투 중 체력 회복'},
+ {id:'pill',name:'반로환',glyph:'환',icon:'flask-conical',kind:'consume',bag:'general',x:6,y:1,w:1,h:1,detail:'잔여 수명 유지 · 반복 복용 효율 감소'},
+ {id:'book',name:'매화검보',glyph:'서',icon:'book-open',kind:'consume',bag:'general',x:7,y:1,w:2,h:2,detail:'보유 무공 수련용 비급'},
+ {id:'iron1',name:'운철',glyph:'철',icon:'gem',kind:'material',bag:'general',x:4,y:3,w:2,h:2,detail:'거래 가능한 재료'},
+ {id:'iron2',name:'운철',glyph:'철',icon:'gem',kind:'material',bag:'general',x:6,y:3,w:2,h:2,detail:'거래 가능한 재료'},
+ {id:'spear',name:'수납한 장창',glyph:'창',icon:'sword',kind:'equipment',bag:'general',x:9,y:1,w:1,h:6,detail:'일반 가방 보관 · 무공 연결 불가'}
+];
+let discarded=new Set();
+const listings=[{id:'sword',name:'정련검',type:'weapon',quality:'108',price:'8,500',stat:'공격력 +12'},{id:'fan',name:'팔괘선',type:'weapon',quality:'96',price:'6,200',stat:'공격력 +8'},{id:'robe',name:'경무도포',type:'armor',quality:'104',price:'7,400',stat:'방어력 +10'},{id:'glove',name:'권갑',type:'weapon',quality:'101',price:'5,800',stat:'공격력 +9'}];
+const label={lobby:'세가 로비',inventory:'가방',warehouse:'창고',market:'장비 시장',gangho:'강호 · 1구간 · 3/20웨이브',raid:'레이드 · 2/5층', 'gangho-prep':'강호 · 4/20웨이브 · 정비','raid-prep':'레이드 · 1층 클리어'};
+function icon(name){return `<i data-lucide="${name}" aria-hidden="true"></i>`}
+function escapeHTML(value){return String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')}
+function btn(text,action,major=false,disabled=false){return `<button type="button" class="cursor-interaction ${major?'major':''}" data-action="${action}" ${disabled?'disabled':''}>${text}</button>`}
+function isBattle(){return state.screen==='gangho'||state.screen==='raid'}
+function isLobby(){return ['lobby','inventory','market','warehouse'].includes(state.screen)}
+function isBag(){return state.screen==='inventory'||state.bag}
+function keep(){window.openai?.setWidgetState?.({modelContent:{screen:label[state.screen],bagOpen:isBag()},privateContent:{screen:state.screen,bag:state.bag,density:state.density}})?.catch(()=>{})}
+function say(message){announcement.textContent=message}
+function navigate(screen){state.screen=screen;state.bag=false;state.modal='';state.message='';state.stage=[];discarded=new Set();state.selected='herb1';state.partyPhase='choice';if(screen.startsWith('gangho'))state.art=0;render();keep()}
+function chrome(){return `<header class="head"><span class="brand">무공</span><nav aria-label="로비 메뉴">${[['lobby','명부'],['inventory','가방'],['warehouse','창고'],['market','시장']].map(([id,name])=>`<button type="button" class="cursor-interaction ${state.screen===id?'active':''}" data-screen="${id}">${name}</button>`).join('')}</nav><small>청연세가 · 12,430전</small></header>`}
+function arts(){return `<div class="arts"><div><span>화산매화검법</span><span>Lv.3</span></div><div><span>무당태극검법</span><span>Lv.2</span></div><div><span>제갈팔괘진</span><span>Lv.2</span></div><div><span>삼재검법</span><span>Lv.4</span></div></div>`}
+function person(){if(state.screen.startsWith('gangho'))return `<h3>새 무인</h3><p>체력 ${state.screen==='gangho-prep'?74:100} / 100</p><div class="bar"><span style="width:${state.screen==='gangho-prep'?74:100}%"></span></div><p>강호 육성 중</p><small>20웨이브 완료 후 명부 등록</small><div class="arts"><div><span>화산매화검법</span><span>Lv.1</span></div></div>`;const hp=state.roster===0?62:79;return `<h3>${state.roster===0?'청하연':'백무영'}</h3><p>체력 ${hp} / 100</p><div class="bar"><span style="width:${hp}%"></span></div><p>남은 수명<br>${state.roster===0?'4일 12시간':'6일 3시간'}</p>${arts()}`}
+function lobby(){return `<div class="body"><div class="row between" style="margin-bottom:16px"><h2>명부</h2><span>2 / 5명</span></div><div class="two"><div><div class="roster">${['청하연','백무영'].map((name,i)=>`<button type="button" data-roster="${i}" class="cursor-interaction ${state.roster===i?'selected':''}">${icon('user-round')}<p>${name}</p><small>${i===0?'잔여 4일 12시간 · HP 62':'잔여 6일 3시간 · HP 79'}</small></button>`).join('')}</div><div class="panel" style="margin-top:14px"><h3>새 무인 생성</h3><p>강호 20웨이브 · 0부터 육성</p><small>완료 후 명부 등록</small><div class="row" style="margin-top:10px">${btn('강호 시작','new',true)}</div></div></div><section class="panel">${person()}<div class="row" style="margin-top:16px">${btn('출전 준비','lobby-bag')}${btn('레이드','raid',true)}${btn('비무','bimu')}${btn('생사결','duel')}</div></section></div></div>`}
+function inventory(){const readOnly=isBattle();const selected=items.find(i=>i.id===state.selected)||items[4];const staged=state.stage.includes(selected.id);const title=readOnly?(state.screen==='gangho'?'강호 전투 일시 정지':'레이드 전투 진행 · 캐릭터 조작 불가'):(state.screen==='inventory'?'로비 가방':'비전투 정비 · 가방');
+function grid(bag,cols,rows){return `<div class="grid" style="--cols:${cols};--rows:${rows}" aria-label="${bag==='weapon'?'무장':'일반'} 가방">${items.filter(i=>i.bag===bag&&!state.stage.includes(i.id)&&!discarded.has(i.id)).map(i=>`<button type="button" class="cursor-interaction ${state.selected===i.id?'selected':''}" aria-label="${i.name}${i.linked?', 무공에 연결됨':''}" data-item="${i.id}" style="grid-column:${i.x}/span ${i.w};grid-row:${i.y}/span ${i.h}">${icon(i.icon)}<span>${i.glyph}</span></button>`).join('')}</div>`}
+const groups=[];for(const id of state.stage){const item=items.find(i=>i.id===id);let group=item.kind==='equipment'?null:groups.find(g=>g.name===item.name&&g.kind===item.kind);if(group)group.ids.push(id);else groups.push({name:item.name,kind:item.kind,ids:[id]})}
+return `<div class="body"><div class="row between" style="margin-bottom:12px"><h2>가방</h2>${btn('닫기','close-bag')}</div><div class="note">${title}${readOnly?' · 정보 확인만 가능':''}</div><div class="inventory"><section class="panel">${person()}</section><section class="panel"><div class="inv-title"><span>무장 가방</span><small>4 × 7</small></div>${grid('weapon',4,7)}</section><section class="panel"><div class="inv-title"><span>일반 가방</span><small>10 × 8</small></div>${grid('general',10,8)}</section><section class="panel detail"><div class="item-display">${icon(selected.icon)}<p>${selected.name}</p></div><div><small>아이템 정보</small><p>${selected.detail}</p><p>${selected.w} × ${selected.h}칸</p></div><div class="row">${btn('사용','use',false,readOnly||selected.kind!=='consume'||staged)}${btn(staged?'가방으로 회수':'정리판에 놓기',staged?'recover':'stage',false,readOnly||selected.linked||discarded.has(selected.id))}</div></section></div><section class="stage"><div class="row between"><h3>임시 정리판</h3><small>${readOnly?'비전투에서 이용':'소모품·재료 중첩'}</small></div><div class="stage-items">${groups.map(g=>`<button type="button" class="cursor-interaction" data-item="${g.ids[0]}">${g.name}${g.kind!=='equipment'?' ×'+g.ids.length:''}</button>`).join('')||'<small>펼쳐 둔 물품 없음</small>'}</div></section>${state.message?`<p role="status">${state.message}</p>`:''}${state.modal==='discard'?`<section class="modal" role="dialog" aria-modal="true" aria-label="정리판 물품 폐기 확인"><h3>이 물품을 버리고 닫으시겠습니까?</h3><ul>${groups.map(g=>`<li>${g.name} × ${g.ids.length}</li>`).join('')}</ul><div class="row">${btn('계속 정리','cancel-discard')}${btn('버리고 닫기','discard',true)}</div></section>`:''}</div>`}
+function market(){const selected=listings.find(i=>i.id===state.market)||listings[0];const filtered=listings.filter(i=>(state.filter==='all'||i.type===state.filter)&&i.name.includes(state.query));return `<div class="body"><h2 style="margin-bottom:14px">장비 시장</h2><div class="market"><aside class="panel filters"><label>장비 종류<select id="mg-market-type"><option value="all" ${state.filter==='all'?'selected':''}>전체</option><option value="weapon" ${state.filter==='weapon'?'selected':''}>무기</option><option value="armor" ${state.filter==='armor'?'selected':''}>방어구</option></select></label><label>이름<input id="mg-market-query" value="${escapeHTML(state.query)}" placeholder="장비 이름"></label><p><small>개별 장비 매물</small></p></aside><section class="panel"><div class="listing"><small>이름</small><small>품질</small><small>능력치</small><small>가격</small></div>${filtered.map(i=>`<button type="button" class="listing cursor-interaction ${i.id===state.market?'active':''}" data-listing="${i.id}"><span>${i.name}</span><span>${i.quality}</span><span>${i.stat}</span><span>${i.price}전</span></button>`).join('')||'<p>조건에 맞는 매물이 없습니다.</p>'}</section><aside class="panel detail"><div class="item-display">${icon('sword')}<p>${selected.name}</p></div><p>품질 ${selected.quality}<br>${selected.stat}</p><p>${selected.price}전</p>${btn('구매','buy',true)}<small>거래 시세</small><p>최근 거래 ${selected.price}전</p></aside></div>${state.modal==='buy'?`<section class="modal" role="dialog" aria-modal="true" aria-label="장비 구매 확인"><h3>${selected.name} 구매</h3><p>${selected.price}전</p><div class="row">${btn('취소','cancel-buy')}${btn('구매 확인','confirm-buy',true)}</div></section>`:''}${state.message?`<p role="status">${state.message}</p>`:''}</div>`}
+function warehouse(){return `<div class="body"><div class="row between" style="margin-bottom:14px"><h2>세가 창고</h2>${btn('가방','lobby-bag')}</div><div class="warehouse">${[['정련검','개별 장비'],['경무도포','개별 장비'],['지혈산','× 12'],['반로환','× 2'],['운철','× 28'],['매화검보','× 3']].map(([a,b])=>`<button type="button" class="cursor-interaction" data-action="warehouse-item">${a}<br><small>${b}</small></button>`).join('')}</div>${state.message?`<p role="status">${state.message}</p>`:''}</div>`}
+function combat(){const raid=state.screen==='raid';const artsNames=['매화검법','태극검법','팔괘진','삼재검법'];return `<div class="combat"><div class="hud-top"><div class="hud-box"><span>${raid?'청하연':'새 무인'}</span><p>HP ${raid?'62':'100'} / 100</p><div class="bar"><span style="width:${raid?62:100}%"></span></div>${raid?'<small>잔여 수명 4일 12시간</small>':''}</div><div class="hud-box"><p>${raid?'혈마성 수문장':'산적 우두머리'}</p><div class="bar"><span style="width:72%"></span></div><small>보스 체력</small></div><div class="hud-box"><p>${label[state.screen]}</p><div class="row">${btn('가방','open-bag')}</div></div></div><div class="battlefield" role="img" aria-label="중앙 무인과 주변 적의 전투 공간 배치"><div class="actor hero" style="left:45%;top:46%"><span>${icon('user-round')}</span><small>무인</small></div><div class="actor enemy" style="left:26%;top:20%"><span>${icon('user-round')}</span><small>적</small></div><div class="actor enemy" style="left:69%;top:29%"><span>${icon('user-round')}</span><small>보스</small></div><div class="actor enemy" style="left:31%;top:72%"><span>${icon('user-round')}</span><small>적</small></div><div class="actor enemy" style="left:76%;top:74%"><span>${icon('user-round')}</span><small>적</small></div></div><div class="hud-bottom"><div class="hud-box"><small>현재 무공</small><p>${artsNames[state.art]} · Lv.${raid?'3':'1'}</p><small>좌클릭 기본 공격 · 우클릭 궁극 행동</small></div><div class="hud-box"><small>궁극 게이지</small><div class="bar"><span style="width:${raid?65:0}%"></span></div><span>${raid?'65 / 100':'Lv.5에 해금'}</span></div><div class="hud-box"><div class="art-switch">${btn('Q','art-prev')}${(raid?artsNames:[artsNames[0]]).map((a,i)=>`<button type="button" class="cursor-interaction ${i===state.art?'active':''}" data-art="${i}" aria-label="${a}">${i+1}</button>`).join('')}${btn('E','art-next')}</div><small>무공 전환</small></div></div></div>`}
+function ganghoPrep(){return `<div class="body"><div class="row between" style="margin-bottom:14px"><h2>강호 정비</h2><span>4 / 20웨이브 · 런 재화 430전</span></div><div class="two"><section class="panel"><h3>새 무인</h3><p>HP 74 / 100</p><small>강호 육성 중 · 수명 카운트 시작 전</small><div class="row" style="margin-top:14px">${btn('가방 · 무장 정리','open-bag',true)}${btn('다음 웨이브','next-gangho')}</div></section><section class="panel"><h3>이번 정비의 인연</h3><p>떠돌이 상인 · 의원</p><div class="row">${btn('거래','event-shop')}${btn('치료','heal')}</div><p><small>현재 강호에서 얻은 재화로 이용</small></p></section></div>${state.message?`<p role="status">${state.message}</p>`:''}</div>`}
+function raidPrep(){const phase=state.partyPhase,remaining=phase==='choice'?4:3;return `<div class="body"><div class="row between" style="margin-bottom:14px"><h2>레이드 · 1층 클리어</h2><span>다음 층 · ${remaining}인 난이도</span></div><div class="party">${['나','파티원 A','파티원 B','파티원 C'].map((name,i)=>`<div><span>${name}</span><p>${phase!=='choice'&&i===1?'귀환 선택':phase==='ready'&&i>1?'준비 완료':'생존'}</p></div>`).join('')}</div><div class="two"><section class="panel"><h3>출전 상태</h3><p>HP 62 / 100 · 잔여 4일 12시간</p><p>회수한 아군 유품 1개</p><small>생환 시 원래 세가로 반환</small><div class="row" style="margin-top:12px">${btn('가방 · 무장 정리','open-bag')}</div></section><section class="panel decisions">${phase==='choice'?`<h3>돌아갈지 더 도전할지 선택</h3><div class="row">${btn('귀환','return')}${btn('계속 도전','continue-raid',true)}</div>`:phase==='recheck'?`<h3>파티원 A가 귀환합니다</h3><p>남은 인원 3명 · 다음 층은 3인 난이도</p><p>진입 전에 다시 선택할 수 있습니다.</p><div class="row">${btn('나도 귀환','return')}${btn('3인으로 계속','confirm-continue',true)}</div>`:`<h3>남은 인원 준비 확인</h3><p>2 / 3명 준비 완료</p><div class="row">${btn('귀환','return')}${btn('준비 완료','ready',true)}</div>`}</section></div></div>`}
+function render(){screenSelect.value=state.screen;const gh=state.screen.startsWith('gangho');items[1].linked=!gh;items[1].detail=gh?'무장 가방에 수납 · 미연결':'제갈팔괘진에 연결';product.innerHTML=`<div class="mg" data-density="${state.density}">${isLobby()?chrome():`<header class="head"><span>${label[state.screen]}</span>${isBag()?'':`<small>${isBattle()?'전투':'비전투 정비'}</small>`}</header>`}${isBag()?inventory():state.screen==='lobby'?lobby():state.screen==='market'?market():state.screen==='warehouse'?warehouse():isBattle()?combat():state.screen==='gangho-prep'?ganghoPrep():raidPrep()}</div>`;if(state.screen==='gangho'&&!isBag()){const boss=product.querySelector('.hud-top>.hud-box:nth-child(2)');if(boss)boss.style.visibility='hidden';for(const text of product.querySelectorAll('.enemy small'))if(text.textContent==='보스')text.textContent='정예'}if(state.screen==='raid'&&!isBag()){const location=product.querySelector('.hud-top>.hud-box:nth-child(3)>p');if(location)location.textContent=label.raid+' · '+state.raidParty+'인'}if(window.lucide)window.lucide.createIcons({attrs:{width:18,height:18}})}
+function closeBag(){if(state.screen==='inventory')state.screen='lobby';else state.bag=false;state.modal='';state.message='';render();keep()}
+root.addEventListener('click',event=>{
+const target=event.target.closest('button');if(!target||!root.contains(target)||target.disabled)return;
+if(target.dataset.screen){navigate(target.dataset.screen);return}
+if(target.dataset.item){state.selected=target.dataset.item;state.message='';render();return}
+if(target.dataset.listing){state.market=target.dataset.listing;state.modal='';render();return}
+if(target.dataset.roster){state.roster=Number(target.dataset.roster);render();return}
+if(target.dataset.art!==undefined){state.art=Number(target.dataset.art);render();return}
+const action=target.dataset.action;if(!action)return;
+switch(action){
+case 'new':navigate('gangho');state.art=0;render();say('새 무인으로 강호를 시작합니다.');break;
+case 'raid':navigate('raid-prep');break;
+case 'bimu':state.message='비무 · 랭킹 경쟁 · 시즌 종료 보상';product.innerHTML=`<div class="mg">${chrome()}<div class="body"><h2>비무 출전</h2><p>청하연 · 시즌 랭킹</p><p>무공 경험치·아이템·재화 보상 없음</p>${btn('명부로','return')}</div></div>`;break;
+case 'duel':product.innerHTML=`<div class="mg">${chrome()}<div class="body"><h2>생사결 출전</h2><p>무인과 착용 장비·가방 물품을 겁니다.</p><p>자비 선택 시 상대를 살리고 판돈만 획득합니다.</p>${btn('명부로','return')}</div></div>`;break;
+case 'lobby-bag':navigate('inventory');break;
+case 'open-bag':state.bag=true;state.selected='herb1';render();keep();break;
+case 'close-bag':if(state.stage.length&&!isBattle()){state.modal='discard';render();say('정리판 물품의 폐기를 확인하세요.')}else closeBag();break;
+case 'stage':if(!isBattle()&&!state.stage.includes(state.selected)){state.stage.push(state.selected);state.message='임시 정리판에 펼쳤습니다.';render();say(state.message)}break;
+case 'recover':state.stage=state.stage.filter(i=>i!==state.selected);state.message='가방으로 회수했습니다.';render();break;
+case 'use':if(!isBattle()){state.message='소모품을 사용했습니다.';discarded.add(state.selected);render();say(state.message)}break;
+case 'cancel-discard':state.modal='';render();break;
+case 'discard':state.stage.forEach(i=>discarded.add(i));state.stage=[];say('정리판 물품을 버리고 가방을 닫았습니다.');closeBag();break;
+case 'art-prev':state.art=state.screen==='gangho'?0:(state.art+3)%4;render();break;
+case 'art-next':state.art=state.screen==='gangho'?0:(state.art+1)%4;render();break;
+case 'buy':state.modal='buy';render();break;
+case 'cancel-buy':state.modal='';render();break;
+case 'confirm-buy':state.modal='';state.message='구매 완료';render();say(state.message);break;
+case 'warehouse-item':state.message='창고는 단순 슬롯 보관 · 소모품과 재료는 중첩';render();break;
+case 'event-shop':state.message='떠돌이 상인 · 이번 런 재화 430전';render();break;
+case 'heal':state.message='의원 치료 · 현재 런의 재화 사용';render();break;
+case 'next-gangho':navigate('gangho');break;
+case 'continue-raid':state.partyPhase='recheck';render();say('파티원 A가 귀환합니다. 남은 인원도 귀환 여부를 다시 선택할 수 있습니다.');break;
+case 'confirm-continue':state.partyPhase='ready';render();break;
+case 'ready':state.raidParty=3;navigate('raid');say('남은 3인 모두 준비 완료. 3인 난이도의 다음 층에 진입합니다.');break;
+case 'return':navigate('lobby');say('세가로 귀환했습니다.');break;
+}
+keep();
+});
+root.addEventListener('change',event=>{if(event.target===screenSelect){navigate(screenSelect.value);return}if(event.target.id==='mg-market-type'){state.filter=event.target.value;render()}});
+root.addEventListener('input',event=>{if(event.target.id==='mg-market-query'){state.query=event.target.value;const start=event.target.selectionStart;render();const input=product.querySelector('#mg-market-query');input.focus();input.setSelectionRange(start,start)}});
+window.addEventListener('openai:set_globals',event=>{const incoming=event.detail?.globals?.widgetState?.privateContent;if(!incoming)return;if(screens.includes(incoming.screen))state.screen=incoming.screen;if(['normal','compact'].includes(incoming.density))state.density=incoming.density;if(typeof incoming.bag==='boolean')state.bag=incoming.bag;render()});
+render();
+if(window.Tweak){const tweak=new window.Tweak({container:product,onChange:()=>{render();keep()}});tweak.addSelect(state,'density',{label:'정보 간격',options:[{label:'여유롭게',value:'normal'},{label:'촘촘하게',value:'compact'}],reference:'mugong.density'})}
+})();
+</script>

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "sohong-front",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference": "sohong-front.png",
+    "detail": "Camera faces directly SOUTH toward viewer. Replace attack poses6..11 only. HER ANATOMICAL LEFT HAND holds the single black/red/gold folding fan in EVERY pose: this is on SCREEN RIGHT in idle0. Her right hand SCREEN LEFT is empty and balances. NEVER transfer fan to her right hand. Pose6 left elbow bends, fan pulled to left chest/shoulder on screenright. Pose7 same left wrist cocks fan outward at shoulder height, modest torso rotation, both feet grounded. Pose8 left arm sweeps fan forward across chest into SOUTH-directed contact, fan still visibly joined to left hand, not the right. Pose9 continues same left-hand sweep slightly across torso; right palm remains empty. Pose10 left elbow retracts fan back to chest. Pose11 settles to idle left-hand fan. Movement is a chest-height forward sweep with coordinated waist and planted feet, never overhead uppercut or dislocated shoulders. Head about100px wide and standing crown-to-foot about340px as original.",
+    "source": "sohong-front-combat-v9.png",
+    "prompt": "sohong-front.combat-v9.prompt.txt",
+    "text": "Use case: identity-preserve. The input is ONE unchanged native-size idle character reference, 512x512 transparent canvas. Create SIX new transparent attack keyframes of this exact red-gold fan witch. Output1536x1024, uniform3columns x2rows, each512px cell. Each character stays the SAME native head/torso/limb size as input: crown-to-foot approx340px, roomy clear padding at least48px in cell. Do NOT enlarge to fill cell, do NOT shrink contact. Preserve costume, skin, brightness and black hair. Same strict FRONT SOUTH, face visible camera throughout. Exactly one red-black-gold FAN in ANATOMICAL LEFT hand, SCREEN RIGHT, every frame. Anatomical right arm is EMPTY and open balance hand, separate visibly. Never transfer weapon hands, never cross the right arm across chest to grip fan, no second fan. Keep fan-side shoulder-elbow-wrist-handle visibly continuous. Six stages row-major: 0 pull LEFT elbow toward left ribs and fan beside LEFT chest; 1 further cock same LEFT fan wrist at shoulder, small waist coil, supporting foot planted; 2 LEFT arm sweeps fan forward toward facing target, below shoulder height, correct left shoulder connected through left elbow to left hand, empty right palm still visible; 3 continue same left-arm sweep slightly lower with following sleeve/hair, no wrist switch; 4 retract same left fan to chest; 5 settle idle same left-hand fan. Chest-height forward fan sweep with weight shift, not overhead or uppercut, no contorted spine. For front contact keep fan/wrist in SCREENRIGHT half of torso; for back keep fan on SCREENLEFT. Six complete distinct connected sprites, no touching neighbors, no clipping. Genuinely transparent alpha0, no shadow/glow/trail/background/text/grid.",
+    "references": [
+      "docs/source/hyeolma-family-v1/sohong-front-idle-reference.png"
+    ],
+    "grid": {
+      "columns": 3,
+      "rows": 2,
+      "offset": 6
+    }
+  },
+  {
+    "id": "sohong-rear-right",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference": "sohong-rear-right.png",
+    "detail": "Camera is rear three-quarter, character faces NORTHEAST (upper-right), back of long hair is visible; do not turn her toward viewer. Replace attack6..11 only. Preserve fan ownership from idle0: HER LEFT hand (far side, toward upper-right in this view) grips the ONE fan throughout. Right empty hand is near side and balances, not holding fan. Pose6 draw fan to left chest, never switch to near right shoulder. Pose7 coil left elbow and wrist at shoulder height. Pose8 left arm reaches/sweeps toward upper-right target, foot/hip/shoulder all face upper-right. Pose9 continues upper-right forward sweep, fan attached to same far left wrist. Pose10 retract fan to chest;11 return idle. Natural joints, modest torso turn, planted supporting foot. Keep original roughly330px crown-to-foot physical size.",
+    "source": "sohong-rear-right-combat-v9.png",
+    "prompt": "sohong-rear-right.combat-v9.prompt.txt",
+    "text": "Use case: identity-preserve. The input is ONE unchanged native-size idle character reference, 512x512 transparent canvas. Create SIX new transparent attack keyframes of this exact red-gold fan witch. Output1536x1024, uniform3columns x2rows, each512px cell. Each character stays the SAME native head/torso/limb size as input: crown-to-foot approx330px, roomy clear padding at least48px in cell. Do NOT enlarge to fill cell, do NOT shrink contact. Preserve costume, skin, brightness and black hair. Same rear-three-quarter NORTHEAST, back hair visible, gaze upper-right camera throughout. Exactly one red-black-gold FAN in ANATOMICAL LEFT hand, far LEFT arm, on upper-right side of torso, every frame. Anatomical right arm is EMPTY and open balance hand, separate visibly. Never transfer weapon hands, never cross the right arm across chest to grip fan, no second fan. Keep fan-side shoulder-elbow-wrist-handle visibly continuous. Six stages row-major: 0 pull LEFT elbow toward left ribs and fan beside LEFT chest; 1 further cock same LEFT fan wrist at shoulder, small waist coil, supporting foot planted; 2 LEFT arm sweeps fan forward toward facing target, below shoulder height, correct left shoulder connected through left elbow to left hand, empty right palm still visible; 3 continue same left-arm sweep slightly lower with following sleeve/hair, no wrist switch; 4 retract same left fan to chest; 5 settle idle same left-hand fan. Chest-height forward fan sweep with weight shift, not overhead or uppercut, no contorted spine. For front contact keep fan/wrist in SCREENRIGHT half of torso; for back keep fan on SCREENLEFT. Six complete distinct connected sprites, no touching neighbors, no clipping. Genuinely transparent alpha0, no shadow/glow/trail/background/text/grid.",
+    "references": [
+      "docs/source/hyeolma-family-v1/sohong-rear-right-idle-reference.png"
+    ],
+    "grid": {
+      "columns": 3,
+      "rows": 2,
+      "offset": 6
+    }
+  },
+  {
+    "id": "sohong-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference": "sohong-back.png",
+    "detail": "STRICT BACK view, faces NORTH away from viewer; no visible face or front torso. Replace attack6..11. HER LEFT HAND on SCREEN LEFT holds the single fan just as idle0. Right hand screenright EMPTY. Pose6 left elbow bends fan beside LEFT chest/shoulder, screenleft. Pose7 same left fan raised only to left shoulder, elbow natural. Pose8 left arm sweeps forward NORTH (up-screen), fan remains left, shoulder/hip/feet face north. Pose9 left-hand forward followthrough, right palm balance. Pose10 fan returns to screenleft shoulder. Pose11 idle with screenleft fan. Never place fan on screenright or twist neck/spine to face camera. Crown-to-foot approx310px as original, same hair/head/body size.",
+    "source": "sohong-back-combat-v9.png",
+    "prompt": "sohong-back.combat-v9.prompt.txt",
+    "text": "Use case: identity-preserve. The input is ONE unchanged native-size idle character reference, 512x512 transparent canvas. Create SIX new transparent attack keyframes of this exact red-gold fan witch. Output1536x1024, uniform3columns x2rows, each512px cell. Each character stays the SAME native head/torso/limb size as input: crown-to-foot approx310px, roomy clear padding at least48px in cell. Do NOT enlarge to fill cell, do NOT shrink contact. Preserve costume, skin, brightness and black hair. Same strict BACK NORTH, face never visible camera throughout. Exactly one red-black-gold FAN in ANATOMICAL LEFT hand, SCREEN LEFT, every frame. Anatomical right arm is EMPTY and open balance hand, separate visibly. Never transfer weapon hands, never cross the right arm across chest to grip fan, no second fan. Keep fan-side shoulder-elbow-wrist-handle visibly continuous. Six stages row-major: 0 pull LEFT elbow toward left ribs and fan beside LEFT chest; 1 further cock same LEFT fan wrist at shoulder, small waist coil, supporting foot planted; 2 LEFT arm sweeps fan forward toward facing target, below shoulder height, correct left shoulder connected through left elbow to left hand, empty right palm still visible; 3 continue same left-arm sweep slightly lower with following sleeve/hair, no wrist switch; 4 retract same left fan to chest; 5 settle idle same left-hand fan. Chest-height forward fan sweep with weight shift, not overhead or uppercut, no contorted spine. For front contact keep fan/wrist in SCREENRIGHT half of torso; for back keep fan on SCREENLEFT. Six complete distinct connected sprites, no touching neighbors, no clipping. Genuinely transparent alpha0, no shadow/glow/trail/background/text/grid.",
+    "references": [
+      "docs/source/hyeolma-family-v1/sohong-back-idle-reference.png"
+    ],
+    "grid": {
+      "columns": 3,
+      "rows": 2,
+      "offset": 6
+    }
+  },
+  {
+    "id": "sohong-right",
+    "poses": [
+      7
+    ],
+    "reference": "sohong-right-chest-load-v7.png",
+    "detail": "STRICT RIGHT side camera. Change ONLY pose7 (row3 middle), maximum preparation: make it a distinct modest extension of pose6 by cocking the SAME fan wrist and retracting SAME elbow another small amount at CHEST height. Keep anatomical LEFT fan hand from idle and preparation6, empty right balance hand, SAME head/body size. No overhead arm or hand swap. Keep remaining eleven drawings unchanged.",
+    "source": "sohong-right-final-v8.png",
+    "prompt": "sohong-right.final-v8.prompt.txt",
+    "text": "Use case: precise-object-edit. Production transparent chibi game sprite sheet. Input is the EDIT TARGET, not a style suggestion. Keep the exact identity, costume, colors, brightness and physical pixel dimensions of head, torso, limbs and weapon from the reference idle figure. Keep the original camera. Do not shrink any attack to fit its cell. Reposition whole figures into a ROOMIER canvas if needed; leave at least32 empty transparent pixels outside every hair, sleeve, hand, foot and weapon tip. No glow, motion trails, shadows, floor, background, text or grid lines. Genuine alpha0 background. Draw complete connected anatomy: shoulder-elbow-wrist-hand firmly holding the same handle. Keep all untargeted drawings unchanged. Preserve twelve drawings in a uniform3columns x4rows grid, row-major indices0..11. The six attack stages6..11 are initial load, maximum load, contact, followthrough, recovery, idle return.\nSTRICT RIGHT side camera. Change ONLY pose7 (row3 middle), maximum preparation: make it a distinct modest extension of pose6 by cocking the SAME fan wrist and retracting SAME elbow another small amount at CHEST height. Keep anatomical LEFT fan hand from idle and preparation6, empty right balance hand, SAME head/body size. No overhead arm or hand swap. Keep remaining eleven drawings unchanged.",
+    "references": [
+      "docs/source/hyeolma-family-v1/sohong-right-chest-load-v7.png"
+    ]
+  },
+  {
+    "id": "jeokcheon-right",
+    "poses": [
+      8
+    ],
+    "reference": "jeokcheon-right.png",
+    "detail": "RIGHT-facing red-black-gold armored dao boss. Change ONLY pose8 (row3 RIGHT) CONTACT: restore entire missing curved dao tip and give weapon32px+ outer margin, translating complete character inward if needed WITHOUT SCALING. Right hand grips one curved red/silver dao as preparation6,7. Downward-forward diagonal slash toward RIGHT, bend elbow naturally, support left arm and grounded feet. Keep head/body/costume size exactly, and all other poses unchanged. Distinct contact8 and followthrough9, no duplicate replacement.",
+    "source": "jeokcheon-right-final-v8.png",
+    "prompt": "jeokcheon-right.final-v8.prompt.txt",
+    "text": "Use case: precise-object-edit. Production transparent chibi game sprite sheet. Input is the EDIT TARGET, not a style suggestion. Keep the exact identity, costume, colors, brightness and physical pixel dimensions of head, torso, limbs and weapon from the reference idle figure. Keep the original camera. Do not shrink any attack to fit its cell. Reposition whole figures into a ROOMIER canvas if needed; leave at least32 empty transparent pixels outside every hair, sleeve, hand, foot and weapon tip. No glow, motion trails, shadows, floor, background, text or grid lines. Genuine alpha0 background. Draw complete connected anatomy: shoulder-elbow-wrist-hand firmly holding the same handle. Keep all untargeted drawings unchanged. Preserve twelve drawings in a uniform3columns x4rows grid, row-major indices0..11. The six attack stages6..11 are initial load, maximum load, contact, followthrough, recovery, idle return.\nRIGHT-facing red-black-gold armored dao boss. Change ONLY pose8 (row3 RIGHT) CONTACT: restore entire missing curved dao tip and give weapon32px+ outer margin, translating complete character inward if needed WITHOUT SCALING. Right hand grips one curved red/silver dao as preparation6,7. Downward-forward diagonal slash toward RIGHT, bend elbow naturally, support left arm and grounded feet. Keep head/body/costume size exactly, and all other poses unchanged. Distinct contact8 and followthrough9, no duplicate replacement.",
+    "references": [
+      "docs/source/hyeolma-family-v1/jeokcheon-right.png"
+    ]
+  },
+  {
+    "id": "yeonsal-back",
+    "poses": [
+      4
+    ],
+    "reference": "yeonsal-back.png",
+    "detail": "STRICT BACK-facing black sleeveless muscular gauntlet boss with red sash. Reference has irregular3/4/4 layout: do NOT redraw its other poses. Output ONLY ONE complete tiny-hit sprite centered on a spacious transparent canvas, same native physical crown-to-boot size about355px and same head/torso size as reference idle0. Feet planted, torso only barely rotates2degrees, shoulders stay level, gauntlets remain raised defensively, head stays north, no stumble, knee collapse, lean or enlarged body. Barely visible reaction, boss armor weight. No attack cancellation or death depiction. This is a SINGLE drawing, not12. Override grid instruction above for this one asset.",
+    "source": "yeonsal-back-final-v8.png",
+    "prompt": "yeonsal-back.final-v8.prompt.txt",
+    "text": "Use case: precise-object-edit. Production transparent chibi game sprite sheet. Input is the EDIT TARGET, not a style suggestion. Keep the exact identity, costume, colors, brightness and physical pixel dimensions of head, torso, limbs and weapon from the reference idle figure. Keep the original camera. Do not shrink any attack to fit its cell. Reposition whole figures into a ROOMIER canvas if needed; leave at least32 empty transparent pixels outside every hair, sleeve, hand, foot and weapon tip. No glow, motion trails, shadows, floor, background, text or grid lines. Genuine alpha0 background. Draw complete connected anatomy: shoulder-elbow-wrist-hand firmly holding the same handle. Keep all untargeted drawings unchanged. Preserve twelve drawings in a uniform3columns x4rows grid, row-major indices0..11. The six attack stages6..11 are initial load, maximum load, contact, followthrough, recovery, idle return.\nSTRICT BACK-facing black sleeveless muscular gauntlet boss with red sash. Reference has irregular3/4/4 layout: do NOT redraw its other poses. Output ONLY ONE complete tiny-hit sprite centered on a spacious transparent canvas, same native physical crown-to-boot size about355px and same head/torso size as reference idle0. Feet planted, torso only barely rotates2degrees, shoulders stay level, gauntlets remain raised defensively, head stays north, no stumble, knee collapse, lean or enlarged body. Barely visible reaction, boss armor weight. No attack cancellation or death depiction. This is a SINGLE drawing, not12. Override grid instruction above for this one asset.",
+    "references": [
+      "docs/source/hyeolma-family-v1/yeonsal-back.png"
+    ]
+  }
+]

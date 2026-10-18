@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>무공 · 검술 동작실</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><div><p class="eyebrow">첫 에셋 · 동작 검증</p><h1>검술 동작실 <span>무공</span></h1></div><span class="stamp">한 방향 시안</span></header>
+  <section class="toolbar" aria-label="동작 검토 도구">
+    <div class="actions"><button data-action="idle" aria-pressed="true">대기</button><button data-action="walk" aria-pressed="false">걷기</button><button data-action="slash" aria-pressed="false">베기</button><button id="play" aria-pressed="false">멈추기</button><button id="prev" aria-label="이전 프레임">←</button><button id="next" aria-label="다음 프레임">→</button></div>
+    <div class="options"><label><input id="slow" type="checkbox">느리게</label><label><input id="anchors" type="checkbox">손·발 기준점</label><label>크기 <select id="scale"><option value="0.24">게임 크기</option><option value="0.43">크게 보기</option></select></label></div>
+  </section>
+  <div class="stage-wrap">
+    <canvas id="stage" width="1200" height="650" tabindex="0" aria-label="검사 조작 공간. WASD 또는 방향키로 이동하고 클릭 또는 스페이스로 베기"></canvas>
+    <div class="top-note"><span class="seal">劍</span><div><b>검사 · 기준 시안</b><small>흰 도포 / 붉은 허리띠 / 철검</small></div></div>
+    <div class="live" aria-live="off"><span id="action-name">대기</span><span id="frame-count">1 / 4</span></div>
+    <div id="loading" role="status">에셋을 불러오는 중…</div>
+    <div class="bottom-note"><span>이동 <kbd>W A S D</kbd></span><span>베기 <kbd>클릭</kbd> <kbd>Space</kbd></span><span>중앙으로 <kbd>R</kbd></span></div>
+  </div>
+  <footer><p>캐릭터 몸체와 검을 분리해 손에 연결한 첫 동작 시안입니다. 발 기준점과 동작의 이어짐을 확인합니다.</p><p class="muted">시점은 남동쪽 한 방향입니다. 다른 방향의 원화·적·전투 판정은 아직 포함하지 않습니다. 바닥은 크기 검토용 임시 공간입니다.</p></footer>
+</main>
+<script type="module" src="main.js"></script>
+</body>
+</html>

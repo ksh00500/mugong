@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "mokjin-front",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 0,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-front.png",
+    "source": "mokjin-front-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-front-dash",
+        "source": "mokjin-front-dash.png",
+        "prompt": "mokjin-front-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-front-slam",
+        "source": "mokjin-front-slam.png",
+        "prompt": "mokjin-front-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-dash.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png",
+      "mokjin-front-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-front-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 1,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-front-right.png",
+    "source": "mokjin-front-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-front-right-dash",
+        "source": "mokjin-front-right-dash.png",
+        "prompt": "mokjin-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-front-right-slam",
+        "source": "mokjin-front-right-slam.png",
+        "prompt": "mokjin-front-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-dash.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png",
+      "mokjin-front-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 2,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-right.png",
+    "source": "mokjin-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-right-dash",
+        "source": "mokjin-right-dash.png",
+        "prompt": "mokjin-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-right-slam",
+        "source": "mokjin-right-slam.png",
+        "prompt": "mokjin-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-dash.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png",
+      "mokjin-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-rear-right",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 3,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-rear-right.png",
+    "source": "mokjin-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-rear-right-dash",
+        "source": "mokjin-rear-right-dash.png",
+        "prompt": "mokjin-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-rear-right-slam",
+        "source": "mokjin-rear-right-slam.png",
+        "prompt": "mokjin-rear-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-dash.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png",
+      "mokjin-rear-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mokjin-back",
+    "character": "mokjin",
+    "bossId": "3-1",
+    "view": 4,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/snow-special-v1/references/mokjin-back.png",
+    "source": "mokjin-back-dash.png",
+    "sources": [
+      {
+        "id": "mokjin-back-dash",
+        "source": "mokjin-back-dash.png",
+        "prompt": "mokjin-back-dash.prompt.txt"
+      },
+      {
+        "id": "mokjin-back-slam",
+        "source": "mokjin-back-slam.png",
+        "prompt": "mokjin-back-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-dash.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png",
+      "mokjin-back-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "xuelan-front",
+    "character": "xuelan",
+    "bossId": "3-2",
+    "view": 0,
+    "moves": [
+      "hazard",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/xuelan-front.png",
+    "source": "xuelan-front-hazard.png",
+    "sources": [
+      {
+        "id": "xuelan-front-hazard",
+        "source": "xuelan-front-hazard.png",
+        "prompt": "xuelan-front-hazard.prompt.txt"
+      },
+      {
+        "id": "xuelan-front-stance",
+        "source": "xuelan-front-stance.png",
+        "prompt": "xuelan-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "xuelan-front-hazard.png",
+      "xuelan-front-hazard.png",
+      "xuelan-front-hazard.png",
+      "xuelan-front-hazard.png",
+      "xuelan-front-hazard.png",
+      "xuelan-front-hazard.png",
+      "xuelan-front-stance.png",
+      "xuelan-front-stance.png",
+      "xuelan-front-stance.png",
+      "xuelan-front-stance.png",
+      "xuelan-front-stance.png",
+      "xuelan-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "xuelan-front-right",
+    "character": "xuelan",
+    "bossId": "3-2",
+    "view": 1,
+    "moves": [
+      "hazard",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/xuelan-front-right.png",
+    "source": "xuelan-front-right-hazard.png",
+    "sources": [
+      {
+        "id": "xuelan-front-right-hazard",
+        "source": "xuelan-front-right-hazard.png",
+        "prompt": "xuelan-front-right-hazard.prompt.txt"
+      },
+      {
+        "id": "xuelan-front-right-stance",
+        "source": "xuelan-front-right-stance.png",
+        "prompt": "xuelan-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-hazard.png",
+      "xuelan-front-right-stance.png",
+      "xuelan-front-right-stance.png",
+      "xuelan-front-right-stance.png",
+      "xuelan-front-right-stance.png",
+      "xuelan-front-right-stance.png",
+      "xuelan-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "xuelan-right",
+    "character": "xuelan",
+    "bossId": "3-2",
+    "view": 2,
+    "moves": [
+      "hazard",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/xuelan-right.png",
+    "source": "xuelan-right-hazard.png",
+    "sources": [
+      {
+        "id": "xuelan-right-hazard",
+        "source": "xuelan-right-hazard.png",
+        "prompt": "xuelan-right-hazard.prompt.txt"
+      },
+      {
+        "id": "xuelan-right-stance",
+        "source": "xuelan-right-stance.png",
+        "prompt": "xuelan-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "xuelan-right-hazard.png",
+      "xuelan-right-hazard.png",
+      "xuelan-right-hazard.png",
+      "xuelan-right-hazard.png",
+      "xuelan-right-hazard.png",
+      "xuelan-right-hazard.png",
+      "xuelan-right-stance.png",
+      "xuelan-right-stance.png",
+      "xuelan-right-stance.png",
+      "xuelan-right-stance.png",
+      "xuelan-right-stance.png",
+      "xuelan-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "xuelan-rear-right",
+    "character": "xuelan",
+    "bossId": "3-2",
+    "view": 3,
+    "moves": [
+      "hazard",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/xuelan-rear-right.png",
+    "source": "xuelan-rear-right-hazard.png",
+    "sources": [
+      {
+        "id": "xuelan-rear-right-hazard",
+        "source": "xuelan-rear-right-hazard.png",
+        "prompt": "xuelan-rear-right-hazard.prompt.txt"
+      },
+      {
+        "id": "xuelan-rear-right-stance",
+        "source": "xuelan-rear-right-stance.png",
+        "prompt": "xuelan-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-hazard.png",
+      "xuelan-rear-right-stance.png",
+      "xuelan-rear-right-stance.png",
+      "xuelan-rear-right-stance.png",
+      "xuelan-rear-right-stance.png",
+      "xuelan-rear-right-stance.png",
+      "xuelan-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "xuelan-back",
+    "character": "xuelan",
+    "bossId": "3-2",
+    "view": 4,
+    "moves": [
+      "hazard",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/xuelan-back.png",
+    "source": "xuelan-back-hazard.png",
+    "sources": [
+      {
+        "id": "xuelan-back-hazard",
+        "source": "xuelan-back-hazard.png",
+        "prompt": "xuelan-back-hazard.prompt.txt"
+      },
+      {
+        "id": "xuelan-back-stance",
+        "source": "xuelan-back-stance.png",
+        "prompt": "xuelan-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "xuelan-back-hazard.png",
+      "xuelan-back-hazard.png",
+      "xuelan-back-hazard.png",
+      "xuelan-back-hazard.png",
+      "xuelan-back-hazard.png",
+      "xuelan-back-hazard.png",
+      "xuelan-back-stance.png",
+      "xuelan-back-stance.png",
+      "xuelan-back-stance.png",
+      "xuelan-back-stance.png",
+      "xuelan-back-stance.png",
+      "xuelan-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baixue-front",
+    "character": "baixue",
+    "bossId": "3-3",
+    "view": 0,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/snow-special-v1/references/baixue-front.png",
+    "source": "baixue-front-stance.png",
+    "sources": [
+      {
+        "id": "baixue-front-stance",
+        "source": "baixue-front-stance.png",
+        "prompt": "baixue-front-stance.prompt.txt"
+      },
+      {
+        "id": "baixue-front-dash",
+        "source": "baixue-front-dash.png",
+        "prompt": "baixue-front-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baixue-front-stance.png",
+      "baixue-front-stance.png",
+      "baixue-front-stance.png",
+      "baixue-front-stance.png",
+      "baixue-front-stance.png",
+      "baixue-front-stance.png",
+      "baixue-front-dash.png",
+      "baixue-front-dash.png",
+      "baixue-front-dash.png",
+      "baixue-front-dash.png",
+      "baixue-front-dash.png",
+      "baixue-front-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baixue-front-right",
+    "character": "baixue",
+    "bossId": "3-3",
+    "view": 1,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/snow-special-v1/references/baixue-front-right.png",
+    "source": "baixue-front-right-stance.png",
+    "sources": [
+      {
+        "id": "baixue-front-right-stance",
+        "source": "baixue-front-right-stance.png",
+        "prompt": "baixue-front-right-stance.prompt.txt"
+      },
+      {
+        "id": "baixue-front-right-dash",
+        "source": "baixue-front-right-dash.png",
+        "prompt": "baixue-front-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baixue-front-right-stance.png",
+      "baixue-front-right-stance.png",
+      "baixue-front-right-stance.png",
+      "baixue-front-right-stance.png",
+      "baixue-front-right-stance.png",
+      "baixue-front-right-stance.png",
+      "baixue-front-right-dash.png",
+      "baixue-front-right-dash.png",
+      "baixue-front-right-dash.png",
+      "baixue-front-right-dash.png",
+      "baixue-front-right-dash.png",
+      "baixue-front-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baixue-right",
+    "character": "baixue",
+    "bossId": "3-3",
+    "view": 2,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/snow-special-v1/references/baixue-right.png",
+    "source": "baixue-right-stance.png",
+    "sources": [
+      {
+        "id": "baixue-right-stance",
+        "source": "baixue-right-stance.png",
+        "prompt": "baixue-right-stance.prompt.txt"
+      },
+      {
+        "id": "baixue-right-dash",
+        "source": "baixue-right-dash.png",
+        "prompt": "baixue-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baixue-right-stance.png",
+      "baixue-right-stance.png",
+      "baixue-right-stance.png",
+      "baixue-right-stance.png",
+      "baixue-right-stance.png",
+      "baixue-right-stance.png",
+      "baixue-right-dash.png",
+      "baixue-right-dash.png",
+      "baixue-right-dash.png",
+      "baixue-right-dash.png",
+      "baixue-right-dash.png",
+      "baixue-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baixue-rear-right",
+    "character": "baixue",
+    "bossId": "3-3",
+    "view": 3,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/snow-special-v1/references/baixue-rear-right.png",
+    "source": "baixue-rear-right-stance.png",
+    "sources": [
+      {
+        "id": "baixue-rear-right-stance",
+        "source": "baixue-rear-right-stance.png",
+        "prompt": "baixue-rear-right-stance.prompt.txt"
+      },
+      {
+        "id": "baixue-rear-right-dash",
+        "source": "baixue-rear-right-dash.png",
+        "prompt": "baixue-rear-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-stance.png",
+      "baixue-rear-right-dash.png",
+      "baixue-rear-right-dash.png",
+      "baixue-rear-right-dash.png",
+      "baixue-rear-right-dash.png",
+      "baixue-rear-right-dash.png",
+      "baixue-rear-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baixue-back",
+    "character": "baixue",
+    "bossId": "3-3",
+    "view": 4,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/snow-special-v1/references/baixue-back.png",
+    "source": "baixue-back-stance.png",
+    "sources": [
+      {
+        "id": "baixue-back-stance",
+        "source": "baixue-back-stance.png",
+        "prompt": "baixue-back-stance.prompt.txt"
+      },
+      {
+        "id": "baixue-back-dash",
+        "source": "baixue-back-dash.png",
+        "prompt": "baixue-back-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baixue-back-stance.png",
+      "baixue-back-stance.png",
+      "baixue-back-stance.png",
+      "baixue-back-stance.png",
+      "baixue-back-stance.png",
+      "baixue-back-stance.png",
+      "baixue-back-dash.png",
+      "baixue-back-dash.png",
+      "baixue-back-dash.png",
+      "baixue-back-dash.png",
+      "baixue-back-dash.png",
+      "baixue-back-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanxue-front",
+    "character": "hanxue",
+    "bossId": "3-4",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/hanxue-front.png",
+    "source": "hanxue-front-fan.png",
+    "sources": [
+      {
+        "id": "hanxue-front-fan",
+        "source": "hanxue-front-fan.png",
+        "prompt": "hanxue-front-fan.prompt.txt"
+      },
+      {
+        "id": "hanxue-front-stance",
+        "source": "hanxue-front-stance.png",
+        "prompt": "hanxue-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanxue-front-fan.png",
+      "hanxue-front-fan.png",
+      "hanxue-front-fan.png",
+      "hanxue-front-fan.png",
+      "hanxue-front-fan.png",
+      "hanxue-front-fan.png",
+      "hanxue-front-stance.png",
+      "hanxue-front-stance.png",
+      "hanxue-front-stance.png",
+      "hanxue-front-stance.png",
+      "hanxue-front-stance.png",
+      "hanxue-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanxue-front-right",
+    "character": "hanxue",
+    "bossId": "3-4",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/hanxue-front-right.png",
+    "source": "hanxue-front-right-fan.png",
+    "sources": [
+      {
+        "id": "hanxue-front-right-fan",
+        "source": "hanxue-front-right-fan.png",
+        "prompt": "hanxue-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "hanxue-front-right-stance",
+        "source": "hanxue-front-right-stance.png",
+        "prompt": "hanxue-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-fan.png",
+      "hanxue-front-right-stance.png",
+      "hanxue-front-right-stance.png",
+      "hanxue-front-right-stance.png",
+      "hanxue-front-right-stance.png",
+      "hanxue-front-right-stance.png",
+      "hanxue-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanxue-right",
+    "character": "hanxue",
+    "bossId": "3-4",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/hanxue-right.png",
+    "source": "hanxue-right-fan.png",
+    "sources": [
+      {
+        "id": "hanxue-right-fan",
+        "source": "hanxue-right-fan.png",
+        "prompt": "hanxue-right-fan.prompt.txt"
+      },
+      {
+        "id": "hanxue-right-stance",
+        "source": "hanxue-right-stance.png",
+        "prompt": "hanxue-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanxue-right-fan.png",
+      "hanxue-right-fan.png",
+      "hanxue-right-fan.png",
+      "hanxue-right-fan.png",
+      "hanxue-right-fan.png",
+      "hanxue-right-fan.png",
+      "hanxue-right-stance.png",
+      "hanxue-right-stance.png",
+      "hanxue-right-stance.png",
+      "hanxue-right-stance.png",
+      "hanxue-right-stance.png",
+      "hanxue-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanxue-rear-right",
+    "character": "hanxue",
+    "bossId": "3-4",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/hanxue-rear-right.png",
+    "source": "hanxue-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "hanxue-rear-right-fan",
+        "source": "hanxue-rear-right-fan.png",
+        "prompt": "hanxue-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "hanxue-rear-right-stance",
+        "source": "hanxue-rear-right-stance.png",
+        "prompt": "hanxue-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-fan.png",
+      "hanxue-rear-right-stance.png",
+      "hanxue-rear-right-stance.png",
+      "hanxue-rear-right-stance.png",
+      "hanxue-rear-right-stance.png",
+      "hanxue-rear-right-stance.png",
+      "hanxue-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanxue-back",
+    "character": "hanxue",
+    "bossId": "3-4",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/snow-special-v1/references/hanxue-back.png",
+    "source": "hanxue-back-fan.png",
+    "sources": [
+      {
+        "id": "hanxue-back-fan",
+        "source": "hanxue-back-fan.png",
+        "prompt": "hanxue-back-fan.prompt.txt"
+      },
+      {
+        "id": "hanxue-back-stance",
+        "source": "hanxue-back-stance.png",
+        "prompt": "hanxue-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanxue-back-fan.png",
+      "hanxue-back-fan.png",
+      "hanxue-back-fan.png",
+      "hanxue-back-fan.png",
+      "hanxue-back-fan.png",
+      "hanxue-back-fan.png",
+      "hanxue-back-stance.png",
+      "hanxue-back-stance.png",
+      "hanxue-back-stance.png",
+      "hanxue-back-stance.png",
+      "hanxue-back-stance.png",
+      "hanxue-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

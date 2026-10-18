@@ -1,0 +1,276 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.daytona.config.ts",
+      "--grep",
+      "검격.*1093|Daytona 공개|무협 HUD 1093",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\playwright.daytona.config.ts",
+    "rootDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/Documents/ChatGPT/MUGONG/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "daytona.spec.ts",
+          "language.spec.ts",
+          "audit.spec.ts",
+          "glance.spec.ts",
+          "combat-hud.spec.ts",
+          "combat-feel.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "combat-feel.spec.ts",
+      "file": "combat-feel.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "검격·회피 입력과 전투 가독성 1093×614",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 179592,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n\n    at loadFixture (C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts:50:14)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts:130:11",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts",
+                      "column": 14,
+                      "line": 50
+                    },
+                    "snippet": "  48 |\n  49 | async function loadFixture(page: Page, state: GameState) {\n> 50 |   await page.goto('/');\n     |              ^\n  51 |   await expect(page.locator('.home-scene,.game-canvas[data-ready=\"true\"]')).toBeVisible();\n  52 |   if (!publicBuild)\n  53 |     await page.evaluate(async () => {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts",
+                        "column": 14,
+                        "line": 50
+                      },
+                      "message": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n\n\n  48 |\n  49 | async function loadFixture(page: Page, state: GameState) {\n> 50 |   await page.goto('/');\n     |              ^\n  51 |   await expect(page.locator('.home-scene,.game-canvas[data-ready=\"true\"]')).toBeVisible();\n  52 |   if (!publicBuild)\n  53 |     await page.evaluate(async () => {\n    at loadFixture (C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts:50:14)\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts:130:11"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T05:38:18.066Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\combat-feel-검격·회피-입력과-전투-가독성-1093×614\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\combat-feel-검격·회피-입력과-전투-가독성-1093×614\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-feel.spec.ts",
+                    "column": 14,
+                    "line": 50
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "95789494b1546975a3df-fc3f64b87d5c2f58ba1c",
+          "file": "combat-feel.spec.ts",
+          "line": 125,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "combat-hud.spec.ts",
+      "file": "combat-hud.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "무협 HUD 1093×614: Q/E 순환과 실제 회피 재사용",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8729,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-hud.spec.ts:35:16",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-hud.spec.ts",
+                      "column": 16,
+                      "line": 35
+                    },
+                    "snippet": "  33 |       e.state = 'windup';\n  34 |     });\n> 35 |     await page.goto('/');\n     |                ^\n  36 |     await expect(page.locator('.home-scene')).toBeVisible();\n  37 |     await page.evaluate(async (state) => {\n  38 |       const db = await new Promise<IDBDatabase>((resolve) => {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-hud.spec.ts",
+                        "column": 16,
+                        "line": 35
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\nCall log:\n\u001b[2m  - navigating to \"https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/\", waiting until \"load\"\u001b[22m\n\n\n  33 |       e.state = 'windup';\n  34 |     });\n> 35 |     await page.goto('/');\n     |                ^\n  36 |     await expect(page.locator('.home-scene')).toBeVisible();\n  37 |     await page.evaluate(async (state) => {\n  38 |       const db = await new Promise<IDBDatabase>((resolve) => {\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-hud.spec.ts:35:16"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T05:41:14.879Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\combat-hud-무협-HUD-1093×614-Q-E-순환과-실제-회피-재사용\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\combat-hud-무협-HUD-1093×614-Q-E-순환과-실제-회피-재사용\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\combat-hud.spec.ts",
+                    "column": 16,
+                    "line": 35
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-e7a00ce1161e22ab1a48",
+          "file": "combat-hud.spec.ts",
+          "line": 16,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "daytona.spec.ts",
+      "file": "daytona.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Daytona 공개 빌드의 출전·전투·가방·저장 복원",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24793,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T05:41:25.028Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9c18bcfe0bdf815ae80c-69c18e4f6300b4660b40",
+          "file": "daytona.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T05:38:17.340Z",
+    "duration": 216869.282,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "mujin-right",
+    "key": "mujin-right-separate-p8",
+    "poses": [
+      8
+    ],
+    "source": "mujin-right-combat.png",
+    "output": "mujin-right-separate-p8.png",
+    "promptFile": "mujin-right-separate-p8.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 2columns x3rows. SELECTED DRAWING is row2 column1 (logical pose8). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing EAST side camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/mujin-right-combat.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        512,
+        1024,
+        1024
+      ]
+    }
+  },
+  {
+    "id": "mujin-right",
+    "key": "mujin-right-separate-p9",
+    "poses": [
+      9
+    ],
+    "source": "mujin-right-combat.png",
+    "output": "mujin-right-separate-p9.png",
+    "promptFile": "mujin-right-separate-p9.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 2columns x3rows. SELECTED DRAWING is row2 column2 (logical pose9). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing EAST side camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/mujin-right-combat.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        512,
+        1024,
+        1024
+      ]
+    }
+  },
+  {
+    "id": "hanxue-front",
+    "key": "hanxue-front-separate-p8",
+    "poses": [
+      8
+    ],
+    "source": "hanxue-front.png",
+    "output": "hanxue-front-separate-p8.png",
+    "promptFile": "hanxue-front-separate-p8.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 3columns x4rows. SELECTED DRAWING is row3 column3 (logical pose8). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing SOUTH front camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/hanxue-front.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        768,
+        1024,
+        1152
+      ]
+    }
+  },
+  {
+    "id": "hanxue-front",
+    "key": "hanxue-front-separate-p11",
+    "poses": [
+      11
+    ],
+    "source": "hanxue-front.png",
+    "output": "hanxue-front-separate-p11.png",
+    "promptFile": "hanxue-front-separate-p11.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 3columns x4rows. SELECTED DRAWING is row4 column3 (logical pose11). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing SOUTH front camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/hanxue-front.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        1152,
+        1024,
+        1536
+      ]
+    }
+  },
+  {
+    "id": "hanxue-right",
+    "key": "hanxue-right-separate-p8",
+    "poses": [
+      8
+    ],
+    "source": "hanxue-right.png",
+    "output": "hanxue-right-separate-p8.png",
+    "promptFile": "hanxue-right-separate-p8.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 3columns x4rows. SELECTED DRAWING is row3 column3 (logical pose8). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing EAST side camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/hanxue-right.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        768,
+        1024,
+        1152
+      ]
+    }
+  },
+  {
+    "id": "hanxue-right",
+    "key": "hanxue-right-separate-p9",
+    "poses": [
+      9
+    ],
+    "source": "hanxue-right.png",
+    "output": "hanxue-right-separate-p9.png",
+    "promptFile": "hanxue-right-separate-p9.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 3columns x4rows. SELECTED DRAWING is row4 column1 (logical pose9). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing EAST side camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/hanxue-right.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        1152,
+        1024,
+        1536
+      ]
+    }
+  },
+  {
+    "id": "hanxue-right",
+    "key": "hanxue-right-separate-p10",
+    "poses": [
+      10
+    ],
+    "source": "hanxue-right.png",
+    "output": "hanxue-right-separate-p10.png",
+    "promptFile": "hanxue-right-separate-p10.prompt.txt",
+    "prompt": "EDIT the transparent 1024x1536 sprite sheet, 3columns x4rows. SELECTED DRAWING is row4 column2 (logical pose10). Keep that ONE full warrior with exact original physical head/body/limb/weapon dimensions, existing EAST side camera, costume, pose and neutral palette. Remove ALL OTHER warriors in the SAME ROW to alpha0. Preserve every other row unchanged. Move the ENTIRE selected warrior including weapon into the horizontal CENTER of that now-empty whole row so there are at least80px alpha padding at BOTH left and right canvas edges. Also keep16px clear before row top/bottom. Translate only, NEVER shrink or enlarge actor or weapon. Restore any clipped weapon/hair/feet tip completely. Spears have ONE forward silver leaf point/tassel, ONE plain blunt wood rear butt, two separated CLOSED hand grips on SAME straight shaft, no grip duplication or bent weapon. Do not add a spear to characters that have none. Alpha0 everywhere outside sprites, no background, glow or effects. Only the full selected middle-row drawing will be extracted, so empty neighboring cells are intentional.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/hanxue-right.png"
+    ],
+    "cell": {
+      "rectangle": [
+        0,
+        1152,
+        1024,
+        1536
+      ]
+    }
+  }
+]

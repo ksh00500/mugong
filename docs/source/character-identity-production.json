@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03",
+  "tool": "built-in imagegen",
+  "reference": [
+    "public/art/regions-v1/2-actors-v2.png",
+    "public/art/regions-v1/4-actors.png"
+  ],
+  "delivery": "public/art/hostile-identity-actions-v1.png",
+  "sha256": "fc3f36a808aeb6678d6ce980cf04e22f1826b33273072ccd2dd2cb77438cffb4",
+  "rows": [
+    "boss:2-1",
+    "region:4:slot:2",
+    "boss:4-4"
+  ],
+  "poses": [
+    "idle",
+    "walk",
+    "windup",
+    "strike",
+    "hurt",
+    "death"
+  ],
+  "prompt": "참고 이미지의 회색 머리 대검객, 노란 옷 돌 투척 승려, 흰 수염 지팡이 노승을 6열 3행에 동일 얼굴·복장·무기로 제작. 투명 배경, 각 칸 안에 전신과 무기.",
+  "correction": "각 칸 안에서 25% 작게 하여 투명 여백 확보; 대검 끝 잘림 수정.",
+  "visualReview": "새 동작 18자세와 기준/방향 원화 비교, 실제 지역2·4 전투 캡처 확인.",
+  "preserved": "이전 원본은 덮어쓰지 않음"
+}

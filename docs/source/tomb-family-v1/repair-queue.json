@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tombtrapper-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      11
+    ],
+    "reason": "Near RIGHT arm incorrectly holds LEFT pickaxe while far arm holds trap; attacking right arm is correct. Repair locomotion/hurt/ready tool ownership."
+  },
+  {
+    "id": "tombtrapper-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "Preparation shows trap over LEFT shoulder and pick on RIGHT. Correct only these poses: trap anatomical RIGHT screen-right, left pick screen-left."
+  },
+  {
+    "id": "tombtrapper-back",
+    "poses": [
+      9
+    ],
+    "reason": "Followthrough left hand appears loose/open on pick grip; tighten left grip without changing right empty release or back camera."
+  },
+  {
+    "id": "tombguard-front-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reason": "All poses have double-headed spear/two tassels; keep only FORWARD silver point and one tassel; opposite wooden end plain. Whole body is also too small compared with approved front. Regenerate physical head/body matching Input2, not the shrunken candidate."
+  },
+  {
+    "id": "tombguard-rear-right",
+    "poses": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "reason": "NE thrust shaft points almost due right; redraw shaft/grips and connected elbows targeting TOP-RIGHT, preserving rear camera and body size."
+  },
+  {
+    "id": "tombguard-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "NORTH camera shows back but combat spear points horizontally left/right. Redraw continuous shaft and both grips foreshortened toward TOP/NORTH; keep back camera and body scale."
+  },
+  {
+    "id": "tombcrossbow-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "Back-facing body but crossbow barrel points sideways; require foreshortened barrel toward screen top with right trigger grip and left fore-end support."
+  },
+  {
+    "id": "jeokho-back",
+    "poses": [
+      8,
+      9
+    ],
+    "reason": "NORTH contact/followthrough puts pickaxe in front of viewer below the back-facing body, aimed SOUTH. Redraw downstroke ending at ground AHEAD toward screen TOP, both hands on continuous shaft, back camera."
+  },
+  {
+    "id": "seokmun-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "Anticipation turns whole body back to front-facing camera, shield front face on screen right and hammer screen left. Keep NE rear camera same as idle/contact, RIGHT hammer arm screen-right, LEFT shield screen-left viewed from behind. Raise right hammer outside right shoulder, never swap shield hand."
+  },
+  {
+    "id": "seokmun-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "Back-view combat swaps weapon hands / attacks toward viewer. Preserve NORTH back camera: RIGHT hammer on screen-right arm, LEFT shield on screen-left arm throughout. Shield rear straps/handle visible, face outward NORTH. Load hammer above RIGHT shoulder then drive DOWN-FORWARD away toward screen TOP, hammer contact ground ahead beyond right foot, never screen-bottom in front of back. Natural shoulder/elbow/wrist."
+  },
+  {
+    "id": "gwakgi-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "Preparation swaps arms: wrench goes to far screen-left arm while gold launcher appears on near screen-right arm. Keep NE back camera: RIGHT near screen-right hand raises wrench outside RIGHT shoulder; LEFT far screen-left forearm retains gold launcher, balance hand. Same ownership as idle/contact."
+  },
+  {
+    "id": "gwakgi-back",
+    "poses": [
+      3,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "North walk3 and maximum anticipation7 swap weapon hands: wrench must remain RIGHT screen-right, gold forearm launcher LEFT screen-left. North contact8 and follow9 aim wrench sideways; redraw downward-forward strike away toward screen TOP, grounded ahead of right foot; recovery10 begins there. Full back camera, no face. Keep body pixel size."
+  },
+  {
+    "id": "wolryeong-rear-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reason": "Whole sheet is drawn smaller than approved front-right (landscape 3x4 squeezed rows). Regenerate as PORTRAIT THREE columns FOUR rows approx1088x1448, preserving approved front physical head/body pixel size (head90-110px, standing300-330px), with extended whitespace not scale fitting. NE rear camera all poses; RIGHT screen-right sword hand, LEFT screen-left empty balance. Current anticipation6,7 swaps right sword to left arm; correct. Downstroke toward TOP-RIGHT ground ahead, not screen bottom. Clear alpha0, no gradient."
+  },
+  {
+    "id": "wolryeong-back",
+    "poses": [
+      8,
+      9,
+      10
+    ],
+    "reason": "North back-facing body but blade points toward viewer lower-right. RIGHT screen-right jian grip must cut DOWN-FORWARD away toward TOP/NORTH, grounded ahead beyond feet; recovery withdraws outside right shoulder. Preserve back camera and RIGHT hand, LEFT empty balance."
+  },
+  {
+    "id": "tombguard-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reason": "EAST full side profile. Original candidate body is too small to fit long spear. Draw same physical head90-100px / standing300-330px as approved front Input2, with ONE continuous spear shaft in BOTH separated grips, ONE silver point and red tassel at forward RIGHT end only; rear LEFT end plain wood. Level forward thrust contact, planted foot, coherent shoulders, no shrinking to tool bbox."
+  }
+]

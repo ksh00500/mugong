@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-06",
+  "reviewSheets": 20,
+  "poses": 240,
+  "reviewedViews": ["front", "front-right", "right", "rear-right", "back"],
+  "reviewedCharacters": ["cheongrin", "mukchil", "yeonhwa", "sagongyeom"],
+  "method": "Offline boot-mask proposals, followed by visual inspection of all 20 annotated sheets. Saved coordinates are consumed without runtime fitting or per-frame resizing.",
+  "acceptedCoordinates": "ground-anchors.json",
+  "evidence": "ground-review/",
+  "sourcePixelsResized": false
+}

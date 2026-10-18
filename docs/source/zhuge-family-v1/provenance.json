@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-04",
+  "tool": "built-in image_gen",
+  "runtimeArtDirectory": "public/art/zhuge-family-v1",
+  "note": "Project copies are authoritative; generated_images paths are original tool outputs. generation-jobs.json and frame manifest record the per-pose selected file.",
+  "jobs": [
+    {
+      "id": "engineer-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b08ee9fc-b7c1-43b1-bdb2-ce00a674026b.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+      "referenceRow": 3,
+      "source": "engineer-front-right.png",
+      "basePrompt": "engineer-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "engineer-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9e8b19a9-5dda-469c-bfe3-2384ab9f3d58.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+      "referenceRow": 3,
+      "source": "engineer-front.png",
+      "basePrompt": "engineer-front.prompt.txt",
+      "viewGenerationPrompt": "engineer-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "engineer-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-98b3807b-9910-4d17-a929-c5a1c2abcaaf.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+      "referenceRow": 3,
+      "source": "engineer-right.png",
+      "basePrompt": "engineer-right.prompt.txt",
+      "viewGenerationPrompt": "engineer-right.generation.prompt.txt",
+      "poseSources": {
+        "8": "attempts/engineer-right-before-repair.png"
+      },
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "engineer-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b03b5d39-4ac2-4532-8e8d-dee729a0b57b.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+      "referenceRow": 3,
+      "source": "engineer-rear-right.png",
+      "basePrompt": "engineer-rear-right.prompt.txt",
+      "viewGenerationPrompt": "engineer-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "engineer-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ef8fe356-c778-4758-b001-1163efc757a3.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+      "referenceRow": 3,
+      "source": "engineer-back.png",
+      "basePrompt": "engineer-back.prompt.txt",
+      "viewGenerationPrompt": "engineer-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gatekeeper-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c75e2e8e-6280-436c-9603-878cccaecbf4.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 2,
+      "source": "gatekeeper-front-right.png",
+      "basePrompt": "gatekeeper-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gatekeeper-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-030461d1-afc4-461c-aa5a-52100d0e00d8.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 2,
+      "source": "gatekeeper-front.png",
+      "basePrompt": "gatekeeper-front.prompt.txt",
+      "viewGenerationPrompt": "gatekeeper-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gatekeeper-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d1ad0a5e-98b8-4618-ab60-c3f5150ed34c.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 2,
+      "source": "gatekeeper-right.png",
+      "basePrompt": "gatekeeper-right.prompt.txt",
+      "viewGenerationPrompt": "gatekeeper-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gatekeeper-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-101aaa37-7bd5-4ee5-a391-2492e64ff970.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 2,
+      "source": "gatekeeper-rear-right.png",
+      "basePrompt": "gatekeeper-rear-right.prompt.txt",
+      "viewGenerationPrompt": "gatekeeper-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "gatekeeper-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f570e543-5edb-4bd3-82ab-818e0e97e265.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 2,
+      "source": "gatekeeper-back.png",
+      "basePrompt": "gatekeeper-back.prompt.txt",
+      "viewGenerationPrompt": "gatekeeper-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "crossbow-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-fadd6b5a-634f-43ce-81ac-d1237a460786.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 3,
+      "source": "crossbow-front-right.png",
+      "basePrompt": "crossbow-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "crossbow-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5ab43913-d96d-491d-99c9-442c08010f1c.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 3,
+      "source": "crossbow-front.png",
+      "basePrompt": "crossbow-front.prompt.txt",
+      "viewGenerationPrompt": "crossbow-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "crossbow-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-67803202-14c6-4a3e-8e78-429dd8380244.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 3,
+      "source": "crossbow-right.png",
+      "basePrompt": "crossbow-right.prompt.txt",
+      "viewGenerationPrompt": "crossbow-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "crossbow-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-be3fb1d8-8a88-49ce-94de-4beddce0b328.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 3,
+      "source": "crossbow-rear-right.png",
+      "basePrompt": "crossbow-rear-right.prompt.txt",
+      "viewGenerationPrompt": "crossbow-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "crossbow-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4b758d31-c334-43ca-a4e4-18020c77a202.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 3,
+      "source": "crossbow-back.png",
+      "basePrompt": "crossbow-back.prompt.txt",
+      "viewGenerationPrompt": "crossbow-back.generation.prompt.txt",
+      "poseSources": {
+        "9": "crossbow-back-padding-repair.png",
+        "10": "crossbow-back-padding-repair.png"
+      },
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "yanggi-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-04374a5a-ad32-4dc0-a3fd-36b3135a784a.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 4,
+      "source": "yanggi-front-right.png",
+      "basePrompt": "yanggi-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "yanggi-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f830a766-20f7-4653-a612-f732fbf3b0c3.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 4,
+      "source": "yanggi-front.png",
+      "basePrompt": "yanggi-front.prompt.txt",
+      "viewGenerationPrompt": "yanggi-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "yanggi-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-086dd015-5a68-4e88-bd06-cfb35a4b17f1.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 4,
+      "source": "yanggi-right.png",
+      "basePrompt": "yanggi-right.prompt.txt",
+      "viewGenerationPrompt": "yanggi-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "yanggi-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6ca87b96-2991-4be3-84fc-352e5736cab8.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 4,
+      "source": "yanggi-rear-right.png",
+      "basePrompt": "yanggi-rear-right.prompt.txt",
+      "viewGenerationPrompt": "yanggi-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "yanggi-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b6fa05ad-824f-4cb6-920a-8cd7312052db.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 4,
+      "source": "yanggi-back.png",
+      "basePrompt": "yanggi-back.prompt.txt",
+      "viewGenerationPrompt": "yanggi-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "mukyeon-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a0922d45-4d67-4cd3-8268-c66060b48b4c.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 5,
+      "source": "mukyeon-front-right.png",
+      "basePrompt": "mukyeon-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "mukyeon-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6747b9dc-ea6e-4094-af2b-36746634cac1.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 5,
+      "source": "mukyeon-front.png",
+      "basePrompt": "mukyeon-front.prompt.txt",
+      "viewGenerationPrompt": "mukyeon-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "mukyeon-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5e34f993-5126-47a7-94da-e5f3ab1d6ac2.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 5,
+      "source": "mukyeon-right.png",
+      "basePrompt": "mukyeon-right.prompt.txt",
+      "viewGenerationPrompt": "mukyeon-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "mukyeon-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-1aa38de6-a360-4c13-af73-d2fce9b84209.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 5,
+      "source": "mukyeon-rear-right.png",
+      "basePrompt": "mukyeon-rear-right.prompt.txt",
+      "viewGenerationPrompt": "mukyeon-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "mukyeon-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0bd9ae3b-28a1-4138-87e8-1df5ebf1f805.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 5,
+      "source": "mukyeon-back.png",
+      "basePrompt": "mukyeon-back.prompt.txt",
+      "viewGenerationPrompt": "mukyeon-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "jingwal-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-af02287a-511a-460c-911e-5ff2cf5dc84a.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 6,
+      "source": "jingwal-front-right.png",
+      "basePrompt": "jingwal-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {
+        "7": "attempts/jingwal-front-right-before-repair.png"
+      },
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "jingwal-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ca9890ba-c45d-40a0-a2d3-bc5c8bddf912.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 6,
+      "source": "jingwal-front.png",
+      "basePrompt": "jingwal-front.prompt.txt",
+      "viewGenerationPrompt": "jingwal-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "jingwal-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d8fd389f-6b3f-498a-849f-ad72e7ba6e61.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 6,
+      "source": "jingwal-right.png",
+      "basePrompt": "jingwal-right.prompt.txt",
+      "viewGenerationPrompt": "jingwal-right.generation.prompt.txt",
+      "poseSources": {
+        "3": "attempts/jingwal-right-before-repair.png",
+        "7": "attempts/jingwal-right-before-repair.png",
+        "11": "attempts/jingwal-right-before-repair.png"
+      },
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "jingwal-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-060118e8-b10e-49a7-a52e-dad3baab29dc.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 6,
+      "source": "jingwal-rear-right.png",
+      "basePrompt": "jingwal-rear-right.prompt.txt",
+      "viewGenerationPrompt": "jingwal-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "jingwal-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6ee49e4d-dea9-432e-b87c-7057dc0251e7.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 6,
+      "source": "jingwal-back.png",
+      "basePrompt": "jingwal-back.prompt.txt",
+      "viewGenerationPrompt": "jingwal-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "zhugehyeon-front-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-49cc0c8c-e753-4e69-9684-efc139d70605.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 7,
+      "source": "zhugehyeon-front-right.png",
+      "basePrompt": "zhugehyeon-front-right.prompt.txt",
+      "viewGenerationPrompt": null,
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "zhugehyeon-front",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-127c7213-3002-4753-8537-4a69431070f1.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 7,
+      "source": "zhugehyeon-front.png",
+      "basePrompt": "zhugehyeon-front.prompt.txt",
+      "viewGenerationPrompt": "zhugehyeon-front.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "zhugehyeon-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e552c3ab-7e0f-41a4-8809-15edb21ffcfe.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 7,
+      "source": "zhugehyeon-right.png",
+      "basePrompt": "zhugehyeon-right.prompt.txt",
+      "viewGenerationPrompt": "zhugehyeon-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "zhugehyeon-rear-right",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-94f80cf6-4790-485f-bde3-4ea8ac8688ca.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 7,
+      "source": "zhugehyeon-rear-right.png",
+      "basePrompt": "zhugehyeon-rear-right.prompt.txt",
+      "viewGenerationPrompt": "zhugehyeon-rear-right.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "zhugehyeon-back",
+      "chosenOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-82753da6-5b9d-4120-aaa2-38834d2b3001.png",
+      "originalIdentityReference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+      "referenceRow": 7,
+      "source": "zhugehyeon-back.png",
+      "basePrompt": "zhugehyeon-back.prompt.txt",
+      "viewGenerationPrompt": "zhugehyeon-back.generation.prompt.txt",
+      "poseSources": {},
+      "tool": "built-in image_gen"
+    }
+  ],
+  "additionalPaddingOutput": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-77222712-c953-4c1d-82f4-60dad9f06b91.png"
+}

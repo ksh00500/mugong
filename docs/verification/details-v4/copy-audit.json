@@ -1,0 +1,38 @@
+{
+  "sourceFiles": [
+    "src/App.tsx",
+    "src/ui/Choices.tsx",
+    "src/ui/Field.tsx",
+    "src/ui/Hud.tsx",
+    "src/ui/HudArtwork.tsx",
+    "src/ui/Icons.tsx",
+    "src/ui/Inventory.tsx",
+    "src/ui/LoadingScreen.tsx",
+    "src/ui/Lobby.tsx",
+    "src/ui/PagedItems.tsx",
+    "src/ui/PaintedSprite.tsx",
+    "src/ui/QuickDetails.tsx",
+    "src/ui/RecoveryBoundary.tsx",
+    "src/ui/SaveRecovery.tsx",
+    "src/ui/Settings.tsx",
+    "src/ui/shared.tsx",
+    "src/domain/content.ts",
+    "src/domain/game.ts",
+    "src/platform/game-copy.ts",
+    "src/platform/store.ts",
+    "src/platform/storage.ts",
+    "src/platform/session.ts",
+    "src/game/feedback.ts"
+  ],
+  "activeSourceKeys": 406,
+  "catalogKeys": 467,
+  "foreignLocales": [
+    "en",
+    "ja",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "missing": [],
+  "emptyOrIncomplete": [],
+  "scope": "Static Korean UI/content/state strings, JSX text and literal templates. User-authored names and physical key legends are preserved. Native language choices and pre-React startup copy have separate runtime coverage."
+}

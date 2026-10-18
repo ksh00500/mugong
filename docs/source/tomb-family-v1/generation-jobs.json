@@ -1,0 +1,2625 @@
+[
+  {
+    "id": "tombtrapper-front",
+    "character": "tombtrapper",
+    "name": "고묘 도굴 함정꾼",
+    "slot": 0,
+    "view": 0,
+    "source": "tombtrapper-front.png",
+    "prompt": "tombtrapper-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombtrapper-front-right",
+    "character": "tombtrapper",
+    "name": "고묘 도굴 함정꾼",
+    "slot": 0,
+    "view": 1,
+    "source": "tombtrapper-front-right.png",
+    "prompt": "tombtrapper-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombtrapper-right",
+    "character": "tombtrapper",
+    "name": "고묘 도굴 함정꾼",
+    "slot": 0,
+    "view": 2,
+    "source": "tombtrapper-right.png",
+    "prompt": "tombtrapper-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "tombtrapper-right-repair-v5.png",
+      "1": "tombtrapper-right-repair-v5.png",
+      "2": "tombtrapper-right-repair-v5.png",
+      "3": "tombtrapper-right-repair-v5.png",
+      "4": "tombtrapper-right-repair-v5.png",
+      "11": "tombtrapper-right-repair-v5.png"
+    }
+  },
+  {
+    "id": "tombtrapper-rear-right",
+    "character": "tombtrapper",
+    "name": "고묘 도굴 함정꾼",
+    "slot": 0,
+    "view": 3,
+    "source": "tombtrapper-rear-right.png",
+    "prompt": "tombtrapper-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "tombtrapper-rear-right-repair-v4-6.png",
+      "7": "tombtrapper-rear-right-repair-v4-6.png"
+    }
+  },
+  {
+    "id": "tombtrapper-back",
+    "character": "tombtrapper",
+    "name": "고묘 도굴 함정꾼",
+    "slot": 0,
+    "view": 4,
+    "source": "tombtrapper-back.png",
+    "prompt": "tombtrapper-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 4,
+        "rows": 3,
+        "index": 6
+      },
+      "7": {
+        "columns": 4,
+        "rows": 3,
+        "index": 7
+      },
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 8
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "10": {
+        "columns": 4,
+        "rows": 3,
+        "index": 10
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "9": "tombtrapper-back-repair-v2.png"
+    }
+  },
+  {
+    "id": "tombguard-front",
+    "character": "tombguard",
+    "name": "고묘 창 수문장",
+    "slot": 1,
+    "view": 0,
+    "source": "tombguard-front-v2.png",
+    "prompt": "tombguard-front-v2.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombguard-front-right",
+    "character": "tombguard",
+    "name": "고묘 창 수문장",
+    "slot": 1,
+    "view": 1,
+    "source": "tombguard-front-right.png",
+    "prompt": "tombguard-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "tombguard-front-right-repair-v3-0.png",
+      "1": "tombguard-front-right-repair-v3-0.png",
+      "2": "tombguard-front-right-repair-v3-0.png",
+      "3": "tombguard-front-right-repair-v3-0.png",
+      "4": "tombguard-front-right-repair-v3-0.png",
+      "5": "tombguard-front-right-repair-v3-0.png",
+      "6": "tombguard-front-right-repair-v3-6.png",
+      "7": "tombguard-front-right-repair-v3-6.png",
+      "8": "tombguard-front-right-repair-v3-6.png",
+      "9": "tombguard-front-right-repair-v3-6.png",
+      "10": "tombguard-front-right-repair-v3-6.png",
+      "11": "tombguard-front-right-repair-v3-6.png"
+    }
+  },
+  {
+    "id": "tombguard-right",
+    "character": "tombguard",
+    "name": "고묘 창 수문장",
+    "slot": 1,
+    "view": 2,
+    "source": "tombguard-right.png",
+    "prompt": "tombguard-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "tombguard-right-repair-v2-locomotion.png",
+      "1": "tombguard-right-repair-v2-locomotion.png",
+      "2": "tombguard-right-repair-v2-locomotion.png",
+      "3": "tombguard-right-repair-v2-locomotion.png",
+      "4": "tombguard-right-repair-v2-locomotion.png",
+      "5": "tombguard-right-repair-v2-locomotion.png",
+      "6": "tombguard-right-repair-v2-combat.png",
+      "7": "tombguard-right-repair-v2-combat.png",
+      "8": "tombguard-right-repair-v2-combat.png",
+      "9": "tombguard-right-repair-v2-combat.png",
+      "10": "tombguard-right-repair-v2-combat.png",
+      "11": "tombguard-right-repair-v2-combat.png"
+    }
+  },
+  {
+    "id": "tombguard-rear-right",
+    "character": "tombguard",
+    "name": "고묘 창 수문장",
+    "slot": 1,
+    "view": 3,
+    "source": "tombguard-rear-right.png",
+    "prompt": "tombguard-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "tombguard-rear-right-repair-v2.png",
+      "7": "tombguard-rear-right-repair-v2.png",
+      "8": "tombguard-rear-right-repair-v2.png",
+      "9": "tombguard-rear-right-repair-v2.png"
+    }
+  },
+  {
+    "id": "tombguard-back",
+    "character": "tombguard",
+    "name": "고묘 창 수문장",
+    "slot": 1,
+    "view": 4,
+    "source": "tombguard-back.png",
+    "prompt": "tombguard-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 2,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 2,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 2,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 2,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 2,
+        "index": 4
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "tombguard-back-repair-v3-6.png",
+      "7": "tombguard-back-repair-v3-6.png",
+      "8": "tombguard-back-repair-v3-6.png",
+      "9": "tombguard-back-repair-v3-6.png",
+      "10": "tombguard-back-repair-v3-6.png"
+    }
+  },
+  {
+    "id": "tombcrossbow-front",
+    "character": "tombcrossbow",
+    "name": "고묘 쇠뇌병",
+    "slot": 2,
+    "view": 0,
+    "source": "tombcrossbow-front.png",
+    "prompt": "tombcrossbow-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombcrossbow-front-right",
+    "character": "tombcrossbow",
+    "name": "고묘 쇠뇌병",
+    "slot": 2,
+    "view": 1,
+    "source": "tombcrossbow-front-right.png",
+    "prompt": "tombcrossbow-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombcrossbow-right",
+    "character": "tombcrossbow",
+    "name": "고묘 쇠뇌병",
+    "slot": 2,
+    "view": 2,
+    "source": "tombcrossbow-right.png",
+    "prompt": "tombcrossbow-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombcrossbow-rear-right",
+    "character": "tombcrossbow",
+    "name": "고묘 쇠뇌병",
+    "slot": 2,
+    "view": 3,
+    "source": "tombcrossbow-rear-right.png",
+    "prompt": "tombcrossbow-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "tombcrossbow-back",
+    "character": "tombcrossbow",
+    "name": "고묘 쇠뇌병",
+    "slot": 2,
+    "view": 4,
+    "source": "tombcrossbow-back.png",
+    "prompt": "tombcrossbow-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 2,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 2,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 2,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 2,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 2,
+        "index": 5
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "tombcrossbow-back-repair-v3-6.png",
+      "7": "tombcrossbow-back-repair-v3-6.png",
+      "8": "tombcrossbow-back-repair-v3-6.png",
+      "9": "tombcrossbow-back-repair-v3-6.png",
+      "10": "tombcrossbow-back-repair-v3-6.png"
+    }
+  },
+  {
+    "id": "jeokho-front",
+    "character": "jeokho",
+    "name": "도굴두목 적호",
+    "slot": 3,
+    "view": 0,
+    "source": "jeokho-front.png",
+    "prompt": "jeokho-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "jeokho-front-right",
+    "character": "jeokho",
+    "name": "도굴두목 적호",
+    "slot": 3,
+    "view": 1,
+    "source": "jeokho-front-right.png",
+    "prompt": "jeokho-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "jeokho-right",
+    "character": "jeokho",
+    "name": "도굴두목 적호",
+    "slot": 3,
+    "view": 2,
+    "source": "jeokho-right.png",
+    "prompt": "jeokho-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "jeokho-rear-right",
+    "character": "jeokho",
+    "name": "도굴두목 적호",
+    "slot": 3,
+    "view": 3,
+    "source": "jeokho-rear-right.png",
+    "prompt": "jeokho-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "jeokho-back",
+    "character": "jeokho",
+    "name": "도굴두목 적호",
+    "slot": 3,
+    "view": 4,
+    "source": "jeokho-back.png",
+    "prompt": "jeokho-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "rectangle": [
+          0,
+          0,
+          323,
+          335
+        ]
+      },
+      "1": {
+        "rectangle": [
+          323,
+          0,
+          646,
+          335
+        ]
+      },
+      "2": {
+        "rectangle": [
+          646,
+          0,
+          969,
+          335
+        ]
+      },
+      "3": {
+        "rectangle": [
+          969,
+          0,
+          1293,
+          335
+        ]
+      },
+      "4": {
+        "rectangle": [
+          0,
+          335,
+          480,
+          610
+        ]
+      },
+      "5": {
+        "rectangle": [
+          540,
+          330,
+          1250,
+          610
+        ]
+      },
+      "6": {
+        "rectangle": [
+          0,
+          610,
+          500,
+          925
+        ]
+      },
+      "7": {
+        "rectangle": [
+          500,
+          540,
+          900,
+          930
+        ]
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "10": {
+        "rectangle": [
+          470,
+          925,
+          890,
+          1217
+        ]
+      },
+      "11": {
+        "rectangle": [
+          890,
+          925,
+          1293,
+          1217
+        ]
+      }
+    },
+    "poseSources": {
+      "8": "jeokho-back-repair-v3-8.png",
+      "9": "jeokho-back-repair-v3-8.png"
+    }
+  },
+  {
+    "id": "seokmun-front",
+    "character": "seokmun",
+    "name": "묘지기 석문",
+    "slot": 4,
+    "view": 0,
+    "source": "seokmun-front.png",
+    "prompt": "seokmun-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "seokmun-front-right",
+    "character": "seokmun",
+    "name": "묘지기 석문",
+    "slot": 4,
+    "view": 1,
+    "source": "seokmun-front-right.png",
+    "prompt": "seokmun-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "seokmun-right",
+    "character": "seokmun",
+    "name": "묘지기 석문",
+    "slot": 4,
+    "view": 2,
+    "source": "seokmun-right.png",
+    "prompt": "seokmun-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "seokmun-rear-right",
+    "character": "seokmun",
+    "name": "묘지기 석문",
+    "slot": 4,
+    "view": 3,
+    "source": "seokmun-rear-right.png",
+    "prompt": "seokmun-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "seokmun-rear-right-repair-v2.png",
+      "7": "seokmun-rear-right-repair-v2.png"
+    }
+  },
+  {
+    "id": "seokmun-back",
+    "character": "seokmun",
+    "name": "묘지기 석문",
+    "slot": 4,
+    "view": 4,
+    "source": "seokmun-back.png",
+    "prompt": "seokmun-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "seokmun-back-repair-v2.png",
+      "7": "seokmun-back-repair-v2.png",
+      "8": "seokmun-back-repair-v3-8.png",
+      "9": "seokmun-back-repair-v3-8.png",
+      "10": "seokmun-back-repair-v2.png"
+    }
+  },
+  {
+    "id": "gwakgi-front",
+    "character": "gwakgi",
+    "name": "기관장인 곽기",
+    "slot": 5,
+    "view": 0,
+    "source": "gwakgi-front.png",
+    "prompt": "gwakgi-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "gwakgi-front-right",
+    "character": "gwakgi",
+    "name": "기관장인 곽기",
+    "slot": 5,
+    "view": 1,
+    "source": "gwakgi-front-right.png",
+    "prompt": "gwakgi-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "gwakgi-right",
+    "character": "gwakgi",
+    "name": "기관장인 곽기",
+    "slot": 5,
+    "view": 2,
+    "source": "gwakgi-right.png",
+    "prompt": "gwakgi-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 4,
+        "rows": 3,
+        "index": 6
+      },
+      "7": {
+        "columns": 4,
+        "rows": 3,
+        "index": 7
+      },
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 8
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "10": {
+        "columns": 4,
+        "rows": 3,
+        "index": 10
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "gwakgi-rear-right",
+    "character": "gwakgi",
+    "name": "기관장인 곽기",
+    "slot": 5,
+    "view": 3,
+    "source": "gwakgi-rear-right.png",
+    "prompt": "gwakgi-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "gwakgi-rear-right-repair-v3-6.png",
+      "7": "gwakgi-rear-right-repair-v3-6.png"
+    }
+  },
+  {
+    "id": "gwakgi-back",
+    "character": "gwakgi",
+    "name": "기관장인 곽기",
+    "slot": 5,
+    "view": 4,
+    "source": "gwakgi-back.png",
+    "prompt": "gwakgi-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "3": "gwakgi-back-repair-v3-3.png",
+      "7": "gwakgi-back-repair-v4-7.png",
+      "8": "gwakgi-back-repair-v4-7.png",
+      "9": "gwakgi-back-repair-v4-7.png",
+      "10": "gwakgi-back-repair-v4-7.png"
+    }
+  },
+  {
+    "id": "wolryeong-front",
+    "character": "wolryeong",
+    "name": "고묘후인 월령",
+    "slot": 6,
+    "view": 0,
+    "source": "wolryeong-front.png",
+    "prompt": "wolryeong-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "wolryeong-front-right",
+    "character": "wolryeong",
+    "name": "고묘후인 월령",
+    "slot": 6,
+    "view": 1,
+    "source": "wolryeong-front-right.png",
+    "prompt": "wolryeong-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "wolryeong-right",
+    "character": "wolryeong",
+    "name": "고묘후인 월령",
+    "slot": 6,
+    "view": 2,
+    "source": "wolryeong-right.png",
+    "prompt": "wolryeong-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 4,
+        "rows": 3,
+        "index": 6
+      },
+      "7": {
+        "columns": 4,
+        "rows": 3,
+        "index": 7
+      },
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 8
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "10": {
+        "columns": 4,
+        "rows": 3,
+        "index": 10
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "wolryeong-rear-right",
+    "character": "wolryeong",
+    "name": "고묘후인 월령",
+    "slot": 6,
+    "view": 3,
+    "source": "wolryeong-rear-right.png",
+    "prompt": "wolryeong-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "0": "wolryeong-rear-right-repair-v2.png",
+      "1": "wolryeong-rear-right-repair-v2.png",
+      "2": "wolryeong-rear-right-repair-v2.png",
+      "3": "wolryeong-rear-right-repair-v2.png",
+      "4": "wolryeong-rear-right-repair-v2.png",
+      "5": "wolryeong-rear-right-repair-v2.png",
+      "6": "wolryeong-rear-right-repair-v3-6.png",
+      "7": "wolryeong-rear-right-repair-v3-6.png",
+      "8": "wolryeong-rear-right-repair-v2.png",
+      "9": "wolryeong-rear-right-repair-v2.png",
+      "10": "wolryeong-rear-right-repair-v2.png",
+      "11": "wolryeong-rear-right-repair-v2.png"
+    }
+  },
+  {
+    "id": "wolryeong-back",
+    "character": "wolryeong",
+    "name": "고묘후인 월령",
+    "slot": 6,
+    "view": 4,
+    "source": "wolryeong-back.png",
+    "prompt": "wolryeong-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 4,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 4,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 4,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 4,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 4,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 4,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 4,
+        "rows": 3,
+        "index": 6
+      },
+      "7": {
+        "columns": 4,
+        "rows": 3,
+        "index": 7
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "10": {
+        "columns": 4,
+        "rows": 3,
+        "index": 10
+      },
+      "11": {
+        "columns": 4,
+        "rows": 3,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "8": "wolryeong-back-repair-v3-8.png",
+      "9": "wolryeong-back-repair-v3-8.png",
+      "10": "wolryeong-back-repair-v2.png"
+    }
+  }
+]

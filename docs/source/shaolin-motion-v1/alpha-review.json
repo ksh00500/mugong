@@ -1,0 +1,842 @@
+[
+  {
+    "id": "01-brawler",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "156ed56670d146bd19634b94fa44f5df7ba08029f09ccc184abbe5d5deef5af9",
+    "transparentFraction": 0.8109200795491537,
+    "partialFraction": 0.022045135498046875,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          125,
+          162,
+          364,
+          463
+        ],
+        "opaquePixels": 39931,
+        "padding": [
+          125,
+          162,
+          147,
+          48
+        ],
+        "minPadding": 48,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          156,
+          162,
+          348,
+          480
+        ],
+        "opaquePixels": 35237,
+        "padding": [
+          156,
+          162,
+          163,
+          31
+        ],
+        "minPadding": 31,
+        "touchesEdge": false
+      },
+      {
+        "pose": "정권 준비",
+        "bounds": [
+          126,
+          162,
+          372,
+          471
+        ],
+        "opaquePixels": 43999,
+        "padding": [
+          126,
+          162,
+          139,
+          40
+        ],
+        "minPadding": 40,
+        "touchesEdge": false
+      },
+      {
+        "pose": "정권 타격",
+        "bounds": [
+          94,
+          121,
+          430,
+          432
+        ],
+        "opaquePixels": 50512,
+        "padding": [
+          94,
+          121,
+          81,
+          79
+        ],
+        "minPadding": 79,
+        "touchesEdge": false
+      },
+      {
+        "pose": "횡권 후속",
+        "bounds": [
+          114,
+          121,
+          428,
+          432
+        ],
+        "opaquePixels": 49064,
+        "padding": [
+          114,
+          121,
+          83,
+          79
+        ],
+        "minPadding": 79,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          136,
+          119,
+          391,
+          428
+        ],
+        "opaquePixels": 43980,
+        "padding": [
+          136,
+          119,
+          120,
+          83
+        ],
+        "minPadding": 83,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "02-staffguard",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "047d01b7bd1a473a0e7e3d462fbf54c5b15e8135576c0b2ed18c9ebaabe99654",
+    "transparentFraction": 0.8364836374918619,
+    "partialFraction": 0.022667566935221355,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          128,
+          150,
+          428,
+          439
+        ],
+        "opaquePixels": 37660,
+        "padding": [
+          128,
+          150,
+          83,
+          72
+        ],
+        "minPadding": 72,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          133,
+          151,
+          433,
+          443
+        ],
+        "opaquePixels": 33156,
+        "padding": [
+          133,
+          151,
+          78,
+          68
+        ],
+        "minPadding": 68,
+        "touchesEdge": false
+      },
+      {
+        "pose": "공격 준비",
+        "bounds": [
+          117,
+          153,
+          461,
+          446
+        ],
+        "opaquePixels": 42885,
+        "padding": [
+          117,
+          153,
+          50,
+          65
+        ],
+        "minPadding": 50,
+        "touchesEdge": false
+      },
+      {
+        "pose": "횡 휘두르기",
+        "bounds": [
+          97,
+          124,
+          489,
+          392
+        ],
+        "opaquePixels": 38289,
+        "padding": [
+          97,
+          124,
+          22,
+          119
+        ],
+        "minPadding": 22,
+        "touchesEdge": false
+      },
+      {
+        "pose": "앞 찌르기",
+        "bounds": [
+          123,
+          136,
+          495,
+          394
+        ],
+        "opaquePixels": 32772,
+        "padding": [
+          123,
+          136,
+          16,
+          117
+        ],
+        "minPadding": 16,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          139,
+          117,
+          421,
+          395
+        ],
+        "opaquePixels": 36774,
+        "padding": [
+          139,
+          117,
+          90,
+          116
+        ],
+        "minPadding": 90,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "03-slinger",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "f3e5ab4e5f16a829def59575a3bd0c4b80003cae196acfabfa29326e97f03091",
+    "transparentFraction": 0.7772897084554037,
+    "partialFraction": 0.028862635294596355,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          114,
+          130,
+          407,
+          455
+        ],
+        "opaquePixels": 49523,
+        "padding": [
+          114,
+          130,
+          104,
+          56
+        ],
+        "minPadding": 56,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          132,
+          130,
+          386,
+          464
+        ],
+        "opaquePixels": 43465,
+        "padding": [
+          132,
+          130,
+          125,
+          47
+        ],
+        "minPadding": 47,
+        "touchesEdge": false
+      },
+      {
+        "pose": "투척 준비",
+        "bounds": [
+          117,
+          121,
+          417,
+          455
+        ],
+        "opaquePixels": 55897,
+        "padding": [
+          117,
+          121,
+          94,
+          56
+        ],
+        "minPadding": 56,
+        "touchesEdge": false
+      },
+      {
+        "pose": "돌 방출",
+        "bounds": [
+          73,
+          93,
+          436,
+          416
+        ],
+        "opaquePixels": 52514,
+        "padding": [
+          73,
+          93,
+          75,
+          95
+        ],
+        "minPadding": 73,
+        "touchesEdge": false
+      },
+      {
+        "pose": "후속 동작",
+        "bounds": [
+          108,
+          87,
+          415,
+          416
+        ],
+        "opaquePixels": 50542,
+        "padding": [
+          108,
+          87,
+          96,
+          95
+        ],
+        "minPadding": 87,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          118,
+          94,
+          421,
+          417
+        ],
+        "opaquePixels": 52955,
+        "padding": [
+          118,
+          94,
+          90,
+          94
+        ],
+        "minPadding": 90,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "04-gongheo",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "80e984b0bc665cd653617c64db5e8e5684bd83b49b28b23a34d337c1ce542d0d",
+    "transparentFraction": 0.7617371877034506,
+    "partialFraction": 0.027016957600911457,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          101,
+          157,
+          432,
+          484
+        ],
+        "opaquePixels": 56312,
+        "padding": [
+          101,
+          157,
+          79,
+          27
+        ],
+        "minPadding": 27,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          132,
+          151,
+          357,
+          499
+        ],
+        "opaquePixels": 44611,
+        "padding": [
+          132,
+          151,
+          154,
+          12
+        ],
+        "minPadding": 12,
+        "touchesEdge": false
+      },
+      {
+        "pose": "권법 준비",
+        "bounds": [
+          105,
+          152,
+          436,
+          489
+        ],
+        "opaquePixels": 59883,
+        "padding": [
+          105,
+          152,
+          75,
+          22
+        ],
+        "minPadding": 22,
+        "touchesEdge": false
+      },
+      {
+        "pose": "정권",
+        "bounds": [
+          68,
+          104,
+          498,
+          425
+        ],
+        "opaquePixels": 59866,
+        "padding": [
+          68,
+          104,
+          13,
+          86
+        ],
+        "minPadding": 13,
+        "touchesEdge": false
+      },
+      {
+        "pose": "어깨 박치기",
+        "bounds": [
+          111,
+          105,
+          414,
+          439
+        ],
+        "opaquePixels": 55844,
+        "padding": [
+          111,
+          105,
+          97,
+          72
+        ],
+        "minPadding": 72,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          109,
+          100,
+          417,
+          437
+        ],
+        "opaquePixels": 55745,
+        "padding": [
+          109,
+          100,
+          94,
+          74
+        ],
+        "minPadding": 74,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "05-dowon",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "328777fbe8b0c73ff0e93473d83b9362be394b410c7af334256af8846423f8a0",
+    "transparentFraction": 0.7601089477539062,
+    "partialFraction": 0.027022679646809895,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          119,
+          149,
+          411,
+          474
+        ],
+        "opaquePixels": 57640,
+        "padding": [
+          119,
+          149,
+          100,
+          37
+        ],
+        "minPadding": 37,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          138,
+          151,
+          389,
+          484
+        ],
+        "opaquePixels": 48468,
+        "padding": [
+          138,
+          151,
+          122,
+          27
+        ],
+        "minPadding": 27,
+        "touchesEdge": false
+      },
+      {
+        "pose": "철산고 준비",
+        "bounds": [
+          128,
+          176,
+          377,
+          485
+        ],
+        "opaquePixels": 50637,
+        "padding": [
+          128,
+          176,
+          134,
+          26
+        ],
+        "minPadding": 26,
+        "touchesEdge": false
+      },
+      {
+        "pose": "철산고",
+        "bounds": [
+          103,
+          125,
+          456,
+          430
+        ],
+        "opaquePixels": 60407,
+        "padding": [
+          103,
+          125,
+          55,
+          81
+        ],
+        "minPadding": 55,
+        "touchesEdge": false
+      },
+      {
+        "pose": "철완 포획",
+        "bounds": [
+          102,
+          114,
+          493,
+          430
+        ],
+        "opaquePixels": 59767,
+        "padding": [
+          102,
+          114,
+          18,
+          81
+        ],
+        "minPadding": 18,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          116,
+          112,
+          408,
+          439
+        ],
+        "opaquePixels": 57894,
+        "padding": [
+          116,
+          112,
+          103,
+          72
+        ],
+        "minPadding": 72,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "06-bulmyeong",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "13010eabe5c58003ffc32bf0df4f24ab7c8339e286a79989d16d9500786fb1e3",
+    "transparentFraction": 0.7583573659261068,
+    "partialFraction": 0.025220870971679688,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          120,
+          123,
+          395,
+          453
+        ],
+        "opaquePixels": 57674,
+        "padding": [
+          120,
+          123,
+          116,
+          58
+        ],
+        "minPadding": 58,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          119,
+          136,
+          395,
+          472
+        ],
+        "opaquePixels": 54603,
+        "padding": [
+          119,
+          136,
+          116,
+          39
+        ],
+        "minPadding": 39,
+        "touchesEdge": false
+      },
+      {
+        "pose": "금강장 준비",
+        "bounds": [
+          105,
+          139,
+          415,
+          458
+        ],
+        "opaquePixels": 58953,
+        "padding": [
+          105,
+          139,
+          96,
+          53
+        ],
+        "minPadding": 53,
+        "touchesEdge": false
+      },
+      {
+        "pose": "금강장 타격",
+        "bounds": [
+          97,
+          98,
+          475,
+          417
+        ],
+        "opaquePixels": 63520,
+        "padding": [
+          97,
+          98,
+          36,
+          94
+        ],
+        "minPadding": 36,
+        "touchesEdge": false
+      },
+      {
+        "pose": "쌍장 밀치기",
+        "bounds": [
+          117,
+          102,
+          448,
+          417
+        ],
+        "opaquePixels": 53062,
+        "padding": [
+          117,
+          102,
+          63,
+          94
+        ],
+        "minPadding": 63,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          149,
+          99,
+          421,
+          416
+        ],
+        "opaquePixels": 52590,
+        "padding": [
+          149,
+          99,
+          90,
+          95
+        ],
+        "minPadding": 90,
+        "touchesEdge": false
+      }
+    ]
+  },
+  {
+    "id": "07-mujin",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "85fe19e36aacacaa09f606350aa60928c1ad8bb87f8bb5e9b61930c7daaaeadc",
+    "transparentFraction": 0.8034820556640625,
+    "partialFraction": 0.02332623799641927,
+    "cells": [
+      {
+        "pose": "대기",
+        "bounds": [
+          168,
+          113,
+          386,
+          466
+        ],
+        "opaquePixels": 45441,
+        "padding": [
+          168,
+          113,
+          125,
+          45
+        ],
+        "minPadding": 45,
+        "touchesEdge": false
+      },
+      {
+        "pose": "보행",
+        "bounds": [
+          160,
+          116,
+          377,
+          482
+        ],
+        "opaquePixels": 42193,
+        "padding": [
+          160,
+          116,
+          134,
+          29
+        ],
+        "minPadding": 29,
+        "touchesEdge": false
+      },
+      {
+        "pose": "선장 준비",
+        "bounds": [
+          76,
+          221,
+          447,
+          470
+        ],
+        "opaquePixels": 45688,
+        "padding": [
+          76,
+          221,
+          64,
+          41
+        ],
+        "minPadding": 41,
+        "touchesEdge": false
+      },
+      {
+        "pose": "선장 횡소",
+        "bounds": [
+          12,
+          158,
+          448,
+          406
+        ],
+        "opaquePixels": 50074,
+        "padding": [
+          12,
+          158,
+          63,
+          105
+        ],
+        "minPadding": 12,
+        "touchesEdge": false
+      },
+      {
+        "pose": "연환봉 찌르기",
+        "bounds": [
+          36,
+          159,
+          439,
+          404
+        ],
+        "opaquePixels": 41960,
+        "padding": [
+          36,
+          159,
+          72,
+          107
+        ],
+        "minPadding": 36,
+        "touchesEdge": false
+      },
+      {
+        "pose": "회수",
+        "bounds": [
+          135,
+          68,
+          416,
+          407
+        ],
+        "opaquePixels": 47051,
+        "padding": [
+          135,
+          68,
+          95,
+          104
+        ],
+        "minPadding": 68,
+        "touchesEdge": false
+      }
+    ]
+  }
+]

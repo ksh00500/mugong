@@ -1,0 +1,115 @@
+{
+  "actors": [
+    {
+      "role": "duelist",
+      "texture": "region-motion-2-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "swordcaster",
+      "texture": "region-motion-repair-2-isolated",
+      "frame": "2-2",
+      "expected": "region-motion-repair-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "guard",
+      "texture": "region-motion-2-isolated",
+      "frame": "1-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "2-1",
+      "texture": "region-motion-2-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "2-2",
+      "texture": "region-motion-2-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "2-3",
+      "texture": "region-motion-2-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "2-4",
+      "texture": "region-motion-2-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-2-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "duelist",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    },
+    {
+      "role": "swordcaster",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "cast",
+      "changed": true
+    },
+    {
+      "role": "guard",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    },
+    {
+      "bossId": "2-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    },
+    {
+      "bossId": "2-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "bossId": "2-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "2-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

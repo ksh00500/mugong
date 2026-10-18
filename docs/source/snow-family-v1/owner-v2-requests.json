@@ -1,0 +1,87 @@
+[
+  {
+    "id": "snowweaver-front-right",
+    "key": "snowweaver-front-right-owner-v2",
+    "source": "snowweaver-front-axial-cast.png",
+    "output": "snowweaver-front-right-owner-v2.png",
+    "promptFile": "snowweaver-front-right-owner-v2.prompt.txt",
+    "prompt": "Create a corrected transparent 1024x1536 sprite sheet using the attached APPROVED FRONT sheet as identity, anatomical hand ownership and EXACT physical head/body/limb/orb size reference. 3columns x4rows, exactly12 full figures with roomy transparent gaps. CAMERA: THREE QUARTER FRONT RIGHT facing SOUTHEAST, both eyes but near cheek visible.\nMANDATORY IN ALL TWELVE FIGURES: ONE BLUE ORB rests in LEFT palm on SCREEN RIGHT, outside torso silhouette beside LEFT HIP, same x side in every pose. LEFT sleeve connects to SCREEN RIGHT orb. RIGHT sleeve starts at SCREEN LEFT near shoulder; empty casting hand extends DOWN and RIGHT across LOWER FRONT below orb, never carries orb. No orbital hand swap, no disappearing orb, no hidden orb. Enforce these screen sides even during anticipation or recovery. Torso rotation is MINIMAL; only casting forearm and one stepping foot change. Natural connected elbows and wrists, two arms.\nPOSES row-major: idle; left step; passing step; right step; tiny hurt; prone with left orb retained; right empty palm loaded BESIDE RIBS; right empty palm held BESIDE RIBS for anticipation; right empty palm pushes toward target; push follow-through; right palm withdraws BESIDE RIBS; ready. Do not raise hand overhead and do not rotate torso enough to swap shoulder screen sides. Maintain uniform head diameter and torso dimensions. NO glow, no floor, no motion trail. Alpha0 outside figures; at least16px edge padding and no touching neighbors. White fur neutral light, same costume and colors.",
+    "poses": [
+      8,
+      9
+    ],
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowweaver-front-axial-cast.png"
+    ],
+    "cell": {
+      "columns": 3,
+      "rows": 4
+    }
+  },
+  {
+    "id": "snowweaver-back",
+    "key": "snowweaver-back-owner-v2",
+    "source": "snowweaver-front-axial-cast.png",
+    "output": "snowweaver-back-owner-v2.png",
+    "promptFile": "snowweaver-back-owner-v2.prompt.txt",
+    "prompt": "Create a corrected transparent 1024x1536 sprite sheet using the attached APPROVED FRONT sheet as identity, anatomical hand ownership and EXACT physical head/body/limb/orb size reference. 3columns x4rows, exactly12 full figures with roomy transparent gaps. CAMERA: DIRECT BACK facing NORTH; centered spine and back of head, both shoulders. NO FACE.\nMANDATORY IN ALL TWELVE FIGURES: ONE BLUE ORB rests in LEFT palm on SCREEN LEFT, outside torso silhouette beside LEFT HIP, same x side in every pose. LEFT sleeve goes toward SCREEN LEFT orb. RIGHT sleeve and empty casting palm stay SCREEN RIGHT, extend UP SCREEN RIGHT toward north at contact. No orbital hand swap, no disappearing orb, no hidden orb. Enforce these screen sides even during anticipation or recovery. Torso rotation is MINIMAL; only casting forearm and one stepping foot change. Natural connected elbows and wrists, two arms.\nPOSES row-major: idle; left step; passing step; right step; tiny hurt; prone with left orb retained; right empty palm loaded BESIDE RIBS; right empty palm held BESIDE RIBS for anticipation; right empty palm pushes toward target; push follow-through; right palm withdraws BESIDE RIBS; ready. Do not raise hand overhead and do not rotate torso enough to swap shoulder screen sides. Maintain uniform head diameter and torso dimensions. NO glow, no floor, no motion trail. Alpha0 outside figures; at least16px edge padding and no touching neighbors. White fur neutral light, same costume and colors.",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowweaver-front-axial-cast.png"
+    ],
+    "cell": {
+      "columns": 3,
+      "rows": 4
+    }
+  },
+  {
+    "id": "snowbowman-front",
+    "key": "snowbowman-front-draw-v2",
+    "source": "snowbowman-front-axial-bow.png",
+    "output": "snowbowman-front-draw-v2.png",
+    "promptFile": "snowbowman-front-draw-v2.prompt.txt",
+    "prompt": "EDIT attached transparent1024x1536sheet,3columns x4rows. Preserve every drawing EXCEPT row3 column2 and row4 column3. EXACTLY SAME native head/body/limb/bow size, costume and FRONT SOUTH camera.\nROW3COLUMN2 is MAXIMUM DRAW ANTICIPATION, BEFORE ARROW RELEASE. LEFT hand grips ONE wooden recurved bow center on SCREEN RIGHT pointing directly toward viewer BOTTOM. RIGHT hand is a CLOSED PINCH holding taut STRING AT CHEEK, elbow bent back naturally, never an open splayed palm. Arrow is nocked, axially FORESHORTENED toward target, mostly hidden by bow/hand/head. DO NOT draw long horizontal arrow across head or behind neck; arrow ends at bow on left hand and right fingers hold string, NOT an arrow spear. OnlyONE bow andONE string. Hold natural pelvis and shoulder structure; no body rescale.\nROW4COLUMN3 is RETURN READY: left SCREEN RIGHT hand MUST STILL HOLD full wooden bow, low beside left hip exactly like row1column1; right SCREEN LEFT empty fingers relaxed by belt. Do NOT omit or hide bow.\nAlpha0 background and no effects. Preserve all remaining cells unchanged, no overlap, keep16px edgepadding.",
+    "poses": [
+      7,
+      11
+    ],
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowbowman-front-axial-bow.png"
+    ],
+    "cell": {
+      "columns": 3,
+      "rows": 4
+    }
+  },
+  {
+    "id": "snowbowman-back",
+    "key": "snowbowman-back-draw-v2",
+    "source": "snowbowman-back-axial-bow.png",
+    "output": "snowbowman-back-draw-v2.png",
+    "promptFile": "snowbowman-back-draw-v2.prompt.txt",
+    "prompt": "EDIT attached transparent1024x1536sheet,3columns x4rows. Preserve every drawing EXCEPT row3 column2. EXACTLY SAME native head/body/limb/bow size, costume and BACK NORTH camera.\nROW3COLUMN2 is MAXIMUM DRAW ANTICIPATION, BEFORE ARROW RELEASE. LEFT hand grips ONE wooden recurved bow center on SCREEN LEFT pointing directly away TOP. RIGHT hand is a CLOSED PINCH holding taut STRING AT CHEEK, elbow bent back naturally, never an open splayed palm. Arrow is nocked, axially FORESHORTENED toward target, mostly hidden by bow/hand/head. DO NOT draw long horizontal arrow across head or behind neck; arrow ends at bow on left hand and right fingers hold string, NOT an arrow spear. OnlyONE bow andONE string. Hold natural pelvis and shoulder structure; no body rescale.\n\nAlpha0 background and no effects. Preserve all remaining cells unchanged, no overlap, keep16px edgepadding.",
+    "poses": [
+      7
+    ],
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowbowman-back-axial-bow.png"
+    ],
+    "cell": {
+      "columns": 3,
+      "rows": 4
+    }
+  }
+]

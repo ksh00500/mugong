@@ -1,0 +1,111 @@
+.character-info-prefix {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+.character-info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: var(--ink);
+  flex-shrink: 0;
+  transform: none;
+}
+.character-info-icon::before,
+.character-info-icon::after {
+  content: none;
+}
+.character-info-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.character-info-icon .ui-icon,
+.character-info-icon .augment-artwork {
+  width: 24px;
+  height: 24px;
+}
+.character-profile .character-info-prefix {
+  gap: 2px;
+  white-space: nowrap;
+}
+.character-profile .character-info-icon {
+  width: 20px;
+  min-width: 20px;
+  height: 24px;
+  min-height: 24px;
+  padding: 0;
+}
+.character-profile .character-info-icon img {
+  width: 20px;
+  height: 20px;
+}
+.character-info-icon:hover {
+  background: #31554812;
+  transform: none;
+}
+.character-info-icon:focus-visible {
+  outline: 3px solid var(--ui-focus);
+  outline-offset: 1px;
+}
+.character-info-tooltip {
+  position: absolute;
+  z-index: 170;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: min(280px, calc(100vw - 24px));
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff9eb;
+  color: var(--ink);
+  box-shadow: 0 4px 16px #132b2033;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  overflow-wrap: anywhere;
+  pointer-events: none;
+}
+.character-info-tooltip strong {
+  font-size: 15px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .character-info-icon {
+    transition: none;
+  }
+}
+@media (max-height: 700px) {
+  .character-profile .character-info-icon {
+    width: 20px;
+    min-width: 20px;
+    height: 22px;
+    min-height: 22px;
+    padding: 0;
+  }
+  .character-profile .character-info-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .character-augment-names .character-info-icon {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    min-height: 18px;
+  }
+  .character-augment-names .character-info-icon .augment-artwork {
+    width: 16px;
+    height: 16px;
+  }
+}

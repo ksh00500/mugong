@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-01",
+  "unit": {
+    "files": 12,
+    "passed": 186
+  },
+  "build": "passed",
+  "browser": {
+    "initialRegressionPassed": 45,
+    "initialRegressionTotal": 47,
+    "finalRelatedPassed": 10,
+    "finalRelatedTotal": 10,
+    "viewports": [
+      "1440x900",
+      "1366x768",
+      "1093x614"
+    ],
+    "locales": [
+      "ko",
+      "en",
+      "ja",
+      "zh-CN",
+      "zh-TW"
+    ]
+  },
+  "catalogue": {
+    "basicRegional": 52,
+    "bossRewards": 40,
+    "total": 92,
+    "basicRegionalTemplatesSeenOver200Seeds": 52
+  },
+  "devServer": "http://127.0.0.1:5173/",
+  "userSaveTouched": false,
+  "limitations": [
+    "Human difficulty and win-rate balance remain unverified",
+    "Item graphics reuse category illustrations",
+    "Family funds currently accumulate without a spending destination",
+    "Online raid and PVP remain separate scope"
+  ]
+}

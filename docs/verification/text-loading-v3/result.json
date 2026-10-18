@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-29",
+  "scope": "Text readability, resource loading and recovery; existing game rules and 150% UI baseline preserved",
+  "automatic": {
+    "build": "passed: TypeScript and Vite production build",
+    "unit": { "passed": 32, "files": 4 },
+    "localPlaywright": {
+      "passed": 35,
+      "skipped": 1,
+      "skipReason": "Public Daytona suite runs separately"
+    },
+    "publicPlaywright": { "passed": 8, "result": "../daytona-20260929-text-loading/result.json" },
+    "requiredViewports": [
+      [1440, 900],
+      [1366, 768],
+      [1093, 614]
+    ],
+    "additionalNarrowWidths": [602, 390],
+    "languages": ["ko", "en", "ja", "zh-CN", "zh-TW"],
+    "coverage": [
+      "Initial module delay and failure recovery",
+      "Interface image delay, failure, retry and basic graphics fallback",
+      "Combat image delay and retry without advancing simulation or duplicating characters",
+      "Combat module failure and reload with preserved run",
+      "Technique details keyboard opening, closing and focus restoration",
+      "Bag and storage interactions, restrictions, discard and persistence regression"
+    ]
+  },
+  "artwork": {
+    "files": 10,
+    "sourceBytes": 18742357,
+    "deliveryBytes": 13296224,
+    "reductionPercent": 29.1,
+    "pixelsIdentical": true,
+    "sourcePreserved": true,
+    "note": "File size comparison, not measured latency reduction; original PNG files excluded from new deployment archive only"
+  },
+  "manualReview": {
+    "actualBrowsers": ["Local lobby after reload", "Public Daytona lobby after reload"],
+    "capturesReviewed": [
+      "interface-loading-1093.png",
+      "combat-loading-1093.png",
+      "combat-error.png",
+      "technique-details.png"
+    ],
+    "publicModuleObserved": "/assets/index-DJCebaap.js",
+    "note": "Visual inspection is separate from automated interactions; no claim of new-user playtesting or accessibility certification"
+  },
+  "storage": "Test data only in isolated Playwright contexts; actual user saves not seeded, erased or replaced",
+  "deployment": {
+    "url": "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/",
+    "release": "/srv/mugong/releases/20260929-text-loading-v3",
+    "archiveBytes": 15271947,
+    "sha256": "f49075a0382a5fe98bd1a0b977a071cb7792c7d080210f7df325332d49ea5f07",
+    "remoteHashMatches": true,
+    "nginxSyntax": "passed",
+    "httpStatus": 200,
+    "previousReleasesPreserved": true
+  }
+}

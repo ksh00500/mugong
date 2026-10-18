@@ -1,0 +1,310 @@
+/* Frameless painted materials; live HTML owns panel and inventory boundaries. */
+:root {
+  --painted-material: url('/art/delivery-v1/ui/materials-v2.webp');
+}
+.painted-sprite {
+  display: inline-block;
+  flex-shrink: 0;
+  pointer-events: none;
+  vertical-align: middle;
+}
+.app-shell .ui-icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: none;
+  filter: drop-shadow(0 1px 1px #2b201b35);
+}
+.app-shell .art-glyph {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  transform: none;
+  box-shadow: none;
+  padding: 0;
+  filter: drop-shadow(0 2px 2px #211c1730);
+}
+.app-shell .home-brand-mark,
+.app-shell .dialog-seal {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  transform: none;
+}
+.app-shell .dialog-seal {
+  width: 36px;
+  height: 36px;
+}
+.app-shell .home-scene {
+  background: #f4ebd7 url('/art/delivery-v1/ui/lobby-v2.webp') center / cover;
+}
+.app-shell .home-scene:before {
+  display: none;
+}
+.app-shell .home-scene:after {
+  background: linear-gradient(90deg, #fff8e8dd, #fff8e826 45%, #fff8e812);
+}
+.app-shell .home-hero-ring,
+.app-shell .home-hero-script {
+  display: none;
+}
+.app-shell .home-hero-ground {
+  background: radial-gradient(ellipse, #24352645, transparent 68%);
+  border: 0;
+}
+.app-shell .home-header,
+.app-shell .home-dock {
+  background-image: var(--painted-material);
+  background-size: 220% 260%;
+  background-position: 5% 6%;
+}
+.app-shell .home-roster,
+.app-shell .home-run-card,
+.app-shell .dialog:not(.inventory-workspace):not(.warehouse-workspace),
+.app-shell .intermission {
+  background-image: var(--painted-material);
+  background-size: 200% 200%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-color: #987547;
+  box-shadow:
+    0 6px 20px #291f2330,
+    inset 0 0 0 1px #fff1c980;
+}
+.app-shell .home-roster > header {
+  background: #fff5df42;
+}
+.app-shell .home-empty-emblem {
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+.app-shell .home-empty-emblem > .ui-icon {
+  width: 64px;
+  height: 64px;
+}
+.app-shell .home-dock-icon {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+.app-shell .home-dock-icon .ui-icon {
+  width: 36px;
+  height: 36px;
+}
+.app-shell .home-launch,
+.app-shell button.primary {
+  background-image: var(--painted-material);
+  background-size: 200% 200%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  color: #fff4d9;
+  border-color: #b79c63;
+  text-shadow: 0 1px 2px #082317;
+}
+.app-shell .home-launch:hover:not(:disabled),
+.app-shell button.primary:hover:not(:disabled) {
+  background-color: #345f46;
+  filter: brightness(1.08);
+}
+.app-shell .dialog-header {
+  background: #fff7e598;
+}
+.app-shell .choice-card:hover:not(:disabled) {
+  box-shadow:
+    0 8px 24px #291f2340,
+    0 0 0 2px var(--art-color);
+}
+.app-shell .inventory-workspace,
+.app-shell .warehouse-workspace {
+  background-image: linear-gradient(#fff8e8b0, #fff8e8b0), var(--painted-material);
+  background-size:
+    100% 100%,
+    200% 200%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.inventory-workspace .inventory-banner {
+  background: #e5ecdcc9;
+}
+.inventory-workspace .bag-grid {
+  background-image: var(--painted-material);
+  background-size: 200% 200%;
+  background-position: 0 100%;
+  border: 2px solid #947a52;
+  box-shadow:
+    0 4px 10px #4d321926,
+    inset 0 0 0 3px #dac3a075;
+}
+.inventory-workspace .bag-cell {
+  background: #f5ead321;
+  border: 1px dashed #8c6e4545;
+  box-shadow: inset 0 0 5px #8e6d3220;
+}
+.inventory-workspace .bag-cell:disabled {
+  opacity: 1;
+}
+.inventory-workspace .bag-cell.valid {
+  background: #d1ebc765;
+}
+.inventory-workspace .bag-cell.preview-fit {
+  background: #a4cb9799;
+}
+.inventory-workspace .bag-cell.preview-blocked {
+  background: #c7776799;
+}
+.app-shell .inventory-workspace .item-tile,
+.app-shell .loose-items .item-tile {
+  background: #e8d7b842;
+  border-color: #ab86544a;
+  box-shadow: inset 0 0 8px #73522018;
+}
+.app-shell .inventory-workspace .item-tile.selected {
+  background: #e1f0cf88;
+  border-color: #416c47;
+  box-shadow:
+    inset 0 0 12px #aacb8460,
+    0 0 0 1px #f8f0c9;
+}
+.app-shell .item-art {
+  filter: drop-shadow(0 2px 2px #3c2a2940);
+}
+.inventory-workspace .item-tile .item-art {
+  width: 94%;
+  height: 90%;
+}
+.inventory-workspace .item-tile small {
+  padding: 1px 3px;
+  background: #fff6deca;
+  border-radius: 4px;
+  color: #493b25;
+}
+.inventory-workspace .item-detail .detail-icon {
+  background-image: var(--painted-material);
+  background-size: 200% 200%;
+  background-position: 0 100%;
+}
+.inventory-workspace .inventory-tray,
+.warehouse-workspace .warehouse-paged-items {
+  background-image: linear-gradient(#fff7e866, #fff7e866), var(--painted-material);
+  background-size:
+    100% 100%,
+    230% 230%;
+  background-position:
+    0 0,
+    8% 95%;
+}
+.app-shell .hud .panel {
+  background-color: #16352b;
+  background-image: var(--painted-material);
+  background-size: 200% 200%;
+  background-position: 100% 0;
+  border-color: #c5a15b;
+  box-shadow: 0 3px 12px #00170f60;
+  backdrop-filter: none;
+}
+.app-shell .hud .boss-panel {
+  background-position: 100% 100%;
+}
+.app-shell .hud .art-glyph {
+  background: none;
+  border: 0;
+}
+.app-shell .hud .art-slots .untrained {
+  opacity: 0.3;
+}
+.app-shell .hud .art-slots button {
+  background: #071d1c78;
+  border-color: #b1965b75;
+}
+.app-shell .hud .art-slots button.selected {
+  background: #b9a55d36;
+  border-color: #efd899;
+}
+.app-shell .meter {
+  background: #061b16;
+  border: 1px solid #b39859;
+  box-shadow: inset 0 2px 4px #0009;
+}
+.app-shell .meter > i {
+  background-image: linear-gradient(#fff6 0%, #fff0 42%, #0002 70%, #0004);
+  box-shadow: inset 0 1px 0 #fff7;
+}
+.app-shell .dialog button:not(.primary):not(.item-tile):not(.bag-cell):not([role='switch']) {
+  background-image: linear-gradient(#fff7ed99, #fff7ed99), var(--painted-material);
+  background-size:
+    100% 100%,
+    240% 240%;
+  background-position:
+    0 0,
+    8% 8%;
+}
+.app-shell .dialog button[aria-pressed='true'] {
+  box-shadow: inset 0 -3px 0 #618360;
+}
+.app-shell[data-high-contrast='true'] .home-departure {
+  text-shadow: 0 1px 0 #fff;
+}
+.app-shell[data-high-contrast='true'] .dialog {
+  background-image: none;
+  background-color: #fff9e9;
+}
+.app-shell[data-high-contrast='true'] .hud .panel {
+  background-image: none;
+  background-color: #0a2119;
+}
+@media (max-height: 700px), (max-width: 760px) {
+  .app-shell .home-empty-emblem > .ui-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .home-scene:after {
+    background: linear-gradient(90deg, #fff8e8e8, #fff8e85c);
+  }
+  .app-shell .home-dock-icon .ui-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+/* Compact choices use the existing row layout; artwork must fit its reserved column. */
+.app-shell .empty-detail > .ui-icon {
+  width: 64px;
+  height: 64px;
+  opacity: 0.7;
+}
+.inventory-workspace .bag-column > h3 {
+  white-space: nowrap;
+}
+.inventory-workspace .binding-list {
+  margin-bottom: 0;
+}
+/* Grid names live in the selected-item panel and tooltip; single-cell art stays visible. */
+.inventory-workspace .bag-grid .item-tile {
+  position: relative;
+}
+.inventory-workspace .bag-grid .item-tile small {
+  display: none;
+}
+.inventory-workspace .bag-grid .item-tile .item-art {
+  width: 100%;
+  height: 100%;
+}
+.item-count {
+  display: none;
+}
+.inventory-workspace .bag-grid .item-count {
+  display: block;
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  padding: 0 3px;
+  color: #fff9de;
+  background: #2e493be6;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 1.3;
+  pointer-events: none;
+}

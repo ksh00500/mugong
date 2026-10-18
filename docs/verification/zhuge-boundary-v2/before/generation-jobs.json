@@ -1,0 +1,525 @@
+[
+  {
+    "id": "engineer-front-right",
+    "character": "engineer",
+    "slot": 0,
+    "view": 1,
+    "source": "engineer-front-right.png",
+    "prompt": "engineer-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp"
+  },
+  {
+    "id": "engineer-front",
+    "character": "engineer",
+    "slot": 0,
+    "view": 0,
+    "source": "engineer-front.png",
+    "prompt": "engineer-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp"
+  },
+  {
+    "id": "engineer-right",
+    "character": "engineer",
+    "slot": 0,
+    "view": 2,
+    "source": "engineer-right.png",
+    "prompt": "engineer-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp",
+    "poseSources": {
+      "8": "attempts/engineer-right-before-repair.png"
+    }
+  },
+  {
+    "id": "engineer-rear-right",
+    "character": "engineer",
+    "slot": 0,
+    "view": 3,
+    "source": "engineer-rear-right.png",
+    "prompt": "engineer-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp"
+  },
+  {
+    "id": "engineer-back",
+    "character": "engineer",
+    "slot": 0,
+    "view": 4,
+    "source": "engineer-back.png",
+    "prompt": "engineer-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/roles-directions.webp"
+  },
+  {
+    "id": "gatekeeper-front-right",
+    "character": "gatekeeper",
+    "slot": 1,
+    "view": 1,
+    "source": "gatekeeper-front-right.png",
+    "prompt": "gatekeeper-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "gatekeeper-front",
+    "character": "gatekeeper",
+    "slot": 1,
+    "view": 0,
+    "source": "gatekeeper-front.png",
+    "prompt": "gatekeeper-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "gatekeeper-right",
+    "character": "gatekeeper",
+    "slot": 1,
+    "view": 2,
+    "source": "gatekeeper-right.png",
+    "prompt": "gatekeeper-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "gatekeeper-rear-right",
+    "character": "gatekeeper",
+    "slot": 1,
+    "view": 3,
+    "source": "gatekeeper-rear-right.png",
+    "prompt": "gatekeeper-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "gatekeeper-back",
+    "character": "gatekeeper",
+    "slot": 1,
+    "view": 4,
+    "source": "gatekeeper-back.png",
+    "prompt": "gatekeeper-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "crossbow-front-right",
+    "character": "crossbow",
+    "slot": 2,
+    "view": 1,
+    "source": "crossbow-front-right.png",
+    "prompt": "crossbow-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "crossbow-front",
+    "character": "crossbow",
+    "slot": 2,
+    "view": 0,
+    "source": "crossbow-front.png",
+    "prompt": "crossbow-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "crossbow-right",
+    "character": "crossbow",
+    "slot": 2,
+    "view": 2,
+    "source": "crossbow-right.png",
+    "prompt": "crossbow-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "crossbow-rear-right",
+    "character": "crossbow",
+    "slot": 2,
+    "view": 3,
+    "source": "crossbow-rear-right.png",
+    "prompt": "crossbow-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "crossbow-back",
+    "character": "crossbow",
+    "slot": 2,
+    "view": 4,
+    "source": "crossbow-back.png",
+    "prompt": "crossbow-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "9": "crossbow-back-padding-repair.png",
+      "10": "crossbow-back-padding-repair.png"
+    }
+  },
+  {
+    "id": "yanggi-front-right",
+    "character": "yanggi",
+    "slot": 3,
+    "view": 1,
+    "source": "yanggi-front-right.png",
+    "prompt": "yanggi-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "yanggi-front",
+    "character": "yanggi",
+    "slot": 3,
+    "view": 0,
+    "source": "yanggi-front.png",
+    "prompt": "yanggi-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "yanggi-right",
+    "character": "yanggi",
+    "slot": 3,
+    "view": 2,
+    "source": "yanggi-right.png",
+    "prompt": "yanggi-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "yanggi-rear-right",
+    "character": "yanggi",
+    "slot": 3,
+    "view": 3,
+    "source": "yanggi-rear-right.png",
+    "prompt": "yanggi-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "yanggi-back",
+    "character": "yanggi",
+    "slot": 3,
+    "view": 4,
+    "source": "yanggi-back.png",
+    "prompt": "yanggi-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "mukyeon-front-right",
+    "character": "mukyeon",
+    "slot": 4,
+    "view": 1,
+    "source": "mukyeon-front-right.png",
+    "prompt": "mukyeon-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "mukyeon-front",
+    "character": "mukyeon",
+    "slot": 4,
+    "view": 0,
+    "source": "mukyeon-front.png",
+    "prompt": "mukyeon-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "mukyeon-right",
+    "character": "mukyeon",
+    "slot": 4,
+    "view": 2,
+    "source": "mukyeon-right.png",
+    "prompt": "mukyeon-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "mukyeon-rear-right",
+    "character": "mukyeon",
+    "slot": 4,
+    "view": 3,
+    "source": "mukyeon-rear-right.png",
+    "prompt": "mukyeon-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "mukyeon-back",
+    "character": "mukyeon",
+    "slot": 4,
+    "view": 4,
+    "source": "mukyeon-back.png",
+    "prompt": "mukyeon-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "jingwal-front-right",
+    "character": "jingwal",
+    "slot": 5,
+    "view": 1,
+    "source": "jingwal-front-right.png",
+    "prompt": "jingwal-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "6": "jingwal-attack-v2-front-right.png",
+      "7": "jingwal-attack-v2-front-right.png",
+      "8": "jingwal-attack-v2-front-right.png",
+      "9": "jingwal-attack-v2-front-right.png",
+      "10": "jingwal-attack-v2-front-right.png",
+      "11": "jingwal-attack-v2-front-right.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      }
+    }
+  },
+  {
+    "id": "jingwal-front",
+    "character": "jingwal",
+    "slot": 5,
+    "view": 0,
+    "source": "jingwal-front.png",
+    "prompt": "jingwal-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "6": "jingwal-attack-v2-front.png",
+      "7": "jingwal-attack-v2-front.png",
+      "8": "jingwal-attack-v2-front.png",
+      "9": "jingwal-attack-v2-front.png",
+      "10": "jingwal-attack-v2-front.png",
+      "11": "jingwal-attack-v2-front.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      }
+    }
+  },
+  {
+    "id": "jingwal-right",
+    "character": "jingwal",
+    "slot": 5,
+    "view": 2,
+    "source": "jingwal-right.png",
+    "prompt": "jingwal-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "3": "attempts/jingwal-right-before-repair.png",
+      "6": "jingwal-attack-v2-right.png",
+      "7": "jingwal-attack-v2-right.png",
+      "8": "jingwal-attack-v2-right-hands.png",
+      "9": "jingwal-attack-v2-right-hands.png",
+      "10": "jingwal-attack-v2-right.png",
+      "11": "jingwal-attack-v2-right.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      }
+    }
+  },
+  {
+    "id": "jingwal-rear-right",
+    "character": "jingwal",
+    "slot": 5,
+    "view": 3,
+    "source": "jingwal-rear-right.png",
+    "prompt": "jingwal-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "6": "jingwal-attack-v2-rear-right.png",
+      "7": "jingwal-attack-v2-rear-right-hands.png",
+      "8": "jingwal-attack-v2-rear-right.png",
+      "9": "jingwal-attack-v2-rear-right.png",
+      "10": "jingwal-attack-v2-rear-right-hands.png",
+      "11": "jingwal-attack-v2-rear-right.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      }
+    }
+  },
+  {
+    "id": "jingwal-back",
+    "character": "jingwal",
+    "slot": 5,
+    "view": 4,
+    "source": "jingwal-back.png",
+    "prompt": "jingwal-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp",
+    "poseSources": {
+      "6": "jingwal-attack-v2-back.png",
+      "7": "jingwal-attack-v2-back.png",
+      "8": "jingwal-attack-v2-back-aim.png",
+      "9": "jingwal-attack-v2-back-aim.png",
+      "10": "jingwal-attack-v2-back.png",
+      "11": "jingwal-attack-v2-back.png"
+    },
+    "poseSourceCells": {
+      "6": {
+        "columns": 3,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 3,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 3,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 3,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      }
+    }
+  },
+  {
+    "id": "zhugehyeon-front-right",
+    "character": "zhugehyeon",
+    "slot": 6,
+    "view": 1,
+    "source": "zhugehyeon-front-right.png",
+    "prompt": "zhugehyeon-front-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "zhugehyeon-front",
+    "character": "zhugehyeon",
+    "slot": 6,
+    "view": 0,
+    "source": "zhugehyeon-front.png",
+    "prompt": "zhugehyeon-front.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "zhugehyeon-right",
+    "character": "zhugehyeon",
+    "slot": 6,
+    "view": 2,
+    "source": "zhugehyeon-right.png",
+    "prompt": "zhugehyeon-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "zhugehyeon-rear-right",
+    "character": "zhugehyeon",
+    "slot": 6,
+    "view": 3,
+    "source": "zhugehyeon-rear-right.png",
+    "prompt": "zhugehyeon-rear-right.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  },
+  {
+    "id": "zhugehyeon-back",
+    "character": "zhugehyeon",
+    "slot": 6,
+    "view": 4,
+    "source": "zhugehyeon-back.png",
+    "prompt": "zhugehyeon-back.prompt.txt",
+    "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/public/art/hostile-consistency-v3/region-9-directions.webp"
+  }
+]

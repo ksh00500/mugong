@@ -1,0 +1,20 @@
+{
+  "mode": "built-in image_gen",
+  "atlas": {
+    "prompt": "무협 카툰 탑뷰 액션 게임용 투사체 스프라이트 시트. 투명 배경, 정확한 4열×2행 동일 크기 칸, 각 칸 중앙에 하나씩 서로 떨어진 그림. 굵고 깔끔한 어두운 외곽선과 단순한 셀 채색, 작은 크기에서도 형태가 뚜렷하게. 모두 오른쪽을 향한다. 위 행 왼쪽부터: 작은 청동 암기, 가느다란 은색 독침, 녹색 끝의 청린 독침, 옅은 청록색 초승달 풍인. 아래 행 왼쪽부터: 황백색 초승달 검기, 날아가는 은색 무협 장검, 붉은 깃이 달린 나무 화살, 돌아오는 둥근 은색 회전 칼날. 여백 충분히. 글자, 숫자, 칸 선, 장식 프레임 없음. 과도한 광채 없음.",
+    "source": "assets/projectile-art-v1/source.png",
+    "generatedSource": "C:/Users/user/.codex/generated_images/01a0e1f0-638e-7b20-9e28-1f0d4d39d935/exec-bc8c7d26-8d9e-4bb6-8dcf-89c0ea2f3802.png",
+    "delivery": "public/art/projectiles-v1.webp",
+    "frames": "src/platform/projectile-frames.json",
+    "width": 1774,
+    "height": 887
+  },
+  "stone": {
+    "prompt": "무협 카툰 탑뷰 게임의 돌팔매 투사체 하나. 작은 회색 조약돌, 둥글지만 살짝 각진 실루엣, 굵은 어두운 외곽선과 단순한 셀 채색. 중앙에 작게 하나만, 투명 배경, 그림자·글자·프레임·광채 없음.",
+    "source": "assets/projectile-art-v1/stone-source.png",
+    "generatedSource": "C:/Users/user/.codex/generated_images/01a0e1f0-638e-7b20-9e28-1f0d4d39d935/exec-8630af6e-5c48-41ca-9f5e-23d9c1588ec3.png",
+    "delivery": "public/art/projectile-stone-v1.webp",
+    "crop": [675, 430, 863, 594]
+  },
+  "packaging": "Lossless WebP with generated alpha preserved. Atlas frame bounds follow alpha >=16 with a 2px margin. Stone transparent padding is trimmed for delivery; originals are preserved."
+}

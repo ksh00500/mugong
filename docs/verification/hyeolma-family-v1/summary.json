@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-05",
+  "identities": 7,
+  "nativeViews": 5,
+  "directions": 8,
+  "frames": 420,
+  "uniqueSourceFigures": 420,
+  "selectedSourceSheets": 53,
+  "correctedDrawings": 20,
+  "explicitPoseReuse": 0,
+  "pendingArt": [],
+  "unit": {
+    "files": 55,
+    "tests": 1261,
+    "passed": true
+  },
+  "build": true,
+  "browser": {
+    "renderAndRelease": 5,
+    "production": 3,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1093,
+        614
+      ]
+    ]
+  },
+  "render": [
+    {
+      "renderer": "canvas",
+      "motion": "full",
+      "states": 1960,
+      "contacts": 192,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "canvas",
+      "motion": "reduced",
+      "states": 1960,
+      "contacts": 192,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "webgl",
+      "motion": "full",
+      "states": 1960,
+      "contacts": 192,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "webgl",
+      "motion": "reduced",
+      "states": 1960,
+      "contacts": 192,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    }
+  ],
+  "actualReleaseCases": 24,
+  "sourceScanIssues": 0,
+  "sourcePixelsPreserved": true,
+  "encodedTransparentPadding": true,
+  "userSaveUntouched": true,
+  "preview": "http://127.0.0.1:5173/art/hyeolma-family-v1/review.html",
+  "buildAssets": [
+    "main-chUjCh5I.js",
+    "mount-BQV1lNYb.js"
+  ],
+  "limitations": [
+    "Boss19 actions share character base attack cycle, not19 separate authored cycles.",
+    "Death uses one authored pose and fade.",
+    "Automated checks verify bounds, pixel copying, direction, timing and spacing, not anatomy certification."
+  ],
+  "environmentRecovery": "Initial Vitest temp-cache rename EPERM resolved using a workspace temp folder; browser tests ran outside sandbox localhost socket restrictions."
+}

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "jeokho-front",
+    "character": "jeokho",
+    "bossId": "6-1",
+    "view": 0,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-front.png",
+    "source": "jeokho-front-slam.png",
+    "sources": [
+      {
+        "id": "jeokho-front-slam",
+        "source": "jeokho-front-slam.png",
+        "prompt": "jeokho-front-slam.prompt.txt"
+      },
+      {
+        "id": "jeokho-front-stance",
+        "source": "jeokho-front-stance.png",
+        "prompt": "jeokho-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokho-front-slam.png",
+      "jeokho-front-slam.png",
+      "jeokho-front-slam.png",
+      "jeokho-front-slam.png",
+      "jeokho-front-slam.png",
+      "jeokho-front-slam.png",
+      "jeokho-front-stance.png",
+      "jeokho-front-stance.png",
+      "jeokho-front-stance.png",
+      "jeokho-front-stance.png",
+      "jeokho-front-stance.png",
+      "jeokho-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokho-front-right",
+    "character": "jeokho",
+    "bossId": "6-1",
+    "view": 1,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-front-right.png",
+    "source": "jeokho-front-right-slam.png",
+    "sources": [
+      {
+        "id": "jeokho-front-right-slam",
+        "source": "jeokho-front-right-slam.png",
+        "prompt": "jeokho-front-right-slam.prompt.txt"
+      },
+      {
+        "id": "jeokho-front-right-stance",
+        "source": "jeokho-front-right-stance.png",
+        "prompt": "jeokho-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-slam.png",
+      "jeokho-front-right-stance.png",
+      "jeokho-front-right-stance.png",
+      "jeokho-front-right-stance.png",
+      "jeokho-front-right-stance.png",
+      "jeokho-front-right-stance.png",
+      "jeokho-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokho-right",
+    "character": "jeokho",
+    "bossId": "6-1",
+    "view": 2,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-right.png",
+    "source": "jeokho-right-slam.png",
+    "sources": [
+      {
+        "id": "jeokho-right-slam",
+        "source": "jeokho-right-slam.png",
+        "prompt": "jeokho-right-slam.prompt.txt"
+      },
+      {
+        "id": "jeokho-right-stance",
+        "source": "jeokho-right-stance.png",
+        "prompt": "jeokho-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokho-right-slam.png",
+      "jeokho-right-slam.png",
+      "jeokho-right-slam.png",
+      "jeokho-right-slam.png",
+      "jeokho-right-slam.png",
+      "jeokho-right-slam.png",
+      "jeokho-right-stance.png",
+      "jeokho-right-stance.png",
+      "jeokho-right-stance.png",
+      "jeokho-right-stance.png",
+      "jeokho-right-stance.png",
+      "jeokho-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokho-rear-right",
+    "character": "jeokho",
+    "bossId": "6-1",
+    "view": 3,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-rear-right.png",
+    "source": "jeokho-rear-right-slam.png",
+    "sources": [
+      {
+        "id": "jeokho-rear-right-slam",
+        "source": "jeokho-rear-right-slam.png",
+        "prompt": "jeokho-rear-right-slam.prompt.txt"
+      },
+      {
+        "id": "jeokho-rear-right-stance",
+        "source": "jeokho-rear-right-stance.png",
+        "prompt": "jeokho-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-slam.png",
+      "jeokho-rear-right-stance.png",
+      "jeokho-rear-right-stance.png",
+      "jeokho-rear-right-stance.png",
+      "jeokho-rear-right-stance.png",
+      "jeokho-rear-right-stance.png",
+      "jeokho-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokho-back",
+    "character": "jeokho",
+    "bossId": "6-1",
+    "view": 4,
+    "moves": [
+      "slam",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/jeokho-back.png",
+    "source": "jeokho-back-slam.png",
+    "sources": [
+      {
+        "id": "jeokho-back-slam",
+        "source": "jeokho-back-slam.png",
+        "prompt": "jeokho-back-slam.prompt.txt"
+      },
+      {
+        "id": "jeokho-back-stance",
+        "source": "jeokho-back-stance.png",
+        "prompt": "jeokho-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokho-back-slam.png",
+      "jeokho-back-slam.png",
+      "jeokho-back-slam.png",
+      "jeokho-back-slam.png",
+      "jeokho-back-slam.png",
+      "jeokho-back-slam.png",
+      "jeokho-back-stance.png",
+      "jeokho-back-stance.png",
+      "jeokho-back-stance.png",
+      "jeokho-back-stance.png",
+      "jeokho-back-stance.png",
+      "jeokho-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "seokmun-front",
+    "character": "seokmun",
+    "bossId": "6-2",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-front.png",
+    "source": "seokmun-front-dash.png",
+    "sources": [
+      {
+        "id": "seokmun-front-dash",
+        "source": "seokmun-front-dash.png",
+        "prompt": "seokmun-front-dash.prompt.txt"
+      },
+      {
+        "id": "seokmun-front-stance",
+        "source": "seokmun-front-stance.png",
+        "prompt": "seokmun-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "seokmun-front-dash.png",
+      "seokmun-front-dash.png",
+      "seokmun-front-dash.png",
+      "seokmun-front-dash.png",
+      "seokmun-front-dash.png",
+      "seokmun-front-dash.png",
+      "seokmun-front-stance.png",
+      "seokmun-front-stance.png",
+      "seokmun-front-stance.png",
+      "seokmun-front-stance.png",
+      "seokmun-front-stance.png",
+      "seokmun-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "seokmun-front-right",
+    "character": "seokmun",
+    "bossId": "6-2",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-front-right.png",
+    "source": "seokmun-front-right-dash.png",
+    "sources": [
+      {
+        "id": "seokmun-front-right-dash",
+        "source": "seokmun-front-right-dash.png",
+        "prompt": "seokmun-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "seokmun-front-right-stance",
+        "source": "seokmun-front-right-stance.png",
+        "prompt": "seokmun-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-dash.png",
+      "seokmun-front-right-stance.png",
+      "seokmun-front-right-stance.png",
+      "seokmun-front-right-stance.png",
+      "seokmun-front-right-stance.png",
+      "seokmun-front-right-stance.png",
+      "seokmun-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "seokmun-right",
+    "character": "seokmun",
+    "bossId": "6-2",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-right.png",
+    "source": "seokmun-right-dash.png",
+    "sources": [
+      {
+        "id": "seokmun-right-dash",
+        "source": "seokmun-right-dash.png",
+        "prompt": "seokmun-right-dash.prompt.txt"
+      },
+      {
+        "id": "seokmun-right-stance",
+        "source": "seokmun-right-stance.png",
+        "prompt": "seokmun-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "seokmun-right-dash.png",
+      "seokmun-right-dash.png",
+      "seokmun-right-dash.png",
+      "seokmun-right-dash.png",
+      "seokmun-right-dash.png",
+      "seokmun-right-dash.png",
+      "seokmun-right-stance.png",
+      "seokmun-right-stance.png",
+      "seokmun-right-stance.png",
+      "seokmun-right-stance.png",
+      "seokmun-right-stance.png",
+      "seokmun-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "seokmun-rear-right",
+    "character": "seokmun",
+    "bossId": "6-2",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-rear-right.png",
+    "source": "seokmun-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "seokmun-rear-right-dash",
+        "source": "seokmun-rear-right-dash.png",
+        "prompt": "seokmun-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "seokmun-rear-right-stance",
+        "source": "seokmun-rear-right-stance.png",
+        "prompt": "seokmun-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-dash.png",
+      "seokmun-rear-right-stance.png",
+      "seokmun-rear-right-stance.png",
+      "seokmun-rear-right-stance.png",
+      "seokmun-rear-right-stance.png",
+      "seokmun-rear-right-stance.png",
+      "seokmun-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "seokmun-back",
+    "character": "seokmun",
+    "bossId": "6-2",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/seokmun-back.png",
+    "source": "seokmun-back-dash.png",
+    "sources": [
+      {
+        "id": "seokmun-back-dash",
+        "source": "seokmun-back-dash.png",
+        "prompt": "seokmun-back-dash.prompt.txt"
+      },
+      {
+        "id": "seokmun-back-stance",
+        "source": "seokmun-back-stance.png",
+        "prompt": "seokmun-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "seokmun-back-dash.png",
+      "seokmun-back-dash.png",
+      "seokmun-back-dash.png",
+      "seokmun-back-dash.png",
+      "seokmun-back-dash.png",
+      "seokmun-back-dash.png",
+      "seokmun-back-stance.png",
+      "seokmun-back-stance.png",
+      "seokmun-back-stance.png",
+      "seokmun-back-stance.png",
+      "seokmun-back-stance.png",
+      "seokmun-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-front",
+    "character": "gwakgi",
+    "bossId": "6-3",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-front.png",
+    "source": "gwakgi-front-fan.png",
+    "sources": [
+      {
+        "id": "gwakgi-front-fan",
+        "source": "gwakgi-front-fan.png",
+        "prompt": "gwakgi-front-fan.prompt.txt"
+      },
+      {
+        "id": "gwakgi-front-stance",
+        "source": "gwakgi-front-stance.png",
+        "prompt": "gwakgi-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "gwakgi-front-fan.png",
+      "gwakgi-front-fan.png",
+      "gwakgi-front-fan.png",
+      "gwakgi-front-fan.png",
+      "gwakgi-front-fan.png",
+      "gwakgi-front-fan.png",
+      "gwakgi-front-stance.png",
+      "gwakgi-front-stance.png",
+      "gwakgi-front-stance.png",
+      "gwakgi-front-stance.png",
+      "gwakgi-front-stance.png",
+      "gwakgi-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-front-right",
+    "character": "gwakgi",
+    "bossId": "6-3",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-front-right.png",
+    "source": "gwakgi-front-right-fan.png",
+    "sources": [
+      {
+        "id": "gwakgi-front-right-fan",
+        "source": "gwakgi-front-right-fan.png",
+        "prompt": "gwakgi-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "gwakgi-front-right-stance",
+        "source": "gwakgi-front-right-stance.png",
+        "prompt": "gwakgi-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-fan.png",
+      "gwakgi-front-right-stance.png",
+      "gwakgi-front-right-stance.png",
+      "gwakgi-front-right-stance.png",
+      "gwakgi-front-right-stance.png",
+      "gwakgi-front-right-stance.png",
+      "gwakgi-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-right",
+    "character": "gwakgi",
+    "bossId": "6-3",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-right.png",
+    "source": "gwakgi-right-fan.png",
+    "sources": [
+      {
+        "id": "gwakgi-right-fan",
+        "source": "gwakgi-right-fan.png",
+        "prompt": "gwakgi-right-fan.prompt.txt"
+      },
+      {
+        "id": "gwakgi-right-stance",
+        "source": "gwakgi-right-stance.png",
+        "prompt": "gwakgi-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "gwakgi-right-fan.png",
+      "gwakgi-right-fan.png",
+      "gwakgi-right-fan.png",
+      "gwakgi-right-fan.png",
+      "gwakgi-right-fan.png",
+      "gwakgi-right-fan.png",
+      "gwakgi-right-stance.png",
+      "gwakgi-right-stance.png",
+      "gwakgi-right-stance.png",
+      "gwakgi-right-stance.png",
+      "gwakgi-right-stance.png",
+      "gwakgi-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-rear-right",
+    "character": "gwakgi",
+    "bossId": "6-3",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-rear-right.png",
+    "source": "gwakgi-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "gwakgi-rear-right-fan",
+        "source": "gwakgi-rear-right-fan.png",
+        "prompt": "gwakgi-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "gwakgi-rear-right-stance",
+        "source": "gwakgi-rear-right-stance.png",
+        "prompt": "gwakgi-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-fan.png",
+      "gwakgi-rear-right-stance.png",
+      "gwakgi-rear-right-stance.png",
+      "gwakgi-rear-right-stance.png",
+      "gwakgi-rear-right-stance.png",
+      "gwakgi-rear-right-stance.png",
+      "gwakgi-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-back",
+    "character": "gwakgi",
+    "bossId": "6-3",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/gwakgi-back.png",
+    "source": "gwakgi-back-fan.png",
+    "sources": [
+      {
+        "id": "gwakgi-back-fan",
+        "source": "gwakgi-back-fan.png",
+        "prompt": "gwakgi-back-fan.prompt.txt"
+      },
+      {
+        "id": "gwakgi-back-stance",
+        "source": "gwakgi-back-stance.png",
+        "prompt": "gwakgi-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "gwakgi-back-fan.png",
+      "gwakgi-back-fan.png",
+      "gwakgi-back-fan.png",
+      "gwakgi-back-fan.png",
+      "gwakgi-back-fan.png",
+      "gwakgi-back-fan.png",
+      "gwakgi-back-stance.png",
+      "gwakgi-back-stance.png",
+      "gwakgi-back-stance.png",
+      "gwakgi-back-stance.png",
+      "gwakgi-back-stance.png",
+      "gwakgi-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-front",
+    "character": "wolryeong",
+    "bossId": "6-4",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-front.png",
+    "source": "wolryeong-front-dash.png",
+    "sources": [
+      {
+        "id": "wolryeong-front-dash",
+        "source": "wolryeong-front-dash.png",
+        "prompt": "wolryeong-front-dash.prompt.txt"
+      },
+      {
+        "id": "wolryeong-front-stance",
+        "source": "wolryeong-front-stance.png",
+        "prompt": "wolryeong-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "wolryeong-front-dash.png",
+      "wolryeong-front-dash.png",
+      "wolryeong-front-dash.png",
+      "wolryeong-front-dash.png",
+      "wolryeong-front-dash.png",
+      "wolryeong-front-dash.png",
+      "wolryeong-front-stance.png",
+      "wolryeong-front-stance.png",
+      "wolryeong-front-stance.png",
+      "wolryeong-front-stance.png",
+      "wolryeong-front-stance.png",
+      "wolryeong-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-front-right",
+    "character": "wolryeong",
+    "bossId": "6-4",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-front-right.png",
+    "source": "wolryeong-front-right-dash.png",
+    "sources": [
+      {
+        "id": "wolryeong-front-right-dash",
+        "source": "wolryeong-front-right-dash.png",
+        "prompt": "wolryeong-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "wolryeong-front-right-stance",
+        "source": "wolryeong-front-right-stance.png",
+        "prompt": "wolryeong-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-dash.png",
+      "wolryeong-front-right-stance.png",
+      "wolryeong-front-right-stance.png",
+      "wolryeong-front-right-stance.png",
+      "wolryeong-front-right-stance.png",
+      "wolryeong-front-right-stance.png",
+      "wolryeong-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-right",
+    "character": "wolryeong",
+    "bossId": "6-4",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-right.png",
+    "source": "wolryeong-right-dash.png",
+    "sources": [
+      {
+        "id": "wolryeong-right-dash",
+        "source": "wolryeong-right-dash.png",
+        "prompt": "wolryeong-right-dash.prompt.txt"
+      },
+      {
+        "id": "wolryeong-right-stance",
+        "source": "wolryeong-right-stance.png",
+        "prompt": "wolryeong-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "wolryeong-right-dash.png",
+      "wolryeong-right-dash.png",
+      "wolryeong-right-dash.png",
+      "wolryeong-right-dash.png",
+      "wolryeong-right-dash.png",
+      "wolryeong-right-dash.png",
+      "wolryeong-right-stance.png",
+      "wolryeong-right-stance.png",
+      "wolryeong-right-stance.png",
+      "wolryeong-right-stance.png",
+      "wolryeong-right-stance.png",
+      "wolryeong-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-rear-right",
+    "character": "wolryeong",
+    "bossId": "6-4",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-rear-right.png",
+    "source": "wolryeong-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "wolryeong-rear-right-dash",
+        "source": "wolryeong-rear-right-dash.png",
+        "prompt": "wolryeong-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "wolryeong-rear-right-stance",
+        "source": "wolryeong-rear-right-stance.png",
+        "prompt": "wolryeong-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-dash.png",
+      "wolryeong-rear-right-stance.png",
+      "wolryeong-rear-right-stance.png",
+      "wolryeong-rear-right-stance.png",
+      "wolryeong-rear-right-stance.png",
+      "wolryeong-rear-right-stance.png",
+      "wolryeong-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-back",
+    "character": "wolryeong",
+    "bossId": "6-4",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tomb-special-v1/references/wolryeong-back.png",
+    "source": "wolryeong-back-dash.png",
+    "sources": [
+      {
+        "id": "wolryeong-back-dash",
+        "source": "wolryeong-back-dash.png",
+        "prompt": "wolryeong-back-dash.prompt.txt"
+      },
+      {
+        "id": "wolryeong-back-stance",
+        "source": "wolryeong-back-stance.png",
+        "prompt": "wolryeong-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "wolryeong-back-dash.png",
+      "wolryeong-back-dash.png",
+      "wolryeong-back-dash.png",
+      "wolryeong-back-dash.png",
+      "wolryeong-back-dash.png",
+      "wolryeong-back-dash.png",
+      "wolryeong-back-stance.png",
+      "wolryeong-back-stance.png",
+      "wolryeong-back-stance.png",
+      "wolryeong-back-stance.png",
+      "wolryeong-back-stance.png",
+      "wolryeong-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

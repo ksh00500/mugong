@@ -1,0 +1,791 @@
+/* The lobby has one primary journey and one contextual roster. Optional rules stay behind Help. */
+.app-shell .home-v3 {
+  background: #f4ebd7 url('/art/delivery-v1/ui/lobby-v2.webp') center / cover;
+}
+
+.app-shell .home-v3::after {
+  background: linear-gradient(90deg, #fff9e9d9 0%, #fff9e966 34%, #fff9e920 65%, #fff9e953 100%);
+}
+
+.app-shell .home-v3 .home-header {
+  height: 74px;
+  flex: 0 0 74px;
+  gap: clamp(18px, 3vw, 48px);
+  padding-inline: clamp(22px, 3vw, 52px);
+  background: #fff8e8e8;
+  background-image: none;
+  box-shadow: 0 2px 12px #45382118;
+}
+
+.app-shell .home-v3 .home-brand {
+  min-width: 0;
+}
+
+.app-shell .home-v3 .home-brand-mark {
+  width: 47px;
+  height: 47px;
+}
+
+.app-shell .home-v3 .home-brand b {
+  font-size: clamp(32px, 2.7vw, 42px);
+  letter-spacing: 0.11em;
+}
+
+.app-shell .home-v3 .home-nav {
+  gap: 4px;
+}
+
+.app-shell .home-v3 .home-nav button {
+  min-width: 0;
+  height: 54px;
+  padding-inline: 15px;
+  gap: 7px;
+  font-size: 18px;
+}
+
+.app-shell .home-v3 .home-nav .ui-icon {
+  width: 23px;
+  height: 23px;
+  margin: 0;
+}
+
+.app-shell .home-v3 .home-header-end {
+  gap: 9px;
+}
+
+.app-shell .home-v3 .home-round-button {
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  padding: 10px;
+}
+
+.app-shell .home-v3 .home-round-button .ui-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.app-shell .home-v3 .home-stage {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  max-width: none;
+  display: grid;
+  grid-template-columns: minmax(270px, 0.95fr) minmax(180px, 1.05fr) minmax(275px, 0.9fr);
+  grid-template-rows: minmax(0, 1fr);
+  gap: clamp(16px, 2.4vw, 38px);
+  align-items: center;
+  padding: 16px clamp(22px, 3vw, 52px) 8px;
+}
+
+.app-shell .home-v3 .home-departure {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  max-width: 460px;
+}
+
+.app-shell .home-v3 .home-section-label {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #77643f;
+}
+
+.app-shell .home-v3 .home-departure h1 {
+  margin: 0 0 24px;
+  font: 700 clamp(43px, 4.2vw, 65px)/1.38 var(--font-display);
+  letter-spacing: -0.045em;
+  color: #233a2f;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.app-shell .home-v3 .home-start-facts {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 0 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #5d634b;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.app-shell .home-v3 .home-start-facts > span {
+  flex: none;
+  display: inline;
+  width: auto;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.app-shell .home-v3 .home-start-facts i {
+  color: #9b8152;
+  font-style: normal;
+}
+
+.app-shell .home-v3 .home-launch {
+  width: min(100%, 385px);
+  max-width: none;
+  min-height: 76px;
+  height: auto;
+  margin: 0;
+  padding: 14px 20px;
+  gap: 14px;
+  border-radius: 13px;
+  background-image: none;
+  background-color: var(--jade);
+  border: 1px solid #8f845d;
+  color: #fff8e7;
+  box-shadow: 0 7px 20px #2447353c;
+  transition:
+    background-color 140ms ease-out,
+    border-color 140ms ease-out,
+    box-shadow 140ms ease-out;
+}
+
+.app-shell .home-v3 .home-launch:hover:not(:disabled) {
+  transform: none;
+  filter: none;
+  background-color: #244739;
+  border-color: #b9a372;
+  box-shadow: 0 9px 24px #2447354a;
+}
+
+.app-shell .home-v3 .home-launch b {
+  font: 700 clamp(20px, 2vw, 27px) var(--font-display);
+  white-space: normal;
+  line-height: 1.2;
+}
+
+.app-shell .home-v3 .home-launch > .ui-icon:first-child {
+  width: 29px;
+  height: 29px;
+}
+
+.app-shell .home-v3 .home-launch > .ui-icon:last-child {
+  width: 25px;
+  height: 25px;
+}
+
+.app-shell .home-v3 .home-run-card {
+  width: min(100%, 385px);
+  max-width: none;
+  margin: 0 0 17px;
+  padding: 16px 18px;
+  border: 1px solid #a9976d;
+  border-radius: 12px;
+  background: #fff8e9d9;
+  background-image: none;
+  box-shadow: 0 4px 13px #3b342224;
+}
+
+.app-shell .home-v3 .home-run-progress {
+  margin: 7px 0 8px;
+}
+
+.app-shell .home-v3 .home-run-progress strong {
+  font-size: 34px;
+}
+
+.app-shell .home-v3 .home-wave-track {
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin: 0 0 12px;
+  border: 1px solid #bda97f;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #e9dec4;
+}
+
+.app-shell .home-v3 .home-wave-track i {
+  display: block;
+  height: 100%;
+  background: #52715b;
+}
+
+.app-shell .home-v3 .home-hero {
+  grid-column: 2;
+  grid-row: 1;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.app-shell .home-v3 .home-hero-image {
+  width: min(110%, 500px);
+  height: min(100%, 680px);
+  max-width: none;
+  max-height: 100%;
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 7px 8px #262a243b);
+}
+
+.app-shell .home-v3 .home-roster {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  width: 100%;
+  max-width: 425px;
+  min-height: 0;
+  padding: 0;
+  overflow: visible;
+  border: 1px solid #ad9569;
+  border-radius: 16px;
+  background: #fff8e8eb;
+  background-image: none;
+  box-shadow: 0 9px 27px #4b3e2433;
+}
+
+.app-shell .home-v3 .home-roster > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  padding: 12px 18px;
+  border-bottom: 1px solid #bba77e;
+  background: #f8edda91;
+  border-radius: 16px 16px 0 0;
+}
+
+.app-shell .home-v3 .home-roster h2 {
+  font: 700 25px var(--font-display);
+  white-space: nowrap;
+}
+
+.app-shell .home-v3 .home-count {
+  gap: 4px;
+  font: 700 26px var(--font-display);
+  line-height: 1;
+}
+
+.app-shell .home-v3 .home-count small {
+  font: 15px var(--font-ui);
+}
+
+.app-shell .home-v3 .home-empty-roster {
+  min-height: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-shell .home-v3 .home-empty-emblem {
+  width: 57px;
+  height: 57px;
+  margin: 0;
+  border: 0;
+  background: none;
+}
+
+.app-shell .home-v3 .home-empty-emblem .ui-icon {
+  width: 53px;
+  height: 53px;
+  opacity: 0.72;
+}
+
+.app-shell .home-v3 .home-empty-roster p {
+  max-width: 285px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.4;
+  color: #5b6250;
+}
+
+.app-shell .home-v3 .home-roster-list {
+  width: 100%;
+  max-height: none;
+  display: grid;
+  gap: 0;
+  padding: 12px 14px 0;
+  overflow: visible;
+}
+
+.app-shell .home-v3 .home-roster-list > button {
+  min-height: 65px;
+  padding: 8px 10px;
+  gap: 11px;
+  flex-wrap: nowrap;
+  border: 1px solid #aab790;
+  border-radius: 10px;
+  background: #e8edde;
+  box-shadow: none;
+}
+
+.app-shell .home-v3 .home-roster-list > button:hover:not(:disabled) {
+  transform: none;
+  background: #e0e9d7;
+  border-color: #738c73;
+}
+
+.app-shell .home-v3 .home-roster-list > button > span:nth-child(2) {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 1px;
+}
+
+.app-shell .home-v3 .home-roster-list b {
+  font-size: 19px;
+}
+
+.app-shell .home-v3 .home-roster-list small,
+.app-shell .home-v3 .home-roster-list em {
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.app-shell .home-v3 .home-roster-list em {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.app-shell .home-v3 .home-roster-avatar img { width:100%; height:100%; object-fit:contain; }
+.app-shell .home-v3 .home-roster-avatar {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+.app-shell .home-v3 .roster-pagination {
+  gap: 8px;
+  padding: 5px 10px 0;
+  font-size: 14px;
+}
+
+.app-shell .home-v3 .roster-pagination button {
+  width: 40px;
+  min-width: 40px;
+  min-height: 34px;
+  padding: 4px;
+}
+
+.app-shell .home-v3 .home-fighter-detail {
+  padding: 12px 18px 18px;
+}
+
+.app-shell .home-v3 .home-fighter-detail .health-line {
+  font-size: 15px;
+}
+
+.app-shell .home-v3 .home-art-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.app-shell .home-v3 .home-art-list > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 54px;
+  padding: 4px;
+  border: 1px solid #c7ba95;
+  border-radius: 8px;
+  background: #f8f0dd;
+}
+
+.app-shell .home-v3 .home-art-list .art-glyph {
+  grid-row: auto;
+  width: 31px;
+  height: 31px;
+}
+
+.app-shell .home-v3 .home-art-list b {
+  grid-column: auto;
+  margin: 0;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.app-shell .home-v3 .home-bag-link {
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 8px 14px;
+  gap: 10px;
+  border: 1px solid #9cae95;
+  border-radius: 9px;
+  background: #e8ede0;
+  color: #315548;
+  font-size: 17px;
+  font-weight: 700;
+  transition:
+    background-color 140ms ease-out,
+    border-color 140ms ease-out;
+}
+
+.app-shell .home-v3 .home-bag-link:hover:not(:disabled) {
+  transform: none;
+  background: #dce8d9;
+  border-color: #718c71;
+}
+
+.app-shell .home-v3 .home-bag-link > .ui-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.app-shell .home-v3 .home-dock {
+  flex: 0 0 46px;
+  width: calc(100% - 2 * clamp(22px, 3vw, 52px));
+  height: 46px;
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  background-image: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.app-shell .home-v3 .home-dock-card.home-guide-card {
+  min-width: 52px;
+  min-height: 40px;
+  width: auto;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 4px 10px;
+  border: 1px solid #aa9977;
+  border-radius: 9px;
+  background: #fff8e9d8;
+  color: #4b604d;
+  box-shadow: 0 2px 6px #46371d24;
+  font: 700 17px var(--font-ui);
+  transition:
+    background-color 140ms ease-out,
+    border-color 140ms ease-out;
+}
+
+.app-shell .home-v3 .home-dock-card.home-guide-card:hover:not(:disabled) {
+  transform: none;
+  background: #edf1df;
+  border-color: #72896c;
+}
+
+.app-shell .home-v3 .home-dock-icon {
+  width: 25px;
+  height: 25px;
+  border: 0;
+  background: none;
+}
+
+.app-shell .home-v3 .home-dock-icon .ui-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.app-shell .home-v3 .home-footer {
+  flex: 0 0 23px;
+  min-height: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 clamp(22px, 3vw, 52px) 3px;
+}
+
+.app-shell .home-v3 .home-create-preview p {
+  display: none;
+}
+
+.app-shell[data-high-contrast='true'] .home-v3 .home-roster,
+.app-shell[data-high-contrast='true'] .home-v3 .home-run-card {
+  background: #fff9eb;
+  border-color: #5e5038;
+}
+
+@media (max-width: 1200px) {
+  .app-shell .home-v3 .home-stage {
+    grid-template-columns: minmax(250px, 0.95fr) minmax(140px, 0.78fr) minmax(275px, 1fr);
+    gap: 12px;
+  }
+  .app-shell .home-v3 .home-nav button {
+    padding-inline: 10px;
+  }
+}
+
+@media (max-height: 700px) {
+  .app-shell .home-v3 .home-header {
+    height: 62px;
+    flex-basis: 62px;
+  }
+  .app-shell .home-v3 .home-brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+  .app-shell .home-v3 .home-brand b {
+    font-size: 32px;
+  }
+  .app-shell .home-v3 .home-stage {
+    padding-block: 8px 2px;
+  }
+  .app-shell .home-v3 .home-departure h1 {
+    margin-bottom: 14px;
+    font-size: clamp(38px, 4vw, 51px);
+  }
+  .app-shell .home-v3 .home-start-facts {
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+  .app-shell .home-v3 .home-launch {
+    min-height: 64px;
+  }
+  .app-shell .home-v3 .home-roster > header {
+    min-height: 53px;
+    padding-block: 8px;
+  }
+  .app-shell .home-v3 .home-roster-list > button {
+    min-height: 55px;
+  }
+  .app-shell .home-v3 .home-fighter-detail {
+    padding-block: 8px 10px;
+  }
+  .app-shell .home-v3 .home-art-list {
+    margin-block: 8px;
+  }
+  .app-shell .home-v3 .home-empty-roster {
+    min-height: 122px;
+  }
+  .app-shell .home-v3 .home-dock {
+    flex-basis: 40px;
+    min-height: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .app-shell .home-v3 .home-header {
+    height: 62px;
+    flex-basis: 62px;
+    gap: 8px;
+    padding-inline: 12px;
+  }
+  .app-shell .home-v3 .home-brand-mark {
+    width: 32px;
+    height: 32px;
+  }
+  .app-shell .home-v3 .home-brand b {
+    font-size: 26px;
+  }
+  .app-shell .home-v3 .home-nav {
+    gap: 0;
+    margin-left: auto;
+  }
+  .app-shell .home-v3 .home-nav button {
+    min-width: 41px;
+    width: 41px;
+    height: 42px;
+    padding: 8px;
+    justify-content: center;
+    font-size: 0;
+  }
+  .app-shell .home-v3 .home-nav .ui-icon {
+    width: 23px;
+    height: 23px;
+  }
+  .app-shell .home-v3 .home-header-end {
+    gap: 2px;
+    margin: 0;
+  }
+  .app-shell .home-v3 .home-round-button {
+    width: 39px;
+    height: 39px;
+    min-height: 39px;
+    padding: 7px;
+  }
+  .app-shell .home-v3 .home-stage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 10px;
+    align-items: stretch;
+    padding: 10px 14px 0;
+  }
+  .app-shell .home-v3 .home-departure {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: none;
+  }
+  .app-shell .home-v3 .home-departure h1 {
+    display: block;
+    margin: 0 0 6px;
+    font-size: clamp(26px, 7vw, 37px);
+    line-height: 1.32;
+  }
+  .app-shell .home-v3 .home-section-label {
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+  .app-shell .home-v3 .home-start-facts {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .app-shell .home-v3 .home-launch {
+    width: 100%;
+    min-height: 54px;
+    height: 54px;
+    padding: 6px 12px;
+  }
+  .app-shell .home-v3 .home-launch b {
+    font-size: 20px;
+  }
+  .app-shell .home-v3 .home-hero {
+    display: none;
+  }
+  .app-shell .home-v3 .home-roster {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+    max-width: none;
+    margin: 0;
+  }
+  .app-shell .home-v3 .home-roster > header {
+    padding: 8px 12px;
+  }
+  .app-shell .home-v3 .home-empty-roster {
+    min-height: 85px;
+    flex-direction: row;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .app-shell .home-v3 .home-empty-emblem {
+    width: 40px;
+    height: 40px;
+  }
+  .app-shell .home-v3 .home-empty-emblem .ui-icon {
+    width: 39px;
+    height: 39px;
+  }
+  .app-shell .home-v3 .home-empty-roster p {
+    font-size: 15px;
+    text-align: left;
+  }
+  .app-shell .home-v3 .home-dock {
+    width: calc(100% - 28px);
+    flex-basis: 45px;
+    min-height: 45px;
+    height: 45px;
+  }
+  .app-shell .home-v3 .home-footer {
+    padding-inline: 14px;
+  }
+}
+
+@media (max-width: 900px) and (max-height: 590px) {
+  .app-shell .home-v3 .home-header {
+    height: 52px;
+    flex-basis: 52px;
+  }
+  .app-shell .home-v3 .home-departure h1 {
+    font-size: 27px;
+  }
+  .app-shell .home-v3 .home-section-label,
+  .app-shell .home-v3 .home-start-facts {
+    display: none;
+  }
+  .app-shell .home-v3 .home-roster > header {
+    min-height: 40px;
+  }
+  .app-shell .home-v3 .home-empty-roster {
+    min-height: 70px;
+  }
+  .app-shell .home-v3 .home-dock {
+    flex-basis: 40px;
+    height: 40px;
+    min-height: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .home-v3 .home-launch,
+  .app-shell .home-v3 .home-bag-link,
+  .app-shell .home-v3 .home-dock-card {
+    transition: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .app-shell .home-v3 .home-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+  .app-shell .home-v3 .home-brand {
+    gap: 5px;
+  }
+  .app-shell .home-v3 .home-brand b {
+    font-size: 23px;
+    letter-spacing: 0;
+  }
+  .app-shell .home-v3 .home-nav button {
+    flex: none;
+  }
+  .app-shell .home-v3 .home-roster {
+    min-width: 0;
+  }
+  .app-shell .home-v3 .home-roster-list b {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .app-shell .home-v3 .home-stage {
+    min-height: 0;
+  }
+}
+@media (max-width: 900px) and (max-height: 590px) {
+  .app-shell .home-v3 .home-roster > header {
+    min-height: 36px;
+    padding-block: 4px;
+  }
+  .app-shell .home-v3 .home-roster h2 {
+    font-size: 20px;
+  }
+  .app-shell .home-v3 .home-roster-list {
+    padding-block: 5px 0;
+  }
+  .app-shell .home-v3 .home-roster-list > button {
+    min-height: 46px;
+    padding-block: 4px;
+  }
+  .app-shell .home-v3 .home-art-list {
+    margin-block: 4px;
+  }
+  .app-shell .home-v3 .home-fighter-detail {
+    padding-block: 4px 6px;
+  }
+  .app-shell .home-v3 .home-bag-link {
+    min-height: 36px;
+    padding-block: 4px;
+  }
+}

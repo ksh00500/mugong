@@ -1,0 +1,968 @@
+{
+  "date": "2026-10-07",
+  "note": "Actual image-generation outputs and used prompts; input preflight hashes separate.",
+  "records": [
+    {
+      "id": "jingwal-back-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "thrust aims right instead of AWAY toward screen top; maintain back view and foreshorten wood shaft; spear tip ahead above head, not side",
+      "source": "jingwal-back-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b226f311-41b9-448a-b766-5aa770d3618f.png",
+      "promptFile": "jingwal-back-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "882a7b3955d2213704432b7c568e8e86353917518bb8d6b6db03bacc3a34281f",
+      "promptSha256": "f1e1054677e4dc47a0df18393d2ba8ca4092396dd339cd09eb2fd9d94bb2a925",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-back-dash",
+      "source": "jingwal-back-dash.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-781944bf-2b6b-4bf7-ae26-b1adc2b13a5c.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-back.png",
+      "promptFile": "jingwal-back-dash.generation.prompt.txt",
+      "sourceSha256": "0d942b058c1ddc4198b8d31d7e6be898cf7b8aa54514bf2342fee87db4ff22c4",
+      "promptSha256": "7bd9957c48db879f25f6459b332cee868f810688e0d65207a4281e044b189109",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-back-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "wrong supporting hand, pose2 floating spear; LEFT on screen left clearly holds single spear, RIGHT on screen right signals",
+      "source": "jingwal-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4206eadf-8ec7-49e8-ae46-b07357bfb838.png",
+      "promptFile": "jingwal-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "e55b9f530506d023ee9c16c2a68aaa200af3ab4a97b5f0d4f64248933eef4175",
+      "promptSha256": "5ad0fc3a3b24a69884f8d4d923c8d7d1267e87cc827d414b87bd0b0158448a4d",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-back-stance",
+      "poses": [
+        1,
+        3
+      ],
+      "issue": "Match MIDDLE LEFT pose2: shaft on screen LEFT, actor LEFT hand screenleft grips spear. RIGHT hand on screen RIGHT empty command. Top-right load RIGHT fist beside chest; middle-right RIGHT empty palm extends forward. Do not swap staff to screenright. Other figures unchanged.",
+      "source": "jingwal-back-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-552f078d-6665-4033-a38e-c0d3f6f49a51.png",
+      "promptFile": "jingwal-back-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "071a7ef0941860bf4309d250fc014610ed5bec75e5502abb8c009ce359e3ece7",
+      "promptSha256": "3d61bd639cbf1f63455b29b3aed9ef88c1a427ce49d14360553216e858e8e7a5",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-back-stance",
+      "source": "jingwal-back-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-59c144bc-b299-44ed-8483-79161663c4fd.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-back.png",
+      "promptFile": "jingwal-back-stance.generation.prompt.txt",
+      "sourceSha256": "953688f690f9cada4df90f92ea83974813ea3c4cc0155ec333833f312fdb361c",
+      "promptSha256": "df08676964cab55cb849efb23a029acc62b0a59353500553d0aa667caba54a9e",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "front dash aims horizontally to right instead of TOWARD VIEWER, spear clip at right canvas edge pose3; foreshorten shaft forward, maintain frontal skull torso view",
+      "source": "jingwal-front-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f302fd1b-49b3-4b4d-aa55-65dd5086c2e6.png",
+      "promptFile": "jingwal-front-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "566c9de8cc8f6f5d358a84cc8955fc0f74cd29534167fc21c8b0a5f5d8036a5c",
+      "promptSha256": "4dfaa64e115b8bdeee6089fa22e07867c55efbe61c03a4dbe84904abbed5ec46",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-dash",
+      "source": "jingwal-front-dash.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d1004b02-1743-48d0-a6d4-e53b4f61a6f5.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front.png",
+      "promptFile": "jingwal-front-dash.generation.prompt.txt",
+      "sourceSha256": "ae464bd7cb7122362027dac41a93a47c394156ffda3cdff3bdd639eb71ab398e",
+      "promptSha256": "2e7819f3b624f7520725e87e95aa563138203c20654a7eb8513971105c5db6bf",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "attack turns opposite the native ready facing; keep face chest hips forward-right matching intended direction throughout, use downward-right foreshortening",
+      "source": "jingwal-front-right-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d39f7a2d-faec-4eca-8691-fa4f134c4415.png",
+      "promptFile": "jingwal-front-right-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "20dc1cd9e17ba6a275c90faa1aec5f7450084a21d59d39ac2006e2c278ae8518",
+      "promptSha256": "e22778e87ef9aafe0424624c73a9eeea0ede600872667898df426be843634a92",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "SOUTHEAST forward-down-right thrust. Face chest hips oriented down-right together, spear projects toward camera with tip LOW-RIGHT below gripping hands, shortened shaft in perspective. Do NOT horizontal right thrust. Preserve physical head/armor/body size and full spear tips margin. Camera three-quarter front RIGHT visible.",
+      "source": "jingwal-front-right-dash-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c63241ae-53c8-469c-a408-feeb6341a65e.png",
+      "promptFile": "jingwal-front-right-dash-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "8a2796396e207695275355ce06bb8297b19e63edbbb40161b55eb6a3b43a5888",
+      "promptSha256": "1a0cc4c3d118d71035c9538f4a8cf961a13cd4fd28ed60f00a775c2fc15954ca",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "source": "jingwal-front-right-dash.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d3d13d04-bca6-4424-bce2-cab890e523da.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front-right.png",
+      "promptFile": "jingwal-front-right-dash.generation.prompt.txt",
+      "sourceSha256": "c3b022f187c200fcaf3ce3cab98c88465abe185568bad3d1b0b6eb8bd3b2aecd",
+      "promptSha256": "0b23b5d2080aed80474dd204880f21809fcb3f5486e2d31d327a71d461708335",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e2bdc65e-2ba3-4aca-9a28-34c37406678d.png",
+      "promptFile": "jingwal-front-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "6bbc5a62d9e16f5f75e6564c123c17d2cd120a08425727de151ee44d6a9f1b9a",
+      "promptSha256": "90956b3fa39f61cccd52d07cc53a73ac60b85d4638c62a60c83c75173f25a087",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "source": "jingwal-front-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ee338f16-b4ba-40c1-8a5e-8ad92fdc4fda.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front-right.png",
+      "promptFile": "jingwal-front-right-stance.generation.prompt.txt",
+      "sourceSha256": "793d8bae23dc46fda0f94f27de80074dbe4d2e0865150d70a76a9279d1aca5e0",
+      "promptSha256": "fb3845f07158692aea9142c71bde6461bc22d71611d3f47e7cbf0c04bef3067e",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-35a2fba1-168d-4337-8f5b-969a1fddcb74.png",
+      "promptFile": "jingwal-front-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "5e0e8f9387ec066b809f22a876a2cc43e8f92c2dc713798bb51050ad736bc874",
+      "promptSha256": "90956b3fa39f61cccd52d07cc53a73ac60b85d4638c62a60c83c75173f25a087",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-front-stance",
+      "source": "jingwal-front-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e7bd5001-3961-46b8-9a4a-6a53274ba2c3.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front.png",
+      "promptFile": "jingwal-front-stance.generation.prompt.txt",
+      "sourceSha256": "3df75dbe17b463d488eb41dbe8fe2d3eefde9bfca1a0cdec615821484717e236",
+      "promptSha256": "9b5f220121ec1a203bb61ccbc649f62fd79c726d231064cb6a65905b296fb641",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-rear-right-dash",
+      "source": "jingwal-rear-right-dash.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-68a3a6f1-8ec3-4988-bdf1-f204909a3f3c.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-rear-right.png",
+      "promptFile": "jingwal-rear-right-dash.generation.prompt.txt",
+      "sourceSha256": "00266e6b01d7116ea14c5361c91a026436b92376e37bfef2347c55284fd2efc9",
+      "promptSha256": "216eaf80c1eb5eef0b716dc3f65c0fe3c0841b038e7e1226e7c899992b1fe5e2",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "old diagonal shaft butt remains at rear hip while new vertical spear floats. Only ONE spear, LEFT central grip attached, RIGHT signals; no old gold butt behind belt",
+      "source": "jingwal-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a055e545-1482-4f6e-9124-ced1677596f5.png",
+      "promptFile": "jingwal-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "81957adc8bb3de19367b27cef613aabd3b096c23e5045db8220961f15e94ae5e",
+      "promptSha256": "9a2738faeff4d1427c548bf70039eadeadccd52fd0307b680d71496d80a20859",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-rear-right-stance",
+      "source": "jingwal-rear-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-2b9e1583-7ea7-4e91-8d14-f42e8f65930e.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-rear-right.png",
+      "promptFile": "jingwal-rear-right-stance.generation.prompt.txt",
+      "sourceSha256": "c6861b420c000228803c9d27388d593811174f4cdb853e39c60de093227e6fce",
+      "promptSha256": "695705cee61f28e9dd2a4f815bdac42849d2b3fc7933e87ce7b5b40dec58e51c",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-right-dash",
+      "source": "jingwal-right-dash.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d731d30a-34ec-40e7-b23e-dfe395d1ab89.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-right.png",
+      "promptFile": "jingwal-right-dash.generation.prompt.txt",
+      "sourceSha256": "742af1fefd2d3d81cc68688bc010b540b97e556b6f6b88049bb8396d3a58e84e",
+      "promptSha256": "fae6481423a96c82650c39ffc360c421b46cbf9e9272cca7c2d83d2a130b142b",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "pose1 shaft near edge, pose2 spear floats while LEFT empty signals; LEFT must grasp grounded shaft outside left hip, RIGHT empty signals, preserve command in pose3",
+      "source": "jingwal-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d53e3554-9f34-4ab1-b17c-dbcabb421a3a.png",
+      "promptFile": "jingwal-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "eeeedb96ba07b50a069dbe57b7f53fba31fc33fd5a8454a0d57073e9044c5b48",
+      "promptSha256": "0c2a80d417d00e30b720b7b9e3e8f693c65db6ed4e02183cab7d493d58c4db6a",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Hold ONE single spear upright with FAR arm (LEFT) visibly wrapped around wood center. Near foreground arm (RIGHT silver/gold bracer) extends EMPTY palm rightward. The spear is behind near arm but in front of far shoulder, shaft appears in continuous straight line outside head. Gold butt ground beside far boot. Repeat same hand ownership in all3 command frames; NO earlier recovery at3.",
+      "source": "jingwal-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-246e85a8-b627-45e0-bb8c-888c01b83ff6.png",
+      "promptFile": "jingwal-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "e5159c91ebebd3cb20c78011a7de3ea6c71f051caa5608640decd51d1265e1a6",
+      "promptSha256": "54ec2314a47f18c89bc4db93e624a69b447d785a634eead1af7af5bd41bba594",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "jingwal-right-stance",
+      "source": "jingwal-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-16aecabe-e993-4037-9aa4-ea8257e32b37.png",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-right.png",
+      "promptFile": "jingwal-right-stance.generation.prompt.txt",
+      "sourceSha256": "303c9c589f663735f0ce295900ff23aa2e68ae1dcef5c4763096e6840e26e732",
+      "promptSha256": "a05582a5829551a63522c99d4952c3c93a716f7b154dba0913d116c8275f0e13",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-back-fan",
+      "source": "mukyeon-back-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-7f9ac0f4-6dd9-408f-8036-78204ed2c4c1.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-back.png",
+      "promptFile": "mukyeon-back-fan.generation.prompt.txt",
+      "sourceSha256": "aa80f0db6b532568928d17fca0ede7d1f977741793d31ac8b3a2f2eb617c6b4a",
+      "promptSha256": "fbbb5d16da1c61b83aaaaebb48196d8d16acac2aac1755743c850c4f8d4e4629",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-back-stance",
+      "poses": [
+        1,
+        2
+      ],
+      "issue": "anatomical RIGHT hand should hold crossbow at right hip, LEFT on screen left signals; currently reversed; top head object is reference quiver leave it",
+      "source": "mukyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5f4bf380-fb64-49cf-bb52-b64e6b1a5067.png",
+      "promptFile": "mukyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "034d89a2d83e5f0e8dc9febd076769172011d7926a18ee1fbe725820a5bbeb01",
+      "promptSha256": "8623ab0d6651f41dd7a512d68ba9d1388633472435da2b90964c2d8551e125ff",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-back-stance",
+      "source": "mukyeon-back-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5bb7f4ba-a1b3-4505-a2e7-7a03c55cfe9c.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-back.png",
+      "promptFile": "mukyeon-back-stance.generation.prompt.txt",
+      "sourceSha256": "c13e2bec0281ba4dd89fe21812b2a47037232522b1dc2caad88ff2d94cd0849c",
+      "promptSha256": "a7a1a1101fba12ad6214cf1e76e4ff0bf11957c7c7968aabc9d9bcf7f91e0449",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "crossbow remains side-on despite frontal shot; one forward-stock, horizontal single bow and taut string aim at viewer",
+      "source": "mukyeon-front-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3ec65999-06de-4e05-9a8f-c3cd227749e2.png",
+      "promptFile": "mukyeon-front-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "367902eab7cbc4881a335c2be9be331ab3c5f3a388750a13cc838e9ffea90041",
+      "promptSha256": "c4f8078c35d775012706b5822d08d5fa89034c5900d2c11af361169364510d38",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-fan",
+      "source": "mukyeon-front-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-cc8de201-7a56-4efe-9093-076758d002cc.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front.png",
+      "promptFile": "mukyeon-front-fan.generation.prompt.txt",
+      "sourceSha256": "809a2f26c6d22076948fcd841989ef74264d8bccdc649997e69ca9f78c264ff4",
+      "promptSha256": "25ccf1a8df455a78f3e2c14fa31198e40a0ff091c10f919b2f2f57bb27b44f7e",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "aim straight right instead of forward-right; retain identifiable bow arms and string",
+      "source": "mukyeon-front-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-024b1fc0-c445-4ff3-b4cc-caeaee4789c3.png",
+      "promptFile": "mukyeon-front-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "c26275b5aee27e0e391583667dcfc5d223b272a455f7d9b1b396602515aa443a",
+      "promptSha256": "430032a44470627dc61cf7666ed2ede594fa324a45fed2b013c77de191b8ee69",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Body face and crossbow must aim down-right 45 degrees toward camera, not horizontal EAST. Rotate wood STOCK so firing end is LOWER-RIGHT closer to camera; rear stock at upper-left by trigger. Brass-tipped BOW ARMS project diagonally across front of stock, one near lower-left, far upper-right; taut thin string connecting two tips with stock centered. It must visibly read as a crossbow bow, no barrel. RIGHT trigger near-side sleeve, LEFT underneath stock.",
+      "source": "mukyeon-front-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-fc8007ec-0be0-4a72-8381-c327e6fba40e.png",
+      "promptFile": "mukyeon-front-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "502824e401c4161a4090248b093eea372cbcd36298078b7273c6782a6c89670a",
+      "promptSha256": "4b1943ba3faaee8f1ef392b1a8694c844305c8e8f0cba1f0bf8fd1c25c10cd32",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "source": "mukyeon-front-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-05c1e4e2-55b6-4378-9edc-123487dab0bd.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front-right.png",
+      "promptFile": "mukyeon-front-right-fan.generation.prompt.txt",
+      "sourceSha256": "01af5a6ffffa62d10fed3d87459008bd1e6ab2fe434c8f921d3c13bb1b55e2e7",
+      "promptSha256": "d87c6c051b209daec6f133f8cb6fc420759507e0e53850aff03c0a78994645a1",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-right-stance",
+      "source": "mukyeon-front-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-48691d13-69fe-40a3-8965-68f05bfa521f.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front-right.png",
+      "promptFile": "mukyeon-front-right-stance.generation.prompt.txt",
+      "sourceSha256": "cac6b3fa4317976c672567e786526875b80c8bc894530aac674f909b041f70bc",
+      "promptSha256": "fcc023c5bc283ead30c4be6100ddae55a2a18bd20f2fddb12024d379567f8a57",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-front-stance",
+      "source": "mukyeon-front-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9c028c37-5f24-4a53-a7bf-6b2e8199fd36.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front.png",
+      "promptFile": "mukyeon-front-stance.generation.prompt.txt",
+      "sourceSha256": "b78c592581a0f9e07352298851fcbc1b7efa551f92505393fffbccd30cedca27",
+      "promptSha256": "9e1362d7be509c0d29b8703396c0a6354cd372752f5fad1d7abbcc228274f396",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-rear-right-fan",
+      "source": "mukyeon-rear-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-75f84fad-c5b7-4b73-a323-272c0e977a59.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-rear-right.png",
+      "promptFile": "mukyeon-rear-right-fan.generation.prompt.txt",
+      "sourceSha256": "45f5d99cae6e418f1ff7c9efca90e35cb5b86be7f7740e74c742c233643e8c1f",
+      "promptSha256": "7ab5cdad7b3b34225fdc6bc73c496d8b2f5df7c8394b04d092a1f4c28f710d5d",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "swap back to anatomical RIGHT hand trigger retains crossbow, LEFT signals; do not add third hand",
+      "source": "mukyeon-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ef9d4cde-88fd-42b5-86cf-d11387519c9b.png",
+      "promptFile": "mukyeon-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "506f01f8ab54bb1aafe940f4afbd4f0a7266b686467c492cc3505bbb66e3b1bb",
+      "promptSha256": "f17712691ba54fa76a65de8bbd73c597616951ff9d2e9a6740c7b9e0153c9d4b",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "Foreground arm with large gold shoulder plate is RIGHT: bend that elbow down and keep hand on crossbow REAR TRIGGER at right hip. Move wooden/brass crossbow back to this near-side grip. The FAR arm from other shoulder is LEFT: extend that far hand EMPTY downward-forward. Foreground arm cannot be signaling.",
+      "source": "mukyeon-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5c752422-573d-4dc0-a966-0981cf693ed0.png",
+      "promptFile": "mukyeon-rear-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "4268f42d606bc006180e04dba652d537b87a4902584f029e5df6a23fcf0bd1ba",
+      "promptSha256": "1e7338a81235fd75be0e84bab8df9209983db5acfc99a1d05398003e562c9e4f",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "source": "mukyeon-rear-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-947f995a-f70b-4d54-b7a3-8c05b74c74de.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-rear-right.png",
+      "promptFile": "mukyeon-rear-right-stance.generation.prompt.txt",
+      "sourceSha256": "b5eddabb9fb7f0b012686b9b52375d195b4d39e592d4f55636e8a348a193f4b3",
+      "promptSha256": "a110eb661b7709c6970aa01df9a6c078df9fb6587adde2aa61b7fa380a72d077",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-right-fan",
+      "source": "mukyeon-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-21755d77-2911-476c-97fa-25c247cb59a7.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-right.png",
+      "promptFile": "mukyeon-right-fan.generation.prompt.txt",
+      "sourceSha256": "7d7ee9416fe070901c6b1b39ce0a5609f0ed8950ea3656021e8565786f47a44f",
+      "promptSha256": "2b68fa5b430bf5329b16823995c5d7738dfb0ed8881bc56f6210532eb8365e5b",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "mukyeon-right-stance",
+      "source": "mukyeon-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-511cecdd-d2b2-4c62-954a-63a427644927.png",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-right.png",
+      "promptFile": "mukyeon-right-stance.generation.prompt.txt",
+      "sourceSha256": "f41432a69c64262bedcf738000c840b4db3a4ecb3749308e317ab7153b98418c",
+      "promptSha256": "bf100af8888dd5b27a4bfe19e3b6b816d3e662f67c4bec1b98c84f370fa6127d",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-back-stance",
+      "source": "yanggi-back-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6e248718-40c6-465c-a6d0-b3285afdceb7.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-back.png",
+      "promptFile": "yanggi-back-stance.generation.prompt.txt",
+      "sourceSha256": "05692009e1c1b9adb571130c281c31d8e3af89ba61125413ec59bbcc444dfd0b",
+      "promptSha256": "b16a4e4211808526b9a047989cf1f499ae6ebf97cda40d2f63d57f06b598f402",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-back-sweep",
+      "source": "yanggi-back-sweep.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3075c19b-7f83-48b8-b725-3ff3ff061835.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-back.png",
+      "promptFile": "yanggi-back-sweep.generation.prompt.txt",
+      "sourceSha256": "08f0cf3a4075528d91be8ed12d7c2bdd34f6e58832635cdc80b87544a42cabe8",
+      "promptSha256": "c309b76db0912f78f7c57c0c67101085d7c181c44c4cf687ba5ab552ea52997a",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-front-right-stance",
+      "source": "yanggi-front-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-40aef722-e5d5-4ec4-b4b7-a7728fe15fda.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front-right.png",
+      "promptFile": "yanggi-front-right-stance.generation.prompt.txt",
+      "sourceSha256": "d3e1d58ac2144bf3859fcbdb983cb83db55f06b38f8fc0e702410145f4dd1a5b",
+      "promptSha256": "845453789308df343a57214a508963bf2804fcc1ebc16d035f9bbd6d24458a75",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-front-right-sweep",
+      "source": "yanggi-front-right-sweep.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a47bea11-9e01-423f-9671-0c0dbb1023ee.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front-right.png",
+      "promptFile": "yanggi-front-right-sweep-pilot-v2.prompt.txt",
+      "sourceSha256": "6740603d21c0c7f99db3a4b2c2840ad5701abbaa960e2b1e322b706be9bb817e",
+      "promptSha256": "3ca9f156a94ed18ac60d442fcf41078a647072e0328ff15b65760aa613e24354",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-front-stance",
+      "source": "yanggi-front-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ed63ff84-3177-4679-bba7-a0e150afa2c7.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front.png",
+      "promptFile": "yanggi-front-stance.generation.prompt.txt",
+      "sourceSha256": "bb6b9e03821bab8479d34847353ee657a69b0454e26b1110296940cb38d8052f",
+      "promptSha256": "665036beb28bd6e44604cd1b7fecf17a1fb90bd54e3283bbbe856f0d5c6971a4",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-front-sweep",
+      "source": "yanggi-front-sweep.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-1d0a71fb-424a-4914-a768-68bc25494a97.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front.png",
+      "promptFile": "yanggi-front-sweep.generation.prompt.txt",
+      "sourceSha256": "79489c31ebc012632deacdb02f04e865a7112a9bc716322d5c24f552ca421949",
+      "promptSha256": "e8a3c1cd289196f746ff615bce3dba4e207e2eaf2c0112722fb1d8c6d55da6eb",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "old staff butt remains at left rear hip alongside vertical staff; remove duplicate shaft, show left support grip",
+      "source": "yanggi-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-449ff78b-aaf8-4495-b04f-a69f74b780b3.png",
+      "promptFile": "yanggi-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "cc98cd5d94c9da05bff6e49f61d4a8dde0b7789a2ae89fb58856b162bb786271",
+      "promptSha256": "90f562c050275091779eb7b9918c8a4915a4f95dcf9e566ba7cca5ac2ae5e9a1",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-rear-right-stance",
+      "source": "yanggi-rear-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4ccac831-947d-462f-b214-f9b5a0158052.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-rear-right.png",
+      "promptFile": "yanggi-rear-right-stance.generation.prompt.txt",
+      "sourceSha256": "c8e40c189777e9cc449981a297de025b0a209cf2aef218673e4b224a3e74d65d",
+      "promptSha256": "78927b1169aad193204db640663b0da007e125631e1bf4ed16ffda8e901edd7e",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-rear-right-sweep",
+      "source": "yanggi-rear-right-sweep.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c06f023f-b059-45c4-abbe-d3491a3457d4.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-rear-right.png",
+      "promptFile": "yanggi-rear-right-sweep.generation.prompt.txt",
+      "sourceSha256": "6312c2cdbc2ba4dacfcb1f71e25803c32b19362a15a8417f950f91217afa5ff2",
+      "promptSha256": "2b05cc426d53a705bbcd691638543ed47958e63ae49af53d6c2f5e6e1596077c",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "staff floats and command hand is opposite ownership; LEFT must visibly hold shaft, RIGHT empty",
+      "source": "yanggi-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-39810818-451b-4bbd-9f23-612c12135d2c.png",
+      "promptFile": "yanggi-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "4b1630de9a88918da5965519daef3d2967048acf8a9bd90559fbf7524a999c37",
+      "promptSha256": "dce95f27924197009a037db2bf8492d4888b3a2a385222c6a311f2c0bd75881f",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "Use FAR arm on actor's other side to hold vertical staff visibly. Foreground silver sleeve/near arm extends EMPTY palm rightward. Remove previous foreground grip. Only one hand gripping shaft. Main top-right pose1 establishes far staff support; maintain same identity/scale.",
+      "source": "yanggi-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9cc03d13-dab9-4471-a4f1-250942a4b59e.png",
+      "promptFile": "yanggi-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "e349b7907cefe3e5aeb57ed6139708e68b55f1bcfe5a8c500f7b3271cef650de",
+      "promptSha256": "49ed7efef1e38128bbadcf44a82077690471958288b317217c711f6e8957b84e",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-right-stance",
+      "source": "yanggi-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-007b88c0-daa7-48df-95e2-46b4279e84f7.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-right.png",
+      "promptFile": "yanggi-right-stance.generation.prompt.txt",
+      "sourceSha256": "46737d2134601f88e432bd8b40c168b74465a8a0b8fc7bf140c20b04f4285c24",
+      "promptSha256": "caf7f948ce5d7a23ac5407933b69e77c3157b3bdea4680dcf7c90b872f646c6d",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-right-sweep",
+      "poses": [
+        3
+      ],
+      "issue": "extra short wooden belt object added in follow-through, not in reference",
+      "source": "yanggi-right-sweep-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0dcb02c2-7b83-47ec-8d6f-6240d655ad6c.png",
+      "promptFile": "yanggi-right-sweep-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "786b683062e3aa57d110edd86dbdbf6c8a1411d2645b28a71810ac70e3babfa3",
+      "promptSha256": "4c7144e5908d5bd84d83451c0cab0df5895e5687478ec239a2b8a2ac3d9758c5",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "yanggi-right-sweep",
+      "source": "yanggi-right-sweep.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ad0bc8a4-7232-4992-81bf-120c33e941d8.png",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-right.png",
+      "promptFile": "yanggi-right-sweep.generation.prompt.txt",
+      "sourceSha256": "a6cad73dadc7b6f2a5a679fc5a014b44707226c2122425a94bb30681604b13d8",
+      "promptSha256": "6901aabd6fe54e8bde869368896b9c19730d9fa2ef43de035766c7b2a89de7c7",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-back-fan",
+      "source": "zhugehyeon-back-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-81ab62e3-0361-4034-9a1a-9df471c56e57.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-back.png",
+      "promptFile": "zhugehyeon-back-fan.generation.prompt.txt",
+      "sourceSha256": "5e119583db681a20813d0b76a84106b7503ee1a61df10756c41bb8dca57fb7aa",
+      "promptSha256": "7fc0b097094645252b3d0bcdc3a4bc0e2314433277461481aa4dfcc31174d9d4",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-back-stance",
+      "poses": [
+        2
+      ],
+      "issue": "empty signaling hand on right is duplicate fan-hand; LEFT on screen left signals toward north ground, RIGHT remains fan holder",
+      "source": "zhugehyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-90984c56-2c14-4ff2-9cb3-6fb19307e982.png",
+      "promptFile": "zhugehyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "be82fb7aaac52cd81cb5e70280e36a71763a38ee7550cc2da57417322070a72b",
+      "promptSha256": "6c1190a0e35c51e812bf0f6bd081a1c06a99dcd9ac02feff8e2c2af1a1e87315",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-back-stance",
+      "source": "zhugehyeon-back-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-09a9c0cd-b603-4762-9c2f-3fbe17a087c0.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-back.png",
+      "promptFile": "zhugehyeon-back-stance.generation.prompt.txt",
+      "sourceSha256": "f5444bd8cec281ebfe9feddd0a832f70e4218e7fa311cf5c2e004ee28abdd28e",
+      "promptSha256": "834ef6f6aef70cc22fcbba2df9ddc85e8d53132e973a64d9b615d9b924695b8b",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-front-fan",
+      "source": "zhugehyeon-front-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-8b1c36f7-bb1c-4526-a2a5-83104b1a8a19.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front.png",
+      "promptFile": "zhugehyeon-front-fan.generation.prompt.txt",
+      "sourceSha256": "f86d7b40ec8111d6f202afe6339e17c7b1f132e47aabaa0cafb075a14974b8ab",
+      "promptSha256": "ef56894b4f63de4de50593820109f97176f36213ea35489cf163e7dc1d383bbc",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-front-right-fan",
+      "source": "zhugehyeon-front-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-dabaaea5-704e-4e76-b6ce-70b816a94a7a.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front-right.png",
+      "promptFile": "zhugehyeon-front-right-fan.generation.prompt.txt",
+      "sourceSha256": "74e662a917b742edb005082b3347bf6c72ad75f1a46d87a3e52ce8d6d083bee7",
+      "promptSha256": "8c9157b4229452b210f3bf764355ade2fc04bdfd636839e1a70605bbdece8236",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-front-right-stance",
+      "source": "zhugehyeon-front-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bf806ff6-2d7f-4710-97cb-897bec8f78b4.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front-right.png",
+      "promptFile": "zhugehyeon-front-right-stance.generation.prompt.txt",
+      "sourceSha256": "383bb9d065b22116b8ef8e38951d52560026afc1936de628dabea0b31c277b39",
+      "promptSha256": "65ced9eae75f1e85c32ee59f62088d12ddbf7e3dddb4d491440c59a55ecfb165",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-front-stance",
+      "source": "zhugehyeon-front-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9e0a2460-431f-4221-ab03-e0771b2bd616.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front.png",
+      "promptFile": "zhugehyeon-front-stance.generation.prompt.txt",
+      "sourceSha256": "6726642125c26c66b64030f1904ea6f5790e439268bd62c438c263a14ba53025",
+      "promptSha256": "6493d55060c098029b55f01ff5ed0693f12b55779bc6f605fb4e7b7d9bd02075",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "poses": [
+        1
+      ],
+      "issue": "load switches fan to far LEFT; raise same near anatomical RIGHT sleeve elbow to rear shoulder, LEFT empty forward",
+      "source": "zhugehyeon-rear-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bdd399c4-af99-407e-aa50-be175bdc99cf.png",
+      "promptFile": "zhugehyeon-rear-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "53702a6bf74edd2778d67a3d8813ac5df1463cf8833bfc36871ea372ce13f592",
+      "promptSha256": "695651c7f9f13e03f95315deceb06e79a4facab314c92ab8931bca67ebd55dc6",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "poses": [
+        1
+      ],
+      "issue": "Foreground embroidered blue sleeve closest to viewer from RIGHT shoulder raises fan by hub beside SAME right shoulder with elbow bent, not far arm behind hair. Far LEFT arm reaches forward empty. Remove existing foreground empty extended hand and far fan grip. Only two arms.",
+      "source": "zhugehyeon-rear-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-20060c57-a47d-4c71-96bc-9da53b0af4a9.png",
+      "promptFile": "zhugehyeon-rear-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "2b6f14e3d6e76137b3c9db3d6cb06812bc8536cd6e8ad00e0010f040be8895f2",
+      "promptSha256": "0fa13a85f15b1cbafc75aab29b0bc671f7fd7856e565aadd59ee3e8761e4510a",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "source": "zhugehyeon-rear-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6df9d2e2-8b3d-4689-8222-0675855d3aaf.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-rear-right.png",
+      "promptFile": "zhugehyeon-rear-right-fan.generation.prompt.txt",
+      "sourceSha256": "d9346230b3de28fdef2989838c785231c4d1b5ba72ab9e5c5d772d383183b554",
+      "promptSha256": "0ea7d3f48b08dec57aacb14f9a585b19d69326201d94270ecd08ce8291e6424c",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "poses": [
+        2
+      ],
+      "issue": "near anatomical RIGHT hand points down empty while fan floats at far chest; RIGHT near sleeve must hold hub near chest, far LEFT empty hand signals down",
+      "source": "zhugehyeon-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-adfdf6f9-dcdc-4804-bed1-f5654659950f.png",
+      "promptFile": "zhugehyeon-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "ab5f4510575563a6139879154206cc5d42355e749e48621b4f73333d1ca1e153",
+      "promptSha256": "438bfcda6881a645cf34bae43526bc8f04b64f38c63aebbb59a120fea29616d0",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "poses": [
+        2
+      ],
+      "issue": "Near foreground embroidered blue sleeve/RIGHT arm bends at chest and clearly grips feather fan gold hub. Far LEFT sleeve extends EMPTY palm downward-forward (may partly occlude behind near sleeve). Remove near right empty pointing hand. Fan never floats, fan never transfers to far hand.",
+      "source": "zhugehyeon-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a2a7a14d-3a2a-4e0f-ac11-e5160ff4eb82.png",
+      "promptFile": "zhugehyeon-rear-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "0357635d85bb7ab866859c67d93228b43a8e014dcdb3fd41f9dc139cc328922b",
+      "promptSha256": "e80c8e7328c161d4bf18ae41a92eaf559b2405ea809be311664bbc34016ccf36",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "source": "zhugehyeon-rear-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-47e5c8b0-081d-4eae-be78-61fa1517b081.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-rear-right.png",
+      "promptFile": "zhugehyeon-rear-right-stance.generation.prompt.txt",
+      "sourceSha256": "e7eaec01c5a646861329c3620f9bba17eedf769070d72a61f08e3f012ce29501",
+      "promptSha256": "dd247404e469270331aedfa5c6bdc34ec4d8bc77ddca416362a07365fabc7f64",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "poses": [
+        2
+      ],
+      "issue": "fan switches to far LEFT hand; keep near RIGHT elbow/wrist gold fan grip, LEFT empty counterbalance",
+      "source": "zhugehyeon-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f7350c9c-5e50-4542-bdc1-8866408603d5.png",
+      "promptFile": "zhugehyeon-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "abcef83bfa2d741afa00c089722caa7fc0a91e90bcb103bdee14632b32a7f37a",
+      "promptSha256": "94b1f70bc9c4a5adb7cacbce503928605c26db37e71f6ff3c3f75bb4578cff66",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "poses": [
+        2
+      ],
+      "issue": "Foreground sleeve closest to viewer, flowing from screen-left shoulder, is RIGHT arm: extend THIS sleeve and right hand forward holding gold feather-fan hub. The OTHER far arm stays empty, palm for balance behind/in front of torso. Remove the current near-side empty palm, and move fan from far arm into near arm. Same stance/body/skull/native size.",
+      "source": "zhugehyeon-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3774015a-602c-4676-82f0-71cfbf2da9c3.png",
+      "promptFile": "zhugehyeon-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "sourceSha256": "1d122a2930df2620eea5f063853f98cb57c79bc51b119b354a6d924caef2a08a",
+      "promptSha256": "66d3ea4f5df3a50d175950c88cffb1d0b07a5a4bd5a6188f33e3eea216038a62",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "source": "zhugehyeon-right-fan.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c7acea95-fed5-4947-9c98-ce90d4ab737e.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-right.png",
+      "promptFile": "zhugehyeon-right-fan.generation.prompt.txt",
+      "sourceSha256": "cefdf72edce515907034dfdbd2f237fa08276c7b1044b2839f080464a0fec939",
+      "promptSha256": "04d713d844b2b6f000018c3da4b198c664e88f0fb44ccc0a04904c3519b51b47",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    },
+    {
+      "id": "zhugehyeon-right-stance",
+      "source": "zhugehyeon-right-stance.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ae5c1c06-df70-4f71-ae42-fe201301c9c7.png",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-right.png",
+      "promptFile": "zhugehyeon-right-stance.generation.prompt.txt",
+      "sourceSha256": "7b19255df0937be330c6df2577df28c819659dc6ab92a6d2f7e2145fdf591dfa",
+      "promptSha256": "558e1f45b5d5042dd234cd304ae2288b146cdd8a4272fa2cd1f10ca14f66d4a5",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "jobId": "nogae-front",
+    "source": "nogae-front-combat-continuous-v3.png",
+    "references": [
+      "nogae-front-locomotion.png",
+      "nogae-front-right-combat.png"
+    ],
+    "targets": [
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        }
+      }
+    ],
+    "id": "nogae-front-combat-continuous-v3",
+    "prompt": "nogae-front-combat-continuous-v3.prompt.txt"
+  },
+  {
+    "jobId": "qingbi-back",
+    "source": "qingbi-back-needles-v3.png",
+    "references": [
+      "qingbi-front.png"
+    ],
+    "targets": [
+      {
+        "pose": 2,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        }
+      },
+      {
+        "pose": 4,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        }
+      }
+    ],
+    "id": "qingbi-back-needles-v3",
+    "prompt": "qingbi-back-needles-v3.prompt.txt"
+  },
+  {
+    "jobId": "songwol-rear-right",
+    "source": "songwol-rear-right-right-grip-v3.png",
+    "references": [
+      "songwol-front.png"
+    ],
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      }
+    ],
+    "id": "songwol-rear-right-right-grip-v3",
+    "prompt": "songwol-rear-right-right-grip-v3.prompt.txt"
+  },
+  {
+    "jobId": "songwol-back",
+    "source": "songwol-back-right-grip-v3.png",
+    "references": [
+      "songwol-front.png"
+    ],
+    "targets": [
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        }
+      }
+    ],
+    "id": "songwol-back-right-grip-v3",
+    "prompt": "songwol-back-right-grip-v3.prompt.txt"
+  }
+]

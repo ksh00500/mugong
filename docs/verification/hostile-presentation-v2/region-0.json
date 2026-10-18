@@ -1,0 +1,115 @@
+{
+  "actors": [
+    {
+      "role": "raider",
+      "texture": "region-motion-0-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "guard",
+      "texture": "region-motion-0-isolated",
+      "frame": "1-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "bowman",
+      "texture": "region-motion-0-isolated",
+      "frame": "2-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "0-1",
+      "texture": "region-motion-0-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "0-2",
+      "texture": "region-motion-0-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "0-3",
+      "texture": "region-motion-0-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "0-4",
+      "texture": "region-motion-0-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-0-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "raider",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "role": "guard",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    },
+    {
+      "role": "bowman",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "shoot",
+      "changed": true
+    },
+    {
+      "bossId": "0-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "pulse",
+      "changed": true
+    },
+    {
+      "bossId": "0-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "0-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "bossId": "0-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

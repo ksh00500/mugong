@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Media is external; no Git LFS filters are required for this branch.
+
+# Provenance manifests may hash prompt/source bytes; preserve their original endings.
+docs/source/** -text
+assets/** -text

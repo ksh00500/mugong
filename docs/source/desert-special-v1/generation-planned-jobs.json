@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "asar-front",
+    "character": "asar",
+    "bossId": "7-1",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/asar-front.png",
+    "source": "asar-front-dash.png",
+    "sources": [
+      {
+        "id": "asar-front-dash",
+        "source": "asar-front-dash.png",
+        "prompt": "asar-front-dash.prompt.txt"
+      },
+      {
+        "id": "asar-front-stance",
+        "source": "asar-front-stance.png",
+        "prompt": "asar-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "asar-front-dash.png",
+      "asar-front-dash.png",
+      "asar-front-dash.png",
+      "asar-front-dash.png",
+      "asar-front-dash.png",
+      "asar-front-dash.png",
+      "asar-front-stance.png",
+      "asar-front-stance.png",
+      "asar-front-stance.png",
+      "asar-front-stance.png",
+      "asar-front-stance.png",
+      "asar-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "asar-front-right",
+    "character": "asar",
+    "bossId": "7-1",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/asar-front-right.png",
+    "source": "asar-front-right-dash.png",
+    "sources": [
+      {
+        "id": "asar-front-right-dash",
+        "source": "asar-front-right-dash.png",
+        "prompt": "asar-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "asar-front-right-stance",
+        "source": "asar-front-right-stance.png",
+        "prompt": "asar-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "asar-front-right-dash.png",
+      "asar-front-right-dash.png",
+      "asar-front-right-dash.png",
+      "asar-front-right-dash.png",
+      "asar-front-right-dash.png",
+      "asar-front-right-dash.png",
+      "asar-front-right-stance.png",
+      "asar-front-right-stance.png",
+      "asar-front-right-stance.png",
+      "asar-front-right-stance.png",
+      "asar-front-right-stance.png",
+      "asar-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "asar-right",
+    "character": "asar",
+    "bossId": "7-1",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/asar-right.png",
+    "source": "asar-right-dash.png",
+    "sources": [
+      {
+        "id": "asar-right-dash",
+        "source": "asar-right-dash.png",
+        "prompt": "asar-right-dash.prompt.txt"
+      },
+      {
+        "id": "asar-right-stance",
+        "source": "asar-right-stance.png",
+        "prompt": "asar-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "asar-right-dash.png",
+      "asar-right-dash.png",
+      "asar-right-dash.png",
+      "asar-right-dash.png",
+      "asar-right-dash.png",
+      "asar-right-dash.png",
+      "asar-right-stance.png",
+      "asar-right-stance.png",
+      "asar-right-stance.png",
+      "asar-right-stance.png",
+      "asar-right-stance.png",
+      "asar-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "asar-rear-right",
+    "character": "asar",
+    "bossId": "7-1",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/asar-rear-right.png",
+    "source": "asar-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "asar-rear-right-dash",
+        "source": "asar-rear-right-dash.png",
+        "prompt": "asar-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "asar-rear-right-stance",
+        "source": "asar-rear-right-stance.png",
+        "prompt": "asar-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "asar-rear-right-dash.png",
+      "asar-rear-right-dash.png",
+      "asar-rear-right-dash.png",
+      "asar-rear-right-dash.png",
+      "asar-rear-right-dash.png",
+      "asar-rear-right-dash.png",
+      "asar-rear-right-stance.png",
+      "asar-rear-right-stance.png",
+      "asar-rear-right-stance.png",
+      "asar-rear-right-stance.png",
+      "asar-rear-right-stance.png",
+      "asar-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "asar-back",
+    "character": "asar",
+    "bossId": "7-1",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/asar-back.png",
+    "source": "asar-back-dash.png",
+    "sources": [
+      {
+        "id": "asar-back-dash",
+        "source": "asar-back-dash.png",
+        "prompt": "asar-back-dash.prompt.txt"
+      },
+      {
+        "id": "asar-back-stance",
+        "source": "asar-back-stance.png",
+        "prompt": "asar-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "asar-back-dash.png",
+      "asar-back-dash.png",
+      "asar-back-dash.png",
+      "asar-back-dash.png",
+      "asar-back-dash.png",
+      "asar-back-dash.png",
+      "asar-back-stance.png",
+      "asar-back-stance.png",
+      "asar-back-stance.png",
+      "asar-back-stance.png",
+      "asar-back-stance.png",
+      "asar-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "naya-front",
+    "character": "naya",
+    "bossId": "7-2",
+    "view": 0,
+    "moves": [
+      "ring",
+      "combo"
+    ],
+    "reference": "docs/source/desert-special-v1/references/naya-front.png",
+    "source": "naya-front-ring.png",
+    "sources": [
+      {
+        "id": "naya-front-ring",
+        "source": "naya-front-ring.png",
+        "prompt": "naya-front-ring.prompt.txt"
+      },
+      {
+        "id": "naya-front-combo",
+        "source": "naya-front-combo.png",
+        "prompt": "naya-front-combo.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "naya-front-ring.png",
+      "naya-front-ring.png",
+      "naya-front-ring.png",
+      "naya-front-ring.png",
+      "naya-front-ring.png",
+      "naya-front-ring.png",
+      "naya-front-combo.png",
+      "naya-front-combo.png",
+      "naya-front-combo.png",
+      "naya-front-combo.png",
+      "naya-front-combo.png",
+      "naya-front-combo.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "naya-front-right",
+    "character": "naya",
+    "bossId": "7-2",
+    "view": 1,
+    "moves": [
+      "ring",
+      "combo"
+    ],
+    "reference": "docs/source/desert-special-v1/references/naya-front-right.png",
+    "source": "naya-front-right-ring.png",
+    "sources": [
+      {
+        "id": "naya-front-right-ring",
+        "source": "naya-front-right-ring.png",
+        "prompt": "naya-front-right-ring.prompt.txt"
+      },
+      {
+        "id": "naya-front-right-combo",
+        "source": "naya-front-right-combo.png",
+        "prompt": "naya-front-right-combo.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "naya-front-right-ring.png",
+      "naya-front-right-ring.png",
+      "naya-front-right-ring.png",
+      "naya-front-right-ring.png",
+      "naya-front-right-ring.png",
+      "naya-front-right-ring.png",
+      "naya-front-right-combo.png",
+      "naya-front-right-combo.png",
+      "naya-front-right-combo.png",
+      "naya-front-right-combo.png",
+      "naya-front-right-combo.png",
+      "naya-front-right-combo.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "naya-right",
+    "character": "naya",
+    "bossId": "7-2",
+    "view": 2,
+    "moves": [
+      "ring",
+      "combo"
+    ],
+    "reference": "docs/source/desert-special-v1/references/naya-right.png",
+    "source": "naya-right-ring.png",
+    "sources": [
+      {
+        "id": "naya-right-ring",
+        "source": "naya-right-ring.png",
+        "prompt": "naya-right-ring.prompt.txt"
+      },
+      {
+        "id": "naya-right-combo",
+        "source": "naya-right-combo.png",
+        "prompt": "naya-right-combo.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "naya-right-ring.png",
+      "naya-right-ring.png",
+      "naya-right-ring.png",
+      "naya-right-ring.png",
+      "naya-right-ring.png",
+      "naya-right-ring.png",
+      "naya-right-combo.png",
+      "naya-right-combo.png",
+      "naya-right-combo.png",
+      "naya-right-combo.png",
+      "naya-right-combo.png",
+      "naya-right-combo.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "naya-rear-right",
+    "character": "naya",
+    "bossId": "7-2",
+    "view": 3,
+    "moves": [
+      "ring",
+      "combo"
+    ],
+    "reference": "docs/source/desert-special-v1/references/naya-rear-right.png",
+    "source": "naya-rear-right-ring.png",
+    "sources": [
+      {
+        "id": "naya-rear-right-ring",
+        "source": "naya-rear-right-ring.png",
+        "prompt": "naya-rear-right-ring.prompt.txt"
+      },
+      {
+        "id": "naya-rear-right-combo",
+        "source": "naya-rear-right-combo.png",
+        "prompt": "naya-rear-right-combo.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "naya-rear-right-ring.png",
+      "naya-rear-right-ring.png",
+      "naya-rear-right-ring.png",
+      "naya-rear-right-ring.png",
+      "naya-rear-right-ring.png",
+      "naya-rear-right-ring.png",
+      "naya-rear-right-combo.png",
+      "naya-rear-right-combo.png",
+      "naya-rear-right-combo.png",
+      "naya-rear-right-combo.png",
+      "naya-rear-right-combo.png",
+      "naya-rear-right-combo.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "naya-back",
+    "character": "naya",
+    "bossId": "7-2",
+    "view": 4,
+    "moves": [
+      "ring",
+      "combo"
+    ],
+    "reference": "docs/source/desert-special-v1/references/naya-back.png",
+    "source": "naya-back-ring.png",
+    "sources": [
+      {
+        "id": "naya-back-ring",
+        "source": "naya-back-ring.png",
+        "prompt": "naya-back-ring.prompt.txt"
+      },
+      {
+        "id": "naya-back-combo",
+        "source": "naya-back-combo.png",
+        "prompt": "naya-back-combo.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "naya-back-ring.png",
+      "naya-back-ring.png",
+      "naya-back-ring.png",
+      "naya-back-ring.png",
+      "naya-back-ring.png",
+      "naya-back-ring.png",
+      "naya-back-combo.png",
+      "naya-back-combo.png",
+      "naya-back-combo.png",
+      "naya-back-combo.png",
+      "naya-back-combo.png",
+      "naya-back-combo.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "balta-front",
+    "character": "balta",
+    "bossId": "7-3",
+    "view": 0,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/desert-special-v1/references/balta-front.png",
+    "source": "balta-front-dash.png",
+    "sources": [
+      {
+        "id": "balta-front-dash",
+        "source": "balta-front-dash.png",
+        "prompt": "balta-front-dash.prompt.txt"
+      },
+      {
+        "id": "balta-front-slam",
+        "source": "balta-front-slam.png",
+        "prompt": "balta-front-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "balta-front-dash.png",
+      "balta-front-dash.png",
+      "balta-front-dash.png",
+      "balta-front-dash.png",
+      "balta-front-dash.png",
+      "balta-front-dash.png",
+      "balta-front-slam.png",
+      "balta-front-slam.png",
+      "balta-front-slam.png",
+      "balta-front-slam.png",
+      "balta-front-slam.png",
+      "balta-front-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "balta-front-right",
+    "character": "balta",
+    "bossId": "7-3",
+    "view": 1,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/desert-special-v1/references/balta-front-right.png",
+    "source": "balta-front-right-dash.png",
+    "sources": [
+      {
+        "id": "balta-front-right-dash",
+        "source": "balta-front-right-dash.png",
+        "prompt": "balta-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "balta-front-right-slam",
+        "source": "balta-front-right-slam.png",
+        "prompt": "balta-front-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "balta-front-right-dash.png",
+      "balta-front-right-dash.png",
+      "balta-front-right-dash.png",
+      "balta-front-right-dash.png",
+      "balta-front-right-dash.png",
+      "balta-front-right-dash.png",
+      "balta-front-right-slam.png",
+      "balta-front-right-slam.png",
+      "balta-front-right-slam.png",
+      "balta-front-right-slam.png",
+      "balta-front-right-slam.png",
+      "balta-front-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "balta-right",
+    "character": "balta",
+    "bossId": "7-3",
+    "view": 2,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/desert-special-v1/references/balta-right.png",
+    "source": "balta-right-dash.png",
+    "sources": [
+      {
+        "id": "balta-right-dash",
+        "source": "balta-right-dash.png",
+        "prompt": "balta-right-dash.prompt.txt"
+      },
+      {
+        "id": "balta-right-slam",
+        "source": "balta-right-slam.png",
+        "prompt": "balta-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "balta-right-dash.png",
+      "balta-right-dash.png",
+      "balta-right-dash.png",
+      "balta-right-dash.png",
+      "balta-right-dash.png",
+      "balta-right-dash.png",
+      "balta-right-slam.png",
+      "balta-right-slam.png",
+      "balta-right-slam.png",
+      "balta-right-slam.png",
+      "balta-right-slam.png",
+      "balta-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "balta-rear-right",
+    "character": "balta",
+    "bossId": "7-3",
+    "view": 3,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/desert-special-v1/references/balta-rear-right.png",
+    "source": "balta-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "balta-rear-right-dash",
+        "source": "balta-rear-right-dash.png",
+        "prompt": "balta-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "balta-rear-right-slam",
+        "source": "balta-rear-right-slam.png",
+        "prompt": "balta-rear-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "balta-rear-right-dash.png",
+      "balta-rear-right-dash.png",
+      "balta-rear-right-dash.png",
+      "balta-rear-right-dash.png",
+      "balta-rear-right-dash.png",
+      "balta-rear-right-dash.png",
+      "balta-rear-right-slam.png",
+      "balta-rear-right-slam.png",
+      "balta-rear-right-slam.png",
+      "balta-rear-right-slam.png",
+      "balta-rear-right-slam.png",
+      "balta-rear-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "balta-back",
+    "character": "balta",
+    "bossId": "7-3",
+    "view": 4,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/desert-special-v1/references/balta-back.png",
+    "source": "balta-back-dash.png",
+    "sources": [
+      {
+        "id": "balta-back-dash",
+        "source": "balta-back-dash.png",
+        "prompt": "balta-back-dash.prompt.txt"
+      },
+      {
+        "id": "balta-back-slam",
+        "source": "balta-back-slam.png",
+        "prompt": "balta-back-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "balta-back-dash.png",
+      "balta-back-dash.png",
+      "balta-back-dash.png",
+      "balta-back-dash.png",
+      "balta-back-dash.png",
+      "balta-back-dash.png",
+      "balta-back-slam.png",
+      "balta-back-slam.png",
+      "balta-back-slam.png",
+      "balta-back-slam.png",
+      "balta-back-slam.png",
+      "balta-back-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "arkan-front",
+    "character": "arkan",
+    "bossId": "7-4",
+    "view": 0,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/arkan-front.png",
+    "source": "arkan-front-sweep.png",
+    "sources": [
+      {
+        "id": "arkan-front-sweep",
+        "source": "arkan-front-sweep.png",
+        "prompt": "arkan-front-sweep.prompt.txt"
+      },
+      {
+        "id": "arkan-front-stance",
+        "source": "arkan-front-stance.png",
+        "prompt": "arkan-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "arkan-front-sweep.png",
+      "arkan-front-sweep.png",
+      "arkan-front-sweep.png",
+      "arkan-front-sweep.png",
+      "arkan-front-sweep.png",
+      "arkan-front-sweep.png",
+      "arkan-front-stance.png",
+      "arkan-front-stance.png",
+      "arkan-front-stance.png",
+      "arkan-front-stance.png",
+      "arkan-front-stance.png",
+      "arkan-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "arkan-front-right",
+    "character": "arkan",
+    "bossId": "7-4",
+    "view": 1,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/arkan-front-right.png",
+    "source": "arkan-front-right-sweep.png",
+    "sources": [
+      {
+        "id": "arkan-front-right-sweep",
+        "source": "arkan-front-right-sweep.png",
+        "prompt": "arkan-front-right-sweep.prompt.txt"
+      },
+      {
+        "id": "arkan-front-right-stance",
+        "source": "arkan-front-right-stance.png",
+        "prompt": "arkan-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-sweep.png",
+      "arkan-front-right-stance.png",
+      "arkan-front-right-stance.png",
+      "arkan-front-right-stance.png",
+      "arkan-front-right-stance.png",
+      "arkan-front-right-stance.png",
+      "arkan-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "arkan-right",
+    "character": "arkan",
+    "bossId": "7-4",
+    "view": 2,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/arkan-right.png",
+    "source": "arkan-right-sweep.png",
+    "sources": [
+      {
+        "id": "arkan-right-sweep",
+        "source": "arkan-right-sweep.png",
+        "prompt": "arkan-right-sweep.prompt.txt"
+      },
+      {
+        "id": "arkan-right-stance",
+        "source": "arkan-right-stance.png",
+        "prompt": "arkan-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "arkan-right-sweep.png",
+      "arkan-right-sweep.png",
+      "arkan-right-sweep.png",
+      "arkan-right-sweep.png",
+      "arkan-right-sweep.png",
+      "arkan-right-sweep.png",
+      "arkan-right-stance.png",
+      "arkan-right-stance.png",
+      "arkan-right-stance.png",
+      "arkan-right-stance.png",
+      "arkan-right-stance.png",
+      "arkan-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "arkan-rear-right",
+    "character": "arkan",
+    "bossId": "7-4",
+    "view": 3,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/arkan-rear-right.png",
+    "source": "arkan-rear-right-sweep.png",
+    "sources": [
+      {
+        "id": "arkan-rear-right-sweep",
+        "source": "arkan-rear-right-sweep.png",
+        "prompt": "arkan-rear-right-sweep.prompt.txt"
+      },
+      {
+        "id": "arkan-rear-right-stance",
+        "source": "arkan-rear-right-stance.png",
+        "prompt": "arkan-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-sweep.png",
+      "arkan-rear-right-stance.png",
+      "arkan-rear-right-stance.png",
+      "arkan-rear-right-stance.png",
+      "arkan-rear-right-stance.png",
+      "arkan-rear-right-stance.png",
+      "arkan-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "arkan-back",
+    "character": "arkan",
+    "bossId": "7-4",
+    "view": 4,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/desert-special-v1/references/arkan-back.png",
+    "source": "arkan-back-sweep.png",
+    "sources": [
+      {
+        "id": "arkan-back-sweep",
+        "source": "arkan-back-sweep.png",
+        "prompt": "arkan-back-sweep.prompt.txt"
+      },
+      {
+        "id": "arkan-back-stance",
+        "source": "arkan-back-stance.png",
+        "prompt": "arkan-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "arkan-back-sweep.png",
+      "arkan-back-sweep.png",
+      "arkan-back-sweep.png",
+      "arkan-back-sweep.png",
+      "arkan-back-sweep.png",
+      "arkan-back-sweep.png",
+      "arkan-back-stance.png",
+      "arkan-back-stance.png",
+      "arkan-back-stance.png",
+      "arkan-back-stance.png",
+      "arkan-back-stance.png",
+      "arkan-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

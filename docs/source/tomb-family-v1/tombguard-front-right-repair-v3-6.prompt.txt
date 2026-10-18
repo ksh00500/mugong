@@ -1,0 +1,12 @@
+Generate 6 complete independent MUGONG native sprites on a LANDSCAPE transparent canvas about1536x1024, EXACT 2 columns by 3 rows in row-major order. Use the supplied isolated native sprite as identity, palette, proportions and physical head-size reference. SOUTHEAST three-quarter FRONT-RIGHT, face mask visible, both shoulders and hips aim bottom-right. Input1 gives physical body size and identity, Input2 continuous spear construction ONLY. Do NOT copy front or side camera.
+CRITICAL OCCUPANCY: physical standing body approximately300-330px from head to boots, head90-110px. Each body takes only90% of its row height; wide768px cells leave room for full weapon. All figures have identical physical head/limb thickness, including bent pose. Never shrink the character to fit its tool. At least32px clear transparent alpha around all bodies AND complete tools. No ground shadow, background, aura, glow, VFX, trail, projectile, text or labels.
+Draw ONLY these poses in order:
+1. Logical6: early anticipation.
+2. Logical7: maximum anticipation.
+3. Logical8: attack CONTACT.
+4. Logical9: held followthrough.
+5. Logical10: withdrawal.
+6. Logical11: ready.
+Portrait2x3 v2 is enlarged and clipped. Rebuild SIX combat poses in LANDSCAPE TWO columns THREE rows about1536x1024, same head/standing300-330px as approved front, roomy complete one-point spear. Preserve SE camera; explicit back-load then thrust BOTTOM-RIGHT with connected elbow/grips then extended follow then retract ready.
+
+Tools belong to their specified hands permanently. Exactly two anatomically connected shoulder-elbow-wrist chains. One continuous shaft with separated grips; one tool head. Keep spine, hips, grounded legs coherent. Combat follows anticipation -> quick forward/downward contact -> held low follow -> slower withdrawal; never an uppercut. For back-view contact, arms and tool go AWAY from viewer toward screenTOP, partially occluded by back/head, NEVER toward feet or screenBOTTOM. Give every pose a distinct drawing, even held followthrough has a tiny real shift.

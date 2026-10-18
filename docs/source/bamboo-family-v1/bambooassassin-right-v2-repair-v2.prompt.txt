@@ -1,0 +1,7 @@
+Edit this transparent sprite sheet. Preserve the exact camera, character identity, anatomical proportions, physical head diameter, torso and limb thickness, and per-pose drawing scale of the reference. Preserve its 3 columns by 4 rows layout. Do not zoom, crop, normalize to weapon extent, or make contact poses smaller/larger. Every head is the same physical pixel size as the idle head in this reference. Keep all complete figures, hands, weapon ends and hair inside generous empty alpha margins; move their positions within their cells if needed, rather than resizing bodies. No text, labels, background, lighting aura, ground shadows, motion streaks, projectiles or VFX.
+
+Correct ONLY these target cells (zero-based row-major indexes): 8. Knife contact reaches source canvas edge; redraw complete blade with room, same body/head and right-hand grip.
+
+Cell 8: logical pose 8 (attack contact).
+Natural shoulder-elbow-wrist and hip-knee-ankle chains; weapon grip attaches to the correct hand. Keep ONE continuous weapon where specified, never two disconnected staffs or detached hands. All non-target cells should stay visually identical. Transparent background.
+SEPARATION: Every character is its own disconnected silhouette with clear transparent gaps between neighboring cells; no white hair touching shoes or fan from another pose. If required shift complete figures within cells. Maintain native body/head scale. The particular hand and continuity fixes above are mandatory.

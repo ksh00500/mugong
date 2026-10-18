@@ -1,0 +1,176 @@
+{
+  "version": "shaolin-motion-v1",
+  "created": "2026-10-04",
+  "mode": "built-in imagegen",
+  "region": 4,
+  "scope": "7 identities × 6 representative southeast-view poses; 6 new sheets and 1 reused pilot; no game integration",
+  "characters": [
+    {
+      "id": "01-brawler",
+      "name": "권갑 승려",
+      "slot": 0,
+      "role": "brawler",
+      "path": "01-brawler.png",
+      "labels": [
+        "대기",
+        "보행",
+        "정권 준비",
+        "정권 타격",
+        "횡권 후속",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/region-4-directions.png",
+      "referenceRow": "FIRST ROW",
+      "prompts": [
+        "01-brawler.prompt.txt",
+        "01-brawler-correction-1.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "02-staffguard",
+      "name": "봉 승려",
+      "slot": 1,
+      "role": "staffguard",
+      "path": "02-staffguard.png",
+      "labels": [
+        "대기",
+        "보행",
+        "공격 준비",
+        "횡 휘두르기",
+        "앞 찌르기",
+        "회수"
+      ],
+      "reusedFrom": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/enemy-staff-pilot-v1/staff-monk-six-poses-v3.png",
+      "prompts": [
+        "../enemy-staff-pilot-v1/prompt.txt",
+        "../enemy-staff-pilot-v1/correction-1.prompt.txt",
+        "../enemy-staff-pilot-v1/correction-2.prompt.txt",
+        "../enemy-staff-pilot-v1/correction-3.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "03-slinger",
+      "name": "돌 투척 승려",
+      "slot": 2,
+      "role": "slinger",
+      "path": "03-slinger.png",
+      "labels": [
+        "대기",
+        "보행",
+        "투척 준비",
+        "돌 방출",
+        "후속 동작",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/identity-directions.png",
+      "referenceRow": "SECOND ROW",
+      "prompts": [
+        "03-slinger.prompt.txt",
+        "03-slinger-padding.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "04-gongheo",
+      "name": "파계승 공허",
+      "slot": 3,
+      "bossId": "4-1",
+      "path": "04-gongheo.png",
+      "labels": [
+        "대기",
+        "보행",
+        "권법 준비",
+        "정권",
+        "어깨 박치기",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/region-4-directions.png",
+      "referenceRow": "FOURTH ROW",
+      "prompts": [
+        "04-gongheo.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "05-dowon",
+      "name": "철나한 도원",
+      "slot": 4,
+      "bossId": "4-2",
+      "path": "05-dowon.png",
+      "labels": [
+        "대기",
+        "보행",
+        "철산고 준비",
+        "철산고",
+        "철완 포획",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/region-4-directions.png",
+      "referenceRow": "FIFTH ROW",
+      "prompts": [
+        "05-dowon.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "06-bulmyeong",
+      "name": "금강두타 불명",
+      "slot": 5,
+      "bossId": "4-3",
+      "path": "06-bulmyeong.png",
+      "labels": [
+        "대기",
+        "보행",
+        "금강장 준비",
+        "금강장 타격",
+        "쌍장 밀치기",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/region-4-directions.png",
+      "referenceRow": "SIXTH ROW",
+      "prompts": [
+        "06-bulmyeong.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    },
+    {
+      "id": "07-mujin",
+      "name": "폐사주지 무진",
+      "slot": 6,
+      "bossId": "4-4",
+      "path": "07-mujin.png",
+      "labels": [
+        "대기",
+        "보행",
+        "선장 준비",
+        "선장 횡소",
+        "연환봉 찌르기",
+        "회수"
+      ],
+      "reference": "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/hostile-consistency-v3/identity-directions.png",
+      "referenceRow": "THIRD ROW",
+      "prompts": [
+        "07-mujin.prompt.txt",
+        "07-mujin-correction-2.prompt.txt",
+        "07-mujin-padding.prompt.txt"
+      ],
+      "status": "draft-review",
+      "productionApproved": false,
+      "review": "원화 시각 대조 및 알파 경계 측정; 해부학 랜드마크/접지 좌표/전 방향 연속 동작 미검증"
+    }
+  ]
+}

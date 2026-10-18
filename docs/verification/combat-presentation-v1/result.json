@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "build": "passed",
+  "unitTestsPassed": 406,
+  "localBrowserTestsPassed": 24,
+  "localSuites": {
+    "combat-presentation": 3,
+    "enemy-combat": 8,
+    "zone-art": 8,
+    "combat-feel": 5
+  },
+  "publicBrowserTestsPassed": 2,
+  "renderedEnemyStates": 122,
+  "normalEnemyRoles": 21,
+  "bosses": 40,
+  "visualReview": {
+    "screenshots": ["boss-clean-1440x900.png", "boss-clean-1093x614.png"],
+    "reviewed": true,
+    "finding": "No collision rings or aiming previews; physical props and active zone artwork remain."
+  },
+  "testFixtureCorrection": "Counter/block fixture explicitly uses a melee raider instead of a random regional role.",
+  "scope": "Rendering only; existing gameplay ranges, damage and timing remain unchanged.",
+  "userSaveModified": false,
+  "release": "20261002-combat-presentation-v1",
+  "publicFilesMatched": 11,
+  "releaseFilesVerified": 191,
+  "serverHttpStatus": 200,
+  "serverErrorLogBytes": 0,
+  "limitation": "Long-session gameplay balance is not established by automated checks."
+}

@@ -1,0 +1,115 @@
+{
+  "localApplied": true,
+  "remoteDeploymentChanged": false,
+  "bosses": [
+    {
+      "bossId": "4-1",
+      "id": "gongheo",
+      "moves": [
+        "slam",
+        "dash"
+      ],
+      "frames": 60,
+      "pixelScale": 0.225,
+      "healthClearance": 95.2
+    },
+    {
+      "bossId": "4-2",
+      "id": "dowon",
+      "moves": [
+        "grab",
+        "stance"
+      ],
+      "frames": 60,
+      "pixelScale": 0.225,
+      "healthClearance": 93.85000000000001
+    },
+    {
+      "bossId": "4-3",
+      "id": "bulmyeong",
+      "moves": [
+        "bell",
+        "slam"
+      ],
+      "frames": 60,
+      "pixelScale": 0.225,
+      "healthClearance": 98.35000000000001
+    },
+    {
+      "bossId": "4-4",
+      "id": "mujin",
+      "moves": [
+        "stance",
+        "combo"
+      ],
+      "frames": 60,
+      "pixelScale": 0.225,
+      "healthClearance": 96.10000000000001
+    }
+  ],
+  "textures": 20,
+  "frames": 240,
+  "uniqueSourceCells": 236,
+  "allSolidPixelsPreserved": true,
+  "paddingMinimum": 32,
+  "unitChecksPassed": 118,
+  "specialBrowserChecks": [
+    {
+      "id": "canvas-full",
+      "count": 11792,
+      "contacts": 80,
+      "failures": 0,
+      "errors": [],
+      "renderer": 1,
+      "saveUnchanged": true
+    },
+    {
+      "id": "canvas-reduced",
+      "count": 11792,
+      "contacts": 80,
+      "failures": 0,
+      "errors": [],
+      "renderer": 1,
+      "saveUnchanged": true
+    },
+    {
+      "id": "webgl-full",
+      "count": 11792,
+      "contacts": 80,
+      "failures": 0,
+      "errors": [],
+      "renderer": 2,
+      "saveUnchanged": true
+    },
+    {
+      "id": "webgl-reduced",
+      "count": 11792,
+      "contacts": 80,
+      "failures": 0,
+      "errors": [],
+      "renderer": 2,
+      "saveUnchanged": true
+    }
+  ],
+  "specialSamples": 47168,
+  "familyBrowserChecksPassed": 4,
+  "ordinaryReleaseCheckPassed": true,
+  "productionViewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1093,
+      614
+    ]
+  ],
+  "typeCheckPassed": true,
+  "productionBuildPassed": true,
+  "sourceGeneration": "builtin imagegen; 20 sheets + 1 repair; no external generation API",
+  "visualReview": "source sheets, basic/special comparison, Canvas/WebGL windup/contact/recovery, compact combat viewport"
+}

@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "qingbi-front",
+    "character": "qingbi",
+    "bossId": "5-1",
+    "view": 0,
+    "moves": ["ring", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-front.png",
+    "source": "qingbi-front-ring.png",
+    "sources": [
+      {
+        "id": "qingbi-front-ring",
+        "source": "qingbi-front-ring.png",
+        "prompt": "qingbi-front-ring.prompt.txt"
+      },
+      {
+        "id": "qingbi-front-stance",
+        "source": "qingbi-front-stance.png",
+        "prompt": "qingbi-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "qingbi-front-ring.png",
+      "qingbi-front-ring.png",
+      "qingbi-front-ring.png",
+      "qingbi-front-ring.png",
+      "qingbi-front-ring.png",
+      "qingbi-front-ring.png",
+      "qingbi-front-stance.png",
+      "qingbi-front-stance.png",
+      "qingbi-front-stance.png",
+      "qingbi-front-stance.png",
+      "qingbi-front-stance.png",
+      "qingbi-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "qingbi-front-right",
+    "character": "qingbi",
+    "bossId": "5-1",
+    "view": 1,
+    "moves": ["ring", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-front-right.png",
+    "source": "qingbi-front-right-ring.png",
+    "sources": [
+      {
+        "id": "qingbi-front-right-ring",
+        "source": "qingbi-front-right-ring.png",
+        "prompt": "qingbi-front-right-ring.prompt.txt"
+      },
+      {
+        "id": "qingbi-front-right-stance",
+        "source": "qingbi-front-right-stance.png",
+        "prompt": "qingbi-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-ring.png",
+      "qingbi-front-right-stance.png",
+      "qingbi-front-right-stance.png",
+      "qingbi-front-right-stance.png",
+      "qingbi-front-right-stance.png",
+      "qingbi-front-right-stance.png",
+      "qingbi-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "qingbi-right",
+    "character": "qingbi",
+    "bossId": "5-1",
+    "view": 2,
+    "moves": ["ring", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-right.png",
+    "source": "qingbi-right-ring.png",
+    "sources": [
+      {
+        "id": "qingbi-right-ring",
+        "source": "qingbi-right-ring.png",
+        "prompt": "qingbi-right-ring.prompt.txt"
+      },
+      {
+        "id": "qingbi-right-stance",
+        "source": "qingbi-right-stance.png",
+        "prompt": "qingbi-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "qingbi-right-ring.png",
+      "qingbi-right-ring.png",
+      "qingbi-right-ring.png",
+      "qingbi-right-ring.png",
+      "qingbi-right-ring.png",
+      "qingbi-right-ring.png",
+      "qingbi-right-stance.png",
+      "qingbi-right-stance.png",
+      "qingbi-right-stance.png",
+      "qingbi-right-stance.png",
+      "qingbi-right-stance.png",
+      "qingbi-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "qingbi-rear-right",
+    "character": "qingbi",
+    "bossId": "5-1",
+    "view": 3,
+    "moves": ["ring", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-rear-right.png",
+    "source": "qingbi-rear-right-ring.png",
+    "sources": [
+      {
+        "id": "qingbi-rear-right-ring",
+        "source": "qingbi-rear-right-ring.png",
+        "prompt": "qingbi-rear-right-ring.prompt.txt"
+      },
+      {
+        "id": "qingbi-rear-right-stance",
+        "source": "qingbi-rear-right-stance.png",
+        "prompt": "qingbi-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-ring.png",
+      "qingbi-rear-right-stance.png",
+      "qingbi-rear-right-stance.png",
+      "qingbi-rear-right-stance.png",
+      "qingbi-rear-right-stance.png",
+      "qingbi-rear-right-stance.png",
+      "qingbi-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "qingbi-back",
+    "character": "qingbi",
+    "bossId": "5-1",
+    "view": 4,
+    "moves": ["ring", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/qingbi-back.png",
+    "source": "qingbi-back-ring.png",
+    "sources": [
+      {
+        "id": "qingbi-back-ring",
+        "source": "qingbi-back-ring.png",
+        "prompt": "qingbi-back-ring.prompt.txt"
+      },
+      {
+        "id": "qingbi-back-stance",
+        "source": "qingbi-back-stance.png",
+        "prompt": "qingbi-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "qingbi-back-ring.png",
+      "qingbi-back-ring.png",
+      "qingbi-back-ring.png",
+      "qingbi-back-ring.png",
+      "qingbi-back-ring.png",
+      "qingbi-back-ring.png",
+      "qingbi-back-stance.png",
+      "qingbi-back-stance.png",
+      "qingbi-back-stance.png",
+      "qingbi-back-stance.png",
+      "qingbi-back-stance.png",
+      "qingbi-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nogae-front",
+    "character": "nogae",
+    "bossId": "5-2",
+    "view": 0,
+    "moves": ["sweep", "slam"],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-front.png",
+    "source": "nogae-front-sweep.png",
+    "sources": [
+      {
+        "id": "nogae-front-sweep",
+        "source": "nogae-front-sweep.png",
+        "prompt": "nogae-front-sweep.prompt.txt"
+      },
+      {
+        "id": "nogae-front-slam",
+        "source": "nogae-front-slam.png",
+        "prompt": "nogae-front-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nogae-front-sweep.png",
+      "nogae-front-sweep.png",
+      "nogae-front-sweep.png",
+      "nogae-front-sweep.png",
+      "nogae-front-sweep.png",
+      "nogae-front-sweep.png",
+      "nogae-front-slam.png",
+      "nogae-front-slam.png",
+      "nogae-front-slam.png",
+      "nogae-front-slam.png",
+      "nogae-front-slam.png",
+      "nogae-front-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nogae-front-right",
+    "character": "nogae",
+    "bossId": "5-2",
+    "view": 1,
+    "moves": ["sweep", "slam"],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-front-right.png",
+    "source": "nogae-front-right-sweep.png",
+    "sources": [
+      {
+        "id": "nogae-front-right-sweep",
+        "source": "nogae-front-right-sweep.png",
+        "prompt": "nogae-front-right-sweep.prompt.txt"
+      },
+      {
+        "id": "nogae-front-right-slam",
+        "source": "nogae-front-right-slam.png",
+        "prompt": "nogae-front-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-sweep.png",
+      "nogae-front-right-slam.png",
+      "nogae-front-right-slam.png",
+      "nogae-front-right-slam.png",
+      "nogae-front-right-slam.png",
+      "nogae-front-right-slam.png",
+      "nogae-front-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nogae-right",
+    "character": "nogae",
+    "bossId": "5-2",
+    "view": 2,
+    "moves": ["sweep", "slam"],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-right.png",
+    "source": "nogae-right-sweep.png",
+    "sources": [
+      {
+        "id": "nogae-right-sweep",
+        "source": "nogae-right-sweep.png",
+        "prompt": "nogae-right-sweep.prompt.txt"
+      },
+      {
+        "id": "nogae-right-slam",
+        "source": "nogae-right-slam.png",
+        "prompt": "nogae-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nogae-right-sweep.png",
+      "nogae-right-sweep.png",
+      "nogae-right-sweep.png",
+      "nogae-right-sweep.png",
+      "nogae-right-sweep.png",
+      "nogae-right-sweep.png",
+      "nogae-right-slam.png",
+      "nogae-right-slam.png",
+      "nogae-right-slam.png",
+      "nogae-right-slam.png",
+      "nogae-right-slam.png",
+      "nogae-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nogae-rear-right",
+    "character": "nogae",
+    "bossId": "5-2",
+    "view": 3,
+    "moves": ["sweep", "slam"],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-rear-right.png",
+    "source": "nogae-rear-right-sweep.png",
+    "sources": [
+      {
+        "id": "nogae-rear-right-sweep",
+        "source": "nogae-rear-right-sweep.png",
+        "prompt": "nogae-rear-right-sweep.prompt.txt"
+      },
+      {
+        "id": "nogae-rear-right-slam",
+        "source": "nogae-rear-right-slam.png",
+        "prompt": "nogae-rear-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-sweep.png",
+      "nogae-rear-right-slam.png",
+      "nogae-rear-right-slam.png",
+      "nogae-rear-right-slam.png",
+      "nogae-rear-right-slam.png",
+      "nogae-rear-right-slam.png",
+      "nogae-rear-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nogae-back",
+    "character": "nogae",
+    "bossId": "5-2",
+    "view": 4,
+    "moves": ["sweep", "slam"],
+    "reference": "docs/source/bamboo-special-v1/references/nogae-back.png",
+    "source": "nogae-back-sweep.png",
+    "sources": [
+      {
+        "id": "nogae-back-sweep",
+        "source": "nogae-back-sweep.png",
+        "prompt": "nogae-back-sweep.prompt.txt"
+      },
+      {
+        "id": "nogae-back-slam",
+        "source": "nogae-back-slam.png",
+        "prompt": "nogae-back-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nogae-back-sweep.png",
+      "nogae-back-sweep.png",
+      "nogae-back-sweep.png",
+      "nogae-back-sweep.png",
+      "nogae-back-sweep.png",
+      "nogae-back-sweep.png",
+      "nogae-back-slam.png",
+      "nogae-back-slam.png",
+      "nogae-back-slam.png",
+      "nogae-back-slam.png",
+      "nogae-back-slam.png",
+      "nogae-back-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanqing-front",
+    "character": "yanqing",
+    "bossId": "5-3",
+    "view": 0,
+    "moves": ["dash", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-front.png",
+    "source": "yanqing-front-dash.png",
+    "sources": [
+      {
+        "id": "yanqing-front-dash",
+        "source": "yanqing-front-dash.png",
+        "prompt": "yanqing-front-dash.prompt.txt"
+      },
+      {
+        "id": "yanqing-front-stance",
+        "source": "yanqing-front-stance.png",
+        "prompt": "yanqing-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanqing-front-dash.png",
+      "yanqing-front-dash.png",
+      "yanqing-front-dash.png",
+      "yanqing-front-dash.png",
+      "yanqing-front-dash.png",
+      "yanqing-front-dash.png",
+      "yanqing-front-stance.png",
+      "yanqing-front-stance.png",
+      "yanqing-front-stance.png",
+      "yanqing-front-stance.png",
+      "yanqing-front-stance.png",
+      "yanqing-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanqing-front-right",
+    "character": "yanqing",
+    "bossId": "5-3",
+    "view": 1,
+    "moves": ["dash", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-front-right.png",
+    "source": "yanqing-front-right-dash.png",
+    "sources": [
+      {
+        "id": "yanqing-front-right-dash",
+        "source": "yanqing-front-right-dash.png",
+        "prompt": "yanqing-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "yanqing-front-right-stance",
+        "source": "yanqing-front-right-stance.png",
+        "prompt": "yanqing-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-dash.png",
+      "yanqing-front-right-stance.png",
+      "yanqing-front-right-stance.png",
+      "yanqing-front-right-stance.png",
+      "yanqing-front-right-stance.png",
+      "yanqing-front-right-stance.png",
+      "yanqing-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanqing-right",
+    "character": "yanqing",
+    "bossId": "5-3",
+    "view": 2,
+    "moves": ["dash", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-right.png",
+    "source": "yanqing-right-dash.png",
+    "sources": [
+      {
+        "id": "yanqing-right-dash",
+        "source": "yanqing-right-dash.png",
+        "prompt": "yanqing-right-dash.prompt.txt"
+      },
+      {
+        "id": "yanqing-right-stance",
+        "source": "yanqing-right-stance.png",
+        "prompt": "yanqing-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanqing-right-dash.png",
+      "yanqing-right-dash.png",
+      "yanqing-right-dash.png",
+      "yanqing-right-dash.png",
+      "yanqing-right-dash.png",
+      "yanqing-right-dash.png",
+      "yanqing-right-stance.png",
+      "yanqing-right-stance.png",
+      "yanqing-right-stance.png",
+      "yanqing-right-stance.png",
+      "yanqing-right-stance.png",
+      "yanqing-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanqing-rear-right",
+    "character": "yanqing",
+    "bossId": "5-3",
+    "view": 3,
+    "moves": ["dash", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-rear-right.png",
+    "source": "yanqing-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "yanqing-rear-right-dash",
+        "source": "yanqing-rear-right-dash.png",
+        "prompt": "yanqing-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "yanqing-rear-right-stance",
+        "source": "yanqing-rear-right-stance.png",
+        "prompt": "yanqing-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-dash.png",
+      "yanqing-rear-right-stance.png",
+      "yanqing-rear-right-stance.png",
+      "yanqing-rear-right-stance.png",
+      "yanqing-rear-right-stance.png",
+      "yanqing-rear-right-stance.png",
+      "yanqing-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanqing-back",
+    "character": "yanqing",
+    "bossId": "5-3",
+    "view": 4,
+    "moves": ["dash", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/yanqing-back.png",
+    "source": "yanqing-back-dash.png",
+    "sources": [
+      {
+        "id": "yanqing-back-dash",
+        "source": "yanqing-back-dash.png",
+        "prompt": "yanqing-back-dash.prompt.txt"
+      },
+      {
+        "id": "yanqing-back-stance",
+        "source": "yanqing-back-stance.png",
+        "prompt": "yanqing-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanqing-back-dash.png",
+      "yanqing-back-dash.png",
+      "yanqing-back-dash.png",
+      "yanqing-back-dash.png",
+      "yanqing-back-dash.png",
+      "yanqing-back-dash.png",
+      "yanqing-back-stance.png",
+      "yanqing-back-stance.png",
+      "yanqing-back-stance.png",
+      "yanqing-back-stance.png",
+      "yanqing-back-stance.png",
+      "yanqing-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "songwol-front",
+    "character": "songwol",
+    "bossId": "5-4",
+    "view": 0,
+    "moves": ["fan", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-front.png",
+    "source": "songwol-front-fan.png",
+    "sources": [
+      {
+        "id": "songwol-front-fan",
+        "source": "songwol-front-fan.png",
+        "prompt": "songwol-front-fan.prompt.txt"
+      },
+      {
+        "id": "songwol-front-stance",
+        "source": "songwol-front-stance.png",
+        "prompt": "songwol-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "songwol-front-fan.png",
+      "songwol-front-fan.png",
+      "songwol-front-fan.png",
+      "songwol-front-fan.png",
+      "songwol-front-fan.png",
+      "songwol-front-fan.png",
+      "songwol-front-stance.png",
+      "songwol-front-stance.png",
+      "songwol-front-stance.png",
+      "songwol-front-stance.png",
+      "songwol-front-stance.png",
+      "songwol-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "songwol-front-right",
+    "character": "songwol",
+    "bossId": "5-4",
+    "view": 1,
+    "moves": ["fan", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-front-right.png",
+    "source": "songwol-front-right-fan.png",
+    "sources": [
+      {
+        "id": "songwol-front-right-fan",
+        "source": "songwol-front-right-fan.png",
+        "prompt": "songwol-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "songwol-front-right-stance",
+        "source": "songwol-front-right-stance.png",
+        "prompt": "songwol-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "songwol-front-right-fan.png",
+      "songwol-front-right-fan.png",
+      "songwol-front-right-fan.png",
+      "songwol-front-right-fan.png",
+      "songwol-front-right-fan.png",
+      "songwol-front-right-fan.png",
+      "songwol-front-right-stance.png",
+      "songwol-front-right-stance.png",
+      "songwol-front-right-stance.png",
+      "songwol-front-right-stance.png",
+      "songwol-front-right-stance.png",
+      "songwol-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "songwol-right",
+    "character": "songwol",
+    "bossId": "5-4",
+    "view": 2,
+    "moves": ["fan", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-right.png",
+    "source": "songwol-right-fan.png",
+    "sources": [
+      {
+        "id": "songwol-right-fan",
+        "source": "songwol-right-fan.png",
+        "prompt": "songwol-right-fan.prompt.txt"
+      },
+      {
+        "id": "songwol-right-stance",
+        "source": "songwol-right-stance.png",
+        "prompt": "songwol-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "songwol-right-fan.png",
+      "songwol-right-fan.png",
+      "songwol-right-fan.png",
+      "songwol-right-fan.png",
+      "songwol-right-fan.png",
+      "songwol-right-fan.png",
+      "songwol-right-stance.png",
+      "songwol-right-stance.png",
+      "songwol-right-stance.png",
+      "songwol-right-stance.png",
+      "songwol-right-stance.png",
+      "songwol-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "songwol-rear-right",
+    "character": "songwol",
+    "bossId": "5-4",
+    "view": 3,
+    "moves": ["fan", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-rear-right.png",
+    "source": "songwol-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "songwol-rear-right-fan",
+        "source": "songwol-rear-right-fan.png",
+        "prompt": "songwol-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "songwol-rear-right-stance",
+        "source": "songwol-rear-right-stance.png",
+        "prompt": "songwol-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-fan.png",
+      "songwol-rear-right-stance.png",
+      "songwol-rear-right-stance.png",
+      "songwol-rear-right-stance.png",
+      "songwol-rear-right-stance.png",
+      "songwol-rear-right-stance.png",
+      "songwol-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "songwol-back",
+    "character": "songwol",
+    "bossId": "5-4",
+    "view": 4,
+    "moves": ["fan", "stance"],
+    "reference": "docs/source/bamboo-special-v1/references/songwol-back.png",
+    "source": "songwol-back-fan.png",
+    "sources": [
+      {
+        "id": "songwol-back-fan",
+        "source": "songwol-back-fan.png",
+        "prompt": "songwol-back-fan.prompt.txt"
+      },
+      {
+        "id": "songwol-back-stance",
+        "source": "songwol-back-stance.png",
+        "prompt": "songwol-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "songwol-back-fan.png",
+      "songwol-back-fan.png",
+      "songwol-back-fan.png",
+      "songwol-back-fan.png",
+      "songwol-back-fan.png",
+      "songwol-back-fan.png",
+      "songwol-back-stance.png",
+      "songwol-back-stance.png",
+      "songwol-back-stance.png",
+      "songwol-back-stance.png",
+      "songwol-back-stance.png",
+      "songwol-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

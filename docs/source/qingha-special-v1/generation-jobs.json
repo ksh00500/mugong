@@ -1,0 +1,2005 @@
+[
+  {
+    "id": "madabong-front",
+    "character": "madabong",
+    "bossId": "0-1",
+    "view": 0,
+    "moves": [
+      "summon",
+      "dash"
+    ],
+    "reference": "docs/source/qingha-family-v1/madabong-front.png",
+    "source": "madabong-front-summon.png",
+    "sources": [
+      {
+        "id": "madabong-front-summon",
+        "source": "madabong-front-summon.png",
+        "prompt": "madabong-front-summon.prompt.txt"
+      },
+      {
+        "id": "madabong-front-dash",
+        "source": "madabong-front-dash.png",
+        "prompt": "madabong-front-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "madabong-front-summon.png",
+      "madabong-front-summon.png",
+      "madabong-front-summon.png",
+      "madabong-front-summon.png",
+      "madabong-front-summon.png",
+      "madabong-front-summon.png",
+      "madabong-front-dash.png",
+      "madabong-front-dash.png",
+      "madabong-front-dash.png",
+      "madabong-front-dash.png",
+      "madabong-front-dash.png",
+      "madabong-front-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "madabong-front-right",
+    "character": "madabong",
+    "bossId": "0-1",
+    "view": 1,
+    "moves": [
+      "summon",
+      "dash"
+    ],
+    "reference": "docs/source/qingha-family-v1/madabong-front-right.png",
+    "source": "madabong-front-right-summon.png",
+    "sources": [
+      {
+        "id": "madabong-front-right-summon",
+        "source": "madabong-front-right-summon.png",
+        "prompt": "madabong-front-right-summon.prompt.txt"
+      },
+      {
+        "id": "madabong-front-right-dash",
+        "source": "madabong-front-right-dash.png",
+        "prompt": "madabong-front-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "madabong-front-right-summon.png",
+      "madabong-front-right-summon.png",
+      "madabong-front-right-summon.png",
+      "madabong-front-right-summon.png",
+      "madabong-front-right-summon.png",
+      "madabong-front-right-summon.png",
+      "madabong-front-right-dash.png",
+      "madabong-front-right-dash.png",
+      "madabong-front-right-dash.png",
+      "madabong-front-right-dash.png",
+      "madabong-front-right-dash.png",
+      "madabong-front-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "madabong-right",
+    "character": "madabong",
+    "bossId": "0-1",
+    "view": 2,
+    "moves": [
+      "summon",
+      "dash"
+    ],
+    "reference": "docs/source/qingha-family-v1/madabong-right.png",
+    "source": "madabong-right-summon.png",
+    "sources": [
+      {
+        "id": "madabong-right-summon",
+        "source": "madabong-right-summon.png",
+        "prompt": "madabong-right-summon.prompt.txt"
+      },
+      {
+        "id": "madabong-right-dash",
+        "source": "madabong-right-dash.png",
+        "prompt": "madabong-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "madabong-right-summon.png",
+      "madabong-right-summon.png",
+      "madabong-right-summon.png",
+      "madabong-right-summon.png",
+      "madabong-right-summon.png",
+      "madabong-right-summon.png",
+      "madabong-right-dash.png",
+      "madabong-right-dash.png",
+      "madabong-right-dash.png",
+      "madabong-right-dash.png",
+      "madabong-right-dash.png",
+      "madabong-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "madabong-rear-right",
+    "character": "madabong",
+    "bossId": "0-1",
+    "view": 3,
+    "moves": [
+      "summon",
+      "dash"
+    ],
+    "reference": "docs/source/qingha-family-v1/madabong-rear-right.png",
+    "source": "madabong-rear-right-summon.png",
+    "sources": [
+      {
+        "id": "madabong-rear-right-summon",
+        "source": "madabong-rear-right-summon.png",
+        "prompt": "madabong-rear-right-summon.prompt.txt"
+      },
+      {
+        "id": "madabong-rear-right-dash",
+        "source": "madabong-rear-right-dash.png",
+        "prompt": "madabong-rear-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-summon.png",
+      "madabong-rear-right-dash.png",
+      "madabong-rear-right-dash.png",
+      "madabong-rear-right-dash.png",
+      "madabong-rear-right-dash.png",
+      "madabong-rear-right-dash.png",
+      "madabong-rear-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "madabong-back",
+    "character": "madabong",
+    "bossId": "0-1",
+    "view": 4,
+    "moves": [
+      "summon",
+      "dash"
+    ],
+    "reference": "docs/source/qingha-family-v1/madabong-back.png",
+    "source": "madabong-back-summon.png",
+    "sources": [
+      {
+        "id": "madabong-back-summon",
+        "source": "madabong-back-summon.png",
+        "prompt": "madabong-back-summon.prompt.txt"
+      },
+      {
+        "id": "madabong-back-dash",
+        "source": "madabong-back-dash.png",
+        "prompt": "madabong-back-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "madabong-back-summon.png",
+      "madabong-back-summon.png",
+      "madabong-back-summon.png",
+      "madabong-back-summon.png",
+      "madabong-back-summon.png",
+      "madabong-back-summon.png",
+      "madabong-back-dash.png",
+      "madabong-back-dash.png",
+      "madabong-back-dash.png",
+      "madabong-back-dash.png",
+      "madabong-back-dash.png",
+      "madabong-back-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nojin-front",
+    "character": "nojin",
+    "bossId": "0-2",
+    "view": 0,
+    "moves": [
+      "combo",
+      "stance"
+    ],
+    "reference": "docs/source/qingha-family-v1/nojin-front.png",
+    "source": "nojin-front-combo.png",
+    "sources": [
+      {
+        "id": "nojin-front-combo",
+        "source": "nojin-front-combo.png",
+        "prompt": "nojin-front-combo.prompt.txt"
+      },
+      {
+        "id": "nojin-front-stance",
+        "source": "nojin-front-stance.png",
+        "prompt": "nojin-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nojin-front-combo.png",
+      "nojin-front-combo.png",
+      "nojin-front-combo.png",
+      "nojin-front-combo.png",
+      "nojin-front-combo.png",
+      "nojin-front-combo.png",
+      "nojin-front-stance.png",
+      "nojin-front-stance.png",
+      "nojin-front-stance.png",
+      "nojin-front-stance.png",
+      "nojin-front-stance.png",
+      "nojin-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nojin-front-right",
+    "character": "nojin",
+    "bossId": "0-2",
+    "view": 1,
+    "moves": [
+      "combo",
+      "stance"
+    ],
+    "reference": "docs/source/qingha-family-v1/nojin-front-right.png",
+    "source": "nojin-front-right-combo.png",
+    "sources": [
+      {
+        "id": "nojin-front-right-combo",
+        "source": "nojin-front-right-combo.png",
+        "prompt": "nojin-front-right-combo.prompt.txt"
+      },
+      {
+        "id": "nojin-front-right-stance",
+        "source": "nojin-front-right-stance.png",
+        "prompt": "nojin-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nojin-front-right-combo.png",
+      "nojin-front-right-combo.png",
+      "nojin-front-right-combo.png",
+      "nojin-front-right-combo.png",
+      "nojin-front-right-combo.png",
+      "nojin-front-right-combo.png",
+      "nojin-front-right-stance.png",
+      "nojin-front-right-stance.png",
+      "nojin-front-right-stance.png",
+      "nojin-front-right-stance.png",
+      "nojin-front-right-stance.png",
+      "nojin-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nojin-right",
+    "character": "nojin",
+    "bossId": "0-2",
+    "view": 2,
+    "moves": [
+      "combo",
+      "stance"
+    ],
+    "reference": "docs/source/qingha-family-v1/nojin-right.png",
+    "source": "nojin-right-combo.png",
+    "sources": [
+      {
+        "id": "nojin-right-combo",
+        "source": "nojin-right-combo.png",
+        "prompt": "nojin-right-combo.prompt.txt"
+      },
+      {
+        "id": "nojin-right-stance",
+        "source": "nojin-right-stance.png",
+        "prompt": "nojin-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nojin-right-combo.png",
+      "nojin-right-combo.png",
+      "nojin-right-combo.png",
+      "nojin-right-combo.png",
+      "nojin-right-combo.png",
+      "nojin-right-combo.png",
+      "nojin-right-stance.png",
+      "nojin-right-stance.png",
+      "nojin-right-stance.png",
+      "nojin-right-stance.png",
+      "nojin-right-stance.png",
+      "nojin-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nojin-rear-right",
+    "character": "nojin",
+    "bossId": "0-2",
+    "view": 3,
+    "moves": [
+      "combo",
+      "stance"
+    ],
+    "reference": "docs/source/qingha-family-v1/nojin-rear-right.png",
+    "source": "nojin-rear-right-combo.png",
+    "sources": [
+      {
+        "id": "nojin-rear-right-combo",
+        "source": "nojin-rear-right-combo.png",
+        "prompt": "nojin-rear-right-combo.prompt.txt"
+      },
+      {
+        "id": "nojin-rear-right-stance",
+        "source": "nojin-rear-right-stance.png",
+        "prompt": "nojin-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-combo.png",
+      "nojin-rear-right-stance.png",
+      "nojin-rear-right-stance.png",
+      "nojin-rear-right-stance.png",
+      "nojin-rear-right-stance.png",
+      "nojin-rear-right-stance.png",
+      "nojin-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "nojin-back",
+    "character": "nojin",
+    "bossId": "0-2",
+    "view": 4,
+    "moves": [
+      "combo",
+      "stance"
+    ],
+    "reference": "docs/source/qingha-family-v1/nojin-back.png",
+    "source": "nojin-back-combo.png",
+    "sources": [
+      {
+        "id": "nojin-back-combo",
+        "source": "nojin-back-combo.png",
+        "prompt": "nojin-back-combo.prompt.txt"
+      },
+      {
+        "id": "nojin-back-stance",
+        "source": "nojin-back-stance.png",
+        "prompt": "nojin-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "nojin-back-combo.png",
+      "nojin-back-combo.png",
+      "nojin-back-combo.png",
+      "nojin-back-combo.png",
+      "nojin-back-combo.png",
+      "nojin-back-combo.png",
+      "nojin-back-stance.png",
+      "nojin-back-stance.png",
+      "nojin-back-stance.png",
+      "nojin-back-stance.png",
+      "nojin-back-stance.png",
+      "nojin-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ],
+    "poseReuse": {
+      "10": 7
+    }
+  },
+  {
+    "id": "cheolmu-front",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "view": 0,
+    "moves": [
+      "thrust",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/cheolmu-front.png",
+    "source": "cheolmu-front-thrust.png",
+    "sources": [
+      {
+        "id": "cheolmu-front-thrust",
+        "source": "cheolmu-front-thrust.png",
+        "prompt": "cheolmu-front-thrust.prompt.txt"
+      },
+      {
+        "id": "cheolmu-front-sweep",
+        "source": "cheolmu-front-sweep.png",
+        "prompt": "cheolmu-front-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-thrust.png",
+      "cheolmu-front-sweep.png",
+      "cheolmu-front-sweep.png",
+      "cheolmu-front-sweep.png",
+      "cheolmu-front-sweep.png",
+      "cheolmu-front-sweep.png",
+      "cheolmu-front-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-front-right",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "view": 1,
+    "moves": [
+      "thrust",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/cheolmu-front-right.png",
+    "source": "cheolmu-front-right-thrust.png",
+    "sources": [
+      {
+        "id": "cheolmu-front-right-thrust",
+        "source": "cheolmu-front-right-thrust.png",
+        "prompt": "cheolmu-front-right-thrust.prompt.txt"
+      },
+      {
+        "id": "cheolmu-front-right-sweep",
+        "source": "cheolmu-front-right-sweep.png",
+        "prompt": "cheolmu-front-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-thrust.png",
+      "cheolmu-front-right-sweep.png",
+      "cheolmu-front-right-sweep.png",
+      "cheolmu-front-right-sweep.png",
+      "cheolmu-front-right-sweep.png",
+      "cheolmu-front-right-sweep.png",
+      "cheolmu-front-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-right",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "view": 2,
+    "moves": [
+      "thrust",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/cheolmu-right.png",
+    "source": "cheolmu-right-thrust.png",
+    "sources": [
+      {
+        "id": "cheolmu-right-thrust",
+        "source": "cheolmu-right-thrust.png",
+        "prompt": "cheolmu-right-thrust.prompt.txt"
+      },
+      {
+        "id": "cheolmu-right-sweep",
+        "source": "cheolmu-right-sweep.png",
+        "prompt": "cheolmu-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-thrust.png",
+      "cheolmu-right-sweep.png",
+      "cheolmu-right-sweep.png",
+      "cheolmu-right-sweep.png",
+      "cheolmu-right-sweep.png",
+      "cheolmu-right-sweep.png",
+      "cheolmu-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-rear-right",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "view": 3,
+    "moves": [
+      "thrust",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/cheolmu-rear-right.png",
+    "source": "cheolmu-rear-right-thrust.png",
+    "sources": [
+      {
+        "id": "cheolmu-rear-right-thrust",
+        "source": "cheolmu-rear-right-thrust.png",
+        "prompt": "cheolmu-rear-right-thrust.prompt.txt"
+      },
+      {
+        "id": "cheolmu-rear-right-sweep",
+        "source": "cheolmu-rear-right-sweep.png",
+        "prompt": "cheolmu-rear-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-thrust.png",
+      "cheolmu-rear-right-sweep.png",
+      "cheolmu-rear-right-sweep.png",
+      "cheolmu-rear-right-sweep.png",
+      "cheolmu-rear-right-sweep.png",
+      "cheolmu-rear-right-sweep.png",
+      "cheolmu-rear-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-back",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "view": 4,
+    "moves": [
+      "thrust",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/cheolmu-back.png",
+    "source": "cheolmu-back-thrust.png",
+    "sources": [
+      {
+        "id": "cheolmu-back-thrust",
+        "source": "cheolmu-back-thrust.png",
+        "prompt": "cheolmu-back-thrust.prompt.txt"
+      },
+      {
+        "id": "cheolmu-back-sweep",
+        "source": "cheolmu-back-sweep.png",
+        "prompt": "cheolmu-back-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-thrust.png",
+      "cheolmu-back-sweep.png",
+      "cheolmu-back-sweep.png",
+      "cheolmu-back-sweep.png",
+      "cheolmu-back-sweep.png",
+      "cheolmu-back-sweep.png",
+      "cheolmu-back-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-front",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "view": 0,
+    "moves": [
+      "slash",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/hanmugeuk-front.png",
+    "source": "hanmugeuk-front-slash.png",
+    "sources": [
+      {
+        "id": "hanmugeuk-front-slash",
+        "source": "hanmugeuk-front-slash.png",
+        "prompt": "hanmugeuk-front-slash.prompt.txt"
+      },
+      {
+        "id": "hanmugeuk-front-sweep",
+        "source": "hanmugeuk-front-sweep.png",
+        "prompt": "hanmugeuk-front-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-slash.png",
+      "hanmugeuk-front-sweep.png",
+      "hanmugeuk-front-sweep.png",
+      "hanmugeuk-front-sweep.png",
+      "hanmugeuk-front-sweep.png",
+      "hanmugeuk-front-sweep.png",
+      "hanmugeuk-front-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-front-right",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "view": 1,
+    "moves": [
+      "slash",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/hanmugeuk-front-right.png",
+    "source": "hanmugeuk-front-right-slash.png",
+    "sources": [
+      {
+        "id": "hanmugeuk-front-right-slash",
+        "source": "hanmugeuk-front-right-slash.png",
+        "prompt": "hanmugeuk-front-right-slash.prompt.txt"
+      },
+      {
+        "id": "hanmugeuk-front-right-sweep",
+        "source": "hanmugeuk-front-right-sweep.png",
+        "prompt": "hanmugeuk-front-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-slash.png",
+      "hanmugeuk-front-right-sweep.png",
+      "hanmugeuk-front-right-sweep.png",
+      "hanmugeuk-front-right-sweep.png",
+      "hanmugeuk-front-right-sweep.png",
+      "hanmugeuk-front-right-sweep.png",
+      "hanmugeuk-front-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-right",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "view": 2,
+    "moves": [
+      "slash",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/hanmugeuk-right.png",
+    "source": "hanmugeuk-right-slash.png",
+    "sources": [
+      {
+        "id": "hanmugeuk-right-slash",
+        "source": "hanmugeuk-right-slash.png",
+        "prompt": "hanmugeuk-right-slash.prompt.txt"
+      },
+      {
+        "id": "hanmugeuk-right-sweep",
+        "source": "hanmugeuk-right-sweep.png",
+        "prompt": "hanmugeuk-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-slash.png",
+      "hanmugeuk-right-sweep.png",
+      "hanmugeuk-right-sweep.png",
+      "hanmugeuk-right-sweep.png",
+      "hanmugeuk-right-sweep.png",
+      "hanmugeuk-right-sweep.png",
+      "hanmugeuk-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-rear-right",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "view": 3,
+    "moves": [
+      "slash",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/hanmugeuk-rear-right.png",
+    "source": "hanmugeuk-rear-right-slash.png",
+    "sources": [
+      {
+        "id": "hanmugeuk-rear-right-slash",
+        "source": "hanmugeuk-rear-right-slash.png",
+        "prompt": "hanmugeuk-rear-right-slash.prompt.txt"
+      },
+      {
+        "id": "hanmugeuk-rear-right-sweep",
+        "source": "hanmugeuk-rear-right-sweep.png",
+        "prompt": "hanmugeuk-rear-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-slash.png",
+      "hanmugeuk-rear-right-sweep.png",
+      "hanmugeuk-rear-right-sweep.png",
+      "hanmugeuk-rear-right-sweep.png",
+      "hanmugeuk-rear-right-sweep.png",
+      "hanmugeuk-rear-right-sweep.png",
+      "hanmugeuk-rear-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-back",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "view": 4,
+    "moves": [
+      "slash",
+      "sweep"
+    ],
+    "reference": "docs/source/qingha-family-v1/hanmugeuk-back.png",
+    "source": "hanmugeuk-back-slash.png",
+    "sources": [
+      {
+        "id": "hanmugeuk-back-slash",
+        "source": "hanmugeuk-back-slash.png",
+        "prompt": "hanmugeuk-back-slash.prompt.txt"
+      },
+      {
+        "id": "hanmugeuk-back-sweep",
+        "source": "hanmugeuk-back-sweep.png",
+        "prompt": "hanmugeuk-back-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-slash.png",
+      "hanmugeuk-back-sweep.png",
+      "hanmugeuk-back-sweep.png",
+      "hanmugeuk-back-sweep.png",
+      "hanmugeuk-back-sweep.png",
+      "hanmugeuk-back-sweep.png",
+      "hanmugeuk-back-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

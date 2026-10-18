@@ -1,0 +1,74 @@
+[
+  {
+    "id": "snowhunter-front-right",
+    "poses": [
+      9
+    ],
+    "source": "snowhunter-front-right-follow-separated.png",
+    "issue": "Spear leaf touches right canvas; shift entire selected figure into empty middle-row space, preserving pixel scale.",
+    "status": "resolved-native-source",
+    "selectedSources": [
+      "snowhunter-front-right-follow-padding.png"
+    ]
+  },
+  {
+    "id": "snowhunter-front",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source": "snowhunter-front-combat.png",
+    "issue": "Contact still aims southeast; redraw straight south, face/chest front, spear directed toward bottom with foreshortening.",
+    "status": "resolved-native-source",
+    "selectedSources": [
+      "snowhunter-front-consistent-v4.png"
+    ]
+  },
+  {
+    "id": "snowhunter-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source": "snowhunter-back-combat.png",
+    "issue": "Contact aims northeast; redraw straight north, symmetric rear view, spear directed toward top with foreshortening.",
+    "status": "resolved-native-source",
+    "selectedSources": [
+      "snowhunter-back-axial-thrust.png"
+    ]
+  },
+  {
+    "id": "snowweaver-front-right",
+    "poses": [
+      8,
+      9
+    ],
+    "source": "snowweaver-front-right.png",
+    "issue": "Orb owning hand appears swapped at release; orb must stay anatomical left hand, right empty palm casts.",
+    "status": "resolved-native-source",
+    "selectedSources": [
+      "snowweaver-front-right-owner-v2.png"
+    ]
+  },
+  {
+    "id": "snowweaver-front",
+    "poses": [
+      8,
+      9
+    ],
+    "source": "snowweaver-front.png",
+    "issue": "Orb hand appears swapped and cast aims sideways; orb stays left hand on screen-right, right empty palm on screen-left casts toward bottom.",
+    "status": "resolved-native-source",
+    "selectedSources": [
+      "snowweaver-front-axial-cast.png"
+    ]
+  }
+]

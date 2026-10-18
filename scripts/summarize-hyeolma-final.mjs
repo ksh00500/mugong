@@ -1,0 +1,13 @@
+import {readFile,writeFile} from 'node:fs/promises';
+const root='docs/source/hyeolma-family-v1';
+const {records,missing}=JSON.parse(await readFile(`${root}/source-scan.json`));
+const ledger=JSON.parse(await readFile(`${root}/provenance.json`));
+const files=[...new Set(records.map(r=>r.source))];
+const missingProvenance=files.filter(source=>!ledger.some(l=>l.source===source));
+const reused=records.filter(r=>r.reused!==null).map(r=>({id:r.id,pose:r.pose,alias:r.reused}));
+const issues=records.filter(r=>r.clipped||r.shared||r.component<0);
+if(missing.length||missingProvenance.length||issues.length||reused.length)throw Error('Incomplete source correction');
+const summary={date:'2026-10-05',frames:records.length,uniqueSourceFigures:new Set(records.map(r=>r.source+'/'+r.component)).size,selectedSources:files.length,provenanceEntries:ledger.length,missingProvenance,reused,pendingArt:[],previousGenerationLimit:'429 usage_limit_reached (resolved by successful built-in retries)',correctedDrawings:20};
+if(summary.uniqueSourceFigures!==420)throw Error('Unique source count mismatch');
+await writeFile(`${root}/selection-summary.json`,JSON.stringify(summary,null,2)+'\n');
+console.log(JSON.stringify(summary));

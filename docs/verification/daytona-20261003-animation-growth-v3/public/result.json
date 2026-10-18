@@ -1,0 +1,48 @@
+{
+  "url": "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work",
+  "viewport": [
+    1366,
+    768
+  ],
+  "errors": [],
+  "failedAssets": [],
+  "candidateRates": [
+    [
+      1.2,
+      1.6,
+      1.4,
+      1.1
+    ],
+    [
+      1.5,
+      1.3,
+      1.5,
+      1.1
+    ],
+    [
+      1.4,
+      1.2,
+      1.1,
+      1.2
+    ]
+  ],
+  "animationResources": [
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/hero.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/identity.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/roles.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/drone.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/hero-reactions.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/region-4.webp",
+    "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/art/animation-rebuild-v2/region-9.webp"
+  ],
+  "passed": [
+    "lobby",
+    "create",
+    "combat",
+    "bag restrictions",
+    "save",
+    "reload",
+    "resume"
+  ],
+  "storage": "isolated Playwright context"
+}

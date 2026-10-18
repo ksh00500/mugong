@@ -1,0 +1,56 @@
+{
+  "result": {
+    "objects": [
+      {
+        "kind": "safe",
+        "mechanic": "oasis",
+        "stage": 0,
+        "x": 1280,
+        "y": 380
+      },
+      {
+        "kind": "wall",
+        "mechanic": "sandwall",
+        "stage": 1,
+        "x": 1175,
+        "y": 500
+      },
+      {
+        "kind": "wall",
+        "mechanic": "sandwall",
+        "stage": 1,
+        "x": 1385,
+        "y": 500
+      }
+    ],
+    "images": [
+      {
+        "texture": "boss-mechanics",
+        "frame": "7",
+        "x": 1280,
+        "y": 380,
+        "width": 250,
+        "height": 250
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "4",
+        "x": 1175,
+        "y": 500,
+        "width": 100,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "4",
+        "x": 1385,
+        "y": 500,
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "valid": true,
+    "alpha": "http://127.0.0.1:5173/art/boss-mechanics-v1.png"
+  },
+  "errors": []
+}

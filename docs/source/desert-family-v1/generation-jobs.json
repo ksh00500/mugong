@@ -1,0 +1,2563 @@
+[
+  {
+    "id": "rider-front",
+    "character": "rider",
+    "name": "사막 기마병",
+    "slot": 0,
+    "view": 0,
+    "source": "rider-front-locomotion.png",
+    "prompt": "rider-front-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "rider-front-locomotion.png",
+      "1": "rider-front-locomotion.png",
+      "2": "rider-front-locomotion.png",
+      "3": "rider-front-locomotion.png",
+      "4": "rider-front-locomotion.png",
+      "5": "rider-front-locomotion.png",
+      "6": "rider-front-combat.png",
+      "7": "rider-front-combat.png",
+      "8": "rider-front-combat.png",
+      "9": "rider-front-combat.png",
+      "10": "rider-front-combat.png",
+      "11": "rider-front-combat.png"
+    }
+  },
+  {
+    "id": "rider-front-right",
+    "character": "rider",
+    "name": "사막 기마병",
+    "slot": 0,
+    "view": 1,
+    "source": "rider-front-right-locomotion.png",
+    "prompt": "rider-front-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "rider-front-right-locomotion.png",
+      "1": "rider-front-right-locomotion.png",
+      "2": "rider-front-right-locomotion.png",
+      "3": "rider-front-right-locomotion.png",
+      "4": "rider-front-right-locomotion.png",
+      "5": "rider-front-right-locomotion.png",
+      "6": "rider-front-right-combat.png",
+      "7": "rider-front-right-combat.png",
+      "8": "rider-front-right-combat.png",
+      "9": "rider-front-right-combat.png",
+      "10": "rider-front-right-combat.png",
+      "11": "rider-front-right-combat.png"
+    }
+  },
+  {
+    "id": "rider-right",
+    "character": "rider",
+    "name": "사막 기마병",
+    "slot": 0,
+    "view": 2,
+    "source": "rider-right-locomotion.png",
+    "prompt": "rider-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "rider-right-locomotion.png",
+      "1": "rider-right-locomotion.png",
+      "2": "rider-right-locomotion.png",
+      "3": "rider-right-locomotion.png",
+      "4": "rider-right-locomotion.png",
+      "5": "rider-right-locomotion.png",
+      "6": "rider-right-combat.png",
+      "7": "rider-right-combat.png",
+      "8": "rider-right-combat.png",
+      "9": "rider-right-combat.png",
+      "10": "rider-right-combat.png",
+      "11": "rider-right-combat.png"
+    }
+  },
+  {
+    "id": "rider-rear-right",
+    "character": "rider",
+    "name": "사막 기마병",
+    "slot": 0,
+    "view": 3,
+    "source": "rider-rear-right-locomotion.png",
+    "prompt": "rider-rear-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "rider-rear-right-locomotion.png",
+      "1": "rider-rear-right-locomotion.png",
+      "2": "rider-rear-right-locomotion.png",
+      "3": "rider-rear-right-locomotion.png",
+      "4": "rider-rear-right-locomotion.png",
+      "5": "rider-rear-right-locomotion.png",
+      "6": "rider-rear-right-combat.png",
+      "7": "rider-rear-right-combat.png",
+      "8": "rider-rear-right-combat.png",
+      "9": "rider-rear-right-combat.png",
+      "10": "rider-rear-right-combat.png",
+      "11": "rider-rear-right-combat.png"
+    }
+  },
+  {
+    "id": "rider-back",
+    "character": "rider",
+    "name": "사막 기마병",
+    "slot": 0,
+    "view": 4,
+    "source": "rider-back-locomotion.png",
+    "prompt": "rider-back-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "rider-back-locomotion.png",
+      "1": "rider-back-locomotion.png",
+      "2": "rider-back-locomotion.png",
+      "3": "rider-back-locomotion.png",
+      "4": "rider-back-locomotion.png",
+      "5": "rider-back-locomotion.png",
+      "6": "rider-back-combat.png",
+      "7": "rider-back-combat.png",
+      "8": "rider-back-combat.png",
+      "9": "rider-back-combat.png",
+      "10": "rider-back-combat.png",
+      "11": "rider-back-combat.png"
+    }
+  },
+  {
+    "id": "assassin-front",
+    "character": "assassin",
+    "name": "사막 암살자",
+    "slot": 1,
+    "view": 0,
+    "source": "assassin-front.png",
+    "prompt": "assassin-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "assassin-front-right",
+    "character": "assassin",
+    "name": "사막 암살자",
+    "slot": 1,
+    "view": 1,
+    "source": "assassin-front-right.png",
+    "prompt": "assassin-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "assassin-right",
+    "character": "assassin",
+    "name": "사막 암살자",
+    "slot": 1,
+    "view": 2,
+    "source": "assassin-right.png",
+    "prompt": "assassin-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "assassin-rear-right",
+    "character": "assassin",
+    "name": "사막 암살자",
+    "slot": 1,
+    "view": 3,
+    "source": "assassin-rear-right.png",
+    "prompt": "assassin-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "assassin-back",
+    "character": "assassin",
+    "name": "사막 암살자",
+    "slot": 1,
+    "view": 4,
+    "source": "assassin-back.png",
+    "prompt": "assassin-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ringblade-front",
+    "character": "ringblade",
+    "name": "사막 환도병",
+    "slot": 2,
+    "view": 0,
+    "source": "ringblade-front.png",
+    "prompt": "ringblade-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ringblade-front-right",
+    "character": "ringblade",
+    "name": "사막 환도병",
+    "slot": 2,
+    "view": 1,
+    "source": "ringblade-front-right.png",
+    "prompt": "ringblade-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ringblade-right",
+    "character": "ringblade",
+    "name": "사막 환도병",
+    "slot": 2,
+    "view": 2,
+    "source": "ringblade-right.png",
+    "prompt": "ringblade-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ringblade-rear-right",
+    "character": "ringblade",
+    "name": "사막 환도병",
+    "slot": 2,
+    "view": 3,
+    "source": "ringblade-rear-right.png",
+    "prompt": "ringblade-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "ringblade-back",
+    "character": "ringblade",
+    "name": "사막 환도병",
+    "slot": 2,
+    "view": 4,
+    "source": "ringblade-back.png",
+    "prompt": "ringblade-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "asar-front",
+    "character": "asar",
+    "name": "황사도적왕 아사르",
+    "slot": 3,
+    "view": 0,
+    "source": "asar-front.png",
+    "prompt": "asar-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "asar-front-right",
+    "character": "asar",
+    "name": "황사도적왕 아사르",
+    "slot": 3,
+    "view": 1,
+    "source": "asar-front-right.png",
+    "prompt": "asar-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "asar-right",
+    "character": "asar",
+    "name": "황사도적왕 아사르",
+    "slot": 3,
+    "view": 2,
+    "source": "asar-right.png",
+    "prompt": "asar-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "asar-rear-right",
+    "character": "asar",
+    "name": "황사도적왕 아사르",
+    "slot": 3,
+    "view": 3,
+    "source": "asar-rear-right.png",
+    "prompt": "asar-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "asar-back",
+    "character": "asar",
+    "name": "황사도적왕 아사르",
+    "slot": 3,
+    "view": 4,
+    "source": "asar-back.png",
+    "prompt": "asar-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "naya-front",
+    "character": "naya",
+    "name": "쌍환무희 나야",
+    "slot": 4,
+    "view": 0,
+    "source": "naya-front.png",
+    "prompt": "naya-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "naya-front-right",
+    "character": "naya",
+    "name": "쌍환무희 나야",
+    "slot": 4,
+    "view": 1,
+    "source": "naya-front-right.png",
+    "prompt": "naya-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "naya-right",
+    "character": "naya",
+    "name": "쌍환무희 나야",
+    "slot": 4,
+    "view": 2,
+    "source": "naya-right.png",
+    "prompt": "naya-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "naya-rear-right",
+    "character": "naya",
+    "name": "쌍환무희 나야",
+    "slot": 4,
+    "view": 3,
+    "source": "naya-rear-right.png",
+    "prompt": "naya-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "naya-back",
+    "character": "naya",
+    "name": "쌍환무희 나야",
+    "slot": 4,
+    "view": 4,
+    "source": "naya-back.png",
+    "prompt": "naya-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "balta-front",
+    "character": "balta",
+    "name": "흑사마승 발타",
+    "slot": 5,
+    "view": 0,
+    "source": "balta-front.png",
+    "prompt": "balta-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "balta-front-right",
+    "character": "balta",
+    "name": "흑사마승 발타",
+    "slot": 5,
+    "view": 1,
+    "source": "balta-front-right.png",
+    "prompt": "balta-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "balta-right",
+    "character": "balta",
+    "name": "흑사마승 발타",
+    "slot": 5,
+    "view": 2,
+    "source": "balta-right.png",
+    "prompt": "balta-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "balta-rear-right",
+    "character": "balta",
+    "name": "흑사마승 발타",
+    "slot": 5,
+    "view": 3,
+    "source": "balta-rear-right.png",
+    "prompt": "balta-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "balta-back",
+    "character": "balta",
+    "name": "흑사마승 발타",
+    "slot": 5,
+    "view": 4,
+    "source": "balta-back.png",
+    "prompt": "balta-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "arkan-front",
+    "character": "arkan",
+    "name": "대막도왕 아르칸",
+    "slot": 6,
+    "view": 0,
+    "source": "arkan-front.png",
+    "prompt": "arkan-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "arkan-front-right",
+    "character": "arkan",
+    "name": "대막도왕 아르칸",
+    "slot": 6,
+    "view": 1,
+    "source": "arkan-front-right.png",
+    "prompt": "arkan-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "arkan-right",
+    "character": "arkan",
+    "name": "대막도왕 아르칸",
+    "slot": 6,
+    "view": 2,
+    "source": "arkan-right.png",
+    "prompt": "arkan-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "arkan-rear-right",
+    "character": "arkan",
+    "name": "대막도왕 아르칸",
+    "slot": 6,
+    "view": 3,
+    "source": "arkan-rear-right.png",
+    "prompt": "arkan-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 2,
+        "rows": 2,
+        "index": 0
+      },
+      "9": {
+        "columns": 2,
+        "rows": 2,
+        "index": 1
+      },
+      "10": {
+        "columns": 2,
+        "rows": 2,
+        "index": 2
+      },
+      "11": {
+        "columns": 2,
+        "rows": 2,
+        "index": 3
+      }
+    },
+    "poseSources": {
+      "8": "arkan-rear-right-finish.png",
+      "9": "arkan-rear-right-finish.png",
+      "10": "arkan-rear-right-finish.png",
+      "11": "arkan-rear-right-finish.png"
+    }
+  },
+  {
+    "id": "arkan-back",
+    "character": "arkan",
+    "name": "대막도왕 아르칸",
+    "slot": 6,
+    "view": 4,
+    "source": "arkan-back.png",
+    "prompt": "arkan-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  }
+]

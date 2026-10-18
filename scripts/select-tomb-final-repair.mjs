@@ -1,0 +1,10 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const root = 'docs/source/tomb-family-v1';
+const qs = JSON.parse(await readFile(`${root}/second-repair-requests.json`, 'utf8'));
+const q = qs.find((q) => q.jobId === 'gwakgi-back' && q.targets[0].pose === 7);
+q.id = 'gwakgi-back-repair-v4-7';
+q.source = q.id + '.png';
+q.prompt = q.id + '.prompt.txt';
+q.references = ['gwakgi-back-repair-v3-3.png', 'reference-gwakgi-back.png'];
+q.targets.forEach((t, index) => (t.cell = { columns: 2, rows: 3, index }));
+await writeFile(`${root}/second-repair-requests.json`, JSON.stringify(qs, null, 2) + '\n');

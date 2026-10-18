@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "snowhunter-front",
+    "character": "snowhunter",
+    "name": "설산 창 돌진병",
+    "slot": 0,
+    "view": 0,
+    "source": "snowhunter-front-locomotion.png",
+    "prompt": "snowhunter-front-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "0": "snowhunter-front-consistent-v4.png",
+      "1": "snowhunter-front-consistent-v4.png",
+      "2": "snowhunter-front-consistent-v4.png",
+      "3": "snowhunter-front-consistent-v4.png",
+      "4": "snowhunter-front-consistent-v4.png",
+      "5": "snowhunter-front-consistent-v4.png",
+      "6": "snowhunter-front-consistent-v4.png",
+      "7": "snowhunter-front-consistent-v4.png",
+      "8": "snowhunter-front-consistent-v4.png",
+      "9": "snowhunter-front-consistent-v4.png",
+      "10": "snowhunter-front-consistent-v4.png",
+      "11": "snowhunter-front-consistent-v4.png"
+    }
+  },
+  {
+    "id": "snowhunter-front-right",
+    "character": "snowhunter",
+    "name": "설산 창 돌진병",
+    "slot": 0,
+    "view": 1,
+    "source": "snowhunter-front-right-locomotion.png",
+    "prompt": "snowhunter-front-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3,
+        "rectangle": [
+          0,
+          512,
+          1024,
+          1024
+        ]
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "snowhunter-front-right-locomotion-v3.png",
+      "1": "snowhunter-front-right-locomotion-v3.png",
+      "2": "snowhunter-front-right-locomotion-v3.png",
+      "3": "snowhunter-front-right-locomotion-v3.png",
+      "4": "snowhunter-front-right-locomotion-v3.png",
+      "5": "snowhunter-front-right-locomotion-v3.png",
+      "6": "snowhunter-front-right-combat.png",
+      "7": "snowhunter-front-right-combat.png",
+      "8": "snowhunter-front-right-combat.png",
+      "9": "snowhunter-front-right-follow-padding.png",
+      "10": "snowhunter-front-right-combat.png",
+      "11": "snowhunter-front-right-combat.png"
+    }
+  },
+  {
+    "id": "snowhunter-right",
+    "character": "snowhunter",
+    "name": "설산 창 돌진병",
+    "slot": 0,
+    "view": 2,
+    "source": "snowhunter-right-locomotion.png",
+    "prompt": "snowhunter-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "snowhunter-right-locomotion.png",
+      "1": "snowhunter-right-locomotion.png",
+      "2": "snowhunter-right-locomotion.png",
+      "3": "snowhunter-right-locomotion.png",
+      "4": "snowhunter-right-locomotion.png",
+      "5": "snowhunter-right-locomotion.png",
+      "6": "snowhunter-right-combat.png",
+      "7": "snowhunter-right-combat.png",
+      "8": "snowhunter-right-combat.png",
+      "9": "snowhunter-right-combat.png",
+      "10": "snowhunter-right-combat.png",
+      "11": "snowhunter-right-combat.png"
+    }
+  },
+  {
+    "id": "snowhunter-rear-right",
+    "character": "snowhunter",
+    "name": "설산 창 돌진병",
+    "slot": 0,
+    "view": 3,
+    "source": "snowhunter-rear-right-locomotion.png",
+    "prompt": "snowhunter-rear-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "snowhunter-rear-right-locomotion.png",
+      "1": "snowhunter-rear-right-locomotion.png",
+      "2": "snowhunter-rear-right-locomotion.png",
+      "3": "snowhunter-rear-right-locomotion.png",
+      "4": "snowhunter-rear-right-locomotion.png",
+      "5": "snowhunter-rear-right-locomotion.png",
+      "6": "snowhunter-rear-right-combat.png",
+      "7": "snowhunter-rear-right-combat.png",
+      "8": "snowhunter-rear-right-combat.png",
+      "9": "snowhunter-rear-right-combat.png",
+      "10": "snowhunter-rear-right-combat.png",
+      "11": "snowhunter-rear-right-combat.png"
+    }
+  },
+  {
+    "id": "snowhunter-back",
+    "character": "snowhunter",
+    "name": "설산 창 돌진병",
+    "slot": 0,
+    "view": 4,
+    "source": "snowhunter-back-locomotion.png",
+    "prompt": "snowhunter-back-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "snowhunter-back-locomotion.png",
+      "1": "snowhunter-back-locomotion.png",
+      "2": "snowhunter-back-locomotion.png",
+      "3": "snowhunter-back-locomotion.png",
+      "4": "snowhunter-back-locomotion.png",
+      "5": "snowhunter-back-locomotion.png",
+      "6": "snowhunter-back-axial-thrust.png",
+      "7": "snowhunter-back-axial-thrust.png",
+      "8": "snowhunter-back-axial-thrust.png",
+      "9": "snowhunter-back-axial-thrust.png",
+      "10": "snowhunter-back-axial-thrust.png",
+      "11": "snowhunter-back-axial-thrust.png"
+    }
+  },
+  {
+    "id": "snowweaver-front",
+    "character": "snowweaver",
+    "name": "설산 빙술사",
+    "slot": 1,
+    "view": 0,
+    "source": "snowweaver-front.png",
+    "prompt": "snowweaver-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "snowweaver-front-axial-cast.png",
+      "7": "snowweaver-front-axial-cast.png",
+      "8": "snowweaver-front-axial-cast.png",
+      "9": "snowweaver-front-axial-cast.png",
+      "10": "snowweaver-front-axial-cast.png",
+      "11": "snowweaver-front-axial-cast.png"
+    }
+  },
+  {
+    "id": "snowweaver-front-right",
+    "character": "snowweaver",
+    "name": "설산 빙술사",
+    "slot": 1,
+    "view": 1,
+    "source": "snowweaver-front-right.png",
+    "prompt": "snowweaver-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "8": "snowweaver-front-right-owner-v2.png",
+      "9": "snowweaver-front-right-owner-v2.png"
+    }
+  },
+  {
+    "id": "snowweaver-right",
+    "character": "snowweaver",
+    "name": "설산 빙술사",
+    "slot": 1,
+    "view": 2,
+    "source": "snowweaver-right.png",
+    "prompt": "snowweaver-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "snowweaver-rear-right",
+    "character": "snowweaver",
+    "name": "설산 빙술사",
+    "slot": 1,
+    "view": 3,
+    "source": "snowweaver-rear-right.png",
+    "prompt": "snowweaver-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "snowweaver-back",
+    "character": "snowweaver",
+    "name": "설산 빙술사",
+    "slot": 1,
+    "view": 4,
+    "source": "snowweaver-back.png",
+    "prompt": "snowweaver-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "0": "snowweaver-back-owner-v2.png",
+      "1": "snowweaver-back-owner-v2.png",
+      "2": "snowweaver-back-owner-v2.png",
+      "3": "snowweaver-back-owner-v2.png",
+      "4": "snowweaver-back-owner-v2.png",
+      "5": "snowweaver-back-owner-v2.png",
+      "6": "snowweaver-back-owner-v2.png",
+      "7": "snowweaver-back-owner-v2.png",
+      "8": "snowweaver-back-owner-v2.png",
+      "9": "snowweaver-back-owner-v2.png",
+      "10": "snowweaver-back-owner-v2.png",
+      "11": "snowweaver-back-owner-v2.png"
+    }
+  },
+  {
+    "id": "snowbowman-front",
+    "character": "snowbowman",
+    "name": "설산 궁수",
+    "slot": 2,
+    "view": 0,
+    "source": "snowbowman-front.png",
+    "prompt": "snowbowman-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "6": "snowbowman-front-axial-bow.png",
+      "7": "snowbowman-front-draw-v2.png",
+      "8": "snowbowman-front-axial-bow.png",
+      "9": "snowbowman-front-axial-bow.png",
+      "10": "snowbowman-front-axial-bow.png",
+      "11": "snowbowman-front-draw-v2.png"
+    }
+  },
+  {
+    "id": "snowbowman-front-right",
+    "character": "snowbowman",
+    "name": "설산 궁수",
+    "slot": 2,
+    "view": 1,
+    "source": "snowbowman-front-right.png",
+    "prompt": "snowbowman-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "snowbowman-right",
+    "character": "snowbowman",
+    "name": "설산 궁수",
+    "slot": 2,
+    "view": 2,
+    "source": "snowbowman-right.png",
+    "prompt": "snowbowman-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "snowbowman-rear-right",
+    "character": "snowbowman",
+    "name": "설산 궁수",
+    "slot": 2,
+    "view": 3,
+    "source": "snowbowman-rear-right.png",
+    "prompt": "snowbowman-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "snowbowman-back",
+    "character": "snowbowman",
+    "name": "설산 궁수",
+    "slot": 2,
+    "view": 4,
+    "source": "snowbowman-back.png",
+    "prompt": "snowbowman-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "0": "snowbowman-back-axial-bow.png",
+      "1": "snowbowman-back-axial-bow.png",
+      "2": "snowbowman-back-axial-bow.png",
+      "3": "snowbowman-back-axial-bow.png",
+      "4": "snowbowman-back-axial-bow.png",
+      "5": "snowbowman-back-axial-bow.png",
+      "6": "snowbowman-back-axial-bow.png",
+      "7": "snowbowman-back-string-v3.png",
+      "8": "snowbowman-back-axial-bow.png",
+      "9": "snowbowman-back-axial-bow.png",
+      "10": "snowbowman-back-axial-bow.png",
+      "11": "snowbowman-back-axial-bow.png"
+    }
+  },
+  {
+    "id": "mujin-front",
+    "character": "mokjin",
+    "name": "설원창객 목진",
+    "slot": 3,
+    "view": 0,
+    "source": "mujin-front-locomotion.png",
+    "prompt": "mujin-front-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "mujin-front-locomotion.png",
+      "1": "mujin-front-locomotion.png",
+      "2": "mujin-front-locomotion.png",
+      "3": "mujin-front-locomotion.png",
+      "4": "mujin-front-locomotion.png",
+      "5": "mujin-front-locomotion.png",
+      "6": "mujin-front-combat.png",
+      "7": "mujin-front-combat.png",
+      "8": "mujin-front-combat.png",
+      "9": "mujin-front-combat.png",
+      "10": "mujin-front-combat.png",
+      "11": "mujin-front-combat.png"
+    }
+  },
+  {
+    "id": "mujin-front-right",
+    "character": "mokjin",
+    "name": "설원창객 목진",
+    "slot": 3,
+    "view": 1,
+    "source": "mujin-front-right-locomotion.png",
+    "prompt": "mujin-front-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "mujin-front-right-locomotion-v2.png",
+      "1": "mujin-front-right-locomotion-v2.png",
+      "2": "mujin-front-right-locomotion-v2.png",
+      "3": "mujin-front-right-locomotion-v2.png",
+      "4": "mujin-front-right-locomotion-v2.png",
+      "5": "mujin-front-right-locomotion-v2.png",
+      "6": "mujin-front-right-combat.png",
+      "7": "mujin-front-right-combat.png",
+      "8": "mujin-front-right-contact-separated.png",
+      "9": "mujin-front-right-follow-separated.png",
+      "10": "mujin-front-right-combat.png",
+      "11": "mujin-front-right-combat.png"
+    }
+  },
+  {
+    "id": "mujin-right",
+    "character": "mokjin",
+    "name": "설원창객 목진",
+    "slot": 3,
+    "view": 2,
+    "source": "mujin-right-locomotion.png",
+    "prompt": "mujin-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "rectangle": [
+          0,
+          512,
+          1024,
+          1024
+        ]
+      },
+      "9": {
+        "rectangle": [
+          0,
+          512,
+          1024,
+          1024
+        ]
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "mujin-right-locomotion.png",
+      "1": "mujin-right-locomotion.png",
+      "2": "mujin-right-locomotion.png",
+      "3": "mujin-right-locomotion.png",
+      "4": "mujin-right-locomotion.png",
+      "5": "mujin-right-locomotion.png",
+      "6": "mujin-right-combat.png",
+      "7": "mujin-right-combat.png",
+      "8": "mujin-right-separate-p8.png",
+      "9": "mujin-right-separate-p9.png",
+      "10": "mujin-right-combat.png",
+      "11": "mujin-right-combat.png"
+    }
+  },
+  {
+    "id": "mujin-rear-right",
+    "character": "mokjin",
+    "name": "설원창객 목진",
+    "slot": 3,
+    "view": 3,
+    "source": "mujin-rear-right-locomotion.png",
+    "prompt": "mujin-rear-right-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "mujin-rear-right-locomotion.png",
+      "1": "mujin-rear-right-locomotion.png",
+      "2": "mujin-rear-right-locomotion.png",
+      "3": "mujin-rear-right-locomotion.png",
+      "4": "mujin-rear-right-locomotion.png",
+      "5": "mujin-rear-right-locomotion.png",
+      "6": "mujin-rear-right-combat.png",
+      "7": "mujin-rear-right-combat.png",
+      "8": "mujin-rear-right-combat.png",
+      "9": "mujin-rear-right-combat.png",
+      "10": "mujin-rear-right-combat.png",
+      "11": "mujin-rear-right-combat.png"
+    }
+  },
+  {
+    "id": "mujin-back",
+    "character": "mokjin",
+    "name": "설원창객 목진",
+    "slot": 3,
+    "view": 4,
+    "source": "mujin-back-locomotion.png",
+    "prompt": "mujin-back-locomotion.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "1": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "2": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "3": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "4": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "5": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      "6": {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      "7": {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      "8": {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      "9": {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      "10": {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      "11": {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    },
+    "poseSources": {
+      "0": "mujin-back-locomotion.png",
+      "1": "mujin-back-locomotion.png",
+      "2": "mujin-back-locomotion.png",
+      "3": "mujin-back-locomotion.png",
+      "4": "mujin-back-locomotion.png",
+      "5": "mujin-back-locomotion.png",
+      "6": "mujin-back-combat.png",
+      "7": "mujin-back-combat.png",
+      "8": "mujin-back-combat.png",
+      "9": "mujin-back-combat.png",
+      "10": "mujin-back-combat.png",
+      "11": "mujin-back-combat.png"
+    }
+  },
+  {
+    "id": "xuelan-front",
+    "character": "xuelan",
+    "name": "빙잠녀 설란",
+    "slot": 4,
+    "view": 0,
+    "source": "xuelan-front.png",
+    "prompt": "xuelan-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "xuelan-front-right",
+    "character": "xuelan",
+    "name": "빙잠녀 설란",
+    "slot": 4,
+    "view": 1,
+    "source": "xuelan-front-right.png",
+    "prompt": "xuelan-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "xuelan-right",
+    "character": "xuelan",
+    "name": "빙잠녀 설란",
+    "slot": 4,
+    "view": 2,
+    "source": "xuelan-right.png",
+    "prompt": "xuelan-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "xuelan-rear-right",
+    "character": "xuelan",
+    "name": "빙잠녀 설란",
+    "slot": 4,
+    "view": 3,
+    "source": "xuelan-rear-right.png",
+    "prompt": "xuelan-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "xuelan-back",
+    "character": "xuelan",
+    "name": "빙잠녀 설란",
+    "slot": 4,
+    "view": 4,
+    "source": "xuelan-back.png",
+    "prompt": "xuelan-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baixue-front",
+    "character": "baixue",
+    "name": "백설노괴",
+    "slot": 5,
+    "view": 0,
+    "source": "baixue-front.png",
+    "prompt": "baixue-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baixue-front-right",
+    "character": "baixue",
+    "name": "백설노괴",
+    "slot": 5,
+    "view": 1,
+    "source": "baixue-front-right.png",
+    "prompt": "baixue-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baixue-right",
+    "character": "baixue",
+    "name": "백설노괴",
+    "slot": 5,
+    "view": 2,
+    "source": "baixue-right.png",
+    "prompt": "baixue-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baixue-rear-right",
+    "character": "baixue",
+    "name": "백설노괴",
+    "slot": 5,
+    "view": 3,
+    "source": "baixue-rear-right.png",
+    "prompt": "baixue-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "baixue-back",
+    "character": "baixue",
+    "name": "백설노괴",
+    "slot": 5,
+    "view": 4,
+    "source": "baixue-back.png",
+    "prompt": "baixue-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "hanxue-front",
+    "character": "hanxue",
+    "name": "빙궁주 한설",
+    "slot": 6,
+    "view": 0,
+    "source": "hanxue-front.png",
+    "prompt": "hanxue-front.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "rectangle": [
+          0,
+          1152,
+          1024,
+          1536
+        ]
+      }
+    },
+    "poseSources": {
+      "8": "hanxue-front-contact-gap-v2.png",
+      "11": "hanxue-front-separate-p11.png"
+    }
+  },
+  {
+    "id": "hanxue-front-right",
+    "character": "hanxue",
+    "name": "빙궁주 한설",
+    "slot": 6,
+    "view": 1,
+    "source": "hanxue-front-right.png",
+    "prompt": "hanxue-front-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "hanxue-right",
+    "character": "hanxue",
+    "name": "빙궁주 한설",
+    "slot": 6,
+    "view": 2,
+    "source": "hanxue-right.png",
+    "prompt": "hanxue-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "rectangle": [
+          0,
+          768,
+          1024,
+          1152
+        ]
+      },
+      "9": {
+        "rectangle": [
+          0,
+          1152,
+          1024,
+          1536
+        ]
+      },
+      "10": {
+        "rectangle": [
+          0,
+          1152,
+          1024,
+          1536
+        ]
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    },
+    "poseSources": {
+      "8": "hanxue-right-contact-v2.png",
+      "9": "hanxue-right-separate-p9.png",
+      "10": "hanxue-right-separate-p10.png"
+    }
+  },
+  {
+    "id": "hanxue-rear-right",
+    "character": "hanxue",
+    "name": "빙궁주 한설",
+    "slot": 6,
+    "view": 3,
+    "source": "hanxue-rear-right.png",
+    "prompt": "hanxue-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  },
+  {
+    "id": "hanxue-back",
+    "character": "hanxue",
+    "name": "빙궁주 한설",
+    "slot": 6,
+    "view": 4,
+    "source": "hanxue-back.png",
+    "prompt": "hanxue-back.prompt.txt",
+    "poseSourceCells": {
+      "0": {
+        "columns": 3,
+        "rows": 4,
+        "index": 0
+      },
+      "1": {
+        "columns": 3,
+        "rows": 4,
+        "index": 1
+      },
+      "2": {
+        "columns": 3,
+        "rows": 4,
+        "index": 2
+      },
+      "3": {
+        "columns": 3,
+        "rows": 4,
+        "index": 3
+      },
+      "4": {
+        "columns": 3,
+        "rows": 4,
+        "index": 4
+      },
+      "5": {
+        "columns": 3,
+        "rows": 4,
+        "index": 5
+      },
+      "6": {
+        "columns": 3,
+        "rows": 4,
+        "index": 6
+      },
+      "7": {
+        "columns": 3,
+        "rows": 4,
+        "index": 7
+      },
+      "8": {
+        "columns": 3,
+        "rows": 4,
+        "index": 8
+      },
+      "9": {
+        "columns": 3,
+        "rows": 4,
+        "index": 9
+      },
+      "10": {
+        "columns": 3,
+        "rows": 4,
+        "index": 10
+      },
+      "11": {
+        "columns": 3,
+        "rows": 4,
+        "index": 11
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "playerVisualScale": 0.7,
+  "previousVisualScale": 0.5,
+  "sizeIncreaseRelativeToPrevious": "40%",
+  "comparedStates": 29568,
+  "automatedSizeTestsPassed": 4,
+  "relatedUnitTestsPassed": 28,
+  "productionBuildPassed": true,
+  "localProductionTestsPassed": 3,
+  "viewports": [
+    "1440x900",
+    "1366x768",
+    "1093x614"
+  ],
+  "directVisualReview": [
+    "after-canvas-1.png",
+    "after-webgl-1.png",
+    "production/combat-1440.png"
+  ],
+  "localApplied": true,
+  "remoteDeploymentChanged": false,
+  "realUserSaveChanged": false,
+  "caveat": "Automated checks cover all sampled states; direct visual review covers listed screenshots only. WebGL batch 0 screenshot has a test pause overlay."
+}

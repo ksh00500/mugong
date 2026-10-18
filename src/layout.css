@@ -1,0 +1,782 @@
+/* Shared rhythm and safe insets. Typography, world coordinates and bag geometry stay unchanged. */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --screen-inset: var(--space-8);
+  --panel-inset: var(--space-8);
+  --group-gap: var(--space-6);
+  --control-gap: var(--space-3);
+}
+
+/* Align the menu, stage, management dock and status to the same outer edge. */
+.app-shell .home-header,
+.app-shell .home-stage,
+.app-shell .home-footer {
+  padding-inline: var(--screen-inset);
+}
+.app-shell .home-stage {
+  gap: var(--group-gap);
+}
+.app-shell .home-dock {
+  width: calc(100% - var(--screen-inset) * 2);
+}
+.app-shell .home-header-end {
+  gap: var(--control-gap);
+}
+.app-shell .home-roster > header,
+.app-shell .home-fighter-detail,
+.app-shell .home-roster > footer {
+  padding-inline: var(--space-6);
+}
+.app-shell .home-empty-roster {
+  padding: var(--space-6);
+}
+.app-shell .home-run-card {
+  padding: var(--space-6);
+}
+.app-shell .home-run-heading,
+.app-shell .home-bag-link {
+  gap: var(--space-2);
+}
+.app-shell .home-start-facts {
+  margin-top: 0;
+}
+.app-shell .home-art-list {
+  gap: var(--space-2) var(--space-4);
+}
+.app-shell .home-dock-card {
+  padding-inline: var(--space-6);
+  gap: var(--space-3);
+}
+
+/* The heading, form fields and actions share a safe line inside painted frames. */
+.app-shell .dialog:not(.inventory-workspace):not(.warehouse-workspace) .dialog-header {
+  padding-inline: var(--panel-inset);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: var(--paper-light);
+}
+.app-shell
+  :is(
+    .home-create-form,
+    .home-records,
+    .home-guide,
+    .screen-settings,
+    .pause-menu,
+    .departure-confirm,
+    .death-result,
+    .art-reading
+  ) {
+  padding: var(--space-6) var(--panel-inset);
+}
+.app-shell .home-create-preview {
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+.app-shell .home-create-facts {
+  gap: var(--space-2);
+  margin: var(--space-3) 0 var(--space-6);
+}
+.app-shell :is(.home-create-actions, .departure-confirm > div) {
+  gap: var(--control-gap);
+}
+.app-shell .home-record-grid {
+  gap: var(--space-4);
+}
+.app-shell .home-record-grid > div {
+  padding: var(--space-6);
+  gap: var(--space-3);
+}
+.app-shell .home-guide dl {
+  column-gap: var(--space-6);
+  row-gap: var(--space-3);
+}
+.app-shell .home-guide {
+  background: #fff9ebed;
+}
+.app-shell .pause-menu {
+  gap: var(--control-gap);
+}
+.app-shell .pause-menu p {
+  margin-top: var(--space-3);
+}
+
+/* Tabs, workspace and feedback share edges. Do not add padding inside positioned bag cells. */
+.app-shell .inventory-mobile-nav,
+.inventory-workspace .inventory-columns,
+.inventory-workspace .inventory-status {
+  padding-inline: var(--screen-inset);
+}
+.inventory-workspace .inventory-columns {
+  gap: var(--group-gap);
+}
+.inventory-workspace .item-detail {
+  padding-left: var(--space-6);
+}
+.inventory-workspace .item-actions {
+  gap: var(--control-gap);
+  margin-top: var(--space-4);
+}
+.inventory-workspace .inventory-tray[data-active='true'] {
+  margin-inline: var(--screen-inset);
+}
+.warehouse-workspace .warehouse-content {
+  padding-inline: var(--screen-inset);
+}
+
+/* Text sits clear of the ornate frame, with related values kept together. */
+.app-shell .hud-top,
+.app-shell .hud-bottom {
+  left: var(--space-4);
+  right: var(--space-4);
+  gap: var(--space-4);
+}
+.app-shell .hud-bottom {
+  align-items: stretch;
+}
+.app-shell .hud .panel {
+  padding: var(--space-4) var(--space-6);
+  min-width: 0;
+}
+.app-shell .hud .player-panel {
+  padding-left: 112px;
+}
+.app-shell .hud .current-art {
+  padding: var(--space-4) var(--space-6) !important;
+  gap: var(--space-3);
+}
+.app-shell .hud .current-art > div {
+  min-width: 0;
+  gap: var(--space-2);
+}
+.app-shell .hud .ultimate-panel {
+  gap: var(--space-3);
+}
+.app-shell .hud .art-switch header {
+  margin-bottom: var(--space-2);
+}
+.app-shell .hud .hud-actions {
+  gap: var(--space-3);
+}
+.app-shell .hud .progress-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-3);
+}
+.app-shell .hud .progress-panel b span {
+  display: block;
+}
+
+/* Equal columns and a stable action line allow comparison across longer translated names. */
+@media (min-width: 761px) {
+  .app-shell .home-guide {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.8fr);
+    gap: var(--group-gap);
+  }
+  .app-shell .home-guide-intro {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding-bottom: var(--space-4);
+  }
+  .app-shell .home-guide dl {
+    margin: 0;
+  }
+  .app-shell .home-guide-rules {
+    align-self: start;
+    padding: var(--space-4);
+  }
+}
+
+@media (max-height: 740px) {
+  :root {
+    --screen-inset: var(--space-6);
+    --panel-inset: var(--space-6);
+    --group-gap: var(--space-4);
+  }
+  .app-shell
+    :is(
+      .home-create-form,
+      .home-records,
+      .home-guide,
+      .screen-settings,
+      .pause-menu,
+      .departure-confirm,
+      .death-result,
+      .art-reading
+    ) {
+    padding-block: var(--space-4);
+  }
+  .app-shell .home-run-card,
+  .app-shell .home-empty-roster {
+    padding: var(--space-4) var(--space-6);
+  }
+  .app-shell .home-bag-link {
+    margin-top: var(--space-3);
+  }
+  .app-shell .home-roster > header {
+    padding-block: var(--space-1);
+  }
+  .app-shell .home-roster-list button,
+  .app-shell .home-fighter-detail {
+    padding-block: var(--space-2);
+  }
+  .app-shell .roster-pagination {
+    padding-block: var(--space-1);
+  }
+  .app-shell .home-create-preview,
+  .app-shell .home-create-facts {
+    margin-bottom: var(--space-4);
+  }
+}
+@media (max-height: 820px) {
+  .app-shell .home-art-list,
+  .app-shell .home-roster > footer {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+@media (max-width: 760px) {
+  :root {
+    --screen-inset: var(--space-4);
+    --panel-inset: var(--space-4);
+    --group-gap: var(--space-3);
+    --control-gap: var(--space-2);
+  }
+  .app-shell .home-roster > header,
+  .app-shell .home-empty-roster,
+  .app-shell .home-fighter-detail,
+  .app-shell .home-roster > footer {
+    padding-inline: var(--space-4);
+  }
+  .app-shell .home-empty-roster {
+    padding-block: var(--space-2);
+  }
+  .app-shell .home-dock-card {
+    padding-inline: var(--space-2);
+  }
+  .inventory-workspace .item-actions {
+    margin-top: var(--space-3);
+  }
+  .app-shell .hud-top,
+  .app-shell .hud-bottom {
+    left: var(--space-2);
+    right: var(--space-2);
+    gap: var(--space-2);
+  }
+  .app-shell .hud .panel {
+    padding-inline: var(--space-3);
+  }
+  .app-shell .hud .current-art {
+    padding-inline: var(--space-3) !important;
+  }
+  .app-shell .hud .player-panel {
+    padding-left: 12px;
+  }
+}
+
+/* Reflow is based on the room each workspace has, including short windows. */
+.app-shell
+  :is(
+    .home-nav,
+    .home-header-end,
+    .home-departure,
+    .home-roster,
+    .hud-top > *,
+    .hud-bottom > *,
+    .current-art > div,
+    .player-name > b,
+    .detail-heading > div,
+    .item-actions > button
+  ) {
+  min-width: 0;
+}
+.app-shell :is(.player-name b, .current-art b, .home-roster-list b, .home-detail-heading b) {
+  overflow-wrap: anywhere;
+}
+.home-pane-tabs {
+  display: none;
+}
+.settings-pane-tabs {
+  display: none;
+}
+.app-shell .inventory-columns {
+  container-type: size;
+}
+.app-shell .inventory-workspace {
+  --cell: min(76px, calc((100cqh - 112px) / 8), calc((100cqw - 490px) / 10));
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='weapon'] .bag-column:not(.general-column) {
+  min-width: 260px;
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='general'] .general-column {
+  width: 100%;
+}
+.inventory-workspace .bag-grid.general {
+  width: calc(var(--cell) * 10);
+  margin-inline: auto;
+}
+.inventory-workspace .bag-grid.weapon {
+  width: calc(var(--cell) * 4);
+  margin-inline: auto;
+}
+.inventory-workspace .bag-usage {
+  max-width: 600px;
+  margin-inline: auto;
+}
+.app-shell .inventory-columns {
+  align-items: start;
+}
+.app-shell .growth[data-compact='true'] .growth-pages button:not(.growth-detail-link) {
+  width: 54px;
+  flex: none;
+  font-size: 30px;
+  color: #284d3f;
+}
+.app-shell .hud-actions .icon-button .ui-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-height: 650px) {
+  .app-shell .home-section-label,
+  .app-shell .home-start-facts,
+  .app-shell .home-detail-heading {
+    display: none;
+  }
+  .app-shell .home-departure h1 {
+    margin-bottom: 16px;
+  }
+  .app-shell .home-roster {
+    align-self: center;
+  }
+  .app-shell .home-roster > header {
+    padding-block: 4px;
+  }
+  .app-shell .home-fighter-detail {
+    padding-block: 4px;
+  }
+  .app-shell .home-stage {
+    align-items: center;
+  }
+  .app-shell .home-roster > header {
+    padding-block: 4px;
+  }
+  .app-shell .home-count {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  .app-shell .home-create-preview > div,
+  .app-shell .home-create-preview .eyebrow {
+    display: none;
+  }
+  .app-shell .home-create-preview h3 {
+    margin: 0 0 4px;
+  }
+  .app-shell .home-create-preview p {
+    margin: 0;
+  }
+  .app-shell .home-create-preview {
+    margin-bottom: 12px;
+  }
+  .app-shell .inventory-workspace .paged-item-list > .item-tile {
+    height: 120px;
+    padding: 8px;
+  }
+  .app-shell .inventory-workspace .paged-item-list .item-art {
+    height: 76px;
+    max-height: 76px;
+  }
+  .app-shell .inventory-workspace .paged-items {
+    gap: 12px;
+  }
+}
+@media (max-width: 1000px) and (max-height: 650px), (max-width: 760px) {
+  .app-shell .inventory-character .character-info > h3 {
+    display: none;
+  }
+  .app-shell .inventory-character .character-tabs {
+    margin: 8px 0;
+  }
+  .app-shell .inventory-character .binding-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .app-shell .inventory-character .binding-list > div {
+    min-height: 70px;
+    padding: 8px;
+    gap: 8px;
+  }
+  .app-shell .inventory-character .binding-list .art-glyph {
+    display: none;
+  }
+  .app-shell .inventory-character .binding-list > div > div {
+    min-width: 0;
+  }
+  .app-shell .inventory-character .binding-list b {
+    font-size: 21px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  .app-shell .inventory-character .binding-list small {
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+}
+@media (max-width: 760px), (max-height: 600px) {
+  .app-shell .settings-pane-tabs {
+    display: flex;
+    gap: 8px;
+    grid-column: 1/-1;
+  }
+  .app-shell .settings-pane-tabs button {
+    flex: 1;
+    min-height: 54px;
+    padding: 8px;
+    font-size: 21px;
+  }
+  .app-shell .settings-pane-tabs button[aria-pressed='true'] {
+    color: #285b4f;
+    background: #315b46;
+  }
+}
+@media (max-width: 1000px) {
+  .app-shell .inventory-workspace {
+    --cell: min(76px, calc((100cqh - 112px) / 8), calc((100cqw - 48px) / 10));
+  }
+  .app-shell .hud-top {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+  }
+  .app-shell .hud .boss-area {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .app-shell .hud .region-label {
+    display: none;
+  }
+  .app-shell .hud .progress-panel {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 0;
+  }
+  .app-shell .hud .player-panel {
+    min-height: 0;
+    padding-left: 16px;
+  }
+  .app-shell .hud-portrait {
+    display: none;
+  }
+  .app-shell .hud-bottom {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+  .app-shell .hud .current-art {
+    min-height: 0;
+    padding: 12px !important;
+  }
+  .app-shell .hud .current-art .art-glyph {
+    width: 54px;
+    height: 54px;
+  }
+  .app-shell .hud .art-switch {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 0;
+  }
+  .app-shell .hud .ultimate-panel {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(120px, 0.4fr) minmax(0, 1fr);
+    align-items: center;
+    min-height: 0;
+    padding: 10px 16px;
+    gap: 6px 12px;
+  }
+  .app-shell .hud .ultimate-panel small {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .app-shell .hud .art-slots {
+    gap: 4px;
+  }
+  .app-shell .hud .hud-actions {
+    flex-wrap: wrap;
+  }
+  .app-shell .hud .progress-panel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .app-shell .hud .hud-actions button {
+    min-height: 54px;
+  }
+  .app-shell .hud .hud-actions .icon-button {
+    width: 54px;
+    flex: none;
+  }
+}
+@media (max-width: 1000px) and (max-height: 660px) and (min-width: 601px) {
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail {
+    display: grid;
+    grid-template-columns: minmax(180px, 0.4fr) minmax(0, 1fr);
+    gap: 8px 16px;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .detail-heading {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    flex-direction: row;
+    align-items: start;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .detail-icon {
+    width: 66px;
+    height: 66px;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .detail-icon .item-art {
+    width: 60px;
+    height: 60px;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-location {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: start;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail > p {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail dl {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-actions {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .home-pane-tabs {
+    display: flex;
+    gap: 8px;
+    padding: 8px var(--screen-inset) 0;
+    flex: none;
+  }
+  .app-shell .home-pane-tabs button {
+    flex: 1;
+    min-height: 54px;
+    padding: 8px;
+    font-size: 21px;
+  }
+  .app-shell .home-pane-tabs button[aria-pressed='true'] {
+    background: #315b46;
+    color: #fff9e6;
+  }
+  .app-shell .home-stage {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+  }
+  .app-shell .home-stage[data-pane='departure'] .home-roster,
+  .app-shell .home-stage[data-pane='roster'] .home-departure {
+    display: none;
+  }
+  .app-shell .home-roster {
+    grid-row: 1;
+    align-self: center;
+  }
+  .app-shell .home-departure {
+    align-self: center;
+  }
+  .app-shell .home-departure h1 {
+    line-height: 1.2;
+  }
+  .app-shell .hud .panel {
+    padding: 12px;
+  }
+  .app-shell .hud .player-name b {
+    font-size: 27px;
+  }
+  .app-shell .hud .player-name {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+  .app-shell .hud .player-name b {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+  }
+  .app-shell .hud .player-name span {
+    font-size: 18px;
+  }
+  .app-shell .hud .current-art {
+    align-items: start;
+    gap: 6px;
+  }
+  .app-shell .hud .current-art .art-glyph {
+    display: none;
+  }
+  .app-shell .hud .current-art > div > small {
+    display: none;
+  }
+  .app-shell .hud .current-art b {
+    font-size: 25.5px;
+    line-height: 1.2;
+  }
+  .app-shell .hud .current-art p {
+    margin-top: 6px;
+  }
+  .app-shell .hud .art-slots button {
+    min-height: 64px;
+    min-width: 0;
+  }
+  .app-shell .hud .art-slots .art-glyph {
+    width: 30px;
+    height: 30px;
+  }
+  .app-shell .hud .art-slots button > span {
+    display: none;
+  }
+  .app-shell .hud .art-switch header {
+    flex-wrap: wrap;
+  }
+  .app-shell .hud .hud-actions kbd {
+    display: none;
+  }
+  .app-shell .hud .ultimate-panel small {
+    display: none;
+  }
+  .app-shell .hud .progress-panel > div:first-child > small {
+    display: none;
+  }
+  .app-shell .hud .progress-panel b {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .app-shell .hud .progress-panel b span {
+    display: block;
+  }
+  .app-shell .hud .health-line {
+    margin-bottom: 4px;
+  }
+  .app-shell .hud .xp-line {
+    margin-top: 4px;
+  }
+  .app-shell .hud .meter {
+    height: 10px;
+  }
+  .app-shell .inventory-workspace .bag-usage > div:first-child,
+  .app-shell .inventory-workspace .bag-usage-numbers {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .detail-icon {
+    width: 66px;
+    height: 66px;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .detail-icon .item-art {
+    width: 60px;
+    height: 60px;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .detail-heading {
+    gap: 12px;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .item-actions {
+    margin-top: 8px;
+    gap: 8px;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .item-detail > p {
+    margin: 4px 0;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .item-detail dl {
+    margin: 4px 0;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .item-location {
+    margin: 2px 0;
+    padding: 0;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .detail-heading h4 {
+    line-height: 1.2;
+  }
+}
+@media (max-height: 580px) {
+  .app-shell .home-create-form {
+    padding-block: 12px;
+  }
+  .app-shell .inventory-character .character-tabs {
+    margin: 4px 0;
+  }
+  .app-shell .inventory-character .binding-list > div {
+    padding-block: 4px;
+  }
+  .app-shell .hud .xp-line {
+    margin-top: 4px;
+  }
+  .app-shell .hud .current-art .art-glyph {
+    display: none;
+  }
+  .app-shell .hud .current-art > div > small {
+    display: none;
+  }
+  .app-shell .hud .player-name span {
+    border: 0;
+    padding: 0;
+  }
+  .app-shell .hud .ultimate-panel small {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) and (max-height: 650px) {
+  .app-shell .inventory-columns .detail-icon {
+    width: 66px;
+    height: 66px;
+  }
+  .app-shell .inventory-columns .detail-icon .item-art {
+    width: 60px;
+    height: 60px;
+  }
+  .app-shell .inventory-columns .item-detail > p {
+    margin: 4px 0;
+  }
+  .app-shell .inventory-columns .item-detail dl {
+    margin: 4px 0;
+  }
+  .app-shell .inventory-columns .item-location {
+    margin: 2px 0;
+    padding: 0;
+  }
+}
+.app-shell .inventory-columns .item-detail dl dd:last-child {
+  grid-column: 2/-1;
+}
+.app-shell .inventory-name {
+  line-height: 1.3;
+}
+@media (max-width: 760px) and (max-height: 650px) {
+  .app-shell .inventory-columns {
+    padding-block: 4px;
+  }
+  .app-shell .inventory-columns[data-mobile-tab='item'] .item-actions {
+    margin-top: 4px;
+  }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .app-shell .home-nav button > .ui-icon {
+    display: none;
+  }
+}

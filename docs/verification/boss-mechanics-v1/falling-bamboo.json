@@ -1,0 +1,41 @@
+{
+  "result": {
+    "objects": [
+      {
+        "kind": "wall",
+        "mechanic": "falling-bamboo",
+        "stage": 0,
+        "x": 850,
+        "y": 500
+      },
+      {
+        "kind": "wall",
+        "mechanic": "falling-bamboo",
+        "stage": 0,
+        "x": 1150,
+        "y": 500
+      }
+    ],
+    "images": [
+      {
+        "texture": "boss-mechanics",
+        "frame": "0",
+        "x": 850,
+        "y": 500,
+        "width": 100,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "0",
+        "x": 1150,
+        "y": 500,
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "valid": true,
+    "alpha": "http://127.0.0.1:5173/art/boss-mechanics-v1.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,330 @@
+{
+  "spans": [
+    {
+      "name": "preload",
+      "start": 1635.199999988079,
+      "duration": 1155.699999988079
+    },
+    {
+      "name": "registerRegionAtlas",
+      "key": "region-actors-4",
+      "start": 2791.800000011921,
+      "duration": 44.39999997615814
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-direction-4",
+      "start": 2836.399999976158,
+      "duration": 162.10000002384186
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-motion-4",
+      "start": 2998.699999988079,
+      "duration": 164.80000001192093
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-rear-4",
+      "start": 3163.5,
+      "duration": 305.5999999642372
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "enemy-role-directions",
+      "start": 3469.099999964237,
+      "duration": 123.40000003576279
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hostile-identity-directions",
+      "start": 3592.5,
+      "duration": 98.69999998807907
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hostile-identity-rear",
+      "start": 3691.199999988079,
+      "duration": 87
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "enemy-role-rear",
+      "start": 3778.199999988079,
+      "duration": 105.30000001192093
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "held-darts",
+      "start": 3884.5,
+      "duration": 49.89999997615814
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "held-gauntlets",
+      "start": 3934.399999976158,
+      "duration": 94
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hostile-identity-actions",
+      "start": 4028.599999964237,
+      "duration": 66.40000003576279
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "enemy-role-actions",
+      "start": 4095,
+      "duration": 100.69999998807907
+    },
+    {
+      "name": "registerCharacterSheet",
+      "key": "hero",
+      "start": 4230.300000011921,
+      "duration": 106.89999997615814
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "repair-drone-motion",
+      "start": 4337.199999988079,
+      "duration": 10.100000023841858
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-reactions",
+      "start": 4347.300000011921,
+      "duration": 62.19999998807907
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-roster-directions",
+      "start": 4409.5,
+      "duration": 149.5999999642372
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-roster-actions",
+      "start": 4559.099999964237,
+      "duration": 121.40000003576279
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-slash-5",
+      "start": 4680.5,
+      "duration": 91.19999998807907
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-slash-6",
+      "start": 4771.699999988079,
+      "duration": 99.10000002384186
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-slash-7",
+      "start": 4870.800000011921,
+      "duration": 139
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-slash-8",
+      "start": 5009.800000011921,
+      "duration": 103.89999997615814
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-slash-9",
+      "start": 5113.800000011921,
+      "duration": 124.39999997615814
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "hero-guard-6",
+      "start": 5238.199999988079,
+      "duration": 82.5
+    },
+    {
+      "name": "create",
+      "start": 2791,
+      "duration": 2529.899999976158
+    },
+    {
+      "name": "registerRegionAtlas",
+      "key": "region-actors-0",
+      "start": 5790.399999976158,
+      "duration": 39.69999998807907
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-direction-0",
+      "start": 5858.099999964237,
+      "duration": 101.70000004768372
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-motion-0",
+      "start": 6016.5,
+      "duration": 142.30000001192093
+    },
+    {
+      "name": "registerEnemyMotion",
+      "key": "region-rear-0",
+      "start": 6186.300000011921,
+      "duration": 92.69999998807907
+    }
+  ],
+  "longTasks": [
+    {
+      "start": 1625.800000011921,
+      "duration": 3696
+    },
+    {
+      "start": 5384.300000011921,
+      "duration": 124
+    },
+    {
+      "start": 5538.699999988079,
+      "duration": 67
+    },
+    {
+      "start": 5733.699999988079,
+      "duration": 545
+    }
+  ],
+  "imagesComplete": 1604.3999999761581,
+  "ready": 5320.899999976158,
+  "images": [
+    {
+      "key": "region-direction-4-isolated",
+      "width": 1170,
+      "height": 1561,
+      "hash": "30770e29e1d34d597569a21ea1031611c4d612d4768be3dac436e46f7cd69675"
+    },
+    {
+      "key": "region-motion-4-isolated",
+      "width": 1350,
+      "height": 1568,
+      "hash": "1b4a3a1c3f4cf40331e723f1408bc79008e95b9c1b363558f67f3f0196cffb9c"
+    },
+    {
+      "key": "region-rear-4-isolated",
+      "width": 1972,
+      "height": 3549,
+      "hash": "71d1bbde56f6940d72e2263ba2665ea4b2d27cb86ba8092414b5daae24d2c51b"
+    },
+    {
+      "key": "enemy-role-directions-isolated",
+      "width": 1415,
+      "height": 1164,
+      "hash": "c0342d9be9152852caa2a512c889b15758236e35f88e4bb1fb6301b9cea19d9b"
+    },
+    {
+      "key": "hostile-identity-directions-isolated",
+      "width": 1555,
+      "height": 984,
+      "hash": "b74a59089f38f04245ed537d170135accec75e69d0c614c932acb8f468955dc0"
+    },
+    {
+      "key": "hostile-identity-rear-isolated",
+      "width": 1468,
+      "height": 1101,
+      "hash": "205ae72885c640c2a7bd737ee44a1eba29989e378eeb3b754c4625ff7d8ddae7"
+    },
+    {
+      "key": "enemy-role-rear-isolated",
+      "width": 1392,
+      "height": 1124,
+      "hash": "f855cb3494c54c5af2820cb6f58bd4086e722fe101e1eb29ba2fd69cd540734e"
+    },
+    {
+      "key": "held-darts-isolated",
+      "width": 480,
+      "height": 739,
+      "hash": "6027a6bd392570cb34d76443df8d5362cba6f59b4c58472b2da50eaa65da6119"
+    },
+    {
+      "key": "held-gauntlets-isolated",
+      "width": 1865,
+      "height": 441,
+      "hash": "7e75821e6080a1d625ed229be2a2cb77995082813a0193f0b7cea7145efba6f8"
+    },
+    {
+      "key": "hostile-identity-actions-isolated",
+      "width": 1350,
+      "height": 675,
+      "hash": "7bf1a9de2e2e9b03184679a3e6f181912f77e3d9d3ec6eaa37410462cabb1af0"
+    },
+    {
+      "key": "enemy-role-actions-isolated",
+      "width": 1350,
+      "height": 900,
+      "hash": "c5bb7a7fb1a403671e2c669b31df7f83b048d8d38e67f771e68f376faf226087"
+    },
+    {
+      "key": "hero-isolated",
+      "width": 1616,
+      "height": 1030,
+      "hash": "bfb4c05a1b07973643381d475afdbbe0c452c34f67f9721a168a7b75f521a24a"
+    },
+    {
+      "key": "repair-drone-motion-isolated",
+      "width": 904,
+      "height": 148,
+      "hash": "48b0262c84bfc0d37f05fabe5e490adf6c8eca81639d87de9d250d2fb26597fa"
+    },
+    {
+      "key": "hero-reactions-isolated",
+      "width": 1800,
+      "height": 450,
+      "hash": "47b71a4afc2973b62105fcf9459d4d40efaff2c1db57b4af64aadf632a0af1fb"
+    },
+    {
+      "key": "hero-roster-directions-isolated",
+      "width": 1776,
+      "height": 1125,
+      "hash": "628fd057512e4e4702af7d4410212eb36f01b6674d695f3d185a63de2adbdae2"
+    },
+    {
+      "key": "hero-roster-actions-isolated",
+      "width": 1350,
+      "height": 1125,
+      "hash": "0e1a4605c6e9abd67f09b3eb6a90dbe679ada55d32c7f123eca8e4f5767aab5a"
+    },
+    {
+      "key": "hero-slash-5-isolated",
+      "width": 1260,
+      "height": 885,
+      "hash": "3df3b6490d65aea0683c105c5fc37839c5cd5a8ff23a3bc6e818feb480661b1c"
+    },
+    {
+      "key": "hero-slash-6-isolated",
+      "width": 1630,
+      "height": 1044,
+      "hash": "4cc52aedca050027e28ea6c53cd9d5f1d189cca87166da4bff41bda56fb2c301"
+    },
+    {
+      "key": "hero-slash-7-isolated",
+      "width": 2095,
+      "height": 1233,
+      "hash": "676881c8d3ae1b5578c8aada5666b081fcd02a3bd5515d7ecd8b298933b10afb"
+    },
+    {
+      "key": "hero-slash-8-isolated",
+      "width": 1875,
+      "height": 1026,
+      "hash": "dd0aa95f2f36c79fbe5a9b7bb38ee3d0f25f06eb53b2d93b55ac9e65bee4c3ff"
+    },
+    {
+      "key": "hero-slash-9-isolated",
+      "width": 1930,
+      "height": 1017,
+      "hash": "e494483a2789ef79209bbb9d4e48f959fb55bd01249ff009f87a6a76b0283459"
+    },
+    {
+      "key": "hero-guard-6-isolated",
+      "width": 1920,
+      "height": 592,
+      "hash": "f7008e1bc3029fca817b779e6bac3c3eccf722d9499bad33e85493f1bfc6b2bf"
+    }
+  ]
+}

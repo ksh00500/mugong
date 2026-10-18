@@ -1,0 +1,514 @@
+{
+  "status": "40 generated main sheets, 42 repair attempts, 91 selected draft correction poses; pending orientation/ownership/scale/feet; no game installation",
+  "plannedBosses": 4,
+  "plannedMoves": 8,
+  "plannedSources": 40,
+  "timings": [
+    {
+      "bossId": "9-1",
+      "character": "yanggi",
+      "move": "sweep",
+      "name": "문지기 봉격 회전",
+      "windup": 0.9,
+      "duration": 0.48,
+      "recovery": 0.85,
+      "contacts": [
+        0.24
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-1",
+      "character": "yanggi",
+      "move": "stance",
+      "name": "문지기 생문 석문 전개",
+      "windup": 1.1,
+      "duration": 0.48,
+      "recovery": 0.95,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-2",
+      "character": "mukyeon",
+      "move": "fan",
+      "name": "기관 쇠뇌 삼발",
+      "windup": 0.85,
+      "duration": 0.32,
+      "recovery": 0.85,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-2",
+      "character": "mukyeon",
+      "move": "stance",
+      "name": "기관 쇠뇌와 비행체 배치",
+      "windup": 1.2,
+      "duration": 0.52,
+      "recovery": 1.1,
+      "contacts": [
+        0.24
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-3",
+      "character": "jingwal",
+      "move": "dash",
+      "name": "팔문 쇄문 돌진",
+      "windup": 0.95,
+      "duration": 0.43,
+      "recovery": 0.9,
+      "contacts": [
+        0.34
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-3",
+      "character": "jingwal",
+      "move": "stance",
+      "name": "팔문 회전문 전개",
+      "windup": 1.15,
+      "duration": 0.48,
+      "recovery": 1,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-4",
+      "character": "zhugehyeon",
+      "move": "fan",
+      "name": "팔진 부채 삼풍",
+      "windup": 0.9,
+      "duration": 0.32,
+      "recovery": 0.9,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "9-4",
+      "character": "zhugehyeon",
+      "move": "stance",
+      "name": "팔진 생문 순행",
+      "windup": 1.2,
+      "duration": 0.5,
+      "recovery": 1.05,
+      "contacts": [
+        0.24
+      ],
+      "holdEligible": false
+    }
+  ],
+  "promptRecords": [
+    {
+      "id": "yanggi-front-sweep",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-front.png",
+      "referenceSha256": "2c130b9bb3a28fafd0c38b121e2a0be5edc2e037ea41b1bce94fa729636c6c03",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-front-sweep.prompt.txt",
+      "promptSha256": "a338f7f947d2c317adeaca6530f699b0bbc9fae9abf46fd853cc364f4eb818ac",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front.png",
+      "guideSha256": "8e597b0e4d71d284e1593ba6bd50c2e50126b4fad627fd43dd9c8c18794d42f0",
+      "referenceHeight": 353
+    },
+    {
+      "id": "yanggi-front-stance",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-front.png",
+      "referenceSha256": "2c130b9bb3a28fafd0c38b121e2a0be5edc2e037ea41b1bce94fa729636c6c03",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-front-stance.prompt.txt",
+      "promptSha256": "8639489c2613e2f19b1570622c9510d040550a65b6fd1e8d3695280a86c80851",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front.png",
+      "guideSha256": "8e597b0e4d71d284e1593ba6bd50c2e50126b4fad627fd43dd9c8c18794d42f0",
+      "referenceHeight": 353
+    },
+    {
+      "id": "yanggi-front-right-sweep",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-front-right.png",
+      "referenceSha256": "b90cfad533dd92407ebf35d4d34ee522d7806d5d7724b6530e111d5f2526c72c",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-front-right-sweep.prompt.txt",
+      "promptSha256": "ad793ecbbe1d282b6ed0332895c2a6c57e1e0ed7cd5cc3373eb0266e4531682f",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front-right.png",
+      "guideSha256": "40e3f32633d0640ef56ee4d5d629d76a1d2cf82c8b7830b2a8c2aedcee16e617",
+      "referenceHeight": 308
+    },
+    {
+      "id": "yanggi-front-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-front-right.png",
+      "referenceSha256": "b90cfad533dd92407ebf35d4d34ee522d7806d5d7724b6530e111d5f2526c72c",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-front-right-stance.prompt.txt",
+      "promptSha256": "3f748995178f302d06b0fce0c350b5255354a2d790d0b7de1b141a7c23658068",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-front-right.png",
+      "guideSha256": "40e3f32633d0640ef56ee4d5d629d76a1d2cf82c8b7830b2a8c2aedcee16e617",
+      "referenceHeight": 308
+    },
+    {
+      "id": "yanggi-right-sweep",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-right.png",
+      "referenceSha256": "3170479b620f8d536585796eafe6fedfd5c1fada746a6df489aa2a890dcd9871",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-right-sweep.prompt.txt",
+      "promptSha256": "0c1c21d9fca1b83f6715c8be9ee48b45ed68f6a3ee8d8522782d93b22b326dcf",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-right.png",
+      "guideSha256": "a393cb838ed3e26d298be7498c46e67ad0859bc0fbdcab4a07647d4650dc53ca",
+      "referenceHeight": 336
+    },
+    {
+      "id": "yanggi-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-right.png",
+      "referenceSha256": "3170479b620f8d536585796eafe6fedfd5c1fada746a6df489aa2a890dcd9871",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-right-stance.prompt.txt",
+      "promptSha256": "4a9913d20f28e08447352e3e9588fac65bd613c5e37020ba2c6ed009fc8f5b27",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-right.png",
+      "guideSha256": "a393cb838ed3e26d298be7498c46e67ad0859bc0fbdcab4a07647d4650dc53ca",
+      "referenceHeight": 336
+    },
+    {
+      "id": "yanggi-rear-right-sweep",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-rear-right.png",
+      "referenceSha256": "88c2e2bd9d606e3db7fddad573376626af111693c4d8e08153731bce6bfa3dd5",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-rear-right-sweep.prompt.txt",
+      "promptSha256": "c735612002874920345e62d84cbc748caea920cc8edda579a2c3b180e638645e",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-rear-right.png",
+      "guideSha256": "b63faede4422afe2344167defb6874c63c98264454a69273d4671880066a12f1",
+      "referenceHeight": 314
+    },
+    {
+      "id": "yanggi-rear-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-rear-right.png",
+      "referenceSha256": "88c2e2bd9d606e3db7fddad573376626af111693c4d8e08153731bce6bfa3dd5",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-rear-right-stance.prompt.txt",
+      "promptSha256": "a70fbd78cede17b9d1e5fda840a455a9b07e83c79623b0ddc6db51bb28d34887",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-rear-right.png",
+      "guideSha256": "b63faede4422afe2344167defb6874c63c98264454a69273d4671880066a12f1",
+      "referenceHeight": 314
+    },
+    {
+      "id": "yanggi-back-sweep",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-back.png",
+      "referenceSha256": "e8c4ec90955075d29fd5ee156a20df7472e56b1589846e97561b2f40c57af95e",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-back-sweep.prompt.txt",
+      "promptSha256": "76c8c5331b0471d759f572ab79ea44d98df9eb5eac0e15d74591d9bcf2e32c79",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-back.png",
+      "guideSha256": "e37f700ba9825d8c053058cea7e1842af5c80c5b1a3592b4f912c36717095aca",
+      "referenceHeight": 348
+    },
+    {
+      "id": "yanggi-back-stance",
+      "reference": "docs/source/zhuge-special-v1/references/yanggi-back.png",
+      "referenceSha256": "e8c4ec90955075d29fd5ee156a20df7472e56b1589846e97561b2f40c57af95e",
+      "prompt": "docs/source/zhuge-special-v1/yanggi-back-stance.prompt.txt",
+      "promptSha256": "044dc76935e9311c46a3fa00db632ccfb5c8c555583f4832eb3944025f362c8c",
+      "guide": "docs/source/zhuge-special-v1/guides/yanggi-back.png",
+      "guideSha256": "e37f700ba9825d8c053058cea7e1842af5c80c5b1a3592b4f912c36717095aca",
+      "referenceHeight": 348
+    },
+    {
+      "id": "mukyeon-front-fan",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-front.png",
+      "referenceSha256": "691677fd41caeb34cd6787aada0e05b5c8488fb6f4ae0c9909b57f2d27e48a2b",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-front-fan.prompt.txt",
+      "promptSha256": "fb38aade2bd750305e698a77b8f4f9cfb190a93df99020e1ebc5624e6d723536",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front.png",
+      "guideSha256": "3b670031b744f4f8de68d83cec1f6e3c8eb63ab48cf29d71f49013b2e7cc371f",
+      "referenceHeight": 361
+    },
+    {
+      "id": "mukyeon-front-stance",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-front.png",
+      "referenceSha256": "691677fd41caeb34cd6787aada0e05b5c8488fb6f4ae0c9909b57f2d27e48a2b",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-front-stance.prompt.txt",
+      "promptSha256": "aa1501261b2349b324b27b3df7ca3ab3b722bc5d08165d98fcd7a6bdbf34a4fc",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front.png",
+      "guideSha256": "3b670031b744f4f8de68d83cec1f6e3c8eb63ab48cf29d71f49013b2e7cc371f",
+      "referenceHeight": 361
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-front-right.png",
+      "referenceSha256": "22765cba1c319d29858f513f83a96eb3bd51045eb0923169c8181490fd7f13c0",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-front-right-fan.prompt.txt",
+      "promptSha256": "d3c8246dbc7eca9de11cf1c266fb3898f053e5970950d78bcf6306036a1ed67b",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front-right.png",
+      "guideSha256": "fa9ba6e3c91d2b57bc76331b624b0d5233483774db90b70347e1dd1a912dd382",
+      "referenceHeight": 325
+    },
+    {
+      "id": "mukyeon-front-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-front-right.png",
+      "referenceSha256": "22765cba1c319d29858f513f83a96eb3bd51045eb0923169c8181490fd7f13c0",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-front-right-stance.prompt.txt",
+      "promptSha256": "962d39399fc809140c3ab2f70797e9045dd579ef05cd3b1c79db92de69ce58c8",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-front-right.png",
+      "guideSha256": "fa9ba6e3c91d2b57bc76331b624b0d5233483774db90b70347e1dd1a912dd382",
+      "referenceHeight": 325
+    },
+    {
+      "id": "mukyeon-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-right.png",
+      "referenceSha256": "311222534411a3d08b2666d7cd3b7877bc86dc3c9e112dd10ad5adc510865f94",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-right-fan.prompt.txt",
+      "promptSha256": "108f14216526545be7ec67d768b9f8debed2f6057d460e8f13d0bed97f4a9871",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-right.png",
+      "guideSha256": "f5cb58eb90ef5a039bb76881b222e18c0826ecd9ccb0fcb409c1c34888d710d1",
+      "referenceHeight": 346
+    },
+    {
+      "id": "mukyeon-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-right.png",
+      "referenceSha256": "311222534411a3d08b2666d7cd3b7877bc86dc3c9e112dd10ad5adc510865f94",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-right-stance.prompt.txt",
+      "promptSha256": "86f6d8e47294f6e979cb5e181786680b4657a6c3574a107d78aac47c325a4992",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-right.png",
+      "guideSha256": "f5cb58eb90ef5a039bb76881b222e18c0826ecd9ccb0fcb409c1c34888d710d1",
+      "referenceHeight": 346
+    },
+    {
+      "id": "mukyeon-rear-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-rear-right.png",
+      "referenceSha256": "e9b90d8d0209bd8a58548a6bfedec74b2ffe1c552a87c36c992aeb73f40d413c",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-rear-right-fan.prompt.txt",
+      "promptSha256": "d852f37c231a38db5dcd7a7ff9e2363d66bed804ea2cbb468ee33371fbf52a21",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-rear-right.png",
+      "guideSha256": "b8179f5c0fd59cdc90e1fc26f66bd6a2972346f56344f41144e7584804df40e1",
+      "referenceHeight": 326
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-rear-right.png",
+      "referenceSha256": "e9b90d8d0209bd8a58548a6bfedec74b2ffe1c552a87c36c992aeb73f40d413c",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-rear-right-stance.prompt.txt",
+      "promptSha256": "1c8707bda6b6c1bdefde3c6e5ece9cf6d99f06f6ebce671828322054b2cde670",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-rear-right.png",
+      "guideSha256": "b8179f5c0fd59cdc90e1fc26f66bd6a2972346f56344f41144e7584804df40e1",
+      "referenceHeight": 326
+    },
+    {
+      "id": "mukyeon-back-fan",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-back.png",
+      "referenceSha256": "59904c1cef0b094c23bd0986d5d6e27b117172d99ba6ffee119cdb84b51fa65d",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-back-fan.prompt.txt",
+      "promptSha256": "21cc68f89d7ca0d52a47231ad6e1c9d2289bae3cce107b2493dc8d1ac6b04492",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-back.png",
+      "guideSha256": "6e4c7430b361c472321edeef7fb6aba7094be162bf4748478433af5433e9c656",
+      "referenceHeight": 361
+    },
+    {
+      "id": "mukyeon-back-stance",
+      "reference": "docs/source/zhuge-special-v1/references/mukyeon-back.png",
+      "referenceSha256": "59904c1cef0b094c23bd0986d5d6e27b117172d99ba6ffee119cdb84b51fa65d",
+      "prompt": "docs/source/zhuge-special-v1/mukyeon-back-stance.prompt.txt",
+      "promptSha256": "6d070a2061e05e73138f628576382ca1685482570ee745e6d6474e6be8bf45a0",
+      "guide": "docs/source/zhuge-special-v1/guides/mukyeon-back.png",
+      "guideSha256": "6e4c7430b361c472321edeef7fb6aba7094be162bf4748478433af5433e9c656",
+      "referenceHeight": 361
+    },
+    {
+      "id": "jingwal-front-dash",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-front.png",
+      "referenceSha256": "e1a1864ff2a7271dc98dbe2617761bfabd8d59e870088b4e2581c0b861cf483f",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-front-dash.prompt.txt",
+      "promptSha256": "108161004343516213340d7c211881d750a20245bd6ed43f5eb489090eb127ee",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front.png",
+      "guideSha256": "4f7e79fbdce34154498426c01aa6f852528984930c2991c2701454af0d37d633",
+      "referenceHeight": 342
+    },
+    {
+      "id": "jingwal-front-stance",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-front.png",
+      "referenceSha256": "e1a1864ff2a7271dc98dbe2617761bfabd8d59e870088b4e2581c0b861cf483f",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-front-stance.prompt.txt",
+      "promptSha256": "865cca169c6c9010bbfd79ff8942ab01f89635ebc82c02417c242f566e6144b7",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front.png",
+      "guideSha256": "4f7e79fbdce34154498426c01aa6f852528984930c2991c2701454af0d37d633",
+      "referenceHeight": 342
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-front-right.png",
+      "referenceSha256": "e36d7627c3caee71bc0834463ab45a85aac04af64ec5457b4b9f88f53d16b8c5",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-front-right-dash.prompt.txt",
+      "promptSha256": "3eb9686baaffe52da7a63a561ba113d8e23ceabd6e38761710521963d8929bab",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front-right.png",
+      "guideSha256": "7bf60f87f6be15bf16e12d6f84cc1c328c7525a2360bedd9c582ab9cd69d29ce",
+      "referenceHeight": 335
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-front-right.png",
+      "referenceSha256": "e36d7627c3caee71bc0834463ab45a85aac04af64ec5457b4b9f88f53d16b8c5",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-front-right-stance.prompt.txt",
+      "promptSha256": "04d77db71aaaadf656e73a99c4723eea957dd567bccfe7726421c9867cc5c387",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-front-right.png",
+      "guideSha256": "7bf60f87f6be15bf16e12d6f84cc1c328c7525a2360bedd9c582ab9cd69d29ce",
+      "referenceHeight": 335
+    },
+    {
+      "id": "jingwal-right-dash",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-right.png",
+      "referenceSha256": "c706a9bf70609a6ff5bc9a7229a20ce15d67b25cb3e18616b39f24f12b72372c",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-right-dash.prompt.txt",
+      "promptSha256": "a0ba5a97a2f482db88cdabf93ad1639a5897db5a324a00eafa976f130b4b0839",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-right.png",
+      "guideSha256": "9335e3b8f158bb9e9a3e75e2216654693d39e5cc20feb71f7331ebfbe9f709bc",
+      "referenceHeight": 334
+    },
+    {
+      "id": "jingwal-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-right.png",
+      "referenceSha256": "c706a9bf70609a6ff5bc9a7229a20ce15d67b25cb3e18616b39f24f12b72372c",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-right-stance.prompt.txt",
+      "promptSha256": "058468c455c6076cd86e9762508d0145faa9f54c71737c0dae125763f4703b46",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-right.png",
+      "guideSha256": "9335e3b8f158bb9e9a3e75e2216654693d39e5cc20feb71f7331ebfbe9f709bc",
+      "referenceHeight": 334
+    },
+    {
+      "id": "jingwal-rear-right-dash",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-rear-right.png",
+      "referenceSha256": "4dee8547c6de199d0d0e1ba20adfac607ba7aa62730cace85b1f4150b788c69d",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-rear-right-dash.prompt.txt",
+      "promptSha256": "3925ae8ed06e4a3e674a2013480f3968ca100dbf5d88a69e42e866ca69872019",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-rear-right.png",
+      "guideSha256": "443aafbc38d8e9802a8afc7bf210aeeac30b755100a36dec2e3ab477b87d90a4",
+      "referenceHeight": 308
+    },
+    {
+      "id": "jingwal-rear-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-rear-right.png",
+      "referenceSha256": "4dee8547c6de199d0d0e1ba20adfac607ba7aa62730cace85b1f4150b788c69d",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-rear-right-stance.prompt.txt",
+      "promptSha256": "2b94335aa9e156312d926cabf6fa3cd8eae428674c125c8b2cdf8dbb9e8d6c7d",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-rear-right.png",
+      "guideSha256": "443aafbc38d8e9802a8afc7bf210aeeac30b755100a36dec2e3ab477b87d90a4",
+      "referenceHeight": 308
+    },
+    {
+      "id": "jingwal-back-dash",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-back.png",
+      "referenceSha256": "c82ed7e6455e64475e951f7c5feb759fa5b517aa70fbf5c266d0862e2847bdcf",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-back-dash.prompt.txt",
+      "promptSha256": "34cc3ba06f86b74080896e73ffd578ff2245e4e08ca40d63f7e3f926be39dc46",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-back.png",
+      "guideSha256": "02868f0038cbb17ba8ca9063df75179ff995325594176d5110895fdde23aec63",
+      "referenceHeight": 342
+    },
+    {
+      "id": "jingwal-back-stance",
+      "reference": "docs/source/zhuge-special-v1/references/jingwal-back.png",
+      "referenceSha256": "c82ed7e6455e64475e951f7c5feb759fa5b517aa70fbf5c266d0862e2847bdcf",
+      "prompt": "docs/source/zhuge-special-v1/jingwal-back-stance.prompt.txt",
+      "promptSha256": "a8c55e5143c6d36976cd6e6ba34f0b1d5a0432e16e59ff49cb8cd1f78b766a59",
+      "guide": "docs/source/zhuge-special-v1/guides/jingwal-back.png",
+      "guideSha256": "02868f0038cbb17ba8ca9063df75179ff995325594176d5110895fdde23aec63",
+      "referenceHeight": 342
+    },
+    {
+      "id": "zhugehyeon-front-fan",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front.png",
+      "referenceSha256": "92a3d550a0bbbe78c3c4100c7344ecf2ab5804d53a5936d385a23c875a82abaa",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-front-fan.prompt.txt",
+      "promptSha256": "f61abfddc70a6eda76325e86d8929327c2970fb9c785de1a2885877a44b11ea1",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front.png",
+      "guideSha256": "7b019f9fcb4a05b7faf27b35ff7b084554922b09b35d4ff3684731d17b18b998",
+      "referenceHeight": 370
+    },
+    {
+      "id": "zhugehyeon-front-stance",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front.png",
+      "referenceSha256": "92a3d550a0bbbe78c3c4100c7344ecf2ab5804d53a5936d385a23c875a82abaa",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-front-stance.prompt.txt",
+      "promptSha256": "0e529028660871436813cd495977fda5347a57ac4645e728034c06b7890f0a6b",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front.png",
+      "guideSha256": "7b019f9fcb4a05b7faf27b35ff7b084554922b09b35d4ff3684731d17b18b998",
+      "referenceHeight": 370
+    },
+    {
+      "id": "zhugehyeon-front-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front-right.png",
+      "referenceSha256": "d62d7fe6f1a2fbf80a5a66c5f47cecdac8797859b458278b81b74623d0cae370",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-front-right-fan.prompt.txt",
+      "promptSha256": "8e26ef02fa558bdbc0467e2da38d7b84e3f914f654e63db8b82a80bb01683e45",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front-right.png",
+      "guideSha256": "8f929f3b3c0f0fc70504379ea255e419a4f6deaa92b66614621ccc0d6a53e1e2",
+      "referenceHeight": 351
+    },
+    {
+      "id": "zhugehyeon-front-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front-right.png",
+      "referenceSha256": "d62d7fe6f1a2fbf80a5a66c5f47cecdac8797859b458278b81b74623d0cae370",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-front-right-stance.prompt.txt",
+      "promptSha256": "db360335fa0693fad90d0a48bc006b9f1d2b28cdd96cf34a8b384104cba04789",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-front-right.png",
+      "guideSha256": "8f929f3b3c0f0fc70504379ea255e419a4f6deaa92b66614621ccc0d6a53e1e2",
+      "referenceHeight": 351
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-right.png",
+      "referenceSha256": "20e0a7d196e2bb85c37098caec073e02528dfe8436c0779a257ffcb8fd3090ad",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-right-fan.prompt.txt",
+      "promptSha256": "e48bd4860c7785fcdfe0ae50106d2891b7f1f0ec55c5964042ec1181a70155b5",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-right.png",
+      "guideSha256": "29be7fd81aaffb61c39a5102d381b370e6c533947a381450c3e7908acef01242",
+      "referenceHeight": 344
+    },
+    {
+      "id": "zhugehyeon-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-right.png",
+      "referenceSha256": "20e0a7d196e2bb85c37098caec073e02528dfe8436c0779a257ffcb8fd3090ad",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-right-stance.prompt.txt",
+      "promptSha256": "ad8d35c36d57631cb8c8e18dbbf939c7fd99db9c5cc1c9efb80f34a213585964",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-right.png",
+      "guideSha256": "29be7fd81aaffb61c39a5102d381b370e6c533947a381450c3e7908acef01242",
+      "referenceHeight": 344
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-rear-right.png",
+      "referenceSha256": "c0e854663d47a3baf181c46fee90c36ffb36f367952ccdca783a7e921c4c3533",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-rear-right-fan.prompt.txt",
+      "promptSha256": "bb57ec08448456455b66147a7d95d0cc8e44cb19e81ef470878f74397cedfb32",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-rear-right.png",
+      "guideSha256": "ad0838548dc8c0b5b53f6621c6f803414c80d6d07946ed3ac6fad05a4889abb9",
+      "referenceHeight": 350
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-rear-right.png",
+      "referenceSha256": "c0e854663d47a3baf181c46fee90c36ffb36f367952ccdca783a7e921c4c3533",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-rear-right-stance.prompt.txt",
+      "promptSha256": "04913a0e758b259b1cab833525c3663fd6a3b5237761547044d44273992ebf77",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-rear-right.png",
+      "guideSha256": "ad0838548dc8c0b5b53f6621c6f803414c80d6d07946ed3ac6fad05a4889abb9",
+      "referenceHeight": 350
+    },
+    {
+      "id": "zhugehyeon-back-fan",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-back.png",
+      "referenceSha256": "686feb39e378f44b4e67eaa352184055bfebfb5f2a608515b7479c21bb7242a1",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-back-fan.prompt.txt",
+      "promptSha256": "72ccf00f1818a2228c08b882868845279a23130705d040de8338fc0d506bd75f",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-back.png",
+      "guideSha256": "d8ce41ce823e5dd41a2aa196302facb45f252a39d6bd792b39998cb91cdcab9a",
+      "referenceHeight": 326
+    },
+    {
+      "id": "zhugehyeon-back-stance",
+      "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-back.png",
+      "referenceSha256": "686feb39e378f44b4e67eaa352184055bfebfb5f2a608515b7479c21bb7242a1",
+      "prompt": "docs/source/zhuge-special-v1/zhugehyeon-back-stance.prompt.txt",
+      "promptSha256": "fcd75c5081062b170029c2c1f5a48ab325f5b3b2ec3f9dddfc3c985a4bcc602e",
+      "guide": "docs/source/zhuge-special-v1/guides/zhugehyeon-back.png",
+      "guideSha256": "d8ce41ce823e5dd41a2aa196302facb45f252a39d6bd792b39998cb91cdcab9a",
+      "referenceHeight": 326
+    }
+  ]
+}

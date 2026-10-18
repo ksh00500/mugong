@@ -1,0 +1,89 @@
+.app-shell .glance-workspace .equipment-comparison {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  padding: 8px 0;
+  border-block: 1px solid var(--line);
+  margin-block: 8px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.app-shell .glance-workspace .equipment-comparison header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-width: 0;
+}
+.app-shell .glance-workspace .equipment-comparison header small {
+  font-size: 13px;
+  color: var(--muted);
+}
+.app-shell .glance-workspace .equipment-comparison .item-art {
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
+.app-shell .glance-workspace .equipment-comparison header > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.app-shell .glance-workspace .equipment-comparison select {
+  width: 100%;
+  min-width: 0;
+  min-height: 32px;
+  padding: 2px 6px;
+  font-size: inherit;
+  color: var(--ink);
+  background: #fff8e8;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.app-shell .glance-workspace .comparison-values {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 8px;
+}
+.app-shell .glance-workspace .comparison-values strong {
+  white-space: nowrap;
+}
+.app-shell .glance-workspace .comparison-values [data-change='up'] {
+  color: #285747;
+}
+.app-shell .glance-workspace .comparison-values [data-change='down'] {
+  color: #9c3b2e;
+}
+.app-shell .glance-workspace .comparison-values [data-change='same'] {
+  color: #665e4a;
+}
+@media (max-height: 700px) {
+  .app-shell .glance-workspace .equipment-comparison {
+    margin-block: 4px;
+    padding: 4px 0;
+    gap: 3px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px), (max-height: 540px) {
+  .app-shell .glance-workspace .equipment-comparison {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 2px 8px;
+    font-size: 13px;
+  }
+  .app-shell .glance-workspace .equipment-comparison select {
+    width: auto;
+    max-width: 100%;
+    min-height: 26px;
+  }
+  .app-shell .glance-workspace .equipment-comparison .item-art {
+    width: 18px;
+    height: 18px;
+  }
+}

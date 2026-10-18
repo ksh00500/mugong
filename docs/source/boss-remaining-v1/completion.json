@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-08",
+  "gameRegistered": true,
+  "localApplied": true,
+  "publicDeployedThisRun": false,
+  "bosses": 16,
+  "addedActions": 41,
+  "fourRegionKitActions": 73,
+  "totalWithSnowMokjinActions": 75,
+  "addedLogicalFrames": 1590,
+  "totalWithExistingLogicalFrames": 2610,
+  "newDirectionalContactDrawings": 90,
+  "characters": [
+    {
+      "bossId": "4-1",
+      "character": "gongheo",
+      "remainingActions": [
+        "thrust",
+        "combo"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "thrust",
+        "dash",
+        "combo",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "4-2",
+      "character": "dowon",
+      "remainingActions": [
+        "dash",
+        "slam"
+      ],
+      "addedLogicalFrames": 60,
+      "allKitActions": [
+        "dash",
+        "grab",
+        "stance",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "4-3",
+      "character": "bulmyeong",
+      "remainingActions": [
+        "combo",
+        "thrust"
+      ],
+      "addedLogicalFrames": 120,
+      "allKitActions": [
+        "bell",
+        "combo",
+        "thrust",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "4-4",
+      "character": "mujin",
+      "remainingActions": [
+        "sweep",
+        "slam"
+      ],
+      "addedLogicalFrames": 60,
+      "allKitActions": [
+        "stance",
+        "combo",
+        "sweep",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "2-1",
+      "character": "ujin",
+      "remainingActions": [
+        "thrust",
+        "slash",
+        "sweep"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "stance",
+        "thrust",
+        "slash",
+        "dash",
+        "sweep"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "2-2",
+      "character": "baekhong",
+      "remainingActions": [
+        "combo",
+        "thrust"
+      ],
+      "addedLogicalFrames": 120,
+      "allKitActions": [
+        "combo",
+        "dash",
+        "sweep",
+        "thrust"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "2-3",
+      "character": "mumyeong",
+      "remainingActions": [
+        "combo",
+        "thrust",
+        "sweep"
+      ],
+      "addedLogicalFrames": 150,
+      "allKitActions": [
+        "dash",
+        "stance",
+        "combo",
+        "thrust",
+        "sweep"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "2-4",
+      "character": "baekun",
+      "remainingActions": [
+        "combo",
+        "thrust",
+        "dash"
+      ],
+      "addedLogicalFrames": 150,
+      "allKitActions": [
+        "combo",
+        "thrust",
+        "dash",
+        "fan",
+        "sweep"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "1-1",
+      "character": "cheongrin",
+      "remainingActions": [
+        "slash",
+        "thrust",
+        "sweep"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "slash",
+        "thrust",
+        "dash",
+        "sweep",
+        "stance"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "1-2",
+      "character": "mukchil",
+      "remainingActions": [
+        "stance",
+        "slash"
+      ],
+      "addedLogicalFrames": 60,
+      "allKitActions": [
+        "hazard",
+        "fan",
+        "stance",
+        "slash"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "1-3",
+      "character": "yeonhwa",
+      "remainingActions": [
+        "hazard",
+        "combo"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "fan",
+        "hazard",
+        "stance",
+        "combo"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "1-4",
+      "character": "sagongyeom",
+      "remainingActions": [
+        "hazard",
+        "thrust",
+        "sweep"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "fan",
+        "hazard",
+        "stance",
+        "thrust",
+        "sweep"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "0-1",
+      "character": "madabong",
+      "remainingActions": [
+        "slash",
+        "sweep",
+        "slam"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "slash",
+        "sweep",
+        "summon",
+        "slam",
+        "dash"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "0-2",
+      "character": "nojin",
+      "remainingActions": [
+        "thrust",
+        "sweep",
+        "slam",
+        "dash"
+      ],
+      "addedLogicalFrames": 120,
+      "allKitActions": [
+        "thrust",
+        "combo",
+        "stance",
+        "sweep",
+        "slam",
+        "dash"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "0-3",
+      "character": "cheolmu",
+      "remainingActions": [
+        "combo",
+        "slam"
+      ],
+      "addedLogicalFrames": 90,
+      "allKitActions": [
+        "thrust",
+        "combo",
+        "sweep",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    },
+    {
+      "bossId": "0-4",
+      "character": "hanmugeuk",
+      "remainingActions": [
+        "combo",
+        "dash",
+        "slam"
+      ],
+      "addedLogicalFrames": 120,
+      "allKitActions": [
+        "slash",
+        "combo",
+        "dash",
+        "sweep",
+        "slam"
+      ],
+      "completeKitCoverage": true
+    }
+  ]
+}

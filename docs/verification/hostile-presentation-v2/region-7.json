@@ -1,0 +1,115 @@
+{
+  "actors": [
+    {
+      "role": "rider",
+      "texture": "cavalry-actions-isolated",
+      "frame": "0-2",
+      "expected": "cavalry-actions-isolated",
+      "mounted": true,
+      "views": true
+    },
+    {
+      "role": "assassin",
+      "texture": "region-motion-7-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "ringblade",
+      "texture": "region-motion-7-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "7-1",
+      "texture": "region-motion-7-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "7-2",
+      "texture": "region-motion-7-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "7-3",
+      "texture": "region-motion-7-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "7-4",
+      "texture": "region-motion-7-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-7-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "rider",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "role": "assassin",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "role": "ringblade",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "bossId": "7-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "7-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "cast",
+      "changed": true
+    },
+    {
+      "bossId": "7-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "pulse",
+      "changed": true
+    },
+    {
+      "bossId": "7-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

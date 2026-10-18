@@ -1,0 +1,60 @@
+{
+  "gold": 74,
+  "errors": [],
+  "items": [
+    {
+      "id": "run-1-123-starter-sword",
+      "kind": "sword",
+      "name": "수련검",
+      "w": 1,
+      "h": 3,
+      "place": "weapon",
+      "x": 0,
+      "y": 0,
+      "rotated": false,
+      "count": 1,
+      "quality": 120,
+      "statRevision": 1,
+      "power": 5,
+      "weaponStyle": "sword",
+      "templateId": "weapon-sword-0",
+      "rarity": "common",
+      "upgrades": 2
+    },
+    {
+      "id": "run-1-123-starter-medicine",
+      "kind": "medicine",
+      "name": "금창약",
+      "w": 1,
+      "h": 1,
+      "place": "general",
+      "x": 0,
+      "y": 0,
+      "rotated": false,
+      "count": 1,
+      "quality": 100,
+      "power": 35,
+      "templateId": "medicine-small",
+      "rarity": "common",
+      "upgrades": 0
+    },
+    {
+      "id": "fixture-robe",
+      "kind": "robe",
+      "name": "청강 도포",
+      "w": 2,
+      "h": 3,
+      "place": "equipped",
+      "x": 0,
+      "y": 0,
+      "rotated": false,
+      "count": 1,
+      "quality": 100,
+      "statRevision": 1,
+      "power": 3,
+      "templateId": "gear-robe-2",
+      "rarity": "rare",
+      "upgrades": 0
+    }
+  ]
+}

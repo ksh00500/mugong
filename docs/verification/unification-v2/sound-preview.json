@@ -1,0 +1,21 @@
+{
+  "kinds": [
+    "select",
+    "store",
+    "confirm",
+    "reject",
+    "slash",
+    "impact",
+    "evade",
+    "block",
+    "parry",
+    "hit",
+    "warning",
+    "level",
+    "death"
+  ],
+  "intervalMs": 650,
+  "mixer": "Actual game master/effects/compressor; default 75%/80%",
+  "bytes": 101936,
+  "isolated": true
+}

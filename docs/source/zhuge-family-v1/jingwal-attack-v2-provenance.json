@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-04",
+  "purpose": "Jingwal two-handed low-load forward spear thrust; five views, thirty selected combat drawings",
+  "records": [
+    {
+      "file": "jingwal-attack-v2-front-right.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ed70fe7b-c2f9-461b-9c97-3553e38205f9.png",
+      "prompt": "jingwal-attack-v2-front-right-native-size.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-right.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-363578c0-17b8-4cc4-a708-758dd6e1dc33.png",
+      "prompt": "jingwal-attack-v2-right.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-front.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5a136d22-a144-42c2-b629-eecfa069253b.png",
+      "prompt": "jingwal-attack-v2-front.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-rear-right.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c8aa91a9-1053-4101-a943-e31189ca26e0.png",
+      "prompt": "jingwal-attack-v2-rear-right.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-back.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bd18e42c-dfc9-4733-bc2e-26895b5c33a2.png",
+      "prompt": "jingwal-attack-v2-back.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-right-hands.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3a71625c-8aaf-4367-8072-51ee1b25ffe9.png",
+      "prompt": "jingwal-attack-v2-right-hands.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-rear-right-hands.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-10e683e3-322b-4209-a08c-2fb8c7efe814.png",
+      "prompt": "jingwal-attack-v2-rear-right-hands.prompt.txt"
+    },
+    {
+      "file": "jingwal-attack-v2-back-aim.png",
+      "tool": "image_gen.imagegen",
+      "output": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-497d18cd-61e8-4760-94f2-dcba8b84b24e.png",
+      "prompt": "jingwal-attack-v2-back-aim.prompt.txt"
+    }
+  ],
+  "preserve": "Original PNGs and tool outputs retained. Selection uses generation-jobs.json poseSources and poseSourceCells; only targeted repaired cells are selected.",
+  "rejected": [
+    "exec-12115ede-73bc-4c0d-b308-606ee99cc188.png",
+    "exec-df20f791-1418-4c49-b6c5-19f8fc886411.png"
+  ],
+  "rejectionReason": "Six figures in 3x2 source cells had enlarged bodies and edge clipping. Selected six figures use a spacious 3x3 source grid with a blank third row."
+}

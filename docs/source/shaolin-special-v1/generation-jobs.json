@@ -1,0 +1,324 @@
+[
+  {
+    "id": "gongheo-front",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "view": 0,
+    "moves": [
+      "slam",
+      "dash"
+    ],
+    "reference": "docs/source/shaolin-family-v1/gongheo-front.png",
+    "source": "gongheo-front.png",
+    "prompt": "gongheo-front.prompt.txt"
+  },
+  {
+    "id": "gongheo-front-right",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "view": 1,
+    "moves": [
+      "slam",
+      "dash"
+    ],
+    "reference": "docs/source/shaolin-family-v1/gongheo-front-right.png",
+    "source": "gongheo-front-right.png",
+    "prompt": "gongheo-front-right.prompt.txt"
+  },
+  {
+    "id": "gongheo-right",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "view": 2,
+    "moves": [
+      "slam",
+      "dash"
+    ],
+    "reference": "docs/source/shaolin-family-v1/gongheo-right.png",
+    "source": "gongheo-right.png",
+    "prompt": "gongheo-right.prompt.txt"
+  },
+  {
+    "id": "gongheo-rear-right",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "view": 3,
+    "moves": [
+      "slam",
+      "dash"
+    ],
+    "reference": "docs/source/shaolin-family-v1/gongheo-rear-right.png",
+    "source": "gongheo-rear-right.png",
+    "prompt": "gongheo-rear-right.prompt.txt"
+  },
+  {
+    "id": "gongheo-back",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "view": 4,
+    "moves": [
+      "slam",
+      "dash"
+    ],
+    "reference": "docs/source/shaolin-family-v1/gongheo-back.png",
+    "source": "gongheo-back.png",
+    "prompt": "gongheo-back.prompt.txt"
+  },
+  {
+    "id": "dowon-front",
+    "character": "dowon",
+    "bossId": "4-2",
+    "view": 0,
+    "moves": [
+      "grab",
+      "stance"
+    ],
+    "reference": "docs/source/shaolin-family-v1/dowon-front.png",
+    "source": "dowon-front.png",
+    "prompt": "dowon-front.prompt.txt"
+  },
+  {
+    "id": "dowon-front-right",
+    "character": "dowon",
+    "bossId": "4-2",
+    "view": 1,
+    "moves": [
+      "grab",
+      "stance"
+    ],
+    "reference": "docs/source/shaolin-family-v1/dowon-front-right.png",
+    "source": "dowon-front-right.png",
+    "prompt": "dowon-front-right.prompt.txt"
+  },
+  {
+    "id": "dowon-right",
+    "character": "dowon",
+    "bossId": "4-2",
+    "view": 2,
+    "moves": [
+      "grab",
+      "stance"
+    ],
+    "reference": "docs/source/shaolin-family-v1/dowon-right.png",
+    "source": "dowon-right.png",
+    "prompt": "dowon-right.prompt.txt"
+  },
+  {
+    "id": "dowon-rear-right",
+    "character": "dowon",
+    "bossId": "4-2",
+    "view": 3,
+    "moves": [
+      "grab",
+      "stance"
+    ],
+    "reference": "docs/source/shaolin-family-v1/dowon-rear-right.png",
+    "source": "dowon-rear-right.png",
+    "prompt": "dowon-rear-right.prompt.txt"
+  },
+  {
+    "id": "dowon-back",
+    "character": "dowon",
+    "bossId": "4-2",
+    "view": 4,
+    "moves": [
+      "grab",
+      "stance"
+    ],
+    "reference": "docs/source/shaolin-family-v1/dowon-back.png",
+    "source": "dowon-back.png",
+    "prompt": "dowon-back.prompt.txt"
+  },
+  {
+    "id": "bulmyeong-front",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "view": 0,
+    "moves": [
+      "bell",
+      "slam"
+    ],
+    "reference": "docs/source/shaolin-family-v1/bulmyeong-front.png",
+    "source": "bulmyeong-front-repaired.png",
+    "prompt": "bulmyeong-front.prompt.txt",
+    "repairInput": "bulmyeong-front.png",
+    "repairPrompt": "bulmyeong-front-repair.prompt.txt"
+  },
+  {
+    "id": "bulmyeong-front-right",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "view": 1,
+    "moves": [
+      "bell",
+      "slam"
+    ],
+    "reference": "docs/source/shaolin-family-v1/bulmyeong-front-right.png",
+    "source": "bulmyeong-front-right.png",
+    "prompt": "bulmyeong-front-right.prompt.txt",
+    "poseSourceCells": {
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      }
+    },
+    "poseReuse": {
+      "9": 8
+    }
+  },
+  {
+    "id": "bulmyeong-right",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "view": 2,
+    "moves": [
+      "bell",
+      "slam"
+    ],
+    "reference": "docs/source/shaolin-family-v1/bulmyeong-right.png",
+    "source": "bulmyeong-right.png",
+    "prompt": "bulmyeong-right.prompt.txt",
+    "poseSourceCells": {
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      }
+    },
+    "poseReuse": {
+      "9": 8
+    }
+  },
+  {
+    "id": "bulmyeong-rear-right",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "view": 3,
+    "moves": [
+      "bell",
+      "slam"
+    ],
+    "reference": "docs/source/shaolin-family-v1/bulmyeong-rear-right.png",
+    "source": "bulmyeong-rear-right.png",
+    "prompt": "bulmyeong-rear-right.prompt.txt",
+    "poseSourceCells": {
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      }
+    },
+    "poseReuse": {
+      "9": 8
+    }
+  },
+  {
+    "id": "bulmyeong-back",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "view": 4,
+    "moves": [
+      "bell",
+      "slam"
+    ],
+    "reference": "docs/source/shaolin-family-v1/bulmyeong-back.png",
+    "source": "bulmyeong-back.png",
+    "prompt": "bulmyeong-back.prompt.txt",
+    "poseSourceCells": {
+      "8": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      },
+      "9": {
+        "columns": 4,
+        "rows": 3,
+        "index": 9
+      }
+    },
+    "poseReuse": {
+      "9": 8
+    }
+  },
+  {
+    "id": "mujin-front",
+    "character": "mujin",
+    "bossId": "4-4",
+    "view": 0,
+    "moves": [
+      "stance",
+      "combo"
+    ],
+    "reference": "docs/source/shaolin-family-v1/mujin-front.png",
+    "source": "mujin-front.png",
+    "prompt": "mujin-front.prompt.txt"
+  },
+  {
+    "id": "mujin-front-right",
+    "character": "mujin",
+    "bossId": "4-4",
+    "view": 1,
+    "moves": [
+      "stance",
+      "combo"
+    ],
+    "reference": "docs/source/shaolin-family-v1/mujin-front-right.png",
+    "source": "mujin-front-right.png",
+    "prompt": "mujin-front-right.prompt.txt"
+  },
+  {
+    "id": "mujin-right",
+    "character": "mujin",
+    "bossId": "4-4",
+    "view": 2,
+    "moves": [
+      "stance",
+      "combo"
+    ],
+    "reference": "docs/source/shaolin-family-v1/mujin-right.png",
+    "source": "mujin-right.png",
+    "prompt": "mujin-right.prompt.txt"
+  },
+  {
+    "id": "mujin-rear-right",
+    "character": "mujin",
+    "bossId": "4-4",
+    "view": 3,
+    "moves": [
+      "stance",
+      "combo"
+    ],
+    "reference": "docs/source/shaolin-family-v1/mujin-rear-right.png",
+    "source": "mujin-rear-right.png",
+    "prompt": "mujin-rear-right.prompt.txt"
+  },
+  {
+    "id": "mujin-back",
+    "character": "mujin",
+    "bossId": "4-4",
+    "view": 4,
+    "moves": [
+      "stance",
+      "combo"
+    ],
+    "reference": "docs/source/shaolin-family-v1/mujin-back.png",
+    "source": "mujin-back.png",
+    "prompt": "mujin-back.prompt.txt"
+  }
+]
