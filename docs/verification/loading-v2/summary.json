@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-19",
+  "branch": "codex/loading-v2",
+  "base": "0357e4b3dbdd7c5873f3e1a37430da923b0b1d7b",
+  "unit": {
+    "files": 72,
+    "tests": 1356,
+    "passed": 1356
+  },
+  "sourceOnly": {
+    "files": 72,
+    "tests": 1356,
+    "passed": 1356
+  },
+  "runtime": {
+    "files": 1043,
+    "literalReferences": 784,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "build": {
+    "modules": 200,
+    "seconds": 7.46,
+    "directory": "dist-loading-v2",
+    "largeChunkWarning": true
+  },
+  "initialMainJs": {
+    "beforeBytes": 5350488,
+    "afterBytes": 443357
+  },
+  "comparisons": [
+    {
+      "region": 3,
+      "wave": 1,
+      "cache": "cold",
+      "renderer": "Canvas",
+      "beforeMs": 4648.900000002235,
+      "afterMs": 2513.89999999851,
+      "reductionPercent": 45.92484243590309,
+      "beforeRequestedBytes": 205041079,
+      "afterRequestedBytes": 42322812,
+      "beforeImages": 190,
+      "afterImages": 69,
+      "beforeMaxLongTaskMs": 2207,
+      "afterMaxLongTaskMs": 777
+    },
+    {
+      "region": 3,
+      "wave": 1,
+      "cache": "warm",
+      "renderer": "Canvas",
+      "beforeMs": 4104.10000000149,
+      "afterMs": 2460.800000000745,
+      "reductionPercent": 40.040447357524144,
+      "beforeRequestedBytes": 205041079,
+      "afterRequestedBytes": 42322812,
+      "beforeImages": 190,
+      "afterImages": 69,
+      "beforeMaxLongTaskMs": 2370,
+      "afterMaxLongTaskMs": 840
+    },
+    {
+      "region": 9,
+      "wave": 20,
+      "cache": "cold",
+      "renderer": "WebGL / AUTO",
+      "beforeMs": 5328,
+      "afterMs": 3588.699999999255,
+      "reductionPercent": 32.644519519533496,
+      "beforeRequestedBytes": 98069293,
+      "afterRequestedBytes": 48548334,
+      "beforeImages": 123,
+      "afterImages": 76,
+      "beforeMaxLongTaskMs": 3791,
+      "afterMaxLongTaskMs": 1957
+    },
+    {
+      "region": 9,
+      "wave": 20,
+      "cache": "warm",
+      "renderer": "WebGL / AUTO",
+      "beforeMs": 5362.699999999255,
+      "afterMs": 4058,
+      "reductionPercent": 24.329162548705618,
+      "beforeRequestedBytes": 98069293,
+      "afterRequestedBytes": 48548334,
+      "beforeImages": 123,
+      "afterImages": 76,
+      "beforeMaxLongTaskMs": 3726,
+      "afterMaxLongTaskMs": 2077
+    }
+  ],
+  "parity": {
+    "frames": 28,
+    "metadataEqual": true,
+    "rgbaSha256Equal": true
+  },
+  "browserLatest": {
+    "beforeProfiles": 2,
+    "afterProfiles": 2,
+    "loadingFlow": 8,
+    "compiled": 4,
+    "total": 16,
+    "singleUninterruptedRun": false
+  },
+  "realRegions": 10,
+  "realBosses": 40,
+  "bossActionsInUnitCoverage": 185,
+  "mediaChanged": false,
+  "playerSaveTouched": false,
+  "isolatedContexts": true,
+  "publicDeployment": false,
+  "measurement": "Local Chromium, browser cold cache then warm reload, native file server, no network/CPU throttle; requestedBytes is summed file size of initiated art requests, not transferred bytes."
+}

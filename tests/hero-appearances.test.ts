@@ -21,9 +21,11 @@ it('offers three different cosmetic identities and reaches every design', () => 
     const group = Math.floor(appearance.id / 5);
     expect(manifest['hero-roster-directions']).toContain(`directions-${group}.webp`);
     expect(manifest['hero-roster-actions']).toContain(`actions-${group}.webp`);
-    for (let i = group * 5; i < group * 5 + 5; i++)
-      expect(manifest[`hero-slash-${i}`]).toBe(`/art/hero-slash-v1/hero-${i}.webp`);
-    expect(Object.keys(manifest)).toHaveLength(group === 1 ? 8 : 7);
+    expect(manifest[`hero-slash-${appearance.id}`]).toBe(
+      `/art/hero-slash-v1/hero-${appearance.id}.webp`,
+    );
+    expect(Object.keys(manifest).filter((key) => key.startsWith('hero-slash-'))).toHaveLength(1);
+    expect(Object.keys(manifest)).toHaveLength(appearance.id === 6 ? 4 : 3);
     expect(messages[appearance.name].every(Boolean)).toBe(true);
   }
 });

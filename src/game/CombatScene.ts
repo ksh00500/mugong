@@ -19,6 +19,8 @@ import { prepareImages } from '../platform/assets';
 import {
   regionArtIndex,
   regionArtManifest,
+  runArtKey,
+  runArtManifest,
   enemyArtSlot,
   enemyRepairSlot,
   enemyMotionRepairSlots,
@@ -99,10 +101,13 @@ export class CombatScene extends Phaser.Scene {
       bodyUnit: number;
     }
   >();
-  private regionRequests = new Map<number, Promise<void>>();
+  private regionRequests = new Map<string, Promise<void>>();
+  private artScope = '';
+  private warmedArt = '';
+  private cancelWarm?: () => void;
   private artRegion = -2;
   private artLoading = false;
-  private requestedRegion = -2;
+  private requestedArt = '';
   private disposed = false;
   private seenAlive = new Map<number, Enemy>();
   private deaths = new Map<number, { enemy: Enemy; at: number }>();
@@ -147,22 +152,26 @@ export class CombatScene extends Phaser.Scene {
       if (key.startsWith('region-direction-'))
         this.directionFrames.set(key, registerEnemyMotion(this.textures.get(key), undefined, 5));
     }
-    this.directionFrames.set(
-      'enemy-role-directions',
-      registerEnemyMotion(this.textures.get('enemy-role-directions'), [0, 1, 2, 3], 5),
-    );
-    this.directionFrames.set(
-      'hostile-identity-directions',
-      registerEnemyMotion(this.textures.get('hostile-identity-directions'), [0, 1, 2], 5),
-    );
-    this.motionFrames.set(
-      'hostile-identity-rear',
-      registerEnemyMotion(this.textures.get('hostile-identity-rear'), [0, 1, 2], 4, false),
-    );
-    this.motionFrames.set(
-      'enemy-role-rear',
-      registerEnemyMotion(this.textures.get('enemy-role-rear'), [0, 1, 2, 3], 4, false),
-    );
+    if (this.textures.exists('enemy-role-directions'))
+      this.directionFrames.set(
+        'enemy-role-directions',
+        registerEnemyMotion(this.textures.get('enemy-role-directions'), [0, 1, 2, 3], 5),
+      );
+    if (this.textures.exists('hostile-identity-directions'))
+      this.directionFrames.set(
+        'hostile-identity-directions',
+        registerEnemyMotion(this.textures.get('hostile-identity-directions'), [0, 1, 2], 5),
+      );
+    if (this.textures.exists('hostile-identity-rear'))
+      this.motionFrames.set(
+        'hostile-identity-rear',
+        registerEnemyMotion(this.textures.get('hostile-identity-rear'), [0, 1, 2], 4, false),
+      );
+    if (this.textures.exists('enemy-role-rear'))
+      this.motionFrames.set(
+        'enemy-role-rear',
+        registerEnemyMotion(this.textures.get('enemy-role-rear'), [0, 1, 2, 3], 4, false),
+      );
     this.syncRegion(gameStore.state.run);
     this.graphics = this.add.graphics().setDepth(5000);
     this.ground = this.add.graphics().setDepth(0);
@@ -184,14 +193,16 @@ export class CombatScene extends Phaser.Scene {
         h = propSource.height / 2;
       props.add(String(n), 0, (n % 3) * w + 8, Math.floor(n / 3) * h + 8, w - 16, h - 16);
     }
-    this.motionFrames.set(
-      'hostile-identity-actions',
-      registerEnemyMotion(this.textures.get('hostile-identity-actions'), [0, 1, 2]),
-    );
-    this.motionFrames.set(
-      'enemy-role-actions',
-      registerEnemyMotion(this.textures.get('enemy-role-actions'), [0, 1, 2, 3]),
-    );
+    if (this.textures.exists('hostile-identity-actions'))
+      this.motionFrames.set(
+        'hostile-identity-actions',
+        registerEnemyMotion(this.textures.get('hostile-identity-actions'), [0, 1, 2]),
+      );
+    if (this.textures.exists('enemy-role-actions'))
+      this.motionFrames.set(
+        'enemy-role-actions',
+        registerEnemyMotion(this.textures.get('enemy-role-actions'), [0, 1, 2, 3]),
+      );
     const mechanicTexture = this.textures.get('boss-mechanics');
     const mechanicSource = mechanicTexture.source[0];
     for (let n = 0; n < 12; n++) {
@@ -207,6 +218,7 @@ export class CombatScene extends Phaser.Scene {
       fields.add(String(n), 0, (n % 4) * w, Math.floor(n / 4) * h, w, h);
     }
     for (const [key, cols, rows] of [['enemy', 3, 4]] as const) {
+      if (!this.textures.exists(key)) continue;
       const texture = this.textures.get(key),
         source = texture.source[0];
       const inspection = document.createElement('canvas');
@@ -271,7 +283,15 @@ export class CombatScene extends Phaser.Scene {
       if (this.textures.exists(key))
         this.motionFrames.set(
           key,
-          registerEnemyMotion(this.textures.get(key), [0, 1, 2, 3, 4], columns),
+          registerEnemyMotion(
+            this.textures.get(key),
+            [0, 1, 2, 3, 4],
+            columns,
+            columns === 6,
+            gameStore.state.run?.fighter.appearance === undefined
+              ? undefined
+              : [gameStore.state.run.fighter.appearance % 5],
+          ),
         );
     for (let i = 0; i < 10; i++) {
       const key = `hero-slash-${i}`;
@@ -362,6 +382,7 @@ export class CombatScene extends Phaser.Scene {
       this.poseTransition.reset();
       this.heldWeapon.destroy();
       this.paintedZones.destroy();
+      this.cancelWarm?.();
       for (const actor of this.continuousActors.values()) actor.destroy();
       this.continuousActors.clear();
     };
@@ -380,6 +401,13 @@ export class CombatScene extends Phaser.Scene {
   update(time: number, delta: number) {
     const run = gameStore.state.run;
     this.syncRegion(run);
+    if (this.artLoading) {
+      this.accumulator = 0;
+      this.keys.clear();
+      this.clearMouse();
+      this.feedback.resetCamera();
+      return;
+    }
     const beforeX = run?.fighter.x ?? 0,
       beforeY = run?.fighter.y ?? 0;
     if (run && this.activeRun !== run.id) {
@@ -471,15 +499,13 @@ export class CombatScene extends Phaser.Scene {
     actor.setVisible(true);
     return actor;
   }
-  private loadRegion(index: number) {
-    if (
-      index < 0 ||
-      Object.keys(regionArtManifest(index)).every((key) => this.textures.exists(key))
-    )
+  private loadRegion(index: number, manifest = regionArtManifest(index)) {
+    if (index < 0 || Object.keys(manifest).every((key) => this.textures.exists(key)))
       return Promise.resolve();
-    const existing = this.regionRequests.get(index);
+    const requestKey = `${index}/${Object.keys(manifest).join(',')}`;
+    const existing = this.regionRequests.get(requestKey);
     if (existing) return existing;
-    const request = prepareImages(regionArtManifest(index), (progress) => {
+    const request = prepareImages(manifest, (progress) => {
       if (!this.disposed && this.artLoading && regionArtIndex(gameStore.state.run) === index)
         this.onRegionProgress?.(progress);
     }).then((images) => {
@@ -505,8 +531,8 @@ export class CombatScene extends Phaser.Scene {
           this.directionFrames.set(key, registerEnemyMotion(this.textures.get(key), undefined, 5));
       }
     });
-    this.regionRequests.set(index, request);
-    void request.catch(() => this.regionRequests.delete(index));
+    this.regionRequests.set(requestKey, request);
+    void request.catch(() => this.regionRequests.delete(requestKey));
     return request;
   }
   private registerMotion(key: string) {
@@ -525,34 +551,67 @@ export class CombatScene extends Phaser.Scene {
   }
   private syncRegion(run: Run | null) {
     const index = regionArtIndex(run);
-    if (index === this.artRegion) return;
-    if (
-      index >= 0 &&
-      !Object.keys(regionArtManifest(index)).every((key) => this.textures.exists(key))
-    ) {
+    const scope = runArtKey(run);
+    if (scope === this.artScope) {
+      this.warmNextArt(run);
+      return;
+    }
+    const manifest = runArtManifest(run);
+    if (index >= 0 && !Object.keys(manifest).every((key) => this.textures.exists(key))) {
       this.artLoading = true;
-      if (this.requestedRegion !== index) {
-        this.requestedRegion = index;
+      if (this.requestedArt !== scope) {
+        this.requestedArt = scope;
         this.onRegionProgress?.({
           completed: 0,
-          total: Object.keys(regionArtManifest(index)).length,
+          total: Object.keys(manifest).length,
         });
-        void this.loadRegion(index).catch(() => {
+        void this.loadRegion(index, manifest).catch(() => {
           if (!this.disposed && index === regionArtIndex(gameStore.state.run)) this.onArtError();
         });
       }
       return;
     }
     this.artRegion = index;
+    this.artScope = scope;
     if (this.artLoading) this.onRegionProgress?.(null);
     this.artLoading = false;
     this.backdrop.setTexture(index >= 0 ? `region-floor-${index}` : 'forest').setDisplaySize(W, H);
     const root = this.game.canvas.parentElement;
     if (root) root.dataset.artRegion = String(index);
-    // Fetch only the following region while the current one is playable.
-    if (run && index >= 0) {
-      const next = regionArtIndex({ ...run, wave: Math.min(20, Math.ceil(run.wave / 5) * 5 + 1) });
-      if (next !== index) void this.loadRegion(next).catch(() => {});
+    this.warmNextArt(run);
+  }
+  private warmNextArt(run: Run | null) {
+    // Rest warms the upcoming boss; a defeated boss warms the following region.
+    // Initial combat never competes with another region's full download/upload.
+    if (
+      !run ||
+      run.wave >= 20 ||
+      !(run.phase === 'prep' || (run.phase === 'loot' && run.wave % 5 === 0))
+    )
+      return;
+    const connection = (
+      navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }
+    ).connection;
+    if (connection?.saveData || /(^|-)2g$/.test(connection?.effectiveType ?? '')) return;
+    const next = { ...run, wave: run.wave + 1, enemies: [] };
+    const key = runArtKey(next);
+    if (key === this.warmedArt) return;
+    this.warmedArt = key;
+    this.cancelWarm?.();
+    const warm = () => {
+      this.cancelWarm = undefined;
+      if (this.disposed || gameStore.state.run?.id !== run.id) return;
+      void prepareImages(runArtManifest(next), undefined, {
+        priority: 'low',
+        concurrency: 2,
+      }).catch(() => {});
+    };
+    if (typeof window.requestIdleCallback === 'function') {
+      const id = window.requestIdleCallback(warm, { timeout: 2000 });
+      this.cancelWarm = () => window.cancelIdleCallback(id);
+    } else {
+      const id = window.setTimeout(warm, 250);
+      this.cancelWarm = () => window.clearTimeout(id);
     }
   }
   private drawHero(f: Fighter, dead: boolean) {

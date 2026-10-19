@@ -18,7 +18,7 @@ import { RestMarket } from './ui/RestMarket';
 import { PrepStop } from './ui/PrepStop';
 import { JourneySummary } from './ui/JourneySummary';
 import type { JourneyResult } from './domain/model';
-import { UI_IMAGES, prepareImages, preloadFonts, type ImageProgress } from './platform/assets';
+import { UI_BOOT_IMAGES, prepareImages, preloadFonts, type ImageProgress } from './platform/assets';
 
 function readUiPreferences(): UiPreferences {
   try {
@@ -34,7 +34,7 @@ export default function App() {
   const [uiStatus, setUiStatus] = useState<'loading' | 'ready' | 'error' | 'fallback'>('loading');
   const [uiProgress, setUiProgress] = useState<ImageProgress>({
     completed: 0,
-    total: Object.keys(UI_IMAGES).length,
+    total: Object.keys(UI_BOOT_IMAGES).length,
   });
   const [fieldReady, setFieldReady] = useState(false);
   const [marketOpen, setMarketOpen] = useState(false);
@@ -43,7 +43,7 @@ export default function App() {
   useEffect(() => {
     let cancelled = false;
     setUiStatus('loading');
-    void prepareImages(UI_IMAGES, (progress) => {
+    void prepareImages(UI_BOOT_IMAGES, (progress) => {
       if (!cancelled) setUiProgress(progress);
     }).then(
       () => {

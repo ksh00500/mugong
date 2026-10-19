@@ -36,7 +36,23 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
     void prepareCombat((value) => {
       if (!cancelled) setProgress(value);
     })
-      .then(({ mountGame, images }) => {
+      .then(async ({ mountGame, images }) => {
+        if (cancelled || !root.current) return;
+        setProgress({
+          completed: Object.keys(images).length,
+          total: Object.keys(images).length,
+          stage: 'scene',
+        });
+        // Let React paint the real initialization stage before synchronous texture upload.
+        await new Promise<void>((resolve) => {
+          const timer = window.setTimeout(resolve, 100);
+          requestAnimationFrame(() =>
+            requestAnimationFrame(() => {
+              clearTimeout(timer);
+              resolve();
+            }),
+          );
+        });
         if (cancelled || !root.current) return;
         cleanup = mountGame(
           root.current,

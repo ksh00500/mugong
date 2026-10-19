@@ -30,6 +30,15 @@ export const UI_IMAGES = {
   bossLoot: '/art/ui/boss-loot-v1.png',
 } as const;
 
+/** First lobby paint does not wait for unopened recruitment, loot or equipment screens. */
+export const UI_BOOT_IMAGES = {
+  navigation: UI_IMAGES.navigation,
+  symbols: UI_IMAGES.symbols,
+  materials: UI_IMAGES.materials,
+  portrait: UI_IMAGES.portrait,
+  lobby: UI_IMAGES.lobby,
+} as const;
+
 export const COMBAT_IMAGES = {
   'held-darts': '/art/held-darts-v1.webp',
   'held-gauntlets': '/art/held-gauntlets-v1.webp',
@@ -56,17 +65,41 @@ export const COMBAT_IMAGES = {
   'boss-fields': '/art/boss-fields-v1.png',
 } as const;
 
+const legacyEnemyTextures = new Set([
+  'enemy',
+  'enemy-role-directions',
+  'enemy-role-rear',
+  'hostile-identity-directions',
+  'hostile-identity-rear',
+  'hostile-identity-actions',
+  'enemy-role-actions',
+]);
+export function combatBaseImages(nativeEnemies: boolean): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(COMBAT_IMAGES).filter(
+      ([key]) => !nativeEnemies || !legacyEnemyTextures.has(key),
+    ),
+  );
+}
 export type ImageManifest = Readonly<Record<string, string>>;
 export type PreparedImages = Record<string, HTMLImageElement>;
-export type ImageProgress = { completed: number; total: number };
-const images = new Map<string, Promise<HTMLImageElement>>();
+export type ImageProgress = { completed: number; total: number; stage?: 'images' | 'scene' };
+export type ImageOptions = { priority?: 'high' | 'low' | 'auto'; concurrency?: number };
+const images = new Map<string, { image: HTMLImageElement; request: Promise<HTMLImageElement> }>();
 
 /** Share both completed and in-flight images; failed requests may be retried. */
-function prepareImage(url: string): Promise<HTMLImageElement> {
+function prepareImage(
+  url: string,
+  priority: NonNullable<ImageOptions['priority']>,
+): Promise<HTMLImageElement> {
   const cached = images.get(url);
-  if (cached) return cached;
+  if (cached) {
+    if (priority === 'high') cached.image.fetchPriority = 'high';
+    return cached.request;
+  }
+  const image = new Image();
+  image.fetchPriority = priority;
   const request = new Promise<HTMLImageElement>((resolve, reject) => {
-    const image = new Image();
     image.decoding = 'async';
     const timeout = window.setTimeout(() => fail(), 60000);
     function finish() {
@@ -88,9 +121,9 @@ function prepareImage(url: string): Promise<HTMLImageElement> {
     };
     image.src = url;
   });
-  images.set(url, request);
+  images.set(url, { image, request });
   void request.catch(() => {
-    if (images.get(url) === request) images.delete(url);
+    if (images.get(url)?.request === request) images.delete(url);
   });
   return request;
 }
@@ -98,19 +131,27 @@ function prepareImage(url: string): Promise<HTMLImageElement> {
 export async function prepareImages(
   manifest: ImageManifest,
   onProgress?: (progress: ImageProgress) => void,
+  options: ImageOptions = {},
 ): Promise<PreparedImages> {
   const entries = Object.entries(manifest);
   let completed = 0;
   onProgress?.({ completed, total: entries.length });
-  return Object.fromEntries(
-    await Promise.all(
-      entries.map(async ([key, url]) => {
-        const image = await prepareImage(url);
-        onProgress?.({ completed: ++completed, total: entries.length });
-        return [key, image];
-      }),
+  const result: [string, HTMLImageElement][] = new Array(entries.length);
+  let cursor = 0;
+  await Promise.all(
+    Array.from(
+      { length: Math.min(entries.length, Math.max(1, options.concurrency ?? 12)) },
+      async () => {
+        while (cursor < entries.length) {
+          const at = cursor++,
+            [key, url] = entries[at];
+          result[at] = [key, await prepareImage(url, options.priority ?? 'high')];
+          onProgress?.({ completed: ++completed, total: entries.length });
+        }
+      },
     ),
   );
+  return Object.fromEntries(result);
 }
 
 /** Fonts never block the interface. Only hint fonts that the current locale uses. */

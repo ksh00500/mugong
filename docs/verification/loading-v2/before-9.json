@@ -1,0 +1,4400 @@
+[
+  {
+    "cache": "cold",
+    "region": 9,
+    "wave": 20,
+    "phase": "before",
+    "longTasks": [
+      {
+        "start": 1505,
+        "duration": 3791
+      },
+      {
+        "start": 5328.10000000149,
+        "duration": 114
+      }
+    ],
+    "decodes": [
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-0.webp",
+        "start": 211.30000000074506,
+        "end": 217.89999999850988,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-2.webp",
+        "start": 211.5,
+        "end": 221.30000000074506,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/augment-icons.webp",
+        "start": 211.5,
+        "end": 237.80000000074506,
+        "width": 1024,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-1.webp",
+        "start": 211.5,
+        "end": 241.10000000149012,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/materials-v2.webp",
+        "start": 231.89999999850988,
+        "end": 263.6000000014901,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/navigation-v1.webp",
+        "start": 231.89999999850988,
+        "end": 295.19999999925494,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/portrait-v1.webp",
+        "start": 231.89999999850988,
+        "end": 357.69999999925494,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/lobby-v2.webp",
+        "start": 234.80000000074506,
+        "end": 357.80000000074506,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/symbols-v1.webp",
+        "start": 240.39999999850988,
+        "end": 383.5,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/new-arts-v1.png",
+        "start": 260.3999999985099,
+        "end": 399.6000000014901,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/weapons-v2.png",
+        "start": 260.3999999985099,
+        "end": 413.80000000074506,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/boss-loot-v1.png",
+        "start": 260.3999999985099,
+        "end": 428.3999999985099,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/held-darts-v1.webp",
+        "start": 469.6000000014901,
+        "end": 499.30000000074506,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/held-gauntlets-v1.webp",
+        "start": 469.80000000074506,
+        "end": 535.1999999992549,
+        "width": 2172,
+        "height": 724
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/forest-v1.webp",
+        "start": 470.30000000074506,
+        "end": 535.3000000007451,
+        "width": 1671,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero.webp",
+        "start": 476.8999999985099,
+        "end": 609.5,
+        "width": 1584,
+        "height": 993
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-0.webp",
+        "start": 477.5,
+        "end": 609.6999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-1.webp",
+        "start": 477.5,
+        "end": 609.6999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-2.webp",
+        "start": 477.6000000014901,
+        "end": 609.8000000007451,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-0.webp",
+        "start": 477.6000000014901,
+        "end": 609.8000000007451,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-1.webp",
+        "start": 481.1000000014901,
+        "end": 609.8000000007451,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-0.webp",
+        "start": 482.3999999985099,
+        "end": 609.8000000007451,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-2.webp",
+        "start": 482.3999999985099,
+        "end": 610.3000000007451,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-1.webp",
+        "start": 482.3999999985099,
+        "end": 614.3999999985099,
+        "width": 512,
+        "height": 427
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-2.webp",
+        "start": 482.3999999985099,
+        "end": 614.5,
+        "width": 512,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-1.webp",
+        "start": 482.5,
+        "end": 614.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-0.webp",
+        "start": 482.5,
+        "end": 614.5,
+        "width": 512,
+        "height": 426
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-2.webp",
+        "start": 499.19999999925494,
+        "end": 614.6000000014901,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-0.webp",
+        "start": 500.1000000014901,
+        "end": 614.6000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-1.webp",
+        "start": 500.19999999925494,
+        "end": 614.6000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-2.webp",
+        "start": 504.3999999985099,
+        "end": 614.6000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-0.webp",
+        "start": 505,
+        "end": 614.6999999992549,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-1.webp",
+        "start": 505.69999999925494,
+        "end": 620.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-2.webp",
+        "start": 505.69999999925494,
+        "end": 620.6000000014901,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-0-1.webp",
+        "start": 505.69999999925494,
+        "end": 620.6000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-1-2.webp",
+        "start": 534.8999999985099,
+        "end": 620.6999999992549,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-2-1.webp",
+        "start": 535,
+        "end": 622.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-4-1.webp",
+        "start": 535.3000000007451,
+        "end": 626.3999999985099,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-4-4.webp",
+        "start": 535.3000000007451,
+        "end": 655.8000000007451,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-5-2.webp",
+        "start": 535.3000000007451,
+        "end": 655.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-7-1.webp",
+        "start": 535.3000000007451,
+        "end": 655.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-8-4.webp",
+        "start": 535.5,
+        "end": 685.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-7-4.webp",
+        "start": 535.6000000014901,
+        "end": 740.1000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-9-4.webp",
+        "start": 535.6000000014901,
+        "end": 756,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/enemy-atlas-v1.webp",
+        "start": 535.6999999992549,
+        "end": 844.5,
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/effects-v2.webp",
+        "start": 537,
+        "end": 844.8999999985099,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/projectile-stone-v1.webp",
+        "start": 538.8999999985099,
+        "end": 844.8999999985099,
+        "width": 188,
+        "height": 164
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/projectiles-v1.webp",
+        "start": 610.3000000007451,
+        "end": 844.8999999985099,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-rear.webp",
+        "start": 614.6000000014901,
+        "end": 855.5,
+        "width": 1580,
+        "height": 1185
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/identity.webp",
+        "start": 614.6999999992549,
+        "end": 893,
+        "width": 1536,
+        "height": 768
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-directions.webp",
+        "start": 620.6000000014901,
+        "end": 895.1000000014901,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-rear.webp",
+        "start": 620.6000000014901,
+        "end": 943.8000000007451,
+        "width": 1504,
+        "height": 1236
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-directions.webp",
+        "start": 620.6000000014901,
+        "end": 944.5,
+        "width": 1402,
+        "height": 1122
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zone-art-v2.png",
+        "start": 655.5,
+        "end": 944.6999999992549,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-projectiles-v2.png",
+        "start": 655.6999999992549,
+        "end": 1064.800000000745,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/drone.webp",
+        "start": 655.8999999985099,
+        "end": 1064.800000000745,
+        "width": 1024,
+        "height": 256
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero-reactions.webp",
+        "start": 655.8999999985099,
+        "end": 1072.800000000745,
+        "width": 2048,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/roles.webp",
+        "start": 685.8000000007451,
+        "end": 1072.800000000745,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/regions-v1/9-floor.webp",
+        "start": 685.8999999985099,
+        "end": 1072.8999999985099,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-yanggi.webp",
+        "start": 740.1000000014901,
+        "end": 1072.8999999985099,
+        "width": 1728,
+        "height": 1792
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-mukyeon.webp",
+        "start": 740.1999999992549,
+        "end": 1072.8999999985099,
+        "width": 1536,
+        "height": 960
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "start": 753.8000000007451,
+        "end": 1072.8999999985099,
+        "width": 1670,
+        "height": 942
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/encounter-props-v1.png",
+        "start": 756.3000000007451,
+        "end": 1110.5,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/boss-fields-v1.png",
+        "start": 795.3999999985099,
+        "end": 1112.1000000014901,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hero-slash-v1/hero-0.webp",
+        "start": 810.3999999985099,
+        "end": 1126.3999999985099,
+        "width": 1460,
+        "height": 957
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-zhugehyeon.webp",
+        "start": 820.6999999992549,
+        "end": 1135.6000000014901,
+        "width": 1728,
+        "height": 960
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/boss-mechanics-v1.png",
+        "start": 827.3000000007451,
+        "end": 1147.800000000745,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-jingwal.webp",
+        "start": 844.6000000014901,
+        "end": 1184.5,
+        "width": 1824,
+        "height": 2560
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-0.webp",
+        "start": 844.8000000007451,
+        "end": 1206.300000000745,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-3.webp",
+        "start": 844.8999999985099,
+        "end": 1227.1000000014901,
+        "width": 2176,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-4.webp",
+        "start": 844.8999999985099,
+        "end": 1329.8999999985099,
+        "width": 1792,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-1.webp",
+        "start": 844.8999999985099,
+        "end": 1330,
+        "width": 2176,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-2.webp",
+        "start": 844.8999999985099,
+        "end": 1330,
+        "width": 2304,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-0.webp",
+        "start": 844.8999999985099,
+        "end": 1330,
+        "width": 1536,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-1.webp",
+        "start": 844.8999999985099,
+        "end": 1336.8999999985099,
+        "width": 1536,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-2.webp",
+        "start": 855.3999999985099,
+        "end": 1359.6000000014901,
+        "width": 1664,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-3.webp",
+        "start": 855.5,
+        "end": 1383.3999999985099,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-4.webp",
+        "start": 855.5,
+        "end": 1383.5,
+        "width": 1920,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-0.webp",
+        "start": 855.5,
+        "end": 1383.6000000014901,
+        "width": 1792,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-3.webp",
+        "start": 893.1999999992549,
+        "end": 1413.5,
+        "width": 2304,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-1.webp",
+        "start": 894.8999999985099,
+        "end": 1413.699999999255,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-2.webp",
+        "start": 895.1000000014901,
+        "end": 1413.699999999255,
+        "width": 2176,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-4.webp",
+        "start": 895.1000000014901,
+        "end": 1413.699999999255,
+        "width": 1408,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+        "start": 895.1000000014901,
+        "end": 1413.800000000745,
+        "width": 2048,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+        "start": 895.1000000014901,
+        "end": 1413.800000000745,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+        "start": 895.1000000014901,
+        "end": 1413.800000000745,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+        "start": 895.1000000014901,
+        "end": 1413.800000000745,
+        "width": 2048,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+        "start": 895.1000000014901,
+        "end": 1413.800000000745,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front-right.webp",
+        "start": 943.6000000014901,
+        "end": 1413.800000000745,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front.webp",
+        "start": 943.6000000014901,
+        "end": 1413.800000000745,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-back.webp",
+        "start": 944.6000000014901,
+        "end": 1413.8999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front-right.webp",
+        "start": 944.6999999992549,
+        "end": 1414,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-right.webp",
+        "start": 1064.699999999255,
+        "end": 1414,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-rear-right.webp",
+        "start": 1064.800000000745,
+        "end": 1414,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front.webp",
+        "start": 1065,
+        "end": 1414,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-right.webp",
+        "start": 1065,
+        "end": 1414,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-right.webp",
+        "start": 1088.8999999985099,
+        "end": 1436.1000000014901,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front-right.webp",
+        "start": 1088.8999999985099,
+        "end": 1459.699999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-rear-right.webp",
+        "start": 1094.8999999985099,
+        "end": 1480.6000000014901,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front.webp",
+        "start": 1095,
+        "end": 1480.699999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-back.webp",
+        "start": 1095,
+        "end": 1480.699999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+        "start": 1095.1000000014901,
+        "end": 1480.699999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-back.webp",
+        "start": 1095.1000000014901,
+        "end": 1481,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front-right.webp",
+        "start": 1095.1000000014901,
+        "end": 1481,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front.webp",
+        "start": 1095.1000000014901,
+        "end": 1481,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-right.webp",
+        "start": 1095.1000000014901,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-rear-right.webp",
+        "start": 1095.1000000014901,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-back.webp",
+        "start": 1110.199999999255,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-back.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 1920,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-right.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-rear-right.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-back.webp",
+        "start": 1110.300000000745,
+        "end": 1481.1000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+        "start": 1110.300000000745,
+        "end": 1481.6000000014901,
+        "width": 2304,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.6000000014901,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-right.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.6000000014901,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-rear-right.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.6000000014901,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.6000000014901,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.8999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-right.webp",
+        "start": 1110.3999999985099,
+        "end": 1481.8999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+        "start": 1110.5,
+        "end": 1482,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-back.webp",
+        "start": 1110.5,
+        "end": 1482,
+        "width": 2176,
+        "height": 1344
+      }
+    ],
+    "ready": 5328,
+    "interface": 191.39999999850988,
+    "resources": [
+      {
+        "name": "http://127.0.0.1:5205/assets/main-DZ3TTmz8.js",
+        "startTime": 8,
+        "duration": 79.5,
+        "transferSize": 489025,
+        "encodedBodySize": 488725,
+        "decodedBodySize": 5350488,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/Icons-BZUaMY8D.js",
+        "startTime": 8.100000001490116,
+        "duration": 14.299999997019768,
+        "transferSize": 98483,
+        "encodedBodySize": 98183,
+        "decodedBodySize": 314601,
+        "initiatorType": "other"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/main-DFkPwoaI.css",
+        "startTime": 8.199999999254942,
+        "duration": 10.100000001490116,
+        "transferSize": 46087,
+        "encodedBodySize": 45787,
+        "decodedBodySize": 250409,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunDodum-Regular.woff2",
+        "startTime": 193.10000000149012,
+        "duration": 15.199999999254942,
+        "transferSize": 446356,
+        "encodedBodySize": 446056,
+        "decodedBodySize": 446056,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunBatang-Bold.woff2",
+        "startTime": 193.19999999925494,
+        "duration": 16,
+        "transferSize": 492044,
+        "encodedBodySize": 491744,
+        "decodedBodySize": 491744,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/augment-icons.webp",
+        "startTime": 193.69999999925494,
+        "duration": 14.199999999254942,
+        "transferSize": 307106,
+        "encodedBodySize": 306806,
+        "decodedBodySize": 306806,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-0.webp",
+        "startTime": 193.80000000074506,
+        "duration": 9.699999999254942,
+        "transferSize": 54482,
+        "encodedBodySize": 54182,
+        "decodedBodySize": 54182,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-2.webp",
+        "startTime": 193.80000000074506,
+        "duration": 11.300000000745058,
+        "transferSize": 51382,
+        "encodedBodySize": 51082,
+        "decodedBodySize": 51082,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-1.webp",
+        "startTime": 193.80000000074506,
+        "duration": 10.599999997764826,
+        "transferSize": 50664,
+        "encodedBodySize": 50364,
+        "decodedBodySize": 50364,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/navigation-v1.webp",
+        "startTime": 193.80000000074506,
+        "duration": 29.399999998509884,
+        "transferSize": 377814,
+        "encodedBodySize": 377514,
+        "decodedBodySize": 377514,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/symbols-v1.webp",
+        "startTime": 193.80000000074506,
+        "duration": 34.19999999925494,
+        "transferSize": 622028,
+        "encodedBodySize": 621728,
+        "decodedBodySize": 621728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/materials-v2.webp",
+        "startTime": 193.89999999850988,
+        "duration": 28.800000000745058,
+        "transferSize": 287846,
+        "encodedBodySize": 287546,
+        "decodedBodySize": 287546,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/portrait-v1.webp",
+        "startTime": 193.89999999850988,
+        "duration": 26.900000002235174,
+        "transferSize": 179268,
+        "encodedBodySize": 178968,
+        "decodedBodySize": 178968,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/lobby-v2.webp",
+        "startTime": 194,
+        "duration": 32,
+        "transferSize": 277848,
+        "encodedBodySize": 277548,
+        "decodedBodySize": 277548,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/new-arts-v1.png",
+        "startTime": 194,
+        "duration": 54.899999998509884,
+        "transferSize": 2432872,
+        "encodedBodySize": 2432572,
+        "decodedBodySize": 2432572,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/weapons-v2.png",
+        "startTime": 194.10000000149012,
+        "duration": 58,
+        "transferSize": 1822192,
+        "encodedBodySize": 1821892,
+        "decodedBodySize": 1821892,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/boss-loot-v1.png",
+        "startTime": 194.10000000149012,
+        "duration": 59.5,
+        "transferSize": 1954423,
+        "encodedBodySize": 1954123,
+        "decodedBodySize": 1954123,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunDodum-Regular.woff2",
+        "startTime": 196.80000000074506,
+        "duration": 10,
+        "transferSize": 300,
+        "encodedBodySize": 446056,
+        "decodedBodySize": 446056,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunBatang-Bold.woff2",
+        "startTime": 196.80000000074506,
+        "duration": 29,
+        "transferSize": 300,
+        "encodedBodySize": 491744,
+        "decodedBodySize": 491744,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/mount-DuSNypDq.js",
+        "startTime": 430.69999999925494,
+        "duration": 27.5,
+        "transferSize": 63632,
+        "encodedBodySize": 63332,
+        "decodedBodySize": 424352,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/phaser-BTGbtjln.js",
+        "startTime": 430.80000000074506,
+        "duration": 100.39999999850988,
+        "transferSize": 371838,
+        "encodedBodySize": 371538,
+        "decodedBodySize": 1387441,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/held-darts-v1.webp",
+        "startTime": 432.19999999925494,
+        "duration": 13.900000002235174,
+        "transferSize": 131180,
+        "encodedBodySize": 130880,
+        "decodedBodySize": 130880,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/held-gauntlets-v1.webp",
+        "startTime": 432.30000000074506,
+        "duration": 19.099999997764826,
+        "transferSize": 326428,
+        "encodedBodySize": 326128,
+        "decodedBodySize": 326128,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/forest-v1.webp",
+        "startTime": 432.30000000074506,
+        "duration": 23.800000000745058,
+        "transferSize": 423794,
+        "encodedBodySize": 423494,
+        "decodedBodySize": 423494,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero.webp",
+        "startTime": 432.30000000074506,
+        "duration": 26.800000000745058,
+        "transferSize": 465836,
+        "encodedBodySize": 465536,
+        "decodedBodySize": 465536,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-0.webp",
+        "startTime": 432.3999999985099,
+        "duration": 24.600000001490116,
+        "transferSize": 9028,
+        "encodedBodySize": 8728,
+        "decodedBodySize": 8728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-1.webp",
+        "startTime": 432.3999999985099,
+        "duration": 30.400000002235174,
+        "transferSize": 11036,
+        "encodedBodySize": 10736,
+        "decodedBodySize": 10736,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-2.webp",
+        "startTime": 432.5,
+        "duration": 31.699999999254942,
+        "transferSize": 17066,
+        "encodedBodySize": 16766,
+        "decodedBodySize": 16766,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-0.webp",
+        "startTime": 432.5,
+        "duration": 33.399999998509884,
+        "transferSize": 10398,
+        "encodedBodySize": 10098,
+        "decodedBodySize": 10098,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-1.webp",
+        "startTime": 432.5,
+        "duration": 37.19999999925494,
+        "transferSize": 10840,
+        "encodedBodySize": 10540,
+        "decodedBodySize": 10540,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-0.webp",
+        "startTime": 432.5,
+        "duration": 40.100000001490116,
+        "transferSize": 37310,
+        "encodedBodySize": 37010,
+        "decodedBodySize": 37010,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-2.webp",
+        "startTime": 432.5,
+        "duration": 39.69999999925494,
+        "transferSize": 16364,
+        "encodedBodySize": 16064,
+        "decodedBodySize": 16064,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-1.webp",
+        "startTime": 432.5,
+        "duration": 42.399999998509884,
+        "transferSize": 25542,
+        "encodedBodySize": 25242,
+        "decodedBodySize": 25242,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-2.webp",
+        "startTime": 432.6000000014901,
+        "duration": 42.899999998509884,
+        "transferSize": 36030,
+        "encodedBodySize": 35730,
+        "decodedBodySize": 35730,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-1.webp",
+        "startTime": 432.69999999925494,
+        "duration": 48.80000000074506,
+        "transferSize": 35268,
+        "encodedBodySize": 34968,
+        "decodedBodySize": 34968,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-0.webp",
+        "startTime": 432.69999999925494,
+        "duration": 48.600000001490116,
+        "transferSize": 40724,
+        "encodedBodySize": 40424,
+        "decodedBodySize": 40424,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-2.webp",
+        "startTime": 432.69999999925494,
+        "duration": 57.30000000074506,
+        "transferSize": 48280,
+        "encodedBodySize": 47980,
+        "decodedBodySize": 47980,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-0.webp",
+        "startTime": 432.80000000074506,
+        "duration": 59.599999997764826,
+        "transferSize": 6610,
+        "encodedBodySize": 6310,
+        "decodedBodySize": 6310,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-1.webp",
+        "startTime": 432.80000000074506,
+        "duration": 59.80000000074506,
+        "transferSize": 6882,
+        "encodedBodySize": 6582,
+        "decodedBodySize": 6582,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-2.webp",
+        "startTime": 432.80000000074506,
+        "duration": 68.5,
+        "transferSize": 10252,
+        "encodedBodySize": 9952,
+        "decodedBodySize": 9952,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-0.webp",
+        "startTime": 432.80000000074506,
+        "duration": 68.69999999925494,
+        "transferSize": 36944,
+        "encodedBodySize": 36644,
+        "decodedBodySize": 36644,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-1.webp",
+        "startTime": 432.8999999985099,
+        "duration": 70.70000000298023,
+        "transferSize": 32472,
+        "encodedBodySize": 32172,
+        "decodedBodySize": 32172,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-2.webp",
+        "startTime": 432.8999999985099,
+        "duration": 71,
+        "transferSize": 35118,
+        "encodedBodySize": 34818,
+        "decodedBodySize": 34818,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-0-1.webp",
+        "startTime": 432.8999999985099,
+        "duration": 71.20000000298023,
+        "transferSize": 12344,
+        "encodedBodySize": 12044,
+        "decodedBodySize": 12044,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-1-2.webp",
+        "startTime": 432.8999999985099,
+        "duration": 76.90000000223517,
+        "transferSize": 26366,
+        "encodedBodySize": 26066,
+        "decodedBodySize": 26066,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-2-1.webp",
+        "startTime": 433,
+        "duration": 78.30000000074506,
+        "transferSize": 14860,
+        "encodedBodySize": 14560,
+        "decodedBodySize": 14560,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-4-1.webp",
+        "startTime": 433,
+        "duration": 78.69999999925494,
+        "transferSize": 35922,
+        "encodedBodySize": 35622,
+        "decodedBodySize": 35622,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-4-4.webp",
+        "startTime": 433.1000000014901,
+        "duration": 78.89999999850988,
+        "transferSize": 61046,
+        "encodedBodySize": 60746,
+        "decodedBodySize": 60746,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-5-2.webp",
+        "startTime": 433.1000000014901,
+        "duration": 79.09999999776483,
+        "transferSize": 8464,
+        "encodedBodySize": 8164,
+        "decodedBodySize": 8164,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-7-1.webp",
+        "startTime": 433.19999999925494,
+        "duration": 85.30000000074506,
+        "transferSize": 14650,
+        "encodedBodySize": 14350,
+        "decodedBodySize": 14350,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-8-4.webp",
+        "startTime": 433.19999999925494,
+        "duration": 85.69999999925494,
+        "transferSize": 14100,
+        "encodedBodySize": 13800,
+        "decodedBodySize": 13800,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-7-4.webp",
+        "startTime": 433.19999999925494,
+        "duration": 86.5,
+        "transferSize": 16736,
+        "encodedBodySize": 16436,
+        "decodedBodySize": 16436,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-9-4.webp",
+        "startTime": 433.19999999925494,
+        "duration": 87,
+        "transferSize": 38652,
+        "encodedBodySize": 38352,
+        "decodedBodySize": 38352,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/enemy-atlas-v1.webp",
+        "startTime": 433.30000000074506,
+        "duration": 89.80000000074506,
+        "transferSize": 370438,
+        "encodedBodySize": 370138,
+        "decodedBodySize": 370138,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/effects-v2.webp",
+        "startTime": 433.3999999985099,
+        "duration": 95.80000000074506,
+        "transferSize": 105834,
+        "encodedBodySize": 105534,
+        "decodedBodySize": 105534,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/projectile-stone-v1.webp",
+        "startTime": 433.3999999985099,
+        "duration": 97.20000000298023,
+        "transferSize": 24446,
+        "encodedBodySize": 24146,
+        "decodedBodySize": 24146,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/projectiles-v1.webp",
+        "startTime": 433.3999999985099,
+        "duration": 105.30000000074506,
+        "transferSize": 440832,
+        "encodedBodySize": 440532,
+        "decodedBodySize": 440532,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-directions.webp",
+        "startTime": 433.3999999985099,
+        "duration": 135.60000000149012,
+        "transferSize": 1823324,
+        "encodedBodySize": 1823024,
+        "decodedBodySize": 1823024,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zone-art-v2.png",
+        "startTime": 433.3999999985099,
+        "duration": 153.40000000223517,
+        "transferSize": 2820653,
+        "encodedBodySize": 2820353,
+        "decodedBodySize": 2820353,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-directions.webp",
+        "startTime": 433.5,
+        "duration": 134.60000000149012,
+        "transferSize": 1421328,
+        "encodedBodySize": 1421028,
+        "decodedBodySize": 1421028,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-rear.webp",
+        "startTime": 433.5,
+        "duration": 135.10000000149012,
+        "transferSize": 1471574,
+        "encodedBodySize": 1471274,
+        "decodedBodySize": 1471274,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-rear.webp",
+        "startTime": 433.6000000014901,
+        "duration": 130.29999999701977,
+        "transferSize": 1008994,
+        "encodedBodySize": 1008694,
+        "decodedBodySize": 1008694,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/identity.webp",
+        "startTime": 433.6000000014901,
+        "duration": 120.59999999776483,
+        "transferSize": 331266,
+        "encodedBodySize": 330966,
+        "decodedBodySize": 330966,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/roles.webp",
+        "startTime": 434.1000000014901,
+        "duration": 140.09999999776483,
+        "transferSize": 506546,
+        "encodedBodySize": 506246,
+        "decodedBodySize": 506246,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-projectiles-v2.png",
+        "startTime": 434.19999999925494,
+        "duration": 155.5,
+        "transferSize": 1025675,
+        "encodedBodySize": 1025375,
+        "decodedBodySize": 1025375,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "startTime": 434.30000000074506,
+        "duration": 149.39999999850988,
+        "transferSize": 371424,
+        "encodedBodySize": 371124,
+        "decodedBodySize": 371124,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/encounter-props-v1.png",
+        "startTime": 434.30000000074506,
+        "duration": 194.5,
+        "transferSize": 2107875,
+        "encodedBodySize": 2107575,
+        "decodedBodySize": 2107575,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/drone.webp",
+        "startTime": 434.3999999985099,
+        "duration": 148.30000000074506,
+        "transferSize": 53132,
+        "encodedBodySize": 52832,
+        "decodedBodySize": 52832,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero-reactions.webp",
+        "startTime": 434.3999999985099,
+        "duration": 160.60000000149012,
+        "transferSize": 268110,
+        "encodedBodySize": 267810,
+        "decodedBodySize": 267810,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/boss-fields-v1.png",
+        "startTime": 434.3999999985099,
+        "duration": 187.40000000223517,
+        "transferSize": 2075868,
+        "encodedBodySize": 2075568,
+        "decodedBodySize": 2075568,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/boss-mechanics-v1.png",
+        "startTime": 434.3999999985099,
+        "duration": 203,
+        "transferSize": 2261975,
+        "encodedBodySize": 2261675,
+        "decodedBodySize": 2261675,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/regions-v1/9-floor.webp",
+        "startTime": 434.5,
+        "duration": 169.10000000149012,
+        "transferSize": 269168,
+        "encodedBodySize": 268868,
+        "decodedBodySize": 268868,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-yanggi.webp",
+        "startTime": 434.5,
+        "duration": 183.19999999925494,
+        "transferSize": 1016312,
+        "encodedBodySize": 1016012,
+        "decodedBodySize": 1016012,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hero-slash-v1/hero-0.webp",
+        "startTime": 434.5,
+        "duration": 179.69999999925494,
+        "transferSize": 1147502,
+        "encodedBodySize": 1147202,
+        "decodedBodySize": 1147202,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-mukyeon.webp",
+        "startTime": 434.6000000014901,
+        "duration": 186.79999999701977,
+        "transferSize": 594710,
+        "encodedBodySize": 594410,
+        "decodedBodySize": 594410,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-jingwal.webp",
+        "startTime": 434.6000000014901,
+        "duration": 210.19999999925494,
+        "transferSize": 1682008,
+        "encodedBodySize": 1681708,
+        "decodedBodySize": 1681708,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-zhugehyeon.webp",
+        "startTime": 435.19999999925494,
+        "duration": 201.69999999925494,
+        "transferSize": 819386,
+        "encodedBodySize": 819086,
+        "decodedBodySize": 819086,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-0.webp",
+        "startTime": 435.3999999985099,
+        "duration": 213.10000000149012,
+        "transferSize": 907546,
+        "encodedBodySize": 907246,
+        "decodedBodySize": 907246,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-1.webp",
+        "startTime": 435.3999999985099,
+        "duration": 215.10000000149012,
+        "transferSize": 948020,
+        "encodedBodySize": 947720,
+        "decodedBodySize": 947720,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-2.webp",
+        "startTime": 435.3999999985099,
+        "duration": 221.60000000149012,
+        "transferSize": 1009312,
+        "encodedBodySize": 1009012,
+        "decodedBodySize": 1009012,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-3.webp",
+        "startTime": 435.5,
+        "duration": 234.39999999850988,
+        "transferSize": 924398,
+        "encodedBodySize": 924098,
+        "decodedBodySize": 924098,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-4.webp",
+        "startTime": 435.5,
+        "duration": 227.39999999850988,
+        "transferSize": 633950,
+        "encodedBodySize": 633650,
+        "decodedBodySize": 633650,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-0.webp",
+        "startTime": 435.6000000014901,
+        "duration": 242.59999999776483,
+        "transferSize": 1031092,
+        "encodedBodySize": 1030792,
+        "decodedBodySize": 1030792,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-1.webp",
+        "startTime": 435.6000000014901,
+        "duration": 250.29999999701977,
+        "transferSize": 1118856,
+        "encodedBodySize": 1118556,
+        "decodedBodySize": 1118556,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-2.webp",
+        "startTime": 435.6000000014901,
+        "duration": 249.5,
+        "transferSize": 1082652,
+        "encodedBodySize": 1082352,
+        "decodedBodySize": 1082352,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-3.webp",
+        "startTime": 435.69999999925494,
+        "duration": 254,
+        "transferSize": 1097076,
+        "encodedBodySize": 1096776,
+        "decodedBodySize": 1096776,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-4.webp",
+        "startTime": 435.69999999925494,
+        "duration": 253.40000000223517,
+        "transferSize": 779970,
+        "encodedBodySize": 779670,
+        "decodedBodySize": 779670,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-0.webp",
+        "startTime": 435.69999999925494,
+        "duration": 260.4000000022352,
+        "transferSize": 931886,
+        "encodedBodySize": 931586,
+        "decodedBodySize": 931586,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-3.webp",
+        "startTime": 435.80000000074506,
+        "duration": 292.5999999977648,
+        "transferSize": 1060192,
+        "encodedBodySize": 1059892,
+        "decodedBodySize": 1059892,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-1.webp",
+        "startTime": 435.80000000074506,
+        "duration": 275.5999999977648,
+        "transferSize": 1546404,
+        "encodedBodySize": 1546104,
+        "decodedBodySize": 1546104,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-2.webp",
+        "startTime": 435.80000000074506,
+        "duration": 293.5,
+        "transferSize": 1237008,
+        "encodedBodySize": 1236708,
+        "decodedBodySize": 1236708,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-4.webp",
+        "startTime": 435.8999999985099,
+        "duration": 285.20000000298023,
+        "transferSize": 757812,
+        "encodedBodySize": 757512,
+        "decodedBodySize": 757512,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+        "startTime": 436,
+        "duration": 300.6000000014901,
+        "transferSize": 1378680,
+        "encodedBodySize": 1378380,
+        "decodedBodySize": 1378380,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+        "startTime": 436,
+        "duration": 314.8999999985099,
+        "transferSize": 1643246,
+        "encodedBodySize": 1642946,
+        "decodedBodySize": 1642946,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+        "startTime": 436,
+        "duration": 318.19999999925494,
+        "transferSize": 1152800,
+        "encodedBodySize": 1152500,
+        "decodedBodySize": 1152500,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+        "startTime": 436,
+        "duration": 323.8999999985099,
+        "transferSize": 1120802,
+        "encodedBodySize": 1120502,
+        "decodedBodySize": 1120502,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+        "startTime": 436.1000000014901,
+        "duration": 325.5,
+        "transferSize": 985132,
+        "encodedBodySize": 984832,
+        "decodedBodySize": 984832,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front-right.webp",
+        "startTime": 436.1000000014901,
+        "duration": 340.69999999925494,
+        "transferSize": 1502740,
+        "encodedBodySize": 1502440,
+        "decodedBodySize": 1502440,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front.webp",
+        "startTime": 436.19999999925494,
+        "duration": 350.30000000074506,
+        "transferSize": 1527584,
+        "encodedBodySize": 1527284,
+        "decodedBodySize": 1527284,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-back.webp",
+        "startTime": 436.19999999925494,
+        "duration": 370.30000000074506,
+        "transferSize": 1098078,
+        "encodedBodySize": 1097778,
+        "decodedBodySize": 1097778,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-right.webp",
+        "startTime": 436.19999999925494,
+        "duration": 377.6000000014901,
+        "transferSize": 1543018,
+        "encodedBodySize": 1542718,
+        "decodedBodySize": 1542718,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-rear-right.webp",
+        "startTime": 436.19999999925494,
+        "duration": 378.6000000014901,
+        "transferSize": 1465564,
+        "encodedBodySize": 1465264,
+        "decodedBodySize": 1465264,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front-right.webp",
+        "startTime": 436.30000000074506,
+        "duration": 372.5,
+        "transferSize": 1123040,
+        "encodedBodySize": 1122740,
+        "decodedBodySize": 1122740,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front.webp",
+        "startTime": 436.30000000074506,
+        "duration": 386,
+        "transferSize": 1146002,
+        "encodedBodySize": 1145702,
+        "decodedBodySize": 1145702,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-right.webp",
+        "startTime": 436.30000000074506,
+        "duration": 390.19999999925494,
+        "transferSize": 1064294,
+        "encodedBodySize": 1063994,
+        "decodedBodySize": 1063994,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+        "startTime": 436.30000000074506,
+        "duration": 407.69999999925494,
+        "transferSize": 1017020,
+        "encodedBodySize": 1016720,
+        "decodedBodySize": 1016720,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-back.webp",
+        "startTime": 436.3999999985099,
+        "duration": 404.20000000298023,
+        "transferSize": 843536,
+        "encodedBodySize": 843236,
+        "decodedBodySize": 843236,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front-right.webp",
+        "startTime": 436.3999999985099,
+        "duration": 419.30000000074506,
+        "transferSize": 1198158,
+        "encodedBodySize": 1197858,
+        "decodedBodySize": 1197858,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front.webp",
+        "startTime": 436.5,
+        "duration": 422.5,
+        "transferSize": 1254606,
+        "encodedBodySize": 1254306,
+        "decodedBodySize": 1254306,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-right.webp",
+        "startTime": 436.5,
+        "duration": 426.5,
+        "transferSize": 1247598,
+        "encodedBodySize": 1247298,
+        "decodedBodySize": 1247298,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-right.webp",
+        "startTime": 436.6000000014901,
+        "duration": 465.5999999977648,
+        "transferSize": 1128832,
+        "encodedBodySize": 1128532,
+        "decodedBodySize": 1128532,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front-right.webp",
+        "startTime": 436.6000000014901,
+        "duration": 452.29999999701977,
+        "transferSize": 1135858,
+        "encodedBodySize": 1135558,
+        "decodedBodySize": 1135558,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-rear-right.webp",
+        "startTime": 436.6000000014901,
+        "duration": 466.0999999977648,
+        "transferSize": 1015728,
+        "encodedBodySize": 1015428,
+        "decodedBodySize": 1015428,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front.webp",
+        "startTime": 436.6000000014901,
+        "duration": 463.0999999977648,
+        "transferSize": 1162412,
+        "encodedBodySize": 1162112,
+        "decodedBodySize": 1162112,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-rear-right.webp",
+        "startTime": 436.6000000014901,
+        "duration": 432.5999999977648,
+        "transferSize": 1155772,
+        "encodedBodySize": 1155472,
+        "decodedBodySize": 1155472,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-back.webp",
+        "startTime": 436.6000000014901,
+        "duration": 440.0999999977648,
+        "transferSize": 977524,
+        "encodedBodySize": 977224,
+        "decodedBodySize": 977224,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-back.webp",
+        "startTime": 436.69999999925494,
+        "duration": 470.19999999925494,
+        "transferSize": 864460,
+        "encodedBodySize": 864160,
+        "decodedBodySize": 864160,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+        "startTime": 436.69999999925494,
+        "duration": 478.80000000074506,
+        "transferSize": 1146612,
+        "encodedBodySize": 1146312,
+        "decodedBodySize": 1146312,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front.webp",
+        "startTime": 436.80000000074506,
+        "duration": 490.69999999925494,
+        "transferSize": 1288204,
+        "encodedBodySize": 1287904,
+        "decodedBodySize": 1287904,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-right.webp",
+        "startTime": 436.80000000074506,
+        "duration": 500.3999999985099,
+        "transferSize": 1201208,
+        "encodedBodySize": 1200908,
+        "decodedBodySize": 1200908,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-rear-right.webp",
+        "startTime": 436.80000000074506,
+        "duration": 513.0999999977648,
+        "transferSize": 1163980,
+        "encodedBodySize": 1163680,
+        "decodedBodySize": 1163680,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-back.webp",
+        "startTime": 436.8999999985099,
+        "duration": 513.6000000014901,
+        "transferSize": 1063012,
+        "encodedBodySize": 1062712,
+        "decodedBodySize": 1062712,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+        "startTime": 436.8999999985099,
+        "duration": 521.3000000007451,
+        "transferSize": 1395200,
+        "encodedBodySize": 1394900,
+        "decodedBodySize": 1394900,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front.webp",
+        "startTime": 437,
+        "duration": 526.6000000014901,
+        "transferSize": 1369276,
+        "encodedBodySize": 1368976,
+        "decodedBodySize": 1368976,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-right.webp",
+        "startTime": 437,
+        "duration": 544.3000000007451,
+        "transferSize": 1397244,
+        "encodedBodySize": 1396944,
+        "decodedBodySize": 1396944,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-back.webp",
+        "startTime": 437.1000000014901,
+        "duration": 552.8999999985099,
+        "transferSize": 990154,
+        "encodedBodySize": 989854,
+        "decodedBodySize": 989854,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-rear-right.webp",
+        "startTime": 437.1000000014901,
+        "duration": 547.3999999985099,
+        "transferSize": 1247084,
+        "encodedBodySize": 1246784,
+        "decodedBodySize": 1246784,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+        "startTime": 437.1000000014901,
+        "duration": 562,
+        "transferSize": 1399268,
+        "encodedBodySize": 1398968,
+        "decodedBodySize": 1398968,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front.webp",
+        "startTime": 437.19999999925494,
+        "duration": 567.1999999992549,
+        "transferSize": 1449910,
+        "encodedBodySize": 1449610,
+        "decodedBodySize": 1449610,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-right.webp",
+        "startTime": 437.19999999925494,
+        "duration": 568.1000000014901,
+        "transferSize": 1287220,
+        "encodedBodySize": 1286920,
+        "decodedBodySize": 1286920,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+        "startTime": 437.19999999925494,
+        "duration": 574.1000000014901,
+        "transferSize": 1302314,
+        "encodedBodySize": 1302014,
+        "decodedBodySize": 1302014,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-back.webp",
+        "startTime": 437.30000000074506,
+        "duration": 573,
+        "transferSize": 1134002,
+        "encodedBodySize": 1133702,
+        "decodedBodySize": 1133702,
+        "initiatorType": "img"
+      }
+    ],
+    "renderer": "WebGL / AUTO",
+    "requestedBytes": 98069293,
+    "urls": [
+      "/art/character-polish-v1/augment-icons.webp",
+      "/art/character-polish-v1/recruit-0.webp",
+      "/art/character-polish-v1/recruit-1.webp",
+      "/art/character-polish-v1/recruit-2.webp",
+      "/art/delivery-v1/ui/navigation-v1.webp",
+      "/art/delivery-v1/ui/symbols-v1.webp",
+      "/art/delivery-v1/ui/materials-v2.webp",
+      "/art/delivery-v1/portrait-v1.webp",
+      "/art/delivery-v1/ui/lobby-v2.webp",
+      "/art/ui/new-arts-v1.png",
+      "/art/ui/weapons-v2.png",
+      "/art/ui/boss-loot-v1.png",
+      "/art/held-darts-v1.webp",
+      "/art/held-gauntlets-v1.webp",
+      "/art/delivery-v1/forest-v1.webp",
+      "/art/animation-rebuild-v2/hero.webp",
+      "/art/items-v2/weapon-sword-0.webp",
+      "/art/items-v2/weapon-sword-1.webp",
+      "/art/items-v2/weapon-sword-2.webp",
+      "/art/items-v2/weapon-dao-0.webp",
+      "/art/items-v2/weapon-dao-1.webp",
+      "/art/items-v2/weapon-dao-2.webp",
+      "/art/items-v2/weapon-dart-0.webp",
+      "/art/items-v2/weapon-dart-1.webp",
+      "/art/items-v2/weapon-dart-2.webp",
+      "/art/items-v2/weapon-gauntlet-0.webp",
+      "/art/items-v2/weapon-gauntlet-1.webp",
+      "/art/items-v2/weapon-gauntlet-2.webp",
+      "/art/items-v2/weapon-staff-0.webp",
+      "/art/items-v2/weapon-staff-1.webp",
+      "/art/items-v2/weapon-staff-2.webp",
+      "/art/items-v2/weapon-fan-0.webp",
+      "/art/items-v2/weapon-fan-1.webp",
+      "/art/items-v2/weapon-fan-2.webp",
+      "/art/items-v2/boss-0-1.webp",
+      "/art/items-v2/boss-1-2.webp",
+      "/art/items-v2/boss-2-1.webp",
+      "/art/items-v2/boss-4-1.webp",
+      "/art/items-v2/boss-4-4.webp",
+      "/art/items-v2/boss-5-2.webp",
+      "/art/items-v2/boss-7-1.webp",
+      "/art/items-v2/boss-7-4.webp",
+      "/art/items-v2/boss-8-4.webp",
+      "/art/items-v2/boss-9-4.webp",
+      "/art/delivery-v1/enemy-atlas-v1.webp",
+      "/art/delivery-v1/ui/effects-v2.webp",
+      "/art/zone-art-v2.png",
+      "/art/projectiles-v1.webp",
+      "/art/projectile-stone-v1.webp",
+      "/art/hostile-consistency-v3/roles-directions.webp",
+      "/art/hostile-consistency-v3/roles-rear.webp",
+      "/art/hostile-consistency-v3/identity-directions.webp",
+      "/art/hostile-consistency-v3/identity-rear.webp",
+      "/art/animation-rebuild-v2/identity.webp",
+      "/art/animation-rebuild-v2/roles.webp",
+      "/art/hostile-projectiles-v2.png",
+      "/art/delivery-v1/ui/hud-atlas-v3.webp",
+      "/art/encounter-props-v1.png",
+      "/art/boss-mechanics-v1.png",
+      "/art/animation-rebuild-v2/drone.webp",
+      "/art/animation-rebuild-v2/hero-reactions.webp",
+      "/art/boss-fields-v1.png",
+      "/art/hero-slash-v1/hero-0.webp",
+      "/art/regions-v1/9-floor.webp",
+      "/art/three-complete-v3/three-complete-yanggi.webp",
+      "/art/three-complete-v3/three-complete-mukyeon.webp",
+      "/art/three-complete-v3/three-complete-jingwal.webp",
+      "/art/three-complete-v3/three-complete-zhugehyeon.webp",
+      "/art/three-special-v2/zhuge-yanggi-0.webp",
+      "/art/three-special-v2/zhuge-yanggi-1.webp",
+      "/art/three-special-v2/zhuge-yanggi-2.webp",
+      "/art/three-special-v2/zhuge-yanggi-3.webp",
+      "/art/three-special-v2/zhuge-yanggi-4.webp",
+      "/art/three-special-v2/zhuge-mukyeon-0.webp",
+      "/art/three-special-v2/zhuge-mukyeon-1.webp",
+      "/art/three-special-v2/zhuge-mukyeon-2.webp",
+      "/art/three-special-v2/zhuge-mukyeon-3.webp",
+      "/art/three-special-v2/zhuge-mukyeon-4.webp",
+      "/art/three-special-v2/zhuge-jingwal-0.webp",
+      "/art/three-special-v2/zhuge-jingwal-1.webp",
+      "/art/three-special-v2/zhuge-jingwal-2.webp",
+      "/art/three-special-v2/zhuge-jingwal-3.webp",
+      "/art/three-special-v2/zhuge-jingwal-4.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+      "/art/zhuge-family-v1/engineer-front-right.webp",
+      "/art/zhuge-family-v1/engineer-front.webp",
+      "/art/zhuge-family-v1/engineer-right.webp",
+      "/art/zhuge-family-v1/engineer-rear-right.webp",
+      "/art/zhuge-family-v1/engineer-back.webp",
+      "/art/zhuge-family-v1/gatekeeper-front-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-front.webp",
+      "/art/zhuge-family-v1/gatekeeper-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-back.webp",
+      "/art/zhuge-family-v1/crossbow-front-right.webp",
+      "/art/zhuge-family-v1/crossbow-front.webp",
+      "/art/zhuge-family-v1/crossbow-right.webp",
+      "/art/zhuge-family-v1/crossbow-rear-right.webp",
+      "/art/zhuge-family-v1/crossbow-back.webp",
+      "/art/zhuge-family-v1/yanggi-front-right.webp",
+      "/art/zhuge-family-v1/yanggi-front.webp",
+      "/art/zhuge-family-v1/yanggi-right.webp",
+      "/art/zhuge-family-v1/yanggi-rear-right.webp",
+      "/art/zhuge-family-v1/yanggi-back.webp",
+      "/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+      "/art/zhuge-family-v1/mukyeon-front.webp",
+      "/art/zhuge-family-v1/mukyeon-right.webp",
+      "/art/zhuge-family-v1/mukyeon-rear-right.webp",
+      "/art/zhuge-family-v1/mukyeon-back.webp",
+      "/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+      "/art/zhuge-family-v1/jingwal-front.webp",
+      "/art/zhuge-family-v1/jingwal-right.webp",
+      "/art/zhuge-family-v1/jingwal-rear-right.webp",
+      "/art/zhuge-family-v1/jingwal-back.webp",
+      "/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+      "/art/zhuge-family-v1/zhugehyeon-front.webp",
+      "/art/zhuge-family-v1/zhugehyeon-right.webp",
+      "/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+      "/art/zhuge-family-v1/zhugehyeon-back.webp"
+    ],
+    "maxLongTask": 3791
+  },
+  {
+    "cache": "warm",
+    "region": 9,
+    "wave": 20,
+    "phase": "before",
+    "longTasks": [
+      {
+        "start": 1606.2999999970198,
+        "duration": 3726
+      },
+      {
+        "start": 5362.89999999851,
+        "duration": 100
+      }
+    ],
+    "decodes": [
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/augment-icons.webp",
+        "start": 272.19999999925494,
+        "end": 293.29999999701977,
+        "width": 1024,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-0.webp",
+        "start": 272.3999999985099,
+        "end": 297.0999999977648,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-1.webp",
+        "start": 272.3999999985099,
+        "end": 301.5999999977648,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/character-polish-v1/recruit-2.webp",
+        "start": 272.8999999985099,
+        "end": 305.79999999701977,
+        "width": 384,
+        "height": 384
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/navigation-v1.webp",
+        "start": 274.0999999977648,
+        "end": 339.79999999701977,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/portrait-v1.webp",
+        "start": 275.3999999985099,
+        "end": 366.0999999977648,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/lobby-v2.webp",
+        "start": 276.79999999701977,
+        "end": 396.79999999701977,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/materials-v2.webp",
+        "start": 280.0999999977648,
+        "end": 424.79999999701977,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/new-arts-v1.png",
+        "start": 280.3999999985099,
+        "end": 446.69999999925494,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/weapons-v2.png",
+        "start": 281.5,
+        "end": 469.29999999701977,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/ui/boss-loot-v1.png",
+        "start": 283.29999999701977,
+        "end": 484.8999999985099,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/symbols-v1.webp",
+        "start": 285.19999999925494,
+        "end": 527.5999999977648,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/forest-v1.webp",
+        "start": 560.3999999985099,
+        "end": 608,
+        "width": 1671,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/held-darts-v1.webp",
+        "start": 560.5,
+        "end": 635.7999999970198,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/held-gauntlets-v1.webp",
+        "start": 560.5,
+        "end": 671.5999999977648,
+        "width": 2172,
+        "height": 724
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero.webp",
+        "start": 560.5,
+        "end": 759.2999999970198,
+        "width": 1584,
+        "height": 993
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-0.webp",
+        "start": 560.5,
+        "end": 759.3999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-2.webp",
+        "start": 560.5999999977648,
+        "end": 759.5999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-sword-1.webp",
+        "start": 560.5999999977648,
+        "end": 759.5999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-0.webp",
+        "start": 560.5999999977648,
+        "end": 759.5999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-1.webp",
+        "start": 560.7999999970198,
+        "end": 759.5999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dao-2.webp",
+        "start": 560.8999999985099,
+        "end": 759.6999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-0.webp",
+        "start": 560.8999999985099,
+        "end": 759.6999999992549,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-1.webp",
+        "start": 560.8999999985099,
+        "end": 759.6999999992549,
+        "width": 512,
+        "height": 427
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-dart-2.webp",
+        "start": 560.8999999985099,
+        "end": 759.6999999992549,
+        "width": 512,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-0.webp",
+        "start": 561,
+        "end": 763.3999999985099,
+        "width": 512,
+        "height": 426
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-1.webp",
+        "start": 561,
+        "end": 765.7999999970198,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-2.webp",
+        "start": 561,
+        "end": 771.3999999985099,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-0.webp",
+        "start": 561,
+        "end": 774,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-1.webp",
+        "start": 561.0999999977648,
+        "end": 776.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-staff-2.webp",
+        "start": 561.0999999977648,
+        "end": 782.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-0.webp",
+        "start": 561.0999999977648,
+        "end": 785.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-1.webp",
+        "start": 561.0999999977648,
+        "end": 788.8999999985099,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/weapon-fan-2.webp",
+        "start": 561.0999999977648,
+        "end": 792.1999999992549,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-0-1.webp",
+        "start": 561.0999999977648,
+        "end": 794.7999999970198,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-1-2.webp",
+        "start": 561.0999999977648,
+        "end": 799.1999999992549,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-2-1.webp",
+        "start": 561.1999999992549,
+        "end": 801.7999999970198,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-4-1.webp",
+        "start": 586,
+        "end": 805.1999999992549,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-4-4.webp",
+        "start": 591.6999999992549,
+        "end": 810.5999999977648,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-5-2.webp",
+        "start": 591.8999999985099,
+        "end": 812.7999999970198,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-7-1.webp",
+        "start": 591.8999999985099,
+        "end": 817.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-7-4.webp",
+        "start": 591.8999999985099,
+        "end": 820.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-8-4.webp",
+        "start": 591.8999999985099,
+        "end": 823.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/items-v2/boss-9-4.webp",
+        "start": 592,
+        "end": 827.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/enemy-atlas-v1.webp",
+        "start": 592,
+        "end": 864.8999999985099,
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/effects-v2.webp",
+        "start": 592,
+        "end": 891.6999999992549,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zone-art-v2.png",
+        "start": 592,
+        "end": 917.0999999977648,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/projectiles-v1.webp",
+        "start": 592,
+        "end": 938.0999999977648,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/projectile-stone-v1.webp",
+        "start": 592.1999999992549,
+        "end": 939.5,
+        "width": 188,
+        "height": 164
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-directions.webp",
+        "start": 592.1999999992549,
+        "end": 986.1999999992549,
+        "width": 1402,
+        "height": 1122
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-rear.webp",
+        "start": 592.2999999970198,
+        "end": 1029.7999999970198,
+        "width": 1504,
+        "height": 1236
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-directions.webp",
+        "start": 592.2999999970198,
+        "end": 1071,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-rear.webp",
+        "start": 592.2999999970198,
+        "end": 1098.7999999970198,
+        "width": 1580,
+        "height": 1185
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/identity.webp",
+        "start": 592.2999999970198,
+        "end": 1127.199999999255,
+        "width": 1536,
+        "height": 768
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/roles.webp",
+        "start": 592.3999999985099,
+        "end": 1168.5,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hostile-projectiles-v2.png",
+        "start": 592.5,
+        "end": 1182.0999999977648,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "start": 592.5,
+        "end": 1215.8999999985099,
+        "width": 1670,
+        "height": 942
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/encounter-props-v1.png",
+        "start": 592.5,
+        "end": 1238.2999999970198,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/boss-mechanics-v1.png",
+        "start": 592.5999999977648,
+        "end": 1253.699999999255,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/drone.webp",
+        "start": 594.0999999977648,
+        "end": 1258.3999999985099,
+        "width": 1024,
+        "height": 256
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero-reactions.webp",
+        "start": 595.5999999977648,
+        "end": 1283.199999999255,
+        "width": 2048,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/boss-fields-v1.png",
+        "start": 596.6999999992549,
+        "end": 1298.5,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/hero-slash-v1/hero-0.webp",
+        "start": 597.3999999985099,
+        "end": 1319.699999999255,
+        "width": 1460,
+        "height": 957
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/regions-v1/9-floor.webp",
+        "start": 598.5,
+        "end": 1346.699999999255,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-yanggi.webp",
+        "start": 599.5,
+        "end": 1375.199999999255,
+        "width": 1728,
+        "height": 1792
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-mukyeon.webp",
+        "start": 600.0999999977648,
+        "end": 1391.5,
+        "width": 1536,
+        "height": 960
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-jingwal.webp",
+        "start": 601,
+        "end": 1438,
+        "width": 1824,
+        "height": 2560
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-zhugehyeon.webp",
+        "start": 602.0999999977648,
+        "end": 1453.3999999985099,
+        "width": 1728,
+        "height": 960
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-0.webp",
+        "start": 603,
+        "end": 1475.0999999977648,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-1.webp",
+        "start": 604.3999999985099,
+        "end": 1494.699999999255,
+        "width": 2176,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-2.webp",
+        "start": 605,
+        "end": 1514.8999999985099,
+        "width": 2304,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-3.webp",
+        "start": 608.2999999970198,
+        "end": 1532.0999999977648,
+        "width": 2176,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-4.webp",
+        "start": 608.2999999970198,
+        "end": 1547.2999999970198,
+        "width": 1792,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-0.webp",
+        "start": 608.8999999985099,
+        "end": 1564,
+        "width": 1536,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-1.webp",
+        "start": 611,
+        "end": 1564.199999999255,
+        "width": 1536,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-2.webp",
+        "start": 611,
+        "end": 1564.3999999985099,
+        "width": 1664,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-3.webp",
+        "start": 611.5999999977648,
+        "end": 1564.3999999985099,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-4.webp",
+        "start": 612.3999999985099,
+        "end": 1564.3999999985099,
+        "width": 1920,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-0.webp",
+        "start": 614,
+        "end": 1564.3999999985099,
+        "width": 1792,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-1.webp",
+        "start": 614,
+        "end": 1564.3999999985099,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-2.webp",
+        "start": 620.7999999970198,
+        "end": 1564.5,
+        "width": 2176,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-3.webp",
+        "start": 620.7999999970198,
+        "end": 1564.5,
+        "width": 2304,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-4.webp",
+        "start": 620.7999999970198,
+        "end": 1564.5,
+        "width": 1408,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+        "start": 620.8999999985099,
+        "end": 1564.5,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+        "start": 620.8999999985099,
+        "end": 1564.5,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+        "start": 620.8999999985099,
+        "end": 1564.5,
+        "width": 2048,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+        "start": 621.1999999992549,
+        "end": 1564.5,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+        "start": 622.5,
+        "end": 1587.8999999985099,
+        "width": 2048,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front-right.webp",
+        "start": 623.5999999977648,
+        "end": 1588,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front.webp",
+        "start": 625.3999999985099,
+        "end": 1588,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-right.webp",
+        "start": 626.1999999992549,
+        "end": 1588,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-rear-right.webp",
+        "start": 628.1999999992549,
+        "end": 1588.0999999977648,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-back.webp",
+        "start": 629.0999999977648,
+        "end": 1588.0999999977648,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front-right.webp",
+        "start": 629.1999999992549,
+        "end": 1588.2999999970198,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front.webp",
+        "start": 630.7999999970198,
+        "end": 1588.2999999970198,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-right.webp",
+        "start": 630.8999999985099,
+        "end": 1588.2999999970198,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+        "start": 630.8999999985099,
+        "end": 1588.2999999970198,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-back.webp",
+        "start": 631.5,
+        "end": 1588.2999999970198,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front-right.webp",
+        "start": 632.7999999970198,
+        "end": 1588.2999999970198,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front.webp",
+        "start": 633.8999999985099,
+        "end": 1588.3999999985099,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-right.webp",
+        "start": 635.1999999992549,
+        "end": 1588.3999999985099,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-rear-right.webp",
+        "start": 635.6999999992549,
+        "end": 1588.3999999985099,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-back.webp",
+        "start": 638,
+        "end": 1588.3999999985099,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front-right.webp",
+        "start": 639,
+        "end": 1588.3999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front.webp",
+        "start": 640.5,
+        "end": 1588.3999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-right.webp",
+        "start": 641.5999999977648,
+        "end": 1588.3999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-rear-right.webp",
+        "start": 642.5,
+        "end": 1588.3999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-back.webp",
+        "start": 643.5999999977648,
+        "end": 1588.8999999985099,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+        "start": 644.6999999992549,
+        "end": 1588.8999999985099,
+        "width": 1920,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front.webp",
+        "start": 645.5,
+        "end": 1588.8999999985099,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-right.webp",
+        "start": 646.1999999992549,
+        "end": 1589,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-rear-right.webp",
+        "start": 647.3999999985099,
+        "end": 1589,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-back.webp",
+        "start": 648.2999999970198,
+        "end": 1589.0999999977648,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+        "start": 649.7999999970198,
+        "end": 1589.0999999977648,
+        "width": 2304,
+        "height": 1248
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front.webp",
+        "start": 650.7999999970198,
+        "end": 1589.0999999977648,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-right.webp",
+        "start": 651.7999999970198,
+        "end": 1589.0999999977648,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-rear-right.webp",
+        "start": 653.2999999970198,
+        "end": 1589.199999999255,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-back.webp",
+        "start": 654.1999999992549,
+        "end": 1589.199999999255,
+        "width": 2816,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+        "start": 655.8999999985099,
+        "end": 1589.199999999255,
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front.webp",
+        "start": 657.1999999992549,
+        "end": 1589.199999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-right.webp",
+        "start": 658.0999999977648,
+        "end": 1589.199999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+        "start": 659.3999999985099,
+        "end": 1589.199999999255,
+        "width": 2176,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-back.webp",
+        "start": 661.0999999977648,
+        "end": 1589.2999999970198,
+        "width": 2176,
+        "height": 1344
+      }
+    ],
+    "ready": 5362.699999999255,
+    "interface": 264.69999999925494,
+    "resources": [
+      {
+        "name": "http://127.0.0.1:5205/assets/main-DZ3TTmz8.js",
+        "startTime": 80.5,
+        "duration": 77.39999999850988,
+        "transferSize": 489025,
+        "encodedBodySize": 488725,
+        "decodedBodySize": 5350488,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/Icons-BZUaMY8D.js",
+        "startTime": 80.69999999925494,
+        "duration": 13.099999997764826,
+        "transferSize": 98483,
+        "encodedBodySize": 98183,
+        "decodedBodySize": 314601,
+        "initiatorType": "other"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/main-DFkPwoaI.css",
+        "startTime": 80.79999999701977,
+        "duration": 11.600000001490116,
+        "transferSize": 46087,
+        "encodedBodySize": 45787,
+        "decodedBodySize": 250409,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/augment-icons.webp",
+        "startTime": 265.8999999985099,
+        "duration": 2.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-0.webp",
+        "startTime": 265.8999999985099,
+        "duration": 3.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-1.webp",
+        "startTime": 266,
+        "duration": 4.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/character-polish-v1/recruit-2.webp",
+        "startTime": 266.19999999925494,
+        "duration": 6.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/navigation-v1.webp",
+        "startTime": 266.19999999925494,
+        "duration": 7.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/materials-v2.webp",
+        "startTime": 266.29999999701977,
+        "duration": 12.400000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/portrait-v1.webp",
+        "startTime": 266.3999999985099,
+        "duration": 8.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/lobby-v2.webp",
+        "startTime": 266.3999999985099,
+        "duration": 9.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/new-arts-v1.png",
+        "startTime": 266.5,
+        "duration": 13,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/weapons-v2.png",
+        "startTime": 266.5999999977648,
+        "duration": 14.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/ui/boss-loot-v1.png",
+        "startTime": 266.69999999925494,
+        "duration": 15.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunDodum-Regular.woff2",
+        "startTime": 266.8999999985099,
+        "duration": 20.699999999254942,
+        "transferSize": 446356,
+        "encodedBodySize": 446056,
+        "decodedBodySize": 446056,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunBatang-Bold.woff2",
+        "startTime": 266.8999999985099,
+        "duration": 20.899999998509884,
+        "transferSize": 492044,
+        "encodedBodySize": 491744,
+        "decodedBodySize": 491744,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/symbols-v1.webp",
+        "startTime": 267.29999999701977,
+        "duration": 17.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 621728,
+        "decodedBodySize": 621728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunDodum-Regular.woff2",
+        "startTime": 270.8999999985099,
+        "duration": 16.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 446056,
+        "decodedBodySize": 446056,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5205/fonts/GowunBatang-Bold.woff2",
+        "startTime": 270.8999999985099,
+        "duration": 16.5,
+        "transferSize": 300,
+        "encodedBodySize": 491744,
+        "decodedBodySize": 491744,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/forest-v1.webp",
+        "startTime": 528.6999999992549,
+        "duration": 2.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/mount-DuSNypDq.js",
+        "startTime": 530.7999999970198,
+        "duration": 47.600000001490116,
+        "transferSize": 63632,
+        "encodedBodySize": 63332,
+        "decodedBodySize": 424352,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/assets/phaser-BTGbtjln.js",
+        "startTime": 531.0999999977648,
+        "duration": 145.10000000149012,
+        "transferSize": 371838,
+        "encodedBodySize": 371538,
+        "decodedBodySize": 1387441,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/held-darts-v1.webp",
+        "startTime": 531.7999999970198,
+        "duration": 2.2000000029802322,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/held-gauntlets-v1.webp",
+        "startTime": 532,
+        "duration": 2.599999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero.webp",
+        "startTime": 532.1999999992549,
+        "duration": 3.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-0.webp",
+        "startTime": 532.3999999985099,
+        "duration": 4.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-1.webp",
+        "startTime": 532.6999999992549,
+        "duration": 6,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-sword-2.webp",
+        "startTime": 532.7999999970198,
+        "duration": 5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-0.webp",
+        "startTime": 533,
+        "duration": 7,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-1.webp",
+        "startTime": 533.1999999992549,
+        "duration": 7.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dao-2.webp",
+        "startTime": 533.3999999985099,
+        "duration": 8.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-0.webp",
+        "startTime": 533.5999999977648,
+        "duration": 9.400000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-1.webp",
+        "startTime": 533.7999999970198,
+        "duration": 10.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-dart-2.webp",
+        "startTime": 534.0999999977648,
+        "duration": 11,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-0.webp",
+        "startTime": 534.1999999992549,
+        "duration": 12.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-1.webp",
+        "startTime": 534.5,
+        "duration": 12.799999997019768,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-gauntlet-2.webp",
+        "startTime": 534.5999999977648,
+        "duration": 13.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-0.webp",
+        "startTime": 534.7999999970198,
+        "duration": 14.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-1.webp",
+        "startTime": 535,
+        "duration": 15.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-staff-2.webp",
+        "startTime": 535.1999999992549,
+        "duration": 15.899999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-0.webp",
+        "startTime": 535.3999999985099,
+        "duration": 17.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-1.webp",
+        "startTime": 535.5999999977648,
+        "duration": 17.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/weapon-fan-2.webp",
+        "startTime": 535.7999999970198,
+        "duration": 18.800000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-0-1.webp",
+        "startTime": 536,
+        "duration": 20.299999997019768,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-1-2.webp",
+        "startTime": 536.1999999992549,
+        "duration": 21.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-2-1.webp",
+        "startTime": 536.3999999985099,
+        "duration": 22,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-4-1.webp",
+        "startTime": 536.5999999977648,
+        "duration": 23.400000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-4-4.webp",
+        "startTime": 536.7999999970198,
+        "duration": 24.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-5-2.webp",
+        "startTime": 537,
+        "duration": 25.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-7-1.webp",
+        "startTime": 537.1999999992549,
+        "duration": 28.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-7-4.webp",
+        "startTime": 537.2999999970198,
+        "duration": 29.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-8-4.webp",
+        "startTime": 537.5,
+        "duration": 31.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/items-v2/boss-9-4.webp",
+        "startTime": 537.6999999992549,
+        "duration": 32,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/enemy-atlas-v1.webp",
+        "startTime": 537.7999999970198,
+        "duration": 33.70000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/effects-v2.webp",
+        "startTime": 538,
+        "duration": 34.899999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zone-art-v2.png",
+        "startTime": 538.1999999992549,
+        "duration": 35.599999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/projectiles-v1.webp",
+        "startTime": 538.3999999985099,
+        "duration": 37.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/projectile-stone-v1.webp",
+        "startTime": 538.5,
+        "duration": 38.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-directions.webp",
+        "startTime": 538.6999999992549,
+        "duration": 39.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/roles-rear.webp",
+        "startTime": 538.8999999985099,
+        "duration": 41.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-directions.webp",
+        "startTime": 539.1999999992549,
+        "duration": 42,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-consistency-v3/identity-rear.webp",
+        "startTime": 539.3999999985099,
+        "duration": 42.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/identity.webp",
+        "startTime": 539.5999999977648,
+        "duration": 43.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/roles.webp",
+        "startTime": 539.6999999992549,
+        "duration": 45.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hostile-projectiles-v2.png",
+        "startTime": 539.8999999985099,
+        "duration": 47.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "startTime": 540,
+        "duration": 49.19999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/encounter-props-v1.png",
+        "startTime": 540.0999999977648,
+        "duration": 50.19999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/boss-mechanics-v1.png",
+        "startTime": 540.2999999970198,
+        "duration": 51.20000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/drone.webp",
+        "startTime": 540.2999999970198,
+        "duration": 52.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/animation-rebuild-v2/hero-reactions.webp",
+        "startTime": 540.5,
+        "duration": 54.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/boss-fields-v1.png",
+        "startTime": 540.6999999992549,
+        "duration": 54.899999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/hero-slash-v1/hero-0.webp",
+        "startTime": 540.8999999985099,
+        "duration": 55.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/regions-v1/9-floor.webp",
+        "startTime": 541.0999999977648,
+        "duration": 56.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-yanggi.webp",
+        "startTime": 541.1999999992549,
+        "duration": 57.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-mukyeon.webp",
+        "startTime": 541.2999999970198,
+        "duration": 58.20000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-jingwal.webp",
+        "startTime": 541.3999999985099,
+        "duration": 59,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-complete-v3/three-complete-zhugehyeon.webp",
+        "startTime": 541.5999999977648,
+        "duration": 59.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-0.webp",
+        "startTime": 541.6999999992549,
+        "duration": 60.599999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-1.webp",
+        "startTime": 541.7999999970198,
+        "duration": 61.70000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-2.webp",
+        "startTime": 541.8999999985099,
+        "duration": 62.30000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-3.webp",
+        "startTime": 542.0999999977648,
+        "duration": 63.30000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-yanggi-4.webp",
+        "startTime": 542.1999999992549,
+        "duration": 64.89999999850988,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-0.webp",
+        "startTime": 542.2999999970198,
+        "duration": 65.70000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-1.webp",
+        "startTime": 542.3999999985099,
+        "duration": 66.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-2.webp",
+        "startTime": 542.5,
+        "duration": 67.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-3.webp",
+        "startTime": 542.5999999977648,
+        "duration": 68,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-mukyeon-4.webp",
+        "startTime": 542.6999999992549,
+        "duration": 68.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-0.webp",
+        "startTime": 542.7999999970198,
+        "duration": 69.40000000223517,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-1.webp",
+        "startTime": 542.8999999985099,
+        "duration": 69.89999999850988,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-2.webp",
+        "startTime": 543.0999999977648,
+        "duration": 70.90000000223517,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-3.webp",
+        "startTime": 543.3999999985099,
+        "duration": 71.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-jingwal-4.webp",
+        "startTime": 543.5999999977648,
+        "duration": 72.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+        "startTime": 543.8999999985099,
+        "duration": 73.30000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+        "startTime": 544.1999999992549,
+        "duration": 74.30000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+        "startTime": 544.2999999970198,
+        "duration": 75.20000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+        "startTime": 544.5,
+        "duration": 76.09999999776483,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+        "startTime": 544.5999999977648,
+        "duration": 77,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front-right.webp",
+        "startTime": 544.7999999970198,
+        "duration": 77.90000000223517,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-front.webp",
+        "startTime": 545,
+        "duration": 79.69999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-right.webp",
+        "startTime": 545,
+        "duration": 80.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-rear-right.webp",
+        "startTime": 545.0999999977648,
+        "duration": 81.10000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/engineer-back.webp",
+        "startTime": 545.2999999970198,
+        "duration": 81.60000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front-right.webp",
+        "startTime": 545.3999999985099,
+        "duration": 82.10000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-front.webp",
+        "startTime": 545.5999999977648,
+        "duration": 82.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-right.webp",
+        "startTime": 545.6999999992549,
+        "duration": 83.09999999776483,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+        "startTime": 545.8999999985099,
+        "duration": 83.89999999850988,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/gatekeeper-back.webp",
+        "startTime": 546,
+        "duration": 84.79999999701977,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front-right.webp",
+        "startTime": 546.0999999977648,
+        "duration": 86,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-front.webp",
+        "startTime": 546.2999999970198,
+        "duration": 86.90000000223517,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-right.webp",
+        "startTime": 546.3999999985099,
+        "duration": 88.10000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-rear-right.webp",
+        "startTime": 546.5,
+        "duration": 88.59999999776483,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/crossbow-back.webp",
+        "startTime": 546.5999999977648,
+        "duration": 90.60000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front-right.webp",
+        "startTime": 546.6999999992549,
+        "duration": 91.69999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-front.webp",
+        "startTime": 546.8999999985099,
+        "duration": 92.89999999850988,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-right.webp",
+        "startTime": 547.0999999977648,
+        "duration": 93.69999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-rear-right.webp",
+        "startTime": 547.1999999992549,
+        "duration": 94.69999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/yanggi-back.webp",
+        "startTime": 547.2999999970198,
+        "duration": 95.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+        "startTime": 547.5,
+        "duration": 96.59999999776483,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-front.webp",
+        "startTime": 547.7999999970198,
+        "duration": 97.10000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-right.webp",
+        "startTime": 548.0999999977648,
+        "duration": 97.69999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-rear-right.webp",
+        "startTime": 548.2999999970198,
+        "duration": 98.30000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/mukyeon-back.webp",
+        "startTime": 548.5,
+        "duration": 99.19999999925494,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+        "startTime": 548.7999999970198,
+        "duration": 100.20000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-front.webp",
+        "startTime": 549.0999999977648,
+        "duration": 101.10000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-right.webp",
+        "startTime": 549.3999999985099,
+        "duration": 101.89999999850988,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-rear-right.webp",
+        "startTime": 549.6999999992549,
+        "duration": 102.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/jingwal-back.webp",
+        "startTime": 550.2999999970198,
+        "duration": 103.20000000298023,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+        "startTime": 550.5999999977648,
+        "duration": 104.60000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-front.webp",
+        "startTime": 550.7999999970198,
+        "duration": 105.60000000149012,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-right.webp",
+        "startTime": 551.0999999977648,
+        "duration": 106.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+        "startTime": 551.2999999970198,
+        "duration": 107.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5205/art/zhuge-family-v1/zhugehyeon-back.webp",
+        "startTime": 551.5999999977648,
+        "duration": 108.80000000074506,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      }
+    ],
+    "renderer": "WebGL / AUTO",
+    "requestedBytes": 98069293,
+    "urls": [
+      "/art/character-polish-v1/augment-icons.webp",
+      "/art/character-polish-v1/recruit-0.webp",
+      "/art/character-polish-v1/recruit-1.webp",
+      "/art/character-polish-v1/recruit-2.webp",
+      "/art/delivery-v1/ui/navigation-v1.webp",
+      "/art/delivery-v1/ui/materials-v2.webp",
+      "/art/delivery-v1/portrait-v1.webp",
+      "/art/delivery-v1/ui/lobby-v2.webp",
+      "/art/ui/new-arts-v1.png",
+      "/art/ui/weapons-v2.png",
+      "/art/ui/boss-loot-v1.png",
+      "/art/delivery-v1/ui/symbols-v1.webp",
+      "/art/delivery-v1/forest-v1.webp",
+      "/art/held-darts-v1.webp",
+      "/art/held-gauntlets-v1.webp",
+      "/art/animation-rebuild-v2/hero.webp",
+      "/art/items-v2/weapon-sword-0.webp",
+      "/art/items-v2/weapon-sword-1.webp",
+      "/art/items-v2/weapon-sword-2.webp",
+      "/art/items-v2/weapon-dao-0.webp",
+      "/art/items-v2/weapon-dao-1.webp",
+      "/art/items-v2/weapon-dao-2.webp",
+      "/art/items-v2/weapon-dart-0.webp",
+      "/art/items-v2/weapon-dart-1.webp",
+      "/art/items-v2/weapon-dart-2.webp",
+      "/art/items-v2/weapon-gauntlet-0.webp",
+      "/art/items-v2/weapon-gauntlet-1.webp",
+      "/art/items-v2/weapon-gauntlet-2.webp",
+      "/art/items-v2/weapon-staff-0.webp",
+      "/art/items-v2/weapon-staff-1.webp",
+      "/art/items-v2/weapon-staff-2.webp",
+      "/art/items-v2/weapon-fan-0.webp",
+      "/art/items-v2/weapon-fan-1.webp",
+      "/art/items-v2/weapon-fan-2.webp",
+      "/art/items-v2/boss-0-1.webp",
+      "/art/items-v2/boss-1-2.webp",
+      "/art/items-v2/boss-2-1.webp",
+      "/art/items-v2/boss-4-1.webp",
+      "/art/items-v2/boss-4-4.webp",
+      "/art/items-v2/boss-5-2.webp",
+      "/art/items-v2/boss-7-1.webp",
+      "/art/items-v2/boss-7-4.webp",
+      "/art/items-v2/boss-8-4.webp",
+      "/art/items-v2/boss-9-4.webp",
+      "/art/delivery-v1/enemy-atlas-v1.webp",
+      "/art/delivery-v1/ui/effects-v2.webp",
+      "/art/zone-art-v2.png",
+      "/art/projectiles-v1.webp",
+      "/art/projectile-stone-v1.webp",
+      "/art/hostile-consistency-v3/roles-directions.webp",
+      "/art/hostile-consistency-v3/roles-rear.webp",
+      "/art/hostile-consistency-v3/identity-directions.webp",
+      "/art/hostile-consistency-v3/identity-rear.webp",
+      "/art/animation-rebuild-v2/identity.webp",
+      "/art/animation-rebuild-v2/roles.webp",
+      "/art/hostile-projectiles-v2.png",
+      "/art/delivery-v1/ui/hud-atlas-v3.webp",
+      "/art/encounter-props-v1.png",
+      "/art/boss-mechanics-v1.png",
+      "/art/animation-rebuild-v2/drone.webp",
+      "/art/animation-rebuild-v2/hero-reactions.webp",
+      "/art/boss-fields-v1.png",
+      "/art/hero-slash-v1/hero-0.webp",
+      "/art/regions-v1/9-floor.webp",
+      "/art/three-complete-v3/three-complete-yanggi.webp",
+      "/art/three-complete-v3/three-complete-mukyeon.webp",
+      "/art/three-complete-v3/three-complete-jingwal.webp",
+      "/art/three-complete-v3/three-complete-zhugehyeon.webp",
+      "/art/three-special-v2/zhuge-yanggi-0.webp",
+      "/art/three-special-v2/zhuge-yanggi-1.webp",
+      "/art/three-special-v2/zhuge-yanggi-2.webp",
+      "/art/three-special-v2/zhuge-yanggi-3.webp",
+      "/art/three-special-v2/zhuge-yanggi-4.webp",
+      "/art/three-special-v2/zhuge-mukyeon-0.webp",
+      "/art/three-special-v2/zhuge-mukyeon-1.webp",
+      "/art/three-special-v2/zhuge-mukyeon-2.webp",
+      "/art/three-special-v2/zhuge-mukyeon-3.webp",
+      "/art/three-special-v2/zhuge-mukyeon-4.webp",
+      "/art/three-special-v2/zhuge-jingwal-0.webp",
+      "/art/three-special-v2/zhuge-jingwal-1.webp",
+      "/art/three-special-v2/zhuge-jingwal-2.webp",
+      "/art/three-special-v2/zhuge-jingwal-3.webp",
+      "/art/three-special-v2/zhuge-jingwal-4.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-0.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-1.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-2.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-3.webp",
+      "/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+      "/art/zhuge-family-v1/engineer-front-right.webp",
+      "/art/zhuge-family-v1/engineer-front.webp",
+      "/art/zhuge-family-v1/engineer-right.webp",
+      "/art/zhuge-family-v1/engineer-rear-right.webp",
+      "/art/zhuge-family-v1/engineer-back.webp",
+      "/art/zhuge-family-v1/gatekeeper-front-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-front.webp",
+      "/art/zhuge-family-v1/gatekeeper-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-rear-right.webp",
+      "/art/zhuge-family-v1/gatekeeper-back.webp",
+      "/art/zhuge-family-v1/crossbow-front-right.webp",
+      "/art/zhuge-family-v1/crossbow-front.webp",
+      "/art/zhuge-family-v1/crossbow-right.webp",
+      "/art/zhuge-family-v1/crossbow-rear-right.webp",
+      "/art/zhuge-family-v1/crossbow-back.webp",
+      "/art/zhuge-family-v1/yanggi-front-right.webp",
+      "/art/zhuge-family-v1/yanggi-front.webp",
+      "/art/zhuge-family-v1/yanggi-right.webp",
+      "/art/zhuge-family-v1/yanggi-rear-right.webp",
+      "/art/zhuge-family-v1/yanggi-back.webp",
+      "/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
+      "/art/zhuge-family-v1/mukyeon-front.webp",
+      "/art/zhuge-family-v1/mukyeon-right.webp",
+      "/art/zhuge-family-v1/mukyeon-rear-right.webp",
+      "/art/zhuge-family-v1/mukyeon-back.webp",
+      "/art/zhuge-family-v1/jingwal-front-right-v2.webp",
+      "/art/zhuge-family-v1/jingwal-front.webp",
+      "/art/zhuge-family-v1/jingwal-right.webp",
+      "/art/zhuge-family-v1/jingwal-rear-right.webp",
+      "/art/zhuge-family-v1/jingwal-back.webp",
+      "/art/zhuge-family-v1/zhugehyeon-front-right-v2.webp",
+      "/art/zhuge-family-v1/zhugehyeon-front.webp",
+      "/art/zhuge-family-v1/zhugehyeon-right.webp",
+      "/art/zhuge-family-v1/zhugehyeon-rear-right.webp",
+      "/art/zhuge-family-v1/zhugehyeon-back.webp"
+    ],
+    "maxLongTask": 3726
+  }
+]

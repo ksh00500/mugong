@@ -1,0 +1,2522 @@
+[
+  {
+    "cache": "cold",
+    "region": 3,
+    "wave": 1,
+    "phase": "after",
+    "longTasks": [
+      {
+        "start": 384.69999999925494,
+        "duration": 67
+      },
+      {
+        "start": 1581.800000000745,
+        "duration": 777
+      },
+      {
+        "start": 2359.800000000745,
+        "duration": 120
+      },
+      {
+        "start": 2530.39999999851,
+        "duration": 94
+      }
+    ],
+    "decodes": [
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/portrait-v1.webp",
+        "start": 78.30000000074506,
+        "end": 107.39999999850988,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/materials-v2.webp",
+        "start": 78.30000000074506,
+        "end": 135.69999999925494,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/navigation-v1.webp",
+        "start": 86.19999999925494,
+        "end": 173.09999999776483,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/lobby-v2.webp",
+        "start": 86.30000000074506,
+        "end": 198.5,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/symbols-v1.webp",
+        "start": 89.80000000074506,
+        "end": 247.80000000074506,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/held-darts-v1.webp",
+        "start": 269.19999999925494,
+        "end": 298.5999999977648,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/held-gauntlets-v1.webp",
+        "start": 269.30000000074506,
+        "end": 343.0999999977648,
+        "width": 2172,
+        "height": 724
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/forest-v1.webp",
+        "start": 269.3999999985099,
+        "end": 343.69999999925494,
+        "width": 1671,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero.webp",
+        "start": 282.3999999985099,
+        "end": 384.19999999925494,
+        "width": 1584,
+        "height": 993
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-0.webp",
+        "start": 282.5999999977648,
+        "end": 453.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-1.webp",
+        "start": 282.5999999977648,
+        "end": 456.69999999925494,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-2.webp",
+        "start": 287.0999999977648,
+        "end": 456.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-0.webp",
+        "start": 287.5,
+        "end": 457.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-1.webp",
+        "start": 287.5,
+        "end": 545.8999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-2.webp",
+        "start": 288.30000000074506,
+        "end": 546.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-0.webp",
+        "start": 288.3999999985099,
+        "end": 546.3000000007451,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-1.webp",
+        "start": 288.5999999977648,
+        "end": 546.5,
+        "width": 512,
+        "height": 427
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-2.webp",
+        "start": 341.5,
+        "end": 546.6999999992549,
+        "width": 512,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-0.webp",
+        "start": 370.8999999985099,
+        "end": 546.6999999992549,
+        "width": 512,
+        "height": 426
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-1.webp",
+        "start": 371,
+        "end": 546.8999999985099,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-2.webp",
+        "start": 547.6999999992549,
+        "end": 556.3999999985099,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-0.webp",
+        "start": 548.5999999977648,
+        "end": 559,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-1.webp",
+        "start": 548.6999999992549,
+        "end": 561.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-2.webp",
+        "start": 548.6999999992549,
+        "end": 564.1999999992549,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-0.webp",
+        "start": 548.6999999992549,
+        "end": 567.8000000007451,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-1.webp",
+        "start": 564,
+        "end": 572.0999999977648,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-2-1.webp",
+        "start": 564.0999999977648,
+        "end": 576.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-0-1.webp",
+        "start": 564.0999999977648,
+        "end": 578.3000000007451,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-2.webp",
+        "start": 564.0999999977648,
+        "end": 582.5999999977648,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-1-2.webp",
+        "start": 564.0999999977648,
+        "end": 586.0999999977648,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-4-1.webp",
+        "start": 564.0999999977648,
+        "end": 593.3000000007451,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-5-2.webp",
+        "start": 575.1999999992549,
+        "end": 594.0999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-4-4.webp",
+        "start": 575.3000000007451,
+        "end": 603.8000000007451,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-7-1.webp",
+        "start": 575.3999999985099,
+        "end": 604.3999999985099,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-7-4.webp",
+        "start": 575.3999999985099,
+        "end": 607.0999999977648,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-8-4.webp",
+        "start": 575.3999999985099,
+        "end": 612.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-9-4.webp",
+        "start": 579.6999999992549,
+        "end": 614.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/effects-v2.webp",
+        "start": 579.6999999992549,
+        "end": 642.1999999992549,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/projectiles-v1.webp",
+        "start": 594,
+        "end": 660.3999999985099,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/projectile-stone-v1.webp",
+        "start": 594,
+        "end": 661.3999999985099,
+        "width": 188,
+        "height": 164
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/zone-art-v2.png",
+        "start": 604.3999999985099,
+        "end": 760.1999999992549,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hostile-projectiles-v2.png",
+        "start": 612.3999999985099,
+        "end": 760.6999999992549,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "start": 612.8999999985099,
+        "end": 761,
+        "width": 1670,
+        "height": 942
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/drone.webp",
+        "start": 636.8000000007451,
+        "end": 761.0999999977648,
+        "width": 1024,
+        "height": 256
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/encounter-props-v1.png",
+        "start": 657.1999999992549,
+        "end": 787.3000000007451,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero-reactions.webp",
+        "start": 657.3999999985099,
+        "end": 811.5999999977648,
+        "width": 2048,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-roster-v1/directions-1.webp",
+        "start": 657.3999999985099,
+        "end": 896.5999999977648,
+        "width": 2048,
+        "height": 1280
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/boss-mechanics-v1.png",
+        "start": 658.1999999992549,
+        "end": 907,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/boss-fields-v1.png",
+        "start": 658.3000000007451,
+        "end": 928.3999999985099,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-roster-v1/actions-1.webp",
+        "start": 706.8000000007451,
+        "end": 989.5999999977648,
+        "width": 1536,
+        "height": 1280
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-weapon-v4/guard-6.webp",
+        "start": 760.5999999977648,
+        "end": 1022.0999999977648,
+        "width": 1983,
+        "height": 793
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-slash-v1/hero-6.webp",
+        "start": 760.6999999992549,
+        "end": 1055.0999999977648,
+        "width": 1770,
+        "height": 1128
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/regions-v1/3-floor.webp",
+        "start": 788,
+        "end": 1078.300000000745,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front.webp",
+        "start": 811.3999999985099,
+        "end": 1116.300000000745,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front-right.webp",
+        "start": 812.0999999977648,
+        "end": 1161.199999999255,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-right.webp",
+        "start": 812.1999999992549,
+        "end": 1206.8999999985099,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-rear-right.webp",
+        "start": 812.3000000007451,
+        "end": 1253.199999999255,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-back.webp",
+        "start": 827.3999999985099,
+        "end": 1294.0999999977648,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front.webp",
+        "start": 910.0999999977648,
+        "end": 1321.5,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front-right.webp",
+        "start": 922.8999999985099,
+        "end": 1348.3999999985099,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-right.webp",
+        "start": 960.3000000007451,
+        "end": 1374.5,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-rear-right.webp",
+        "start": 1003.5,
+        "end": 1400.800000000745,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-back.webp",
+        "start": 1036.199999999255,
+        "end": 1429.699999999255,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front.webp",
+        "start": 1067.8999999985099,
+        "end": 1455.8999999985099,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front-right.webp",
+        "start": 1090.0999999977648,
+        "end": 1481.8999999985099,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-right.webp",
+        "start": 1128.5999999977648,
+        "end": 1508.0999999977648,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-rear-right.webp",
+        "start": 1175.300000000745,
+        "end": 1533.0999999977648,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-back.webp",
+        "start": 1216.3999999985099,
+        "end": 1555.5999999977648,
+        "width": 1792,
+        "height": 1344
+      }
+    ],
+    "ready": 2513.89999999851,
+    "interface": 59.80000000074506,
+    "resources": [
+      {
+        "name": "http://127.0.0.1:5210/assets/main-DFkPwoaI.css",
+        "startTime": 10.099999997764826,
+        "duration": 14.300000000745058,
+        "transferSize": 46087,
+        "encodedBodySize": 45787,
+        "decodedBodySize": 250409,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/Icons-BqFlZ7SE.js",
+        "startTime": 10.099999997764826,
+        "duration": 18.900000002235174,
+        "transferSize": 98707,
+        "encodedBodySize": 98407,
+        "decodedBodySize": 315238,
+        "initiatorType": "other"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/main-ChnLtiDs.js",
+        "startTime": 10.099999997764826,
+        "duration": 21,
+        "transferSize": 129312,
+        "encodedBodySize": 129012,
+        "decodedBodySize": 443357,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/fonts/GowunBatang-Bold.woff2",
+        "startTime": 61.099999997764826,
+        "duration": 18.700000002980232,
+        "transferSize": 492044,
+        "encodedBodySize": 491744,
+        "decodedBodySize": 491744,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5210/fonts/GowunDodum-Regular.woff2",
+        "startTime": 61.19999999925494,
+        "duration": 20.899999998509884,
+        "transferSize": 446356,
+        "encodedBodySize": 446056,
+        "decodedBodySize": 446056,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/navigation-v1.webp",
+        "startTime": 63.30000000074506,
+        "duration": 15.399999998509884,
+        "transferSize": 377814,
+        "encodedBodySize": 377514,
+        "decodedBodySize": 377514,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/symbols-v1.webp",
+        "startTime": 63.30000000074506,
+        "duration": 19.299999997019768,
+        "transferSize": 622028,
+        "encodedBodySize": 621728,
+        "decodedBodySize": 621728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/materials-v2.webp",
+        "startTime": 63.399999998509884,
+        "duration": 13.300000000745058,
+        "transferSize": 287846,
+        "encodedBodySize": 287546,
+        "decodedBodySize": 287546,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/portrait-v1.webp",
+        "startTime": 63.5,
+        "duration": 10.199999999254942,
+        "transferSize": 179268,
+        "encodedBodySize": 178968,
+        "decodedBodySize": 178968,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/lobby-v2.webp",
+        "startTime": 63.5,
+        "duration": 15.899999998509884,
+        "transferSize": 277848,
+        "encodedBodySize": 277548,
+        "decodedBodySize": 277548,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/mount-L9JamuUa.js",
+        "startTime": 252.09999999776483,
+        "duration": 116.5,
+        "transferSize": 428431,
+        "encodedBodySize": 428131,
+        "decodedBodySize": 5413828,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/phaser-BTGbtjln.js",
+        "startTime": 252.5,
+        "duration": 71.89999999850988,
+        "transferSize": 371838,
+        "encodedBodySize": 371538,
+        "decodedBodySize": 1387441,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/held-darts-v1.webp",
+        "startTime": 253.80000000074506,
+        "duration": 9.299999997019768,
+        "transferSize": 131180,
+        "encodedBodySize": 130880,
+        "decodedBodySize": 130880,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/held-gauntlets-v1.webp",
+        "startTime": 253.89999999850988,
+        "duration": 12.100000001490116,
+        "transferSize": 326428,
+        "encodedBodySize": 326128,
+        "decodedBodySize": 326128,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/forest-v1.webp",
+        "startTime": 254.09999999776483,
+        "duration": 12.300000000745058,
+        "transferSize": 423794,
+        "encodedBodySize": 423494,
+        "decodedBodySize": 423494,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero.webp",
+        "startTime": 254.09999999776483,
+        "duration": 14.700000002980232,
+        "transferSize": 465836,
+        "encodedBodySize": 465536,
+        "decodedBodySize": 465536,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-0.webp",
+        "startTime": 254.30000000074506,
+        "duration": 17.099999997764826,
+        "transferSize": 9028,
+        "encodedBodySize": 8728,
+        "decodedBodySize": 8728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-1.webp",
+        "startTime": 254.30000000074506,
+        "duration": 19.5,
+        "transferSize": 11036,
+        "encodedBodySize": 10736,
+        "decodedBodySize": 10736,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-2.webp",
+        "startTime": 254.39999999850988,
+        "duration": 21.300000000745058,
+        "transferSize": 17066,
+        "encodedBodySize": 16766,
+        "decodedBodySize": 16766,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-0.webp",
+        "startTime": 254.39999999850988,
+        "duration": 24.100000001490116,
+        "transferSize": 10398,
+        "encodedBodySize": 10098,
+        "decodedBodySize": 10098,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-1.webp",
+        "startTime": 254.59999999776483,
+        "duration": 25.900000002235174,
+        "transferSize": 10840,
+        "encodedBodySize": 10540,
+        "decodedBodySize": 10540,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-2.webp",
+        "startTime": 254.59999999776483,
+        "duration": 28.300000000745058,
+        "transferSize": 16364,
+        "encodedBodySize": 16064,
+        "decodedBodySize": 16064,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-0.webp",
+        "startTime": 254.69999999925494,
+        "duration": 28.399999998509884,
+        "transferSize": 37310,
+        "encodedBodySize": 37010,
+        "decodedBodySize": 37010,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-1.webp",
+        "startTime": 254.80000000074506,
+        "duration": 30.699999999254942,
+        "transferSize": 25542,
+        "encodedBodySize": 25242,
+        "decodedBodySize": 25242,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-2.webp",
+        "startTime": 299,
+        "duration": 4.599999997764826,
+        "transferSize": 36030,
+        "encodedBodySize": 35730,
+        "decodedBodySize": 35730,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-0.webp",
+        "startTime": 343.5,
+        "duration": 4.899999998509884,
+        "transferSize": 40724,
+        "encodedBodySize": 40424,
+        "decodedBodySize": 40424,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-1.webp",
+        "startTime": 344.80000000074506,
+        "duration": 4.199999999254942,
+        "transferSize": 35268,
+        "encodedBodySize": 34968,
+        "decodedBodySize": 34968,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-2.webp",
+        "startTime": 384.5999999977648,
+        "duration": 5,
+        "transferSize": 48280,
+        "encodedBodySize": 47980,
+        "decodedBodySize": 47980,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-0.webp",
+        "startTime": 454.0999999977648,
+        "duration": 9.200000002980232,
+        "transferSize": 6610,
+        "encodedBodySize": 6310,
+        "decodedBodySize": 6310,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-1.webp",
+        "startTime": 456.8999999985099,
+        "duration": 6.600000001490116,
+        "transferSize": 6882,
+        "encodedBodySize": 6582,
+        "decodedBodySize": 6582,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-2.webp",
+        "startTime": 457.0999999977648,
+        "duration": 6.5,
+        "transferSize": 10252,
+        "encodedBodySize": 9952,
+        "decodedBodySize": 9952,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-0.webp",
+        "startTime": 457.5,
+        "duration": 6.599999997764826,
+        "transferSize": 36944,
+        "encodedBodySize": 36644,
+        "decodedBodySize": 36644,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-1.webp",
+        "startTime": 546.1999999992549,
+        "duration": 12.899999998509884,
+        "transferSize": 32472,
+        "encodedBodySize": 32172,
+        "decodedBodySize": 32172,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-2.webp",
+        "startTime": 546.3000000007451,
+        "duration": 13.5,
+        "transferSize": 35118,
+        "encodedBodySize": 34818,
+        "decodedBodySize": 34818,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-0-1.webp",
+        "startTime": 546.5,
+        "duration": 14,
+        "transferSize": 12344,
+        "encodedBodySize": 12044,
+        "decodedBodySize": 12044,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-1-2.webp",
+        "startTime": 546.5,
+        "duration": 14.199999999254942,
+        "transferSize": 26366,
+        "encodedBodySize": 26066,
+        "decodedBodySize": 26066,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-2-1.webp",
+        "startTime": 546.6999999992549,
+        "duration": 14.5,
+        "transferSize": 14860,
+        "encodedBodySize": 14560,
+        "decodedBodySize": 14560,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-4-1.webp",
+        "startTime": 546.8000000007451,
+        "duration": 14.699999999254942,
+        "transferSize": 35922,
+        "encodedBodySize": 35622,
+        "decodedBodySize": 35622,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-4-4.webp",
+        "startTime": 547,
+        "duration": 24.699999999254942,
+        "transferSize": 61046,
+        "encodedBodySize": 60746,
+        "decodedBodySize": 60746,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-5-2.webp",
+        "startTime": 556.8000000007451,
+        "duration": 14.699999999254942,
+        "transferSize": 8464,
+        "encodedBodySize": 8164,
+        "decodedBodySize": 8164,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-7-1.webp",
+        "startTime": 559.3999999985099,
+        "duration": 12.600000001490116,
+        "transferSize": 14650,
+        "encodedBodySize": 14350,
+        "decodedBodySize": 14350,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-7-4.webp",
+        "startTime": 561.5,
+        "duration": 12.300000000745058,
+        "transferSize": 16736,
+        "encodedBodySize": 16436,
+        "decodedBodySize": 16436,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-8-4.webp",
+        "startTime": 564.5,
+        "duration": 9.599999997764826,
+        "transferSize": 14100,
+        "encodedBodySize": 13800,
+        "decodedBodySize": 13800,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-9-4.webp",
+        "startTime": 568.0999999977648,
+        "duration": 8.300000000745058,
+        "transferSize": 38652,
+        "encodedBodySize": 38352,
+        "decodedBodySize": 38352,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/effects-v2.webp",
+        "startTime": 572.5,
+        "duration": 5.5,
+        "transferSize": 105834,
+        "encodedBodySize": 105534,
+        "decodedBodySize": 105534,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/zone-art-v2.png",
+        "startTime": 576.8000000007451,
+        "duration": 21.099999997764826,
+        "transferSize": 2820653,
+        "encodedBodySize": 2820353,
+        "decodedBodySize": 2820353,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/projectiles-v1.webp",
+        "startTime": 578.5999999977648,
+        "duration": 7.900000002235174,
+        "transferSize": 440832,
+        "encodedBodySize": 440532,
+        "decodedBodySize": 440532,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/projectile-stone-v1.webp",
+        "startTime": 583,
+        "duration": 6.300000000745058,
+        "transferSize": 24446,
+        "encodedBodySize": 24146,
+        "decodedBodySize": 24146,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hostile-projectiles-v2.png",
+        "startTime": 586.5,
+        "duration": 15.800000000745058,
+        "transferSize": 1025675,
+        "encodedBodySize": 1025375,
+        "decodedBodySize": 1025375,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "startTime": 593.6999999992549,
+        "duration": 11.600000001490116,
+        "transferSize": 371424,
+        "encodedBodySize": 371124,
+        "decodedBodySize": 371124,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/encounter-props-v1.png",
+        "startTime": 594.1999999992549,
+        "duration": 33.19999999925494,
+        "transferSize": 2107875,
+        "encodedBodySize": 2107575,
+        "decodedBodySize": 2107575,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/boss-mechanics-v1.png",
+        "startTime": 604.1999999992549,
+        "duration": 36.100000001490116,
+        "transferSize": 2261975,
+        "encodedBodySize": 2261675,
+        "decodedBodySize": 2261675,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/drone.webp",
+        "startTime": 604.5999999977648,
+        "duration": 10.400000002235174,
+        "transferSize": 53132,
+        "encodedBodySize": 52832,
+        "decodedBodySize": 52832,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero-reactions.webp",
+        "startTime": 607.5,
+        "duration": 11.300000000745058,
+        "transferSize": 268110,
+        "encodedBodySize": 267810,
+        "decodedBodySize": 267810,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/boss-fields-v1.png",
+        "startTime": 612.8000000007451,
+        "duration": 35.29999999701977,
+        "transferSize": 2075868,
+        "encodedBodySize": 2075568,
+        "decodedBodySize": 2075568,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/directions-1.webp",
+        "startTime": 614.8000000007451,
+        "duration": 17.699999999254942,
+        "transferSize": 699122,
+        "encodedBodySize": 698822,
+        "decodedBodySize": 698822,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/actions-1.webp",
+        "startTime": 642.6999999992549,
+        "duration": 22.199999999254942,
+        "transferSize": 666708,
+        "encodedBodySize": 666408,
+        "decodedBodySize": 666408,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-weapon-v4/guard-6.webp",
+        "startTime": 660.6999999992549,
+        "duration": 19.699999999254942,
+        "transferSize": 1273150,
+        "encodedBodySize": 1272850,
+        "decodedBodySize": 1272850,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-slash-v1/hero-6.webp",
+        "startTime": 661.6999999992549,
+        "duration": 12.199999999254942,
+        "transferSize": 1436526,
+        "encodedBodySize": 1436226,
+        "decodedBodySize": 1436226,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/regions-v1/3-floor.webp",
+        "startTime": 760.5,
+        "duration": 17.399999998509884,
+        "transferSize": 275660,
+        "encodedBodySize": 275360,
+        "decodedBodySize": 275360,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front.webp",
+        "startTime": 760.8999999985099,
+        "duration": 26.300000000745058,
+        "transferSize": 1196362,
+        "encodedBodySize": 1196062,
+        "decodedBodySize": 1196062,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front-right.webp",
+        "startTime": 761,
+        "duration": 29.800000000745058,
+        "transferSize": 1846852,
+        "encodedBodySize": 1846552,
+        "decodedBodySize": 1846552,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-right.webp",
+        "startTime": 761.1999999992549,
+        "duration": 31,
+        "transferSize": 1914788,
+        "encodedBodySize": 1914488,
+        "decodedBodySize": 1914488,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-rear-right.webp",
+        "startTime": 787.6999999992549,
+        "duration": 16,
+        "transferSize": 2057882,
+        "encodedBodySize": 2057582,
+        "decodedBodySize": 2057582,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-back.webp",
+        "startTime": 812,
+        "duration": 12.399999998509884,
+        "transferSize": 1675210,
+        "encodedBodySize": 1674910,
+        "decodedBodySize": 1674910,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front.webp",
+        "startTime": 896.8999999985099,
+        "duration": 9.600000001490116,
+        "transferSize": 1554562,
+        "encodedBodySize": 1554262,
+        "decodedBodySize": 1554262,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front-right.webp",
+        "startTime": 907.3999999985099,
+        "duration": 11.600000001490116,
+        "transferSize": 1435298,
+        "encodedBodySize": 1434998,
+        "decodedBodySize": 1434998,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-right.webp",
+        "startTime": 928.8000000007451,
+        "duration": 11.199999999254942,
+        "transferSize": 1367752,
+        "encodedBodySize": 1367452,
+        "decodedBodySize": 1367452,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-rear-right.webp",
+        "startTime": 990,
+        "duration": 10.899999998509884,
+        "transferSize": 1330996,
+        "encodedBodySize": 1330696,
+        "decodedBodySize": 1330696,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-back.webp",
+        "startTime": 1022.3999999985099,
+        "duration": 11,
+        "transferSize": 1477564,
+        "encodedBodySize": 1477264,
+        "decodedBodySize": 1477264,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front.webp",
+        "startTime": 1055.300000000745,
+        "duration": 9.599999997764826,
+        "transferSize": 1461380,
+        "encodedBodySize": 1461080,
+        "decodedBodySize": 1461080,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front-right.webp",
+        "startTime": 1078.5,
+        "duration": 9.5,
+        "transferSize": 1404238,
+        "encodedBodySize": 1403938,
+        "decodedBodySize": 1403938,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-right.webp",
+        "startTime": 1116.5999999977648,
+        "duration": 9.100000001490116,
+        "transferSize": 1423402,
+        "encodedBodySize": 1423102,
+        "decodedBodySize": 1423102,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-rear-right.webp",
+        "startTime": 1161.5999999977648,
+        "duration": 10.800000000745058,
+        "transferSize": 1344336,
+        "encodedBodySize": 1344036,
+        "decodedBodySize": 1344036,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-back.webp",
+        "startTime": 1207.0999999977648,
+        "duration": 7.400000002235174,
+        "transferSize": 1118674,
+        "encodedBodySize": 1118374,
+        "decodedBodySize": 1118374,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/portrait-6.webp",
+        "startTime": 2514,
+        "duration": 3.599999997764826,
+        "transferSize": 65880,
+        "encodedBodySize": 65580,
+        "decodedBodySize": 65580,
+        "initiatorType": "img"
+      }
+    ],
+    "renderer": "Canvas",
+    "requestedBytes": 42322812,
+    "urls": [
+      "/art/delivery-v1/ui/navigation-v1.webp",
+      "/art/delivery-v1/ui/symbols-v1.webp",
+      "/art/delivery-v1/ui/materials-v2.webp",
+      "/art/delivery-v1/portrait-v1.webp",
+      "/art/delivery-v1/ui/lobby-v2.webp",
+      "/art/held-darts-v1.webp",
+      "/art/held-gauntlets-v1.webp",
+      "/art/delivery-v1/forest-v1.webp",
+      "/art/animation-rebuild-v2/hero.webp",
+      "/art/items-v2/weapon-sword-0.webp",
+      "/art/items-v2/weapon-sword-1.webp",
+      "/art/items-v2/weapon-sword-2.webp",
+      "/art/items-v2/weapon-dao-0.webp",
+      "/art/items-v2/weapon-dao-1.webp",
+      "/art/items-v2/weapon-dao-2.webp",
+      "/art/items-v2/weapon-dart-0.webp",
+      "/art/items-v2/weapon-dart-1.webp",
+      "/art/items-v2/weapon-dart-2.webp",
+      "/art/items-v2/weapon-gauntlet-0.webp",
+      "/art/items-v2/weapon-gauntlet-1.webp",
+      "/art/items-v2/weapon-gauntlet-2.webp",
+      "/art/items-v2/weapon-staff-0.webp",
+      "/art/items-v2/weapon-staff-1.webp",
+      "/art/items-v2/weapon-staff-2.webp",
+      "/art/items-v2/weapon-fan-0.webp",
+      "/art/items-v2/weapon-fan-1.webp",
+      "/art/items-v2/weapon-fan-2.webp",
+      "/art/items-v2/boss-0-1.webp",
+      "/art/items-v2/boss-1-2.webp",
+      "/art/items-v2/boss-2-1.webp",
+      "/art/items-v2/boss-4-1.webp",
+      "/art/items-v2/boss-4-4.webp",
+      "/art/items-v2/boss-5-2.webp",
+      "/art/items-v2/boss-7-1.webp",
+      "/art/items-v2/boss-7-4.webp",
+      "/art/items-v2/boss-8-4.webp",
+      "/art/items-v2/boss-9-4.webp",
+      "/art/delivery-v1/ui/effects-v2.webp",
+      "/art/zone-art-v2.png",
+      "/art/projectiles-v1.webp",
+      "/art/projectile-stone-v1.webp",
+      "/art/hostile-projectiles-v2.png",
+      "/art/delivery-v1/ui/hud-atlas-v3.webp",
+      "/art/encounter-props-v1.png",
+      "/art/boss-mechanics-v1.png",
+      "/art/animation-rebuild-v2/drone.webp",
+      "/art/animation-rebuild-v2/hero-reactions.webp",
+      "/art/boss-fields-v1.png",
+      "/art/hero-roster-v1/directions-1.webp",
+      "/art/hero-roster-v1/actions-1.webp",
+      "/art/hero-weapon-v4/guard-6.webp",
+      "/art/hero-slash-v1/hero-6.webp",
+      "/art/regions-v1/3-floor.webp",
+      "/art/snow-family-v1/snowhunter-front.webp",
+      "/art/snow-family-v1/snowhunter-front-right.webp",
+      "/art/snow-family-v1/snowhunter-right.webp",
+      "/art/snow-family-v1/snowhunter-rear-right.webp",
+      "/art/snow-family-v1/snowhunter-back.webp",
+      "/art/snow-family-v1/snowweaver-front.webp",
+      "/art/snow-family-v1/snowweaver-front-right.webp",
+      "/art/snow-family-v1/snowweaver-right.webp",
+      "/art/snow-family-v1/snowweaver-rear-right.webp",
+      "/art/snow-family-v1/snowweaver-back.webp",
+      "/art/snow-family-v1/snowbowman-front.webp",
+      "/art/snow-family-v1/snowbowman-front-right.webp",
+      "/art/snow-family-v1/snowbowman-right.webp",
+      "/art/snow-family-v1/snowbowman-rear-right.webp",
+      "/art/snow-family-v1/snowbowman-back.webp",
+      "/art/hero-roster-v1/portrait-6.webp"
+    ],
+    "maxLongTask": 777
+  },
+  {
+    "cache": "warm",
+    "region": 3,
+    "wave": 1,
+    "phase": "after",
+    "longTasks": [
+      {
+        "start": 260.1000000014901,
+        "duration": 53
+      },
+      {
+        "start": 1611.300000000745,
+        "duration": 840
+      }
+    ],
+    "decodes": [
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/navigation-v1.webp",
+        "start": 75.5,
+        "end": 108.80000000074506,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/materials-v2.webp",
+        "start": 83.60000000149012,
+        "end": 133.90000000223517,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/portrait-v1.webp",
+        "start": 84.10000000149012,
+        "end": 160.10000000149012,
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/lobby-v2.webp",
+        "start": 84.10000000149012,
+        "end": 183.5,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/symbols-v1.webp",
+        "start": 84.60000000149012,
+        "end": 224.5,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/held-darts-v1.webp",
+        "start": 230.70000000298023,
+        "end": 258.9000000022352,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/held-gauntlets-v1.webp",
+        "start": 232.30000000074506,
+        "end": 427.1000000014901,
+        "width": 2172,
+        "height": 724
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/forest-v1.webp",
+        "start": 234.30000000074506,
+        "end": 427.6000000014901,
+        "width": 1671,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero.webp",
+        "start": 235.60000000149012,
+        "end": 428.1000000014901,
+        "width": 1584,
+        "height": 993
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-0.webp",
+        "start": 237.90000000223517,
+        "end": 428.4000000022352,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-1.webp",
+        "start": 238,
+        "end": 428.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-sword-2.webp",
+        "start": 238,
+        "end": 428.70000000298023,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-0.webp",
+        "start": 238,
+        "end": 428.9000000022352,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-1.webp",
+        "start": 238,
+        "end": 429,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dao-2.webp",
+        "start": 238,
+        "end": 429.1000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-0.webp",
+        "start": 239.5,
+        "end": 429.1000000014901,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-1.webp",
+        "start": 240.60000000149012,
+        "end": 429.70000000298023,
+        "width": 512,
+        "height": 427
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-dart-2.webp",
+        "start": 428.1000000014901,
+        "end": 432.6000000014901,
+        "width": 512,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-0.webp",
+        "start": 436.80000000074506,
+        "end": 442.5,
+        "width": 512,
+        "height": 426
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-1.webp",
+        "start": 436.9000000022352,
+        "end": 445.9000000022352,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-2.webp",
+        "start": 436.9000000022352,
+        "end": 452.70000000298023,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-0.webp",
+        "start": 436.9000000022352,
+        "end": 454.70000000298023,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-1.webp",
+        "start": 437,
+        "end": 457.20000000298023,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-staff-2.webp",
+        "start": 437,
+        "end": 460.5,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-0.webp",
+        "start": 437,
+        "end": 464,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-1.webp",
+        "start": 437,
+        "end": 468.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/weapon-fan-2.webp",
+        "start": 437,
+        "end": 472.6000000014901,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-0-1.webp",
+        "start": 437.1000000014901,
+        "end": 474.80000000074506,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-1-2.webp",
+        "start": 438.1000000014901,
+        "end": 478.20000000298023,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-2-1.webp",
+        "start": 438.70000000298023,
+        "end": 481.30000000074506,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-4-1.webp",
+        "start": 445.70000000298023,
+        "end": 485.9000000022352,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-4-4.webp",
+        "start": 449.30000000074506,
+        "end": 492.30000000074506,
+        "width": 512,
+        "height": 468
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-5-2.webp",
+        "start": 456.6000000014901,
+        "end": 495.1000000014901,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-7-1.webp",
+        "start": 459.20000000298023,
+        "end": 498.20000000298023,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-7-4.webp",
+        "start": 460.5,
+        "end": 501.80000000074506,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-8-4.webp",
+        "start": 465.5,
+        "end": 507.20000000298023,
+        "width": 341,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/items-v2/boss-9-4.webp",
+        "start": 467.4000000022352,
+        "end": 510.5,
+        "width": 512,
+        "height": 341
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/effects-v2.webp",
+        "start": 471.70000000298023,
+        "end": 537.6000000014901,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/zone-art-v2.png",
+        "start": 475.9000000022352,
+        "end": 557.2000000029802,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/projectiles-v1.webp",
+        "start": 477.80000000074506,
+        "end": 572.3000000007451,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/projectile-stone-v1.webp",
+        "start": 480.9000000022352,
+        "end": 573.7000000029802,
+        "width": 188,
+        "height": 164
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hostile-projectiles-v2.png",
+        "start": 483.4000000022352,
+        "end": 587.4000000022352,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "start": 489.1000000014901,
+        "end": 623.8000000007451,
+        "width": 1670,
+        "height": 942
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/encounter-props-v1.png",
+        "start": 496.20000000298023,
+        "end": 646.9000000022352,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/boss-mechanics-v1.png",
+        "start": 498.1000000014901,
+        "end": 664,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/drone.webp",
+        "start": 501.1000000014901,
+        "end": 668.7000000029802,
+        "width": 1024,
+        "height": 256
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero-reactions.webp",
+        "start": 505.6000000014901,
+        "end": 693.8000000007451,
+        "width": 2048,
+        "height": 512
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/boss-fields-v1.png",
+        "start": 511,
+        "end": 710.1000000014901,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-roster-v1/directions-1.webp",
+        "start": 513.7000000029802,
+        "end": 779.8000000007451,
+        "width": 2048,
+        "height": 1280
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-roster-v1/actions-1.webp",
+        "start": 540.4000000022352,
+        "end": 851.9000000022352,
+        "width": 1536,
+        "height": 1280
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-weapon-v4/guard-6.webp",
+        "start": 560.3000000007451,
+        "end": 884.7000000029802,
+        "width": 1983,
+        "height": 793
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/hero-slash-v1/hero-6.webp",
+        "start": 575.8000000007451,
+        "end": 924.9000000022352,
+        "width": 1770,
+        "height": 1128
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/regions-v1/3-floor.webp",
+        "start": 576.2000000029802,
+        "end": 965.3000000007451,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front.webp",
+        "start": 591.7000000029802,
+        "end": 1015,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front-right.webp",
+        "start": 627.1000000014901,
+        "end": 1071.9000000022352,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-right.webp",
+        "start": 649.5,
+        "end": 1126.1000000014901,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-rear-right.webp",
+        "start": 666.9000000022352,
+        "end": 1176.7000000029802,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-back.webp",
+        "start": 671.5,
+        "end": 1237,
+        "width": 2688,
+        "height": 1824
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front.webp",
+        "start": 697.6000000014901,
+        "end": 1275.2000000029802,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front-right.webp",
+        "start": 714.3000000007451,
+        "end": 1307.800000000745,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-right.webp",
+        "start": 783.9000000022352,
+        "end": 1335,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-rear-right.webp",
+        "start": 855.6000000014901,
+        "end": 1369.7000000029802,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-back.webp",
+        "start": 888.6000000014901,
+        "end": 1406,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front.webp",
+        "start": 928.6000000014901,
+        "end": 1436.9000000022352,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front-right.webp",
+        "start": 969.4000000022352,
+        "end": 1472.9000000022352,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-right.webp",
+        "start": 1019.1000000014901,
+        "end": 1516.1000000014901,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-rear-right.webp",
+        "start": 1075.6000000014901,
+        "end": 1551.6000000014901,
+        "width": 1792,
+        "height": 1344
+      },
+      {
+        "url": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-back.webp",
+        "start": 1130,
+        "end": 1585.800000000745,
+        "width": 1792,
+        "height": 1344
+      }
+    ],
+    "ready": 2460.800000000745,
+    "interface": 68.20000000298023,
+    "resources": [
+      {
+        "name": "http://127.0.0.1:5210/assets/main-ChnLtiDs.js",
+        "startTime": 24.700000002980232,
+        "duration": 5.799999997019768,
+        "transferSize": 300,
+        "encodedBodySize": 129012,
+        "decodedBodySize": 443357,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/Icons-BqFlZ7SE.js",
+        "startTime": 25,
+        "duration": 6.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 98407,
+        "decodedBodySize": 315238,
+        "initiatorType": "other"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/main-DFkPwoaI.css",
+        "startTime": 25.100000001490116,
+        "duration": 4.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 45787,
+        "decodedBodySize": 250409,
+        "initiatorType": "link"
+      },
+      {
+        "name": "http://127.0.0.1:5210/fonts/GowunBatang-Bold.woff2",
+        "startTime": 68.60000000149012,
+        "duration": 3,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5210/fonts/GowunDodum-Regular.woff2",
+        "startTime": 68.70000000298023,
+        "duration": 4.299999997019768,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "css"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/navigation-v1.webp",
+        "startTime": 70.30000000074506,
+        "duration": 3.800000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/materials-v2.webp",
+        "startTime": 70.60000000149012,
+        "duration": 4.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/portrait-v1.webp",
+        "startTime": 70.80000000074506,
+        "duration": 5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/lobby-v2.webp",
+        "startTime": 70.90000000223517,
+        "duration": 6.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/symbols-v1.webp",
+        "startTime": 72.20000000298023,
+        "duration": 7.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 621728,
+        "decodedBodySize": 621728,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/mount-L9JamuUa.js",
+        "startTime": 225.60000000149012,
+        "duration": 17.899999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 428131,
+        "decodedBodySize": 5413828,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/assets/phaser-BTGbtjln.js",
+        "startTime": 225.70000000298023,
+        "duration": 9.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 371538,
+        "decodedBodySize": 1387441,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/held-darts-v1.webp",
+        "startTime": 226,
+        "duration": 3.400000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/held-gauntlets-v1.webp",
+        "startTime": 226.20000000298023,
+        "duration": 3.899999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/forest-v1.webp",
+        "startTime": 226.30000000074506,
+        "duration": 4.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero.webp",
+        "startTime": 226.40000000223517,
+        "duration": 5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-0.webp",
+        "startTime": 226.40000000223517,
+        "duration": 5.599999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-1.webp",
+        "startTime": 226.60000000149012,
+        "duration": 6.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-sword-2.webp",
+        "startTime": 226.70000000298023,
+        "duration": 6.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-0.webp",
+        "startTime": 226.80000000074506,
+        "duration": 7.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-1.webp",
+        "startTime": 226.90000000223517,
+        "duration": 8.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dao-2.webp",
+        "startTime": 227,
+        "duration": 10.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-0.webp",
+        "startTime": 227.10000000149012,
+        "duration": 11.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-1.webp",
+        "startTime": 227.30000000074506,
+        "duration": 12.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-dart-2.webp",
+        "startTime": 259.20000000298023,
+        "duration": 3,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-0.webp",
+        "startTime": 427.4000000022352,
+        "duration": 2.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-1.webp",
+        "startTime": 427.9000000022352,
+        "duration": 3,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-gauntlet-2.webp",
+        "startTime": 428.30000000074506,
+        "duration": 3.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-0.webp",
+        "startTime": 428.4000000022352,
+        "duration": 4.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-1.webp",
+        "startTime": 428.6000000014901,
+        "duration": 4.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-staff-2.webp",
+        "startTime": 428.80000000074506,
+        "duration": 4.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-0.webp",
+        "startTime": 429,
+        "duration": 5.200000002980232,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-1.webp",
+        "startTime": 429,
+        "duration": 5.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/weapon-fan-2.webp",
+        "startTime": 429.1000000014901,
+        "duration": 6.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-0-1.webp",
+        "startTime": 429.6000000014901,
+        "duration": 6.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-1-2.webp",
+        "startTime": 429.9000000022352,
+        "duration": 7.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-2-1.webp",
+        "startTime": 432.80000000074506,
+        "duration": 5.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-4-1.webp",
+        "startTime": 442.70000000298023,
+        "duration": 2.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-4-4.webp",
+        "startTime": 446.30000000074506,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-5-2.webp",
+        "startTime": 453,
+        "duration": 2.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-7-1.webp",
+        "startTime": 454.9000000022352,
+        "duration": 3.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-7-4.webp",
+        "startTime": 457.6000000014901,
+        "duration": 2.399999998509884,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-8-4.webp",
+        "startTime": 460.70000000298023,
+        "duration": 3.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/items-v2/boss-9-4.webp",
+        "startTime": 464.5,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/effects-v2.webp",
+        "startTime": 468.80000000074506,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/zone-art-v2.png",
+        "startTime": 472.9000000022352,
+        "duration": 2.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/projectiles-v1.webp",
+        "startTime": 475,
+        "duration": 2.100000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/projectile-stone-v1.webp",
+        "startTime": 478.4000000022352,
+        "duration": 2.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hostile-projectiles-v2.png",
+        "startTime": 481.4000000022352,
+        "duration": 1.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/delivery-v1/ui/hud-atlas-v3.webp",
+        "startTime": 486.20000000298023,
+        "duration": 2.2999999970197678,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/encounter-props-v1.png",
+        "startTime": 492.6000000014901,
+        "duration": 2.5,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/boss-mechanics-v1.png",
+        "startTime": 495.4000000022352,
+        "duration": 2.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/drone.webp",
+        "startTime": 498.4000000022352,
+        "duration": 2.099999997764826,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/animation-rebuild-v2/hero-reactions.webp",
+        "startTime": 502,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/boss-fields-v1.png",
+        "startTime": 507.6000000014901,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/directions-1.webp",
+        "startTime": 510.80000000074506,
+        "duration": 2.400000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/actions-1.webp",
+        "startTime": 538,
+        "duration": 1.9000000022351742,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-weapon-v4/guard-6.webp",
+        "startTime": 557.6000000014901,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-slash-v1/hero-6.webp",
+        "startTime": 572.6000000014901,
+        "duration": 2.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/regions-v1/3-floor.webp",
+        "startTime": 573.8000000007451,
+        "duration": 1.9000000022351742,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front.webp",
+        "startTime": 587.9000000022352,
+        "duration": 2.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-front-right.webp",
+        "startTime": 624,
+        "duration": 2.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-right.webp",
+        "startTime": 647.2000000029802,
+        "duration": 1.8999999985098839,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-rear-right.webp",
+        "startTime": 664.1000000014901,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowhunter-back.webp",
+        "startTime": 668.9000000022352,
+        "duration": 2,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front.webp",
+        "startTime": 694.1000000014901,
+        "duration": 2.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-front-right.webp",
+        "startTime": 710.5,
+        "duration": 2.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-right.webp",
+        "startTime": 780.3000000007451,
+        "duration": 2.900000002235174,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-rear-right.webp",
+        "startTime": 852.2000000029802,
+        "duration": 2.699999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowweaver-back.webp",
+        "startTime": 885,
+        "duration": 2.800000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front.webp",
+        "startTime": 925.3000000007451,
+        "duration": 2.600000001490116,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-front-right.webp",
+        "startTime": 965.6000000014901,
+        "duration": 3,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-right.webp",
+        "startTime": 1015.2000000029802,
+        "duration": 3.199999999254942,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-rear-right.webp",
+        "startTime": 1072.1000000014901,
+        "duration": 2.800000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/snow-family-v1/snowbowman-back.webp",
+        "startTime": 1126.4000000022352,
+        "duration": 2.800000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:5210/art/hero-roster-v1/portrait-6.webp",
+        "startTime": 2460.900000002235,
+        "duration": 2.300000000745058,
+        "transferSize": 300,
+        "encodedBodySize": 65580,
+        "decodedBodySize": 65580,
+        "initiatorType": "img"
+      }
+    ],
+    "renderer": "Canvas",
+    "requestedBytes": 42322812,
+    "urls": [
+      "/art/delivery-v1/ui/navigation-v1.webp",
+      "/art/delivery-v1/ui/materials-v2.webp",
+      "/art/delivery-v1/portrait-v1.webp",
+      "/art/delivery-v1/ui/lobby-v2.webp",
+      "/art/delivery-v1/ui/symbols-v1.webp",
+      "/art/held-darts-v1.webp",
+      "/art/held-gauntlets-v1.webp",
+      "/art/delivery-v1/forest-v1.webp",
+      "/art/animation-rebuild-v2/hero.webp",
+      "/art/items-v2/weapon-sword-0.webp",
+      "/art/items-v2/weapon-sword-1.webp",
+      "/art/items-v2/weapon-sword-2.webp",
+      "/art/items-v2/weapon-dao-0.webp",
+      "/art/items-v2/weapon-dao-1.webp",
+      "/art/items-v2/weapon-dao-2.webp",
+      "/art/items-v2/weapon-dart-0.webp",
+      "/art/items-v2/weapon-dart-1.webp",
+      "/art/items-v2/weapon-dart-2.webp",
+      "/art/items-v2/weapon-gauntlet-0.webp",
+      "/art/items-v2/weapon-gauntlet-1.webp",
+      "/art/items-v2/weapon-gauntlet-2.webp",
+      "/art/items-v2/weapon-staff-0.webp",
+      "/art/items-v2/weapon-staff-1.webp",
+      "/art/items-v2/weapon-staff-2.webp",
+      "/art/items-v2/weapon-fan-0.webp",
+      "/art/items-v2/weapon-fan-1.webp",
+      "/art/items-v2/weapon-fan-2.webp",
+      "/art/items-v2/boss-0-1.webp",
+      "/art/items-v2/boss-1-2.webp",
+      "/art/items-v2/boss-2-1.webp",
+      "/art/items-v2/boss-4-1.webp",
+      "/art/items-v2/boss-4-4.webp",
+      "/art/items-v2/boss-5-2.webp",
+      "/art/items-v2/boss-7-1.webp",
+      "/art/items-v2/boss-7-4.webp",
+      "/art/items-v2/boss-8-4.webp",
+      "/art/items-v2/boss-9-4.webp",
+      "/art/delivery-v1/ui/effects-v2.webp",
+      "/art/zone-art-v2.png",
+      "/art/projectiles-v1.webp",
+      "/art/projectile-stone-v1.webp",
+      "/art/hostile-projectiles-v2.png",
+      "/art/delivery-v1/ui/hud-atlas-v3.webp",
+      "/art/encounter-props-v1.png",
+      "/art/boss-mechanics-v1.png",
+      "/art/animation-rebuild-v2/drone.webp",
+      "/art/animation-rebuild-v2/hero-reactions.webp",
+      "/art/boss-fields-v1.png",
+      "/art/hero-roster-v1/directions-1.webp",
+      "/art/hero-roster-v1/actions-1.webp",
+      "/art/hero-weapon-v4/guard-6.webp",
+      "/art/hero-slash-v1/hero-6.webp",
+      "/art/regions-v1/3-floor.webp",
+      "/art/snow-family-v1/snowhunter-front.webp",
+      "/art/snow-family-v1/snowhunter-front-right.webp",
+      "/art/snow-family-v1/snowhunter-right.webp",
+      "/art/snow-family-v1/snowhunter-rear-right.webp",
+      "/art/snow-family-v1/snowhunter-back.webp",
+      "/art/snow-family-v1/snowweaver-front.webp",
+      "/art/snow-family-v1/snowweaver-front-right.webp",
+      "/art/snow-family-v1/snowweaver-right.webp",
+      "/art/snow-family-v1/snowweaver-rear-right.webp",
+      "/art/snow-family-v1/snowweaver-back.webp",
+      "/art/snow-family-v1/snowbowman-front.webp",
+      "/art/snow-family-v1/snowbowman-front-right.webp",
+      "/art/snow-family-v1/snowbowman-right.webp",
+      "/art/snow-family-v1/snowbowman-rear-right.webp",
+      "/art/snow-family-v1/snowbowman-back.webp",
+      "/art/hero-roster-v1/portrait-6.webp"
+    ],
+    "maxLongTask": 840
+  }
+]

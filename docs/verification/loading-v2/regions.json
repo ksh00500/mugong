@@ -1,0 +1,742 @@
+[
+  {
+    "region": 0,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "qingha-family-qingharaider-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "qingha-family-qinghaguard-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "qingha-family-qinghabowman-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "qingha-family-qingharaider-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "0-1",
+            "texture": "qingha-family-madabong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "0-2",
+            "texture": "qingha-family-nojin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "0-3",
+            "texture": "qingha-family-cheolmu-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "0-4",
+            "texture": "qingha-family-hanmugeuk-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 1,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "dokmu-family-needle-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "dokmu-family-bombardier-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "dokmu-family-needle-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "dokmu-family-needle-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "1-1",
+            "texture": "dokmu-family-cheongrin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "1-2",
+            "texture": "dokmu-family-mukchil-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "1-3",
+            "texture": "dokmu-family-yeonhwa-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "1-4",
+            "texture": "dokmu-family-sagongyeom-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 2,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "tianjian-family-duelist-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "tianjian-family-swordcaster-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "tianjian-family-duelist-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "tianjian-family-spearguard-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "2-1",
+            "texture": "tianjian-family-ujin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "2-2",
+            "texture": "tianjian-family-baekhong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "2-3",
+            "texture": "tianjian-family-mumyeong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "2-4",
+            "texture": "tianjian-family-baekun-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 3,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "snow-family-snowhunter-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "snow-family-snowweaver-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "snow-family-snowbowman-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "snow-family-snowhunter-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "3-1",
+            "texture": "snow-family-mujin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "3-2",
+            "texture": "snow-family-xuelan-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "3-3",
+            "texture": "snow-family-baixue-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "3-4",
+            "texture": "snow-family-hanxue-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 4,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "shaolin-family-brawler-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "shaolin-staff-right-locomotion",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "shaolin-family-brawler-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "shaolin-family-slinger-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "4-1",
+            "texture": "shaolin-family-gongheo-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "4-2",
+            "texture": "shaolin-family-dowon-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "4-3",
+            "texture": "shaolin-family-bulmyeong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "4-4",
+            "texture": "shaolin-family-mujin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 5,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "bamboo-family-bambooassassin-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "bamboo-family-bambooneedle-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "bamboo-family-bambooneedle-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "bamboo-family-bambooassassin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "5-1",
+            "texture": "bamboo-family-qingbi-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "5-2",
+            "texture": "bamboo-family-nogae-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "5-3",
+            "texture": "bamboo-family-yanqing-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "5-4",
+            "texture": "bamboo-family-songwol-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 6,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "tomb-family-tombtrapper-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "tomb-family-tombcrossbow-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "tomb-family-tombguard-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "tomb-family-tombcrossbow-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "6-1",
+            "texture": "tomb-family-jeokho-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "6-2",
+            "texture": "tomb-family-seokmun-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "6-3",
+            "texture": "tomb-family-gwakgi-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "6-4",
+            "texture": "tomb-family-wolryeong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 7,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "desert-family-rider-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "desert-family-assassin-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "desert-family-ringblade-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "desert-family-rider-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "7-1",
+            "texture": "desert-family-asar-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "7-2",
+            "texture": "desert-family-naya-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "7-3",
+            "texture": "desert-family-balta-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "7-4",
+            "texture": "desert-family-arkan-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 8,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "hyeolma-family-bloodblade-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "hyeolma-family-bloodhexer-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "hyeolma-family-bloodblade-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "hyeolma-family-bloodassassin-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "8-1",
+            "texture": "hyeolma-family-jeogu-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "8-2",
+            "texture": "hyeolma-family-yeonsal-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "8-3",
+            "texture": "hyeolma-family-sohong-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "8-4",
+            "texture": "hyeolma-family-jeokcheon-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": 9,
+    "records": [
+      {
+        "wave": 1,
+        "actors": [
+          {
+            "id": 100,
+            "texture": "zhuge-family-engineer-front",
+            "source": "0-locomotion-0"
+          },
+          {
+            "id": 101,
+            "texture": "zhuge-family-crossbow-right",
+            "source": "2-locomotion-0"
+          },
+          {
+            "id": 102,
+            "texture": "zhuge-family-gatekeeper-back",
+            "source": "4-locomotion-0"
+          },
+          {
+            "id": 103,
+            "texture": "zhuge-family-crossbow-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 5,
+        "actors": [
+          {
+            "id": 500,
+            "bossId": "9-1",
+            "texture": "zhuge-family-yanggi-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 10,
+        "actors": [
+          {
+            "id": 1000,
+            "bossId": "9-2",
+            "texture": "zhuge-family-mukyeon-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 15,
+        "actors": [
+          {
+            "id": 1500,
+            "bossId": "9-3",
+            "texture": "zhuge-family-jingwal-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      },
+      {
+        "wave": 20,
+        "actors": [
+          {
+            "id": 2000,
+            "bossId": "9-4",
+            "texture": "zhuge-family-zhugehyeon-right",
+            "source": "2-locomotion-0"
+          }
+        ]
+      }
+    ]
+  }
+]

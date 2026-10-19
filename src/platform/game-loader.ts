@@ -1,5 +1,5 @@
-import { COMBAT_IMAGES, prepareImages, type ImageProgress } from './assets';
-import { regionArtIndex, regionArtManifest } from './region-art';
+import { combatBaseImages, prepareImages, type ImageProgress } from './assets';
+import { regionArtIndex, runArtManifest } from './region-art';
 import { gameStore } from './store';
 import { characterCombatImages } from './character-art';
 
@@ -20,7 +20,11 @@ export async function prepareCombat(onProgress?: (progress: ImageProgress) => vo
   const [module, images] = await Promise.all([
     loadModule(),
     prepareImages(
-      { ...COMBAT_IMAGES, ...characterCombatImages(gameStore.state.run?.fighter), ...regionArtManifest(regionArtIndex(gameStore.state.run)) },
+      {
+        ...combatBaseImages(regionArtIndex(gameStore.state.run) >= 0),
+        ...characterCombatImages(gameStore.state.run?.fighter),
+        ...runArtManifest(gameStore.state.run),
+      },
       onProgress,
     ),
   ]);
@@ -29,5 +33,12 @@ export async function prepareCombat(onProgress?: (progress: ImageProgress) => vo
 
 export function warmCombat() {
   // Intent-based warming does not create a renderer or advance the game.
-  void prepareCombat().catch(() => {});
+  void (
+    gameStore.state.run
+      ? prepareCombat()
+      : Promise.all([
+          loadModule(),
+          prepareImages(combatBaseImages(true), undefined, { priority: 'low', concurrency: 2 }),
+        ])
+  ).catch(() => {});
 }

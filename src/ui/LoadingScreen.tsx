@@ -27,9 +27,11 @@ export function LoadingScreen({
         <h2>
           {error
             ? t('화면을 준비하지 못했습니다')
-            : kind === 'combat'
-              ? t('강호를 준비하고 있습니다')
-              : t('세가를 준비하고 있습니다')}
+            : progress.stage === 'scene'
+              ? t('전투 화면을 구성하고 있습니다.')
+              : kind === 'combat'
+                ? t('강호를 준비하고 있습니다')
+                : t('세가를 준비하고 있습니다')}
         </h2>
         <p role={error ? 'alert' : 'status'}>
           {error
@@ -47,10 +49,14 @@ export function LoadingScreen({
               aria-valuemin={0}
               aria-valuemax={progress.total}
               aria-valuenow={progress.completed}
-              aria-valuetext={t('{0} / {1}개 그림 준비', {
-                0: progress.completed,
-                1: progress.total,
-              })}
+              aria-valuetext={
+                progress.stage === 'scene'
+                  ? t('그림 준비 완료')
+                  : t('{0} / {1}개 그림 준비', {
+                      0: progress.completed,
+                      1: progress.total,
+                    })
+              }
             >
               <i
                 style={{
@@ -59,7 +65,9 @@ export function LoadingScreen({
               />
             </div>
             <div className="loading-count" aria-hidden="true">
-              {t('{0} / {1}개 그림 준비', { 0: progress.completed, 1: progress.total })}
+              {progress.stage === 'scene'
+                ? t('그림 준비 완료')
+                : t('{0} / {1}개 그림 준비', { 0: progress.completed, 1: progress.total })}
             </div>
             <small className="loading-hint">
               {slow

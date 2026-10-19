@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "check:assets": "node scripts/check-runtime-assets.mjs",
     "assets:catalog": "node scripts/asset-bundles.mjs catalog",
+    "assets:art-index": "node scripts/build-region-art-index.mjs",
     "assets:verify": "node scripts/asset-bundles.mjs verify runtime",
     "assets:pack": "node scripts/asset-bundles.mjs pack",
     "test:hosting": "playwright test --config playwright.hosting.config.ts",

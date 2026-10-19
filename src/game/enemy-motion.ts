@@ -43,6 +43,7 @@ export function registerEnemyMotion(
   slots = [0, 1, 2, 3, 4, 5, 6],
   columns = 6,
   actionSheet = columns === 6,
+  selectedSlots?: readonly number[],
 ) {
   const source = texture.source[0];
   const canvas = document.createElement('canvas');
@@ -55,25 +56,35 @@ export function registerEnemyMotion(
   // Runtime atlas packing keeps neighbouring fragments out of the render frame.
   // Original images stay unchanged; preserve the figure's antialiased border.
   const extract = figureExtractor(pixels, source.width, source.height);
-  const figures = cells.map(extract);
-  const tileWidth = Math.max(...figures.map((f) => f.right - f.left)) + 4;
-  const tileHeight = Math.max(...figures.map((f) => f.bottom - f.top)) + 4;
+  const selectedRows = slots
+    .map((slot, rowIndex) => ({ slot, rowIndex }))
+    .filter(({ slot }) => !selectedSlots || selectedSlots.includes(slot));
+  const figures = new Map(
+    selectedRows.flatMap(({ rowIndex }) =>
+      Array.from({ length: columns }, (_, pose) => {
+        const index = rowIndex * columns + pose;
+        return [index, extract(cells[index])] as const;
+      }),
+    ),
+  );
+  const tileWidth = Math.max(...[...figures.values()].map((f) => f.right - f.left)) + 4;
+  const tileHeight = Math.max(...[...figures.values()].map((f) => f.bottom - f.top)) + 4;
   const packed = document.createElement('canvas');
   packed.width = tileWidth * columns;
-  packed.height = tileHeight * slots.length;
+  packed.height = tileHeight * selectedRows.length;
   const outputContext = packed.getContext('2d')!;
   const isolated = outputContext.createImageData(packed.width, packed.height);
   const frameDefinitions: { name: string; x: number; y: number; width: number; height: number }[] =
     [];
   const isolatedKey = `${texture.key}-isolated`;
   const frames = new Map<string, MotionFrame>();
-  for (const [rowIndex, slot] of slots.entries()) {
+  for (const [packedRow, { rowIndex, slot }] of selectedRows.entries()) {
     const row: MotionFrame[] = [];
     for (let pose = 0; pose < columns; pose++) {
       const cell = cells[rowIndex * columns + pose];
-      const bounds = figures[rowIndex * columns + pose];
+      const bounds = figures.get(rowIndex * columns + pose)!;
       const packX = pose * tileWidth + 2,
-        packY = rowIndex * tileHeight + 2;
+        packY = packedRow * tileHeight + 2;
       copyFigurePixels(
         pixels,
         isolated.data,

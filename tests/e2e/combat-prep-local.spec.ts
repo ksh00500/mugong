@@ -6,7 +6,8 @@ import { makeLootItem } from '../../src/domain/items';
 import { xpThreshold } from '../../src/domain/content';
 import type { BoundFighter } from '../../src/domain/model';
 
-const proof = 'docs/verification/combat-prep-v1/compiled';
+const proof = process.env.MUGONG_COMPILED_PROOF ?? 'docs/verification/combat-prep-v1/compiled';
+const output = process.env.MUGONG_COMPILED_DIR ?? 'dist-combat-prep-v1';
 async function saved(page: Page) {
   return page.evaluate(async () => {
     const db = await new Promise<IDBDatabase>((resolve) => {
@@ -26,7 +27,7 @@ test('컴파일 HTML·JS·CSS HTTP SHA', async ({ request }) => {
   const res = await request.get('/'),
     html = await res.text();
   expect(res.status()).toBe(200);
-  expect(html).toBe(await readFile('dist-combat-prep-v1/index.html', 'utf8'));
+  expect(html).toBe(await readFile(`${output}/index.html`, 'utf8'));
   const records = [];
   for (const match of html.matchAll(/(?:src|href)="(\/assets\/[^"?]+)"/g)) {
     const url = match[1],
@@ -37,7 +38,7 @@ test('컴파일 HTML·JS·CSS HTTP SHA', async ({ request }) => {
       .digest('hex');
     expect(sha).toBe(
       createHash('sha256')
-        .update(await readFile('dist-combat-prep-v1' + url))
+        .update(await readFile(output + url))
         .digest('hex'),
     );
     records.push({ url, sha256: sha });
