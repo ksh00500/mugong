@@ -1,39 +1,17 @@
-# 외부 에셋 보관·복원
+# 실행 에셋과 제작 원본 보관
 
-GitHub LFS 예산 초과 이후 사용자가 **소스는 GitHub, 에셋은 개인 서버 별도 보관**을 선택했다. 원본 파일을 삭제하거나 리사이즈하지 않는다. 서버 주소·비밀번호·임시 SSH 명령은 저장소/문서에 기록하지 않는다.
+2026-10-20부터 public 미디어1,018개(이미지1,011장·소리4개·폰트3개)를 일반 Git에 포함한다. 이제 이 브랜치를 복제하면 실행용 묶음을 별도 복원하지 않아도 게임을 빌드할 수 있다. 기존 LFS 예산을 사용하거나 유료 설정을 바꾸지 않는다.
 
-## 묶음
+제작 원본·참고 자료1,818개는 assets/·docs/source/·docs/references/에 보존하고 외부 authoring 묶음으로 관리한다. 전체 asset-manifest.json은 실행/제작2,836파일의 경로·크기·SHA256을 유지한다. [분류와 삭제 기준](asset-management/README.md).
 
-| 구분 | 파일 | 용도 |
-| --- | --- | --- |
-| 실행용 | `mugong-runtime-b15bfb5ba50574ab.tar.gz` | public 아래 그림·소리·폰트1,005개, 게임 실행/호스팅에 필요 |
-| 제작용 | `mugong-authoring-df51005ee5a3d539.tar.gz` | 원본·교정/참고 미디어1,818개, 원화 제작/복원용 |
+## 보관본
 
-최신 SHA256·압축 크기는 `docs/asset-bundles/runtime.json`, `authoring.json`에 기록한다. 압축본과 `.sha256` 사이드카는 로컬 `.asset-bundles/`에 생성하며 개인 서버에 복사해 보관한다. GitHub에는 올리지 않는다. 실제 개인 서버 전송 여부는 작업 기록에서 별도로 확인한다.
+- runtime: mugong-runtime-d05a97c29b4c392f.tar.gz — 1,018파일, 1,176,113,644바이트. Git 복제와 별도로 로컬 복구용 보존.
+- authoring: mugong-authoring-df51005ee5a3d539.tar.gz — 1,818파일, 2,641,160,316바이트. 게임 호스팅에는 불필요하지만 재생성·출력·제작 이력에는 필요.
+- [runtime SHA](asset-bundles/runtime.json) · [authoring SHA](asset-bundles/authoring.json).
 
-`asset-manifest.json`은 전체 파일의 상대 경로·바이트 수·SHA256을 관리한다. 코드 커밋과 manifest를 함께 저장한다. 묶음 ID는 파일 경로·바이트 수·SHA256 목록에서 계산하므로 소스 수정만으로 에셋 버전이 바뀌지 않는다. 묶음은 바이너리만 담고 HTML/JSON/라이선스·프롬프트 등 텍스트는 Git에서 받는다.
+보관본은 현재 로컬 .asset-bundles에 있다. 개인 서버 전송이나 외부 백업 완료로 해석하지 않는다. 원본을 수정하면 목록을 갱신하고 authoring 묶음을 다시 만든다. Git에서 이전 소스/메타데이터를 복원할 때 해당 버전 파일 SHA를 확인한다.
 
-## 복원
+과거 압축본과 최신 보관본의 내부 파일이 모두 같은 경우에만 이전 압축본을 정리할 수 있다. [전체 대조 결과](asset-management/archive-audit.json)와 [복원 검사](asset-management/restore-verification.json)를 사용한다. 과거 압축본 파일명이 등장하는 이력 문서는 당시 상태이며 현재 복원 안내는 이 문서와 삭제 기록을 따른다. 같은 내용을 복원할 수 있다는 뜻이며 이전 tar.gz의 압축 바이트 자체가 동일하다는 뜻은 아니다.
 
-신뢰하는 보관소에서 받은 압축본의 SHA256을 먼저 확인하고 저장소 루트에 푼다.
-
-```sh
-(cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)
-tar -xzf /srv/mugong-assets/mugong-runtime-b15bfb5ba50574ab.tar.gz -C .
-npm run check:assets
-```
-
-제작 자료도 필요하면 `authoring` 압축본을 같은 방식으로 확인/해제하고 `node scripts/asset-bundles.mjs verify all`로 확인한다. 라이선스는 Git의 `public/fonts/*-OFL.txt`, 참고 문서와 함께 보존한다.
-
-## 새 에셋을 추가·교체할 때
-
-```sh
-node scripts/asset-bundles.mjs refresh
-node scripts/asset-bundles.mjs verify all
-node scripts/asset-bundles.mjs pack runtime
-node scripts/asset-bundles.mjs pack authoring
-```
-
-`refresh`는 public·assets·docs/source·docs/references의 미디어만 대상으로 한다. 검증 캡처나 실제 사용자 저장은 포함하지 않는다. 새로 생성된 `.tar.gz.json`을 각각 `docs/asset-bundles/runtime.json`, `authoring.json`에 복사하고 문서의 파일명을 갱신한다. 서버에 새 묶음을 올린 뒤 코드/manifest를 커밋한다. 이전 묶음도 롤백을 위해 보관한다.
-
-소스 저장소 검사: `node scripts/audit-github-snapshot.mjs`. 바이너리나 LFS 필터 파일이 추적되면 실패한다. 기본 단위 검사는 실제 파일 존재를 확인하며 `test:source`는 CI에서 명시적으로 목록만 대조한다. 게임 실행 전에는 반드시 실제 SHA256 검사를 수행한다.
+[이전 외부 분리 방침](history/external-assets-before-runtime-git-20261020.md)은 이력으로 보존한다.

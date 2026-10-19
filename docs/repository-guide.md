@@ -1,19 +1,13 @@
 # 저장소와 제작 자료
 
-2026-10-18 사용자 결정: 소스는 GitHub, 미디어는 개인 서버 별도 보관. GitHub LFS 예산 초과로 이전 전체 업로드가 거부됐으며 유료 예산을 변경하지 않는다.
+2026-10-20 요청에 따라 public의 실행·호환·비교용 미디어1,018개를 일반 Git으로 관리한다. 경로와 바이트를 바꾸지 않으며 Git LFS는 사용하지 않는다. 소스·테스트·프롬프트·메타데이터·문서도 Git에 보관한다.
 
-| GitHub에 보관 | 개인 서버 에셋 보관소에 보관 |
-| --- | --- |
-| TS/TSX·CSS·SVG·설정·테스트·제작 스크립트 | PNG·WebP·JPEG 등 래스터 원본과 실행 텍스처 |
-| 프롬프트·메타데이터·원화 선택/교정 이력 | 소리·폰트·동영상 |
-| 기능 문서·검증 요약·파일 SHA256 목록 | 실행용/제작용 압축본과 SHA256 사이드카 |
+제작 원본 assets/·docs/source/·docs/references/의 미디어1,818개는 외부 authoring 묶음에 보존한다. 사용되지 않는 것으로 보이는 생성본도 재출력/참고/향후 필요를 확인하기 전에는 지우지 않는다. [전체 목록과 정책](asset-management/README.md) · [보관본](external-assets.md).
 
-`public`의 미디어는 실행용, `assets`·`docs/source`·`docs/references`의 미디어는 제작/보관용이다. `asset-manifest.json`은 전체2,745경로를 추적한다. 런타임993개와 제작/참고1,752개를 독립 묶음으로 나눈다. SVG·HTML·JSON·프롬프트·라이선스 문서는 Git에 남는다. 자세한 복원 순서는 [외부 에셋 안내](external-assets.md)를 따른다.
+public 파일을 추가하면 asset-manifest.json을 갱신하고 미디어와 함께 커밋한다. npm run check:assets와 node scripts/audit-github-snapshot.mjs는 실제 바이트/SHA·제작 미디어 오추적·LFS·누락·제한된 자격 패턴을 검사한다. 이 검사가 모든 비밀을 탐지하는 것은 아니다.
 
-파일 경로는 제작 스크립트와 메타데이터가 참조하므로 임의로 이동하지 않는다. `assets/`와 `docs/source/`의 텍스트는 입력 해시를 보존하도록 줄바꿈 자동 변환을 끈다. 이전 프롬프트의 공백을 일괄 정리하지 않는다.
+node_modules, dist 계열, 캡처/대량 표본, 개인 노트 사본, 환경/인증 정보와 압축본은 Git에서 제외한다. 실행 중인 로컬 출력과 검증·복원 근거는 함부로 지우지 않는다.
 
-로컬 `node_modules`, `dist`와 임시 빌드, 테스트 녹화/캡처, 대량 프레임 표본(`canvas-*.json`, `webgl-*.json`), 개인 옵시디언 사본과 자격 정보는 Git에서 제외한다. 파일을 지우지 않고 로컬에 보존한다. 과거 문서의 일부 그림·표본 링크는 로컬 보관 자료를 가리킨다.
+기본 CI는 포함된 public 미디어 SHA, 타입, 소스 단위와 전체 빌드를 검사한다. 수동 verify_runtime은 Git 미디어로 Docker/브라우저를 검사하며 외부 다운로드 secret이 필요 없다. 원격 CI 성공 여부는 로컬 검사와 별도다.
 
-`codex/self-hosting-setup`의 전체 LFS 스냅샷 커밋은 로컬 보존용이며 업로드되지 않았다. 소스 전용 `codex/source-assets-split`은 기존 main에서 직접 이어지므로 실패한 LFS 커밋을 원격 이력에 포함하지 않는다. 원본 미디어는 디스크에 그대로 있으며 LFS 후크를 우회해 복원 불가능한 포인터만 업로드하지 않는다.
-
-기본 CI는 에셋 목록·타입·소스 단위 검사·JS/CSS 컴파일을 수행한다. 에셋 복원과 Docker/브라우저 검사는 별도이며 기본 CI 통과로 실행 에셋 검증을 주장하지 않는다. 서버 배포 흐름은 [개인 서버 가이드](self-hosting.md), 현재 콘텐츠 범위는 [현재 상태](project-status.md)를 따른다.
+[이전 분리 방침](history/repository-guide-before-runtime-git-20261020.md)은 당시 이력이다.
