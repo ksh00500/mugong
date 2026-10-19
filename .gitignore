@@ -8,6 +8,7 @@ coverage/
 # Local validation and browser recordings
 /test-results*/
 /playwright-report/
+/playwright-size-review-results*/
 /.cache/
 /.local-preview/
 /.validation/
@@ -30,6 +31,11 @@ coverage/
 /docs/verification/tomb-bamboo-complete-v3/*-reduced.json
 /docs/verification/three-complete-v3/*-full.json
 /docs/verification/three-complete-v3/*-reduced.json
+/docs/verification/native-size-review-v1/inventory.json
+/docs/verification/native-size-review-v1/after/*-runtime.json
+/docs/verification/native-size-review-v1/after/*-R*.json
+/docs/verification/native-size-review-v1/unit-results.json
+/docs/verification/native-size-review-v1/source-results.json
 
 # Personal note snapshots stay local; feature/verification docs are versioned.
 /docs/obsidian-sync/

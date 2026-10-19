@@ -5,6 +5,7 @@ import tombBambooComplete from '../game/tomb-bamboo-complete-frames.json' with {
 import remaining from '../game/boss-remaining-frames.json' with { type: 'json' };
 import three from '../game/three-special-frames.json' with { type: 'json' };
 import threeComplete from '../game/three-complete-frames.json' with { type: 'json' };
+import nativeSizeTextures from '../game/native-size-textures.json' with { type: 'json' };
 import { REGIONS, regionName, bossById } from '../domain/campaign';
 import type { Enemy, Run } from '../domain/model';
 import staff from '../game/shaolin-staff-frames.json' with { type: 'json' };
@@ -214,7 +215,7 @@ export function regionArtManifest(index: number): Record<string, string> {
           : {}),
         ...(index === 9
           ? Object.fromEntries(
-              [...new Set(zhuge.characters.flatMap((art) => art.frames).map((f) => f.texture))].map(
+              [...new Set(zhuge.characters.flatMap((art) => art.frames.map((f) => f.texture)))].map(
                 (key) => [key, `/art/zhuge-family-v1/${key.replace('zhuge-family-', '')}.webp`],
               ),
             )
@@ -304,5 +305,12 @@ export function regionArtManifest(index: number): Record<string, string> {
               ]),
             )
           : {}),
+        // Calibrated source groups use versioned atlases. Override inferred
+        // legacy family URLs only for this region, never load every region.
+        ...Object.fromEntries(
+          Object.entries(nativeSizeTextures).filter(([key]) =>
+            key.startsWith(index === 3 ? 'native-size-snow-' : index === 9 ? 'native-size-zhuge-' : '__none__'),
+          ),
+        ),
       };
 }

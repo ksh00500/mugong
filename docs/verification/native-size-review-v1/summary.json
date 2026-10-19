@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-19",
+  "auditedRegions": 10,
+  "auditedCharacters": 70,
+  "metadataLogicalFrames": 10860,
+  "correctionCharacters": 5,
+  "atlases": 13,
+  "physicalFrames": 100,
+  "changedLogicalFrames": 141,
+  "unit": {
+    "files": 73,
+    "passed": 1360,
+    "failed": 0
+  },
+  "source": {
+    "files": 73,
+    "passed": 1360,
+    "failed": 0
+  },
+  "renderConditions": [
+    {
+      "name": "canvas-runtime",
+      "samples": 800,
+      "renderer": 1,
+      "errors": []
+    },
+    {
+      "name": "webgl-runtime",
+      "samples": 800,
+      "renderer": 2,
+      "errors": []
+    },
+    {
+      "name": "canvas-R3",
+      "samples": 320,
+      "renderer": 1,
+      "errors": []
+    },
+    {
+      "name": "webgl-R3",
+      "samples": 320,
+      "renderer": 2,
+      "errors": []
+    },
+    {
+      "name": "canvas-R9",
+      "samples": 5760,
+      "renderer": 1,
+      "errors": []
+    },
+    {
+      "name": "webgl-R9",
+      "samples": 5760,
+      "renderer": 2,
+      "errors": []
+    }
+  ],
+  "renderSamples": 13760,
+  "browserFinalConditions": 14,
+  "scope": "6 renderer cases + 3 comparison UI sizes (latest rerun) + 5 compiled cases; separate runs, not a single uninterrupted suite. Final 5205 HTTP/game 2 cases repeated separately.",
+  "runtime": {
+    "files": 1018,
+    "archive": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+    "sha256": "01e9fd1ff108c4a0c19b578769196a61279ca133fdd419aad863806555e32d3a"
+  },
+  "localPort": 5205,
+  "publicDeployment": false,
+  "limits": [
+    "Local Chromium virtual GPU only",
+    "10,860 logical rows are not independent images",
+    "All poses not manually certified anatomically",
+    "Fixed source-group calibration, not runtime body fitting"
+  ]
+}

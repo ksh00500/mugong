@@ -18,6 +18,7 @@ const staff = JSON.parse(await readFile('src/game/shaolin-staff-frames.json', 'u
 const family = JSON.parse(
   await readFile(`src/game/${familyName}-family-frames.json`, 'utf8'),
 ).characters;
+const nativeSizeTextures = JSON.parse(await readFile('src/game/native-size-textures.json', 'utf8'));
 const names =
   familyName === 'tomb'
     ? ['고묘 도굴 함정꾼', '고묘 창 수문장', '고묘 쇠뇌병', '도굴두목 적호', '묘지기 석문', '기관장인 곽기', '고묘후인 월령']
@@ -163,5 +164,9 @@ if (familyName === 'hyeolma') {
       '<p>일부 동작은 원화 교정 중입니다.</p><div class="controls">',
     );
 }
+// Authored frame names survive calibration, but their versioned atlas may live
+// outside the original family directory.
+html = html.replace('const images=new Map();', `const calibratedTextures=${JSON.stringify(nativeSizeTextures)};const images=new Map();`)
+  .replace('img.src=', 'img.src=calibratedTextures[key]??');
 await writeFile(`public/art/${familyName}-family-v1/review.html`, html);
 console.log(`public/art/${familyName}-family-v1/review.html`);

@@ -4,6 +4,8 @@
 
 현재 UI는 즉시 체력 감소·흰 피해 잔량·회복·위험 상태, 강도 조절 카메라 충격, 청옥색 궁극기와 방어 준비 표시를 사용한다. [UI 피드백 범위와 검사](docs/ui-feedback-v1.md).
 
+10지역70캐릭터의 방향별 크기를 조사하고 제갈현·양기·묵연·진괄·설산 창병의 원화 묶음 크기를 교정했다. 고정0.225 배율·발점·32px 여백과 게임 규칙을 유지한다. [교정 범위](docs/native-size-v1.md) · [로컬 전후 비교](http://127.0.0.1:5205/art/native-size-v1/review.html).
+
 몸통 캡슐 피격과 높이를 맞춘 투사체/조준을 사용하며 적 HP·피해·후반 적 수를 높였다. 4·9·14·19웨이브는 의원·상인·강화·다음 보스를 연결한 정비 화면이다. [전투·정비 변경](docs/combat-prep-v1.md). 로딩은 현재 전투의 그림만 먼저 준비하며 다음 보스는 정비 중 선읽기한다. [로딩 개선·측정](docs/loading-v2.md). 컴파일 로컬 실행은 http://127.0.0.1:5205/ 이다.
 
 **소스·메타데이터·문서는 GitHub, 그림·소리·폰트는 개인 서버에 별도 보관**한다. 이 브랜치는 Git LFS를 사용하지 않는다. 소스만 복제한 상태에서는 게임을 실행할 수 없으며 일치하는 실행용 에셋 묶음을 복원해야 한다.
@@ -13,17 +15,17 @@
 Docker Engine·Compose가 필요하다. 에셋 묶음과 SHA256 파일을 개인 서버에 먼저 복사한다.
 
 ```sh
-git clone --branch codex/loading-v2 https://github.com/ksh00500/mugong.git
+git clone --branch codex/native-size-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 # /srv/mugong-assets에 전달받은 에셋이 있다고 가정
 (cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)
-tar -xzf /srv/mugong-assets/mugong-runtime-b15bfb5ba50574ab.tar.gz -C .
+tar -xzf /srv/mugong-assets/mugong-runtime-d05a97c29b4c392f.tar.gz -C .
 cp .env.example .env
 docker compose up -d --build
 curl -f http://127.0.0.1:8080/healthz
 ```
 
-Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,005개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
+Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,018개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
 
 게임 저장은 각 브라우저의 IndexedDB를 사용한다. 개인 서버 호스팅만으로 계정·기기 간 저장 공유·온라인 레이드가 추가되지는 않는다.
 

@@ -64,7 +64,15 @@
     "three-special-zhuge-zhugehyeon-1": "/art/three-special-v2/zhuge-zhugehyeon-1.webp",
     "three-special-zhuge-zhugehyeon-2": "/art/three-special-v2/zhuge-zhugehyeon-2.webp",
     "three-special-zhuge-zhugehyeon-3": "/art/three-special-v2/zhuge-zhugehyeon-3.webp",
-    "three-special-zhuge-zhugehyeon-4": "/art/three-special-v2/zhuge-zhugehyeon-4.webp"
+    "three-special-zhuge-zhugehyeon-4": "/art/three-special-v2/zhuge-zhugehyeon-4.webp",
+    "native-size-zhuge-yanggi-4-sweep": "/art/native-size-v1/zhuge-yanggi-4-sweep.webp",
+    "native-size-zhuge-mukyeon-1": "/art/native-size-v1/zhuge-mukyeon-1.webp",
+    "native-size-zhuge-mukyeon-1-fan": "/art/native-size-v1/zhuge-mukyeon-1-fan.webp",
+    "native-size-zhuge-mukyeon-1-stance": "/art/native-size-v1/zhuge-mukyeon-1-stance.webp",
+    "native-size-zhuge-jingwal-1-stance": "/art/native-size-v1/zhuge-jingwal-1-stance.webp",
+    "native-size-zhuge-jingwal-3-stance": "/art/native-size-v1/zhuge-jingwal-3-stance.webp",
+    "native-size-zhuge-zhugehyeon-1-fan": "/art/native-size-v1/zhuge-zhugehyeon-1-fan.webp",
+    "native-size-zhuge-zhugehyeon-1-stance": "/art/native-size-v1/zhuge-zhugehyeon-1-stance.webp"
   },
   "characters": [
     {
@@ -20642,23 +20650,23 @@
         },
         {
           "name": "4-sweep-1",
-          "texture": "three-special-zhuge-yanggi-4",
+          "texture": "native-size-zhuge-yanggi-4-sweep",
           "view": 4,
           "kind": "special",
           "move": "sweep",
           "pose": 1,
           "sourcePose": 1,
-          "x": 448,
+          "x": 0,
           "y": 0,
-          "width": 448,
+          "width": 544,
           "height": 416,
-          "footX": 115,
-          "footY": 270,
+          "footX": 137,
+          "footY": 334,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 328,
-            "bottom": 272
+            "right": 408,
+            "bottom": 337
           },
           "source": "yanggi-back-sweep.png",
           "sourceCell": {
@@ -20674,27 +20682,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/yanggi-back.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 1.0431474329447612
+          "normalizationFactor": 1.0431474329447612,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-yanggi-4-sweep",
+            "factor": 1.27,
+            "sourceTexture": "three-special-zhuge-yanggi-4",
+            "sourceRect": [
+              448,
+              0,
+              448,
+              416
+            ],
+            "sourceAtlasSha256": "d7ff22cd0d54504aed0221af8eaa123c5d80df38a2423f0797a41e9ec7672ce9"
+          }
         },
         {
           "name": "4-sweep-2",
-          "texture": "three-special-zhuge-yanggi-4",
+          "texture": "native-size-zhuge-yanggi-4-sweep",
           "view": 4,
           "kind": "special",
           "move": "sweep",
           "pose": 2,
           "sourcePose": 2,
-          "x": 896,
+          "x": 544,
           "y": 0,
-          "width": 448,
+          "width": 544,
           "height": 416,
-          "footX": 113,
-          "footY": 271,
+          "footX": 135,
+          "footY": 336,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 403,
-            "bottom": 273
+            "right": 503,
+            "bottom": 338
           },
           "source": "yanggi-back-sweep.png",
           "sourceCell": {
@@ -20710,27 +20731,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/yanggi-back.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 1.0431474329447612
+          "normalizationFactor": 1.0431474329447612,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-yanggi-4-sweep",
+            "factor": 1.27,
+            "sourceTexture": "three-special-zhuge-yanggi-4",
+            "sourceRect": [
+              896,
+              0,
+              448,
+              416
+            ],
+            "sourceAtlasSha256": "d7ff22cd0d54504aed0221af8eaa123c5d80df38a2423f0797a41e9ec7672ce9"
+          }
         },
         {
           "name": "4-sweep-3",
-          "texture": "three-special-zhuge-yanggi-4",
+          "texture": "native-size-zhuge-yanggi-4-sweep",
           "view": 4,
           "kind": "special",
           "move": "sweep",
           "pose": 3,
           "sourcePose": 3,
-          "x": 1344,
+          "x": 1088,
           "y": 0,
-          "width": 448,
+          "width": 544,
           "height": 416,
-          "footX": 344,
-          "footY": 283,
+          "footX": 428,
+          "footY": 351,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 372,
-            "bottom": 285
+            "right": 464,
+            "bottom": 353
           },
           "source": "yanggi-back-sweep.png",
           "sourceCell": {
@@ -20746,27 +20780,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/yanggi-back.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 1.0431474329447612
+          "normalizationFactor": 1.0431474329447612,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-yanggi-4-sweep",
+            "factor": 1.27,
+            "sourceTexture": "three-special-zhuge-yanggi-4",
+            "sourceRect": [
+              1344,
+              0,
+              448,
+              416
+            ],
+            "sourceAtlasSha256": "d7ff22cd0d54504aed0221af8eaa123c5d80df38a2423f0797a41e9ec7672ce9"
+          }
         },
         {
           "name": "4-sweep-4",
-          "texture": "three-special-zhuge-yanggi-4",
+          "texture": "native-size-zhuge-yanggi-4-sweep",
           "view": 4,
           "kind": "special",
           "move": "sweep",
           "pose": 4,
           "sourcePose": 4,
-          "x": 0,
-          "y": 416,
-          "width": 448,
+          "x": 1632,
+          "y": 0,
+          "width": 544,
           "height": 416,
-          "footX": 115,
-          "footY": 270,
+          "footX": 137,
+          "footY": 334,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 327,
-            "bottom": 272
+            "right": 407,
+            "bottom": 337
           },
           "source": "yanggi-back-sweep.png",
           "sourceCell": {
@@ -20782,7 +20829,20 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/yanggi-back.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 1.0431474329447612
+          "normalizationFactor": 1.0431474329447612,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-yanggi-4-sweep",
+            "factor": 1.27,
+            "sourceTexture": "three-special-zhuge-yanggi-4",
+            "sourceRect": [
+              0,
+              416,
+              448,
+              416
+            ],
+            "sourceAtlasSha256": "d7ff22cd0d54504aed0221af8eaa123c5d80df38a2423f0797a41e9ec7672ce9"
+          }
         },
         {
           "name": "4-sweep-5",
@@ -21495,22 +21555,22 @@
         },
         {
           "name": "1-fan-0",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1",
           "view": 1,
           "kind": "special",
           "pose": 0,
           "sourcePose": 0,
           "x": 0,
           "y": 0,
-          "width": 384,
+          "width": 512,
           "height": 448,
-          "footX": 152,
-          "footY": 354,
+          "footX": 162,
+          "footY": 380,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 272,
-            "bottom": 357
+            "right": 291,
+            "bottom": 383
           },
           "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
@@ -21528,27 +21588,40 @@
           "normalizationFactor": 1,
           "sourceAtlas": "public/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
           "move": "fan",
-          "sourceFrame": "1-locomotion-0"
+          "sourceFrame": "1-locomotion-0",
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1",
+            "factor": 1.08,
+            "sourceTexture": "zhuge-family-mukyeon-front-right-v2",
+            "sourceRect": [
+              0,
+              0,
+              480,
+              416
+            ],
+            "sourceAtlasSha256": "843f75a7ecb41ac506db0c0bead0cd6326dfbf5a963d516afa5dacf7677f87cb"
+          }
         },
         {
           "name": "1-fan-1",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 1,
           "sourcePose": 1,
-          "x": 384,
+          "x": 0,
           "y": 0,
-          "width": 384,
+          "width": 352,
           "height": 448,
-          "footX": 147,
-          "footY": 402,
+          "footX": 142,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 321,
-            "bottom": 404
+            "right": 309,
+            "bottom": 389
           },
           "source": "correction-v2/mukyeon-front-right-fan-v3.png",
           "sourceCell": {
@@ -21564,27 +21637,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-fan",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              384,
+              0,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-fan-2",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 2,
           "sourcePose": 2,
-          "x": 768,
+          "x": 352,
           "y": 0,
-          "width": 384,
+          "width": 352,
           "height": 448,
-          "footX": 148,
-          "footY": 401,
+          "footX": 143,
+          "footY": 386,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 324,
-            "bottom": 403
+            "right": 312,
+            "bottom": 388
           },
           "source": "correction-v2/mukyeon-front-right-fan-v3.png",
           "sourceCell": {
@@ -21600,27 +21686,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-fan",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              768,
+              0,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-fan-3",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 3,
           "sourcePose": 3,
-          "x": 1152,
+          "x": 704,
           "y": 0,
-          "width": 384,
+          "width": 352,
           "height": 448,
-          "footX": 147,
-          "footY": 402,
+          "footX": 142,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 320,
-            "bottom": 404
+            "right": 308,
+            "bottom": 389
           },
           "source": "correction-v2/mukyeon-front-right-fan-v3.png",
           "sourceCell": {
@@ -21636,27 +21735,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-fan",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              1152,
+              0,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-fan-4",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 4,
           "sourcePose": 4,
-          "x": 0,
-          "y": 448,
-          "width": 384,
+          "x": 1056,
+          "y": 0,
+          "width": 352,
           "height": 448,
-          "footX": 152,
-          "footY": 400,
+          "footX": 147,
+          "footY": 385,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 289,
-            "bottom": 402
+            "right": 279,
+            "bottom": 387
           },
           "source": "correction-v2/mukyeon-front-right-fan-v3.png",
           "sourceCell": {
@@ -21672,26 +21784,39 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-fan",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              0,
+              448,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-fan-5",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1",
           "view": 1,
           "kind": "special",
           "pose": 5,
           "sourcePose": 0,
-          "x": 384,
-          "y": 448,
-          "width": 384,
+          "x": 0,
+          "y": 0,
+          "width": 512,
           "height": 448,
-          "footX": 152,
-          "footY": 354,
+          "footX": 162,
+          "footY": 380,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 272,
-            "bottom": 357
+            "right": 291,
+            "bottom": 383
           },
           "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
@@ -21709,26 +21834,39 @@
           "normalizationFactor": 1,
           "sourceAtlas": "public/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
           "move": "fan",
-          "sourceFrame": "1-locomotion-0"
+          "sourceFrame": "1-locomotion-0",
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1",
+            "factor": 1.08,
+            "sourceTexture": "zhuge-family-mukyeon-front-right-v2",
+            "sourceRect": [
+              0,
+              0,
+              480,
+              416
+            ],
+            "sourceAtlasSha256": "843f75a7ecb41ac506db0c0bead0cd6326dfbf5a963d516afa5dacf7677f87cb"
+          }
         },
         {
           "name": "1-stance-0",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1",
           "view": 1,
           "kind": "special",
           "pose": 0,
           "sourcePose": 0,
-          "x": 768,
-          "y": 448,
-          "width": 384,
+          "x": 0,
+          "y": 0,
+          "width": 512,
           "height": 448,
-          "footX": 152,
-          "footY": 354,
+          "footX": 162,
+          "footY": 380,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 272,
-            "bottom": 357
+            "right": 291,
+            "bottom": 383
           },
           "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
@@ -21746,27 +21884,40 @@
           "normalizationFactor": 1,
           "sourceAtlas": "public/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
           "move": "stance",
-          "sourceFrame": "1-locomotion-0"
+          "sourceFrame": "1-locomotion-0",
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1",
+            "factor": 1.08,
+            "sourceTexture": "zhuge-family-mukyeon-front-right-v2",
+            "sourceRect": [
+              0,
+              0,
+              480,
+              416
+            ],
+            "sourceAtlasSha256": "843f75a7ecb41ac506db0c0bead0cd6326dfbf5a963d516afa5dacf7677f87cb"
+          }
         },
         {
           "name": "1-stance-1",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1152,
-          "y": 448,
+          "x": 0,
+          "y": 0,
           "width": 384,
           "height": 448,
-          "footX": 112,
-          "footY": 411,
+          "footX": 109,
+          "footY": 396,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 283,
-            "bottom": 413
+            "right": 273,
+            "bottom": 398
           },
           "source": "correction-v2/mukyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -21782,27 +21933,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-stance",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              1152,
+              448,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-stance-2",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 2,
           "sourcePose": 8,
-          "x": 0,
-          "y": 896,
+          "x": 384,
+          "y": 0,
           "width": 384,
           "height": 448,
-          "footX": 113,
-          "footY": 402,
+          "footX": 110,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 339,
-            "bottom": 404
+            "right": 327,
+            "bottom": 389
           },
           "source": "correction-v2/mukyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -21818,27 +21982,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-stance",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              0,
+              896,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-stance-3",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 3,
           "sourcePose": 9,
-          "x": 384,
-          "y": 896,
+          "x": 768,
+          "y": 0,
           "width": 384,
           "height": 448,
-          "footX": 110,
-          "footY": 402,
+          "footX": 107,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 330,
-            "bottom": 404
+            "right": 318,
+            "bottom": 389
           },
           "source": "correction-v2/mukyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -21854,27 +22031,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-stance",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              384,
+              896,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-stance-4",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 4,
           "sourcePose": 10,
-          "x": 768,
-          "y": 896,
+          "x": 1152,
+          "y": 0,
           "width": 384,
           "height": 448,
-          "footX": 141,
-          "footY": 397,
+          "footX": 137,
+          "footY": 382,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 317,
-            "bottom": 399
+            "right": 306,
+            "bottom": 384
           },
           "source": "correction-v2/mukyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -21890,26 +22080,39 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/mukyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9375175315568023
+          "normalizationFactor": 0.9375175315568023,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1-stance",
+            "factor": 0.96,
+            "sourceTexture": "three-special-zhuge-mukyeon-1",
+            "sourceRect": [
+              768,
+              896,
+              384,
+              448
+            ],
+            "sourceAtlasSha256": "c747edf4fc19bd8e7e2901a06c3d7fd4907236d017871b9467299214d3a62571"
+          }
         },
         {
           "name": "1-stance-5",
-          "texture": "three-special-zhuge-mukyeon-1",
+          "texture": "native-size-zhuge-mukyeon-1",
           "view": 1,
           "kind": "special",
           "pose": 5,
           "sourcePose": 0,
-          "x": 1152,
-          "y": 896,
-          "width": 384,
+          "x": 0,
+          "y": 0,
+          "width": 512,
           "height": 448,
-          "footX": 152,
-          "footY": 354,
+          "footX": 162,
+          "footY": 380,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 272,
-            "bottom": 357
+            "right": 291,
+            "bottom": 383
           },
           "source": "docs/source/three-special-install-v2/generated/mukyeon-front-right-v2.png",
           "sourceCell": {
@@ -21927,7 +22130,20 @@
           "normalizationFactor": 1,
           "sourceAtlas": "public/art/zhuge-family-v1/mukyeon-front-right-v2.webp",
           "move": "stance",
-          "sourceFrame": "1-locomotion-0"
+          "sourceFrame": "1-locomotion-0",
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-mukyeon-1",
+            "factor": 1.08,
+            "sourceTexture": "zhuge-family-mukyeon-front-right-v2",
+            "sourceRect": [
+              0,
+              0,
+              480,
+              416
+            ],
+            "sourceAtlasSha256": "843f75a7ecb41ac506db0c0bead0cd6326dfbf5a963d516afa5dacf7677f87cb"
+          }
         },
         {
           "name": "2-fan-0",
@@ -23948,23 +24164,23 @@
         },
         {
           "name": "1-stance-1",
-          "texture": "three-special-zhuge-jingwal-1",
+          "texture": "native-size-zhuge-jingwal-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1536,
-          "y": 512,
-          "width": 512,
-          "height": 512,
-          "footX": 276,
-          "footY": 445,
+          "x": 0,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 242,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 342,
-            "bottom": 447
+            "right": 299,
+            "bottom": 389
           },
           "source": "correction-v2/jingwal-front-right-stance-v3.png",
           "sourceCell": {
@@ -23980,27 +24196,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-1-stance",
+            "factor": 0.86,
+            "sourceTexture": "three-special-zhuge-jingwal-1",
+            "sourceRect": [
+              1536,
+              512,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "d63218ca7cc33d21ea17b50115500c979d0da363e631ca60352db05f23ac95a4"
+          }
         },
         {
           "name": "1-stance-2",
-          "texture": "three-special-zhuge-jingwal-1",
+          "texture": "native-size-zhuge-jingwal-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 2,
           "sourcePose": 8,
-          "x": 0,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 286,
-          "footY": 448,
+          "x": 416,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 250,
+          "footY": 390,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 438,
-            "bottom": 449
+            "right": 381,
+            "bottom": 391
           },
           "source": "correction-v2/jingwal-front-right-stance-v3.png",
           "sourceCell": {
@@ -24016,27 +24245,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-1-stance",
+            "factor": 0.86,
+            "sourceTexture": "three-special-zhuge-jingwal-1",
+            "sourceRect": [
+              0,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "d63218ca7cc33d21ea17b50115500c979d0da363e631ca60352db05f23ac95a4"
+          }
         },
         {
           "name": "1-stance-3",
-          "texture": "three-special-zhuge-jingwal-1",
+          "texture": "native-size-zhuge-jingwal-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 3,
           "sourcePose": 9,
-          "x": 512,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 275,
-          "footY": 446,
+          "x": 832,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 241,
+          "footY": 388,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 343,
-            "bottom": 448
+            "right": 299,
+            "bottom": 390
           },
           "source": "correction-v2/jingwal-front-right-stance-v3.png",
           "sourceCell": {
@@ -24052,27 +24294,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-1-stance",
+            "factor": 0.86,
+            "sourceTexture": "three-special-zhuge-jingwal-1",
+            "sourceRect": [
+              512,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "d63218ca7cc33d21ea17b50115500c979d0da363e631ca60352db05f23ac95a4"
+          }
         },
         {
           "name": "1-stance-4",
-          "texture": "three-special-zhuge-jingwal-1",
+          "texture": "native-size-zhuge-jingwal-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 4,
           "sourcePose": 10,
-          "x": 1024,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 311,
-          "footY": 443,
+          "x": 1248,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 272,
+          "footY": 385,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 341,
-            "bottom": 445
+            "right": 298,
+            "bottom": 387
           },
           "source": "correction-v2/jingwal-front-right-stance-v3.png",
           "sourceCell": {
@@ -24088,7 +24343,20 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-1-stance",
+            "factor": 0.86,
+            "sourceTexture": "three-special-zhuge-jingwal-1",
+            "sourceRect": [
+              1024,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "d63218ca7cc33d21ea17b50115500c979d0da363e631ca60352db05f23ac95a4"
+          }
         },
         {
           "name": "1-stance-5",
@@ -24820,23 +25088,23 @@
         },
         {
           "name": "3-stance-1",
-          "texture": "three-special-zhuge-jingwal-3",
+          "texture": "native-size-zhuge-jingwal-3-stance",
           "view": 3,
           "kind": "special",
           "move": "stance",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1728,
-          "y": 480,
-          "width": 576,
-          "height": 480,
-          "footX": 142,
-          "footY": 436,
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 448,
+          "footX": 130,
+          "footY": 392,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 285,
-            "bottom": 438
+            "right": 257,
+            "bottom": 393
           },
           "source": "jingwal-rear-right-stance-repair-v1.png",
           "sourceCell": {
@@ -24852,27 +25120,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-rear-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-3-stance",
+            "factor": 0.89,
+            "sourceTexture": "three-special-zhuge-jingwal-3",
+            "sourceRect": [
+              1728,
+              480,
+              576,
+              480
+            ],
+            "sourceAtlasSha256": "98d18816cb0eb7a89c6e60b9ee969dec50c2e96606ca329bfa6cae2ef20b64ec"
+          }
         },
         {
           "name": "3-stance-2",
-          "texture": "three-special-zhuge-jingwal-3",
+          "texture": "native-size-zhuge-jingwal-3-stance",
           "view": 3,
           "kind": "special",
           "move": "stance",
           "pose": 2,
           "sourcePose": 8,
-          "x": 0,
-          "y": 960,
-          "width": 576,
-          "height": 480,
-          "footX": 146,
-          "footY": 446,
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 448,
+          "footX": 133,
+          "footY": 400,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 326,
-            "bottom": 448
+            "right": 294,
+            "bottom": 402
           },
           "source": "jingwal-rear-right-stance-repair-v1.png",
           "sourceCell": {
@@ -24888,27 +25169,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-rear-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-3-stance",
+            "factor": 0.89,
+            "sourceTexture": "three-special-zhuge-jingwal-3",
+            "sourceRect": [
+              0,
+              960,
+              576,
+              480
+            ],
+            "sourceAtlasSha256": "98d18816cb0eb7a89c6e60b9ee969dec50c2e96606ca329bfa6cae2ef20b64ec"
+          }
         },
         {
           "name": "3-stance-3",
-          "texture": "three-special-zhuge-jingwal-3",
+          "texture": "native-size-zhuge-jingwal-3-stance",
           "view": 3,
           "kind": "special",
           "move": "stance",
           "pose": 3,
           "sourcePose": 9,
-          "x": 576,
-          "y": 960,
-          "width": 576,
-          "height": 480,
-          "footX": 148,
-          "footY": 376,
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 448,
+          "footX": 135,
+          "footY": 338,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 390,
-            "bottom": 378
+            "right": 351,
+            "bottom": 340
           },
           "source": "jingwal-rear-right-stance-repair-v1.png",
           "sourceCell": {
@@ -24924,27 +25218,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-rear-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-3-stance",
+            "factor": 0.89,
+            "sourceTexture": "three-special-zhuge-jingwal-3",
+            "sourceRect": [
+              576,
+              960,
+              576,
+              480
+            ],
+            "sourceAtlasSha256": "98d18816cb0eb7a89c6e60b9ee969dec50c2e96606ca329bfa6cae2ef20b64ec"
+          }
         },
         {
           "name": "3-stance-4",
-          "texture": "three-special-zhuge-jingwal-3",
+          "texture": "native-size-zhuge-jingwal-3-stance",
           "view": 3,
           "kind": "special",
           "move": "stance",
           "pose": 4,
           "sourcePose": 10,
           "x": 1152,
-          "y": 960,
-          "width": 576,
-          "height": 480,
-          "footX": 160,
-          "footY": 362,
+          "y": 0,
+          "width": 384,
+          "height": 448,
+          "footX": 146,
+          "footY": 326,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 365,
-            "bottom": 364
+            "right": 328,
+            "bottom": 327
           },
           "source": "jingwal-rear-right-stance.png",
           "sourceCell": {
@@ -24960,7 +25267,20 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/jingwal-rear-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.9444743598748234
+          "normalizationFactor": 0.9444743598748234,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-jingwal-3-stance",
+            "factor": 0.89,
+            "sourceTexture": "three-special-zhuge-jingwal-3",
+            "sourceRect": [
+              1152,
+              960,
+              576,
+              480
+            ],
+            "sourceAtlasSha256": "98d18816cb0eb7a89c6e60b9ee969dec50c2e96606ca329bfa6cae2ef20b64ec"
+          }
         },
         {
           "name": "3-stance-5",
@@ -25928,23 +26248,23 @@
         },
         {
           "name": "1-fan-1",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 1,
           "sourcePose": 1,
-          "x": 512,
+          "x": 0,
           "y": 0,
-          "width": 512,
-          "height": 512,
-          "footX": 331,
-          "footY": 444,
+          "width": 480,
+          "height": 448,
+          "footX": 294,
+          "footY": 393,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 439,
-            "bottom": 446
+            "right": 389,
+            "bottom": 395
           },
           "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
           "sourceCell": {
@@ -25960,27 +26280,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-fan",
+            "factor": 0.876,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              512,
+              0,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-fan-2",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 2,
           "sourcePose": 2,
-          "x": 1024,
+          "x": 480,
           "y": 0,
-          "width": 512,
-          "height": 512,
-          "footX": 312,
-          "footY": 446,
+          "width": 480,
+          "height": 448,
+          "footX": 277,
+          "footY": 395,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 438,
-            "bottom": 448
+            "right": 388,
+            "bottom": 396
           },
           "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
           "sourceCell": {
@@ -25996,27 +26329,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-fan",
+            "factor": 0.876,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              1024,
+              0,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-fan-3",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 3,
           "sourcePose": 3,
-          "x": 1536,
+          "x": 960,
           "y": 0,
-          "width": 512,
-          "height": 512,
-          "footX": 324,
-          "footY": 449,
+          "width": 480,
+          "height": 448,
+          "footX": 288,
+          "footY": 397,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 476,
-            "bottom": 451
+            "right": 421,
+            "bottom": 399
           },
           "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
           "sourceCell": {
@@ -26032,27 +26378,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-fan",
+            "factor": 0.876,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              1536,
+              0,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-fan-4",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-fan",
           "view": 1,
           "kind": "special",
           "move": "fan",
           "pose": 4,
           "sourcePose": 4,
-          "x": 0,
-          "y": 512,
-          "width": 512,
-          "height": 512,
-          "footX": 303,
-          "footY": 435,
+          "x": 1440,
+          "y": 0,
+          "width": 480,
+          "height": 448,
+          "footX": 269,
+          "footY": 385,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 410,
-            "bottom": 437
+            "right": 363,
+            "bottom": 387
           },
           "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
           "sourceCell": {
@@ -26068,7 +26427,20 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-fan",
+            "factor": 0.876,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              0,
+              512,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-fan-5",
@@ -26146,23 +26518,23 @@
         },
         {
           "name": "1-stance-1",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 1,
           "sourcePose": 7,
-          "x": 1536,
-          "y": 512,
-          "width": 512,
-          "height": 512,
-          "footX": 169,
-          "footY": 437,
+          "x": 0,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 151,
+          "footY": 384,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 366,
-            "bottom": 439
+            "right": 322,
+            "bottom": 385
           },
           "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -26178,27 +26550,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-stance",
+            "factor": 0.868,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              1536,
+              512,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-stance-2",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 2,
           "sourcePose": 8,
-          "x": 0,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 173,
-          "footY": 429,
+          "x": 416,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 154,
+          "footY": 377,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 405,
-            "bottom": 431
+            "right": 356,
+            "bottom": 378
           },
           "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -26214,27 +26599,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-stance",
+            "factor": 0.868,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              0,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-stance-3",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 3,
           "sourcePose": 9,
-          "x": 512,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 173,
-          "footY": 423,
+          "x": 832,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 154,
+          "footY": 371,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 347,
-            "bottom": 425
+            "right": 305,
+            "bottom": 373
           },
           "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -26250,27 +26648,40 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-stance",
+            "factor": 0.868,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              512,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-stance-4",
-          "texture": "three-special-zhuge-zhugehyeon-1",
+          "texture": "native-size-zhuge-zhugehyeon-1-stance",
           "view": 1,
           "kind": "special",
           "move": "stance",
           "pose": 4,
           "sourcePose": 10,
-          "x": 1024,
-          "y": 1024,
-          "width": 512,
-          "height": 512,
-          "footX": 171,
-          "footY": 441,
+          "x": 1248,
+          "y": 0,
+          "width": 416,
+          "height": 448,
+          "footX": 153,
+          "footY": 387,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 338,
-            "bottom": 443
+            "right": 298,
+            "bottom": 389
           },
           "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
           "sourceCell": {
@@ -26286,7 +26697,20 @@
           },
           "sourceAtlas": "public/art/zhuge-special-v1/zhugehyeon-front-right.webp",
           "provenance": "reviewed-draft-pose",
-          "normalizationFactor": 0.968952607778582
+          "normalizationFactor": 0.968952607778582,
+          "sizeCalibration": {
+            "version": 1,
+            "group": "zhuge-zhugehyeon-1-stance",
+            "factor": 0.868,
+            "sourceTexture": "three-special-zhuge-zhugehyeon-1",
+            "sourceRect": [
+              1024,
+              1024,
+              512,
+              512
+            ],
+            "sourceAtlasSha256": "8b5549f6e9c52ca35ddd34a59f77763fe4967132c95dcf8be8d85987940a9984"
+          }
         },
         {
           "name": "1-stance-5",

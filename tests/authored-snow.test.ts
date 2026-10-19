@@ -46,7 +46,8 @@ describe('whole Snow authored family', () => {
     expect(Object.keys(manifest)).toHaveLength(59);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/snow-family-v1/')),
-    ).toHaveLength(35);
+    ).toHaveLength(30);
+    expect(Object.values(manifest).filter(path => path.startsWith('/art/native-size-v1/'))).toHaveLength(5);
     for (const key of ['region-actors-3', 'region-direction-3', 'region-motion-3', 'region-rear-3'])
       expect(manifest).not.toHaveProperty(key);
   });

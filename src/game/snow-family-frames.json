@@ -14,7 +14,7 @@
       "frames": [
         {
           "name": "0-locomotion-0",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 0,
@@ -23,13 +23,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 127,
-          "footY": 378,
+          "footX": 138,
+          "footY": 420,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 262,
-            "bottom": 381
+            "right": 290,
+            "bottom": 423
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -42,11 +42,24 @@
             "top": 26,
             "right": 335,
             "bottom": 375
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              0,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-locomotion-1",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 1,
@@ -55,13 +68,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 143,
-          "footY": 404,
+          "footX": 156,
+          "footY": 449,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 235,
-            "bottom": 406
+            "right": 259,
+            "bottom": 451
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -74,11 +87,24 @@
             "top": 20,
             "right": 627,
             "bottom": 394
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              672,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-locomotion-2",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 2,
@@ -87,13 +113,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 146,
-          "footY": 400,
+          "footX": 160,
+          "footY": 444,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 213,
-            "bottom": 401
+            "right": 235,
+            "bottom": 445
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -106,11 +132,24 @@
             "top": 22,
             "right": 938,
             "bottom": 391
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              1344,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-locomotion-3",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 3,
@@ -119,13 +158,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 142,
-          "footY": 392,
+          "footX": 155,
+          "footY": 435,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 244,
-            "bottom": 394
+            "right": 269,
+            "bottom": 437
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -138,11 +177,24 @@
             "top": 399,
             "right": 288,
             "bottom": 761
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              2016,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-locomotion-4",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 4,
@@ -151,13 +203,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 125,
-          "footY": 375,
+          "footX": 136,
+          "footY": 416,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 218,
-            "bottom": 399
+            "right": 240,
+            "bottom": 443
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -170,11 +222,24 @@
             "top": 402,
             "right": 610,
             "bottom": 769
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              0,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-locomotion-5",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "locomotion",
           "pose": 5,
@@ -183,13 +248,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 220,
-          "footY": 233,
+          "footX": 243,
+          "footY": 257,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 408,
-            "bottom": 235
+            "right": 453,
+            "bottom": 259
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -202,11 +267,24 @@
             "top": 559,
             "right": 1008,
             "bottom": 762
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              672,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-0",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 0,
@@ -215,13 +293,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 152,
-          "footY": 368,
+          "footX": 166,
+          "footY": 408,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 243,
-            "bottom": 370
+            "right": 268,
+            "bottom": 411
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -234,11 +312,24 @@
             "top": 776,
             "right": 293,
             "bottom": 1114
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              1344,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-1",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 1,
@@ -247,13 +338,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 149,
-          "footY": 368,
+          "footX": 163,
+          "footY": 408,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 289,
-            "bottom": 369
+            "right": 320,
+            "bottom": 409
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -266,11 +357,24 @@
             "top": 779,
             "right": 651,
             "bottom": 1116
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              2016,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-2",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 2,
@@ -279,13 +383,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 120,
-          "footY": 370,
+          "footX": 131,
+          "footY": 411,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 233,
-            "bottom": 375
+            "right": 257,
+            "bottom": 416
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -298,11 +402,24 @@
             "top": 772,
             "right": 953,
             "bottom": 1115
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              0,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-3",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 3,
@@ -311,13 +428,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 133,
-          "footY": 395,
+          "footX": 145,
+          "footY": 439,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 251,
-            "bottom": 399
+            "right": 277,
+            "bottom": 443
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -330,11 +447,24 @@
             "top": 1117,
             "right": 299,
             "bottom": 1484
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              672,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-4",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 4,
@@ -343,13 +473,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 138,
-          "footY": 395,
+          "footX": 151,
+          "footY": 439,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 260,
-            "bottom": 396
+            "right": 287,
+            "bottom": 440
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -362,11 +492,24 @@
             "top": 1119,
             "right": 637,
             "bottom": 1483
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              1344,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "0-combat-5",
-          "texture": "snow-family-snowhunter-front",
+          "texture": "native-size-snow-snowhunter-0",
           "view": 0,
           "kind": "combat",
           "pose": 5,
@@ -375,13 +518,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 131,
-          "footY": 389,
+          "footX": 143,
+          "footY": 432,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 270,
-            "bottom": 390
+            "right": 299,
+            "bottom": 433
           },
           "source": "snowhunter-front-consistent-v4.png",
           "sourceCell": {
@@ -394,11 +537,24 @@
             "top": 1119,
             "right": 988,
             "bottom": 1477
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-0",
+            "factor": 1.12,
+            "sourceTexture": "snow-family-snowhunter-front",
+            "sourceRect": [
+              2016,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "4d627e86fb0a9b6b960a595dfc92fc2aa4de7d80528ec5bcf8a8b5adf8b92253"
           }
         },
         {
           "name": "1-locomotion-0",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 0,
@@ -426,11 +582,24 @@
             "top": 93,
             "right": 497,
             "bottom": 488
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              0,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-locomotion-1",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 1,
@@ -458,11 +627,24 @@
             "top": 104,
             "right": 1016,
             "bottom": 498
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              672,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-locomotion-2",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 2,
@@ -490,11 +672,24 @@
             "top": 605,
             "right": 534,
             "bottom": 1000
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              1344,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-locomotion-3",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 3,
@@ -522,11 +717,24 @@
             "top": 610,
             "right": 1007,
             "bottom": 1003
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              2016,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-locomotion-4",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 4,
@@ -554,11 +762,24 @@
             "top": 1126,
             "right": 473,
             "bottom": 1465
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              0,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-locomotion-5",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "locomotion",
           "pose": 5,
@@ -586,11 +807,24 @@
             "top": 1227,
             "right": 1003,
             "bottom": 1468
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              672,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-0",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 0,
@@ -599,13 +833,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 200,
-          "footY": 438,
+          "footX": 193,
+          "footY": 422,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 513,
-            "bottom": 440
+            "right": 494,
+            "bottom": 424
           },
           "source": "snowhunter-front-right-combat.png",
           "sourceCell": {
@@ -618,11 +852,24 @@
             "top": 92,
             "right": 526,
             "bottom": 500
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              1344,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-1",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 1,
@@ -631,13 +878,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 244,
-          "footY": 450,
+          "footX": 236,
+          "footY": 433,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 505,
-            "bottom": 451
+            "right": 486,
+            "bottom": 434
           },
           "source": "snowhunter-front-right-combat.png",
           "sourceCell": {
@@ -650,11 +897,24 @@
             "top": 102,
             "right": 999,
             "bottom": 521
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              2016,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-2",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 2,
@@ -663,13 +923,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 346,
-          "footY": 439,
+          "footX": 333,
+          "footY": 423,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 575,
-            "bottom": 440
+            "right": 553,
+            "bottom": 424
           },
           "source": "snowhunter-front-right-combat.png",
           "sourceCell": {
@@ -682,11 +942,24 @@
             "top": 572,
             "right": 576,
             "bottom": 980
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              0,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-3",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 3,
@@ -695,13 +968,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 259,
-          "footY": 492,
+          "footX": 250,
+          "footY": 474,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 587,
-            "bottom": 493
+            "right": 565,
+            "bottom": 475
           },
           "source": "snowhunter-front-right-follow-padding.png",
           "sourceCell": {
@@ -720,11 +993,24 @@
             "top": 512,
             "right": 713,
             "bottom": 973
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              672,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-4",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 4,
@@ -733,13 +1019,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 236,
-          "footY": 456,
+          "footX": 228,
+          "footY": 439,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 519,
-            "bottom": 457
+            "right": 500,
+            "bottom": 440
           },
           "source": "snowhunter-front-right-combat.png",
           "sourceCell": {
@@ -752,11 +1038,24 @@
             "top": 1042,
             "right": 523,
             "bottom": 1467
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              1344,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "1-combat-5",
-          "texture": "snow-family-snowhunter-front-right",
+          "texture": "native-size-snow-snowhunter-1",
           "view": 1,
           "kind": "combat",
           "pose": 5,
@@ -765,13 +1064,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 220,
-          "footY": 449,
+          "footX": 212,
+          "footY": 432,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 513,
-            "bottom": 450
+            "right": 494,
+            "bottom": 433
           },
           "source": "snowhunter-front-right-combat.png",
           "sourceCell": {
@@ -784,11 +1083,24 @@
             "top": 1053,
             "right": 1016,
             "bottom": 1471
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-1",
+            "factor": 0.96,
+            "sourceTexture": "snow-family-snowhunter-front-right",
+            "sourceRect": [
+              2016,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "573d8d066139b31320adb2fbef009e847a7a6c0cb1feb7c6b2a2e82caa8600c0"
           }
         },
         {
           "name": "2-locomotion-0",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 0,
@@ -797,13 +1109,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 231,
-          "footY": 469,
+          "footX": 213,
+          "footY": 430,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 523,
-            "bottom": 470
+            "right": 479,
+            "bottom": 431
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -816,11 +1128,24 @@
             "top": 78,
             "right": 511,
             "bottom": 516
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              0,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-locomotion-1",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 1,
@@ -829,13 +1154,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 217,
-          "footY": 470,
+          "footX": 200,
+          "footY": 431,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 501,
-            "bottom": 471
+            "right": 459,
+            "bottom": 431
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -848,11 +1173,24 @@
             "top": 82,
             "right": 1005,
             "bottom": 521
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              672,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-locomotion-2",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 2,
@@ -861,13 +1199,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 218,
-          "footY": 458,
+          "footX": 201,
+          "footY": 420,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 496,
-            "bottom": 459
+            "right": 454,
+            "bottom": 421
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -880,11 +1218,24 @@
             "top": 587,
             "right": 518,
             "bottom": 1014
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              1344,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-locomotion-3",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 3,
@@ -893,13 +1244,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 217,
-          "footY": 465,
+          "footX": 200,
+          "footY": 426,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 488,
-            "bottom": 467
+            "right": 447,
+            "bottom": 428
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -912,11 +1263,24 @@
             "top": 587,
             "right": 1018,
             "bottom": 1022
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              2016,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-locomotion-4",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 4,
@@ -925,13 +1289,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 204,
-          "footY": 434,
+          "footX": 189,
+          "footY": 398,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 485,
-            "bottom": 435
+            "right": 444,
+            "bottom": 399
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -944,11 +1308,24 @@
             "top": 1067,
             "right": 478,
             "bottom": 1470
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              0,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-locomotion-5",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "locomotion",
           "pose": 5,
@@ -957,13 +1334,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 293,
-          "footY": 294,
+          "footX": 270,
+          "footY": 270,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 554,
-            "bottom": 296
+            "right": 507,
+            "bottom": 272
           },
           "source": "snowhunter-right-locomotion.png",
           "sourceCell": {
@@ -976,11 +1353,24 @@
             "top": 1224,
             "right": 1004,
             "bottom": 1488
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              672,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-0",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 0,
@@ -989,13 +1379,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 213,
-          "footY": 453,
+          "footX": 197,
+          "footY": 415,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 497,
-            "bottom": 454
+            "right": 455,
+            "bottom": 416
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1008,11 +1398,24 @@
             "top": 92,
             "right": 521,
             "bottom": 514
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              1344,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-1",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 1,
@@ -1021,13 +1424,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 219,
-          "footY": 423,
+          "footX": 202,
+          "footY": 388,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 524,
-            "bottom": 424
+            "right": 480,
+            "bottom": 389
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1040,11 +1443,24 @@
             "top": 122,
             "right": 1017,
             "bottom": 514
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              2016,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-2",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 2,
@@ -1053,13 +1469,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 374,
-          "footY": 419,
+          "footX": 343,
+          "footY": 384,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 614,
-            "bottom": 420
+            "right": 562,
+            "bottom": 385
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1072,11 +1488,24 @@
             "top": 597,
             "right": 617,
             "bottom": 985
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              0,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-3",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 3,
@@ -1085,13 +1514,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 230,
-          "footY": 383,
+          "footX": 212,
+          "footY": 351,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 524,
-            "bottom": 402
+            "right": 480,
+            "bottom": 369
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1104,11 +1533,24 @@
             "top": 619,
             "right": 1017,
             "bottom": 989
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              672,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-4",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 4,
@@ -1117,13 +1559,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 216,
-          "footY": 444,
+          "footX": 199,
+          "footY": 407,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 501,
-            "bottom": 446
+            "right": 459,
+            "bottom": 409
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1136,11 +1578,24 @@
             "top": 1052,
             "right": 509,
             "bottom": 1466
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              1344,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "2-combat-5",
-          "texture": "snow-family-snowhunter-right",
+          "texture": "native-size-snow-snowhunter-2",
           "view": 2,
           "kind": "combat",
           "pose": 5,
@@ -1149,13 +1604,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 208,
-          "footY": 452,
+          "footX": 192,
+          "footY": 414,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 480,
-            "bottom": 453
+            "right": 440,
+            "bottom": 415
           },
           "source": "snowhunter-right-combat.png",
           "sourceCell": {
@@ -1168,11 +1623,24 @@
             "top": 1054,
             "right": 1011,
             "bottom": 1475
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-2",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-right",
+            "sourceRect": [
+              2016,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "5f859cef4cba548d5661559b2fbfb21dd04c20ca50cb462c447f142023efa1dc"
           }
         },
         {
           "name": "3-locomotion-0",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 0,
@@ -1181,13 +1649,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 203,
-          "footY": 482,
+          "footX": 184,
+          "footY": 433,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 489,
-            "bottom": 484
+            "right": 439,
+            "bottom": 434
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1200,11 +1668,24 @@
             "top": 50,
             "right": 513,
             "bottom": 502
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              0,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-locomotion-1",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 1,
@@ -1213,13 +1694,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 165,
-          "footY": 484,
+          "footX": 150,
+          "footY": 434,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 510,
-            "bottom": 485
+            "right": 457,
+            "bottom": 435
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1232,11 +1713,24 @@
             "top": 59,
             "right": 1010,
             "bottom": 512
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              672,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-locomotion-2",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 2,
@@ -1245,13 +1739,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 142,
-          "footY": 495,
+          "footX": 130,
+          "footY": 444,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 491,
-            "bottom": 497
+            "right": 441,
+            "bottom": 446
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1264,11 +1758,24 @@
             "top": 557,
             "right": 508,
             "bottom": 1022
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              1344,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-locomotion-3",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 3,
@@ -1277,13 +1784,13 @@
           "y": 0,
           "width": 672,
           "height": 608,
-          "footX": 113,
-          "footY": 485,
+          "footX": 104,
+          "footY": 435,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 481,
-            "bottom": 486
+            "right": 432,
+            "bottom": 436
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1296,11 +1803,24 @@
             "top": 568,
             "right": 1014,
             "bottom": 1022
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              2016,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-locomotion-4",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 4,
@@ -1309,13 +1829,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 212,
-          "footY": 460,
+          "footX": 192,
+          "footY": 413,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 497,
-            "bottom": 461
+            "right": 446,
+            "bottom": 414
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1328,11 +1848,24 @@
             "top": 1045,
             "right": 527,
             "bottom": 1474
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              0,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-locomotion-5",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "locomotion",
           "pose": 5,
@@ -1341,13 +1874,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 309,
-          "footY": 321,
+          "footX": 279,
+          "footY": 289,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 585,
-            "bottom": 323
+            "right": 524,
+            "bottom": 291
           },
           "source": "snowhunter-rear-right-locomotion.png",
           "sourceCell": {
@@ -1360,11 +1893,24 @@
             "top": 1179,
             "right": 1018,
             "bottom": 1470
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              672,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-0",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 0,
@@ -1373,13 +1919,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 120,
-          "footY": 489,
+          "footX": 110,
+          "footY": 439,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 516,
-            "bottom": 490
+            "right": 463,
+            "bottom": 440
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1392,11 +1938,24 @@
             "top": 56,
             "right": 519,
             "bottom": 514
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              1344,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-1",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 1,
@@ -1405,13 +1964,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 111,
-          "footY": 457,
+          "footX": 102,
+          "footY": 410,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 509,
-            "bottom": 458
+            "right": 457,
+            "bottom": 411
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1424,11 +1983,24 @@
             "top": 88,
             "right": 1020,
             "bottom": 514
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              2016,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-2",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 2,
@@ -1437,13 +2009,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 116,
-          "footY": 457,
+          "footX": 107,
+          "footY": 410,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 573,
-            "bottom": 459
+            "right": 513,
+            "bottom": 412
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1456,11 +2028,24 @@
             "top": 563,
             "right": 561,
             "bottom": 990
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              0,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-3",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 3,
@@ -1469,13 +2054,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 96,
-          "footY": 444,
+          "footX": 89,
+          "footY": 399,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 529,
-            "bottom": 445
+            "right": 474,
+            "bottom": 400
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1488,11 +2073,24 @@
             "top": 575,
             "right": 1020,
             "bottom": 988
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              672,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-4",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 4,
@@ -1501,13 +2099,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 115,
-          "footY": 496,
+          "footX": 106,
+          "footY": 445,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 518,
-            "bottom": 497
+            "right": 465,
+            "bottom": 446
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1520,11 +2118,24 @@
             "top": 1026,
             "right": 524,
             "bottom": 1491
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              1344,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "3-combat-5",
-          "texture": "snow-family-snowhunter-rear-right",
+          "texture": "native-size-snow-snowhunter-3",
           "view": 3,
           "kind": "combat",
           "pose": 5,
@@ -1533,13 +2144,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 103,
-          "footY": 500,
+          "footX": 95,
+          "footY": 449,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 499,
-            "bottom": 501
+            "right": 448,
+            "bottom": 449
           },
           "source": "snowhunter-rear-right-combat.png",
           "sourceCell": {
@@ -1552,11 +2163,24 @@
             "top": 1022,
             "right": 1014,
             "bottom": 1491
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-3",
+            "factor": 0.89,
+            "sourceTexture": "snow-family-snowhunter-rear-right",
+            "sourceRect": [
+              2016,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "8d6ab22b27e59d38cfd8ebde810f73a06afbdd384a64a5b26e3eabf13c872be7"
           }
         },
         {
           "name": "4-locomotion-0",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 0,
@@ -1584,11 +2208,24 @@
             "top": 97,
             "right": 505,
             "bottom": 501
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              0,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-locomotion-1",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 1,
@@ -1616,11 +2253,24 @@
             "top": 100,
             "right": 1001,
             "bottom": 523
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              672,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-locomotion-2",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 2,
@@ -1648,11 +2298,24 @@
             "top": 573,
             "right": 499,
             "bottom": 994
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              1344,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-locomotion-3",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 3,
@@ -1680,11 +2343,24 @@
             "top": 581,
             "right": 1005,
             "bottom": 994
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              2016,
+              0,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-locomotion-4",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 4,
@@ -1712,11 +2388,24 @@
             "top": 1069,
             "right": 496,
             "bottom": 1449
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              0,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-locomotion-5",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "locomotion",
           "pose": 5,
@@ -1744,11 +2433,24 @@
             "top": 1162,
             "right": 1006,
             "bottom": 1472
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 1,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              672,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-0",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 0,
@@ -1757,13 +2459,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 107,
-          "footY": 511,
+          "footX": 100,
+          "footY": 468,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 407,
-            "bottom": 513
+            "right": 373,
+            "bottom": 470
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1776,11 +2478,24 @@
             "top": 44,
             "right": 465,
             "bottom": 525
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              1344,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-1",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 1,
@@ -1789,13 +2504,13 @@
           "y": 608,
           "width": 672,
           "height": 608,
-          "footX": 80,
-          "footY": 541,
+          "footX": 76,
+          "footY": 495,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 343,
-            "bottom": 542
+            "right": 315,
+            "bottom": 496
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1808,11 +2523,24 @@
             "top": 4,
             "right": 913,
             "bottom": 514
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              2016,
+              608,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-2",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 2,
@@ -1821,13 +2549,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 84,
-          "footY": 550,
+          "footX": 79,
+          "footY": 503,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 324,
-            "bottom": 551
+            "right": 298,
+            "bottom": 504
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1840,11 +2568,24 @@
             "top": 510,
             "right": 407,
             "bottom": 1029
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              0,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-3",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 3,
@@ -1853,13 +2594,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 103,
-          "footY": 543,
+          "footX": 97,
+          "footY": 497,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 296,
-            "bottom": 544
+            "right": 272,
+            "bottom": 498
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1872,11 +2613,24 @@
             "top": 517,
             "right": 871,
             "bottom": 1029
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              672,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-4",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 4,
@@ -1885,13 +2639,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 97,
-          "footY": 519,
+          "footX": 91,
+          "footY": 475,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 390,
-            "bottom": 520
+            "right": 358,
+            "bottom": 476
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1904,11 +2658,24 @@
             "top": 1032,
             "right": 449,
             "bottom": 1520
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              1344,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         },
         {
           "name": "4-combat-5",
-          "texture": "snow-family-snowhunter-back",
+          "texture": "native-size-snow-snowhunter-4",
           "view": 4,
           "kind": "combat",
           "pose": 5,
@@ -1917,13 +2684,13 @@
           "y": 1216,
           "width": 672,
           "height": 608,
-          "footX": 103,
-          "footY": 498,
+          "footX": 97,
+          "footY": 456,
           "bounds": {
             "left": 32,
             "top": 32,
-            "right": 405,
-            "bottom": 499
+            "right": 371,
+            "bottom": 457
           },
           "source": "snowhunter-back-axial-thrust.png",
           "sourceCell": {
@@ -1936,6 +2703,19 @@
             "top": 1053,
             "right": 972,
             "bottom": 1520
+          },
+          "sizeCalibration": {
+            "version": 1,
+            "group": "snow-snowhunter-4",
+            "factor": 0.91,
+            "sourceTexture": "snow-family-snowhunter-back",
+            "sourceRect": [
+              2016,
+              1216,
+              672,
+              608
+            ],
+            "sourceAtlasSha256": "64fbb8127902756acdabeb033852efb9991f294d0739055c0f5ff4cd24a7899d"
           }
         }
       ]

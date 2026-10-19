@@ -29,10 +29,11 @@ describe('whole Zhuge authored family', () => {
   });
   it('loads its native family and installed special sheets for the region', () => {
     const manifest = regionArtManifest(9);
-    expect(Object.keys(manifest)).toHaveLength(60);
+    expect(Object.keys(manifest)).toHaveLength(66);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/zhuge-family-v1/')),
-    ).toHaveLength(35);
+    ).toHaveLength(34);
+    expect(Object.values(manifest).filter(path => path.startsWith('/art/native-size-v1/'))).toHaveLength(8);
     for (const key of ['region-actors-9', 'region-direction-9', 'region-motion-9', 'region-rear-9'])
       expect(manifest).not.toHaveProperty(key);
   });

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "method": "Explicit offline source-group calibration after READY/head/torso/boot comparison. No runtime fitting; no per-contact scale; weapons and posture are not used as an automatic target.",
+  "basic": [
+    {"family":"snow","id":"snowhunter","view":0,"factor":1.12,"reason":"Front sheet is uniformly smaller in body and head than the other views. Whole twelve-pose source keeps its proportions."},
+    {"family":"snow","id":"snowhunter","view":1,"factor":1,"reason":"Front-quarter locomotion is the standing body reference; combat source is separately reviewed below."},
+    {"family":"snow","id":"snowhunter","view":2,"factor":0.91,"reason":"Side source head/torso/boots are enlarged relative to front-quarter reference."},
+    {"family":"snow","id":"snowhunter","view":3,"factor":0.89,"reason":"Rear-quarter body is enlarged, not just the extended spear."},
+    {"family":"snow","id":"snowhunter","view":4,"factor":1,"reason":"Rear locomotion reference retained."},
+    {"family":"zhuge","id":"mukyeon","view":1,"factor":1.08,"reason":"Corrected front-quarter basic sheet is smaller than front/side/back; enlarge all twelve poses together."}
+  ],
+  "sourceOverrides": [
+    {"family":"snow","id":"snowhunter","source":"snowhunter-front-right-combat.png","factor":0.96,"reason":"Combat sheet body is larger than the matching front-quarter locomotion source."},
+    {"family":"snow","id":"snowhunter","source":"snowhunter-front-right-follow-padding.png","factor":0.96,"reason":"One-pose continuation belongs to the same combat source size, not an independent fit."},
+    {"family":"snow","id":"snowhunter","source":"snowhunter-back-axial-thrust.png","factor":0.91,"reason":"Rear attack boots/torso are oversized against rear locomotion. Raised spear remains free to extend upward."}
+  ],
+  "special": [
+    {"id":"zhugehyeon","view":1,"move":"fan","factor":0.876,"reason":"Selected fan source READY is 419/408px versus 351px basic; previous actor-wide factor .96895 leaves the entire source too big. One additional factor for all four movement stages."},
+    {"id":"zhugehyeon","view":1,"move":"stance","factor":0.868,"reason":"Selected stance source READY is 412/422px versus 351px basic. Keep crouch/hand gestures, correct whole source size."},
+    {"id":"yanggi","view":4,"move":"sweep","factor":1.27,"reason":"Back sweep source READY and all attack stages have a smaller skull, shoulder armor and boots. Raised staff is excluded from the body comparison."},
+    {"id":"jingwal","view":1,"move":"stance","factor":0.86,"reason":"Front-quarter guard source body is enlarged. Do not fit its upright spear to total-height bounds."},
+    {"id":"jingwal","view":3,"move":"stance","factor":0.89,"reason":"Rear-quarter guard source torso/helmet are oversized against matching basic READY."},
+    {"id":"mukyeon","view":1,"move":"fan","factor":0.96,"reason":"After correcting basic source, trim the uniform remaining fan-source size difference; preserve crossbow alignment."},
+    {"id":"mukyeon","view":1,"move":"stance","factor":0.96,"reason":"Same target body reference as front-quarter fan, all stages share one factor."}
+  ],
+  "limits": "These are visually reviewed authoring constants, not exact anatomical measurements or automatic whole-roster normalization. Other candidates remain review items; all physical poses must still be compared visually. Original sources and old runtime atlases remain intact."
+}
