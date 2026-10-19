@@ -58,7 +58,7 @@ known_hosts*
 .DS_Store
 Thumbs.db
 
-# Media is kept on the personal server, outside GitHub/LFS.
+# Authoring media stays external; public runtime/review media is versioned (2026-10-20).
 /.asset-bundles/
 *.png
 *.webp
@@ -75,3 +75,20 @@ Thumbs.db
 *.woff2
 *.ttf
 *.otf
+
+# Keep original public paths and bytes, including fallback and review inputs.
+!/public/**/*.png
+!/public/**/*.webp
+!/public/**/*.jpg
+!/public/**/*.jpeg
+!/public/**/*.gif
+!/public/**/*.avif
+!/public/**/*.wav
+!/public/**/*.mp3
+!/public/**/*.ogg
+!/public/**/*.webm
+!/public/**/*.mp4
+!/public/**/*.woff
+!/public/**/*.woff2
+!/public/**/*.ttf
+!/public/**/*.otf

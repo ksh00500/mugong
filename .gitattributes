@@ -2,7 +2,14 @@
 *.sh text eol=lf
 *.ps1 text eol=crlf
 
-# Media is external; no Git LFS filters are required for this branch.
+# Public media uses ordinary Git; authoring media remains external. No LFS filters.
+public/**/*.png binary
+public/**/*.webp binary
+public/**/*.jpg binary
+public/**/*.jpeg binary
+public/**/*.wav binary
+public/**/*.webm binary
+public/**/*.woff2 binary
 
 # Provenance manifests may hash prompt/source bytes; preserve their original endings.
 docs/source/** -text

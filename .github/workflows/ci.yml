@@ -1,4 +1,4 @@
-name: Source and optional private-asset checks
+name: Source and versioned runtime checks
 on:
   push:
     branches: [main]
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       verify_runtime:
-        description: Download private runtime bundle and verify Docker/gameplay
+        description: Verify Docker/gameplay using versioned public assets
         type: boolean
         default: false
 permissions:
@@ -26,10 +26,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run assets:catalog
+      - run: node scripts/audit-github-snapshot.mjs
+      - run: npm run check:assets
       - run: npm run typecheck
       - run: npm run test:source
-      - name: Compile JavaScript/CSS (media is not included)
-        run: npx vite build --outDir dist-source-ci
+      - name: Compile game with versioned public media
+        run: npm run build
   runtime:
     if: github.event_name == 'workflow_dispatch' && inputs.verify_runtime
     needs: source
@@ -42,14 +44,6 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - name: Restore private runtime bundle
-        env:
-          ASSET_URL: ${{ secrets.MUGONG_RUNTIME_ASSET_URL }}
-        run: |
-          test -n "$ASSET_URL" || { echo 'Configure MUGONG_RUNTIME_ASSET_URL before requesting runtime verification.'; exit 1; }
-          curl --fail --location --silent --show-error --retry 2 "$ASSET_URL" --output /tmp/runtime.tar.gz
-          node -e 'const fs=require("fs");const m=JSON.parse(fs.readFileSync("docs/asset-bundles/runtime.json"));console.log(m.sha256+"  /tmp/runtime.tar.gz");' | sha256sum --check
-          tar -xzf /tmp/runtime.tar.gz -C .
       - run: npm run check:assets
       - run: npm test
       - name: Build and start production container

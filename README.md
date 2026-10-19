@@ -8,18 +8,15 @@
 
 몸통 캡슐 피격과 높이를 맞춘 투사체/조준을 사용하며 적 HP·피해·후반 적 수를 높였다. 4·9·14·19웨이브는 의원·상인·강화·다음 보스를 연결한 정비 화면이다. [전투·정비 변경](docs/combat-prep-v1.md). 로딩은 현재 전투의 그림만 먼저 준비하며 다음 보스는 정비 중 선읽기한다. [로딩 개선·측정](docs/loading-v2.md). 컴파일 로컬 실행은 http://127.0.0.1:5205/ 이다.
 
-**소스·메타데이터·문서는 GitHub, 그림·소리·폰트는 개인 서버에 별도 보관**한다. 이 브랜치는 Git LFS를 사용하지 않는다. 소스만 복제한 상태에서는 게임을 실행할 수 없으며 일치하는 실행용 에셋 묶음을 복원해야 한다.
+**실행·호환·검토용 public 미디어1,018개를 소스와 함께 GitHub에 보관**한다. Git LFS를 사용하지 않으며 복제 후 별도 실행 에셋 다운로드 없이 빌드할 수 있다. 제작 원본1,818개는 외부 보관본과 SHA 목록을 유지한다. [이미지 분류·안전한 정리](docs/asset-management/README.md).
 
 ## 개인 Linux 서버에서 실행
 
-Docker Engine·Compose가 필요하다. 에셋 묶음과 SHA256 파일을 개인 서버에 먼저 복사한다.
+Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/native-size-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/asset-inventory-v1 https://github.com/ksh00500/mugong.git
 cd mugong
-# /srv/mugong-assets에 전달받은 에셋이 있다고 가정
-(cd /srv/mugong-assets && sha256sum -c mugong-runtime-*.tar.gz.sha256)
-tar -xzf /srv/mugong-assets/mugong-runtime-d05a97c29b4c392f.tar.gz -C .
 cp .env.example .env
 docker compose up -d --build
 curl -f http://127.0.0.1:8080/healthz
@@ -39,7 +36,7 @@ npm run assets:catalog
 npm run typecheck
 npm run test:source
 
-# 실행용 에셋 복원 후
+# Git에 포함된 실행용 에셋 검증 후
 npm run check:assets
 npm test
 npm run dev
@@ -54,9 +51,9 @@ npm run dev
 | `src/domain` | 전투·성장·아이템·보스 규칙 |
 | `src/game` | Phaser 렌더링·방향·프레임/접지 메타데이터 |
 | `src/platform`, `src/ui` | 저장·로딩·소리·사용자 화면 |
-| `public` | 런타임 메타데이터·비교 화면·라이선스. 미디어는 별도 복원 |
+| `public` | 실행·호환·검토용 미디어·메타데이터·라이선스 |
 | `assets`, `docs/source` | 제작 프롬프트·교정 이력. 원본 미디어는 보관용 묶음 |
-| `asset-manifest.json` | 외부 미디어2,823개 경로·바이트 수·SHA256 |
+| `asset-manifest.json` | 전체 미디어2,836개 경로·바이트 수·SHA256 |
 | `tests`, `scripts` | 자동 검사·에셋 포장/검증·제작 도구 |
 | `Dockerfile`, `compose.yaml` | 개인 Linux 서버 실행 |
 
