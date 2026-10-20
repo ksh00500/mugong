@@ -50,16 +50,24 @@ export function useDialogLayer(
     const first =
       visibleControls().find((control) => control.matches('input,select')) ?? visibleControls()[0];
     (first ?? element).focus();
+    let recoveryFrame = 0;
     const recoverFocus = () => {
-      if (!isTopDialog(element)) return;
-      const focused = document.activeElement as HTMLElement | null;
-      if (
-        !focused ||
-        !element.contains(focused) ||
-        !focused.getClientRects().length ||
-        focused.matches(':disabled')
-      )
-        (visibleControls()[0] ?? element).focus();
+      if (recoveryFrame) return;
+      // A focusout tooltip unmount can be observed while native Tab focus is on body.
+      // Let that focus transition finish before deciding that recovery is necessary.
+      recoveryFrame = requestAnimationFrame(() => {
+        recoveryFrame = 0;
+        if (!isTopDialog(element)) return;
+        const focused = document.activeElement as HTMLElement | null;
+        if (
+          !focused ||
+          !element.contains(focused) ||
+          !focused.getClientRects().length ||
+          focused.closest('[inert],[hidden]') ||
+          focused.matches(':disabled')
+        )
+          (visibleControls()[0] ?? element).focus();
+      });
     };
     const observer = new MutationObserver(recoverFocus);
     observer.observe(element, {
@@ -95,6 +103,7 @@ export function useDialogLayer(
     });
     isolation.observe(document.body, { childList: true, subtree: true });
     return () => {
+      cancelAnimationFrame(recoveryFrame);
       isolation.disconnect();
       observer.disconnect();
       window.removeEventListener('resize', recoverFocus);

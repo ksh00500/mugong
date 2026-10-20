@@ -4,6 +4,60 @@
   width: min(680px, calc(100vw - 32px));
   padding: 20px;
 }
+.app-shell .dialog.journey-summary {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  max-height: calc(100dvh - 24px);
+  gap: 12px;
+  overflow: visible;
+}
+.journey-summary-content {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+}
+.app-shell .journey-summary .death-result {
+  display: grid;
+  gap: 12px;
+  padding: 4px;
+  text-align: left;
+}
+.journey-summary-content h3 {
+  margin: 0;
+  font: 700 24px/1.4 var(--font-display);
+  overflow-wrap: anywhere;
+}
+.app-shell .journey-summary .journey-outcome-mark {
+  font: 700 36px/1 var(--font-display);
+  color: #9c3b2e;
+}
+.journey-summary-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.journey-summary-actions button {
+  min-height: 44px;
+  font-size: 17px;
+}
+.journey-summary-actions .action-hint {
+  flex: 1 1 180px;
+}
+.journey-retention {
+  padding: 10px 12px;
+  background: var(--surface-selected);
+  border-left: 3px solid var(--jade);
+  border-radius: 6px;
+  color: var(--ink);
+}
+.journey-next-hint {
+  color: var(--muted);
+}
 .app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header {
   min-height: 64px;
   padding: 8px 12px;
@@ -85,7 +139,8 @@
 }
 .rest-market .market-stock-select[aria-pressed='true'] {
   border: 2px solid var(--jade);
-  background: #e7efdf;
+  background: var(--surface-selected);
+  box-shadow: var(--shadow-selected);
 }
 .market-stock-select > .item-art {
   width: 44px;
@@ -116,7 +171,7 @@
   min-width: 0;
   min-height: 0;
   padding: 16px;
-  background: #fffaf0;
+  background: var(--surface-paper);
   border: 1px solid var(--line);
   border-radius: 10px;
 }
@@ -199,20 +254,24 @@
 }
 .journey-totals {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
+  margin: 12px 0;
 }
-.journey-totals span {
+.journey-totals > div {
   display: grid;
   gap: 4px;
   padding: 10px;
   border-bottom: 1px solid var(--line);
 }
-.journey-totals small {
+.journey-totals dt {
   font-size: 16px;
   color: var(--muted);
 }
-.journey-totals b {
+.journey-totals dd {
+  margin: 0;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
   font-size: 23px;
   overflow-wrap: anywhere;
 }

@@ -84,17 +84,18 @@
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: #f9f2dfb0;
+  background: var(--surface-paper);
   color: var(--ink);
   transform: none;
 }
 .warehouse-workspace .item-tile:hover {
-  background: #ece5c9;
+  background: var(--surface-hover);
   transform: none;
 }
 .warehouse-workspace .item-tile.selected {
   border: 2px solid var(--jade);
-  background: #e4ecd2;
+  background: var(--surface-selected);
+  box-shadow: var(--shadow-selected);
 }
 .warehouse-workspace .item-tile .item-art {
   width: 72px;

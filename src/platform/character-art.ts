@@ -1,5 +1,6 @@
 import type { Fighter } from '../domain/model';
 import { UI_IMAGES } from './assets';
+import lobbySizes from './character-lobby-sizes.json';
 export function characterPortrait(fighter: Pick<Fighter, 'portrait' | 'appearance'>) {
   if (fighter.appearance !== undefined)
     return `/art/hero-roster-v1/portrait-${fighter.appearance}.webp`;
@@ -25,4 +26,13 @@ export function characterLobbyArt(fighter?: Pick<Fighter, 'appearance'>) {
   return fighter?.appearance === undefined
     ? UI_IMAGES.portrait
     : `/art/hero-roster-v1/lobby-${fighter.appearance}.webp`;
+}
+
+/** Measured delivery dimensions; never enlarge a roster cutout to fill its column. */
+export function characterLobbyFigure(fighter?: Pick<Fighter, 'appearance'>) {
+  const dimensions =
+    fighter?.appearance === undefined
+      ? { width: 1024, height: 1536 }
+      : lobbySizes[fighter.appearance];
+  return { src: characterLobbyArt(fighter), ...dimensions };
 }

@@ -5,9 +5,11 @@ import { makeItem } from '../../src/domain/content';
 import type { GameState } from '../../src/domain/model';
 import { messages } from '../../src/platform/messages';
 
-const proof = process.env.MUGONG_DAYTONA_URL
-  ? 'docs/verification/daytona-20261002-storage-shortcuts-v1/public'
-  : 'docs/verification/storage-shortcuts-v1';
+const proof =
+  process.env.MUGONG_STORAGE_PROOF ??
+  (process.env.MUGONG_DAYTONA_URL
+    ? 'docs/verification/daytona-20261002-storage-shortcuts-v1/public'
+    : 'docs/verification/storage-shortcuts-v1');
 function fixture(returned = true, full = false) {
   const state = emptyGame();
   startRun(state, '검증무인', 123);
@@ -236,7 +238,9 @@ test('가방 만석·무인 없음에서 물품을 보존', async ({ page }) => 
   await seed(page, fixture(true, true));
   await page.getByRole('button', { name: '창고', exact: true }).click();
   await page.locator('[data-item-id="storage-stack"]').click();
-  await expect(page.getByRole('button', { name: '가방으로 F', exact: true })).toBeDisabled();
+  await expect(
+    page.getByRole('button', { name: '일반 가방에 수납 F', exact: true }),
+  ).toBeDisabled();
   await page.keyboard.press('f');
   await page.locator('[data-item-id="storage-stack"]').click({ modifiers: ['Control'] });
   expect(
@@ -249,6 +253,8 @@ test('가방 만석·무인 없음에서 물품을 보존', async ({ page }) => 
   await seed(page, empty);
   await page.getByRole('button', { name: '창고', exact: true }).click();
   await page.locator('[data-item-id="storage-boots"]').click();
-  await expect(page.getByRole('button', { name: '가방으로 F', exact: true })).toBeDisabled();
+  await expect(
+    page.getByRole('button', { name: '일반 가방에 수납 F', exact: true }),
+  ).toBeDisabled();
   await fits(page);
 });

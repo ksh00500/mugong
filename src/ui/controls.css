@@ -1,5 +1,14 @@
 /* Shared controls and reading roles. Screen owners retain layout and density. */
 .app-shell {
+  --surface-paper: #fff9eb;
+  --surface-soft: #f1e8d6;
+  --surface-hover: #f1f4e9;
+  --surface-selected: #e4eedf;
+  --surface-veil: #fff9ebcf;
+  --shadow-panel: 0 8px 24px #35281b26;
+  --shadow-control: 0 2px 5px #35281b18;
+  --shadow-selected: inset 0 0 0 2px var(--jade);
+  --icon-control: 22px;
   --input-surface: #fff8e9;
   --input-border: #a18a60;
   --input-ink: #263b32;
@@ -9,6 +18,17 @@
   --disabled-ink: #5f6257;
   --copy-body: 17px;
   --copy-small: 14px;
+}
+.app-shell :where(.dialog:not(.inventory-workspace):not(.warehouse-workspace)) {
+  background-color: var(--surface-paper);
+  background-image:
+    linear-gradient(var(--surface-veil), var(--surface-veil)), var(--painted-material);
+  background-size:
+    cover,
+    200% 200%;
+  border-color: var(--line);
+  box-shadow: var(--shadow-panel);
+  border-radius: var(--radius-panel);
 }
 .app-shell .ui-input {
   min-width: 0;
@@ -85,6 +105,12 @@
   line-height: 1.45;
 }
 .app-shell[data-high-contrast='true'] {
+  --surface-paper: #fff9eb;
+  --surface-soft: #f4eddf;
+  --surface-hover: #edf3e7;
+  --surface-selected: #dcebd3;
+  --surface-veil: #fff9eb;
+  --line: #645237;
   --input-surface: #fff9e9;
   --input-border: #263b32;
   --input-ink: #161f18;

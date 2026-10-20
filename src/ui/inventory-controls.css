@@ -1,6 +1,19 @@
 /* This component owns the complete bag workspace, including compact layouts. */
-.app-shell .glance-workspace .character-martial-heading { display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:4px; }
-.app-shell .glance-workspace .character-martial-heading h3 { margin:0; }
+.app-shell .glance-workspace .item-tile.selected {
+  background: var(--surface-selected);
+  border-color: var(--jade);
+  box-shadow: var(--shadow-selected);
+}
+.app-shell .glance-workspace .character-martial-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.app-shell .glance-workspace .character-martial-heading h3 {
+  margin: 0;
+}
 .app-shell .glance-workspace .inventory-trays {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -100,8 +113,12 @@
   min-height: 48px;
 }
 @media (max-width: 1200px), (max-height: 720px) {
-  .app-shell .glance-workspace .general-column .bag-title-full { display:none; }
-  .app-shell .glance-workspace .general-column .bag-title-short { display:inline; }
+  .app-shell .glance-workspace .general-column .bag-title-full {
+    display: none;
+  }
+  .app-shell .glance-workspace .general-column .bag-title-short {
+    display: inline;
+  }
   .app-shell .glance-workspace .bag-arrange {
     min-width: 140px;
     min-height: 44px;
@@ -401,7 +418,9 @@
 }
 
 @media (max-height: 800px) and (min-width: 901px) {
-  .app-shell .glance-workspace .inventory-columns > .inventory-character { gap:6px; }
+  .app-shell .glance-workspace .inventory-columns > .inventory-character {
+    gap: 6px;
+  }
 }
 @media (max-height: 700px) and (min-width: 901px) {
   .app-shell .glance-workspace .inventory-columns > .inventory-character {
@@ -409,7 +428,7 @@
   }
   .app-shell .glance-workspace .inventory-character h3 {
     margin-bottom: 2px;
-    font-size:15px;
+    font-size: 15px;
   }
   .app-shell .glance-workspace .binding-list > div {
     padding-block: 2px;
@@ -421,8 +440,13 @@
     width: 30px;
     height: 30px;
   }
-  .app-shell .glance-workspace .binding-list .art-glyph { width:28px; height:28px; }
-  .app-shell .glance-workspace .character-status .meter { margin:3px 0 4px; }
+  .app-shell .glance-workspace .binding-list .art-glyph {
+    width: 28px;
+    height: 28px;
+  }
+  .app-shell .glance-workspace .character-status .meter {
+    margin: 3px 0 4px;
+  }
   .app-shell .glance-workspace .item-detail h4 {
     font-size: 23px;
   }

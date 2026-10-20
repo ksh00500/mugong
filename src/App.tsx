@@ -16,7 +16,7 @@ import { LoadingScreen } from './ui/LoadingScreen';
 import { SaveRecovery } from './ui/SaveRecovery';
 import { RestMarket } from './ui/RestMarket';
 import { PrepStop } from './ui/PrepStop';
-import { JourneySummary } from './ui/JourneySummary';
+import { JourneySummary, DeathSummary } from './ui/JourneySummary';
 import type { JourneyResult } from './domain/model';
 import { UI_BOOT_IMAGES, prepareImages, preloadFonts, type ImageProgress } from './platform/assets';
 
@@ -220,29 +220,7 @@ export default function App() {
           {marketOpen && r?.phase === 'prep' && (
             <RestMarket run={r} busy={view.busy} onClose={() => setMarketOpen(false)} />
           )}
-          {fieldReady && r?.phase === 'dead' && (
-            <Modal title={t('강호에 남긴 이름')}>
-              <div className="death-result">
-                <span>殞</span>
-                <h2>{t('{0}, 강호에서 쓰러지다', { 0: r.fighter.name })}</h2>
-                <p>
-                  {r.wave}
-                  {t(' / 20 웨이브 · Lv.')}
-                  {r.fighter.level}
-                  {t(' · 처치 ')}
-                  {r.kills}
-                </p>
-                <p>{t('무인과 이번 여정의 물품은 돌아오지 않습니다.')}</p>
-                <button
-                  className="primary"
-                  disabled={view.busy}
-                  onClick={() => void gameStore.dispatch({ type: 'claim' })}
-                >
-                  {t('세가로 돌아가기')}
-                </button>
-              </div>
-            </Modal>
-          )}
+          {fieldReady && r?.phase === 'dead' && <DeathSummary run={r} busy={view.busy} />}
         </main>
       )}
       {view.bagOpen && !pendingChoices(r) && !view.state.family.training && (

@@ -64,10 +64,10 @@
   padding: 16px;
   min-width: 0;
   color: #263d31;
-  background: #fff9eb;
+  background: var(--surface-paper);
   border: 1px solid var(--line);
   border-radius: 10px;
-  box-shadow: 0 2px 4px #132b201a;
+  box-shadow: var(--shadow-control);
 }
 .recruitment-candidate > * {
   pointer-events: none;
@@ -102,9 +102,9 @@
   text-align: center;
 }
 .recruitment-candidate.selected {
-  outline: 3px solid #315f49;
-  outline-offset: -3px;
-  background: #e3ead9;
+  box-shadow: var(--shadow-selected);
+  border-color: var(--jade);
+  background: var(--surface-selected);
 }
 .recruitment-candidate .recruitment-portrait {
   width: 128px;
@@ -137,12 +137,16 @@
   flex: 1;
   padding: 10px;
   font-size: 18px;
-  background:var(--input-surface);
-  color:var(--input-ink);
-  border:1px solid var(--input-border);
-  border-radius:var(--input-radius);
+  background: var(--input-surface);
+  color: var(--input-ink);
+  border: 1px solid var(--input-border);
+  border-radius: var(--input-radius);
 }
-.recruitment-footer > .action-hint { margin-top:4px;font-size:13px;text-align:right; }
+.recruitment-footer > .action-hint {
+  margin-top: 4px;
+  font-size: 13px;
+  text-align: right;
+}
 .recruitment-actions {
   display: flex;
   gap: 12px;

@@ -1,6 +1,6 @@
 import { RecruitmentDialog } from './RecruitmentDialog';
 import { t, gameTitle, warriorUnit, formatNumber } from '../platform/i18n';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { QuickDetails } from './QuickDetails';
 import { ARTS, maximumHp } from '../domain/content';
 import type { View } from '../platform/store';
@@ -9,7 +9,7 @@ import { unlockAudio } from '../platform/audio';
 import { ArtGlyph, lifespan, Meter, Modal } from './shared';
 import { Icon, ItemArt } from './Icons';
 import { PaintedSprite } from './PaintedSprite';
-import { characterPortrait, characterLobbyArt } from '../platform/character-art';
+import { characterPortrait, characterLobbyFigure } from '../platform/character-art';
 import { APPEARANCES } from '../domain/appearances';
 import { warmCombat } from '../platform/game-loader';
 
@@ -37,6 +37,7 @@ export function Lobby({
   const rosterIndex = Math.min(rosterPage, Math.max(0, family.roster.length - 1));
   const fighter = family.roster.find((f) => f.id === view.state.selectedId) ?? family.roster[0];
   const run = view.state.run;
+  const lobbyFigure = characterLobbyFigure(run?.fighter ?? fighter);
   const available = !!fighter && !run;
   const supplies = family.warehouse.reduce((n, item) => n + item.count, 0);
   const begin = () => {
@@ -151,7 +152,11 @@ export function Lobby({
                   {Math.ceil(run.fighter.hp)} / {maximumHp(run.fighter)}
                 </b>
               </div>
-              <Meter value={run.fighter.hp} max={maximumHp(run.fighter)} identity={run.fighter.id} />
+              <Meter
+                value={run.fighter.hp}
+                max={maximumHp(run.fighter)}
+                identity={run.fighter.id}
+              />
             </div>
           ) : (
             <div className="home-start-facts">
@@ -162,6 +167,7 @@ export function Lobby({
           )}
           <button
             className="primary home-launch"
+            aria-describedby={!family.roster.length && !run ? 'empty-roster-guidance' : undefined}
             onMouseEnter={warmCombat}
             onFocus={warmCombat}
             disabled={view.busy || !!family.training}
@@ -193,11 +199,21 @@ export function Lobby({
           <div className="home-hero-ground" />
           <img
             className="home-hero-image"
-            src={characterLobbyArt(run?.fighter ?? fighter)}
-            width={1024}
-            height={1536}
+            src={lobbyFigure.src}
+            width={lobbyFigure.width}
+            height={lobbyFigure.height}
+            style={
+              {
+                '--lobby-art-width': `${lobbyFigure.width}px`,
+                '--lobby-art-height': `${lobbyFigure.height}px`,
+              } as CSSProperties
+            }
             decoding="async"
-            alt={t((run?.fighter ?? fighter)?.appearance === undefined ? '흰 도포와 붉은 허리띠를 한 검객' : APPEARANCES[(run?.fighter ?? fighter)!.appearance!].name)}
+            alt={t(
+              (run?.fighter ?? fighter)?.appearance === undefined
+                ? '흰 도포와 붉은 허리띠를 한 검객'
+                : APPEARANCES[(run?.fighter ?? fighter)!.appearance!].name,
+            )}
             fetchPriority="high"
           />
         </section>
@@ -217,7 +233,12 @@ export function Lobby({
               <div className="home-empty-emblem">
                 <Icon name="record" />
               </div>
-              <p>{t('완주한 무인이 모입니다.')}</p>
+              <div className="home-empty-copy" id="empty-roster-guidance">
+                <b>{t(run ? '여정을 이어 완주해 보세요.' : '새 무인으로 첫 여정을 시작하세요.')}</b>
+                <p>{t('20웨이브를 완주하면 무공·가방을 지닌 채 귀환합니다.')}</p>
+                <small>{t('귀환한 무인은 7일 동안 명부·가방·창고에서 관리합니다.')}</small>
+                <button onClick={() => setGuide(true)}>{t('귀환·보존 규칙 보기')}</button>
+              </div>
             </div>
           ) : (
             <>
@@ -231,7 +252,11 @@ export function Lobby({
                     className={fighter?.id === f.id ? 'selected' : ''}
                   >
                     <span className="home-roster-avatar" aria-hidden="true">
-                      {f.portrait === undefined && f.appearance === undefined ? f.name.charAt(0) : <img src={characterPortrait(f)} alt="" width={48} height={48} />}
+                      {f.portrait === undefined && f.appearance === undefined ? (
+                        f.name.charAt(0)
+                      ) : (
+                        <img src={characterPortrait(f)} alt="" width={48} height={48} />
+                      )}
                     </span>
                     <span>
                       <b title={f.name}>{f.name}</b>
@@ -327,7 +352,17 @@ export function Lobby({
         </span>
       </footer>
 
-      {creating && <RecruitmentDialog view={view} name={name} setName={(value) => { setNameEdited(true); setName(value); }} onClose={() => setCreating(false)} />}
+      {creating && (
+        <RecruitmentDialog
+          view={view}
+          name={name}
+          setName={(value) => {
+            setNameEdited(true);
+            setName(value);
+          }}
+          onClose={() => setCreating(false)}
+        />
+      )}
       {records && (
         <Modal
           title={t('세가의 기록')}
@@ -415,6 +450,13 @@ export function Lobby({
               <dd>{t('일시 정지 · 저장하고 다음에 이어하기')}</dd>
             </dl>
             <div className="home-guide-rules">
+              <p>
+                {t(
+                  '전사하면 해당 무인과 여정의 물품은 사라집니다. 세가 창고와 기존 자금은 유지됩니다.',
+                )}
+              </p>
+              <p>{t('귀환한 무인은 7일 동안 명부·가방·창고에서 관리합니다.')}</p>
+              <p>{t('수명이 끝나면 무인의 물품은 세가 창고로 옮겨집니다.')}</p>
               <p>
                 <b>{t('레벨이 오르면')}</b>
                 {t('새 무공을 배우거나 보유 무공을 성장시킵니다.')}

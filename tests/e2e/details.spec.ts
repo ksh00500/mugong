@@ -191,7 +191,9 @@ test('전리품 약·비급은 수납 없이 사용하고 품질 수치·개수�
     place: 'ground',
   });
 });
-test('전리품 비급으로 레벨이 오르면 성장하고 가방으로 돌아와 저장한다', async ({ page }) => {
+test('전리품 비급의 레벨 상승은 저장하고 수련점 없이 무공 선택을 만들지 않는다', async ({
+  page,
+}) => {
   const state = fixture('loot'),
     r = state.run!;
   r.fighter.arts = [];
@@ -199,15 +201,14 @@ test('전리품 비급으로 레벨이 오르면 성장하고 가방으로 돌�
   await seed(page, state);
   await page.locator('[data-item-id="loot-manual"]').click();
   await page.getByRole('button', { name: '사용', exact: true }).click();
-  await expect(page.locator('.growth')).toBeVisible();
-  await page.keyboard.down('Shift');
-  await expect(page.getByRole('tooltip')).toContainText('선택 후 효과');
-  await page.keyboard.up('Shift');
-  await page.locator('.choice-card').first().click();
+  await expect.poll(async () => (await saved(page)).run!.fighter.level).toBe(1);
   await expect(page.locator('.growth')).toHaveCount(0);
   await expect(page.locator('.inventory-workspace')).toBeVisible();
-  await expect.poll(async () => (await saved(page)).run!.fighter.level).toBe(1);
-  expect((await saved(page)).run!.fighter.arts).toHaveLength(1);
+  expect((await saved(page)).run!.fighter.trainingPoints).toBe(0);
+  expect((await saved(page)).run!.fighter.arts).toHaveLength(0);
+  expect((await saved(page)).run!.fighter.items.some((item) => item.id === 'loot-manual')).toBe(
+    false,
+  );
   await page.keyboard.press('Escape');
   await expect(page.locator('.inventory-workspace')).toHaveCount(0);
 });
@@ -254,7 +255,7 @@ test('가방과 로비의 각 무공 설명을 키보드로 읽고 숨긴 패널
   const keyboardTrace: unknown[] = [];
   for (
     let n = 0;
-    n < 5 && (await page.locator('.binding-list [data-technique]:focus').count()) === 0;
+    n < 40 && (await page.locator('.binding-list [data-technique]:focus').count()) === 0;
     n++
   ) {
     await page.keyboard.press('Tab');
@@ -267,6 +268,7 @@ test('가방과 로비의 각 무공 설명을 키보드로 읽고 숨긴 패널
     );
   }
   await writeFile(`${proof}/keyboard-focus.json`, JSON.stringify(keyboardTrace, null, 2));
+  await expect(page.locator('.binding-list [data-technique]:focus')).toHaveCount(1);
   await expect(page.getByRole('tooltip')).toHaveCount(0);
   await page.keyboard.down('Shift');
   await expect(page.getByRole('tooltip')).toContainText('화산매화검법');

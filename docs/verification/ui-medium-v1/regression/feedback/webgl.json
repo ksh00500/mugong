@@ -1,0 +1,50 @@
+{
+  "renderer": "WebGLRenderer2",
+  "actors": [
+    {
+      "health": {
+        "ratio": 0.6,
+        "trail": 1,
+        "phase": "hit",
+        "flash": 0.7714285714285712,
+        "active": true,
+        "level": "healthy"
+      },
+      "bar": {
+        "x": 481.82080000000065,
+        "y": 289.31439999999924,
+        "width": 52,
+        "height": 5,
+        "renderedTop": 316.56439999999924,
+        "clearance": 98.8
+      }
+    },
+    {
+      "health": {
+        "ratio": 0.6,
+        "trail": 1,
+        "phase": "hit",
+        "flash": 0.7714285714285712,
+        "active": true,
+        "level": "healthy"
+      },
+      "bar": {
+        "x": 401.25896799158073,
+        "y": 550.031693195346,
+        "width": 62.4,
+        "height": 5,
+        "renderedTop": 576.5516931953459,
+        "clearance": 118.05
+      }
+    }
+  ],
+  "reduced": {
+    "ratio": 0.3,
+    "trail": 0.3,
+    "phase": "idle",
+    "flash": 0,
+    "active": false,
+    "level": "low"
+  },
+  "errors": []
+}

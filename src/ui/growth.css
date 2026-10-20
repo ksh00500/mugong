@@ -119,8 +119,8 @@
   border: 1px solid #bba171;
   border-top: 5px solid var(--art-color);
   color: var(--ink);
-  background: #faf3e2 var(--painted-material) 0 0 / 200% 200% no-repeat;
-  box-shadow: 0 10px 30px #0004;
+  background: var(--surface-paper) var(--painted-material) 0 0 / 200% 200% no-repeat;
+  box-shadow: var(--shadow-panel);
   transition:
     border-color var(--motion-fast) var(--ease-ui),
     background-color var(--motion-fast) var(--ease-ui),
@@ -128,7 +128,7 @@
 }
 .app-shell .choice-card:hover:not(:disabled) {
   transform: none;
-  background-color: #fff8e8;
+  background-color: var(--surface-hover);
   border-color: #e9cf8b;
   box-shadow:
     0 12px 30px #0006,

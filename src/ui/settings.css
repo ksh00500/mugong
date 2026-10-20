@@ -15,8 +15,8 @@
   font-size: 18px;
 }
 .app-shell .settings-dialog .dialog-header > button .ui-icon {
-  width: 20px;
-  height: 20px;
+  width: var(--icon-control);
+  height: var(--icon-control);
 }
 .app-shell .settings-dialog .settings-tabs {
   display: flex;
@@ -106,10 +106,17 @@
   gap: 8px;
 }
 .app-shell .settings-dialog .screen-settings > button {
+  background: var(--surface-paper);
+  border-color: var(--line);
+  box-shadow: var(--shadow-control);
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: left;
+}
+.app-shell .settings-dialog .screen-settings > button[aria-checked='true'] {
+  background: var(--surface-selected);
+  border-color: var(--jade);
 }
 .app-shell .settings-dialog .screen-settings > button > span {
   display: grid;

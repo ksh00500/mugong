@@ -1,0 +1,104 @@
+{
+  "snapshot": {
+    "phase": "hit",
+    "actual": 0.6,
+    "trail": 1,
+    "now": 72,
+    "max": 120,
+    "fill": "matrix(0.6, 0, 0, 1, 0, 0)"
+  },
+  "world": [
+    {
+      "ratio": 0.6,
+      "trail": 1,
+      "phase": "hit",
+      "flash": 0.7714285714285712,
+      "active": true,
+      "level": "healthy"
+    },
+    {
+      "ratio": 0.6,
+      "trail": 1,
+      "phase": "hit",
+      "flash": 0.7714285714285712,
+      "active": true,
+      "level": "healthy"
+    }
+  ],
+  "draining": 0.78877973760933,
+  "bounds": [
+    {
+      "class": "player-panel ",
+      "x": 9,
+      "y": 0,
+      "width": 300,
+      "height": 174,
+      "top": 0,
+      "right": 309,
+      "bottom": 174,
+      "left": 9,
+      "overflow": false
+    },
+    {
+      "class": "boss-panel",
+      "x": 331.5,
+      "y": 18,
+      "width": 430,
+      "height": 112,
+      "top": 18,
+      "right": 761.5,
+      "bottom": 130,
+      "left": 331.5,
+      "overflow": false
+    },
+    {
+      "class": "hud-actions",
+      "x": 874,
+      "y": 64,
+      "width": 187,
+      "height": 34,
+      "top": 64,
+      "right": 1061,
+      "bottom": 98,
+      "left": 874,
+      "overflow": false
+    },
+    {
+      "class": "art-fan",
+      "x": 10,
+      "y": 410,
+      "width": 294,
+      "height": 196,
+      "top": 410,
+      "right": 304,
+      "bottom": 606,
+      "left": 10,
+      "overflow": false
+    },
+    {
+      "class": "ultimate-panel ultimate-ready",
+      "x": 432.5,
+      "y": 524,
+      "width": 294,
+      "height": 82,
+      "top": 524,
+      "right": 726.5,
+      "bottom": 606,
+      "left": 432.5,
+      "overflow": false
+    },
+    {
+      "class": "defense-panel",
+      "x": 855,
+      "y": 481,
+      "width": 228,
+      "height": 125,
+      "top": 481,
+      "right": 1083,
+      "bottom": 606,
+      "left": 855,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}
