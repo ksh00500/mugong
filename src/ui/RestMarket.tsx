@@ -10,6 +10,8 @@ import { Modal } from './shared';
 import { ItemArt } from './Icons';
 import { EquipmentComparison } from './EquipmentComparison';
 import { equipmentComparisons } from '../domain/equipment-comparison';
+import { PREPARATION_ART } from '../platform/preparation-art';
+import artSizes from '../platform/preparation-art-sizes.json';
 
 export function RestMarket({
   run,
@@ -37,7 +39,22 @@ export function RestMarket({
   return (
     <Modal title={t('정비 상인')} onClose={onClose} className="rest-market">
       <div className="rest-market-status">
-        <b>{t(regionName(run))}</b>
+        <div className="market-keeper">
+          <img
+            src={PREPARATION_ART.merchant}
+            width={artSizes.merchant.width}
+            height={artSizes.merchant.height}
+            alt=""
+            decoding="async"
+            onError={(event) => {
+              event.currentTarget.hidden = true;
+            }}
+          />
+          <div>
+            <b>{t(regionName(run))}</b>
+            <p>{t('다음 길에 필요한 물건을 골라보세요.')}</p>
+          </div>
+        </div>
         <span>{t('소지금 {0}전', { 0: run.gold })}</span>
       </div>
       <div className="rest-market-content">

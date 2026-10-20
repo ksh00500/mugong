@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef, type RefObject } from 'react';
 const layers: HTMLElement[] = [];
 const previousInert = new Map<HTMLElement, boolean>();
 let previousOverflow = '';
+let cancelPendingReturn = () => {};
 
 function updateLayers() {
   for (const [element, inert] of previousInert) element.inert = inert;
@@ -33,6 +34,7 @@ export function useDialogLayer(
   useLayoutEffect(() => {
     const element = ref.current;
     if (!element) return;
+    cancelPendingReturn();
     if (!layers.length) {
       previousOverflow = document.body.style.overflow;
       document.body.style.overflow = 'hidden';
@@ -131,6 +133,39 @@ export function useDialogLayer(
             fallback?.querySelectorAll<HTMLElement>('button:not(:disabled)') ?? [],
           ).find((button) => button.getClientRects().length && !button.closest('[inert],[hidden]'));
           (control ?? fallback)?.focus();
+          // Closing a bag can beat its opening save. The opener is still disabled
+          // for that commit; return when it becomes available without stealing a
+          // subsequent user focus change or retaining a removed opener.
+          if (target?.isConnected && target.matches(':disabled')) {
+            const interim = document.activeElement;
+            const cancel = () => {
+              waiting.disconnect();
+              document.removeEventListener('focusin', moved);
+              if (cancelPendingReturn === cancel) cancelPendingReturn = () => {};
+            };
+            const moved = () => {
+              if (document.activeElement !== interim) cancel();
+            };
+            const waiting = new MutationObserver(() => {
+              if (!target.isConnected || layers.length) return cancel();
+              if (target.matches(':disabled')) return;
+              cancel();
+              if (
+                document.activeElement === interim &&
+                target.getClientRects().length &&
+                !target.closest('[inert],[hidden]')
+              )
+                target.focus();
+            });
+            waiting.observe(document.body, {
+              childList: true,
+              subtree: true,
+              attributes: true,
+              attributeFilter: ['disabled'],
+            });
+            document.addEventListener('focusin', moved);
+            cancelPendingReturn = cancel;
+          }
         }
       });
     };

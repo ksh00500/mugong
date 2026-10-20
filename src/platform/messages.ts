@@ -11,6 +11,7 @@ import { comparisonMessages } from './comparison-messages';
 import { preparationMessages } from './preparation-messages';
 import { uiHighMessages } from './ui-high-messages';
 import { uiMediumMessages } from './ui-medium-messages';
+import { prepDesignMessages } from './prep-design-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
   '보스 전투 상태': ['Boss combat state', 'ボスの戦闘状態', '首领战斗状态', '首領戰鬥狀態'],
   교전: ['Combat', '交戦', '交战', '交戰'],
@@ -37,6 +38,7 @@ export const messages: Record<string, readonly [string, string, string, string]>
   ...preparationMessages,
   ...uiHighMessages,
   ...uiMediumMessages,
+  ...prepDesignMessages,
   '화면 흔들림': ['Screen shake', '画面の揺れ', '画面震动', '畫面震動'],
   끄기: ['Off', 'オフ', '关闭', '關閉'],
   약하게: ['Subtle', '弱め', '轻微', '輕微'],

@@ -7,14 +7,14 @@ React·Phaser4·Vite 정적 게임을 Nginx로 제공한다. 이 브랜치는 pu
 Docker Engine·Compose 플러그인·Git을 준비한다.
 
 ```sh
-git clone --branch codex/asset-inventory-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/prep-design-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build
 curl -f http://127.0.0.1:8080/healthz
 ```
 
-Docker 빌드는 asset-manifest.json의 public1,018파일 크기/SHA256을 대조한다. 기본 바인드는 서버127.0.0.1:8080이며 HTTPS 프록시를 앞에 둔다. .env·주소·TLS는 서버에서 설정하고 Git에 올리지 않는다. 최종 컨테이너는 일반 nginx 사용자·읽기 전용 루트·임시 /tmp를 사용한다.
+Docker 빌드는 asset-manifest.json의 public1,022파일 크기/SHA256을 대조한다. 정비 배경/NPC 네 장을 포함한다. 기본 바인드는 서버127.0.0.1:8080이며 HTTPS 프록시를 앞에 둔다. .env·주소·TLS는 서버에서 설정하고 Git에 올리지 않는다. 최종 컨테이너는 일반 nginx 사용자·읽기 전용 루트·임시 /tmp를 사용한다.
 
 ## 업데이트와 복귀
 

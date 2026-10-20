@@ -77,6 +77,10 @@
   overflow: visible;
   padding: 55px 17px 10px 108px;
 }
+/* Keep health and experience above the preparation workspace, including large text. */
+.app-shell .wuxia-hud[data-phase='prep'] .player-panel {
+  top: -32px;
+}
 .app-shell .wuxia-hud .hud-artwork-player {
   inset-block: -20px 0;
   height: calc(100% + 20px);

@@ -107,6 +107,29 @@
   margin: 0;
   font-size: 18px;
 }
+.rest-market .market-keeper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.rest-market .market-keeper img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex: none;
+}
+.rest-market .market-keeper img[hidden] {
+  display: none;
+}
+.rest-market .market-keeper p {
+  margin: 4px 0 0;
+  font: 400 14px/1.4 var(--font-ui);
+  color: var(--muted);
+}
+.rest-market .rest-market-status > span {
+  flex: none;
+}
 .rest-market-content {
   display: grid;
   grid-template-columns: minmax(250px, 0.9fr) minmax(0, 1.1fr);

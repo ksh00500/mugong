@@ -3,22 +3,18 @@ import { maximumHp } from '../domain/content';
 import { encounterHp } from '../domain/balance';
 import { bossDefinition, regionName } from '../domain/campaign';
 import { healingOffer } from '../domain/preparation';
-import {
-  isRefiningMaterial,
-  refinable,
-  refinePreview,
-  REFINE_COST,
-  makeLootItem,
-} from '../domain/items';
+import { isRefiningMaterial, refinable, refinePreview, REFINE_COST } from '../domain/items';
 import { hasWeapon } from '../domain/inventory';
 import { merchantSupplies } from '../domain/loot';
 import type { Run } from '../domain/model';
 import { t } from '../platform/i18n';
 import { gameStore } from '../platform/store';
 import { itemEffect } from '../platform/game-copy';
-import { Icon, ItemArt } from './Icons';
+import { Icon } from './Icons';
 import { Meter } from './shared';
 import { bossBriefing, displayValue } from '../platform/ui-copy';
+import { PrepStationHeading } from './PrepStationHeading';
+import { PREPARATION_ART } from '../platform/preparation-art';
 
 export function PrepStop({
   run,
@@ -35,7 +31,7 @@ export function PrepStop({
 }) {
   const heading = useRef<HTMLHeadingElement>(null);
   const [selected, setSelected] = useState('');
-  const [notice, setNotice] = useState('');
+  const [notice, setNotice] = useState({ message: '', serial: 0 });
   useEffect(() => {
     heading.current?.focus();
   }, [run.id, run.wave]);
@@ -54,17 +50,14 @@ export function PrepStop({
   const boss = bossDefinition({ ...run, wave: run.wave + 1 });
   const briefing = boss ? bossBriefing(boss.id) : [];
   const stock = run.supplies ?? merchantSupplies(run);
-  const medicine = makeLootItem('medicine-small', 'physician-preview', 'ground');
-  const merchandise = makeLootItem(
-    stock[1]?.templateId ?? 'weapon-sword-1',
-    'vendor-preview',
-    'ground',
-  );
   const art = f.arts[f.active];
   const waiting = f.items.filter((i) => i.place === 'ground').reduce((sum, i) => sum + i.count, 0);
   return (
     <section
       className="prep-stop"
+      style={{
+        backgroundImage: `linear-gradient(90deg, #f7f0dfde, #f7f0df50 55%, #f7f0dfa8), url(${PREPARATION_ART.waystation})`,
+      }}
       hidden={hidden}
       aria-labelledby="prep-stop-title"
       onKeyDown={(event) => {
@@ -74,7 +67,8 @@ export function PrepStop({
       <header className="prep-heading">
         <div>
           <small>
-            {t(regionName(run))} · {t('{0}웨이브', { 0: run.wave })}
+            <span className="prep-place">{t('강호 쉼터')}</span> · {t(regionName(run))} ·{' '}
+            {t('{0}웨이브', { 0: run.wave })}
           </small>
           <h1 id="prep-stop-title" ref={heading} tabIndex={-1}>
             {t('다음 시련을 준비하세요')}
@@ -85,16 +79,17 @@ export function PrepStop({
       <div className="prep-services">
         <article
           className="prep-service"
+          data-station="physician"
           aria-labelledby="prep-medic"
           data-recommended={f.hp / offer.maximum <= 0.5}
         >
-          <div className="prep-service-title">
-            <ItemArt item={medicine} kind="medicine" />
-            <div>
-              <small>{t('회복')}</small>
-              <h2 id="prep-medic">{t('의원')}</h2>
-            </div>
-          </div>
+          <PrepStationHeading
+            station="physician"
+            id="prep-medic"
+            title={t('의원')}
+            role={t('회복')}
+            greeting={t('상처부터 돌보고 가시지요.')}
+          />
           <div className="prep-service-body">
             <div className="prep-health-number">
               <Icon name="heart" />
@@ -114,7 +109,11 @@ export function PrepStop({
             aria-describedby="prep-heal-reason"
             disabled={busy || !offer.available}
             onClick={async () => {
-              if (await gameStore.dispatch({ type: 'heal' })) setNotice('치료를 마쳤습니다.');
+              if (await gameStore.dispatch({ type: 'heal' }))
+                setNotice((previous) => ({
+                  message: '치료를 마쳤습니다.',
+                  serial: previous.serial + 1,
+                }));
             }}
           >
             {t('의원 · 회복 12전')}
@@ -131,18 +130,14 @@ export function PrepStop({
                     : '\u00a0'}
           </small>
         </article>
-        <article className="prep-service" aria-labelledby="prep-vendor">
-          <div className="prep-service-title">
-            <ItemArt
-              item={merchandise}
-              kind={merchandise.kind}
-              weaponStyle={merchandise.weaponStyle}
-            />
-            <div>
-              <small>{t('보급')}</small>
-              <h2 id="prep-vendor">{t('정비 상인')}</h2>
-            </div>
-          </div>
+        <article className="prep-service" data-station="merchant" aria-labelledby="prep-vendor">
+          <PrepStationHeading
+            station="merchant"
+            id="prep-vendor"
+            title={t('정비 상인')}
+            role={t('보급')}
+            greeting={t('다음 길에 필요한 물건을 골라보세요.')}
+          />
           <div className="prep-service-body">
             <p>{t('회복품·현재 무공용 무장·지역 특산 장비')}</p>
             <strong>
@@ -155,18 +150,14 @@ export function PrepStop({
           </button>
           <small className="prep-reason">{t('재고와 가격은 여정에 저장됩니다.')}</small>
         </article>
-        <article className="prep-service" aria-labelledby="prep-forge">
-          <div className="prep-service-title">
-            {item ? (
-              <ItemArt item={item} kind={item.kind} weaponStyle={item.weaponStyle} />
-            ) : (
-              <Icon name="sword" />
-            )}
-            <div>
-              <small>{t('정련')}</small>
-              <h2 id="prep-forge">{t('장비 정비')}</h2>
-            </div>
-          </div>
+        <article className="prep-service" data-station="blacksmith" aria-labelledby="prep-forge">
+          <PrepStationHeading
+            station="blacksmith"
+            id="prep-forge"
+            title={t('대장장이')}
+            role={t('장비 정비')}
+            greeting={t('믿고 맡길 무장을 골라보게.')}
+          />
           <div className="prep-service-body">
             <label htmlFor="prep-equipment">{t('강화할 장비')}</label>
             <select
@@ -197,7 +188,10 @@ export function PrepStop({
             disabled={busy || !canRefine}
             onClick={async () => {
               if (item && (await gameStore.dispatch({ type: 'refine', id: item.id })))
-                setNotice('장비를 강화했습니다.');
+                setNotice((previous) => ({
+                  message: '장비를 강화했습니다.',
+                  serial: previous.serial + 1,
+                }));
             }}
           >
             {t('강화 · {0}전 + 재료 {1}', { 0: REFINE_COST.gold, 1: REFINE_COST.materials })}
@@ -219,7 +213,7 @@ export function PrepStop({
       </div>
       <div className="prep-next-boss">
         <Icon name="compass" />
-        <div>
+        <div className="prep-boss-copy">
           <b>
             {t('다음 보스')} · {boss ? t(boss.name) : t('보스 전투')}
           </b>
@@ -243,11 +237,13 @@ export function PrepStop({
       </div>
       <footer className="prep-actions">
         <div role="status">
-          {notice
-            ? t(notice)
-            : waiting
-              ? t('미수납 물품 {0}개', { 0: waiting })
-              : t('준비가 끝나면 다음 보스로 진행하세요.')}
+          <span key={notice.serial} className={notice.message ? 'prep-receipt' : undefined}>
+            {notice.message
+              ? t(notice.message)
+              : waiting
+                ? t('미수납 물품 {0}개', { 0: waiting })
+                : t('준비가 끝나면 다음 보스로 진행하세요.')}
+          </span>
         </div>
         <button disabled={busy} onClick={() => gameStore.openBag(true)}>
           <Icon name="bag" />
