@@ -158,7 +158,7 @@ for (const webgl of [false, true])
               ? actor.y + (tops.get(key)! - f.footY) * actor.scaleY - bar.y - bar.height
               : null,
             barY: bar?.y ?? null,
-            expectedBarY: y - bossHealthClearance(e, 3, art.healthClearance),
+            expectedBarY: y - ((bossHealthClearance(e, 3, art.healthClearance) - 12) * (e.bossId ? 1.2 : 1) + 12),
           };
         };
         for (let slot = 0; slot < 7; slot++)
@@ -251,8 +251,8 @@ for (const webgl of [false, true])
       expect(result.reduced).toBe(reduced);
       expect(new Set(result.records.map((r) => r.identity)).size).toBe(7);
       for (const r of result.records) {
-        expect(r.scale).toBe(0.225);
-        expect(r.scaleY).toBe(0.225);
+        expect(r.scale).toBe(r.slot >= 3 ? 0.225 * 1.2 : 0.225);
+        expect(r.scaleY).toBe(r.slot >= 3 ? 0.225 * 1.2 : 0.225);
         expect(r.mesh).toBe(false);
         expect(r.mounted).toBe(false);
         expect(r.view).toBe([2, 1, 0, 1, 2, 3, 4, 3][r.d]);

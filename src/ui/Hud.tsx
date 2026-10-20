@@ -13,11 +13,13 @@ import { ArtGlyph, Meter } from './shared';
 import { Icon } from './Icons';
 import { characterPortrait } from '../platform/character-art';
 import { HudArtwork } from './HudArtwork';
+import { bossCombatPhase, BOSS_PHASE_LABELS, isBossEnemy } from '../domain/boss-resilience';
 export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const scope = useRef<HTMLDivElement>(null);
   const f = run.fighter,
     art = f.arts[f.active],
-    boss = run.enemies.find((e) => e.kind === 'chief' || e.kind === 'captain');
+    boss = run.enemies.find((e) => isBossEnemy(e) && e.hp > 0);
+  const bossPhase = boss ? bossCombatPhase(boss) : 'combat';
   const unlocked = !!art && art.level >= techniqueStats(art.id, art.level).ultimateLevel;
   const gaugeMax = art?.id === 'gaebang' ? 200 : 100;
   const canSwitch = !busy && f.actionTime <= 0 && !pendingChoices(run);
@@ -85,20 +87,33 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
         </section>
         <div className="boss-area">
           {isBoss(run.wave) && boss && run.phase === 'combat' ? (
-            <section className="boss-panel">
+            <section className="boss-panel" data-boss-phase={bossPhase}>
               <HudArtwork shape="boss" />
-              <b>
-                {t(
-                  bossById(boss.bossId)?.name ??
-                    (boss.kind === 'chief'
-                      ? boss.elite
-                        ? t('검은 매 대두목')
-                        : t('산채 두목')
-                      : boss.elite
-                        ? t('혈궁의 수문장')
-                        : t('산문 궁수장')),
-                )}
-              </b>
+              <div className="boss-heading">
+                <b>
+                  {t(
+                    bossById(boss.bossId)?.name ??
+                      (boss.kind === 'chief'
+                        ? boss.elite
+                          ? t('검은 매 대두목')
+                          : t('산채 두목')
+                        : boss.elite
+                          ? t('혈궁의 수문장')
+                          : t('산문 궁수장')),
+                  )}
+                </b>
+                <span
+                  className="boss-phase"
+                  key={`${boss.id}-${bossPhase}`}
+                  role="status"
+                  aria-label={t('보스 전투 상태')}
+                >
+                  <span aria-hidden="true">
+                    {{ combat: '◇', pursuit: '»', guard: '▣', enraged: '◆' }[bossPhase]}
+                  </span>
+                  {t(BOSS_PHASE_LABELS[bossPhase])}
+                </span>
+              </div>
               <div className="boss-health">
                 <Meter
                   value={boss.hp}

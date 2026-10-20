@@ -1,9 +1,12 @@
 import { segmentDistance } from './enemy-geometry';
+import { enemySize } from './boss-resilience';
 
 type Point = { x: number; y: number };
 type Actor = Point & { kind?: string; bossId?: string; role?: string };
 /** Simulation x/y remain feet on the ground. Weapon/shot coordinates are torso space. */
 export const COMBAT_HEIGHT = 34;
+// The common attack plane stays fixed: raising it with art size breaks spear
+// corridors and ricochets. Only the target's fixed capsule grows with bosses.
 export const combatOrigin = (actor: Point) => ({ x: actor.x, y: actor.y - COMBAT_HEIGHT });
 export const combatAim = (source: Point, target: Point) => {
   const a = combatOrigin(source),
@@ -12,10 +15,11 @@ export const combatAim = (source: Point, target: Point) => {
 };
 export function combatBody(actor: Actor) {
   const boss = !!actor.bossId || actor.kind === 'chief' || actor.kind === 'captain';
+  const size = enemySize(actor);
   return {
-    top: { x: actor.x, y: actor.y - (actor.role === 'rider' ? 76 : boss ? 62 : 52) },
-    bottom: { x: actor.x, y: actor.y - 18 },
-    radius: actor.role === 'rider' || boss ? 22 : actor.kind ? 18 : 20,
+    top: { x: actor.x, y: actor.y - (actor.role === 'rider' ? 76 : boss ? 62 : 52) * size },
+    bottom: { x: actor.x, y: actor.y - 18 * size },
+    radius: (actor.role === 'rider' || boss ? 22 : actor.kind ? 18 : 20) * size,
   };
 }
 /** Swept segment vs vertical body capsule: cannot tunnel through a torso at low FPS. */

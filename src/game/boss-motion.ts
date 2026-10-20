@@ -20,7 +20,9 @@ export function bossMotionClock(
   let pose: number,
     contact = -1;
   if (holding) return { move, phase: 'hold', pose: move === 'grab' ? 3 : 2, contact };
-  if (action === 'windup') pose = p < 0.45 ? 0 : 1;
+  // Establish the loaded weapon silhouette early and hold it through commitment.
+  // Never warp/rotate individual body parts or move the damage clock.
+  if (action === 'windup') pose = p < 0.2 ? 0 : 1;
   else if (action === 'strike') {
     const elapsed = p * strike.duration;
     contact = strike.contacts.findIndex((t) => elapsed >= t - 0.035 && elapsed <= t + 0.06);

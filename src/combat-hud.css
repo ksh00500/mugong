@@ -294,6 +294,55 @@
   min-width: 0;
   height: 18px;
 }
+.app-shell .wuxia-hud .boss-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+.app-shell .wuxia-hud .boss-phase {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border: 1px solid #d4be8a;
+  border-radius: 4px;
+  background: #142b28;
+  color: #f8e8bc;
+  font: 700 clamp(10px, 0.9vw, 13px)/1.3 var(--font-body);
+  white-space: nowrap;
+  animation: boss-phase-enter 200ms cubic-bezier(0.2, 0, 0, 1) both;
+}
+.app-shell .wuxia-hud [data-boss-phase='enraged'] .boss-phase {
+  border-color: #ff9a87;
+  color: #ffd4c7;
+  background: #4b2426;
+}
+.app-shell .wuxia-hud [data-boss-phase='guard'] .boss-phase {
+  border-color: #8ed9ce;
+  color: #c1fff0;
+}
+.app-shell .wuxia-hud [data-boss-phase='pursuit'] .boss-phase {
+  border-color: #f6bd72;
+  color: #ffe0a6;
+}
+@keyframes boss-phase-enter {
+  from {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .wuxia-hud .boss-phase {
+    animation: none;
+  }
+}
 .app-shell .wuxia-hud .boss-panel .meter {
   position: absolute;
   inset: 0;

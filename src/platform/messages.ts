@@ -10,6 +10,11 @@ import { inventoryMessages } from './inventory-messages';
 import { comparisonMessages } from './comparison-messages';
 import { preparationMessages } from './preparation-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
+  '보스 전투 상태': ['Boss combat state', 'ボスの戦闘状態', '首领战斗状态', '首領戰鬥狀態'],
+  교전: ['Combat', '交戦', '交战', '交戰'],
+  추격: ['Pursuit', '追撃', '追击', '追擊'],
+  수세: ['Guard', '防御', '防守', '防守'],
+  격화: ['Enraged', '激化', '激化', '激化'],
   '전투 화면을 구성하고 있습니다.': [
     'Building the battlefield.',
     '戦闘画面を構築しています。',

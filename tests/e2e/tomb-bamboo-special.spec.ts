@@ -103,8 +103,8 @@ for (const region of [6, 5])
               actor.frame.cutHeight !== frame.height ||
               !actor.getData('specialPose') ||
               frame.move !== move ||
-              actor.scaleX !== 0.225 ||
-              actor.scaleY !== 0.225 ||
+              actor.scaleX !== 0.225 * 1.2 ||
+              actor.scaleY !== 0.225 * 1.2 ||
               bar.renderedTop - bar.y - bar.height < 7 ||
               actor.rotation !== 0
             )

@@ -44,7 +44,7 @@ for (const webgl of [false, true])
               scene.drawEnemy(e);
               const actor = scene.actors.get(String(e.id)), frame = actor.getData('authoredFrame'), bar = actor.getData('healthBar');
               const basic = authoredEnemyFrame(authoredEnemyArt(e,9),d,'idle',0,0).frame;
-              rows.push({d,move,state,progress,frame:frame.name,texture:actor.texture.key,scale:[actor.scaleX,actor.scaleY],footToTop:(frame.footY-frame.bounds.top)*actor.scaleY,basicFootToTop:(basic.footY-basic.bounds.top)*.225,barGap:bar.renderedTop-bar.y-bar.height,origin:[actor.originX,actor.originY],rotation:actor.rotation});
+              rows.push({d,move,state,progress,frame:frame.name,texture:actor.texture.key,scale:[actor.scaleX,actor.scaleY],footToTop:(frame.footY-frame.bounds.top)*actor.scaleY,basicFootToTop:(basic.footY-basic.bounds.top)*.225*1.2,barGap:bar.renderedTop-bar.y-bar.height,origin:[actor.originX,actor.originY],rotation:actor.rotation});
             }
       scene.draw(run);
       // Three copies at the same feet line: basic / fan windup / fan contact.
@@ -59,7 +59,7 @@ for (const webgl of [false, true])
       return {rows,renderer:scene.game.renderer.type,unchangedRun:JSON.stringify(run)===original};
     });
     for (const row of result.rows) {
-      expect(row.scale).toEqual([.225,.225]);
+      expect(row.scale).toEqual([.225*1.2,.225*1.2]);
       expect(row.rotation).toBe(0);
       expect(row.barGap).toBeGreaterThanOrEqual(7);
       expect(row.texture).not.toBe('__MISSING');
@@ -128,7 +128,7 @@ test(`교정 대상 전체 실제 렌더 R${region} ${webgl?'WebGL':'Canvas'}`,a
   }
   return {records,renderer:scene.game.renderer.type,unchanged:JSON.stringify(run)===original};
  },region);
- for(const r of result.records){expect(r.scale).toEqual([.225,.225]);expect(r.origin).toEqual(r.expectedOrigin);expect(r.gap).toBeGreaterThanOrEqual(7);expect(r.view).toBe([2,1,0,1,2,3,4,3][r.d]);expect(r.flip).toBe(!![0,0,0,1,1,1,0,0][r.d]);expect(r.texture).not.toBe('__MISSING');}
+ for(const r of result.records){expect(r.scale).toEqual(region===3?[.225,.225]:[.225*1.2,.225*1.2]);expect(r.origin).toEqual(r.expectedOrigin);expect(r.gap).toBeGreaterThanOrEqual(7);expect(r.view).toBe([2,1,0,1,2,3,4,3][r.d]);expect(r.flip).toBe(!![0,0,0,1,1,1,0,0][r.d]);expect(r.texture).not.toBe('__MISSING');}
  expect(result.unchanged).toBe(true);expect(result.renderer).toBe(webgl?2:1);expect(errors).toEqual([]);
  await writeFile(`${proof}/${webgl?'webgl':'canvas'}-R${region}.json`,JSON.stringify({...result,errors},null,2)+'\n');
 });

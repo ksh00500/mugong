@@ -29,7 +29,9 @@ import {
 } from '../platform/region-art';
 import { registerRegionAtlas } from './region-atlas';
 import { hostileDrawingPose, hostileRecoil } from './hostile-pose';
-import { isBossEnemy } from '../domain/boss-resilience';
+import { isBossEnemy, enemySize, bossCombatPhase } from '../domain/boss-resilience';
+import { BossReadability } from './boss-readability';
+import { bossAttackTell } from './boss-tells';
 import { registerEnemyMotion } from './enemy-motion';
 import { ContinuousActor } from './continuous-actor';
 import { MotionClock, MOTION_DIRECTIONS, sampleRig, type MotionAction } from './directional-motion';
@@ -61,6 +63,7 @@ export class CombatScene extends Phaser.Scene {
   private paintedZones!: PaintedZones;
   private feedback!: CombatFeedback;
   private healthTrails = new Map<number, HealthTrail>();
+  private bossReadability!: BossReadability;
   private cues: CombatCue[] = [];
   private aim = -Math.PI / 2;
   private left = false;
@@ -178,6 +181,9 @@ export class CombatScene extends Phaser.Scene {
     this.paintedEffects = new PaintedEffects(this, this.reducedMotion);
     this.paintedZones = new PaintedZones(this);
     this.feedback = new CombatFeedback(this);
+    this.bossReadability = new BossReadability(this, (id) =>
+      this.actors.get(String(id))?.getData('healthBar'),
+    );
     this.heldWeapon = new HeldWeapon(this);
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const onMotion = () => {
@@ -382,6 +388,7 @@ export class CombatScene extends Phaser.Scene {
       this.poseTransition.reset();
       this.heldWeapon.destroy();
       this.paintedZones.destroy();
+      this.bossReadability.destroy();
       this.cancelWarm?.();
       for (const actor of this.continuousActors.values()) actor.destroy();
       this.continuousActors.clear();
@@ -976,7 +983,7 @@ export class CombatScene extends Phaser.Scene {
                 ? String(slot)
                 : `${row}-${col}`,
       ),
-      scale = boss ? 1.4 : mounted ? 1.55 : 1;
+      scale = (boss ? 1.4 : mounted ? 1.55 : 1) * enemySize(e);
     actor.setData({
       authoredFrame: null,
       nativePose: useDrawing,
@@ -1009,7 +1016,7 @@ export class CombatScene extends Phaser.Scene {
       moving
         ? Math.sin(this.animationTime * 14 + e.id) * 1.5
         : 0;
-    const height = mounted ? 125 : (regional ? 80 : 108) * scale;
+    const height = mounted ? 125 * enemySize(e) : (regional ? 80 : 108) * scale;
     const flipped = useDrawing
       ? rear
         ? cycle.direction === 5
@@ -1261,7 +1268,8 @@ export class CombatScene extends Phaser.Scene {
       );
     const { frame, flip, view } = selected;
     const recoil = hostileRecoil(e, hitAge, this.reducedMotion, dead);
-    const pixelScale = art.pixelScale;
+    const size = enemySize(e);
+    const pixelScale = art.pixelScale * size;
     const actor = this.actor(String(e.id), frame.texture).setTexture(frame.texture, frame.name);
     this.continuousActors.get(String(e.id))?.hide();
     actor
@@ -1313,20 +1321,27 @@ export class CombatScene extends Phaser.Scene {
       actor.setData('healthBar', null);
       return;
     }
-    const clearance = bossHealthClearance(e, this.artRegion, art.healthClearance);
+    // Preserve the original absolute 12px breathing room above the whole family.
+    const clearance =
+      (bossHealthClearance(e, this.artRegion, art.healthClearance) - 12) * size + 12;
     const barY = enemyHealthBarY(e.y, clearance, renderedTop);
     actor.setData('healthBar', {
-      x: e.x - 26,
+      x: e.x - 26 * size,
       y: barY,
-      width: 52,
+      width: 52 * size,
       height: 5,
       renderedTop,
       clearance,
     });
     this.graphics
       .fillStyle(0x152b20, 0.22)
-      .fillEllipse(e.x, e.y + 3, art.id === 'rider' ? 70 : 40, art.id === 'rider' ? 19 : 13);
-    this.drawHealthBar(e, e.x - 26, barY, 52);
+      .fillEllipse(
+        e.x,
+        e.y + 3,
+        (art.id === 'rider' ? 70 : 40) * size,
+        (art.id === 'rider' ? 19 : 13) * size,
+      );
+    this.drawHealthBar(e, e.x - 26 * size, barY, 52 * size);
     if (isBossEnemy(e) || e.elite)
       this.graphics
         .fillStyle(e.elite ? 0xe8bdd0 : 0xf2d287, 1)
@@ -1455,6 +1470,7 @@ export class CombatScene extends Phaser.Scene {
     this.paintedZones.draw(r);
     for (const actor of this.actors.values()) actor.setVisible(false);
     if (!r) {
+      this.bossReadability.draw(null, this.animationTime, this.reducedMotion);
       this.heldWeapon.image.setVisible(false);
       this.heldWeapon.smear.clear().setVisible(false);
       this.paintedEffects.draw([], []);
@@ -1579,6 +1595,13 @@ export class CombatScene extends Phaser.Scene {
     for (const enemy of r.enemies) {
       if (enemy.hp > 0 && r.phase === 'combat') {
         this.drawEnemy(enemy);
+        this.actors
+          .get(String(enemy.id))
+          ?.setData({
+            bossSize: enemySize(enemy),
+            attackTell: bossAttackTell(enemy) ?? null,
+            combatPhase: bossCombatPhase(enemy),
+          });
         this.seenAlive.set(enemy.id, { ...enemy });
       } else if (enemy.hp <= 0 && this.seenAlive.has(enemy.id)) {
         this.deaths.set(enemy.id, { enemy: this.seenAlive.get(enemy.id)!, at: this.animationTime });
@@ -1606,6 +1629,7 @@ export class CombatScene extends Phaser.Scene {
         this.motionClock.delete(id);
         this.poseTransition.delete(id);
       }
+    this.bossReadability.draw(r, this.animationTime, this.reducedMotion);
     const launches = new Set<ReturnType<typeof projectileSound>>();
     for (const projectile of r.projectiles) {
       if (!this.heardProjectiles.has(projectile)) {
