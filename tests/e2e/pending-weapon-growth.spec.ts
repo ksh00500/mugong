@@ -69,7 +69,7 @@ for (const [width, height] of [
       store.notify();
     });
     await page.getByRole('button', { name: '정비 상인', exact: true }).click();
-    await page.locator('.rest-market-stock article button').first().click();
+    await page.locator('.market-purchase button').click();
     await page.getByRole('button', { name: '정비 상인 닫기' }).click();
     await page.getByRole('button', { name: '가방과 획득 물품' }).click();
     await expect(page.locator('.board-section')).toHaveCount(0);
@@ -79,13 +79,13 @@ for (const [width, height] of [
     await page.getByRole('button', { name: '사용', exact: true }).click();
     await expect(purchased).toHaveCount(0);
     await page.locator('.bag-grid.weapon .bag-item').first().click();
-    await page.getByRole('button', { name: '꺼내기', exact: true }).click();
+    await page.getByRole('button', { name: '획득 물품으로', exact: true }).click();
     const pending = page.locator('.ground-section .item-tile').first();
     await pending.click();
-    await page.getByRole('button', { name: '수납', exact: true }).click();
+    await page.getByRole('button', { name: '무장 가방에 수납', exact: true }).click();
     await expect(pending).toHaveCount(0);
     await page.locator('.bag-grid.weapon .bag-item').first().click();
-    await page.getByRole('button', { name: '꺼내기', exact: true }).click();
+    await page.getByRole('button', { name: '획득 물품으로', exact: true }).click();
     await page.getByRole('button', { name: '무인의 가방 닫기' }).click();
     await expect(page.locator('.inventory-workspace')).toHaveCount(0);
     await page.getByRole('button', { name: '가방과 획득 물품' }).click();

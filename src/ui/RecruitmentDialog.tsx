@@ -35,6 +35,17 @@ export function RecruitmentDialog({
     .padStart(2, '0')}:${(seconds % 60).toString().padStart(2, '0')}`;
   const candidate = recruitment.candidates.find((c) => c.id === selected);
   const disabled = view.busy || !!view.error;
+  const reason = view.error
+    ? t('저장 오류를 먼저 해결하세요.')
+    : view.busy
+      ? t('저장 중')
+      : !name.trim()
+        ? t('무인의 이름을 입력하세요.')
+        : !recruitment.candidates.length
+          ? t('모집권으로 후보를 먼저 불러오세요.')
+          : !candidate
+            ? t('출전할 후보 한 명을 선택하세요.')
+            : '';
   const begin = async (basic = false) => {
     if (
       await gameStore.dispatch(
@@ -138,6 +149,7 @@ export function RecruitmentDialog({
         <label className="recruitment-name" htmlFor="fighter-name">
           {t('무인의 이름')}
           <input
+            className="ui-input"
             id="fighter-name"
             value={name}
             maxLength={12}
@@ -153,12 +165,18 @@ export function RecruitmentDialog({
           )}
           <button
             className="primary"
+            aria-describedby={reason ? 'recruitment-reason' : undefined}
             disabled={disabled || !candidate || !name.trim()}
             onClick={() => void begin()}
           >
             {t('강호에 나서기 →')}
           </button>
         </div>
+        {reason && (
+          <p id="recruitment-reason" className="action-hint">
+            {reason}
+          </p>
+        )}
       </div>
     </Modal>
   );

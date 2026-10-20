@@ -4,6 +4,15 @@ import { gameStore } from './store';
 import { characterCombatImages } from './character-art';
 
 let moduleRequest: Promise<typeof import('../game/mount')> | undefined;
+export class CombatPreparationError extends Error {
+  constructor(
+    readonly stage: 'engine' | 'images',
+    cause: unknown,
+  ) {
+    super('Combat preparation failed', { cause });
+    this.name = 'CombatPreparationError';
+  }
+}
 function loadModule() {
   if (!moduleRequest) {
     const request = import('../game/mount');
@@ -16,17 +25,32 @@ function loadModule() {
 }
 
 export async function prepareCombat(onProgress?: (progress: ImageProgress) => void) {
+  let engineReady = false;
   // Download the engine and pictures together, instead of waiting for the engine first.
   const [module, images] = await Promise.all([
-    loadModule(),
+    loadModule().then(
+      (module) => {
+        engineReady = true;
+        return module;
+      },
+      (error) => {
+        throw new CombatPreparationError('engine', error);
+      },
+    ),
     prepareImages(
       {
         ...combatBaseImages(regionArtIndex(gameStore.state.run) >= 0),
         ...characterCombatImages(gameStore.state.run?.fighter),
         ...runArtManifest(gameStore.state.run),
       },
-      onProgress,
-    ),
+      (progress) =>
+        onProgress?.({
+          ...progress,
+          stage: progress.completed === progress.total && !engineReady ? 'engine' : 'images',
+        }),
+    ).catch((error) => {
+      throw new CombatPreparationError('images', error);
+    }),
   ]);
   return { mountGame: module.mountGame, images };
 }

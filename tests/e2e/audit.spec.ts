@@ -55,9 +55,9 @@ test('손상된 무인 저장은 오류 안내를 표시하고 원본을 덮어�
 
 test('설정 창은 배경 화면 초점과 입력을 차단하고 닫으면 원래 버튼으로 돌린다', async ({ page }) => {
   await page.goto('/');
-  const opener = page.getByRole('button', { name: '화면 설정', exact: true });
+  const opener = page.getByRole('button', { name: '설정', exact: true });
   await opener.press('Enter');
-  await expect(page.getByRole('dialog', { name: '화면 설정' })).toBeVisible();
+  await expect(page.getByRole('dialog', { name: '설정' })).toBeVisible();
   await expect(page.locator('.home-scene')).toHaveJSProperty('inert', true);
   await page.locator('.home-launch').evaluate((button: HTMLElement) => button.focus());
   expect(

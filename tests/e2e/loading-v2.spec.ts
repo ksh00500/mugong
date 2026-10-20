@@ -60,7 +60,7 @@ test('그림 완료 뒤 실제 장면 준비 단계·5언어·입력 차단', as
   await expect(page.getByRole('heading', { name: '전투 화면을 구성하고 있습니다.' })).toBeVisible({
     timeout: 30000,
   });
-  await expect(page.locator('.loading-count')).toHaveText('그림 준비 완료');
+  await expect(page.locator('.loading-count')).toHaveText('그림 준비 완료 · 전투 화면 구성 중');
   await page.keyboard.press('d');
   expect(
     await page.evaluate(async () => {

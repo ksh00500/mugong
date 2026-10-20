@@ -133,7 +133,7 @@ test('a failed item illustration keeps a visible generic icon and usable buttons
   await expect(tile.locator('[data-art-id]')).toHaveCount(0);
   await expect(tile.locator('svg image')).toHaveCount(1);
   await tile.click();
-  await expect(page.getByRole('button', { name: '일반 가방으로', exact: true })).toBeEnabled();
+  await expect(page.getByRole('button', { name: '일반 가방에 수납', exact: true })).toBeEnabled();
 });
 test('review every generated item at both display and small-icon sizes', async ({ page }) => {
   await mkdir(proof, { recursive: true });

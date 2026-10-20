@@ -84,7 +84,7 @@ for (const [width, height] of [
     await seed(page, fixture());
     await page.evaluate(() => document.fonts.ready);
     const states = [];
-    for (const name of ['출전', '가방', '창고', '기록', '소리 끄기', '화면 설정']) {
+    for (const name of ['출전', '가방', '창고', '기록', '소리 끄기', '설정']) {
       const button = page.getByRole('button', { name, exact: true });
       const before = (await button.boundingBox())!;
       await button.hover();
@@ -120,7 +120,7 @@ for (const [width, height] of [
           cells.every((el) => el.tagName === 'SPAN' && (el as HTMLElement).tabIndex < 0),
         ),
     ).toBe(true);
-    await page.getByRole('button', { name: '일반 가방으로', exact: true }).focus();
+    await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).focus();
     await page.keyboard.press('Enter');
     await expect
       .poll(
@@ -189,7 +189,7 @@ test('드래그는 선택과 독립적으로 이동하고 충돌·경계·종류
     .poll(async () => (await saved(page)).family.warehouse.some((i) => i.id === 'robe'))
     .toBe(true);
   await page.locator('.warehouse-section [data-item-id="robe"]').click();
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await expect
     .poll(async () => (await saved(page)).family.warehouse.some((i) => i.id === 'robe'))
     .toBe(false);
@@ -199,7 +199,7 @@ test('드래그는 선택과 독립적으로 이동하고 충돌·경계·종류
       async () => (await saved(page)).family.roster[0].items.find((i) => i.id === 'robe')?.place,
     )
     .toBe('ground');
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await expect
     .poll(
       async () => (await saved(page)).family.roster[0].items.find((i) => i.id === 'robe')?.place,
@@ -266,7 +266,7 @@ test('전투에서 가방·일시 정지로 진입하면 누르고 있던 공격
   await page.mouse.up();
   await page.keyboard.up('d');
   await page.locator('.bag-grid.weapon .item-tile').first().click();
-  await expect(page.getByRole('button', { name: '일반 가방으로', exact: true })).toBeDisabled();
+  await expect(page.getByRole('button', { name: '일반 가방에 수납', exact: true })).toBeDisabled();
   const activeArt = page.locator('.art-fan button[aria-pressed="true"]');
   const active = await activeArt.getAttribute('data-technique');
   expect(active).toBeTruthy();

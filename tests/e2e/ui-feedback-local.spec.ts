@@ -61,7 +61,7 @@ for (const [width, height] of [
     await expect(page.getByRole('button', { name: '가방 Tab', exact: true })).toBeFocused();
     await page.screenshot({ path: `${proof}/combat-${width}.png`, animations: 'disabled' });
     await page.getByRole('button', { name: '일시 정지', exact: true }).click();
-    await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+    await page.getByRole('button', { name: '설정', exact: true }).click();
     await page.getByLabel('화면 흔들림', { exact: true }).selectOption('standard');
     expect(
       await page.evaluate(() => JSON.parse(localStorage.getItem('mugong-feedback-v1')!).shake),

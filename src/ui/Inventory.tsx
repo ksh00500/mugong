@@ -31,6 +31,7 @@ import { itemDescription, itemEffect, itemOrigin } from '../platform/game-copy';
 import { QuickDetails } from './QuickDetails';
 import { EquipmentComparison } from './EquipmentComparison';
 import { equipmentComparisons } from '../domain/equipment-comparison';
+import { itemQuantity, stowLabel, displayValue } from '../platform/ui-copy';
 
 function BagUsage({
   place,
@@ -388,6 +389,51 @@ export function Inventory({
   const free = selected ? firstSpace(f.items, { ...selected, rotated }, destination) : null;
   const equipmentSpace = selected ? equipmentSwapPlan(f.items, selected) !== null : true;
   const comparing = !!selected && equipmentComparisons(f, selected).length > 0;
+  const directAction =
+    selected &&
+    (selected.place !== 'warehouse' &&
+    ['medicine', 'manual'].includes(selected.kind) &&
+    (selected.kind !== 'medicine' || f.hp < maximumHp(f))
+      ? 'use'
+      : ['robe', 'boots', 'charm'].includes(selected.kind) &&
+          !['equipped', 'warehouse'].includes(selected.place)
+        ? 'equip'
+        : 'stow');
+  const transferTarget = selected?.place === 'general' ? 'weapon' : 'general';
+  const actionReasons = selected
+    ? [
+        ...new Set(
+          [
+            locked
+              ? view.busy
+                ? t('저장 중')
+                : t('수납·사용은 전투 후에 가능합니다. 무장 가방의 무기는 연결할 수 있습니다.')
+              : '',
+            !locked && ['ground', 'warehouse', 'equipped'].includes(selected.place) && !free
+              ? t('공간 부족')
+              : '',
+            !locked && selected.kind === 'medicine' && f.hp >= maximumHp(f)
+              ? t('체력이 가득 찼습니다.')
+              : '',
+            !locked &&
+            selected.place === 'warehouse' &&
+            ['medicine', 'manual', 'robe', 'boots', 'charm'].includes(selected.kind)
+              ? t('사용·착용하려면 먼저 가방에 수납하세요.')
+              : '',
+            !locked && directAction === 'equip' && !equipmentSpace
+              ? t('기존 장비를 넣을 가방 공간이 없습니다.')
+              : '',
+            !locked && view.state.run?.phase === 'prep' && refinePreview(selected)
+              ? view.state.run.gold < REFINE_COST.gold
+                ? t('금전 부족')
+                : materialCount < REFINE_COST.materials
+                  ? t('재료 부족')
+                  : ''
+              : '',
+          ].filter(Boolean),
+        ),
+      ]
+    : [];
   const trays = [
     {
       place: view.state.run ? 'ground' : 'warehouse',
@@ -443,13 +489,18 @@ export function Inventory({
                 </b>
               </div>
               <Meter value={f.hp} max={maximumHp(f)} identity={f.id} />
-              {f.expiresAt && <p className="remaining">
-                <Icon name="clock" />
-                {lifespan(f.expiresAt)}
-              </p>}
+              {f.expiresAt && (
+                <p className="remaining">
+                  <Icon name="clock" />
+                  {lifespan(f.expiresAt)}
+                </p>
+              )}
             </section>
             <section className="character-info" aria-label={t('무공')}>
-              <div className="character-martial-heading"><h3>{t('무공')}</h3><CharacterTraining fighter={f} /></div>
+              <div className="character-martial-heading">
+                <h3>{t('무공')}</h3>
+                <CharacterTraining fighter={f} />
+              </div>
               <div className="binding-list">
                 {f.arts.length === 0 && <p>{t('아직 배운 무공이 없습니다.')}</p>}
                 {f.arts.map((a) => {
@@ -571,11 +622,7 @@ export function Inventory({
               onSelect={select}
               onIssue={reportIssue}
             />
-            <small className="bag-note">
-              {selected
-                ? t('{0} 선택 중 · 드래그 또는 이동 버튼', { 0: t(selected.name) })
-                : t('물품을 선택해 옮기거나 자세히 보세요')}
-            </small>
+            <small className="bag-note">{t('물품을 선택해 옮기거나 자세히 보세요')}</small>
           </section>
           <aside className="item-detail">
             <h3>{t('아이템 정보')}</h3>
@@ -619,11 +666,9 @@ export function Inventory({
                     {['medicine', 'manual'].includes(selected.kind) &&
                     selected.place === 'warehouse'
                       ? t('사용하려면 가방으로 옮기세요.')
-                      : selected.kind === 'medicine' && f.hp >= maximumHp(f)
-                        ? t('체력이 가득 찼습니다.')
-                        : !comparing
-                          ? itemDescription(selected, f)
-                          : ''}
+                      : !comparing
+                        ? itemDescription(selected, f)
+                        : ''}
                     {selected.originBoss && (
                       <>
                         {!comparing && ' · '}
@@ -639,10 +684,6 @@ export function Inventory({
                     {selected.rarity && <> · {t(RARITY_NAMES[selected.rarity])}</>}
                     {!!selected.upgrades && <> +{selected.upgrades}</>}
                   </dd>
-                  <dt>{t('크기')}</dt>
-                  <dd>
-                    {size(selected, rotated).w} × {size(selected, rotated).h}
-                  </dd>
                   {!comparing && (
                     <>
                       <dt>{t('효과')}</dt>
@@ -655,7 +696,10 @@ export function Inventory({
                     {t('소지금 {0}전 · 재료 {1}', { 0: view.state.run.gold, 1: materialCount })}
                   </small>
                 )}
-                <div className="item-actions">
+                <div
+                  className="item-actions"
+                  aria-describedby={actionReasons.length ? 'item-action-reasons' : undefined}
+                >
                   {view.state.run?.phase === 'prep' &&
                     selected.kind === 'ore' &&
                     ['general', 'ground'].includes(selected.place) && (
@@ -678,8 +722,8 @@ export function Inventory({
                           materialCount < REFINE_COST.materials
                         }
                         title={t('효과 {0} → {1} · 최대 두 번 강화', {
-                          0: selected.power,
-                          1: refinePreview(selected)!.power,
+                          0: displayValue(selected.power),
+                          1: displayValue(refinePreview(selected)!.power),
                         })}
                         onClick={() => void gameStore.dispatch({ type: 'refine', id: selected.id })}
                       >
@@ -691,7 +735,7 @@ export function Inventory({
                     )}
                   {['ground', 'warehouse', 'equipped'].includes(selected.place) && (
                     <button
-                      className="primary"
+                      className={directAction === 'stow' ? 'primary' : undefined}
                       disabled={locked || !free}
                       title={!free ? t('공간 부족') : undefined}
                       onClick={() =>
@@ -705,12 +749,17 @@ export function Inventory({
                         })
                       }
                     >
-                      {t('수납')}
+                      {stowLabel(destination)}
                     </button>
                   )}
                   {selected.place !== 'equipped' && (
                     <button
                       disabled={locked || selected.w === selected.h || !!drag}
+                      title={
+                        selected.w === selected.h
+                          ? t('정사각형 물품은 회전할 필요가 없습니다.')
+                          : undefined
+                      }
                       onClick={rotate}
                     >
                       <Icon name="rotate" />
@@ -720,6 +769,7 @@ export function Inventory({
                   )}
                   {selected.kind === 'sword' && (
                     <button
+                      className={selected.place === 'general' ? 'primary' : undefined}
                       disabled={
                         locked ||
                         !firstSpace(
@@ -741,12 +791,12 @@ export function Inventory({
                           });
                       }}
                     >
-                      {t(selected.place === 'general' ? '무장으로' : '일반 가방으로')}
+                      {stowLabel(transferTarget)}
                     </button>
                   )}
                   {['medicine', 'manual'].includes(selected.kind) && (
                     <button
-                      className="primary"
+                      className={directAction === 'use' ? 'primary' : undefined}
                       title={
                         selected.kind === 'medicine' && f.hp >= maximumHp(f)
                           ? t('체력이 가득 찼습니다.')
@@ -765,7 +815,7 @@ export function Inventory({
                   {['robe', 'boots', 'charm'].includes(selected.kind) &&
                     selected.place !== 'equipped' && (
                       <button
-                        className="primary"
+                        className={directAction === 'equip' ? 'primary' : undefined}
                         disabled={locked || selected.place === 'warehouse' || !equipmentSpace}
                         title={
                           !equipmentSpace ? t('기존 장비를 넣을 가방 공간이 없습니다.') : undefined
@@ -777,7 +827,7 @@ export function Inventory({
                     )}
                   {selected.place !== 'warehouse' && selected.place !== 'ground' && (
                     <button disabled={locked} onClick={() => move('ground')}>
-                      {t('꺼내기')}
+                      {t('획득 물품으로')}
                     </button>
                   )}
                   {selected.place === 'ground' && (
@@ -798,6 +848,11 @@ export function Inventory({
                     </button>
                   )}
                 </div>
+                {!!actionReasons.length && (
+                  <p className="action-hint" id="item-action-reasons">
+                    {actionReasons.join(' · ')}
+                  </p>
+                )}
               </>
             ) : (
               <div className="empty-detail">
@@ -834,7 +889,7 @@ export function Inventory({
             >
               <header className="tray-header">
                 <h3>
-                  {label} <small>{items.length}</small>
+                  {label} <small>{itemQuantity(items)}</small>
                 </h3>
               </header>
               <PagedItems
@@ -872,15 +927,7 @@ export function Inventory({
         </div>
         <footer className="inventory-status">
           <span role="status">
-            {(actionNotice && t(actionNotice)) ||
-              (view.notice && t(view.notice)) ||
-              (selected
-                ? t('{0} · {1}×{2}칸', {
-                    0: t(selected.name),
-                    1: size(selected, rotated).w,
-                    2: size(selected, rotated).h,
-                  })
-                : t('드래그 · 버튼으로 이동'))}
+            {(actionNotice && t(actionNotice)) || (view.notice && t(view.notice)) || ''}
           </span>
           <div className="inventory-controls">
             {onNext && ['loot', 'prep'].includes(view.state.run?.phase ?? '') && (
@@ -896,7 +943,14 @@ export function Inventory({
             )}
             <span className="inventory-shortcuts">
               <span title={t('Ctrl+클릭으로 바로 옮기기')}>
-                <kbd>F</kbd> {t('빠른 이동')}
+                <kbd>F</kbd>{' '}
+                {selected
+                  ? selected.place === 'ground' || selected.place === 'warehouse'
+                    ? stowLabel(destination)
+                    : view.state.run
+                      ? t('획득 물품으로')
+                      : t('창고로')
+                  : t('빠른 이동')}
               </span>
               <kbd>R</kbd>
               {t(' 회전 · ')}

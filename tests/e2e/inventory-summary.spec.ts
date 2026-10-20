@@ -178,7 +178,7 @@ for (const [width, height] of [
       animations: 'disabled',
     });
     await bag.locator('[data-item-id="robe"]').click();
-    await bag.getByRole('button', { name: '수납', exact: true }).click();
+    await bag.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
     await expect(bag.locator('.bag-grid.general [data-item-id="robe"]')).toBeVisible();
     await bag.getByRole('button', { name: '착용', exact: true }).click();
     await expect(bag.locator('.equipped-list [data-item-id="robe"]')).toBeVisible();

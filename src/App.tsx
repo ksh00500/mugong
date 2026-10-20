@@ -339,7 +339,7 @@ export default function App() {
               <button disabled={view.busy} onClick={() => void gameStore.suspend()}>
                 {t('저장하고 일시 종료')}
               </button>
-              <button onClick={() => setSettingsOpen(true)}>{t('화면 설정')}</button>
+              <button onClick={() => setSettingsOpen(true)}>{t('설정')}</button>
               <button
                 onClick={() => {
                   setMuted(!muted);
@@ -367,6 +367,13 @@ export default function App() {
         <Modal title={t('저장 확인이 필요합니다')}>
           <div className="save-error" role="alert">
             <p>{translatedError(view.error)}</p>
+            <p className="recovery-guidance">
+              {t(
+                view.ready
+                  ? '현재 결과의 저장이 끝나지 않았습니다. 먼저 저장을 다시 시도하세요. 계속 실패하면 원본을 내보내 보관하세요.'
+                  : '저장 기록을 열지 못했습니다. 먼저 다시 시도하세요. 계속 실패하면 원본을 보관한 뒤 검증 사본을 확인하세요.',
+              )}
+            </p>
             <button className="primary" disabled={view.busy} onClick={() => void gameStore.retry()}>
               {t('저장 다시 시도')}
             </button>

@@ -119,11 +119,11 @@ test('고유 전리품은 출처와 효과를 표시하고 버튼·키보드로 
   await expect(page.locator('.inventory-workspace')).toBeVisible();
   await page.locator('[data-item-id="poison-sac"]').click();
   await expect(page.locator('.item-detail')).toContainText('청린사왕의 전리품');
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await expect(page.locator('.bag-grid [data-item-id="poison-sac"]')).toBeVisible();
   await page.locator('[data-item-id="poison-pearl"]').click();
   await expect(page.locator('.item-detail')).toContainText('만독곡주 사공염의 전리품');
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await expect(page.locator('.bag-grid [data-item-id="poison-pearl"]')).toBeVisible();
   await page.locator('[data-item-id="chain-charm"]').focus();
   await page.keyboard.press('Enter');

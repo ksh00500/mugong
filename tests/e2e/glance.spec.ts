@@ -99,17 +99,17 @@ for (const [width, height] of [
     await bag.locator('[data-item-id="glance-loot"]').click();
     await expect(bag.locator('.item-detail')).toContainText('철광석');
     await together();
-    await bag.getByRole('button', { name: '수납', exact: true }).click();
+    await bag.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
     await expect(bag.locator('.bag-grid.general [data-item-id="glance-loot"]')).toBeVisible();
     await expect(bag.locator('.ground-section [data-item-id="glance-loot"]')).toHaveCount(0);
-    await bag.getByRole('button', { name: '꺼내기', exact: true }).click();
+    await bag.getByRole('button', { name: '획득 물품으로', exact: true }).click();
     await expect(bag.locator('.ground-section [data-item-id="glance-loot"]')).toBeVisible();
     await together();
     await bag.locator('.ground-section [data-item-id="glance-loot"]').click();
     await bag.getByRole('button',{name:'폐기',exact:true}).click();
     await expect(page.getByRole('alertdialog')).toBeVisible();
     await page.getByRole('button', { name: '계속 정리' }).click();
-    await bag.getByRole('button', { name: '수납', exact: true }).click();
+    await bag.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
     await together();
     await mkdir(proofRoot, { recursive: true });
     await page.screenshot({

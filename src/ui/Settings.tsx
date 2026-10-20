@@ -40,7 +40,7 @@ export function Settings({
     return () => document.removeEventListener('fullscreenchange', change);
   }, []);
   return (
-    <Modal title={t('화면 설정')} onClose={onClose} className="settings-dialog">
+    <Modal title={t('설정')} onClose={onClose} className="settings-dialog">
       <div
         className="settings-tabs"
         role="tablist"
@@ -94,6 +94,7 @@ export function Settings({
             {t('언어')} {locale !== 'en' && <span lang="en">/ Language</span>}
           </label>
           <select
+            className="ui-input"
             id="game-language"
             value={preference}
             onChange={(event) => {
@@ -170,6 +171,7 @@ export function Settings({
         <div className="feedback-setting" data-setting="display">
           <label htmlFor="screen-shake">{t('화면 흔들림')}</label>
           <select
+            className="ui-input"
             id="screen-shake"
             value={shake}
             onChange={(event) => setShakePreference(event.target.value as ShakePreference)}
@@ -189,9 +191,14 @@ export function Settings({
         className="audio-settings"
       >
         <p>{t('경쾌한 효과음 · 잔잔한 배경음악')}</p>
-        <button role="switch" aria-checked={audio.muted} onClick={() => setMuted(!audio.muted)}>
-          <b>{t('모든 소리 끄기')}</b>
-          <span>{audio.muted ? t('켜짐') : t('꺼짐')}</span>
+        <button
+          role="switch"
+          aria-label={t('음소거')}
+          aria-checked={audio.muted}
+          onClick={() => setMuted(!audio.muted)}
+        >
+          <b>{t('음소거')}</b>
+          <span>{audio.muted ? t('사용 중') : t('해제')}</span>
         </button>
         {channels.map(([key, label]) => (
           <label className="audio-channel" key={key} htmlFor={`audio-${key}`}>

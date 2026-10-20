@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { gameStore } from '../platform/store';
 import { COMBAT_IMAGES, type ImageProgress } from '../platform/assets';
-import { prepareCombat } from '../platform/game-loader';
-import { LoadingScreen } from './LoadingScreen';
+import { prepareCombat, CombatPreparationError } from '../platform/game-loader';
+import { LoadingScreen, type LoadingFailure } from './LoadingScreen';
 
 export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => void }) {
   const root = useRef<HTMLDivElement>(null);
   const [attempt, setAttempt] = useState(0);
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+  const [failure, setFailure] = useState<LoadingFailure>('images');
   const [regionProgress, setRegionProgress] = useState<ImageProgress | null>(null);
   const ready = status === 'ready' && regionProgress === null;
   const [progress, setProgress] = useState<ImageProgress>({
@@ -17,12 +18,13 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
   useEffect(() => {
     let cancelled = false;
     let cleanup: (() => void) | undefined;
+    let phase: LoadingFailure = 'images';
     setStatus('loading');
     setRegionProgress(null);
     onReadyChange(false);
     gameStore.rendererReady = false;
     const timeout = window.setTimeout(() => fail(), 65000);
-    function fail() {
+    function fail(reason: LoadingFailure = phase) {
       if (cancelled) return;
       cancelled = true;
       clearTimeout(timeout);
@@ -31,13 +33,18 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
       cleanup?.();
       cleanup = undefined;
       setStatus('error');
+      setFailure(reason);
       setRegionProgress(null);
     }
     void prepareCombat((value) => {
-      if (!cancelled) setProgress(value);
+      if (!cancelled) {
+        setProgress(value);
+        phase = value.stage === 'engine' ? 'engine' : 'images';
+      }
     })
       .then(async ({ mountGame, images }) => {
         if (cancelled || !root.current) return;
+        phase = 'scene';
         setProgress({
           completed: Object.keys(images).length,
           total: Object.keys(images).length,
@@ -63,7 +70,7 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
             setStatus('ready');
             onReadyChange(true);
           },
-          fail,
+          (reason) => fail(reason),
           (value) => {
             if (cancelled) return;
             setRegionProgress(value);
@@ -71,7 +78,7 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
           },
         );
       })
-      .catch(fail);
+      .catch((error) => fail(error instanceof CombatPreparationError ? error.stage : phase));
     return () => {
       cancelled = true;
       clearTimeout(timeout);
@@ -98,7 +105,12 @@ export function Field({ onReadyChange }: { onReadyChange: (ready: boolean) => vo
           kind="combat"
           progress={regionProgress ?? progress}
           error={status === 'error'}
-          onRetry={() => setAttempt((value) => value + 1)}
+          failure={failure}
+          onRetry={() => {
+            // Browsers cache failed ES module imports for the lifetime of a document.
+            if (failure === 'engine') window.location.reload();
+            else setAttempt((value) => value + 1);
+          }}
         />
       )}
     </>

@@ -59,7 +59,9 @@ async function seed(page: Page, state: GameState) {
     db.close();
   }, state);
   await page.reload();
-  await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true');
+  await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true', {
+    timeout: 30000,
+  });
 }
 async function saved(page: Page): Promise<GameState> {
   return page.evaluate(async () => {

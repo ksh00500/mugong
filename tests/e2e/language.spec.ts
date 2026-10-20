@@ -57,13 +57,13 @@ for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'] as const) {
     ]) {
       await page.setViewportSize({ width, height });
       await expectFits(page);
-      await page.getByRole('button', { name: copy('화면 설정', locale), exact: true }).click();
+      await page.getByRole('button', { name: copy('설정', locale), exact: true }).click();
       await expect(page.locator('#game-language')).toHaveValue('auto');
       await expect(page.locator('#game-language option')).toHaveCount(6);
       await expectFits(page);
       await page.keyboard.press('Escape');
       await expect(
-        page.getByRole('button', { name: copy('화면 설정', locale), exact: true }),
+        page.getByRole('button', { name: copy('설정', locale), exact: true }),
       ).toBeFocused();
       await page.getByRole('button', { name: copy('새 무인으로 출전 →', locale) }).click();
       await expectFits(page);
@@ -107,7 +107,7 @@ for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'] as const) {
     });
     await page.keyboard.press('Escape');
     await page.getByRole('button', { name: copy('일시 정지', locale), exact: true }).click();
-    await page.getByRole('button', { name: copy('화면 설정', locale), exact: true }).click();
+    await page.getByRole('button', { name: copy('설정', locale), exact: true }).click();
     await expectFits(page);
     await page.screenshot({
       path: `${proof}/settings-${locale}-1093.png`,
@@ -126,7 +126,7 @@ test('언어 수동 선택·새로고침·자동 감지 복귀 및 저장된 무
   await page.goto('/');
   await page.getByRole('button', { name: 'Settings', exact: true }).click();
   await page.getByLabel('Language', { exact: true }).selectOption('ko');
-  await expect(page.getByRole('dialog', { name: '화면 설정' })).toBeVisible();
+  await expect(page.getByRole('dialog', { name: '설정' })).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'ko');
   await page.reload();
   await expect(page.locator('h1')).toHaveText('강호에 나서세요');
@@ -135,7 +135,7 @@ test('언어 수동 선택·새로고침·자동 감지 복귀 및 저장된 무
   await page.getByRole('button', { name: '강호에 나서기 →' }).click();
   await expect(page.locator('.player-name')).toContainText('검객한글');
   await page.getByRole('button', { name: '일시 정지' }).click();
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.locator('#game-language').selectOption('ja');
   await expect(page.getByRole('dialog', { name: '設定', exact: true })).toBeVisible();
   await expect(page.locator('.player-name')).toContainText('검객한글');

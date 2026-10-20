@@ -172,7 +172,7 @@ for (const [width, height] of [
     ).toEqual({ aligned: true, scroll: false, stageOverflow: false });
     for (const [button, name] of [
       ['새 무인으로 출전 →', 'create'],
-      ['화면 설정', 'settings'],
+      ['설정', 'settings'],
       ['기록', 'records'],
     ]) {
       await page.getByRole('button', { name: button, exact: true }).click();
@@ -398,7 +398,7 @@ test('실제 공격으로 첫 레벨·증강 선택·전리품·다음 웨이브
   await expect(page.locator('.inventory-workspace')).toBeVisible();
   await expect(page.locator('.inventory-workspace')).toBeVisible();
   await page.getByRole('button', { name: '금창약 선택' }).last().click();
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await page.getByRole('button', { name: '다음 2웨이브 →' }).click();
   await page.getByRole('button', { name: '남은 물품 두고 진행' }).click();
   await expect(page.locator('.progress-panel')).toContainText('2');
@@ -417,14 +417,14 @@ test('정리판 폐기 취소·확인과 수납 회전', async ({ page }) => {
   await expect(page.getByRole('alertdialog')).toBeVisible();
   await page.getByRole('button', { name: '계속 정리' }).click();
   await page.getByRole('button', { name: '회전', exact: true }).click();
-  await page.getByRole('button', { name: '일반 가방으로', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   expect((await saved(page)).run!.fighter.items.find((i) => i.id === 'extra-sword')).toMatchObject({
     rotated: true,
     place: 'general',
     x: 1,
     y: 0,
   });
-  await page.getByRole('button', { name: '꺼내기' }).click();
+  await page.getByRole('button', { name: '획득 물품으로' }).click();
   await page.getByRole('button', { name: '폐기', exact: true }).click();
   await page.getByRole('alertdialog').getByRole('button', { name: '폐기', exact: true }).click();
   await expect(page.getByRole('alertdialog')).toHaveCount(0);
@@ -492,7 +492,7 @@ test('최종 보스를 실제로 처치하고 명부·창고·수명에 반영',
   await page.getByRole('button', { name: '창고', exact: true }).click();
   await expect(page.getByRole('dialog', { name: '세가 창고' })).toContainText('수련검');
   await page.getByRole('button', { name: '수련검 선택' }).click();
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '무장 가방에 수납', exact: true }).click();
   const returned = await saved(page);
   expect(returned.family.warehouse).toHaveLength(0);
   expect(
@@ -665,15 +665,15 @@ test('메인 로비에서 입문 안내·기록·음소거와 이름 입력을 �
 });
 test('화면 가독성 설정을 저장하고 일시 정지 메뉴에서도 연다', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: '화면 설정' }).click();
-  const settings = page.getByRole('dialog', { name: '화면 설정' });
+  await page.getByRole('button', { name: '설정' }).click();
+  const settings = page.getByRole('dialog', { name: '설정' });
   await expect(settings).toBeVisible();
   await settings.getByRole('switch', { name: /전투 HUD 큰 글씨/ }).click();
   await settings.getByRole('switch', { name: /높은 대비/ }).click();
   await expect(page.locator('.app-shell')).toHaveAttribute('data-large-hud', 'true');
   await expect(page.locator('.app-shell')).toHaveAttribute('data-high-contrast', 'true');
   await page.reload();
-  await page.getByRole('button', { name: '화면 설정' }).click();
+  await page.getByRole('button', { name: '설정' }).click();
   await expect(settings.getByRole('switch', { name: /전투 HUD 큰 글씨/ })).toHaveAttribute(
     'aria-checked',
     'true',
@@ -682,15 +682,15 @@ test('화면 가독성 설정을 저장하고 일시 정지 메뉴에서도 연�
     'aria-checked',
     'true',
   );
-  await page.getByRole('button', { name: '화면 설정 닫기' }).click();
+  await page.getByRole('button', { name: '설정 닫기' }).click();
   await page.getByRole('button', { name: '새 무인으로 출전 →' }).click();
   await page.getByRole('button', { name: '강호에 나서기 →' }).click();
   await expect(page.locator('canvas')).toBeVisible();
   await page.screenshot({ path: '.cache/combat-high-contrast.png', animations: 'disabled' });
   await page.getByRole('button', { name: '일시 정지' }).click();
-  await page.getByRole('button', { name: '화면 설정' }).click();
+  await page.getByRole('button', { name: '설정' }).click();
   await expect(settings).toBeVisible();
-  await page.getByRole('button', { name: '화면 설정 닫기' }).click();
+  await page.getByRole('button', { name: '설정 닫기' }).click();
   await expect(page.getByRole('dialog', { name: '여정을 잠시 멈추다' })).toBeVisible();
 });
 
@@ -789,7 +789,7 @@ test('전체 화면 가방은 노트북·125% 배율·좁은 화면에서 핵심
   await expect(page.getByRole('button', { name: '철광석 선택' }).first()).toBeVisible();
   await page.getByRole('button', { name: '전리품 이전 페이지' }).click();
   await page.getByRole('button', { name: '철광석 선택' }).first().click();
-  await page.getByRole('button', { name: '수납', exact: true }).click();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).click();
   await expectWorkspaceFits(page);
   expect((await saved(page)).run!.fighter.items.find((i) => i.id === 'loot-0')?.place).toBe(
     'general',
@@ -907,9 +907,9 @@ test('많은 창고 물품과 네 무공을 스크롤 없이 관리하고 이동
   ).toBeFocused();
 });
 
-test('화면 설정에서 네이티브 전체 화면으로 전환하고 나올 수 있다', async ({ page }) => {
+test('설정에서 네이티브 전체 화면으로 전환하고 나올 수 있다', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   const supported = await page.evaluate(() => document.fullscreenEnabled);
   test.skip(!supported, '이 브라우저는 네이티브 전체 화면을 지원하지 않음');
   await page.getByRole('button', { name: /^전체 화면으로 전환/ }).click();
@@ -917,7 +917,7 @@ test('화면 설정에서 네이티브 전체 화면으로 전환하고 나올 �
   await page.getByRole('button', { name: /^전체 화면 나가기/ }).click();
   await expect.poll(() => page.evaluate(() => !!document.fullscreenElement)).toBe(false);
   await page.keyboard.press('Escape');
-  await expect(page.getByRole('button', { name: '화면 설정', exact: true })).toBeFocused();
+  await expect(page.getByRole('button', { name: '설정', exact: true })).toBeFocused();
 });
 
 test('그림 에셋을 실제로 로드하고 일곱 물품과 네 무공을 가방에 표시한다', async ({ page }) => {
@@ -1059,10 +1059,10 @@ test('150% UI에서 잡은 칸 기준 드래그·충돌·회전·키보드 수�
   await expect
     .poll(async () => (await saved(page)).family.roster[0].items.find((i) => i.id === 'drag-robe'))
     .toMatchObject({ x: 5, y: 3, rotated: true });
-  await page.getByRole('button', { name: '꺼내기', exact: true }).focus();
+  await page.getByRole('button', { name: '획득 물품으로', exact: true }).focus();
   await page.keyboard.press('Enter');
-  await expect(page.getByRole('button', { name: '수납', exact: true })).toBeEnabled();
-  await page.getByRole('button', { name: '수납', exact: true }).focus();
+  await expect(page.getByRole('button', { name: '일반 가방에 수납', exact: true })).toBeEnabled();
+  await page.getByRole('button', { name: '일반 가방에 수납', exact: true }).focus();
   await page.keyboard.press('Enter');
   await expect
     .poll(async () => (await saved(page)).family.roster[0].items.find((i) => i.id === 'drag-robe'))

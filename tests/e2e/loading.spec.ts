@@ -115,7 +115,7 @@ test('그림 장애가 지속되어도 기본 화면으로 창고와 설정을 �
   await page.goto('/');
   await page.getByRole('button', { name: '기본 화면으로 계속' }).click();
   await expect(page.locator('.app-shell')).toHaveAttribute('data-art-fallback', 'true');
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await expect(page.locator('#game-language')).toBeVisible();
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: '창고', exact: true }).click();

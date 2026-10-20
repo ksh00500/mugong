@@ -7,7 +7,7 @@ export function mountGame(
   parent: HTMLElement,
   images: PreparedImages,
   onReady: () => void,
-  onLost?: () => void,
+  onLost?: (reason: 'images' | 'graphics') => void,
   onRegionProgress?: (progress: ImageProgress | null) => void,
 ) {
   const probe = document.createElement('canvas');
@@ -29,21 +29,22 @@ export function mountGame(
     transparent: !software,
     backgroundColor: '#354b3d',
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
-    scene: [new CombatScene(images, onReady, () => lost(), onRegionProgress)],
+    scene: [new CombatScene(images, onReady, () => lost('images'), onRegionProgress)],
     audio: { noAudio: true },
     render: { antialias: true, pixelArt: false },
     banner: false,
   });
-  const lost = () => {
+  const lost = (reason: 'images' | 'graphics' = 'graphics') => {
     gameStore.rendererReady = false;
     gameStore.paused = true;
     // Do not checkpoint potentially stale state in a graphics failure handler.
     gameStore.notify();
-    onLost?.();
+    onLost?.(reason);
   };
-  game.renderer.on(Phaser.Renderer.Events.LOSE_WEBGL, lost);
+  const contextLost = () => lost('graphics');
+  game.renderer.on(Phaser.Renderer.Events.LOSE_WEBGL, contextLost);
   return () => {
-    game.renderer.off(Phaser.Renderer.Events.LOSE_WEBGL, lost);
+    game.renderer.off(Phaser.Renderer.Events.LOSE_WEBGL, contextLost);
     game.destroy(true);
   };
 }

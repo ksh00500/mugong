@@ -13,6 +13,7 @@
 @import './layout.css' layer(legacy);
 @import './glance-ui.css' layer(legacy);
 @import './ui/meters.css' layer(components);
+@import './ui/controls.css' layer(components);
 @import './combat-hud.css' layer(components);
 @import './ui/growth.css' layer(components);
 @import './ui/settings.css' layer(components);
@@ -27,3 +28,4 @@
 
 @import './ui/recruitment.css' layer(components);
 @import './ui/character-info.css' layer(components);
+@import './ui/loading.css' layer(components);

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ARTS } from '../domain/content';
 import { equipmentComparisons } from '../domain/equipment-comparison';
 import type { BoundFighter, Item } from '../domain/model';
-import { t } from '../platform/i18n';
+import { t, formatNumber } from '../platform/i18n';
 import { ItemArt } from './Icons';
 
 export function EquipmentComparison({ fighter, item }: { fighter: BoundFighter; item: Item }) {
@@ -11,7 +11,7 @@ export function EquipmentComparison({ fighter, item }: { fighter: BoundFighter; 
   const key = (row: (typeof rows)[number]) => row.arts.join(',') || 'equipment';
   const selected = rows.find((row) => key(row) === choice) ?? rows[0];
   if (!selected) return null;
-  const number = (value: number) => `${value.toFixed(1)}${selected.percent ? '%' : ''}`;
+  const number = (value: number) => `${formatNumber(value, 1)}${selected.percent ? '%' : ''}`;
   return (
     <section
       className="equipment-comparison"
@@ -20,6 +20,7 @@ export function EquipmentComparison({ fighter, item }: { fighter: BoundFighter; 
     >
       {rows.length > 1 && (
         <select
+          className="ui-input"
           aria-label={t('비교할 무공')}
           value={key(selected)}
           onChange={(event) => setChoice(event.target.value)}

@@ -86,7 +86,7 @@ test('공개 음악은 키보드로 시작하고 소리 설정을 저장하며 �
       page.evaluate(() => (window as unknown as { releaseMusicStarts: number }).releaseMusicStarts),
     )
     .toBeGreaterThan(0);
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.getByRole('tab', { name: '소리', exact: true }).click();
   for (const [key, value] of [
     ['master', 55],
@@ -95,7 +95,7 @@ test('공개 음악은 키보드로 시작하고 소리 설정을 저장하며 �
     ['ambient', 10],
   ] as const)
     await page.locator(`#audio-${key}`).fill(String(value));
-  await page.getByRole('switch', { name: '모든 소리 끄기' }).click();
+  await page.getByRole('switch', { name: '음소거' }).click();
   const outside = await page.locator('.audio-settings').evaluate((root) =>
     [...root.querySelectorAll('input,button,small')]
       .filter((el) => {

@@ -11,6 +11,7 @@ import { ItemTile } from './InventoryItem';
 import { PagedItems } from './PagedItems';
 import { Modal } from './shared';
 import { isTopDialog } from './dialog-layer';
+import { itemQuantity, stowLabel } from '../platform/ui-copy';
 
 export function Warehouse({ view, close }: { view: View; close: () => void }) {
   const [id, setId] = useState('');
@@ -89,8 +90,9 @@ export function Warehouse({ view, close }: { view: View; close: () => void }) {
   return (
     <Modal title={t('세가 창고')} onClose={close} wide className="warehouse-workspace">
       <div className="warehouse-toolbar">
-        <strong>{t('{0}개 물품', { 0: view.state.family.warehouse.length })}</strong>
+        <strong>{itemQuantity(view.state.family.warehouse)}</strong>
         <input
+          className="ui-input"
           type="search"
           aria-label={t('창고 검색')}
           placeholder={t('창고 검색')}
@@ -98,6 +100,7 @@ export function Warehouse({ view, close }: { view: View; close: () => void }) {
           onChange={(event) => setQuery(event.target.value)}
         />
         <select
+          className="ui-input"
           aria-label={t('물품 종류')}
           value={kind}
           onChange={(event) => setKind(event.target.value)}
@@ -185,7 +188,7 @@ export function Warehouse({ view, close }: { view: View; close: () => void }) {
                 title={reason || undefined}
                 onClick={() => take(item)}
               >
-                {t('가방으로')} <kbd>F</kbd>
+                {stowLabel(item.kind === 'sword' ? 'weapon' : 'general')} <kbd>F</kbd>
               </button>
               {reason && <p className="warehouse-reason">{reason}</p>}
             </>

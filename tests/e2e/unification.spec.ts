@@ -47,7 +47,7 @@ test('키보드 첫 입력으로 소리를 시작하고 음소거·네 음량을
   await page.keyboard.press('Tab');
   await expect.poll(async () => (await audio(page)).context).toBe('running');
   await expect.poll(async () => (await audio(page)).track).toBe('lobby-v1');
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.getByRole('tab', { name: '소리', exact: true }).click();
   for (const [key, value] of [
     ['master', 55],
@@ -56,7 +56,7 @@ test('키보드 첫 입력으로 소리를 시작하고 음소거·네 음량을
     ['ambient', 10],
   ] as const)
     await page.locator(`#audio-${key}`).fill(String(value));
-  await page.getByRole('switch', { name: '모든 소리 끄기' }).click();
+  await page.getByRole('switch', { name: '음소거' }).click();
   await expect.poll(async () => (await audio(page)).master).toBeLessThan(0.001);
   await page.setViewportSize({ width: 1093, height: 614 });
   const issues = await page.locator('.settings-dialog').evaluate((root) =>
@@ -463,7 +463,7 @@ test('다섯 언어·세 해상도에서 성장 세 후보와 큰 HUD의 실제 
 test('음량 설정은 다섯 언어와 작은 창에서도 네 채널과 닫기를 모두 보여준다', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('.home-scene')).toBeVisible();
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.getByRole('tab', { name: '소리', exact: true }).click();
   for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW']) {
     await page.evaluate(

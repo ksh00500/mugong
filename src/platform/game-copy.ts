@@ -4,11 +4,14 @@ import type { ArtId, Fighter, Item } from '../domain/model';
 import { DEFENSE_RULES, techniqueStats } from '../domain/techniques';
 import { t } from './i18n';
 import { medicineFactor } from '../domain/character';
+import { displayValue } from './ui-copy';
 
 export function itemDescription(item: Item, fighter?: Fighter) {
   switch (item.kind) {
     case 'medicine':
-      return t('체력 {0} 회복 · 전투 후 바로 사용', { 0: item.power * medicineFactor(fighter ?? {}) });
+      return t('체력 {0} 회복 · 전투 후 바로 사용', {
+        0: displayValue(item.power * medicineFactor(fighter ?? {})),
+      });
     case 'manual':
       return t('경험치 +{0} · 기본 능력 성장', { 0: item.power });
     case 'sword':
@@ -35,13 +38,13 @@ export function itemEffect(item: Item, fighter?: Fighter) {
   switch (item.kind) {
     case 'sword':
     case 'charm':
-      return t('공격 +{0}', { 0: item.power.toFixed(1) });
+      return t('공격 +{0}', { 0: displayValue(item.power) });
     case 'robe':
-      return t('받는 피해 −{0}', { 0: item.power.toFixed(1) });
+      return t('받는 피해 −{0}', { 0: displayValue(item.power) });
     case 'boots':
       return t('이동 속도 +{0}%', { 0: Math.round(((item.power * 8) / 265) * 1000) / 10 });
     case 'medicine':
-      return t('체력 +{0}', { 0: item.power * medicineFactor(fighter ?? {}) });
+      return t('체력 +{0}', { 0: displayValue(item.power * medicineFactor(fighter ?? {})) });
     case 'manual':
       return t('경험치 +{0}', { 0: item.power });
     case 'ore':
@@ -55,7 +58,7 @@ export function defenseDescription(id: ArtId, level: number, fighter?: Fighter) 
   if (id === 'wudang')
     return t('{0}초 안에 공격을 받으면 막고 반격합니다. 반격 피해 {1}, 궁극 충전 +{2}.', {
       0: stats.guardDuration,
-      1: stats.counterDamage,
+      1: displayValue(stats.counterDamage),
       2: Math.round(stats.counterGauge * 100) / 100,
     });
   if (id === 'samja')
@@ -67,7 +70,7 @@ export function defenseDescription(id: ArtId, level: number, fighter?: Fighter) 
   if (id === 'shaolin' || id === 'jegal')
     return t('{0}초 동안 받는 피해를 {1}% 줄입니다.', { 0: stats.guardDuration, 1: 70 });
   return t('전방 피해 {0}. 최근 잃은 체력 일부를 되찾습니다.', {
-    0: stats.leechDamage,
+    0: displayValue(stats.leechDamage),
   });
 }
 export function techniqueCopy(id: ArtId, level: number, fighter?: Fighter) {
@@ -77,7 +80,7 @@ export function techniqueCopy(id: ArtId, level: number, fighter?: Fighter) {
     description: t(d.description),
     attack: t('공격력 배율 ×{0} · 공격 간격 {1}초', {
       0: Math.round(stats.multiplier * 100) / 100,
-      1: Math.round(stats.attackInterval * 1000) / 1000,
+      1: displayValue(stats.attackInterval, 2),
     }),
     defense: defenseDescription(id, level, fighter),
     cooldown: t('재사용 {0}초', { 0: Math.round(stats.defenseCooldown * 100) / 100 }),
@@ -95,9 +98,16 @@ export function techniqueCopy(id: ArtId, level: number, fighter?: Fighter) {
                   ? t('진점 네 개를 5초 동안 연결해 진동 피해를 줍니다.')
                   : id === 'tang'
                     ? t('주변 적의 독을 폭발시키고 중첩 절반을 남깁니다.')
-                    : t('궁극 피해 {0} · 게이지 100 필요', { 0: stats.ultimateDamage })
+                    : t('궁극 피해 {0} · 게이지 100 필요', {
+                        0: displayValue(stats.ultimateDamage),
+                      })
           : t('궁극은 Lv.{0}에 개방됩니다.', { 0: stats.ultimateLevel }),
-    extra: id === 'samja' && level >= 8 ? t('A·B·C 세 초식을 순서대로 사용합니다.') : level >= 3 ? t('A와 B 초식을 번갈아 사용합니다.') : '',
+    extra:
+      id === 'samja' && level >= 8
+        ? t('A·B·C 세 초식을 순서대로 사용합니다.')
+        : level >= 3
+          ? t('A와 B 초식을 번갈아 사용합니다.')
+          : '',
     healing: id === 'tianmo' ? t('최근 4초의 손실 체력을 공격으로 회복 · 저장 한도 24') : '',
     advanced:
       id === 'samja' && level >= 9

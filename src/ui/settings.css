@@ -95,10 +95,10 @@
 }
 .app-shell .settings-dialog select {
   padding: 6px 10px;
-  border: 1px solid var(--brass-line);
-  border-radius: var(--radius-control);
-  background: var(--paper-light);
-  color: var(--ink);
+  border: 1px solid var(--input-border);
+  border-radius: var(--input-radius);
+  background: var(--input-surface);
+  color: var(--input-ink);
 }
 .app-shell .settings-dialog .screen-settings.glance-settings > button {
   min-height: 68px;

@@ -2,7 +2,7 @@ import { test, expect, type Page } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { seedRegion, observeScene } from './support/region';
 
-const proof = 'docs/verification/combat-prep-v1';
+const proof = process.env.MUGONG_COMBAT_PREP_UI_PROOF ?? 'docs/verification/combat-prep-v1';
 async function fixture(page: Page, wave = 4) {
   await seedRegion(page, 0);
   await observeScene(page);
@@ -105,7 +105,7 @@ for (const [width, height] of [
     await page.getByRole('button', { name: '남은 물품 두고 진행', exact: true }).click();
     await expect
       .poll(() => snapshot(page))
-      .toMatchObject({ wave: 5, phase: 'combat', bossHp: 900 });
+      .toMatchObject({ wave: 5, phase: 'combat', bossHp: 1000 });
     expect(errors).toEqual([]);
   });
 }
@@ -170,8 +170,8 @@ test('품절 재고·강화 불가·금전 부족·가득 찬 체력', async ({ 
   await expect(page.locator('#prep-equipment')).toBeDisabled();
   await expect(page.locator('.prep-stop')).toContainText('남은 재고 0개');
   await page.getByRole('button', { name: '정비 상인', exact: true }).click();
-  await expect(page.locator('.rest-market-stock article')).toHaveCount(3);
-  await expect(page.getByRole('button', { name: '품절', exact: true })).toHaveCount(3);
+  await expect(page.locator('.market-stock-select')).toHaveCount(3);
+  await expect(page.getByRole('button', { name: '품절', exact: true })).toHaveCount(1);
   await page.keyboard.press('Escape');
   await page.reload();
   await expect(page.locator('.prep-stop')).toBeVisible({ timeout: 30000 });

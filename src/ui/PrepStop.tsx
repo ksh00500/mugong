@@ -18,6 +18,7 @@ import { gameStore } from '../platform/store';
 import { itemEffect } from '../platform/game-copy';
 import { Icon, ItemArt } from './Icons';
 import { Meter } from './shared';
+import { bossBriefing, displayValue } from '../platform/ui-copy';
 
 export function PrepStop({
   run,
@@ -51,6 +52,7 @@ export function PrepStop({
   const canRefine =
     !!next && run.gold >= REFINE_COST.gold && materialCount >= REFINE_COST.materials;
   const boss = bossDefinition({ ...run, wave: run.wave + 1 });
+  const briefing = boss ? bossBriefing(boss.id) : [];
   const stock = run.supplies ?? merchantSupplies(run);
   const medicine = makeLootItem('medicine-small', 'physician-preview', 'ground');
   const merchandise = makeLootItem(
@@ -81,7 +83,11 @@ export function PrepStop({
         <b className="prep-gold">{t('소지금 {0}전', { 0: run.gold })}</b>
       </header>
       <div className="prep-services">
-        <article className="prep-service" aria-labelledby="prep-medic">
+        <article
+          className="prep-service"
+          aria-labelledby="prep-medic"
+          data-recommended={f.hp / offer.maximum <= 0.5}
+        >
           <div className="prep-service-title">
             <ItemArt item={medicine} kind="medicine" />
             <div>
@@ -99,13 +105,13 @@ export function PrepStop({
             <Meter value={f.hp} max={offer.maximum} identity={f.id} />
             <p>
               {offer.amount > 0
-                ? t('체력 {0} 회복', { 0: Number(offer.amount.toFixed(1)) })
+                ? t('체력 {0} 회복', { 0: displayValue(offer.amount) })
                 : t('체력이 가득 찼습니다.')}
             </p>
             <small>{t('치료 비용은 1회 12전입니다.')}</small>
           </div>
           <button
-            className="primary"
+            aria-describedby="prep-heal-reason"
             disabled={busy || !offer.available}
             onClick={async () => {
               if (await gameStore.dispatch({ type: 'heal' })) setNotice('치료를 마쳤습니다.');
@@ -113,8 +119,16 @@ export function PrepStop({
           >
             {t('의원 · 회복 12전')}
           </button>
-          <small className="prep-reason">
-            {offer.amount > 0 && run.gold < offer.price ? t('금전 부족') : '\u00a0'}
+          <small className="prep-reason" id="prep-heal-reason">
+            {busy
+              ? t('저장 중')
+              : offer.amount <= 0
+                ? t('체력이 가득 찼습니다.')
+                : run.gold < offer.price
+                  ? t('금전 부족')
+                  : f.hp / offer.maximum <= 0.5
+                    ? t('보스 전투 전에 회복을 권합니다.')
+                    : '\u00a0'}
           </small>
         </article>
         <article className="prep-service" aria-labelledby="prep-vendor">
@@ -156,6 +170,7 @@ export function PrepStop({
           <div className="prep-service-body">
             <label htmlFor="prep-equipment">{t('강화할 장비')}</label>
             <select
+              className="ui-input"
               id="prep-equipment"
               value={item?.id ?? ''}
               disabled={busy || !item}
@@ -178,6 +193,7 @@ export function PrepStop({
             </small>
           </div>
           <button
+            aria-describedby="prep-refine-reason"
             disabled={busy || !canRefine}
             onClick={async () => {
               if (item && (await gameStore.dispatch({ type: 'refine', id: item.id })))
@@ -186,16 +202,18 @@ export function PrepStop({
           >
             {t('강화 · {0}전 + 재료 {1}', { 0: REFINE_COST.gold, 1: REFINE_COST.materials })}
           </button>
-          <small className="prep-reason">
-            {!next
-              ? item
-                ? t('이 장비는 더 강화할 수 없습니다.')
-                : t('강화할 수 있는 장비가 없습니다.')
-              : run.gold < REFINE_COST.gold
-                ? t('금전 부족')
-                : materialCount < REFINE_COST.materials
-                  ? t('재료 부족')
-                  : t('장비당 최대 두 번 강화')}
+          <small className="prep-reason" id="prep-refine-reason">
+            {busy
+              ? t('저장 중')
+              : !next
+                ? item
+                  ? t('이 장비는 더 강화할 수 없습니다.')
+                  : t('강화할 수 있는 장비가 없습니다.')
+                : run.gold < REFINE_COST.gold
+                  ? t('금전 부족')
+                  : materialCount < REFINE_COST.materials
+                    ? t('재료 부족')
+                    : t('장비당 최대 두 번 강화')}
           </small>
         </article>
       </div>
@@ -211,6 +229,16 @@ export function PrepStop({
               ? t('현재 무공의 무장을 연결하세요.')
               : t('무공과 장비를 확인하고 출발하세요.')}
           </small>
+          {!!briefing.length && (
+            <ul className="prep-boss-moves">
+              {briefing.map((entry) => (
+                <li key={entry.label}>
+                  <b>{t(entry.label)}</b>
+                  <span>{t(entry.advice)}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
       <footer className="prep-actions">

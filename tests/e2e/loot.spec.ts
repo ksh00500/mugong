@@ -73,7 +73,7 @@ async function fits(page: Page, root: string) {
     for (const element of [
       root,
       ...root.querySelectorAll(
-        'button,h2,h3,h4,dd,.item-detail,.rest-market-stock article,.journey-totals',
+        'button,h2,h3,h4,dd,.item-detail,.market-stock-select,.journey-totals',
       ),
     ]) {
       const el = element as HTMLElement,
@@ -138,10 +138,10 @@ for (const [width, height] of [
     await page.getByRole('button', { name: '무인의 가방 닫기' }).click();
     await page.getByRole('button', { name: '정비 상인', exact: true }).click();
     await fits(page, '.rest-market');
-    await page.locator('.rest-market-stock article').first().getByRole('button').click();
+    await page.locator('.market-purchase button').click();
     await expect(page.locator('.rest-market-status')).toContainText('74');
     await page.screenshot({ path: `${proof}/market-${width}.png` });
-    await page.getByRole('button', { name: '가방 정리', exact: true }).click();
+    await page.getByRole('button', { name: '가방과 획득 물품', exact: true }).click();
     const purchased = page.locator('.ground-section [data-item-id*="vendor-"]');
     await expect(purchased).toHaveCount(1);
     await purchased.click();
@@ -153,7 +153,7 @@ for (const [width, height] of [
     await page.reload();
     await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true');
     await page.getByRole('button', { name: '정비 상인', exact: true }).click();
-    await expect(page.locator('.rest-market-stock article').first()).toContainText('재고 2');
+    await expect(page.locator('.market-stock-select').first()).toContainText('재고 2');
     const result = await saved(page);
     expect(result.run!.gold).toBe(74);
     expect(result.run!.fighter.items.find((item) => item.id === weaponId)?.upgrades).toBe(2);

@@ -136,8 +136,13 @@
   min-width: 0;
   flex: 1;
   padding: 10px;
-  font-size: 22px;
+  font-size: 18px;
+  background:var(--input-surface);
+  color:var(--input-ink);
+  border:1px solid var(--input-border);
+  border-radius:var(--input-radius);
 }
+.recruitment-footer > .action-hint { margin-top:4px;font-size:13px;text-align:right; }
 .recruitment-actions {
   display: flex;
   gap: 12px;

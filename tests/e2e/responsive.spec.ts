@@ -190,7 +190,7 @@ test('창 크기 연속 변경: 긴 이름·네 무공·큰 HUD·가방·성장'
   await scan('bindings', '.inventory-workspace');
   await scan('equipment', '.inventory-workspace');
   await page.keyboard.press('Escape');
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await scan('settings', '.dialog');
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: '새 무인으로 출전 →', exact: true }).click();
@@ -227,7 +227,7 @@ test('긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장', 
   state.run!.fighter.items.push({ ...makeItem('robe', 'english-robe', 'general'), x: 3, y: 2 });
   command(state, { type: 'next' });
   await seed(page, state);
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.locator('#game-language').selectOption('en');
   await page.keyboard.press('Escape');
   const button = (key: string) => page.getByRole('button', { name: messages[key][0], exact: true });
@@ -263,7 +263,7 @@ test('긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장', 
   await scan('bag', '.inventory-workspace');
   await scan('bindings', '.inventory-workspace');
   await page.keyboard.press('Escape');
-  await button('화면 설정').click();
+  await button('설정').click();
   await scan('settings', '.dialog');
   await page.keyboard.press('Escape');
   const growing = emptyGame();

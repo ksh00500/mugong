@@ -55,6 +55,7 @@ it('화면·무공·물품·상태 문구에 네 번역과 동일한 변수가 �
     'src/platform/session.ts',
     'src/game/feedback.ts',
     'src/platform/game-copy.ts',
+    'src/platform/ui-copy.ts',
   ];
   for (const file of files) {
     const ast = ts.createSourceFile(file, readFileSync(file, 'utf8'), ts.ScriptTarget.Latest, true);

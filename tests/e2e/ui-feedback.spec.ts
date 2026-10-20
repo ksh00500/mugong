@@ -232,18 +232,18 @@ test('카메라 강도·정지·조준 보정·고정 HUD·움직임 감소', as
   await writeFile(`${proof}/camera.json`, JSON.stringify(report, null, 2));
 });
 
-test('화면 설정 저장·키보드·5언어·고대비', async ({ page }) => {
+test('설정 저장·키보드·5언어·고대비', async ({ page }) => {
   test.setTimeout(90000);
   await page.setViewportSize({ width: 1093, height: 614 });
   await page.goto('/');
   await expect(page.locator('.home-scene')).toBeVisible({ timeout: 45000 });
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await page.getByLabel('화면 흔들림', { exact: true }).selectOption('off');
   await expect(page.getByLabel('화면 흔들림', { exact: true })).toHaveValue('off');
   await page.keyboard.press('Escape');
-  await expect(page.getByRole('button', { name: '화면 설정', exact: true })).toBeFocused();
+  await expect(page.getByRole('button', { name: '설정', exact: true })).toBeFocused();
   await page.reload();
-  await page.getByRole('button', { name: '화면 설정', exact: true }).click();
+  await page.getByRole('button', { name: '설정', exact: true }).click();
   await expect(page.locator('#screen-shake')).toHaveValue('off');
   await page.getByRole('switch', { name: /높은 대비/ }).click();
   await page.getByRole('switch', { name: /큰 글씨/ }).click();

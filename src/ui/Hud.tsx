@@ -15,6 +15,7 @@ import { characterPortrait } from '../platform/character-art';
 import { HudArtwork } from './HudArtwork';
 import { bossCombatPhase, BOSS_PHASE_LABELS, isBossEnemy } from '../domain/boss-resilience';
 import { bossOpening } from '../domain/boss-recovery';
+import { CombatConditions } from './CombatConditions';
 export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const scope = useRef<HTMLDivElement>(null);
   const f = run.fighter,
@@ -90,6 +91,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
               />
             </div>
           </div>
+          {run.phase === 'combat' && <CombatConditions fighter={f} />}
         </section>
         <div className="boss-area">
           {isBoss(run.wave) && boss && run.phase === 'combat' ? (
@@ -285,7 +287,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                       {a.defenseCd > 0 ? a.defenseCd.toFixed(1) : available ? '✓' : '—'}
                     </b>
                   </div>
-                  <span>{t(defenseName[a.id])}</span>
+                  {index === f.active && <span>{t('현재 방어')}</span>}
                 </div>
               );
             })}
@@ -296,7 +298,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
               {!hasWeapon(f, art.id)
                 ? t('무장 필요')
                 : art.defenseCd > 0
-                  ? t('{0}초', { 0: art.defenseCd.toFixed(1) })
+                  ? t('재사용 중')
                   : t('준비')}
             </small>
           )}

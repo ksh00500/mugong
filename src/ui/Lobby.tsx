@@ -112,7 +112,7 @@ export function Lobby({
           >
             <Icon name={muted ? 'muted' : 'sound'} />
           </button>
-          <button className="home-round-button" aria-label={t('화면 설정')} onClick={openSettings}>
+          <button className="home-round-button" aria-label={t('설정')} onClick={openSettings}>
             <Icon name="settings" />
           </button>
         </div>

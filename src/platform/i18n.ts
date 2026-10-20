@@ -76,12 +76,13 @@ if (typeof window !== 'undefined')
   });
 
 /** Korean source copy is the catalog key; saved game data remains language independent. */
-const numberFormats = new Map<Locale, Intl.NumberFormat>();
-export function formatNumber(value: number): string {
-  let formatter = numberFormats.get(locale);
+const numberFormats = new Map<string, Intl.NumberFormat>();
+export function formatNumber(value: number, maximumFractionDigits = 3): string {
+  const key = `${locale}:${maximumFractionDigits}`;
+  let formatter = numberFormats.get(key);
   if (!formatter) {
-    formatter = new Intl.NumberFormat(locale, { maximumFractionDigits: 3 });
-    numberFormats.set(locale, formatter);
+    formatter = new Intl.NumberFormat(locale, { maximumFractionDigits });
+    numberFormats.set(key, formatter);
   }
   return formatter.format(value);
 }

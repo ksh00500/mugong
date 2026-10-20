@@ -83,7 +83,7 @@ export function combatBaseImages(nativeEnemies: boolean): Record<string, string>
 }
 export type ImageManifest = Readonly<Record<string, string>>;
 export type PreparedImages = Record<string, HTMLImageElement>;
-export type ImageProgress = { completed: number; total: number; stage?: 'images' | 'scene' };
+export type ImageProgress = { completed: number; total: number; stage?: 'images' | 'engine' | 'scene' };
 export type ImageOptions = { priority?: 'high' | 'low' | 'auto'; concurrency?: number };
 const images = new Map<string, { image: HTMLImageElement; request: Promise<HTMLImageElement> }>();
 
