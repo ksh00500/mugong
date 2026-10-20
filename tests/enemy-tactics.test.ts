@@ -135,10 +135,11 @@ it('공격 대기열은 적 세 명의 준비를 유지하고 회복한 자리�
   r.enemies[1].state = 'recover';
   expect(canCommitAttack(r, e)).toBe(true);
 });
-it('보스 내구력을 높이되 일반 적 수치와 패턴 준비시간은 유지한다', () => {
-  expect(BALANCE.bossHp).toEqual([1000, 1725, 2530, 3450]);
-  expect(BALANCE.enemyDamageFactor).toBeCloseTo(1.2);
-  expect(encounterHp(0, false)).toBe(Math.round(32 * 1.65));
+it('보스와 일반 적의 단계별 내구력을 높이되 첫 지역 부담은 낮춘다', () => {
+  expect(BALANCE.bossHp).toEqual([1100, 1900, 2900, 4000]);
+  expect(BALANCE.enemyDamageByStage).toEqual([1.2, 1.3, 1.4, 1.5]);
+  expect(encounterHp(0, false)).toBe(Math.round(32 * 1.55));
+  expect(encounterHp(3, false)).toBe(Math.round(74 * 2.1));
 });
 it('예측 조준은 마지막 준비 잠금 동안 고정되어 회피한 플레이어를 따라가지 않는다', () => {
   const { r, e } = fixture();

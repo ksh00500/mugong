@@ -198,8 +198,10 @@ for (const wave of [9, 14, 19])
     await seed(page, wave);
     await expect(page.locator('.waystation-world')).toHaveCount(0);
     await expect(page.locator('.prep-service')).toHaveCount(3);
-    await page.getByRole('button', { name: '의원 · 회복 12전', exact: true }).click();
+    const price = { 9: 16, 14: 20, 19: 24 }[wave]!;
+    await page.getByRole('button', { name: `의원 · 회복 ${price}전`, exact: true }).click();
     await expect.poll(async () => (await saved(page)).run!.fighter.hp).toBe(145);
+    await expect.poll(async () => (await saved(page)).run!.gold).toBe(100 - price);
     await fits(page.locator('.prep-actions button.primary'), page);
   });
 for (const [width, height] of [

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { seedRegion, observeScene } from './support/region';
-const proof = 'docs/verification/boss-balance-v1/browser';
+const proof = process.env.MUGONG_BOSS_BROWSER_PROOF ?? 'docs/verification/boss-balance-v1/browser';
 
 for (const [width, height, gpu] of [
   [1440, 900, false],

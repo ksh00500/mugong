@@ -16,9 +16,9 @@ export type TraitId = keyof typeof TRAITS;
 export const TRAIT_IDS = Object.keys(TRAITS) as TraitId[];
 export const AUGMENTS = {
   vigor: ['강건', '최대 체력 +60'],
-  might: ['괴력', '근력 +30'],
+  might: ['괴력', '근력 +45'],
   swift: ['경쾌', '기민 +20'],
-  reservoir: ['내공 확장', '내공 +40'],
+  reservoir: ['내공 확장', '내공 +60'],
   iron: ['철벽', '받는 피해 10% 감소'],
   tempo: ['속공', '기본 공격 간격 10% 감소'],
   medicine: ['약리', '약품 회복량 25% 증가'],
@@ -32,17 +32,17 @@ export function characterStats(f: Pick<Fighter, 'level' | 'growth'> & Partial<Fi
   const has = (id: AugmentId) => f.augments?.includes(id);
   return {
     constitution: levels * 10 * (f.growth?.constitution ?? 0),
-    strength: levels * 5 * (f.growth?.strength ?? 0) + (has('might') ? 30 : 0),
+    strength: levels * 5 * (f.growth?.strength ?? 0) + (has('might') ? 45 : 0),
     agility: levels * 3 * (f.growth?.agility ?? 0) + (has('swift') ? 20 : 0),
-    inner: levels * 5 * (f.growth?.inner ?? 0) + (has('reservoir') ? 40 : 0),
+    inner: levels * 5 * (f.growth?.inner ?? 0) + (has('reservoir') ? 60 : 0),
     hpBonus: has('vigor') ? 60 : 0,
   };
 }
 export function augmentOffers(f: Fighter, random: () => number) {
   if (f.progressionVersion !== 2 || f.augmentOffers?.length) return;
-  const due = AUGMENT_LEVELS.filter(level => f.level >= level).length;
+  const due = AUGMENT_LEVELS.filter((level) => f.level >= level).length;
   if ((f.augments?.length ?? 0) >= due) return;
-  const pool = AUGMENT_IDS.filter(id => !f.augments?.includes(id));
+  const pool = AUGMENT_IDS.filter((id) => !f.augments?.includes(id));
   for (let n = pool.length - 1; n > 0; n--) {
     const at = Math.floor(random() * (n + 1));
     [pool[n], pool[at]] = [pool[at], pool[n]];
@@ -56,14 +56,15 @@ export function medicineFactor(f: Partial<Fighter>) {
   return (f.innate === 'herbal' ? 1.25 : 1) * (f.augments?.includes('medicine') ? 1.25 : 1);
 }
 export function innateAttack(f: Fighter, maximum: number) {
-  const state = f.traitState ??= {};
-  const boost = (state.attackBoost ?? 0) + (f.innate === 'gambler' && f.hp < maximum * 0.35 ? 0.2 : 0);
+  const state = (f.traitState ??= {});
+  const boost =
+    (state.attackBoost ?? 0) + (f.innate === 'gambler' && f.hp < maximum * 0.35 ? 0.2 : 0);
   state.attackBoost = 0;
   return 1 + boost;
 }
 export function innateHit(f: Fighter, target: number, sequence = f.attackSeq) {
   if (f.innate !== 'focus') return 1;
-  const state = f.traitState ??= {};
+  const state = (f.traitState ??= {});
   if (state.sequence === sequence && state.target === target) return 1;
   state.hits = state.target === target ? (state.hits ?? 0) + 1 : 1;
   state.target = target;
@@ -72,7 +73,7 @@ export function innateHit(f: Fighter, target: number, sequence = f.attackSeq) {
 }
 export function stepTraits(f: Fighter, dt: number) {
   if (!f.innate) return;
-  const state = f.traitState ??= {};
+  const state = (f.traitState ??= {});
   state.untouched = Math.min(5, (state.untouched ?? 0) + dt);
   state.switchCd = Math.max(0, (state.switchCd ?? 0) - dt);
   state.momentum = Math.max(0, (state.momentum ?? 0) - dt);

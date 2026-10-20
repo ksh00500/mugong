@@ -124,7 +124,7 @@ for (const [width, height] of [
       expect(row.body.bottom).toBeLessThanOrEqual(row.action.top + 1);
     }
     await shot(page, `waystation-${width}`);
-    const heal = prep.getByRole('button', { name: '의원 · 회복 12전', exact: true });
+    const heal = prep.getByRole('button', { name: '의원 · 회복 16전', exact: true });
     await heal.focus();
     await page.keyboard.press('Enter');
     await expect.poll(async () => (await saved(page)).run!.fighter.hp).toBe(145);
@@ -162,10 +162,10 @@ test('decorative art failure never blocks preparation actions', async ({ page })
   await expect(page.locator('.asset-loading[data-error="true"]')).toHaveCount(0);
   const prep = page.locator('.prep-stop');
   await expect(prep.locator('.prep-npc')).toHaveCount(0);
-  await prep.getByRole('button', { name: '의원 · 회복 12전', exact: true }).click();
+  await prep.getByRole('button', { name: '의원 · 회복 16전', exact: true }).click();
   await expect.poll(async () => (await saved(page)).run!.fighter.hp).toBe(145);
   await prep.getByRole('button', { name: '강화 · 12전 + 재료 2', exact: true }).click();
-  await expect.poll(async () => (await saved(page)).run!.gold).toBe(76);
+  await expect.poll(async () => (await saved(page)).run!.gold).toBe(72);
   await shot(page, 'art-failure-small');
 });
 for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'])

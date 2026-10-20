@@ -93,7 +93,7 @@ export function techniqueCopy(id: ArtId, level: number, fighter?: Fighter) {
             : id === 'tianmo'
               ? t('5초 동안 공격을 강화하며 체력을 소모합니다.')
               : id === 'shaolin'
-                ? t('5초 동안 피해 45% 경감 · 적중 시 추가 충격파')
+                ? t('5초 동안 피해 35% 경감 · 적중 시 추가 충격파')
                 : id === 'jegal'
                   ? t('진점 네 개를 5초 동안 연결해 진동 피해를 줍니다.')
                   : id === 'tang'

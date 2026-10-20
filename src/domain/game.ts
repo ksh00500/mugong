@@ -9,7 +9,13 @@ import {
 } from './character';
 import { recruitmentAction, recruitmentView } from './recruitment';
 import { isWalkablePreparation, walkWaystation } from './waystation';
-import { BALANCE, encounterHp } from './balance';
+import {
+  BALANCE,
+  encounterHp,
+  balanceStage,
+  ordinaryHpFactor,
+  ordinaryDamageFactor,
+} from './balance';
 import { healingOffer } from './preparation';
 import { isBossEnemy, clearBossControl } from './boss-resilience';
 import { bossCommitRange, commitBossPressure, stepBossPressure } from './boss-pressure';
@@ -396,7 +402,12 @@ function fx(
 function killEnemy(r: Run, e: Enemy) {
   if (r.fighter.innate === 'momentum') (r.fighter.traitState ??= {}).momentum = 2;
   r.kills++;
-  r.gold += e.bossId || e.kind === 'chief' || e.kind === 'captain' ? 25 : e.xp ? 4 : 0;
+  r.gold +=
+    e.bossId || e.kind === 'chief' || e.kind === 'captain'
+      ? BALANCE.bossGoldByStage[balanceStage(Math.floor((r.wave - 1) / 5))]
+      : e.xp
+        ? BALANCE.ordinaryGold
+        : 0;
   grantXp(r, e.xp);
   const art = r.fighter.arts[r.fighter.active];
   const support = supportStats(r.fighter);
@@ -480,7 +491,7 @@ function hitEnemy(
     sourceArt !== 'jegal' &&
     distance(e, r.fighter) <= 180
   )
-    damage *= 1.15;
+    damage *= BALANCE.meleeOpeningBonus;
   const factor = bossDamageFactor(r, e);
   damage *= factor;
   if (
@@ -575,9 +586,9 @@ function damagePlayer(r: Run, amount: number, emit?: CombatCueSink) {
     return;
   }
   const actual =
-    Math.max(1, amount - equipmentBonus(f, 'robe')) *
+    Math.max(1, amount * BALANCE.armourMinimumDamageFactor, amount - equipmentBonus(f, 'robe')) *
     (f.guard > 0 ? DEFENSE_RULES.guardDamageFactor : 1) *
-    (f.fortify && f.fortify > 0 ? 0.55 : 1) *
+    (f.fortify && f.fortify > 0 ? 0.65 : 1) *
     support.incomingDamageFactor;
   if (f.guard > 0) emit?.({ kind: 'defense', x: f.x, y: f.y, angle: f.facing, action: 'block' });
   const before = f.hp;
@@ -637,9 +648,9 @@ function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) 
         y: combatOrigin(f).y + Math.sin(angle) * 42,
         vx: Math.cos(angle) * 680,
         vy: Math.sin(angle) * 680,
-        life: 1.2 * supportStats(f).attackRangeFactor,
+        life: (a.art === 'tang' ? 0.9 : 1.05) * supportStats(f).attackRangeFactor,
         friendly: true,
-        damage: a.damage * (count === 3 ? 0.69 : 1),
+        damage: a.damage * (count === 3 ? 0.6 : 1),
         radius: a.art === 'tang' ? 12 : 22,
         hits: [],
         art: a.art,
@@ -809,11 +820,12 @@ function attack(r: Run, input: InputFrame) {
   const stats = techniqueStats(art?.id, art?.level, f);
   const mult = stats.multiplier;
   const empowered = (art?.buffTime ?? 0) > 0;
-  f.cooldown = stats.attackInterval * (art?.id === 'tianmo' && empowered ? 0.7 : 1);
+  f.cooldown = stats.attackInterval * (art?.id === 'tianmo' && empowered ? 0.8 : 1);
   const thrust =
     (art?.id === 'shaolin' && !comboB) || art?.id === 'tang' || (art?.id === 'jegal' && !comboB);
   let range = thrust ? 145 : art?.id === 'huashan' || art?.id === 'gaebang' ? 135 : 115;
   if (comboB && art?.id === 'samja') range *= 1.25;
+  if (comboB && art?.id === 'jegal') range = 165;
   if (art?.id === 'samja' && art.level >= 7) range *= 1.1;
   if (art?.id === 'tianmo' && empowered) range *= 1.25;
   range *= supportStats(f).attackRangeFactor;
@@ -822,22 +834,20 @@ function attack(r: Run, input: InputFrame) {
   if (boosted && art) {
     art.queuedBoosts = Math.max(0, (art.queuedBoosts ?? 0) - 1);
   }
-  if (art?.id === 'wudang') f.guard = empowered ? 0.45 : comboB ? 0.16 : 0.12;
+  if (art?.id === 'wudang') f.guard = empowered ? 0.22 : comboB ? 0.09 : 0.06;
   const lowHealth = art?.id === 'tianmo' ? 1 + Math.max(0, 0.5 - f.hp / maximumHp(f)) * 0.3 : 1;
   const coefficient =
     art?.id === 'tang'
       ? 0.65
       : art?.id === 'jegal'
-        ? comboB
-          ? 0.7
-          : 0.8
+        ? 0.9
         : art?.id === 'shaolin'
           ? comboB
             ? 1.4
             : 1.15
           : art?.id === 'tianmo'
             ? comboB
-              ? 1.65
+              ? 1.5
               : 1.2
             : art?.id === 'gaebang'
               ? comboB
@@ -866,7 +876,7 @@ function attack(r: Run, input: InputFrame) {
       lowHealth *
       (1 + bonus) *
       (boosted ? (comboB ? 1.41 : 1.53) : 1) *
-      (art?.id === 'tianmo' && empowered ? 1.2 : 1),
+      (art?.id === 'tianmo' && empowered ? 1.15 : 1),
     range,
     arc:
       art?.id === 'shaolin' && comboB
@@ -1049,7 +1059,9 @@ function summonReinforcements(r: Run, e: Enemy) {
   if (e.summoned) return;
   e.summoned = true;
   for (let n = 0; n < 2; n++) {
-    const hp = Math.round((28 + Math.floor(r.wave / 5) * 9) * BALANCE.enemyHpFactor);
+    const hp = Math.round(
+      (28 + Math.floor(r.wave / 5) * 9) * ordinaryHpFactor(Math.floor((r.wave - 1) / 5)),
+    );
     r.enemies.push({
       id: e.id * 10 + n + 1,
       ...regionEnemy(r, n),
@@ -1189,7 +1201,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
     e.timer = 0.18;
     const damage =
       (boss ? 16 + Math.floor(r.wave / 5) * 3 : 7 + Math.floor(r.wave / 5) * 2) *
-      (boss ? BALANCE.bossDamageFactor : BALANCE.enemyDamageFactor) *
+      (boss ? BALANCE.bossDamageFactor : ordinaryDamageFactor(Math.floor((r.wave - 1) / 5))) *
       (regionName(r) === '폐사' && !e.bossId && r.elapsed % 12 < 3 ? 1.2 : 1) *
       ((e.rageTime ?? 0) > 0 ? 1.25 : 1);
     if (profile.move === 'summon' && !profile.melee) {
@@ -2125,7 +2137,7 @@ export function command(state: GameState, cmd: Command, now = Date.now()): boole
   if (cmd.type === 'buy' || cmd.type === 'heal') {
     if (!r || r.phase !== 'prep') return false;
     if (cmd.type === 'heal') {
-      const offer = healingOffer(f, r.gold);
+      const offer = healingOffer(f, r.gold, r.wave);
       if (!offer.available) return false;
       r.gold -= offer.price;
       f.hp += offer.amount;

@@ -183,7 +183,7 @@ describe('all ten innate traits', () => {
 
 it('each growth augment has an implemented effect and translated descriptions', () => {
   const {f}=fixture();f.augments=['vigor'];expect(maximumHp(f)).toBe(180);
-  f.augments=['might'];expect(characterStats(f).strength).toBe(30);
+  f.augments=['might'];expect(characterStats(f).strength).toBe(45);
   f.augments=['swift'];expect(characterStats(f).agility).toBe(20);
   f.augments=['reservoir'];expect(techniqueStats('huashan',5,f).ultimateDamage).toBeGreaterThan(80);
   f.augments=['iron'];expect(supportStats(f).incomingDamageFactor).toBe(.9);

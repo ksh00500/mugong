@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+2026-10-21 전체 밸런스1차: 중후반 적·보스 압박과 회복/상점 비용을 단계별로 조정했다. 삼재·천마의 후반 화력과 자동 방어 유지를 줄이고 개방·제갈을 보완했다. 원거리 공격 중 이동·사거리에 비용을 두며 근접 반격 기회는20%로 강화했다. [수치·전후 비교·저장 호환](docs/global-balance-v1.md) · [검증](docs/verification/global-balance-v1/README.md).
+
 첫 정비4웨이브는 실제 쉼터 맵에서 의원·상인·대장장이에게 걸어가 `E`로 상호작용한다. 인물/표식을 선택하면 그 앞까지 걸어가고 출구 확인으로 보스전을 시작한다. [조작·원화·검증](docs/waystation-world-v1.md). 9·14·19웨이브는 기존 정비 카드를 유지한다.
 
 4·9·14·19웨이브 정비 화면에 쉼터 배경과 의원·상인·대장장이 원화를 추가했다. 실제 회복·구매·강화·가방·다음 보스 행동을 연결한다. [정비 디자인·원화](docs/prep-design-v1.md).
@@ -14,7 +16,7 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 
 보스는 일반 원화 기준보다20% 크게 표시하며 고정 피격 캡슐·그림자·HP바를 함께 맞춘다. 베기·찌르기·돌진·발사·설치의 준비 예고와 실제 교전/추격/수세/격화 전환을 표시한다. [보스 가독성](docs/boss-readability-v1.md).
 
-보스 기본 접근·추격과 새 보스 HP/피해를 높였다. 큰 근접 기술 뒤에는 이동 없는 반격 시간을 보장하고 `반격 기회` 배지/잔여 막대를 표시한다. 이때 실제 근접 기본 접촉은15% 추가 피해를 준다. 원거리/근접 자동 비교와 소림 실제 HP 결투를 기록했으며 최종 인간 플레이 밸런스와 구분한다. [현재 조정](docs/boss-balance-v1.md) · [전후 비교·검증](docs/verification/boss-balance-v1/README.md).
+보스 기본 접근·추격과 새 보스 HP/피해를 높였다. 큰 근접 기술 뒤에는 이동 없는 반격 시간을 보장하고 `반격 기회` 배지/잔여 막대를 표시한다. 이때 실제 근접 기본 접촉은20% 추가 피해를 준다. [현재 전체 조정](docs/global-balance-v1.md) · [이전 압박/반격 설계와 검증](docs/boss-balance-v1.md).
 
 10지역70캐릭터의 방향별 크기를 조사하고 제갈현·양기·묵연·진괄·설산 창병의 원화 묶음 크기를 교정했다. 고정0.225 배율·발점·32px 여백과 게임 규칙을 유지한다. [교정 범위](docs/native-size-v1.md) · [로컬 전후 비교](http://127.0.0.1:5205/art/native-size-v1/review.html).
 
@@ -27,7 +29,7 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/waystation-world-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/global-balance-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build

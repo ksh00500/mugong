@@ -58,15 +58,15 @@ for (const [width, height] of [
     const errors: string[] = [];
     page.on('pageerror', (e) => errors.push(e.message));
     await fixture(page);
-    const medic = page.getByRole('button', { name: '의원 · 회복 12전', exact: true });
+    const medic = page.getByRole('button', { name: '의원 · 회복 16전', exact: true });
     await expect(medic).toBeEnabled();
     await medic.click();
-    await expect.poll(() => snapshot(page)).toMatchObject({ hp: 195, gold: 88 });
+    await expect.poll(() => snapshot(page)).toMatchObject({ hp: 195, gold: 84 });
     const forge = page.getByRole('button', { name: '강화 · 12전 + 재료 2', exact: true });
     await forge.click();
-    await expect.poll(() => snapshot(page)).toMatchObject({ upgrades: 1, material: 2, gold: 76 });
+    await expect.poll(() => snapshot(page)).toMatchObject({ upgrades: 1, material: 2, gold: 72 });
     await forge.click();
-    await expect.poll(() => snapshot(page)).toMatchObject({ upgrades: 2, material: 0, gold: 64 });
+    await expect.poll(() => snapshot(page)).toMatchObject({ upgrades: 2, material: 0, gold: 60 });
     await expect(forge).toBeDisabled();
     await page.getByRole('button', { name: '정비 상인', exact: true }).click();
     const market = page.getByRole('dialog', { name: '정비 상인', exact: true });
@@ -174,7 +174,7 @@ test('품절 재고·강화 불가·금전 부족·가득 찬 체력', async ({ 
     w.prepStore.notify();
     await w.prepStore.persist();
   });
-  await expect(page.getByRole('button', { name: '의원 · 회복 12전', exact: true })).toBeDisabled();
+  await expect(page.getByRole('button', { name: '의원 · 회복 16전', exact: true })).toBeDisabled();
   await expect(page.locator('#prep-equipment')).toBeDisabled();
   await expect(page.locator('.prep-stop')).toContainText('남은 재고 0개');
   await page.getByRole('button', { name: '정비 상인', exact: true }).click();
@@ -190,7 +190,7 @@ test('품절 재고·강화 불가·금전 부족·가득 찬 체력', async ({ 
     s.state.run.fighter.hp -= 10;
     s.notify();
   });
-  await expect(page.getByRole('button', { name: '의원 · 회복 12전', exact: true })).toBeDisabled();
+  await expect(page.getByRole('button', { name: '의원 · 회복 16전', exact: true })).toBeDisabled();
   await expect(page.locator('.prep-service').first()).toContainText('금전 부족');
   expect(errors).toEqual([]);
 });

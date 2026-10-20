@@ -13,7 +13,9 @@ import { uiHighMessages } from './ui-high-messages';
 import { uiMediumMessages } from './ui-medium-messages';
 import { prepDesignMessages } from './prep-design-messages';
 import { waystationMessages } from './waystation-messages';
+import { globalBalanceMessages } from './global-balance-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
+  ...globalBalanceMessages,
   ...waystationMessages,
   '보스 전투 상태': ['Boss combat state', 'ボスの戦闘状態', '首领战斗状态', '首領戰鬥狀態'],
   교전: ['Combat', '交戦', '交战', '交戰'],

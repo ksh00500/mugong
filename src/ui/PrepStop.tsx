@@ -38,7 +38,7 @@ export function PrepStop({
     if (!station) heading.current?.focus();
   }, [run.id, run.wave, station]);
   const f = run.fighter,
-    offer = healingOffer(f, run.gold);
+    offer = healingOffer(f, run.gold, run.wave);
   const equipment = f.items.filter(
     (i) => refinable(i) && ['weapon', 'general', 'equipped', 'ground'].includes(i.place),
   );
@@ -112,7 +112,7 @@ export function PrepStop({
                     ? t('체력 {0} 회복', { 0: displayValue(offer.amount) })
                     : t('체력이 가득 찼습니다.')}
                 </p>
-                <small>{t('치료 비용은 1회 12전입니다.')}</small>
+                <small>{t('치료 비용은 1회 {0}전입니다.', { 0: offer.price })}</small>
               </div>
               <button
                 aria-describedby="prep-heal-reason"
@@ -125,7 +125,7 @@ export function PrepStop({
                     }));
                 }}
               >
-                {t('의원 · 회복 12전')}
+                {t('의원 · 회복 {0}전', { 0: offer.price })}
               </button>
               <small className="prep-reason" id="prep-heal-reason">
                 {busy

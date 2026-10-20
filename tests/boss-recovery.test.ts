@@ -78,7 +78,7 @@ it('회복 중 추격·가드 반격이 큰 기술의 정지와 저장 시계를
   expect(s.run!.enemies[0].timer).toBe(e.timer);
 });
 
-it('근접 기본 접촉만 반격15%를 얻고 원거리 투사체·궁극 피해는 늘리지 않는다', () => {
+it('근접 기본 접촉만 반격20%를 얻고 원거리 투사체·궁극 피해는 늘리지 않는다', () => {
   function damage(recover: boolean, projectile = false, basic = true) {
     const { r, e, f } = balanceFixture('4-1');
     Object.assign(e, {
@@ -122,7 +122,7 @@ it('근접 기본 접촉만 반격15%를 얻고 원거리 투사체·궁극 피�
     tick(r, idle, 1 / 60);
     return hp - e.hp;
   }
-  expect(damage(true)).toBeCloseTo(damage(false) * 1.15);
+  expect(damage(true)).toBeCloseTo(damage(false) * 1.2);
   expect(damage(true, true)).toBeCloseTo(damage(false, true));
   expect(damage(true, false, false)).toBeCloseTo(damage(false, false, false));
 });

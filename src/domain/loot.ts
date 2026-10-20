@@ -3,6 +3,7 @@ import { bossDefinition, regionName, REGIONS } from './campaign';
 import { bossReward } from './boss-loot';
 import { makeLootItem, WEAPON_STYLES } from './items';
 import type { Item, Run } from './model';
+import { ECONOMY, balanceStage } from './balance';
 
 export const REGION_DROP_WEIGHTS = [
   [4, 3, 1, 1],
@@ -121,9 +122,17 @@ export function merchantSupplies(run: Run) {
       templateId:
         region === 3 ? 'medicine-snow' : stage >= 2 ? 'medicine-medium' : 'medicine-small',
       stock: Math.max(0, Math.min(3, run.merchantStock)),
-      price: stage >= 2 || region === 3 ? 12 : 8,
+      price: Math.max(region === 3 ? 12 : 0, ECONOMY.medicinePrices[balanceStage(stage)]),
     },
-    { templateId: `weapon-${style}-${stage >= 2 ? 2 : 1}`, stock: 1, price: stage >= 2 ? 32 : 20 },
-    { templateId: `regional-gear-${region}`, stock: 1, price: 26 },
+    {
+      templateId: `weapon-${style}-${stage >= 2 ? 2 : 1}`,
+      stock: 1,
+      price: ECONOMY.weaponPrices[balanceStage(stage)],
+    },
+    {
+      templateId: `regional-gear-${region}`,
+      stock: 1,
+      price: ECONOMY.regionalPrices[balanceStage(stage)],
+    },
   ];
 }
