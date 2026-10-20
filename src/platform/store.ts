@@ -7,6 +7,12 @@ import { readSave, writeSave, recoverLatestCopy } from './storage';
 import { claimSession } from './session';
 import { sound } from './audio';
 import { migratePendingItems } from '../domain/pending-items';
+import {
+  isWalkablePreparation,
+  nearestWaystationStop,
+  waystationApproach,
+  type WaystationStop,
+} from '../domain/waystation';
 export interface View {
   state: GameState;
   ready: boolean;
@@ -18,6 +24,8 @@ export interface View {
   bagOpen: boolean;
   paused: boolean;
   revision: number;
+  waystationDialogue: WaystationStop | null;
+  waystationTarget: WaystationStop | null;
 }
 const errorText = (error: unknown) =>
   error instanceof Error ? error.message : '저장 공간에 접근할 수 없습니다.';
@@ -33,6 +41,8 @@ export class GameStore {
   paused = false;
   // Transient renderer state is never written into the player's save.
   rendererReady = false;
+  waystationDialogue: WaystationStop | null = null;
+  waystationTarget: WaystationStop | null = null;
   private listeners = new Set<() => void>();
   private lastUi = 0;
   private lastSave = 0;
@@ -57,6 +67,8 @@ export class GameStore {
       bagOpen: this.bagOpen,
       paused: this.paused,
       revision: this.revision++,
+      waystationDialogue: this.waystationDialogue,
+      waystationTarget: this.waystationTarget,
     };
   }
   subscribe = (listener: () => void) => {
@@ -134,6 +146,18 @@ export class GameStore {
   }
   async dispatch(cmd: Command) {
     if (!this.ready || this.busy || this.error) return false;
+    if (isWalkablePreparation(this.state.run)) {
+      const service = (
+        {
+          heal: 'physician',
+          refine: 'blacksmith',
+          buySupply: 'merchant',
+          sellMaterial: 'merchant',
+          next: 'exit',
+        } as Record<string, WaystationStop>
+      )[cmd.type];
+      if (service && this.waystationDialogue !== service) return false;
+    }
     if (cmd.type === 'bind' && this.state.run?.phase === 'combat' && !this.bagOpen) {
       this.notice = '가방을 열고 무기를 연결하세요.';
       this.notify();
@@ -164,7 +188,11 @@ export class GameStore {
       this.bagOpen = false;
       this.paused = false;
     }
-    if (cmd.type === 'next') this.bagOpen = false;
+    if (cmd.type === 'next') {
+      this.bagOpen = false;
+      this.waystationDialogue = null;
+      this.waystationTarget = null;
+    }
     if (cmd.type === 'openTraining') this.bagOpen = false;
     // Art switching is combat input. Saving its result must not freeze the fight.
     await this.persist(cmd.type !== 'switch');
@@ -179,7 +207,13 @@ export class GameStore {
       this.notify();
     }
     if (!this.error && cmd.type !== 'switch')
-      sound((cmd.type === 'choose' || cmd.type === 'chooseAugment') ? 'level' : cmd.type === 'moveItem' ? 'store' : 'confirm');
+      sound(
+        cmd.type === 'choose' || cmd.type === 'chooseAugment'
+          ? 'level'
+          : cmd.type === 'moveItem'
+            ? 'store'
+            : 'confirm',
+      );
     if (!this.error && cmd.type === 'moveItem') {
       this.notice =
         cmd.place === 'warehouse'
@@ -223,6 +257,8 @@ export class GameStore {
   }
   async suspend() {
     this.paused = true;
+    this.waystationDialogue = null;
+    this.waystationTarget = null;
     await this.persist();
     if (!this.error) {
       this.screen = 'lobby';
@@ -262,6 +298,43 @@ export class GameStore {
       this.notify();
     }
   }
+  approachWaystation(id: WaystationStop) {
+    if (!this.canWalkWaystation()) return;
+    if (nearestWaystationStop(this.state.run!.fighter)?.id === id) {
+      this.waystationDialogue = id;
+      this.waystationTarget = null;
+      this.state.run!.fighter.action = 'idle';
+    } else this.waystationTarget = id;
+    this.notify();
+  }
+  interactWaystation() {
+    if (!this.canWalkWaystation()) return;
+    const stop = nearestWaystationStop(this.state.run!.fighter);
+    if (!stop) return;
+    this.waystationDialogue = stop.id;
+    this.waystationTarget = null;
+    this.state.run!.fighter.action = 'idle';
+    this.notify();
+  }
+  closeWaystation() {
+    this.waystationDialogue = null;
+    this.waystationTarget = null;
+    this.notify();
+  }
+  private canWalkWaystation() {
+    return (
+      isWalkablePreparation(this.state.run) &&
+      this.rendererReady &&
+      this.ready &&
+      !this.busy &&
+      !this.error &&
+      !this.paused &&
+      !this.bagOpen &&
+      !this.waystationDialogue &&
+      this.screen === 'field' &&
+      !pendingChoices(this.state.run)
+    );
+  }
   advance(input: InputFrame, dt: number, now: number, emit?: CombatCueSink) {
     if (
       !this.rendererReady ||
@@ -271,11 +344,22 @@ export class GameStore {
       this.screen !== 'field' ||
       this.bagOpen ||
       this.paused ||
+      this.waystationDialogue ||
       document.hidden
     )
       return;
     const r = this.state.run;
     if (!r) return;
+    if (isWalkablePreparation(r) && this.waystationTarget) {
+      if (input.dx || input.dy) this.waystationTarget = null;
+      else {
+        const goal = waystationApproach(this.waystationTarget);
+        const dx = goal.x - r.fighter.x,
+          dy = goal.y - r.fighter.y;
+        if (Math.hypot(dx, dy) < 7) this.waystationTarget = null;
+        else input = { ...input, dx, dy };
+      }
+    }
     const beforePhase = r.phase,
       beforeLevel = r.fighter.level,
       beforeKills = r.kills,

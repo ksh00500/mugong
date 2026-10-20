@@ -52,6 +52,8 @@ import { bossMotionClock } from './boss-motion';
 import { PLAYER_VISUAL_SCALE } from './player-visual';
 import { HealthTrail } from './health-trail';
 import { COMBAT_HEIGHT } from '../domain/combat-body';
+import { isWalkablePreparation } from '../domain/waystation';
+import { WaystationScenery } from './waystation-scenery';
 
 export class CombatScene extends Phaser.Scene {
   private heroFrames = new Map<string, CharacterFrame>();
@@ -115,6 +117,7 @@ export class CombatScene extends Phaser.Scene {
   private seenAlive = new Map<number, Enemy>();
   private deaths = new Map<number, { enemy: Enemy; at: number }>();
   private renderWave = 0;
+  private waystation!: WaystationScenery;
   constructor(
     private preparedImages: PreparedImages,
     private onReady: () => void,
@@ -135,6 +138,7 @@ export class CombatScene extends Phaser.Scene {
       .image(W / 2, H / 2, 'forest')
       .setDisplaySize(W, H)
       .setDepth(-1000);
+    this.waystation = new WaystationScenery(this, this.backdrop);
     for (const key of Object.keys(this.preparedImages)) {
       // Registration matches exact texture keys from the authored frame data.
       // A region-name allowlist misses new action families and draws whole sheets.
@@ -316,12 +320,21 @@ export class CombatScene extends Phaser.Scene {
       if (!gameStore.rendererReady) return;
       if ((event.target as HTMLElement)?.closest('input,select,textarea,[role="dialog"]')) return;
       const key = event.key.toLowerCase();
+      const resting = isWalkablePreparation(gameStore.state.run);
+      // Native Tab reaches NPC markers; I and the HUD bag button remain available.
+      if (resting && key === 'tab') return;
       if (['w', 'a', 's', 'd', 'q', 'e', ' ', 'tab', 'escape'].includes(key))
         event.preventDefault();
       if (gameStore.screen !== 'field') return;
       this.keys.add(key);
       if (event.repeat) return;
+      if (resting && key === 'e') {
+        gameStore.interactWaystation();
+        this.clearMouse();
+        return;
+      }
       if (key === 'q' || key === 'e') {
+        if (resting) return;
         if (gameStore.paused || gameStore.bagOpen || pendingChoices(gameStore.state.run)) return;
         void gameStore.dispatch({ type: 'switch', delta: key === 'q' ? -1 : 1 });
         this.clearMouse();
@@ -390,6 +403,7 @@ export class CombatScene extends Phaser.Scene {
       this.paintedZones.destroy();
       this.bossReadability.destroy();
       this.cancelWarm?.();
+      this.waystation.destroy();
       for (const actor of this.continuousActors.values()) actor.destroy();
       this.continuousActors.clear();
     };
@@ -444,6 +458,7 @@ export class CombatScene extends Phaser.Scene {
     this.accumulator += Math.min(delta, 50) / 1000;
     if (
       gameStore.bagOpen ||
+      gameStore.waystationDialogue ||
       this.artLoading ||
       gameStore.paused ||
       pendingChoices(gameStore.state.run) ||
@@ -477,7 +492,7 @@ export class CombatScene extends Phaser.Scene {
     }
     this.feedback.receive(this.cues, this.animationTime, this.reducedMotion);
     this.cues = [];
-    if (run?.phase === 'combat') {
+    if (run && (run.phase === 'combat' || isWalkablePreparation(run))) {
       this.stride += Math.hypot(run.fighter.x - beforeX, run.fighter.y - beforeY);
       if (this.stride > 80) {
         this.stride %= 80;
@@ -1468,6 +1483,7 @@ export class CombatScene extends Phaser.Scene {
     this.graphics.clear();
     this.ground.clear();
     this.paintedZones.draw(r);
+    this.waystation.draw(r);
     for (const actor of this.actors.values()) actor.setVisible(false);
     if (!r) {
       this.bossReadability.draw(null, this.animationTime, this.reducedMotion);

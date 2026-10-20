@@ -16,6 +16,8 @@ import { LoadingScreen } from './ui/LoadingScreen';
 import { SaveRecovery } from './ui/SaveRecovery';
 import { RestMarket } from './ui/RestMarket';
 import { PrepStop } from './ui/PrepStop';
+import { WaystationWorld } from './ui/WaystationWorld';
+import { isWalkablePreparation } from './domain/waystation';
 import { JourneySummary, DeathSummary } from './ui/JourneySummary';
 import type { JourneyResult } from './domain/model';
 import { UI_BOOT_IMAGES, prepareImages, preloadFonts, type ImageProgress } from './platform/assets';
@@ -174,6 +176,13 @@ export default function App() {
             <div className="game-backdrop" />
             <Field onReadyChange={setFieldReady} />
             {r && fieldReady && <Hud run={r} busy={view.busy} />}
+            {r && fieldReady && isWalkablePreparation(r) && !pendingChoices(r) && (
+              <WaystationWorld
+                view={view}
+                onNext={leaveNext}
+                hidden={view.bagOpen || view.paused || !!view.error || leaving}
+              />
+            )}
             {fieldReady && r?.phase === 'loot' && !pendingChoices(r) && (
               <WaveReady
                 run={r}
@@ -208,15 +217,19 @@ export default function App() {
               </span>
             </div>
           </div>
-          {fieldReady && r && r.phase === 'prep' && !pendingChoices(r) && (
-            <PrepStop
-              run={r}
-              busy={view.busy}
-              hidden={view.bagOpen || view.paused || !!view.error}
-              onMarket={() => setMarketOpen(true)}
-              onNext={leaveNext}
-            />
-          )}
+          {fieldReady &&
+            r &&
+            r.phase === 'prep' &&
+            !isWalkablePreparation(r) &&
+            !pendingChoices(r) && (
+              <PrepStop
+                run={r}
+                busy={view.busy}
+                hidden={view.bagOpen || view.paused || !!view.error}
+                onMarket={() => setMarketOpen(true)}
+                onNext={leaveNext}
+              />
+            )}
           {marketOpen && r?.phase === 'prep' && (
             <RestMarket run={r} busy={view.busy} onClose={() => setMarketOpen(false)} />
           )}
@@ -224,7 +237,12 @@ export default function App() {
         </main>
       )}
       {view.bagOpen && !pendingChoices(r) && !view.state.family.training && (
-        <Inventory view={view} onNext={leaveNext} />
+        <Inventory
+          view={view}
+          onNext={
+            !isWalkablePreparation(r) || view.waystationDialogue === 'exit' ? leaveNext : undefined
+          }
+        />
       )}
       {leaving && r && (
         <Modal title={t('남은 물품 확인')} onClose={() => setLeaving(false)}>

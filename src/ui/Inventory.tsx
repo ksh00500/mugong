@@ -32,6 +32,7 @@ import { QuickDetails } from './QuickDetails';
 import { EquipmentComparison } from './EquipmentComparison';
 import { equipmentComparisons } from '../domain/equipment-comparison';
 import { itemQuantity, stowLabel, displayValue } from '../platform/ui-copy';
+import { isWalkablePreparation } from '../domain/waystation';
 
 function BagUsage({
   place,
@@ -242,6 +243,9 @@ export function Inventory({
   onNext?: () => void;
 }) {
   const f = selectedFighter(view.state) as BoundFighter | undefined;
+  const forgeHere =
+    !isWalkablePreparation(view.state.run) || view.waystationDialogue === 'blacksmith';
+  const sellHere = !isWalkablePreparation(view.state.run) || view.waystationDialogue === 'merchant';
   const materialCount =
     f?.items
       .filter((item) => isRefiningMaterial(item) && ['general', 'ground'].includes(item.place))
@@ -423,7 +427,7 @@ export function Inventory({
             !locked && directAction === 'equip' && !equipmentSpace
               ? t('기존 장비를 넣을 가방 공간이 없습니다.')
               : '',
-            !locked && view.state.run?.phase === 'prep' && refinePreview(selected)
+            !locked && forgeHere && view.state.run?.phase === 'prep' && refinePreview(selected)
               ? view.state.run.gold < REFINE_COST.gold
                 ? t('금전 부족')
                 : materialCount < REFINE_COST.materials
@@ -691,7 +695,7 @@ export function Inventory({
                     </>
                   )}
                 </dl>
-                {view.state.run?.phase === 'prep' && refinePreview(selected) && (
+                {forgeHere && view.state.run?.phase === 'prep' && refinePreview(selected) && (
                   <small className="refine-budget">
                     {t('소지금 {0}전 · 재료 {1}', { 0: view.state.run.gold, 1: materialCount })}
                   </small>
@@ -700,7 +704,8 @@ export function Inventory({
                   className="item-actions"
                   aria-describedby={actionReasons.length ? 'item-action-reasons' : undefined}
                 >
-                  {view.state.run?.phase === 'prep' &&
+                  {sellHere &&
+                    view.state.run?.phase === 'prep' &&
                     selected.kind === 'ore' &&
                     ['general', 'ground'].includes(selected.place) && (
                       <button
@@ -712,7 +717,8 @@ export function Inventory({
                         {t('판매 · {0}전', { 0: itemValue(selected) * selected.count })}
                       </button>
                     )}
-                  {view.state.run?.phase === 'prep' &&
+                  {forgeHere &&
+                    view.state.run?.phase === 'prep' &&
                     refinePreview(selected) &&
                     ['weapon', 'general', 'equipped', 'ground'].includes(selected.place) && (
                       <button

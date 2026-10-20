@@ -1,9 +1,10 @@
 import { test, expect, type Page } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { seedRegion, observeScene } from './support/region';
+import { encounterHp } from '../../src/domain/balance';
 
 const proof = process.env.MUGONG_COMBAT_PREP_UI_PROOF ?? 'docs/verification/combat-prep-v1';
-async function fixture(page: Page, wave = 4) {
+async function fixture(page: Page, wave = 9) {
   await seedRegion(page, 0);
   await observeScene(page);
   await page.evaluate(async (wave) => {
@@ -100,12 +101,12 @@ for (const [width, height] of [
     await expect(page.locator('.inventory-workspace')).toBeVisible();
     await page.keyboard.press('Escape');
     await expect(page.getByRole('button', { name: '가방과 획득 물품', exact: true })).toBeFocused();
-    await page.getByRole('button', { name: '다음 5웨이브 →', exact: true }).click();
+    await page.getByRole('button', { name: '다음 10웨이브 →', exact: true }).click();
     await expect(page.getByRole('dialog', { name: '남은 물품 확인', exact: true })).toBeVisible();
     await page.getByRole('button', { name: '남은 물품 두고 진행', exact: true }).click();
     await expect
       .poll(() => snapshot(page))
-      .toMatchObject({ wave: 5, phase: 'combat', bossHp: 1000 });
+      .toMatchObject({ wave: 10, phase: 'combat', bossHp: encounterHp(1, true) });
     expect(errors).toEqual([]);
   });
 }
@@ -131,13 +132,20 @@ test('4·9·14·19 정비와 다섯 언어의 작은 화면', async ({ page }) =
       await expect(page.locator('.app-shell')).toHaveAttribute('data-locale', locale);
       await expect(page.locator('.region-label b')).toHaveCSS('line-height', '22.8px');
       expect((await page.locator('.region-label b').boundingBox())!.height).toBeLessThan(30);
-      const bounds = await page.locator('.prep-stop button,.prep-stop select').evaluateAll((els) =>
-        els.map((el) => ({
-          text: el.textContent,
-          ...el.getBoundingClientRect().toJSON(),
-          overflow: el.scrollWidth > el.clientWidth + 2,
-        })),
-      );
+      await expect(page.locator(wave === 4 ? '.waystation-world' : '.prep-stop')).toBeVisible();
+      const bounds = await page
+        .locator(
+          wave === 4
+            ? '.waystation-marker,.waystation-controls button'
+            : '.prep-stop button,.prep-stop select',
+        )
+        .evaluateAll((els) =>
+          els.map((el) => ({
+            text: el.textContent,
+            ...el.getBoundingClientRect().toJSON(),
+            overflow: el.scrollWidth > el.clientWidth + 2,
+          })),
+        );
       for (const b of bounds) {
         expect(b.bottom, `${wave}/${locale}/${b.text}`).toBeLessThanOrEqual(614);
         expect(b.right).toBeLessThanOrEqual(1093);

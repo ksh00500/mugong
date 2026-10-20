@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+첫 정비4웨이브는 실제 쉼터 맵에서 의원·상인·대장장이에게 걸어가 `E`로 상호작용한다. 인물/표식을 선택하면 그 앞까지 걸어가고 출구 확인으로 보스전을 시작한다. [조작·원화·검증](docs/waystation-world-v1.md). 9·14·19웨이브는 기존 정비 카드를 유지한다.
+
 4·9·14·19웨이브 정비 화면에 쉼터 배경과 의원·상인·대장장이 원화를 추가했다. 실제 회복·구매·강화·가방·다음 보스 행동을 연결한다. [정비 디자인·원화](docs/prep-design-v1.md).
 
 탑뷰 무협 액션 로그라이크 브라우저 게임. 새 무인을 Lv.0부터 키우며 강호20웨이브를 진행하고 세가 명부·가방·창고를 관리한다. 현재 소스는 **React19 · Phaser4 · TypeScript · Vite7** 기반이다.
@@ -18,21 +20,21 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 
 몸통 캡슐 피격과 높이를 맞춘 투사체/조준을 사용하며 적 HP·피해·후반 적 수를 높였다. 4·9·14·19웨이브는 의원·상인·강화·다음 보스를 연결한 정비 화면이다. [전투·정비 변경](docs/combat-prep-v1.md). 로딩은 현재 전투의 그림만 먼저 준비하며 다음 보스는 정비 중 선읽기한다. [로딩 개선·측정](docs/loading-v2.md). 컴파일 로컬 실행은 http://127.0.0.1:5205/ 이다.
 
-**실행·호환·검토용 public 미디어1,022개를 소스와 함께 GitHub에 보관**한다. 정비 원화 네 장을 기존1,018개에 추가했다. Git LFS를 사용하지 않으며 복제 후 별도 실행 에셋 다운로드 없이 빌드할 수 있다. 제작 원본1,818개는 외부 보관본과 SHA 목록을 유지한다. [이미지 분류·안전한 정리](docs/asset-management/README.md).
+**실행·호환·검토용 public 미디어1,026개를 소스와 함께 GitHub에 보관**한다. 정비 카드 원화 네 장과 이동 쉼터 원화 네 장을 기존1,018개에 추가했다. Git LFS를 사용하지 않으며 복제 후 별도 실행 에셋 다운로드 없이 빌드할 수 있다. 제작 원본1,818개는 외부 보관본과 SHA 목록을 유지한다. [이미지 분류·안전한 정리](docs/asset-management/README.md).
 
 ## 개인 Linux 서버에서 실행
 
 Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/prep-design-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/waystation-world-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build
 curl -f http://127.0.0.1:8080/healthz
 ```
 
-Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,022개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
+Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,026개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
 
 게임 저장은 각 브라우저의 IndexedDB를 사용한다. 개인 서버 호스팅만으로 계정·기기 간 저장 공유·온라인 레이드가 추가되지는 않는다.
 

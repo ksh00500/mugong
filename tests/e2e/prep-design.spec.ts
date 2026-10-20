@@ -14,7 +14,7 @@ async function seed(page: Page) {
   startRun(state, '쉼터검증무인', 123);
   const r = state.run!,
     f = r.fighter;
-  r.wave = 4;
+  r.wave = 9; // First-rest walking is covered by waystation-world.spec.ts.
   r.regionRoute = REGIONS.slice(0, 4).map((r) => r.name);
   spawnWave(r);
   r.gold = 100;

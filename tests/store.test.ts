@@ -1,5 +1,5 @@
 import { beforeEach, expect, it, vi } from 'vitest';
-import { emptyGame } from '../src/domain/game';
+import { emptyGame, spawnWave } from '../src/domain/game';
 import type { GameState } from '../src/domain/model';
 const disk = vi.hoisted(() => ({
   saved: null as GameState | null,
@@ -34,6 +34,55 @@ beforeEach(() => {
   disk.active = 0;
   disk.maxActive = 0;
   vi.stubGlobal('document', { hidden: false });
+});
+it('walkable rest requires proximity, freezes during a conversation and clears transient UI at departure', async () => {
+  const store = new GameStore();
+  await store.load();
+  await store.dispatch({ type: 'start', name: '쉼터 거리' });
+  const r = store.state.run!;
+  r.wave = 4;
+  spawnWave(r);
+  r.offers = [];
+  r.fighter.augmentOffers = [];
+  store.rendererReady = true;
+  store.interactWaystation();
+  expect(store.waystationDialogue).toBeNull();
+  r.gold = 100;
+  r.fighter.hp = 60;
+  expect(await store.dispatch({ type: 'next' })).toBe(false);
+  expect(await store.dispatch({ type: 'heal' })).toBe(false);
+  expect(r.wave).toBe(4);
+  expect(r.gold).toBe(100);
+  expect(r.fighter.hp).toBe(60);
+  r.fighter.x = 490;
+  r.fighter.y = 580;
+  store.interactWaystation();
+  expect(store.waystationDialogue).toBe('physician');
+  expect(await store.dispatch({ type: 'heal' })).toBe(true);
+  expect(r.fighter.hp).toBe(105);
+  expect(r.gold).toBe(88);
+  store.advance({ dx: 1, dy: 0, aim: 0, attack: true, ultimate: false, defense: false }, 1 / 60, 0);
+  expect(r.fighter.x).toBe(490);
+  expect(r.elapsed).toBe(0);
+  store.closeWaystation();
+  store.approachWaystation('merchant');
+  expect(store.waystationTarget).toBe('merchant');
+  store.advance(
+    { dx: 1, dy: 0, aim: 0, attack: false, ultimate: false, defense: false },
+    1 / 60,
+    0,
+  );
+  expect(store.waystationTarget).toBeNull();
+  expect(r.fighter.x).toBeGreaterThan(490);
+  r.fighter.x = 1510;
+  r.fighter.y = 715;
+  store.interactWaystation();
+  expect(store.waystationDialogue).toBe('exit');
+  await store.dispatch({ type: 'next' });
+  expect(store.waystationDialogue).toBeNull();
+  expect(store.waystationTarget).toBeNull();
+  expect(r.wave).toBe(5);
+  expect(disk.saved?.run?.wave).toBe(5);
 });
 it('클리어 성장 선택 동안 가방을 열지 않고 마지막 선택 저장 후에만 연다', async () => {
   const store = new GameStore();

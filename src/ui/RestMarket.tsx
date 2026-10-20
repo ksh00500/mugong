@@ -17,10 +17,12 @@ export function RestMarket({
   run,
   busy,
   onClose,
+  returnFocusTo,
 }: {
   run: Run;
   busy: boolean;
   onClose: () => void;
+  returnFocusTo?: HTMLElement | null;
 }) {
   const supplies = run.supplies ?? merchantSupplies(run);
   const [selection, setSelection] = useState('');
@@ -37,7 +39,12 @@ export function RestMarket({
           : '';
   const comparisons = item ? equipmentComparisons(run.fighter, item) : [];
   return (
-    <Modal title={t('정비 상인')} onClose={onClose} className="rest-market">
+    <Modal
+      title={t('정비 상인')}
+      onClose={onClose}
+      className="rest-market"
+      returnFocusTo={returnFocusTo}
+    >
       <div className="rest-market-status">
         <div className="market-keeper">
           <img

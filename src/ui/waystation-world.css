@@ -1,0 +1,231 @@
+.waystation-world {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  color: var(--ink);
+}
+.waystation-world[hidden] {
+  display: none;
+}
+.waystation-heading {
+  position: absolute;
+  top: 132px;
+  left: 28px;
+  right: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.waystation-heading > div,
+.waystation-heading > b {
+  padding: 10px 16px;
+  border: 1px solid #a28b60;
+  border-radius: 9px;
+  background: #fff7e8ed;
+  box-shadow: 0 3px 12px #23372940;
+}
+.waystation-heading h1 {
+  margin: 3px 0 0;
+  font: 700 27px/1.2 var(--font-display);
+}
+.waystation-heading small {
+  font: 400 13px/1.4 var(--font-ui);
+  color: #5f654b;
+}
+.waystation-heading b {
+  font: 700 16px/1.4 var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.waystation-plane {
+  position: absolute;
+}
+.waystation-marker {
+  position: absolute;
+  transform: translateX(-50%);
+  pointer-events: auto;
+  min-height: 44px;
+  min-width: 104px;
+  max-width: 210px;
+  padding: 6px 12px;
+  border: 1px solid #aa9364;
+  border-radius: 8px;
+  color: #303b2c;
+  background: #fff6dff2;
+  box-shadow: 0 3px 9px #17251859;
+  font: 700 17px/1.25 var(--font-display);
+  transition:
+    border-color 100ms ease-out,
+    background-color 100ms ease-out;
+}
+.waystation-marker small {
+  display: block;
+  margin-top: 3px;
+  font: 400 12px/1.3 var(--font-ui);
+  color: #68603f;
+}
+.waystation-marker[data-near='true'] {
+  border: 2px solid #477e59;
+  background: #edf5df;
+}
+.waystation-marker:focus-visible,
+.waystation-controls button:focus-visible {
+  outline: 3px solid var(--ui-focus, #24765f);
+  outline-offset: 4px;
+}
+.waystation-controls {
+  position: absolute;
+  inset: auto 24px 18px;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(180px, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border: 1px solid #a28b60;
+  border-radius: 11px;
+  background: #fff7e8f5;
+  box-shadow: 0 4px 20px #18271c59;
+  font: 400 14px/1.5 var(--font-ui);
+}
+.waystation-controls p {
+  margin: 0;
+}
+.waystation-controls p small {
+  display: block;
+  color: #6b624d;
+  margin-top: 3px;
+}
+.waystation-controls button {
+  pointer-events: auto;
+  min-height: 44px;
+  padding: 8px 16px;
+}
+.app-shell .dialog.waystation-dialog {
+  width: min(640px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 16px;
+}
+.app-shell .waystation-dialog .prep-stop[data-conversation] {
+  position: static;
+  inset: auto;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  overflow-y: auto;
+}
+.waystation-dialog .prep-heading h1 {
+  font-size: 21px;
+}
+.waystation-dialog .prep-gold {
+  padding: 7px 9px;
+  font-size: 15px;
+}
+.waystation-dialog .prep-services {
+  display: block;
+  min-height: auto;
+}
+.waystation-dialog .prep-service {
+  grid-template-rows: 130px auto auto auto;
+  gap: 8px;
+}
+.waystation-dialog .prep-service-body {
+  max-height: 165px;
+  padding-block: 4px;
+}
+.waystation-dialog .prep-boss-copy {
+  grid-template-columns: 1fr;
+}
+.waystation-dialog .prep-boss-moves {
+  grid-column: 1;
+  grid-row: auto;
+  margin-top: 10px;
+}
+.waystation-dialog .prep-actions {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  flex: none;
+}
+.waystation-dialog .prep-actions:has(button.primary) {
+  grid-template-columns: 1fr 1fr;
+}
+.waystation-dialog .prep-actions:has(button.primary) > div {
+  grid-column: 1 / -1;
+}
+.app-shell[data-high-contrast='true']
+  :is(.waystation-marker, .waystation-controls, .waystation-heading > *) {
+  background-color: #fff7e8;
+  border-color: #51462f;
+}
+@media (max-height: 660px) {
+  .waystation-heading {
+    top: 112px;
+    left: 18px;
+    right: 18px;
+  }
+  .waystation-heading > div,
+  .waystation-heading > b {
+    padding: 6px 10px;
+  }
+  .waystation-heading h1 {
+    font-size: 22px;
+  }
+  .waystation-controls {
+    inset: auto 12px 10px;
+    gap: 10px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .waystation-marker {
+    font-size: 15px;
+    min-width: 96px;
+  }
+  .waystation-dialog .prep-service {
+    grid-template-rows: 72px auto auto auto;
+    gap: 6px;
+  }
+  .waystation-dialog .prep-service-body {
+    font-size: 14px;
+    gap: 4px;
+    padding-block: 0;
+  }
+  .app-shell .dialog.waystation-dialog {
+    padding: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .waystation-controls {
+    grid-template-columns: 1fr auto;
+  }
+  .waystation-controls > div {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  .waystation-controls p {
+    font-size: 11px;
+  }
+  .waystation-heading {
+    top: 112px;
+  }
+  .waystation-marker {
+    min-width: 70px;
+    max-width: 110px;
+    font-size: 13px;
+    padding-inline: 5px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .waystation-marker {
+    transition: none;
+  }
+}

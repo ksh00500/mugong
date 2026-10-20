@@ -16,6 +16,7 @@ import { HudArtwork } from './HudArtwork';
 import { bossCombatPhase, BOSS_PHASE_LABELS, isBossEnemy } from '../domain/boss-resilience';
 import { bossOpening } from '../domain/boss-recovery';
 import { CombatConditions } from './CombatConditions';
+import { isWalkablePreparation } from '../domain/waystation';
 export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const scope = useRef<HTMLDivElement>(null);
   const f = run.fighter,
@@ -153,10 +154,13 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             </b>
           </div>
           <div className="hud-actions">
-            <button aria-label={`${t('가방')} Tab`} onClick={() => gameStore.openBag(true)}>
+            <button
+              aria-label={`${t('가방')} ${isWalkablePreparation(run) ? 'I' : 'Tab'}`}
+              onClick={() => gameStore.openBag(true)}
+            >
               <Icon name="bag" />
               {t(' 가방 ')}
-              <kbd>Tab</kbd>
+              <kbd>{isWalkablePreparation(run) ? 'I' : 'Tab'}</kbd>
             </button>
             <button
               className="icon-button"

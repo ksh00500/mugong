@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "feature": "waystation-world-v1",
+  "scope": { "walkableRestWave": 4, "retainedCardRestWaves": [9,14,19], "randomEncounterRewardsImplemented": false, "npcAnimationImplemented": false },
+  "typecheck": "passed",
+  "unit": { "files": 79, "tests": 1387, "passed": 1387, "maxWorkers": 2 },
+  "assets": { "runtimeFiles": 1066, "literalReferences": 800, "missingFiles": 0, "lfsPointers": 0, "manifestRuntimeMedia": 1026, "manifestRuntimeBytes": 1196401564, "verifiedRuntimeId": "d12a2e595aa3055c", "newOriginalPngs": 4, "deletedImages": 0 },
+  "build": { "outDir": "dist-waystation-world-v1", "modules": 218, "passed": true, "largeMountChunkWarningRemains": true },
+  "browser": {
+    "finalSourceFlow": { "passed": 13, "singleRun": true },
+    "additionalSourceNativeTab": { "passed": 1, "separateRun": true },
+    "existingRestRegression": { "passed": 9, "singleRun": true, "beforeFinalFirstRestBagGuardAndHudShortcut": true },
+    "compiled5229": { "passed": 13, "singleRun": true },
+    "applied5205": { "passed": 4, "singleRun": true },
+    "latestScenarioTotal": 40,
+    "usesIndependentBrowserStorage": true
+  },
+  "viewports": [[1440,900],[1366,768],[1093,614]],
+  "locales": ["ko","en","ja","zh-CN","zh-TW"],
+  "localIndexSha256": "1f502963f672a716175b938f414f7b45ffee9ebd620290c13f39b100fb1bc37e",
+  "realUserStorageModified": false,
+  "saveSchemaChanged": false,
+  "publicDeployment": false,
+  "limits": ["NPCs use static full-body sprites; hero uses existing locomotion", "No random encounter rewards or later-region walking maps yet", "Not every viewport/settings/state combination or physical GPU endurance tested"]
+}

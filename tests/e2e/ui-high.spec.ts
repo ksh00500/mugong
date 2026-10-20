@@ -32,7 +32,7 @@ async function fixture(page: Page) {
     const s = w.highStore,
       r = s.state.run,
       f = r.fighter;
-    r.wave = 4;
+    r.wave = 9; // First-rest walking is covered by waystation-world.spec.ts.
     spawnWave(r);
     r.gold = 150;
     f.hp = 90;

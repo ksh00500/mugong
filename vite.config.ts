@@ -1,7 +1,11 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'node:path';
 export default defineConfig({
-  server: { port: 5173, strictPort: true },
+  server: {
+    port: 5173,
+    strictPort: true,
+    watch: { ignored: ['**/test-results*/**', '**/docs/verification/**', '**/.local-preview/**'] },
+  },
   build: {
     chunkSizeWarningLimit: 1800,
     rollupOptions: {

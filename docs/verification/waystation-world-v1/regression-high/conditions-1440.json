@@ -1,0 +1,345 @@
+{
+  "html": "<section class=\"combat-conditions\" aria-label=\"현재 상태 이상\"><ul><li data-condition=\"capturedTime\" data-severe=\"true\"><svg class=\"painted-sprite ui-icon icon-close\" viewBox=\"504 4 242 242\" aria-hidden=\"true\" focusable=\"false\"><defs><clipPath id=\"_r_10_\"><rect x=\"504\" y=\"4\" width=\"242\" height=\"242\"></rect></clipPath></defs><g clip-path=\"url(#_r_10_)\"><image href=\"/art/delivery-v1/ui/navigation-v1.webp\" width=\"1000\" height=\"1000\"></image></g></svg><span>붙잡힘</span><small>0.6초</small></li><li data-condition=\"freezeTime\" data-severe=\"true\"><svg class=\"painted-sprite ui-icon icon-clock\" viewBox=\"254 504 242 242\" aria-hidden=\"true\" focusable=\"false\"><defs><clipPath id=\"_r_11_\"><rect x=\"254\" y=\"504\" width=\"242\" height=\"242\"></rect></clipPath></defs><g clip-path=\"url(#_r_11_)\"><image href=\"/art/delivery-v1/ui/navigation-v1.webp\" width=\"1000\" height=\"1000\"></image></g></svg><span>동결</span><small>1.2초</small></li></ul><div class=\"condition-more\"><button class=\"condition-toggle\" aria-expanded=\"true\" aria-controls=\"_r_v_\"><span aria-hidden=\"true\">▾ </span>추가 상태 2개</button><ul id=\"_r_v_\"><li data-condition=\"poisonTime\" data-severe=\"false\"><svg class=\"painted-sprite ui-icon icon-heart\" viewBox=\"504 254 242 242\" aria-hidden=\"true\" focusable=\"false\"><defs><clipPath id=\"_r_12_\"><rect x=\"504\" y=\"254\" width=\"242\" height=\"242\"></rect></clipPath></defs><g clip-path=\"url(#_r_12_)\"><image href=\"/art/delivery-v1/ui/navigation-v1.webp\" width=\"1000\" height=\"1000\"></image></g></svg><span>중독</span><small>3.4초</small></li><li data-condition=\"coldTime\" data-severe=\"false\"><svg class=\"painted-sprite ui-icon icon-clock\" viewBox=\"254 504 242 242\" aria-hidden=\"true\" focusable=\"false\"><defs><clipPath id=\"_r_13_\"><rect x=\"254\" y=\"504\" width=\"242\" height=\"242\"></rect></clipPath></defs><g clip-path=\"url(#_r_13_)\"><image href=\"/art/delivery-v1/ui/navigation-v1.webp\" width=\"1000\" height=\"1000\"></image></g></svg><span>냉기 ×3</span><small>2초</small></li></ul></div></section>",
+  "rect": {
+    "x": 32,
+    "y": 146,
+    "width": 284,
+    "height": 125.78125,
+    "top": 146,
+    "right": 316,
+    "bottom": 271.78125,
+    "left": 32
+  },
+  "ancestors": [
+    {
+      "class": "combat-conditions",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "2",
+      "rect": {
+        "x": 32,
+        "y": 146,
+        "width": 284,
+        "height": 125.78125,
+        "top": 146,
+        "right": 316,
+        "bottom": 271.78125,
+        "left": 32
+      }
+    },
+    {
+      "class": "player-panel ",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 14,
+        "y": 0,
+        "width": 320,
+        "height": 184,
+        "top": 0,
+        "right": 334,
+        "bottom": 184,
+        "left": 14
+      }
+    },
+    {
+      "class": "hud-top",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 14,
+        "y": 0,
+        "width": 1412,
+        "height": 184,
+        "top": 0,
+        "right": 1426,
+        "bottom": 184,
+        "left": 14
+      }
+    },
+    {
+      "class": "hud wuxia-hud",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "game-frame",
+      "overflow": "hidden",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "field-shell",
+      "overflow": "hidden",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "app-shell",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "class": "",
+      "overflow": "visible",
+      "clip": "auto",
+      "clipPath": "none",
+      "contain": "none",
+      "z": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    }
+  ],
+  "hit": [
+    {
+      "tag": "LI",
+      "class": ""
+    },
+    {
+      "tag": "UL",
+      "class": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "condition-more"
+    },
+    {
+      "tag": "CANVAS",
+      "class": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "game-canvas"
+    },
+    {
+      "tag": "DIV",
+      "class": "game-frame"
+    },
+    {
+      "tag": "MAIN",
+      "class": "field-shell"
+    },
+    {
+      "tag": "DIV",
+      "class": "app-shell"
+    },
+    {
+      "tag": "DIV",
+      "class": ""
+    },
+    {
+      "tag": "BODY",
+      "class": ""
+    },
+    {
+      "tag": "HTML",
+      "class": ""
+    }
+  ],
+  "children": [
+    {
+      "text": "붙잡힘0.6초",
+      "rect": {
+        "x": 32,
+        "y": 146,
+        "width": 96.375,
+        "height": 23.59375,
+        "top": 146,
+        "right": 128.375,
+        "bottom": 169.59375,
+        "left": 32
+      },
+      "display": "flex",
+      "visibility": "visible",
+      "position": "static",
+      "overflow": "visible"
+    },
+    {
+      "text": "동결1.2초",
+      "rect": {
+        "x": 132.375,
+        "y": 146,
+        "width": 84.015625,
+        "height": 23.59375,
+        "top": 146,
+        "right": 216.390625,
+        "bottom": 169.59375,
+        "left": 132.375
+      },
+      "display": "flex",
+      "visibility": "visible",
+      "position": "static",
+      "overflow": "visible"
+    },
+    {
+      "text": "▾ 추가 상태 2개중독3.4초냉기 ×32초",
+      "rect": {
+        "x": 32,
+        "y": 174.59375,
+        "width": 220,
+        "height": 97.1875,
+        "top": 174.59375,
+        "right": 252,
+        "bottom": 271.78125,
+        "left": 32
+      },
+      "display": "block",
+      "visibility": "visible",
+      "position": "relative",
+      "overflow": "visible"
+    },
+    {
+      "text": "▾ 추가 상태 2개",
+      "rect": {
+        "x": 32,
+        "y": 174.59375,
+        "width": 92.375,
+        "height": 28,
+        "top": 174.59375,
+        "right": 124.375,
+        "bottom": 202.59375,
+        "left": 32
+      },
+      "display": "inline-block",
+      "visibility": "visible",
+      "position": "relative",
+      "overflow": "visible"
+    },
+    {
+      "text": "중독3.4초",
+      "rect": {
+        "x": 39,
+        "y": 213.59375,
+        "width": 206,
+        "height": 23.59375,
+        "top": 213.59375,
+        "right": 245,
+        "bottom": 237.1875,
+        "left": 39
+      },
+      "display": "flex",
+      "visibility": "visible",
+      "position": "static",
+      "overflow": "visible"
+    },
+    {
+      "text": "냉기 ×32초",
+      "rect": {
+        "x": 39,
+        "y": 241.1875,
+        "width": 206,
+        "height": 23.59375,
+        "top": 241.1875,
+        "right": 245,
+        "bottom": 264.78125,
+        "left": 39
+      },
+      "display": "flex",
+      "visibility": "visible",
+      "position": "static",
+      "overflow": "visible"
+    }
+  ]
+}

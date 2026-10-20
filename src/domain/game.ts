@@ -8,6 +8,7 @@ import {
   TRAIT_IDS,
 } from './character';
 import { recruitmentAction, recruitmentView } from './recruitment';
+import { isWalkablePreparation, walkWaystation } from './waystation';
 import { BALANCE, encounterHp } from './balance';
 import { healingOffer } from './preparation';
 import { isBossEnemy, clearBossControl } from './boss-resilience';
@@ -1519,6 +1520,10 @@ function clearWave(r: Run) {
       : '전투 종료 · 전리품을 수납하고 다음 웨이브로 진행하세요.';
 }
 export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink) {
+  if (isWalkablePreparation(r) && !pendingChoices(r)) {
+    walkWaystation(r.fighter, input, dt);
+    return;
+  }
   if (r.phase !== 'combat' || pendingChoices(r)) {
     r.fighter.capturedTime = 0;
     r.encounterObjects = r.encounterObjects?.filter(
