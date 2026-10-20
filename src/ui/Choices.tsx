@@ -97,167 +97,169 @@ export function Choices({
           }
         }}
       >
-        <div className="growth-kicker">
-          {fighter.progressionVersion === 2 ? (
-            t('수련 기회 · {0}', { 0: fighter.trainingPoints ?? 0 })
-          ) : (
-            <>
-              {t('수련의 갈림길 · Lv.')}
-              {fighter.level}
-            </>
-          )}
-        </div>
-        <h2>{fighter.arts.length ? t('다음 경지를 선택하세요') : t('첫 무공을 선택하세요')}</h2>
-        <div className="growth-selection-status" role="status" aria-live="polite">
-          {busy
-            ? t('저장 중')
-            : selectionError
-              ? t(selectionError)
-              : locked
-                ? t('오입력 방지 · {0}초 후 선택 가능', { 0: remaining })
-                : t('선택할 무공을 눌러 결정하세요 · Shift로 설명 확인')}
-          {locked && (
-            <span className="growth-wait-track" aria-hidden="true">
-              <i />
-            </span>
-          )}
-        </div>
-        <div
-          className="choice-grid"
-          style={{ '--choice-count': offers.length } as React.CSSProperties}
-        >
-          {offers.map((o, index) => {
-            const d = ARTS[o.art],
-              current = fighter.arts.find((a) => a.id === o.art)?.level ?? 0;
-            return (
-              <button
-                className={`choice-card ${o.art}${locked ? ' cooldown' : ''}`}
-                key={o.art}
-                hidden={compact && index !== Math.min(page, offers.length - 1)}
-                data-technique={o.art}
-                data-level={current + 1}
-                data-next="true"
-                aria-description={t(d.description)}
-                disabled={busy || locked}
-                onClick={async () => {
-                  if (locked || busy) return;
-                  setSelectionError('');
-                  if (!(await gameStore.dispatch({ type: 'choose', offer: o })))
-                    setSelectionError(gameStore.notice || '지금은 할 수 없는 행동입니다.');
-                }}
-                style={{ '--art-color': d.hex } as React.CSSProperties}
-              >
-                <div className="choice-identity">
-                  <ArtGlyph id={o.art} />
-                  <div>
-                    <span className="choice-type">
-                      {o.type === 'learn'
-                        ? t('새 무공')
-                        : current === 1 || current === 3
-                          ? t('보조 효과 해금')
-                          : t('경지 상승')}
-                    </span>
-                    <h3>{t(d.name)}</h3>
-                    <div className="choice-level">
-                      {current ? `Lv.${current} → Lv.${current + 1}` : t('Lv.1 입문')}
+        <div className="growth-content">
+          <div className="growth-kicker">
+            {fighter.progressionVersion === 2 ? (
+              t('수련 기회 · {0}', { 0: fighter.trainingPoints ?? 0 })
+            ) : (
+              <>
+                {t('수련의 갈림길 · Lv.')}
+                {fighter.level}
+              </>
+            )}
+          </div>
+          <h2>{fighter.arts.length ? t('다음 경지를 선택하세요') : t('첫 무공을 선택하세요')}</h2>
+          <div className="growth-selection-status" role="status" aria-live="polite">
+            {busy
+              ? t('저장 중')
+              : selectionError
+                ? t(selectionError)
+                : locked
+                  ? t('오입력 방지 · {0}초 후 선택 가능', { 0: remaining })
+                  : t('선택할 무공을 눌러 결정하세요 · Shift로 설명 확인')}
+            {locked && (
+              <span className="growth-wait-track" aria-hidden="true">
+                <i />
+              </span>
+            )}
+          </div>
+          <div
+            className="choice-grid"
+            style={{ '--choice-count': offers.length } as React.CSSProperties}
+          >
+            {offers.map((o, index) => {
+              const d = ARTS[o.art],
+                current = fighter.arts.find((a) => a.id === o.art)?.level ?? 0;
+              return (
+                <button
+                  className={`choice-card ${o.art}${locked ? ' cooldown' : ''}`}
+                  key={o.art}
+                  hidden={compact && index !== Math.min(page, offers.length - 1)}
+                  data-technique={o.art}
+                  data-level={current + 1}
+                  data-next="true"
+                  aria-description={t(d.description)}
+                  disabled={busy || locked}
+                  onClick={async () => {
+                    if (locked || busy) return;
+                    setSelectionError('');
+                    if (!(await gameStore.dispatch({ type: 'choose', offer: o })))
+                      setSelectionError(gameStore.notice || '지금은 할 수 없는 행동입니다.');
+                  }}
+                  style={{ '--art-color': d.hex } as React.CSSProperties}
+                >
+                  <div className="choice-identity">
+                    <ArtGlyph id={o.art} />
+                    <div>
+                      <span className="choice-type">
+                        {o.type === 'learn'
+                          ? t('새 무공')
+                          : current === 1 || current === 3
+                            ? t('보조 효과 해금')
+                            : t('경지 상승')}
+                      </span>
+                      <h3>{t(d.name)}</h3>
+                      <div className="choice-level">
+                        {current ? `Lv.${current} → Lv.${current + 1}` : t('Lv.1 입문')}
+                      </div>
                     </div>
                   </div>
-                </div>
-                <p>{t(summaries[o.art])}</p>
-                {fighter.progressionVersion === 2 && (
-                  <small>{t('수련 {0} 소모', { 0: o.type === 'learn' ? 1 : current })}</small>
-                )}
-                <div className="choice-skill">
-                  {t(
-                    milestoneGain(
-                      o.art,
-                      current + 1,
-                      d.stages[current] ?? d.stages[d.stages.length - 1],
-                    ),
+                  <p>{t(summaries[o.art])}</p>
+                  {fighter.progressionVersion === 2 && (
+                    <small>{t('수련 {0} 소모', { 0: o.type === 'learn' ? 1 : current })}</small>
                   )}
-                </div>
-                <small>
-                  <kbd>Space</kbd> {t(d.defense)}
-                </small>
-                <span className="choose-label">
-                  {locked ? t('잠시 후 선택 가능') : t('선택하기 →')}
-                </span>
+                  <div className="choice-skill">
+                    {t(
+                      milestoneGain(
+                        o.art,
+                        current + 1,
+                        d.stages[current] ?? d.stages[d.stages.length - 1],
+                      ),
+                    )}
+                  </div>
+                  <small>
+                    <kbd>Space</kbd> {t(d.defense)}
+                  </small>
+                  <span className="choose-label">
+                    {locked ? t('잠시 후 선택 가능') : t('선택하기 →')}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          {compact && (
+            <nav className="growth-pages" aria-label={t('무공 후보 전환')}>
+              <button
+                disabled={page === 0}
+                aria-label={t('이전 무공 후보')}
+                onClick={() => setPage((value) => value - 1)}
+              >
+                ‹
               </button>
-            );
-          })}
-        </div>
-        {compact && (
-          <nav className="growth-pages" aria-label={t('무공 후보 전환')}>
-            <button
-              disabled={page === 0}
-              aria-label={t('이전 무공 후보')}
-              onClick={() => setPage((value) => value - 1)}
-            >
-              ‹
-            </button>
-            <span>
-              {page + 1} / {offers.length}
-            </span>
-            <button
-              disabled={page >= offers.length - 1}
-              aria-label={t('다음 무공 후보')}
-              onClick={() => setPage((value) => value + 1)}
-            >
-              ›
-            </button>
-            <button
-              className="growth-detail-link"
-              disabled={locked || busy}
-              data-details-toggle
-              aria-expanded="false"
-            >
-              {t('설명')} <kbd>Shift</kbd>
-            </button>
-          </nav>
-        )}
-        <div className="growth-note">
-          {fighter.progressionVersion === 2 && !!fighter.arts.length && (
-            <button
-              className="growth-defer"
-              disabled={busy || locked}
-              onClick={() => void gameStore.dispatch({ type: 'deferTraining' })}
-            >
-              {t('수련 기회 보관')}
-            </button>
+              <span>
+                {page + 1} / {offers.length}
+              </span>
+              <button
+                disabled={page >= offers.length - 1}
+                aria-label={t('다음 무공 후보')}
+                onClick={() => setPage((value) => value + 1)}
+              >
+                ›
+              </button>
+              <button
+                className="growth-detail-link"
+                disabled={locked || busy}
+                data-details-toggle
+                aria-expanded="false"
+              >
+                {t('설명')} <kbd>Shift</kbd>
+              </button>
+            </nav>
           )}
-          <small>{t('최대 네 무공 · 선택 결과 자동 저장')}</small>
-          {!compact && (
-            <button
-              className="growth-detail-link"
-              disabled={locked || busy}
-              data-details-toggle
-              aria-expanded="false"
-            >
-              {t('설명')} <kbd>Shift</kbd>
-            </button>
+          <div className="growth-note">
+            {fighter.progressionVersion === 2 && !!fighter.arts.length && (
+              <button
+                className="growth-defer"
+                disabled={busy || locked}
+                onClick={() => void gameStore.dispatch({ type: 'deferTraining' })}
+              >
+                {t('수련 기회 보관')}
+              </button>
+            )}
+            <small>{t('최대 네 무공 · 선택 결과 자동 저장')}</small>
+            {!compact && (
+              <button
+                className="growth-detail-link"
+                disabled={locked || busy}
+                data-details-toggle
+                aria-expanded="false"
+              >
+                {t('설명')} <kbd>Shift</kbd>
+              </button>
+            )}
+          </div>
+          {offers.length < 3 && (
+            <details className="growth-availability">
+              <summary>{t('선택 가능 {0}개 · 조건 확인', { 0: available })}</summary>
+              <div className="growth-availability-content">
+                <p>
+                  {t(
+                    '보유 무공의 다음 성급은 현재 성급만큼 수련을 소모합니다. 새 무공은 수련 1이 필요하며, 호환 무장이 없다면 무장 가방 공간도 필요합니다.',
+                  )}
+                </p>
+                <ul>
+                  {excluded.map(({ offer, cost, reasons }) => (
+                    <li key={offer.art}>
+                      {t(ARTS[offer.art].name)} · {t('수련 {0} 소모', { 0: cost })} ·{' '}
+                      {reasons.map((reason) => t(reasonCopy[reason])).join(' / ')}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </details>
           )}
         </div>
-        {offers.length < 3 && (
-          <details className="growth-availability">
-            <summary>{t('선택 가능 {0}개 · 조건 확인', { 0: available })}</summary>
-            <div className="growth-availability-content">
-              <p>
-                {t(
-                  '보유 무공의 다음 성급은 현재 성급만큼 수련을 소모합니다. 새 무공은 수련 1이 필요하며, 호환 무장이 없다면 무장 가방 공간도 필요합니다.',
-                )}
-              </p>
-              <ul>
-                {excluded.map(({ offer, cost, reasons }) => (
-                  <li key={offer.art}>
-                    {t(ARTS[offer.art].name)} · {t('수련 {0} 소모', { 0: cost })} ·{' '}
-                    {reasons.map((reason) => t(reasonCopy[reason])).join(' / ')}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </details>
-        )}
-        <QuickDetails scope={ref} fighter={fighter} />
+        <QuickDetails scope={ref} fighter={fighter} placement="inline" />
       </section>
     </div>
   );

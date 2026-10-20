@@ -4,7 +4,9 @@ import { emptyGame, startRun, grantXp, command } from '../../src/domain/game';
 import { makeItem, ART_IDS } from '../../src/domain/content';
 import type { BoundFighter, GameState } from '../../src/domain/model';
 
-const proof = `docs/verification/details-v4/${process.env.MUGONG_DAYTONA_URL ? 'public' : 'local'}`;
+const proof =
+  process.env.MUGONG_DETAILS_PROOF ??
+  `docs/verification/details-v4/${process.env.MUGONG_DAYTONA_URL ? 'public' : 'local'}`;
 test.beforeEach(async () => {
   await mkdir(proof, { recursive: true });
 });

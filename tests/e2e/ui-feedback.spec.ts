@@ -18,9 +18,24 @@ async function advance(page: Page, ms: number) {
 }
 
 async function fixture(page: Page) {
-  await page.clock.install();
   await seedRegion(page, 0);
   await observeScene(page);
+  await page.evaluate(async () => {
+    const w = window as any,
+      load = w.regionModule;
+    const names = [
+      '/src/platform/store.ts',
+      '/src/domain/content.ts',
+      '/src/platform/feedback-preferences.ts',
+    ];
+    const modules = new Map(await Promise.all(names.map(async (name) => [name, await load(name)] as const)));
+    // Clock installation replaces Performance too. Preserve the app's already
+    // loaded Vite module instances instead of importing a second store by URL.
+    w.regionModule = (name: string) => modules.get(name) ?? load(name);
+  });
+  // Hook the live scene before replacing RAF; otherwise startup can wait on
+  // a virtual frame that the test has not advanced yet.
+  await page.clock.install();
   await page.evaluate(async () => {
     const w = window as any;
     w.feedbackStore = (await w.regionModule('/src/platform/store.ts')).gameStore;
@@ -40,7 +55,7 @@ async function fixture(page: Page) {
     w.feedbackStore.notify();
     w.regionScene.draw(w.feedbackStore.state.run);
   });
-  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 50));
+  await page.clock.pauseAt(await page.evaluate(() => Date.now() + 2000));
   await page.clock.runFor(32);
   await expect(page.locator(player)).toHaveAttribute('data-feedback', 'idle');
 }
@@ -104,7 +119,8 @@ for (const [width, height] of [
     await expect(page.locator(player)).toHaveAttribute('data-feedback', 'idle');
     await health(page, 0.2);
     await expect(page.locator('.player-panel')).toHaveClass(/critical-health/);
-    await expect(page.locator('.health-line small')).toHaveText('체력 · 위험');
+    await expect(page.locator('.health-line small')).toHaveAttribute('aria-label', '체력 · 위험');
+    await expect(page.locator('.health-line small')).toHaveText('체력 !');
     await advance(page, 650);
     await page.screenshot({ path: `${proof}/critical-${width}.png` });
     await health(page, 0.8);

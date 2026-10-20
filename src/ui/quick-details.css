@@ -18,6 +18,13 @@
   pointer-events: auto;
   overflow-wrap: anywhere;
 }
+.quick-details-inline {
+  position: static;
+  width: auto;
+  min-width: 0;
+  max-height: calc(100dvh - 48px);
+  align-self: center;
+}
 /* Hover previews in the bag must not intercept item clicks under the preview.
    Hold Shift to interact with long text and scroll it. */
 .inventory-workspace .quick-details:not([data-interactive='true']) {

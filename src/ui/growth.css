@@ -15,6 +15,51 @@
   color: #f7edd4;
   outline: none;
 }
+.app-shell .growth-content {
+  min-width: 0;
+}
+.app-shell .growth:has(.quick-details-inline) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 330px);
+  gap: 20px;
+  align-items: center;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-identity {
+  gap: 8px;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-card h3 {
+  font-size: 20px;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-card .art-glyph {
+  width: 42px;
+  height: 42px;
+}
+@media (max-height: 700px) {
+  .app-shell .growth:has(.quick-details-inline) {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 16px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .choice-card {
+    padding-inline: 12px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .choose-label {
+    margin-inline: -12px;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .growth:has(.quick-details-inline) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .growth-content {
+    min-height: 0;
+    overflow-y: auto;
+  }
+  .app-shell .growth .quick-details-inline {
+    max-height: min(30dvh, 220px);
+  }
+}
 .app-shell .growth-kicker {
   font-size: 17px;
   letter-spacing: 0.08em;

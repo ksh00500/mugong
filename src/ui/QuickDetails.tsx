@@ -10,9 +10,11 @@ import { ArtGlyph } from './shared';
 export function QuickDetails({
   scope,
   fighter,
+  placement = 'floating',
 }: {
   scope: RefObject<HTMLElement | null>;
   fighter?: Fighter;
+  placement?: 'floating' | 'inline';
 }) {
   const id = useId();
   const { locale } = useLanguage();
@@ -231,7 +233,7 @@ export function QuickDetails({
     };
   }, [scope, id]);
   useLayoutEffect(() => {
-    if (!details) return;
+    if (!details || placement === 'inline') return;
     const place = () => {
       const trigger = anchor.current,
         popup = panel.current;
@@ -281,7 +283,7 @@ export function QuickDetails({
     place();
     window.addEventListener('resize', place);
     return () => window.removeEventListener('resize', place);
-  }, [details, locale]);
+  }, [details, locale, placement]);
   if (!details) return null;
   const definition = ARTS[details.art],
     preview =
@@ -307,9 +309,9 @@ export function QuickDetails({
       ref={panel}
       id={id}
       role="tooltip"
-      className="quick-details"
+      className={`quick-details${placement === 'inline' ? ' quick-details-inline' : ''}`}
       data-interactive={details.interactive}
-      style={position}
+      style={placement === 'inline' ? undefined : position}
     >
       <header>
         <ArtGlyph id={details.art} />

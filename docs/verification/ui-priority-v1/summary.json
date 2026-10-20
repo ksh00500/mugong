@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "baseCommit": "aa1fc182e4ce4e2293119ddedb87c02e01341e73",
+  "branch": "codex/ui-priority-v1",
+  "unit": {
+    "files": 77,
+    "total": 1377,
+    "passed": 1377,
+    "success": true
+  },
+  "source": {
+    "files": 77,
+    "total": 1377,
+    "passed": 1377,
+    "success": true
+  },
+  "typecheck": true,
+  "runtimeAssets": {
+    "files": 1058,
+    "literalReferences": 792,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "build": {
+    "directory": "dist-ui-priority-v1",
+    "modules": 203,
+    "largeMountWarningRemains": true
+  },
+  "browser": {
+    "sourcePriority": 8,
+    "growthDetailsRegression": 3,
+    "feedbackRegression": 5,
+    "compiled5227": 3,
+    "local5205": 3,
+    "actualUserSaveModified": false
+  },
+  "scopedIssues": [
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05"
+  ],
+  "remaining": "U06-U24"
+}

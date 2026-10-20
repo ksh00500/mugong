@@ -22,6 +22,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
     boss = run.enemies.find((e) => isBossEnemy(e) && e.hp > 0);
   const bossPhase = boss ? bossCombatPhase(boss) : 'combat';
   const opening = boss ? !!bossOpening(boss) : false;
+  const critical = f.hp / maximumHp(f) <= 0.25;
   const unlocked = !!art && art.level >= techniqueStats(art.id, art.level).ultimateLevel;
   const gaugeMax = art?.id === 'gaebang' ? 200 : 100;
   const canSwitch = !busy && f.actionTime <= 0 && !pendingChoices(run);
@@ -45,7 +46,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
     <div className="hud wuxia-hud" data-phase={run.phase} ref={scope}>
       <div className="hud-top">
         <section
-          className={`player-panel ${f.hp / maximumHp(f) <= 0.25 ? 'critical-health' : ''}`}
+          className={`player-panel ${critical ? 'critical-health' : ''}`}
           aria-label={t('무인 상태')}
         >
           <HudArtwork shape="player" />
@@ -63,7 +64,10 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             </div>
             <div className="hud-health">
               <div className="health-line">
-                <small>{t(f.hp / maximumHp(f) <= 0.25 ? '체력 · 위험' : '체력')}</small>
+                <small aria-label={t(critical ? '체력 · 위험' : '체력')}>
+                  {t('체력')}
+                  {critical && <span aria-hidden="true"> !</span>}
+                </small>
                 <span>
                   {Math.ceil(f.hp)} / {maximumHp(f)}
                 </span>

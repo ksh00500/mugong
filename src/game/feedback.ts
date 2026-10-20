@@ -174,11 +174,14 @@ export class CombatFeedback {
   }
 
   resetCamera() {
-    const camera = this.scene.cameras.main;
-    camera.setScroll(camera.scrollX - this.cameraOffset.x, camera.scrollY - this.cameraOffset.y);
+    // Phaser.Game destruction can release the camera before scene destroy.
+    // Local feedback still needs clearing even when there is no camera left.
+    const camera = this.scene.cameras?.main;
+    if (camera)
+      camera.setScroll(camera.scrollX - this.cameraOffset.x, camera.scrollY - this.cameraOffset.y);
     this.cameraOffset = { x: 0, y: 0 };
     this.cameraImpulse.reset();
-    camera.shakeEffect.reset();
+    camera?.shakeEffect?.reset();
   }
 
   updateCamera(now: number, disabled: boolean) {
@@ -186,8 +189,12 @@ export class CombatFeedback {
       this.resetCamera();
       return;
     }
-    const camera = this.scene.cameras.main,
-      offset = this.cameraImpulse.sample(now, shakeStrength());
+    const camera = this.scene.cameras?.main;
+    if (!camera) {
+      this.resetCamera();
+      return;
+    }
+    const offset = this.cameraImpulse.sample(now, shakeStrength());
     const next = { x: offset.x / camera.zoom, y: offset.y / camera.zoom };
     camera.setScroll(
       camera.scrollX - this.cameraOffset.x + next.x,

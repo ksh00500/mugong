@@ -1,7 +1,32 @@
 .dialog.recruitment-dialog {
+  display: flex;
+  flex-direction: column;
   width: min(920px, calc(100vw - 32px));
   max-width: 920px;
+  max-height: calc(100dvh - 24px);
+  overflow: visible;
   padding: 20px;
+}
+.recruitment-dialog > .dialog-header {
+  flex: none;
+  margin: 0;
+  padding: 8px 0 12px;
+}
+.recruitment-dialog > .dialog-header h2 {
+  font-size: clamp(28px, 3vw, 36px);
+}
+.recruitment-content {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+}
+.recruitment-footer {
+  flex: none;
+  border-top: 1px solid #a8956955;
+  margin-top: 8px;
+  padding-top: 4px;
 }
 .recruitment-status {
   display: flex;
@@ -134,8 +159,24 @@
     width: 64px;
     height: 64px;
   }
+  .recruitment-status {
+    font-size: 17px;
+    margin-block: 6px 10px;
+  }
+  .recruitment-candidate dl {
+    font-size: 18px;
+    line-height: 1.3;
+  }
   .recruitment-name {
-    margin: 10px 0;
+    margin: 6px 0 8px;
+  }
+  .recruitment-name input {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+  .recruitment-actions button {
+    min-height: 44px;
+    padding: 8px 18px;
   }
 }
 @media (max-width: 600px) {
