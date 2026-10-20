@@ -120,7 +120,8 @@ it('진법 감속은 접근·준비·회수에서 보스에게 적용되지 않�
         b = fixture(bossId);
       for (const { e, f } of [a, b]) {
         e.state = state;
-        e.timer = state === 'recover' ? 0.01 : 1;
+        e.timer = state === 'recover' ? 0.1 : 1;
+        if (bossId) e.move = 'thrust'; // Quick recovery can reposition; heavy openings stay still.
         f.x = 1200;
       }
       b.f.arts = [{ id: 'jegal', level: 2, gauge: 0, combo: 0, defenseCd: 0 }];

@@ -135,8 +135,8 @@ it('공격 대기열은 적 세 명의 준비를 유지하고 회복한 자리�
   r.enemies[1].state = 'recover';
   expect(canCommitAttack(r, e)).toBe(true);
 });
-it('30% 완화를 해제하되 보스 패턴 준비시간은 유지한다', () => {
-  expect(BALANCE.bossHp).toEqual([900, 1500, 2200, 3000]);
+it('보스 내구력을 높이되 일반 적 수치와 패턴 준비시간은 유지한다', () => {
+  expect(BALANCE.bossHp).toEqual([1000, 1725, 2530, 3450]);
   expect(BALANCE.enemyDamageFactor).toBeCloseTo(1.2);
   expect(encounterHp(0, false)).toBe(Math.round(32 * 1.65));
 });

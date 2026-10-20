@@ -12,6 +12,7 @@ import { BALANCE, encounterHp } from './balance';
 import { healingOffer } from './preparation';
 import { isBossEnemy, clearBossControl } from './boss-resilience';
 import { bossCommitRange, commitBossPressure, stepBossPressure } from './boss-pressure';
+import { bossOpening } from './boss-recovery';
 import {
   ARTS,
   ART_IDS,
@@ -460,6 +461,7 @@ function hitEnemy(
   sourceArt?: ArtId,
   basicHit = false,
   attackSequence?: number,
+  meleeContact = false,
 ) {
   if (e.hp <= 0) return;
   const before = e.hp;
@@ -467,10 +469,22 @@ function hitEnemy(
   if (basicHit && sourceArt !== 'tang' && support.poisonLevel)
     applyPoison(e, Math.max(1, damage * 0.04), support.poisonLevel);
   if (basicHit) damage *= innateHit(r.fighter, e.id, attackSequence);
+  // Reward an actual close weapon contact in the stationary recovery. Poison,
+  // ranged casts, ultimates and pre-existing projectiles get no opening bonus.
+  if (
+    basicHit &&
+    meleeContact &&
+    bossOpening(e) &&
+    sourceArt !== 'tang' &&
+    sourceArt !== 'jegal' &&
+    distance(e, r.fighter) <= 180
+  )
+    damage *= 1.15;
   const factor = bossDamageFactor(r, e);
   damage *= factor;
   if (
     charge &&
+    !bossOpening(e) &&
     (e.guardTime ?? 0) > 0 &&
     ['parry', 'counter'].includes(bossSignature(e) ?? '') &&
     angularDistance(Math.atan2(r.fighter.y - e.y, r.fighter.x - e.x), e.facing) < 0.8
@@ -673,7 +687,18 @@ function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) 
     ) {
       hits++;
       const damage = a.damage;
-      hitEnemy(r, e, damage, a.heal, emit, a.art !== 'gaebang', a.art, a.seq !== undefined, a.seq);
+      hitEnemy(
+        r,
+        e,
+        damage,
+        a.heal,
+        emit,
+        a.art !== 'gaebang',
+        a.art,
+        a.seq !== undefined,
+        a.seq,
+        true,
+      );
       if (a.art === 'jegal') {
         addFormation(r, e.x, e.y, 'earth', a.damage, art?.level ?? 1);
         if (!isBossEnemy(e)) {
@@ -1466,7 +1491,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
     }
   } else if (e.state === 'recover' && e.timer <= 0) {
     e.state = 'approach';
-    e.timer = boss ? 0.22 : 0.18 + (e.id % 5) * 0.07;
+    e.timer = boss ? 0.12 : 0.18 + (e.id % 5) * 0.07;
     e.move = undefined;
     e.strike = undefined;
     e.targetX = e.targetY = undefined;

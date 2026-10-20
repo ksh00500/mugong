@@ -2,6 +2,7 @@ import type Phaser from 'phaser';
 import type { Run } from '../domain/model';
 import { bossCombatPhase, isBossEnemy } from '../domain/boss-resilience';
 import { bossAttackTell, type BossTell } from './boss-tells';
+import { bossOpening } from '../domain/boss-recovery';
 
 const colors = {
   sweep: 0xefb76d,
@@ -207,6 +208,23 @@ export class BossReadability {
           .strokeEllipse(e.x, e.y, r * 2, r * 0.75);
       }
       const tell = bossAttackTell(e);
+      const opening = bossOpening(e);
+      if (opening) {
+        const bar = this.bar(e.id),
+          g = this.marks;
+        if (bar) {
+          // Draining bar with open brackets; never resembles a damage area.
+          g.lineStyle(2, 0xa9ebc4, 0.9)
+            .lineBetween(e.x - 27, bar.y + 8, e.x - 27, bar.y + 14)
+            .lineBetween(e.x + 27, bar.y + 8, e.x + 27, bar.y + 14);
+          g.fillStyle(0xa9ebc4, 0.85).fillRect(
+            e.x - 22,
+            bar.y + 10,
+            44 * Math.min(1, opening.remaining / opening.duration),
+            3,
+          );
+        }
+      }
       if (tell) {
         this.drawTell(tell);
         // A short segmented charge directly beneath the actor HP bar.

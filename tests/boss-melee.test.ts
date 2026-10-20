@@ -350,7 +350,7 @@ it('패도 대회전은 뒤쪽 피해자를 보스 쪽이 아니라 몸 바깥�
   expect(f.hp).toBeLessThan(120);
   expect(f.x).toBeCloseTo(x - 45, 3);
 });
-it('한무극 저체력 추격은 이동과 회복을 강화하되 고정 조준을 바꾸거나 검기를 만들지 않는다', () => {
+it('한무극 저체력 추격은 이동을 강화하되 큰 기술 반격 기회와 고정 조준을 유지한다', () => {
   const { r, e, f } = fixture('0-4', 'dash', 500);
   e.hp = 3000;
   e.state = 'approach';
@@ -358,7 +358,7 @@ it('한무극 저체력 추격은 이동과 회복을 강화하되 고정 조준
   stepBossBehavior(r, e, 0.1);
   expect(e.x).toBeGreaterThan(x);
   expect(e.rageTime).toBe(0.2);
-  expect(enemyAttack(e).recovery).toBeLessThan(BOSS_MELEE['0-4'].moves.dash!.recovery);
+  expect(enemyAttack(e).recovery).toBeGreaterThanOrEqual(0.85);
   e.state = 'windup';
   const locked = { x: e.x, y: e.y, aim: e.aim };
   f.y += 200;

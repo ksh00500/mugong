@@ -15,6 +15,7 @@ export const messages: Record<string, readonly [string, string, string, string]>
   추격: ['Pursuit', '追撃', '追击', '追擊'],
   수세: ['Guard', '防御', '防守', '防守'],
   격화: ['Enraged', '激化', '激化', '激化'],
+  '반격 기회': ['Opening', '反撃の好機', '反击时机', '反擊時機'],
   '전투 화면을 구성하고 있습니다.': [
     'Building the battlefield.',
     '戦闘画面を構築しています。',

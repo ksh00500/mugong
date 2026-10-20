@@ -328,6 +328,11 @@
   border-color: #f6bd72;
   color: #ffe0a6;
 }
+.app-shell .wuxia-hud [data-boss-opening='true'] .boss-phase {
+  border-color: #9de4bc;
+  color: #d9ffe9;
+  background: #173c2d;
+}
 @keyframes boss-phase-enter {
   from {
     opacity: 0.3;

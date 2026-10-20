@@ -1,12 +1,12 @@
-/** Combat v4 restores the pre-v3 pressure; final warnings remain readable. */
+/** Boss pressure v1: more presence and endurance, unchanged final aim warnings. */
 export const BALANCE = {
-  bossHp: [900, 1500, 2200, 3000],
+  bossHp: [1000, 1725, 2530, 3450],
   enemyHpFactor: 1.65,
-  bossDamageFactor: 1.35,
+  bossDamageFactor: 1.5,
   enemyDamageFactor: 1.2,
   bossRecoveryFactor: 0.65,
   bossWindupFactor: 0.85,
-  bossApproachSpeed: 125,
+  bossApproachSpeed: 175,
 } as const;
 
 export function statPrecision(value: number) {

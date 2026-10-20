@@ -7,6 +7,7 @@ import { bossShots } from './boss-kit';
 import { roleAttack } from './region-enemies';
 import { dashOrigin, fanOffset } from './enemy-geometry';
 import { combatOrigin, projectileHitsBody } from './combat-body';
+import { bossRecovery } from './boss-recovery';
 
 export const STRIKE_TIMING = { duration: 0.28, contact: 0.09 } as const;
 
@@ -30,7 +31,7 @@ export function enemyAttack(e: Enemy) {
           : dashOrigin(e, melee.dash ?? 0),
         shots: bossShots(e, melee),
         windup: melee.windup,
-        recovery: melee.recovery * ((e.rageTime ?? 0) > 0 ? 0.85 : 1),
+        recovery: bossRecovery(melee, move, (e.rageTime ?? 0) > 0).duration,
         radius: melee.range,
         zone: undefined,
         returning: false,

@@ -1,0 +1,121 @@
+{
+  "asOf": "2026-10-20",
+  "baselineCommit": "757ec712c236f5008c7a74ab84362943908f8cc5",
+  "policies": [
+    {
+      "policy": "ranged-lap",
+      "before": {
+        "scenarios": 40,
+        "meanIncoming": 149.04643125000004,
+        "meanOutgoing": 2836.2286745325114,
+        "meanStationaryRecovery": 2.935833333333333,
+        "zeroIncoming": 1
+      },
+      "after": {
+        "scenarios": 40,
+        "meanIncoming": 205.40615625,
+        "meanOutgoing": 2942.6907595475122,
+        "meanStationaryRecovery": 7.446666666666667,
+        "zeroIncoming": 2
+      },
+      "incomingChangePercent": 37.81353537104564
+    },
+    {
+      "policy": "melee-hold",
+      "before": {
+        "scenarios": 40,
+        "meanIncoming": 589.671715625,
+        "meanOutgoing": 4024.0067673374965,
+        "meanStationaryRecovery": 4.692500000000001,
+        "zeroIncoming": 0
+      },
+      "after": {
+        "scenarios": 40,
+        "meanIncoming": 660.8341249999997,
+        "meanOutgoing": 4145.703974849999,
+        "meanStationaryRecovery": 10.428749999999999,
+        "zeroIncoming": 0
+      },
+      "incomingChangePercent": 12.068140202311351
+    },
+    {
+      "policy": "melee-punish",
+      "before": {
+        "scenarios": 40,
+        "meanIncoming": 145.63921249999999,
+        "meanOutgoing": 810.2585726999994,
+        "meanStationaryRecovery": 4.484583333333333,
+        "zeroIncoming": 6
+      },
+      "after": {
+        "scenarios": 40,
+        "meanIncoming": 173.14968750000006,
+        "meanOutgoing": 730.1686768375,
+        "meanStationaryRecovery": 10.155000000000003,
+        "zeroIncoming": 6
+      },
+      "incomingChangePercent": 18.889469757329323
+    }
+  ],
+  "duels": [
+    {
+      "policy": "ranged-lap",
+      "before": {
+        "scenarios": 12,
+        "bossDefeated": 6,
+        "heroDead": 6,
+        "timeout": 0,
+        "successfulTtkMean": 17.224999999999998
+      },
+      "after": {
+        "scenarios": 12,
+        "bossDefeated": 3,
+        "heroDead": 9,
+        "timeout": 0,
+        "successfulTtkMean": 13.316666666666668
+      }
+    },
+    {
+      "policy": "melee-hold",
+      "before": {
+        "scenarios": 12,
+        "bossDefeated": 0,
+        "heroDead": 12,
+        "timeout": 0,
+        "successfulTtkMean": null
+      },
+      "after": {
+        "scenarios": 12,
+        "bossDefeated": 0,
+        "heroDead": 12,
+        "timeout": 0,
+        "successfulTtkMean": null
+      }
+    },
+    {
+      "policy": "melee-punish",
+      "before": {
+        "scenarios": 12,
+        "bossDefeated": 6,
+        "heroDead": 6,
+        "timeout": 0,
+        "successfulTtkMean": 46.46666666666667
+      },
+      "after": {
+        "scenarios": 12,
+        "bossDefeated": 6,
+        "heroDead": 6,
+        "timeout": 0,
+        "successfulTtkMean": 44.824999999999996
+      }
+    }
+  ],
+  "limitations": [
+    "Fixed scripted input; not human win rates",
+    "Pressure probe replenishes both HP every frame; damage is not TTK",
+    "Duel elapsed is TTK only for a defeated boss",
+    "Seeds may yield identical deterministic policies",
+    "Some ranged-lap zero-damage cases remain",
+    "No defense, ultimate, consumables or armour in these fixtures"
+  ]
+}

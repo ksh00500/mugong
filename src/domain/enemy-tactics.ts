@@ -7,6 +7,7 @@ import type { Enemy, Run } from './model';
 import type { BossMove } from './campaign';
 import { meleeKit } from './boss-melee';
 import { bossCommitRange, pressureMovement } from './boss-pressure';
+import { bossOpening } from './boss-recovery';
 
 const observations = new WeakMap<Run, { x: number; y: number; vx: number; vy: number }>();
 /** Smooth tactical course changes in simulation time, never steer a released attack. */
@@ -87,6 +88,21 @@ export function tacticalBossMove(e: Enemy, distance: number, run?: Run): BossMov
   const moves = style.sequence;
   const kit = meleeKit(e);
   if (kit) {
+    // Spend a finite, announced pursuit on a move that can close/control the
+    // gap, rather than repeatedly interrupting it with a short guard stance.
+    if ((e.pressure?.burst ?? 0) > 0 && (e.pressure?.warning ?? 0) <= 0 && distance > 220) {
+      for (let n = 0; n < moves.length; n++) {
+        const move = moves[(e.pattern + n) % moves.length],
+          spec = kit.moves[move];
+        if (
+          spec &&
+          ((spec.dash ?? 0) > 0 || spec.shot || spec.zone) &&
+          distance >= (spec.minimum ?? 0) &&
+          distance <= spec.range + (spec.dash ?? 0) + 18
+        )
+          return move;
+      }
+    }
     // Every committed move advances its own slot. A useful fallback must not
     // reset the sequence to the same thrust over and over at long distance.
     for (let n = 0; n < moves.length; n++) {
@@ -251,8 +267,15 @@ export function tacticalMovement(
  * short recovery window punishable. Attack frames never acquire steering. */
 export function repositionFactor(e: Enemy, profile: { windup: number; recovery: number }) {
   if (e.state === 'approach') return 1;
-  if (e.state === 'windup') return e.timer > Math.min(0.4, profile.windup * 0.45) ? 0.42 : 0;
+  if (e.state === 'windup')
+    return e.timer > Math.min(0.4, profile.windup * 0.45)
+      ? e.bossId && (e.pressure?.burst ?? 0) > 0
+        ? 0.65
+        : 0.42
+      : 0;
   if (e.state === 'recover') {
+    if (e.timer <= 0) return 0;
+    if (bossOpening(e)) return 0;
     const pause =
       meleeKit(e) &&
       (['slam', 'sweep'].includes(e.move ?? '') ||

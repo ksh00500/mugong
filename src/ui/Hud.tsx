@@ -14,12 +14,14 @@ import { Icon } from './Icons';
 import { characterPortrait } from '../platform/character-art';
 import { HudArtwork } from './HudArtwork';
 import { bossCombatPhase, BOSS_PHASE_LABELS, isBossEnemy } from '../domain/boss-resilience';
+import { bossOpening } from '../domain/boss-recovery';
 export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const scope = useRef<HTMLDivElement>(null);
   const f = run.fighter,
     art = f.arts[f.active],
     boss = run.enemies.find((e) => isBossEnemy(e) && e.hp > 0);
   const bossPhase = boss ? bossCombatPhase(boss) : 'combat';
+  const opening = boss ? !!bossOpening(boss) : false;
   const unlocked = !!art && art.level >= techniqueStats(art.id, art.level).ultimateLevel;
   const gaugeMax = art?.id === 'gaebang' ? 200 : 100;
   const canSwitch = !busy && f.actionTime <= 0 && !pendingChoices(run);
@@ -87,7 +89,7 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
         </section>
         <div className="boss-area">
           {isBoss(run.wave) && boss && run.phase === 'combat' ? (
-            <section className="boss-panel" data-boss-phase={bossPhase}>
+            <section className="boss-panel" data-boss-phase={bossPhase} data-boss-opening={opening}>
               <HudArtwork shape="boss" />
               <div className="boss-heading">
                 <b>
@@ -104,14 +106,16 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
                 </b>
                 <span
                   className="boss-phase"
-                  key={`${boss.id}-${bossPhase}`}
+                  key={`${boss.id}-${bossPhase}-${opening}`}
                   role="status"
                   aria-label={t('보스 전투 상태')}
                 >
                   <span aria-hidden="true">
-                    {{ combat: '◇', pursuit: '»', guard: '▣', enraged: '◆' }[bossPhase]}
+                    {opening
+                      ? '↯'
+                      : { combat: '◇', pursuit: '»', guard: '▣', enraged: '◆' }[bossPhase]}
                   </span>
-                  {t(BOSS_PHASE_LABELS[bossPhase])}
+                  {t(opening ? '반격 기회' : BOSS_PHASE_LABELS[bossPhase])}
                 </span>
               </div>
               <div className="boss-health">

@@ -3,7 +3,7 @@ import { isBossEnemy } from './boss-resilience';
 import { meleeKit } from './boss-melee';
 import type { Enemy, Run } from './model';
 
-export const BOSS_PRESSURE = { warning: 0.32, duration: 1.8, cooldown: 5, delay: 0.85 } as const;
+export const BOSS_PRESSURE = { warning: 0.32, duration: 1.8, cooldown: 4, delay: 0.7 } as const;
 const clamp = (n: number, low: number, high: number) => Math.max(low, Math.min(high, n));
 
 /** Read actual world movement, never input or a future attack. Saved clocks do
@@ -69,7 +69,7 @@ export function pressureMovement(
   if (p.burst <= 0) return undefined;
   const kit = meleeKit(e);
   const caster = kit && Object.values(kit.moves).some((m) => m?.shot || m?.zone);
-  const speed = caster ? 365 : kit?.weapon === 'gauntlet' || kit?.weapon === 'dao' ? 410 : 440;
+  const speed = caster ? 390 : kit?.weapon === 'gauntlet' || kit?.weapon === 'dao' ? 440 : 465;
   const lead = caster ? 0.35 : 0.55;
   const length = Math.hypot(velocity.x, velocity.y) * lead;
   const factor = length > 180 ? 180 / length : 1;
