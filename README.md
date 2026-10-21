@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+2026-10-21 일반 적 협공: 근접 압박/측면 접근·창병의 이동 방향 견제·다른 각도의 사격을 연결했다. 먼 사격자도 공격 슬롯을 차지하고 일반 적의 새 준비 시작을 최소0.22초씩 나눈다. [동작·예고·저장 경계·전후 비교](docs/enemy-coordination-v1.md) · [검증](docs/verification/enemy-coordination-v1/README.md).
+
 2026-10-21 전체 밸런스1차: 중후반 적·보스 압박과 회복/상점 비용을 단계별로 조정했다. 삼재·천마의 후반 화력과 자동 방어 유지를 줄이고 개방·제갈을 보완했다. 원거리 공격 중 이동·사거리에 비용을 두며 근접 반격 기회는20%로 강화했다. [수치·전후 비교·저장 호환](docs/global-balance-v1.md) · [검증](docs/verification/global-balance-v1/README.md).
 
 첫 정비4웨이브는 실제 쉼터 맵에서 의원·상인·대장장이에게 걸어가 `E`로 상호작용한다. 인물/표식을 선택하면 그 앞까지 걸어가고 출구 확인으로 보스전을 시작한다. [조작·원화·검증](docs/waystation-world-v1.md). 9·14·19웨이브는 기존 정비 카드를 유지한다.
@@ -29,7 +31,7 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/global-balance-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/enemy-coordination-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build

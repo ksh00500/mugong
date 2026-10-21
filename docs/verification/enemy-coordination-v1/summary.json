@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-21",
+  "baselineCommit": "7eec250f228775210cb67fe59abb45c683374399",
+  "branch": "codex/enemy-coordination-v1",
+  "unit": {
+    "files": 83,
+    "passed": 1430,
+    "failed": 0,
+    "coordinationTests": 31
+  },
+  "typecheck": true,
+  "build": {
+    "modules": 220,
+    "outDir": "dist-enemy-coordination-v1",
+    "largeChunkWarningRemains": true
+  },
+  "assets": {
+    "runtimeFiles": 1066,
+    "literalReferences": 800,
+    "missingFiles": 0,
+    "gitLfsPointers": 0,
+    "mediaFiles": 1026,
+    "mediaBytes": 1196401564,
+    "newArt": false
+  },
+  "browsers": [
+    {
+      "mode": "source",
+      "startTime": "2026-10-21T01:36:28.395Z",
+      "duration": 60374.761,
+      "expected": 6,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "mode": "compiled",
+      "startTime": "2026-10-21T01:37:31.670Z",
+      "duration": 28517.971999999998,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "mode": "local",
+      "startTime": "2026-10-21T01:39:12.716Z",
+      "duration": 22242.31,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    }
+  ],
+  "beforeAfter": {
+    "casesPerVersion": 60,
+    "secondsPerCase": 24,
+    "regions": 10,
+    "waves": [
+      6,
+      16
+    ],
+    "policies": [
+      "hold",
+      "retreat",
+      "circle"
+    ],
+    "replenishedPlayerHp": true,
+    "sameEncounterStats": true,
+    "humanWinRate": false
+  },
+  "directlyInspected": [
+    "source/formation-1093-canvas.png",
+    "source/formation-1440-webgl.png"
+  ],
+  "actualUserSaveAccessed": false,
+  "basicMemoryMcpAvailable": false,
+  "limitations": [
+    "New admission limit does not cancel attacks already committed in an old save or replace boss patterns.",
+    "Scripted, replenished-HP observations are not natural survival or win rates.",
+    "Browser control fixtures are invulnerable to isolate input/save/AI/rendering.",
+    "No every-state/physical-GPU/long natural-play certification.",
+    "No public deployment or main merge."
+  ],
+  "browserScenarioExecutions": 12
+}

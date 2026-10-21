@@ -4,7 +4,7 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
-    watch: { ignored: ['**/test-results*/**', '**/docs/verification/**', '**/.local-preview/**'] },
+    watch: { ignored: ['**/test-results*/**', '**/docs/verification/**', '**/.local-preview/**', '**/dist/**', '**/dist-*/**'] },
   },
   build: {
     chunkSizeWarningLimit: 1800,

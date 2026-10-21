@@ -8,6 +8,13 @@ import type { BossMove } from './campaign';
 import { meleeKit } from './boss-melee';
 import { bossCommitRange, pressureMovement } from './boss-pressure';
 import { bossOpening } from './boss-recovery';
+import {
+  observeSquad,
+  squadAssignment,
+  squadAim,
+  squadCanJoin,
+  SQUAD_RULES,
+} from './enemy-coordination';
 
 const observations = new WeakMap<Run, { x: number; y: number; vx: number; vy: number }>();
 /** Smooth tactical course changes in simulation time, never steer a released attack. */
@@ -47,6 +54,7 @@ export function observeTarget(r: Run, dt: number) {
     vx: (old?.vx ?? 0) * (1 - blend) + dx * factor * blend,
     vy: (old?.vy ?? 0) * (1 - blend) + dy * factor * blend,
   });
+  observeSquad(r, observedVelocity(r));
 }
 export function observedVelocity(r: Run) {
   const v = observations.get(r);
@@ -58,6 +66,9 @@ export function predictedTarget(
   target: { x: number; y: number },
   ranged: boolean,
 ) {
+  const coordinated =
+    target === r.fighter && ranged ? squadAim(r, e, observedVelocity(r)) : undefined;
+  if (coordinated) return coordinated;
   const v = target === r.fighter ? observations.get(r) : undefined;
   const spec = meleeKit(e)?.moves[e.move!];
   const shotSpeed = spec?.shot?.speed ?? 360;
@@ -207,6 +218,15 @@ export function tacticalMovement(
       : 0;
   let x = nx * advance - ny * orbit,
     y = ny * advance + nx * orbit;
+  const assignment =
+    target === r.fighter && e.state === 'approach' ? squadAssignment(r, e) : undefined;
+  if (assignment?.goal) {
+    const gx = assignment.goal.x - e.x,
+      gy = assignment.goal.y - e.y,
+      gd = Math.max(55, Math.hypot(gx, gy));
+    x = gx / gd;
+    y = gy / gd;
+  }
   // React only to visible incoming shots while repositioning, never during a committed attack.
   if (
     !e.bossId &&
@@ -310,14 +330,14 @@ export function canCommitAttack(r: Run, e: Enemy) {
       queue.delete(other);
   }
   if (!queue.has(e)) queue.set(e, r.elapsed);
-  const nearby = r.enemies.filter(
+  // Distant shooters keep their slots until the committed attack ends.
+  const committed = r.enemies.filter(
     (other) =>
-      other !== e &&
-      other.hp > 0 &&
-      Math.hypot(other.x - r.fighter.x, other.y - r.fighter.y) < 650 &&
-      (other.state === 'windup' || other.state === 'strike'),
+      other !== e && other.hp > 0 && (other.state === 'windup' || other.state === 'strike'),
   );
-  if (nearby.length >= 3 || queue.keys().next().value !== e) return false;
+  if (committed.length >= SQUAD_RULES.maximumAttackers) return false;
+  const ready = [...queue.keys()].find((other) => squadCanJoin(r, other, committed));
+  if (ready !== e) return false;
   queue.delete(e);
   return true;
 }
