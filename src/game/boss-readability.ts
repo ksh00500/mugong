@@ -29,7 +29,7 @@ export class BossReadability {
     scene: Phaser.Scene,
     private bar: (id: number) => { y: number } | undefined,
   ) {
-    this.ground = scene.add.graphics().setDepth(-1);
+    this.ground = scene.add.graphics().setDepth(5004);
     this.marks = scene.add.graphics().setDepth(5001);
   }
   private sector(

@@ -263,11 +263,20 @@ function enemy(value: unknown) {
     ) &&
     optional(value.targetX, finite) &&
     optional(value.targetY, finite) &&
-    optional(value.pressure, (p) => record(p) &&
-      ['farTime', 'warning', 'burst', 'cooldown', 'lastDistance'].every((key) => nonnegative(p[key])) &&
-      Number(p.farTime) <= 0.85 && Number(p.warning) <= 0.32 &&
-      Number(p.burst) <= 1.8 && Number(p.cooldown) <= 5 && Number(p.lastDistance) <= 2500 &&
-      optional(p.advance, (n) => nonnegative(n) && Number(n) <= 95)) &&
+    optional(
+      value.pressure,
+      (p) =>
+        record(p) &&
+        ['farTime', 'warning', 'burst', 'cooldown', 'lastDistance'].every((key) =>
+          nonnegative(p[key]),
+        ) &&
+        Number(p.farTime) <= 0.85 &&
+        Number(p.warning) <= 0.32 &&
+        Number(p.burst) <= 1.8 &&
+        Number(p.cooldown) <= 5 &&
+        Number(p.lastDistance) <= 2500 &&
+        optional(p.advance, (n) => nonnegative(n) && Number(n) <= 95),
+    ) &&
     optional(
       value.strike,
       (strike) =>
@@ -488,6 +497,22 @@ function run(value: unknown) {
     nonnegative(value.elapsed) &&
     text(value.message) &&
     integer(value.merchantStock) &&
+    optional(
+      value.restEvents,
+      (events) =>
+        Array.isArray(events) &&
+        events.length <= 4 &&
+        events.every(
+          (event) =>
+            record(event) &&
+            [4, 9, 14, 19].includes(Number(event.wave)) &&
+            integer(event.wave) &&
+            Number(event.wave) <= Number(value.wave) &&
+            member(event.kind, ['herbalist', 'manuscript', 'salvage']) &&
+            member(event.choice, ['accept', 'leave']),
+        ) &&
+        new Set(events.map((event) => (event as RecordValue).wave)).size === events.length,
+    ) &&
     optional(
       value.supplies,
       (supplies) =>

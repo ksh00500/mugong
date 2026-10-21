@@ -154,6 +154,7 @@ export class GameStore {
           buySupply: 'merchant',
           sellMaterial: 'merchant',
           next: 'exit',
+          restEvent: 'fortune',
         } as Record<string, WaystationStop>
       )[cmd.type];
       if (service && this.waystationDialogue !== service) return false;
@@ -300,7 +301,7 @@ export class GameStore {
   }
   approachWaystation(id: WaystationStop) {
     if (!this.canWalkWaystation()) return;
-    if (nearestWaystationStop(this.state.run!.fighter)?.id === id) {
+    if (nearestWaystationStop(this.state.run!.fighter, this.state.run!)?.id === id) {
       this.waystationDialogue = id;
       this.waystationTarget = null;
       this.state.run!.fighter.action = 'idle';
@@ -309,7 +310,7 @@ export class GameStore {
   }
   interactWaystation() {
     if (!this.canWalkWaystation()) return;
-    const stop = nearestWaystationStop(this.state.run!.fighter);
+    const stop = nearestWaystationStop(this.state.run!.fighter, this.state.run!);
     if (!stop) return;
     this.waystationDialogue = stop.id;
     this.waystationTarget = null;
@@ -353,7 +354,7 @@ export class GameStore {
     if (isWalkablePreparation(r) && this.waystationTarget) {
       if (input.dx || input.dy) this.waystationTarget = null;
       else {
-        const goal = waystationApproach(this.waystationTarget);
+        const goal = waystationApproach(this.waystationTarget, r);
         const dx = goal.x - r.fighter.x,
           dy = goal.y - r.fighter.y;
         if (Math.hypot(dx, dy) < 7) this.waystationTarget = null;

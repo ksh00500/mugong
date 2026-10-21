@@ -26,6 +26,7 @@ import { GameStore } from '../src/platform/store';
 import { makeWeapon } from '../src/domain/content';
 import type { BoundFighter } from '../src/domain/model';
 import { signatureCast } from '../src/domain/boss-encounters';
+import { waystationApproach } from '../src/domain/waystation';
 beforeEach(() => {
   disk.saved = null;
   disk.fail = false;
@@ -35,6 +36,33 @@ beforeEach(() => {
   disk.maxActive = 0;
   vi.stubGlobal('document', { hidden: false });
 });
+for (const wave of [4, 9, 14, 19])
+  it(`${wave}: event reward requires a nearby conversation and is committed once`, async () => {
+    const store = new GameStore();
+    await store.load();
+    await store.dispatch({ type: 'start', name: '기연 저장' });
+    const r = store.state.run!;
+    r.wave = wave;
+    spawnWave(r);
+    r.offers = [];
+    r.fighter.augmentOffers = [];
+    r.gold = 100;
+    store.rendererReady = true;
+    expect(await store.dispatch({ type: 'restEvent', choice: 'accept' })).toBe(false);
+    Object.assign(r.fighter, waystationApproach('fortune', r));
+    store.interactWaystation();
+    expect(store.waystationDialogue).toBe('fortune');
+    expect(await store.dispatch({ type: 'restEvent', choice: 'accept' })).toBe(true);
+    expect(disk.saved!.run!.restEvents).toHaveLength(1);
+    const id = r.fighter.items.at(-1)!.id;
+    store.closeWaystation();
+    const restored = new GameStore();
+    await restored.load();
+    expect(restored.state.run!.fighter.items.filter((i) => i.id === id)).toHaveLength(1);
+    restored.rendererReady = true;
+    restored.interactWaystation();
+    expect(await restored.dispatch({ type: 'restEvent', choice: 'accept' })).toBe(false);
+  });
 it('walkable rest requires proximity, freezes during a conversation and clears transient UI at departure', async () => {
   const store = new GameStore();
   await store.load();

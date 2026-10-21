@@ -54,6 +54,7 @@ import { HealthTrail } from './health-trail';
 import { COMBAT_HEIGHT } from '../domain/combat-body';
 import { isWalkablePreparation } from '../domain/waystation';
 import { WaystationScenery } from './waystation-scenery';
+import { CombatClarity, combatCrowding, COMBAT_LAYERS } from './combat-clarity';
 
 export class CombatScene extends Phaser.Scene {
   private heroFrames = new Map<string, CharacterFrame>();
@@ -63,6 +64,7 @@ export class CombatScene extends Phaser.Scene {
   private ground!: Phaser.GameObjects.Graphics;
   private paintedEffects!: PaintedEffects;
   private paintedZones!: PaintedZones;
+  private clarity!: CombatClarity;
   private feedback!: CombatFeedback;
   private healthTrails = new Map<number, HealthTrail>();
   private bossReadability!: BossReadability;
@@ -180,10 +182,11 @@ export class CombatScene extends Phaser.Scene {
         registerEnemyMotion(this.textures.get('enemy-role-rear'), [0, 1, 2, 3], 4, false),
       );
     this.syncRegion(gameStore.state.run);
-    this.graphics = this.add.graphics().setDepth(5000);
+    this.graphics = this.add.graphics().setDepth(COMBAT_LAYERS.status);
     this.ground = this.add.graphics().setDepth(0);
     this.paintedEffects = new PaintedEffects(this, this.reducedMotion);
     this.paintedZones = new PaintedZones(this);
+    this.clarity = new CombatClarity(this);
     this.feedback = new CombatFeedback(this);
     this.bossReadability = new BossReadability(this, (id) =>
       this.actors.get(String(id))?.getData('healthBar'),
@@ -401,6 +404,7 @@ export class CombatScene extends Phaser.Scene {
       this.poseTransition.reset();
       this.heldWeapon.destroy();
       this.paintedZones.destroy();
+      this.clarity.destroy();
       this.bossReadability.destroy();
       this.cancelWarm?.();
       this.waystation.destroy();
@@ -1483,6 +1487,7 @@ export class CombatScene extends Phaser.Scene {
     this.graphics.clear();
     this.ground.clear();
     this.paintedZones.draw(r);
+    this.clarity.draw(r);
     this.waystation.draw(r);
     for (const actor of this.actors.values()) actor.setVisible(false);
     if (!r) {
@@ -1611,13 +1616,11 @@ export class CombatScene extends Phaser.Scene {
     for (const enemy of r.enemies) {
       if (enemy.hp > 0 && r.phase === 'combat') {
         this.drawEnemy(enemy);
-        this.actors
-          .get(String(enemy.id))
-          ?.setData({
-            bossSize: enemySize(enemy),
-            attackTell: bossAttackTell(enemy) ?? null,
-            combatPhase: bossCombatPhase(enemy),
-          });
+        this.actors.get(String(enemy.id))?.setData({
+          bossSize: enemySize(enemy),
+          attackTell: bossAttackTell(enemy) ?? null,
+          combatPhase: bossCombatPhase(enemy),
+        });
         this.seenAlive.set(enemy.id, { ...enemy });
       } else if (enemy.hp <= 0 && this.seenAlive.has(enemy.id)) {
         this.deaths.set(enemy.id, { enemy: this.seenAlive.get(enemy.id)!, at: this.animationTime });
@@ -1656,7 +1659,7 @@ export class CombatScene extends Phaser.Scene {
       }
     }
     for (const launch of launches) sound(launch, 0.65);
-    this.paintedEffects.draw(r.effects, r.projectiles, r.fighter);
+    this.paintedEffects.draw(r.effects, r.projectiles, r.fighter, combatCrowding(r));
     for (const e of r.enemies)
       if (e.hp > 0) {
         if (e.poisonStacks) {

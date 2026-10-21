@@ -55,16 +55,16 @@ it('courtyard bounds and solid NPC feet prevent walking into stalls and people',
   for (let i = 0; i < 60; i++) tick(run, { ...idle, dy: -1 }, 1 / 60);
   expect(Math.hypot(f.x - 490, f.y - 480)).toBeGreaterThanOrEqual(38 - 0.01);
 });
-it('interaction selects only a nearby stop, including the exit, and later rest rules remain unchanged', () => {
+it('interaction selects only a nearby stop and all four rest waves allow movement', () => {
   expect(nearestWaystationStop({ x: 960, y: 650 })).toBeUndefined();
   for (const stop of WAYSTATION_STOPS)
     expect(nearestWaystationStop({ x: stop.x, y: stop.y + 95 })?.id).toBe(stop.id);
   for (const wave of [9, 14, 19]) {
     const { run, f } = fixture(wave);
     const x = f.x;
-    expect(isWalkablePreparation(run)).toBe(false);
+    expect(isWalkablePreparation(run)).toBe(true);
     tick(run, { ...idle, dx: 1 }, 1 / 60);
-    expect(f.x).toBe(x);
+    expect(f.x).toBeGreaterThan(x);
   }
 });
 it('growth choices stop rest movement and restored positions remain valid', () => {

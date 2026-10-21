@@ -14,7 +14,9 @@ import { uiMediumMessages } from './ui-medium-messages';
 import { prepDesignMessages } from './prep-design-messages';
 import { waystationMessages } from './waystation-messages';
 import { globalBalanceMessages } from './global-balance-messages';
+import { restExpansionMessages } from './rest-expansion-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
+  ...restExpansionMessages,
   ...globalBalanceMessages,
   ...waystationMessages,
   '보스 전투 상태': ['Boss combat state', 'ボスの戦闘状態', '首领战斗状态', '首領戰鬥狀態'],

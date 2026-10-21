@@ -8,6 +8,7 @@ import {
 } from '../domain/projectile-visual';
 import projectileFrames from '../platform/projectile-frames.json';
 import hostileFrames from '../platform/hostile-projectile-frames.json';
+import { decorativeOpacity } from './combat-clarity';
 
 const projectileWidths: Record<ProjectileVisual, number> = {
   'bronze-dart': 30,
@@ -63,7 +64,7 @@ export class PaintedEffects {
     for (const [name, [x, y, width, height]] of Object.entries(projectileFrames))
       projectiles.add(name, 0, x, y, width, height);
   }
-  draw(effects: Effect[], projectiles: Projectile[], fighter?: Fighter) {
+  draw(effects: Effect[], projectiles: Projectile[], fighter?: Fighter, crowded = false) {
     this.projectileInk.clear();
     let used = 0;
     const sprite = (texture: string, frame: string) => {
@@ -86,7 +87,10 @@ export class PaintedEffects {
       if (age >= duration) continue;
       const p = Math.max(0, Math.min(1, age / duration));
       const hostile = e.color === 0xd6513e;
-      const alpha = Math.min(1, (1 - p) * 1.5) * (e.kind === 'guard' ? 0.7 : 0.95);
+      const alpha =
+        Math.min(1, (1 - p) * 1.5) *
+        (e.kind === 'guard' ? 0.7 : 0.95) *
+        decorativeOpacity(e, crowded);
       if (e.kind === 'chain') {
         // Only a released physical chain, never a pre-attack aiming line or collision outline.
         const reach = e.radius * (1 - (this.reducedMotion ? 0 : p * 0.65));
@@ -262,7 +266,7 @@ export class PaintedEffects {
                   ? 0
                   : angle,
         )
-        .setAlpha(1)
+        .setAlpha(p.friendly && crowded ? 0.7 : 1)
         .setTint(
           p.landing?.kind === 'cold'
             ? 0xb8e9ff

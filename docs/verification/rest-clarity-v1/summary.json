@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-21",
+  "branch": "codex/combat-readability-events-rests-v1",
+  "baselineCommit": "73bdb19afc57651372c3ff87a0ae957e5b058301",
+  "unit": {
+    "files": 85,
+    "total": 1483,
+    "passed": 1483,
+    "failed": 0
+  },
+  "typecheck": true,
+  "assets": {
+    "runtimeFiles": 1066,
+    "literalReferences": 800,
+    "missingFiles": 0,
+    "gitLfsPointers": 0,
+    "manifestFiles": 1026,
+    "manifestBytes": 1196401564,
+    "manifestId": "d12a2e595aa3055c"
+  },
+  "build": {
+    "outDir": "dist-rest-clarity-v1",
+    "modules": 224,
+    "largeMountChunkWarning": true
+  },
+  "browsers": [
+    {
+      "name": "source",
+      "startTime": "2026-10-21T07:23:01.759Z",
+      "duration": 155699.35199999998,
+      "expected": 14,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "name": "source-final-render",
+      "startTime": "2026-10-21T07:35:19.293Z",
+      "duration": 11079.088,
+      "expected": 2,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "name": "compiled-before-final-boundary-fixes",
+      "startTime": "2026-10-21T07:28:01.008Z",
+      "duration": 126059.57299999999,
+      "expected": 12,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "name": "world-regression-before-final-boundary-fixes",
+      "startTime": "2026-10-21T07:30:43.103Z",
+      "duration": 131194.45599999998,
+      "expected": 14,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    },
+    {
+      "name": "local-final",
+      "startTime": "2026-10-21T07:40:48.475Z",
+      "duration": 93031.583,
+      "expected": 6,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "errors": 0
+    }
+  ],
+  "browserScenarioExecutions": 48,
+  "methodology": "Separate executions, not unique tests. Initial source/compiled/world flows preceded final non-red boss opacity and fractional HP corrections. Final render repeats Canvas/WebGL; full final units and local6 verify the corrected build. Synthetic combat scene is not a human difficulty/FPS study.",
+  "actualUserSaveAccessed": false,
+  "localDeployment": {
+    "date": "2026-10-21",
+    "url": "http://127.0.0.1:5205/",
+    "outDir": "dist-rest-clarity-v1",
+    "indexSha256": "a8e98c18e7b44b138939adc8d68c6e4a8fd9b7980619bbe970447865b098176b",
+    "servedIndexMatchesBuild": true,
+    "files": [
+      {
+        "path": "/",
+        "bytes": 3830,
+        "sha256": "a8e98c18e7b44b138939adc8d68c6e4a8fd9b7980619bbe970447865b098176b",
+        "matchesBuild": true
+      },
+      {
+        "path": "/assets/main-DoIfU6QL.js",
+        "bytes": 500392,
+        "sha256": "56ef822f431a2200c13a3ad6e21ffbf569594925458775c1493be8f8c028a169",
+        "matchesBuild": true
+      },
+      {
+        "path": "/assets/Icons-d7cbsbe6.js",
+        "bytes": 316225,
+        "sha256": "d33c8e4badd0471a1b5dc0025c0a774aa10e5a71e61ba4cb2d160343fd5a843f",
+        "matchesBuild": true
+      },
+      {
+        "path": "/assets/main-p--xNIKR.css",
+        "bytes": 274856,
+        "sha256": "6556e0f517ce43463befbf27a090222702e6f621466d529d53ef43169a3d5755",
+        "matchesBuild": true
+      }
+    ],
+    "actualUserSaveAccessed": false
+  }
+}

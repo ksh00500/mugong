@@ -5,6 +5,56 @@
   pointer-events: none;
   color: var(--ink);
 }
+.rest-event {
+  display: grid;
+  gap: 14px;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 4px 2px 8px;
+  font: 400 16px/1.5 var(--font-ui);
+}
+.rest-event p {
+  margin: 0;
+}
+.rest-event-terms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 14px;
+  background: #e5eadc;
+  border: 1px solid #a7b298;
+  border-radius: 9px;
+}
+.rest-event-terms dt {
+  color: #5b634d;
+  font-size: 13px;
+}
+.rest-event-terms dd {
+  margin: 4px 0 0;
+  font-weight: 700;
+}
+.rest-event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.rest-event button {
+  min-height: 44px;
+}
+.rest-event-result {
+  padding: 10px;
+  border-left: 3px solid #4b8065;
+  background: #edf3e6;
+}
+.rest-event-result:focus {
+  outline: 3px solid var(--ui-focus);
+  outline-offset: 2px;
+}
+.waystation-marker[data-stop='fortune'] {
+  border-color: #9e743e;
+  background: #fff0cb;
+}
 .waystation-world[hidden] {
   display: none;
 }

@@ -67,7 +67,7 @@ async function seed(page: Page, wave = 4) {
   await expect(page.locator('.game-canvas')).toHaveAttribute('data-ready', 'true', {
     timeout: 45000,
   });
-  await expect(page.locator(wave === 4 ? '.waystation-world' : '.prep-stop')).toBeVisible();
+  await expect(page.locator('.waystation-world')).toBeVisible();
 }
 async function saved(page: Page): Promise<GameState> {
   return page.evaluate(async () => {
@@ -192,16 +192,18 @@ for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'])
     await page.keyboard.press('Escape');
   });
 for (const wave of [9, 14, 19])
-  test(`later rest ${wave} preserves existing service and departure screen`, async ({ page }) => {
+  test(`later rest ${wave} uses proximity for existing service and departure`, async ({ page }) => {
     test.setTimeout(60000);
     await page.setViewportSize({ width: 1093, height: 614 });
     await seed(page, wave);
-    await expect(page.locator('.waystation-world')).toHaveCount(0);
-    await expect(page.locator('.prep-service')).toHaveCount(3);
+    await expect(page.locator('.waystation-world')).toBeVisible();
+    await approach(page, 'physician');
     const price = { 9: 16, 14: 20, 19: 24 }[wave]!;
     await page.getByRole('button', { name: `의원 · 회복 ${price}전`, exact: true }).click();
     await expect.poll(async () => (await saved(page)).run!.fighter.hp).toBe(145);
     await expect.poll(async () => (await saved(page)).run!.gold).toBe(100 - price);
+    await page.keyboard.press('Escape');
+    await approach(page,'exit');
     await fits(page.locator('.prep-actions button.primary'), page);
   });
 for (const [width, height] of [

@@ -1,7 +1,9 @@
 import { useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
 import type { View } from '../platform/store';
 import { gameStore } from '../platform/store';
-import { nearestWaystationStop, WAYSTATION_STOPS } from '../domain/waystation';
+import { nearestWaystationStop, waystationStops, waystationTheme } from '../domain/waystation';
+import { restEvent } from '../domain/rest-event';
+import { RestEvent } from './RestEvent';
 import { regionName } from '../domain/campaign';
 import { t } from '../platform/i18n';
 import { PrepStop } from './PrepStop';
@@ -20,7 +22,9 @@ export function WaystationWorld({
   const root = useRef<HTMLElement>(null);
   const [plane, setPlane] = useState<CSSProperties>({});
   const run = view.state.run!;
-  const near = nearestWaystationStop(run.fighter);
+  const near = nearestWaystationStop(run.fighter, run);
+  const stops = waystationStops(run),
+    theme = waystationTheme(run);
   const conversation = view.waystationDialogue;
   useLayoutEffect(() => {
     const canvas = document.querySelector('.game-canvas canvas');
@@ -43,6 +47,8 @@ export function WaystationWorld({
       <section
         ref={root}
         className="waystation-world"
+        data-region-theme={theme.index}
+        data-rest-wave={run.wave}
         data-player-x={Math.round(run.fighter.x)}
         data-player-y={Math.round(run.fighter.y)}
         data-player-action={run.fighter.action}
@@ -55,12 +61,12 @@ export function WaystationWorld({
             <small>
               {t(regionName(run))} · {t('{0}웨이브', { 0: run.wave })}
             </small>
-            <h1>{t('강호 쉼터')}</h1>
+            <h1>{t(theme.name)}</h1>
           </div>
           <b>{t('소지금 {0}전', { 0: run.gold })}</b>
         </header>
         <div className="waystation-plane" style={plane}>
-          {WAYSTATION_STOPS.map((stop) => (
+          {stops.map((stop) => (
             <button
               key={stop.id}
               data-stop={stop.id}
@@ -69,7 +75,7 @@ export function WaystationWorld({
               disabled={!ready}
               style={{
                 left: `${(stop.x / 1920) * 100}%`,
-                top: `${((stop.y + (stop.id === 'exit' ? 35 : -185)) / 1080) * 100}%`,
+                top: `${((stop.y + (stop.id === 'exit' ? 35 : stop.id === 'fortune' ? -115 : -185)) / 1080) * 100}%`,
               }}
               onClick={() => gameStore.approachWaystation(stop.id)}
               aria-label={
@@ -120,20 +126,28 @@ export function WaystationWorld({
         ) : (
           <Modal
             className="waystation-dialog"
-            title={t(WAYSTATION_STOPS.find((s) => s.id === conversation)!.name)}
+            title={t(
+              conversation === 'fortune'
+                ? restEvent(run).title
+                : stops.find((s) => s.id === conversation)!.name,
+            )}
             onClose={() => gameStore.closeWaystation()}
             returnFocusTo={root.current?.querySelector<HTMLElement>(
               `[data-stop="${conversation}"]`,
             )}
           >
-            <PrepStop
-              run={run}
-              busy={view.busy}
-              hidden={false}
-              station={conversation}
-              onMarket={() => {}}
-              onNext={onNext}
-            />
+            {conversation === 'fortune' ? (
+              <RestEvent run={run} busy={view.busy} />
+            ) : (
+              <PrepStop
+                run={run}
+                busy={view.busy}
+                hidden={false}
+                station={conversation}
+                onMarket={() => {}}
+                onNext={onNext}
+              />
+            )}
           </Modal>
         ))}
     </>

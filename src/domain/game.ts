@@ -9,6 +9,7 @@ import {
 } from './character';
 import { recruitmentAction, recruitmentView } from './recruitment';
 import { isWalkablePreparation, walkWaystation } from './waystation';
+import { resolveRestEvent } from './rest-event';
 import {
   BALANCE,
   encounterHp,
@@ -1533,7 +1534,7 @@ function clearWave(r: Run) {
 }
 export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink) {
   if (isWalkablePreparation(r) && !pendingChoices(r)) {
-    walkWaystation(r.fighter, input, dt);
+    walkWaystation(r.fighter, input, dt, r);
     return;
   }
   if (r.phase !== 'combat' || pendingChoices(r)) {
@@ -1867,6 +1868,8 @@ export function expireFighters(state: GameState, now: number) {
   return expired.length > 0;
 }
 export function command(state: GameState, cmd: Command, now = Date.now()): boolean {
+  if (cmd.type === 'restEvent')
+    return !!state.run && !pendingChoices(state.run) && resolveRestEvent(state.run, cmd.choice);
   const r = state.run,
     f = selectedFighter(state) as BoundFighter | undefined;
   if (cmd.type === 'openTraining') {

@@ -4,7 +4,8 @@ import { W, H } from '../domain/content';
 import {
   isWalkablePreparation,
   nearestWaystationStop,
-  WAYSTATION_STOPS,
+  waystationStops,
+  waystationTheme,
 } from '../domain/waystation';
 import { prepareImages } from '../platform/assets';
 import { WAYSTATION_ART } from '../platform/waystation-art';
@@ -64,15 +65,24 @@ export class WaystationScenery {
   draw(run: Run | null) {
     this.floor.clear();
     const active = isWalkablePreparation(run);
-    this.combatBackdrop.setVisible(!active);
-    this.background?.setVisible(active);
+    this.combatBackdrop.setVisible(!active || (run?.wave ?? 4) > 4);
+    this.background?.setVisible(active && run?.wave === 4);
     for (const figure of this.figures.values()) figure.setVisible(false);
     if (!active || !run) return;
     this.load();
     const g = this.floor;
-    if (!this.background) g.fillStyle(0xd4c6a0).fillRect(0, 0, W, H);
-    const near = nearestWaystationStop(run.fighter);
-    for (const stop of WAYSTATION_STOPS) {
+    const theme = waystationTheme(run);
+    if (!this.background && run.wave === 4) g.fillStyle(0xd4c6a0).fillRect(0, 0, W, H);
+    if (run.wave > 4) {
+      g.fillStyle(theme.color, 0.22).fillRect(0, 0, W, H);
+      g.fillStyle(0xe9ddbb, 0.35).fillRoundedRect(315, 425, 1300, 470, 65);
+      g.lineStyle(3, theme.color, 0.9).strokeRoundedRect(315, 425, 1300, 470, 65);
+      // A walkable common area on each already loaded regional map.
+      for (let n = 0; n < 6; n++)
+        g.fillStyle(theme.color, 0.35).fillEllipse(440 + n * 200, 650, 135, 35);
+    }
+    const near = nearestWaystationStop(run.fighter, run);
+    for (const stop of waystationStops(run)) {
       const color =
         stop.id === 'exit'
           ? 0xe7c67b
@@ -87,6 +97,13 @@ export class WaystationScenery {
         color,
         near?.id === stop.id ? 1 : 0.6,
       ).strokeEllipse(stop.x, stop.y, stop.id === 'exit' ? 105 : 88, 34);
+      if (stop.id === 'fortune') {
+        g.fillStyle(0x27382e, 0.8).fillRoundedRect(stop.x - 25, stop.y - 45, 50, 42, 6);
+        g.lineStyle(3, 0xefcf7e, 0.95).strokeRoundedRect(stop.x - 25, stop.y - 45, 50, 42, 6);
+        g.lineBetween(stop.x, stop.y - 42, stop.x, stop.y - 8);
+        g.fillStyle(0xefcf7e, 1).fillCircle(stop.x, stop.y - 28, 6);
+        continue;
+      }
       const figure = this.figures.get(stop.id);
       if (figure) figure.setPosition(stop.x, stop.y).setDepth(stop.y).setVisible(true);
       else if (stop.id !== 'exit') {

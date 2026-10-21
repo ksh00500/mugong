@@ -223,6 +223,7 @@ export interface PendingAttack {
   seq?: number;
 }
 export interface Run {
+  restEvents?: import('./rest-event').RestEventRecord[];
   id: string;
   seed: number;
   wave: number;
@@ -376,6 +377,7 @@ export interface InputFrame {
   defense: boolean;
 }
 export type Command =
+  | { type: 'restEvent'; choice: 'accept' | 'leave' }
   | { type: 'deferTraining' }
   | { type: 'openTraining' }
   | { type: 'chooseAugment'; id: import('./character').AugmentId }
