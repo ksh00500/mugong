@@ -449,6 +449,8 @@
     0 2px 4px #0006;
 }
 .app-shell .wuxia-hud .hud-actions .ui-icon {
+  display: block;
+  flex: none;
   width: 23px;
   height: 23px;
 }
