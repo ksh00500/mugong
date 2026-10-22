@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-18",
+  "sourceBranch": "codex/three-regions-complete",
+  "baseCommit": "f9e24604c0f6b242ba94cff8c6a0022254966d5f",
+  "new": {
+    "bosses": 12,
+    "actions": 31,
+    "contacts": 46,
+    "logicalFrames": 1380,
+    "physicalPoses": 110,
+    "selectedSources": 22,
+    "generatedSources": 29,
+    "textures": 12,
+    "readyReuse": 460
+  },
+  "regional": {
+    "actions": 55,
+    "logicalFrames": 2130
+  },
+  "global": {
+    "bosses": 40,
+    "kitActions": 185,
+    "specialActions": 185,
+    "logicalFrames": 6660,
+    "remaining": 0
+  },
+  "unit": {
+    "files": 67,
+    "tests": 1310,
+    "passed": true
+  },
+  "sourceOnly": {
+    "files": 67,
+    "tests": 1310,
+    "passed": true
+  },
+  "render": {
+    "tests": 12,
+    "samples": 70912,
+    "contacts": 2272,
+    "holds": 0,
+    "records": [
+      {
+        "file": "7-canvas-full.json",
+        "renderer": 1,
+        "reduced": false,
+        "count": 5800,
+        "contacts": 184,
+        "holds": 0
+      },
+      {
+        "file": "7-canvas-reduced.json",
+        "renderer": 1,
+        "reduced": true,
+        "count": 5800,
+        "contacts": 184,
+        "holds": 0
+      },
+      {
+        "file": "7-webgl-full.json",
+        "renderer": 2,
+        "reduced": false,
+        "count": 5800,
+        "contacts": 184,
+        "holds": 0
+      },
+      {
+        "file": "7-webgl-reduced.json",
+        "renderer": 2,
+        "reduced": true,
+        "count": 5800,
+        "contacts": 184,
+        "holds": 0
+      },
+      {
+        "file": "8-canvas-full.json",
+        "renderer": 1,
+        "reduced": false,
+        "count": 6120,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "8-canvas-reduced.json",
+        "renderer": 1,
+        "reduced": true,
+        "count": 6120,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "8-webgl-full.json",
+        "renderer": 2,
+        "reduced": false,
+        "count": 6120,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "8-webgl-reduced.json",
+        "renderer": 2,
+        "reduced": true,
+        "count": 6120,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "9-canvas-full.json",
+        "renderer": 1,
+        "reduced": false,
+        "count": 5808,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "9-canvas-reduced.json",
+        "renderer": 1,
+        "reduced": true,
+        "count": 5808,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "9-webgl-full.json",
+        "renderer": 2,
+        "reduced": false,
+        "count": 5808,
+        "contacts": 192,
+        "holds": 0
+      },
+      {
+        "file": "9-webgl-reduced.json",
+        "renderer": 2,
+        "reduced": true,
+        "count": 5808,
+        "contacts": 192,
+        "holds": 0
+      }
+    ]
+  },
+  "compiled": {
+    "tests": 10,
+    "passed": true,
+    "gameChecks": 6,
+    "reviewChecks": 3,
+    "httpAndHashCheck": 1,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 1366,
+        "height": 768
+      },
+      {
+        "width": 1093,
+        "height": 614
+      }
+    ],
+    "regionTextures": {
+      "7": 61,
+      "8": 60,
+      "9": 60
+    },
+    "usedTexturesPublicDistHttpEqual": 133,
+    "reviewHtmlPublicDistEqual": true
+  },
+  "atlas": {
+    "textures": 12,
+    "physicalCells": 110,
+    "padding": 32,
+    "failures": []
+  },
+  "assets": {
+    "total": 2823,
+    "runtime": 1005,
+    "authoring": 1818,
+    "id": "24ccfd5d2b6cc9f4"
+  },
+  "local": {
+    "port": 5203,
+    "dist": "dist-three-complete-v3",
+    "review": "/art/three-complete-v3/review.html",
+    "previous5201Preserved": true
+  },
+  "failuresAndRepairs": [
+    "Initial unit run: three old region texture-count assertions failed; updated each by four new installed sheets, rerun all 1310 passed.",
+    "Initial source-only run overlapped compression/rendering: boss-pressure 30-second timeout; rerun complete suite with two workers passed 1310.",
+    "Initial WebGL Zhuge captures were interrupted by development-server reload and home readiness; startup retry timed out, then prestarted server and final two tests passed. Other ten configurations passed initial run.",
+    "Initial compiled UI three review sweeps timed out; stationary review canvases now redraw only when selection/image changes. Full controls at three viewports passed retry with a 180-second budget; previous seven compiled HTTP/game tests passed."
+  ],
+  "limits": [
+    "Rendering uses injected attack states on the actual Phaser path; compiled input and bag tests use independent browser contexts.",
+    "No long natural-fight balance, universal GPU, art perfection or accessibility certification claim.",
+    "No real user-save changes, personal-server upload, public deployment, new PR or main merge.",
+    "Vite main chunk remains above its 1800kB warning threshold."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-21",
+  "baselineCommit": "7eec250f228775210cb67fe59abb45c683374399",
+  "casesPerVersion": 60,
+  "sameEncounterStats": true,
+  "methodology": "24s replenished HP; no player attacks/defense/consumables or ambient fields. Scripted damage/commitment observations, not human win rates. Timing is host-load dependent.",
+  "policies": [
+    {
+      "policy": "hold",
+      "before": {
+        "damage": 443.49,
+        "starts": 67.1,
+        "attackerParticipation": 1,
+        "mixedCommitmentSeconds": 19.2,
+        "maximumActive": 3,
+        "minimumStartGap": 0,
+        "simulationMs": 114.6
+      },
+      "after": {
+        "damage": 471.65,
+        "starts": 62.2,
+        "attackerParticipation": 1,
+        "mixedCommitmentSeconds": 20.65,
+        "maximumActive": 3,
+        "minimumStartGap": 0.2333,
+        "simulationMs": 189.53
+      }
+    },
+    {
+      "policy": "retreat",
+      "before": {
+        "damage": 98.99,
+        "starts": 41.9,
+        "attackerParticipation": 0.96,
+        "mixedCommitmentSeconds": 8.64,
+        "maximumActive": 7,
+        "minimumStartGap": 0,
+        "simulationMs": 94.69
+      },
+      "after": {
+        "damage": 101.21,
+        "starts": 34.35,
+        "attackerParticipation": 0.96,
+        "mixedCommitmentSeconds": 8.54,
+        "maximumActive": 3,
+        "minimumStartGap": 0.2333,
+        "simulationMs": 162.95
+      }
+    },
+    {
+      "policy": "circle",
+      "before": {
+        "damage": 156.74,
+        "starts": 59.25,
+        "attackerParticipation": 1,
+        "mixedCommitmentSeconds": 15.74,
+        "maximumActive": 3,
+        "minimumStartGap": 0,
+        "simulationMs": 106.49
+      },
+      "after": {
+        "damage": 146.29,
+        "starts": 51.5,
+        "attackerParticipation": 0.98,
+        "mixedCommitmentSeconds": 15.96,
+        "maximumActive": 3,
+        "minimumStartGap": 0.2333,
+        "simulationMs": 194.57
+      }
+    }
+  ],
+  "overall": {
+    "before": {
+      "damage": 233.08,
+      "starts": 56.08,
+      "attackerParticipation": 0.99,
+      "mixedCommitmentSeconds": 14.53,
+      "maximumActive": 7,
+      "minimumStartGap": 0,
+      "simulationMs": 105.26
+    },
+    "after": {
+      "damage": 239.72,
+      "starts": 49.35,
+      "attackerParticipation": 0.98,
+      "mixedCommitmentSeconds": 15.05,
+      "maximumActive": 3,
+      "minimumStartGap": 0.2333,
+      "simulationMs": 182.35
+    }
+  }
+}

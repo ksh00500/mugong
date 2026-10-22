@@ -1,0 +1,53 @@
+{
+  "asOf": "2026-10-20",
+  "unit": {
+    "files": 76,
+    "passed": 1374,
+    "failed": 0
+  },
+  "source": {
+    "files": 76,
+    "passed": 1374,
+    "failed": 0
+  },
+  "pressure": {
+    "bosses": 40,
+    "policies": 3,
+    "seconds": 45,
+    "scenariosPerBuild": 120,
+    "baselineCommit": "757ec712c236f5008c7a74ab84362943908f8cc5"
+  },
+  "duels": {
+    "region": "소림",
+    "bosses": 4,
+    "policies": 3,
+    "seeds": 3,
+    "limitSeconds": 120,
+    "scenariosPerBuild": 36,
+    "humanWinRates": false
+  },
+  "browser": {
+    "development": 4,
+    "compiled": 4,
+    "separateRuns": true
+  },
+  "runtime": {
+    "files": 1058,
+    "literalReferences": 792,
+    "missing": 0,
+    "lfs": 0
+  },
+  "build": {
+    "modules": 203,
+    "seconds": 10.14,
+    "largeChunkWarning": true
+  },
+  "imagesChanged": 0,
+  "userSaveTouched": false,
+  "publicDeployment": false,
+  "localPreview": {
+    "url": "http://127.0.0.1:5205/",
+    "output": "dist-boss-balance-v1",
+    "finalChecks": 2
+  }
+}

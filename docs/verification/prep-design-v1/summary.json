@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "feature": "prep-design-v1",
+  "typecheck": "passed",
+  "unit": { "files": 78, "tests": 1381, "passed": 1381, "maxWorkers": 2, "runSeparatedFromBrowser": true },
+  "assets": { "runtimeFiles": 1062, "literalReferences": 796, "missingFiles": 0, "lfsPointers": 0, "manifestRuntimeMedia": 1022, "manifestRuntimeBytes": 1187887771, "verifiedRuntimeId": "e106ea54ce7ca33b", "newOriginalPngs": 4, "deletedImages": 0 },
+  "build": { "outDir": "dist-prep-design-v1", "modules": 212, "passed": true, "largeMountChunkWarningRemains": true },
+  "browser": {
+    "sourceDesign": { "passed": 9, "singleFinalRun": true },
+    "existingRegression": { "initialPassed": 8, "initialFailedDuringLoading": 1, "singleRetestPassed": 1, "singleRunAllPassed": false },
+    "dialogRegression": { "passed": 4, "singleRun": true },
+    "compiled5229": { "passed": 9, "singleRun": true },
+    "applied5205": { "passed": 3, "singleRun": true },
+    "latestScenarioTotal": 34,
+    "usesIndependentBrowserStorage": true
+  },
+  "viewports": [[1440,900],[1366,768],[1093,614]],
+  "locales": ["ko","en","ja","zh-CN","zh-TW"],
+  "localIndexSha256": "5bf0082295bf4930b9d507cedd388b36d0ff0571abc79f25a394873b1f0250f7",
+  "realUserStorageModified": false,
+  "gameplayOrSaveSchemaChanged": false,
+  "publicDeployment": false,
+  "limits": ["Static NPC service screen; no walk-to-NPC field or NPC animation", "Five locales with large HUD/contrast/reduced motion tested at small size; not every settings/viewport/state combination", "Initial regression image-load failure not diagnosed as a product defect", "No physical GPU endurance or complete natural-play balance verification"]
+}

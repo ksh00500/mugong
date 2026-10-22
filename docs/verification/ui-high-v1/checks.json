@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-20",
+  "baseline": "d927211599eeed67d65214278501eed0e37a2718",
+  "branch": "codex/ui-high-v1",
+  "unit": {
+    "files": 78,
+    "passed": 1381,
+    "failed": 0
+  },
+  "sourceOnly": {
+    "files": 78,
+    "passed": 1381,
+    "mediaMode": "catalog"
+  },
+  "assets": {
+    "runtimeFiles": 1058,
+    "literalReferences": 792,
+    "missingFiles": 0,
+    "gitLfsPointers": 0
+  },
+  "build": {
+    "modules": 206,
+    "largeMountChunkWarning": true
+  },
+  "browser": {
+    "dedicatedSource": 10,
+    "regression": {
+      "scenarios": 21,
+      "initialPassed": 19,
+      "recheckedPassed": 2
+    },
+    "compiled": 4,
+    "applied5205": 4,
+    "totalDistinct": 39,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1093,
+        614
+      ]
+    ],
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh-CN",
+      "zh-TW"
+    ],
+    "preferences": [
+      "largeHud",
+      "highContrast",
+      "reducedMotion"
+    ]
+  },
+  "userSaveTouched": false,
+  "publicDeployment": false,
+  "local": {
+    "url": "http://127.0.0.1:5205/",
+    "artifact": "dist-ui-high-v1",
+    "indexSha256": "235066479091e2b01127e285ef1739b62be217cc9f51a556bdd3341369a0d4dd",
+    "httpMatches": true
+  }
+}

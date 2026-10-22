@@ -1,0 +1,73 @@
+{
+  "seed": 123,
+  "route": [
+    "고묘",
+    "죽림",
+    "혈마전",
+    "팔진고성"
+  ],
+  "frames": 3575,
+  "upgrades": 1,
+  "waves": [
+    {
+      "wave": 1,
+      "phase": "loot",
+      "level": 1,
+      "hp": 103,
+      "gold": 16
+    },
+    {
+      "wave": 2,
+      "phase": "loot",
+      "level": 2,
+      "hp": 120,
+      "gold": 32
+    },
+    {
+      "wave": 3,
+      "phase": "loot",
+      "level": 3,
+      "hp": 115,
+      "gold": 52
+    },
+    {
+      "wave": 4,
+      "phase": "prep",
+      "level": 3,
+      "hp": 115,
+      "gold": 46
+    },
+    {
+      "wave": 5,
+      "phase": "loot",
+      "level": 6,
+      "hp": 46,
+      "gold": 71
+    },
+    {
+      "wave": 6,
+      "phase": "loot",
+      "level": 6,
+      "hp": 42,
+      "gold": 99
+    }
+  ],
+  "result": {
+    "id": "run-1-123",
+    "name": "시뮬레이션",
+    "outcome": "dead",
+    "wave": 7,
+    "level": 7,
+    "kills": 24,
+    "elapsed": 59.46666666666457,
+    "gold": 0,
+    "items": 0,
+    "route": [
+      "고묘",
+      "죽림",
+      "혈마전",
+      "팔진고성"
+    ],
+    "endedAt": 1792355988927
+  }
+}

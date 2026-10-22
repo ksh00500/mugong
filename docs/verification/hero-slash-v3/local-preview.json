@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-04T12:29:26.3228589+09:00",
+  "url": "http://127.0.0.1:5173/",
+  "htmlStatus": 200,
+  "script": "/assets/main-CS3umaBo.js",
+  "scriptStatus": 200,
+  "renderProof": [
+    {
+      "file": "continuous-0.json",
+      "contacts": 240,
+      "bladeSteps": 120,
+      "renderedFrames": 1936,
+      "errors": 0
+    },
+    {
+      "file": "continuous-1.json",
+      "contacts": 240,
+      "bladeSteps": 120,
+      "renderedFrames": 1936,
+      "errors": 0
+    },
+    {
+      "file": "continuous-webgl-0.json",
+      "contacts": 240,
+      "bladeSteps": 120,
+      "renderedFrames": 1583,
+      "errors": 0
+    },
+    {
+      "file": "continuous-webgl-1.json",
+      "contacts": 240,
+      "bladeSteps": 120,
+      "renderedFrames": 1619,
+      "errors": 0
+    }
+  ],
+  "unitTests": 1224,
+  "unitFiles": 46,
+  "attachmentSamples": 775040,
+  "remoteDeployment": false
+}

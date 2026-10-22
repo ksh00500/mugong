@@ -1,0 +1,402 @@
+{
+  "status": "40 generated base sheets, 10 correction attempts, draft preview; no game installation",
+  "plannedBosses": 4,
+  "plannedMoves": 8,
+  "plannedSources": 40,
+  "timings": [
+    {
+      "bossId": "7-1",
+      "character": "asar",
+      "move": "dash",
+      "name": "모래 도적 돌진참",
+      "windup": 0.75,
+      "duration": 0.36,
+      "recovery": 0.65,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-1",
+      "character": "asar",
+      "move": "stance",
+      "name": "사풍 발굽 모래",
+      "windup": 0.85,
+      "duration": 0.4,
+      "recovery": 0.65,
+      "contacts": [
+        0.18
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-2",
+      "character": "naya",
+      "move": "ring",
+      "name": "사막 무희 직선 귀환환",
+      "windup": 0.72,
+      "duration": 0.32,
+      "recovery": 0.8,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-2",
+      "character": "naya",
+      "move": "combo",
+      "name": "사막 무희 근접 환격",
+      "windup": 0.58,
+      "duration": 0.88,
+      "recovery": 0.65,
+      "contacts": [
+        0.1,
+        0.6
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-3",
+      "character": "balta",
+      "move": "dash",
+      "name": "사막 철산고",
+      "windup": 0.8,
+      "duration": 0.4,
+      "recovery": 0.85,
+      "contacts": [
+        0.34
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-3",
+      "character": "balta",
+      "move": "slam",
+      "name": "황사 진각",
+      "windup": 1.02,
+      "duration": 0.55,
+      "recovery": 1,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-4",
+      "character": "arkan",
+      "move": "sweep",
+      "name": "금사 왕도 회전",
+      "windup": 1.05,
+      "duration": 0.5,
+      "recovery": 1,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "7-4",
+      "character": "arkan",
+      "move": "stance",
+      "name": "오아시스 퇴로 봉쇄",
+      "windup": 1.1,
+      "duration": 0.45,
+      "recovery": 0.85,
+      "contacts": [
+        0.2
+      ],
+      "holdEligible": false
+    }
+  ],
+  "promptRecords": [
+    {
+      "id": "asar-front-dash",
+      "reference": "docs/source/desert-special-v1/references/asar-front.png",
+      "referenceSha256": "7ea553b2eae50ad4ff86acc24ff2306bdd3424c5a7ac97185addd23c1bbbacdf",
+      "prompt": "docs/source/desert-special-v1/asar-front-dash.prompt.txt",
+      "promptSha256": "3d89be6cf9822c0a56b02716940b1078ab351abdc773788026f1ca7cddd43be2"
+    },
+    {
+      "id": "asar-front-stance",
+      "reference": "docs/source/desert-special-v1/references/asar-front.png",
+      "referenceSha256": "7ea553b2eae50ad4ff86acc24ff2306bdd3424c5a7ac97185addd23c1bbbacdf",
+      "prompt": "docs/source/desert-special-v1/asar-front-stance.prompt.txt",
+      "promptSha256": "b15570d38d822ce9f25762d386d8a62298e0861693bfaf088d43344ceac16ff1"
+    },
+    {
+      "id": "asar-front-right-dash",
+      "reference": "docs/source/desert-special-v1/references/asar-front-right.png",
+      "referenceSha256": "5f44d35e0dd89f18cf578a16789b4d067cdc4e28032e24575cb047dd5cc59208",
+      "prompt": "docs/source/desert-special-v1/asar-front-right-dash.prompt.txt",
+      "promptSha256": "1ac70b29e6e99370d9500677707d2d12229ec8c2c43b58b9523fc27720a4fc1c"
+    },
+    {
+      "id": "asar-front-right-stance",
+      "reference": "docs/source/desert-special-v1/references/asar-front-right.png",
+      "referenceSha256": "5f44d35e0dd89f18cf578a16789b4d067cdc4e28032e24575cb047dd5cc59208",
+      "prompt": "docs/source/desert-special-v1/asar-front-right-stance.prompt.txt",
+      "promptSha256": "6fea26f74700cd26c5cb6c35a6fc9329986adaa611b3525a9bd61299da0b01c8"
+    },
+    {
+      "id": "asar-right-dash",
+      "reference": "docs/source/desert-special-v1/references/asar-right.png",
+      "referenceSha256": "d73b99c2157748d83e9d258766da464269274ba2ebea2d391c3a7c9375307a4f",
+      "prompt": "docs/source/desert-special-v1/asar-right-dash.prompt.txt",
+      "promptSha256": "647a4c745b3eaa268eaf6d8b4cd667af0a6a0a952bb85a2a592d559851e6750b"
+    },
+    {
+      "id": "asar-right-stance",
+      "reference": "docs/source/desert-special-v1/references/asar-right.png",
+      "referenceSha256": "d73b99c2157748d83e9d258766da464269274ba2ebea2d391c3a7c9375307a4f",
+      "prompt": "docs/source/desert-special-v1/asar-right-stance.prompt.txt",
+      "promptSha256": "19d143a5aad4c724412386bc70ff1ee550d77717aa7167b454eff7f75c756359"
+    },
+    {
+      "id": "asar-rear-right-dash",
+      "reference": "docs/source/desert-special-v1/references/asar-rear-right.png",
+      "referenceSha256": "610362cf6d29ed1149daaf995f895bcaeabd39d1924117f85e4e9eebbc5b74ba",
+      "prompt": "docs/source/desert-special-v1/asar-rear-right-dash.prompt.txt",
+      "promptSha256": "802d6eaecec16ae0aa8e98e96108885267ef63766fc4be5b1e2c789dcb8cf7fc"
+    },
+    {
+      "id": "asar-rear-right-stance",
+      "reference": "docs/source/desert-special-v1/references/asar-rear-right.png",
+      "referenceSha256": "610362cf6d29ed1149daaf995f895bcaeabd39d1924117f85e4e9eebbc5b74ba",
+      "prompt": "docs/source/desert-special-v1/asar-rear-right-stance.prompt.txt",
+      "promptSha256": "d0d74aaf5d3987e3e42259fa93edd8e0169f3751bd0087fb6abff4e0549acb5c"
+    },
+    {
+      "id": "asar-back-dash",
+      "reference": "docs/source/desert-special-v1/references/asar-back.png",
+      "referenceSha256": "da9286741c07d7c1242f275769855b93002223170e8014e63162c33fdce7caac",
+      "prompt": "docs/source/desert-special-v1/asar-back-dash.prompt.txt",
+      "promptSha256": "fd1b8de380519437d6763673c36e8ee7f8c0306b49d4c76a239b73b58889aaf1"
+    },
+    {
+      "id": "asar-back-stance",
+      "reference": "docs/source/desert-special-v1/references/asar-back.png",
+      "referenceSha256": "da9286741c07d7c1242f275769855b93002223170e8014e63162c33fdce7caac",
+      "prompt": "docs/source/desert-special-v1/asar-back-stance.prompt.txt",
+      "promptSha256": "1f863bc96b0e230b691c8ac3058823ebd4a43b28555365399d87a80a064ca959"
+    },
+    {
+      "id": "naya-front-ring",
+      "reference": "docs/source/desert-special-v1/references/naya-front.png",
+      "referenceSha256": "cdc45cec8df517efd85f275a024ef8035065d8d600524dbcf0249ca130483cdb",
+      "prompt": "docs/source/desert-special-v1/naya-front-ring.prompt.txt",
+      "promptSha256": "f319e1373eb0f3cc0259f0929ac4c5d07ca4b54d8a6eaf4dda230b5d8d6100f5"
+    },
+    {
+      "id": "naya-front-combo",
+      "reference": "docs/source/desert-special-v1/references/naya-front.png",
+      "referenceSha256": "cdc45cec8df517efd85f275a024ef8035065d8d600524dbcf0249ca130483cdb",
+      "prompt": "docs/source/desert-special-v1/naya-front-combo.prompt.txt",
+      "promptSha256": "627205d1fd736c816a367542c3c5d9144d4746118a6393ab11ade35d7414f4cb"
+    },
+    {
+      "id": "naya-front-right-ring",
+      "reference": "docs/source/desert-special-v1/references/naya-front-right.png",
+      "referenceSha256": "d4f8d557ca5b4bf2eaa62b2e011c685f82de464a5352bbee18bd7b0b95fddbfe",
+      "prompt": "docs/source/desert-special-v1/naya-front-right-ring.prompt.txt",
+      "promptSha256": "e4f7ebf0cbacaf9e4591ffdc55c5ab0ebcdc3006672f36111109ee19028e20cd"
+    },
+    {
+      "id": "naya-front-right-combo",
+      "reference": "docs/source/desert-special-v1/references/naya-front-right.png",
+      "referenceSha256": "d4f8d557ca5b4bf2eaa62b2e011c685f82de464a5352bbee18bd7b0b95fddbfe",
+      "prompt": "docs/source/desert-special-v1/naya-front-right-combo.prompt.txt",
+      "promptSha256": "268b4b573d9872363d6e7add4320732caad8b151f821f25d6c5a0ff78cbdf310"
+    },
+    {
+      "id": "naya-right-ring",
+      "reference": "docs/source/desert-special-v1/references/naya-right.png",
+      "referenceSha256": "93e2a847ab90dd5f67dbe416f2d9bfeec27ee2fa6551aa26497e771552d84491",
+      "prompt": "docs/source/desert-special-v1/naya-right-ring.prompt.txt",
+      "promptSha256": "de1914bb9b1586db17b4d149259ceb64cc0c98a32b6506c490c538b2450d0389"
+    },
+    {
+      "id": "naya-right-combo",
+      "reference": "docs/source/desert-special-v1/references/naya-right.png",
+      "referenceSha256": "93e2a847ab90dd5f67dbe416f2d9bfeec27ee2fa6551aa26497e771552d84491",
+      "prompt": "docs/source/desert-special-v1/naya-right-combo.prompt.txt",
+      "promptSha256": "782e63556e358956dc099d5b2c78a47c55f9cf85d1d8df918f1fc998a7b81f34"
+    },
+    {
+      "id": "naya-rear-right-ring",
+      "reference": "docs/source/desert-special-v1/references/naya-rear-right.png",
+      "referenceSha256": "74c4b16c674b92fbd1bde2e8ad238b9217553489b5d6fb12e0e46b7be3c58250",
+      "prompt": "docs/source/desert-special-v1/naya-rear-right-ring.prompt.txt",
+      "promptSha256": "d99f94425fb5e4078112c49325ae38bf67f112dad6cf23542bdd16b735d7ac9c"
+    },
+    {
+      "id": "naya-rear-right-combo",
+      "reference": "docs/source/desert-special-v1/references/naya-rear-right.png",
+      "referenceSha256": "74c4b16c674b92fbd1bde2e8ad238b9217553489b5d6fb12e0e46b7be3c58250",
+      "prompt": "docs/source/desert-special-v1/naya-rear-right-combo.prompt.txt",
+      "promptSha256": "658063b2c8fd09dbf5ff6866a887106abf93d2660c064a9faeadceba30b7d3b4"
+    },
+    {
+      "id": "naya-back-ring",
+      "reference": "docs/source/desert-special-v1/references/naya-back.png",
+      "referenceSha256": "b4f47bd2c2c9d12628fd54595fc3cdacfb9fde639690c9f1f259e2dba8cc2d1d",
+      "prompt": "docs/source/desert-special-v1/naya-back-ring.prompt.txt",
+      "promptSha256": "25c02fa0673ca2c3bca8f5cfa67ab7aec436699307803e6bf20eaa240baab9fb"
+    },
+    {
+      "id": "naya-back-combo",
+      "reference": "docs/source/desert-special-v1/references/naya-back.png",
+      "referenceSha256": "b4f47bd2c2c9d12628fd54595fc3cdacfb9fde639690c9f1f259e2dba8cc2d1d",
+      "prompt": "docs/source/desert-special-v1/naya-back-combo.prompt.txt",
+      "promptSha256": "329f76685b6a12ea2246431c9f8a0ff34bf0683a7b472460bbc7185824d82611"
+    },
+    {
+      "id": "balta-front-dash",
+      "reference": "docs/source/desert-special-v1/references/balta-front.png",
+      "referenceSha256": "35450f384482d10a4f5f7622445db5cd153a9567ce4ecf78fd686c14af7fd9a2",
+      "prompt": "docs/source/desert-special-v1/balta-front-dash.prompt.txt",
+      "promptSha256": "9d660e707709b525ed3150048341dd453fba6dbe2d27de1bf8ccde9a17c448e7"
+    },
+    {
+      "id": "balta-front-slam",
+      "reference": "docs/source/desert-special-v1/references/balta-front.png",
+      "referenceSha256": "35450f384482d10a4f5f7622445db5cd153a9567ce4ecf78fd686c14af7fd9a2",
+      "prompt": "docs/source/desert-special-v1/balta-front-slam.prompt.txt",
+      "promptSha256": "d0e19e72a2f9be4675a915cbcfd6f26cbd6180d494c2f003f9d94a1955442ea1"
+    },
+    {
+      "id": "balta-front-right-dash",
+      "reference": "docs/source/desert-special-v1/references/balta-front-right.png",
+      "referenceSha256": "7ee65b0ee21f7e91604cfdf9e9856c14ccf7eb04e76e66c6a226754c47a1ae2a",
+      "prompt": "docs/source/desert-special-v1/balta-front-right-dash.prompt.txt",
+      "promptSha256": "77a29f95e11d4f2dac339f6ade844e8d2ffde3aa142930ce2d6496e9e0e77536"
+    },
+    {
+      "id": "balta-front-right-slam",
+      "reference": "docs/source/desert-special-v1/references/balta-front-right.png",
+      "referenceSha256": "7ee65b0ee21f7e91604cfdf9e9856c14ccf7eb04e76e66c6a226754c47a1ae2a",
+      "prompt": "docs/source/desert-special-v1/balta-front-right-slam.prompt.txt",
+      "promptSha256": "37624d0198ee8235499f7bf45102b373c33531299f3e742d3b5637c674773dbd"
+    },
+    {
+      "id": "balta-right-dash",
+      "reference": "docs/source/desert-special-v1/references/balta-right.png",
+      "referenceSha256": "cd229dc1ad217f10921f04a08e332c3e94cc377baab0eef089e46103c7a2417a",
+      "prompt": "docs/source/desert-special-v1/balta-right-dash.prompt.txt",
+      "promptSha256": "193e455c79031e4f6b71048ece79c9d20d51521f5f207c4567cd6e65de6f9d33"
+    },
+    {
+      "id": "balta-right-slam",
+      "reference": "docs/source/desert-special-v1/references/balta-right.png",
+      "referenceSha256": "cd229dc1ad217f10921f04a08e332c3e94cc377baab0eef089e46103c7a2417a",
+      "prompt": "docs/source/desert-special-v1/balta-right-slam.prompt.txt",
+      "promptSha256": "6ca00031e1332318c7f9a9e9ca17b027d7ab1ab6d4f57d6ffcc80b9b18523c02"
+    },
+    {
+      "id": "balta-rear-right-dash",
+      "reference": "docs/source/desert-special-v1/references/balta-rear-right.png",
+      "referenceSha256": "59f2b256e9bc0eeee74aab48b77e514a288b9b9ba9292a2d897568b233c13576",
+      "prompt": "docs/source/desert-special-v1/balta-rear-right-dash.prompt.txt",
+      "promptSha256": "6b16bf27495d62f23649650f24ac22de97a636c1b129ad9a04dd431e104898e7"
+    },
+    {
+      "id": "balta-rear-right-slam",
+      "reference": "docs/source/desert-special-v1/references/balta-rear-right.png",
+      "referenceSha256": "59f2b256e9bc0eeee74aab48b77e514a288b9b9ba9292a2d897568b233c13576",
+      "prompt": "docs/source/desert-special-v1/balta-rear-right-slam.prompt.txt",
+      "promptSha256": "f981238dc1566abae0929ca9c97df46db305c2f67ce022dad15669befeb9341a"
+    },
+    {
+      "id": "balta-back-dash",
+      "reference": "docs/source/desert-special-v1/references/balta-back.png",
+      "referenceSha256": "996a4c60c4d5a370fb38d332d1e90c1777c959e98c7a8bb5dc9574b9d6ebc545",
+      "prompt": "docs/source/desert-special-v1/balta-back-dash.prompt.txt",
+      "promptSha256": "246607deaf42dae82c40ad31312c1f7926e0cf18fccb2117b4b6b910400226c7"
+    },
+    {
+      "id": "balta-back-slam",
+      "reference": "docs/source/desert-special-v1/references/balta-back.png",
+      "referenceSha256": "996a4c60c4d5a370fb38d332d1e90c1777c959e98c7a8bb5dc9574b9d6ebc545",
+      "prompt": "docs/source/desert-special-v1/balta-back-slam.prompt.txt",
+      "promptSha256": "a70631c15a42f6c8be1ce2a6bb23ca01124d4542e2e1cb3dd24a2d53e70d0ac0"
+    },
+    {
+      "id": "arkan-front-sweep",
+      "reference": "docs/source/desert-special-v1/references/arkan-front.png",
+      "referenceSha256": "2eeb5a1ef5fb6ca5ce1d145c6db0c66e138bccbbe518602ebe7f8bf23a49a13d",
+      "prompt": "docs/source/desert-special-v1/arkan-front-sweep.prompt.txt",
+      "promptSha256": "a2b352ed2def30106dd58723546816d16c0e1454c4818942e416e97890fd8889"
+    },
+    {
+      "id": "arkan-front-stance",
+      "reference": "docs/source/desert-special-v1/references/arkan-front.png",
+      "referenceSha256": "2eeb5a1ef5fb6ca5ce1d145c6db0c66e138bccbbe518602ebe7f8bf23a49a13d",
+      "prompt": "docs/source/desert-special-v1/arkan-front-stance.prompt.txt",
+      "promptSha256": "0575c98426685302c9451abe8ab0c72993279c42c05718ee5856ae351360d324"
+    },
+    {
+      "id": "arkan-front-right-sweep",
+      "reference": "docs/source/desert-special-v1/references/arkan-front-right.png",
+      "referenceSha256": "674fdf5e87d946303286a0fe0cac2220cd851558f5b2f47fba83370e99d0b034",
+      "prompt": "docs/source/desert-special-v1/arkan-front-right-sweep.prompt.txt",
+      "promptSha256": "7258924e9a2fde1c90ca263982023d6c719ef33e7f7196ab11841f82c0069890"
+    },
+    {
+      "id": "arkan-front-right-stance",
+      "reference": "docs/source/desert-special-v1/references/arkan-front-right.png",
+      "referenceSha256": "674fdf5e87d946303286a0fe0cac2220cd851558f5b2f47fba83370e99d0b034",
+      "prompt": "docs/source/desert-special-v1/arkan-front-right-stance.prompt.txt",
+      "promptSha256": "e888355e53353ee106e5feab1bc88b7e13c106cef294d0aebab90bfd3aa67b78"
+    },
+    {
+      "id": "arkan-right-sweep",
+      "reference": "docs/source/desert-special-v1/references/arkan-right.png",
+      "referenceSha256": "bf5ad480007dbb6476a9322e3b0f962e123b7b04c79376146b15b6e4a43524ab",
+      "prompt": "docs/source/desert-special-v1/arkan-right-sweep.prompt.txt",
+      "promptSha256": "b6733e9f073238d9efcdd19e730f63c285e2d372218012f889c7d3a9988e7eac"
+    },
+    {
+      "id": "arkan-right-stance",
+      "reference": "docs/source/desert-special-v1/references/arkan-right.png",
+      "referenceSha256": "bf5ad480007dbb6476a9322e3b0f962e123b7b04c79376146b15b6e4a43524ab",
+      "prompt": "docs/source/desert-special-v1/arkan-right-stance.prompt.txt",
+      "promptSha256": "528e4df33ac479edbc8fadbde69e358ee3fe042c967e282141b788cd4e833e28"
+    },
+    {
+      "id": "arkan-rear-right-sweep",
+      "reference": "docs/source/desert-special-v1/references/arkan-rear-right.png",
+      "referenceSha256": "1803476858466e2e1ca210e8c3baa1233b0ba390906a25bd78d01ed66cd21376",
+      "prompt": "docs/source/desert-special-v1/arkan-rear-right-sweep.prompt.txt",
+      "promptSha256": "92fc516d7e85f6432b5f31e2877eb060bd566a9b457b1e26f2390e24d9bdac9b"
+    },
+    {
+      "id": "arkan-rear-right-stance",
+      "reference": "docs/source/desert-special-v1/references/arkan-rear-right.png",
+      "referenceSha256": "1803476858466e2e1ca210e8c3baa1233b0ba390906a25bd78d01ed66cd21376",
+      "prompt": "docs/source/desert-special-v1/arkan-rear-right-stance.prompt.txt",
+      "promptSha256": "9f0bbc6d7b6d30d45f64484d48ddebd9e3aaba14745fee189d11d3edae5e29af"
+    },
+    {
+      "id": "arkan-back-sweep",
+      "reference": "docs/source/desert-special-v1/references/arkan-back.png",
+      "referenceSha256": "b3475af19cd02fe6ae6040ad17490aa094d1554ade0498b7ed721e129839e456",
+      "prompt": "docs/source/desert-special-v1/arkan-back-sweep.prompt.txt",
+      "promptSha256": "30643410f948fbdaae4529109dc17dfd902c3374cf74a7f2683ee1b2b93d0da9"
+    },
+    {
+      "id": "arkan-back-stance",
+      "reference": "docs/source/desert-special-v1/references/arkan-back.png",
+      "referenceSha256": "b3475af19cd02fe6ae6040ad17490aa094d1554ade0498b7ed721e129839e456",
+      "prompt": "docs/source/desert-special-v1/arkan-back-stance.prompt.txt",
+      "promptSha256": "c7e2eca49722e40544be80612d2c4c9722ac3bdfb752377df548b74e796d9a59"
+    }
+  ],
+  "revision": "padding-v2",
+  "rejectedSources": [
+    {
+      "source": "asar-front-dash-rejected-v1.png",
+      "reason": "oversized actor; raised dao clipped/touches outer canvas top"
+    }
+  ]
+}

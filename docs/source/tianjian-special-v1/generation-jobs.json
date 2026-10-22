@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ujin-front",
+    "character": "ujin",
+    "bossId": "2-1",
+    "view": 0,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/tianjian-family-v1/ujin-front.png",
+    "source": "ujin-front-stance.png",
+    "sources": [
+      {
+        "id": "ujin-front-stance",
+        "source": "ujin-front-stance.png",
+        "prompt": "ujin-front-stance.prompt.txt"
+      },
+      {
+        "id": "ujin-front-dash",
+        "source": "ujin-front-dash.png",
+        "prompt": "ujin-front-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "ujin-front-stance.png",
+      "ujin-front-stance.png",
+      "ujin-front-stance.png",
+      "ujin-front-stance.png",
+      "ujin-front-stance.png",
+      "ujin-front-stance.png",
+      "ujin-front-dash.png",
+      "ujin-front-dash.png",
+      "ujin-front-dash.png",
+      "ujin-front-dash.png",
+      "ujin-front-dash.png",
+      "ujin-front-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "ujin-front-right",
+    "character": "ujin",
+    "bossId": "2-1",
+    "view": 1,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/tianjian-family-v1/ujin-front-right.png",
+    "source": "ujin-front-right-stance.png",
+    "sources": [
+      {
+        "id": "ujin-front-right-stance",
+        "source": "ujin-front-right-stance.png",
+        "prompt": "ujin-front-right-stance.prompt.txt"
+      },
+      {
+        "id": "ujin-front-right-dash",
+        "source": "ujin-front-right-dash.png",
+        "prompt": "ujin-front-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "ujin-front-right-stance.png",
+      "ujin-front-right-stance.png",
+      "ujin-front-right-stance.png",
+      "ujin-front-right-stance.png",
+      "ujin-front-right-stance.png",
+      "ujin-front-right-stance.png",
+      "ujin-front-right-dash.png",
+      "ujin-front-right-dash.png",
+      "ujin-front-right-dash.png",
+      "ujin-front-right-dash.png",
+      "ujin-front-right-dash.png",
+      "ujin-front-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "ujin-right",
+    "character": "ujin",
+    "bossId": "2-1",
+    "view": 2,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/tianjian-family-v1/ujin-right.png",
+    "source": "ujin-right-stance.png",
+    "sources": [
+      {
+        "id": "ujin-right-stance",
+        "source": "ujin-right-stance.png",
+        "prompt": "ujin-right-stance.prompt.txt"
+      },
+      {
+        "id": "ujin-right-dash",
+        "source": "ujin-right-dash.png",
+        "prompt": "ujin-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "ujin-right-stance.png",
+      "ujin-right-stance.png",
+      "ujin-right-stance.png",
+      "ujin-right-stance.png",
+      "ujin-right-stance.png",
+      "ujin-right-stance.png",
+      "ujin-right-dash.png",
+      "ujin-right-dash.png",
+      "ujin-right-dash.png",
+      "ujin-right-dash.png",
+      "ujin-right-dash.png",
+      "ujin-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "ujin-rear-right",
+    "character": "ujin",
+    "bossId": "2-1",
+    "view": 3,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/tianjian-family-v1/ujin-rear-right.png",
+    "source": "ujin-rear-right-stance.png",
+    "sources": [
+      {
+        "id": "ujin-rear-right-stance",
+        "source": "ujin-rear-right-stance.png",
+        "prompt": "ujin-rear-right-stance.prompt.txt"
+      },
+      {
+        "id": "ujin-rear-right-dash",
+        "source": "ujin-rear-right-dash.png",
+        "prompt": "ujin-rear-right-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-stance.png",
+      "ujin-rear-right-dash.png",
+      "ujin-rear-right-dash.png",
+      "ujin-rear-right-dash.png",
+      "ujin-rear-right-dash.png",
+      "ujin-rear-right-dash.png",
+      "ujin-rear-right-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "ujin-back",
+    "character": "ujin",
+    "bossId": "2-1",
+    "view": 4,
+    "moves": [
+      "stance",
+      "dash"
+    ],
+    "reference": "docs/source/tianjian-family-v1/ujin-back.png",
+    "source": "ujin-back-stance.png",
+    "sources": [
+      {
+        "id": "ujin-back-stance",
+        "source": "ujin-back-stance.png",
+        "prompt": "ujin-back-stance.prompt.txt"
+      },
+      {
+        "id": "ujin-back-dash",
+        "source": "ujin-back-dash.png",
+        "prompt": "ujin-back-dash.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "ujin-back-stance.png",
+      "ujin-back-stance.png",
+      "ujin-back-stance.png",
+      "ujin-back-stance.png",
+      "ujin-back-stance.png",
+      "ujin-back-stance.png",
+      "ujin-back-dash.png",
+      "ujin-back-dash.png",
+      "ujin-back-dash.png",
+      "ujin-back-dash.png",
+      "ujin-back-dash.png",
+      "ujin-back-dash.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekhong-front",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "view": 0,
+    "moves": [
+      "dash",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekhong-front.png",
+    "source": "baekhong-front-dash.png",
+    "sources": [
+      {
+        "id": "baekhong-front-dash",
+        "source": "baekhong-front-dash.png",
+        "prompt": "baekhong-front-dash.prompt.txt"
+      },
+      {
+        "id": "baekhong-front-sweep",
+        "source": "baekhong-front-sweep.png",
+        "prompt": "baekhong-front-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekhong-front-dash.png",
+      "baekhong-front-dash.png",
+      "baekhong-front-dash.png",
+      "baekhong-front-dash.png",
+      "baekhong-front-dash.png",
+      "baekhong-front-dash.png",
+      "baekhong-front-sweep.png",
+      "baekhong-front-sweep.png",
+      "baekhong-front-sweep.png",
+      "baekhong-front-sweep.png",
+      "baekhong-front-sweep.png",
+      "baekhong-front-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekhong-front-right",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "view": 1,
+    "moves": [
+      "dash",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekhong-front-right.png",
+    "source": "baekhong-front-right-dash.png",
+    "sources": [
+      {
+        "id": "baekhong-front-right-dash",
+        "source": "baekhong-front-right-dash.png",
+        "prompt": "baekhong-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "baekhong-front-right-sweep",
+        "source": "baekhong-front-right-sweep.png",
+        "prompt": "baekhong-front-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-dash.png",
+      "baekhong-front-right-sweep.png",
+      "baekhong-front-right-sweep.png",
+      "baekhong-front-right-sweep.png",
+      "baekhong-front-right-sweep.png",
+      "baekhong-front-right-sweep.png",
+      "baekhong-front-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekhong-right",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "view": 2,
+    "moves": [
+      "dash",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekhong-right.png",
+    "source": "baekhong-right-dash.png",
+    "sources": [
+      {
+        "id": "baekhong-right-dash",
+        "source": "baekhong-right-dash.png",
+        "prompt": "baekhong-right-dash.prompt.txt"
+      },
+      {
+        "id": "baekhong-right-sweep",
+        "source": "baekhong-right-sweep.png",
+        "prompt": "baekhong-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekhong-right-dash.png",
+      "baekhong-right-dash.png",
+      "baekhong-right-dash.png",
+      "baekhong-right-dash.png",
+      "baekhong-right-dash.png",
+      "baekhong-right-dash.png",
+      "baekhong-right-sweep.png",
+      "baekhong-right-sweep.png",
+      "baekhong-right-sweep.png",
+      "baekhong-right-sweep.png",
+      "baekhong-right-sweep.png",
+      "baekhong-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekhong-rear-right",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "view": 3,
+    "moves": [
+      "dash",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekhong-rear-right.png",
+    "source": "baekhong-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "baekhong-rear-right-dash",
+        "source": "baekhong-rear-right-dash.png",
+        "prompt": "baekhong-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "baekhong-rear-right-sweep",
+        "source": "baekhong-rear-right-sweep.png",
+        "prompt": "baekhong-rear-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-dash.png",
+      "baekhong-rear-right-sweep.png",
+      "baekhong-rear-right-sweep.png",
+      "baekhong-rear-right-sweep.png",
+      "baekhong-rear-right-sweep.png",
+      "baekhong-rear-right-sweep.png",
+      "baekhong-rear-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekhong-back",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "view": 4,
+    "moves": [
+      "dash",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekhong-back.png",
+    "source": "baekhong-back-dash.png",
+    "sources": [
+      {
+        "id": "baekhong-back-dash",
+        "source": "baekhong-back-dash.png",
+        "prompt": "baekhong-back-dash.prompt.txt"
+      },
+      {
+        "id": "baekhong-back-sweep",
+        "source": "baekhong-back-sweep.png",
+        "prompt": "baekhong-back-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekhong-back-dash.png",
+      "baekhong-back-dash.png",
+      "baekhong-back-dash.png",
+      "baekhong-back-dash.png",
+      "baekhong-back-dash.png",
+      "baekhong-back-dash.png",
+      "baekhong-back-sweep.png",
+      "baekhong-back-sweep.png",
+      "baekhong-back-sweep.png",
+      "baekhong-back-sweep.png",
+      "baekhong-back-sweep.png",
+      "baekhong-back-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-front",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tianjian-family-v1/mumyeong-front.png",
+    "source": "mumyeong-front-dash.png",
+    "sources": [
+      {
+        "id": "mumyeong-front-dash",
+        "source": "mumyeong-front-dash.png",
+        "prompt": "mumyeong-front-dash.prompt.txt"
+      },
+      {
+        "id": "mumyeong-front-stance",
+        "source": "mumyeong-front-stance.png",
+        "prompt": "mumyeong-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mumyeong-front-dash.png",
+      "mumyeong-front-dash.png",
+      "mumyeong-front-dash.png",
+      "mumyeong-front-dash.png",
+      "mumyeong-front-dash.png",
+      "mumyeong-front-dash.png",
+      "mumyeong-front-stance.png",
+      "mumyeong-front-stance.png",
+      "mumyeong-front-stance.png",
+      "mumyeong-front-stance.png",
+      "mumyeong-front-stance.png",
+      "mumyeong-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-front-right",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tianjian-family-v1/mumyeong-front-right.png",
+    "source": "mumyeong-front-right-dash.png",
+    "sources": [
+      {
+        "id": "mumyeong-front-right-dash",
+        "source": "mumyeong-front-right-dash.png",
+        "prompt": "mumyeong-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "mumyeong-front-right-stance",
+        "source": "mumyeong-front-right-stance.png",
+        "prompt": "mumyeong-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-dash.png",
+      "mumyeong-front-right-stance.png",
+      "mumyeong-front-right-stance.png",
+      "mumyeong-front-right-stance.png",
+      "mumyeong-front-right-stance.png",
+      "mumyeong-front-right-stance.png",
+      "mumyeong-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-right",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tianjian-family-v1/mumyeong-right.png",
+    "source": "mumyeong-right-dash.png",
+    "sources": [
+      {
+        "id": "mumyeong-right-dash",
+        "source": "mumyeong-right-dash.png",
+        "prompt": "mumyeong-right-dash.prompt.txt"
+      },
+      {
+        "id": "mumyeong-right-stance",
+        "source": "mumyeong-right-stance.png",
+        "prompt": "mumyeong-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mumyeong-right-dash.png",
+      "mumyeong-right-dash.png",
+      "mumyeong-right-dash.png",
+      "mumyeong-right-dash.png",
+      "mumyeong-right-dash.png",
+      "mumyeong-right-dash.png",
+      "mumyeong-right-stance.png",
+      "mumyeong-right-stance.png",
+      "mumyeong-right-stance.png",
+      "mumyeong-right-stance.png",
+      "mumyeong-right-stance.png",
+      "mumyeong-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-rear-right",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tianjian-family-v1/mumyeong-rear-right.png",
+    "source": "mumyeong-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "mumyeong-rear-right-dash",
+        "source": "mumyeong-rear-right-dash.png",
+        "prompt": "mumyeong-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "mumyeong-rear-right-stance",
+        "source": "mumyeong-rear-right-stance.png",
+        "prompt": "mumyeong-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-dash.png",
+      "mumyeong-rear-right-stance.png",
+      "mumyeong-rear-right-stance.png",
+      "mumyeong-rear-right-stance.png",
+      "mumyeong-rear-right-stance.png",
+      "mumyeong-rear-right-stance.png",
+      "mumyeong-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-back",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/tianjian-family-v1/mumyeong-back.png",
+    "source": "mumyeong-back-dash.png",
+    "sources": [
+      {
+        "id": "mumyeong-back-dash",
+        "source": "mumyeong-back-dash.png",
+        "prompt": "mumyeong-back-dash.prompt.txt"
+      },
+      {
+        "id": "mumyeong-back-stance",
+        "source": "mumyeong-back-stance.png",
+        "prompt": "mumyeong-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mumyeong-back-dash.png",
+      "mumyeong-back-dash.png",
+      "mumyeong-back-dash.png",
+      "mumyeong-back-dash.png",
+      "mumyeong-back-dash.png",
+      "mumyeong-back-dash.png",
+      "mumyeong-back-stance.png",
+      "mumyeong-back-stance.png",
+      "mumyeong-back-stance.png",
+      "mumyeong-back-stance.png",
+      "mumyeong-back-stance.png",
+      "mumyeong-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekun-front",
+    "character": "baekun",
+    "bossId": "2-4",
+    "view": 0,
+    "moves": [
+      "fan",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekun-front.png",
+    "source": "baekun-front-fan.png",
+    "sources": [
+      {
+        "id": "baekun-front-fan",
+        "source": "baekun-front-fan.png",
+        "prompt": "baekun-front-fan.prompt.txt"
+      },
+      {
+        "id": "baekun-front-sweep",
+        "source": "baekun-front-sweep.png",
+        "prompt": "baekun-front-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekun-front-fan.png",
+      "baekun-front-fan.png",
+      "baekun-front-fan.png",
+      "baekun-front-fan.png",
+      "baekun-front-fan.png",
+      "baekun-front-fan.png",
+      "baekun-front-sweep.png",
+      "baekun-front-sweep.png",
+      "baekun-front-sweep.png",
+      "baekun-front-sweep.png",
+      "baekun-front-sweep.png",
+      "baekun-front-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekun-front-right",
+    "character": "baekun",
+    "bossId": "2-4",
+    "view": 1,
+    "moves": [
+      "fan",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekun-front-right.png",
+    "source": "baekun-front-right-fan.png",
+    "sources": [
+      {
+        "id": "baekun-front-right-fan",
+        "source": "baekun-front-right-fan.png",
+        "prompt": "baekun-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "baekun-front-right-sweep",
+        "source": "baekun-front-right-sweep.png",
+        "prompt": "baekun-front-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekun-front-right-fan.png",
+      "baekun-front-right-fan.png",
+      "baekun-front-right-fan.png",
+      "baekun-front-right-fan.png",
+      "baekun-front-right-fan.png",
+      "baekun-front-right-fan.png",
+      "baekun-front-right-sweep.png",
+      "baekun-front-right-sweep.png",
+      "baekun-front-right-sweep.png",
+      "baekun-front-right-sweep.png",
+      "baekun-front-right-sweep.png",
+      "baekun-front-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekun-right",
+    "character": "baekun",
+    "bossId": "2-4",
+    "view": 2,
+    "moves": [
+      "fan",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekun-right.png",
+    "source": "baekun-right-fan.png",
+    "sources": [
+      {
+        "id": "baekun-right-fan",
+        "source": "baekun-right-fan.png",
+        "prompt": "baekun-right-fan.prompt.txt"
+      },
+      {
+        "id": "baekun-right-sweep",
+        "source": "baekun-right-sweep.png",
+        "prompt": "baekun-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekun-right-fan.png",
+      "baekun-right-fan.png",
+      "baekun-right-fan.png",
+      "baekun-right-fan.png",
+      "baekun-right-fan.png",
+      "baekun-right-fan.png",
+      "baekun-right-sweep.png",
+      "baekun-right-sweep.png",
+      "baekun-right-sweep.png",
+      "baekun-right-sweep.png",
+      "baekun-right-sweep.png",
+      "baekun-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekun-rear-right",
+    "character": "baekun",
+    "bossId": "2-4",
+    "view": 3,
+    "moves": [
+      "fan",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekun-rear-right.png",
+    "source": "baekun-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "baekun-rear-right-fan",
+        "source": "baekun-rear-right-fan.png",
+        "prompt": "baekun-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "baekun-rear-right-sweep",
+        "source": "baekun-rear-right-sweep.png",
+        "prompt": "baekun-rear-right-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-fan.png",
+      "baekun-rear-right-sweep.png",
+      "baekun-rear-right-sweep.png",
+      "baekun-rear-right-sweep.png",
+      "baekun-rear-right-sweep.png",
+      "baekun-rear-right-sweep.png",
+      "baekun-rear-right-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "baekun-back",
+    "character": "baekun",
+    "bossId": "2-4",
+    "view": 4,
+    "moves": [
+      "fan",
+      "sweep"
+    ],
+    "reference": "docs/source/tianjian-family-v1/baekun-back.png",
+    "source": "baekun-back-fan.png",
+    "sources": [
+      {
+        "id": "baekun-back-fan",
+        "source": "baekun-back-fan.png",
+        "prompt": "baekun-back-fan.prompt.txt"
+      },
+      {
+        "id": "baekun-back-sweep",
+        "source": "baekun-back-sweep.png",
+        "prompt": "baekun-back-sweep.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "baekun-back-fan.png",
+      "baekun-back-fan.png",
+      "baekun-back-fan.png",
+      "baekun-back-fan.png",
+      "baekun-back-fan.png",
+      "baekun-back-fan.png",
+      "baekun-back-sweep.png",
+      "baekun-back-sweep.png",
+      "baekun-back-sweep.png",
+      "baekun-back-sweep.png",
+      "baekun-back-sweep.png",
+      "baekun-back-sweep.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

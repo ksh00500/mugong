@@ -1,0 +1,2668 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.combat.config.ts",
+      "--reporter=line,json"
+    ],
+    "configFile": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\playwright.combat.config.ts",
+    "rootDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/Documents/ChatGPT/MUGONG/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5181",
+      "url": "http://127.0.0.1:5181",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "audit.spec.ts",
+      "file": "audit.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "손상된 무인 저장은 오류 안내를 표시하고 원본을 덮어쓰지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1585,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:50.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-0636b0d62a229e5f0694",
+          "file": "audit.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "설정 창은 배경 화면 초점과 입력을 차단하고 닫으면 원래 버튼으로 돌린다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:52.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-50b777ea4d52178f064e",
+          "file": "audit.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "폐기 확인 중 가방의 회전 단축키가 뒤에서 실행되지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1465,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:53.123Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-2e4d586e477cea97be6f",
+          "file": "audit.spec.ts",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "뒤로가기 캐시의 pagehide 상태에서도 다른 탭에 저장 권한을 넘기지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1367,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:54.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-9baf3046bfa0d34e3843",
+          "file": "audit.spec.ts",
+          "line": 94,
+          "column": 1
+        },
+        {
+          "title": "체력이 가득 차면 약 사용은 비활성화되어 소모되지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:55.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-90788baf9aa77cc7f191",
+          "file": "audit.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "가방에서 수련 후 성장 창이 열리면 R키가 뒤의 가방에 전달되지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3821,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:06:58.260Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "45efdff6a4d2e1f7e786-67ba5cb159537deb2fb9",
+          "file": "audit.spec.ts",
+          "line": 123,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "combat-feel.spec.ts",
+      "file": "combat-feel.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "검격·회피 입력과 전투 가독성 1440×900",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4739,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:02.116Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-05eff636cc7bb3b64330",
+          "file": "combat-feel.spec.ts",
+          "line": 125,
+          "column": 3
+        },
+        {
+          "title": "검격·회피 입력과 전투 가독성 1366×768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4108,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:06.864Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-8fa26e564c14de8af6e3",
+          "file": "combat-feel.spec.ts",
+          "line": 125,
+          "column": 3
+        },
+        {
+          "title": "검격·회피 입력과 전투 가독성 1093×614",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:10.982Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-fc3f64b87d5c2f58ba1c",
+          "file": "combat-feel.spec.ts",
+          "line": 125,
+          "column": 3
+        },
+        {
+          "title": "돌진·원형 발사·반격·방어와 움직임 줄이기 실제 캡처",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10355,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:14.235Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95789494b1546975a3df-0de6a03701d0f67a1720",
+          "file": "combat-feel.spec.ts",
+          "line": 208,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "combat-hud.spec.ts",
+      "file": "combat-hud.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "무협 HUD 1440×900: Q/E 순환과 실제 회피 재사용",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3490,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:24.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-76fb7e267510634688b4",
+          "file": "combat-hud.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "무협 HUD 1366×768: Q/E 순환과 실제 회피 재사용",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:28.128Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-ac019dbee9a9124e6316",
+          "file": "combat-hud.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "무협 HUD 1093×614: Q/E 순환과 실제 회피 재사용",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:31.267Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-e7a00ce1161e22ab1a48",
+          "file": "combat-hud.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "무공 0·1·4개, 보스·궁극 개방과 5개 언어에서 HUD가 화면에 남는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 100000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28829,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:07:34.418Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-0bf16f036da107d144c6",
+          "file": "combat-hud.spec.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "큰 글씨·고대비 설정과 움직임 줄이기에서 HUD 행동이 유지된다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1991,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:03.270Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55f574a1fab08cc8e584-1428fbbf52631089b83a",
+          "file": "combat-hud.spec.ts",
+          "line": 223,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "daytona.spec.ts",
+      "file": "daytona.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Daytona 공개 빌드의 출전·전투·가방·저장 복원",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Daytona URL을 지정한 배포 검증에서만 실행",
+                  "location": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\daytona.spec.ts",
+                    "line": 5,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 67,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:05.282Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Daytona URL을 지정한 배포 검증에서만 실행",
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\daytona.spec.ts",
+                        "line": 5,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "9c18bcfe0bdf815ae80c-69c18e4f6300b4660b40",
+          "file": "daytona.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "game.spec.ts",
+      "file": "game.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "배치·간격 1440×900: 로비·생성·설정·기록·가방·HUD·성장 선택",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10950,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:05.371Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-e995249a5be5860e6b71",
+          "file": "game.spec.ts",
+          "line": 135,
+          "column": 3
+        },
+        {
+          "title": "배치·간격 1366×768: 로비·생성·설정·기록·가방·HUD·성장 선택",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9976,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:16.330Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-df9d53fedb06ef2f5521",
+          "file": "game.spec.ts",
+          "line": 135,
+          "column": 3
+        },
+        {
+          "title": "배치·간격 1093×614: 로비·생성·설정·기록·가방·HUD·성장 선택",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8175,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:26.317Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-7332dee8aa82f470364d",
+          "file": "game.spec.ts",
+          "line": 135,
+          "column": 3
+        },
+        {
+          "title": "생성·이동·전투 중 가방 제한·저장 복원",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3528,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:34.503Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-bf0dbeafdbd9e058e5db",
+          "file": "game.spec.ts",
+          "line": 287,
+          "column": 1
+        },
+        {
+          "title": "실제 공격으로 첫 레벨·증강 선택·전리품·다음 웨이브",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6707,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:38.039Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-3775c37109e9d7ef7925",
+          "file": "game.spec.ts",
+          "line": 310,
+          "column": 1
+        },
+        {
+          "title": "정리판 폐기 취소·확인과 수납 회전",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:44.756Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-33e43cbe580ca8ab6993",
+          "file": "game.spec.ts",
+          "line": 371,
+          "column": 1
+        },
+        {
+          "title": "화면의 적 몸통을 클릭하면 좁은 찌르기도 적을 맞힌다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1465,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:47.819Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-04964c5e5c420a535106",
+          "file": "game.spec.ts",
+          "line": 398,
+          "column": 1
+        },
+        {
+          "title": "최종 보스를 실제로 처치하고 명부·창고·수명에 반영",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:49.293Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-6337776cb0028c132f5b",
+          "file": "game.spec.ts",
+          "line": 412,
+          "column": 1
+        },
+        {
+          "title": "사망 결과를 새로고침해도 유지하고 명부에 등록하지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2668,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:55.567Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-cdb80d399846a65ddc98",
+          "file": "game.spec.ts",
+          "line": 470,
+          "column": 1
+        },
+        {
+          "title": "여러 탭의 동시 저장을 막는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1321,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:58.243Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-c2ee9ccb8c1ac3b93788",
+          "file": "game.spec.ts",
+          "line": 486,
+          "column": 1
+        },
+        {
+          "title": "베기·타격 숫자·HUD를 실제 공격 화면에서 검증한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4103,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:08:59.574Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-673c12e17b7d9b0677e7",
+          "file": "game.spec.ts",
+          "line": 496,
+          "column": 1
+        },
+        {
+          "title": "데스크톱·작은 화면에서 가로 스크롤 없이 표시한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:03.687Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-42ab4f2a1c98c505fdd1",
+          "file": "game.spec.ts",
+          "line": 542,
+          "column": 1
+        },
+        {
+          "title": "메인 로비에서 입문 안내·기록·음소거와 이름 입력을 조작한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2064,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:05.860Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-d9f8e0c1ee2cb1c39e9d",
+          "file": "game.spec.ts",
+          "line": 595,
+          "column": 1
+        },
+        {
+          "title": "화면 가독성 설정을 저장하고 일시 정지 메뉴에서도 연다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:07.933Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-c841714b39cbfbeaa1c9",
+          "file": "game.spec.ts",
+          "line": 626,
+          "column": 1
+        },
+        {
+          "title": "일시 종료한 강호의 웨이브와 체력을 로비에서 보고 이어간다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:11.405Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-d22476fb7d9fb5fc302d",
+          "file": "game.spec.ts",
+          "line": 657,
+          "column": 1
+        },
+        {
+          "title": "전투 화면·가방·성장 선택 캡처와 프레임 시간 기록",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6661,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:14.326Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "frame-timing",
+                      "contentType": "application/json",
+                      "body": "ewogICJiYXNlbGluZSI6IHsKICAgICJtZWFuRnJhbWVNcyI6IDE2LjY2NTU0NjIxODQ4NzM5LAogICAgIm1lYW5GcHMiOiA2MC4wMDQwMzM4ODQ2MzA5MiwKICAgICJwOTVGcmFtZU1zIjogMTYuNzAwMDAwMDAwMDAwMDQ1LAogICAgInVzZXJBZ2VudCI6ICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBIZWFkbGVzc0Nocm9tZS8xNTMuMC44MDEwLjEyIFNhZmFyaS81MzcuMzYiLAogICAgInZpZXdwb3J0IjogWwogICAgICAxNDQwLAogICAgICA5MDAKICAgIF0KICB9LAogICJjb21iYXQiOiB7CiAgICAibWVhbkZyYW1lTXMiOiAxNi42NjYzODY1NTQ2MjE4NDgsCiAgICAibWVhbkZwcyI6IDYwLjAwMTAwODQyMDMwOTU5LAogICAgInA5NUZyYW1lTXMiOiAxNi43MDAwMDAwMDAwMDAyNzMsCiAgICAidXNlckFnZW50IjogIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIEhlYWRsZXNzQ2hyb21lLzE1My4wLjgwMTAuMTIgU2FmYXJpLzUzNy4zNiIsCiAgICAidmlld3BvcnQiOiBbCiAgICAgIDE0NDAsCiAgICAgIDkwMAogICAgXSwKICAgICJyZW5kZXJlciI6ICJDYW52YXMiLAogICAgImdyYXBoaWNzIjogIkFOR0xFIChHb29nbGUsIFZ1bGthbiAxLjMuMCAoU3dpZnRTaGFkZXIgRGV2aWNlIChTdWJ6ZXJvKSAoMHgwMDAwQzBERSkpLCBTd2lmdFNoYWRlciBkcml2ZXIpIgogIH0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-af93678f20479ecbf025",
+          "file": "game.spec.ts",
+          "line": 672,
+          "column": 1
+        },
+        {
+          "title": "전체 화면 가방은 노트북·125% 배율·좁은 화면에서 핵심 행동이 잘리지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:20.995Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-57efb63c025f15429e4b",
+          "file": "game.spec.ts",
+          "line": 722,
+          "column": 1
+        },
+        {
+          "title": "성장 선택과 전투는 노트북·125% 배율에서 전체 화면을 채우고 잘리지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:26.983Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-322bc29cdbd32d5d145d",
+          "file": "game.spec.ts",
+          "line": 763,
+          "column": 1
+        },
+        {
+          "title": "무공 전체 설명을 키보드로 읽고 닫아도 성장 선택이 유지된다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2658,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:29.951Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-5c57c4245a90cb3fcf96",
+          "file": "game.spec.ts",
+          "line": 800,
+          "column": 1
+        },
+        {
+          "title": "많은 창고 물품과 네 무공을 스크롤 없이 관리하고 이동 결과를 저장한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2636,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:32.617Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-8610b17c9875956df587",
+          "file": "game.spec.ts",
+          "line": 826,
+          "column": 1
+        },
+        {
+          "title": "화면 설정에서 네이티브 전체 화면으로 전환하고 나올 수 있다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1304,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:35.261Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-c02c84c659cc64ab4eee",
+          "file": "game.spec.ts",
+          "line": 871,
+          "column": 1
+        },
+        {
+          "title": "그림 에셋을 실제로 로드하고 일곱 물품과 네 무공을 가방에 표시한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:36.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-ff8ae0c103c02461135e",
+          "file": "game.spec.ts",
+          "line": 884,
+          "column": 1
+        },
+        {
+          "title": "150% UI에서 잡은 칸 기준 드래그·충돌·회전·키보드 수납과 착용·사용·창고를 검증한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4152,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:39.983Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-55c7969df2434153dc28",
+          "file": "game.spec.ts",
+          "line": 961,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "glance.spec.ts",
+      "file": "glance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "한눈에 가방 1440×900: 전리품·두 격자·수납·정리판",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:44.155Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dffd0d741e8887c6c3a5-db256447ae83ee8b8d2f",
+          "file": "glance.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "한눈에 가방 1366×768: 전리품·두 격자·수납·정리판",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3398,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:47.897Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dffd0d741e8887c6c3a5-b3f8cb665d191759ee00",
+          "file": "glance.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "한눈에 가방 1093×614: 전리품·두 격자·수납·정리판",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3169,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:51.305Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dffd0d741e8887c6c3a5-00cbcd508fa32aba27aa",
+          "file": "glance.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "한눈에 가방 800×600: 전리품·두 격자·수납·정리판",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3019,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:54.485Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dffd0d741e8887c6c3a5-e9dbd226eecdbde8bda4",
+          "file": "glance.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "한눈에 가방 390×600: 전리품·두 격자·수납·정리판",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3040,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:09:57.512Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dffd0d741e8887c6c3a5-b730fb25203e750a1447",
+          "file": "glance.spec.ts",
+          "line": 35,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "language.spec.ts",
+      "file": "language.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ko: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4633,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:00.586Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-7882c6291fdc2bba8491",
+          "file": "language.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "en: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4545,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:05.234Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-3f90c22b2769b1c8cbcb",
+          "file": "language.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "ja: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:09.798Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-b9b670c7c2ca92f2afcc",
+          "file": "language.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "zh-CN: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4686,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:14.237Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-df7e4e49188034a9af80",
+          "file": "language.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "zh-TW: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4563,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:18.936Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-b36b94903a87e0c477ce",
+          "file": "language.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "언어 수동 선택·새로고침·자동 감지 복귀 및 저장된 무인 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3925,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:23.520Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-090c01830d8c978d9898",
+          "file": "language.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "미지원 브라우저 언어는 영어로 표시한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:27.461Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49def915946a04ed21ee-0233308bb79a9367bfa4",
+          "file": "language.spec.ts",
+          "line": 159,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "loading.spec.ts",
+      "file": "loading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "초기 JS가 늦어도 브라우저 언어의 시작 안내를 보여준다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 609,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:28.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-6bfabf7cfa46398ca798",
+          "file": "loading.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "지연된 그림은 실제 완료 개수를 표시하고 모두 준비한 뒤 로비를 보여준다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5725,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:28.706Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-d66280d84a47b2cf1dee",
+          "file": "loading.spec.ts",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "시작 모듈 실패에서도 브라우저 언어의 새로고침 행동을 제공한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 692,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:34.444Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-408d24c1fecb4dd090f5",
+          "file": "loading.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "UI 그림 실패에서 재시도와 기본 화면 진입이 가능하다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:35.143Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-8d4e4a436a35b2acf72f",
+          "file": "loading.spec.ts",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "그림 장애가 지속되어도 기본 화면으로 창고와 설정을 사용할 수 있다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:35.755Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-4e943279bde6c3d0b6a9",
+          "file": "loading.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "전투 그림이 늦는 동안 HUD와 입력을 차단하고 준비 후 전투를 시작한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:36.437Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-8bb511da9da33de74c52",
+          "file": "loading.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "전투 그림 실패 후 재시도해도 무인을 중복 생성하지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2120,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:39.294Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-0e0e2ccfae75b0327a2c",
+          "file": "loading.spec.ts",
+          "line": 165,
+          "column": 1
+        },
+        {
+          "title": "전투 모듈 실패는 저장된 무인을 유지하며 새로고침으로 복구한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2797,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:41.423Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1be41964e0574414b0cd-bb90851436d269a73a18",
+          "file": "loading.spec.ts",
+          "line": 187,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "responsive.spec.ts",
+      "file": "responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "창 크기 연속 변경: 긴 이름·네 무공·큰 HUD·가방·성장",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:10:44.236Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-80137d239850d736d967",
+          "file": "responsive.spec.ts",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6472,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:09.993Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-68b0e831d22f9b19e531",
+          "file": "responsive.spec.ts",
+          "line": 218,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "unification.spec.ts",
+      "file": "unification.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "키보드 첫 입력으로 소리를 시작하고 음소거·네 음량을 재실행까지 유지한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2059,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:16.485Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-19d4cb37cb45da60f91e",
+          "file": "unification.spec.ts",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "음악 파일 실패가 게임 진입을 막지 않고 다음 입력에서 재시도한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 693,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:18.551Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-5c47959a251cd58d8a6f",
+          "file": "unification.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "지연된 자동 저장 중 실제 E 전환·이동을 받아들이고 마지막 상태를 저장한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2205,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:19.251Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-bfc216f70ab4ab9c14e6",
+          "file": "unification.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "최신 검증 사본은 사망 결과를 유지하고 손상된 원본을 별도로 보존한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1856,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:21.466Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-6360353b26d7bf1089f8",
+          "file": "unification.spec.ts",
+          "line": 162,
+          "column": 1
+        },
+        {
+          "title": "최신 사본이 손상되면 더 오래된 정상 기록으로 돌아가지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 638,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:23.330Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-0f85eae9142d4c287616",
+          "file": "unification.spec.ts",
+          "line": 215,
+          "column": 1
+        },
+        {
+          "title": "예상하지 못한 React 예외에서도 빈 화면 대신 원본 보관·새로고침을 제공한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:23.975Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-937c32a4889cab6aab13",
+          "file": "unification.spec.ts",
+          "line": 247,
+          "column": 1
+        },
+        {
+          "title": "저장 잠금이 없는 브라우저에서 사용자 저장을 덮어쓰지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:24.544Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-15496bc1d497a33822d1",
+          "file": "unification.spec.ts",
+          "line": 269,
+          "column": 1
+        },
+        {
+          "title": "다섯 언어·세 해상도에서 성장 세 후보와 큰 HUD의 실제 글씨를 확인한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4083,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:24.901Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-e9bdd9b579a5d7dd6943",
+          "file": "unification.spec.ts",
+          "line": 276,
+          "column": 1
+        },
+        {
+          "title": "음량 설정은 다섯 언어와 작은 창에서도 네 채널과 닫기를 모두 보여준다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2518,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:28.991Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-d03f7b2e021335c6fa62",
+          "file": "unification.spec.ts",
+          "line": 336,
+          "column": 1
+        },
+        {
+          "title": "손상된 Opus 파일도 WAV로 복구해 음악을 재생한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 672,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:31.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-4b13b6d7d11cc3f96e6d",
+          "file": "unification.spec.ts",
+          "line": 355,
+          "column": 1
+        },
+        {
+          "title": "WebGL 컨텍스트 손실은 정지·재시도로 복구하고 무인과 저장을 유지한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2949,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:32.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-1e019ce9619d33367d7a",
+          "file": "unification.spec.ts",
+          "line": 361,
+          "column": 1
+        },
+        {
+          "title": "전투 화면을 여러 번 재진입해도 캔버스와 무공 전환 입력이 중복되지 않는다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7635,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T08:11:35.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-4dda6be893848a4c7ae6",
+          "file": "unification.spec.ts",
+          "line": 392,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T08:06:47.235Z",
+    "duration": 296589.967,
+    "expected": 72,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

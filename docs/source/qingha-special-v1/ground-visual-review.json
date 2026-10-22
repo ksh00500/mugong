@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-06",
+  "reviewSheets": 20,
+  "poses": 240,
+  "source": "ground-review/*.png",
+  "manual": [
+    {
+      "job": "nojin-back",
+      "poses": [
+        6,
+        7,
+        10
+      ],
+      "reason": "Recenter between both planted boots; automatic brown-pixel mask favored the right boot.",
+      "x": [
+        351,
+        245,
+        245
+      ]
+    }
+  ],
+  "notes": "All 20 review plates inspected for body size, weapon hands, joints, cell contamination and planted-foot anchors. Pose 10 explicitly reuses pose 7."
+}

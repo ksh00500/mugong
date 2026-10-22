@@ -1,0 +1,4658 @@
+{
+  "note": "Geometric alpha audit only; not an anatomy, skull-size or motion approval.",
+  "sources": [
+    {
+      "file": "jeogu-back-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            105,
+            149,
+            413,
+            433
+          ],
+          "area": 41661,
+          "componentId": 1,
+          "outerMargin": 105,
+          "cellMargins": [
+            105,
+            149,
+            99,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            648,
+            100,
+            878,
+            463
+          ],
+          "area": 41856,
+          "componentId": 2,
+          "outerMargin": 100,
+          "cellMargins": [
+            136,
+            100,
+            146,
+            49
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            87,
+            620,
+            474,
+            943
+          ],
+          "area": 41938,
+          "componentId": 3,
+          "outerMargin": 87,
+          "cellMargins": [
+            87,
+            108,
+            38,
+            81
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            572,
+            673,
+            987,
+            930
+          ],
+          "area": 41147,
+          "componentId": 4,
+          "outerMargin": 37,
+          "cellMargins": [
+            60,
+            161,
+            37,
+            94
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            105,
+            1141,
+            420,
+            1425
+          ],
+          "area": 41753,
+          "componentId": 5,
+          "outerMargin": 105,
+          "cellMargins": [
+            105,
+            117,
+            92,
+            111
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            616,
+            1141,
+            923,
+            1425
+          ],
+          "area": 41625,
+          "componentId": 6,
+          "outerMargin": 101,
+          "cellMargins": [
+            104,
+            117,
+            101,
+            111
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-back-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            100,
+            141,
+            420,
+            448
+          ],
+          "area": 46032,
+          "componentId": 1,
+          "outerMargin": 100,
+          "cellMargins": [
+            100,
+            141,
+            92,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            616,
+            141,
+            952,
+            455
+          ],
+          "area": 46388,
+          "componentId": 2,
+          "outerMargin": 72,
+          "cellMargins": [
+            104,
+            141,
+            72,
+            57
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            83,
+            647,
+            483,
+            930
+          ],
+          "area": 47749,
+          "componentId": 3,
+          "outerMargin": 83,
+          "cellMargins": [
+            83,
+            135,
+            29,
+            94
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            607,
+            660,
+            990,
+            934
+          ],
+          "area": 44090,
+          "componentId": 4,
+          "outerMargin": 34,
+          "cellMargins": [
+            95,
+            148,
+            34,
+            90
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            103,
+            1146,
+            433,
+            1457
+          ],
+          "area": 47458,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            103,
+            122,
+            79,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            609,
+            1146,
+            941,
+            1452
+          ],
+          "area": 47525,
+          "componentId": 6,
+          "outerMargin": 83,
+          "cellMargins": [
+            97,
+            122,
+            83,
+            84
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-front-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            96,
+            91,
+            416,
+            432
+          ],
+          "area": 61254,
+          "componentId": 1,
+          "outerMargin": 91,
+          "cellMargins": [
+            96,
+            91,
+            96,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            633,
+            76,
+            934,
+            457
+          ],
+          "area": 63087,
+          "componentId": 2,
+          "outerMargin": 76,
+          "cellMargins": [
+            121,
+            76,
+            90,
+            55
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            125,
+            606,
+            473,
+            954
+          ],
+          "area": 55337,
+          "componentId": 3,
+          "outerMargin": 125,
+          "cellMargins": [
+            125,
+            94,
+            39,
+            70
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            606,
+            608,
+            1000,
+            939
+          ],
+          "area": 54125,
+          "componentId": 4,
+          "outerMargin": 24,
+          "cellMargins": [
+            94,
+            96,
+            24,
+            85
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            95,
+            1115,
+            416,
+            1456
+          ],
+          "area": 61232,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            95,
+            91,
+            96,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            608,
+            1115,
+            928,
+            1456
+          ],
+          "area": 61252,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            96,
+            91,
+            96,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-front-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            94,
+            94,
+            421,
+            434
+          ],
+          "area": 64104,
+          "componentId": 1,
+          "outerMargin": 94,
+          "cellMargins": [
+            94,
+            94,
+            91,
+            78
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            588,
+            44,
+            929,
+            434
+          ],
+          "area": 71580,
+          "componentId": 2,
+          "outerMargin": 44,
+          "cellMargins": [
+            76,
+            44,
+            95,
+            78
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            101,
+            588,
+            477,
+            946
+          ],
+          "area": 66849,
+          "componentId": 3,
+          "outerMargin": 101,
+          "cellMargins": [
+            101,
+            76,
+            35,
+            78
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            570,
+            614,
+            1021,
+            925
+          ],
+          "area": 67229,
+          "componentId": 4,
+          "outerMargin": 3,
+          "cellMargins": [
+            58,
+            102,
+            3,
+            99
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            116,
+            1113,
+            452,
+            1458
+          ],
+          "area": 64566,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            116,
+            89,
+            60,
+            78
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            605,
+            1113,
+            932,
+            1458
+          ],
+          "area": 65703,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            93,
+            89,
+            92,
+            78
+          ]
+        }
+      ],
+      "flags": [
+        3
+      ]
+    },
+    {
+      "file": "jeogu-front-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            94,
+            93,
+            423,
+            435
+          ],
+          "area": 65091,
+          "componentId": 1,
+          "outerMargin": 93,
+          "cellMargins": [
+            94,
+            93,
+            89,
+            77
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            586,
+            95,
+            910,
+            435
+          ],
+          "area": 62200,
+          "componentId": 2,
+          "outerMargin": 95,
+          "cellMargins": [
+            74,
+            95,
+            114,
+            77
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            74,
+            606,
+            478,
+            944
+          ],
+          "area": 69317,
+          "componentId": 3,
+          "outerMargin": 74,
+          "cellMargins": [
+            74,
+            94,
+            34,
+            80
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            569,
+            610,
+            952,
+            944
+          ],
+          "area": 68754,
+          "componentId": 4,
+          "outerMargin": 72,
+          "cellMargins": [
+            57,
+            98,
+            72,
+            80
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            92,
+            1115,
+            423,
+            1459
+          ],
+          "area": 64689,
+          "componentId": 5,
+          "outerMargin": 77,
+          "cellMargins": [
+            92,
+            91,
+            89,
+            77
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            604,
+            1115,
+            934,
+            1459
+          ],
+          "area": 65912,
+          "componentId": 6,
+          "outerMargin": 77,
+          "cellMargins": [
+            92,
+            91,
+            90,
+            77
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-front-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            95,
+            90,
+            416,
+            432
+          ],
+          "area": 61303,
+          "componentId": 1,
+          "outerMargin": 90,
+          "cellMargins": [
+            95,
+            90,
+            96,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            560,
+            92,
+            934,
+            469
+          ],
+          "area": 64305,
+          "componentId": 2,
+          "outerMargin": 90,
+          "cellMargins": [
+            48,
+            92,
+            90,
+            43
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            32,
+            611,
+            424,
+            946
+          ],
+          "area": 60602,
+          "componentId": 3,
+          "outerMargin": 32,
+          "cellMargins": [
+            32,
+            99,
+            88,
+            78
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            547,
+            600,
+            933,
+            947
+          ],
+          "area": 61155,
+          "componentId": 4,
+          "outerMargin": 91,
+          "cellMargins": [
+            35,
+            88,
+            91,
+            77
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            73,
+            1111,
+            425,
+            1470
+          ],
+          "area": 63850,
+          "componentId": 5,
+          "outerMargin": 66,
+          "cellMargins": [
+            73,
+            87,
+            87,
+            66
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            606,
+            1112,
+            930,
+            1457
+          ],
+          "area": 61904,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            94,
+            88,
+            94,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-rear-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            78,
+            105,
+            435,
+            432
+          ],
+          "area": 58485,
+          "componentId": 1,
+          "outerMargin": 78,
+          "cellMargins": [
+            78,
+            105,
+            77,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            566,
+            39,
+            868,
+            452
+          ],
+          "area": 64392,
+          "componentId": 2,
+          "outerMargin": 39,
+          "cellMargins": [
+            54,
+            39,
+            156,
+            60
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            101,
+            611,
+            503,
+            944
+          ],
+          "area": 60839,
+          "componentId": 3,
+          "outerMargin": 101,
+          "cellMargins": [
+            101,
+            99,
+            9,
+            80
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            557,
+            633,
+            989,
+            938
+          ],
+          "area": 55620,
+          "componentId": 4,
+          "outerMargin": 35,
+          "cellMargins": [
+            45,
+            121,
+            35,
+            86
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            78,
+            1129,
+            435,
+            1456
+          ],
+          "area": 58469,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            78,
+            105,
+            77,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            590,
+            1129,
+            946,
+            1457
+          ],
+          "area": 58467,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            78,
+            105,
+            78,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-rear-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            77,
+            103,
+            439,
+            432
+          ],
+          "area": 59333,
+          "componentId": 1,
+          "outerMargin": 77,
+          "cellMargins": [
+            77,
+            103,
+            73,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            571,
+            104,
+            959,
+            438
+          ],
+          "area": 61391,
+          "componentId": 2,
+          "outerMargin": 65,
+          "cellMargins": [
+            59,
+            104,
+            65,
+            74
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            69,
+            617,
+            462,
+            945
+          ],
+          "area": 62012,
+          "componentId": 3,
+          "outerMargin": 69,
+          "cellMargins": [
+            69,
+            105,
+            50,
+            79
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            585,
+            620,
+            965,
+            943
+          ],
+          "area": 60851,
+          "componentId": 4,
+          "outerMargin": 59,
+          "cellMargins": [
+            73,
+            108,
+            59,
+            81
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            76,
+            1114,
+            441,
+            1456
+          ],
+          "area": 61234,
+          "componentId": 5,
+          "outerMargin": 76,
+          "cellMargins": [
+            76,
+            90,
+            71,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            589,
+            1127,
+            949,
+            1456
+          ],
+          "area": 59064,
+          "componentId": 6,
+          "outerMargin": 75,
+          "cellMargins": [
+            77,
+            103,
+            75,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            105,
+            91,
+            409,
+            432
+          ],
+          "area": 65457,
+          "componentId": 1,
+          "outerMargin": 91,
+          "cellMargins": [
+            105,
+            91,
+            103,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            581,
+            88,
+            888,
+            437
+          ],
+          "area": 65037,
+          "componentId": 2,
+          "outerMargin": 88,
+          "cellMargins": [
+            69,
+            88,
+            136,
+            75
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            81,
+            587,
+            495,
+            927
+          ],
+          "area": 73452,
+          "componentId": 3,
+          "outerMargin": 81,
+          "cellMargins": [
+            81,
+            75,
+            17,
+            97
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            547,
+            624,
+            1010,
+            923
+          ],
+          "area": 67805,
+          "componentId": 4,
+          "outerMargin": 14,
+          "cellMargins": [
+            35,
+            112,
+            14,
+            101
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            91,
+            1101,
+            409,
+            1446
+          ],
+          "area": 67452,
+          "componentId": 5,
+          "outerMargin": 90,
+          "cellMargins": [
+            91,
+            77,
+            103,
+            90
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            618,
+            1112,
+            922,
+            1455
+          ],
+          "area": 65943,
+          "componentId": 6,
+          "outerMargin": 81,
+          "cellMargins": [
+            106,
+            88,
+            102,
+            81
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeogu-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            105,
+            91,
+            409,
+            432
+          ],
+          "area": 65659,
+          "componentId": 1,
+          "outerMargin": 91,
+          "cellMargins": [
+            105,
+            91,
+            103,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            578,
+            98,
+            921,
+            432
+          ],
+          "area": 66584,
+          "componentId": 2,
+          "outerMargin": 98,
+          "cellMargins": [
+            66,
+            98,
+            103,
+            80
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            51,
+            605,
+            467,
+            936
+          ],
+          "area": 73980,
+          "componentId": 3,
+          "outerMargin": 51,
+          "cellMargins": [
+            51,
+            93,
+            45,
+            88
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            568,
+            623,
+            985,
+            940
+          ],
+          "area": 70917,
+          "componentId": 4,
+          "outerMargin": 39,
+          "cellMargins": [
+            56,
+            111,
+            39,
+            84
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            103,
+            1115,
+            409,
+            1456
+          ],
+          "area": 66126,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            103,
+            91,
+            103,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            615,
+            1115,
+            920,
+            1456
+          ],
+          "area": 66004,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            103,
+            91,
+            104,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeokcheon-back-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            86,
+            101,
+            425,
+            432
+          ],
+          "area": 54026,
+          "componentId": 1,
+          "outerMargin": 86,
+          "cellMargins": [
+            86,
+            101,
+            87,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            600,
+            52,
+            885,
+            433
+          ],
+          "area": 55798,
+          "componentId": 2,
+          "outerMargin": 52,
+          "cellMargins": [
+            88,
+            52,
+            139,
+            79
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            85,
+            602,
+            520,
+            933
+          ],
+          "area": 61897,
+          "componentId": 3,
+          "outerMargin": 85,
+          "cellMargins": [
+            85,
+            90,
+            -8,
+            91
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            592,
+            616,
+            998,
+            930
+          ],
+          "area": 57519,
+          "componentId": 4,
+          "outerMargin": 26,
+          "cellMargins": [
+            80,
+            104,
+            26,
+            94
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            77,
+            1106,
+            480,
+            1428
+          ],
+          "area": 57378,
+          "componentId": 5,
+          "outerMargin": 77,
+          "cellMargins": [
+            77,
+            82,
+            32,
+            108
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            598,
+            1106,
+            942,
+            1439
+          ],
+          "area": 55310,
+          "componentId": 6,
+          "outerMargin": 82,
+          "cellMargins": [
+            86,
+            82,
+            82,
+            97
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "jeokcheon-back-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            87,
+            101,
+            426,
+            432
+          ],
+          "area": 54338,
+          "componentId": 1,
+          "outerMargin": 87,
+          "cellMargins": [
+            87,
+            101,
+            86,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            592,
+            111,
+            960,
+            437
+          ],
+          "area": 57652,
+          "componentId": 2,
+          "outerMargin": 64,
+          "cellMargins": [
+            80,
+            111,
+            64,
+            75
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            66,
+            630,
+            473,
+            946
+          ],
+          "area": 59780,
+          "componentId": 3,
+          "outerMargin": 66,
+          "cellMargins": [
+            66,
+            118,
+            39,
+            78
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            577,
+            629,
+            966,
+            946
+          ],
+          "area": 58158,
+          "componentId": 4,
+          "outerMargin": 58,
+          "cellMargins": [
+            65,
+            117,
+            58,
+            78
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            84,
+            1100,
+            449,
+            1434
+          ],
+          "area": 59168,
+          "componentId": 5,
+          "outerMargin": 84,
+          "cellMargins": [
+            84,
+            76,
+            63,
+            102
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            600,
+            1101,
+            947,
+            1434
+          ],
+          "area": 56148,
+          "componentId": 6,
+          "outerMargin": 77,
+          "cellMargins": [
+            88,
+            77,
+            77,
+            102
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeokcheon-front-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            73,
+            73,
+            441,
+            441
+          ],
+          "area": 77430,
+          "componentId": 1,
+          "outerMargin": 73,
+          "cellMargins": [
+            73,
+            73,
+            71,
+            71
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            576,
+            21,
+            959,
+            451
+          ],
+          "area": 84830,
+          "componentId": 2,
+          "outerMargin": 21,
+          "cellMargins": [
+            64,
+            21,
+            65,
+            61
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            83,
+            549,
+            462,
+            960
+          ],
+          "area": 84643,
+          "componentId": 3,
+          "outerMargin": 83,
+          "cellMargins": [
+            83,
+            37,
+            50,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            556,
+            581,
+            1020,
+            956
+          ],
+          "area": 78231,
+          "componentId": 4,
+          "outerMargin": 4,
+          "cellMargins": [
+            44,
+            69,
+            4,
+            68
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            98,
+            1088,
+            463,
+            1455
+          ],
+          "area": 80400,
+          "componentId": 5,
+          "outerMargin": 81,
+          "cellMargins": [
+            98,
+            64,
+            49,
+            81
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            582,
+            1091,
+            950,
+            1463
+          ],
+          "area": 78479,
+          "componentId": 6,
+          "outerMargin": 73,
+          "cellMargins": [
+            70,
+            67,
+            74,
+            73
+          ]
+        }
+      ],
+      "flags": [
+        3
+      ]
+    },
+    {
+      "file": "jeokcheon-front-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            93,
+            91,
+            418,
+            434
+          ],
+          "area": 69192,
+          "componentId": 1,
+          "outerMargin": 91,
+          "cellMargins": [
+            93,
+            91,
+            94,
+            78
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            609,
+            47,
+            959,
+            441
+          ],
+          "area": 71799,
+          "componentId": 2,
+          "outerMargin": 47,
+          "cellMargins": [
+            97,
+            47,
+            65,
+            71
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            107,
+            599,
+            526,
+            946
+          ],
+          "area": 78125,
+          "componentId": 3,
+          "outerMargin": 107,
+          "cellMargins": [
+            107,
+            87,
+            -14,
+            78
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            574,
+            598,
+            1020,
+            961
+          ],
+          "area": 80051,
+          "componentId": 4,
+          "outerMargin": 4,
+          "cellMargins": [
+            62,
+            86,
+            4,
+            63
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            93,
+            1113,
+            418,
+            1458
+          ],
+          "area": 69674,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            93,
+            89,
+            94,
+            78
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            606,
+            1114,
+            931,
+            1459
+          ],
+          "area": 69530,
+          "componentId": 6,
+          "outerMargin": 77,
+          "cellMargins": [
+            94,
+            90,
+            93,
+            77
+          ]
+        }
+      ],
+      "flags": [
+        2,
+        3
+      ]
+    },
+    {
+      "file": "jeokcheon-front-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            95,
+            89,
+            418,
+            437
+          ],
+          "area": 69219,
+          "componentId": 1,
+          "outerMargin": 89,
+          "cellMargins": [
+            95,
+            89,
+            94,
+            75
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            585,
+            89,
+            921,
+            440
+          ],
+          "area": 71398,
+          "componentId": 2,
+          "outerMargin": 89,
+          "cellMargins": [
+            73,
+            89,
+            103,
+            72
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            76,
+            600,
+            452,
+            949
+          ],
+          "area": 80458,
+          "componentId": 3,
+          "outerMargin": 76,
+          "cellMargins": [
+            76,
+            88,
+            60,
+            75
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            578,
+            599,
+            943,
+            949
+          ],
+          "area": 77786,
+          "componentId": 4,
+          "outerMargin": 81,
+          "cellMargins": [
+            66,
+            87,
+            81,
+            75
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            94,
+            1083,
+            421,
+            1435
+          ],
+          "area": 71605,
+          "componentId": 5,
+          "outerMargin": 94,
+          "cellMargins": [
+            94,
+            59,
+            91,
+            101
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            600,
+            1083,
+            929,
+            1434
+          ],
+          "area": 71364,
+          "componentId": 6,
+          "outerMargin": 95,
+          "cellMargins": [
+            88,
+            59,
+            95,
+            102
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeokcheon-front-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            85,
+            73,
+            432,
+            432
+          ],
+          "area": 71825,
+          "componentId": 1,
+          "outerMargin": 73,
+          "cellMargins": [
+            85,
+            73,
+            80,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            584,
+            73,
+            941,
+            433
+          ],
+          "area": 72660,
+          "componentId": 2,
+          "outerMargin": 73,
+          "cellMargins": [
+            72,
+            73,
+            83,
+            79
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            63,
+            589,
+            464,
+            941
+          ],
+          "area": 76050,
+          "componentId": 3,
+          "outerMargin": 63,
+          "cellMargins": [
+            63,
+            77,
+            48,
+            83
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            597,
+            585,
+            944,
+            945
+          ],
+          "area": 72330,
+          "componentId": 4,
+          "outerMargin": 80,
+          "cellMargins": [
+            85,
+            73,
+            80,
+            79
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            79,
+            1097,
+            439,
+            1456
+          ],
+          "area": 72643,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            79,
+            73,
+            73,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            597,
+            1097,
+            944,
+            1456
+          ],
+          "area": 71927,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            85,
+            73,
+            80,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeokcheon-rear-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            62,
+            80,
+            446,
+            434
+          ],
+          "area": 66309,
+          "componentId": 1,
+          "outerMargin": 62,
+          "cellMargins": [
+            62,
+            80,
+            66,
+            78
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            576,
+            29,
+            929,
+            466
+          ],
+          "area": 72217,
+          "componentId": 2,
+          "outerMargin": 29,
+          "cellMargins": [
+            64,
+            29,
+            95,
+            46
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            66,
+            579,
+            514,
+            923
+          ],
+          "area": 75468,
+          "componentId": 3,
+          "outerMargin": 66,
+          "cellMargins": [
+            66,
+            67,
+            -2,
+            101
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            564,
+            585,
+            1005,
+            924
+          ],
+          "area": 68179,
+          "componentId": 4,
+          "outerMargin": 19,
+          "cellMargins": [
+            52,
+            73,
+            19,
+            100
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            62,
+            1103,
+            446,
+            1457
+          ],
+          "area": 66357,
+          "componentId": 5,
+          "outerMargin": 62,
+          "cellMargins": [
+            62,
+            79,
+            66,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            574,
+            1104,
+            958,
+            1457
+          ],
+          "area": 66270,
+          "componentId": 6,
+          "outerMargin": 66,
+          "cellMargins": [
+            62,
+            80,
+            66,
+            79
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "jeokcheon-rear-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            69,
+            79,
+            442,
+            433
+          ],
+          "area": 64767,
+          "componentId": 1,
+          "outerMargin": 69,
+          "cellMargins": [
+            69,
+            79,
+            70,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            580,
+            79,
+            955,
+            438
+          ],
+          "area": 67197,
+          "componentId": 2,
+          "outerMargin": 69,
+          "cellMargins": [
+            68,
+            79,
+            69,
+            74
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            58,
+            599,
+            457,
+            937
+          ],
+          "area": 70254,
+          "componentId": 3,
+          "outerMargin": 58,
+          "cellMargins": [
+            58,
+            87,
+            55,
+            87
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            573,
+            602,
+            954,
+            944
+          ],
+          "area": 68125,
+          "componentId": 4,
+          "outerMargin": 70,
+          "cellMargins": [
+            61,
+            90,
+            70,
+            80
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            69,
+            1102,
+            442,
+            1456
+          ],
+          "area": 65448,
+          "componentId": 5,
+          "outerMargin": 69,
+          "cellMargins": [
+            69,
+            78,
+            70,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            581,
+            1102,
+            954,
+            1456
+          ],
+          "area": 64837,
+          "componentId": 6,
+          "outerMargin": 70,
+          "cellMargins": [
+            69,
+            78,
+            70,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jeokcheon-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            104,
+            78,
+            407,
+            435
+          ],
+          "area": 68552,
+          "componentId": 1,
+          "outerMargin": 78,
+          "cellMargins": [
+            104,
+            78,
+            105,
+            77
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            587,
+            59,
+            938,
+            442
+          ],
+          "area": 71259,
+          "componentId": 2,
+          "outerMargin": 59,
+          "cellMargins": [
+            75,
+            59,
+            86,
+            70
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            77,
+            588,
+            536,
+            914
+          ],
+          "area": 75898,
+          "componentId": 3,
+          "outerMargin": 77,
+          "cellMargins": [
+            77,
+            76,
+            -24,
+            110
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            567,
+            604,
+            947,
+            924
+          ],
+          "area": 75848,
+          "componentId": 4,
+          "outerMargin": 77,
+          "cellMargins": [
+            55,
+            92,
+            77,
+            100
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            103,
+            1100,
+            409,
+            1459
+          ],
+          "area": 69506,
+          "componentId": 5,
+          "outerMargin": 77,
+          "cellMargins": [
+            103,
+            76,
+            103,
+            77
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            614,
+            1100,
+            920,
+            1459
+          ],
+          "area": 69370,
+          "componentId": 6,
+          "outerMargin": 77,
+          "cellMargins": [
+            102,
+            76,
+            104,
+            77
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "jeokcheon-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            102,
+            74,
+            411,
+            442
+          ],
+          "area": 71699,
+          "componentId": 1,
+          "outerMargin": 74,
+          "cellMargins": [
+            102,
+            74,
+            101,
+            70
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            607,
+            74,
+            929,
+            442
+          ],
+          "area": 75673,
+          "componentId": 2,
+          "outerMargin": 74,
+          "cellMargins": [
+            95,
+            74,
+            95,
+            70
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            79,
+            585,
+            487,
+            950
+          ],
+          "area": 83982,
+          "componentId": 3,
+          "outerMargin": 79,
+          "cellMargins": [
+            79,
+            73,
+            25,
+            74
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            578,
+            589,
+            984,
+            951
+          ],
+          "area": 83923,
+          "componentId": 4,
+          "outerMargin": 40,
+          "cellMargins": [
+            66,
+            77,
+            40,
+            73
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            95,
+            1083,
+            417,
+            1454
+          ],
+          "area": 77288,
+          "componentId": 5,
+          "outerMargin": 82,
+          "cellMargins": [
+            95,
+            59,
+            95,
+            82
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            610,
+            1085,
+            922,
+            1456
+          ],
+          "area": 73375,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            98,
+            61,
+            102,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-back-fan.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            113,
+            119,
+            400,
+            433
+          ],
+          "area": 50823,
+          "componentId": 1,
+          "outerMargin": 113,
+          "cellMargins": [
+            113,
+            119,
+            112,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            627,
+            118,
+            928,
+            440
+          ],
+          "area": 56970,
+          "componentId": 2,
+          "outerMargin": 96,
+          "cellMargins": [
+            115,
+            118,
+            96,
+            72
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            73,
+            633,
+            467,
+            944
+          ],
+          "area": 58403,
+          "componentId": 3,
+          "outerMargin": 73,
+          "cellMargins": [
+            73,
+            121,
+            45,
+            80
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            572,
+            633,
+            987,
+            945
+          ],
+          "area": 58120,
+          "componentId": 4,
+          "outerMargin": 37,
+          "cellMargins": [
+            60,
+            121,
+            37,
+            79
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            114,
+            1141,
+            415,
+            1464
+          ],
+          "area": 57045,
+          "componentId": 5,
+          "outerMargin": 72,
+          "cellMargins": [
+            114,
+            117,
+            97,
+            72
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            625,
+            1142,
+            912,
+            1457
+          ],
+          "area": 51270,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            113,
+            118,
+            112,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-back-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            113,
+            118,
+            400,
+            433
+          ],
+          "area": 50736,
+          "componentId": 1,
+          "outerMargin": 113,
+          "cellMargins": [
+            113,
+            118,
+            112,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            608,
+            116,
+            914,
+            443
+          ],
+          "area": 56310,
+          "componentId": 2,
+          "outerMargin": 110,
+          "cellMargins": [
+            96,
+            116,
+            110,
+            69
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            96,
+            630,
+            464,
+            951
+          ],
+          "area": 59577,
+          "componentId": 3,
+          "outerMargin": 96,
+          "cellMargins": [
+            96,
+            118,
+            48,
+            73
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            612,
+            628,
+            944,
+            949
+          ],
+          "area": 59280,
+          "componentId": 4,
+          "outerMargin": 80,
+          "cellMargins": [
+            100,
+            116,
+            80,
+            75
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            112,
+            1142,
+            424,
+            1458
+          ],
+          "area": 57935,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            112,
+            118,
+            88,
+            78
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            625,
+            1142,
+            913,
+            1457
+          ],
+          "area": 50974,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            113,
+            118,
+            111,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-front-fan.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            93,
+            91,
+            420,
+            432
+          ],
+          "area": 71480,
+          "componentId": 1,
+          "outerMargin": 91,
+          "cellMargins": [
+            93,
+            91,
+            92,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            606,
+            90,
+            926,
+            445
+          ],
+          "area": 76044,
+          "componentId": 2,
+          "outerMargin": 90,
+          "cellMargins": [
+            94,
+            90,
+            98,
+            67
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            117,
+            601,
+            440,
+            963
+          ],
+          "area": 73678,
+          "componentId": 3,
+          "outerMargin": 117,
+          "cellMargins": [
+            117,
+            89,
+            72,
+            61
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            571,
+            601,
+            1001,
+            962
+          ],
+          "area": 82509,
+          "componentId": 4,
+          "outerMargin": 23,
+          "cellMargins": [
+            59,
+            89,
+            23,
+            62
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            100,
+            1106,
+            439,
+            1465
+          ],
+          "area": 79610,
+          "componentId": 5,
+          "outerMargin": 71,
+          "cellMargins": [
+            100,
+            82,
+            73,
+            71
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            605,
+            1114,
+            932,
+            1456
+          ],
+          "area": 71614,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            93,
+            90,
+            92,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-front-right-fan.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            87,
+            121,
+            424,
+            433
+          ],
+          "area": 65124,
+          "componentId": 1,
+          "outerMargin": 87,
+          "cellMargins": [
+            87,
+            121,
+            88,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            596,
+            116,
+            924,
+            464
+          ],
+          "area": 70821,
+          "componentId": 2,
+          "outerMargin": 100,
+          "cellMargins": [
+            84,
+            116,
+            100,
+            48
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            97,
+            612,
+            476,
+            961
+          ],
+          "area": 74938,
+          "componentId": 3,
+          "outerMargin": 97,
+          "cellMargins": [
+            97,
+            100,
+            36,
+            63
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            562,
+            614,
+            1010,
+            963
+          ],
+          "area": 78982,
+          "componentId": 4,
+          "outerMargin": 14,
+          "cellMargins": [
+            50,
+            102,
+            14,
+            61
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            91,
+            1125,
+            406,
+            1470
+          ],
+          "area": 71736,
+          "componentId": 5,
+          "outerMargin": 66,
+          "cellMargins": [
+            91,
+            101,
+            106,
+            66
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            590,
+            1131,
+            943,
+            1454
+          ],
+          "area": 70100,
+          "componentId": 6,
+          "outerMargin": 81,
+          "cellMargins": [
+            78,
+            107,
+            81,
+            82
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-front-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            87,
+            120,
+            434,
+            436
+          ],
+          "area": 67711,
+          "componentId": 1,
+          "outerMargin": 87,
+          "cellMargins": [
+            87,
+            120,
+            78,
+            76
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            599,
+            122,
+            944,
+            445
+          ],
+          "area": 66732,
+          "componentId": 2,
+          "outerMargin": 80,
+          "cellMargins": [
+            87,
+            122,
+            80,
+            67
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            81,
+            632,
+            433,
+            951
+          ],
+          "area": 68822,
+          "componentId": 3,
+          "outerMargin": 81,
+          "cellMargins": [
+            81,
+            120,
+            79,
+            73
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            596,
+            631,
+            943,
+            950
+          ],
+          "area": 69070,
+          "componentId": 4,
+          "outerMargin": 81,
+          "cellMargins": [
+            84,
+            119,
+            81,
+            74
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            87,
+            1143,
+            439,
+            1461
+          ],
+          "area": 69026,
+          "componentId": 5,
+          "outerMargin": 75,
+          "cellMargins": [
+            87,
+            119,
+            73,
+            75
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            599,
+            1143,
+            944,
+            1459
+          ],
+          "area": 67121,
+          "componentId": 6,
+          "outerMargin": 77,
+          "cellMargins": [
+            87,
+            119,
+            80,
+            77
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-front-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            93,
+            89,
+            420,
+            433
+          ],
+          "area": 72253,
+          "componentId": 1,
+          "outerMargin": 89,
+          "cellMargins": [
+            93,
+            89,
+            92,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            580,
+            89,
+            937,
+            448
+          ],
+          "area": 75884,
+          "componentId": 2,
+          "outerMargin": 87,
+          "cellMargins": [
+            68,
+            89,
+            87,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            88,
+            601,
+            441,
+            968
+          ],
+          "area": 75691,
+          "componentId": 3,
+          "outerMargin": 88,
+          "cellMargins": [
+            88,
+            89,
+            71,
+            56
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            573,
+            601,
+            940,
+            962
+          ],
+          "area": 79889,
+          "componentId": 4,
+          "outerMargin": 84,
+          "cellMargins": [
+            61,
+            89,
+            84,
+            62
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            89,
+            1113,
+            421,
+            1457
+          ],
+          "area": 72796,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            89,
+            89,
+            91,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            605,
+            1113,
+            932,
+            1457
+          ],
+          "area": 72329,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            93,
+            89,
+            92,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-rear-right-fan.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            102,
+            104,
+            410,
+            433
+          ],
+          "area": 67647,
+          "componentId": 1,
+          "outerMargin": 102,
+          "cellMargins": [
+            102,
+            104,
+            102,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            619,
+            103,
+            913,
+            439
+          ],
+          "area": 66584,
+          "componentId": 2,
+          "outerMargin": 103,
+          "cellMargins": [
+            107,
+            103,
+            111,
+            73
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            102,
+            624,
+            475,
+            961
+          ],
+          "area": 76428,
+          "componentId": 3,
+          "outerMargin": 102,
+          "cellMargins": [
+            102,
+            112,
+            37,
+            63
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            593,
+            624,
+            1002,
+            962
+          ],
+          "area": 72937,
+          "componentId": 4,
+          "outerMargin": 22,
+          "cellMargins": [
+            81,
+            112,
+            22,
+            62
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            102,
+            1127,
+            417,
+            1457
+          ],
+          "area": 69117,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            102,
+            103,
+            95,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            612,
+            1127,
+            922,
+            1457
+          ],
+          "area": 68032,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            100,
+            103,
+            102,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-rear-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            102,
+            104,
+            416,
+            434
+          ],
+          "area": 66082,
+          "componentId": 1,
+          "outerMargin": 102,
+          "cellMargins": [
+            102,
+            104,
+            96,
+            78
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            620,
+            104,
+            928,
+            434
+          ],
+          "area": 65535,
+          "componentId": 2,
+          "outerMargin": 96,
+          "cellMargins": [
+            108,
+            104,
+            96,
+            78
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            85,
+            615,
+            429,
+            947
+          ],
+          "area": 68023,
+          "componentId": 3,
+          "outerMargin": 85,
+          "cellMargins": [
+            85,
+            103,
+            83,
+            77
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            617,
+            615,
+            935,
+            947
+          ],
+          "area": 66556,
+          "componentId": 4,
+          "outerMargin": 89,
+          "cellMargins": [
+            105,
+            103,
+            89,
+            77
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            100,
+            1127,
+            416,
+            1458
+          ],
+          "area": 66996,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            100,
+            103,
+            96,
+            78
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            614,
+            1127,
+            928,
+            1458
+          ],
+          "area": 66123,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            102,
+            103,
+            96,
+            78
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-right-fan.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            103,
+            93,
+            409,
+            433
+          ],
+          "area": 66396,
+          "componentId": 1,
+          "outerMargin": 93,
+          "cellMargins": [
+            103,
+            93,
+            103,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            605,
+            97,
+            914,
+            449
+          ],
+          "area": 68374,
+          "componentId": 2,
+          "outerMargin": 97,
+          "cellMargins": [
+            93,
+            97,
+            110,
+            63
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            96,
+            610,
+            498,
+            951
+          ],
+          "area": 73047,
+          "componentId": 3,
+          "outerMargin": 96,
+          "cellMargins": [
+            96,
+            98,
+            14,
+            73
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            574,
+            601,
+            977,
+            951
+          ],
+          "area": 74179,
+          "componentId": 4,
+          "outerMargin": 47,
+          "cellMargins": [
+            62,
+            89,
+            47,
+            73
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            103,
+            1117,
+            407,
+            1457
+          ],
+          "area": 66427,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            103,
+            93,
+            105,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            615,
+            1117,
+            921,
+            1457
+          ],
+          "area": 66673,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            103,
+            93,
+            103,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "sohong-right-stance.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            104,
+            93,
+            409,
+            433
+          ],
+          "area": 66287,
+          "componentId": 1,
+          "outerMargin": 93,
+          "cellMargins": [
+            104,
+            93,
+            103,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            603,
+            95,
+            926,
+            441
+          ],
+          "area": 66279,
+          "componentId": 2,
+          "outerMargin": 95,
+          "cellMargins": [
+            91,
+            95,
+            98,
+            71
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            84,
+            610,
+            452,
+            961
+          ],
+          "area": 71853,
+          "componentId": 3,
+          "outerMargin": 84,
+          "cellMargins": [
+            84,
+            98,
+            60,
+            63
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            602,
+            606,
+            951,
+            961
+          ],
+          "area": 72554,
+          "componentId": 4,
+          "outerMargin": 73,
+          "cellMargins": [
+            90,
+            94,
+            73,
+            63
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            103,
+            1116,
+            396,
+            1457
+          ],
+          "area": 65339,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            103,
+            92,
+            116,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            615,
+            1116,
+            921,
+            1457
+          ],
+          "area": 66563,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            103,
+            92,
+            103,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-back-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            137,
+            64,
+            379,
+            433
+          ],
+          "area": 58998,
+          "componentId": 1,
+          "outerMargin": 64,
+          "cellMargins": [
+            137,
+            64,
+            133,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            633,
+            68,
+            926,
+            444
+          ],
+          "area": 56444,
+          "componentId": 2,
+          "outerMargin": 68,
+          "cellMargins": [
+            121,
+            68,
+            98,
+            68
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            137,
+            573,
+            423,
+            941
+          ],
+          "area": 54108,
+          "componentId": 3,
+          "outerMargin": 137,
+          "cellMargins": [
+            137,
+            61,
+            89,
+            83
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            654,
+            584,
+            942,
+            947
+          ],
+          "area": 55340,
+          "componentId": 4,
+          "outerMargin": 82,
+          "cellMargins": [
+            142,
+            72,
+            82,
+            77
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            137,
+            1088,
+            379,
+            1457
+          ],
+          "area": 59086,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            137,
+            64,
+            133,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            648,
+            1088,
+            890,
+            1457
+          ],
+          "area": 59041,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            136,
+            64,
+            134,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-back-slam.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            137,
+            62,
+            385,
+            448
+          ],
+          "area": 61732,
+          "componentId": 1,
+          "outerMargin": 62,
+          "cellMargins": [
+            137,
+            62,
+            127,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            657,
+            60,
+            900,
+            482
+          ],
+          "area": 58280,
+          "componentId": 2,
+          "outerMargin": 60,
+          "cellMargins": [
+            145,
+            60,
+            124,
+            30
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            135,
+            578,
+            409,
+            957
+          ],
+          "area": 60248,
+          "componentId": 3,
+          "outerMargin": 135,
+          "cellMargins": [
+            135,
+            66,
+            103,
+            67
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            646,
+            605,
+            896,
+            942
+          ],
+          "area": 57206,
+          "componentId": 4,
+          "outerMargin": 128,
+          "cellMargins": [
+            134,
+            93,
+            128,
+            82
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            132,
+            1062,
+            402,
+            1444
+          ],
+          "area": 62608,
+          "componentId": 5,
+          "outerMargin": 92,
+          "cellMargins": [
+            132,
+            38,
+            110,
+            92
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            646,
+            1060,
+            899,
+            1443
+          ],
+          "area": 62033,
+          "componentId": 6,
+          "outerMargin": 93,
+          "cellMargins": [
+            134,
+            36,
+            125,
+            93
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-front-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            128,
+            89,
+            384,
+            433
+          ],
+          "area": 58572,
+          "componentId": 1,
+          "outerMargin": 89,
+          "cellMargins": [
+            128,
+            89,
+            128,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            608,
+            97,
+            905,
+            459
+          ],
+          "area": 59650,
+          "componentId": 2,
+          "outerMargin": 97,
+          "cellMargins": [
+            96,
+            97,
+            119,
+            53
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            111,
+            586,
+            435,
+            957
+          ],
+          "area": 65514,
+          "componentId": 3,
+          "outerMargin": 111,
+          "cellMargins": [
+            111,
+            74,
+            77,
+            67
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            602,
+            604,
+            946,
+            957
+          ],
+          "area": 66748,
+          "componentId": 4,
+          "outerMargin": 78,
+          "cellMargins": [
+            90,
+            92,
+            78,
+            67
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            128,
+            1086,
+            384,
+            1429
+          ],
+          "area": 58549,
+          "componentId": 5,
+          "outerMargin": 107,
+          "cellMargins": [
+            128,
+            62,
+            128,
+            107
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            641,
+            1086,
+            897,
+            1429
+          ],
+          "area": 58641,
+          "componentId": 6,
+          "outerMargin": 107,
+          "cellMargins": [
+            129,
+            62,
+            127,
+            107
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-front-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            127,
+            110,
+            385,
+            433
+          ],
+          "area": 51796,
+          "componentId": 1,
+          "outerMargin": 110,
+          "cellMargins": [
+            127,
+            110,
+            127,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            647,
+            135,
+            927,
+            444
+          ],
+          "area": 51885,
+          "componentId": 2,
+          "outerMargin": 97,
+          "cellMargins": [
+            135,
+            135,
+            97,
+            68
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            113,
+            626,
+            467,
+            944
+          ],
+          "area": 54692,
+          "componentId": 3,
+          "outerMargin": 113,
+          "cellMargins": [
+            113,
+            114,
+            45,
+            80
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            621,
+            630,
+            940,
+            945
+          ],
+          "area": 54314,
+          "componentId": 4,
+          "outerMargin": 84,
+          "cellMargins": [
+            109,
+            118,
+            84,
+            79
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            127,
+            1132,
+            384,
+            1456
+          ],
+          "area": 52057,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            127,
+            108,
+            128,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            639,
+            1132,
+            896,
+            1456
+          ],
+          "area": 52147,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            127,
+            108,
+            128,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-front-right-slam.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            129,
+            110,
+            384,
+            432
+          ],
+          "area": 51462,
+          "componentId": 1,
+          "outerMargin": 110,
+          "cellMargins": [
+            129,
+            110,
+            128,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            632,
+            106,
+            891,
+            466
+          ],
+          "area": 52405,
+          "componentId": 2,
+          "outerMargin": 106,
+          "cellMargins": [
+            120,
+            106,
+            133,
+            46
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            119,
+            623,
+            400,
+            950
+          ],
+          "area": 52190,
+          "componentId": 3,
+          "outerMargin": 119,
+          "cellMargins": [
+            119,
+            111,
+            112,
+            74
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            627,
+            654,
+            909,
+            951
+          ],
+          "area": 49557,
+          "componentId": 4,
+          "outerMargin": 115,
+          "cellMargins": [
+            115,
+            142,
+            115,
+            73
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            136,
+            1124,
+            401,
+            1463
+          ],
+          "area": 53378,
+          "componentId": 5,
+          "outerMargin": 73,
+          "cellMargins": [
+            136,
+            100,
+            111,
+            73
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            640,
+            1133,
+            896,
+            1456
+          ],
+          "area": 51723,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            128,
+            109,
+            128,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-front-slam.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            128,
+            89,
+            384,
+            433
+          ],
+          "area": 57860,
+          "componentId": 1,
+          "outerMargin": 89,
+          "cellMargins": [
+            128,
+            89,
+            128,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            649,
+            72,
+            879,
+            444
+          ],
+          "area": 54288,
+          "componentId": 2,
+          "outerMargin": 72,
+          "cellMargins": [
+            137,
+            72,
+            145,
+            68
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            139,
+            606,
+            408,
+            956
+          ],
+          "area": 59444,
+          "componentId": 3,
+          "outerMargin": 139,
+          "cellMargins": [
+            139,
+            94,
+            104,
+            68
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            633,
+            630,
+            925,
+            952
+          ],
+          "area": 58922,
+          "componentId": 4,
+          "outerMargin": 99,
+          "cellMargins": [
+            121,
+            118,
+            99,
+            72
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            126,
+            1078,
+            379,
+            1458
+          ],
+          "area": 63726,
+          "componentId": 5,
+          "outerMargin": 78,
+          "cellMargins": [
+            126,
+            54,
+            133,
+            78
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            640,
+            1113,
+            895,
+            1457
+          ],
+          "area": 57963,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            128,
+            89,
+            129,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-rear-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            133,
+            110,
+            380,
+            433
+          ],
+          "area": 52214,
+          "componentId": 1,
+          "outerMargin": 110,
+          "cellMargins": [
+            133,
+            110,
+            132,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            623,
+            109,
+            896,
+            438
+          ],
+          "area": 53637,
+          "componentId": 2,
+          "outerMargin": 109,
+          "cellMargins": [
+            111,
+            109,
+            128,
+            74
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            118,
+            622,
+            441,
+            948
+          ],
+          "area": 56920,
+          "componentId": 3,
+          "outerMargin": 118,
+          "cellMargins": [
+            118,
+            110,
+            71,
+            76
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            649,
+            618,
+            960,
+            948
+          ],
+          "area": 56638,
+          "componentId": 4,
+          "outerMargin": 64,
+          "cellMargins": [
+            137,
+            106,
+            64,
+            76
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            123,
+            1122,
+            383,
+            1457
+          ],
+          "area": 55510,
+          "componentId": 5,
+          "outerMargin": 79,
+          "cellMargins": [
+            123,
+            98,
+            129,
+            79
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            644,
+            1133,
+            891,
+            1457
+          ],
+          "area": 52855,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            132,
+            109,
+            133,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-rear-right-slam.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            132,
+            109,
+            380,
+            435
+          ],
+          "area": 53168,
+          "componentId": 1,
+          "outerMargin": 109,
+          "cellMargins": [
+            132,
+            109,
+            132,
+            77
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            631,
+            99,
+            897,
+            470
+          ],
+          "area": 57490,
+          "componentId": 2,
+          "outerMargin": 99,
+          "cellMargins": [
+            119,
+            99,
+            127,
+            42
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            141,
+            607,
+            431,
+            961
+          ],
+          "area": 65038,
+          "componentId": 3,
+          "outerMargin": 141,
+          "cellMargins": [
+            141,
+            95,
+            81,
+            63
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            633,
+            649,
+            899,
+            961
+          ],
+          "area": 54009,
+          "componentId": 4,
+          "outerMargin": 125,
+          "cellMargins": [
+            121,
+            137,
+            125,
+            63
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            137,
+            1083,
+            403,
+            1448
+          ],
+          "area": 61311,
+          "componentId": 5,
+          "outerMargin": 88,
+          "cellMargins": [
+            137,
+            59,
+            109,
+            88
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            630,
+            1085,
+            891,
+            1436
+          ],
+          "area": 60403,
+          "componentId": 6,
+          "outerMargin": 100,
+          "cellMargins": [
+            118,
+            61,
+            133,
+            100
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-right-dash.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            109,
+            70,
+            403,
+            432
+          ],
+          "area": 67221,
+          "componentId": 1,
+          "outerMargin": 70,
+          "cellMargins": [
+            109,
+            70,
+            109,
+            80
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            614,
+            102,
+            943,
+            432
+          ],
+          "area": 66679,
+          "componentId": 2,
+          "outerMargin": 81,
+          "cellMargins": [
+            102,
+            102,
+            81,
+            80
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            99,
+            600,
+            488,
+            952
+          ],
+          "area": 70477,
+          "componentId": 3,
+          "outerMargin": 99,
+          "cellMargins": [
+            99,
+            88,
+            24,
+            72
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            621,
+            602,
+            1013,
+            952
+          ],
+          "area": 68944,
+          "componentId": 4,
+          "outerMargin": 11,
+          "cellMargins": [
+            109,
+            90,
+            11,
+            72
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            108,
+            1094,
+            403,
+            1456
+          ],
+          "area": 67290,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            108,
+            70,
+            109,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            620,
+            1093,
+            915,
+            1456
+          ],
+          "area": 67321,
+          "componentId": 6,
+          "outerMargin": 80,
+          "cellMargins": [
+            108,
+            69,
+            109,
+            80
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yeonsal-right-slam.png",
+      "width": 1024,
+      "height": 1536,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            109,
+            69,
+            402,
+            433
+          ],
+          "area": 66971,
+          "componentId": 1,
+          "outerMargin": 69,
+          "cellMargins": [
+            109,
+            69,
+            110,
+            79
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            622,
+            64,
+            933,
+            460
+          ],
+          "area": 70306,
+          "componentId": 2,
+          "outerMargin": 64,
+          "cellMargins": [
+            110,
+            64,
+            91,
+            52
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            121,
+            589,
+            447,
+            951
+          ],
+          "area": 75301,
+          "componentId": 3,
+          "outerMargin": 121,
+          "cellMargins": [
+            121,
+            77,
+            65,
+            73
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            636,
+            622,
+            942,
+            953
+          ],
+          "area": 66763,
+          "componentId": 4,
+          "outerMargin": 82,
+          "cellMargins": [
+            124,
+            110,
+            82,
+            71
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            108,
+            1086,
+            419,
+            1459
+          ],
+          "area": 72001,
+          "componentId": 5,
+          "outerMargin": 77,
+          "cellMargins": [
+            108,
+            62,
+            93,
+            77
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            621,
+            1087,
+            917,
+            1457
+          ],
+          "area": 68916,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            109,
+            63,
+            107,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    }
+  ]
+}

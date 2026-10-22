@@ -1,0 +1,8474 @@
+[
+  {
+    "id": "bloodblade-front-right",
+    "sources": [
+      {
+        "file": "bloodblade-front-right.png",
+        "sha256": "29b9eb10b6a9972685a671459717d84902f7b875c871083073ea99ee9b3afd55"
+      },
+      {
+        "file": "bloodblade-front-right-target-v3.png",
+        "sha256": "48e06c0e9abceaa3d0eba09e1c2860d5376bdf3f4ecc63f8fd08512460c8aae3"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 11,
+          "top": 45,
+          "right": 322,
+          "bottom": 356
+        },
+        "foot": [
+          228,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          137,
+          105
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 352,
+          "top": 50,
+          "right": 664,
+          "bottom": 355
+        },
+        "foot": [
+          229,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          111
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 745,
+          "top": 64,
+          "right": 1075,
+          "bottom": 356
+        },
+        "foot": [
+          180,
+          323
+        ],
+        "padding": [
+          32,
+          32,
+          118,
+          124
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 24,
+          "top": 395,
+          "right": 346,
+          "bottom": 702
+        },
+        "foot": [
+          228,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          109
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 358,
+          "top": 395,
+          "right": 670,
+          "bottom": 701
+        },
+        "foot": [
+          225,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          110
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 703,
+          "top": 552,
+          "right": 1076,
+          "bottom": 714
+        },
+        "foot": [
+          219,
+          192
+        ],
+        "padding": [
+          32,
+          32,
+          75,
+          254
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 26,
+          "top": 733,
+          "right": 374,
+          "bottom": 1064
+        },
+        "foot": [
+          196,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          100,
+          85
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 404,
+          "top": 728,
+          "right": 713,
+          "bottom": 1060
+        },
+        "foot": [
+          196,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          84
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 762,
+          "top": 770,
+          "right": 1084,
+          "bottom": 1064
+        },
+        "foot": [
+          171,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          122
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 27,
+          "top": 1107,
+          "right": 397,
+          "bottom": 1393
+        },
+        "foot": [
+          179,
+          317
+        ],
+        "padding": [
+          32,
+          32,
+          78,
+          130
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 368,
+          "top": 1096,
+          "right": 691,
+          "bottom": 1394
+        },
+        "foot": [
+          220,
+          328
+        ],
+        "padding": [
+          32,
+          32,
+          125,
+          118
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 730,
+          "top": 1088,
+          "right": 1033,
+          "bottom": 1396
+        },
+        "foot": [
+          226,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          145,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodblade-front",
+    "sources": [
+      {
+        "file": "bloodblade-front.png",
+        "sha256": "393fcc6105b5283c0e6c36ac63efbf22d826259ad0e2a43af9bfc9fa45312d3b"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 40,
+          "top": 36,
+          "right": 346,
+          "bottom": 372
+        },
+        "foot": [
+          210,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          80
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 412,
+          "top": 39,
+          "right": 685,
+          "bottom": 390
+        },
+        "foot": [
+          150,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          175,
+          65
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 769,
+          "top": 40,
+          "right": 1028,
+          "bottom": 390
+        },
+        "foot": [
+          195,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          189,
+          66
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 28,
+          "top": 405,
+          "right": 345,
+          "bottom": 751
+        },
+        "foot": [
+          204,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          70
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 399,
+          "top": 428,
+          "right": 689,
+          "bottom": 738
+        },
+        "foot": [
+          189,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          158,
+          106
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 728,
+          "top": 546,
+          "right": 1065,
+          "bottom": 768
+        },
+        "foot": [
+          201,
+          252
+        ],
+        "padding": [
+          32,
+          32,
+          111,
+          194
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 40,
+          "top": 760,
+          "right": 365,
+          "bottom": 1094
+        },
+        "foot": [
+          199,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          82
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 410,
+          "top": 742,
+          "right": 711,
+          "bottom": 1099
+        },
+        "foot": [
+          187,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          147,
+          59
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 771,
+          "top": 786,
+          "right": 1059,
+          "bottom": 1107
+        },
+        "foot": [
+          173,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          95
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 35,
+          "top": 1115,
+          "right": 335,
+          "bottom": 1410
+        },
+        "foot": [
+          169,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          121
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 364,
+          "top": 1117,
+          "right": 707,
+          "bottom": 1413
+        },
+        "foot": [
+          232,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          120
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 746,
+          "top": 1107,
+          "right": 1048,
+          "bottom": 1419
+        },
+        "foot": [
+          210,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodblade-right",
+    "sources": [
+      {
+        "file": "bloodblade-right.png",
+        "sha256": "fe54e2298940c383deff99cfed94fd0566540a5abfa736a6ec04fd7135546b47"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 47,
+          "top": 51,
+          "right": 318,
+          "bottom": 374
+        },
+        "foot": [
+          191,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          177,
+          93
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 392,
+          "top": 58,
+          "right": 681,
+          "bottom": 374
+        },
+        "foot": [
+          194,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          100
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 757,
+          "top": 61,
+          "right": 1065,
+          "bottom": 381
+        },
+        "foot": [
+          184,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          96
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 50,
+          "top": 410,
+          "right": 352,
+          "bottom": 733
+        },
+        "foot": [
+          195,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          93
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 414,
+          "top": 409,
+          "right": 682,
+          "bottom": 728
+        },
+        "foot": [
+          183,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          180,
+          97
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 680,
+          "top": 571,
+          "right": 1079,
+          "bottom": 736
+        },
+        "foot": [
+          232,
+          195
+        ],
+        "padding": [
+          32,
+          32,
+          49,
+          251
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 27,
+          "top": 762,
+          "right": 349,
+          "bottom": 1063
+        },
+        "foot": [
+          200,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          115
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 402,
+          "top": 747,
+          "right": 708,
+          "bottom": 1068
+        },
+        "foot": [
+          187,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          95
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 745,
+          "top": 785,
+          "right": 1079,
+          "bottom": 1076
+        },
+        "foot": [
+          172,
+          322
+        ],
+        "padding": [
+          32,
+          32,
+          114,
+          125
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 31,
+          "top": 1107,
+          "right": 412,
+          "bottom": 1397
+        },
+        "foot": [
+          190,
+          321
+        ],
+        "padding": [
+          32,
+          32,
+          67,
+          126
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 371,
+          "top": 1101,
+          "right": 720,
+          "bottom": 1401
+        },
+        "foot": [
+          240,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          99,
+          116
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 751,
+          "top": 1100,
+          "right": 1037,
+          "bottom": 1406
+        },
+        "foot": [
+          214,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          110
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodblade-rear-right",
+    "sources": [
+      {
+        "file": "bloodblade-rear-right.png",
+        "sha256": "473be429fa87ba0dd9ac6e6c8465e71dca1f2c1f6f9ea4d262a0972f09b77046"
+      },
+      {
+        "file": "bloodblade-rear-right-contact-inset-v7.png",
+        "sha256": "883151bbd39157ed8b92f8f3df69c1f30fe6d6d4cf632f5f5da43a530053b1b1"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 47,
+          "top": 39,
+          "right": 399,
+          "bottom": 370
+        },
+        "foot": [
+          188,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          96,
+          85
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 408,
+          "top": 43,
+          "right": 751,
+          "bottom": 370
+        },
+        "foot": [
+          161,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          89
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 763,
+          "top": 49,
+          "right": 1081,
+          "bottom": 375
+        },
+        "foot": [
+          167,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          130,
+          90
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 48,
+          "top": 393,
+          "right": 404,
+          "bottom": 721
+        },
+        "foot": [
+          189,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          92,
+          88
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 412,
+          "top": 417,
+          "right": 694,
+          "bottom": 721
+        },
+        "foot": [
+          131,
+          335
+        ],
+        "padding": [
+          32,
+          32,
+          166,
+          112
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 694,
+          "top": 541,
+          "right": 1081,
+          "bottom": 726
+        },
+        "foot": [
+          226,
+          215
+        ],
+        "padding": [
+          32,
+          32,
+          61,
+          231
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 42,
+          "top": 747,
+          "right": 329,
+          "bottom": 1090
+        },
+        "foot": [
+          171,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          73
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 421,
+          "top": 743,
+          "right": 715,
+          "bottom": 1096
+        },
+        "foot": [
+          190,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          63
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 713,
+          "top": 801,
+          "right": 1045,
+          "bottom": 1111
+        },
+        "foot": [
+          166,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          116,
+          106
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 37,
+          "top": 1109,
+          "right": 419,
+          "bottom": 1416
+        },
+        "foot": [
+          180,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          66,
+          109
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 424,
+          "top": 1109,
+          "right": 705,
+          "bottom": 1421
+        },
+        "foot": [
+          182,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          167,
+          104
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 774,
+          "top": 1107,
+          "right": 1076,
+          "bottom": 1418
+        },
+        "foot": [
+          158,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodblade-back",
+    "sources": [
+      {
+        "file": "bloodblade-back.png",
+        "sha256": "ba84b9b7956a2809cc97d36cb21e180b6f425bac189a5e8567b3961f6252efcd"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 54,
+          "top": 44,
+          "right": 361,
+          "bottom": 332
+        },
+        "foot": [
+          164,
+          318
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          128
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 412,
+          "top": 40,
+          "right": 720,
+          "bottom": 338
+        },
+        "foot": [
+          164,
+          329
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          118
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 777,
+          "top": 42,
+          "right": 1069,
+          "bottom": 339
+        },
+        "foot": [
+          143,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          119
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 53,
+          "top": 389,
+          "right": 386,
+          "bottom": 692
+        },
+        "foot": [
+          149,
+          333
+        ],
+        "padding": [
+          32,
+          32,
+          115,
+          113
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 429,
+          "top": 424,
+          "right": 721,
+          "bottom": 675
+        },
+        "foot": [
+          158,
+          281
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          165
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 740,
+          "top": 523,
+          "right": 1062,
+          "bottom": 709
+        },
+        "foot": [
+          193,
+          216
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          230
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 45,
+          "top": 737,
+          "right": 347,
+          "bottom": 1035
+        },
+        "foot": [
+          181,
+          328
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          118
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 415,
+          "top": 711,
+          "right": 724,
+          "bottom": 1048
+        },
+        "foot": [
+          172,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          79
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 757,
+          "top": 781,
+          "right": 1078,
+          "bottom": 1042
+        },
+        "foot": [
+          138,
+          291
+        ],
+        "padding": [
+          32,
+          32,
+          127,
+          155
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 50,
+          "top": 1127,
+          "right": 402,
+          "bottom": 1393
+        },
+        "foot": [
+          172,
+          297
+        ],
+        "padding": [
+          32,
+          32,
+          96,
+          150
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 413,
+          "top": 1103,
+          "right": 762,
+          "bottom": 1377
+        },
+        "foot": [
+          157,
+          305
+        ],
+        "padding": [
+          32,
+          32,
+          99,
+          142
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 776,
+          "top": 1087,
+          "right": 1075,
+          "bottom": 1393
+        },
+        "foot": [
+          166,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          149,
+          110
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodassassin-front-right",
+    "sources": [
+      {
+        "file": "bloodassassin-front-right.png",
+        "sha256": "05fc8543138bfa91d14d975418ef7c2e61b58832a74cd848b9230038d51a7358"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 40,
+          "top": 44,
+          "right": 327,
+          "bottom": 375
+        },
+        "foot": [
+          189,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          85
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 397,
+          "top": 43,
+          "right": 694,
+          "bottom": 379
+        },
+        "foot": [
+          188,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          151,
+          80
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 758,
+          "top": 42,
+          "right": 1067,
+          "bottom": 377
+        },
+        "foot": [
+          190,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          81
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 41,
+          "top": 416,
+          "right": 344,
+          "bottom": 732
+        },
+        "foot": [
+          190,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          145,
+          100
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 404,
+          "top": 413,
+          "right": 690,
+          "bottom": 736
+        },
+        "foot": [
+          187,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          93
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 693,
+          "top": 562,
+          "right": 1081,
+          "bottom": 734
+        },
+        "foot": [
+          226,
+          202
+        ],
+        "padding": [
+          32,
+          32,
+          60,
+          244
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 34,
+          "top": 765,
+          "right": 351,
+          "bottom": 1074
+        },
+        "foot": [
+          204,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          107
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 376,
+          "top": 768,
+          "right": 725,
+          "bottom": 1082
+        },
+        "foot": [
+          199,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          99,
+          102
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 726,
+          "top": 783,
+          "right": 1073,
+          "bottom": 1079
+        },
+        "foot": [
+          187,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          101,
+          120
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 31,
+          "top": 1120,
+          "right": 373,
+          "bottom": 1421
+        },
+        "foot": [
+          199,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          106,
+          115
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 397,
+          "top": 1109,
+          "right": 697,
+          "bottom": 1414
+        },
+        "foot": [
+          181,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          111
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 745,
+          "top": 1101,
+          "right": 1048,
+          "bottom": 1426
+        },
+        "foot": [
+          200,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          145,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodassassin-front",
+    "sources": [
+      {
+        "file": "bloodassassin-front.png",
+        "sha256": "e35ba8e8d32498a90157caf2d93380bc845df668c0d16b5489ccbdcfcebc6a71"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 50,
+          "top": 30,
+          "right": 328,
+          "bottom": 380
+        },
+        "foot": [
+          196,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          170,
+          66
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 407,
+          "top": 28,
+          "right": 694,
+          "bottom": 397
+        },
+        "foot": [
+          171,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          47
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 765,
+          "top": 28,
+          "right": 1040,
+          "bottom": 397
+        },
+        "foot": [
+          180,
+          400
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          47
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 47,
+          "top": 398,
+          "right": 341,
+          "bottom": 757
+        },
+        "foot": [
+          181,
+          389
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          57
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 404,
+          "top": 415,
+          "right": 696,
+          "bottom": 746
+        },
+        "foot": [
+          178,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          85
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 718,
+          "top": 551,
+          "right": 1058,
+          "bottom": 751
+        },
+        "foot": [
+          202,
+          230
+        ],
+        "padding": [
+          32,
+          32,
+          108,
+          216
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 39,
+          "top": 770,
+          "right": 353,
+          "bottom": 1077
+        },
+        "foot": [
+          200,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          134,
+          109
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 378,
+          "top": 772,
+          "right": 696,
+          "bottom": 1073
+        },
+        "foot": [
+          211,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          130,
+          115
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 742,
+          "top": 778,
+          "right": 1054,
+          "bottom": 1089
+        },
+        "foot": [
+          203,
+          329
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          105
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 41,
+          "top": 1096,
+          "right": 357,
+          "bottom": 1422
+        },
+        "foot": [
+          203,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          132,
+          90
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 381,
+          "top": 1095,
+          "right": 681,
+          "bottom": 1429
+        },
+        "foot": [
+          192,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          82
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 748,
+          "top": 1092,
+          "right": 1033,
+          "bottom": 1433
+        },
+        "foot": [
+          198,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodassassin-right",
+    "sources": [
+      {
+        "file": "bloodassassin-right.png",
+        "sha256": "93edeb59107b611a1e0000fc10fc69b8b6a4139e8f532a5f37bd46f8beed0bf6"
+      },
+      {
+        "file": "bloodassassin-right-edge-v4.png",
+        "sha256": "2aed3407bb4a2bb1ce5c59e825bad27c7b23fea766de94ad45ce5d6aa38d6125"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 42,
+          "top": 30,
+          "right": 352,
+          "bottom": 379
+        },
+        "foot": [
+          213,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          67
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 394,
+          "top": 35,
+          "right": 688,
+          "bottom": 379
+        },
+        "foot": [
+          181,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          72
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 743,
+          "top": 37,
+          "right": 1082,
+          "bottom": 378
+        },
+        "foot": [
+          206,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          109,
+          75
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 38,
+          "top": 405,
+          "right": 352,
+          "bottom": 742
+        },
+        "foot": [
+          211,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          134,
+          79
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 392,
+          "top": 411,
+          "right": 680,
+          "bottom": 745
+        },
+        "foot": [
+          204,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          82
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 697,
+          "top": 582,
+          "right": 1080,
+          "bottom": 750
+        },
+        "foot": [
+          224,
+          198
+        ],
+        "padding": [
+          32,
+          32,
+          65,
+          248
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 767,
+          "right": 344,
+          "bottom": 1076
+        },
+        "foot": [
+          210,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          129,
+          107
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 365,
+          "top": 766,
+          "right": 676,
+          "bottom": 1075
+        },
+        "foot": [
+          199,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          137,
+          107
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 675,
+          "top": 771,
+          "right": 1059,
+          "bottom": 1072
+        },
+        "foot": [
+          203,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          64,
+          115
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 27,
+          "top": 1102,
+          "right": 402,
+          "bottom": 1417
+        },
+        "foot": [
+          205,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          73,
+          101
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 402,
+          "top": 1101,
+          "right": 702,
+          "bottom": 1419
+        },
+        "foot": [
+          193,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          98
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 737,
+          "top": 1100,
+          "right": 1054,
+          "bottom": 1425
+        },
+        "foot": [
+          225,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodassassin-rear-right",
+    "sources": [
+      {
+        "file": "bloodassassin-rear-right.png",
+        "sha256": "a07821cd23cfdff617b399cbbd3f44594d22ca616d54735ee873a11f65aa3136"
+      },
+      {
+        "file": "bloodassassin-rear-right-edge-v4.png",
+        "sha256": "a5eb140d765dcbbaefdc9ca18df1c8e8b074f4136a81e11fa72ddb2e6b49eb75"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 32,
+          "top": 39,
+          "right": 331,
+          "bottom": 374
+        },
+        "foot": [
+          188,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          149,
+          81
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 390,
+          "top": 40,
+          "right": 714,
+          "bottom": 377
+        },
+        "foot": [
+          173,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          124,
+          79
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 762,
+          "top": 37,
+          "right": 1068,
+          "bottom": 384
+        },
+        "foot": [
+          132,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          69
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 33,
+          "top": 408,
+          "right": 376,
+          "bottom": 743
+        },
+        "foot": [
+          211,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          81
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 387,
+          "top": 413,
+          "right": 705,
+          "bottom": 741
+        },
+        "foot": [
+          177,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          130,
+          88
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 732,
+          "top": 552,
+          "right": 1085,
+          "bottom": 708
+        },
+        "foot": [
+          209,
+          186
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          260
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 26,
+          "top": 765,
+          "right": 333,
+          "bottom": 1082
+        },
+        "foot": [
+          201,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          99
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 361,
+          "top": 757,
+          "right": 680,
+          "bottom": 1084
+        },
+        "foot": [
+          206,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          129,
+          89
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 725,
+          "top": 762,
+          "right": 1079,
+          "bottom": 1082
+        },
+        "foot": [
+          183,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          94,
+          96
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 26,
+          "top": 1111,
+          "right": 390,
+          "bottom": 1431
+        },
+        "foot": [
+          197,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          84,
+          96
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 390,
+          "top": 1105,
+          "right": 706,
+          "bottom": 1431
+        },
+        "foot": [
+          176,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          132,
+          90
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 743,
+          "top": 1104,
+          "right": 1069,
+          "bottom": 1429
+        },
+        "foot": [
+          198,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodassassin-back",
+    "sources": [
+      {
+        "file": "bloodassassin-back.png",
+        "sha256": "d29cef68de1969aa24e5e8088043007e36a669316b894bb1d012814ef3e0f5f0"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 68,
+          "top": 35,
+          "right": 357,
+          "bottom": 364
+        },
+        "foot": [
+          167,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          87
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 421,
+          "top": 31,
+          "right": 706,
+          "bottom": 360
+        },
+        "foot": [
+          151,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          87
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 794,
+          "top": 26,
+          "right": 1014,
+          "bottom": 364
+        },
+        "foot": [
+          138,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          228,
+          78
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 58,
+          "top": 386,
+          "right": 331,
+          "bottom": 711
+        },
+        "foot": [
+          189,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          175,
+          91
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 405,
+          "top": 423,
+          "right": 715,
+          "bottom": 704
+        },
+        "foot": [
+          182,
+          312
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          135
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 730,
+          "top": 469,
+          "right": 1050,
+          "bottom": 694
+        },
+        "foot": [
+          192,
+          255
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          191
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 47,
+          "top": 730,
+          "right": 331,
+          "bottom": 1038
+        },
+        "foot": [
+          149,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          164,
+          108
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 409,
+          "top": 732,
+          "right": 687,
+          "bottom": 1035
+        },
+        "foot": [
+          165,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          170,
+          113
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 768,
+          "top": 730,
+          "right": 1020,
+          "bottom": 1043
+        },
+        "foot": [
+          179,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          196,
+          103
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 49,
+          "top": 1045,
+          "right": 324,
+          "bottom": 1399
+        },
+        "foot": [
+          168,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          62
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 419,
+          "top": 1062,
+          "right": 682,
+          "bottom": 1393
+        },
+        "foot": [
+          146,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          185,
+          85
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 769,
+          "top": 1064,
+          "right": 1073,
+          "bottom": 1386
+        },
+        "foot": [
+          174,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          144,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodhexer-front-right",
+    "sources": [
+      {
+        "file": "bloodhexer-front-right.png",
+        "sha256": "1a64f6ed0ccb90ce7e90f8945812b5a8848bf8c26952a8b05d7d7cfade05ac30"
+      },
+      {
+        "file": "bloodhexer-front-right-camera-grip-v6.png",
+        "sha256": "033f1b1a7ce7fc87d6b6e1736bdf1311b02e030fa13844518fc53a259f14d2cf"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 32,
+          "top": 38,
+          "right": 327,
+          "bottom": 383
+        },
+        "foot": [
+          199,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          121,
+          71
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 400,
+          "top": 50,
+          "right": 665,
+          "bottom": 376
+        },
+        "foot": [
+          201,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          151,
+          90
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 743,
+          "top": 53,
+          "right": 1026,
+          "bottom": 378
+        },
+        "foot": [
+          197,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          133,
+          91
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 36,
+          "top": 417,
+          "right": 311,
+          "bottom": 737
+        },
+        "foot": [
+          202,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          96
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 390,
+          "top": 418,
+          "right": 675,
+          "bottom": 741
+        },
+        "foot": [
+          190,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          93
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 708,
+          "top": 577,
+          "right": 1070,
+          "bottom": 736
+        },
+        "foot": [
+          213,
+          189
+        ],
+        "padding": [
+          32,
+          32,
+          54,
+          257
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 30,
+          "top": 764,
+          "right": 327,
+          "bottom": 1087
+        },
+        "foot": [
+          198,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          119,
+          93
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 377,
+          "top": 774,
+          "right": 693,
+          "bottom": 1082
+        },
+        "foot": [
+          196,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          100,
+          108
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 759,
+          "top": 726,
+          "right": 1083,
+          "bottom": 1085
+        },
+        "foot": [
+          220,
+          389
+        ],
+        "padding": [
+          32,
+          32,
+          92,
+          57
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 33,
+          "top": 1063,
+          "right": 372,
+          "bottom": 1436
+        },
+        "foot": [
+          244,
+          402
+        ],
+        "padding": [
+          32,
+          32,
+          77,
+          43
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 388,
+          "top": 1096,
+          "right": 717,
+          "bottom": 1418
+        },
+        "foot": [
+          226,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          87,
+          94
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 767,
+          "top": 1094,
+          "right": 1054,
+          "bottom": 1420
+        },
+        "foot": [
+          198,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          129,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodhexer-front",
+    "sources": [
+      {
+        "file": "bloodhexer-front.png",
+        "sha256": "febcc87119a2f79d68139647832bfb9c66f405e69b8d41b8602ccc546b3af9cb"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 44,
+          "top": 13,
+          "right": 355,
+          "bottom": 375
+        },
+        "foot": [
+          187,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          54
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 400,
+          "top": 17,
+          "right": 693,
+          "bottom": 383
+        },
+        "foot": [
+          180,
+          397
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          50
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 752,
+          "top": 19,
+          "right": 1048,
+          "bottom": 382
+        },
+        "foot": [
+          187,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          120,
+          53
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 45,
+          "top": 385,
+          "right": 352,
+          "bottom": 730
+        },
+        "foot": [
+          184,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          109,
+          71
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 405,
+          "top": 410,
+          "right": 685,
+          "bottom": 723
+        },
+        "foot": [
+          170,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          103
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 722,
+          "top": 528,
+          "right": 1082,
+          "bottom": 713
+        },
+        "foot": [
+          212,
+          215
+        ],
+        "padding": [
+          32,
+          32,
+          56,
+          231
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 43,
+          "top": 742,
+          "right": 349,
+          "bottom": 1086
+        },
+        "foot": [
+          189,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          110,
+          72
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 392,
+          "top": 743,
+          "right": 702,
+          "bottom": 1081
+        },
+        "foot": [
+          184,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          106,
+          78
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 727,
+          "top": 743,
+          "right": 1061,
+          "bottom": 1085
+        },
+        "foot": [
+          204,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          82,
+          74
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 44,
+          "top": 1077,
+          "right": 360,
+          "bottom": 1424
+        },
+        "foot": [
+          199,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          100,
+          69
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 395,
+          "top": 1077,
+          "right": 701,
+          "bottom": 1424
+        },
+        "foot": [
+          190,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          110,
+          69
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 740,
+          "top": 1076,
+          "right": 1047,
+          "bottom": 1427
+        },
+        "foot": [
+          186,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          109,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodhexer-right",
+    "sources": [
+      {
+        "file": "bloodhexer-right.png",
+        "sha256": "0a44e7aa5c9c0dcfc325774ba21cf8a31197aeff2572b5461283166793183cd4"
+      },
+      {
+        "file": "bloodhexer-right-camera-grip-v6.png",
+        "sha256": "5dec55a2c86de5356f0a493fcb495228e28ff15628c450d6fc07a6dac574ce73"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 28,
+          "top": 22,
+          "right": 311,
+          "bottom": 390
+        },
+        "foot": [
+          211,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          133,
+          48
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 398,
+          "top": 31,
+          "right": 675,
+          "bottom": 387
+        },
+        "foot": [
+          204,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          60
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 746,
+          "top": 37,
+          "right": 1057,
+          "bottom": 387
+        },
+        "foot": [
+          218,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          66
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 26,
+          "top": 405,
+          "right": 321,
+          "bottom": 747
+        },
+        "foot": [
+          216,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          121,
+          74
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 393,
+          "top": 416,
+          "right": 671,
+          "bottom": 747
+        },
+        "foot": [
+          186,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          85
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 700,
+          "top": 575,
+          "right": 1072,
+          "bottom": 745
+        },
+        "foot": [
+          218,
+          200
+        ],
+        "padding": [
+          32,
+          32,
+          44,
+          246
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 24,
+          "top": 758,
+          "right": 325,
+          "bottom": 1084
+        },
+        "foot": [
+          211,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          115,
+          90
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 368,
+          "top": 761,
+          "right": 681,
+          "bottom": 1083
+        },
+        "foot": [
+          210,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          103,
+          94
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 734,
+          "top": 727,
+          "right": 1054,
+          "bottom": 1083
+        },
+        "foot": [
+          214,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          96,
+          60
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 40,
+          "top": 1075,
+          "right": 364,
+          "bottom": 1429
+        },
+        "foot": [
+          219,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          92,
+          62
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 401,
+          "top": 1087,
+          "right": 705,
+          "bottom": 1427
+        },
+        "foot": [
+          214,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          112,
+          76
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 762,
+          "top": 1087,
+          "right": 1045,
+          "bottom": 1427
+        },
+        "foot": [
+          209,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          133,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodhexer-rear-right",
+    "sources": [
+      {
+        "file": "bloodhexer-rear-right.png",
+        "sha256": "77b0295e4416e51ddd082fb69d737a2f581c8166ec5d3d5755e74cdea52cfd28"
+      },
+      {
+        "file": "bloodhexer-rear-right-camera-grip-v6.png",
+        "sha256": "8be514623430cc4d6d952064c9df9b060cb332408de443b90e865bd855f76592"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 36,
+          "top": 36,
+          "right": 310,
+          "bottom": 384
+        },
+        "foot": [
+          200,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          68
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 395,
+          "top": 47,
+          "right": 664,
+          "bottom": 386
+        },
+        "foot": [
+          204,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          147,
+          77
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 727,
+          "top": 45,
+          "right": 1048,
+          "bottom": 384
+        },
+        "foot": [
+          223,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          77
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 42,
+          "top": 416,
+          "right": 335,
+          "bottom": 738
+        },
+        "foot": [
+          213,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          94
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 402,
+          "top": 421,
+          "right": 664,
+          "bottom": 743
+        },
+        "foot": [
+          198,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          94
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 702,
+          "top": 552,
+          "right": 1073,
+          "bottom": 731
+        },
+        "foot": [
+          218,
+          209
+        ],
+        "padding": [
+          32,
+          32,
+          45,
+          237
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 31,
+          "top": 758,
+          "right": 323,
+          "bottom": 1084
+        },
+        "foot": [
+          209,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          124,
+          90
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 379,
+          "top": 763,
+          "right": 687,
+          "bottom": 1081
+        },
+        "foot": [
+          200,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          108,
+          98
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 731,
+          "top": 738,
+          "right": 1071,
+          "bottom": 1077
+        },
+        "foot": [
+          220,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          76,
+          77
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 20,
+          "top": 1067,
+          "right": 359,
+          "bottom": 1423
+        },
+        "foot": [
+          235,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          77,
+          60
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 410,
+          "top": 1096,
+          "right": 698,
+          "bottom": 1422
+        },
+        "foot": [
+          207,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          90
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 766,
+          "top": 1096,
+          "right": 1062,
+          "bottom": 1422
+        },
+        "foot": [
+          222,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          120,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bloodhexer-back",
+    "sources": [
+      {
+        "file": "bloodhexer-back.png",
+        "sha256": "b4d7c6e3fdfee358b89f1181737a429e581f220307da8faa6763c74c019d33f3"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 64,
+          "top": 15,
+          "right": 311,
+          "bottom": 351
+        },
+        "foot": [
+          154,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          80
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 413,
+          "top": 14,
+          "right": 714,
+          "bottom": 358
+        },
+        "foot": [
+          149,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          115,
+          72
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 788,
+          "top": 15,
+          "right": 1062,
+          "bottom": 363
+        },
+        "foot": [
+          149,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          68
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 54,
+          "top": 375,
+          "right": 337,
+          "bottom": 711
+        },
+        "foot": [
+          150,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          133,
+          80
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 408,
+          "top": 382,
+          "right": 687,
+          "bottom": 707
+        },
+        "foot": [
+          162,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          137,
+          91
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 721,
+          "top": 545,
+          "right": 1067,
+          "bottom": 700
+        },
+        "foot": [
+          205,
+          185
+        ],
+        "padding": [
+          32,
+          32,
+          70,
+          261
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 20,
+          "top": 727,
+          "right": 349,
+          "bottom": 1053
+        },
+        "foot": [
+          191,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          87,
+          90
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 388,
+          "top": 723,
+          "right": 712,
+          "bottom": 1061
+        },
+        "foot": [
+          165,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          92,
+          78
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 734,
+          "top": 728,
+          "right": 1073,
+          "bottom": 1058
+        },
+        "foot": [
+          200,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          77,
+          86
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 22,
+          "top": 1056,
+          "right": 364,
+          "bottom": 1403
+        },
+        "foot": [
+          204,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          74,
+          69
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 393,
+          "top": 1061,
+          "right": 741,
+          "bottom": 1404
+        },
+        "foot": [
+          205,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          68,
+          73
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 781,
+          "top": 1069,
+          "right": 1062,
+          "bottom": 1401
+        },
+        "foot": [
+          161,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          135,
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeogu-front-right",
+    "sources": [
+      {
+        "file": "jeogu-front-right.png",
+        "sha256": "5bafab40ba4ef3a9accb20564607bcd482a3d1ed9723a0948177fd1d048cd943"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 33,
+          "top": 44,
+          "right": 357,
+          "bottom": 381
+        },
+        "foot": [
+          224,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          79
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 408,
+          "top": 52,
+          "right": 715,
+          "bottom": 386
+        },
+        "foot": [
+          185,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          82
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 729,
+          "top": 68,
+          "right": 1050,
+          "bottom": 380
+        },
+        "foot": [
+          171,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          104
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 32,
+          "top": 417,
+          "right": 364,
+          "bottom": 733
+        },
+        "foot": [
+          226,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          100
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 405,
+          "top": 432,
+          "right": 700,
+          "bottom": 731
+        },
+        "foot": [
+          189,
+          330
+        ],
+        "padding": [
+          32,
+          32,
+          185,
+          117
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 700,
+          "top": 560,
+          "right": 1073,
+          "bottom": 734
+        },
+        "foot": [
+          219,
+          204
+        ],
+        "padding": [
+          32,
+          32,
+          107,
+          242
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 33,
+          "top": 768,
+          "right": 366,
+          "bottom": 1086
+        },
+        "foot": [
+          211,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          147,
+          98
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 413,
+          "top": 764,
+          "right": 694,
+          "bottom": 1088
+        },
+        "foot": [
+          181,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          199,
+          92
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 725,
+          "top": 796,
+          "right": 1073,
+          "bottom": 1081
+        },
+        "foot": [
+          173,
+          316
+        ],
+        "padding": [
+          32,
+          32,
+          132,
+          131
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 32,
+          "top": 1123,
+          "right": 446,
+          "bottom": 1421
+        },
+        "foot": [
+          209,
+          329
+        ],
+        "padding": [
+          32,
+          32,
+          66,
+          118
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 404,
+          "top": 1113,
+          "right": 720,
+          "bottom": 1419
+        },
+        "foot": [
+          193,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          164,
+          110
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 731,
+          "top": 1102,
+          "right": 1056,
+          "bottom": 1416
+        },
+        "foot": [
+          220,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeogu-front",
+    "sources": [
+      {
+        "file": "jeogu-front.png",
+        "sha256": "ce1606dbf01de1c996fa1a5d71ffa29712e1025ca2bd4d9fd4808523a13a5d52"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 41,
+          "top": 14,
+          "right": 361,
+          "bottom": 356
+        },
+        "foot": [
+          213,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          74
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 375,
+          "top": 14,
+          "right": 707,
+          "bottom": 374
+        },
+        "foot": [
+          200,
+          390
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          56
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 746,
+          "top": 15,
+          "right": 1048,
+          "bottom": 361
+        },
+        "foot": [
+          179,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          70
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 29,
+          "top": 373,
+          "right": 368,
+          "bottom": 721
+        },
+        "foot": [
+          207,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          68
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 375,
+          "top": 403,
+          "right": 683,
+          "bottom": 711
+        },
+        "foot": [
+          207,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          172,
+          108
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 707,
+          "top": 478,
+          "right": 1067,
+          "bottom": 721
+        },
+        "foot": [
+          212,
+          273
+        ],
+        "padding": [
+          32,
+          32,
+          120,
+          173
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 59,
+          "top": 736,
+          "right": 365,
+          "bottom": 1062
+        },
+        "foot": [
+          184,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          174,
+          90
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 396,
+          "top": 733,
+          "right": 702,
+          "bottom": 1064
+        },
+        "foot": [
+          183,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          174,
+          85
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 737,
+          "top": 746,
+          "right": 1043,
+          "bottom": 1082
+        },
+        "foot": [
+          192,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          174,
+          80
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 41,
+          "top": 1085,
+          "right": 377,
+          "bottom": 1415
+        },
+        "foot": [
+          174,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          144,
+          86
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 376,
+          "top": 1080,
+          "right": 713,
+          "bottom": 1414
+        },
+        "foot": [
+          226,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          143,
+          82
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 733,
+          "top": 1081,
+          "right": 1056,
+          "bottom": 1414
+        },
+        "foot": [
+          214,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          157,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeogu-right",
+    "sources": [
+      {
+        "file": "jeogu-right.png",
+        "sha256": "121cd07fb4dcc584ba5698630dfe8326539763231345bef647bb1a633093a8df"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 36,
+          "right": 327,
+          "bottom": 376
+        },
+        "foot": [
+          213,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          76
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 384,
+          "top": 38,
+          "right": 686,
+          "bottom": 375
+        },
+        "foot": [
+          209,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          79
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 734,
+          "top": 39,
+          "right": 1073,
+          "bottom": 375
+        },
+        "foot": [
+          227,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          80
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 15,
+          "top": 397,
+          "right": 338,
+          "bottom": 726
+        },
+        "foot": [
+          225,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          157,
+          87
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 371,
+          "top": 423,
+          "right": 689,
+          "bottom": 726
+        },
+        "foot": [
+          209,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          113
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 670,
+          "top": 555,
+          "right": 1081,
+          "bottom": 737
+        },
+        "foot": [
+          238,
+          212
+        ],
+        "padding": [
+          32,
+          32,
+          69,
+          234
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 18,
+          "top": 747,
+          "right": 342,
+          "bottom": 1085
+        },
+        "foot": [
+          209,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          78
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 384,
+          "top": 743,
+          "right": 684,
+          "bottom": 1085
+        },
+        "foot": [
+          201,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          180,
+          74
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 719,
+          "top": 779,
+          "right": 1083,
+          "bottom": 1082
+        },
+        "foot": [
+          187,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          116,
+          113
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 14,
+          "top": 1098,
+          "right": 425,
+          "bottom": 1419
+        },
+        "foot": [
+          204,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          69,
+          95
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 393,
+          "top": 1098,
+          "right": 721,
+          "bottom": 1419
+        },
+        "foot": [
+          213,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          152,
+          95
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 757,
+          "top": 1090,
+          "right": 1058,
+          "bottom": 1419
+        },
+        "foot": [
+          201,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          179,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeogu-rear-right",
+    "sources": [
+      {
+        "file": "jeogu-rear-right.png",
+        "sha256": "ec2dbf902d134e33f1e06c0fd27346f3fe610022f27a5538af211ed14ee8304d"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 36,
+          "top": 40,
+          "right": 391,
+          "bottom": 367
+        },
+        "foot": [
+          188,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          125,
+          89
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 408,
+          "top": 38,
+          "right": 776,
+          "bottom": 372
+        },
+        "foot": [
+          180,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          112,
+          82
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 773,
+          "top": 47,
+          "right": 1080,
+          "bottom": 379
+        },
+        "foot": [
+          152,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          84
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 28,
+          "top": 393,
+          "right": 382,
+          "bottom": 717
+        },
+        "foot": [
+          142,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          92
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 389,
+          "top": 402,
+          "right": 752,
+          "bottom": 717
+        },
+        "foot": [
+          159,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          117,
+          101
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 706,
+          "top": 524,
+          "right": 1074,
+          "bottom": 707
+        },
+        "foot": [
+          216,
+          213
+        ],
+        "padding": [
+          32,
+          32,
+          112,
+          233
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 738,
+          "right": 336,
+          "bottom": 1089
+        },
+        "foot": [
+          204,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          65
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 402,
+          "top": 736,
+          "right": 685,
+          "bottom": 1091
+        },
+        "foot": [
+          145,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          197,
+          61
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 707,
+          "top": 784,
+          "right": 1085,
+          "bottom": 1083
+        },
+        "foot": [
+          130,
+          329
+        ],
+        "padding": [
+          32,
+          32,
+          102,
+          117
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 33,
+          "top": 1106,
+          "right": 452,
+          "bottom": 1428
+        },
+        "foot": [
+          127,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          61,
+          94
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 412,
+          "top": 1092,
+          "right": 682,
+          "bottom": 1424
+        },
+        "foot": [
+          133,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          210,
+          84
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 730,
+          "top": 1102,
+          "right": 1082,
+          "bottom": 1426
+        },
+        "foot": [
+          168,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeogu-back",
+    "sources": [
+      {
+        "file": "jeogu-back.png",
+        "sha256": "4b9963eda3c70648b9b01e8a0bab5c343dfeb6a38cf901c08eaba4086645df3e"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 72,
+          "top": 55,
+          "right": 370,
+          "bottom": 337
+        },
+        "foot": [
+          148,
+          312
+        ],
+        "padding": [
+          32,
+          32,
+          182,
+          134
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 403,
+          "top": 54,
+          "right": 720,
+          "bottom": 351
+        },
+        "foot": [
+          197,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          119
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 758,
+          "top": 57,
+          "right": 1067,
+          "bottom": 341
+        },
+        "foot": [
+          191,
+          314
+        ],
+        "padding": [
+          32,
+          32,
+          171,
+          132
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 18,
+          "top": 395,
+          "right": 345,
+          "bottom": 683
+        },
+        "foot": [
+          175,
+          318
+        ],
+        "padding": [
+          32,
+          32,
+          153,
+          128
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 407,
+          "top": 426,
+          "right": 726,
+          "bottom": 687
+        },
+        "foot": [
+          163,
+          291
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          155
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 740,
+          "top": 468,
+          "right": 1069,
+          "bottom": 674
+        },
+        "foot": [
+          197,
+          236
+        ],
+        "padding": [
+          32,
+          32,
+          151,
+          210
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 72,
+          "top": 758,
+          "right": 353,
+          "bottom": 1045
+        },
+        "foot": [
+          147,
+          317
+        ],
+        "padding": [
+          32,
+          32,
+          199,
+          129
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 428,
+          "top": 726,
+          "right": 711,
+          "bottom": 1045
+        },
+        "foot": [
+          144,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          197,
+          97
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 765,
+          "top": 711,
+          "right": 1047,
+          "bottom": 1063
+        },
+        "foot": [
+          174,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          198,
+          64
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 50,
+          "top": 1070,
+          "right": 342,
+          "bottom": 1409
+        },
+        "foot": [
+          237,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          188,
+          77
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 416,
+          "top": 1064,
+          "right": 709,
+          "bottom": 1406
+        },
+        "foot": [
+          176,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          187,
+          74
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 788,
+          "top": 1111,
+          "right": 1077,
+          "bottom": 1391
+        },
+        "foot": [
+          146,
+          311
+        ],
+        "padding": [
+          32,
+          32,
+          191,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-front-right",
+    "sources": [
+      {
+        "file": "yeonsal-front-right.png",
+        "sha256": "11436769599bc996b6dde98879a0e35c84e05ebdd8597f33a83317373021f3cf"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 49,
+          "top": 59,
+          "right": 304,
+          "bottom": 381
+        },
+        "foot": [
+          162,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          94
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 397,
+          "top": 71,
+          "right": 671,
+          "bottom": 383
+        },
+        "foot": [
+          175,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          104
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 766,
+          "top": 66,
+          "right": 1050,
+          "bottom": 383
+        },
+        "foot": [
+          178,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          132,
+          99
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 54,
+          "top": 412,
+          "right": 320,
+          "bottom": 732
+        },
+        "foot": [
+          165,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          150,
+          96
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 415,
+          "top": 419,
+          "right": 663,
+          "bottom": 731
+        },
+        "foot": [
+          156,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          104
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 721,
+          "top": 575,
+          "right": 1067,
+          "bottom": 735
+        },
+        "foot": [
+          205,
+          190
+        ],
+        "padding": [
+          32,
+          32,
+          70,
+          256
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 44,
+          "top": 767,
+          "right": 325,
+          "bottom": 1087
+        },
+        "foot": [
+          174,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          135,
+          96
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 409,
+          "top": 765,
+          "right": 683,
+          "bottom": 1088
+        },
+        "foot": [
+          167,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          142,
+          93
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 748,
+          "top": 766,
+          "right": 1073,
+          "bottom": 1088
+        },
+        "foot": [
+          175,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          91,
+          94
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 45,
+          "top": 1105,
+          "right": 381,
+          "bottom": 1410
+        },
+        "foot": [
+          179,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          80,
+          111
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 423,
+          "top": 1110,
+          "right": 680,
+          "bottom": 1410
+        },
+        "foot": [
+          160,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          116
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 782,
+          "top": 1104,
+          "right": 1036,
+          "bottom": 1410
+        },
+        "foot": [
+          161,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          110
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-front",
+    "sources": [
+      {
+        "file": "yeonsal-front.png",
+        "sha256": "67ed26d6183697a4dfd2973e7a8c10d1f2290c007e2af36bd6ef7debd4c9a71a"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 79,
+          "top": 35,
+          "right": 333,
+          "bottom": 378
+        },
+        "foot": [
+          151,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          73
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 420,
+          "top": 34,
+          "right": 681,
+          "bottom": 392
+        },
+        "foot": [
+          166,
+          389
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          58
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 762,
+          "top": 34,
+          "right": 1029,
+          "bottom": 399
+        },
+        "foot": [
+          155,
+          396
+        ],
+        "padding": [
+          32,
+          32,
+          149,
+          51
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 63,
+          "top": 400,
+          "right": 326,
+          "bottom": 745
+        },
+        "foot": [
+          156,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          153,
+          71
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 428,
+          "top": 409,
+          "right": 672,
+          "bottom": 741
+        },
+        "foot": [
+          156,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          172,
+          84
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 747,
+          "top": 557,
+          "right": 1055,
+          "bottom": 741
+        },
+        "foot": [
+          186,
+          214
+        ],
+        "padding": [
+          32,
+          32,
+          108,
+          232
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 75,
+          "top": 770,
+          "right": 351,
+          "bottom": 1094
+        },
+        "foot": [
+          165,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          92
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 409,
+          "top": 758,
+          "right": 694,
+          "bottom": 1096
+        },
+        "foot": [
+          178,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          78
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 749,
+          "top": 757,
+          "right": 1040,
+          "bottom": 1090
+        },
+        "foot": [
+          181,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          125,
+          83
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 60,
+          "top": 1095,
+          "right": 338,
+          "bottom": 1420
+        },
+        "foot": [
+          171,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          91
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 431,
+          "top": 1096,
+          "right": 682,
+          "bottom": 1417
+        },
+        "foot": [
+          157,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          165,
+          95
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 783,
+          "top": 1093,
+          "right": 1044,
+          "bottom": 1419
+        },
+        "foot": [
+          163,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-right",
+    "sources": [
+      {
+        "file": "yeonsal-right.png",
+        "sha256": "4e4843e820c4e645e34910f9c56c353f2828c5f7b4ceb3d87d3e451b60a5600b"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 39,
+          "top": 38,
+          "right": 332,
+          "bottom": 400
+        },
+        "foot": [
+          191,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          54
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 401,
+          "top": 42,
+          "right": 678,
+          "bottom": 400
+        },
+        "foot": [
+          181,
+          389
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          58
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 794,
+          "top": 54,
+          "right": 1066,
+          "bottom": 400
+        },
+        "foot": [
+          164,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          144,
+          70
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 52,
+          "top": 412,
+          "right": 332,
+          "bottom": 761
+        },
+        "foot": [
+          181,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          67
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 420,
+          "top": 439,
+          "right": 690,
+          "bottom": 761
+        },
+        "foot": [
+          159,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          94
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 708,
+          "top": 596,
+          "right": 1080,
+          "bottom": 759
+        },
+        "foot": [
+          218,
+          193
+        ],
+        "padding": [
+          32,
+          32,
+          44,
+          253
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 37,
+          "top": 771,
+          "right": 320,
+          "bottom": 1108
+        },
+        "foot": [
+          174,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          133,
+          79
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 398,
+          "top": 775,
+          "right": 685,
+          "bottom": 1108
+        },
+        "foot": [
+          169,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          129,
+          83
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 744,
+          "top": 776,
+          "right": 1081,
+          "bottom": 1110
+        },
+        "foot": [
+          175,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          79,
+          82
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 44,
+          "top": 1112,
+          "right": 381,
+          "bottom": 1431
+        },
+        "foot": [
+          176,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          79,
+          97
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 427,
+          "top": 1113,
+          "right": 683,
+          "bottom": 1431
+        },
+        "foot": [
+          163,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          98
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 799,
+          "top": 1114,
+          "right": 1047,
+          "bottom": 1432
+        },
+        "foot": [
+          162,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          98
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-rear-right",
+    "sources": [
+      {
+        "file": "yeonsal-rear-right.png",
+        "sha256": "371cab73f89e4651287f6dca361eb7900ca397e54744cfd0f0f27a1871067b2c"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 76,
+          "top": 50,
+          "right": 321,
+          "bottom": 371
+        },
+        "foot": [
+          163,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          171,
+          95
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 426,
+          "top": 56,
+          "right": 679,
+          "bottom": 388
+        },
+        "foot": [
+          165,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          84
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 784,
+          "top": 63,
+          "right": 1029,
+          "bottom": 384
+        },
+        "foot": [
+          175,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          171,
+          95
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 73,
+          "top": 408,
+          "right": 337,
+          "bottom": 735
+        },
+        "foot": [
+          165,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          152,
+          89
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 427,
+          "top": 421,
+          "right": 695,
+          "bottom": 737
+        },
+        "foot": [
+          170,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          100
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 739,
+          "top": 562,
+          "right": 1060,
+          "bottom": 735
+        },
+        "foot": [
+          193,
+          203
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          243
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 54,
+          "top": 752,
+          "right": 325,
+          "bottom": 1081
+        },
+        "foot": [
+          176,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          145,
+          87
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 426,
+          "top": 754,
+          "right": 690,
+          "bottom": 1081
+        },
+        "foot": [
+          165,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          152,
+          89
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 753,
+          "top": 751,
+          "right": 1074,
+          "bottom": 1082
+        },
+        "foot": [
+          177,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          85
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 50,
+          "top": 1089,
+          "right": 384,
+          "bottom": 1415
+        },
+        "foot": [
+          186,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          82,
+          90
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 441,
+          "top": 1093,
+          "right": 679,
+          "bottom": 1415
+        },
+        "foot": [
+          152,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          94
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 789,
+          "top": 1086,
+          "right": 1032,
+          "bottom": 1412
+        },
+        "foot": [
+          164,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-back",
+    "sources": [
+      {
+        "file": "yeonsal-back.png",
+        "sha256": "bbd7ea6a0b986fd0035505202145161702924256909d5990e10dc9da88233b44"
+      },
+      {
+        "file": "yeonsal-back-tiny-hit-v10.png",
+        "sha256": "6dcddcfea6c23b6cbef0914d83ae0eff8e331e411a86a259343bd35763922dbc"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 58,
+          "top": 42,
+          "right": 296,
+          "bottom": 409
+        },
+        "foot": [
+          150,
+          397
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          49
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 418,
+          "top": 45,
+          "right": 659,
+          "bottom": 428
+        },
+        "foot": [
+          187,
+          414
+        ],
+        "padding": [
+          32,
+          32,
+          175,
+          33
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 796,
+          "top": 42,
+          "right": 1021,
+          "bottom": 412
+        },
+        "foot": [
+          153,
+          400
+        ],
+        "padding": [
+          32,
+          32,
+          191,
+          46
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 35,
+          "top": 481,
+          "right": 275,
+          "bottom": 821
+        },
+        "foot": [
+          152,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          176,
+          76
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 436,
+          "top": 46,
+          "right": 667,
+          "bottom": 419
+        },
+        "foot": [
+          143,
+          403
+        ],
+        "padding": [
+          32,
+          32,
+          185,
+          43
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 295,
+          "top": 589,
+          "right": 551,
+          "bottom": 815
+        },
+        "foot": [
+          160,
+          256
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          190
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 566,
+          "top": 462,
+          "right": 801,
+          "bottom": 825
+        },
+        "foot": [
+          159,
+          394
+        ],
+        "padding": [
+          32,
+          32,
+          181,
+          53
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 832,
+          "top": 463,
+          "right": 1063,
+          "bottom": 825
+        },
+        "foot": [
+          137,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          185,
+          54
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 37,
+          "top": 940,
+          "right": 292,
+          "bottom": 1313
+        },
+        "foot": [
+          165,
+          404
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          43
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 317,
+          "top": 940,
+          "right": 550,
+          "bottom": 1305
+        },
+        "foot": [
+          151,
+          396
+        ],
+        "padding": [
+          32,
+          32,
+          183,
+          51
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 580,
+          "top": 944,
+          "right": 795,
+          "bottom": 1327
+        },
+        "foot": [
+          138,
+          414
+        ],
+        "padding": [
+          32,
+          32,
+          201,
+          33
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 827,
+          "top": 937,
+          "right": 1054,
+          "bottom": 1312
+        },
+        "foot": [
+          146,
+          404
+        ],
+        "padding": [
+          32,
+          32,
+          189,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohong-front-right",
+    "sources": [
+      {
+        "file": "sohong-front-right.png",
+        "sha256": "99a14867456b7798d12036be60fcfc1830b8e93644161279011bccf5ff7896b3"
+      },
+      {
+        "file": "sohong-front-right-chest-load-v7.png",
+        "sha256": "983feadf6d2767373d5d98182d305899fe1230acb664e986aaeb70cfddd9d2fb"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 15,
+          "top": 55,
+          "right": 349,
+          "bottom": 365
+        },
+        "foot": [
+          222,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          114,
+          74
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 374,
+          "top": 55,
+          "right": 723,
+          "bottom": 366
+        },
+        "foot": [
+          226,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          99,
+          73
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 738,
+          "top": 57,
+          "right": 1082,
+          "bottom": 369
+        },
+        "foot": [
+          215,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          104,
+          72
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 17,
+          "top": 405,
+          "right": 359,
+          "bottom": 725
+        },
+        "foot": [
+          217,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          106,
+          64
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 395,
+          "top": 423,
+          "right": 703,
+          "bottom": 724
+        },
+        "foot": [
+          205,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          83
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 704,
+          "top": 575,
+          "right": 1076,
+          "bottom": 743
+        },
+        "foot": [
+          218,
+          198
+        ],
+        "padding": [
+          32,
+          32,
+          76,
+          216
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 14,
+          "top": 763,
+          "right": 345,
+          "bottom": 1082
+        },
+        "foot": [
+          223,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          117,
+          65
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 396,
+          "top": 767,
+          "right": 692,
+          "bottom": 1082
+        },
+        "foot": [
+          201,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          152,
+          69
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 740,
+          "top": 777,
+          "right": 1085,
+          "bottom": 1077
+        },
+        "foot": [
+          228,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          103,
+          84
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 21,
+          "top": 1114,
+          "right": 413,
+          "bottom": 1404
+        },
+        "foot": [
+          217,
+          321
+        ],
+        "padding": [
+          32,
+          32,
+          56,
+          94
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 411,
+          "top": 1099,
+          "right": 724,
+          "bottom": 1403
+        },
+        "foot": [
+          229,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          135,
+          80
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 748,
+          "top": 1098,
+          "right": 1079,
+          "bottom": 1406
+        },
+        "foot": [
+          221,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          117,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohong-front",
+    "sources": [
+      {
+        "file": "sohong-front.png",
+        "sha256": "38839ad600e9487bfa3fbf14690e57860ad0c0114b4fe6db547f3482358601ca"
+      },
+      {
+        "file": "sohong-front-contact-v10.png",
+        "sha256": "687e0005c12903fa1056c78acfd4fc220cbca7851b69d31f0a3c04f374af3f55"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 39,
+          "right": 351,
+          "bottom": 380
+        },
+        "foot": [
+          196,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          43
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 387,
+          "top": 41,
+          "right": 696,
+          "bottom": 379
+        },
+        "foot": [
+          177,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          46
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 738,
+          "top": 38,
+          "right": 1063,
+          "bottom": 378
+        },
+        "foot": [
+          193,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          44
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 30,
+          "top": 393,
+          "right": 350,
+          "bottom": 727
+        },
+        "foot": [
+          196,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          50
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 401,
+          "top": 395,
+          "right": 694,
+          "bottom": 725
+        },
+        "foot": [
+          178,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          54
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 715,
+          "top": 523,
+          "right": 1073,
+          "bottom": 744
+        },
+        "foot": [
+          211,
+          251
+        ],
+        "padding": [
+          32,
+          32,
+          90,
+          163
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 16,
+          "top": 746,
+          "right": 368,
+          "bottom": 1084
+        },
+        "foot": [
+          207,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          96,
+          46
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 378,
+          "top": 746,
+          "right": 723,
+          "bottom": 1085
+        },
+        "foot": [
+          205,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          103,
+          45
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 740,
+          "top": 746,
+          "right": 1076,
+          "bottom": 1084
+        },
+        "foot": [
+          202,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          112,
+          46
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 16,
+          "top": 1089,
+          "right": 377,
+          "bottom": 1434
+        },
+        "foot": [
+          209,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          87,
+          39
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 384,
+          "top": 1089,
+          "right": 727,
+          "bottom": 1434
+        },
+        "foot": [
+          203,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          39
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 743,
+          "top": 1089,
+          "right": 1083,
+          "bottom": 1434
+        },
+        "foot": [
+          205,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          108,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohong-right",
+    "sources": [
+      {
+        "file": "sohong-right.png",
+        "sha256": "249f08b7166f7b7099ce9b7cf133129709446694bb7223a59d808cbf3864f46a"
+      },
+      {
+        "file": "sohong-right-chest-load-v7.png",
+        "sha256": "c7e13dd8d9345416527518b76f5c585bd518eecc2453aa9a7ab0cf245bcdf0e5"
+      },
+      {
+        "file": "sohong-right-final-v8.png",
+        "sha256": "2bc6ceb2b21bd7e0569f2377c33472d9a77d99ed89570e587b812a7c5a34615a"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 24,
+          "top": 42,
+          "right": 326,
+          "bottom": 380
+        },
+        "foot": [
+          216,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          46
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 383,
+          "top": 42,
+          "right": 713,
+          "bottom": 379
+        },
+        "foot": [
+          228,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          118,
+          47
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 737,
+          "top": 43,
+          "right": 1075,
+          "bottom": 380
+        },
+        "foot": [
+          237,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          110,
+          47
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 20,
+          "top": 403,
+          "right": 363,
+          "bottom": 746
+        },
+        "foot": [
+          228,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          41
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 408,
+          "top": 434,
+          "right": 680,
+          "bottom": 744
+        },
+        "foot": [
+          204,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          176,
+          74
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 704,
+          "top": 592,
+          "right": 1082,
+          "bottom": 754
+        },
+        "foot": [
+          221,
+          192
+        ],
+        "padding": [
+          32,
+          32,
+          70,
+          222
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 20,
+          "top": 777,
+          "right": 344,
+          "bottom": 1095
+        },
+        "foot": [
+          218,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          124,
+          66
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 381,
+          "top": 778,
+          "right": 711,
+          "bottom": 1096
+        },
+        "foot": [
+          238,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          118,
+          66
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 724,
+          "top": 782,
+          "right": 1079,
+          "bottom": 1088
+        },
+        "foot": [
+          208,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          93,
+          78
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 17,
+          "top": 1105,
+          "right": 423,
+          "bottom": 1417
+        },
+        "foot": [
+          227,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          42,
+          72
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 400,
+          "top": 1101,
+          "right": 707,
+          "bottom": 1422
+        },
+        "foot": [
+          229,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          63
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 747,
+          "top": 1103,
+          "right": 1061,
+          "bottom": 1424
+        },
+        "foot": [
+          219,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          134,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohong-rear-right",
+    "sources": [
+      {
+        "file": "sohong-rear-right.png",
+        "sha256": "5a82c2837076370b391051b922802ce8e8a00dc063aa9d8e70a0dd51b36c13f3"
+      },
+      {
+        "file": "sohong-rear-right-chest-v10.png",
+        "sha256": "c131be98e71393d6794b497b1b7624ec38047282e78ea2418e1e235da91bd21f"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 35,
+          "top": 42,
+          "right": 342,
+          "bottom": 370
+        },
+        "foot": [
+          210,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          56
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 379,
+          "top": 41,
+          "right": 703,
+          "bottom": 375
+        },
+        "foot": [
+          221,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          124,
+          50
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 739,
+          "top": 42,
+          "right": 1070,
+          "bottom": 378
+        },
+        "foot": [
+          230,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          117,
+          48
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 19,
+          "top": 386,
+          "right": 355,
+          "bottom": 715
+        },
+        "foot": [
+          216,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          112,
+          55
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 392,
+          "top": 436,
+          "right": 715,
+          "bottom": 716
+        },
+        "foot": [
+          211,
+          310
+        ],
+        "padding": [
+          32,
+          32,
+          125,
+          104
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 730,
+          "top": 554,
+          "right": 1077,
+          "bottom": 713
+        },
+        "foot": [
+          206,
+          189
+        ],
+        "padding": [
+          32,
+          32,
+          101,
+          225
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 10,
+          "top": 779,
+          "right": 341,
+          "bottom": 1109
+        },
+        "foot": [
+          221,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          117,
+          54
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 383,
+          "top": 784,
+          "right": 704,
+          "bottom": 1110
+        },
+        "foot": [
+          221,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          127,
+          58
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 719,
+          "top": 789,
+          "right": 1080,
+          "bottom": 1110
+        },
+        "foot": [
+          216,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          87,
+          63
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 8,
+          "top": 1127,
+          "right": 407,
+          "bottom": 1439
+        },
+        "foot": [
+          188,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          49,
+          72
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 400,
+          "top": 1125,
+          "right": 711,
+          "bottom": 1447
+        },
+        "foot": [
+          216,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          137,
+          62
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 739,
+          "top": 1082,
+          "right": 1067,
+          "bottom": 1410
+        },
+        "foot": [
+          244,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          120,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohong-back",
+    "sources": [
+      {
+        "file": "sohong-back.png",
+        "sha256": "a20a8b1dddf1d375bc7822e94e53851ac14c870d524226ea9d66313e5aae37b8"
+      },
+      {
+        "file": "sohong-back-left-fan-v10.png",
+        "sha256": "9dc6d3f18915997374594d12e4366e234ac1b0f1310521957761e925ab4d0263"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 61,
+          "top": 46,
+          "right": 346,
+          "bottom": 359
+        },
+        "foot": [
+          170,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          71
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 405,
+          "top": 50,
+          "right": 716,
+          "bottom": 363
+        },
+        "foot": [
+          168,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          137,
+          71
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 754,
+          "top": 48,
+          "right": 1061,
+          "bottom": 363
+        },
+        "foot": [
+          180,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          69
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 49,
+          "top": 405,
+          "right": 377,
+          "bottom": 712
+        },
+        "foot": [
+          183,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          120,
+          77
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 420,
+          "top": 406,
+          "right": 706,
+          "bottom": 707
+        },
+        "foot": [
+          183,
+          330
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          83
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 705,
+          "top": 530,
+          "right": 1063,
+          "bottom": 709
+        },
+        "foot": [
+          211,
+          209
+        ],
+        "padding": [
+          32,
+          32,
+          90,
+          205
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 47,
+          "top": 775,
+          "right": 380,
+          "bottom": 1079
+        },
+        "foot": [
+          186,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          115,
+          80
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 397,
+          "top": 776,
+          "right": 734,
+          "bottom": 1083
+        },
+        "foot": [
+          200,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          111,
+          77
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 758,
+          "top": 751,
+          "right": 1084,
+          "bottom": 1085
+        },
+        "foot": [
+          196,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          50
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 41,
+          "top": 1114,
+          "right": 394,
+          "bottom": 1424
+        },
+        "foot": [
+          195,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          74
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 397,
+          "top": 1100,
+          "right": 724,
+          "bottom": 1409
+        },
+        "foot": [
+          183,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          121,
+          75
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 771,
+          "top": 1100,
+          "right": 1059,
+          "bottom": 1409
+        },
+        "foot": [
+          177,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-front-right",
+    "sources": [
+      {
+        "file": "jeokcheon-front-right.png",
+        "sha256": "aa0d33601c640d94aa8eeebe7b19d286234cd4f88e906c11cac1d9e60084af5e"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-locomotion-0",
+        "sourceBounds": {
+          "left": 30,
+          "top": 39,
+          "right": 345,
+          "bottom": 378
+        },
+        "foot": [
+          219,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          165,
+          77
+        ]
+      },
+      {
+        "name": "1-locomotion-1",
+        "sourceBounds": {
+          "left": 375,
+          "top": 49,
+          "right": 699,
+          "bottom": 378
+        },
+        "foot": [
+          222,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          87
+        ]
+      },
+      {
+        "name": "1-locomotion-2",
+        "sourceBounds": {
+          "left": 741,
+          "top": 62,
+          "right": 1053,
+          "bottom": 381
+        },
+        "foot": [
+          218,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          97
+        ]
+      },
+      {
+        "name": "1-locomotion-3",
+        "sourceBounds": {
+          "left": 38,
+          "top": 425,
+          "right": 355,
+          "bottom": 740
+        },
+        "foot": [
+          215,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          101
+        ]
+      },
+      {
+        "name": "1-locomotion-4",
+        "sourceBounds": {
+          "left": 381,
+          "top": 438,
+          "right": 705,
+          "bottom": 742
+        },
+        "foot": [
+          226,
+          333
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          112
+        ]
+      },
+      {
+        "name": "1-locomotion-5",
+        "sourceBounds": {
+          "left": 728,
+          "top": 589,
+          "right": 1082,
+          "bottom": 753
+        },
+        "foot": [
+          209,
+          194
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          252
+        ]
+      },
+      {
+        "name": "1-combat-0",
+        "sourceBounds": {
+          "left": 11,
+          "top": 753,
+          "right": 360,
+          "bottom": 1098
+        },
+        "foot": [
+          213,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          71
+        ]
+      },
+      {
+        "name": "1-combat-1",
+        "sourceBounds": {
+          "left": 391,
+          "top": 774,
+          "right": 745,
+          "bottom": 1098
+        },
+        "foot": [
+          214,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          92
+        ]
+      },
+      {
+        "name": "1-combat-2",
+        "sourceBounds": {
+          "left": 764,
+          "top": 806,
+          "right": 1085,
+          "bottom": 1095
+        },
+        "foot": [
+          187,
+          320
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          127
+        ]
+      },
+      {
+        "name": "1-combat-3",
+        "sourceBounds": {
+          "left": 20,
+          "top": 1124,
+          "right": 418,
+          "bottom": 1434
+        },
+        "foot": [
+          202,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          82,
+          106
+        ]
+      },
+      {
+        "name": "1-combat-4",
+        "sourceBounds": {
+          "left": 372,
+          "top": 1130,
+          "right": 730,
+          "bottom": 1433
+        },
+        "foot": [
+          232,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          113
+        ]
+      },
+      {
+        "name": "1-combat-5",
+        "sourceBounds": {
+          "left": 743,
+          "top": 1120,
+          "right": 1063,
+          "bottom": 1436
+        },
+        "foot": [
+          226,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-front",
+    "sources": [
+      {
+        "file": "jeokcheon-front.png",
+        "sha256": "35d1f4eccfbd550eb46ec7f13291014afc45df0fddca205b8598d2ba93f7f418"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-locomotion-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 24,
+          "right": 366,
+          "bottom": 384
+        },
+        "foot": [
+          226,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          56
+        ]
+      },
+      {
+        "name": "0-locomotion-1",
+        "sourceBounds": {
+          "left": 376,
+          "top": 34,
+          "right": 716,
+          "bottom": 391
+        },
+        "foot": [
+          205,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          59
+        ]
+      },
+      {
+        "name": "0-locomotion-2",
+        "sourceBounds": {
+          "left": 739,
+          "top": 25,
+          "right": 1053,
+          "bottom": 400
+        },
+        "foot": [
+          236,
+          406
+        ],
+        "padding": [
+          32,
+          32,
+          166,
+          41
+        ]
+      },
+      {
+        "name": "0-locomotion-3",
+        "sourceBounds": {
+          "left": 32,
+          "top": 397,
+          "right": 369,
+          "bottom": 746
+        },
+        "foot": [
+          218,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          143,
+          67
+        ]
+      },
+      {
+        "name": "0-locomotion-4",
+        "sourceBounds": {
+          "left": 377,
+          "top": 416,
+          "right": 710,
+          "bottom": 742
+        },
+        "foot": [
+          238,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          147,
+          90
+        ]
+      },
+      {
+        "name": "0-locomotion-5",
+        "sourceBounds": {
+          "left": 735,
+          "top": 542,
+          "right": 1077,
+          "bottom": 756
+        },
+        "foot": [
+          203,
+          244
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          202
+        ]
+      },
+      {
+        "name": "0-combat-0",
+        "sourceBounds": {
+          "left": 25,
+          "top": 728,
+          "right": 366,
+          "bottom": 1096
+        },
+        "foot": [
+          208,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          48
+        ]
+      },
+      {
+        "name": "0-combat-1",
+        "sourceBounds": {
+          "left": 399,
+          "top": 756,
+          "right": 728,
+          "bottom": 1098
+        },
+        "foot": [
+          205,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          151,
+          74
+        ]
+      },
+      {
+        "name": "0-combat-2",
+        "sourceBounds": {
+          "left": 749,
+          "top": 785,
+          "right": 1066,
+          "bottom": 1108
+        },
+        "foot": [
+          110,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          93
+        ]
+      },
+      {
+        "name": "0-combat-3",
+        "sourceBounds": {
+          "left": 33,
+          "top": 1094,
+          "right": 404,
+          "bottom": 1425
+        },
+        "foot": [
+          188,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          109,
+          85
+        ]
+      },
+      {
+        "name": "0-combat-4",
+        "sourceBounds": {
+          "left": 375,
+          "top": 1113,
+          "right": 729,
+          "bottom": 1422
+        },
+        "foot": [
+          230,
+          340
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          107
+        ]
+      },
+      {
+        "name": "0-combat-5",
+        "sourceBounds": {
+          "left": 754,
+          "top": 1103,
+          "right": 1067,
+          "bottom": 1430
+        },
+        "foot": [
+          210,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          167,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-right",
+    "sources": [
+      {
+        "file": "jeokcheon-right.png",
+        "sha256": "94b65e71821bd1edc72dd8bcbff1b0720c067d6d64a09c95275def0ecf88b0ce"
+      },
+      {
+        "file": "jeokcheon-right-native-size-v12.png",
+        "sha256": "03c80caf16cde6359733d674d1936c2dd19b9b486732217458411e85403f8c7b"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-locomotion-0",
+        "sourceBounds": {
+          "left": 22,
+          "top": 36,
+          "right": 323,
+          "bottom": 390
+        },
+        "foot": [
+          243,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          179,
+          62
+        ]
+      },
+      {
+        "name": "2-locomotion-1",
+        "sourceBounds": {
+          "left": 382,
+          "top": 42,
+          "right": 692,
+          "bottom": 391
+        },
+        "foot": [
+          238,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          170,
+          67
+        ]
+      },
+      {
+        "name": "2-locomotion-2",
+        "sourceBounds": {
+          "left": 738,
+          "top": 62,
+          "right": 1054,
+          "bottom": 394
+        },
+        "foot": [
+          241,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          164,
+          84
+        ]
+      },
+      {
+        "name": "2-locomotion-3",
+        "sourceBounds": {
+          "left": 15,
+          "top": 427,
+          "right": 340,
+          "bottom": 756
+        },
+        "foot": [
+          232,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          87
+        ]
+      },
+      {
+        "name": "2-locomotion-4",
+        "sourceBounds": {
+          "left": 375,
+          "top": 439,
+          "right": 687,
+          "bottom": 757
+        },
+        "foot": [
+          237,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          98
+        ]
+      },
+      {
+        "name": "2-locomotion-5",
+        "sourceBounds": {
+          "left": 718,
+          "top": 581,
+          "right": 1079,
+          "bottom": 756
+        },
+        "foot": [
+          213,
+          205
+        ],
+        "padding": [
+          32,
+          32,
+          119,
+          241
+        ]
+      },
+      {
+        "name": "2-combat-0",
+        "sourceBounds": {
+          "left": 11,
+          "top": 775,
+          "right": 360,
+          "bottom": 1100
+        },
+        "foot": [
+          217,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          91
+        ]
+      },
+      {
+        "name": "2-combat-1",
+        "sourceBounds": {
+          "left": 384,
+          "top": 778,
+          "right": 728,
+          "bottom": 1100
+        },
+        "foot": [
+          215,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          136,
+          94
+        ]
+      },
+      {
+        "name": "2-combat-2",
+        "sourceBounds": {
+          "left": 353,
+          "top": 592,
+          "right": 775,
+          "bottom": 922
+        },
+        "foot": [
+          230,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          58,
+          86
+        ]
+      },
+      {
+        "name": "2-combat-3",
+        "sourceBounds": {
+          "left": 16,
+          "top": 1122,
+          "right": 425,
+          "bottom": 1436
+        },
+        "foot": [
+          223,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          71,
+          102
+        ]
+      },
+      {
+        "name": "2-combat-4",
+        "sourceBounds": {
+          "left": 364,
+          "top": 1118,
+          "right": 722,
+          "bottom": 1434
+        },
+        "foot": [
+          243,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          100
+        ]
+      },
+      {
+        "name": "2-combat-5",
+        "sourceBounds": {
+          "left": 738,
+          "top": 1123,
+          "right": 1061,
+          "bottom": 1438
+        },
+        "foot": [
+          240,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          157,
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-rear-right",
+    "sources": [
+      {
+        "file": "jeokcheon-rear-right.png",
+        "sha256": "b183ab65dd2d95bc668497e3d495d089a683286a0ba8e3a7695df69b1fcd49d3"
+      },
+      {
+        "file": "jeokcheon-rear-right-edge-v4.png",
+        "sha256": "b25e2d037ec8a07d92936b373d25a42aba0ad0a81979e8095c4f58e3965a4f1c"
+      },
+      {
+        "file": "jeokcheon-rear-right-contact-inset-v7.png",
+        "sha256": "d2d4c3be1322c5e1201a2171a5cab8f21601506b088d26a440c2eae4d79f23e6"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-locomotion-0",
+        "sourceBounds": {
+          "left": 32,
+          "top": 28,
+          "right": 403,
+          "bottom": 380
+        },
+        "foot": [
+          204,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          109,
+          64
+        ]
+      },
+      {
+        "name": "3-locomotion-1",
+        "sourceBounds": {
+          "left": 393,
+          "top": 35,
+          "right": 759,
+          "bottom": 380
+        },
+        "foot": [
+          204,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          114,
+          71
+        ]
+      },
+      {
+        "name": "3-locomotion-2",
+        "sourceBounds": {
+          "left": 710,
+          "top": 32,
+          "right": 1072,
+          "bottom": 385
+        },
+        "foot": [
+          213,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          118,
+          63
+        ]
+      },
+      {
+        "name": "3-locomotion-3",
+        "sourceBounds": {
+          "left": 51,
+          "top": 411,
+          "right": 408,
+          "bottom": 749
+        },
+        "foot": [
+          202,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          78
+        ]
+      },
+      {
+        "name": "3-locomotion-4",
+        "sourceBounds": {
+          "left": 388,
+          "top": 436,
+          "right": 736,
+          "bottom": 742
+        },
+        "foot": [
+          203,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          132,
+          110
+        ]
+      },
+      {
+        "name": "3-locomotion-5",
+        "sourceBounds": {
+          "left": 727,
+          "top": 583,
+          "right": 1079,
+          "bottom": 751
+        },
+        "foot": [
+          208,
+          198
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          248
+        ]
+      },
+      {
+        "name": "3-combat-0",
+        "sourceBounds": {
+          "left": 12,
+          "top": 757,
+          "right": 364,
+          "bottom": 1094
+        },
+        "foot": [
+          230,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          79
+        ]
+      },
+      {
+        "name": "3-combat-1",
+        "sourceBounds": {
+          "left": 401,
+          "top": 753,
+          "right": 735,
+          "bottom": 1102
+        },
+        "foot": [
+          196,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          67
+        ]
+      },
+      {
+        "name": "3-combat-2",
+        "sourceBounds": {
+          "left": 709,
+          "top": 786,
+          "right": 1067,
+          "bottom": 1102
+        },
+        "foot": [
+          200,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          100
+        ]
+      },
+      {
+        "name": "3-combat-3",
+        "sourceBounds": {
+          "left": 25,
+          "top": 1110,
+          "right": 420,
+          "bottom": 1418
+        },
+        "foot": [
+          206,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          85,
+          108
+        ]
+      },
+      {
+        "name": "3-combat-4",
+        "sourceBounds": {
+          "left": 382,
+          "top": 1120,
+          "right": 711,
+          "bottom": 1422
+        },
+        "foot": [
+          222,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          151,
+          114
+        ]
+      },
+      {
+        "name": "3-combat-5",
+        "sourceBounds": {
+          "left": 707,
+          "top": 1103,
+          "right": 1062,
+          "bottom": 1421
+        },
+        "foot": [
+          201,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          125,
+          98
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-back",
+    "sources": [
+      {
+        "file": "jeokcheon-back.png",
+        "sha256": "1d6f64261f4db850a0741ab46a94b198868f895664060c838e3b1348c0f278ac"
+      },
+      {
+        "file": "jeokcheon-back-edge-v4.png",
+        "sha256": "853d733782c47b6d75dddbab67d8ef7528b3cd1f5d4ec715e90bd016602a0754"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-locomotion-0",
+        "sourceBounds": {
+          "left": 52,
+          "top": 29,
+          "right": 389,
+          "bottom": 361
+        },
+        "foot": [
+          183,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          143,
+          84
+        ]
+      },
+      {
+        "name": "4-locomotion-1",
+        "sourceBounds": {
+          "left": 390,
+          "top": 30,
+          "right": 730,
+          "bottom": 361
+        },
+        "foot": [
+          192,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          140,
+          85
+        ]
+      },
+      {
+        "name": "4-locomotion-2",
+        "sourceBounds": {
+          "left": 760,
+          "top": 30,
+          "right": 1077,
+          "bottom": 362
+        },
+        "foot": [
+          183,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          84
+        ]
+      },
+      {
+        "name": "4-locomotion-3",
+        "sourceBounds": {
+          "left": 30,
+          "top": 390,
+          "right": 334,
+          "bottom": 721
+        },
+        "foot": [
+          142,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          176,
+          85
+        ]
+      },
+      {
+        "name": "4-locomotion-4",
+        "sourceBounds": {
+          "left": 413,
+          "top": 411,
+          "right": 754,
+          "bottom": 708
+        },
+        "foot": [
+          153,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          119
+        ]
+      },
+      {
+        "name": "4-locomotion-5",
+        "sourceBounds": {
+          "left": 747,
+          "top": 508,
+          "right": 1083,
+          "bottom": 736
+        },
+        "foot": [
+          200,
+          258
+        ],
+        "padding": [
+          32,
+          32,
+          144,
+          188
+        ]
+      },
+      {
+        "name": "4-combat-0",
+        "sourceBounds": {
+          "left": 44,
+          "top": 753,
+          "right": 355,
+          "bottom": 1055
+        },
+        "foot": [
+          197,
+          333
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          114
+        ]
+      },
+      {
+        "name": "4-combat-1",
+        "sourceBounds": {
+          "left": 397,
+          "top": 734,
+          "right": 722,
+          "bottom": 1058
+        },
+        "foot": [
+          214,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          155,
+          92
+        ]
+      },
+      {
+        "name": "4-combat-2",
+        "sourceBounds": {
+          "left": 714,
+          "top": 788,
+          "right": 1078,
+          "bottom": 1082
+        },
+        "foot": [
+          179,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          116,
+          122
+        ]
+      },
+      {
+        "name": "4-combat-3",
+        "sourceBounds": {
+          "left": 37,
+          "top": 1097,
+          "right": 411,
+          "bottom": 1405
+        },
+        "foot": [
+          224,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          106,
+          108
+        ]
+      },
+      {
+        "name": "4-combat-4",
+        "sourceBounds": {
+          "left": 408,
+          "top": 1083,
+          "right": 767,
+          "bottom": 1406
+        },
+        "foot": [
+          176,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          121,
+          93
+        ]
+      },
+      {
+        "name": "4-combat-5",
+        "sourceBounds": {
+          "left": 778,
+          "top": 1076,
+          "right": 1081,
+          "bottom": 1406
+        },
+        "foot": [
+          170,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          177,
+          86
+        ]
+      }
+    ]
+  }
+]

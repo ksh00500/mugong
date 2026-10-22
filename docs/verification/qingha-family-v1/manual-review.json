@@ -1,0 +1,135 @@
+{
+  "reviewedAtUTC": "2026-10-05T10:38:36.089Z",
+  "method": "Direct visual review of generated sources, all seven contact sheets and actual browser screenshots; no anatomy certification.",
+  "contactSheets": [
+    "contact/qingharaider.png",
+    "contact/qinghaguard.png",
+    "contact/qinghabowman.png",
+    "contact/madabong.png",
+    "contact/nojin.png",
+    "contact/cheolmu.png",
+    "contact/hanmugeuk.png"
+  ],
+  "groundPoints": [
+    {
+      "id": "qinghaguard-front",
+      "pose": 8,
+      "source": "qinghaguard-front.png",
+      "point": [
+        187,
+        322
+      ],
+      "fromFigureBottom": 58,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "qinghaguard-front-right",
+      "pose": 4,
+      "source": "qinghaguard-front-right.png",
+      "point": [
+        216,
+        405
+      ],
+      "fromFigureBottom": 13,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "qinghaguard-rear-right",
+      "pose": 10,
+      "source": "qinghaguard-rear-right.png",
+      "point": [
+        171,
+        321
+      ],
+      "fromFigureBottom": 13,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "madabong-front",
+      "pose": 9,
+      "source": "madabong-front.png",
+      "point": [
+        173,
+        314
+      ],
+      "fromFigureBottom": 26,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "madabong-front-right",
+      "pose": 9,
+      "source": "madabong-front-right.png",
+      "point": [
+        179,
+        312
+      ],
+      "fromFigureBottom": 16,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "nojin-back",
+      "pose": 6,
+      "source": "nojin-back.png",
+      "point": [
+        93,
+        291
+      ],
+      "fromFigureBottom": 36,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "cheolmu-front",
+      "pose": 9,
+      "source": "cheolmu-front-repair-17.png",
+      "point": [
+        177,
+        327
+      ],
+      "fromFigureBottom": 19,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "hanmugeuk-front",
+      "pose": 8,
+      "source": "hanmugeuk-front.png",
+      "point": [
+        183,
+        353
+      ],
+      "fromFigureBottom": 26,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    },
+    {
+      "id": "hanmugeuk-front-right",
+      "pose": 9,
+      "source": "hanmugeuk-front-right.png",
+      "point": [
+        206,
+        327
+      ],
+      "fromFigureBottom": 13,
+      "manualReview": null,
+      "decision": "Retain reviewed boot-ground coordinate; weapon tip may extend below it. No frame scaling applied."
+    }
+  ],
+  "corrections": [
+    "Dao north contact lowered after actual renderer comparison",
+    "Right-hand chain ownership on rear views",
+    "Two-handed straight spear grip and front/back foreshortening",
+    "Wide prone/follow-through source selection without cropping or rescaling"
+  ],
+  "limitations": [
+    "Fine body/head dimensions were visually compared, not numerically certified",
+    "Boss special patterns still share representative attack cycles",
+    "Death uses one fading pose",
+    "Opposite directions use horizontal mirroring"
+  ]
+}

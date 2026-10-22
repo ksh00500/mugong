@@ -1,0 +1,845 @@
+/* This component owns the complete bag workspace, including compact layouts. */
+.app-shell .glance-workspace .item-tile.selected {
+  background: var(--surface-selected);
+  border-color: var(--jade);
+  box-shadow: var(--shadow-selected);
+}
+.app-shell .glance-workspace .character-martial-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.app-shell .glance-workspace .character-martial-heading h3 {
+  margin: 0;
+}
+.app-shell .glance-workspace .inventory-trays {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.app-shell .glance-workspace .inventory-trays:has(> :only-child) {
+  grid-template-columns: minmax(0, 1fr);
+}
+.app-shell .glance-workspace .item-detail > p {
+  margin-block: 6px;
+}
+.app-shell .glance-workspace .item-detail dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px 12px;
+}
+.app-shell .glance-workspace .item-detail dd {
+  margin: 0;
+  text-align: right;
+}
+
+.app-shell .glance-workspace {
+  --profile-width: clamp(184px, 14vw, 208px);
+  --detail-width: clamp(248px, 21vw, 300px);
+  --cell: min(
+    64px,
+    calc((100dvh - 364px) / 8),
+    calc((100vw - var(--profile-width) - var(--detail-width) - 80px) / 14)
+  );
+  display: grid;
+  grid-template-rows: 64px minmax(0, 1fr) clamp(94px, 14vh, 126px) 56px;
+  gap: 8px;
+  padding: 0 16px 8px;
+}
+.app-shell .glance-workspace .inventory-columns {
+  --cell: inherit;
+  display: grid;
+  grid-template-columns: var(--profile-width) calc(var(--cell) * 4) calc(var(--cell) * 10) var(
+      --detail-width
+    );
+  grid-template-rows: 1fr;
+  gap: 16px;
+  align-content: start;
+  align-items: start;
+  justify-content: center;
+  padding: 4px 0;
+}
+.app-shell .glance-workspace .inventory-columns > .inventory-character {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  gap: 16px;
+  width: 100%;
+  padding: 0 16px 0 0;
+  border: 0;
+  border-right: 1px solid var(--line);
+  min-width: 0;
+}
+.app-shell .glance-workspace .inventory-columns > .bag-column {
+  display: block;
+  grid-column: 2;
+  grid-row: 1;
+}
+.app-shell .glance-workspace .inventory-columns > .general-column {
+  grid-column: 3;
+}
+.app-shell .glance-workspace .bag-arrange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  min-width: 168px;
+  min-height: 48px;
+  height: 48px;
+  margin: 0;
+  flex: none;
+  white-space: nowrap;
+  padding: 4px 8px;
+  font-size: 20px;
+  color: var(--jade);
+  border: 2px solid var(--jade);
+}
+.app-shell .glance-workspace .bag-arrange .ui-icon {
+  width: 30px;
+  height: 30px;
+}
+.app-shell .glance-workspace .general-column .bag-usage-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+}
+.app-shell .glance-workspace .general-column .bag-dimensions {
+  justify-self: end;
+}
+.app-shell .glance-workspace .bag-column:not(.general-column) .bag-usage-heading {
+  min-height: 48px;
+}
+@media (max-width: 1200px), (max-height: 720px) {
+  .app-shell .glance-workspace .general-column .bag-title-full {
+    display: none;
+  }
+  .app-shell .glance-workspace .general-column .bag-title-short {
+    display: inline;
+  }
+  .app-shell .glance-workspace .bag-arrange {
+    min-width: 140px;
+    min-height: 44px;
+    height: 44px;
+    margin-top: 0;
+    padding: 4px;
+    font-size: 17px;
+  }
+  .app-shell .glance-workspace .general-column .bag-usage-heading,
+  .app-shell .glance-workspace .bag-column:not(.general-column) .bag-usage-heading {
+    min-height: 44px;
+  }
+}
+.app-shell .glance-workspace .inventory-columns > .item-detail {
+  display: block;
+  grid-column: 4;
+  grid-row: 1;
+  width: 100%;
+  padding: 0 0 0 16px;
+  border: 0;
+  border-left: 1px solid var(--line);
+  justify-self: stretch;
+}
+.app-shell .glance-workspace .inventory-identity {
+  display: grid;
+  gap: 2px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.app-shell .glance-workspace .inventory-name {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 24px;
+  margin: 0;
+}
+.app-shell .glance-workspace .inventory-character :is(section, h3, p) {
+  margin: 0;
+}
+.app-shell .glance-workspace .inventory-character h3 {
+  display: block;
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  padding: 0;
+  border: 0;
+}
+.app-shell .glance-workspace .character-status .health-line,
+.app-shell .glance-workspace .character-status .remaining {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.app-shell .glance-workspace .character-status .health-line .ui-icon,
+.app-shell .glance-workspace .character-status .remaining .ui-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
+.app-shell .glance-workspace .character-status .meter {
+  height: 7px;
+  margin: 4px 0 8px;
+}
+.app-shell .glance-workspace .character-status .remaining {
+  padding: 0;
+  border: 0;
+}
+.app-shell .glance-workspace .binding-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+}
+.app-shell .glance-workspace .binding-list > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: start;
+  gap: 2px;
+  min-width: 0;
+  min-height: 0;
+  padding: 4px 0;
+  border-radius: 8px;
+  background: #e9dfc44d;
+}
+.app-shell .glance-workspace .binding-list .art-glyph {
+  display: block;
+  width: 36px;
+  height: 36px;
+  flex: none;
+}
+.app-shell .glance-workspace .binding-list b {
+  font-size: 13px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.app-shell .glance-workspace .binding-list .art-bind {
+  width: 100%;
+  min-height: 28px;
+  padding: 2px 0;
+  font-size: 12px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+.app-shell .glance-workspace .art-bind[aria-pressed='true'] {
+  color: #fff9ed;
+  background: var(--jade);
+  background-image: none;
+}
+.app-shell .glance-workspace .bound-weapon {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  width: 18px;
+  height: 24px;
+  pointer-events: none;
+}
+.app-shell .glance-workspace .bound-weapon .item-art {
+  width: 100%;
+  height: 100%;
+}
+.app-shell .glance-workspace .inventory-status {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.app-shell .glance-workspace .inventory-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.app-shell .glance-workspace .inventory-controls button {
+  min-height: 36px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.app-shell .glance-workspace:has(.inventory-next) {
+  --cell: min(
+    64px,
+    calc((100dvh - 380px) / 8),
+    calc((100vw - var(--profile-width) - var(--detail-width) - 80px) / 14)
+  );
+  grid-template-rows: 64px minmax(0, 1fr) clamp(94px, 14vh, 126px) 72px;
+}
+.app-shell .glance-workspace .inventory-controls .inventory-next {
+  min-width: 240px;
+  min-height: 60px;
+  padding: 10px 20px;
+  font-size: 24px;
+  line-height: 1.3;
+}
+.app-shell .glance-workspace .binding-list > p {
+  grid-column: 1 / -1;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.app-shell .glance-workspace .equipped-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+.app-shell .glance-workspace .equipped-list > div {
+  min-width: 0;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.app-shell .glance-workspace .equipped-list :is(.item-tile, .empty-equipment) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 100%;
+  min-height: 0;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f5efd77d;
+}
+.app-shell .glance-workspace .equipped-list .empty-equipment .item-art {
+  opacity: 0.3;
+  filter: saturate(0.3);
+}
+.app-shell .glance-workspace .equipped-list .item-art {
+  width: 42px;
+  height: 42px;
+  max-width: 100%;
+}
+.app-shell .glance-workspace .equipped-list .item-tile small {
+  display: none;
+}
+.app-shell .glance-workspace .equipped-list > div > small {
+  font-size: 11px;
+  line-height: 1.25;
+  display: block;
+  margin-top: 3px;
+  overflow-wrap: anywhere;
+}
+.app-shell .glance-workspace .placement-preview {
+  padding: 2px;
+  min-width: 0;
+  min-height: 0;
+  border-width: 2px;
+  border-radius: 4px;
+  box-shadow: none;
+  pointer-events: none;
+}
+.app-shell .glance-workspace .placement-preview .item-art {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.app-shell .glance-workspace .placement-feedback {
+  max-width: 100%;
+  font-size: 13px;
+  line-height: 1.3;
+  padding: 4px 6px;
+}
+.app-shell .glance-workspace .empty-detail {
+  min-height: 0;
+  padding: 16px 8px;
+  gap: 8px;
+}
+.app-shell .glance-workspace .empty-detail .ui-icon {
+  width: 40px;
+  height: 40px;
+}
+.app-shell .glance-workspace .empty-detail p {
+  margin: 0;
+  font-size: 16px;
+}
+.app-shell .glance-workspace .item-actions button:last-child {
+  grid-column: auto;
+}
+.app-shell .glance-workspace .item-actions kbd {
+  display: none;
+}
+.app-shell .glance-workspace .inventory-tray .paged-items {
+  flex-direction: row;
+  gap: 6px;
+}
+.app-shell .glance-workspace .inventory-tray .paged-item-list {
+  grid-template-rows: minmax(0, 1fr);
+  min-height: 0;
+}
+.app-shell .glance-workspace .inventory-tray .paged-item-list > .item-tile {
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  gap: 0;
+  padding: 2px;
+}
+.app-shell .glance-workspace .inventory-tray .paged-item-list .item-art {
+  min-height: 0;
+  flex: 1;
+  height: 100%;
+  max-height: calc(100% - 18px);
+}
+.app-shell .glance-workspace .inventory-tray .item-pagination {
+  display: grid;
+  grid-template-columns: 28px 28px;
+  grid-template-rows: 28px 16px;
+  gap: 0;
+  align-content: center;
+}
+.app-shell .glance-workspace .inventory-tray .item-pagination button {
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  grid-row: 1;
+}
+.app-shell .glance-workspace .inventory-tray .item-pagination button:first-child {
+  grid-column: 1;
+}
+.app-shell .glance-workspace .inventory-tray .item-pagination button:last-child {
+  grid-column: 2;
+}
+.app-shell .glance-workspace .inventory-tray .item-pagination span {
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  font-size: 11px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-height: 800px) and (min-width: 901px) {
+  .app-shell .glance-workspace .inventory-columns > .inventory-character {
+    gap: 6px;
+  }
+}
+@media (max-height: 700px) and (min-width: 901px) {
+  .app-shell .glance-workspace .inventory-columns > .inventory-character {
+    gap: 2px;
+  }
+  .app-shell .glance-workspace .inventory-character h3 {
+    margin-bottom: 2px;
+    font-size: 15px;
+  }
+  .app-shell .glance-workspace .binding-list > div {
+    padding-block: 2px;
+  }
+  .app-shell .glance-workspace .equipped-list :is(.item-tile, .empty-equipment) {
+    height: 34px;
+  }
+  .app-shell .glance-workspace .equipped-list .item-art {
+    width: 30px;
+    height: 30px;
+  }
+  .app-shell .glance-workspace .binding-list .art-glyph {
+    width: 28px;
+    height: 28px;
+  }
+  .app-shell .glance-workspace .character-status .meter {
+    margin: 3px 0 4px;
+  }
+  .app-shell .glance-workspace .item-detail h4 {
+    font-size: 23px;
+  }
+  .app-shell .glance-workspace .detail-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .app-shell .glance-workspace .detail-icon .item-art {
+    width: 44px;
+    height: 44px;
+  }
+  .app-shell .glance-workspace .item-detail > p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .app-shell .glance-workspace .item-detail dl {
+    font-size: 15px;
+    margin: 4px 0;
+    gap: 4px;
+  }
+  .app-shell .glance-workspace .item-actions {
+    gap: 4px;
+    margin-top: 0;
+  }
+  .app-shell .glance-workspace .item-actions button {
+    min-height: 36px;
+    font-size: 14px;
+  }
+  .app-shell .glance-workspace .bag-usage h3 {
+    font-size: 18px;
+  }
+}
+
+/* At smaller widths the same information becomes a summary strip, without tabs. */
+@media (max-width: 900px), (max-height: 590px) {
+  .app-shell .glance-workspace {
+    position: relative;
+  }
+  .app-shell .glance-workspace .general-column .bag-usage-heading {
+    grid-template-columns: minmax(0, 1fr) auto;
+    min-height: 0;
+  }
+  .app-shell .glance-workspace .bag-column:not(.general-column) .bag-usage-heading {
+    min-height: 0;
+  }
+  /* Compact windows keep the action beside the workspace title, above both bags. */
+  .app-shell .glance-workspace .bag-arrange {
+    position: absolute;
+    top: 3px;
+    right: 106px;
+    min-width: 122px;
+    min-height: 38px;
+    height: 38px;
+    font-size: 14px;
+    padding: 4px;
+  }
+  .app-shell .glance-workspace {
+    --cell: min(40px, calc((100dvh - 506px) / 8), calc((100vw - 40px) / 14));
+    grid-template-rows: 48px minmax(0, 1fr) 94px 64px;
+    padding: 0 10px 6px;
+    gap: 6px;
+  }
+  .app-shell .glance-workspace .inventory-status {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 36px;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .app-shell .glance-workspace .inventory-controls {
+    justify-content: end;
+  }
+  .app-shell .glance-workspace:has(.inventory-next) {
+    --cell: min(40px, calc((100dvh - 514px) / 8), calc((100vw - 40px) / 14));
+    grid-template-rows: 48px minmax(0, 1fr) 94px 72px;
+  }
+  .app-shell .glance-workspace:has(.inventory-next) .inventory-status {
+    grid-template-rows: auto 44px;
+  }
+  .app-shell .glance-workspace .inventory-controls .inventory-next {
+    min-width: 180px;
+    min-height: 44px;
+    padding: 6px 12px;
+    font-size: 18px;
+  }
+  .app-shell .glance-workspace .inventory-shortcuts {
+    display: none;
+  }
+  .app-shell .glance-workspace .inventory-columns {
+    grid-template-columns: calc(var(--cell) * 4) calc(var(--cell) * 10);
+    grid-template-rows: auto auto minmax(0, 1fr);
+    gap: 6px 12px;
+    padding: 0;
+  }
+  .app-shell .glance-workspace .bag-title-full {
+    display: none;
+  }
+  .app-shell .glance-workspace .bag-title-short {
+    display: inline;
+  }
+  .app-shell .glance-workspace .bag-usage h3 {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .app-shell .glance-workspace .bag-usage-numbers {
+    font-size: 12px;
+  }
+  .app-shell .glance-workspace .bag-usage-numbers strong {
+    font-size: 14px;
+  }
+  .app-shell .glance-workspace .inventory-columns > .inventory-character {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 4px 12px;
+    width: calc(100vw - 20px);
+    justify-self: center;
+    padding: 0;
+    border: 0;
+  }
+  .app-shell .glance-workspace .inventory-identity {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .app-shell .glance-workspace .inventory-name {
+    font-size: 18px;
+  }
+  .app-shell .glance-workspace .character-status {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+  }
+  .app-shell .glance-workspace .character-status :is(.health-line, .remaining) {
+    font-size: 12px;
+    gap: 2px;
+  }
+  .app-shell .glance-workspace .character-status .meter {
+    display: none;
+  }
+  .app-shell .glance-workspace .character-status :is(.health-line, .remaining) .ui-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .app-shell .glance-workspace .inventory-character h3 {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .app-shell .glance-workspace .character-info {
+    display: flex;
+    align-items: start;
+    gap: 4px;
+  }
+  .app-shell .glance-workspace .binding-list {
+    flex: 1;
+    gap: 2px;
+  }
+  .app-shell .glance-workspace .binding-list > div {
+    padding: 0;
+    gap: 0;
+  }
+  .app-shell .glance-workspace .binding-list .art-glyph {
+    width: 26px;
+    height: 26px;
+  }
+  .app-shell .glance-workspace .binding-list b {
+    font-size: 11px;
+  }
+  .app-shell .glance-workspace .character-equipment {
+    display: flex;
+    align-items: start;
+    gap: 4px;
+  }
+  .app-shell .glance-workspace .equipped-list {
+    flex: 1;
+    gap: 3px;
+  }
+  .app-shell .glance-workspace .equipped-list :is(.item-tile, .empty-equipment) {
+    height: 34px;
+  }
+  .app-shell .glance-workspace .equipped-list .item-art {
+    width: 28px;
+    height: 28px;
+  }
+  .app-shell .glance-workspace .equipped-list > div > small {
+    font-size: 10px;
+    margin: 0;
+  }
+  .app-shell .glance-workspace .inventory-columns > .bag-column {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .app-shell .glance-workspace .inventory-columns > .general-column {
+    grid-column: 2;
+  }
+  .app-shell .glance-workspace .inventory-columns > .item-detail {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 3;
+    width: calc(100vw - 20px);
+    justify-self: center;
+    padding: 0;
+    border: 0;
+    gap: 2px;
+  }
+  .app-shell .glance-workspace .item-detail > h3 {
+    display: none;
+  }
+  .app-shell .glance-workspace .detail-icon {
+    display: none;
+  }
+  .app-shell .glance-workspace .detail-heading {
+    display: block;
+  }
+  .app-shell .glance-workspace .detail-heading > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+  }
+  .app-shell .glance-workspace .item-footprint {
+    font-size: 13px;
+  }
+  .app-shell .glance-workspace .item-location {
+    display: none;
+  }
+  .app-shell .glance-workspace .item-actions :is(.ui-icon, kbd) {
+    display: none;
+  }
+  .app-shell .glance-workspace .item-detail h4 {
+    font-size: 18px;
+  }
+  .app-shell .glance-workspace .item-detail > p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.25;
+  }
+  .app-shell .glance-workspace .item-detail dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 13px;
+    gap: 4px;
+  }
+  .app-shell .glance-workspace .item-detail dl :is(dt, dd):nth-of-type(2) {
+    display: none;
+  }
+  .app-shell .glance-workspace .item-actions {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    margin-top: 2px;
+  }
+  .app-shell .glance-workspace .item-actions button {
+    min-height: 32px;
+    font-size: 13px;
+    padding: 2px 4px;
+  }
+}
+
+/* Empty cells describe space; only a real drag offers placement feedback. */
+@media (max-height: 590px) {
+  .app-shell .glance-workspace {
+    --cell: min(24px, max(9px, calc((100dvh - 456px) / 8)), calc((100vw - 40px) / 14));
+    grid-template-rows: 46px minmax(0, 1fr) 78px 64px;
+    gap: 6px;
+  }
+  .app-shell .glance-workspace:has(.inventory-next) {
+    --cell: min(24px, max(9px, calc((100dvh - 464px) / 8)), calc((100vw - 40px) / 14));
+    grid-template-rows: 46px minmax(0, 1fr) 78px 72px;
+  }
+  .app-shell .glance-workspace .dialog-header h2 {
+    font-size: 22px;
+  }
+  .app-shell .glance-workspace .dialog-header button {
+    height: 34px;
+  }
+  .app-shell .glance-workspace .inventory-columns > .inventory-character {
+    gap: 2px 8px;
+  }
+  .app-shell .glance-workspace .inventory-character h3 {
+    display: none;
+  }
+  .app-shell .glance-workspace .character-info,
+  .app-shell .glance-workspace .character-equipment {
+    min-width: 0;
+  }
+  .app-shell .glance-workspace .binding-list .art-glyph {
+    width: 22px;
+    height: 22px;
+  }
+  .app-shell .glance-workspace .binding-list .art-bind {
+    min-height: 24px;
+  }
+  .app-shell .glance-workspace .equipped-list :is(.item-tile, .empty-equipment) {
+    height: 30px;
+  }
+  .app-shell .glance-workspace .equipped-list .item-art {
+    width: 26px;
+    height: 26px;
+  }
+  .app-shell .glance-workspace .equipped-list > div > small {
+    display: none;
+  }
+  .app-shell .glance-workspace .bag-usage {
+    gap: 0;
+  }
+  .app-shell .glance-workspace .bag-usage h3 {
+    font-size: 14px;
+  }
+  .app-shell .glance-workspace .bag-usage-numbers strong {
+    font-size: 13px;
+  }
+  .app-shell .glance-workspace .bag-usage-meter {
+    height: 2px;
+  }
+  .app-shell .glance-workspace .empty-detail {
+    padding: 4px;
+  }
+  .app-shell .glance-workspace .item-actions button {
+    min-height: 28px;
+  }
+}
+@media (max-height: 590px) and (min-width: 901px) {
+  .app-shell .glance-workspace {
+    grid-template-rows: 46px minmax(0, 1fr) 70px 40px;
+    gap: 4px;
+  }
+  .app-shell .glance-workspace:has(.inventory-next) {
+    grid-template-rows: 46px minmax(0, 1fr) 62px 56px;
+  }
+  .app-shell .glance-workspace .inventory-status {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: 1fr;
+  }
+}
+.inventory-workspace .bag-grid .bag-cell {
+  cursor: default;
+  background: transparent;
+  transform: none;
+  filter: none;
+  transition: none;
+}
+.inventory-workspace .bag-grid .bag-cell:hover {
+  background: transparent;
+}
+.inventory-workspace .bag-grid[data-dragging='true'] .bag-cell.valid {
+  background: #438c4f12;
+}
+
+/* The destructive action must keep its dark face above the shared paper-button artwork. */
+.app-shell .glance-workspace .confirm-overlay button.danger {
+  color: #fff9ed;
+  background: #883c32;
+  background-image: none;
+  border-color: #642a24;
+}
+.app-shell .glance-workspace .confirm-overlay button.danger:hover:not(:disabled) {
+  color: #fff9ed;
+  background: #6d302a;
+  background-image: none;
+  border-color: #56231f;
+}
+
+@media (max-width: 600px) {
+  .app-shell .glance-workspace .dialog-header {
+    gap: 6px;
+  }
+  .app-shell .glance-workspace .dialog-header h2 {
+    font-size: 19px;
+    gap: 5px;
+  }
+  .app-shell .glance-workspace .dialog-seal {
+    width: 25px;
+    height: 25px;
+  }
+  .app-shell .glance-workspace .bag-arrange {
+    min-width: 122px;
+    margin-left: 0;
+    gap: 4px;
+    font-size: 14px;
+    right: 96px;
+  }
+  .app-shell .glance-workspace .bag-arrange .ui-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .app-shell .glance-workspace .dialog-header > button:last-child {
+    min-width: 60px;
+    padding-inline: 5px;
+    font-size: 13px;
+  }
+}

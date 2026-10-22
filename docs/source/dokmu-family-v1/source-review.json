@@ -1,0 +1,7842 @@
+[
+  {
+    "id": "needle-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5153733351647792,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          59,
+          35,
+          331,
+          381
+        ],
+        "area": 58958,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          29,
+          39,
+          323,
+          382
+        ],
+        "area": 58623,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          41,
+          46,
+          313,
+          381
+        ],
+        "area": 55633,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          47,
+          35,
+          315,
+          372
+        ],
+        "area": 55095,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          37,
+          35,
+          304,
+          367
+        ],
+        "area": 55645,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          6,
+          209,
+          346,
+          371
+        ],
+        "area": 37694,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          26,
+          17,
+          334,
+          343
+        ],
+        "area": 58803,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          29,
+          19,
+          324,
+          341
+        ],
+        "area": 57416,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "needle-release-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 1,
+        "bounds": [
+          20,
+          19,
+          301,
+          345
+        ],
+        "area": 59605,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "needle-release-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 2,
+        "bounds": [
+          44,
+          -13,
+          345,
+          332
+        ],
+        "area": 63775,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 9,
+        "bounds": [
+          58,
+          -10,
+          336,
+          327
+        ],
+        "area": 58208,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "needle-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 10,
+        "bounds": [
+          57,
+          -12,
+          332,
+          335
+        ],
+        "area": 59185,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "needle-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4220013888464943,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          33,
+          8,
+          344,
+          373
+        ],
+        "area": 71109,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          29,
+          8,
+          349,
+          375
+        ],
+        "area": 71988,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          11,
+          8,
+          329,
+          378
+        ],
+        "area": 72058,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          8,
+          346,
+          372
+        ],
+        "area": 72234,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          25,
+          12,
+          339,
+          372
+        ],
+        "area": 70334,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -6,
+          167,
+          345,
+          373
+        ],
+        "area": 44237,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          23,
+          7,
+          340,
+          358
+        ],
+        "area": 70879,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          25,
+          8,
+          345,
+          357
+        ],
+        "area": 71069,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          25,
+          8,
+          342,
+          356
+        ],
+        "area": 71246,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          21,
+          -16,
+          341,
+          346
+        ],
+        "area": 72545,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          17,
+          -16,
+          340,
+          346
+        ],
+        "area": 71227,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "needle-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          23,
+          -16,
+          341,
+          346
+        ],
+        "area": 70570,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "needle-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4782286865480297,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          49,
+          37,
+          328,
+          395
+        ],
+        "area": 61595,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          34,
+          31,
+          321,
+          394
+        ],
+        "area": 64392,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          38,
+          330,
+          396
+        ],
+        "area": 65458,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          42,
+          46,
+          331,
+          391
+        ],
+        "area": 63048,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          45,
+          44,
+          329,
+          387
+        ],
+        "area": 62731,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -13,
+          222,
+          349,
+          383
+        ],
+        "area": 40812,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          27,
+          43,
+          358,
+          362
+        ],
+        "area": 63680,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          38,
+          46,
+          351,
+          362
+        ],
+        "area": 62142,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          29,
+          47,
+          357,
+          361
+        ],
+        "area": 62102,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          44,
+          10,
+          364,
+          344
+        ],
+        "area": 64340,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          50,
+          7,
+          339,
+          345
+        ],
+        "area": 63122,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "needle-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          56,
+          6,
+          332,
+          347
+        ],
+        "area": 58483,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "needle-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5191004548090717,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          68,
+          31,
+          310,
+          382
+        ],
+        "area": 57678,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          43,
+          35,
+          316,
+          378
+        ],
+        "area": 55284,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          40,
+          34,
+          332,
+          391
+        ],
+        "area": 60024,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          57,
+          38,
+          329,
+          374
+        ],
+        "area": 56682,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          43,
+          41,
+          339,
+          380
+        ],
+        "area": 57679,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -3,
+          210,
+          356,
+          378
+        ],
+        "area": 38410,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          25,
+          24,
+          342,
+          352
+        ],
+        "area": 59380,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          29,
+          23,
+          321,
+          353
+        ],
+        "area": 55909,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          17,
+          27,
+          346,
+          353
+        ],
+        "area": 56914,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          41,
+          -14,
+          370,
+          334
+        ],
+        "area": 59444,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          66,
+          -7,
+          331,
+          332
+        ],
+        "area": 56416,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "needle-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          82,
+          -13,
+          325,
+          338
+        ],
+        "area": 56913,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "needle-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.47102817883052,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          39,
+          11,
+          332,
+          365
+        ],
+        "area": 64078,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          43,
+          13,
+          344,
+          365
+        ],
+        "area": 61898,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          44,
+          12,
+          335,
+          374
+        ],
+        "area": 62675,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          42,
+          21,
+          368,
+          366
+        ],
+        "area": 65642,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          56,
+          19,
+          345,
+          368
+        ],
+        "area": 63358,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -6,
+          196,
+          353,
+          372
+        ],
+        "area": 43758,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          43,
+          12,
+          364,
+          358
+        ],
+        "area": 66420,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          42,
+          12,
+          354,
+          359
+        ],
+        "area": 63496,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          25,
+          13,
+          334,
+          356
+        ],
+        "area": 64351,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          51,
+          -3,
+          357,
+          338
+        ],
+        "area": 66044,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          46,
+          -5,
+          330,
+          341
+        ],
+        "area": 61690,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "needle-back-release-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          36,
+          -7,
+          323,
+          338
+        ],
+        "area": 62261,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "poisonguard-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5511011568633436,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          29,
+          51,
+          384,
+          371
+        ],
+        "area": 55005,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          61,
+          356,
+          377
+        ],
+        "area": 48894,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          10,
+          69,
+          352,
+          378
+        ],
+        "area": 50451,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          33,
+          52,
+          396,
+          373
+        ],
+        "area": 53139,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          27,
+          66,
+          365,
+          365
+        ],
+        "area": 51470,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          3,
+          227,
+          354,
+          404
+        ],
+        "area": 36021,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          24,
+          52,
+          368,
+          330
+        ],
+        "area": 51687,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          -27,
+          58,
+          351,
+          332
+        ],
+        "area": 50208,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -47,
+          81,
+          357,
+          325
+        ],
+        "area": 48142,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          10,
+          20,
+          410,
+          307
+        ],
+        "area": 55516,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          31,
+          14,
+          385,
+          311
+        ],
+        "area": 51310,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "poisonguard-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          17,
+          -1,
+          357,
+          319
+        ],
+        "area": 54867,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "poisonguard-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.48723456752439387,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          51,
+          13,
+          345,
+          366
+        ],
+        "area": 60558,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          41,
+          13,
+          324,
+          372
+        ],
+        "area": 55579,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          22,
+          13,
+          326,
+          381
+        ],
+        "area": 61781,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          37,
+          10,
+          365,
+          365
+        ],
+        "area": 61654,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          38,
+          14,
+          334,
+          363
+        ],
+        "area": 58029,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -26,
+          174,
+          358,
+          355
+        ],
+        "area": 45742,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          18,
+          2,
+          351,
+          311
+        ],
+        "area": 57068,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          5,
+          1,
+          348,
+          319
+        ],
+        "area": 61004,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          3,
+          -2,
+          351,
+          320
+        ],
+        "area": 60810,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          24,
+          -40,
+          364,
+          333
+        ],
+        "area": 63924,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          36,
+          -40,
+          352,
+          332
+        ],
+        "area": 60987,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "poisonguard-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          24,
+          -37,
+          341,
+          336
+        ],
+        "area": 62748,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "poisonguard-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5174400710194031,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          7,
+          69,
+          373,
+          395
+        ],
+        "area": 59389,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          1,
+          83,
+          378,
+          397
+        ],
+        "area": 55612,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          21,
+          87,
+          358,
+          397
+        ],
+        "area": 55865,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          9,
+          79,
+          379,
+          401
+        ],
+        "area": 59192,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          23,
+          109,
+          370,
+          407
+        ],
+        "area": 53478,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "poisonguard-right-death-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 1,
+        "bounds": [
+          -45,
+          78,
+          347,
+          251
+        ],
+        "area": 42396,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 6,
+        "bounds": [
+          6,
+          106,
+          353,
+          377
+        ],
+        "area": 51013,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 7,
+        "bounds": [
+          -19,
+          111,
+          343,
+          377
+        ],
+        "area": 55099,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          -22,
+          129,
+          360,
+          377
+        ],
+        "area": 51533,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          6,
+          40,
+          390,
+          327
+        ],
+        "area": 56517,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          16,
+          35,
+          381,
+          328
+        ],
+        "area": 55995,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "poisonguard-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          -4,
+          26,
+          361,
+          329
+        ],
+        "area": 55080,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "poisonguard-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5673367978185444,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          13,
+          53,
+          381,
+          368
+        ],
+        "area": 54163,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          22,
+          60,
+          375,
+          376
+        ],
+        "area": 49467,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          16,
+          68,
+          361,
+          376
+        ],
+        "area": 49819,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          16,
+          46,
+          383,
+          350
+        ],
+        "area": 51954,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          28,
+          71,
+          360,
+          360
+        ],
+        "area": 47071,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -51,
+          240,
+          360,
+          381
+        ],
+        "area": 31208,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          27,
+          35,
+          340,
+          326
+        ],
+        "area": 47477,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          10,
+          44,
+          342,
+          323
+        ],
+        "area": 46481,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -10,
+          60,
+          357,
+          320
+        ],
+        "area": 45502,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          6,
+          7,
+          413,
+          300
+        ],
+        "area": 52715,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          14,
+          4,
+          374,
+          305
+        ],
+        "area": 51107,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "poisonguard-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          -2,
+          -8,
+          361,
+          306
+        ],
+        "area": 54798,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "poisonguard-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.6274578258701912,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          63,
+          5,
+          306,
+          357
+        ],
+        "area": 41285,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          53,
+          11,
+          269,
+          369
+        ],
+        "area": 38888,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          12,
+          277,
+          372
+        ],
+        "area": 38681,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          37,
+          11,
+          281,
+          367
+        ],
+        "area": 41812,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          8,
+          294,
+          363
+        ],
+        "area": 42215,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -27,
+          170,
+          339,
+          371
+        ],
+        "area": 35454,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          50,
+          25,
+          283,
+          342
+        ],
+        "area": 40064,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          14,
+          21,
+          288,
+          341
+        ],
+        "area": 45971,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          16,
+          4,
+          280,
+          336
+        ],
+        "area": 43971,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          38,
+          -7,
+          306,
+          332
+        ],
+        "area": 46170,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          40,
+          -8,
+          287,
+          326
+        ],
+        "area": 43923,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "poisonguard-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          46,
+          -31,
+          305,
+          333
+        ],
+        "area": 44244,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "bombardier-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.547721248842628,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          49,
+          40,
+          306,
+          348
+        ],
+        "area": 49033,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          26,
+          45,
+          288,
+          355
+        ],
+        "area": 49387,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          17,
+          46,
+          305,
+          355
+        ],
+        "area": 51146,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          32,
+          29,
+          303,
+          334
+        ],
+        "area": 52206,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          31,
+          308,
+          332
+        ],
+        "area": 50454,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -14,
+          184,
+          350,
+          337
+        ],
+        "area": 39688,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          26,
+          7,
+          325,
+          308
+        ],
+        "area": 56518,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          29,
+          3,
+          341,
+          306
+        ],
+        "area": 58003,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          10,
+          13,
+          339,
+          308
+        ],
+        "area": 56815,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          33,
+          -32,
+          331,
+          288
+        ],
+        "area": 57674,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          30,
+          -27,
+          322,
+          283
+        ],
+        "area": 56295,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "bombardier-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          51,
+          -27,
+          318,
+          287
+        ],
+        "area": 51813,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "bombardier-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4754605323402826,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          37,
+          17,
+          351,
+          362
+        ],
+        "area": 62227,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          16,
+          336,
+          369
+        ],
+        "area": 63145,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          9,
+          18,
+          327,
+          370
+        ],
+        "area": 64618,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          33,
+          12,
+          348,
+          355
+        ],
+        "area": 61730,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          32,
+          19,
+          330,
+          341
+        ],
+        "area": 58212,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -2,
+          179,
+          343,
+          340
+        ],
+        "area": 39312,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          28,
+          2,
+          339,
+          334
+        ],
+        "area": 63842,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          15,
+          2,
+          350,
+          335
+        ],
+        "area": 69778,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          16,
+          6,
+          344,
+          340
+        ],
+        "area": 61674,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          22,
+          -22,
+          354,
+          321
+        ],
+        "area": 66612,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          16,
+          -22,
+          349,
+          327
+        ],
+        "area": 66757,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "bombardier-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          24,
+          -21,
+          346,
+          323
+        ],
+        "area": 63451,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "bombardier-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5029284057263209,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          36,
+          35,
+          296,
+          369
+        ],
+        "area": 55387,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          0,
+          32,
+          294,
+          368
+        ],
+        "area": 59075,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          0,
+          35,
+          314,
+          369
+        ],
+        "area": 60857,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          14,
+          32,
+          312,
+          357
+        ],
+        "area": 58632,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          24,
+          37,
+          299,
+          358
+        ],
+        "area": 57115,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -17,
+          212,
+          356,
+          355
+        ],
+        "area": 39342,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          16,
+          19,
+          354,
+          336
+        ],
+        "area": 61913,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          14,
+          14,
+          345,
+          337
+        ],
+        "area": 62446,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          7,
+          22,
+          355,
+          338
+        ],
+        "area": 60787,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          31,
+          -17,
+          334,
+          313
+        ],
+        "area": 63788,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          20,
+          -19,
+          322,
+          315
+        ],
+        "area": 62123,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "bombardier-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          27,
+          -17,
+          297,
+          319
+        ],
+        "area": 58120,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "bombardier-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5317469704831965,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          36,
+          39,
+          295,
+          369
+        ],
+        "area": 52253,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          40,
+          310,
+          363
+        ],
+        "area": 52706,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          29,
+          44,
+          319,
+          370
+        ],
+        "area": 51252,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          30,
+          41,
+          313,
+          355
+        ],
+        "area": 53907,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          28,
+          46,
+          299,
+          359
+        ],
+        "area": 53101,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -20,
+          189,
+          350,
+          350
+        ],
+        "area": 38140,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          16,
+          17,
+          332,
+          338
+        ],
+        "area": 57425,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          12,
+          8,
+          356,
+          341
+        ],
+        "area": 62793,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          10,
+          24,
+          347,
+          332
+        ],
+        "area": 52457,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          23,
+          -26,
+          354,
+          309
+        ],
+        "area": 59975,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          17,
+          -25,
+          333,
+          314
+        ],
+        "area": 60908,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "bombardier-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          32,
+          -25,
+          311,
+          308
+        ],
+        "area": 55867,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "bombardier-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5543494297080879,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          67,
+          18,
+          313,
+          348
+        ],
+        "area": 50866,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          33,
+          22,
+          326,
+          354
+        ],
+        "area": 54157,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          52,
+          23,
+          314,
+          354
+        ],
+        "area": 50166,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          43,
+          6,
+          310,
+          325
+        ],
+        "area": 49770,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          44,
+          6,
+          333,
+          324
+        ],
+        "area": 52082,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          10,
+          142,
+          341,
+          325
+        ],
+        "area": 33464,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          61,
+          -7,
+          312,
+          309
+        ],
+        "area": 47577,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          32,
+          -18,
+          332,
+          308
+        ],
+        "area": 57522,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          49,
+          2,
+          328,
+          311
+        ],
+        "area": 49377,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          43,
+          -21,
+          345,
+          307
+        ],
+        "area": 52869,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          50,
+          -34,
+          324,
+          307
+        ],
+        "area": 54218,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "bombardier-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          59,
+          -31,
+          308,
+          303
+        ],
+        "area": 52633,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.49395177701128373,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          14,
+          30,
+          334,
+          361
+        ],
+        "area": 61859,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          17,
+          39,
+          327,
+          362
+        ],
+        "area": 58193,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          25,
+          44,
+          315,
+          362
+        ],
+        "area": 57173,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          45,
+          26,
+          313,
+          342
+        ],
+        "area": 55352,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          18,
+          35,
+          313,
+          343
+        ],
+        "area": 55211,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -9,
+          185,
+          352,
+          361
+        ],
+        "area": 44758,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          29,
+          12,
+          338,
+          328
+        ],
+        "area": 63591,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          18,
+          11,
+          339,
+          329
+        ],
+        "area": 62244,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          21,
+          27,
+          352,
+          335
+        ],
+        "area": 58508,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          25,
+          2,
+          421,
+          300
+        ],
+        "area": 62629,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          -16,
+          -14,
+          354,
+          297
+        ],
+        "area": 61469,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "cheongrin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          -7,
+          -22,
+          319,
+          305
+        ],
+        "area": 60935,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4553578696213994,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          26,
+          27,
+          338,
+          360
+        ],
+        "area": 63472,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          18,
+          25,
+          336,
+          365
+        ],
+        "area": 66022,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -3,
+          30,
+          339,
+          369
+        ],
+        "area": 66083,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          19,
+          366,
+          351
+        ],
+        "area": 64567,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          23,
+          21,
+          351,
+          349
+        ],
+        "area": 64100,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          12,
+          178,
+          354,
+          365
+        ],
+        "area": 41106,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          34,
+          6,
+          349,
+          327
+        ],
+        "area": 68155,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          30,
+          -12,
+          342,
+          331
+        ],
+        "area": 65564,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          14,
+          16,
+          338,
+          338
+        ],
+        "area": 62992,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          22,
+          -12,
+          343,
+          314
+        ],
+        "area": 63579,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          -34,
+          -18,
+          362,
+          296
+        ],
+        "area": 66789,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "cheongrin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          19,
+          -24,
+          328,
+          307
+        ],
+        "area": 64885,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4951282266516081,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          23,
+          39,
+          323,
+          379
+        ],
+        "area": 57737,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          30,
+          42,
+          350,
+          378
+        ],
+        "area": 58917,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "cheongrin-right-padding-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 1,
+        "bounds": [
+          -43,
+          49,
+          314,
+          390
+        ],
+        "area": 65960,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 3,
+        "bounds": [
+          36,
+          45,
+          348,
+          364
+        ],
+        "area": 56123,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 4,
+        "bounds": [
+          37,
+          48,
+          296,
+          368
+        ],
+        "area": 56138,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "cheongrin-right-padding-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 2,
+        "bounds": [
+          -55,
+          215,
+          343,
+          415
+        ],
+        "area": 52792,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 5,
+        "bounds": [
+          15,
+          13,
+          330,
+          357
+        ],
+        "area": 64229,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 6,
+        "bounds": [
+          31,
+          15,
+          346,
+          352
+        ],
+        "area": 62230,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "cheongrin-right-padding-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 3,
+        "bounds": [
+          -39,
+          73,
+          328,
+          392
+        ],
+        "area": 60893,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 7,
+        "bounds": [
+          10,
+          13,
+          422,
+          323
+        ],
+        "area": 62505,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 8,
+        "bounds": [
+          -15,
+          9,
+          363,
+          324
+        ],
+        "area": 63073,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "cheongrin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 9,
+        "bounds": [
+          30,
+          4,
+          353,
+          328
+        ],
+        "area": 55917,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4922201703244712,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          32,
+          30,
+          394,
+          372
+        ],
+        "area": 60478,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          23,
+          33,
+          390,
+          380
+        ],
+        "area": 60466,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          33,
+          36,
+          358,
+          377
+        ],
+        "area": 56909,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          36,
+          37,
+          408,
+          345
+        ],
+        "area": 58437,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          42,
+          42,
+          368,
+          360
+        ],
+        "area": 57086,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -12,
+          187,
+          361,
+          379
+        ],
+        "area": 44199,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          25,
+          -8,
+          328,
+          322
+        ],
+        "area": 59574,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          25,
+          0,
+          319,
+          327
+        ],
+        "area": 56496,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          18,
+          36,
+          353,
+          330
+        ],
+        "area": 54550,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          18,
+          6,
+          444,
+          330
+        ],
+        "area": 64171,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          11,
+          -3,
+          335,
+          324
+        ],
+        "area": 56254,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "cheongrin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          35,
+          -7,
+          354,
+          334
+        ],
+        "area": 56877,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5296643366604601,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          38,
+          28,
+          376,
+          370
+        ],
+        "area": 55589,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          25,
+          37,
+          363,
+          368
+        ],
+        "area": 52379,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          11,
+          42,
+          360,
+          374
+        ],
+        "area": 53568,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          38,
+          32,
+          378,
+          353
+        ],
+        "area": 52409,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          29,
+          34,
+          358,
+          358
+        ],
+        "area": 52887,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          7,
+          182,
+          355,
+          359
+        ],
+        "area": 31391,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          27,
+          -15,
+          332,
+          350
+        ],
+        "area": 59261,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          38,
+          6,
+          359,
+          344
+        ],
+        "area": 62981,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          36,
+          31,
+          359,
+          342
+        ],
+        "area": 52155,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          17,
+          7,
+          381,
+          315
+        ],
+        "area": 50880,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          24,
+          5,
+          392,
+          318
+        ],
+        "area": 55379,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "cheongrin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          27,
+          -10,
+          358,
+          322
+        ],
+        "area": 53489,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mukchil-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.519743368639541,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          58,
+          40,
+          321,
+          356
+        ],
+        "area": 58595,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          47,
+          40,
+          311,
+          365
+        ],
+        "area": 52875,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          47,
+          38,
+          297,
+          364
+        ],
+        "area": 53244,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          50,
+          30,
+          320,
+          355
+        ],
+        "area": 53744,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          54,
+          36,
+          303,
+          346
+        ],
+        "area": 54963,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          0,
+          193,
+          345,
+          354
+        ],
+        "area": 37920,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          34,
+          7,
+          335,
+          330
+        ],
+        "area": 61805,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          47,
+          11,
+          336,
+          321
+        ],
+        "area": 58819,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          30,
+          11,
+          312,
+          321
+        ],
+        "area": 56674,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          41,
+          -16,
+          333,
+          299
+        ],
+        "area": 59048,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          44,
+          -21,
+          339,
+          295
+        ],
+        "area": 59568,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "mukchil-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          48,
+          -31,
+          316,
+          294
+        ],
+        "area": 60317,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mukchil-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4534183175116755,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          62,
+          26,
+          340,
+          370
+        ],
+        "area": 64024,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          25,
+          321,
+          380
+        ],
+        "area": 62754,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          26,
+          22,
+          300,
+          380
+        ],
+        "area": 63296,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          51,
+          28,
+          350,
+          364
+        ],
+        "area": 65676,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          35,
+          27,
+          328,
+          365
+        ],
+        "area": 66708,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -22,
+          185,
+          330,
+          366
+        ],
+        "area": 40910,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          47,
+          9,
+          347,
+          345
+        ],
+        "area": 69769,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          36,
+          9,
+          334,
+          344
+        ],
+        "area": 69607,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          22,
+          11,
+          327,
+          345
+        ],
+        "area": 68374,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          47,
+          -19,
+          348,
+          319
+        ],
+        "area": 68289,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          34,
+          -22,
+          333,
+          320
+        ],
+        "area": 68925,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "mukchil-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          -22,
+          320,
+          323
+        ],
+        "area": 66943,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mukchil-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5131908621022965,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          77,
+          20,
+          304,
+          367
+        ],
+        "area": 56365,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          49,
+          22,
+          293,
+          369
+        ],
+        "area": 58217,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          69,
+          22,
+          298,
+          369
+        ],
+        "area": 55924,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          66,
+          22,
+          308,
+          361
+        ],
+        "area": 56255,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          53,
+          44,
+          302,
+          360
+        ],
+        "area": 56483,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          1,
+          203,
+          355,
+          369
+        ],
+        "area": 38138,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          63,
+          13,
+          360,
+          335
+        ],
+        "area": 60026,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          43,
+          17,
+          337,
+          337
+        ],
+        "area": 58205,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          31,
+          19,
+          337,
+          336
+        ],
+        "area": 56333,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          54,
+          -3,
+          371,
+          328
+        ],
+        "area": 62911,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          44,
+          -18,
+          306,
+          329
+        ],
+        "area": 61203,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "mukchil-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          63,
+          -18,
+          304,
+          329
+        ],
+        "area": 57940,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mukchil-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5578310847247235,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          61,
+          32,
+          305,
+          358
+        ],
+        "area": 51447,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          30,
+          33,
+          289,
+          368
+        ],
+        "area": 51938,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          44,
+          33,
+          290,
+          367
+        ],
+        "area": 49712,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          59,
+          24,
+          311,
+          353
+        ],
+        "area": 52223,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          42,
+          38,
+          291,
+          347
+        ],
+        "area": 50755,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -8,
+          170,
+          335,
+          357
+        ],
+        "area": 42171,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "mukchil-rear-right-throw-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 1,
+        "bounds": [
+          35,
+          18,
+          339,
+          362
+        ],
+        "area": 63059,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "mukchil-rear-right-throw-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 2,
+        "bounds": [
+          59,
+          22,
+          330,
+          365
+        ],
+        "area": 60581,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 7,
+        "bounds": [
+          25,
+          9,
+          340,
+          331
+        ],
+        "area": 53440,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 8,
+        "bounds": [
+          52,
+          -16,
+          361,
+          319
+        ],
+        "area": 54947,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 9,
+        "bounds": [
+          47,
+          -23,
+          299,
+          318
+        ],
+        "area": 52563,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "mukchil-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 10,
+        "bounds": [
+          46,
+          -20,
+          286,
+          299
+        ],
+        "area": 50047,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mukchil-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5584657316117742,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          56,
+          28,
+          317,
+          367
+        ],
+        "area": 51806,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          57,
+          36,
+          311,
+          370
+        ],
+        "area": 48809,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          67,
+          38,
+          308,
+          369
+        ],
+        "area": 47839,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          50,
+          32,
+          320,
+          363
+        ],
+        "area": 49500,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          66,
+          42,
+          320,
+          353
+        ],
+        "area": 49570,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -8,
+          185,
+          338,
+          364
+        ],
+        "area": 40870,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "mukchil-back-isolated-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 1,
+        "bounds": [
+          50,
+          16,
+          354,
+          353
+        ],
+        "area": 66103,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "mukchil-back-isolated-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 2,
+        "bounds": [
+          51,
+          30,
+          341,
+          349
+        ],
+        "area": 60412,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 7,
+        "bounds": [
+          38,
+          17,
+          321,
+          331
+        ],
+        "area": 51164,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 8,
+        "bounds": [
+          45,
+          -8,
+          340,
+          308
+        ],
+        "area": 52107,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 9,
+        "bounds": [
+          57,
+          -18,
+          333,
+          308
+        ],
+        "area": 51254,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "mukchil-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 10,
+        "bounds": [
+          49,
+          -25,
+          312,
+          308
+        ],
+        "area": 51896,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4839258824008221,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          13,
+          28,
+          322,
+          365
+        ],
+        "area": 61555,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          43,
+          350,
+          370
+        ],
+        "area": 58953,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          47,
+          53,
+          358,
+          377
+        ],
+        "area": 55995,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          16,
+          14,
+          332,
+          352
+        ],
+        "area": 59270,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          25,
+          33,
+          296,
+          357
+        ],
+        "area": 54488,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          2,
+          214,
+          361,
+          379
+        ],
+        "area": 40441,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "yeonhwa-front-right-fan-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 1,
+        "bounds": [
+          4,
+          24,
+          362,
+          373
+        ],
+        "area": 73801,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "yeonhwa-front-right-fan-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 2,
+        "bounds": [
+          20,
+          29,
+          365,
+          364
+        ],
+        "area": 73837,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 7,
+        "bounds": [
+          -11,
+          23,
+          358,
+          338
+        ],
+        "area": 62256,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 8,
+        "bounds": [
+          8,
+          -17,
+          412,
+          317
+        ],
+        "area": 71730,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 9,
+        "bounds": [
+          50,
+          -22,
+          345,
+          320
+        ],
+        "area": 61976,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "yeonhwa-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 10,
+        "bounds": [
+          21,
+          -26,
+          329,
+          319
+        ],
+        "area": 62641,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.42077025019586295,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          11,
+          14,
+          330,
+          374
+        ],
+        "area": 71832,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          14,
+          17,
+          356,
+          377
+        ],
+        "area": 70428,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          19,
+          348,
+          380
+        ],
+        "area": 68872,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          16,
+          357,
+          368
+        ],
+        "area": 70081,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          37,
+          21,
+          345,
+          369
+        ],
+        "area": 67111,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          4,
+          152,
+          352,
+          372
+        ],
+        "area": 47882,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          20,
+          11,
+          331,
+          351
+        ],
+        "area": 65660,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          23,
+          8,
+          346,
+          356
+        ],
+        "area": 73788,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          28,
+          14,
+          341,
+          357
+        ],
+        "area": 66505,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "yeonhwa-front-grip-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 1,
+        "bounds": [
+          6,
+          -10,
+          399,
+          345
+        ],
+        "area": 82293,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "yeonhwa-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          41,
+          -10,
+          346,
+          344
+        ],
+        "area": 64770,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "yeonhwa-front-grip-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          -12,
+          355,
+          344
+        ],
+        "area": 74241,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.43453534690638257,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          10,
+          11,
+          349,
+          383
+        ],
+        "area": 67810,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          13,
+          15,
+          366,
+          381
+        ],
+        "area": 70179,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          20,
+          24,
+          359,
+          376
+        ],
+        "area": 63077,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          10,
+          26,
+          367,
+          374
+        ],
+        "area": 68422,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          17,
+          34,
+          328,
+          372
+        ],
+        "area": 62835,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -15,
+          223,
+          358,
+          390
+        ],
+        "area": 40826,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          5,
+          8,
+          318,
+          347
+        ],
+        "area": 65533,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          10,
+          15,
+          319,
+          349
+        ],
+        "area": 67627,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "yeonhwa-right-padding-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 1,
+        "bounds": [
+          -30,
+          26,
+          348,
+          353
+        ],
+        "area": 69305,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          2,
+          -15,
+          419,
+          342
+        ],
+        "area": 76645,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          50,
+          -17,
+          362,
+          341
+        ],
+        "area": 65672,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "yeonhwa-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          20,
+          -18,
+          359,
+          344
+        ],
+        "area": 67579,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.460775261235412,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          14,
+          34,
+          337,
+          374
+        ],
+        "area": 65895,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          33,
+          40,
+          390,
+          380
+        ],
+        "area": 63129,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          53,
+          357,
+          379
+        ],
+        "area": 55946,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          9,
+          24,
+          383,
+          354
+        ],
+        "area": 68580,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          38,
+          351,
+          372
+        ],
+        "area": 59647,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -34,
+          209,
+          359,
+          375
+        ],
+        "area": 38849,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          9,
+          20,
+          333,
+          347
+        ],
+        "area": 64459,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "yeonhwa-rear-right-grip-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 1,
+        "bounds": [
+          32,
+          1,
+          327,
+          352
+        ],
+        "area": 67180,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          -26,
+          36,
+          361,
+          347
+        ],
+        "area": 66154,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          10,
+          -13,
+          442,
+          330
+        ],
+        "area": 72961,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          45,
+          -4,
+          338,
+          327
+        ],
+        "area": 61575,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "yeonhwa-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          10,
+          1,
+          356,
+          332
+        ],
+        "area": 65945,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.46799039508358514,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          28,
+          11,
+          336,
+          356
+        ],
+        "area": 63123,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          47,
+          19,
+          372,
+          357
+        ],
+        "area": 59898,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          48,
+          18,
+          352,
+          363
+        ],
+        "area": 57742,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          21,
+          15,
+          351,
+          341
+        ],
+        "area": 61576,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          48,
+          17,
+          352,
+          344
+        ],
+        "area": 56856,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -12,
+          160,
+          351,
+          341
+        ],
+        "area": 40110,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          9,
+          -12,
+          306,
+          311
+        ],
+        "area": 61442,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "yeonhwa-back-grip-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 1,
+        "bounds": [
+          18,
+          -25,
+          356,
+          323
+        ],
+        "area": 71674,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          8,
+          5,
+          360,
+          317
+        ],
+        "area": 62834,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          15,
+          -37,
+          420,
+          307
+        ],
+        "area": 69405,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          42,
+          -30,
+          361,
+          314
+        ],
+        "area": 62942,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "yeonhwa-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          28,
+          -31,
+          356,
+          302
+        ],
+        "area": 63582,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-front-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.4681143992348626,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          40,
+          33,
+          319,
+          374
+        ],
+        "area": 65362,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          41,
+          37,
+          325,
+          376
+        ],
+        "area": 61797,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          39,
+          46,
+          338,
+          377
+        ],
+        "area": 60946,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          32,
+          31,
+          331,
+          368
+        ],
+        "area": 64194,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          48,
+          323,
+          368
+        ],
+        "area": 60091,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          3,
+          221,
+          347,
+          390
+        ],
+        "area": 40862,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          48,
+          13,
+          343,
+          353
+        ],
+        "area": 63266,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          45,
+          44,
+          313,
+          352
+        ],
+        "area": 57204,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          5,
+          48,
+          350,
+          352
+        ],
+        "area": 64098,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          26,
+          15,
+          427,
+          330
+        ],
+        "area": 68702,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          71,
+          8,
+          352,
+          331
+        ],
+        "area": 61055,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "sagongyeom-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          39,
+          -5,
+          317,
+          333
+        ],
+        "area": 64466,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-front",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.44300196880437104,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          40,
+          13,
+          338,
+          388
+        ],
+        "area": 71521,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          43,
+          13,
+          328,
+          394
+        ],
+        "area": 67962,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          23,
+          12,
+          328,
+          394
+        ],
+        "area": 70090,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          42,
+          25,
+          333,
+          395
+        ],
+        "area": 68066,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          39,
+          41,
+          325,
+          389
+        ],
+        "area": 64229,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -4,
+          225,
+          353,
+          401
+        ],
+        "area": 41336,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          44,
+          30,
+          339,
+          358
+        ],
+        "area": 62604,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          40,
+          30,
+          331,
+          357
+        ],
+        "area": 62093,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          32,
+          30,
+          332,
+          358
+        ],
+        "area": 64426,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          43,
+          -9,
+          353,
+          345
+        ],
+        "area": 70492,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          32,
+          -12,
+          339,
+          345
+        ],
+        "area": 69725,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "sagongyeom-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          36,
+          -15,
+          332,
+          348
+        ],
+        "area": 69110,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5060355046142263,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          57,
+          33,
+          313,
+          389
+        ],
+        "area": 58817,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          43,
+          38,
+          315,
+          388
+        ],
+        "area": 61024,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          42,
+          37,
+          313,
+          389
+        ],
+        "area": 60497,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          44,
+          328,
+          390
+        ],
+        "area": 62883,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          65,
+          69,
+          327,
+          388
+        ],
+        "area": 54331,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -27,
+          255,
+          355,
+          411
+        ],
+        "area": 33364,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          46,
+          46,
+          297,
+          354
+        ],
+        "area": 53277,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          32,
+          54,
+          300,
+          354
+        ],
+        "area": 55155,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -31,
+          53,
+          359,
+          354
+        ],
+        "area": 58353,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          44,
+          17,
+          423,
+          337
+        ],
+        "area": 58583,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          63,
+          9,
+          327,
+          341
+        ],
+        "area": 58449,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "sagongyeom-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          52,
+          -2,
+          310,
+          347
+        ],
+        "area": 58889,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-rear-right",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.47299698320157096,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          37,
+          26,
+          332,
+          383
+        ],
+        "area": 66534,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          42,
+          323,
+          385
+        ],
+        "area": 61577,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          42,
+          45,
+          357,
+          385
+        ],
+        "area": 62361,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          39,
+          344,
+          384
+        ],
+        "area": 67544,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          43,
+          64,
+          341,
+          383
+        ],
+        "area": 60396,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "sagongyeom-rear-right-padding-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 1,
+        "bounds": [
+          -22,
+          246,
+          348,
+          409
+        ],
+        "area": 38315,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 6,
+        "bounds": [
+          29,
+          35,
+          322,
+          357
+        ],
+        "area": 63548,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 7,
+        "bounds": [
+          38,
+          36,
+          317,
+          357
+        ],
+        "area": 61368,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          15,
+          55,
+          354,
+          357
+        ],
+        "area": 60032,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          23,
+          8,
+          409,
+          331
+        ],
+        "area": 65981,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          66,
+          6,
+          350,
+          331
+        ],
+        "area": 61441,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "sagongyeom-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          54,
+          -6,
+          322,
+          332
+        ],
+        "area": 61903,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-back",
+    "width": 1086,
+    "height": 1448,
+    "clearFraction": 0.5712216253065128,
+    "poses": [
+      {
+        "pose": 0,
+        "source": "sagongyeom-back-staff-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          66,
+          18,
+          325,
+          371
+        ],
+        "area": 49972,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 1,
+        "bounds": [
+          68,
+          18,
+          308,
+          371
+        ],
+        "area": 45131,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 2,
+        "bounds": [
+          73,
+          30,
+          355,
+          374
+        ],
+        "area": 49318,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 3,
+        "bounds": [
+          26,
+          14,
+          299,
+          366
+        ],
+        "area": 52202,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 4,
+        "bounds": [
+          50,
+          34,
+          307,
+          355
+        ],
+        "area": 45507,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 5,
+        "bounds": [
+          22,
+          192,
+          351,
+          365
+        ],
+        "area": 35082,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 6,
+        "bounds": [
+          29,
+          9,
+          292,
+          333
+        ],
+        "area": 53078,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 7,
+        "bounds": [
+          39,
+          1,
+          323,
+          340
+        ],
+        "area": 53492,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          15,
+          15,
+          335,
+          336
+        ],
+        "area": 51776,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          26,
+          -9,
+          311,
+          318
+        ],
+        "area": 52996,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          50,
+          -3,
+          308,
+          323
+        ],
+        "area": 47060,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "source": "sagongyeom-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          67,
+          -35,
+          314,
+          326
+        ],
+        "area": 45239,
+        "clipped": false
+      }
+    ]
+  }
+]

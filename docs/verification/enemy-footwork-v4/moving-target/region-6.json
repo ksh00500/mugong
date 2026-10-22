@@ -1,0 +1,84 @@
+{
+  "hp": 99827.105,
+  "phase": "combat",
+  "finite": true,
+  "actors": [
+    {
+      "id": 500,
+      "role": "trapper",
+      "moved": 396.08899266768907,
+      "states": [
+        "windup",
+        "strike",
+        "recover",
+        "approach"
+      ]
+    },
+    {
+      "id": 501,
+      "role": "crossbow",
+      "moved": 99.16316598917606,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 502,
+      "role": "guard",
+      "moved": 491.3714328128089,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 503,
+      "bossId": "6-1",
+      "moved": 313.75432720370594,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 504,
+      "bossId": "6-2",
+      "moved": 188.2515189915308,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 505,
+      "bossId": "6-3",
+      "moved": 132.82556803975743,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 506,
+      "bossId": "6-4",
+      "moved": 244.37446399821275,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    }
+  ]
+}

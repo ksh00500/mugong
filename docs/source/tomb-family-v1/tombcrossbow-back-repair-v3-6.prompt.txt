@@ -1,0 +1,11 @@
+Generate 6 complete independent MUGONG native sprites on a LANDSCAPE transparent canvas about1536x1024, EXACT 3 columns by 2 rows in row-major order. Use the supplied isolated native sprite as identity, palette, proportions and physical head-size reference. Keep exactly the CAMERA of the supplied ONE-POSE reference for every drawing. Its native body scale and clothing are fixed.
+CRITICAL OCCUPANCY: physical standing body approximately300-330px from head to boots, head90-110px. Body occupies only65% of each512px-high row, leaving extra transparent room for raised weapons. All figures have identical physical head/limb thickness, including bent pose. Never shrink the character to fit its tool. At least32px clear transparent alpha around all bodies AND complete tools. No ground shadow, background, aura, glow, VFX, trail, projectile, text or labels.
+Draw ONLY these poses in order:
+1. Logical6: early anticipation.
+2. Logical7: maximum anticipation.
+3. Logical8: attack CONTACT.
+4. Logical9: held followthrough.
+5. Logical10: withdrawal.
+v2 barrel still points RIGHT. Rebuild six combat poses NORTH full-back: crossbow RAIL is VERTICAL on screen, aims UP away toward screenTOP; muzzle above head, crossbar spans HORIZONTALLY above shoulders equally left/right. Stock/trigger near right shoulder, RIGHT trigger and LEFT foreend grip hold same rigid crossbow. Face never shown. Level shoot ahead with tiny recoil then reload; no sideways or tilted-right muzzle. Physical body scale same as original idle; do not enlarge.
+NORTH aiming assembly projects straight UP. The crossbow crossbar is HORIZONTAL ABOVE HEAD, with rail VERTICAL through its center; muzzle is ABOVE THE HEAD, not beside body.
+Tools belong to their specified hands permanently. Exactly two anatomically connected shoulder-elbow-wrist chains. One continuous shaft with separated grips; one tool head. Keep spine, hips, grounded legs coherent. Combat follows anticipation -> quick forward/downward contact -> held low follow -> slower withdrawal; never an uppercut. For back-view contact, arms and tool go AWAY from viewer toward screenTOP, partially occluded by back/head, NEVER toward feet or screenBOTTOM. Give every pose a distinct drawing, even held followthrough has a tiny real shift.

@@ -1,0 +1,108 @@
+{
+  "authoringImagesDeleted": 0,
+  "publicImagesDeleted": 0,
+  "asOf": "2026-10-20",
+  "totalBytes": 18431739045,
+  "retained": {
+    "runtime": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+    "authoring": "mugong-authoring-df51005ee5a3d539.tar.gz"
+  },
+  "deleted": [
+    {
+      "file": "mugong-authoring-3f090f6782bf4c1b.tar.gz",
+      "replacement": "mugong-authoring-df51005ee5a3d539.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 2275790930,
+      "sha256": "90eb228893ab08c81c8adcfe6880febf0fa99551fb8052bf4f18904cc3b22690",
+      "deleted": true
+    },
+    {
+      "file": "mugong-authoring-855b7015b6b8f8b1.tar.gz",
+      "replacement": "mugong-authoring-df51005ee5a3d539.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 2456056135,
+      "sha256": "67f1bc1a72b91e9248032a07151bcf2fc9e0df940492e398bec6519123899e6a",
+      "deleted": true
+    },
+    {
+      "file": "mugong-authoring-bca28aa772f10780.tar.gz",
+      "replacement": "mugong-authoring-df51005ee5a3d539.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 2336128219,
+      "sha256": "14a3063dd2b5b81d642d9f1073a7dcc1a9839a6e5cccf34a176cc3da8c5baec1",
+      "deleted": true
+    },
+    {
+      "file": "mugong-authoring-cc4b528d13f45dca.tar.gz",
+      "replacement": "mugong-authoring-df51005ee5a3d539.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 2546786469,
+      "sha256": "b9a7cf06269c26539d2c41315de7895e275572c99fdf6461962359622a1c67ed",
+      "deleted": true
+    },
+    {
+      "file": "mugong-authoring-db6da21c5778d77d.tar.gz",
+      "replacement": "mugong-authoring-df51005ee5a3d539.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 2262195168,
+      "sha256": "6b3f9db68983f8972b6b291bff3528e480a2624547a95fea4bdfd01d779bda96",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-03463e6029340b39.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 1149418351,
+      "sha256": "aad20f8f7c5230774d094536dc8f75e2b34d5edd872db5db5f35d70453c803a0",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-50e2266d1f294fe8.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 1133750372,
+      "sha256": "69bbebac03824554bb4bad4358945a48f139eca078c22b9540147a72cc6cdc9f",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-7fa6bc2b4a8f6eb9.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 1078206039,
+      "sha256": "2a1689d27737a592783be1ce1f21765fdd88d80e5c98074894e3fb311d07755b",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-82f95772cd6b884b.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 1050398406,
+      "sha256": "1bec37363b669a61aaeb9fc69d30c94c8238113ce552e01d461dbd0de31957c2",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-b15bfb5ba50574ab.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 1163365403,
+      "sha256": "ad54f2ae38c4e9ae228c7ff4199d433a5249ef50844a347ed061a85ef956eae1",
+      "deleted": true
+    },
+    {
+      "file": "mugong-runtime-c5ec33e56608e7ce.tar.gz",
+      "replacement": "mugong-runtime-d05a97c29b4c392f.tar.gz",
+      "reason": "Every member byte-for-byte covered by verified restored retained archive",
+      "bytes": 979643553,
+      "sha256": "4470d0089de25c176a1e379bdc61c760a6de2fde778d496d71367c655b877aeb",
+      "deleted": true
+    }
+  ],
+  "metadataSidecarsPreserved": true,
+  "temporaryVerificationCopiesRemoved": [
+    ".validation/asset-restored-v1",
+    ".validation/asset-remote-clone",
+    "dist-asset-inventory-v1"
+  ],
+  "verificationPreviewStopped": 5220,
+  "existingUserPreviewPreserved": 5205
+}

@@ -1,0 +1,584 @@
+/* Growth layout, typography and motion have one owner. */
+.app-shell .growth-scrim {
+  padding: clamp(12px, 3vh, 32px) clamp(12px, 4vw, 48px);
+  background: radial-gradient(ellipse at 50% 40%, #243b27eb, #071910f7 80%);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-content: stretch;
+  place-items: center;
+}
+.app-shell .growth {
+  width: min(1180px, 100%);
+  max-height: 100%;
+  text-align: center;
+  justify-self: center;
+  color: #f7edd4;
+  outline: none;
+}
+.app-shell .growth-content {
+  min-width: 0;
+}
+.app-shell .growth:has(.quick-details-inline) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 330px);
+  gap: 20px;
+  align-items: center;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-identity {
+  gap: 8px;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-card h3 {
+  font-size: 20px;
+}
+.app-shell .growth:has(.quick-details-inline) .choice-card .art-glyph {
+  width: 42px;
+  height: 42px;
+}
+@media (max-height: 700px) {
+  .app-shell .growth:has(.quick-details-inline) {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 16px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .choice-card {
+    padding-inline: 12px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .choose-label {
+    margin-inline: -12px;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .growth:has(.quick-details-inline) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+  .app-shell .growth:has(.quick-details-inline) .growth-content {
+    min-height: 0;
+    overflow-y: auto;
+  }
+  .app-shell .growth .quick-details-inline {
+    max-height: min(30dvh, 220px);
+  }
+}
+.app-shell .growth-kicker {
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  color: #dcc58c;
+}
+.app-shell .growth h2 {
+  margin: 10px 0 8px;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.3;
+}
+.app-shell .growth-selection-status {
+  font-size: 18px;
+  min-height: 34px;
+  margin-bottom: 20px;
+}
+.app-shell .growth-wait-track {
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #d8c69235;
+  margin: 8px auto;
+}
+.app-shell .growth-wait-track i {
+  display: block;
+  height: 100%;
+  background: #dfc183;
+  transform-origin: left;
+  animation: growth-unlock 1s linear both;
+}
+@keyframes growth-unlock {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.app-shell .choice-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--choice-count), minmax(0, 1fr));
+  gap: 20px;
+}
+.app-shell .choice-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  height: auto;
+  max-height: none;
+  transform: none;
+  overflow: visible;
+  min-height: 340px;
+  padding: 24px 22px 0;
+  text-align: left;
+  border-radius: var(--radius-panel);
+  border: 1px solid #bba171;
+  border-top: 5px solid var(--art-color);
+  color: var(--ink);
+  background: var(--surface-paper) var(--painted-material) 0 0 / 200% 200% no-repeat;
+  box-shadow: var(--shadow-panel);
+  transition:
+    border-color var(--motion-fast) var(--ease-ui),
+    background-color var(--motion-fast) var(--ease-ui),
+    box-shadow var(--motion-standard) var(--ease-ui);
+}
+.app-shell .choice-card:hover:not(:disabled) {
+  transform: none;
+  background-color: var(--surface-hover);
+  border-color: #e9cf8b;
+  box-shadow:
+    0 12px 30px #0006,
+    0 0 0 2px #e9cf8b55;
+}
+.app-shell .choice-card.cooldown:disabled {
+  opacity: 1;
+  cursor: wait;
+}
+.app-shell .choice-identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  min-height: 110px;
+}
+.app-shell .choice-identity > div {
+  min-width: 0;
+  flex: 1;
+}
+.app-shell .choice-identity > svg {
+  flex-shrink: 0;
+  overflow: visible;
+}
+.app-shell .choice-card .art-glyph {
+  width: 68px;
+  height: 68px;
+  flex: none;
+  filter: drop-shadow(0 3px 5px #75624630);
+}
+.app-shell .choice-type {
+  font-size: 16px;
+  color: #6f644d;
+}
+.app-shell .choice-card h3 {
+  margin: 3px 0 5px;
+  font-size: 26px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.app-shell .choice-level {
+  font-size: 17px;
+  color: #6f644d;
+}
+.app-shell .choice-card p {
+  margin: 22px 0 16px;
+  font-size: 19px;
+  line-height: 1.45;
+}
+.app-shell .choice-skill {
+  padding: 11px;
+  background: #dbe5d3;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.3;
+}
+.app-shell .choice-card > small {
+  display: block;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 12px 0 18px;
+}
+.app-shell .choose-label {
+  display: block;
+  margin: auto -22px 0;
+  border-radius: 0 0 12px 12px;
+  text-align: center;
+  padding: 14px 8px;
+  font-size: 20px;
+  color: #fff8e6;
+  background: linear-gradient(#367b66, #265747);
+  box-shadow: inset 0 1px #bff1d94d;
+  transition: box-shadow var(--motion-fast) var(--ease-ui);
+}
+.app-shell .choice-card:not(:disabled):active .choose-label {
+  box-shadow: inset 0 3px 8px #09251d70;
+}
+.app-shell .choice-card:focus-visible {
+  outline: 3px solid #9bf3de;
+  outline-offset: 4px;
+}
+.app-shell .choice-card.cooldown .choose-label {
+  color: #f1e5c9;
+  background: #626c58;
+}
+.app-shell .growth-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 18px;
+  padding-block: 2px;
+  line-height: 1.6;
+}
+.app-shell .growth-note small {
+  font-size: 16px;
+  color: #eadfc4;
+}
+.app-shell .growth-defer,
+.app-shell .growth-pages button {
+  color: #263d31;
+  background: #f7f0df;
+}
+.app-shell .growth-defer:disabled,
+.app-shell .growth-pages button:disabled {
+  color: #56614e;
+  background: #dfdfcc;
+  opacity: 1;
+}
+.app-shell .growth-availability {
+  position: relative;
+  margin-top: 4px;
+  font-size: 14px;
+  text-align: left;
+  color: #f7edd4;
+}
+.app-shell .growth-availability summary {
+  width: fit-content;
+  margin-inline: auto;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.app-shell .growth-availability summary:focus-visible {
+  outline: 3px solid #70bbbd;
+}
+.app-shell .growth-availability-content {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 8px 12px;
+  background: #142b20;
+  border: 1px solid #a49164;
+  border-radius: 8px;
+  max-height: 160px;
+  overflow-y: auto;
+}
+.app-shell .growth-availability p {
+  margin: 4px 0;
+}
+.app-shell .growth-availability ul {
+  margin: 4px 0;
+  padding-inline-start: 20px;
+}
+.app-shell .growth-detail-link {
+  color: #f7edd4;
+  background: #162f2399;
+  border-color: #a49164;
+  min-height: 36px;
+  padding: 5px 12px;
+  font-size: 16px;
+}
+.app-shell .growth-pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.app-shell .growth-pages button {
+  min-width: 42px;
+  min-height: 36px;
+  height: 40px;
+  padding: 3px 10px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.app-shell .growth-pages .growth-detail-link {
+  font-size: 16px;
+}
+.app-shell .growth[data-compact='true'] {
+  width: min(520px, 100%);
+}
+.app-shell .growth[data-compact='true'] .choice-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+.app-shell .growth[data-compact='true'] .choice-identity {
+  min-height: 76px;
+}
+.app-shell .choice-card[hidden] {
+  display: none;
+}
+.app-shell[data-high-contrast='true'] .choice-card {
+  background-image: none;
+  background-color: #fff9eb;
+  color: #16261b;
+}
+@media (max-height: 720px), (max-width: 1200px) {
+  .app-shell .growth-selection-status {
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+  .app-shell .choice-grid {
+    gap: 14px;
+  }
+  .app-shell .choice-card {
+    min-height: 290px;
+    padding: 18px 16px 0;
+  }
+  .app-shell .choice-card .art-glyph {
+    width: 58px;
+    height: 58px;
+  }
+  .app-shell .choice-card h3 {
+    font-size: 23px;
+  }
+  .app-shell .choice-card p {
+    margin-block: 16px 12px;
+    font-size: 17px;
+  }
+  .app-shell .choice-skill {
+    font-size: 18px;
+    padding: 9px;
+  }
+  .app-shell .choice-card > small {
+    font-size: 15px;
+    padding-bottom: 12px;
+  }
+  .app-shell .choose-label {
+    margin-inline: -16px;
+    padding-block: 12px;
+    font-size: 18px;
+  }
+  .app-shell .growth-note {
+    margin-top: 12px;
+  }
+}
+@media (max-height: 700px) {
+  .app-shell .growth-scrim {
+    padding-block: 8px;
+  }
+  .app-shell .growth-kicker {
+    font-size: 14px;
+  }
+  .app-shell .growth h2 {
+    font-size: 26px;
+    margin-block: 4px;
+  }
+  .app-shell .growth-selection-status {
+    min-height: 24px;
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  .app-shell .choice-card {
+    min-height: 240px;
+    padding-top: 10px;
+  }
+  .app-shell .choice-identity {
+    min-height: 72px;
+  }
+  .app-shell .choose-label {
+    padding-block: 10px;
+  }
+  .app-shell .growth-note {
+    gap: 10px;
+  }
+  .app-shell .growth-defer {
+    min-height: 36px;
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+  .app-shell .choice-card .art-glyph {
+    width: 42px;
+    height: 42px;
+  }
+  .app-shell .choice-card h3 {
+    font-size: 21px;
+  }
+  .app-shell .choice-type,
+  .app-shell .choice-level {
+    font-size: 14px;
+  }
+  .app-shell .choice-card p {
+    margin-block: 10px;
+    font-size: 16px;
+  }
+  .app-shell .choice-card > small {
+    padding-block: 8px;
+  }
+  .app-shell .growth-note {
+    margin-top: 6px;
+  }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .app-shell .choice-identity {
+    gap: 8px;
+  }
+  .app-shell .choice-card .art-glyph {
+    width: 40px;
+    height: 40px;
+  }
+  .app-shell .choice-card h3 {
+    font-size: 20px;
+  }
+  .app-shell .choice-type,
+  .app-shell .choice-level {
+    font-size: 14px;
+  }
+  .app-shell .choice-card > small {
+    font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .growth-wait-track i {
+    animation: none;
+  }
+}
+
+.dialog.character-augment {
+  width: min(920px, calc(100vw - 32px));
+  max-width: 920px;
+  padding: 20px;
+}
+.augment-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.augment-cards button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 220px;
+  padding: 20px 12px;
+  color: #263d31;
+}
+.augment-cards .art-glyph {
+  width: 60px;
+  height: 60px;
+}
+.augment-cards strong {
+  font-size: 28px;
+}
+.augment-cards span {
+  font-size: 20px;
+}
+.character-profile dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px 4px;
+  margin: 4px 0;
+  font-size: 14px;
+}
+.character-profile dl div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+.character-profile dt {
+  min-width: 0;
+}
+.character-profile dd {
+  margin: 0;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.character-profile-trait {
+  font-size: 16px;
+}
+.character-profile-attributes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.character-training-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-block: 2px;
+}
+.character-training-row .character-training {
+  min-height: 30px;
+  padding: 2px 4px;
+  font-size: 14px;
+}
+.character-augment-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.character-augment-names > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #dce5cf;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+.character-augment-names .augment-artwork {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+@media (max-height: 680px) {
+  .augment-cards button {
+    min-height: 180px;
+    gap: 10px;
+  }
+  .character-profile dl {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .augment-cards {
+    gap: 6px;
+  }
+  .augment-cards button {
+    padding: 8px;
+  }
+  .augment-cards strong {
+    font-size: 20px;
+  }
+  .augment-cards span {
+    font-size: 16px;
+  }
+}
+@media (max-height: 700px) {
+  .character-profile dl {
+    line-height: 1.2;
+    margin: 0;
+    row-gap: 0;
+  }
+  .character-training-row .character-training {
+    min-height: 24px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .character-profile-trait {
+    font-size: 14px;
+  }
+  .character-augment-names {
+    font-size: 12px;
+    line-height: 1.2;
+    gap: 2px;
+  }
+  .character-augment-names > span {
+    padding: 0;
+  }
+  .character-augment-names .augment-artwork {
+    width: 12px;
+    height: 12px;
+  }
+}

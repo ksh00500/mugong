@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "method": "Direct visual inspection of saved native-art contact sheets and screenshots captured from the actual combat renderer and local production build. Automated results are recorded separately.",
+  "contactSheets": ["contact/tombtrapper.png", "contact/tombguard.png", "contact/tombcrossbow.png", "contact/jeokho.png", "contact/seokmun.png", "contact/gwakgi.png", "contact/wolryeong.png"],
+  "runtimeScreenshots": ["canvas-full-idle.png", "canvas-full-strike.png", "canvas-full-hurt.png", "webgl-full-strike.png", "webgl-full-hurt.png", "webgl-reduced-strike.png"],
+  "productionScreenshots": ["production/combat-1440.png", "production/combat-1366.png", "production/combat-1093.png", "production/review-1440.png", "production/review-1366.png", "production/review-1093.png", "production/tomb-pose-0.png", "production/tomb-pose-1.png", "production/tomb-pose-2.png", "production/tomb-pose-3.png", "production/tomb-pose-4.png", "production/tomb-pose-5.png"],
+  "findings": [
+    "Selected locomotion and attack poses retain native image proportions. Extended weapons receive extra transparent space instead of shrinking each frame to its weapon bounds.",
+    "Guard ground anchors were refined offline using the neutral/brown soles, excluding the red spear tassel. The corrected contact sheet was inspected again.",
+    "Inspected live and matrix screens show HP bars clear of raised weapons and heads. Automated minimum gaps are recorded in summary.json.",
+    "Wolryeong's six attack poses show raised preparation, a low forward diagonal cut, follow-through and recovery; the blade stays drawn in the hand in each selected pose.",
+    "The inspected WebGL strike and hurt screenshots show continuous sprites without detached mesh fragments.",
+    "Production combat HUD fits all three tested viewports; review controls remain visible and direction cards reflow to two columns at narrower widths. The art review page scrolls normally."
+  ],
+  "limitations": [
+    "Five native viewpoints produce eight gameplay directions by horizontal mirroring; the apparent weapon hand also mirrors.",
+    "Each boss uses one representative attack cycle retimed to its existing skill contact events. Separate bespoke artwork for every boss skill is outside this regional-art update.",
+    "Rear-facing limbs and weapons can be occluded or foreshortened. Painted poses retain small drawing variations; native proportions are preserved without frame-by-frame rescaling.",
+    "Death uses one drawn pose with a fade. Projectiles, traps and combat effects are rendered by the existing game systems.",
+    "The crossbow character's selected artwork places the basket on the right hip, differing from an early prompt's left-hip instruction."
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

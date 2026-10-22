@@ -1,0 +1,202 @@
+{
+  "reviewed": true,
+  "reviewedAtUTC": "2026-10-05 15:16:51 UTC",
+  "method": "Direct visual review of selected native sources, all seven fixed-scale contact sheets, actual Canvas/WebGL idle/strike/hurt screenshots and local-production combat/review screenshots. Automated checks are separate from visual judgment.",
+  "contactSheets": [
+    "contact/bambooassassin.png",
+    "contact/bambooneedle.png",
+    "contact/bambootrapper.png",
+    "contact/qingbi.png",
+    "contact/nogae.png",
+    "contact/yanqing.png",
+    "contact/songwol.png"
+  ],
+  "screenshots": [
+    "canvas-full-idle.png",
+    "canvas-full-strike.png",
+    "canvas-full-hurt.png",
+    "webgl-full-idle.png",
+    "webgl-full-strike.png",
+    "webgl-full-hurt.png",
+    "production/combat-1440.png",
+    "production/review-1440.png",
+    "production/combat-1366.png",
+    "production/review-1366.png",
+    "production/combat-1093.png",
+    "production/review-1093.png",
+    "production/bamboo-pose-0.png",
+    "production/bamboo-pose-1.png",
+    "production/bamboo-pose-2.png",
+    "production/bamboo-pose-3.png",
+    "production/bamboo-pose-4.png",
+    "production/bamboo-pose-5.png"
+  ],
+  "groundPoints": [
+    {
+      "id": "bambooassassin-front",
+      "pose": 8,
+      "source": "bambooassassin-front-v2.png",
+      "point": [192, 358],
+      "fromFigureBottom": 15,
+      "manualReview": null,
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front",
+      "pose": 9,
+      "source": "nogae-front-combat.png",
+      "point": [271, 476],
+      "fromFigureBottom": 27,
+      "manualReview": null,
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 0,
+      "source": "nogae-front-right-locomotion.png",
+      "point": [274, 499],
+      "fromFigureBottom": 2,
+      "manualReview": "Direct source review: X midpoint between rear and front sandal soles, not only the lowest front sandal. Preserve sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 2,
+      "source": "nogae-front-right-locomotion.png",
+      "point": [243, 508],
+      "fromFigureBottom": 2,
+      "manualReview": "Direct source review: center both sandals during passing walk; preserve lowest sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 3,
+      "source": "nogae-front-right-locomotion.png",
+      "point": [267, 526],
+      "fromFigureBottom": 3,
+      "manualReview": "Direct source review: center sandals during right step; preserve lowest sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 6,
+      "source": "nogae-front-right-combat.png",
+      "point": [285, 499],
+      "fromFigureBottom": 1,
+      "manualReview": "Direct source review: center separated sandals at early load; exclude long staff and lowest front-foot X.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 7,
+      "source": "nogae-front-right-combat.png",
+      "point": [240, 517],
+      "fromFigureBottom": 2,
+      "manualReview": "Direct source review: center wide overhead stance between both sandals; preserve sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 8,
+      "source": "nogae-front-right-combat.png",
+      "point": [243, 459],
+      "fromFigureBottom": 2,
+      "manualReview": "Direct source review: center both sandals at forward contact; preserve sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 9,
+      "source": "nogae-front-right-combat.png",
+      "point": [210, 472],
+      "fromFigureBottom": 37,
+      "manualReview": "Direct source review: midpoint between sandals in low forward lunge; low staff tip remains below soles and is excluded.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 10,
+      "source": "nogae-front-right-combat.png",
+      "point": [252, 466],
+      "fromFigureBottom": 1,
+      "manualReview": "Direct source review: center both sandals on withdraw; preserve sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-front-right",
+      "pose": 11,
+      "source": "nogae-front-right-combat.png",
+      "point": [245, 482],
+      "fromFigureBottom": 2,
+      "manualReview": "Direct source review: center both sandals at return guard; preserve sole Y.",
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "nogae-rear-right",
+      "pose": 9,
+      "source": "nogae-rear-right-combat.png",
+      "point": [183, 445],
+      "fromFigureBottom": 25,
+      "manualReview": null,
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "yanqing-front",
+      "pose": 4,
+      "source": "yanqing-front.png",
+      "point": [189, 356],
+      "fromFigureBottom": 17,
+      "manualReview": null,
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    },
+    {
+      "id": "songwol-front",
+      "pose": 1,
+      "source": "songwol-front.png",
+      "point": [163, 359],
+      "fromFigureBottom": 13,
+      "manualReview": null,
+      "decision": "Reviewed sole Y and source-space foot alignment. Weapon tips or trailing robe can extend below soles. Explicit X overrides center Nogae between both sandals; no frame scaling."
+    }
+  ],
+  "correctionDecisions": [
+    {
+      "source": "nogae-front-combat-repair-v2.png",
+      "pose": 7,
+      "decision": "Rejected disconnected/two-rod staff. Selected nogae-front-combat-continuous-v3.png cell1, one continuous overhead staff held with both hands."
+    },
+    {
+      "source": "qingbi-back-repair-v2.png",
+      "poses": [2, 4],
+      "decision": "Rejected right-hand dagger; selected qingbi-back-needles-v3.png for hurt pose4."
+    },
+    {
+      "source": "qingbi-back-needles-v3.png",
+      "pose": 2,
+      "decision": "Rejected larger head/body in passing walk. Selected qingbi-back-passing-match-v4.png cell2 matching old back-view body scale; right needles and left reserve dagger remain."
+    },
+    {
+      "source": "songwol-rear-right-repair-v2.png",
+      "poses": [6, 7],
+      "decision": "Rejected fan in wrong hand. Selected songwol-rear-right-right-grip-v3.png cells6 and7; preserve other poses."
+    },
+    {
+      "source": "songwol-back-repair-v2.png",
+      "pose": 3,
+      "decision": "Rejected fan in wrong hand. Selected songwol-back-right-grip-v3.png cell3."
+    }
+  ],
+  "observations": [
+    "Qingbi final north passing-walk drawing visually matches neighboring head and body sizes; selected native figure bounds height343 vs adjacent340px, supplementary only, not an anatomy measurement.",
+    "No per-frame resizing: unmodified RGBA packing and fixed0.225 runtime scale, with explicit source foot coordinates and character-wide HP clearance.",
+    "Directly reviewed Songwol six attack phases in production eight-direction review and actual Canvas/WebGL visual screenshots."
+  ],
+  "limitations": [
+    "Boss skills use a representative authored attack cycle retimed to existing contacts, not unique new art for every individual skill.",
+    "Projectiles, traps and combat VFX are rendered separately. Death uses a single authored pose with fade.",
+    "Five drawn views are mirrored to eight gameplay directions, so screen-side hand positions mirror.",
+    "Visual anatomy and size assessment is judgment; connectivity, hashes and numeric render assertions do not certify art quality. Minor generated robe/palette variation can remain."
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

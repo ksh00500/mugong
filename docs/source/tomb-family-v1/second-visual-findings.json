@@ -1,0 +1,119 @@
+[
+  {
+    "jobId": "tombtrapper-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      11
+    ],
+    "reason": "v2 still left pickaxe held by near/right arm, right device far/left. Direct screen-space accessory swap required. Replace pickaxe in near lower-left forearm with small iron device; far hand at upper-right chest holds one pickaxe lowered beside far hip instead."
+  },
+  {
+    "jobId": "tombtrapper-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "v2 still throws with screen-left arm; target6,7 not corrected. Draw right screen-right wrapped forearm raising small iron trap beside/right ABOVE RIGHT shoulder. Left screen-left wrapped forearm grips lowered pickaxe throughout, exactly one shaft. Fixed NE body back camera."
+  },
+  {
+    "jobId": "tombguard-front-right",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reason": "Portrait2x3 candidate enlarges body440px and clips spear. Regenerate SIX poses in LANDSCAPE TWO COLUMNS THREE ROWS about1536x1024; body300-330px and head same approved front. Broad cells permit full shaft without changing body. ONE spearhead and red tassel only forward end. Preserve SE camera."
+  },
+  {
+    "jobId": "tombguard-front-right",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reason": "Portrait2x3 v2 is enlarged and clipped. Rebuild SIX combat poses in LANDSCAPE TWO columns THREE rows about1536x1024, same head/standing300-330px as approved front, roomy complete one-point spear. Preserve SE camera; explicit back-load then thrust BOTTOM-RIGHT with connected elbow/grips then extended follow then retract ready."
+  },
+  {
+    "jobId": "tombguard-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "v2 still points horizontal. Generate six NORTH full-back combat figures in landscape2x3. Spear shaft MUST look VERTICAL on screen and lead toward screenTOP. Single silver leaf tip ABOVE HAT at same X as near grip, never LEFT or RIGHT of body. Shaft foreshortened toward top, separated hands wrapped onto same shaft at right side of chest; arms reach forward away viewer. All target poses point UP while load shortens grip/extension, contact drives UP, then withdraw. Body300-330px fixed; no face. Do not copy the horizontal spear of candidate."
+  },
+  {
+    "jobId": "tombcrossbow-back",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "v2 barrel still points RIGHT. Rebuild six combat poses NORTH full-back: crossbow RAIL is VERTICAL on screen, aims UP away toward screenTOP; muzzle above head, crossbar spans HORIZONTALLY above shoulders equally left/right. Stock/trigger near right shoulder, RIGHT trigger and LEFT foreend grip hold same rigid crossbow. Face never shown. Level shoot ahead with tiny recoil then reload; no sideways or tilted-right muzzle. Physical body scale same as original idle; do not enlarge."
+  },
+  {
+    "jobId": "jeokho-back",
+    "poses": [
+      8,
+      9
+    ],
+    "reason": "v2 contact still swings toward viewer at screenBOTTOM. Generate NORTH back-view attack CONTACT and FOLLOW only, TWO columns ONE row. Body leans AWAY from viewer toward TOP, both arms extend AWAY beyond shoulders; pickaxe shaft projects VERTICALLY UP behind head, most handle partly occluded by back. One curved double-pointed iron pick HEAD visible ABOVE the head toward TOP (far side of body), never below feet or in front of visible back. Grip both hands separated on single shaft. Physical body same as approved front, no face. Exact two figures, head90-110px, crouched body same limb thickness. Transparent generous padding."
+  },
+  {
+    "jobId": "seokmun-back",
+    "poses": [
+      8,
+      9
+    ],
+    "reason": "v2 contact8 stays above shoulder, actual crouched downstroke is9. Need TWO figures contact then tiny held followthrough in fixed NORTH full-back. LEFT screen-left shield fixed, RIGHT screen-right hammer swings DOWN and AWAY towards screenTOP, ends ahead at right of torso above boot line, mostly hidden beyond back, never toward viewer. Both stay planted wide stance with modest torso lean, not prone on belly. Physical head/body same native size. Keep contact/follow similar position with tiny overshoot."
+  },
+  {
+    "jobId": "gwakgi-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "v2 still puts wrench in screen-left hand. NE mostly back: RIGHT near arm visible on screenRIGHT raises WRENCH straight above RIGHT side of head. LEFT far arm screenLEFT retains GOLD forearm mechanism and empty fingers. Never gold on screenright, never wrench on screenleft. Two load poses only, correct right shoulder-elbow-wrist, same native scale."
+  },
+  {
+    "jobId": "gwakgi-back",
+    "poses": [
+      3,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reason": "v2 still swaps wrench/launcher in walk3, follow9 and aims right notUP. North full-back RIGHT screen-right black-gloved hand holds WRENCH; LEFT screen-left GOLD launcher arm empty. Walk3 fixed arm ownership. Maxload wrench rises above RIGHT side of head, contact/follow cut toward screenTOP far side of body, wrench head ABOVE right shoulder not at side or below feet; short projected handle partly hidden behind head. Recovery draws back to right. Native body proportions same as idle."
+  },
+  {
+    "jobId": "wolryeong-rear-right",
+    "poses": [
+      6,
+      7
+    ],
+    "reason": "v2 restores size but anticipation still sword held by LEFT screen-left arm. Draw only TWO anticipation poses NE camera: RIGHT near arm on screenRIGHT holds gold jian grip ABOVE RIGHT side of head, LEFT far screenLEFT empty arm balances. No raised weapon arm on screenleft. Shoulders/hips mostly back aimingUPRIGHT. Blade upward/back then maxcoil, continuous right shoulder/elbow/wrist. Same physical head and300-330px body as new v2 idle."
+  },
+  {
+    "jobId": "wolryeong-back",
+    "poses": [
+      8,
+      9
+    ],
+    "reason": "v2 contact still cuts toward viewer lower-right. Draw only TWO north back-view contact/follow poses. RIGHT screenRIGHT sword hand extends AWAY toward TOP; projected blade points VERTICALLY UP, TIP ABOVE crown/hairline, mostly far side hidden behind head. Diagonal downward cut ends away ahead, planted stance and slight lean towardTOP; low follow remains aimed away. LEFT screenLEFT empty balance. No front face, no blade pointing below feet or to screenright. Same native head/body scale."
+  }
+]

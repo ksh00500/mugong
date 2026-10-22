@@ -1,0 +1,252 @@
+/* Values and usage rules live in ../DESIGN.md. Fonts are served locally. */
+@font-face {
+  font-family: 'Gowun Batang';
+  src: url('/fonts/GowunBatang-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gowun Batang';
+  src: url('/fonts/GowunBatang-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gowun Dodum';
+  src: url('/fonts/GowunDodum-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --font-display: 'Gowun Batang', 'Batang', serif;
+  --font-ui: 'Gowun Dodum', 'Malgun Gothic', sans-serif;
+  --paper: #f7f0df;
+  --line: #a89569;
+  --brass-line: var(--line);
+  --radius-control: 10px;
+  --radius-panel: 14px;
+  --motion-fast: 120ms;
+  --motion-standard: 180ms;
+  --ease-ui: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ink: #2c382e;
+  --muted: #6d6754;
+  --gold: #967a42;
+  --green: #315548;
+  --brass: #967a42;
+  --jade: #315548;
+  --paper-light: #fff9eb;
+  --ui-focus: #2b7886;
+  color: var(--ink);
+  font-family: var(--font-ui);
+}
+
+button,
+input,
+select,
+kbd,
+.home-scene,
+.dialog,
+.hud {
+  font-family: var(--font-ui);
+}
+
+h1,
+h2,
+h3,
+h4,
+.brand,
+.inventory-name,
+.player-name b,
+.region-label b,
+.progress-panel b,
+.home-brand b,
+.home-family,
+.home-departure h1,
+.home-start-facts b,
+.home-launch b,
+.home-hero-script,
+.home-name-seal,
+.home-hero-caption b,
+.home-roster h2,
+.home-count,
+.home-empty-roster > b,
+.home-detail-heading > b,
+.home-run-progress strong,
+.home-dock-card b,
+.home-records h3,
+.home-create-preview h3 {
+  font-family: var(--font-display);
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex='0']:focus-visible {
+  outline: 3px solid var(--ui-focus);
+  outline-offset: 2px;
+}
+
+.panel,
+.dialog,
+.home-roster,
+.home-dock {
+  border-color: var(--line);
+}
+
+.dialog-header h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+}
+.dialog-header > button {
+  min-height: 40px;
+  padding-inline: 15px;
+  font-size: 18px;
+}
+.dialog .eyebrow,
+.home-scene .eyebrow {
+  color: #695934;
+}
+
+.home-scene .home-brand small,
+.home-scene .home-family small,
+.home-scene .home-section-label,
+.home-scene .home-start-facts > span,
+.home-scene .home-launch-note,
+.home-scene .home-path,
+.home-scene .home-hero-caption small,
+.home-scene .home-empty-steps,
+.home-scene .home-roster > footer,
+.home-scene .home-roster-list small,
+.home-scene .home-roster-list em,
+.home-scene .home-detail-heading > span,
+.home-scene .home-roster-note,
+.home-scene .home-run-heading > span:last-child,
+.home-scene .home-run-progress small,
+.home-scene .home-run-progress > span,
+.home-scene .home-dock-card small,
+.home-scene .home-footer,
+.home-scene .home-save-status {
+  font-size: 16.5px;
+  line-height: 1.45;
+  color: #635e4b;
+}
+.home-scene .home-intro {
+  font-size: 21px;
+  line-height: 1.75;
+  color: #5c624f;
+}
+.home-scene .home-roster .eyebrow,
+.home-scene .home-empty-roster > p,
+.home-scene .home-art-list > div,
+.home-scene .home-bag-link,
+.home-scene .home-run-heading,
+.home-scene .home-run-card .health-line,
+.home-scene .home-fighter-detail .health-line {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.home-scene .home-launch small {
+  font-size: 16.5px;
+  color: #eef1d9;
+}
+.home-scene .home-roster-list > button b {
+  font-size: 19.5px;
+}
+.home-scene .home-empty-roster > p,
+.home-scene .home-dock-card small,
+.home-scene .home-launch-note {
+  color: #655e49;
+}
+.home-scene .home-roster > footer,
+.home-scene .home-empty-steps,
+.home-scene .home-save-status {
+  color: #5c654e;
+}
+.home-scene .home-nav button {
+  font-size: 21px;
+}
+.home-scene .home-round-button {
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+}
+.home-scene .home-roster-list > button,
+.home-scene .home-bag-link,
+.home-scene .home-dock-card {
+  transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+.home-scene .home-roster-list > button:focus-visible,
+.home-scene .home-dock-card:focus-visible {
+  outline-offset: -4px;
+}
+
+.inventory-banner,
+.linked-warehouse p,
+.inventory-character .remaining,
+.bag-note,
+.item-detail > p,
+.item-detail dl,
+.empty-detail p,
+.loose-items > p,
+.ground-section h3 small,
+.board-section h3 small {
+  font-size: 18px;
+  line-height: 1.55;
+  color: #5f624f;
+}
+.inventory-columns h3,
+.ground-section h3,
+.board-section h3 {
+  font-size: 22.5px;
+  font-family: var(--font-display);
+  color: var(--ink);
+}
+.inventory-columns h3 small,
+.binding-list button,
+.item-actions button {
+  font-size: 16.5px;
+}
+.item-detail h4 {
+  font-size: 30px;
+}
+.item-actions button {
+  min-height: 40px;
+}
+.linked-warehouse,
+.ground-section,
+.board-section {
+  border-color: var(--line);
+}
+.empty-detail {
+  color: #64624e;
+}
+.field-footer,
+.field-footer button {
+  font-size: 18px;
+}
+.hud-actions button,
+.health-line,
+.region-label,
+.current-art p,
+.ultimate-panel p {
+  font-size: 18px;
+}
+
+@media (max-width: 760px) {
+  .home-scene .home-nav button {
+    font-size: 18px;
+  }
+  .home-scene .home-round-button {
+    width: 34px;
+    height: 34px;
+    min-height: 34px;
+  }
+  .home-scene .home-brand small,
+  .home-scene .home-family small {
+    display: none;
+  }
+}

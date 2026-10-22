@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-29",
+  "scope": "Current local browser game, UI, input, persistence and deployment",
+  "fixedFindings": [
+    { "priority": "P1", "issue": "Malformed nested save crashes the UI", "evidence": "Failed before fix; error UI, retry and unchanged raw save passed afterward" },
+    { "priority": "P1", "issue": "Persisted pagehide releases single-writer lease", "evidence": "Simulated persisted lifecycle; second tab blocked and close/retry passed. Not a real BFCache eligibility test" },
+    { "priority": "P2", "issue": "Dialog background remains focusable", "evidence": "Background inert, focus isolation and opener restoration passed" },
+    { "priority": "P2", "issue": "Bag rotation shortcut runs behind confirmation/growth", "evidence": "Cancel and selection preserve rotation; workspace restored" },
+    { "priority": "P2", "issue": "Full-health medicine use button stays active", "evidence": "Disabled at full health; combat restriction preserved" },
+    { "priority": "P2", "issue": "Stage copy implies absent dash/reach mechanics", "evidence": "Copy and four translation catalogs aligned; balance unchanged" }
+  ],
+  "automatic": {
+    "productionBuild": "TypeScript and Vite passed",
+    "unit": { "passed": 48, "files": 5 },
+    "localBrowser": { "passed": 44, "skipped": 1, "skipReason": "Public deployment-only scenario runs separately" },
+    "publicBrowser": { "passed": 14, "existingFlowAndLanguage": 8, "newAuditScenarios": 6 },
+    "requiredViewports": [[1440, 900], [1366, 768], [1093, 614]],
+    "languages": ["ko", "en", "ja", "zh-CN", "zh-TW"],
+    "npmAuditKnownVulnerabilities": 0,
+    "npmAuditResult": "npm-audit.json",
+    "intermediateHarnessIssue": "Two Playwright processes shared trace output and collided; final full run was sequential and passed"
+  },
+  "manual": {
+    "localAndPublic": "Observed lobby/settings; background menus excluded from accessibility tree; Escape restored opener focus",
+    "captures": ["save-error.png", "../layout-v3/1366/settings.png", "../daytona-20260929-audit/lobby.png", "../daytona-20260929-audit/bag.png"],
+    "loadingRecovery": "Actual local browser image-preparation failure recovered via Retry; root cause not established",
+    "notClaimed": "New-user usability, accessibility certification, actual BFCache entry, all GPUs or long-session stability"
+  },
+  "storage": "Test data only in isolated Playwright contexts. Actual user saves not seeded, erased or replaced",
+  "deployment": {
+    "url": "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/",
+    "release": "/srv/mugong/releases/20260929-audit-v1",
+    "archiveBytes": 15274248,
+    "sha256": "21f3d1d01b58e9f76308cbb9443efd3b931f846ed65d386e656edb28a3f63dfa",
+    "remoteHashMatches": true,
+    "observedPublicModule": "/assets/index-vLDPfmq-.js",
+    "nginxSyntax": "passed",
+    "httpStatus": 200,
+    "previousReleasePreserved": "/srv/mugong/releases/20260929-layout-v3",
+    "publicResult": "../daytona-20260929-audit/result.json"
+  },
+  "remaining": [
+    "Post-return raid, PvP, market and accounts",
+    "Save generations, export/import, migration and recovery",
+    "Server authority and unsupported Web Locks environments",
+    "Consolidate 11 CSS layers",
+    "Hardware WebGL and long-session verification",
+    "New-user and assistive-technology usability",
+    "Production availability and recovery"
+  ]
+}

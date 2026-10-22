@@ -1,0 +1,389 @@
+{
+  "date": "2026-09-29T06:01:15.006Z",
+  "sourceChanged": false,
+  "isolatedContexts": true,
+  "errors": [
+    "Cannot read properties of undefined (reading 'trim')"
+  ],
+  "screens": {
+    "lobby": {
+      ".home-launch": {
+        "text": "새 무인으로 출전",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 244, 217)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "10px",
+        "border": "1px solid rgb(183, 156, 99)",
+        "width": 360,
+        "height": 114,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      },
+      ".home-nav button": {
+        "text": "출전",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(73, 84, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "10px",
+        "border": "",
+        "width": 103.640625,
+        "height": 83,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      },
+      ".home-round-button": {
+        "text": "",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(66, 86, 65)",
+        "background": "rgba(248, 237, 206, 0.467)",
+        "radius": "10px",
+        "border": "1px solid rgba(184, 164, 121, 0.467)",
+        "width": 60,
+        "height": 60,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      },
+      ".home-departure h1": {
+        "text": "강호에 나서세요",
+        "fontSize": "54px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(37, 56, 45)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(37, 56, 45)",
+        "width": 436.5,
+        "height": 81,
+        "transition": "all",
+        "brassLine": ""
+      }
+    },
+    "settings": {
+      ".dialog-header h2": {
+        "text": "화면 설정",
+        "fontSize": "37.5px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(40, 61, 46)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(40, 61, 46)",
+        "width": 206.85000610351562,
+        "height": 47.279998779296875,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".dialog-header > button": {
+        "text": "닫기",
+        "fontSize": "19.5px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(39, 54, 44)",
+        "background": "rgb(255, 248, 230)",
+        "radius": "10px",
+        "border": "1px solid rgb(184, 166, 127)",
+        "width": 84.23291015625,
+        "height": 59.100006103515625,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      },
+      "#game-language": {
+        "text": "자동 감지 · 한국어한국어English日本語简体中文繁體中文",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(44, 56, 46)",
+        "background": "rgb(255, 249, 235)",
+        "radius": "10px",
+        "border": "0px none rgb(44, 56, 46)",
+        "width": 402.8650207519531,
+        "height": 65.00997924804688,
+        "transition": "all",
+        "brassLine": ""
+      }
+    },
+    "bag": {
+      ".dialog-header h2": {
+        "text": "무인의 가방",
+        "fontSize": "30px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(40, 61, 46)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(40, 61, 46)",
+        "width": 209.109375,
+        "height": 48,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".dialog-header > button": {
+        "text": "닫기",
+        "fontSize": "18px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(39, 54, 44)",
+        "background": "rgb(255, 248, 230)",
+        "radius": "10px",
+        "border": "1px solid rgb(184, 166, 127)",
+        "width": 100,
+        "height": 48,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      },
+      ".item-detail h4": {
+        "text": "강철검",
+        "fontSize": "27px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(37, 59, 44)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(37, 59, 44)",
+        "width": 71.828125,
+        "height": 35.09375,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".bag-grid": {
+        "text": "강철검",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(39, 54, 44)",
+        "background": "rgb(184, 171, 144)",
+        "radius": "6px",
+        "border": "0px none rgb(39, 54, 44)",
+        "width": 119,
+        "height": 208.25,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".inventory-tray": {
+        "text": "세가 창고 1수련 비급‹1 / 1›",
+        "fontSize": "21px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(39, 54, 44)",
+        "background": "rgba(251, 245, 230, 0.72)",
+        "radius": "14px",
+        "border": "1px solid rgba(184, 168, 134, 0.44)",
+        "width": 783.75,
+        "height": 126,
+        "transition": "all",
+        "brassLine": ""
+      }
+    },
+    "hudDefault": {
+      ".player-name b": {
+        "text": "청하연",
+        "fontSize": "17px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(44, 41, 30)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(44, 41, 30)",
+        "width": 46.078125,
+        "height": 20.390625,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".health-line small": {
+        "text": "체력",
+        "fontSize": "10px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 245, 223)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 245, 223)",
+        "width": 17.609375,
+        "height": 10,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".health-line > span": {
+        "text": "120 / 120",
+        "fontSize": "11px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 245, 223)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 245, 223)",
+        "width": 48.640625,
+        "height": 11,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".xp-line": {
+        "text": "경험치1019 / 70",
+        "fontSize": "11px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(56, 46, 32)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(56, 46, 32)",
+        "width": 120,
+        "height": 11,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".meter.experience i": {
+        "text": "",
+        "fontSize": "16px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(44, 41, 30)",
+        "background": "rgb(187, 161, 105)",
+        "radius": "8px",
+        "border": "0px none rgb(44, 41, 30)",
+        "width": 120,
+        "height": 3,
+        "transition": "width 0.12s ease-out",
+        "brassLine": ""
+      },
+      ".fan-current-name": {
+        "text": "화산매화검법",
+        "fontSize": "16px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(255, 241, 206)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 241, 206)",
+        "width": 168,
+        "height": 20.796875,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".hud-actions button": {
+        "text": "가방 Tab",
+        "fontSize": "13px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 241, 206)",
+        "background": "rgba(23, 37, 27, 0.91)",
+        "radius": "6px 2px 8px 3px",
+        "border": "1px solid rgb(164, 134, 80)",
+        "width": 106.234375,
+        "height": 34,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      }
+    },
+    "hudLarge": {
+      ".player-name b": {
+        "text": "청하연",
+        "fontSize": "20px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(44, 41, 30)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(44, 41, 30)",
+        "width": 54.203125,
+        "height": 24,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".health-line small": {
+        "text": "체력",
+        "fontSize": "10px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 245, 223)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 245, 223)",
+        "width": 17.609375,
+        "height": 10,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".health-line > span": {
+        "text": "120 / 120",
+        "fontSize": "11px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 245, 223)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 245, 223)",
+        "width": 48.640625,
+        "height": 11,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".xp-line": {
+        "text": "경험치1019 / 70",
+        "fontSize": "12px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(56, 46, 32)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(56, 46, 32)",
+        "width": 120,
+        "height": 12,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".meter.experience i": {
+        "text": "",
+        "fontSize": "16px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(44, 41, 30)",
+        "background": "rgb(187, 161, 105)",
+        "radius": "8px",
+        "border": "0px none rgb(44, 41, 30)",
+        "width": 120,
+        "height": 3,
+        "transition": "width 0.12s ease-out",
+        "brassLine": ""
+      },
+      ".fan-current-name": {
+        "text": "화산매화검법",
+        "fontSize": "16px",
+        "fontFamily": "\"Gowun Batang\", Batang, serif",
+        "color": "rgb(255, 241, 206)",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "border": "0px none rgb(255, 241, 206)",
+        "width": 168,
+        "height": 20.796875,
+        "transition": "all",
+        "brassLine": ""
+      },
+      ".hud-actions button": {
+        "text": "가방 Tab",
+        "fontSize": "13px",
+        "fontFamily": "\"Gowun Dodum\", \"Malgun Gothic\", sans-serif",
+        "color": "rgb(255, 241, 206)",
+        "background": "rgba(23, 37, 27, 0.91)",
+        "radius": "6px 2px 8px 3px",
+        "border": "1px solid rgb(164, 134, 80)",
+        "width": 106.234375,
+        "height": 34,
+        "transition": "background-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.18s cubic-bezier(0.22, 1, 0.36, 1), transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+        "brassLine": ""
+      }
+    }
+  },
+  "findings": {
+    "mutePersistence": {
+      "muteBefore": true,
+      "muteAfter": false,
+      "retained": false
+    },
+    "keyboardAudio": {
+      "createdAfterKeyboardDefense": 0
+    },
+    "slowSaveInput": {
+      "before": 0,
+      "startElapsed": 0.6666666666666671,
+      "start": 2800.7999999970198,
+      "end": 3123.0999999940395,
+      "busyElapsed": 0.6666666666666671,
+      "after": 0,
+      "delivered": false,
+      "injectedCompletionDelayMs": 300
+    },
+    "normalSwitch": 1,
+    "shortFrameSample": {
+      "frames": 181,
+      "p50": 16.699999999999818,
+      "p95": 16.700000000000728,
+      "max": 16.800000000000182,
+      "sampleSeconds": 3,
+      "renderer": "Canvas",
+      "hardwareBenchmark": false
+    }
+  },
+  "auditError": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.game-canvas[data-ready=\"true\"]') to be visible\u001b[22m\n\n    at seed (C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\.cache\\investigate-unification.mjs:40:93)\n    at async file:///C:/Users/user/Documents/ChatGPT/MUGONG/.cache/investigate-unification.mjs:117:3"
+}

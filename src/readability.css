@@ -1,0 +1,953 @@
+/* 150% typography is defined in the source styles. Reflow controls, never scale the viewport. */
+.app-shell button:where(:not(.bag-cell):not(.item-tile):not(.choice-card)) {
+  min-height: 66px;
+}
+.app-shell .ui-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.app-shell input,
+.app-shell select {
+  min-height: 66px;
+}
+.app-shell .dialog-header {
+  min-height: 84px;
+  padding: 10px 24px;
+  gap: 18px;
+}
+.app-shell .dialog-header h2 {
+  line-height: 1.2;
+}
+.app-shell .dialog-header > button {
+  min-height: 60px;
+  flex-shrink: 0;
+}
+.app-shell .dialog-seal {
+  width: 48px;
+  height: 48px;
+}
+.app-shell .dialog:not(.inventory-workspace):not(.warehouse-workspace) {
+  width: min(880px, calc(100% - 32px));
+}
+
+/* A generous header and action area; the illustration yields space to the roster. */
+.app-shell .home-header {
+  height: 100px;
+  padding-inline: 28px;
+  gap: 26px;
+}
+.app-shell .home-brand {
+  min-width: 0;
+}
+.app-shell .home-brand-mark {
+  width: 66px;
+  height: 66px;
+}
+.app-shell .home-nav {
+  gap: 4px;
+}
+.app-shell .home-nav button {
+  padding-inline: 16px;
+  gap: 8px;
+}
+.app-shell .home-nav .ui-icon,
+.app-shell .home-round-button .ui-icon {
+  width: 30px;
+  height: 30px;
+}
+.app-shell .home-round-button {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+}
+.app-shell .home-stage {
+  grid-template-columns: minmax(320px, 1.15fr) minmax(150px, 0.8fr) minmax(360px, 1.15fr);
+  padding: 18px 28px;
+  gap: 24px;
+}
+.app-shell .home-departure h1 {
+  line-height: 1.5;
+  margin-bottom: 22px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.app-shell .home-brand b {
+  white-space: nowrap;
+}
+.app-shell .home-launch {
+  min-height: 114px;
+  width: 100%;
+  padding: 18px;
+}
+.app-shell .home-start-facts {
+  margin-bottom: 24px;
+}
+.app-shell .home-dock {
+  width: calc(100% - 56px);
+  flex: none;
+}
+.app-shell .home-dock-card {
+  min-height: 100px;
+  padding: 16px;
+  gap: 12px;
+}
+.app-shell .home-dock-icon {
+  width: 60px;
+  height: 60px;
+  flex: none;
+}
+.app-shell .home-dock-icon .ui-icon {
+  width: 42px;
+  height: 42px;
+}
+.app-shell .home-footer {
+  min-height: 32px;
+  height: 32px;
+  padding: 0 28px 6px;
+}
+.app-shell .home-empty-emblem {
+  width: 90px;
+  height: 90px;
+}
+.app-shell .home-empty-emblem > .ui-icon {
+  width: 60px;
+  height: 60px;
+}
+.app-shell .home-roster > header {
+  padding: 12px 18px;
+}
+.app-shell .home-roster-list button {
+  padding: 10px 16px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.app-shell .home-roster-list em {
+  margin-left: auto;
+}
+.app-shell .home-fighter-detail {
+  padding: 10px 18px;
+}
+.app-shell .home-detail-heading {
+  display: none;
+}
+.app-shell .home-art-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0;
+}
+.app-shell .home-art-list > div {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 4px;
+  padding: 2px;
+}
+.app-shell .home-art-list .art-glyph {
+  width: 36px;
+  height: 36px;
+  grid-row: span 2;
+}
+.app-shell .home-art-list b {
+  grid-column: 2;
+}
+.app-shell .home-bag-link {
+  min-height: 66px;
+  width: 100%;
+  gap: 8px;
+}
+.app-shell .home-roster > footer {
+  padding: 8px 18px;
+}
+.app-shell .roster-pagination button {
+  width: 60px;
+}
+
+/* Tabs replace the dense four-column bag plus persistent tray. */
+.app-shell .inventory-workspace {
+  overflow: visible;
+  --cell: min(76px, calc((100dvh - 286px) / 8), calc((100vw - 490px) / 10));
+}
+.inventory-workspace .inventory-banner {
+  display: none;
+}
+.app-shell .inventory-mobile-nav {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  padding: 8px 24px;
+  gap: 8px;
+  flex: none;
+}
+.app-shell .inventory-mobile-nav button {
+  min-height: 60px;
+  padding: 6px;
+  font-size: 21px;
+  line-height: 1.15;
+}
+.app-shell[data-locale='en'] .inventory-mobile-nav button {
+  font-size: 21px;
+}
+.inventory-workspace .inventory-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.72fr);
+  align-items: center;
+  align-content: stretch;
+  padding: 10px 24px;
+  gap: 28px;
+}
+.inventory-workspace .inventory-columns > * {
+  display: none;
+  grid-row: auto;
+  grid-column: auto;
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='general'] .general-column,
+.inventory-workspace .inventory-columns[data-mobile-tab='weapon'] .bag-column:not(.general-column) {
+  display: block;
+  grid-column: 1;
+  grid-row: 1;
+  width: calc(var(--cell) * 10);
+  justify-self: center;
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='weapon'] .bag-column:not(.general-column) {
+  width: calc(var(--cell) * 4);
+  min-width: 260px;
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='general'] .item-detail,
+.inventory-workspace .inventory-columns[data-mobile-tab='weapon'] .item-detail {
+  display: block;
+  grid-column: 2;
+  grid-row: 1;
+}
+.inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail,
+.inventory-workspace .inventory-columns[data-mobile-tab='character'] .inventory-character {
+  display: block;
+  grid-column: 1/-1;
+  grid-row: 1;
+  width: 100%;
+  max-width: 900px;
+  justify-self: center;
+}
+.inventory-workspace .inventory-columns h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.inventory-workspace .bag-note {
+  display: none;
+}
+.bag-usage {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px 12px;
+  margin-bottom: 12px;
+}
+.bag-usage > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.inventory-workspace .bag-usage h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 27px;
+  line-height: 1.1;
+}
+.bag-dimensions {
+  font-size: 18px;
+  color: #68634d;
+}
+.bag-usage-numbers {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.bag-usage-numbers strong {
+  font-size: 27px;
+}
+.bag-usage-numbers small,
+.bag-usage-numbers span {
+  font-size: 18px;
+}
+.bag-usage-meter {
+  height: 9px;
+  border-radius: 10px;
+  background: #cfc8ad;
+  grid-column: 1/-1;
+}
+.bag-usage-meter i {
+  display: block;
+  height: 100%;
+  background: #44755c;
+  border-radius: inherit;
+}
+.bag-usage[data-place='weapon'] {
+  grid-template-columns: 1fr;
+}
+.bag-usage[data-place='weapon'] .bag-usage-numbers {
+  justify-content: space-between;
+}
+.inventory-workspace .bag-grid {
+  position: relative;
+}
+.inventory-workspace .bag-grid .item-count {
+  font-size: 18px;
+}
+.inventory-workspace .bag-grid .item-tile {
+  cursor: grab;
+}
+.inventory-workspace .bag-grid[data-dragging='true'] .item-tile {
+  cursor: grabbing;
+}
+.inventory-workspace .item-tile.drag-source {
+  opacity: 0.45;
+}
+.inventory-workspace .placement-preview {
+  position: relative;
+  z-index: 4;
+  border: 3px solid #286b4b;
+  border-radius: 8px;
+  background: #dcebd9b8;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.inventory-workspace .placement-preview.blocked {
+  border-color: #ab4032;
+  background: #edc5b7bb;
+}
+.inventory-workspace .placement-preview .item-art {
+  width: 85%;
+  height: 85%;
+  opacity: 0.7;
+}
+.inventory-workspace .placement-preview span {
+  position: absolute;
+  bottom: 3px;
+  font-size: 18px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #fff9e6;
+  color: #234735;
+}
+.inventory-workspace .placement-preview.blocked span {
+  color: #922c25;
+}
+.inventory-workspace .item-detail {
+  padding: 0 0 0 20px;
+  border-left: 1px solid #b9ab89;
+}
+.inventory-workspace .item-detail > h3 {
+  display: none;
+}
+.inventory-workspace .detail-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.inventory-workspace .detail-icon {
+  display: grid;
+  place-items: center;
+  height: 96px;
+  width: 96px;
+  flex: none;
+}
+.inventory-workspace .detail-icon .item-art {
+  height: 84px;
+  width: 84px;
+}
+.inventory-workspace .item-detail h4,
+.app-shell[data-locale='en'] .item-detail h4 {
+  font-size: 31.5px;
+  margin: 0 0 4px;
+}
+.item-footprint {
+  color: #476046;
+  font-size: 21px;
+  font-variant-numeric: tabular-nums;
+}
+.inventory-workspace .item-detail > p {
+  font-size: 19.5px;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+.inventory-workspace .item-location {
+  font-size: 18px;
+  padding: 3px 0;
+  margin: 5px 0;
+  background: none;
+  border: 0;
+}
+.inventory-workspace .item-detail dl {
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  font-size: 19.5px;
+  margin: 8px 0;
+  gap: 6px 10px;
+  padding: 0;
+}
+.inventory-workspace .item-actions {
+  margin-top: 12px;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+.app-shell .inventory-workspace .item-actions button {
+  min-height: 54px;
+  font-size: 18px;
+  padding: 7px 8px;
+}
+.app-shell .inventory-workspace .item-actions button.primary {
+  grid-column: auto;
+  order: 0;
+}
+.inventory-workspace .item-actions .ui-icon {
+  width: 30px;
+  height: 30px;
+}
+.inventory-workspace .item-actions kbd {
+  font-size: 16.5px;
+}
+.inventory-workspace .inventory-character {
+  padding: 0;
+  border: 0;
+}
+.inventory-workspace .inventory-character > h3 {
+  display: none;
+}
+.inventory-workspace .inventory-name {
+  font-size: 30px;
+}
+.inventory-workspace .character-tabs {
+  margin: 10px 0 14px;
+}
+.app-shell .inventory-workspace .character-tabs button {
+  min-height: 51px;
+  font-size: 18px;
+}
+.inventory-workspace .binding-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.inventory-workspace .binding-list > div {
+  min-height: 84px;
+  padding: 8px;
+  gap: 10px;
+}
+.inventory-workspace .binding-list .art-glyph {
+  width: 54px;
+  height: 54px;
+}
+.inventory-workspace .binding-list b {
+  font-size: 21px;
+}
+.inventory-workspace .binding-list small {
+  font-size: 18px;
+}
+.app-shell .inventory-workspace .binding-list button {
+  min-height: 54px;
+  font-size: 18px;
+  padding: 8px;
+}
+.inventory-workspace .equipped-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.inventory-workspace .equipped-list .item-tile {
+  height: 180px;
+}
+.inventory-workspace .equipped-list .item-art {
+  max-width: 120px;
+  height: 120px;
+}
+.inventory-workspace .equipped-list .item-tile small {
+  font-size: 21px;
+}
+.inventory-workspace .inventory-tray[data-active='false'] {
+  display: none;
+}
+.inventory-workspace .inventory-tray[data-active='true'] {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  margin: 10px 24px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inventory-workspace .tray-header {
+  height: auto;
+  min-height: 36px;
+  padding-bottom: 14px;
+  justify-content: flex-start;
+}
+.inventory-workspace .tray-header nav {
+  display: none;
+}
+.inventory-workspace .tray-header > span {
+  display: block;
+  font-size: 18px;
+}
+.app-shell .paged-items {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;
+}
+.app-shell .paged-item-list {
+  grid-template-columns: repeat(var(--item-count), minmax(0, 1fr));
+}
+.app-shell .paged-item-list > .item-tile {
+  height: 220px;
+  padding: 14px;
+}
+.app-shell .paged-item-list .item-art {
+  width: 100%;
+  height: 150px;
+  max-height: 150px;
+}
+.app-shell .paged-item-list .item-tile small {
+  font-size: 21px;
+}
+.app-shell .item-pagination {
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+  font-size: 18px;
+}
+.app-shell .item-pagination button {
+  width: 60px;
+  height: 60px;
+  font-size: 36px;
+}
+.inventory-workspace .inventory-status {
+  min-height: 44px;
+  height: auto;
+  font-size: 18px;
+  padding: 7px 24px;
+}
+.inventory-workspace .empty-detail > .ui-icon {
+  width: 96px;
+  height: 96px;
+}
+.inventory-workspace .confirm-overlay > .panel {
+  width: min(720px, calc(100% - 40px));
+  padding: 24px;
+}
+.app-shell .warehouse-workspace {
+  overflow: visible;
+}
+.warehouse-workspace .warehouse-content {
+  padding: 18px 24px;
+}
+
+/* Larger HUD numbers and actions occupy the corners, leaving the arena readable. */
+.app-shell .hud-top {
+  grid-template-columns: minmax(300px, 1fr) 0.75fr minmax(300px, 1fr);
+  gap: 14px;
+}
+.app-shell .hud-bottom {
+  grid-template-columns: minmax(290px, 1fr) 0.65fr minmax(360px, 1.25fr);
+  gap: 14px;
+}
+.app-shell .hud .player-panel {
+  min-height: 164px;
+  padding: 12px 12px 12px 102px;
+}
+.app-shell .hud-portrait {
+  width: 90px;
+}
+.app-shell .hud .player-name {
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.app-shell .hud .progress-panel {
+  min-height: 150px;
+}
+.app-shell .hud .hud-actions {
+  gap: 8px;
+}
+.app-shell .hud-actions button {
+  min-height: 63px;
+  padding: 8px;
+}
+.app-shell .hud .meter {
+  height: 15px;
+}
+.app-shell .hud .meter.experience {
+  height: 9px;
+}
+.app-shell .hud .current-art {
+  min-height: 144px;
+  padding: 12px !important;
+  gap: 12px;
+}
+.app-shell .hud .current-art .art-glyph {
+  width: 81px;
+  height: 81px;
+  flex: none;
+}
+.app-shell .hud .ultimate-panel {
+  min-height: 144px;
+}
+.app-shell .hud .art-switch {
+  min-height: 144px;
+}
+.app-shell .hud .art-slots button {
+  min-height: 87px;
+  padding: 5px;
+}
+.app-shell .hud .art-slots .art-glyph {
+  width: 42px;
+  height: 42px;
+}
+.app-shell .hud .field-caption {
+  bottom: 28%;
+}
+.app-shell .intermission {
+  bottom: 29%;
+  max-width: 90%;
+  padding: 16px 22px;
+}
+
+/* Keep three large choices visible without repeating the skill in several blocks. */
+.app-shell .home-create-form {
+  padding: 18px 24px;
+  gap: 12px;
+}
+.app-shell .home-create-preview {
+  padding: 0;
+  gap: 18px;
+}
+.app-shell .home-create-preview h3 {
+  margin-bottom: 8px;
+}
+.app-shell .home-create-actions button {
+  min-height: 66px;
+}
+
+@media (max-height: 740px) {
+  .app-shell .home-header {
+    height: 84px;
+  }
+  .app-shell .home-stage {
+    padding-block: 12px;
+    gap: 16px;
+  }
+  .app-shell .home-dock-card {
+    min-height: 84px;
+    padding: 10px 14px;
+  }
+  .app-shell .home-empty-roster {
+    padding: 16px;
+  }
+  .app-shell .home-empty-emblem {
+    margin-bottom: 12px;
+  }
+  .app-shell .home-departure h1 {
+    margin-bottom: 16px;
+  }
+  .app-shell .home-start-facts {
+    margin-bottom: 16px;
+  }
+  .app-shell .home-art-list {
+    margin: 8px 0;
+    gap: 4px;
+  }
+  .app-shell .home-roster > footer {
+    padding: 4px 18px;
+  }
+}
+@media (max-width: 1200px) {
+  .app-shell .home-stage {
+    grid-template-columns: minmax(320px, 1fr) 140px minmax(340px, 1fr);
+  }
+  .app-shell .home-header {
+    gap: 18px;
+  }
+  .app-shell .home-nav button {
+    padding-inline: 12px;
+  }
+  .inventory-workspace .inventory-columns {
+    grid-template-columns: minmax(0, 1fr) 370px;
+    gap: 20px;
+  }
+  .app-shell .inventory-workspace {
+    --cell: min(76px, calc((100dvh - 286px) / 8), calc((100vw - 454px) / 10));
+  }
+  .inventory-workspace
+    .inventory-columns[data-mobile-tab='weapon']
+    .bag-column:not(.general-column) {
+    min-width: 280px;
+  }
+  .inventory-workspace .bag-usage > div:first-child {
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .inventory-workspace .bag-usage-numbers {
+    flex-direction: row;
+    gap: 8px;
+  }
+  .inventory-workspace .item-detail dl {
+    grid-template-columns: auto 1fr auto 1fr;
+  }
+  .app-shell .hud-bottom {
+    grid-template-columns: minmax(280px, 1fr) 0.65fr minmax(330px, 1.2fr);
+  }
+}
+@media (max-width: 1000px) {
+  .app-shell .home-header {
+    padding-inline: 20px;
+    gap: 14px;
+  }
+  .app-shell .home-brand-mark {
+    display: none;
+  }
+  .app-shell .home-brand {
+    flex: none;
+  }
+  .app-shell .home-nav button {
+    padding-inline: 8px;
+    gap: 4px;
+  }
+  .app-shell .home-stage {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .app-shell .home-hero {
+    display: none;
+  }
+  .app-shell .inventory-workspace {
+    --cell: min(calc((100vw - 48px) / 10), calc((100dvh - 286px) / 8));
+  }
+  .inventory-workspace .inventory-columns {
+    grid-template-columns: 1fr;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='general'] .item-detail,
+  .inventory-workspace .inventory-columns[data-mobile-tab='weapon'] .item-detail {
+    display: none;
+  }
+  .inventory-workspace .bag-usage > div:first-child {
+    flex-direction: row;
+    align-items: center;
+  }
+  .inventory-workspace .bag-usage-numbers {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .home-header {
+    height: 78px;
+    padding-inline: 16px;
+    gap: 10px;
+  }
+  .app-shell .home-brand b {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+  }
+  .app-shell .home-nav {
+    gap: 0;
+  }
+  .app-shell .home-nav button {
+    min-width: 0;
+    font-size: 18px;
+    padding-inline: 6px;
+    gap: 2px;
+  }
+  .app-shell .home-header-end {
+    gap: 4px;
+  }
+  .app-shell .home-round-button {
+    width: 54px;
+    height: 54px;
+    min-height: 54px !important;
+    padding: 10px;
+  }
+  .app-shell .home-stage {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 12px;
+    padding: 10px 20px;
+    align-content: center;
+  }
+  .app-shell .home-departure {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .app-shell .home-roster {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+  }
+  .app-shell .home-departure h1 {
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  .app-shell .home-section-label {
+    display: none;
+  }
+  .app-shell .home-start-facts {
+    padding: 6px 0;
+    margin: 0 0 8px;
+    max-width: none;
+    flex-direction: row;
+  }
+  .app-shell .home-start-facts > span {
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0;
+    gap: 10px;
+    font-size: 18px;
+  }
+  .app-shell .home-launch {
+    min-height: 69px;
+    max-width: none;
+    padding: 10px 16px;
+  }
+  .app-shell .home-roster > header {
+    padding: 6px 12px;
+  }
+  .app-shell .home-empty-roster {
+    padding: 6px 12px;
+  }
+  .app-shell .home-dock {
+    width: calc(100% - 40px);
+  }
+  .app-shell .home-dock-card {
+    min-height: 72px;
+    padding: 8px;
+  }
+  .app-shell .home-dock-icon {
+    display: none;
+  }
+  .app-shell .inventory-mobile-nav {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 8px 16px;
+    gap: 6px;
+  }
+  .app-shell .inventory-mobile-nav button {
+    min-height: 54px;
+    font-size: 18px;
+  }
+  .app-shell .inventory-workspace {
+    --cell: min(calc((100vw - 32px) / 10), calc((100dvh - 344px) / 8));
+  }
+  .inventory-workspace .inventory-columns {
+    padding: 8px 16px;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail {
+    padding: 0;
+    border: 0;
+    max-width: none;
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='character'] .inventory-character {
+    max-width: none;
+  }
+  .inventory-workspace .bag-usage h3 {
+    font-size: 24px;
+  }
+  .inventory-workspace .bag-usage > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .inventory-workspace .bag-usage-numbers {
+    flex-direction: column;
+    gap: 0;
+  }
+  .inventory-workspace .binding-list {
+    grid-template-columns: 1fr;
+  }
+  .inventory-workspace .binding-list > div {
+    min-height: 66px;
+  }
+  .inventory-workspace .inventory-tray[data-active='true'] {
+    margin: 8px 16px;
+    padding: 12px;
+  }
+  .app-shell .paged-item-list > .item-tile {
+    height: 180px;
+  }
+  .app-shell .paged-item-list .item-art {
+    height: 120px;
+    max-height: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .app-shell .home-header {
+    height: 134px;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 6px 12px;
+  }
+  .app-shell .home-header-end {
+    margin-left: auto;
+  }
+  .app-shell .home-nav {
+    order: 3;
+    width: 100%;
+    height: 62px;
+  }
+  .app-shell .home-nav button {
+    flex: 1;
+    justify-content: center;
+  }
+  .app-shell .home-dock-card {
+    min-height: 81px;
+  }
+}
+@media (min-width: 501px) and (max-width: 760px) and (max-height: 650px) {
+  .inventory-workspace .bag-usage > div:first-child,
+  .inventory-workspace .bag-usage-numbers {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .app-shell .inventory-mobile-nav {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .app-shell .inventory-workspace {
+    --cell: min(calc((100vw - 32px) / 10), calc((100dvh - 282px) / 8));
+  }
+  .inventory-workspace .inventory-columns[data-mobile-tab='item'] .item-detail {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 12px 18px;
+  }
+  .inventory-workspace .detail-heading {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .inventory-workspace .item-location {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .inventory-workspace .item-detail > p {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+  .inventory-workspace .item-detail dl {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+  }
+  .inventory-workspace .item-actions {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+  }
+  .inventory-workspace .item-detail h4 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell button {
+    transition: none;
+  }
+}

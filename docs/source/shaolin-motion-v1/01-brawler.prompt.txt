@@ -1,0 +1,19 @@
+Use case: identity-preserve.
+Asset type: MUGONG Shaolin region representative motion sheet, ONE existing character, six poses.
+Input image 1: canonical identity reference. Use ONLY the SPECIFIED ROW, not any other character. Input image 2: the approved gray staff monk pilot is a STYLE, CAMERA, SCALE and SPACIOUS LAYOUT reference, NOT the character identity to copy.
+Create a NEW clean transparent RGBA sprite sheet 1536 x 1024, 3 columns by 2 rows, six virtual 512 x 512 cells, no visible grid, text, background, ground/shadow, effects, trails, or additional characters.
+Style: match pilot crisp chibi cartoon linework, restrained painted shading, neutral consistent illumination; preserve character's own identity, garment materials, colors and body mass from canonical reference.
+Fixed camera: slightly elevated three-quarter view, looking down gently, character faces southeast/right-front consistently in all six drawings. No zoom, frontal or rear camera change.
+Scale: comparable to the pilot's REAL figure size, upright body around 260–280 pixels high and anatomical bald skull about 90 pixels wide for ordinary monk; stocky/muscular bosses keep their own mass, not enlarged heads. For THIS SAME character skull diameter, shoulder mass, limb thickness and body proportions remain constant in ALL SIX poses. Moving/crouching must NOT miniature the figure. Do not fit body to weapon bounds.
+Layout: stable foot reference near local (256,440) in all cells, natural small stepping/weight transfer only. All body and weapon fully inside cell, at least32 pixels clear margin from every cell edge. Reserve wide empty action space. No clipping, overlap with neighbor cell or tiling collision.
+Body mechanics: clear continuous neck-spine-pelvis connection; mild torso coil with hips following, no dislocated head or broken spine. Every arm has shoulder-upperarm-elbow-forearm-wrist-hand chain; wrists neutral, knees track toes, support foot carries weight. No twisting arms behind head, crossing elbows impossibly, extra limbs/fingers or detached grips. For held weapons BOTH hands directly touch the SAME continuous shaft.
+Prioritize consistent anatomy, legible weapon-specific action and ample transparent padding, not making the figure fill the tile. Use natural horizontal/forward attack, no uppercut imitation.
+Identity: FIRST ROW of input image 1. young bald monk, burnt-orange short-sleeved wrap tunic, red sash, charcoal trousers, white ankle wraps, dark shoes, matching rounded dark-metal studded gauntlets on BOTH hands. No prayer beads or weapons added.
+Six poses row-major, left-to-right top row then bottom row:
+1) ready guard with both gauntlets near lower chest, elbows relaxed.
+2) one forward walking step maintaining guard.
+3) draw rear gauntlet to ribs, opposite gauntlet guards chin, mild shoulder-and-hip coil with both feet planted.
+4) straight punch toward right-front at chest height, rear hip turns and rear heel pivots, elbow not hyperextended.
+5) short horizontal hook with bent elbow, opposite hand guards body, pivot through hips, no uppercut.
+6) settle into two-handed guard with weight centered.
+Exactly six complete isolated drawings of THIS ONE character only. Transparent alpha background, no labels.

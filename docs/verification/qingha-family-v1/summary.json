@@ -1,0 +1,100 @@
+{
+  "verifiedAtUTC": "2026-10-05T10:38:36.089Z",
+  "family": "qingha",
+  "unit": {
+    "files": 56,
+    "passed": 1265,
+    "success": true
+  },
+  "finalFocusedUnit": {
+    "passed": 4,
+    "success": true
+  },
+  "build": {
+    "passed": true,
+    "mainScript": "/assets/main-u8UEGnA2.js",
+    "log": "build.log"
+  },
+  "art": {
+    "characters": 7,
+    "nativeViews": 5,
+    "gameplayDirections": 8,
+    "frames": 420,
+    "selectedSources": 60,
+    "uniqueHashes": 420,
+    "encodedSheets": 35,
+    "scale": 0.225,
+    "padding": 32
+  },
+  "matrices": [
+    {
+      "id": "canvas-full",
+      "renderer": 1,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 192,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "canvas-reduced",
+      "renderer": 1,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 192,
+      "minHPGap": 11.450000000000017,
+      "errors": []
+    },
+    {
+      "id": "webgl-full",
+      "renderer": 2,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 192,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-reduced",
+      "renderer": 2,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 192,
+      "minHPGap": 11.450000000000017,
+      "errors": []
+    }
+  ],
+  "totalStateSamples": 7840,
+  "totalBossContacts": 768,
+  "actualReleaseCases": 24,
+  "production": [
+    {
+      "width": 1440,
+      "height": 900,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "uniqueAssets": 35,
+      "errors": []
+    }
+  ],
+  "passedBrowserTests": 8,
+  "manualReview": "manual-review.json",
+  "limitations": [
+    "Fine body/head dimensions were visually compared, not numerically certified",
+    "Boss special patterns still share representative attack cycles",
+    "Death uses one fading pose",
+    "Opposite directions use horizontal mirroring"
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

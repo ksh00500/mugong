@@ -1,0 +1,409 @@
+{
+  "status": "prepared, NOT generated or installed",
+  "sources": [
+    {
+      "id": "xuelan-front-hazard",
+      "bossId": "3-2",
+      "view": 0,
+      "move": "hazard",
+      "output": "docs/source/snow-special-v1/xuelan-front-hazard.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-front.png",
+      "referenceSha256": "00d16bc7d5164b16d516063f916b89a88f910d0c5f69b13b59ba04b7ca43202a",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-front-hazard.prompt.txt",
+      "promptSha256": "2f994360500748da13bc2a3f0a130b173816fb772b3abf3953f986b966acb3e6"
+    },
+    {
+      "id": "xuelan-front-stance",
+      "bossId": "3-2",
+      "view": 0,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/xuelan-front-stance.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-front.png",
+      "referenceSha256": "00d16bc7d5164b16d516063f916b89a88f910d0c5f69b13b59ba04b7ca43202a",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-front-stance.prompt.txt",
+      "promptSha256": "7548e8e8b9ac4241f04be2d1b38be55ed9a43afa8c53d69e1faad56531f3ddfb"
+    },
+    {
+      "id": "xuelan-front-right-hazard",
+      "bossId": "3-2",
+      "view": 1,
+      "move": "hazard",
+      "output": "docs/source/snow-special-v1/xuelan-front-right-hazard.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-front-right.png",
+      "referenceSha256": "978f1592aa81b8a595061c00f554ea25dd3e2fe1d1983a6c43cd65095d03e787",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-front-right-hazard.prompt.txt",
+      "promptSha256": "4dfbf85c9809ecf38030675103b7ffae47bc25615ceaa28f475873fbcf19cfdd"
+    },
+    {
+      "id": "xuelan-front-right-stance",
+      "bossId": "3-2",
+      "view": 1,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/xuelan-front-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-front-right.png",
+      "referenceSha256": "978f1592aa81b8a595061c00f554ea25dd3e2fe1d1983a6c43cd65095d03e787",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-front-right-stance.prompt.txt",
+      "promptSha256": "ef7d29759c34c957d67e520dec6b8f5a113fc9cd2221a9931f53b0d73f66acaa"
+    },
+    {
+      "id": "xuelan-right-hazard",
+      "bossId": "3-2",
+      "view": 2,
+      "move": "hazard",
+      "output": "docs/source/snow-special-v1/xuelan-right-hazard.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-right.png",
+      "referenceSha256": "67dd7027bc8034afec4d0229acb25719afd3f2148fe50aa330051d1852318c2a",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-right-hazard.prompt.txt",
+      "promptSha256": "081b241feda3559cee5ecb6e8f494a5257fa3d837d7c4d3fa3116a1101238bba"
+    },
+    {
+      "id": "xuelan-right-stance",
+      "bossId": "3-2",
+      "view": 2,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/xuelan-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-right.png",
+      "referenceSha256": "67dd7027bc8034afec4d0229acb25719afd3f2148fe50aa330051d1852318c2a",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-right-stance.prompt.txt",
+      "promptSha256": "6ae1066550d35a5deadd24d53fc8fce7c307c5a1f9fe144ca8994df907d71153"
+    },
+    {
+      "id": "xuelan-rear-right-hazard",
+      "bossId": "3-2",
+      "view": 3,
+      "move": "hazard",
+      "output": "docs/source/snow-special-v1/xuelan-rear-right-hazard.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-rear-right.png",
+      "referenceSha256": "37bbbe359eb5f857a8a3cd7c707946b01e5d81f5ee35a57d8f1bc653dfc372a5",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-rear-right-hazard.prompt.txt",
+      "promptSha256": "a9186129310086448cb55b3ba9785d493eca2db808da05c85c424eb744a12dc2"
+    },
+    {
+      "id": "xuelan-rear-right-stance",
+      "bossId": "3-2",
+      "view": 3,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/xuelan-rear-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-rear-right.png",
+      "referenceSha256": "37bbbe359eb5f857a8a3cd7c707946b01e5d81f5ee35a57d8f1bc653dfc372a5",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-rear-right-stance.prompt.txt",
+      "promptSha256": "156300b282e023ff13c802be77096fa3b788a31db43984cb1e4738fd2867cb7a"
+    },
+    {
+      "id": "xuelan-back-hazard",
+      "bossId": "3-2",
+      "view": 4,
+      "move": "hazard",
+      "output": "docs/source/snow-special-v1/xuelan-back-hazard.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-back.png",
+      "referenceSha256": "132de000cda597ba5c9ca9f20046af5ce9af10a3a7158de36ebe5c6af6eda641",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-back-hazard.prompt.txt",
+      "promptSha256": "d6cd47f6aaab1e0aa32bda071249077121771b0bfa727272d041590b8256e903"
+    },
+    {
+      "id": "xuelan-back-stance",
+      "bossId": "3-2",
+      "view": 4,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/xuelan-back-stance.png",
+      "reference": "docs/source/snow-special-v1/references/xuelan-back.png",
+      "referenceSha256": "132de000cda597ba5c9ca9f20046af5ce9af10a3a7158de36ebe5c6af6eda641",
+      "prompt": "docs/source/snow-special-v1/resume-v2/xuelan-back-stance.prompt.txt",
+      "promptSha256": "964e47bb2874f4646e7400104e0cf565f4fc43e41d1f93810e5ad2fc6ec40563"
+    },
+    {
+      "id": "baixue-front-stance",
+      "bossId": "3-3",
+      "view": 0,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/baixue-front-stance.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-front.png",
+      "referenceSha256": "57ee32d06ea2dada4339b66de84ff859d7caa82e7eef29d87af6173afdaf42f3",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-front-stance.prompt.txt",
+      "promptSha256": "53619566eb95118048d73dfa184dde1c72e10fb26dcb2b7bbf52a2712acd296b"
+    },
+    {
+      "id": "baixue-front-dash",
+      "bossId": "3-3",
+      "view": 0,
+      "move": "dash",
+      "output": "docs/source/snow-special-v1/baixue-front-dash.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-front.png",
+      "referenceSha256": "57ee32d06ea2dada4339b66de84ff859d7caa82e7eef29d87af6173afdaf42f3",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-front-dash.prompt.txt",
+      "promptSha256": "59d72418d3c3761856211fe7045231f3b7abd56726529c6993a494227c89d137"
+    },
+    {
+      "id": "baixue-front-right-stance",
+      "bossId": "3-3",
+      "view": 1,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/baixue-front-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-front-right.png",
+      "referenceSha256": "3051e1c0f8ed373ec433e7ca9b4298f449e2b429be6c8f681c64d5891b79c4b9",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-front-right-stance.prompt.txt",
+      "promptSha256": "84a9cf7fe2b14c631d0af8935f34712c0255d70f48468113c8d6080c37283bfe"
+    },
+    {
+      "id": "baixue-front-right-dash",
+      "bossId": "3-3",
+      "view": 1,
+      "move": "dash",
+      "output": "docs/source/snow-special-v1/baixue-front-right-dash.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-front-right.png",
+      "referenceSha256": "3051e1c0f8ed373ec433e7ca9b4298f449e2b429be6c8f681c64d5891b79c4b9",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-front-right-dash.prompt.txt",
+      "promptSha256": "b9bf16ca6cf0a57723dc389c83a3a0b3478bdceeef53f1d7706d47eb6406bf37"
+    },
+    {
+      "id": "baixue-right-stance",
+      "bossId": "3-3",
+      "view": 2,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/baixue-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-right.png",
+      "referenceSha256": "9622b9920688d04b0fa56f5a7dacf8ddd1a8369b549a9134b7a657a2389f1478",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-right-stance.prompt.txt",
+      "promptSha256": "26d2ea936024aecb8edd51755e4cda25d364fe9381bccb1f37ab27c99fd69c0f"
+    },
+    {
+      "id": "baixue-right-dash",
+      "bossId": "3-3",
+      "view": 2,
+      "move": "dash",
+      "output": "docs/source/snow-special-v1/baixue-right-dash.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-right.png",
+      "referenceSha256": "9622b9920688d04b0fa56f5a7dacf8ddd1a8369b549a9134b7a657a2389f1478",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-right-dash.prompt.txt",
+      "promptSha256": "a552a7031720ed9e464e6fde9a65866dd2348b26904f0d7d3af3fd3027191698"
+    },
+    {
+      "id": "baixue-rear-right-stance",
+      "bossId": "3-3",
+      "view": 3,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/baixue-rear-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-rear-right.png",
+      "referenceSha256": "60e18ce4e5dea5323d2ea0698ce4bb211387ea7bef0769b7fb3957e6237d5dd9",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-rear-right-stance.prompt.txt",
+      "promptSha256": "ba23055ed3c56f9f42930cbf73cfdb3b02d1947a74822e7a0c47363c8cc9473e"
+    },
+    {
+      "id": "baixue-rear-right-dash",
+      "bossId": "3-3",
+      "view": 3,
+      "move": "dash",
+      "output": "docs/source/snow-special-v1/baixue-rear-right-dash.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-rear-right.png",
+      "referenceSha256": "60e18ce4e5dea5323d2ea0698ce4bb211387ea7bef0769b7fb3957e6237d5dd9",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-rear-right-dash.prompt.txt",
+      "promptSha256": "3701fa59bb146153237b9fec1de4475a8bf53d1b53d1d23946740d58bfcd35fd"
+    },
+    {
+      "id": "baixue-back-stance",
+      "bossId": "3-3",
+      "view": 4,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/baixue-back-stance.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-back.png",
+      "referenceSha256": "bb38883218ddfc7cded9322e6c0eca07be4c6382712ccb509ef4504f66f3c3a6",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-back-stance.prompt.txt",
+      "promptSha256": "f1a36f99699f145b6e9c55bfe152a2d7671e025c0ad9e9c42cef6802e66c9824"
+    },
+    {
+      "id": "baixue-back-dash",
+      "bossId": "3-3",
+      "view": 4,
+      "move": "dash",
+      "output": "docs/source/snow-special-v1/baixue-back-dash.png",
+      "reference": "docs/source/snow-special-v1/references/baixue-back.png",
+      "referenceSha256": "bb38883218ddfc7cded9322e6c0eca07be4c6382712ccb509ef4504f66f3c3a6",
+      "prompt": "docs/source/snow-special-v1/resume-v2/baixue-back-dash.prompt.txt",
+      "promptSha256": "56eb4a52ad8afc2303ba2468b611e43bb2b25fb81fadfcf5c4d2b6e7c58898f8"
+    },
+    {
+      "id": "hanxue-front-fan",
+      "bossId": "3-4",
+      "view": 0,
+      "move": "fan",
+      "output": "docs/source/snow-special-v1/hanxue-front-fan.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-front.png",
+      "referenceSha256": "ef1ffb64a2a04f86027929997b3ece1945c122ebf29226bc6a71266b9aa42a6b",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-front-fan.prompt.txt",
+      "promptSha256": "42bb61f3cc8c4526990a9ae06a355ba52126c46572369dfaf26075b209130d7e"
+    },
+    {
+      "id": "hanxue-front-stance",
+      "bossId": "3-4",
+      "view": 0,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/hanxue-front-stance.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-front.png",
+      "referenceSha256": "ef1ffb64a2a04f86027929997b3ece1945c122ebf29226bc6a71266b9aa42a6b",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-front-stance.prompt.txt",
+      "promptSha256": "ce84f6abe00272e8a27e564d26b4d4926bfb8a4d47e665e4c8bf44778fbd2a60"
+    },
+    {
+      "id": "hanxue-front-right-fan",
+      "bossId": "3-4",
+      "view": 1,
+      "move": "fan",
+      "output": "docs/source/snow-special-v1/hanxue-front-right-fan.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-front-right.png",
+      "referenceSha256": "143f8d748d8b78fc8e0958b2d8811a49fa0b8af28a92cf2e271215b7075aec84",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-front-right-fan.prompt.txt",
+      "promptSha256": "335b7c3e1b3842e4a369280d6efb8880dcd4744b1f7bd716768912fbf2820cc3"
+    },
+    {
+      "id": "hanxue-front-right-stance",
+      "bossId": "3-4",
+      "view": 1,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/hanxue-front-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-front-right.png",
+      "referenceSha256": "143f8d748d8b78fc8e0958b2d8811a49fa0b8af28a92cf2e271215b7075aec84",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-front-right-stance.prompt.txt",
+      "promptSha256": "1fb51331d36adabfb20224a3682b77ba88f282814d2d42c5a58356477c40728c"
+    },
+    {
+      "id": "hanxue-right-fan",
+      "bossId": "3-4",
+      "view": 2,
+      "move": "fan",
+      "output": "docs/source/snow-special-v1/hanxue-right-fan.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-right.png",
+      "referenceSha256": "f56c0e6c65fb95b7b6077e9c84397f596a8799061d48fe4198c886fd570f858d",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-right-fan.prompt.txt",
+      "promptSha256": "cce27516f79eff0ed620b2eb1c923e4ec84d7def5ffc7a77b276439610a780f9"
+    },
+    {
+      "id": "hanxue-right-stance",
+      "bossId": "3-4",
+      "view": 2,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/hanxue-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-right.png",
+      "referenceSha256": "f56c0e6c65fb95b7b6077e9c84397f596a8799061d48fe4198c886fd570f858d",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-right-stance.prompt.txt",
+      "promptSha256": "a4886703e26bc23bc0fa28a4c39ea39d9643c2c987d04e3c8a9ec6ef1a5d697b"
+    },
+    {
+      "id": "hanxue-rear-right-fan",
+      "bossId": "3-4",
+      "view": 3,
+      "move": "fan",
+      "output": "docs/source/snow-special-v1/hanxue-rear-right-fan.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-rear-right.png",
+      "referenceSha256": "1894e939790298343d0ff60cbf8ef87738bc1a269d3ee70e9055751d0ddac170",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-rear-right-fan.prompt.txt",
+      "promptSha256": "aa297bbe7e6ca952d555210cb34ba6be608b243ae91f436dbc8910023a198b4b"
+    },
+    {
+      "id": "hanxue-rear-right-stance",
+      "bossId": "3-4",
+      "view": 3,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/hanxue-rear-right-stance.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-rear-right.png",
+      "referenceSha256": "1894e939790298343d0ff60cbf8ef87738bc1a269d3ee70e9055751d0ddac170",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-rear-right-stance.prompt.txt",
+      "promptSha256": "9379543be6716fb06a506ca89cc39279da7e36eb547166297a93fea0737eefb0"
+    },
+    {
+      "id": "hanxue-back-fan",
+      "bossId": "3-4",
+      "view": 4,
+      "move": "fan",
+      "output": "docs/source/snow-special-v1/hanxue-back-fan.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-back.png",
+      "referenceSha256": "8b2bc18e08783c0d5eb2834b3d3a11227fa73ae285ec4735a58e2f7b7ca0af0c",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-back-fan.prompt.txt",
+      "promptSha256": "a56f9ce397f74522588c932bdef9059df05547d34e87ff83d9a478fb734f027c"
+    },
+    {
+      "id": "hanxue-back-stance",
+      "bossId": "3-4",
+      "view": 4,
+      "move": "stance",
+      "output": "docs/source/snow-special-v1/hanxue-back-stance.png",
+      "reference": "docs/source/snow-special-v1/references/hanxue-back.png",
+      "referenceSha256": "8b2bc18e08783c0d5eb2834b3d3a11227fa73ae285ec4735a58e2f7b7ca0af0c",
+      "prompt": "docs/source/snow-special-v1/resume-v2/hanxue-back-stance.prompt.txt",
+      "promptSha256": "320dbf4331036b509229802d47a4e6577e976d9a9b5da062ad706964cfe6df1d"
+    }
+  ],
+  "moves": [
+    {
+      "bossId": "3-2",
+      "character": "xuelan",
+      "move": "hazard",
+      "name": "빙혼 얼음 구슬",
+      "windup": 0.95,
+      "duration": 0.45,
+      "recovery": 0.9,
+      "contacts": [0.2],
+      "holdEligible": false
+    },
+    {
+      "bossId": "3-2",
+      "character": "xuelan",
+      "move": "stance",
+      "name": "빙혼 빙사 결박",
+      "windup": 1,
+      "duration": 0.45,
+      "recovery": 0.8,
+      "contacts": [0.2],
+      "holdEligible": false
+    },
+    {
+      "bossId": "3-3",
+      "character": "baixue",
+      "move": "stance",
+      "name": "설풍 숨고르기",
+      "windup": 0.82,
+      "duration": 0.4,
+      "recovery": 0.65,
+      "contacts": [0.18],
+      "holdEligible": false
+    },
+    {
+      "bossId": "3-3",
+      "character": "baixue",
+      "move": "dash",
+      "name": "백설 잠복 장타",
+      "windup": 0.85,
+      "duration": 0.4,
+      "recovery": 0.8,
+      "contacts": [0.32],
+      "holdEligible": false
+    },
+    {
+      "bossId": "3-4",
+      "character": "hanxue",
+      "move": "fan",
+      "name": "빙궁 부채 빙풍",
+      "windup": 0.9,
+      "duration": 0.32,
+      "recovery": 0.85,
+      "contacts": [0.1],
+      "holdEligible": false
+    },
+    {
+      "bossId": "3-4",
+      "character": "hanxue",
+      "move": "stance",
+      "name": "빙궁 얼음 퇴로 봉쇄",
+      "windup": 1.2,
+      "duration": 0.5,
+      "recovery": 1,
+      "contacts": [0.24],
+      "holdEligible": false
+    }
+  ],
+  "selectedManifestSha256": "a7df0eb491e75feb20c0af25cc4bb696d2e57ef6fd2d65d9186d1217fe89546b",
+  "existingCandidate": {
+    "file": "docs/source/snow-special-v1/xuelan-front-hazard-candidate-v1.png",
+    "selected": false,
+    "review": "Viewer shows blue perimeter and larger apparent anatomy than reference; recheck alpha/material edges and native head size before selection."
+  }
+}

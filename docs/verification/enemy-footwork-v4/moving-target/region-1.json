@@ -1,0 +1,84 @@
+{
+  "hp": 99895.135,
+  "phase": "combat",
+  "finite": true,
+  "actors": [
+    {
+      "id": 500,
+      "role": "needle",
+      "moved": 241.50594159412645,
+      "states": [
+        "windup",
+        "strike",
+        "recover",
+        "approach"
+      ]
+    },
+    {
+      "id": 501,
+      "role": "bombardier",
+      "moved": 77.3790949531603,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 502,
+      "role": "needle",
+      "moved": 244.80071198918947,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 503,
+      "bossId": "1-1",
+      "moved": 274.8818679056141,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 504,
+      "bossId": "1-2",
+      "moved": 108.41675071019152,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 505,
+      "bossId": "1-3",
+      "moved": 107.2163754746603,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 506,
+      "bossId": "1-4",
+      "moved": 223.15741609048362,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    }
+  ]
+}

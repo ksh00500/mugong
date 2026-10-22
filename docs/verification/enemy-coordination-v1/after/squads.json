@@ -1,0 +1,4685 @@
+{
+  "methodology": "60 scenarios: ten regions x waves6/16 x hold/retreat/circle, 24s each, replenished player HP; no player attacks, defenses, ambient fields or consumables; not a human survival/win-rate test",
+  "rows": [
+    {
+      "region": "청하현",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "raider",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 386.1,
+      "hits": 33,
+      "starts": 70,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.2,
+      "minStartGap": 0.2333,
+      "simulationMs": 111
+    },
+    {
+      "region": "청하현",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "raider",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 70.2,
+      "hits": 6,
+      "starts": 17,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 4.87,
+      "minStartGap": 0.2333,
+      "simulationMs": 112.1
+    },
+    {
+      "region": "청하현",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "raider",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "raider",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 163.8,
+      "hits": 14,
+      "starts": 39,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 9.47,
+      "minStartGap": 0.2333,
+      "simulationMs": 83.3
+    },
+    {
+      "region": "청하현",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 702,
+      "hits": 36,
+      "starts": 71,
+      "distinctAttackers": 11,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.17,
+      "minStartGap": 0.2333,
+      "simulationMs": 244.6
+    },
+    {
+      "region": "청하현",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 117,
+      "hits": 6,
+      "starts": 22,
+      "distinctAttackers": 10,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 3.58,
+      "minStartGap": 0.2333,
+      "simulationMs": 145
+    },
+    {
+      "region": "청하현",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "raider",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 273,
+      "hits": 14,
+      "starts": 51,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "bowman",
+        "guard",
+        "raider"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 13.6,
+      "minStartGap": 0.2333,
+      "simulationMs": 131
+    },
+    {
+      "region": "독무곡",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "needle",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 310.7,
+      "hits": 38,
+      "starts": 61,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 12.17,
+      "minStartGap": 0.2333,
+      "simulationMs": 137.4
+    },
+    {
+      "region": "독무곡",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "needle",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 106.6,
+      "hits": 12,
+      "starts": 39,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 2.83,
+      "minStartGap": 0.2333,
+      "simulationMs": 103.5
+    },
+    {
+      "region": "독무곡",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "needle",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "bombardier",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 140.4,
+      "hits": 12,
+      "starts": 53,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 9.03,
+      "minStartGap": 0.2333,
+      "simulationMs": 123.3
+    },
+    {
+      "region": "독무곡",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 504.5,
+      "hits": 38,
+      "starts": 67,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.05,
+      "minStartGap": 0.2333,
+      "simulationMs": 173.1
+    },
+    {
+      "region": "독무곡",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 149.5,
+      "hits": 11,
+      "starts": 44,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 6.28,
+      "minStartGap": 0.2333,
+      "simulationMs": 178.9
+    },
+    {
+      "region": "독무곡",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bombardier",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 312,
+      "hits": 16,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "needle",
+        "bombardier",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 16.6,
+      "minStartGap": 0.2333,
+      "simulationMs": 214.1
+    },
+    {
+      "region": "천검산",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 397.8,
+      "hits": 34,
+      "starts": 63,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "swordcaster",
+        "duelist",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 19.48,
+      "minStartGap": 0.2333,
+      "simulationMs": 70.9
+    },
+    {
+      "region": "천검산",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 70.2,
+      "hits": 6,
+      "starts": 26,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "swordcaster",
+        "duelist",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 5.18,
+      "minStartGap": 0.2333,
+      "simulationMs": 63.3
+    },
+    {
+      "region": "천검산",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "duelist",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "swordcaster",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 93.6,
+      "hits": 8,
+      "starts": 48,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "swordcaster",
+        "duelist",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 12.63,
+      "minStartGap": 0.2333,
+      "simulationMs": 65.4
+    },
+    {
+      "region": "천검산",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 585,
+      "hits": 30,
+      "starts": 69,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "swordcaster",
+        "guard",
+        "duelist"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.3,
+      "minStartGap": 0.2333,
+      "simulationMs": 218
+    },
+    {
+      "region": "천검산",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 175.5,
+      "hits": 9,
+      "starts": 35,
+      "distinctAttackers": 11,
+      "attackingRoles": [
+        "swordcaster",
+        "guard",
+        "duelist"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 7.45,
+      "minStartGap": 0.2333,
+      "simulationMs": 184.3
+    },
+    {
+      "region": "천검산",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "duelist",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "swordcaster",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 273,
+      "hits": 14,
+      "starts": 57,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "swordcaster",
+        "guard",
+        "duelist"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 15.83,
+      "minStartGap": 0.2333,
+      "simulationMs": 354.8
+    },
+    {
+      "region": "설산",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 344.5,
+      "hits": 38,
+      "starts": 61,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.13,
+      "minStartGap": 0.2333,
+      "simulationMs": 182.4
+    },
+    {
+      "region": "설산",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 58.5,
+      "hits": 5,
+      "starts": 40,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 15.2,
+      "minStartGap": 0.2333,
+      "simulationMs": 148.9
+    },
+    {
+      "region": "설산",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bowman",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "icehunter",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "iceweaver",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 23.4,
+      "hits": 2,
+      "starts": 57,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 21.7,
+      "minStartGap": 0.2333,
+      "simulationMs": 143.5
+    },
+    {
+      "region": "설산",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 423.5,
+      "hits": 40,
+      "starts": 62,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.55,
+      "minStartGap": 0.2333,
+      "simulationMs": 284.9
+    },
+    {
+      "region": "설산",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 97.5,
+      "hits": 5,
+      "starts": 45,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 14.17,
+      "minStartGap": 0.2333,
+      "simulationMs": 255.6
+    },
+    {
+      "region": "설산",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bowman",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "icehunter",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "iceweaver",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 78,
+      "hits": 4,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "icehunter",
+        "iceweaver",
+        "bowman"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.75,
+      "minStartGap": 0.2333,
+      "simulationMs": 299.2
+    },
+    {
+      "region": "폐사",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "slinger",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 369.72,
+      "hits": 30,
+      "starts": 57,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 20.63,
+      "minStartGap": 0.2333,
+      "simulationMs": 165.8
+    },
+    {
+      "region": "폐사",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "slinger",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 39.78,
+      "hits": 3,
+      "starts": 11,
+      "distinctAttackers": 6,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 2.38,
+      "minStartGap": 0.2333,
+      "simulationMs": 129.1
+    },
+    {
+      "region": "폐사",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "slinger",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "brawler",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "staffguard",
+          "hp": 98,
+          "xp": 5
+        }
+      ],
+      "damage": 98.28,
+      "hits": 8,
+      "starts": 23,
+      "distinctAttackers": 6,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 6.28,
+      "minStartGap": 0.2333,
+      "simulationMs": 155.7
+    },
+    {
+      "region": "폐사",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 690.3,
+      "hits": 34,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.7,
+      "minStartGap": 0.2333,
+      "simulationMs": 295.4
+    },
+    {
+      "region": "폐사",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 62.4,
+      "hits": 3,
+      "starts": 19,
+      "distinctAttackers": 10,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 5.78,
+      "minStartGap": 0.2333,
+      "simulationMs": 246.8
+    },
+    {
+      "region": "폐사",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "slinger",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "brawler",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "staffguard",
+          "hp": 176,
+          "xp": 3
+        }
+      ],
+      "damage": 159.9,
+      "hits": 8,
+      "starts": 38,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "slinger",
+        "staffguard",
+        "brawler"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 12.28,
+      "minStartGap": 0.2333,
+      "simulationMs": 279.7
+    },
+    {
+      "region": "죽림",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 371.3,
+      "hits": 31,
+      "starts": 70,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 21.83,
+      "minStartGap": 0.2333,
+      "simulationMs": 191.9
+    },
+    {
+      "region": "죽림",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 93.6,
+      "hits": 8,
+      "starts": 42,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 12.05,
+      "minStartGap": 0.2333,
+      "simulationMs": 205.4
+    },
+    {
+      "region": "죽림",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "needle",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 105.3,
+      "hits": 9,
+      "starts": 61,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 19.17,
+      "minStartGap": 0.2333,
+      "simulationMs": 188.6
+    },
+    {
+      "region": "죽림",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 652.5,
+      "hits": 34,
+      "starts": 73,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.82,
+      "minStartGap": 0.2333,
+      "simulationMs": 393.6
+    },
+    {
+      "region": "죽림",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 156,
+      "hits": 8,
+      "starts": 47,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 13.43,
+      "minStartGap": 0.2333,
+      "simulationMs": 344.3
+    },
+    {
+      "region": "죽림",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "needle",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 156,
+      "hits": 8,
+      "starts": 71,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "assassin",
+        "needle",
+        "trapper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.3,
+      "minStartGap": 0.2333,
+      "simulationMs": 396.8
+    },
+    {
+      "region": "고묘",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 401.4,
+      "hits": 31,
+      "starts": 51,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 17.15,
+      "minStartGap": 0.2333,
+      "simulationMs": 114
+    },
+    {
+      "region": "고묘",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 35.1,
+      "hits": 3,
+      "starts": 33,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 10.08,
+      "minStartGap": 0.2333,
+      "simulationMs": 150.2
+    },
+    {
+      "region": "고묘",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "guard",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "trapper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 93.6,
+      "hits": 8,
+      "starts": 49,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 17.7,
+      "minStartGap": 0.2333,
+      "simulationMs": 169.7
+    },
+    {
+      "region": "고묘",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 606.5,
+      "hits": 32,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 16.68,
+      "minStartGap": 0.2333,
+      "simulationMs": 265.5
+    },
+    {
+      "region": "고묘",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 156,
+      "hits": 8,
+      "starts": 39,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 10.57,
+      "minStartGap": 0.2333,
+      "simulationMs": 194.9
+    },
+    {
+      "region": "고묘",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "guard",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "trapper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 273,
+      "hits": 14,
+      "starts": 53,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "trapper",
+        "crossbow",
+        "guard"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 16.5,
+      "minStartGap": 0.2333,
+      "simulationMs": 309.6
+    },
+    {
+      "region": "서역사막",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "rider",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 362.7,
+      "hits": 31,
+      "starts": 58,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 21.8,
+      "minStartGap": 0.2333,
+      "simulationMs": 99.2
+    },
+    {
+      "region": "서역사막",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "rider",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 58.5,
+      "hits": 5,
+      "starts": 44,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 15.58,
+      "minStartGap": 0.2333,
+      "simulationMs": 92.9
+    },
+    {
+      "region": "서역사막",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "rider",
+          "hp": 98,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "ringblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "rider",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 35.1,
+      "hits": 3,
+      "starts": 56,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.75,
+      "minStartGap": 0.2333,
+      "simulationMs": 80.8
+    },
+    {
+      "region": "서역사막",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 604.5,
+      "hits": 31,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 23.13,
+      "minStartGap": 0.2333,
+      "simulationMs": 183.9
+    },
+    {
+      "region": "서역사막",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 156,
+      "hits": 8,
+      "starts": 49,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 17.05,
+      "minStartGap": 0.2333,
+      "simulationMs": 174.4
+    },
+    {
+      "region": "서역사막",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "ringblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "rider",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 156,
+      "hits": 8,
+      "starts": 59,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "rider",
+        "assassin",
+        "ringblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.63,
+      "minStartGap": 0.2333,
+      "simulationMs": 259.2
+    },
+    {
+      "region": "혈마전",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 313.2,
+      "hits": 37,
+      "starts": 61,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 20.05,
+      "minStartGap": 0.2333,
+      "simulationMs": 83.4
+    },
+    {
+      "region": "혈마전",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 59.1,
+      "hits": 7,
+      "starts": 27,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 7.95,
+      "minStartGap": 0.2333,
+      "simulationMs": 58.6
+    },
+    {
+      "region": "혈마전",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "assassin",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "bloodblade",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "hexer",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 70.2,
+      "hits": 6,
+      "starts": 40,
+      "distinctAttackers": 6,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 11.58,
+      "minStartGap": 0.2333,
+      "simulationMs": 76.3
+    },
+    {
+      "region": "혈마전",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 577.5,
+      "hits": 40,
+      "starts": 61,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.83,
+      "minStartGap": 0.2333,
+      "simulationMs": 255.9
+    },
+    {
+      "region": "혈마전",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 115.5,
+      "hits": 8,
+      "starts": 36,
+      "distinctAttackers": 9,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 8.07,
+      "minStartGap": 0.2333,
+      "simulationMs": 117.9
+    },
+    {
+      "region": "혈마전",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "assassin",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "bloodblade",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "hexer",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 97.5,
+      "hits": 5,
+      "starts": 54,
+      "distinctAttackers": 11,
+      "attackingRoles": [
+        "hexer",
+        "assassin",
+        "bloodblade"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 16.45,
+      "minStartGap": 0.2333,
+      "simulationMs": 131
+    },
+    {
+      "region": "팔진고성",
+      "wave": 6,
+      "policy": "hold",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "gatekeeper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 341.3,
+      "hits": 36,
+      "starts": 49,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 11.55,
+      "minStartGap": 0.2333,
+      "simulationMs": 86.4
+    },
+    {
+      "region": "팔진고성",
+      "wave": 6,
+      "policy": "retreat",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "gatekeeper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 77.2,
+      "hits": 7,
+      "starts": 32,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 2.23,
+      "minStartGap": 0.2333,
+      "simulationMs": 98.2
+    },
+    {
+      "region": "팔진고성",
+      "wave": 6,
+      "policy": "circle",
+      "enemyCount": 7,
+      "stats": [
+        {
+          "id": 600,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 6
+        },
+        {
+          "id": 601,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 602,
+          "role": "gatekeeper",
+          "hp": 98,
+          "xp": 5
+        },
+        {
+          "id": 603,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 604,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 605,
+          "role": "engineer",
+          "hp": 81,
+          "xp": 5
+        },
+        {
+          "id": 606,
+          "role": "crossbow",
+          "hp": 81,
+          "xp": 5
+        }
+      ],
+      "damage": 70.2,
+      "hits": 6,
+      "starts": 46,
+      "distinctAttackers": 7,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 10.55,
+      "minStartGap": 0.2333,
+      "simulationMs": 121.4
+    },
+    {
+      "region": "팔진고성",
+      "wave": 16,
+      "policy": "hold",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 488,
+      "hits": 34,
+      "starts": 57,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 22.72,
+      "minStartGap": 0.2333,
+      "simulationMs": 233.3
+    },
+    {
+      "region": "팔진고성",
+      "wave": 16,
+      "policy": "retreat",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 170,
+      "hits": 10,
+      "starts": 40,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 6.17,
+      "minStartGap": 0.2333,
+      "simulationMs": 254.8
+    },
+    {
+      "region": "팔진고성",
+      "wave": 16,
+      "policy": "circle",
+      "enemyCount": 12,
+      "stats": [
+        {
+          "id": 1600,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1601,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1602,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1603,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1604,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1605,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1606,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1607,
+          "role": "gatekeeper",
+          "hp": 176,
+          "xp": 3
+        },
+        {
+          "id": 1608,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1609,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1610,
+          "role": "engineer",
+          "hp": 155,
+          "xp": 3
+        },
+        {
+          "id": 1611,
+          "role": "crossbow",
+          "hp": 155,
+          "xp": 3
+        }
+      ],
+      "damage": 253.5,
+      "hits": 13,
+      "starts": 53,
+      "distinctAttackers": 12,
+      "attackingRoles": [
+        "engineer",
+        "crossbow",
+        "gatekeeper"
+      ],
+      "maxActive": 3,
+      "mixedCommitmentSeconds": 18.43,
+      "minStartGap": 0.2333,
+      "simulationMs": 308
+    }
+  ]
+}

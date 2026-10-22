@@ -1,0 +1,115 @@
+{
+  "actors": [
+    {
+      "role": "brawler",
+      "texture": "region-motion-4-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "staffguard",
+      "texture": "region-motion-4-isolated",
+      "frame": "1-2",
+      "expected": "region-motion-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "slinger",
+      "texture": "region-motion-repair-4-isolated",
+      "frame": "2-2",
+      "expected": "region-motion-repair-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "4-1",
+      "texture": "region-motion-repair-4-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-repair-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "4-2",
+      "texture": "region-motion-4-isolated",
+      "frame": "4-2",
+      "expected": "region-motion-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "4-3",
+      "texture": "region-motion-4-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-4-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "4-4",
+      "texture": "region-motion-4-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-4-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "brawler",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "pulse",
+      "changed": true
+    },
+    {
+      "role": "staffguard",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "role": "slinger",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "bossId": "4-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    },
+    {
+      "bossId": "4-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "4-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "pulse",
+      "changed": true
+    },
+    {
+      "bossId": "4-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "thrust",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

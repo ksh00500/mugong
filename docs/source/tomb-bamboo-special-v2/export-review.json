@@ -1,0 +1,5966 @@
+{
+  "date": "2026-10-18",
+  "reports": [
+    {
+      "id": "jeokho-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-front.png",
+      "sha256": "ccdcc043faa12bc4f31a76fb7d5d2fb3f5ba56b98219195aca1746a26b43fb10",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1418439716312057,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 322,
+      "boots": [
+        [
+          268,
+          386
+        ],
+        [
+          552,
+          389
+        ],
+        [
+          912,
+          390
+        ],
+        [
+          174,
+          731
+        ],
+        [
+          566,
+          741
+        ],
+        [
+          836,
+          732
+        ],
+        [
+          277,
+          1072
+        ],
+        [
+          485,
+          1073
+        ],
+        [
+          866,
+          1074
+        ],
+        [
+          122,
+          1398
+        ],
+        [
+          491,
+          1399
+        ],
+        [
+          844,
+          1395
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 40,
+          "top": 106,
+          "right": 343,
+          "bottom": 388
+        },
+        {
+          "left": 435,
+          "top": 26,
+          "right": 682,
+          "bottom": 391
+        },
+        {
+          "left": 811,
+          "top": 104,
+          "right": 1051,
+          "bottom": 414
+        },
+        {
+          "left": 61,
+          "top": 469,
+          "right": 330,
+          "bottom": 748
+        },
+        {
+          "left": 406,
+          "top": 447,
+          "right": 693,
+          "bottom": 743
+        },
+        {
+          "left": 754,
+          "top": 453,
+          "right": 1049,
+          "bottom": 734
+        },
+        {
+          "left": 46,
+          "top": 791,
+          "right": 346,
+          "bottom": 1074
+        },
+        {
+          "left": 398,
+          "top": 767,
+          "right": 678,
+          "bottom": 1075
+        },
+        {
+          "left": 760,
+          "top": 757,
+          "right": 1060,
+          "bottom": 1076
+        },
+        {
+          "left": 44,
+          "top": 1083,
+          "right": 338,
+          "bottom": 1400
+        },
+        {
+          "left": 401,
+          "top": 1092,
+          "right": 684,
+          "bottom": 1401
+        },
+        {
+          "left": 759,
+          "top": 1115,
+          "right": 1055,
+          "bottom": 1397
+        }
+      ],
+      "replacements": null,
+      "stages": {
+        "stance": [
+          6,
+          8,
+          9,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "jeokho-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-front-right.png",
+      "sha256": "c928f560e132aac2841c7c41fc481ecf2574edc747128a36e356d13557129624",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1622103386809268,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 326,
+      "boots": [
+        [
+          131,
+          376
+        ],
+        [
+          549,
+          387
+        ],
+        [
+          866,
+          373
+        ],
+        [
+          146,
+          725
+        ],
+        [
+          546,
+          724
+        ],
+        [
+          845,
+          728
+        ],
+        [
+          132,
+          1091
+        ],
+        [
+          487,
+          1078
+        ],
+        [
+          902,
+          1081
+        ],
+        [
+          126,
+          1415
+        ],
+        [
+          510,
+          1410
+        ],
+        [
+          844,
+          1411
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 50,
+          "top": 96,
+          "right": 344,
+          "bottom": 378
+        },
+        {
+          "left": 413,
+          "top": 19,
+          "right": 718,
+          "bottom": 389
+        },
+        {
+          "left": 769,
+          "top": 129,
+          "right": 1041,
+          "bottom": 424
+        },
+        {
+          "left": 49,
+          "top": 486,
+          "right": 352,
+          "bottom": 761
+        },
+        {
+          "left": 401,
+          "top": 449,
+          "right": 692,
+          "bottom": 726
+        },
+        {
+          "left": 760,
+          "top": 451,
+          "right": 1054,
+          "bottom": 730
+        },
+        {
+          "left": 50,
+          "top": 812,
+          "right": 344,
+          "bottom": 1093
+        },
+        {
+          "left": 403,
+          "top": 786,
+          "right": 690,
+          "bottom": 1080
+        },
+        {
+          "left": 751,
+          "top": 769,
+          "right": 1040,
+          "bottom": 1083
+        },
+        {
+          "left": 50,
+          "top": 1106,
+          "right": 354,
+          "bottom": 1417
+        },
+        {
+          "left": 414,
+          "top": 1106,
+          "right": 698,
+          "bottom": 1412
+        },
+        {
+          "left": 761,
+          "top": 1133,
+          "right": 1054,
+          "bottom": 1413
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-front-right-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 1
+        }
+      },
+      "stages": {
+        "stance": [
+          6,
+          8,
+          9,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "jeokho-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-right.png",
+      "sha256": "081e0821c5a4de31a4c1b40df6a6b0f63add300e242e64b40b8c25646cd6d2f4",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2842942345924453,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 323,
+      "boots": [
+        [
+          113,
+          345
+        ],
+        [
+          514,
+          345
+        ],
+        [
+          866,
+          345
+        ],
+        [
+          145,
+          673
+        ],
+        [
+          535,
+          674
+        ],
+        [
+          941,
+          685
+        ],
+        [
+          112,
+          1040
+        ],
+        [
+          471,
+          1040
+        ],
+        [
+          897,
+          1040
+        ],
+        [
+          234,
+          1382
+        ],
+        [
+          472,
+          1382
+        ],
+        [
+          940,
+          1380
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 50,
+          "top": 96,
+          "right": 321,
+          "bottom": 347
+        },
+        {
+          "left": 377,
+          "top": 11,
+          "right": 648,
+          "bottom": 347
+        },
+        {
+          "left": 738,
+          "top": 131,
+          "right": 1060,
+          "bottom": 370
+        },
+        {
+          "left": 35,
+          "top": 481,
+          "right": 365,
+          "bottom": 698
+        },
+        {
+          "left": 403,
+          "top": 434,
+          "right": 679,
+          "bottom": 684
+        },
+        {
+          "left": 769,
+          "top": 435,
+          "right": 1045,
+          "bottom": 687
+        },
+        {
+          "left": 50,
+          "top": 791,
+          "right": 321,
+          "bottom": 1042
+        },
+        {
+          "left": 410,
+          "top": 783,
+          "right": 671,
+          "bottom": 1042
+        },
+        {
+          "left": 754,
+          "top": 770,
+          "right": 1033,
+          "bottom": 1042
+        },
+        {
+          "left": 55,
+          "top": 1118,
+          "right": 314,
+          "bottom": 1384
+        },
+        {
+          "left": 405,
+          "top": 1118,
+          "right": 674,
+          "bottom": 1384
+        },
+        {
+          "left": 768,
+          "top": 1128,
+          "right": 1045,
+          "bottom": 1382
+        }
+      ],
+      "replacements": null,
+      "stages": {
+        "stance": [
+          6,
+          8,
+          9,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "jeokho-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-rear-right.png",
+      "sha256": "10f9a2bb725fb6562937201f1fe777a68b847b7259c333f3344013bec5348415",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2987551867219918,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 313,
+      "boots": [
+        [
+          228,
+          340
+        ],
+        [
+          552,
+          346
+        ],
+        [
+          855,
+          340
+        ],
+        [
+          160,
+          684
+        ],
+        [
+          642,
+          682
+        ],
+        [
+          941,
+          692
+        ],
+        [
+          228,
+          1035
+        ],
+        [
+          597,
+          1040
+        ],
+        [
+          860,
+          1037
+        ],
+        [
+          251,
+          1371
+        ],
+        [
+          591,
+          1372
+        ],
+        [
+          941,
+          1372
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 63,
+          "top": 108,
+          "right": 322,
+          "bottom": 342
+        },
+        {
+          "left": 419,
+          "top": 27,
+          "right": 657,
+          "bottom": 348
+        },
+        {
+          "left": 757,
+          "top": 123,
+          "right": 1051,
+          "bottom": 352
+        },
+        {
+          "left": 54,
+          "top": 479,
+          "right": 339,
+          "bottom": 699
+        },
+        {
+          "left": 409,
+          "top": 441,
+          "right": 697,
+          "bottom": 692
+        },
+        {
+          "left": 773,
+          "top": 447,
+          "right": 1037,
+          "bottom": 694
+        },
+        {
+          "left": 63,
+          "top": 802,
+          "right": 321,
+          "bottom": 1037
+        },
+        {
+          "left": 413,
+          "top": 795,
+          "right": 696,
+          "bottom": 1042
+        },
+        {
+          "left": 769,
+          "top": 772,
+          "right": 1045,
+          "bottom": 1039
+        },
+        {
+          "left": 51,
+          "top": 1113,
+          "right": 327,
+          "bottom": 1373
+        },
+        {
+          "left": 413,
+          "top": 1122,
+          "right": 680,
+          "bottom": 1374
+        },
+        {
+          "left": 768,
+          "top": 1125,
+          "right": 1036,
+          "bottom": 1374
+        }
+      ],
+      "replacements": null,
+      "stages": {
+        "stance": [
+          6,
+          8,
+          9,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "jeokho-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/jeokho-back.png",
+      "sha256": "6d03765bc6f57cb9ec2f5faba6d83c98fd93565b20ae988331a9cefa852fbbb9",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1407129455909943,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 304,
+      "boots": [
+        [
+          248,
+          370
+        ],
+        [
+          557,
+          370
+        ],
+        [
+          874,
+          369
+        ],
+        [
+          160,
+          732
+        ],
+        [
+          541,
+          732
+        ],
+        [
+          971,
+          733
+        ],
+        [
+          248,
+          1092
+        ],
+        [
+          517,
+          1091
+        ],
+        [
+          871,
+          1091
+        ],
+        [
+          127,
+          1416
+        ],
+        [
+          548,
+          1413
+        ],
+        [
+          970,
+          1424
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 38,
+          "top": 105,
+          "right": 323,
+          "bottom": 372
+        },
+        {
+          "left": 443,
+          "top": 24,
+          "right": 667,
+          "bottom": 372
+        },
+        {
+          "left": 758,
+          "top": 130,
+          "right": 1059,
+          "bottom": 373
+        },
+        {
+          "left": 45,
+          "top": 525,
+          "right": 337,
+          "bottom": 734
+        },
+        {
+          "left": 435,
+          "top": 467,
+          "right": 706,
+          "bottom": 734
+        },
+        {
+          "left": 761,
+          "top": 469,
+          "right": 1046,
+          "bottom": 735
+        },
+        {
+          "left": 39,
+          "top": 827,
+          "right": 323,
+          "bottom": 1094
+        },
+        {
+          "left": 447,
+          "top": 827,
+          "right": 698,
+          "bottom": 1093
+        },
+        {
+          "left": 810,
+          "top": 806,
+          "right": 1054,
+          "bottom": 1093
+        },
+        {
+          "left": 87,
+          "top": 1157,
+          "right": 345,
+          "bottom": 1418
+        },
+        {
+          "left": 473,
+          "top": 1158,
+          "right": 695,
+          "bottom": 1415
+        },
+        {
+          "left": 761,
+          "top": 1160,
+          "right": 1046,
+          "bottom": 1426
+        }
+      ],
+      "replacements": null,
+      "stages": {
+        "stance": [
+          6,
+          8,
+          9,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "seokmun-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-front.png",
+      "sha256": "93e8affceecf529a0249ac4decd3ab0742ccd2005bf82425b704e9dabf137cb6",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.060556464811784,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 324,
+      "boots": [
+        [
+          274,
+          359
+        ],
+        [
+          641,
+          348
+        ],
+        [
+          872,
+          359
+        ],
+        [
+          105,
+          699
+        ],
+        [
+          648,
+          696
+        ],
+        [
+          981,
+          709
+        ],
+        [
+          274,
+          1058
+        ],
+        [
+          645,
+          1054
+        ],
+        [
+          1005,
+          1062
+        ],
+        [
+          281,
+          1394
+        ],
+        [
+          643,
+          1387
+        ],
+        [
+          981,
+          1396
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 44,
+          "top": 56,
+          "right": 343,
+          "bottom": 361
+        },
+        {
+          "left": 441,
+          "top": 77,
+          "right": 689,
+          "bottom": 350
+        },
+        {
+          "left": 774,
+          "top": 77,
+          "right": 1052,
+          "bottom": 361
+        },
+        {
+          "left": 33,
+          "top": 407,
+          "right": 359,
+          "bottom": 701
+        },
+        {
+          "left": 409,
+          "top": 408,
+          "right": 701,
+          "bottom": 698
+        },
+        {
+          "left": 741,
+          "top": 404,
+          "right": 1051,
+          "bottom": 711
+        },
+        {
+          "left": 44,
+          "top": 755,
+          "right": 343,
+          "bottom": 1060
+        },
+        {
+          "left": 422,
+          "top": 770,
+          "right": 696,
+          "bottom": 1056
+        },
+        {
+          "left": 766,
+          "top": 755,
+          "right": 1052,
+          "bottom": 1064
+        },
+        {
+          "left": 49,
+          "top": 1085,
+          "right": 334,
+          "bottom": 1396
+        },
+        {
+          "left": 398,
+          "top": 1097,
+          "right": 699,
+          "bottom": 1389
+        },
+        {
+          "left": 741,
+          "top": 1092,
+          "right": 1051,
+          "bottom": 1398
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "seokmun-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-front-right.png",
+      "sha256": "e2015dfb587ff6179a0b4470a3a7c7a1332e140b163f2e9da4449cb6ad09cd93",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1247739602169982,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 311,
+      "boots": [
+        [
+          285,
+          351
+        ],
+        [
+          483,
+          339
+        ],
+        [
+          837,
+          357
+        ],
+        [
+          146,
+          702
+        ],
+        [
+          655,
+          692
+        ],
+        [
+          1000,
+          694
+        ],
+        [
+          285,
+          1047
+        ],
+        [
+          470,
+          1038
+        ],
+        [
+          831,
+          1048
+        ],
+        [
+          123,
+          1387
+        ],
+        [
+          645,
+          1390
+        ],
+        [
+          1000,
+          1389
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 37,
+          "top": 74,
+          "right": 345,
+          "bottom": 353
+        },
+        {
+          "left": 446,
+          "top": 88,
+          "right": 693,
+          "bottom": 341
+        },
+        {
+          "left": 739,
+          "top": 85,
+          "right": 1068,
+          "bottom": 359
+        },
+        {
+          "left": 36,
+          "top": 430,
+          "right": 368,
+          "bottom": 704
+        },
+        {
+          "left": 399,
+          "top": 415,
+          "right": 700,
+          "bottom": 694
+        },
+        {
+          "left": 751,
+          "top": 423,
+          "right": 1062,
+          "bottom": 696
+        },
+        {
+          "left": 38,
+          "top": 771,
+          "right": 345,
+          "bottom": 1049
+        },
+        {
+          "left": 443,
+          "top": 782,
+          "right": 700,
+          "bottom": 1040
+        },
+        {
+          "left": 763,
+          "top": 781,
+          "right": 1059,
+          "bottom": 1050
+        },
+        {
+          "left": 33,
+          "top": 1124,
+          "right": 359,
+          "bottom": 1389
+        },
+        {
+          "left": 392,
+          "top": 1112,
+          "right": 699,
+          "bottom": 1392
+        },
+        {
+          "left": 752,
+          "top": 1116,
+          "right": 1062,
+          "bottom": 1391
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "seokmun-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-right.png",
+      "sha256": "f8cab283530b1d3ce09478de14aab0c871543e9e863372c132d287fdc38cbc27",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.0054054054054054,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 279,
+      "boots": [
+        [
+          108,
+          356
+        ],
+        [
+          456,
+          356
+        ],
+        [
+          826,
+          356
+        ],
+        [
+          102,
+          724
+        ],
+        [
+          478,
+          724
+        ],
+        [
+          839,
+          724
+        ],
+        [
+          110,
+          1066
+        ],
+        [
+          508,
+          1066
+        ],
+        [
+          861,
+          1066
+        ],
+        [
+          111,
+          1398
+        ],
+        [
+          483,
+          1398
+        ],
+        [
+          844,
+          1403
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 26,
+          "top": 83,
+          "right": 329,
+          "bottom": 358
+        },
+        {
+          "left": 425,
+          "top": 104,
+          "right": 695,
+          "bottom": 358
+        },
+        {
+          "left": 747,
+          "top": 91,
+          "right": 1079,
+          "bottom": 358
+        },
+        {
+          "left": 35,
+          "top": 466,
+          "right": 378,
+          "bottom": 726
+        },
+        {
+          "left": 414,
+          "top": 446,
+          "right": 708,
+          "bottom": 726
+        },
+        {
+          "left": 750,
+          "top": 445,
+          "right": 1063,
+          "bottom": 726
+        },
+        {
+          "left": 26,
+          "top": 794,
+          "right": 328,
+          "bottom": 1068
+        },
+        {
+          "left": 418,
+          "top": 814,
+          "right": 719,
+          "bottom": 1068
+        },
+        {
+          "left": 780,
+          "top": 789,
+          "right": 1064,
+          "bottom": 1068
+        },
+        {
+          "left": 33,
+          "top": 1125,
+          "right": 348,
+          "bottom": 1400
+        },
+        {
+          "left": 408,
+          "top": 1129,
+          "right": 717,
+          "bottom": 1400
+        },
+        {
+          "left": 751,
+          "top": 1125,
+          "right": 1063,
+          "bottom": 1405
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "seokmun-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-rear-right.png",
+      "sha256": "d47d321e761dd5131bae41d607c093050389d9bc5f0b71de26c5166efdf8c76a",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.0642201834862386,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 290,
+      "boots": [
+        [
+          211,
+          366
+        ],
+        [
+          582,
+          370
+        ],
+        [
+          806,
+          372
+        ],
+        [
+          89,
+          719
+        ],
+        [
+          580,
+          705
+        ],
+        [
+          958,
+          719
+        ],
+        [
+          212,
+          1042
+        ],
+        [
+          638,
+          782
+        ],
+        [
+          1410,
+          780
+        ],
+        [
+          1410,
+          780
+        ],
+        [
+          638,
+          782
+        ],
+        [
+          958,
+          1382
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 42,
+          "top": 96,
+          "right": 330,
+          "bottom": 368
+        },
+        {
+          "left": 432,
+          "top": 109,
+          "right": 663,
+          "bottom": 372
+        },
+        {
+          "left": 775,
+          "top": 98,
+          "right": 1019,
+          "bottom": 374
+        },
+        {
+          "left": 67,
+          "top": 445,
+          "right": 327,
+          "bottom": 721
+        },
+        {
+          "left": 426,
+          "top": 455,
+          "right": 701,
+          "bottom": 707
+        },
+        {
+          "left": 787,
+          "top": 448,
+          "right": 1067,
+          "bottom": 721
+        },
+        {
+          "left": 51,
+          "top": 774,
+          "right": 326,
+          "bottom": 1044
+        },
+        {
+          "left": 260,
+          "top": 182,
+          "right": 864,
+          "bottom": 784
+        },
+        {
+          "left": 1011,
+          "top": 140,
+          "right": 1630,
+          "bottom": 782
+        },
+        {
+          "left": 1011,
+          "top": 140,
+          "right": 1630,
+          "bottom": 782
+        },
+        {
+          "left": 260,
+          "top": 182,
+          "right": 864,
+          "bottom": 784
+        },
+        {
+          "left": 787,
+          "top": 1110,
+          "right": 1067,
+          "bottom": 1384
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "seokmun-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/seokmun-back.png",
+      "sha256": "c1e1647bf9c1ed1655449a040d6ebe33c00ad4073fe11a75b2352a3d8e32efc6",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.169291338582677,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 297,
+      "boots": [
+        [
+          211,
+          330
+        ],
+        [
+          592,
+          337
+        ],
+        [
+          943,
+          341
+        ],
+        [
+          250,
+          694
+        ],
+        [
+          602,
+          697
+        ],
+        [
+          935,
+          692
+        ],
+        [
+          220,
+          1032
+        ],
+        [
+          594,
+          1038
+        ],
+        [
+          959,
+          1039
+        ],
+        [
+          246,
+          1387
+        ],
+        [
+          504,
+          1384
+        ],
+        [
+          936,
+          1382
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 73,
+          "top": 78,
+          "right": 312,
+          "bottom": 332
+        },
+        {
+          "left": 446,
+          "top": 99,
+          "right": 629,
+          "bottom": 339
+        },
+        {
+          "left": 799,
+          "top": 90,
+          "right": 1043,
+          "bottom": 343
+        },
+        {
+          "left": 75,
+          "top": 445,
+          "right": 329,
+          "bottom": 696
+        },
+        {
+          "left": 450,
+          "top": 426,
+          "right": 682,
+          "bottom": 699
+        },
+        {
+          "left": 798,
+          "top": 440,
+          "right": 1036,
+          "bottom": 694
+        },
+        {
+          "left": 79,
+          "top": 777,
+          "right": 318,
+          "bottom": 1034
+        },
+        {
+          "left": 450,
+          "top": 788,
+          "right": 652,
+          "bottom": 1040
+        },
+        {
+          "left": 803,
+          "top": 777,
+          "right": 1036,
+          "bottom": 1041
+        },
+        {
+          "left": 81,
+          "top": 1138,
+          "right": 326,
+          "bottom": 1389
+        },
+        {
+          "left": 437,
+          "top": 1131,
+          "right": 677,
+          "bottom": 1386
+        },
+        {
+          "left": 798,
+          "top": 1131,
+          "right": 1036,
+          "bottom": 1384
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "gwakgi-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-front.png",
+      "sha256": "c30b17936320f74da4df3a7ceb9e2df276f3d5d5dd61266e414e159f0f24ae82",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.122093023255814,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 386,
+      "boots": [
+        [
+          163,
+          363
+        ],
+        [
+          493,
+          362
+        ],
+        [
+          851,
+          361
+        ],
+        [
+          146,
+          721
+        ],
+        [
+          628,
+          715
+        ],
+        [
+          857,
+          720
+        ],
+        [
+          162,
+          1078
+        ],
+        [
+          490,
+          1078
+        ],
+        [
+          851,
+          1078
+        ],
+        [
+          140,
+          1428
+        ],
+        [
+          506,
+          1426
+        ],
+        [
+          854,
+          1431
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 96,
+          "top": 23,
+          "right": 327,
+          "bottom": 365
+        },
+        {
+          "left": 432,
+          "top": 25,
+          "right": 676,
+          "bottom": 364
+        },
+        {
+          "left": 788,
+          "top": 22,
+          "right": 1044,
+          "bottom": 363
+        },
+        {
+          "left": 75,
+          "top": 378,
+          "right": 364,
+          "bottom": 723
+        },
+        {
+          "left": 444,
+          "top": 378,
+          "right": 665,
+          "bottom": 717
+        },
+        {
+          "left": 790,
+          "top": 378,
+          "right": 1022,
+          "bottom": 722
+        },
+        {
+          "left": 95,
+          "top": 734,
+          "right": 326,
+          "bottom": 1080
+        },
+        {
+          "left": 465,
+          "top": 731,
+          "right": 672,
+          "bottom": 1080
+        },
+        {
+          "left": 827,
+          "top": 733,
+          "right": 1028,
+          "bottom": 1080
+        },
+        {
+          "left": 116,
+          "top": 1091,
+          "right": 326,
+          "bottom": 1430
+        },
+        {
+          "left": 417,
+          "top": 1089,
+          "right": 682,
+          "bottom": 1428
+        },
+        {
+          "left": 790,
+          "top": 1089,
+          "right": 1022,
+          "bottom": 1433
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "gwakgi-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-front-right.png",
+      "sha256": "01ed42596b15ffc3b9c7ef5c7c022b7a446a9260aa25710d4d193c0260eb197d",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.19375,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 382,
+      "boots": [
+        [
+          94,
+          356
+        ],
+        [
+          469,
+          357
+        ],
+        [
+          819,
+          357
+        ],
+        [
+          109,
+          702
+        ],
+        [
+          472,
+          704
+        ],
+        [
+          816,
+          705
+        ],
+        [
+          94,
+          1055
+        ],
+        [
+          485,
+          1056
+        ],
+        [
+          829,
+          1054
+        ],
+        [
+          108,
+          1395
+        ],
+        [
+          480,
+          1399
+        ],
+        [
+          814,
+          1401
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 48,
+          "top": 38,
+          "right": 289,
+          "bottom": 358
+        },
+        {
+          "left": 443,
+          "top": 38,
+          "right": 629,
+          "bottom": 359
+        },
+        {
+          "left": 754,
+          "top": 40,
+          "right": 1059,
+          "bottom": 359
+        },
+        {
+          "left": 33,
+          "top": 387,
+          "right": 316,
+          "bottom": 704
+        },
+        {
+          "left": 426,
+          "top": 387,
+          "right": 637,
+          "bottom": 706
+        },
+        {
+          "left": 765,
+          "top": 389,
+          "right": 1011,
+          "bottom": 707
+        },
+        {
+          "left": 48,
+          "top": 737,
+          "right": 290,
+          "bottom": 1057
+        },
+        {
+          "left": 451,
+          "top": 738,
+          "right": 642,
+          "bottom": 1058
+        },
+        {
+          "left": 794,
+          "top": 737,
+          "right": 1017,
+          "bottom": 1056
+        },
+        {
+          "left": 79,
+          "top": 1083,
+          "right": 292,
+          "bottom": 1397
+        },
+        {
+          "left": 398,
+          "top": 1081,
+          "right": 658,
+          "bottom": 1401
+        },
+        {
+          "left": 763,
+          "top": 1082,
+          "right": 1013,
+          "bottom": 1403
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "gwakgi-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-right.png",
+      "sha256": "00bcf8267c9ebf5441fd06c8be901a0289bef9759aa8d00ee7f30af6062660ef",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1145510835913313,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 360,
+      "boots": [
+        [
+          110,
+          344
+        ],
+        [
+          465,
+          346
+        ],
+        [
+          826,
+          344
+        ],
+        [
+          104,
+          694
+        ],
+        [
+          465,
+          346
+        ],
+        [
+          823,
+          694
+        ],
+        [
+          107,
+          1068
+        ],
+        [
+          471,
+          1068
+        ],
+        [
+          822,
+          1068
+        ],
+        [
+          108,
+          1416
+        ],
+        [
+          469,
+          1416
+        ],
+        [
+          827,
+          1417
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 89,
+          "top": 32,
+          "right": 290,
+          "bottom": 346
+        },
+        {
+          "left": 444,
+          "top": 31,
+          "right": 631,
+          "bottom": 348
+        },
+        {
+          "left": 805,
+          "top": 32,
+          "right": 1054,
+          "bottom": 346
+        },
+        {
+          "left": 83,
+          "top": 377,
+          "right": 331,
+          "bottom": 696
+        },
+        {
+          "left": 444,
+          "top": 31,
+          "right": 631,
+          "bottom": 348
+        },
+        {
+          "left": 801,
+          "top": 376,
+          "right": 1012,
+          "bottom": 696
+        },
+        {
+          "left": 85,
+          "top": 744,
+          "right": 294,
+          "bottom": 1070
+        },
+        {
+          "left": 449,
+          "top": 739,
+          "right": 656,
+          "bottom": 1070
+        },
+        {
+          "left": 800,
+          "top": 746,
+          "right": 1008,
+          "bottom": 1070
+        },
+        {
+          "left": 85,
+          "top": 1092,
+          "right": 292,
+          "bottom": 1418
+        },
+        {
+          "left": 433,
+          "top": 1092,
+          "right": 679,
+          "bottom": 1418
+        },
+        {
+          "left": 805,
+          "top": 1092,
+          "right": 1014,
+          "bottom": 1419
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-right-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 1
+        },
+        "4": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-right-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 1
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "gwakgi-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-rear-right.png",
+      "sha256": "22b3f348f2096b312dcbc9a86fb8828142b4bc57a0f43134fb6ba65ad93fe51e",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.25,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 345,
+      "boots": [
+        [
+          206,
+          326
+        ],
+        [
+          569,
+          327
+        ],
+        [
+          926,
+          329
+        ],
+        [
+          221,
+          684
+        ],
+        [
+          583,
+          683
+        ],
+        [
+          930,
+          683
+        ],
+        [
+          207,
+          1048
+        ],
+        [
+          580,
+          1047
+        ],
+        [
+          928,
+          1047
+        ],
+        [
+          218,
+          1404
+        ],
+        [
+          580,
+          1407
+        ],
+        [
+          930,
+          1407
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 77,
+          "top": 60,
+          "right": 285,
+          "bottom": 328
+        },
+        {
+          "left": 445,
+          "top": 58,
+          "right": 626,
+          "bottom": 329
+        },
+        {
+          "left": 788,
+          "top": 55,
+          "right": 1013,
+          "bottom": 331
+        },
+        {
+          "left": 72,
+          "top": 409,
+          "right": 304,
+          "bottom": 686
+        },
+        {
+          "left": 444,
+          "top": 407,
+          "right": 652,
+          "bottom": 685
+        },
+        {
+          "left": 798,
+          "top": 409,
+          "right": 1009,
+          "bottom": 685
+        },
+        {
+          "left": 76,
+          "top": 772,
+          "right": 286,
+          "bottom": 1050
+        },
+        {
+          "left": 436,
+          "top": 769,
+          "right": 658,
+          "bottom": 1049
+        },
+        {
+          "left": 794,
+          "top": 770,
+          "right": 1012,
+          "bottom": 1049
+        },
+        {
+          "left": 77,
+          "top": 1132,
+          "right": 292,
+          "bottom": 1406
+        },
+        {
+          "left": 440,
+          "top": 1131,
+          "right": 665,
+          "bottom": 1409
+        },
+        {
+          "left": 798,
+          "top": 1133,
+          "right": 1009,
+          "bottom": 1409
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "gwakgi-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-back.png",
+      "sha256": "5b67e2d428578b9cf08097c9a6ba4596b4854d55e5b13f643b2c31c021806bce",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.0508474576271187,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 310,
+      "boots": [
+        [
+          225,
+          345
+        ],
+        [
+          588,
+          345
+        ],
+        [
+          943,
+          345
+        ],
+        [
+          224,
+          703
+        ],
+        [
+          586,
+          704
+        ],
+        [
+          946,
+          704
+        ],
+        [
+          222,
+          1063
+        ],
+        [
+          580,
+          1048
+        ],
+        [
+          941,
+          1048
+        ],
+        [
+          221,
+          1394
+        ],
+        [
+          588,
+          1401
+        ],
+        [
+          942,
+          1400
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 80,
+          "top": 52,
+          "right": 325,
+          "bottom": 347
+        },
+        {
+          "left": 439,
+          "top": 51,
+          "right": 686,
+          "bottom": 347
+        },
+        {
+          "left": 779,
+          "top": 53,
+          "right": 1047,
+          "bottom": 347
+        },
+        {
+          "left": 72,
+          "top": 408,
+          "right": 326,
+          "bottom": 705
+        },
+        {
+          "left": 450,
+          "top": 409,
+          "right": 690,
+          "bottom": 706
+        },
+        {
+          "left": 804,
+          "top": 409,
+          "right": 1047,
+          "bottom": 706
+        },
+        {
+          "left": 80,
+          "top": 770,
+          "right": 325,
+          "bottom": 1065
+        },
+        {
+          "left": 454,
+          "top": 750,
+          "right": 634,
+          "bottom": 1050
+        },
+        {
+          "left": 813,
+          "top": 750,
+          "right": 995,
+          "bottom": 1050
+        },
+        {
+          "left": 85,
+          "top": 1097,
+          "right": 279,
+          "bottom": 1396
+        },
+        {
+          "left": 448,
+          "top": 1109,
+          "right": 713,
+          "bottom": 1403
+        },
+        {
+          "left": 804,
+          "top": 1111,
+          "right": 1047,
+          "bottom": 1402
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-back-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 7
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-back-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 8
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/gwakgi-back-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 9
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "wolryeong-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-front.png",
+      "sha256": "8059cec012148ff8efe80f19c6d3ea777801940843985dd1246919cde34c4c73",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.182282793867121,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 347,
+      "boots": [
+        [
+          147,
+          340
+        ],
+        [
+          575,
+          325
+        ],
+        [
+          905,
+          334
+        ],
+        [
+          185,
+          682
+        ],
+        [
+          569,
+          689
+        ],
+        [
+          869,
+          699
+        ],
+        [
+          144,
+          1058
+        ],
+        [
+          480,
+          1056
+        ],
+        [
+          1004,
+          1053
+        ],
+        [
+          286,
+          1401
+        ],
+        [
+          507,
+          1399
+        ],
+        [
+          869,
+          1402
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 39,
+          "top": 49,
+          "right": 326,
+          "bottom": 342
+        },
+        {
+          "left": 405,
+          "top": 8,
+          "right": 700,
+          "bottom": 348
+        },
+        {
+          "left": 776,
+          "top": 50,
+          "right": 1065,
+          "bottom": 357
+        },
+        {
+          "left": 55,
+          "top": 410,
+          "right": 405,
+          "bottom": 705
+        },
+        {
+          "left": 367,
+          "top": 406,
+          "right": 699,
+          "bottom": 699
+        },
+        {
+          "left": 763,
+          "top": 408,
+          "right": 1049,
+          "bottom": 701
+        },
+        {
+          "left": 35,
+          "top": 766,
+          "right": 321,
+          "bottom": 1060
+        },
+        {
+          "left": 371,
+          "top": 759,
+          "right": 693,
+          "bottom": 1058
+        },
+        {
+          "left": 734,
+          "top": 782,
+          "right": 1045,
+          "bottom": 1055
+        },
+        {
+          "left": 33,
+          "top": 1113,
+          "right": 341,
+          "bottom": 1403
+        },
+        {
+          "left": 392,
+          "top": 1104,
+          "right": 692,
+          "bottom": 1401
+        },
+        {
+          "left": 763,
+          "top": 1110,
+          "right": 1049,
+          "bottom": 1404
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "wolryeong-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-front-right.png",
+      "sha256": "803519c8b4048123d8ff9ccd0c8fc8d76af1a3f1d80e396dff69faf7fc01abf6",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.195729537366548,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 336,
+      "boots": [
+        [
+          180,
+          373
+        ],
+        [
+          574,
+          356
+        ],
+        [
+          914,
+          365
+        ],
+        [
+          218,
+          704
+        ],
+        [
+          587,
+          708
+        ],
+        [
+          884,
+          708
+        ],
+        [
+          160,
+          1054
+        ],
+        [
+          507,
+          1055
+        ],
+        [
+          991,
+          1055
+        ],
+        [
+          308,
+          1390
+        ],
+        [
+          512,
+          1388
+        ],
+        [
+          880,
+          1390
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 57,
+          "top": 91,
+          "right": 335,
+          "bottom": 375
+        },
+        {
+          "left": 413,
+          "top": 56,
+          "right": 696,
+          "bottom": 375
+        },
+        {
+          "left": 757,
+          "top": 108,
+          "right": 1066,
+          "bottom": 388
+        },
+        {
+          "left": 64,
+          "top": 449,
+          "right": 423,
+          "bottom": 714
+        },
+        {
+          "left": 378,
+          "top": 443,
+          "right": 694,
+          "bottom": 720
+        },
+        {
+          "left": 767,
+          "top": 439,
+          "right": 1030,
+          "bottom": 710
+        },
+        {
+          "left": 47,
+          "top": 778,
+          "right": 315,
+          "bottom": 1056
+        },
+        {
+          "left": 402,
+          "top": 777,
+          "right": 696,
+          "bottom": 1057
+        },
+        {
+          "left": 727,
+          "top": 809,
+          "right": 1042,
+          "bottom": 1057
+        },
+        {
+          "left": 44,
+          "top": 1111,
+          "right": 358,
+          "bottom": 1392
+        },
+        {
+          "left": 395,
+          "top": 1107,
+          "right": 686,
+          "bottom": 1390
+        },
+        {
+          "left": 756,
+          "top": 1106,
+          "right": 1029,
+          "bottom": 1392
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "wolryeong-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-right.png",
+      "sha256": "6c27c620af354fff0c74908af1246850662314cc26d1e8d26fbf5ca791261b3c",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1891891891891893,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 352,
+      "boots": [
+        [
+          182,
+          367
+        ],
+        [
+          563,
+          357
+        ],
+        [
+          910,
+          357
+        ],
+        [
+          165,
+          709
+        ],
+        [
+          535,
+          713
+        ],
+        [
+          907,
+          724
+        ],
+        [
+          165,
+          1073
+        ],
+        [
+          522,
+          1071
+        ],
+        [
+          955,
+          1073
+        ],
+        [
+          144,
+          1398
+        ],
+        [
+          540,
+          1400
+        ],
+        [
+          908,
+          1402
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 43,
+          "top": 72,
+          "right": 323,
+          "bottom": 369
+        },
+        {
+          "left": 362,
+          "top": 27,
+          "right": 691,
+          "bottom": 367
+        },
+        {
+          "left": 755,
+          "top": 90,
+          "right": 1073,
+          "bottom": 367
+        },
+        {
+          "left": 48,
+          "top": 440,
+          "right": 436,
+          "bottom": 719
+        },
+        {
+          "left": 410,
+          "top": 435,
+          "right": 695,
+          "bottom": 723
+        },
+        {
+          "left": 769,
+          "top": 432,
+          "right": 1047,
+          "bottom": 726
+        },
+        {
+          "left": 30,
+          "top": 777,
+          "right": 311,
+          "bottom": 1075
+        },
+        {
+          "left": 383,
+          "top": 782,
+          "right": 681,
+          "bottom": 1073
+        },
+        {
+          "left": 746,
+          "top": 796,
+          "right": 1060,
+          "bottom": 1075
+        },
+        {
+          "left": 23,
+          "top": 1109,
+          "right": 340,
+          "bottom": 1400
+        },
+        {
+          "left": 404,
+          "top": 1109,
+          "right": 688,
+          "bottom": 1402
+        },
+        {
+          "left": 769,
+          "top": 1109,
+          "right": 1048,
+          "bottom": 1404
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "wolryeong-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right.png",
+      "sha256": "eb6a36c0dd1e079bd2ed6e04115c789782dc4a53f2de127339678498a581a126",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.3534136546184738,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 337,
+      "boots": [
+        [
+          207,
+          330
+        ],
+        [
+          184,
+          339
+        ],
+        [
+          888,
+          330
+        ],
+        [
+          216,
+          669
+        ],
+        [
+          550,
+          670
+        ],
+        [
+          931,
+          680
+        ],
+        [
+          213,
+          1019
+        ],
+        [
+          611,
+          774
+        ],
+        [
+          1387,
+          775
+        ],
+        [
+          1387,
+          775
+        ],
+        [
+          611,
+          774
+        ],
+        [
+          929,
+          1378
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 44,
+          "top": 85,
+          "right": 326,
+          "bottom": 332
+        },
+        {
+          "left": 58,
+          "top": 45,
+          "right": 274,
+          "bottom": 348
+        },
+        {
+          "left": 770,
+          "top": 102,
+          "right": 1059,
+          "bottom": 341
+        },
+        {
+          "left": 46,
+          "top": 432,
+          "right": 364,
+          "bottom": 684
+        },
+        {
+          "left": 417,
+          "top": 432,
+          "right": 708,
+          "bottom": 681
+        },
+        {
+          "left": 773,
+          "top": 432,
+          "right": 1056,
+          "bottom": 682
+        },
+        {
+          "left": 46,
+          "top": 773,
+          "right": 330,
+          "bottom": 1021
+        },
+        {
+          "left": 161,
+          "top": 90,
+          "right": 906,
+          "bottom": 776
+        },
+        {
+          "left": 950,
+          "top": 89,
+          "right": 1684,
+          "bottom": 777
+        },
+        {
+          "left": 950,
+          "top": 89,
+          "right": 1684,
+          "bottom": 777
+        },
+        {
+          "left": 161,
+          "top": 90,
+          "right": 906,
+          "bottom": 776
+        },
+        {
+          "left": 771,
+          "top": 1130,
+          "right": 1053,
+          "bottom": 1380
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right-v2.png",
+          "grid": [
+            3,
+            4
+          ],
+          "index": 0
+        },
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "wolryeong-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-back.png",
+      "sha256": "cdbf2adca8a0a25671dfaf81b56a8ea5c4199a2e6caacb8749ee88330c60f790",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1976284584980237,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 303,
+      "boots": [
+        [
+          180,
+          338
+        ],
+        [
+          508,
+          332
+        ],
+        [
+          901,
+          341
+        ],
+        [
+          220,
+          697
+        ],
+        [
+          505,
+          721
+        ],
+        [
+          912,
+          718
+        ],
+        [
+          180,
+          1062
+        ],
+        [
+          335,
+          784
+        ],
+        [
+          1222,
+          784
+        ],
+        [
+          1222,
+          784
+        ],
+        [
+          335,
+          784
+        ],
+        [
+          909,
+          1400
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 58,
+          "top": 90,
+          "right": 345,
+          "bottom": 340
+        },
+        {
+          "left": 413,
+          "top": 47,
+          "right": 674,
+          "bottom": 342
+        },
+        {
+          "left": 767,
+          "top": 117,
+          "right": 1074,
+          "bottom": 360
+        },
+        {
+          "left": 61,
+          "top": 464,
+          "right": 403,
+          "bottom": 716
+        },
+        {
+          "left": 425,
+          "top": 432,
+          "right": 688,
+          "bottom": 731
+        },
+        {
+          "left": 783,
+          "top": 464,
+          "right": 1072,
+          "bottom": 720
+        },
+        {
+          "left": 64,
+          "top": 814,
+          "right": 344,
+          "bottom": 1064
+        },
+        {
+          "left": 167,
+          "top": 71,
+          "right": 869,
+          "bottom": 786
+        },
+        {
+          "left": 945,
+          "top": 71,
+          "right": 1756,
+          "bottom": 786
+        },
+        {
+          "left": 945,
+          "top": 71,
+          "right": 1756,
+          "bottom": 786
+        },
+        {
+          "left": 167,
+          "top": 71,
+          "right": 869,
+          "bottom": 786
+        },
+        {
+          "left": 784,
+          "top": 1145,
+          "right": 1072,
+          "bottom": 1402
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/wolryeong-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": {
+        "stance": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "qingbi-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-front.png",
+      "sha256": "5fe1865f4057b5c3583a142c43cb90d823956894e30b0fe907bd4d2eb10f1d27",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1477449455676516,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 369,
+      "boots": [
+        [
+          241,
+          369
+        ],
+        [
+          474,
+          381
+        ],
+        [
+          1004,
+          375
+        ],
+        [
+          276,
+          720
+        ],
+        [
+          467,
+          721
+        ],
+        [
+          977,
+          714
+        ],
+        [
+          242,
+          1057
+        ],
+        [
+          454,
+          1058
+        ],
+        [
+          821,
+          1063
+        ],
+        [
+          105,
+          1400
+        ],
+        [
+          603,
+          1400
+        ],
+        [
+          976,
+          1400
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 59,
+          "top": 53,
+          "right": 308,
+          "bottom": 371
+        },
+        {
+          "left": 413,
+          "top": 54,
+          "right": 690,
+          "bottom": 383
+        },
+        {
+          "left": 784,
+          "top": 57,
+          "right": 1042,
+          "bottom": 377
+        },
+        {
+          "left": 52,
+          "top": 391,
+          "right": 306,
+          "bottom": 722
+        },
+        {
+          "left": 408,
+          "top": 399,
+          "right": 687,
+          "bottom": 723
+        },
+        {
+          "left": 793,
+          "top": 395,
+          "right": 1043,
+          "bottom": 716
+        },
+        {
+          "left": 60,
+          "top": 737,
+          "right": 308,
+          "bottom": 1059
+        },
+        {
+          "left": 418,
+          "top": 741,
+          "right": 686,
+          "bottom": 1060
+        },
+        {
+          "left": 777,
+          "top": 766,
+          "right": 1049,
+          "bottom": 1065
+        },
+        {
+          "left": 55,
+          "top": 1079,
+          "right": 324,
+          "bottom": 1402
+        },
+        {
+          "left": 417,
+          "top": 1079,
+          "right": 670,
+          "bottom": 1402
+        },
+        {
+          "left": 790,
+          "top": 1080,
+          "right": 1041,
+          "bottom": 1402
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "qingbi-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-front-right.png",
+      "sha256": "5928e44a69a95ac4525bf39691e209e73cc873ad52932a6c83ec6e8b217f4805",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.0762331838565022,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 360,
+      "boots": [
+        [
+          96,
+          360
+        ],
+        [
+          428,
+          361
+        ],
+        [
+          1008,
+          361
+        ],
+        [
+          109,
+          722
+        ],
+        [
+          451,
+          723
+        ],
+        [
+          819,
+          723
+        ],
+        [
+          96,
+          1075
+        ],
+        [
+          440,
+          1078
+        ],
+        [
+          801,
+          1078
+        ],
+        [
+          84,
+          1425
+        ],
+        [
+          450,
+          1424
+        ],
+        [
+          821,
+          1426
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 34,
+          "top": 28,
+          "right": 315,
+          "bottom": 362
+        },
+        {
+          "left": 397,
+          "top": 24,
+          "right": 719,
+          "bottom": 363
+        },
+        {
+          "left": 760,
+          "top": 24,
+          "right": 1072,
+          "bottom": 363
+        },
+        {
+          "left": 43,
+          "top": 379,
+          "right": 387,
+          "bottom": 724
+        },
+        {
+          "left": 417,
+          "top": 382,
+          "right": 689,
+          "bottom": 725
+        },
+        {
+          "left": 762,
+          "top": 376,
+          "right": 1045,
+          "bottom": 725
+        },
+        {
+          "left": 35,
+          "top": 742,
+          "right": 316,
+          "bottom": 1077
+        },
+        {
+          "left": 405,
+          "top": 738,
+          "right": 683,
+          "bottom": 1080
+        },
+        {
+          "left": 761,
+          "top": 746,
+          "right": 1050,
+          "bottom": 1080
+        },
+        {
+          "left": 60,
+          "top": 1092,
+          "right": 327,
+          "bottom": 1427
+        },
+        {
+          "left": 410,
+          "top": 1091,
+          "right": 687,
+          "bottom": 1426
+        },
+        {
+          "left": 760,
+          "top": 1096,
+          "right": 1045,
+          "bottom": 1428
+        }
+      ],
+      "replacements": null,
+      "stages": {
+        "ring": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "qingbi-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-right.png",
+      "sha256": "b8c6d59857c3a2364049aaaa4d8a37f27e799a974411cc114fc809395893573a",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1666666666666667,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 364,
+      "boots": [
+        [
+          114,
+          369
+        ],
+        [
+          256,
+          823
+        ],
+        [
+          1071,
+          823
+        ],
+        [
+          1071,
+          823
+        ],
+        [
+          474,
+          712
+        ],
+        [
+          834,
+          712
+        ],
+        [
+          116,
+          1063
+        ],
+        [
+          474,
+          1064
+        ],
+        [
+          824,
+          1064
+        ],
+        [
+          108,
+          1415
+        ],
+        [
+          482,
+          1417
+        ],
+        [
+          833,
+          1417
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 64,
+          "top": 60,
+          "right": 301,
+          "bottom": 371
+        },
+        {
+          "left": 174,
+          "top": 77,
+          "right": 808,
+          "bottom": 825
+        },
+        {
+          "left": 994,
+          "top": 78,
+          "right": 1687,
+          "bottom": 825
+        },
+        {
+          "left": 994,
+          "top": 78,
+          "right": 1687,
+          "bottom": 825
+        },
+        {
+          "left": 414,
+          "top": 404,
+          "right": 672,
+          "bottom": 714
+        },
+        {
+          "left": 781,
+          "top": 401,
+          "right": 1019,
+          "bottom": 714
+        },
+        {
+          "left": 64,
+          "top": 754,
+          "right": 301,
+          "bottom": 1065
+        },
+        {
+          "left": 426,
+          "top": 755,
+          "right": 660,
+          "bottom": 1066
+        },
+        {
+          "left": 771,
+          "top": 768,
+          "right": 1051,
+          "bottom": 1066
+        },
+        {
+          "left": 64,
+          "top": 1107,
+          "right": 352,
+          "bottom": 1417
+        },
+        {
+          "left": 430,
+          "top": 1107,
+          "right": 649,
+          "bottom": 1419
+        },
+        {
+          "left": 781,
+          "top": 1106,
+          "right": 1019,
+          "bottom": 1419
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-right-release.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "2": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-right-release.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "3": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-right-release.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "qingbi-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-rear-right.png",
+      "sha256": "39ac104f5db48a8607757303cb35689ba7d7743b074f14a51568277bcf99ca87",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.172302737520129,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 364,
+      "boots": [
+        [
+          214,
+          334
+        ],
+        [
+          622,
+          848
+        ],
+        [
+          1510,
+          848
+        ],
+        [
+          1510,
+          848
+        ],
+        [
+          590,
+          695
+        ],
+        [
+          955,
+          693
+        ],
+        [
+          215,
+          1052
+        ],
+        [
+          600,
+          1054
+        ],
+        [
+          980,
+          1054
+        ],
+        [
+          250,
+          1406
+        ],
+        [
+          597,
+          1408
+        ],
+        [
+          953,
+          1408
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 50,
+          "top": 31,
+          "right": 307,
+          "bottom": 336
+        },
+        {
+          "left": 128,
+          "top": 42,
+          "right": 854,
+          "bottom": 850
+        },
+        {
+          "left": 976,
+          "top": 42,
+          "right": 1741,
+          "bottom": 850
+        },
+        {
+          "left": 976,
+          "top": 42,
+          "right": 1741,
+          "bottom": 850
+        },
+        {
+          "left": 414,
+          "top": 382,
+          "right": 677,
+          "bottom": 697
+        },
+        {
+          "left": 785,
+          "top": 380,
+          "right": 1047,
+          "bottom": 695
+        },
+        {
+          "left": 50,
+          "top": 746,
+          "right": 308,
+          "bottom": 1054
+        },
+        {
+          "left": 413,
+          "top": 749,
+          "right": 658,
+          "bottom": 1056
+        },
+        {
+          "left": 758,
+          "top": 759,
+          "right": 1063,
+          "bottom": 1056
+        },
+        {
+          "left": 39,
+          "top": 1109,
+          "right": 339,
+          "bottom": 1408
+        },
+        {
+          "left": 424,
+          "top": 1097,
+          "right": 660,
+          "bottom": 1410
+        },
+        {
+          "left": 783,
+          "top": 1097,
+          "right": 1045,
+          "bottom": 1410
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-rear-right-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "2": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-rear-right-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "3": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-rear-right-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "qingbi-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-back.png",
+      "sha256": "04abb0078e1de5754ace63487129149d66d3948b09c1a84b990955fc4252fc4a",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.031866464339909,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 340,
+      "boots": [
+        [
+          240,
+          366
+        ],
+        [
+          576,
+          829
+        ],
+        [
+          1160,
+          829
+        ],
+        [
+          1160,
+          829
+        ],
+        [
+          609,
+          714
+        ],
+        [
+          952,
+          713
+        ],
+        [
+          239,
+          1075
+        ],
+        [
+          624,
+          1078
+        ],
+        [
+          850,
+          1068
+        ],
+        [
+          256,
+          1410
+        ],
+        [
+          605,
+          1413
+        ],
+        [
+          953,
+          1414
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 64,
+          "top": 37,
+          "right": 323,
+          "bottom": 368
+        },
+        {
+          "left": 186,
+          "top": 54,
+          "right": 743,
+          "bottom": 831
+        },
+        {
+          "left": 933,
+          "top": 53,
+          "right": 1553,
+          "bottom": 831
+        },
+        {
+          "left": 933,
+          "top": 53,
+          "right": 1553,
+          "bottom": 831
+        },
+        {
+          "left": 432,
+          "top": 388,
+          "right": 655,
+          "bottom": 716
+        },
+        {
+          "left": 775,
+          "top": 389,
+          "right": 1034,
+          "bottom": 715
+        },
+        {
+          "left": 63,
+          "top": 747,
+          "right": 323,
+          "bottom": 1077
+        },
+        {
+          "left": 406,
+          "top": 754,
+          "right": 658,
+          "bottom": 1080
+        },
+        {
+          "left": 779,
+          "top": 776,
+          "right": 1066,
+          "bottom": 1070
+        },
+        {
+          "left": 51,
+          "top": 1100,
+          "right": 358,
+          "bottom": 1412
+        },
+        {
+          "left": 418,
+          "top": 1087,
+          "right": 652,
+          "bottom": 1415
+        },
+        {
+          "left": 776,
+          "top": 1087,
+          "right": 1034,
+          "bottom": 1416
+        }
+      ],
+      "replacements": {
+        "1": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-back-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "2": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-back-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "3": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/qingbi-back-release-v2.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "nogae-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/nogae-front.png",
+      "sha256": "b6aa5093fe773aba3171f3936e659e88b8273aba90e958cefe6a97ae7b98a2b8",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.574468085106383,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 481,
+      "boots": [
+        [
+          238,
+          344
+        ],
+        [
+          463,
+          344
+        ],
+        [
+          813,
+          360
+        ],
+        [
+          136,
+          695
+        ],
+        [
+          458,
+          696
+        ],
+        [
+          962,
+          690
+        ],
+        [
+          238,
+          1068
+        ],
+        [
+          555,
+          1079
+        ],
+        [
+          920,
+          1072
+        ],
+        [
+          200,
+          1399
+        ],
+        [
+          558,
+          1419
+        ],
+        [
+          961,
+          1427
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 18,
+          "top": 40,
+          "right": 358,
+          "bottom": 346
+        },
+        {
+          "left": 384,
+          "top": 35,
+          "right": 676,
+          "bottom": 346
+        },
+        {
+          "left": 768,
+          "top": 49,
+          "right": 1081,
+          "bottom": 362
+        },
+        {
+          "left": 8,
+          "top": 408,
+          "right": 354,
+          "bottom": 697
+        },
+        {
+          "left": 411,
+          "top": 385,
+          "right": 710,
+          "bottom": 698
+        },
+        {
+          "left": 742,
+          "top": 386,
+          "right": 1081,
+          "bottom": 692
+        },
+        {
+          "left": 18,
+          "top": 765,
+          "right": 358,
+          "bottom": 1070
+        },
+        {
+          "left": 414,
+          "top": 718,
+          "right": 680,
+          "bottom": 1089
+        },
+        {
+          "left": 782,
+          "top": 771,
+          "right": 1007,
+          "bottom": 1087
+        },
+        {
+          "left": 28,
+          "top": 1141,
+          "right": 342,
+          "bottom": 1414
+        },
+        {
+          "left": 418,
+          "top": 1105,
+          "right": 695,
+          "bottom": 1429
+        },
+        {
+          "left": 742,
+          "top": 1125,
+          "right": 1081,
+          "bottom": 1429
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "nogae-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/nogae-front-right.png",
+      "sha256": "94ee948b3095d193096608fa248b0c1f4adf18c00203fd14b03c8ee2b1fca8b0",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.5110410094637223,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 479,
+      "boots": [
+        [
+          264,
+          353
+        ],
+        [
+          661,
+          355
+        ],
+        [
+          1013,
+          370
+        ],
+        [
+          290,
+          710
+        ],
+        [
+          652,
+          718
+        ],
+        [
+          994,
+          723
+        ],
+        [
+          265,
+          1078
+        ],
+        [
+          560,
+          1076
+        ],
+        [
+          895,
+          1049
+        ],
+        [
+          181,
+          1381
+        ],
+        [
+          560,
+          1412
+        ],
+        [
+          994,
+          1435
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 40,
+          "top": 39,
+          "right": 346,
+          "bottom": 355
+        },
+        {
+          "left": 370,
+          "top": 48,
+          "right": 683,
+          "bottom": 357
+        },
+        {
+          "left": 738,
+          "top": 54,
+          "right": 1068,
+          "bottom": 372
+        },
+        {
+          "left": 38,
+          "top": 401,
+          "right": 377,
+          "bottom": 712
+        },
+        {
+          "left": 389,
+          "top": 401,
+          "right": 702,
+          "bottom": 720
+        },
+        {
+          "left": 771,
+          "top": 403,
+          "right": 1076,
+          "bottom": 725
+        },
+        {
+          "left": 40,
+          "top": 766,
+          "right": 346,
+          "bottom": 1080
+        },
+        {
+          "left": 418,
+          "top": 725,
+          "right": 713,
+          "bottom": 1085
+        },
+        {
+          "left": 742,
+          "top": 792,
+          "right": 1022,
+          "bottom": 1092
+        },
+        {
+          "left": 35,
+          "top": 1114,
+          "right": 308,
+          "bottom": 1423
+        },
+        {
+          "left": 404,
+          "top": 1108,
+          "right": 685,
+          "bottom": 1421
+        },
+        {
+          "left": 770,
+          "top": 1119,
+          "right": 1076,
+          "bottom": 1437
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "nogae-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/nogae-right.png",
+      "sha256": "44c2b937d0d62b290e356fa7534cb48729aaaa079ec91b05d4b460165ce83d5d",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.5104669887278583,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 469,
+      "boots": [
+        [
+          69,
+          351
+        ],
+        [
+          606,
+          352
+        ],
+        [
+          925,
+          352
+        ],
+        [
+          52,
+          713
+        ],
+        [
+          447,
+          713
+        ],
+        [
+          815,
+          715
+        ],
+        [
+          71,
+          1079
+        ],
+        [
+          523,
+          1072
+        ],
+        [
+          877,
+          1073
+        ],
+        [
+          143,
+          1417
+        ],
+        [
+          521,
+          1417
+        ],
+        [
+          815,
+          1427
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 25,
+          "top": 39,
+          "right": 343,
+          "bottom": 353
+        },
+        {
+          "left": 392,
+          "top": 53,
+          "right": 683,
+          "bottom": 354
+        },
+        {
+          "left": 727,
+          "top": 53,
+          "right": 1073,
+          "bottom": 354
+        },
+        {
+          "left": 13,
+          "top": 420,
+          "right": 358,
+          "bottom": 715
+        },
+        {
+          "left": 405,
+          "top": 412,
+          "right": 711,
+          "bottom": 715
+        },
+        {
+          "left": 771,
+          "top": 407,
+          "right": 1067,
+          "bottom": 717
+        },
+        {
+          "left": 25,
+          "top": 770,
+          "right": 342,
+          "bottom": 1081
+        },
+        {
+          "left": 387,
+          "top": 728,
+          "right": 722,
+          "bottom": 1081
+        },
+        {
+          "left": 755,
+          "top": 803,
+          "right": 1068,
+          "bottom": 1082
+        },
+        {
+          "left": 22,
+          "top": 1139,
+          "right": 364,
+          "bottom": 1426
+        },
+        {
+          "left": 399,
+          "top": 1122,
+          "right": 715,
+          "bottom": 1426
+        },
+        {
+          "left": 771,
+          "top": 1121,
+          "right": 1072,
+          "bottom": 1429
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "nogae-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/nogae-rear-right.png",
+      "sha256": "52e423d2ad523f98454c9c22ed89950c324a5e5bfbb8a33d3cbb6d4f0426713f",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.5140845070422535,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 430,
+      "boots": [
+        [
+          92,
+          327
+        ],
+        [
+          487,
+          329
+        ],
+        [
+          791,
+          336
+        ],
+        [
+          77,
+          691
+        ],
+        [
+          453,
+          697
+        ],
+        [
+          818,
+          696
+        ],
+        [
+          87,
+          1061
+        ],
+        [
+          527,
+          1058
+        ],
+        [
+          865,
+          1058
+        ],
+        [
+          173,
+          1407
+        ],
+        [
+          531,
+          1409
+        ],
+        [
+          818,
+          1416
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 39,
+          "top": 48,
+          "right": 324,
+          "bottom": 329
+        },
+        {
+          "left": 358,
+          "top": 55,
+          "right": 664,
+          "bottom": 331
+        },
+        {
+          "left": 740,
+          "top": 66,
+          "right": 1061,
+          "bottom": 338
+        },
+        {
+          "left": 35,
+          "top": 434,
+          "right": 373,
+          "bottom": 693
+        },
+        {
+          "left": 405,
+          "top": 432,
+          "right": 730,
+          "bottom": 699
+        },
+        {
+          "left": 765,
+          "top": 414,
+          "right": 1052,
+          "bottom": 698
+        },
+        {
+          "left": 39,
+          "top": 777,
+          "right": 324,
+          "bottom": 1063
+        },
+        {
+          "left": 407,
+          "top": 732,
+          "right": 687,
+          "bottom": 1067
+        },
+        {
+          "left": 755,
+          "top": 807,
+          "right": 1035,
+          "bottom": 1067
+        },
+        {
+          "left": 44,
+          "top": 1154,
+          "right": 372,
+          "bottom": 1416
+        },
+        {
+          "left": 411,
+          "top": 1105,
+          "right": 715,
+          "bottom": 1418
+        },
+        {
+          "left": 765,
+          "top": 1134,
+          "right": 1052,
+          "bottom": 1418
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "nogae-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/nogae-back.png",
+      "sha256": "5faafc18d6d88275e08eefe8c1c8301222b1df63211e1db01a4800598f282558",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.554119547657512,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 481,
+      "boots": [
+        [
+          93,
+          352
+        ],
+        [
+          633,
+          361
+        ],
+        [
+          966,
+          354
+        ],
+        [
+          256,
+          709
+        ],
+        [
+          634,
+          710
+        ],
+        [
+          949,
+          714
+        ],
+        [
+          224,
+          1073
+        ],
+        [
+          515,
+          1068
+        ],
+        [
+          881,
+          1067
+        ],
+        [
+          182,
+          1396
+        ],
+        [
+          551,
+          1399
+        ],
+        [
+          948,
+          1405
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 59,
+          "top": 48,
+          "right": 303,
+          "bottom": 354
+        },
+        {
+          "left": 369,
+          "top": 95,
+          "right": 659,
+          "bottom": 363
+        },
+        {
+          "left": 765,
+          "top": 90,
+          "right": 1080,
+          "bottom": 356
+        },
+        {
+          "left": 48,
+          "top": 455,
+          "right": 367,
+          "bottom": 711
+        },
+        {
+          "left": 359,
+          "top": 438,
+          "right": 670,
+          "bottom": 712
+        },
+        {
+          "left": 782,
+          "top": 407,
+          "right": 1031,
+          "bottom": 716
+        },
+        {
+          "left": 57,
+          "top": 764,
+          "right": 304,
+          "bottom": 1075
+        },
+        {
+          "left": 413,
+          "top": 750,
+          "right": 662,
+          "bottom": 1076
+        },
+        {
+          "left": 767,
+          "top": 855,
+          "right": 1054,
+          "bottom": 1075
+        },
+        {
+          "left": 55,
+          "top": 1181,
+          "right": 358,
+          "bottom": 1404
+        },
+        {
+          "left": 434,
+          "top": 1115,
+          "right": 674,
+          "bottom": 1407
+        },
+        {
+          "left": 782,
+          "top": 1097,
+          "right": 1027,
+          "bottom": 1407
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "yanqing-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-front.png",
+      "sha256": "7ea98e77f10fb4c28a3552f96ef82db113fcbe11b51380c4fdf37bd0662a9355",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2432432432432432,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 368,
+      "boots": [
+        [
+          254,
+          373
+        ],
+        [
+          567,
+          372
+        ],
+        [
+          908,
+          379
+        ],
+        [
+          214,
+          704
+        ],
+        [
+          574,
+          700
+        ],
+        [
+          954,
+          716
+        ],
+        [
+          136,
+          1059
+        ],
+        [
+          631,
+          1068
+        ],
+        [
+          972,
+          1048
+        ],
+        [
+          140,
+          1386
+        ],
+        [
+          497,
+          1383
+        ],
+        [
+          957,
+          1387
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 55,
+          "top": 80,
+          "right": 342,
+          "bottom": 375
+        },
+        {
+          "left": 399,
+          "top": 72,
+          "right": 686,
+          "bottom": 390
+        },
+        {
+          "left": 768,
+          "top": 94,
+          "right": 1036,
+          "bottom": 397
+        },
+        {
+          "left": 33,
+          "top": 434,
+          "right": 358,
+          "bottom": 730
+        },
+        {
+          "left": 435,
+          "top": 412,
+          "right": 704,
+          "bottom": 722
+        },
+        {
+          "left": 754,
+          "top": 422,
+          "right": 1041,
+          "bottom": 718
+        },
+        {
+          "left": 52,
+          "top": 757,
+          "right": 329,
+          "bottom": 1061
+        },
+        {
+          "left": 385,
+          "top": 757,
+          "right": 688,
+          "bottom": 1070
+        },
+        {
+          "left": 740,
+          "top": 800,
+          "right": 1062,
+          "bottom": 1050
+        },
+        {
+          "left": 43,
+          "top": 1097,
+          "right": 370,
+          "bottom": 1388
+        },
+        {
+          "left": 416,
+          "top": 1085,
+          "right": 690,
+          "bottom": 1385
+        },
+        {
+          "left": 758,
+          "top": 1093,
+          "right": 1044,
+          "bottom": 1389
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "yanqing-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-front-right.png",
+      "sha256": "31d9b73b64e5e812e03e5be6de73f0021ae54bc01b667162f78abc95a82d8ee1",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2133333333333334,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 364,
+      "boots": [
+        [
+          288,
+          368
+        ],
+        [
+          578,
+          364
+        ],
+        [
+          912,
+          369
+        ],
+        [
+          171,
+          728
+        ],
+        [
+          602,
+          735
+        ],
+        [
+          1017,
+          739
+        ],
+        [
+          304,
+          1085
+        ],
+        [
+          666,
+          1077
+        ],
+        [
+          825,
+          1078
+        ],
+        [
+          310,
+          1423
+        ],
+        [
+          670,
+          1421
+        ],
+        [
+          1016,
+          1429
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 30,
+          "top": 65,
+          "right": 320,
+          "bottom": 370
+        },
+        {
+          "left": 423,
+          "top": 18,
+          "right": 704,
+          "bottom": 382
+        },
+        {
+          "left": 793,
+          "top": 89,
+          "right": 1071,
+          "bottom": 379
+        },
+        {
+          "left": 51,
+          "top": 461,
+          "right": 417,
+          "bottom": 738
+        },
+        {
+          "left": 381,
+          "top": 431,
+          "right": 713,
+          "bottom": 749
+        },
+        {
+          "left": 756,
+          "top": 441,
+          "right": 1042,
+          "bottom": 741
+        },
+        {
+          "left": 31,
+          "top": 787,
+          "right": 320,
+          "bottom": 1087
+        },
+        {
+          "left": 402,
+          "top": 784,
+          "right": 689,
+          "bottom": 1079
+        },
+        {
+          "left": 748,
+          "top": 809,
+          "right": 1068,
+          "bottom": 1080
+        },
+        {
+          "left": 22,
+          "top": 1124,
+          "right": 354,
+          "bottom": 1425
+        },
+        {
+          "left": 401,
+          "top": 1122,
+          "right": 686,
+          "bottom": 1423
+        },
+        {
+          "left": 756,
+          "top": 1131,
+          "right": 1042,
+          "bottom": 1431
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "yanqing-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-right.png",
+      "sha256": "b81ff571cd02e04631603a1c3650e2b3a54481c1ae499c6a19efece1acb485dd",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2974910394265233,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 362,
+      "boots": [
+        [
+          214,
+          371
+        ],
+        [
+          556,
+          363
+        ],
+        [
+          867,
+          362
+        ],
+        [
+          28,
+          707
+        ],
+        [
+          539,
+          707
+        ],
+        [
+          937,
+          727
+        ],
+        [
+          215,
+          1065
+        ],
+        [
+          597,
+          1069
+        ],
+        [
+          802,
+          1070
+        ],
+        [
+          239,
+          1397
+        ],
+        [
+          595,
+          1398
+        ],
+        [
+          937,
+          1398
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 42,
+          "top": 92,
+          "right": 350,
+          "bottom": 373
+        },
+        {
+          "left": 406,
+          "top": 50,
+          "right": 685,
+          "bottom": 375
+        },
+        {
+          "left": 759,
+          "top": 102,
+          "right": 1067,
+          "bottom": 374
+        },
+        {
+          "left": 38,
+          "top": 454,
+          "right": 410,
+          "bottom": 719
+        },
+        {
+          "left": 413,
+          "top": 452,
+          "right": 696,
+          "bottom": 719
+        },
+        {
+          "left": 764,
+          "top": 450,
+          "right": 1072,
+          "bottom": 729
+        },
+        {
+          "left": 42,
+          "top": 788,
+          "right": 351,
+          "bottom": 1067
+        },
+        {
+          "left": 421,
+          "top": 788,
+          "right": 671,
+          "bottom": 1071
+        },
+        {
+          "left": 757,
+          "top": 807,
+          "right": 1049,
+          "bottom": 1072
+        },
+        {
+          "left": 48,
+          "top": 1126,
+          "right": 344,
+          "bottom": 1399
+        },
+        {
+          "left": 408,
+          "top": 1116,
+          "right": 710,
+          "bottom": 1400
+        },
+        {
+          "left": 764,
+          "top": 1123,
+          "right": 1072,
+          "bottom": 1400
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "yanqing-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-rear-right.png",
+      "sha256": "f315bc31707ea6259a3399d9094d9e42453127c8e9e5ad57960a8b99c21ba3a7",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1461412151067323,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 349,
+      "boots": [
+        [
+          207,
+          342
+        ],
+        [
+          528,
+          341
+        ],
+        [
+          871,
+          323
+        ],
+        [
+          159,
+          677
+        ],
+        [
+          556,
+          691
+        ],
+        [
+          931,
+          705
+        ],
+        [
+          217,
+          1061
+        ],
+        [
+          644,
+          818
+        ],
+        [
+          1486,
+          820
+        ],
+        [
+          1486,
+          820
+        ],
+        [
+          644,
+          818
+        ],
+        [
+          929,
+          1414
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 28,
+          "top": 43,
+          "right": 375,
+          "bottom": 344
+        },
+        {
+          "left": 414,
+          "top": 13,
+          "right": 644,
+          "bottom": 354
+        },
+        {
+          "left": 727,
+          "top": 56,
+          "right": 1078,
+          "bottom": 336
+        },
+        {
+          "left": 14,
+          "top": 416,
+          "right": 426,
+          "bottom": 690
+        },
+        {
+          "left": 425,
+          "top": 409,
+          "right": 726,
+          "bottom": 704
+        },
+        {
+          "left": 752,
+          "top": 405,
+          "right": 1076,
+          "bottom": 707
+        },
+        {
+          "left": 46,
+          "top": 756,
+          "right": 360,
+          "bottom": 1063
+        },
+        {
+          "left": 209,
+          "top": 106,
+          "right": 840,
+          "bottom": 820
+        },
+        {
+          "left": 961,
+          "top": 104,
+          "right": 1698,
+          "bottom": 822
+        },
+        {
+          "left": 961,
+          "top": 104,
+          "right": 1698,
+          "bottom": 822
+        },
+        {
+          "left": 209,
+          "top": 106,
+          "right": 840,
+          "bottom": 820
+        },
+        {
+          "left": 746,
+          "top": 1108,
+          "right": 1074,
+          "bottom": 1416
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "yanqing-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-back.png",
+      "sha256": "581283e55fea8d3ff578e1bf50a0a3d9617cfc24556a715b735de37c83731787",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2193436960276338,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 353,
+      "boots": [
+        [
+          204,
+          361
+        ],
+        [
+          536,
+          352
+        ],
+        [
+          840,
+          356
+        ],
+        [
+          145,
+          707
+        ],
+        [
+          539,
+          707
+        ],
+        [
+          944,
+          716
+        ],
+        [
+          207,
+          1050
+        ],
+        [
+          535,
+          834
+        ],
+        [
+          1245,
+          834
+        ],
+        [
+          1245,
+          834
+        ],
+        [
+          535,
+          834
+        ],
+        [
+          939,
+          1403
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 67,
+          "top": 68,
+          "right": 339,
+          "bottom": 363
+        },
+        {
+          "left": 421,
+          "top": 15,
+          "right": 663,
+          "bottom": 364
+        },
+        {
+          "left": 775,
+          "top": 81,
+          "right": 1069,
+          "bottom": 368
+        },
+        {
+          "left": 52,
+          "top": 440,
+          "right": 383,
+          "bottom": 719
+        },
+        {
+          "left": 431,
+          "top": 440,
+          "right": 735,
+          "bottom": 719
+        },
+        {
+          "left": 808,
+          "top": 427,
+          "right": 1071,
+          "bottom": 718
+        },
+        {
+          "left": 67,
+          "top": 770,
+          "right": 345,
+          "bottom": 1052
+        },
+        {
+          "left": 184,
+          "top": 23,
+          "right": 871,
+          "bottom": 836
+        },
+        {
+          "left": 945,
+          "top": 23,
+          "right": 1736,
+          "bottom": 836
+        },
+        {
+          "left": 945,
+          "top": 23,
+          "right": 1736,
+          "bottom": 836
+        },
+        {
+          "left": 184,
+          "top": 23,
+          "right": 871,
+          "bottom": 836
+        },
+        {
+          "left": 804,
+          "top": 1117,
+          "right": 1072,
+          "bottom": 1405
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/yanqing-back-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": {
+        "stance": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "songwol-front",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-front.png",
+      "sha256": "a5a1232892d119242473c1574c07add5a64681f01c0000345bf3e0152eb87671",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.2258064516129032,
+      "referenceReady": "0-locomotion-0",
+      "referenceHeight": 361,
+      "boots": [
+        [
+          126,
+          345
+        ],
+        [
+          592,
+          349
+        ],
+        [
+          930,
+          345
+        ],
+        [
+          183,
+          702
+        ],
+        [
+          615,
+          702
+        ],
+        [
+          861,
+          698
+        ],
+        [
+          122,
+          1047
+        ],
+        [
+          489,
+          1048
+        ],
+        [
+          895,
+          1044
+        ],
+        [
+          241,
+          1391
+        ],
+        [
+          601,
+          1390
+        ],
+        [
+          864,
+          1393
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 53,
+          "top": 50,
+          "right": 305,
+          "bottom": 347
+        },
+        {
+          "left": 384,
+          "top": 47,
+          "right": 665,
+          "bottom": 351
+        },
+        {
+          "left": 780,
+          "top": 72,
+          "right": 1038,
+          "bottom": 347
+        },
+        {
+          "left": 27,
+          "top": 410,
+          "right": 353,
+          "bottom": 704
+        },
+        {
+          "left": 430,
+          "top": 408,
+          "right": 690,
+          "bottom": 704
+        },
+        {
+          "left": 786,
+          "top": 405,
+          "right": 1039,
+          "bottom": 700
+        },
+        {
+          "left": 54,
+          "top": 755,
+          "right": 327,
+          "bottom": 1049
+        },
+        {
+          "left": 423,
+          "top": 755,
+          "right": 699,
+          "bottom": 1050
+        },
+        {
+          "left": 765,
+          "top": 771,
+          "right": 1046,
+          "bottom": 1046
+        },
+        {
+          "left": 62,
+          "top": 1102,
+          "right": 323,
+          "bottom": 1393
+        },
+        {
+          "left": 430,
+          "top": 1100,
+          "right": 675,
+          "bottom": 1392
+        },
+        {
+          "left": 786,
+          "top": 1102,
+          "right": 1039,
+          "bottom": 1395
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "songwol-front-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-front-right.png",
+      "sha256": "cb38f5af140c31fffbaa2a58f6aae62f4a5a468b3f34025de39f963aa6b25792",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.288808664259928,
+      "referenceReady": "1-locomotion-0",
+      "referenceHeight": 357,
+      "boots": [
+        [
+          105,
+          321
+        ],
+        [
+          483,
+          318
+        ],
+        [
+          822,
+          322
+        ],
+        [
+          98,
+          677
+        ],
+        [
+          482,
+          670
+        ],
+        [
+          838,
+          678
+        ],
+        [
+          107,
+          1027
+        ],
+        [
+          471,
+          1028
+        ],
+        [
+          806,
+          1037
+        ],
+        [
+          101,
+          1388
+        ],
+        [
+          476,
+          1388
+        ],
+        [
+          839,
+          1385
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 42,
+          "top": 46,
+          "right": 294,
+          "bottom": 323
+        },
+        {
+          "left": 412,
+          "top": 47,
+          "right": 680,
+          "bottom": 320
+        },
+        {
+          "left": 771,
+          "top": 48,
+          "right": 1052,
+          "bottom": 324
+        },
+        {
+          "left": 37,
+          "top": 390,
+          "right": 367,
+          "bottom": 679
+        },
+        {
+          "left": 401,
+          "top": 392,
+          "right": 685,
+          "bottom": 672
+        },
+        {
+          "left": 774,
+          "top": 403,
+          "right": 1025,
+          "bottom": 680
+        },
+        {
+          "left": 46,
+          "top": 755,
+          "right": 295,
+          "bottom": 1029
+        },
+        {
+          "left": 412,
+          "top": 748,
+          "right": 660,
+          "bottom": 1030
+        },
+        {
+          "left": 755,
+          "top": 769,
+          "right": 1041,
+          "bottom": 1039
+        },
+        {
+          "left": 47,
+          "top": 1108,
+          "right": 321,
+          "bottom": 1390
+        },
+        {
+          "left": 420,
+          "top": 1103,
+          "right": 652,
+          "bottom": 1390
+        },
+        {
+          "left": 776,
+          "top": 1110,
+          "right": 1025,
+          "bottom": 1387
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "songwol-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-right.png",
+      "sha256": "a08df9d2563a8fd8dc1f737d3725dd7ca704795eff716e428af2da81f027ef05",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.3272058823529411,
+      "referenceReady": "2-locomotion-0",
+      "referenceHeight": 361,
+      "boots": [
+        [
+          131,
+          344
+        ],
+        [
+          494,
+          346
+        ],
+        [
+          836,
+          346
+        ],
+        [
+          114,
+          693
+        ],
+        [
+          500,
+          694
+        ],
+        [
+          862,
+          697
+        ],
+        [
+          130,
+          1051
+        ],
+        [
+          484,
+          1056
+        ],
+        [
+          809,
+          1056
+        ],
+        [
+          110,
+          1397
+        ],
+        [
+          490,
+          1398
+        ],
+        [
+          861,
+          1401
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 67,
+          "top": 73,
+          "right": 299,
+          "bottom": 346
+        },
+        {
+          "left": 404,
+          "top": 85,
+          "right": 679,
+          "bottom": 348
+        },
+        {
+          "left": 771,
+          "top": 90,
+          "right": 1074,
+          "bottom": 348
+        },
+        {
+          "left": 38,
+          "top": 432,
+          "right": 392,
+          "bottom": 695
+        },
+        {
+          "left": 437,
+          "top": 429,
+          "right": 682,
+          "bottom": 696
+        },
+        {
+          "left": 801,
+          "top": 428,
+          "right": 1030,
+          "bottom": 699
+        },
+        {
+          "left": 68,
+          "top": 780,
+          "right": 299,
+          "bottom": 1053
+        },
+        {
+          "left": 427,
+          "top": 779,
+          "right": 655,
+          "bottom": 1058
+        },
+        {
+          "left": 764,
+          "top": 793,
+          "right": 1034,
+          "bottom": 1058
+        },
+        {
+          "left": 59,
+          "top": 1127,
+          "right": 334,
+          "bottom": 1399
+        },
+        {
+          "left": 430,
+          "top": 1123,
+          "right": 673,
+          "bottom": 1400
+        },
+        {
+          "left": 801,
+          "top": 1132,
+          "right": 1030,
+          "bottom": 1403
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    },
+    {
+      "id": "songwol-rear-right",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-rear-right.png",
+      "sha256": "b4a32f1597c3b1fe825e011f4d5931cbf18527c3ee123832e83443df7dc07e89",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.1922398589065255,
+      "referenceReady": "3-locomotion-0",
+      "referenceHeight": 338,
+      "boots": [
+        [
+          206,
+          353
+        ],
+        [
+          578,
+          357
+        ],
+        [
+          934,
+          351
+        ],
+        [
+          235,
+          694
+        ],
+        [
+          594,
+          698
+        ],
+        [
+          940,
+          694
+        ],
+        [
+          207,
+          1054
+        ],
+        [
+          569,
+          795
+        ],
+        [
+          1431,
+          795
+        ],
+        [
+          1431,
+          795
+        ],
+        [
+          569,
+          795
+        ],
+        [
+          940,
+          1386
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 46,
+          "top": 71,
+          "right": 302,
+          "bottom": 355
+        },
+        {
+          "left": 403,
+          "top": 69,
+          "right": 667,
+          "bottom": 359
+        },
+        {
+          "left": 763,
+          "top": 76,
+          "right": 1078,
+          "bottom": 353
+        },
+        {
+          "left": 43,
+          "top": 412,
+          "right": 391,
+          "bottom": 696
+        },
+        {
+          "left": 409,
+          "top": 417,
+          "right": 689,
+          "bottom": 700
+        },
+        {
+          "left": 783,
+          "top": 415,
+          "right": 1036,
+          "bottom": 696
+        },
+        {
+          "left": 46,
+          "top": 771,
+          "right": 303,
+          "bottom": 1056
+        },
+        {
+          "left": 153,
+          "top": 92,
+          "right": 882,
+          "bottom": 797
+        },
+        {
+          "left": 934,
+          "top": 91,
+          "right": 1745,
+          "bottom": 797
+        },
+        {
+          "left": 934,
+          "top": 91,
+          "right": 1745,
+          "bottom": 797
+        },
+        {
+          "left": 153,
+          "top": 92,
+          "right": 882,
+          "bottom": 797
+        },
+        {
+          "left": 783,
+          "top": 1105,
+          "right": 1036,
+          "bottom": 1388
+        }
+      ],
+      "replacements": {
+        "7": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        },
+        "8": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "9": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "calibrateToReady": true
+        },
+        "10": {
+          "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-rear-right-stance.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "calibrateToReady": true
+        }
+      },
+      "stages": null
+    },
+    {
+      "id": "songwol-back",
+      "source": "docs/source/tomb-bamboo-special-v2/generated/songwol-back.png",
+      "sha256": "bdc7e214ddf4098c5f4b8e142470500612f8688764eaeac4d31558a30758b746",
+      "grid": [
+        3,
+        4
+      ],
+      "factor": 1.17921146953405,
+      "referenceReady": "4-locomotion-0",
+      "referenceHeight": 329,
+      "boots": [
+        [
+          234,
+          372
+        ],
+        [
+          497,
+          369
+        ],
+        [
+          873,
+          366
+        ],
+        [
+          139,
+          699
+        ],
+        [
+          563,
+          700
+        ],
+        [
+          866,
+          716
+        ],
+        [
+          147,
+          1058
+        ],
+        [
+          560,
+          1058
+        ],
+        [
+          851,
+          1060
+        ],
+        [
+          198,
+          1385
+        ],
+        [
+          557,
+          1388
+        ],
+        [
+          954,
+          1386
+        ]
+      ],
+      "bounds": [
+        {
+          "left": 67,
+          "top": 94,
+          "right": 337,
+          "bottom": 374
+        },
+        {
+          "left": 403,
+          "top": 90,
+          "right": 688,
+          "bottom": 371
+        },
+        {
+          "left": 742,
+          "top": 106,
+          "right": 1072,
+          "bottom": 368
+        },
+        {
+          "left": 39,
+          "top": 439,
+          "right": 399,
+          "bottom": 701
+        },
+        {
+          "left": 412,
+          "top": 433,
+          "right": 705,
+          "bottom": 702
+        },
+        {
+          "left": 787,
+          "top": 444,
+          "right": 1056,
+          "bottom": 718
+        },
+        {
+          "left": 67,
+          "top": 782,
+          "right": 337,
+          "bottom": 1060
+        },
+        {
+          "left": 433,
+          "top": 782,
+          "right": 679,
+          "bottom": 1060
+        },
+        {
+          "left": 767,
+          "top": 807,
+          "right": 1053,
+          "bottom": 1062
+        },
+        {
+          "left": 53,
+          "top": 1122,
+          "right": 341,
+          "bottom": 1387
+        },
+        {
+          "left": 441,
+          "top": 1114,
+          "right": 697,
+          "bottom": 1390
+        },
+        {
+          "left": 788,
+          "top": 1108,
+          "right": 1059,
+          "bottom": 1388
+        }
+      ],
+      "replacements": null,
+      "stages": null
+    }
+  ],
+  "bosses": 8,
+  "actions": 16,
+  "logicalFrames": 480,
+  "note": "Two selected special actions per boss. Other kit moves keep basic artwork. READY reused; one aspect-preserving calibration per source sheet, fixed runtime .225. Boot proposals require visual review, selection.json persists corrections."
+}

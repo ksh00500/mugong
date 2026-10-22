@@ -1,0 +1,802 @@
+[
+  {
+    "id": "tombtrapper-right-repair-v2",
+    "jobId": "tombtrapper-right",
+    "source": "tombtrapper-right-repair-v2.png",
+    "prompt": "tombtrapper-right-repair-v2.prompt.txt",
+    "reference": "tombtrapper-right.png",
+    "front": "tombtrapper-front.png",
+    "targets": [
+      {
+        "pose": 0,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        }
+      },
+      {
+        "pose": 1,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        }
+      },
+      {
+        "pose": 2,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        }
+      },
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        }
+      },
+      {
+        "pose": 4,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        }
+      },
+      {
+        "pose": 11,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombtrapper-rear-right-repair-v2",
+    "jobId": "tombtrapper-rear-right",
+    "source": "tombtrapper-rear-right-repair-v2.png",
+    "prompt": "tombtrapper-rear-right-repair-v2.prompt.txt",
+    "reference": "tombtrapper-rear-right.png",
+    "front": "tombtrapper-front.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombtrapper-back-repair-v2",
+    "jobId": "tombtrapper-back",
+    "source": "tombtrapper-back-repair-v2.png",
+    "prompt": "tombtrapper-back-repair-v2.prompt.txt",
+    "reference": "tombtrapper-back.png",
+    "front": "tombtrapper-front.png",
+    "targets": [
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-front-right-repair-v2-locomotion",
+    "jobId": "tombguard-front-right",
+    "source": "tombguard-front-right-repair-v2-locomotion.png",
+    "prompt": "tombguard-front-right-repair-v2-locomotion.prompt.txt",
+    "reference": "tombguard-front-right.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 0,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        }
+      },
+      {
+        "pose": 1,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        }
+      },
+      {
+        "pose": 2,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        }
+      },
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        }
+      },
+      {
+        "pose": 4,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        }
+      },
+      {
+        "pose": 5,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-front-right-repair-v2-combat",
+    "jobId": "tombguard-front-right",
+    "source": "tombguard-front-right-repair-v2-combat.png",
+    "prompt": "tombguard-front-right-repair-v2-combat.prompt.txt",
+    "reference": "tombguard-front-right.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        }
+      },
+      {
+        "pose": 11,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-rear-right-repair-v2",
+    "jobId": "tombguard-rear-right",
+    "source": "tombguard-rear-right-repair-v2.png",
+    "prompt": "tombguard-rear-right-repair-v2.prompt.txt",
+    "reference": "tombguard-rear-right.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-back-repair-v2",
+    "jobId": "tombguard-back",
+    "source": "tombguard-back-repair-v2.png",
+    "prompt": "tombguard-back-repair-v2.prompt.txt",
+    "reference": "tombguard-back.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 7
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombcrossbow-back-repair-v2",
+    "jobId": "tombcrossbow-back",
+    "source": "tombcrossbow-back-repair-v2.png",
+    "prompt": "tombcrossbow-back-repair-v2.prompt.txt",
+    "reference": "tombcrossbow-back.png",
+    "front": "tombcrossbow-front.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 7
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "jeokho-back-repair-v2",
+    "jobId": "jeokho-back",
+    "source": "jeokho-back-repair-v2.png",
+    "prompt": "jeokho-back-repair-v2.prompt.txt",
+    "reference": "jeokho-back.png",
+    "front": "jeokho-front.png",
+    "targets": [
+      {
+        "pose": 8,
+        "cell": {
+          "rectangle": [
+            900,
+            610,
+            1293,
+            925
+          ]
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "rectangle": [
+            0,
+            925,
+            470,
+            1217
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "seokmun-rear-right-repair-v2",
+    "jobId": "seokmun-rear-right",
+    "source": "seokmun-rear-right-repair-v2.png",
+    "prompt": "seokmun-rear-right-repair-v2.prompt.txt",
+    "reference": "seokmun-rear-right.png",
+    "front": "seokmun-front.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "seokmun-back-repair-v2",
+    "jobId": "seokmun-back",
+    "source": "seokmun-back-repair-v2.png",
+    "prompt": "seokmun-back-repair-v2.prompt.txt",
+    "reference": "seokmun-back.png",
+    "front": "seokmun-front.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-rear-right-repair-v2",
+    "jobId": "gwakgi-rear-right",
+    "source": "gwakgi-rear-right-repair-v2.png",
+    "prompt": "gwakgi-rear-right-repair-v2.prompt.txt",
+    "reference": "gwakgi-rear-right.png",
+    "front": "gwakgi-front.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "gwakgi-back-repair-v2",
+    "jobId": "gwakgi-back",
+    "source": "gwakgi-back-repair-v2.png",
+    "prompt": "gwakgi-back-repair-v2.prompt.txt",
+    "reference": "gwakgi-back.png",
+    "front": "gwakgi-front.png",
+    "targets": [
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-rear-right-repair-v2",
+    "jobId": "wolryeong-rear-right",
+    "source": "wolryeong-rear-right-repair-v2.png",
+    "prompt": "wolryeong-rear-right-repair-v2.prompt.txt",
+    "reference": "wolryeong-rear-right.png",
+    "front": "wolryeong-front.png",
+    "targets": [
+      {
+        "pose": 0,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        }
+      },
+      {
+        "pose": 1,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        }
+      },
+      {
+        "pose": 2,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        }
+      },
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        }
+      },
+      {
+        "pose": 4,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        }
+      },
+      {
+        "pose": 5,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        }
+      },
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        }
+      },
+      {
+        "pose": 11,
+        "cell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        }
+      }
+    ]
+  },
+  {
+    "id": "wolryeong-back-repair-v2",
+    "jobId": "wolryeong-back",
+    "source": "wolryeong-back-repair-v2.png",
+    "prompt": "wolryeong-back-repair-v2.prompt.txt",
+    "reference": "wolryeong-back.png",
+    "front": "wolryeong-front.png",
+    "targets": [
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 8
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 9
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 4,
+          "rows": 3,
+          "index": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-right-repair-v2-locomotion",
+    "jobId": "tombguard-right",
+    "source": "tombguard-right-repair-v2-locomotion.png",
+    "prompt": "tombguard-right-repair-v2-locomotion.prompt.txt",
+    "reference": "tombguard-right.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 0,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        }
+      },
+      {
+        "pose": 1,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        }
+      },
+      {
+        "pose": 2,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        }
+      },
+      {
+        "pose": 3,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        }
+      },
+      {
+        "pose": 4,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        }
+      },
+      {
+        "pose": 5,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "tombguard-right-repair-v2-combat",
+    "jobId": "tombguard-right",
+    "source": "tombguard-right-repair-v2-combat.png",
+    "prompt": "tombguard-right-repair-v2-combat.prompt.txt",
+    "reference": "tombguard-right.png",
+    "front": "tombguard-front-v2.png",
+    "targets": [
+      {
+        "pose": 6,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        }
+      },
+      {
+        "pose": 7,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        }
+      },
+      {
+        "pose": 8,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        }
+      },
+      {
+        "pose": 9,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        }
+      },
+      {
+        "pose": 10,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        }
+      },
+      {
+        "pose": 11,
+        "cell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        }
+      }
+    ]
+  }
+]

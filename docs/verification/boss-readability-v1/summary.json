@@ -1,0 +1,61 @@
+{
+  "asOf": "2026-10-20",
+  "unit": {
+    "files": 74,
+    "passed": 1368,
+    "failed": 0
+  },
+  "render": {
+    "configurations": 12,
+    "samples": 10632,
+    "uniqueBossActions": 185,
+    "failures": 0,
+    "allEightDirections": true,
+    "webglRegions": [
+      4,
+      9
+    ],
+    "canvasRegions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "latestBrowserCases": {
+    "development": 16,
+    "compiled": 5,
+    "separateRuns": true
+  },
+  "build": {
+    "modules": 202,
+    "seconds": 7.98,
+    "largeChunkWarning": true
+  },
+  "runtime": {
+    "files": 1058,
+    "literalReferences": 792,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "imagesChanged": 0,
+  "userSaveTouched": false,
+  "publicDeployment": false,
+  "sourceUnit": {
+    "files": 74,
+    "passed": 1368,
+    "failed": 0
+  },
+  "localPreview": {
+    "url": "http://127.0.0.1:5205/",
+    "output": "dist-boss-readability-v1",
+    "finalChecks": 2,
+    "realUserSaveTouched": false
+  }
+}

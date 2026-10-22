@@ -1,0 +1,10 @@
+import {readFile,writeFile,copyFile} from 'node:fs/promises';
+const root='docs/source/desert-family-v1';
+const [id,kind]=process.argv.slice(2);
+const requests=JSON.parse(await readFile(`${root}/generation-requests.json`));
+const job=requests.find(r=>r.id===id);
+if(!job)throw Error('Unknown source');
+await copyFile(`${root}/${job.source}`,`${root}/${id}-original.png`);
+const prompt=`Use case: background-extraction. Remove ALL painted background, floor, shadows, gradient, glows and haze from this exact sprite sheet. Preserve ALL six complete horse-and-rider drawings unchanged, EXACT same native pixel size, position, grid, costume, horse proportions, all limbs, reins and held blade. This is a transparent game sprite asset, not a poster. Replace EVERY pixel outside the actual six subjects with alpha0, including holes between legs and under reins. Do not repaint a black/brown/checker background. Do not recolor characters, do not add outlines, do not resize, do not clip any hoof/tail/weapon. Deliver true RGBA with empty transparent space. ${kind??''}`;
+const file=`${id}.alpha-repair.prompt.txt`;await writeFile(`${root}/${file}`,prompt);
+console.log(JSON.stringify({...job,prompt:file,text:prompt,references:[`${root}/${job.source}`]}));

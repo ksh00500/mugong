@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-06",
+  "deployment": "local production preview at 127.0.0.1:5173",
+  "unit": {
+    "total": 1292,
+    "passed": 1292,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "typecheck": "passed",
+    "vite": "passed",
+    "modules": 183
+  },
+  "sourceBrowser": {
+    "passed": 9,
+    "failed": 0,
+    "port": 5182,
+    "output": "playwright-source",
+    "elapsedMinutes": 6.825252849999999
+  },
+  "productionBrowser": {
+    "passed": 3,
+    "failed": 0,
+    "port": 5173,
+    "output": "playwright-production",
+    "elapsedMinutes": 1.2798070166666664
+  },
+  "originals": 40,
+  "revisedOriginals": 15,
+  "nativeFrames": 240,
+  "independentUsedSourceFigures": 239,
+  "textures": 20,
+  "specialTimeSamples": 46848,
+  "specialContactSamples": 320,
+  "basicTimeSamples": 7840,
+  "basicContactSamples": 768,
+  "originalCopiesIdentical": true,
+  "distTexturesIdentical": true,
+  "userSaveModified": false
+}

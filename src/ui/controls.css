@@ -1,0 +1,119 @@
+/* Shared controls and reading roles. Screen owners retain layout and density. */
+.app-shell {
+  --surface-paper: #fff9eb;
+  --surface-soft: #f1e8d6;
+  --surface-hover: #f1f4e9;
+  --surface-selected: #e4eedf;
+  --surface-veil: #fff9ebcf;
+  --shadow-panel: 0 8px 24px #35281b26;
+  --shadow-control: 0 2px 5px #35281b18;
+  --shadow-selected: inset 0 0 0 2px var(--jade);
+  --icon-control: 22px;
+  --input-surface: #fff8e9;
+  --input-border: #a18a60;
+  --input-ink: #263b32;
+  --input-radius: 8px;
+  --control-height: 44px;
+  --disabled-surface: #e4dfd1;
+  --disabled-ink: #5f6257;
+  --copy-body: 17px;
+  --copy-small: 14px;
+}
+.app-shell :where(.dialog:not(.inventory-workspace):not(.warehouse-workspace)) {
+  background-color: var(--surface-paper);
+  background-image:
+    linear-gradient(var(--surface-veil), var(--surface-veil)), var(--painted-material);
+  background-size:
+    cover,
+    200% 200%;
+  border-color: var(--line);
+  box-shadow: var(--shadow-panel);
+  border-radius: var(--radius-panel);
+}
+.app-shell .ui-input {
+  min-width: 0;
+  min-height: var(--control-height);
+  padding: 8px 12px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--input-radius);
+  background: var(--input-surface);
+  color: var(--input-ink);
+  font: 400 var(--copy-body)/1.4 var(--font-ui);
+}
+.app-shell .ui-input::placeholder {
+  color: #6b705f;
+  opacity: 1;
+}
+.app-shell :where(button, input, select, textarea) {
+  font-family: var(--font-ui);
+}
+.app-shell :where(button, input, select, textarea):focus-visible {
+  outline: 3px solid var(--ui-focus, #24765f);
+  outline-offset: 3px;
+}
+.app-shell button:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
+.app-shell
+  :is(.item-actions, .recruitment-actions, .rest-market, .prep-stop, .save-recovery, .save-error)
+  button:disabled {
+  background: var(--disabled-surface);
+  background-image: none;
+  color: var(--disabled-ink);
+  border-color: #b1ac9b;
+  box-shadow: none;
+  text-shadow: none;
+}
+.app-shell .action-hint {
+  margin: 0;
+  color: #665d47;
+  font: 400 var(--copy-small)/1.4 var(--font-ui);
+  overflow-wrap: anywhere;
+}
+.app-shell .action-hint:empty {
+  display: none;
+}
+.app-shell .ui-number {
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.app-shell
+  :is(
+    .item-detail,
+    .warehouse-detail,
+    .quick-details,
+    .rest-market,
+    .prep-service-body,
+    .save-error,
+    .save-recovery
+  ) {
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.app-shell
+  :is(
+    .item-detail,
+    .warehouse-detail,
+    .quick-details,
+    .rest-market,
+    .prep-service-body,
+    .save-error,
+    .save-recovery
+  )
+  :is(p, dl, small) {
+  line-height: 1.45;
+}
+.app-shell[data-high-contrast='true'] {
+  --surface-paper: #fff9eb;
+  --surface-soft: #f4eddf;
+  --surface-hover: #edf3e7;
+  --surface-selected: #dcebd3;
+  --surface-veil: #fff9eb;
+  --line: #645237;
+  --input-surface: #fff9e9;
+  --input-border: #263b32;
+  --input-ink: #161f18;
+  --disabled-surface: #e8e4d8;
+  --disabled-ink: #3f483d;
+}

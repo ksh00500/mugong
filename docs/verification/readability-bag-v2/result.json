@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-29",
+  "build": "passed",
+  "unitTests": 30,
+  "localBrowserTests": 26,
+  "finalLayoutAndDragRegressionTests": 9,
+  "deployedBrowserTests": 8,
+  "requiredViewports": [
+    [1366, 768],
+    [1440, 900],
+    [1093, 614]
+  ],
+  "languages": ["ko", "en", "ja", "zh-CN", "zh-TW"],
+  "release": "20260929-readability-v2",
+  "archiveSha256": "603b87e59e2e7e62caf093be38b18c61cc4a5e1dd84233e3a90d8325c7ad9bbb",
+  "manualReview": [
+    "local lobby",
+    "local settings",
+    "deployed lobby",
+    "bag screenshots",
+    "growth screenshot",
+    "combat HUD screenshot"
+  ],
+  "storage": "Test states only in isolated Playwright browser contexts; actual user saves preserved",
+  "remoteTestAdjustment": "First Phaser module download exceeded the default 5-second UI assertion timeout once; remote assertions use a 20-second limit. Eight deployed tests subsequently passed."
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-06",
+  "playerVisualScale": 0.5,
+  "playerAppearances": 10,
+  "includesLegacyPlayer": true,
+  "comparedStates": 29568,
+  "baselineBrowserTestsPassed": 4,
+  "sizeBrowserTestsPassed": 4,
+  "unitTestsPassed": 1278,
+  "productionBuildPassed": true,
+  "initialPublicTestsPassed": 12,
+  "finalPublicTestsPassed": 7,
+  "deployedRegionCount": 10,
+  "verifiedRemoteManifestFiles": 588,
+  "release": "/srv/mugong/releases/20261006-player-size-v1",
+  "publicUrl": "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/",
+  "finalPublicViewports": [
+    "1366x768",
+    "1440x900",
+    "1093x614"
+  ],
+  "directVisualReview": [
+    "before-canvas-1.png",
+    "after-canvas-0.png",
+    "after-canvas-1.png",
+    "after-webgl-0.png",
+    "public/region-4.png",
+    "public/region-6.png",
+    "public/appearance-3-sword-attack.png",
+    "public/appearance-7-gauntlet-attack.png",
+    "public/appearance-9-dart-attack.png"
+  ],
+  "realUserSaveChanged": false,
+  "temporaryUploadsRemoved": true,
+  "priorReleasesPreserved": true,
+  "caveat": "Automated state comparison and sampled direct visual review are separate; not every frame was manually inspected."
+}

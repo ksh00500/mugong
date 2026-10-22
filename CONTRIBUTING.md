@@ -1,0 +1,27 @@
+# 개발·검증·원화 관리
+
+작업 전 [프로젝트 지침](AGENTS.md)과 [현재 상태](docs/project-status.md)를 확인한다. UI를 변경할 때는 DESIGN.md·UX.md·docs/reference/ui-ux-guides.md도 읽는다.
+
+## 시작
+
+Node.js 버전은 `.nvmrc`를 사용하고 `npm ci`로 시작한다. public 실행 미디어는 Git에 포함되며 Git LFS를 사용하지 않는다. 제작 원본은 외부 보관한다. [이미지 관리](docs/asset-management/README.md)와 [저장소 관리](docs/repository-guide.md)를 따른다.
+
+```sh
+npm run check:assets
+npm run typecheck
+npm test
+npm run build
+```
+
+브라우저 검사는 `npx playwright install chromium` 후 `npm run test:hosting`으로 실행한다. 테스트용 상태는 독립 브라우저 컨텍스트에서만 사용하며 실제 사용자 저장을 초기화하지 않는다. 실제 Nginx 검사는 [개인 서버 가이드](docs/self-hosting.md)를 따른다.
+
+## 변경 제출
+
+`codex/` 등 작업 브랜치에서 변경하고 PR에 목적·검증 결과·남은 제한을 적는다. 기존 main 이력을 유지한다. 기본 CI는 Git 미디어 SHA·목록·타입·소스 단위·전체 빌드이며 Docker/브라우저 검사는 별도 수동 실행이다. CI는 배포나 이미지 레지스트리 업로드를 하지 않는다.
+
+새 미디어를 추가하면 manifest를 갱신하고 public 실행 파일은 Git에 함께 추가한다. 제작 원본은 외부 묶음을 갱신한다. 커밋 전 `node scripts/audit-github-snapshot.mjs`로 누락·SHA·LFS/제작 미디어 오추적과 자격 정보 패턴을 점검한다. 이 검사는 완전한 비밀 탐지를 보장하지 않으므로 실제 저장/자격 정보·개인 노트 사본을 저장소에 추가하지 않는다.
+
+원화 생성·시안 선택·게임 적용·로컬 검증·공개 배포는 별개 상태로 기록한다. 완료한 변경의 기능 문서·검증 요약과 프로젝트 기억을 함께 갱신한다.
+## 원화 로딩 목록 갱신
+
+방향/특별 프레임 메타데이터를 바꾼 뒤에는 `npm run assets:art-index`로 지역·보스별 경로 인덱스를 갱신한다. `tests/loading-plan.test.ts`가 생성본과 원본 메타데이터,185보스 행동의 필요한 텍스처를 대조한다. 프레임 JSON 전체를 로비 코드에 다시 정적 import하지 않는다. [현재 로딩 구조](docs/loading-v2.md).

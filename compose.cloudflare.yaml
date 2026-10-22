@@ -1,0 +1,32 @@
+name: mugong-home
+services:
+  web:
+    image: mugong:${MUGONG_TAG:-home}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  tunnel:
+    image: "${CLOUDFLARED_IMAGE:-cloudflare/cloudflared@sha256:faa8e0a1475f137c910be6025f43c8e4092fdd35461b31e19fd1390657a1ff39}"
+    command: [tunnel, --no-autoupdate, run, --token-file, /run/secrets/tunnel_token]
+    secrets: [tunnel_token]
+    depends_on:
+      web: {condition: service_healthy}
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+secrets:
+  tunnel_token:
+    file: ${CLOUDFLARE_TOKEN_FILE:-./.secrets/cloudflared-token}

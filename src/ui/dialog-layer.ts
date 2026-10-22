@@ -1,0 +1,173 @@
+import { useLayoutEffect, useRef, type RefObject } from 'react';
+
+const layers: HTMLElement[] = [];
+const previousInert = new Map<HTMLElement, boolean>();
+let previousOverflow = '';
+let cancelPendingReturn = () => {};
+
+function updateLayers() {
+  for (const [element, inert] of previousInert) element.inert = inert;
+  previousInert.clear();
+  const top = layers.at(-1);
+  if (!top) return;
+  // Follow the active dialog's ancestors, so nested lobby dialogs do not inert themselves.
+  for (let branch: HTMLElement = top; branch.parentElement; branch = branch.parentElement) {
+    for (const sibling of branch.parentElement.children) {
+      if (!(sibling instanceof HTMLElement) || sibling === branch) continue;
+      previousInert.set(sibling, sibling.inert);
+      sibling.inert = true;
+    }
+    if (branch.parentElement === document.body) break;
+  }
+}
+
+export function isTopDialog(element: HTMLElement | null) {
+  return layers.at(-1) === element;
+}
+
+/** Share modal isolation across regular dialogs, growth choices and discard confirmations. */
+export function useDialogLayer(
+  ref: RefObject<HTMLElement | null>,
+  returnFocusTo?: HTMLElement | null,
+) {
+  const previous = useRef(returnFocusTo ?? (document.activeElement as HTMLElement | null));
+  useLayoutEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+    cancelPendingReturn();
+    if (!layers.length) {
+      previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+    }
+    layers.push(element);
+    updateLayers();
+    const visibleControls = () =>
+      Array.from(
+        element.querySelectorAll<HTMLElement>(
+          'input:not(:disabled),select:not(:disabled),button:not(:disabled)',
+        ),
+      ).filter(
+        (control) => control.getClientRects().length && !control.closest('[inert],[hidden]'),
+      );
+    const first =
+      visibleControls().find((control) => control.matches('input,select')) ?? visibleControls()[0];
+    (first ?? element).focus();
+    let recoveryFrame = 0;
+    const recoverFocus = () => {
+      if (recoveryFrame) return;
+      // A focusout tooltip unmount can be observed while native Tab focus is on body.
+      // Let that focus transition finish before deciding that recovery is necessary.
+      recoveryFrame = requestAnimationFrame(() => {
+        recoveryFrame = 0;
+        if (!isTopDialog(element)) return;
+        const focused = document.activeElement as HTMLElement | null;
+        if (
+          !focused ||
+          !element.contains(focused) ||
+          !focused.getClientRects().length ||
+          focused.closest('[inert],[hidden]') ||
+          focused.matches(':disabled')
+        )
+          (visibleControls()[0] ?? element).focus();
+      });
+    };
+    const observer = new MutationObserver(recoverFocus);
+    observer.observe(element, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: [
+        'disabled',
+        'hidden',
+        'class',
+        'data-pane',
+        'data-compact',
+        'data-mobile-tab',
+        'data-active',
+      ],
+    });
+    window.addEventListener('resize', recoverFocus);
+    // Loading can replace a background branch after a dialog has already opened.
+    // Isolate the new sibling too, without reacting to text updates inside the HUD.
+    const isolation = new MutationObserver((records) => {
+      if (
+        isTopDialog(element) &&
+        records.some(
+          (record) =>
+            record.target instanceof HTMLElement &&
+            record.target.contains(element) &&
+            [...record.addedNodes, ...record.removedNodes].some(
+              (node) => node instanceof HTMLElement,
+            ),
+        )
+      )
+        updateLayers();
+    });
+    isolation.observe(document.body, { childList: true, subtree: true });
+    return () => {
+      cancelAnimationFrame(recoveryFrame);
+      isolation.disconnect();
+      observer.disconnect();
+      window.removeEventListener('resize', recoverFocus);
+      const index = layers.indexOf(element);
+      if (index >= 0) layers.splice(index, 1);
+      updateLayers();
+      if (!layers.length) document.body.style.overflow = previousOverflow;
+      // React may reveal the opener later in this same commit (for example a field banner).
+      queueMicrotask(() => {
+        const target = previous.current;
+        if (
+          target?.isConnected &&
+          target.getClientRects().length &&
+          target.matches('button,input,select,textarea,a[href],[tabindex]') &&
+          !target.closest('[inert],[hidden]') &&
+          !target.matches(':disabled')
+        )
+          target.focus();
+        else {
+          const fallback =
+            layers.at(-1) ??
+            target?.closest('main') ??
+            document.querySelector<HTMLElement>('main.field-shell');
+          const control = Array.from(
+            fallback?.querySelectorAll<HTMLElement>('button:not(:disabled)') ?? [],
+          ).find((button) => button.getClientRects().length && !button.closest('[inert],[hidden]'));
+          (control ?? fallback)?.focus();
+          // Closing a bag can beat its opening save. The opener is still disabled
+          // for that commit; return when it becomes available without stealing a
+          // subsequent user focus change or retaining a removed opener.
+          if (target?.isConnected && target.matches(':disabled')) {
+            const interim = document.activeElement;
+            const cancel = () => {
+              waiting.disconnect();
+              document.removeEventListener('focusin', moved);
+              if (cancelPendingReturn === cancel) cancelPendingReturn = () => {};
+            };
+            const moved = () => {
+              if (document.activeElement !== interim) cancel();
+            };
+            const waiting = new MutationObserver(() => {
+              if (!target.isConnected || layers.length) return cancel();
+              if (target.matches(':disabled')) return;
+              cancel();
+              if (
+                document.activeElement === interim &&
+                target.getClientRects().length &&
+                !target.closest('[inert],[hidden]')
+              )
+                target.focus();
+            });
+            waiting.observe(document.body, {
+              childList: true,
+              subtree: true,
+              attributes: true,
+              attributeFilter: ['disabled'],
+            });
+            document.addEventListener('focusin', moved);
+            cancelPendingReturn = cancel;
+          }
+        }
+      });
+    };
+  }, [ref]);
+}

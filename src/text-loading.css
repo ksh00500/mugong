@@ -1,0 +1,188 @@
+/* Large type is retained; wrapping and surface contrast provide reading space. */
+.app-shell {
+  --text-main: #263b32;
+  --text-secondary: #4c5d50;
+  font-kerning: normal;
+}
+.app-shell :is(h1, h2, h3, h4, .player-name b, .inventory-name) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+.app-shell :is(p, .item-detail dd, .home-roster-list small, .loading-hint) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+.app-shell
+  :is(
+    .health-line,
+    .xp-line,
+    .choice-level,
+    .bag-usage-numbers,
+    .bag-dimensions,
+    .item-detail dl,
+    .item-pagination,
+    .roster-pagination,
+    .loading-count,
+    .home-count,
+    .growth-pages
+  ) {
+  font-variant-numeric: tabular-nums;
+}
+.app-shell :is(.item-detail p, .home-fighter-detail, .screen-settings > p, .home-empty-roster p) {
+  color: var(--text-secondary);
+}
+.app-shell .inventory-status {
+  align-items: start;
+  color: var(--text-main);
+  background: #fff9ebeb;
+}
+.app-shell .inventory-status > span:first-child {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+.app-shell .placement-feedback {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  padding: 6px 8px;
+  color: #263b32;
+  background: #fff9ebf2;
+  font-size: 18px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+.art-reading {
+  overflow-y: auto;
+  min-height: 0;
+  padding: 20px 24px;
+  font-size: 21px;
+  line-height: 1.65;
+  background: #fff9ebf2;
+}
+.art-reading article + article {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #b39b68;
+}
+.art-reading header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.art-reading .art-glyph {
+  width: 60px;
+  height: 60px;
+}
+.art-reading h3 {
+  margin: 0;
+  font-size: 27px;
+}
+.art-reading p {
+  margin: 12px 0 0;
+}
+.app-shell .asset-loading {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background: #eee5d2;
+  color: #263b32;
+}
+.game-frame > .asset-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  min-height: 0;
+}
+.loading-card {
+  width: min(720px, 100%);
+  padding: 32px;
+  border: 1px solid #b8a478;
+  border-radius: 18px;
+  background: #fff9eb;
+  text-align: center;
+  box-shadow: 0 8px 32px #2c382e16;
+}
+.app-shell .loading-brand {
+  font: 700 72px/1.35 var(--font-display);
+  letter-spacing: 0.02em;
+}
+.loading-card h2 {
+  margin: 20px 0 12px;
+  font-size: 36px;
+  line-height: 1.4;
+}
+.loading-card p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 0 0 24px;
+  color: #4c5d50;
+}
+.loading-progress {
+  height: 14px;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #e0e4d7;
+}
+.loading-progress i {
+  display: block;
+  height: 100%;
+  background: #315548;
+  border-radius: inherit;
+}
+.loading-count {
+  margin-top: 12px;
+  font-size: 21px;
+}
+.loading-hint {
+  display: block;
+  margin-top: 18px;
+  min-height: 54px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #4c5d50;
+}
+.loading-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.loading-actions button {
+  padding: 10px 16px;
+  font-size: 21px;
+}
+/* The recovery screen remains usable even if painted interface files are unavailable. */
+.app-shell[data-art-fallback='true'] {
+  --painted-material: none;
+}
+.app-shell[data-art-fallback='true'] .home-scene {
+  background: #eee5d2;
+}
+@media (max-width: 1200px) {
+  .app-shell .inventory-status > span:last-child {
+    display: none;
+  }
+}
+@media (max-width: 600px), (max-height: 620px) {
+  .app-shell .asset-loading {
+    padding: 16px;
+  }
+  .loading-card {
+    padding: 20px;
+  }
+  .loading-card h2 {
+    margin-top: 12px;
+  }
+  .loading-card p {
+    margin-bottom: 16px;
+  }
+}

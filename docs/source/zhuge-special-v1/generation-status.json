@@ -1,0 +1,1293 @@
+{
+  "date": "2026-10-08",
+  "status": "draft artwork and local comparison; pending art corrections and runtime installation",
+  "mainSources": 40,
+  "repairAttempts": [
+    {
+      "id": "yanggi-right-sweep",
+      "poses": [
+        3
+      ],
+      "issue": "extra short wooden belt object added in follow-through, not in reference",
+      "source": "yanggi-right-sweep-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0dcb02c2-7b83-47ec-8d6f-6240d655ad6c.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: extra short wooden belt object added in follow-through, not in reference. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-right-sweep-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "yanggi-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "staff floats and command hand is opposite ownership; LEFT must visibly hold shaft, RIGHT empty",
+      "source": "yanggi-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-39810818-451b-4bbd-9f23-612c12135d2c.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2,3. Specific defect: staff floats and command hand is opposite ownership; LEFT must visibly hold shaft, RIGHT empty. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "yanggi-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "old staff butt remains at left rear hip alongside vertical staff; remove duplicate shaft, show left support grip",
+      "source": "yanggi-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-449ff78b-aaf8-4495-b04f-a69f74b780b3.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: old staff butt remains at left rear hip alongside vertical staff; remove duplicate shaft, show left support grip. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-front-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "crossbow remains side-on despite frontal shot; one forward-stock, horizontal single bow and taut string aim at viewer",
+      "source": "mukyeon-front-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3ec65999-06de-4e05-9a8f-c3cd227749e2.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: crossbow remains side-on despite frontal shot; one forward-stock, horizontal single bow and taut string aim at viewer. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-front-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "aim straight right instead of forward-right; retain identifiable bow arms and string",
+      "source": "mukyeon-front-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-024b1fc0-c445-4ff3-b4cc-caeaee4789c3.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: aim straight right instead of forward-right; retain identifiable bow arms and string. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-front-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "swap back to anatomical RIGHT hand trigger retains crossbow, LEFT signals; do not add third hand",
+      "source": "mukyeon-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ef9d4cde-88fd-42b5-86cf-d11387519c9b.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: swap back to anatomical RIGHT hand trigger retains crossbow, LEFT signals; do not add third hand. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-back-stance",
+      "poses": [
+        1,
+        2
+      ],
+      "issue": "anatomical RIGHT hand should hold crossbow at right hip, LEFT on screen left signals; currently reversed; top head object is reference quiver leave it",
+      "source": "mukyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5f4bf380-fb64-49cf-bb52-b64e6b1a5067.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2. Specific defect: anatomical RIGHT hand should hold crossbow at right hip, LEFT on screen left signals; currently reversed; top head object is reference quiver leave it. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "front dash aims horizontally to right instead of TOWARD VIEWER, spear clip at right canvas edge pose3; foreshorten shaft forward, maintain frontal skull torso view",
+      "source": "jingwal-front-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f302fd1b-49b3-4b4d-aa55-65dd5086c2e6.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: front dash aims horizontally to right instead of TOWARD VIEWER, spear clip at right canvas edge pose3; foreshorten shaft forward, maintain frontal skull torso view. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "attack turns opposite the native ready facing; keep face chest hips forward-right matching intended direction throughout, use downward-right foreshortening",
+      "source": "jingwal-front-right-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d39f7a2d-faec-4eca-8691-fa4f134c4415.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: attack turns opposite the native ready facing; keep face chest hips forward-right matching intended direction throughout, use downward-right foreshortening. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-right-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-35a2fba1-168d-4337-8f5b-969a1fddcb74.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e2bdc65e-2ba3-4aca-9a28-34c37406678d.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "pose1 shaft near edge, pose2 spear floats while LEFT empty signals; LEFT must grasp grounded shaft outside left hip, RIGHT empty signals, preserve command in pose3",
+      "source": "jingwal-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-d53e3554-9f34-4ab1-b17c-dbcabb421a3a.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: pose1 shaft near edge, pose2 spear floats while LEFT empty signals; LEFT must grasp grounded shaft outside left hip, RIGHT empty signals, preserve command in pose3. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "old diagonal shaft butt remains at rear hip while new vertical spear floats. Only ONE spear, LEFT central grip attached, RIGHT signals; no old gold butt behind belt",
+      "source": "jingwal-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a055e545-1482-4f6e-9124-ced1677596f5.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: old diagonal shaft butt remains at rear hip while new vertical spear floats. Only ONE spear, LEFT central grip attached, RIGHT signals; no old gold butt behind belt. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-back-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "thrust aims right instead of AWAY toward screen top; maintain back view and foreshorten wood shaft; spear tip ahead above head, not side",
+      "source": "jingwal-back-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b226f311-41b9-448a-b766-5aa770d3618f.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: thrust aims right instead of AWAY toward screen top; maintain back view and foreshorten wood shaft; spear tip ahead above head, not side. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-back-dash-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-back-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "wrong supporting hand, pose2 floating spear; LEFT on screen left clearly holds single spear, RIGHT on screen right signals",
+      "source": "jingwal-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4206eadf-8ec7-49e8-ae46-b07357bfb838.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: wrong supporting hand, pose2 floating spear; LEFT on screen left clearly holds single spear, RIGHT on screen right signals. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        2
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "poses": [
+        2
+      ],
+      "issue": "fan switches to far LEFT hand; keep near RIGHT elbow/wrist gold fan grip, LEFT empty counterbalance",
+      "source": "zhugehyeon-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f7350c9c-5e50-4542-bdc1-8866408603d5.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2. Specific defect: fan switches to far LEFT hand; keep near RIGHT elbow/wrist gold fan grip, LEFT empty counterbalance. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "zhugehyeon-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "poses": [
+        1
+      ],
+      "issue": "load switches fan to far LEFT; raise same near anatomical RIGHT sleeve elbow to rear shoulder, LEFT empty forward",
+      "source": "zhugehyeon-rear-right-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bdd399c4-af99-407e-aa50-be175bdc99cf.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1. Specific defect: load switches fan to far LEFT; raise same near anatomical RIGHT sleeve elbow to rear shoulder, LEFT empty forward. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "zhugehyeon-rear-right-fan-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "poses": [
+        2
+      ],
+      "issue": "near anatomical RIGHT hand points down empty while fan floats at far chest; RIGHT near sleeve must hold hub near chest, far LEFT empty hand signals down",
+      "source": "zhugehyeon-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-adfdf6f9-dcdc-4804-bed1-f5654659950f.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2. Specific defect: near anatomical RIGHT hand points down empty while fan floats at far chest; RIGHT near sleeve must hold hub near chest, far LEFT empty hand signals down. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "zhugehyeon-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-back-stance",
+      "poses": [
+        2
+      ],
+      "issue": "empty signaling hand on right is duplicate fan-hand; LEFT on screen left signals toward north ground, RIGHT remains fan holder",
+      "source": "zhugehyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-90984c56-2c14-4ff2-9cb3-6fb19307e982.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2. Specific defect: empty signaling hand on right is duplicate fan-hand; LEFT on screen left signals toward north ground, RIGHT remains fan holder. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "zhugehyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        2
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "yanggi-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "Use FAR arm on actor's other side to hold vertical staff visibly. Foreground silver sleeve/near arm extends EMPTY palm rightward. Remove previous foreground grip. Only one hand gripping shaft. Main top-right pose1 establishes far staff support; maintain same identity/scale.",
+      "source": "yanggi-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9cc03d13-dab9-4471-a4f1-250942a4b59e.png",
+      "prompt": "Edit only indices 2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Use FAR arm on actor's other side to hold vertical staff visibly. Foreground silver sleeve/near arm extends EMPTY palm rightward. Remove previous foreground grip. Only one hand gripping shaft. Main top-right pose1 establishes far staff support; maintain same identity/scale.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "yanggi-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Body face and crossbow must aim down-right 45 degrees toward camera, not horizontal EAST. Rotate wood STOCK so firing end is LOWER-RIGHT closer to camera; rear stock at upper-left by trigger. Brass-tipped BOW ARMS project diagonally across front of stock, one near lower-left, far upper-right; taut thin string connecting two tips with stock centered. It must visibly read as a crossbow bow, no barrel. RIGHT trigger near-side sleeve, LEFT underneath stock.",
+      "source": "mukyeon-front-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-fc8007ec-0be0-4a72-8381-c327e6fba40e.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Body face and crossbow must aim down-right 45 degrees toward camera, not horizontal EAST. Rotate wood STOCK so firing end is LOWER-RIGHT closer to camera; rear stock at upper-left by trigger. Brass-tipped BOW ARMS project diagonally across front of stock, one near lower-left, far upper-right; taut thin string connecting two tips with stock centered. It must visibly read as a crossbow bow, no barrel. RIGHT trigger near-side sleeve, LEFT underneath stock.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "mukyeon-front-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "Foreground arm with large gold shoulder plate is RIGHT: bend that elbow down and keep hand on crossbow REAR TRIGGER at right hip. Move wooden/brass crossbow back to this near-side grip. The FAR arm from other shoulder is LEFT: extend that far hand EMPTY downward-forward. Foreground arm cannot be signaling.",
+      "source": "mukyeon-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5c752422-573d-4dc0-a966-0981cf693ed0.png",
+      "prompt": "Edit only indices 2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Foreground arm with large gold shoulder plate is RIGHT: bend that elbow down and keep hand on crossbow REAR TRIGGER at right hip. Move wooden/brass crossbow back to this near-side grip. The FAR arm from other shoulder is LEFT: extend that far hand EMPTY downward-forward. Foreground arm cannot be signaling.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "mukyeon-rear-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "SOUTHEAST forward-down-right thrust. Face chest hips oriented down-right together, spear projects toward camera with tip LOW-RIGHT below gripping hands, shortened shaft in perspective. Do NOT horizontal right thrust. Preserve physical head/armor/body size and full spear tips margin. Camera three-quarter front RIGHT visible.",
+      "source": "jingwal-front-right-dash-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c63241ae-53c8-469c-a408-feeb6341a65e.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: SOUTHEAST forward-down-right thrust. Face chest hips oriented down-right together, spear projects toward camera with tip LOW-RIGHT below gripping hands, shortened shaft in perspective. Do NOT horizontal right thrust. Preserve physical head/armor/body size and full spear tips margin. Camera three-quarter front RIGHT visible.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "jingwal-front-right-dash-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Hold ONE single spear upright with FAR arm (LEFT) visibly wrapped around wood center. Near foreground arm (RIGHT silver/gold bracer) extends EMPTY palm rightward. The spear is behind near arm but in front of far shoulder, shaft appears in continuous straight line outside head. Gold butt ground beside far boot. Repeat same hand ownership in all3 command frames; NO earlier recovery at3.",
+      "source": "jingwal-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-246e85a8-b627-45e0-bb8c-888c01b83ff6.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Hold ONE single spear upright with FAR arm (LEFT) visibly wrapped around wood center. Near foreground arm (RIGHT silver/gold bracer) extends EMPTY palm rightward. The spear is behind near arm but in front of far shoulder, shaft appears in continuous straight line outside head. Gold butt ground beside far boot. Repeat same hand ownership in all3 command frames; NO earlier recovery at3.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "jingwal-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        1,
+        2,
+        3
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-back-stance",
+      "poses": [
+        1,
+        3
+      ],
+      "issue": "Match MIDDLE LEFT pose2: shaft on screen LEFT, actor LEFT hand screenleft grips spear. RIGHT hand on screen RIGHT empty command. Top-right load RIGHT fist beside chest; middle-right RIGHT empty palm extends forward. Do not swap staff to screenright. Other figures unchanged.",
+      "source": "jingwal-back-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-552f078d-6665-4033-a38e-c0d3f6f49a51.png",
+      "prompt": "Edit only indices 1,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Match MIDDLE LEFT pose2: shaft on screen LEFT, actor LEFT hand screenleft grips spear. RIGHT hand on screen RIGHT empty command. Top-right load RIGHT fist beside chest; middle-right RIGHT empty palm extends forward. Do not swap staff to screenright. Other figures unchanged.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "jingwal-back-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "poses": [
+        2
+      ],
+      "issue": "Foreground sleeve closest to viewer, flowing from screen-left shoulder, is RIGHT arm: extend THIS sleeve and right hand forward holding gold feather-fan hub. The OTHER far arm stays empty, palm for balance behind/in front of torso. Remove the current near-side empty palm, and move fan from far arm into near arm. Same stance/body/skull/native size.",
+      "source": "zhugehyeon-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3774015a-602c-4676-82f0-71cfbf2da9c3.png",
+      "prompt": "Edit only indices 2 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Foreground sleeve closest to viewer, flowing from screen-left shoulder, is RIGHT arm: extend THIS sleeve and right hand forward holding gold feather-fan hub. The OTHER far arm stays empty, palm for balance behind/in front of torso. Remove the current near-side empty palm, and move fan from far arm into near arm. Same stance/body/skull/native size.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "zhugehyeon-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [
+        2
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "poses": [
+        1
+      ],
+      "issue": "Foreground embroidered blue sleeve closest to viewer from RIGHT shoulder raises fan by hub beside SAME right shoulder with elbow bent, not far arm behind hair. Far LEFT arm reaches forward empty. Remove existing foreground empty extended hand and far fan grip. Only two arms.",
+      "source": "zhugehyeon-rear-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-20060c57-a47d-4c71-96bc-9da53b0af4a9.png",
+      "prompt": "Edit only indices 1 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Foreground embroidered blue sleeve closest to viewer from RIGHT shoulder raises fan by hub beside SAME right shoulder with elbow bent, not far arm behind hair. Far LEFT arm reaches forward empty. Remove existing foreground empty extended hand and far fan grip. Only two arms.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "zhugehyeon-rear-right-fan-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "poses": [
+        2
+      ],
+      "issue": "Near foreground embroidered blue sleeve/RIGHT arm bends at chest and clearly grips feather fan gold hub. Far LEFT sleeve extends EMPTY palm downward-forward (may partly occlude behind near sleeve). Remove near right empty pointing hand. Fan never floats, fan never transfers to far hand.",
+      "source": "zhugehyeon-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a2a7a14d-3a2a-4e0f-ac11-e5160ff4eb82.png",
+      "prompt": "Edit only indices 2 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Near foreground embroidered blue sleeve/RIGHT arm bends at chest and clearly grips feather fan gold hub. Far LEFT sleeve extends EMPTY palm downward-forward (may partly occlude behind near sleeve). Remove near right empty pointing hand. Fan never floats, fan never transfers to far hand.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "zhugehyeon-rear-right-stance-repair-v2.prompt.txt",
+      "accepted": false,
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "yanggi-right-stance",
+      "source": "correction-v2/yanggi-right-stance-v3.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-77077d5d-c25b-4f1a-af0e-dadcd240466f.png",
+      "promptFile": "correction-v2/yanggi-right-stance-v3.prompt.txt",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "봉 지지와 빈손 명령 동작을 분리. 기본 기준판과 크기가 가까워졌으나 전체 신체 치수 최종 승인 전.",
+      "prompt": "Use case: identity-preserve. EDIT TARGET image1 six identical READY slots on1086x1448 canvas. image2 individual READY native-size reference. Produce same transparent 2columns3rows canvas at same resolution. SIX figures row-major0/1,2/3,4/5. IMPORTANT keep EACH skull, shoulder plates, torso, boots same pixel dimensions as reference and guide; don't enlarge to fill cells. READY height336px. Body must not zoom during casting. Leave0 and5 identical READY. CHANGE ONLY1,2,3,4 to stone-gate command. Weapon retained in anatomical LEFT hand (FAR arm when facing EAST right), RIGHT NEAR arm signals empty. To prevent wrong hand: wood staff stays BEHIND/far side of torso, toward REAR LEFT on page, plain gold butt grounded beside rear heel. Far support hand emerging from FAR shoulder grips that rear staff; NEAR silver shoulder/forearm arm reaches across front of chest toward screen RIGHT as EMPTY command palm. No near hand attached to staff. 1 far hand settles vertical staff behind body, near hand withdraws empty at chest. 2 near EMPTY palm extends FORWARD right; far staff unchanged behind. 3 hold exactly same two arm ownership with small lower palm. 4 near arm retracts and rejoins staff at original two-hand diagonal grip. No extra arms or old diagonal staff butt. Head eyes torso pelvis feet all EAST. Same original brown topknot/beard, blue tunic, SILVER armour (not gold), single brown wooden staff with gold butt only. Neutral same lighting, transparent alphaZERO, no halo/glow/no effects. At least32px space every figure from canvas and other figures. If long weapon crowded, foreshorten/rotate weapon; never shrink actor. Preserve guide positions and pixel size, don't fill blank spaces. Goal stable measured scale + coherent LEFT-support/RIGHT-command throughout.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "view": "rear-right",
+      "actor": "mukyeon",
+      "story": "BACK-RIGHT northeast camera, head/body facing AWAY and RIGHT. Goggles topknot navy robe BRASS armour with cylinders. ONE wooden/brass crossbow in anatomical RIGHT hand at TRIGGER. Near foreground RIGHT arm with gold shoulder is permanently lowered curved to crossbow trigger at right hip. Far LEFT empty arm reaches upward alongside far shoulder then downward command. Critical1/2/3 RIGHT near hand stays DOWN on the crossbow; NEVER raise near foreground arm to command. Command palm belongs far arm starting at upper-left back shoulder. Crossbow solid supported RIGHT, no floating weapon. 1empty farLEFT palm slightly raised;2farLEFT palm signals,3same hold,4both original grips; guide0/5 unchanged. Native READY height326px.",
+      "source": "correction-v2/mukyeon-rear-right-stance-v3.png",
+      "promptFile": "correction-v2/mukyeon-rear-right-stance-v3.prompt.txt",
+      "guide": "correction-v2/mukyeon-rear-right-guide.png",
+      "reference": "references/mukyeon-rear-right.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. BACK-RIGHT northeast camera, head/body facing AWAY and RIGHT. Goggles topknot navy robe BRASS armour with cylinders. ONE wooden/brass crossbow in anatomical RIGHT hand at TRIGGER. Near foreground RIGHT arm with gold shoulder is permanently lowered curved to crossbow trigger at right hip. Far LEFT empty arm reaches upward alongside far shoulder then downward command. Critical1/2/3 RIGHT near hand stays DOWN on the crossbow; NEVER raise near foreground arm to command. Command palm belongs far arm starting at upper-left back shoulder. Crossbow solid supported RIGHT, no floating weapon. 1empty farLEFT palm slightly raised;2farLEFT palm signals,3same hold,4both original grips; guide0/5 unchanged. Native READY height326px.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-37cf7450-0357-4751-9d71-bfacc59c0dac.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3는 쇠뇌를 낮게 유지한 채 반대쪽 빈손으로 지시. 몸 확대 잔여. v4 판정/후속에는 지시 팔 소유가 다시 바뀌어 미채택.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-right-stance",
+      "view": "right",
+      "actor": "jingwal",
+      "story": "EAST true side right-facing. Beard brown topknot GOLD armour blue/whitecloth. ONE long straight wooden SPEAR with gold silver blade blue tassel. Support left FAR hand puts spear BEHIND torso on REAR LEFT edge of figure with butt at rear heel. Near RIGHT gold arm permanently EMPTY extends forward screenRIGHT. Critical near RIGHT hand never touches spear; FAR shoulder support arm reaches behind to pole at rear hip.1transfer spear to FAR LEFTbehind, nearRIGHTemptyat chest;2nearRIGHTemptycommand forward;3same ownership;4two-hand originalguard;0/5 guide READY unchanged. Fully visible blade/ferrule in own cell; tip can rise beside rear head not above canvas. Native READY height334px.",
+      "source": "correction-v2/jingwal-right-stance-v3.png",
+      "promptFile": "correction-v2/jingwal-right-stance-v3.prompt.txt",
+      "guide": "correction-v2/jingwal-right-guide.png",
+      "reference": "references/jingwal-right.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EAST true side right-facing. Beard brown topknot GOLD armour blue/whitecloth. ONE long straight wooden SPEAR with gold silver blade blue tassel. Support left FAR hand puts spear BEHIND torso on REAR LEFT edge of figure with butt at rear heel. Near RIGHT gold arm permanently EMPTY extends forward screenRIGHT. Critical near RIGHT hand never touches spear; FAR shoulder support arm reaches behind to pole at rear hip.1transfer spear to FAR LEFTbehind, nearRIGHTemptyat chest;2nearRIGHTemptycommand forward;3same ownership;4two-hand originalguard;0/5 guide READY unchanged. Fully visible blade/ferrule in own cell; tip can rise beside rear head not above canvas. Native READY height334px.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-189261b4-6df8-4660-a8b7-f89705daefea.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "측면 지지/명령 팔 연결은 연속적이나 원래 LEFT 지지 계획과 반대. 시안으로만 선택.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-back-stance",
+      "view": "back",
+      "actor": "jingwal",
+      "story": "NORTH BACK camera, back faces viewer head eyes away. GOLD armour topknot.1/2/3 SAME pole on SCREEN LEFT held by SCREEN LEFT hand(anatomical LEFT). SCREEN RIGHT empty palm commands above right shoulder then down-forward, never touches spear. Spear shaft entirely screenLEFT body, butt beside LEFT boot. Only ONE spear blue tassel/blade. NO spear at screenRIGHT afterprepare.0/5originaldiagonalready,4returntwohand original. Physical body dimensions SAME as guide, head/boots not zoom. READY342px.",
+      "source": "correction-v2/jingwal-back-stance-v3.png",
+      "promptFile": "correction-v2/jingwal-back-stance-v3.prompt.txt",
+      "guide": "correction-v2/jingwal-back-guide.png",
+      "reference": "references/jingwal-back.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. NORTH BACK camera, back faces viewer head eyes away. GOLD armour topknot.1/2/3 SAME pole on SCREEN LEFT held by SCREEN LEFT hand(anatomical LEFT). SCREEN RIGHT empty palm commands above right shoulder then down-forward, never touches spear. Spear shaft entirely screenLEFT body, butt beside LEFT boot. Only ONE spear blue tassel/blade. NO spear at screenRIGHT afterprepare.0/5originaldiagonalready,4returntwohand original. Physical body dimensions SAME as guide, head/boots not zoom. READY342px.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-93d145c2-f29a-42ad-939a-66bae0c606a5.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "후면 LEFT 창 지지/RIGHT 빈손 지시가 준비·판정·후속에서 이어짐.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "view": "rear-right",
+      "actor": "zhugehyeon",
+      "story": "NORTHEAST BACK-RIGHT away and right. White topknot/beard blue robe silver shoulders ONE black-tipped WHITE feather fan with gold hub. ALWAYS NEAR anatomicalRIGHT hand: foreground sleeve decorated white embroidery. FarLEFThand staysEMPTY.1load fan beside NEAR RIGHT shoulder IN FRONT of chest, just ABOVE near RIGHT elbow, do NOT raise fan behind head in FAR/upperLEFT hand.2nearRIGHTsleeve/hand extend FAN towardscreenRIGHT shoulderheight, farLEFT empty balances behind on screenLEFT.3sameownership slightforwardfollow.4retract nearRIGHT fan to originalchest.0/5guideexact. Two arms, same340-ish native dimensions(350px). NO new colored glow or trails.",
+      "source": "correction-v2/zhugehyeon-rear-right-fan-v3.png",
+      "promptFile": "correction-v2/zhugehyeon-rear-right-fan-v3.prompt.txt",
+      "guide": "correction-v2/zhugehyeon-rear-right-guide.png",
+      "reference": "references/zhugehyeon-rear-right.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. NORTHEAST BACK-RIGHT away and right. White topknot/beard blue robe silver shoulders ONE black-tipped WHITE feather fan with gold hub. ALWAYS NEAR anatomicalRIGHT hand: foreground sleeve decorated white embroidery. FarLEFThand staysEMPTY.1load fan beside NEAR RIGHT shoulder IN FRONT of chest, just ABOVE near RIGHT elbow, do NOT raise fan behind head in FAR/upperLEFT hand.2nearRIGHTsleeve/hand extend FAN towardscreenRIGHT shoulderheight, farLEFT empty balances behind on screenLEFT.3sameownership slightforwardfollow.4retract nearRIGHT fan to originalchest.0/5guideexact. Two arms, same340-ish native dimensions(350px). NO new colored glow or trails.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-25d48231-5529-470a-b673-eb44501f0fca.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "힘 싣기만 선택. 새 판정/후속은 너무 일찍 회수하여 미채택.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        1
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "view": "rear-right",
+      "actor": "zhugehyeon",
+      "story": "NORTHEAST BACK-RIGHT. White hair/beard bluewhite robe silver shoulders. ONE WHITE black-tipped feather fan. KEEP NEAR foregroundRIGHT arm, white embroidered sleeve, holding gold hub steady at chest in ALL6poses. Only empty FAR LEFT hand commands: connected to FAR shoulder behind torso, visible LEFT sleeve reaches below fan hand toward downforward ground. NEAR RIGHT hand never opens empty or releases fan. Separate recognizable LEFT empty palm BELOW nearRIGHT fan grip, only2arms.1slight left handraise below fan,2leftpalm opens towardgroundbelow fan,3same briefcommand,4left withdraws;0/5sameREADY. Head/skull/torso boots sameguide; nativeheight350px.",
+      "source": "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+      "promptFile": "correction-v2/zhugehyeon-rear-right-stance-v3.prompt.txt",
+      "guide": "correction-v2/zhugehyeon-rear-right-guide.png",
+      "reference": "references/zhugehyeon-rear-right.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. NORTHEAST BACK-RIGHT. White hair/beard bluewhite robe silver shoulders. ONE WHITE black-tipped feather fan. KEEP NEAR foregroundRIGHT arm, white embroidered sleeve, holding gold hub steady at chest in ALL6poses. Only empty FAR LEFT hand commands: connected to FAR shoulder behind torso, visible LEFT sleeve reaches below fan hand toward downforward ground. NEAR RIGHT hand never opens empty or releases fan. Separate recognizable LEFT empty palm BELOW nearRIGHT fan grip, only2arms.1slight left handraise below fan,2leftpalm opens towardgroundbelow fan,3same briefcommand,4left withdraws;0/5sameREADY. Head/skull/torso boots sameguide; nativeheight350px.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0a15cec9-afb8-4067-a26b-df96fa3b99b9.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "가까운 팔의 부채와 먼 빈손 신호를 구분.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "actor": "mukyeon",
+      "view": "front-right",
+      "guide": "correction-v2/mukyeon-front-right-guide.png",
+      "reference": "references/mukyeon-front-right.png",
+      "source": "correction-v2/mukyeon-front-right-fan-v3.png",
+      "promptFile": "correction-v2/mukyeon-front-right-fan-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:youngmale darkbrown topknot andbronze goggles, navy robe bronze shoulderplates, one wood/brass CROSSBOW, cylinders/quiver onback. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:Repeating CROSSBOW shoot:0READY bothgrips,1raise crossbow toward southeastDOWNRIGHT,2smallrecoiltriggerfire,3settledsameaim,4lowerready,5READY. RIGHTnear trigger grip, LEFTfarunderstock support, one intact woodbrass crossbow withvisiblebowarms/string, no gun/barrel. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-556a6a0f-03ee-4661-b20c-20a3a928d9ed.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 여섯 자세를 화면 오른쪽 앞사선으로 수정. 기존 기본 모션 방향은 별도 미교정.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-front-right-stance",
+      "actor": "mukyeon",
+      "view": "front-right",
+      "guide": "correction-v2/mukyeon-front-right-guide.png",
+      "reference": "references/mukyeon-front-right.png",
+      "source": "correction-v2/mukyeon-front-right-stance-v3.png",
+      "promptFile": "correction-v2/mukyeon-front-right-stance-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:youngmale darkbrown topknot andbronze goggles, navy robe bronze shoulderplates, one wood/brass CROSSBOW, cylinders/quiver onback. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:Machine deployment:0twohandREADY,1RIGHTneartrigger hand lowerscrossbowhip and LEFTfar releases support,2LEFTfar empty palm signalsdownforward while RIGHTcrossbow remains at hip,3samearms/grips,4LEFT support returns,5READY. No machine inhand. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-43bb8694-4b46-4d4e-817c-99cdc0b5bc54.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 앞사선 방향, 쇠뇌 지지와 빈손 지시 분리.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "actor": "jingwal",
+      "view": "front-right",
+      "guide": "correction-v2/jingwal-front-right-guide.png",
+      "reference": "references/jingwal-front-right.png",
+      "source": "correction-v2/jingwal-front-right-dash-v3.png",
+      "promptFile": "correction-v2/jingwal-front-right-dash-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:beardedmiddle-aged warrior brown topknot, GOLD shoulder/armour bluewhitecloth, one longWOODshaft SPEAR goldsilverblade bluetassel. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:SPEARdrive0READY,1twohandload shaftbesiderearribs tip aimeddownRIGHTtowardcamera,2foreshortened thrust LOWER RIGHT withtwospacedgrips onstraightwoodshaft,3samethrustfollow through,4retractREADY,5READY. GOLDsilverbladeandbluetassel fullyvisible, nooverhead swordstrike. Sameheadlimbs size whenlunging. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f6cd341e-1ccb-46eb-888c-6766c76c3abc.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 앞사선 방향과 창 찌르기 연결 개선.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "actor": "jingwal",
+      "view": "front-right",
+      "guide": "correction-v2/jingwal-front-right-guide.png",
+      "reference": "references/jingwal-front-right.png",
+      "source": "correction-v2/jingwal-front-right-stance-v3.png",
+      "promptFile": "correction-v2/jingwal-front-right-stance-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:beardedmiddle-aged warrior brown topknot, GOLD shoulder/armour bluewhitecloth, one longWOODshaft SPEAR goldsilverblade bluetassel. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:Gatecommand0twohandREADY,1LEFTfar hand keepsSPEARatleftside withbuttgrounded,RIGHTnear handreleasesdrawsto chest,2RIGHTempty commandpalm forwarddownright,LEFTkeepsspear,3samehand/grip,4RIGHTrear gripreturns,5READY. No floatingspear, nooldshaft buttremain. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4aaea48b-b143-4920-a47b-9a672cd3e91a.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "앞사선 방향, 창 지지와 빈손 명령 연결 개선.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-front-right-fan",
+      "actor": "zhugehyeon",
+      "view": "front-right",
+      "guide": "correction-v2/zhugehyeon-front-right-guide.png",
+      "reference": "references/zhugehyeon-front-right.png",
+      "source": "correction-v2/zhugehyeon-front-right-fan-v3.png",
+      "promptFile": "correction-v2/zhugehyeon-front-right-fan-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:oldwhitehair whitebeard topknot, bluewhite robe SILVERshoulders, ONE black-tippedWHITEfeather fan goldhub, anatomicalRIGHTnear hand. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:WHITEfeatherFANwind0READY RIGHTnear handgoldhub,1RIGHTnearfan liftsnexttoownRIGHTshoulderfront,2RIGHTfansweeps downFORWARD towardbottomRIGHT withhips/headcoherent,LEFTfarhandemptycounterbalance,3sameRIGHTfanoutwardfollow,4retractfanREADY,5READY. ONE whitefanblacktips samewidth/hub,neverotherhand. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-7e692cd4-396b-485a-97cc-f4b1fa2fca49.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3 판정/후속 손 바뀜 미채택. v4는 가까운 팔이 가슴 앞을 가로질러 같은 손으로 내려베기.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-front-right-stance",
+      "actor": "zhugehyeon",
+      "view": "front-right",
+      "guide": "correction-v2/zhugehyeon-front-right-guide.png",
+      "reference": "references/zhugehyeon-front-right.png",
+      "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
+      "promptFile": "correction-v2/zhugehyeon-front-right-stance-v3.prompt.txt",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. EXPLICIT CAMERA CORRECTION in ALLsix slots includingREADY0/5: guidecurrently facesLEFT whichiswrong. ROTATEactor to genuineFRONT-RIGHT45degrees facingSOUTHEAST bottomRIGHT onpage inALL6poses. Eyes,nose,chest,pelvis,knees,feetand attackaim towardBOTTOMRIGHT, never screenLEFT orEASTtrueprofile. Identity:oldwhitehair whitebeard topknot, bluewhite robe SILVERshoulders, ONE black-tippedWHITEfeather fan goldhub, anatomicalRIGHTnear hand. Thisis3/4FRONTcamera: viewer seesFACEandboth shoulders,NEAR anatomicalRIGHTarmonSCREENLEFT ofchest; FARLEFTarmonSCREENRIGHT. Preserve anatomicalweaponownership acrossrotation, don't blindly mirror hand/weapon. Keepguide's skull/torso/limb/boots physicalpixel SIZE butrotatetheview. Nozoom, bodyheightaround340px, NOT430. Action:Safe-gatecommand0RIGHTnear fanat chest/LEFTfarempty,1LEFTpalm liftsbelowfan,2LEFTempty palm extendsdown-forward towardgroundbottomRIGHT whileRIGHTfansteadychest,3samebriefcommand,4LEFTwithdraw,5READY. NEVERopen fan hand intoemptypalm, ONLYtwoarms. Important correctREADY0and5 too, bothsameposecamera/dimensions. Ifweaponlong limitedareaforeshorten naturally, neverreducebodysize. Keepalltips32pxinsideownslot.",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c59db5f8-6b12-4bc5-86a9-1b11339b867b.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "앞사선 방향과 부채 지지/빈손 명령 분리.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "zhugehyeon-front-right-fan",
+      "actor": "zhugehyeon",
+      "view": "front-right",
+      "guide": "correction-v2/zhugehyeon-front-right-guide.png",
+      "reference": "references/zhugehyeon-front-right.png",
+      "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
+      "promptFile": "correction-v2/zhugehyeon-front-right-fan-v4.prompt.txt",
+      "prompt": "Edit this six-pose 1086x1448 transparent sprite sheet. Preserve identical scale, identity, front-right camera, 2 columns 3 rows layout, all clothes and ready poses0/5. Fix ONLY arms of contact pose2 (middle-left) and follow pose3 (middle-right). Currently the fan TELEPORTS from the SCREEN-LEFT shoulder arm to the SCREEN-RIGHT shoulder arm, an error. ONE fan stays in the same near RIGHT arm originating at the SCREEN-LEFT SHOULDER for all six poses. Draw its sleeve and elbow visibly CROSSING IN FRONT OF THE CHEST so the RIGHT hand can carry fan to screen-right at2/3. The far LEFT arm from SCREEN-RIGHT shoulder is EMPTY; counterbalance it behind/along body, don't put fan in it. Maintain connected shoulder-elbow-wrist chain, only two arms, don't leave old hand at previous spot. Pose2 fan sweeps diagonally downward toward bottom-right. Pose3 continues same near RIGHT arm a little forward, palm still around goldhub. No mirrored limbs, no added glow or motion effect, alpha0 clean background. Keep body/feet/head/scale exactly as current six figures. Keep 32px empty margins.",
+      "refs": [
+        "correction-v2/zhugehyeon-front-right-fan-v3.png"
+      ],
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-83ed93c7-62f0-4c25-be43-2c29e40fe5f8.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3 판정/후속 손 바뀜 미채택. v4는 가까운 팔이 가슴 앞을 가로질러 같은 손으로 내려베기.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finalApproved": false
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "view": "rear-right",
+      "actor": "mukyeon",
+      "story": "BACK-RIGHT northeast camera, head/body facing AWAY and RIGHT. Goggles topknot navy robe BRASS armour with cylinders. ONE wooden/brass crossbow in anatomical RIGHT hand at TRIGGER. Near foreground RIGHT arm with gold shoulder is permanently lowered curved to crossbow trigger at right hip. Far LEFT empty arm reaches upward alongside far shoulder then downward command. Critical1/2/3 RIGHT near hand stays DOWN on the crossbow; NEVER raise near foreground arm to command. Command palm belongs far arm starting at upper-left back shoulder. Crossbow solid supported RIGHT, no floating weapon. 1empty farLEFT palm slightly raised;2farLEFT palm signals,3same hold,4both original grips; guide0/5 unchanged. Native READY height326px.",
+      "source": "correction-v2/mukyeon-rear-right-stance-v4.png",
+      "promptFile": "correction-v2/mukyeon-rear-right-stance-v4.prompt.txt",
+      "guide": "correction-v2/mukyeon-rear-right-guide.png",
+      "reference": "references/mukyeon-rear-right.png",
+      "prompt": "Use case: identity-preserve. Edit image1 six-slot native guide, image2 reference. Same canvas1086x1448 transparent RGBA, TWO columns THREE rows six full-body sprites indexed0,1/2,3/4,5. Keep physical skull/torso/boots and equipment dimensions as native guide. Do not fill empty cells by enlarging body. Preserve0 and5 READY unless explicitly changing camera direction. 1load,2contact,3same ownership follow,4return,5ready. At least32px empty margin, no overlapping figures, no old weapon/hand remaining at released position. Anatomical LEFT/RIGHT refer actor. Same neutral colors/lighting, alphaZERO outside, no glow or effects. Two arms/two feet, connected shoulders-elbows-wrists and pelvis-knees-ankles, head/pelvis/feet coherently face camera direction, no reversed spine. Only one weapon. BACK-RIGHT northeast camera, head/body facing AWAY and RIGHT. Goggles topknot navy robe BRASS armour with cylinders. ONE wooden/brass crossbow in anatomical RIGHT hand at TRIGGER. Near foreground RIGHT arm with gold shoulder is permanently lowered curved to crossbow trigger at right hip. Far LEFT empty arm reaches upward alongside far shoulder then downward command. Critical1/2/3 RIGHT near hand stays DOWN on the crossbow; NEVER raise near foreground arm to command. Command palm belongs far arm starting at upper-left back shoulder. Crossbow solid supported RIGHT, no floating weapon. 1empty farLEFT palm slightly raised;2farLEFT palm signals,3same hold,4both original grips; guide0/5 unchanged. Native READY height326px.",
+      "refs": [
+        "correction-v2/mukyeon-rear-right-guide.png"
+      ],
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-52bed517-777e-44c5-9ad7-1e16d5594263.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3는 쇠뇌를 낮게 유지한 채 반대쪽 빈손으로 지시. 몸 확대 잔여. v4 판정/후속에는 지시 팔 소유가 다시 바뀌어 미채택.",
+      "date": "2026-10-08",
+      "acceptedAsDraftPoses": [],
+      "finalApproved": false
+    }
+  ],
+  "selectedRepairs": [
+    {
+      "id": "yanggi-right-sweep",
+      "poses": [
+        3
+      ],
+      "issue": "extra short wooden belt object added in follow-through, not in reference",
+      "source": "yanggi-right-sweep-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0dcb02c2-7b83-47ec-8d6f-6240d655ad6c.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: extra short wooden belt object added in follow-through, not in reference. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-right-sweep-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "yanggi-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "old staff butt remains at left rear hip alongside vertical staff; remove duplicate shaft, show left support grip",
+      "source": "yanggi-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-449ff78b-aaf8-4495-b04f-a69f74b780b3.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: old staff butt remains at left rear hip alongside vertical staff; remove duplicate shaft, show left support grip. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "mukyeon-front-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "crossbow remains side-on despite frontal shot; one forward-stock, horizontal single bow and taut string aim at viewer",
+      "source": "mukyeon-front-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3ec65999-06de-4e05-9a8f-c3cd227749e2.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: crossbow remains side-on despite frontal shot; one forward-stock, horizontal single bow and taut string aim at viewer. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-front-fan-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "mukyeon-back-stance",
+      "poses": [
+        1,
+        2
+      ],
+      "issue": "anatomical RIGHT hand should hold crossbow at right hip, LEFT on screen left signals; currently reversed; top head object is reference quiver leave it",
+      "source": "mukyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5f4bf380-fb64-49cf-bb52-b64e6b1a5067.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2. Specific defect: anatomical RIGHT hand should hold crossbow at right hip, LEFT on screen left signals; currently reversed; top head object is reference quiver leave it. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "jingwal-front-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "front dash aims horizontally to right instead of TOWARD VIEWER, spear clip at right canvas edge pose3; foreshorten shaft forward, maintain frontal skull torso view",
+      "source": "jingwal-front-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f302fd1b-49b3-4b4d-aa55-65dd5086c2e6.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: front dash aims horizontally to right instead of TOWARD VIEWER, spear clip at right canvas edge pose3; foreshorten shaft forward, maintain frontal skull torso view. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-dash-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "jingwal-front-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-35a2fba1-168d-4337-8f5b-969a1fddcb74.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "poses": [
+        3
+      ],
+      "issue": "pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2",
+      "source": "jingwal-front-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e2bdc65e-2ba3-4aca-9a28-34c37406678d.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 3. Specific defect: pose3 changes support ownership; keep same LEFT shaft grip and RIGHT empty command as pose2. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-front-right-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "jingwal-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "old diagonal shaft butt remains at rear hip while new vertical spear floats. Only ONE spear, LEFT central grip attached, RIGHT signals; no old gold butt behind belt",
+      "source": "jingwal-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a055e545-1482-4f6e-9124-ced1677596f5.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: old diagonal shaft butt remains at rear hip while new vertical spear floats. Only ONE spear, LEFT central grip attached, RIGHT signals; no old gold butt behind belt. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "jingwal-back-dash",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "issue": "thrust aims right instead of AWAY toward screen top; maintain back view and foreshorten wood shaft; spear tip ahead above head, not side",
+      "source": "jingwal-back-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b226f311-41b9-448a-b766-5aa770d3618f.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3,4. Specific defect: thrust aims right instead of AWAY toward screen top; maintain back view and foreshorten wood shaft; spear tip ahead above head, not side. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-back-dash-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "zhugehyeon-back-stance",
+      "poses": [
+        2
+      ],
+      "issue": "empty signaling hand on right is duplicate fan-hand; LEFT on screen left signals toward north ground, RIGHT remains fan holder",
+      "source": "zhugehyeon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-90984c56-2c14-4ff2-9cb3-6fb19307e982.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2. Specific defect: empty signaling hand on right is duplicate fan-hand; LEFT on screen left signals toward north ground, RIGHT remains fan holder. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "zhugehyeon-back-stance-repair-v1.prompt.txt",
+      "accepted": true
+    },
+    {
+      "id": "yanggi-right-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "issue": "staff floats and command hand is opposite ownership; LEFT must visibly hold shaft, RIGHT empty",
+      "source": "yanggi-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-39810818-451b-4bbd-9f23-612c12135d2c.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 2,3. Specific defect: staff floats and command hand is opposite ownership; LEFT must visibly hold shaft, RIGHT empty. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "yanggi-right-stance-repair-v1.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Staff connected; support-hand ownership remains unresolved. Draft improvement only."
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Body face and crossbow must aim down-right 45 degrees toward camera, not horizontal EAST. Rotate wood STOCK so firing end is LOWER-RIGHT closer to camera; rear stock at upper-left by trigger. Brass-tipped BOW ARMS project diagonally across front of stock, one near lower-left, far upper-right; taut thin string connecting two tips with stock centered. It must visibly read as a crossbow bow, no barrel. RIGHT trigger near-side sleeve, LEFT underneath stock.",
+      "source": "mukyeon-front-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-fc8007ec-0be0-4a72-8381-c327e6fba40e.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Body face and crossbow must aim down-right 45 degrees toward camera, not horizontal EAST. Rotate wood STOCK so firing end is LOWER-RIGHT closer to camera; rear stock at upper-left by trigger. Brass-tipped BOW ARMS project diagonally across front of stock, one near lower-left, far upper-right; taut thin string connecting two tips with stock centered. It must visibly read as a crossbow bow, no barrel. RIGHT trigger near-side sleeve, LEFT underneath stock.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "mukyeon-front-right-fan-repair-v2.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Bow assembly/diagonal forward aim improved; READY facing and body dimensions still pending."
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "poses": [
+        1
+      ],
+      "issue": "swap back to anatomical RIGHT hand trigger retains crossbow, LEFT signals; do not add third hand",
+      "source": "mukyeon-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ef9d4cde-88fd-42b5-86cf-d11387519c9b.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: swap back to anatomical RIGHT hand trigger retains crossbow, LEFT signals; do not add third hand. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "mukyeon-rear-right-stance-repair-v1.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Preparation retains near right trigger grip. Contact/follow still require correction."
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "SOUTHEAST forward-down-right thrust. Face chest hips oriented down-right together, spear projects toward camera with tip LOW-RIGHT below gripping hands, shortened shaft in perspective. Do NOT horizontal right thrust. Preserve physical head/armor/body size and full spear tips margin. Camera three-quarter front RIGHT visible.",
+      "source": "jingwal-front-right-dash-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c63241ae-53c8-469c-a408-feeb6341a65e.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: SOUTHEAST forward-down-right thrust. Face chest hips oriented down-right together, spear projects toward camera with tip LOW-RIGHT below gripping hands, shortened shaft in perspective. Do NOT horizontal right thrust. Preserve physical head/armor/body size and full spear tips margin. Camera three-quarter front RIGHT visible.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "jingwal-front-right-dash-repair-v2.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Diagonal foreshortened thrust improved; basic READY view mismatch remains pending."
+    },
+    {
+      "id": "jingwal-right-stance",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "issue": "Hold ONE single spear upright with FAR arm (LEFT) visibly wrapped around wood center. Near foreground arm (RIGHT silver/gold bracer) extends EMPTY palm rightward. The spear is behind near arm but in front of far shoulder, shaft appears in continuous straight line outside head. Gold butt ground beside far boot. Repeat same hand ownership in all3 command frames; NO earlier recovery at3.",
+      "source": "jingwal-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-246e85a8-b627-45e0-bb8c-888c01b83ff6.png",
+      "prompt": "Edit only indices 1,2,3 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Hold ONE single spear upright with FAR arm (LEFT) visibly wrapped around wood center. Near foreground arm (RIGHT silver/gold bracer) extends EMPTY palm rightward. The spear is behind near arm but in front of far shoulder, shaft appears in continuous straight line outside head. Gold butt ground beside far boot. Repeat same hand ownership in all3 command frames; NO earlier recovery at3.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "jingwal-right-stance-repair-v2.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Clipped spearhead and floating shaft improved; left/right support ownership still pending."
+    },
+    {
+      "id": "jingwal-back-stance",
+      "poses": [
+        2
+      ],
+      "issue": "wrong supporting hand, pose2 floating spear; LEFT on screen left clearly holds single spear, RIGHT on screen right signals",
+      "source": "jingwal-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-4206eadf-8ec7-49e8-ae46-b07357bfb838.png",
+      "prompt": "EDIT THIS EXISTING SIX-FIGURE SPRITE SHEET, preserve canvas dimensions and every unrelated figure without changing scale, colors, face, outfit, lighting, camera or padding. Row-major positions index0 TOP LEFT,1 TOP RIGHT,2 MIDDLE LEFT,3 MIDDLE RIGHT,4 BOTTOM LEFT,5 BOTTOM RIGHT. Correct ONLY indices 1,2,3. Specific defect: wrong supporting hand, pose2 floating spear; LEFT on screen left clearly holds single spear, RIGHT on screen right signals. Leave all other indices exactly unchanged. Anatomical LEFT/RIGHT refer to actor body, not viewer screen. Make only required arm/weapon changes, no new limbs and no duplicate previous grips. Two arms, one weapon, rigid connected shaft/bow/hub. Keep full tips and boots at least32px inside image edges; if space is limited rotate/foreshorten weapon naturally, NEVER shrink actor body. AlphaZERO outside clean silhouette, no glow or colored halo. In back view LEFT is screen left, RIGHT screen right; in east side near visible arm is RIGHT, far is LEFT. When weapon is supported LEFT during command, show LEFT hand visibly wrapped around shaft and use RIGHT empty connected palm; no floating staff/spear. Pose3 is brief continued command/aim before return at4, not a different grip. Maintain physical skull and limb size across frames. Return same 2 columns/3 rows RGBA transparent asset.",
+      "promptFile": "jingwal-back-stance-repair-v1.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Contact has left support/right command; load/follow still mismatched."
+    },
+    {
+      "id": "zhugehyeon-right-fan",
+      "poses": [
+        2
+      ],
+      "issue": "Foreground sleeve closest to viewer, flowing from screen-left shoulder, is RIGHT arm: extend THIS sleeve and right hand forward holding gold feather-fan hub. The OTHER far arm stays empty, palm for balance behind/in front of torso. Remove the current near-side empty palm, and move fan from far arm into near arm. Same stance/body/skull/native size.",
+      "source": "zhugehyeon-right-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3774015a-602c-4676-82f0-71cfbf2da9c3.png",
+      "prompt": "Edit only indices 2 in this existing 2columns3rows RGBA character sheet. Indices0top-left,1top-right,2middle-left,3middle-right,4bottom-left,5bottom-right. ONLY requested change: Foreground sleeve closest to viewer, flowing from screen-left shoulder, is RIGHT arm: extend THIS sleeve and right hand forward holding gold feather-fan hub. The OTHER far arm stays empty, palm for balance behind/in front of torso. Remove the current near-side empty palm, and move fan from far arm into near arm. Same stance/body/skull/native size.. All other poses unchanged. Same original canvas size, native body skull limb sizes, armor clothing colors, neutral light, no zoom or shrink-to-fit. Full weapon and boots with empty32px outer margin, no cropped tips. ONLY TWO attached arms, no abandoned original hand on old grip. One original weapon. Transparent alphaZERO background, no halo, no colored edge, no glow. The exact foreground/far limb descriptions take precedence over ambiguous abstract LEFT/RIGHT. Keep the face facing requested direction through the corrected poses. No attack effects.",
+      "promptFile": "zhugehyeon-right-fan-repair-v2.prompt.txt",
+      "accepted": true,
+      "reviewNote": "Near right fan/hub connection restored at contact."
+    },
+    {
+      "id": "yanggi-right-stance",
+      "source": "correction-v2/yanggi-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "봉 지지와 빈손 명령 동작을 분리. 기본 기준판과 크기가 가까워졌으나 전체 신체 치수 최종 승인 전."
+    },
+    {
+      "id": "mukyeon-rear-right-stance",
+      "source": "correction-v2/mukyeon-rear-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3는 쇠뇌를 낮게 유지한 채 반대쪽 빈손으로 지시. 몸 확대 잔여. v4 판정/후속에는 지시 팔 소유가 다시 바뀌어 미채택."
+    },
+    {
+      "id": "jingwal-right-stance",
+      "source": "correction-v2/jingwal-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "측면 지지/명령 팔 연결은 연속적이나 원래 LEFT 지지 계획과 반대. 시안으로만 선택."
+    },
+    {
+      "id": "jingwal-back-stance",
+      "source": "correction-v2/jingwal-back-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "후면 LEFT 창 지지/RIGHT 빈손 지시가 준비·판정·후속에서 이어짐."
+    },
+    {
+      "id": "zhugehyeon-rear-right-fan",
+      "source": "correction-v2/zhugehyeon-rear-right-fan-v3.png",
+      "poses": [
+        1
+      ],
+      "review": "힘 싣기만 선택. 새 판정/후속은 너무 일찍 회수하여 미채택."
+    },
+    {
+      "id": "zhugehyeon-rear-right-stance",
+      "source": "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "가까운 팔의 부채와 먼 빈손 신호를 구분."
+    },
+    {
+      "id": "mukyeon-front-right-fan",
+      "source": "correction-v2/mukyeon-front-right-fan-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 여섯 자세를 화면 오른쪽 앞사선으로 수정. 기존 기본 모션 방향은 별도 미교정."
+    },
+    {
+      "id": "mukyeon-front-right-stance",
+      "source": "correction-v2/mukyeon-front-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 앞사선 방향, 쇠뇌 지지와 빈손 지시 분리."
+    },
+    {
+      "id": "jingwal-front-right-dash",
+      "source": "correction-v2/jingwal-front-right-dash-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "대기 포함 앞사선 방향과 창 찌르기 연결 개선."
+    },
+    {
+      "id": "jingwal-front-right-stance",
+      "source": "correction-v2/jingwal-front-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "앞사선 방향, 창 지지와 빈손 명령 연결 개선."
+    },
+    {
+      "id": "zhugehyeon-front-right-stance",
+      "source": "correction-v2/zhugehyeon-front-right-stance-v3.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "앞사선 방향과 부채 지지/빈손 명령 분리."
+    },
+    {
+      "id": "zhugehyeon-front-right-fan",
+      "source": "correction-v2/zhugehyeon-front-right-fan-v4.png",
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review": "v3 판정/후속 손 바뀜 미채택. v4는 가까운 팔이 가슴 앞을 가로질러 같은 손으로 내려베기."
+    }
+  ],
+  "pending": [
+    "Special front-right artwork now faces southeast for Mukyeon, Jingwal and Zhugehyeon. Their existing BASIC motion source still faces left; base locomotion/attack must be reconciled before game registration.",
+    "Yanggi side body size improved. Mukyeon rear-right command and new front-right Mukyeon/Jingwal/Zhugehyeon bodies still appear larger than BASIC ready at identical scale; source proportions and all skull dimensions need review, never per-pose fitting.",
+    "Jingwal side command keeps connected support and empty arm but anatomical ownership is opposite original plan; final hand review pending.",
+    "Zhugehyeon rear-right fan selected new load pose only; contact/follow timing and body-size continuity require final review.",
+    "240 automatic ground-point proposals need boot-by-boot manual review. Weapon tips and robe edges can enter automatic lowest band.",
+    "Remaining 10 of 18 regional action keys still use basic artwork; selected 8 dedicated actions are draft, no runtime registration or public deployment."
+  ],
+  "gameRegistration": false,
+  "publicDeployment": false,
+  "selectedCorrectionPoses": 91
+}

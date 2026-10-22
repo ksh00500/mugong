@@ -1,0 +1,46 @@
+{
+  "result": {
+    "objects": [
+      {
+        "kind": "wall",
+        "mechanic": "sandwall",
+        "stage": 1,
+        "x": 895,
+        "y": 620
+      },
+      {
+        "kind": "wall",
+        "mechanic": "sandwall",
+        "stage": 1,
+        "x": 1105,
+        "y": 620
+      },
+      {
+        "kind": "tether",
+        "x": 900,
+        "y": 535
+      }
+    ],
+    "images": [
+      {
+        "texture": "boss-mechanics",
+        "frame": "4",
+        "x": 895,
+        "y": 620,
+        "width": 100,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "4",
+        "x": 1105,
+        "y": 620,
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "valid": true,
+    "alpha": "http://127.0.0.1:5173/art/boss-mechanics-v1.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-06",
+  "scope": "40 bosses; local production only",
+  "scenario": "40-second rectangular movement while firing bound Tang Lv.1 weapon; health reset only in independent test fixtures; ambient reinforcements excluded",
+  "comparison": "Same new aiming and attack admission; pursuit and its forward step disabled in comparison arm",
+  "comparisonNoHit": 20,
+  "enabledNoHit": 11,
+  "comparisonDamage": 1387.1960000000001,
+  "enabledDamage": 1913.9424000000001,
+  "noHitBosses": [
+    "0-4",
+    "4-2",
+    "3-3",
+    "7-1",
+    "7-4",
+    "8-1",
+    "1-1",
+    "6-1",
+    "6-4",
+    "8-4",
+    "9-1"
+  ],
+  "unitTests": 1289,
+  "unitInitialTimeouts": 2,
+  "motionRerunTimeoutSeconds": 15,
+  "browserRenderersPassed": 2,
+  "productionViewportsPassed": 3,
+  "productionViewports": [
+    "1440x900",
+    "1366x768",
+    "1093x614"
+  ],
+  "build": "passed",
+  "pixelScale": 0.225,
+  "playerBalanceChanged": false,
+  "publicDeployment": false,
+  "limitations": "Scripted path measurement, not human win rate or guaranteed boss accuracy. No final high-agility build balance certification."
+}

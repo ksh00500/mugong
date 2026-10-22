@@ -1,0 +1,71 @@
+{
+  "result": {
+    "objects": [
+      {
+        "kind": "wall",
+        "mechanic": "door",
+        "stage": 1,
+        "x": 1215,
+        "y": 535
+      },
+      {
+        "kind": "wall",
+        "mechanic": "door",
+        "stage": 1,
+        "x": 960,
+        "y": 710
+      },
+      {
+        "kind": "wall",
+        "mechanic": "door",
+        "stage": 1,
+        "x": 705,
+        "y": 535
+      },
+      {
+        "kind": "wall",
+        "mechanic": "door",
+        "stage": 1,
+        "x": 960,
+        "y": 360
+      }
+    ],
+    "images": [
+      {
+        "texture": "boss-mechanics",
+        "frame": "2",
+        "x": 1215,
+        "y": 535,
+        "width": 45,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "2",
+        "x": 960,
+        "y": 710,
+        "width": 45,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "2",
+        "x": 705,
+        "y": 535,
+        "width": 45,
+        "height": 100
+      },
+      {
+        "texture": "boss-mechanics",
+        "frame": "2",
+        "x": 960,
+        "y": 360,
+        "width": 45,
+        "height": 100
+      }
+    ],
+    "valid": true,
+    "alpha": "http://127.0.0.1:5173/art/boss-mechanics-v1.png"
+  },
+  "errors": []
+}

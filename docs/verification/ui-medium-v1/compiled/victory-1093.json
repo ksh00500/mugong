@@ -1,0 +1,185 @@
+{
+  "state": {
+    "version": 1,
+    "family": {
+      "roster": [
+        {
+          "id": "run-1-123",
+          "name": "가나다라마바사아자차카타",
+          "level": 16,
+          "xp": 920,
+          "hp": 80,
+          "arts": [],
+          "active": 0,
+          "items": [
+            {
+              "id": "medium-sword",
+              "kind": "sword",
+              "name": "강철검",
+              "w": 1,
+              "h": 3,
+              "place": "weapon",
+              "x": 0,
+              "y": 0,
+              "rotated": false,
+              "count": 1,
+              "quality": 100,
+              "statRevision": 1,
+              "power": 6,
+              "weaponStyle": "sword",
+              "templateId": "weapon-sword-1",
+              "rarity": "refined",
+              "upgrades": 0
+            },
+            {
+              "id": "medium-med",
+              "kind": "medicine",
+              "name": "금창약",
+              "w": 1,
+              "h": 1,
+              "place": "general",
+              "x": 0,
+              "y": 0,
+              "rotated": false,
+              "count": 3,
+              "quality": 100,
+              "power": 35,
+              "templateId": "medicine-small",
+              "rarity": "common",
+              "upgrades": 0
+            },
+            {
+              "id": "medium-ore",
+              "kind": "ore",
+              "name": "정련철",
+              "w": 1,
+              "h": 1,
+              "place": "general",
+              "x": 1,
+              "y": 0,
+              "rotated": false,
+              "count": 5,
+              "quality": 100,
+              "power": 0,
+              "templateId": "material-0",
+              "rarity": "common",
+              "upgrades": 0
+            },
+            {
+              "id": "medium-robe",
+              "kind": "robe",
+              "name": "정련 도포",
+              "w": 2,
+              "h": 3,
+              "place": "equipped",
+              "x": 0,
+              "y": 0,
+              "rotated": false,
+              "count": 1,
+              "quality": 100,
+              "statRevision": 1,
+              "power": 2,
+              "templateId": "gear-robe-1",
+              "rarity": "refined",
+              "upgrades": 0
+            }
+          ],
+          "spent": 16,
+          "x": 960,
+          "y": 650,
+          "facing": -1.5707963267948966,
+          "action": "idle",
+          "actionTime": 0,
+          "cooldown": 0,
+          "invulnerable": 0,
+          "guard": 0,
+          "shield": 0,
+          "attackSeq": 0,
+          "traitState": {},
+          "healSuppression": 0,
+          "slowTime": 0,
+          "fieldTick": 0,
+          "burnTime": 0,
+          "poisonTime": 0,
+          "capturedTime": 0,
+          "freezeTime": 0,
+          "coldTime": 0,
+          "coldStacks": 0,
+          "bleedTime": 0,
+          "fortify": 0,
+          "augments": [
+            "swift"
+          ],
+          "augmentOffers": [],
+          "trainingPoints": 0,
+          "appearance": 6,
+          "growth": {
+            "constitution": 1,
+            "strength": 1,
+            "agility": 1,
+            "inner": 1
+          },
+          "growthStartLevel": 16,
+          "progressionVersion": 2,
+          "innate": "unyielding",
+          "bornAt": 1792470145862,
+          "expiresAt": 1793074945862
+        }
+      ],
+      "warehouse": [
+        {
+          "id": "kept-ore",
+          "kind": "ore",
+          "name": "정련철",
+          "w": 1,
+          "h": 1,
+          "place": "warehouse",
+          "x": 0,
+          "y": 0,
+          "rotated": false,
+          "count": 2,
+          "quality": 100,
+          "power": 0,
+          "templateId": "material-0",
+          "rarity": "common",
+          "upgrades": 0
+        }
+      ],
+      "runs": 1,
+      "victories": 1,
+      "deaths": 0,
+      "retired": 0,
+      "silver": 1311,
+      "recruitment": {
+        "tickets": 3,
+        "anchor": 1792470140649,
+        "observedAt": 1792470140649,
+        "sequence": 0,
+        "candidates": []
+      },
+      "journeys": [
+        {
+          "id": "run-1-123",
+          "name": "가나다라마바사아자차카타",
+          "outcome": "victory",
+          "wave": 20,
+          "level": 16,
+          "kills": 123456,
+          "elapsed": 125.8,
+          "gold": 77,
+          "items": 10,
+          "route": [
+            "청하현",
+            "독무곡",
+            "천검산",
+            "설산"
+          ],
+          "endedAt": 1792470145862
+        }
+      ]
+    },
+    "run": null,
+    "selectedId": "run-1-123"
+  },
+  "errors": []
+}

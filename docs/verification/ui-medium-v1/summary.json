@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-20",
+  "branch": "codex/ui-medium-v1",
+  "baseline": "83788e0328419289609b9c641701d4746a3b5927",
+  "scope": [
+    "U21",
+    "U22",
+    "U23",
+    "U24"
+  ],
+  "unit": {
+    "files": 78,
+    "passed": 1381,
+    "failed": 0
+  },
+  "browser": {
+    "source": {
+      "startTime": "2026-10-20T04:16:08.116Z",
+      "duration": 344110.652,
+      "expected": 25,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "repairs": {
+      "startTime": "2026-10-20T04:15:52.726Z",
+      "duration": 14441.901999999998,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "compiled": {
+      "startTime": "2026-10-20T04:22:12.505Z",
+      "duration": 25666.837,
+      "expected": 7,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "local5205": {
+      "startTime": "2026-10-20T04:24:01.440Z",
+      "duration": 12165.421,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "regressionInitial": {
+      "startTime": "2026-10-20T04:02:59.956Z",
+      "duration": 684583.377,
+      "expected": 59,
+      "skipped": 0,
+      "unexpected": 3,
+      "flaky": 0
+    }
+  },
+  "latestScenarioExecutions": 97,
+  "regressionNote": "The 62 regression scenarios are 59 initial passes plus 3 repaired passes. They did not all pass in one run. Repairs cover the current training rule, a real native Tab/focusout race, and a renamed storage destination.",
+  "states": [
+    {
+      "width": 1440,
+      "height": 900,
+      "states": 21,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "states": 21,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "states": 21,
+      "errors": []
+    }
+  ],
+  "art": [
+    {
+      "width": 1440,
+      "measurements": 11,
+      "maxScale": 1
+    },
+    {
+      "width": 1366,
+      "measurements": 11,
+      "maxScale": 1
+    },
+    {
+      "width": 1093,
+      "measurements": 11,
+      "maxScale": 0.9369292237442922
+    }
+  ],
+  "runtimeAssets": {
+    "files": 1058,
+    "literalReferences": 792,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "build": {
+    "directory": "dist-ui-medium-v1",
+    "modules": 208,
+    "largeMountChunkWarning": true
+  },
+  "localApplication": {
+    "matchesBuild": true,
+    "status": 200,
+    "build": "dist-ui-medium-v1",
+    "url": "http://127.0.0.1:5205/",
+    "indexSha256": "a4039c49f6ae9d18733982c49f831ebad4bbdcc63454f628bc9079912c03fe26"
+  },
+  "limits": [
+    "Independent test saves only; real user saves untouched.",
+    "63 state captures are component fixtures, not 63 complete natural playthroughs.",
+    "Selected screenshots were inspected; no accessibility certification or physical GPU failure claim.",
+    "Lobby cutouts were capped at native resolution; no bitmap regenerated or deleted.",
+    "No public deployment or main merge."
+  ]
+}

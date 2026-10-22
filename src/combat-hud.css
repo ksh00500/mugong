@@ -1,0 +1,1369 @@
+/* Dedicated painted silhouettes; runtime content never inherits the legacy card frames. */
+.app-shell .hud.wuxia-hud {
+  --hud-ink: #2c291e;
+  --hud-ivory: #fff1ce;
+  --hud-gold: #d2b373;
+  color: var(--hud-ink);
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+.app-shell .hud.wuxia-hud::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 0 100%, #09140d78, transparent 38%),
+    radial-gradient(ellipse at 100% 100%, #09140d70, transparent 32%),
+    linear-gradient(to top, #0b190f78, transparent 150px),
+    linear-gradient(#10170c20, transparent 18%);
+  pointer-events: none;
+}
+.app-shell .wuxia-hud .hud-artwork {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  filter: drop-shadow(0 3px 3px #08130e85);
+}
+.app-shell .wuxia-hud .player-panel > :not(.hud-artwork),
+.app-shell .wuxia-hud .wave-ribbon > :not(.hud-artwork),
+.app-shell .wuxia-hud .defense-panel header > :not(.hud-artwork),
+.app-shell .wuxia-hud .region-label b,
+.app-shell .wuxia-hud .fan-heading > :not(.hud-artwork),
+.app-shell .wuxia-hud .ultimate-heading,
+.app-shell .wuxia-hud .ultimate-panel .meter,
+.app-shell .wuxia-hud .ultimate-panel small {
+  z-index: 2;
+}
+.app-shell
+  .wuxia-hud
+  :is(
+    .player-panel,
+    .progress-panel,
+    .boss-panel,
+    .art-fan,
+    .ultimate-panel,
+    .defense-panel,
+    .region-label,
+    .cooldown-dial
+  ) {
+  isolation: isolate;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.app-shell .wuxia-hud :is(.hud-top, .hud-bottom) {
+  position: absolute;
+  display: grid;
+  padding: 0;
+  align-items: start;
+}
+.app-shell .wuxia-hud .hud-top {
+  inset: 0 14px auto;
+  grid-template-columns: 320px minmax(0, 1fr) 226px;
+  gap: 20px;
+}
+.app-shell .wuxia-hud .player-panel {
+  height: 184px;
+  overflow: visible;
+  padding: 55px 17px 10px 108px;
+}
+/* Keep health and experience above the preparation workspace, including large text. */
+.app-shell .wuxia-hud[data-phase='prep'] .player-panel {
+  top: -32px;
+}
+.app-shell .wuxia-hud .hud-artwork-player {
+  inset-block: -20px 0;
+  height: calc(100% + 20px);
+}
+.app-shell .wuxia-hud .hud-portrait {
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 28px;
+  top: 47px;
+  border: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #171b13;
+}
+.app-shell .wuxia-hud .hud-portrait img {
+  position: absolute;
+  max-width: none;
+  width: 121px;
+  height: 182px;
+  left: -24px;
+  top: -6px;
+  object-fit: cover;
+}
+.app-shell .wuxia-hud .hud-vitals {
+  position: absolute;
+  inset: 52px 26px auto 138px;
+  z-index: 4;
+}
+.app-shell .wuxia-hud .hud-portrait.portrait-variant img {
+  width: 160%;
+  height: 160%;
+  left: -30%;
+  top: -3%;
+  object-fit: contain;
+  object-position: center top;
+}
+.app-shell .wuxia-hud .player-name {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 0 0 4px;
+}
+.app-shell .wuxia-hud .player-name b {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--hud-ink);
+  font: 700 18px/1.2 var(--font-display);
+}
+.app-shell .wuxia-hud .player-name span {
+  flex: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 12px;
+  color: #66573c;
+}
+.app-shell .wuxia-hud .hud-health {
+  position: relative;
+  display: grid;
+  grid-template-rows: 18px 11px;
+  gap: 3px;
+  height: 32px;
+}
+.app-shell .wuxia-hud .hud-health .meter.health {
+  position: relative;
+  inset: auto;
+  height: 11px;
+  z-index: 0;
+}
+.app-shell .wuxia-hud .health-line {
+  position: relative;
+  inset: auto;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+  gap: 6px;
+  white-space: nowrap;
+}
+.app-shell .wuxia-hud .health-line small {
+  font-size: 12px;
+  color: var(--hud-ink);
+  text-shadow: none;
+}
+.app-shell .wuxia-hud .health-line > span {
+  font-size: 15px;
+  padding: 0;
+  background: transparent;
+  color: var(--hud-ink);
+  font-weight: 700;
+  text-shadow: none;
+}
+.app-shell .wuxia-hud .hud-experience {
+  margin-top: 5px;
+  background: #f7edd799;
+  border-radius: 2px;
+}
+.app-shell .wuxia-hud .xp-line {
+  position: relative;
+  inset: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 3px;
+  color: #382e20;
+  font-size: 12px;
+  line-height: 1;
+}
+.app-shell .wuxia-hud .xp-line > span:last-child {
+  color: #382e20;
+}
+.app-shell .wuxia-hud .hud-experience .meter.experience {
+  position: relative;
+  inset: auto;
+  height: 3px;
+}
+.app-shell .wuxia-hud .meter {
+  margin: 0;
+  border: 1px solid var(--meter-edge);
+  border-radius: 8px;
+  background: var(--meter-track);
+  box-shadow:
+    inset 0 1px 3px #0008,
+    0 1px 0 #fff5;
+  height: 10px;
+}
+.app-shell .wuxia-hud .meter i {
+  border-radius: inherit;
+  box-shadow: inset 0 1px 1px #fff5;
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
+}
+.app-shell .wuxia-hud .hud-level {
+  border-radius: 4px;
+  padding: 1px 4px;
+  background: #f9e3a47a;
+  color: #624417;
+  font-variant-numeric: tabular-nums;
+  animation: hud-level-in 320ms var(--ease-ui) both;
+}
+@keyframes hud-level-in {
+  from {
+    background-color: #ffe5a0;
+    box-shadow: 0 0 0 3px #edbd4b6b;
+  }
+  to {
+    background-color: #f9e3a47a;
+    box-shadow: 0 0 0 0 #edbd4b00;
+  }
+}
+.app-shell .wuxia-hud .critical-health .hud-portrait {
+  filter: drop-shadow(0 0 3px #f4506599);
+}
+.app-shell .wuxia-hud .critical-health .health-line small {
+  font-weight: 700;
+}
+.app-shell .wuxia-hud .meter.experience {
+  height: 4px;
+  border: 0;
+}
+.app-shell .wuxia-hud .meter.experience i {
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
+}
+.app-shell .wuxia-hud .boss-area {
+  display: block;
+  position: absolute;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 0;
+  width: min(430px, calc(100% - 600px));
+  margin: 0;
+}
+.app-shell .wuxia-hud .region-label {
+  position: relative;
+  width: min(360px, 100%);
+  height: 48px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: none;
+  color: var(--hud-ink);
+  text-shadow: none;
+}
+.app-shell .wuxia-hud .region-label b {
+  position: relative;
+  font: 700 19px/1.2 var(--font-display);
+  padding: 0 30px;
+  text-align: center;
+  color: var(--hud-ink);
+}
+.app-shell .wuxia-hud .boss-panel {
+  display: grid;
+  grid-template-rows: auto 38px;
+  align-content: center;
+  gap: 6px;
+  min-height: 108px;
+  height: auto;
+  padding: 12px 70px 26px 30px;
+  color: var(--hud-ivory);
+  text-align: center;
+}
+.app-shell .wuxia-hud .boss-panel b {
+  position: relative;
+  display: block;
+  min-width: 0;
+  margin: 0;
+  font: 700 clamp(12px, 1.2vw, 18px)/1.2 var(--font-display);
+  overflow-wrap: anywhere;
+}
+.app-shell .wuxia-hud .boss-health {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 18px 16px;
+  gap: 4px;
+  height: 38px;
+}
+.app-shell .wuxia-hud .boss-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+.app-shell .wuxia-hud .boss-phase {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border: 1px solid #d4be8a;
+  border-radius: 4px;
+  background: #142b28;
+  color: #f8e8bc;
+  font: 700 clamp(12px, 0.9vw, 13px)/1.3 var(--font-body);
+  white-space: nowrap;
+  animation: boss-phase-enter 200ms cubic-bezier(0.2, 0, 0, 1) both;
+}
+.app-shell .wuxia-hud [data-boss-phase='enraged'] .boss-phase {
+  border-color: #ff9a87;
+  color: #ffd4c7;
+  background: #4b2426;
+}
+.app-shell .wuxia-hud [data-boss-phase='guard'] .boss-phase {
+  border-color: #8ed9ce;
+  color: #c1fff0;
+}
+.app-shell .wuxia-hud [data-boss-phase='pursuit'] .boss-phase {
+  border-color: #f6bd72;
+  color: #ffe0a6;
+}
+.app-shell .wuxia-hud [data-boss-opening='true'] .boss-phase {
+  border-color: #9de4bc;
+  color: #d9ffe9;
+  background: #173c2d;
+}
+@keyframes boss-phase-enter {
+  from {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .wuxia-hud .boss-phase {
+    animation: none;
+  }
+}
+.app-shell .wuxia-hud .boss-panel .meter {
+  position: relative;
+  inset: auto;
+  grid-row: 2;
+  grid-column: 1;
+  height: 16px;
+}
+.app-shell .wuxia-hud .boss-panel small {
+  position: relative;
+  grid-row: 1;
+  grid-column: 1;
+  width: auto;
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--hud-ivory);
+  text-shadow: none;
+}
+.app-shell .wuxia-hud .progress-panel {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  gap: 0;
+  margin-top: 15px;
+}
+.app-shell .wuxia-hud .wave-ribbon {
+  position: relative;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 39px 0 44px;
+  flex-direction: row;
+  gap: 5px;
+}
+.app-shell .wuxia-hud .wave-ribbon small {
+  position: relative;
+  font-size: 12px;
+  color: #66573c;
+}
+.app-shell .wuxia-hud .wave-ribbon b {
+  position: relative;
+  font-size: 22px;
+  color: var(--hud-ink);
+  line-height: 1.2;
+}
+.app-shell .wuxia-hud .wave-ribbon b span {
+  display: inline;
+  font-size: 11px;
+  color: #66573c;
+}
+.app-shell .wuxia-hud .hud-actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+  margin-right: 23px;
+  margin-top: -3px;
+}
+.app-shell .wuxia-hud .hud-actions button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  min-height: 34px !important;
+  height: 34px;
+  width: auto;
+  font-size: 13px;
+  color: var(--hud-ivory);
+  background: #17251be8;
+  border: 1px solid #a48650;
+  border-radius: 6px 2px 8px 3px;
+  box-shadow:
+    inset 0 1px 0 #e9d09826,
+    0 2px 4px #0006;
+}
+.app-shell .wuxia-hud .hud-actions .ui-icon {
+  width: 23px;
+  height: 23px;
+}
+.app-shell .wuxia-hud kbd {
+  display: inline;
+  border: 1px solid #d0b4778c;
+  border-radius: 3px;
+  padding: 1px 4px;
+  background: #f7edcf;
+  color: #3e3826;
+  font-size: 11px;
+}
+.app-shell .wuxia-hud .field-caption {
+  position: absolute;
+  inset: 110px 34px auto auto;
+  transform: none;
+  max-width: 210px;
+  height: auto;
+  padding: 3px 7px;
+  border: 0;
+  background: #142619b5;
+  border-radius: 2px 8px 3px 7px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--hud-ivory);
+  text-align: left;
+}
+.app-shell .wuxia-hud .field-caption:empty {
+  display: none;
+}
+.app-shell .wuxia-hud .hud-bottom {
+  inset: auto 16px 10px;
+  grid-template-columns: 340px minmax(240px, 330px) 248px;
+  gap: 22px;
+  justify-content: space-between;
+  align-items: end;
+}
+.app-shell .wuxia-hud .art-fan {
+  height: 220px;
+  padding: 0;
+}
+.app-shell .wuxia-hud .art-fan > .hud-artwork-fan {
+  height: 205px;
+  top: 0;
+}
+.app-shell .wuxia-hud .fan-heading {
+  position: absolute;
+  inset: auto 20px 0;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  gap: 5px;
+  background: none;
+  border: 0;
+}
+.app-shell .wuxia-hud .fan-heading button {
+  position: relative;
+  min-height: 30px !important;
+  height: 30px;
+  min-width: 34px;
+  padding: 1px 2px;
+  border: 0;
+  background: none;
+  color: var(--hud-ivory);
+  font-size: 18px;
+}
+.app-shell .wuxia-hud .fan-current-name {
+  position: relative;
+  min-width: 0;
+  flex: 1;
+  font: 700 17px/1.3 var(--font-display);
+  color: var(--hud-ivory);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-shell .wuxia-hud .fan-cards {
+  position: relative;
+  height: 160px;
+  width: 100%;
+  padding: 0;
+}
+.app-shell .wuxia-hud .fan-card {
+  position: absolute;
+  left: var(--fan-x);
+  top: var(--fan-y);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  width: 56px;
+  min-height: 0 !important;
+  height: 81px;
+  padding: 2px;
+  border: 0;
+  border-radius: 50% 50% 6px 6px;
+  background: transparent;
+  box-shadow: none;
+  color: #443524;
+  font-size: 13px;
+  text-shadow: 0 1px 0 #fff5;
+  transition: color 140ms ease-out;
+}
+.app-shell .wuxia-hud .fan-leaf {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: none;
+  transition:
+    background-color 140ms ease-out,
+    border-color 140ms ease-out;
+}
+.app-shell .wuxia-hud .fan-leaf .art-glyph {
+  width: 42px;
+  height: 42px;
+  filter: saturate(1.08) contrast(1.08);
+}
+.app-shell .wuxia-hud .fan-card.selected .fan-leaf {
+  background: radial-gradient(#fff2c5e8, #e5c67b6b);
+  border-color: #987338;
+  box-shadow:
+    0 0 0 2px #f5dd9b90,
+    inset 0 0 8px #a5865060;
+}
+.app-shell .wuxia-hud .fan-card.selected .fan-card-name {
+  font-weight: 700;
+  color: #39291c;
+}
+.app-shell .wuxia-hud .fan-card:disabled {
+  opacity: 0.8;
+}
+.app-shell .wuxia-hud .fan-card-name {
+  line-height: 1.2;
+  background: #f5ead6d9;
+  padding: 1px 3px;
+  border-radius: 2px;
+}
+.app-shell .wuxia-hud .fan-card small {
+  color: #5b4733;
+  font-size: 10px;
+  line-height: 1.2;
+  background: #f5ead6c9;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+.app-shell .wuxia-hud .fan-card:hover:not(:disabled) .fan-leaf {
+  background-color: #fff0c39c;
+}
+.app-shell .wuxia-hud .fan-card:hover:not(:disabled),
+.app-shell .wuxia-hud .fan-card:active:not(:disabled) {
+  transform: translateX(-50%);
+}
+.app-shell .wuxia-hud button:focus-visible {
+  outline: 3px solid #ffe5a3;
+  outline-offset: 2px;
+}
+.app-shell .wuxia-hud .fan-card:focus-visible {
+  outline-color: #674720;
+  outline-offset: 1px;
+}
+.app-shell .wuxia-hud .ultimate-panel {
+  display: block;
+  padding: 0;
+  height: 90px;
+  width: 100%;
+  color: var(--hud-ivory);
+}
+.app-shell .wuxia-hud .ultimate-heading {
+  position: absolute;
+  inset: 14px 31px auto 93px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 15px;
+  color: var(--hud-ivory);
+  text-shadow: 0 1px 3px #000;
+}
+.app-shell .wuxia-hud .ultimate-heading b {
+  font: 700 16px/1.2 var(--font-display);
+}
+.app-shell .wuxia-hud .ultimate-heading span {
+  color: var(--hud-ivory);
+  font-size: 12px;
+}
+.app-shell .wuxia-hud .ultimate-panel .meter {
+  position: absolute;
+  inset: 37px 31px auto 93px;
+  height: 16px;
+  border: 1px solid #b39252;
+  border-radius: 3px 7px 3px 6px;
+}
+.app-shell .wuxia-hud .ultimate-panel .meter i {
+  background: linear-gradient(var(--meter-top), var(--meter-bottom));
+}
+.app-shell .wuxia-hud .ultimate-panel small {
+  position: absolute;
+  inset: 63px 13px auto 93px;
+  font-size: 11px;
+  line-height: 1.3;
+  color: var(--hud-ivory);
+  text-shadow:
+    0 1px 4px #071a0b,
+    0 0 3px #071a0b;
+}
+.app-shell .wuxia-hud .ultimate-ready .hud-artwork {
+  filter: drop-shadow(0 0 5px #6adce1a0);
+}
+.app-shell .wuxia-hud .ultimate-ready {
+  animation: none;
+  outline: 0;
+  box-shadow: none;
+}
+.app-shell .wuxia-hud .ultimate-heading b {
+  color: var(--hud-ivory);
+}
+.app-shell .wuxia-hud .ultimate-ready .meter i {
+  background: linear-gradient(#d8ffff, #30bbd2);
+}
+.app-shell .wuxia-hud .ultimate-ready .ultimate-heading span {
+  color: #b8fbff;
+  text-shadow: 0 1px 2px #062431;
+}
+.app-shell .wuxia-hud .ultimate-ready .meter {
+  border-color: #a3f3e8;
+  box-shadow:
+    0 0 0 1px #082c42,
+    0 0 8px #3fe3ee70;
+}
+.app-shell .wuxia-hud .ultimate-ready .meter::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: linear-gradient(110deg, transparent 35%, #fff9 50%, transparent 65%);
+  animation: hud-ready-sweep 440ms ease-out both;
+  pointer-events: none;
+}
+@keyframes hud-ready-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.app-shell .wuxia-hud .defense-panel {
+  height: 132px;
+  padding: 0;
+}
+.app-shell .wuxia-hud .defense-panel header {
+  position: relative;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  padding: 0 31px 0 49px;
+  margin: 0;
+}
+.app-shell .wuxia-hud .defense-panel header b {
+  position: relative;
+  min-width: 0;
+  color: var(--hud-ink);
+  font: 700 16px/1.2 var(--font-display);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-shell .wuxia-hud .defense-panel header kbd {
+  position: relative;
+  flex: none;
+}
+.app-shell .wuxia-hud .defense-cooldowns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 8px;
+}
+.app-shell .wuxia-hud .defense-slot {
+  flex: 0 1 34px;
+  min-width: 0;
+  text-align: center;
+  opacity: 1;
+}
+.app-shell .wuxia-hud .defense-slot.active {
+  flex-basis: 50px;
+  opacity: 1;
+}
+.app-shell .wuxia-hud .defense-slot:not(.active) .cooldown-dial {
+  width: 32px;
+  height: 32px;
+  margin-top: 7px;
+}
+.app-shell .wuxia-hud .defense-slot:not(.active) .cooldown-dial .art-glyph {
+  width: 27px;
+  height: 27px;
+}
+.app-shell .wuxia-hud .defense-slot:not(.active) .cooldown-dial b {
+  font-size: 12px;
+}
+.app-shell .wuxia-hud .cooldown-dial {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  margin: auto;
+  border: 1px solid #a48852;
+  border-radius: 50%;
+  background: #122a22;
+  box-shadow: 0 2px 4px #071810a0;
+}
+.app-shell .wuxia-hud .cooldown-dial .art-glyph {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  opacity: 0.7;
+}
+.app-shell .wuxia-hud .cooldown-dial::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 50%;
+  background: conic-gradient(#0a1818df var(--cooldown-turn), transparent 0);
+}
+.app-shell .wuxia-hud .cooldown-dial b {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  font-size: 17px;
+  color: #fff6da;
+  text-shadow:
+    0 1px 3px #07140a,
+    0 0 3px #07140a;
+}
+.app-shell .wuxia-hud .defense-slot.active .cooldown-dial {
+  box-shadow:
+    0 0 0 2px #e4c27e90,
+    0 2px 5px #071810a0;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .cooldown-dial {
+  border-color: #88ddbd;
+  background: #164b47;
+  box-shadow:
+    inset 0 1px 3px #d7fff755,
+    0 2px 5px #071810a0;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .art-glyph {
+  opacity: 1;
+}
+.app-shell .wuxia-hud .defense-slot[data-state='ready'] .cooldown-dial b {
+  inset: auto 0 0 auto;
+  min-width: 14px;
+  height: 16px;
+  padding: 0 1px;
+  border-radius: 50%;
+  background: #173f34;
+  color: #beffe4;
+  font-size: 12px;
+}
+.app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border: 2px solid #c7ffe6;
+  border-radius: 50%;
+  animation: hud-defense-ready 360ms ease-out both;
+  pointer-events: none;
+}
+@keyframes hud-defense-ready {
+  from {
+    transform: scale(0.94);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(1.16);
+    opacity: 0;
+  }
+}
+.app-shell .wuxia-hud .defense-slot[data-state='unarmed'] .art-glyph {
+  filter: grayscale(0.8);
+  opacity: 0.35;
+}
+.app-shell .wuxia-hud .defense-slot > span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-top: 4px;
+  color: var(--hud-ivory);
+  text-shadow: 0 1px 3px #000;
+}
+.app-shell .wuxia-hud .defense-state {
+  position: absolute;
+  right: 35px;
+  top: -2px;
+  color: var(--hud-ivory);
+  font-size: 11px;
+  text-shadow: 0 1px 3px #000;
+}
+.app-shell .wuxia-hud .defense-empty {
+  color: var(--hud-ivory);
+  font-size: 12px;
+  text-shadow: 0 1px 3px #000;
+}
+.app-shell .wuxia-hud .combat-conditions {
+  position: absolute;
+  top: 146px;
+  left: 18px;
+  width: calc(100% - 36px);
+  z-index: 7;
+  display: grid;
+  gap: 5px;
+  align-items: start;
+  pointer-events: none;
+  font-family: var(--font-ui);
+}
+.app-shell .wuxia-hud .combat-conditions ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.app-shell .wuxia-hud .combat-conditions li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 5px;
+  border: 1px solid #ccaa80;
+  border-radius: 5px;
+  background: #2d3025;
+  color: #fff4d6;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.app-shell .wuxia-hud .combat-conditions li[data-severe='true'] {
+  background: #612d28;
+  border-color: #ffb2a0;
+}
+.app-shell .wuxia-hud .combat-conditions .ui-icon {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
+.app-shell .wuxia-hud .combat-conditions small {
+  font: 700 12px/1.3 var(--font-ui);
+  color: #fff4d6;
+}
+.app-shell .wuxia-hud .combat-conditions .condition-more {
+  position: relative;
+  pointer-events: auto;
+  flex: none;
+  justify-self: start;
+}
+.app-shell .wuxia-hud .combat-conditions .condition-toggle {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px;
+  min-height: 28px;
+  min-width: 0;
+  box-shadow: none;
+  text-shadow: none;
+  color: #fff4d6;
+  background: #203b30;
+  border: 1px solid #b59c6e;
+  border-radius: 5px;
+}
+.app-shell .wuxia-hud .combat-conditions .condition-more ul {
+  position: static;
+  margin-top: 4px;
+  width: 220px;
+  padding: 6px;
+  background: #152c24;
+  border: 1px solid #b59c6e;
+  border-radius: 6px;
+}
+.app-shell .wuxia-hud .combat-conditions .condition-more li {
+  width: 100%;
+}
+@media (max-width: 1100px), (max-height: 650px) {
+  .app-shell .wuxia-hud .hud-top {
+    grid-template-columns: 300px minmax(0, 1fr) 210px;
+    inset-inline: 9px;
+    gap: 12px;
+  }
+  .app-shell .wuxia-hud .player-panel {
+    height: 174px;
+    padding: 0;
+  }
+  .app-shell .wuxia-hud .hud-portrait {
+    width: 65px;
+    height: 65px;
+    left: 26px;
+    top: 44px;
+  }
+  .app-shell .wuxia-hud .hud-vitals {
+    inset: 48px 24px auto 130px;
+  }
+  .app-shell .wuxia-hud .player-name b {
+    font-size: 17px;
+  }
+  .app-shell .wuxia-hud .player-name {
+    margin-bottom: 4px;
+  }
+  .app-shell .wuxia-hud .wave-ribbon {
+    padding: 0 35px 0 42px;
+  }
+  .app-shell .wuxia-hud .wave-ribbon b {
+    font-size: 20px;
+  }
+  .app-shell .wuxia-hud .hud-bottom {
+    grid-template-columns: 294px minmax(210px, 294px) 228px;
+    inset: auto 10px 8px;
+    gap: 16px;
+  }
+  .app-shell .wuxia-hud .art-fan {
+    height: 196px;
+  }
+  .app-shell .wuxia-hud .art-fan > .hud-artwork-fan {
+    height: 181px;
+  }
+  .app-shell .wuxia-hud .fan-card {
+    top: calc(var(--fan-y) * 0.86);
+    width: 50px;
+    height: 73px;
+    font-size: 12px;
+  }
+  .app-shell .wuxia-hud .fan-leaf {
+    width: 42px;
+    height: 42px;
+  }
+  .app-shell .wuxia-hud .fan-leaf .art-glyph {
+    width: 37px;
+    height: 37px;
+  }
+  .app-shell .wuxia-hud .fan-heading {
+    inset-inline: 12px;
+    height: 35px;
+  }
+  .app-shell .wuxia-hud .fan-current-name {
+    font-size: 16px;
+  }
+  .app-shell .wuxia-hud .ultimate-panel {
+    height: 82px;
+  }
+  .app-shell .wuxia-hud .ultimate-heading {
+    inset: 13px 28px auto 83px;
+  }
+  .app-shell .wuxia-hud .ultimate-panel .meter {
+    inset: 34px 28px auto 83px;
+    height: 14px;
+  }
+  .app-shell .wuxia-hud .ultimate-panel small {
+    inset: 57px 10px auto 83px;
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .defense-panel {
+    height: 125px;
+  }
+  .app-shell .wuxia-hud .defense-panel header {
+    padding: 0 28px 0 45px;
+    height: 53px;
+  }
+  .app-shell .wuxia-hud .defense-cooldowns {
+    gap: 5px;
+  }
+  .app-shell .wuxia-hud .cooldown-dial {
+    width: 42px;
+    height: 42px;
+  }
+  .app-shell .wuxia-hud .cooldown-dial .art-glyph {
+    width: 36px;
+    height: 36px;
+  }
+  .app-shell .wuxia-hud .defense-slot > span {
+    font-size: 11px;
+  }
+}
+@media (max-width: 820px) {
+  .app-shell .wuxia-hud .hud-top {
+    grid-template-columns: minmax(0, 230px) 150px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  .app-shell .wuxia-hud .player-panel {
+    height: 168px;
+    padding: 0;
+  }
+  .app-shell .wuxia-hud .health-line > span {
+    font-size: 13px;
+  }
+  .app-shell .wuxia-hud .hud-portrait {
+    width: 53px;
+    height: 53px;
+    top: 42px;
+    left: 25px;
+  }
+  .app-shell .wuxia-hud .hud-portrait img {
+    width: 100px;
+    height: 150px;
+    left: -22px;
+  }
+  .app-shell .wuxia-hud .hud-vitals {
+    inset: 44px 20px auto 100px;
+  }
+  .app-shell .wuxia-hud .player-name b {
+    font-size: 14px;
+  }
+  .app-shell .wuxia-hud .player-name span {
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .health-line {
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .xp-line {
+    font-size: 11px;
+  }
+  .app-shell .wuxia-hud .xp-line span:first-child {
+    display: none;
+  }
+  .app-shell .wuxia-hud .xp-line {
+    justify-content: end;
+  }
+  .app-shell .wuxia-hud .boss-area {
+    position: absolute;
+    top: 136px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(100%, 340px);
+    margin: 0;
+  }
+  .app-shell .wuxia-hud .region-label {
+    display: none;
+  }
+  .app-shell .wuxia-hud .progress-panel {
+    grid-column: 2;
+    margin-top: 17px;
+  }
+  .app-shell .wuxia-hud .wave-ribbon {
+    height: 38px;
+    padding-inline: 22px;
+  }
+  .app-shell .wuxia-hud .wave-ribbon b span {
+    display: none;
+  }
+  .app-shell .wuxia-hud .hud-actions {
+    margin-right: 9px;
+    gap: 4px;
+  }
+  .app-shell .wuxia-hud .hud-actions button {
+    font-size: 12px;
+    padding: 2px 4px;
+    min-height: 30px !important;
+    height: 30px;
+  }
+  .app-shell .wuxia-hud .hud-actions kbd {
+    display: none;
+  }
+  .app-shell .wuxia-hud .field-caption {
+    display: none;
+  }
+  .app-shell .wuxia-hud .hud-bottom {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 6px;
+    inset-inline: 8px;
+  }
+  .app-shell .wuxia-hud .art-fan {
+    grid-column: 1;
+    grid-row: 1;
+    height: 166px;
+    width: min(100%, 250px);
+  }
+  .app-shell .wuxia-hud .art-fan > .hud-artwork-fan {
+    height: auto;
+    bottom: auto;
+    aspect-ratio: 813 / 500;
+  }
+  .app-shell .wuxia-hud .fan-card {
+    top: calc(var(--fan-y) * 0.68);
+    height: 63px;
+    width: 39px;
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .fan-leaf {
+    width: 33px;
+    height: 33px;
+  }
+  .app-shell .wuxia-hud .fan-leaf .art-glyph {
+    width: 29px;
+    height: 29px;
+  }
+  .app-shell .wuxia-hud .fan-card small {
+    font-size: 9px;
+  }
+  .app-shell .wuxia-hud .fan-heading {
+    inset-inline: 0;
+    height: 31px;
+    padding-inline: 8px;
+    gap: 1px;
+  }
+  .app-shell .wuxia-hud .fan-current-name {
+    font-size: 12px;
+  }
+  .app-shell .wuxia-hud .fan-heading button {
+    min-width: 27px;
+    padding: 0;
+    font-size: 14px;
+  }
+  .app-shell .wuxia-hud .defense-panel {
+    grid-column: 2;
+    grid-row: 1;
+    height: 110px;
+    width: min(100%, 228px);
+    justify-self: end;
+  }
+  .app-shell .wuxia-hud .defense-panel header {
+    padding-inline: 19px;
+    height: 41px;
+  }
+  .app-shell .wuxia-hud .defense-panel header b {
+    font-size: 12px;
+  }
+  .app-shell .wuxia-hud .defense-panel header kbd {
+    font-size: 9px;
+    padding-inline: 2px;
+  }
+  .app-shell .wuxia-hud .defense-cooldowns {
+    gap: 3px;
+    padding: 0 3px;
+  }
+  .app-shell .wuxia-hud .cooldown-dial {
+    width: 30px;
+    height: 30px;
+  }
+  .app-shell .wuxia-hud .cooldown-dial .art-glyph {
+    width: 26px;
+    height: 26px;
+  }
+  .app-shell .wuxia-hud .cooldown-dial b {
+    font-size: 13px;
+  }
+  .app-shell .wuxia-hud .defense-slot > span {
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .defense-state {
+    top: -9px;
+    right: 20px;
+    font-size: 10px;
+  }
+  .app-shell .wuxia-hud .ultimate-panel {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: min(100%, 294px);
+    justify-self: center;
+    height: 76px;
+  }
+  .app-shell .wuxia-hud .ultimate-panel small {
+    display: block;
+    font-size: 9px;
+    top: 56px;
+  }
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .player-name b {
+  font-size: 20px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .wave-ribbon b {
+  font-size: 24px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud :is(.health-line, .xp-line) {
+  font-size: 14px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .health-line small {
+  font-size: 12px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .health-line > span {
+  font-size: 16px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .hud-health {
+  grid-template-rows: 20px 12px;
+  height: 35px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .hud-health .meter.health {
+  height: 12px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .boss-panel small {
+  font-size: 16px;
+}
+.app-shell[data-large-hud='true'] .wuxia-hud .ultimate-panel small {
+  font-size: 12px;
+}
+.app-shell[data-high-contrast='true'] .wuxia-hud {
+  --hud-ink: #16150f;
+  --hud-ivory: #fff9e9;
+}
+.app-shell[data-high-contrast='true'] .wuxia-hud .hud-vitals .xp-line,
+.app-shell[data-high-contrast='true'] .wuxia-hud .hud-vitals .xp-line > span,
+.app-shell[data-high-contrast='true'] .wuxia-hud .wave-ribbon small {
+  color: var(--hud-ink);
+}
+@media (max-width: 820px) {
+  .app-shell[data-large-hud='true'] .wuxia-hud .health-line small {
+    font-size: 10px;
+  }
+  .app-shell[data-large-hud='true'] .wuxia-hud .health-line > span {
+    font-size: 14px;
+  }
+  .app-shell[data-large-hud='true'] .wuxia-hud .xp-line {
+    font-size: 11px;
+  }
+  .app-shell[data-large-hud='true'] .wuxia-hud .player-name b {
+    font-size: 16px;
+  }
+  .app-shell[data-large-hud='true'] .wuxia-hud .wave-ribbon b {
+    font-size: 22px;
+  }
+  .app-shell[data-large-hud='true'] .wuxia-hud .ultimate-panel small {
+    font-size: 10px;
+  }
+}
+/* A nonmodal, painted field action stays available after closing the loot bag. */
+.app-shell .wave-ready {
+  position: absolute;
+  z-index: 5;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  width: min(760px, calc(100% - 48px));
+  padding: 20px 24px;
+  color: var(--ink);
+  background: #f4ebd7 var(--painted-material) 0 0 / 200% 200% no-repeat;
+  border: 1px solid #987547;
+  border-radius: 16px;
+  box-shadow:
+    0 8px 32px #101c2359,
+    inset 0 0 0 1px #fff1c980;
+}
+.app-shell .wave-ready h2 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.3;
+}
+.app-shell .wave-ready[hidden] {
+  display: none;
+}
+.app-shell .wave-ready-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: none;
+}
+.app-shell .wave-ready-actions button {
+  min-height: 48px;
+  min-width: 112px;
+  font-size: 18px;
+  padding: 8px 14px;
+  line-height: 1.3;
+}
+.app-shell .wave-ready-actions button.primary {
+  min-width: 240px;
+  min-height: 60px;
+  font-size: 24px;
+}
+.app-shell[data-high-contrast='true'] .wave-ready {
+  color: #16150f;
+  background: #fff9e9;
+  border-color: #16150f;
+}
+@media (max-width: 820px) {
+  .app-shell .wave-ready {
+    flex-direction: column;
+    gap: 14px;
+    width: min(480px, calc(100% - 32px));
+    padding: 16px;
+  }
+  .app-shell .wave-ready h2 {
+    font-size: 22px;
+  }
+  .app-shell .wave-ready-actions {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    width: 100%;
+    gap: 8px;
+  }
+  .app-shell .wave-ready-actions button,
+  .app-shell .wave-ready-actions button.primary {
+    min-width: 0;
+    min-height: 48px;
+    font-size: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .wuxia-hud .hud-level,
+  .app-shell .wuxia-hud .ultimate-ready .meter::after,
+  .app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+    animation: none;
+  }
+  .app-shell .wuxia-hud .ultimate-ready .meter::after,
+  .app-shell .wuxia-hud .defense-slot.active[data-state='ready'] .cooldown-dial::before {
+    display: none;
+  }
+  .app-shell .wuxia-hud :is(.meter i, .fan-card, .fan-leaf) {
+    transition: none;
+  }
+}

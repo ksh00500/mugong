@@ -1,0 +1,283 @@
+{
+  "reviewed": true,
+  "reviewedAtUTC": "2026-10-05T13:10:26.936Z",
+  "method": "Direct visual review of generated sources, all seven contact sheets and final actual Canvas/WebGL and local-production screenshots. Automated checks are separate from visual judgment.",
+  "contactSheets": [
+    "contact/snowhunter.png",
+    "contact/snowweaver.png",
+    "contact/snowbowman.png",
+    "contact/mokjin.png",
+    "contact/xuelan.png",
+    "contact/baixue.png",
+    "contact/hanxue.png"
+  ],
+  "screenshots": [
+    "canvas-full-idle.png",
+    "canvas-full-strike.png",
+    "canvas-full-hurt.png",
+    "webgl-full-idle.png",
+    "webgl-full-strike.png",
+    "webgl-full-hurt.png",
+    "production/combat-1440.png",
+    "production/review-1440.png",
+    "production/combat-1366.png",
+    "production/review-1366.png",
+    "production/combat-1093.png",
+    "production/review-1093.png",
+    "production/snow-pose-0.png",
+    "production/snow-pose-1.png",
+    "production/snow-pose-2.png",
+    "production/snow-pose-3.png",
+    "production/snow-pose-4.png",
+    "production/snow-pose-5.png"
+  ],
+  "groundPoints": [
+    {
+      "id": "snowhunter-front",
+      "pose": 1,
+      "source": "snowhunter-front-consistent-v4.png",
+      "point": [
+        194,
+        392
+      ],
+      "fromFigureBottom": 2,
+      "manualReview": "Reviewed snowhunter-front-consistent-v4.png: center between both boots instead of following the single lowest forward boot; keep sole Y and preserve native image pixels.",
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "snowhunter-front",
+      "pose": 3,
+      "source": "snowhunter-front-consistent-v4.png",
+      "point": [
+        186,
+        375
+      ],
+      "fromFigureBottom": 2,
+      "manualReview": "Reviewed snowhunter-front-consistent-v4.png: center between both boots instead of following the single lowest forward boot; keep sole Y and preserve native image pixels.",
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "snowhunter-front",
+      "pose": 4,
+      "source": "snowhunter-front-consistent-v4.png",
+      "point": [
+        176,
+        361
+      ],
+      "fromFigureBottom": 24,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "snowhunter-front",
+      "pose": 7,
+      "source": "snowhunter-front-consistent-v4.png",
+      "point": [
+        170,
+        347
+      ],
+      "fromFigureBottom": 1,
+      "manualReview": "Reviewed snowhunter-front-consistent-v4.png: center between both boots instead of following the single lowest forward boot; keep sole Y and preserve native image pixels.",
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "snowhunter-front",
+      "pose": 9,
+      "source": "snowhunter-front-consistent-v4.png",
+      "point": [
+        181,
+        328
+      ],
+      "fromFigureBottom": 4,
+      "manualReview": "Reviewed snowhunter-front-consistent-v4.png: center between both boots instead of following the single lowest forward boot; keep sole Y and preserve native image pixels.",
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "snowhunter-right",
+      "pose": 9,
+      "source": "snowhunter-right-combat.png",
+      "point": [
+        211,
+        458
+      ],
+      "fromFigureBottom": 19,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 0,
+      "source": "mujin-front-locomotion.png",
+      "point": [
+        271,
+        487
+      ],
+      "fromFigureBottom": 13,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 1,
+      "source": "mujin-front-locomotion.png",
+      "point": [
+        201,
+        511
+      ],
+      "fromFigureBottom": 30,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 2,
+      "source": "mujin-front-locomotion.png",
+      "point": [
+        257,
+        509
+      ],
+      "fromFigureBottom": 26,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 4,
+      "source": "mujin-front-locomotion.png",
+      "point": [
+        255,
+        457
+      ],
+      "fromFigureBottom": 38,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 7,
+      "source": "mujin-front-combat.png",
+      "point": [
+        328,
+        477
+      ],
+      "fromFigureBottom": 42,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 8,
+      "source": "mujin-front-combat.png",
+      "point": [
+        359,
+        488
+      ],
+      "fromFigureBottom": 21,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 9,
+      "source": "mujin-front-combat.png",
+      "point": [
+        371,
+        487
+      ],
+      "fromFigureBottom": 16,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front",
+      "pose": 11,
+      "source": "mujin-front-combat.png",
+      "point": [
+        350,
+        484
+      ],
+      "fromFigureBottom": 18,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front-right",
+      "pose": 0,
+      "source": "mujin-front-right-locomotion-v2.png",
+      "point": [
+        211,
+        474
+      ],
+      "fromFigureBottom": 21,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front-right",
+      "pose": 4,
+      "source": "mujin-front-right-locomotion-v2.png",
+      "point": [
+        214,
+        466
+      ],
+      "fromFigureBottom": 19,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front-right",
+      "pose": 6,
+      "source": "mujin-front-right-combat.png",
+      "point": [
+        205,
+        486
+      ],
+      "fromFigureBottom": 20,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-front-right",
+      "pose": 7,
+      "source": "mujin-front-right-combat.png",
+      "point": [
+        209,
+        490
+      ],
+      "fromFigureBottom": 15,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    },
+    {
+      "id": "mujin-back",
+      "pose": 9,
+      "source": "mujin-back-combat.png",
+      "point": [
+        286,
+        430
+      ],
+      "fromFigureBottom": 37,
+      "manualReview": null,
+      "decision": "Keep reviewed sole Y; weapon tips or trailing fur may extend below boots. Explicit X overrides center the front hunter between boots. No frame scaling."
+    }
+  ],
+  "corrections": [
+    "Hunter frontal native body/head/wardrobe consistency with a complete 12-pose replacement",
+    "One continuous two-handed spear shaft with a single leaf and plain butt; front/back axial foreshortening",
+    "Orb ownership left hand throughout right-hand casting",
+    "Bow draw finger/string alignment and removal of thick rear string rod",
+    "Complete fan and separated follow-through/return poses without clipping or rescaling",
+    "Family frame cache includes texture identity to prevent a cross-region abbot/commander collision"
+  ],
+  "findings": [
+    "No missing weapons, adjacent frame intrusion or visible HP-bar overlap in inspected final captures",
+    "Native camera foreshortening and stance changes retain some apparent silhouette-size variation; no per-frame fitting was used",
+    "WebGL captures retain finer, sharper edges than the Canvas captures; inspected screenshots show complete actors"
+  ],
+  "limitations": [
+    "Fine body/head dimensions and joints were visually compared, not numerically certified",
+    "Boss special patterns still share representative attack cycles",
+    "Death uses one fading pose",
+    "Opposite directions use horizontal mirroring, including held-tool screen sides"
+  ]
+}

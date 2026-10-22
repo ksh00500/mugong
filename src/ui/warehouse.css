@@ -1,0 +1,312 @@
+.app-shell .warehouse-workspace {
+  width: 100%;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0 24px 12px;
+  border: 0;
+  border-radius: 0;
+  display: grid;
+  grid-template-rows: 80px 60px minmax(0, 1fr) 52px;
+  gap: 12px;
+  overflow: visible;
+  color: var(--ink);
+}
+.warehouse-workspace .dialog-header {
+  padding: 8px 0;
+  min-width: 0;
+  min-height: 0;
+}
+.warehouse-workspace .dialog-header > button {
+  min-height: 48px;
+  height: 48px;
+}
+.warehouse-workspace .warehouse-toolbar {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(180px, 320px) minmax(150px, 220px);
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  font-size: 18px;
+}
+.warehouse-workspace .warehouse-toolbar :is(input, select) {
+  width: 100%;
+  min-width: 0;
+  height: 48px;
+  min-height: 48px;
+  padding: 6px 12px;
+  font-size: 18px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--input-radius);
+  background: var(--input-surface);
+  color: var(--input-ink);
+}
+.warehouse-workspace .warehouse-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(260px, 24vw, 340px);
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+}
+.warehouse-workspace .warehouse-catalog {
+  min-width: 0;
+  min-height: 0;
+}
+.warehouse-workspace .paged-items {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 48px;
+  height: 100%;
+  gap: 10px;
+}
+.warehouse-workspace .paged-item-list {
+  display: grid;
+  grid-template-columns: repeat(var(--warehouse-columns), minmax(0, 1fr));
+  grid-template-rows: repeat(var(--warehouse-rows), minmax(0, 1fr));
+  gap: 12px;
+  min-height: 0;
+  align-items: stretch;
+  align-content: stretch;
+}
+.warehouse-workspace .paged-item-list > .item-tile {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-paper);
+  color: var(--ink);
+  transform: none;
+}
+.warehouse-workspace .item-tile:hover {
+  background: var(--surface-hover);
+  transform: none;
+}
+.warehouse-workspace .item-tile.selected {
+  border: 2px solid var(--jade);
+  background: var(--surface-selected);
+  box-shadow: var(--shadow-selected);
+}
+.warehouse-workspace .item-tile .item-art {
+  width: 72px;
+  height: 72px;
+  max-width: 100%;
+  flex: 0 1 72px;
+}
+.warehouse-workspace .item-tile small {
+  position: static;
+  display: block;
+  width: 100%;
+  white-space: normal;
+  font-size: 18px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+}
+.warehouse-workspace .item-count {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: auto;
+  font-size: 18px;
+}
+.warehouse-workspace .item-pagination {
+  justify-content: center;
+  grid-column: auto;
+  flex-direction: row;
+  gap: 16px;
+  padding: 0;
+}
+.warehouse-workspace .item-pagination button {
+  min-width: 48px;
+  height: 44px;
+  min-height: 44px;
+  font-size: 24px;
+}
+.warehouse-workspace .warehouse-detail {
+  min-width: 0;
+  border-left: 1px solid var(--line);
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.warehouse-workspace .warehouse-item-heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+}
+.warehouse-workspace .warehouse-item-heading .item-art {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.warehouse-workspace .warehouse-item-heading h3 {
+  margin: 0;
+  font-size: 28px;
+  overflow-wrap: anywhere;
+}
+.warehouse-workspace .warehouse-item-heading span {
+  font-size: 20px;
+}
+.warehouse-workspace .warehouse-detail dl {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  font-size: 20px;
+  margin: 0;
+}
+.warehouse-workspace .warehouse-detail dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.warehouse-workspace .warehouse-take {
+  min-height: 56px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+.warehouse-workspace .warehouse-reason {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.warehouse-workspace .warehouse-footer {
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 18px;
+}
+.warehouse-workspace .warehouse-selection-hint,
+.warehouse-workspace .empty-warehouse {
+  text-align: center;
+  padding: 16px;
+  font-size: 22px;
+  line-height: 1.5;
+  min-height: 0;
+}
+.warehouse-workspace .empty-warehouse {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-self: center;
+}
+.warehouse-workspace :is(.empty-warehouse, .warehouse-selection-hint) > .ui-icon {
+  width: 72px;
+  height: 72px;
+}
+@media (max-height: 720px) {
+  .app-shell .warehouse-workspace {
+    grid-template-rows: 64px 50px minmax(0, 1fr) 44px;
+    gap: 8px;
+    padding: 0 16px 8px;
+  }
+  .warehouse-workspace .warehouse-detail {
+    gap: 12px;
+    padding-left: 16px;
+  }
+  .warehouse-workspace .warehouse-content {
+    gap: 16px;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .warehouse-workspace {
+    grid-template-rows: 60px 88px minmax(0, 1fr) 50px;
+    padding-inline: 12px;
+  }
+  .warehouse-workspace .dialog-header h2 {
+    font-size: 24px;
+    gap: 6px;
+  }
+  .warehouse-workspace .dialog-seal {
+    width: 36px;
+    height: 36px;
+  }
+  .warehouse-workspace .dialog-header button {
+    min-width: 70px;
+    font-size: 16px;
+    padding: 4px;
+  }
+  .warehouse-workspace .warehouse-toolbar {
+    grid-template-columns: minmax(0, 1fr) minmax(130px, 1fr);
+    gap: 4px 8px;
+  }
+  .warehouse-workspace .warehouse-toolbar strong {
+    grid-column: 1 / -1;
+    font-size: 18px;
+  }
+  .warehouse-workspace .warehouse-toolbar :is(input, select) {
+    height: 42px;
+    min-height: 42px;
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+  .warehouse-workspace .warehouse-content {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) 156px;
+    gap: 8px;
+  }
+  .warehouse-workspace .warehouse-detail {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 8px 0 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(110px, 1fr);
+    gap: 6px 12px;
+    align-content: start;
+  }
+  .warehouse-workspace .warehouse-item-heading .item-art {
+    width: 42px;
+    height: 42px;
+  }
+  .warehouse-workspace .warehouse-item-heading h3 {
+    font-size: 18px;
+  }
+  .warehouse-workspace .warehouse-item-heading span {
+    font-size: 14px;
+  }
+  .warehouse-workspace .warehouse-detail dl {
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    font-size: 14px;
+    gap: 6px;
+  }
+  .warehouse-workspace .warehouse-take {
+    grid-column: 1;
+    min-height: 40px;
+    font-size: 16px;
+  }
+  .warehouse-workspace .warehouse-reason {
+    grid-column: 1 / -1;
+    font-size: 14px;
+  }
+  .warehouse-workspace .warehouse-footer {
+    font-size: 13px;
+    gap: 8px;
+  }
+  .warehouse-workspace .warehouse-selection-hint {
+    grid-column: 1 / -1;
+    padding: 8px;
+    font-size: 18px;
+  }
+  .warehouse-workspace .warehouse-selection-hint > .ui-icon {
+    width: 42px;
+    height: 42px;
+  }
+}

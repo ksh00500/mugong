@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-18",
+  "scope": {
+    "bosses": 12,
+    "actions": 24,
+    "logicalFrames": 750,
+    "correctedBasicFrames": 36,
+    "newSelectedDrawings": 41
+  },
+  "unit": {
+    "files": 63,
+    "passed": 1298,
+    "failed": 0
+  },
+  "rendering": [
+    {
+      "region": 7,
+      "renderer": "canvas",
+      "reduced": false,
+      "samples": 2568,
+      "failures": 0,
+      "contacts": 72,
+      "unchanged": true
+    },
+    {
+      "region": 7,
+      "renderer": "canvas",
+      "reduced": true,
+      "samples": 2568,
+      "failures": 0,
+      "contacts": 72,
+      "unchanged": true
+    },
+    {
+      "region": 7,
+      "renderer": "webgl",
+      "reduced": false,
+      "samples": 2568,
+      "failures": 0,
+      "contacts": 72,
+      "unchanged": true
+    },
+    {
+      "region": 7,
+      "renderer": "webgl",
+      "reduced": true,
+      "samples": 2568,
+      "failures": 0,
+      "contacts": 72,
+      "unchanged": true
+    },
+    {
+      "region": 8,
+      "renderer": "canvas",
+      "reduced": false,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 8,
+      "renderer": "canvas",
+      "reduced": true,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 8,
+      "renderer": "webgl",
+      "reduced": false,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 8,
+      "renderer": "webgl",
+      "reduced": true,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 9,
+      "renderer": "canvas",
+      "reduced": false,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 9,
+      "renderer": "canvas",
+      "reduced": true,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 9,
+      "renderer": "webgl",
+      "reduced": false,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    },
+    {
+      "region": 9,
+      "renderer": "webgl",
+      "reduced": true,
+      "samples": 2560,
+      "failures": 0,
+      "contacts": 64,
+      "unchanged": true
+    }
+  ],
+  "samples": 30752,
+  "compiledAndReview": {
+    "passed": 7,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1093,
+        614
+      ]
+    ],
+    "independentBrowserState": true
+  },
+  "pixelAudit": {
+    "textures": 64,
+    "physicalCells": 761,
+    "minimumPadding": 32,
+    "failures": 0
+  },
+  "localPreview": "http://127.0.0.1:5195/",
+  "publicDeployment": false,
+  "personalServerUpload": false
+}

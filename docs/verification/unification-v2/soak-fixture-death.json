@@ -1,0 +1,110 @@
+{
+  "started": "2026-09-29T07:27:00.835Z",
+  "productionSnapshot": true,
+  "isolated": true,
+  "samples": [
+    {
+      "time": 31171.10000000894,
+      "phase": "combat",
+      "elapsed": 30.41666666666622,
+      "paused": false,
+      "error": "",
+      "enemies": 28,
+      "projectiles": 21,
+      "effects": 1,
+      "renderer": "Canvas",
+      "heap": 13400000,
+      "p95": 16.799999999999272,
+      "frames": 1801,
+      "canvas": 1,
+      "audio": {
+        "context": "running",
+        "activeSources": 3,
+        "maxSources": 5
+      }
+    },
+    {
+      "time": 61200.29999999702,
+      "phase": "combat",
+      "elapsed": 60.44999999999785,
+      "paused": false,
+      "error": "",
+      "enemies": 28,
+      "projectiles": 20,
+      "effects": 1,
+      "renderer": "Canvas",
+      "heap": 13400000,
+      "p95": 16.799999999995634,
+      "frames": 1802,
+      "canvas": 1,
+      "audio": {
+        "context": "running",
+        "activeSources": 2,
+        "maxSources": 5
+      }
+    },
+    {
+      "time": 91234.90000000596,
+      "phase": "combat",
+      "elapsed": 90.48333333332948,
+      "paused": false,
+      "error": "",
+      "enemies": 28,
+      "projectiles": 6,
+      "effects": 1,
+      "renderer": "Canvas",
+      "heap": 13400000,
+      "p95": 16.70000000001164,
+      "frames": 1802,
+      "canvas": 1,
+      "audio": {
+        "context": "running",
+        "activeSources": 2,
+        "maxSources": 5
+      }
+    },
+    {
+      "time": 121268.90000000596,
+      "phase": "combat",
+      "elapsed": 120.49999999999444,
+      "paused": false,
+      "error": "",
+      "enemies": 28,
+      "projectiles": 26,
+      "effects": 5,
+      "renderer": "Canvas",
+      "heap": 13400000,
+      "p95": 16.70000000001164,
+      "frames": 1802,
+      "canvas": 1,
+      "audio": {
+        "context": "running",
+        "activeSources": 4,
+        "maxSources": 5
+      }
+    },
+    {
+      "time": 151292.29999999702,
+      "phase": "dead",
+      "elapsed": 128.71666666666124,
+      "paused": false,
+      "error": "",
+      "enemies": 28,
+      "projectiles": 26,
+      "effects": 4,
+      "renderer": "Canvas",
+      "heap": 13400000,
+      "p95": 16.79999999998836,
+      "frames": 1762,
+      "canvas": 1,
+      "audio": {
+        "context": "running",
+        "activeSources": 2,
+        "maxSources": 5
+      }
+    }
+  ],
+  "errors": [],
+  "failure": "Error: Soak interrupted; see samples.",
+  "finished": "2026-09-29T07:29:33.218Z"
+}

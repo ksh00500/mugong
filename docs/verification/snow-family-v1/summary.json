@@ -1,0 +1,96 @@
+{
+  "verifiedAtUTC": "2026-10-05T13:10:43.865Z",
+  "family": "snow",
+  "unit": {
+    "files": 57,
+    "passed": 1270,
+    "success": true
+  },
+  "build": {
+    "passed": true,
+    "mainScript": "/assets/main-BQUmhrnr.js",
+    "log": "build.log"
+  },
+  "art": {
+    "characters": 7,
+    "nativeViews": 5,
+    "gameplayDirections": 8,
+    "frames": 420,
+    "selectedSources": 59,
+    "uniqueHashes": 420,
+    "encodedSheets": 35,
+    "scale": 0.225,
+    "padding": 32
+  },
+  "matrices": [
+    {
+      "id": "canvas-full",
+      "renderer": 1,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 168,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "canvas-reduced",
+      "renderer": 1,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 168,
+      "minHPGap": 11.225000000000023,
+      "errors": []
+    },
+    {
+      "id": "webgl-full",
+      "renderer": 2,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 168,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-reduced",
+      "renderer": 2,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 168,
+      "minHPGap": 11.225000000000023,
+      "errors": []
+    }
+  ],
+  "totalStateSamples": 7840,
+  "totalBossContacts": 672,
+  "actualReleaseCases": 24,
+  "production": [
+    {
+      "width": 1440,
+      "height": 900,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "uniqueAssets": 35,
+      "errors": []
+    }
+  ],
+  "passedBrowserTests": 8,
+  "manualReview": "manual-review.json",
+  "limitations": [
+    "Fine body/head dimensions and joints were visually compared, not numerically certified",
+    "Boss special patterns still share representative attack cycles",
+    "Death uses one fading pose",
+    "Opposite directions use horizontal mirroring, including held-tool screen sides"
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

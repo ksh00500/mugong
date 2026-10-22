@@ -1,0 +1,34 @@
+{
+  "reason": "built-in imagegen usage_limit_reached (429)",
+  "completedBosses": [
+    "3-1"
+  ],
+  "pendingBosses": [
+    "3-2",
+    "3-3",
+    "3-4"
+  ],
+  "plannedSources": 40,
+  "selectedSources": 10,
+  "generatedUnselectedSource": "xuelan-front-hazard-candidate-v1.png",
+  "resetUnixSeconds": 1791299393,
+  "lastRetry": {
+    "timeUtc": "2026-10-06T14:03:29Z",
+    "result": "usage_limit_reached",
+    "status": 429,
+    "resetUnixSeconds": 1791299393,
+    "resetTimeKst": "2026-10-07 00:09:53",
+    "newlyGenerated": 0,
+    "newlyInstalled": 0,
+    "preparedSources": 30,
+    "preparedMoves": 6
+  },
+  "historical": true,
+  "supersededBy": "docs/snow-special-complete-v2.md",
+  "completion": {
+    "date": "2026-10-18",
+    "remainingBosses": [],
+    "snowKitActions": 18,
+    "logicalFrames": 630
+  }
+}

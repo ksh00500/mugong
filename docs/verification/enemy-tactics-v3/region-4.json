@@ -1,0 +1,84 @@
+{
+  "hp": 99860.61249999999,
+  "phase": "combat",
+  "finite": true,
+  "actors": [
+    {
+      "id": 500,
+      "role": "brawler",
+      "moved": 480.7732957735995,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 501,
+      "role": "staffguard",
+      "moved": 132.3216345546175,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 502,
+      "role": "brawler",
+      "moved": 486.41756447886655,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 503,
+      "bossId": "4-1",
+      "moved": 140.52077614042457,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 504,
+      "bossId": "4-2",
+      "moved": 201.36481578185325,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 505,
+      "bossId": "4-3",
+      "moved": 43.285120707130815,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 506,
+      "bossId": "4-4",
+      "moved": 416.51062283599475,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    }
+  ]
+}

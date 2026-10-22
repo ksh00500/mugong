@@ -1,0 +1,4882 @@
+[
+  {
+    "id": "madabong-front",
+    "sources": [
+      {
+        "file": "madabong-front-summon.png",
+        "sha256": "c6cd4c998afe461285b960479499ac14d95fc9ee86f73941e8a8e45fa8a04961"
+      },
+      {
+        "file": "madabong-front-dash.png",
+        "sha256": "947318991b9d77ce38174d153d827c89b88aff8930fcee591b598fa5b07b41c1"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-summon-0",
+        "sourceBounds": {
+          "left": 211,
+          "top": 9,
+          "right": 614,
+          "bottom": 365
+        },
+        "foot": [
+          287,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          60
+        ]
+      },
+      {
+        "name": "0-summon-1",
+        "sourceBounds": {
+          "left": 790,
+          "top": 10,
+          "right": 1207,
+          "bottom": 369
+        },
+        "foot": [
+          295,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          57
+        ]
+      },
+      {
+        "name": "0-summon-2",
+        "sourceBounds": {
+          "left": 194,
+          "top": 365,
+          "right": 657,
+          "bottom": 720
+        },
+        "foot": [
+          304,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          113,
+          61
+        ]
+      },
+      {
+        "name": "0-summon-3",
+        "sourceBounds": {
+          "left": 792,
+          "top": 368,
+          "right": 1230,
+          "bottom": 720
+        },
+        "foot": [
+          286,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          64
+        ]
+      },
+      {
+        "name": "0-summon-4",
+        "sourceBounds": {
+          "left": 211,
+          "top": 709,
+          "right": 624,
+          "bottom": 1066
+        },
+        "foot": [
+          292,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          59
+        ]
+      },
+      {
+        "name": "0-summon-5",
+        "sourceBounds": {
+          "left": 795,
+          "top": 711,
+          "right": 1199,
+          "bottom": 1066
+        },
+        "foot": [
+          287,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          172,
+          61
+        ]
+      },
+      {
+        "name": "0-dash-0",
+        "sourceBounds": {
+          "left": 140,
+          "top": 9,
+          "right": 548,
+          "bottom": 372
+        },
+        "foot": [
+          307,
+          391
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          53
+        ]
+      },
+      {
+        "name": "0-dash-1",
+        "sourceBounds": {
+          "left": 924,
+          "top": 28,
+          "right": 1233,
+          "bottom": 360
+        },
+        "foot": [
+          187,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          267,
+          84
+        ]
+      },
+      {
+        "name": "0-dash-2",
+        "sourceBounds": {
+          "left": 125,
+          "top": 378,
+          "right": 606,
+          "bottom": 714
+        },
+        "foot": [
+          313,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          80
+        ]
+      },
+      {
+        "name": "0-dash-3",
+        "sourceBounds": {
+          "left": 813,
+          "top": 377,
+          "right": 1265,
+          "bottom": 707
+        },
+        "foot": [
+          316,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          124,
+          86
+        ]
+      },
+      {
+        "name": "0-dash-4",
+        "sourceBounds": {
+          "left": 243,
+          "top": 723,
+          "right": 580,
+          "bottom": 1068
+        },
+        "foot": [
+          208,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          239,
+          71
+        ]
+      },
+      {
+        "name": "0-dash-5",
+        "sourceBounds": {
+          "left": 829,
+          "top": 716,
+          "right": 1240,
+          "bottom": 1078
+        },
+        "foot": [
+          309,
+          390
+        ],
+        "padding": [
+          32,
+          32,
+          165,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madabong-front-right",
+    "sources": [
+      {
+        "file": "madabong-front-right-summon.png",
+        "sha256": "b0b8f550d852a01eab4090e94dc77aec8338b5ab7cf04257657f4161f1b09b3d"
+      },
+      {
+        "file": "madabong-front-right-dash.png",
+        "sha256": "ecf5d4489feadcbbbb18293872f204bd7602eeae2422b584f5f6f6b6b17f557f"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-summon-0",
+        "sourceBounds": {
+          "left": 268,
+          "top": 20,
+          "right": 565,
+          "bottom": 379
+        },
+        "foot": [
+          186,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          279,
+          57
+        ]
+      },
+      {
+        "name": "1-summon-1",
+        "sourceBounds": {
+          "left": 882,
+          "top": 27,
+          "right": 1198,
+          "bottom": 388
+        },
+        "foot": [
+          199,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          260,
+          55
+        ]
+      },
+      {
+        "name": "1-summon-2",
+        "sourceBounds": {
+          "left": 166,
+          "top": 378,
+          "right": 653,
+          "bottom": 723
+        },
+        "foot": [
+          294,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          89,
+          71
+        ]
+      },
+      {
+        "name": "1-summon-3",
+        "sourceBounds": {
+          "left": 791,
+          "top": 376,
+          "right": 1286,
+          "bottom": 723
+        },
+        "foot": [
+          291,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          81,
+          69
+        ]
+      },
+      {
+        "name": "1-summon-4",
+        "sourceBounds": {
+          "left": 256,
+          "top": 696,
+          "right": 582,
+          "bottom": 1047
+        },
+        "foot": [
+          208,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          250,
+          65
+        ]
+      },
+      {
+        "name": "1-summon-5",
+        "sourceBounds": {
+          "left": 895,
+          "top": 697,
+          "right": 1197,
+          "bottom": 1056
+        },
+        "foot": [
+          193,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          274,
+          57
+        ]
+      },
+      {
+        "name": "1-dash-0",
+        "sourceBounds": {
+          "left": 273,
+          "top": 25,
+          "right": 563,
+          "bottom": 369
+        },
+        "foot": [
+          179,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          286,
+          72
+        ]
+      },
+      {
+        "name": "1-dash-1",
+        "sourceBounds": {
+          "left": 829,
+          "top": 56,
+          "right": 1203,
+          "bottom": 370
+        },
+        "foot": [
+          257,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          202,
+          102
+        ]
+      },
+      {
+        "name": "1-dash-2",
+        "sourceBounds": {
+          "left": 145,
+          "top": 381,
+          "right": 652,
+          "bottom": 715
+        },
+        "foot": [
+          337,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          69,
+          82
+        ]
+      },
+      {
+        "name": "1-dash-3",
+        "sourceBounds": {
+          "left": 794,
+          "top": 381,
+          "right": 1293,
+          "bottom": 703
+        },
+        "foot": [
+          320,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          77,
+          94
+        ]
+      },
+      {
+        "name": "1-dash-4",
+        "sourceBounds": {
+          "left": 279,
+          "top": 707,
+          "right": 570,
+          "bottom": 1057
+        },
+        "foot": [
+          181,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          285,
+          66
+        ]
+      },
+      {
+        "name": "1-dash-5",
+        "sourceBounds": {
+          "left": 906,
+          "top": 708,
+          "right": 1190,
+          "bottom": 1059
+        },
+        "foot": [
+          177,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          292,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madabong-right",
+    "sources": [
+      {
+        "file": "madabong-right-summon.png",
+        "sha256": "a286b9d4a09ae9e268083f61655766075eea1a3aafec6e8be756317834b7178e"
+      },
+      {
+        "file": "madabong-right-dash.png",
+        "sha256": "3638e53102fb3b7ae96482ef5112f794c1169de46535b99599fe93afcf9c3ef0"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-summon-0",
+        "sourceBounds": {
+          "left": 230,
+          "top": 10,
+          "right": 553,
+          "bottom": 369
+        },
+        "foot": [
+          196,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          253,
+          57
+        ]
+      },
+      {
+        "name": "2-summon-1",
+        "sourceBounds": {
+          "left": 898,
+          "top": 12,
+          "right": 1238,
+          "bottom": 369
+        },
+        "foot": [
+          196,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          236,
+          59
+        ]
+      },
+      {
+        "name": "2-summon-2",
+        "sourceBounds": {
+          "left": 216,
+          "top": 371,
+          "right": 631,
+          "bottom": 727
+        },
+        "foot": [
+          208,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          60
+        ]
+      },
+      {
+        "name": "2-summon-3",
+        "sourceBounds": {
+          "left": 881,
+          "top": 371,
+          "right": 1309,
+          "bottom": 729
+        },
+        "foot": [
+          215,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          58
+        ]
+      },
+      {
+        "name": "2-summon-4",
+        "sourceBounds": {
+          "left": 230,
+          "top": 719,
+          "right": 568,
+          "bottom": 1075
+        },
+        "foot": [
+          200,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          238,
+          60
+        ]
+      },
+      {
+        "name": "2-summon-5",
+        "sourceBounds": {
+          "left": 910,
+          "top": 717,
+          "right": 1240,
+          "bottom": 1074
+        },
+        "foot": [
+          196,
+          385
+        ],
+        "padding": [
+          32,
+          32,
+          246,
+          59
+        ]
+      },
+      {
+        "name": "2-dash-0",
+        "sourceBounds": {
+          "left": 265,
+          "top": 17,
+          "right": 584,
+          "bottom": 397
+        },
+        "foot": [
+          190,
+          407
+        ],
+        "padding": [
+          32,
+          32,
+          257,
+          36
+        ]
+      },
+      {
+        "name": "2-dash-1",
+        "sourceBounds": {
+          "left": 862,
+          "top": 63,
+          "right": 1263,
+          "bottom": 397
+        },
+        "foot": [
+          248,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          175,
+          82
+        ]
+      },
+      {
+        "name": "2-dash-2",
+        "sourceBounds": {
+          "left": 184,
+          "top": 412,
+          "right": 682,
+          "bottom": 731
+        },
+        "foot": [
+          324,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          78,
+          97
+        ]
+      },
+      {
+        "name": "2-dash-3",
+        "sourceBounds": {
+          "left": 823,
+          "top": 401,
+          "right": 1346,
+          "bottom": 733
+        },
+        "foot": [
+          324,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          53,
+          84
+        ]
+      },
+      {
+        "name": "2-dash-4",
+        "sourceBounds": {
+          "left": 278,
+          "top": 713,
+          "right": 656,
+          "bottom": 1070
+        },
+        "foot": [
+          215,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          198,
+          59
+        ]
+      },
+      {
+        "name": "2-dash-5",
+        "sourceBounds": {
+          "left": 966,
+          "top": 713,
+          "right": 1291,
+          "bottom": 1071
+        },
+        "foot": [
+          193,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          251,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madabong-rear-right",
+    "sources": [
+      {
+        "file": "madabong-rear-right-summon.png",
+        "sha256": "39322f5e10969b5009956bc8c068a63f65249f981d162611042fb32d6497ade0"
+      },
+      {
+        "file": "madabong-rear-right-dash.png",
+        "sha256": "131643b318db1fcac6361f41c7645dbbcc1516166502733b0a3095af41ffca4c"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-summon-0",
+        "sourceBounds": {
+          "left": 208,
+          "top": 61,
+          "right": 587,
+          "bottom": 433
+        },
+        "foot": [
+          162,
+          400
+        ],
+        "padding": [
+          32,
+          32,
+          197,
+          44
+        ]
+      },
+      {
+        "name": "3-summon-1",
+        "sourceBounds": {
+          "left": 722,
+          "top": 61,
+          "right": 1104,
+          "bottom": 427
+        },
+        "foot": [
+          161,
+          394
+        ],
+        "padding": [
+          32,
+          32,
+          194,
+          50
+        ]
+      },
+      {
+        "name": "3-summon-2",
+        "sourceBounds": {
+          "left": 213,
+          "top": 463,
+          "right": 635,
+          "bottom": 822
+        },
+        "foot": [
+          194,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          57
+        ]
+      },
+      {
+        "name": "3-summon-3",
+        "sourceBounds": {
+          "left": 701,
+          "top": 465,
+          "right": 1154,
+          "bottom": 824
+        },
+        "foot": [
+          214,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          57
+        ]
+      },
+      {
+        "name": "3-summon-4",
+        "sourceBounds": {
+          "left": 222,
+          "top": 842,
+          "right": 625,
+          "bottom": 1205
+        },
+        "foot": [
+          169,
+          391
+        ],
+        "padding": [
+          32,
+          32,
+          173,
+          53
+        ]
+      },
+      {
+        "name": "3-summon-5",
+        "sourceBounds": {
+          "left": 718,
+          "top": 851,
+          "right": 1089,
+          "bottom": 1210
+        },
+        "foot": [
+          158,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          205,
+          57
+        ]
+      },
+      {
+        "name": "3-dash-0",
+        "sourceBounds": {
+          "left": 231,
+          "top": 16,
+          "right": 664,
+          "bottom": 368
+        },
+        "foot": [
+          165,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          143,
+          64
+        ]
+      },
+      {
+        "name": "3-dash-1",
+        "sourceBounds": {
+          "left": 858,
+          "top": 46,
+          "right": 1221,
+          "bottom": 363
+        },
+        "foot": [
+          218,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          213,
+          99
+        ]
+      },
+      {
+        "name": "3-dash-2",
+        "sourceBounds": {
+          "left": 146,
+          "top": 388,
+          "right": 630,
+          "bottom": 719
+        },
+        "foot": [
+          279,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          92,
+          85
+        ]
+      },
+      {
+        "name": "3-dash-3",
+        "sourceBounds": {
+          "left": 857,
+          "top": 386,
+          "right": 1310,
+          "bottom": 714
+        },
+        "foot": [
+          231,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          123,
+          88
+        ]
+      },
+      {
+        "name": "3-dash-4",
+        "sourceBounds": {
+          "left": 218,
+          "top": 732,
+          "right": 530,
+          "bottom": 1073
+        },
+        "foot": [
+          200,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          264,
+          75
+        ]
+      },
+      {
+        "name": "3-dash-5",
+        "sourceBounds": {
+          "left": 895,
+          "top": 731,
+          "right": 1337,
+          "bottom": 1076
+        },
+        "foot": [
+          172,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          134,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madabong-back",
+    "sources": [
+      {
+        "file": "madabong-back-summon.png",
+        "sha256": "699f64d11398c8a274224375c9cb4b1790e89451f28ca0f1cfc439486d87beb3"
+      },
+      {
+        "file": "madabong-back-dash.png",
+        "sha256": "0d690bed74256304eef3ab58bc3821f41db2937bb83f780285e13edb6ab267ba"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-summon-0",
+        "sourceBounds": {
+          "left": 264,
+          "top": 15,
+          "right": 673,
+          "bottom": 358
+        },
+        "foot": [
+          168,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          167,
+          73
+        ]
+      },
+      {
+        "name": "4-summon-1",
+        "sourceBounds": {
+          "left": 862,
+          "top": 15,
+          "right": 1273,
+          "bottom": 363
+        },
+        "foot": [
+          171,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          165,
+          68
+        ]
+      },
+      {
+        "name": "4-summon-2",
+        "sourceBounds": {
+          "left": 265,
+          "top": 380,
+          "right": 707,
+          "bottom": 721
+        },
+        "foot": [
+          194,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          134,
+          75
+        ]
+      },
+      {
+        "name": "4-summon-3",
+        "sourceBounds": {
+          "left": 866,
+          "top": 379,
+          "right": 1313,
+          "bottom": 728
+        },
+        "foot": [
+          190,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          129,
+          67
+        ]
+      },
+      {
+        "name": "4-summon-4",
+        "sourceBounds": {
+          "left": 258,
+          "top": 730,
+          "right": 699,
+          "bottom": 1070
+        },
+        "foot": [
+          178,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          135,
+          76
+        ]
+      },
+      {
+        "name": "4-summon-5",
+        "sourceBounds": {
+          "left": 890,
+          "top": 730,
+          "right": 1303,
+          "bottom": 1068
+        },
+        "foot": [
+          173,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          163,
+          78
+        ]
+      },
+      {
+        "name": "4-dash-0",
+        "sourceBounds": {
+          "left": 246,
+          "top": 19,
+          "right": 640,
+          "bottom": 365
+        },
+        "foot": [
+          167,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          182,
+          70
+        ]
+      },
+      {
+        "name": "4-dash-1",
+        "sourceBounds": {
+          "left": 873,
+          "top": 75,
+          "right": 1217,
+          "bottom": 373
+        },
+        "foot": [
+          148,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          232,
+          118
+        ]
+      },
+      {
+        "name": "4-dash-2",
+        "sourceBounds": {
+          "left": 243,
+          "top": 389,
+          "right": 639,
+          "bottom": 702
+        },
+        "foot": [
+          191,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          180,
+          103
+        ]
+      },
+      {
+        "name": "4-dash-3",
+        "sourceBounds": {
+          "left": 849,
+          "top": 401,
+          "right": 1284,
+          "bottom": 705
+        },
+        "foot": [
+          238,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          112
+        ]
+      },
+      {
+        "name": "4-dash-4",
+        "sourceBounds": {
+          "left": 255,
+          "top": 716,
+          "right": 677,
+          "bottom": 1060
+        },
+        "foot": [
+          168,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          72
+        ]
+      },
+      {
+        "name": "4-dash-5",
+        "sourceBounds": {
+          "left": 885,
+          "top": 713,
+          "right": 1275,
+          "bottom": 1055
+        },
+        "foot": [
+          163,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          186,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nojin-front",
+    "sources": [
+      {
+        "file": "nojin-front-combo.png",
+        "sha256": "01667905f96bee65af57afa450150691edbb6495e3ea5ba5b40de71c4169d92a"
+      },
+      {
+        "file": "nojin-front-stance.png",
+        "sha256": "d6345274485970a016a0bc8ec6b19dfa036762b90ddeb2f9d908690327639055"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-combo-0",
+        "sourceBounds": {
+          "left": 169,
+          "top": 5,
+          "right": 616,
+          "bottom": 386
+        },
+        "foot": [
+          195,
+          409
+        ],
+        "padding": [
+          32,
+          32,
+          257,
+          67
+        ]
+      },
+      {
+        "name": "0-combo-1",
+        "sourceBounds": {
+          "left": 859,
+          "top": 9,
+          "right": 1401,
+          "bottom": 387
+        },
+        "foot": [
+          202,
+          406
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          70
+        ]
+      },
+      {
+        "name": "0-combo-2",
+        "sourceBounds": {
+          "left": 171,
+          "top": 389,
+          "right": 708,
+          "bottom": 719
+        },
+        "foot": [
+          204,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          167,
+          118
+        ]
+      },
+      {
+        "name": "0-combo-3",
+        "sourceBounds": {
+          "left": 846,
+          "top": 392,
+          "right": 1447,
+          "bottom": 717
+        },
+        "foot": [
+          205,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          103,
+          123
+        ]
+      },
+      {
+        "name": "0-combo-4",
+        "sourceBounds": {
+          "left": 170,
+          "top": 710,
+          "right": 663,
+          "bottom": 1079
+        },
+        "foot": [
+          201,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          211,
+          79
+        ]
+      },
+      {
+        "name": "0-combo-5",
+        "sourceBounds": {
+          "left": 884,
+          "top": 703,
+          "right": 1335,
+          "bottom": 1083
+        },
+        "foot": [
+          197,
+          408
+        ],
+        "padding": [
+          32,
+          32,
+          253,
+          68
+        ]
+      },
+      {
+        "name": "0-stance-0",
+        "sourceBounds": {
+          "left": 161,
+          "top": 18,
+          "right": 576,
+          "bottom": 422
+        },
+        "foot": [
+          193,
+          432
+        ],
+        "padding": [
+          32,
+          32,
+          289,
+          44
+        ]
+      },
+      {
+        "name": "0-stance-1",
+        "sourceBounds": {
+          "left": 754,
+          "top": 22,
+          "right": 1142,
+          "bottom": 418
+        },
+        "foot": [
+          201,
+          418
+        ],
+        "padding": [
+          32,
+          32,
+          316,
+          52
+        ]
+      },
+      {
+        "name": "0-stance-2",
+        "sourceBounds": {
+          "left": 163,
+          "top": 433,
+          "right": 566,
+          "bottom": 833
+        },
+        "foot": [
+          192,
+          428
+        ],
+        "padding": [
+          32,
+          32,
+          301,
+          48
+        ]
+      },
+      {
+        "name": "0-stance-3",
+        "sourceBounds": {
+          "left": 747,
+          "top": 430,
+          "right": 1150,
+          "bottom": 832
+        },
+        "foot": [
+          194,
+          429
+        ],
+        "padding": [
+          32,
+          32,
+          301,
+          46
+        ]
+      },
+      {
+        "name": "0-stance-4",
+        "sourceBounds": {
+          "left": 173,
+          "top": 846,
+          "right": 577,
+          "bottom": 1233
+        },
+        "foot": [
+          191,
+          415
+        ],
+        "padding": [
+          32,
+          32,
+          300,
+          61
+        ]
+      },
+      {
+        "name": "0-stance-5",
+        "sourceBounds": {
+          "left": 757,
+          "top": 846,
+          "right": 1168,
+          "bottom": 1235
+        },
+        "foot": [
+          191,
+          416
+        ],
+        "padding": [
+          32,
+          32,
+          293,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nojin-front-right",
+    "sources": [
+      {
+        "file": "nojin-front-right-combo.png",
+        "sha256": "b78f5e8889242571af1911de03e57d6820b40a9d66234bfd79d5d0cd2d20927a"
+      },
+      {
+        "file": "nojin-front-right-stance.png",
+        "sha256": "6658f312a6a72332b0d219deaae12a8a0cb0342838a092bb0ca437ce36b0d25c"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-combo-0",
+        "sourceBounds": {
+          "left": 133,
+          "top": 24,
+          "right": 572,
+          "bottom": 406
+        },
+        "foot": [
+          195,
+          410
+        ],
+        "padding": [
+          32,
+          32,
+          265,
+          66
+        ]
+      },
+      {
+        "name": "1-combo-1",
+        "sourceBounds": {
+          "left": 795,
+          "top": 37,
+          "right": 1354,
+          "bottom": 405
+        },
+        "foot": [
+          199,
+          397
+        ],
+        "padding": [
+          32,
+          32,
+          145,
+          80
+        ]
+      },
+      {
+        "name": "1-combo-2",
+        "sourceBounds": {
+          "left": 114,
+          "top": 428,
+          "right": 739,
+          "bottom": 734
+        },
+        "foot": [
+          207,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          79,
+          142
+        ]
+      },
+      {
+        "name": "1-combo-3",
+        "sourceBounds": {
+          "left": 790,
+          "top": 417,
+          "right": 1434,
+          "bottom": 737
+        },
+        "foot": [
+          203,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          60,
+          128
+        ]
+      },
+      {
+        "name": "1-combo-4",
+        "sourceBounds": {
+          "left": 140,
+          "top": 730,
+          "right": 662,
+          "bottom": 1069
+        },
+        "foot": [
+          217,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          182,
+          109
+        ]
+      },
+      {
+        "name": "1-combo-5",
+        "sourceBounds": {
+          "left": 839,
+          "top": 728,
+          "right": 1302,
+          "bottom": 1071
+        },
+        "foot": [
+          233,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          241,
+          105
+        ]
+      },
+      {
+        "name": "1-stance-0",
+        "sourceBounds": {
+          "left": 158,
+          "top": 60,
+          "right": 561,
+          "bottom": 448
+        },
+        "foot": [
+          190,
+          416
+        ],
+        "padding": [
+          32,
+          32,
+          301,
+          60
+        ]
+      },
+      {
+        "name": "1-stance-1",
+        "sourceBounds": {
+          "left": 722,
+          "top": 58,
+          "right": 1112,
+          "bottom": 457
+        },
+        "foot": [
+          196,
+          427
+        ],
+        "padding": [
+          32,
+          32,
+          314,
+          49
+        ]
+      },
+      {
+        "name": "1-stance-2",
+        "sourceBounds": {
+          "left": 166,
+          "top": 449,
+          "right": 565,
+          "bottom": 839
+        },
+        "foot": [
+          188,
+          418
+        ],
+        "padding": [
+          32,
+          32,
+          305,
+          58
+        ]
+      },
+      {
+        "name": "1-stance-3",
+        "sourceBounds": {
+          "left": 706,
+          "top": 451,
+          "right": 1121,
+          "bottom": 843
+        },
+        "foot": [
+          201,
+          420
+        ],
+        "padding": [
+          32,
+          32,
+          289,
+          56
+        ]
+      },
+      {
+        "name": "1-stance-4",
+        "sourceBounds": {
+          "left": 172,
+          "top": 845,
+          "right": 573,
+          "bottom": 1224
+        },
+        "foot": [
+          187,
+          407
+        ],
+        "padding": [
+          32,
+          32,
+          303,
+          69
+        ]
+      },
+      {
+        "name": "1-stance-5",
+        "sourceBounds": {
+          "left": 712,
+          "top": 846,
+          "right": 1120,
+          "bottom": 1232
+        },
+        "foot": [
+          192,
+          414
+        ],
+        "padding": [
+          32,
+          32,
+          296,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nojin-right",
+    "sources": [
+      {
+        "file": "nojin-right-combo.png",
+        "sha256": "4d9c4cc3cfe155ad6e7775611d4501ca5fbb0834771b271e4fa7dc61cf24fe1e"
+      },
+      {
+        "file": "nojin-right-stance.png",
+        "sha256": "e824de0fb6e905a60aa69b57553681faf3e9ab95a0f8d3265d2a39273c55df43"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-combo-0",
+        "sourceBounds": {
+          "left": 167,
+          "top": 30,
+          "right": 644,
+          "bottom": 420
+        },
+        "foot": [
+          233,
+          418
+        ],
+        "padding": [
+          32,
+          32,
+          227,
+          58
+        ]
+      },
+      {
+        "name": "2-combo-1",
+        "sourceBounds": {
+          "left": 828,
+          "top": 49,
+          "right": 1289,
+          "bottom": 418
+        },
+        "foot": [
+          191,
+          398
+        ],
+        "padding": [
+          32,
+          32,
+          243,
+          79
+        ]
+      },
+      {
+        "name": "2-combo-2",
+        "sourceBounds": {
+          "left": 132,
+          "top": 427,
+          "right": 801,
+          "bottom": 749
+        },
+        "foot": [
+          233,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          35,
+          126
+        ]
+      },
+      {
+        "name": "2-combo-3",
+        "sourceBounds": {
+          "left": 796,
+          "top": 453,
+          "right": 1441,
+          "bottom": 750
+        },
+        "foot": [
+          207,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          59,
+          151
+        ]
+      },
+      {
+        "name": "2-combo-4",
+        "sourceBounds": {
+          "left": 180,
+          "top": 752,
+          "right": 630,
+          "bottom": 1078
+        },
+        "foot": [
+          201,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          254,
+          122
+        ]
+      },
+      {
+        "name": "2-combo-5",
+        "sourceBounds": {
+          "left": 835,
+          "top": 745,
+          "right": 1339,
+          "bottom": 1079
+        },
+        "foot": [
+          230,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          200,
+          114
+        ]
+      },
+      {
+        "name": "2-stance-0",
+        "sourceBounds": {
+          "left": 142,
+          "top": 46,
+          "right": 562,
+          "bottom": 452
+        },
+        "foot": [
+          238,
+          417
+        ],
+        "padding": [
+          32,
+          32,
+          284,
+          42
+        ]
+      },
+      {
+        "name": "2-stance-1",
+        "sourceBounds": {
+          "left": 717,
+          "top": 50,
+          "right": 1138,
+          "bottom": 453
+        },
+        "foot": [
+          237,
+          413
+        ],
+        "padding": [
+          32,
+          32,
+          283,
+          45
+        ]
+      },
+      {
+        "name": "2-stance-2",
+        "sourceBounds": {
+          "left": 137,
+          "top": 454,
+          "right": 564,
+          "bottom": 858
+        },
+        "foot": [
+          244,
+          414
+        ],
+        "padding": [
+          32,
+          32,
+          277,
+          44
+        ]
+      },
+      {
+        "name": "2-stance-3",
+        "sourceBounds": {
+          "left": 709,
+          "top": 461,
+          "right": 1137,
+          "bottom": 860
+        },
+        "foot": [
+          245,
+          406
+        ],
+        "padding": [
+          32,
+          32,
+          276,
+          49
+        ]
+      },
+      {
+        "name": "2-stance-4",
+        "sourceBounds": {
+          "left": 135,
+          "top": 855,
+          "right": 565,
+          "bottom": 1227
+        },
+        "foot": [
+          243,
+          396
+        ],
+        "padding": [
+          32,
+          32,
+          274,
+          76
+        ]
+      },
+      {
+        "name": "2-stance-5",
+        "sourceBounds": {
+          "left": 705,
+          "top": 857,
+          "right": 1161,
+          "bottom": 1223
+        },
+        "foot": [
+          226,
+          394
+        ],
+        "padding": [
+          32,
+          32,
+          248,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nojin-rear-right",
+    "sources": [
+      {
+        "file": "nojin-rear-right-combo.png",
+        "sha256": "7fa5a3497e6b940221bcaa29d72672ad0f8224a7e48140855da1795c811e68e9"
+      },
+      {
+        "file": "nojin-rear-right-stance.png",
+        "sha256": "b2da90f81bfd42c0e3f5c527585b8f31f4c0444f48b3c073be22cc2c50778ee1"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-combo-0",
+        "sourceBounds": {
+          "left": 162,
+          "top": 15,
+          "right": 637,
+          "bottom": 373
+        },
+        "foot": [
+          200,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          229,
+          90
+        ]
+      },
+      {
+        "name": "3-combo-1",
+        "sourceBounds": {
+          "left": 865,
+          "top": 20,
+          "right": 1350,
+          "bottom": 377
+        },
+        "foot": [
+          176,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          219,
+          91
+        ]
+      },
+      {
+        "name": "3-combo-2",
+        "sourceBounds": {
+          "left": 121,
+          "top": 391,
+          "right": 763,
+          "bottom": 724
+        },
+        "foot": [
+          173,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          62,
+          115
+        ]
+      },
+      {
+        "name": "3-combo-3",
+        "sourceBounds": {
+          "left": 801,
+          "top": 393,
+          "right": 1434,
+          "bottom": 724
+        },
+        "foot": [
+          180,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          71,
+          117
+        ]
+      },
+      {
+        "name": "3-combo-4",
+        "sourceBounds": {
+          "left": 158,
+          "top": 718,
+          "right": 629,
+          "bottom": 1075
+        },
+        "foot": [
+          183,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          233,
+          91
+        ]
+      },
+      {
+        "name": "3-combo-5",
+        "sourceBounds": {
+          "left": 879,
+          "top": 718,
+          "right": 1356,
+          "bottom": 1070
+        },
+        "foot": [
+          200,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          227,
+          96
+        ]
+      },
+      {
+        "name": "3-stance-0",
+        "sourceBounds": {
+          "left": 164,
+          "top": 59,
+          "right": 586,
+          "bottom": 427
+        },
+        "foot": [
+          186,
+          396
+        ],
+        "padding": [
+          32,
+          32,
+          282,
+          80
+        ]
+      },
+      {
+        "name": "3-stance-1",
+        "sourceBounds": {
+          "left": 726,
+          "top": 59,
+          "right": 1171,
+          "bottom": 425
+        },
+        "foot": [
+          197,
+          394
+        ],
+        "padding": [
+          32,
+          32,
+          259,
+          82
+        ]
+      },
+      {
+        "name": "3-stance-2",
+        "sourceBounds": {
+          "left": 164,
+          "top": 441,
+          "right": 591,
+          "bottom": 812
+        },
+        "foot": [
+          183,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          277,
+          77
+        ]
+      },
+      {
+        "name": "3-stance-3",
+        "sourceBounds": {
+          "left": 725,
+          "top": 441,
+          "right": 1159,
+          "bottom": 814
+        },
+        "foot": [
+          190,
+          402
+        ],
+        "padding": [
+          32,
+          32,
+          270,
+          75
+        ]
+      },
+      {
+        "name": "3-stance-4",
+        "sourceBounds": {
+          "left": 157,
+          "top": 829,
+          "right": 590,
+          "bottom": 1195
+        },
+        "foot": [
+          193,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          271,
+          82
+        ]
+      },
+      {
+        "name": "3-stance-5",
+        "sourceBounds": {
+          "left": 728,
+          "top": 830,
+          "right": 1163,
+          "bottom": 1197
+        },
+        "foot": [
+          199,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          269,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nojin-back",
+    "sources": [
+      {
+        "file": "nojin-back-combo.png",
+        "sha256": "fb242b65bdd3b07282779b45d0bffb07523c59f04e3db9b0a2173f8f4a2eafef"
+      },
+      {
+        "file": "nojin-back-stance.png",
+        "sha256": "641a2d61fb68c31026177b39d8edf13ec2be1d91f5f7d5fb6cc8971363f8d0cf"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-combo-0",
+        "sourceBounds": {
+          "left": 221,
+          "top": 48,
+          "right": 445,
+          "bottom": 418
+        },
+        "foot": [
+          146,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          480,
+          78
+        ]
+      },
+      {
+        "name": "4-combo-1",
+        "sourceBounds": {
+          "left": 752,
+          "top": 48,
+          "right": 997,
+          "bottom": 422
+        },
+        "foot": [
+          156,
+          402
+        ],
+        "padding": [
+          32,
+          32,
+          459,
+          74
+        ]
+      },
+      {
+        "name": "4-combo-2",
+        "sourceBounds": {
+          "left": 224,
+          "top": 446,
+          "right": 459,
+          "bottom": 835
+        },
+        "foot": [
+          144,
+          417
+        ],
+        "padding": [
+          32,
+          32,
+          469,
+          59
+        ]
+      },
+      {
+        "name": "4-combo-3",
+        "sourceBounds": {
+          "left": 780,
+          "top": 430,
+          "right": 1005,
+          "bottom": 833
+        },
+        "foot": [
+          144,
+          431
+        ],
+        "padding": [
+          32,
+          32,
+          479,
+          45
+        ]
+      },
+      {
+        "name": "4-combo-4",
+        "sourceBounds": {
+          "left": 226,
+          "top": 866,
+          "right": 449,
+          "bottom": 1233
+        },
+        "foot": [
+          140,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          481,
+          81
+        ]
+      },
+      {
+        "name": "4-combo-5",
+        "sourceBounds": {
+          "left": 790,
+          "top": 866,
+          "right": 1018,
+          "bottom": 1220
+        },
+        "foot": [
+          148,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          476,
+          94
+        ]
+      },
+      {
+        "name": "4-stance-0",
+        "sourceBounds": {
+          "left": 251,
+          "top": 56,
+          "right": 599,
+          "bottom": 391
+        },
+        "foot": [
+          132,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          356,
+          113
+        ]
+      },
+      {
+        "name": "4-stance-1",
+        "sourceBounds": {
+          "left": 756,
+          "top": 59,
+          "right": 1113,
+          "bottom": 393
+        },
+        "foot": [
+          148,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          347,
+          114
+        ]
+      },
+      {
+        "name": "4-stance-2",
+        "sourceBounds": {
+          "left": 238,
+          "top": 451,
+          "right": 625,
+          "bottom": 784
+        },
+        "foot": [
+          175,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          317,
+          115
+        ]
+      },
+      {
+        "name": "4-stance-3",
+        "sourceBounds": {
+          "left": 751,
+          "top": 452,
+          "right": 1148,
+          "bottom": 788
+        },
+        "foot": [
+          183,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          307,
+          112
+        ]
+      },
+      {
+        "name": "4-stance-4",
+        "sourceBounds": {
+          "left": 756,
+          "top": 59,
+          "right": 1113,
+          "bottom": 393
+        },
+        "foot": [
+          148,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          347,
+          114
+        ]
+      },
+      {
+        "name": "4-stance-5",
+        "sourceBounds": {
+          "left": 772,
+          "top": 845,
+          "right": 1137,
+          "bottom": 1179
+        },
+        "foot": [
+          157,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          339,
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-front",
+    "sources": [
+      {
+        "file": "cheolmu-front-thrust.png",
+        "sha256": "6d195602856ecfedc93f526ad205ae9ef238427acb87478f719318433d044af5"
+      },
+      {
+        "file": "cheolmu-front-sweep.png",
+        "sha256": "5e93c19f8b32425dc035a06ffe308ab147559873f8514b3748d403ba5c689039"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-thrust-0",
+        "sourceBounds": {
+          "left": 256,
+          "top": 71,
+          "right": 510,
+          "bottom": 415
+        },
+        "foot": [
+          148,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          418,
+          168
+        ]
+      },
+      {
+        "name": "0-thrust-1",
+        "sourceBounds": {
+          "left": 763,
+          "top": 71,
+          "right": 1067,
+          "bottom": 421
+        },
+        "foot": [
+          192,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          368,
+          162
+        ]
+      },
+      {
+        "name": "0-thrust-2",
+        "sourceBounds": {
+          "left": 195,
+          "top": 466,
+          "right": 513,
+          "bottom": 810
+        },
+        "foot": [
+          223,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          354,
+          168
+        ]
+      },
+      {
+        "name": "0-thrust-3",
+        "sourceBounds": {
+          "left": 741,
+          "top": 468,
+          "right": 1073,
+          "bottom": 805
+        },
+        "foot": [
+          232,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          340,
+          175
+        ]
+      },
+      {
+        "name": "0-thrust-4",
+        "sourceBounds": {
+          "left": 252,
+          "top": 859,
+          "right": 520,
+          "bottom": 1202
+        },
+        "foot": [
+          155,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          404,
+          169
+        ]
+      },
+      {
+        "name": "0-thrust-5",
+        "sourceBounds": {
+          "left": 774,
+          "top": 859,
+          "right": 1073,
+          "bottom": 1206
+        },
+        "foot": [
+          185,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          373,
+          165
+        ]
+      },
+      {
+        "name": "0-sweep-0",
+        "sourceBounds": {
+          "left": 230,
+          "top": 16,
+          "right": 549,
+          "bottom": 368
+        },
+        "foot": [
+          197,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          353,
+          160
+        ]
+      },
+      {
+        "name": "0-sweep-1",
+        "sourceBounds": {
+          "left": 820,
+          "top": 29,
+          "right": 1239,
+          "bottom": 364
+        },
+        "foot": [
+          257,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          253,
+          177
+        ]
+      },
+      {
+        "name": "0-sweep-2",
+        "sourceBounds": {
+          "left": 223,
+          "top": 374,
+          "right": 692,
+          "bottom": 714
+        },
+        "foot": [
+          210,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          203,
+          172
+        ]
+      },
+      {
+        "name": "0-sweep-3",
+        "sourceBounds": {
+          "left": 831,
+          "top": 381,
+          "right": 1435,
+          "bottom": 720
+        },
+        "foot": [
+          215,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          68,
+          173
+        ]
+      },
+      {
+        "name": "0-sweep-4",
+        "sourceBounds": {
+          "left": 236,
+          "top": 723,
+          "right": 566,
+          "bottom": 1067
+        },
+        "foot": [
+          188,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          342,
+          168
+        ]
+      },
+      {
+        "name": "0-sweep-5",
+        "sourceBounds": {
+          "left": 877,
+          "top": 722,
+          "right": 1210,
+          "bottom": 1070
+        },
+        "foot": [
+          208,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          339,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-front-right",
+    "sources": [
+      {
+        "file": "cheolmu-front-right-thrust.png",
+        "sha256": "1e5374a1aedd3c8a4d31fcbd055b535e6bb037d5f5d523a1fbf214fcb293860b"
+      },
+      {
+        "file": "cheolmu-front-right-sweep.png",
+        "sha256": "7f2ade236979dc3d62028b3afac61b9299639e9028374f65e59fe81bf44308ef"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-thrust-0",
+        "sourceBounds": {
+          "left": 194,
+          "top": 52,
+          "right": 457,
+          "bottom": 408
+        },
+        "foot": [
+          156,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          409,
+          156
+        ]
+      },
+      {
+        "name": "1-thrust-1",
+        "sourceBounds": {
+          "left": 739,
+          "top": 50,
+          "right": 1032,
+          "bottom": 409
+        },
+        "foot": [
+          190,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          379,
+          153
+        ]
+      },
+      {
+        "name": "1-thrust-2",
+        "sourceBounds": {
+          "left": 204,
+          "top": 454,
+          "right": 673,
+          "bottom": 801
+        },
+        "foot": [
+          165,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          203,
+          165
+        ]
+      },
+      {
+        "name": "1-thrust-3",
+        "sourceBounds": {
+          "left": 738,
+          "top": 468,
+          "right": 1203,
+          "bottom": 795
+        },
+        "foot": [
+          200,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          207,
+          185
+        ]
+      },
+      {
+        "name": "1-thrust-4",
+        "sourceBounds": {
+          "left": 209,
+          "top": 848,
+          "right": 496,
+          "bottom": 1205
+        },
+        "foot": [
+          189,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          385,
+          155
+        ]
+      },
+      {
+        "name": "1-thrust-5",
+        "sourceBounds": {
+          "left": 789,
+          "top": 855,
+          "right": 1066,
+          "bottom": 1211
+        },
+        "foot": [
+          170,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          395,
+          156
+        ]
+      },
+      {
+        "name": "1-sweep-0",
+        "sourceBounds": {
+          "left": 194,
+          "top": 77,
+          "right": 511,
+          "bottom": 428
+        },
+        "foot": [
+          202,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          355,
+          161
+        ]
+      },
+      {
+        "name": "1-sweep-1",
+        "sourceBounds": {
+          "left": 671,
+          "top": 84,
+          "right": 1062,
+          "bottom": 432
+        },
+        "foot": [
+          286,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          281,
+          164
+        ]
+      },
+      {
+        "name": "1-sweep-2",
+        "sourceBounds": {
+          "left": 216,
+          "top": 483,
+          "right": 678,
+          "bottom": 816
+        },
+        "foot": [
+          181,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          210,
+          179
+        ]
+      },
+      {
+        "name": "1-sweep-3",
+        "sourceBounds": {
+          "left": 745,
+          "top": 485,
+          "right": 1216,
+          "bottom": 819
+        },
+        "foot": [
+          189,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          201,
+          178
+        ]
+      },
+      {
+        "name": "1-sweep-4",
+        "sourceBounds": {
+          "left": 233,
+          "top": 863,
+          "right": 529,
+          "bottom": 1210
+        },
+        "foot": [
+          187,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          376,
+          165
+        ]
+      },
+      {
+        "name": "1-sweep-5",
+        "sourceBounds": {
+          "left": 741,
+          "top": 862,
+          "right": 1057,
+          "bottom": 1211
+        },
+        "foot": [
+          203,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          356,
+          163
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-right",
+    "sources": [
+      {
+        "file": "cheolmu-right-thrust.png",
+        "sha256": "1093c5a3a7eeddd472b129d656795f71f42abb46db24b850fe0f320f6d25b115"
+      },
+      {
+        "file": "cheolmu-right-sweep.png",
+        "sha256": "7c0311657b8394809832b6a276beb2f3c96e488ee61a08e97ea5a837ac8b49e3"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-thrust-0",
+        "sourceBounds": {
+          "left": 182,
+          "top": 8,
+          "right": 473,
+          "bottom": 359
+        },
+        "foot": [
+          171,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          381,
+          161
+        ]
+      },
+      {
+        "name": "2-thrust-1",
+        "sourceBounds": {
+          "left": 877,
+          "top": 10,
+          "right": 1194,
+          "bottom": 359
+        },
+        "foot": [
+          188,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          355,
+          163
+        ]
+      },
+      {
+        "name": "2-thrust-2",
+        "sourceBounds": {
+          "left": 150,
+          "top": 377,
+          "right": 777,
+          "bottom": 704
+        },
+        "foot": [
+          193,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          45,
+          185
+        ]
+      },
+      {
+        "name": "2-thrust-3",
+        "sourceBounds": {
+          "left": 867,
+          "top": 397,
+          "right": 1442,
+          "bottom": 704
+        },
+        "foot": [
+          194,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          97,
+          205
+        ]
+      },
+      {
+        "name": "2-thrust-4",
+        "sourceBounds": {
+          "left": 182,
+          "top": 720,
+          "right": 526,
+          "bottom": 1067
+        },
+        "foot": [
+          181,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          328,
+          165
+        ]
+      },
+      {
+        "name": "2-thrust-5",
+        "sourceBounds": {
+          "left": 904,
+          "top": 722,
+          "right": 1201,
+          "bottom": 1069
+        },
+        "foot": [
+          175,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          375,
+          165
+        ]
+      },
+      {
+        "name": "2-sweep-0",
+        "sourceBounds": {
+          "left": 199,
+          "top": 82,
+          "right": 447,
+          "bottom": 434
+        },
+        "foot": [
+          160,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          424,
+          160
+        ]
+      },
+      {
+        "name": "2-sweep-1",
+        "sourceBounds": {
+          "left": 678,
+          "top": 96,
+          "right": 1021,
+          "bottom": 430
+        },
+        "foot": [
+          225,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          329,
+          178
+        ]
+      },
+      {
+        "name": "2-sweep-2",
+        "sourceBounds": {
+          "left": 173,
+          "top": 492,
+          "right": 631,
+          "bottom": 819
+        },
+        "foot": [
+          155,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          214,
+          185
+        ]
+      },
+      {
+        "name": "2-sweep-3",
+        "sourceBounds": {
+          "left": 707,
+          "top": 501,
+          "right": 1165,
+          "bottom": 812
+        },
+        "foot": [
+          166,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          214,
+          201
+        ]
+      },
+      {
+        "name": "2-sweep-4",
+        "sourceBounds": {
+          "left": 207,
+          "top": 851,
+          "right": 466,
+          "bottom": 1188
+        },
+        "foot": [
+          150,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          413,
+          175
+        ]
+      },
+      {
+        "name": "2-sweep-5",
+        "sourceBounds": {
+          "left": 773,
+          "top": 854,
+          "right": 1025,
+          "bottom": 1196
+        },
+        "foot": [
+          161,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          420,
+          170
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-rear-right",
+    "sources": [
+      {
+        "file": "cheolmu-rear-right-thrust.png",
+        "sha256": "68522ef63093f8c35682274bda5a6b5f9351ff51efa6351aa1ab34c6f1862108"
+      },
+      {
+        "file": "cheolmu-rear-right-sweep.png",
+        "sha256": "b19e6030b889801fe55098b041079923181f4d8e8b77a3be8febff1b84a2d658"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-thrust-0",
+        "sourceBounds": {
+          "left": 240,
+          "top": 90,
+          "right": 455,
+          "bottom": 427
+        },
+        "foot": [
+          135,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          457,
+          175
+        ]
+      },
+      {
+        "name": "3-thrust-1",
+        "sourceBounds": {
+          "left": 789,
+          "top": 100,
+          "right": 1042,
+          "bottom": 427
+        },
+        "foot": [
+          160,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          419,
+          185
+        ]
+      },
+      {
+        "name": "3-thrust-2",
+        "sourceBounds": {
+          "left": 187,
+          "top": 511,
+          "right": 640,
+          "bottom": 815
+        },
+        "foot": [
+          168,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          219,
+          208
+        ]
+      },
+      {
+        "name": "3-thrust-3",
+        "sourceBounds": {
+          "left": 744,
+          "top": 519,
+          "right": 1214,
+          "bottom": 824
+        },
+        "foot": [
+          162,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          202,
+          207
+        ]
+      },
+      {
+        "name": "3-thrust-4",
+        "sourceBounds": {
+          "left": 213,
+          "top": 884,
+          "right": 478,
+          "bottom": 1206
+        },
+        "foot": [
+          163,
+          350
+        ],
+        "padding": [
+          32,
+          32,
+          407,
+          190
+        ]
+      },
+      {
+        "name": "3-thrust-5",
+        "sourceBounds": {
+          "left": 804,
+          "top": 890,
+          "right": 1020,
+          "bottom": 1225
+        },
+        "foot": [
+          134,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          456,
+          177
+        ]
+      },
+      {
+        "name": "3-sweep-0",
+        "sourceBounds": {
+          "left": 264,
+          "top": 18,
+          "right": 558,
+          "bottom": 368
+        },
+        "foot": [
+          183,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          378,
+          162
+        ]
+      },
+      {
+        "name": "3-sweep-1",
+        "sourceBounds": {
+          "left": 814,
+          "top": 20,
+          "right": 1211,
+          "bottom": 364
+        },
+        "foot": [
+          238,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          275,
+          168
+        ]
+      },
+      {
+        "name": "3-sweep-2",
+        "sourceBounds": {
+          "left": 217,
+          "top": 374,
+          "right": 692,
+          "bottom": 702
+        },
+        "foot": [
+          214,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          197,
+          184
+        ]
+      },
+      {
+        "name": "3-sweep-3",
+        "sourceBounds": {
+          "left": 827,
+          "top": 372,
+          "right": 1394,
+          "bottom": 706
+        },
+        "foot": [
+          216,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          178
+        ]
+      },
+      {
+        "name": "3-sweep-4",
+        "sourceBounds": {
+          "left": 289,
+          "top": 711,
+          "right": 587,
+          "bottom": 1062
+        },
+        "foot": [
+          153,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          374,
+          161
+        ]
+      },
+      {
+        "name": "3-sweep-5",
+        "sourceBounds": {
+          "left": 862,
+          "top": 719,
+          "right": 1160,
+          "bottom": 1067
+        },
+        "foot": [
+          184,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          374,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cheolmu-back",
+    "sources": [
+      {
+        "file": "cheolmu-back-thrust.png",
+        "sha256": "6c552eb1cf60f491883f062ac405aecd979a9f210cfb51334c652b97534d062f"
+      },
+      {
+        "file": "cheolmu-back-sweep.png",
+        "sha256": "0df84be15edd1219378e6c097b291744b0a9af8efe6a068e867c4699e8b7aebc"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-thrust-0",
+        "sourceBounds": {
+          "left": 237,
+          "top": 46,
+          "right": 502,
+          "bottom": 361
+        },
+        "foot": [
+          162,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          407,
+          197
+        ]
+      },
+      {
+        "name": "4-thrust-1",
+        "sourceBounds": {
+          "left": 762,
+          "top": 59,
+          "right": 1042,
+          "bottom": 361
+        },
+        "foot": [
+          173,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          392,
+          210
+        ]
+      },
+      {
+        "name": "4-thrust-2",
+        "sourceBounds": {
+          "left": 233,
+          "top": 387,
+          "right": 472,
+          "bottom": 837
+        },
+        "foot": [
+          166,
+          478
+        ],
+        "padding": [
+          32,
+          32,
+          433,
+          62
+        ]
+      },
+      {
+        "name": "4-thrust-3",
+        "sourceBounds": {
+          "left": 740,
+          "top": 387,
+          "right": 1002,
+          "bottom": 835
+        },
+        "foot": [
+          181,
+          476
+        ],
+        "padding": [
+          32,
+          32,
+          410,
+          64
+        ]
+      },
+      {
+        "name": "4-thrust-4",
+        "sourceBounds": {
+          "left": 217,
+          "top": 877,
+          "right": 480,
+          "bottom": 1194
+        },
+        "foot": [
+          180,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          409,
+          195
+        ]
+      },
+      {
+        "name": "4-thrust-5",
+        "sourceBounds": {
+          "left": 754,
+          "top": 877,
+          "right": 1033,
+          "bottom": 1189
+        },
+        "foot": [
+          171,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          393,
+          200
+        ]
+      },
+      {
+        "name": "4-sweep-0",
+        "sourceBounds": {
+          "left": 209,
+          "top": 22,
+          "right": 522,
+          "bottom": 354
+        },
+        "foot": [
+          189,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          359,
+          180
+        ]
+      },
+      {
+        "name": "4-sweep-1",
+        "sourceBounds": {
+          "left": 953,
+          "top": 26,
+          "right": 1297,
+          "bottom": 362
+        },
+        "foot": [
+          204,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          328,
+          176
+        ]
+      },
+      {
+        "name": "4-sweep-2",
+        "sourceBounds": {
+          "left": 186,
+          "top": 395,
+          "right": 652,
+          "bottom": 720
+        },
+        "foot": [
+          233,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          206,
+          187
+        ]
+      },
+      {
+        "name": "4-sweep-3",
+        "sourceBounds": {
+          "left": 955,
+          "top": 398,
+          "right": 1396,
+          "bottom": 723
+        },
+        "foot": [
+          186,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          231,
+          187
+        ]
+      },
+      {
+        "name": "4-sweep-4",
+        "sourceBounds": {
+          "left": 204,
+          "top": 741,
+          "right": 510,
+          "bottom": 1071
+        },
+        "foot": [
+          196,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          366,
+          182
+        ]
+      },
+      {
+        "name": "4-sweep-5",
+        "sourceBounds": {
+          "left": 946,
+          "top": 739,
+          "right": 1260,
+          "bottom": 1068
+        },
+        "foot": [
+          189,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          358,
+          183
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-front",
+    "sources": [
+      {
+        "file": "hanmugeuk-front-slash.png",
+        "sha256": "77c5ef7f235f9442af27333f1dda1a22af070c4d2404c38a1267b56ac8884747"
+      },
+      {
+        "file": "hanmugeuk-front-sweep.png",
+        "sha256": "bd51e44bb8477f65f13558120b51172fdf0769e43db3a265c23b27cc73add5ca"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-slash-0",
+        "sourceBounds": {
+          "left": 157,
+          "top": 27,
+          "right": 539,
+          "bottom": 385
+        },
+        "foot": [
+          284,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          290,
+          90
+        ]
+      },
+      {
+        "name": "0-slash-1",
+        "sourceBounds": {
+          "left": 902,
+          "top": 5,
+          "right": 1259,
+          "bottom": 400
+        },
+        "foot": [
+          204,
+          423
+        ],
+        "padding": [
+          32,
+          32,
+          315,
+          53
+        ]
+      },
+      {
+        "name": "0-slash-2",
+        "sourceBounds": {
+          "left": 218,
+          "top": 386,
+          "right": 613,
+          "bottom": 723
+        },
+        "foot": [
+          152,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          277,
+          111
+        ]
+      },
+      {
+        "name": "0-slash-3",
+        "sourceBounds": {
+          "left": 841,
+          "top": 410,
+          "right": 1282,
+          "bottom": 731
+        },
+        "foot": [
+          221,
+          317
+        ],
+        "padding": [
+          32,
+          32,
+          231,
+          127
+        ]
+      },
+      {
+        "name": "0-slash-4",
+        "sourceBounds": {
+          "left": 100,
+          "top": 718,
+          "right": 572,
+          "bottom": 1071
+        },
+        "foot": [
+          327,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          200,
+          95
+        ]
+      },
+      {
+        "name": "0-slash-5",
+        "sourceBounds": {
+          "left": 812,
+          "top": 716,
+          "right": 1234,
+          "bottom": 1065
+        },
+        "foot": [
+          307,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          250,
+          99
+        ]
+      },
+      {
+        "name": "0-sweep-0",
+        "sourceBounds": {
+          "left": 143,
+          "top": 15,
+          "right": 534,
+          "bottom": 382
+        },
+        "foot": [
+          290,
+          392
+        ],
+        "padding": [
+          32,
+          32,
+          281,
+          81
+        ]
+      },
+      {
+        "name": "0-sweep-1",
+        "sourceBounds": {
+          "left": 765,
+          "top": 16,
+          "right": 1319,
+          "bottom": 373
+        },
+        "foot": [
+          402,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          118,
+          91
+        ]
+      },
+      {
+        "name": "0-sweep-2",
+        "sourceBounds": {
+          "left": 35,
+          "top": 380,
+          "right": 655,
+          "bottom": 725
+        },
+        "foot": [
+          474,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          52,
+          103
+        ]
+      },
+      {
+        "name": "0-sweep-3",
+        "sourceBounds": {
+          "left": 801,
+          "top": 388,
+          "right": 1408,
+          "bottom": 725
+        },
+        "foot": [
+          417,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          65,
+          111
+        ]
+      },
+      {
+        "name": "0-sweep-4",
+        "sourceBounds": {
+          "left": 135,
+          "top": 718,
+          "right": 571,
+          "bottom": 1070
+        },
+        "foot": [
+          290,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          236,
+          96
+        ]
+      },
+      {
+        "name": "0-sweep-5",
+        "sourceBounds": {
+          "left": 876,
+          "top": 721,
+          "right": 1266,
+          "bottom": 1073
+        },
+        "foot": [
+          289,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          282,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-front-right",
+    "sources": [
+      {
+        "file": "hanmugeuk-front-right-slash.png",
+        "sha256": "3dac78f4c82f5cc03cc1c3eb2423313c24fa39ac1554a95b17cf2ceac9dcf70a"
+      },
+      {
+        "file": "hanmugeuk-front-right-sweep.png",
+        "sha256": "2fc829222390510f70c9b98f1ef09012e843725f77963056d3f89380cc2eeaba"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-slash-0",
+        "sourceBounds": {
+          "left": 205,
+          "top": 22,
+          "right": 581,
+          "bottom": 376
+        },
+        "foot": [
+          275,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          296,
+          94
+        ]
+      },
+      {
+        "name": "1-slash-1",
+        "sourceBounds": {
+          "left": 899,
+          "top": 15,
+          "right": 1225,
+          "bottom": 393
+        },
+        "foot": [
+          183,
+          406
+        ],
+        "padding": [
+          32,
+          32,
+          346,
+          70
+        ]
+      },
+      {
+        "name": "1-slash-2",
+        "sourceBounds": {
+          "left": 235,
+          "top": 397,
+          "right": 674,
+          "bottom": 729
+        },
+        "foot": [
+          191,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          233,
+          116
+        ]
+      },
+      {
+        "name": "1-slash-3",
+        "sourceBounds": {
+          "left": 816,
+          "top": 419,
+          "right": 1289,
+          "bottom": 727
+        },
+        "foot": [
+          200,
+          330
+        ],
+        "padding": [
+          32,
+          32,
+          199,
+          140
+        ]
+      },
+      {
+        "name": "1-slash-4",
+        "sourceBounds": {
+          "left": 141,
+          "top": 732,
+          "right": 602,
+          "bottom": 1068
+        },
+        "foot": [
+          330,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          211,
+          112
+        ]
+      },
+      {
+        "name": "1-slash-5",
+        "sourceBounds": {
+          "left": 835,
+          "top": 731,
+          "right": 1222,
+          "bottom": 1058
+        },
+        "foot": [
+          281,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          285,
+          121
+        ]
+      },
+      {
+        "name": "1-sweep-0",
+        "sourceBounds": {
+          "left": 182,
+          "top": 14,
+          "right": 596,
+          "bottom": 384
+        },
+        "foot": [
+          292,
+          399
+        ],
+        "padding": [
+          32,
+          32,
+          258,
+          78
+        ]
+      },
+      {
+        "name": "1-sweep-1",
+        "sourceBounds": {
+          "left": 763,
+          "top": 21,
+          "right": 1257,
+          "bottom": 387
+        },
+        "foot": [
+          322,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          82
+        ]
+      },
+      {
+        "name": "1-sweep-2",
+        "sourceBounds": {
+          "left": 203,
+          "top": 372,
+          "right": 706,
+          "bottom": 721
+        },
+        "foot": [
+          212,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          99
+        ]
+      },
+      {
+        "name": "1-sweep-3",
+        "sourceBounds": {
+          "left": 859,
+          "top": 382,
+          "right": 1436,
+          "bottom": 715
+        },
+        "foot": [
+          204,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          95,
+          115
+        ]
+      },
+      {
+        "name": "1-sweep-4",
+        "sourceBounds": {
+          "left": 105,
+          "top": 704,
+          "right": 599,
+          "bottom": 1069
+        },
+        "foot": [
+          333,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          178,
+          83
+        ]
+      },
+      {
+        "name": "1-sweep-5",
+        "sourceBounds": {
+          "left": 832,
+          "top": 711,
+          "right": 1247,
+          "bottom": 1073
+        },
+        "foot": [
+          294,
+          390
+        ],
+        "padding": [
+          32,
+          32,
+          257,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-right",
+    "sources": [
+      {
+        "file": "hanmugeuk-right-slash.png",
+        "sha256": "16c8e8737f3bac01973b16269b075f7921fc846349fd13df948ccfbfe04a12a6"
+      },
+      {
+        "file": "hanmugeuk-right-sweep.png",
+        "sha256": "f86244ff93aa675dab6b5f6c72a63b9449737b43ef743f6b381cdf44529d716e"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-slash-0",
+        "sourceBounds": {
+          "left": 142,
+          "top": 90,
+          "right": 464,
+          "bottom": 452
+        },
+        "foot": [
+          237,
+          390
+        ],
+        "padding": [
+          32,
+          32,
+          350,
+          86
+        ]
+      },
+      {
+        "name": "2-slash-1",
+        "sourceBounds": {
+          "left": 760,
+          "top": 33,
+          "right": 1059,
+          "bottom": 449
+        },
+        "foot": [
+          183,
+          444
+        ],
+        "padding": [
+          32,
+          32,
+          373,
+          32
+        ]
+      },
+      {
+        "name": "2-slash-2",
+        "sourceBounds": {
+          "left": 163,
+          "top": 496,
+          "right": 584,
+          "bottom": 821
+        },
+        "foot": [
+          176,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          251,
+          123
+        ]
+      },
+      {
+        "name": "2-slash-3",
+        "sourceBounds": {
+          "left": 736,
+          "top": 524,
+          "right": 1224,
+          "bottom": 821
+        },
+        "foot": [
+          192,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          184,
+          151
+        ]
+      },
+      {
+        "name": "2-slash-4",
+        "sourceBounds": {
+          "left": 116,
+          "top": 870,
+          "right": 486,
+          "bottom": 1222
+        },
+        "foot": [
+          264,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          302,
+          96
+        ]
+      },
+      {
+        "name": "2-slash-5",
+        "sourceBounds": {
+          "left": 743,
+          "top": 871,
+          "right": 1088,
+          "bottom": 1222
+        },
+        "foot": [
+          247,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          327,
+          97
+        ]
+      },
+      {
+        "name": "2-sweep-0",
+        "sourceBounds": {
+          "left": 119,
+          "top": 39,
+          "right": 455,
+          "bottom": 422
+        },
+        "foot": [
+          245,
+          411
+        ],
+        "padding": [
+          32,
+          32,
+          336,
+          65
+        ]
+      },
+      {
+        "name": "2-sweep-1",
+        "sourceBounds": {
+          "left": 660,
+          "top": 55,
+          "right": 1108,
+          "bottom": 414
+        },
+        "foot": [
+          320,
+          387
+        ],
+        "padding": [
+          32,
+          32,
+          224,
+          89
+        ]
+      },
+      {
+        "name": "2-sweep-2",
+        "sourceBounds": {
+          "left": 155,
+          "top": 452,
+          "right": 673,
+          "bottom": 806
+        },
+        "foot": [
+          183,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          94
+        ]
+      },
+      {
+        "name": "2-sweep-3",
+        "sourceBounds": {
+          "left": 741,
+          "top": 449,
+          "right": 1244,
+          "bottom": 805
+        },
+        "foot": [
+          193,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          92
+        ]
+      },
+      {
+        "name": "2-sweep-4",
+        "sourceBounds": {
+          "left": 169,
+          "top": 838,
+          "right": 520,
+          "bottom": 1201
+        },
+        "foot": [
+          185,
+          390
+        ],
+        "padding": [
+          32,
+          32,
+          321,
+          85
+        ]
+      },
+      {
+        "name": "2-sweep-5",
+        "sourceBounds": {
+          "left": 731,
+          "top": 836,
+          "right": 1069,
+          "bottom": 1214
+        },
+        "foot": [
+          244,
+          406
+        ],
+        "padding": [
+          32,
+          32,
+          334,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-rear-right",
+    "sources": [
+      {
+        "file": "hanmugeuk-rear-right-slash.png",
+        "sha256": "f0eb22f869f90e75cf100ff506d8138e0dee62422fd0c1d501a5756d251d8088"
+      },
+      {
+        "file": "hanmugeuk-rear-right-sweep.png",
+        "sha256": "53fcd491d8ea7090ee45893536df5a3a305ddc7c39c4b5b07bb55276070aa5cc"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-slash-0",
+        "sourceBounds": {
+          "left": 231,
+          "top": 23,
+          "right": 583,
+          "bottom": 377
+        },
+        "foot": [
+          170,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          320,
+          94
+        ]
+      },
+      {
+        "name": "3-slash-1",
+        "sourceBounds": {
+          "left": 841,
+          "top": 12,
+          "right": 1165,
+          "bottom": 370
+        },
+        "foot": [
+          207,
+          386
+        ],
+        "padding": [
+          32,
+          32,
+          348,
+          90
+        ]
+      },
+      {
+        "name": "3-slash-2",
+        "sourceBounds": {
+          "left": 207,
+          "top": 404,
+          "right": 684,
+          "bottom": 714
+        },
+        "foot": [
+          169,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          195,
+          138
+        ]
+      },
+      {
+        "name": "3-slash-3",
+        "sourceBounds": {
+          "left": 823,
+          "top": 410,
+          "right": 1341,
+          "bottom": 722
+        },
+        "foot": [
+          202,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          154,
+          136
+        ]
+      },
+      {
+        "name": "3-slash-4",
+        "sourceBounds": {
+          "left": 236,
+          "top": 722,
+          "right": 670,
+          "bottom": 1072
+        },
+        "foot": [
+          180,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          238,
+          98
+        ]
+      },
+      {
+        "name": "3-slash-5",
+        "sourceBounds": {
+          "left": 875,
+          "top": 737,
+          "right": 1284,
+          "bottom": 1072
+        },
+        "foot": [
+          175,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          263,
+          113
+        ]
+      },
+      {
+        "name": "3-sweep-0",
+        "sourceBounds": {
+          "left": 229,
+          "top": 13,
+          "right": 650,
+          "bottom": 378
+        },
+        "foot": [
+          196,
+          393
+        ],
+        "padding": [
+          32,
+          32,
+          251,
+          83
+        ]
+      },
+      {
+        "name": "3-sweep-1",
+        "sourceBounds": {
+          "left": 763,
+          "top": 21,
+          "right": 1214,
+          "bottom": 369
+        },
+        "foot": [
+          320,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          221,
+          100
+        ]
+      },
+      {
+        "name": "3-sweep-2",
+        "sourceBounds": {
+          "left": 195,
+          "top": 389,
+          "right": 732,
+          "bottom": 710
+        },
+        "foot": [
+          208,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          135,
+          127
+        ]
+      },
+      {
+        "name": "3-sweep-3",
+        "sourceBounds": {
+          "left": 848,
+          "top": 386,
+          "right": 1431,
+          "bottom": 716
+        },
+        "foot": [
+          206,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          89,
+          118
+        ]
+      },
+      {
+        "name": "3-sweep-4",
+        "sourceBounds": {
+          "left": 198,
+          "top": 716,
+          "right": 638,
+          "bottom": 1055
+        },
+        "foot": [
+          191,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          232,
+          109
+        ]
+      },
+      {
+        "name": "3-sweep-5",
+        "sourceBounds": {
+          "left": 895,
+          "top": 718,
+          "right": 1321,
+          "bottom": 1081
+        },
+        "foot": [
+          189,
+          391
+        ],
+        "padding": [
+          32,
+          32,
+          246,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanmugeuk-back",
+    "sources": [
+      {
+        "file": "hanmugeuk-back-slash.png",
+        "sha256": "b8dfab91b3b3d1542de180a13b1ba5e5b46d1978dc9ee90696a13dbabe1818a6"
+      },
+      {
+        "file": "hanmugeuk-back-sweep.png",
+        "sha256": "c2fa4e0a796d809a443beee77b15bbd6c5e4a31831f93780282e77a4ce5e1b79"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-slash-0",
+        "sourceBounds": {
+          "left": 283,
+          "top": 35,
+          "right": 653,
+          "bottom": 374
+        },
+        "foot": [
+          161,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          302,
+          109
+        ]
+      },
+      {
+        "name": "4-slash-1",
+        "sourceBounds": {
+          "left": 922,
+          "top": 20,
+          "right": 1208,
+          "bottom": 390
+        },
+        "foot": [
+          196,
+          398
+        ],
+        "padding": [
+          32,
+          32,
+          386,
+          78
+        ]
+      },
+      {
+        "name": "4-slash-2",
+        "sourceBounds": {
+          "left": 281,
+          "top": 391,
+          "right": 669,
+          "bottom": 709
+        },
+        "foot": [
+          153,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          284,
+          130
+        ]
+      },
+      {
+        "name": "4-slash-3",
+        "sourceBounds": {
+          "left": 881,
+          "top": 432,
+          "right": 1365,
+          "bottom": 694
+        },
+        "foot": [
+          200,
+          290
+        ],
+        "padding": [
+          32,
+          32,
+          188,
+          186
+        ]
+      },
+      {
+        "name": "4-slash-4",
+        "sourceBounds": {
+          "left": 278,
+          "top": 718,
+          "right": 676,
+          "bottom": 1059
+        },
+        "foot": [
+          152,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          274,
+          107
+        ]
+      },
+      {
+        "name": "4-slash-5",
+        "sourceBounds": {
+          "left": 940,
+          "top": 717,
+          "right": 1331,
+          "bottom": 1059
+        },
+        "foot": [
+          175,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          281,
+          106
+        ]
+      },
+      {
+        "name": "4-sweep-0",
+        "sourceBounds": {
+          "left": 271,
+          "top": 10,
+          "right": 672,
+          "bottom": 357
+        },
+        "foot": [
+          182,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          271,
+          101
+        ]
+      },
+      {
+        "name": "4-sweep-1",
+        "sourceBounds": {
+          "left": 836,
+          "top": 43,
+          "right": 1351,
+          "bottom": 358
+        },
+        "foot": [
+          241,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          157,
+          133
+        ]
+      },
+      {
+        "name": "4-sweep-2",
+        "sourceBounds": {
+          "left": 65,
+          "top": 379,
+          "right": 609,
+          "bottom": 704
+        },
+        "foot": [
+          414,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          128,
+          123
+        ]
+      },
+      {
+        "name": "4-sweep-3",
+        "sourceBounds": {
+          "left": 899,
+          "top": 384,
+          "right": 1385,
+          "bottom": 704
+        },
+        "foot": [
+          204,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          186,
+          128
+        ]
+      },
+      {
+        "name": "4-sweep-4",
+        "sourceBounds": {
+          "left": 246,
+          "top": 717,
+          "right": 713,
+          "bottom": 1044
+        },
+        "foot": [
+          214,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          205,
+          121
+        ]
+      },
+      {
+        "name": "4-sweep-5",
+        "sourceBounds": {
+          "left": 879,
+          "top": 713,
+          "right": 1279,
+          "bottom": 1055
+        },
+        "foot": [
+          184,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          272,
+          106
+        ]
+      }
+    ]
+  }
+]

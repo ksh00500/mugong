@@ -1,0 +1,598 @@
+[
+  {
+    "id": "snowhunter-front-locomotion",
+    "jobId": "snowhunter-front",
+    "character": "snowhunter",
+    "view": 0,
+    "kind": "locomotion",
+    "source": "snowhunter-front-locomotion.png",
+    "prompt": "snowhunter-front-locomotion.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-locomotion-v3.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-front-combat",
+    "jobId": "snowhunter-front",
+    "character": "snowhunter",
+    "view": 0,
+    "kind": "combat",
+    "source": "snowhunter-front-combat.png",
+    "prompt": "snowhunter-front-combat.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-follow-tip.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-front-right-locomotion",
+    "jobId": "snowhunter-front-right",
+    "character": "snowhunter",
+    "view": 1,
+    "kind": "locomotion",
+    "source": "snowhunter-front-right-locomotion-v3.png",
+    "prompt": "snowhunter-front-right-locomotion-v3.prompt.txt",
+    "references": [
+      "public/art/regions-v1/3-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-front-right-combat",
+    "jobId": "snowhunter-front-right",
+    "character": "snowhunter",
+    "view": 1,
+    "kind": "combat",
+    "source": "snowhunter-front-right-follow-tip.png",
+    "prompt": "snowhunter-front-right-follow-tip.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-locomotion-v3.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-right-locomotion",
+    "jobId": "snowhunter-right",
+    "character": "snowhunter",
+    "view": 2,
+    "kind": "locomotion",
+    "source": "snowhunter-right-locomotion.png",
+    "prompt": "snowhunter-right-locomotion.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-locomotion-v3.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-right-combat",
+    "jobId": "snowhunter-right",
+    "character": "snowhunter",
+    "view": 2,
+    "kind": "combat",
+    "source": "snowhunter-right-combat.png",
+    "prompt": "snowhunter-right-combat.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-follow-tip.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-rear-right-locomotion",
+    "jobId": "snowhunter-rear-right",
+    "character": "snowhunter",
+    "view": 3,
+    "kind": "locomotion",
+    "source": "snowhunter-rear-right-locomotion.png",
+    "prompt": "snowhunter-rear-right-locomotion.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-locomotion-v3.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-rear-right-combat",
+    "jobId": "snowhunter-rear-right",
+    "character": "snowhunter",
+    "view": 3,
+    "kind": "combat",
+    "source": "snowhunter-rear-right-combat.png",
+    "prompt": "snowhunter-rear-right-combat.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-follow-tip.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-back-locomotion",
+    "jobId": "snowhunter-back",
+    "character": "snowhunter",
+    "view": 4,
+    "kind": "locomotion",
+    "source": "snowhunter-back-locomotion.png",
+    "prompt": "snowhunter-back-locomotion.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-locomotion-v3.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowhunter-back-combat",
+    "jobId": "snowhunter-back",
+    "character": "snowhunter",
+    "view": 4,
+    "kind": "combat",
+    "source": "snowhunter-back-combat.png",
+    "prompt": "snowhunter-back-combat.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowhunter-front-right-follow-tip.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowweaver-front",
+    "jobId": "snowweaver-front",
+    "character": "snowweaver",
+    "view": 0,
+    "kind": "all",
+    "source": "snowweaver-front.png",
+    "prompt": "snowweaver-front.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowweaver-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowweaver-front-right",
+    "jobId": "snowweaver-front-right",
+    "character": "snowweaver",
+    "view": 1,
+    "kind": "all",
+    "source": "snowweaver-front-right.png",
+    "prompt": "snowweaver-front-right.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowweaver-right",
+    "jobId": "snowweaver-right",
+    "character": "snowweaver",
+    "view": 2,
+    "kind": "all",
+    "source": "snowweaver-right.png",
+    "prompt": "snowweaver-right.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowweaver-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowweaver-rear-right",
+    "jobId": "snowweaver-rear-right",
+    "character": "snowweaver",
+    "view": 3,
+    "kind": "all",
+    "source": "snowweaver-rear-right.png",
+    "prompt": "snowweaver-rear-right.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowweaver-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowweaver-back",
+    "jobId": "snowweaver-back",
+    "character": "snowweaver",
+    "view": 4,
+    "kind": "all",
+    "source": "snowweaver-back.png",
+    "prompt": "snowweaver-back.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowweaver-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowbowman-front",
+    "jobId": "snowbowman-front",
+    "character": "snowbowman",
+    "view": 0,
+    "kind": "all",
+    "source": "snowbowman-front.png",
+    "prompt": "snowbowman-front.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowbowman-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowbowman-front-right",
+    "jobId": "snowbowman-front-right",
+    "character": "snowbowman",
+    "view": 1,
+    "kind": "all",
+    "source": "snowbowman-front-right.png",
+    "prompt": "snowbowman-front-right.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowbowman-right",
+    "jobId": "snowbowman-right",
+    "character": "snowbowman",
+    "view": 2,
+    "kind": "all",
+    "source": "snowbowman-right.png",
+    "prompt": "snowbowman-right.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowbowman-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowbowman-rear-right",
+    "jobId": "snowbowman-rear-right",
+    "character": "snowbowman",
+    "view": 3,
+    "kind": "all",
+    "source": "snowbowman-rear-right.png",
+    "prompt": "snowbowman-rear-right.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowbowman-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "snowbowman-back",
+    "jobId": "snowbowman-back",
+    "character": "snowbowman",
+    "view": 4,
+    "kind": "all",
+    "source": "snowbowman-back.png",
+    "prompt": "snowbowman-back.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/snowbowman-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-front-locomotion",
+    "jobId": "mujin-front",
+    "character": "mujin",
+    "view": 0,
+    "kind": "locomotion",
+    "source": "mujin-front-locomotion.png",
+    "prompt": "mujin-front-locomotion-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-front-combat",
+    "jobId": "mujin-front",
+    "character": "mujin",
+    "view": 0,
+    "kind": "combat",
+    "source": "mujin-front-combat.png",
+    "prompt": "mujin-front-combat-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png",
+      "docs/source/snow-family-v1/mujin-front-right-contact-separated.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-front-right-locomotion",
+    "jobId": "mujin-front-right",
+    "character": "mujin",
+    "view": 1,
+    "kind": "locomotion",
+    "source": "mujin-front-right-locomotion-v2.png",
+    "prompt": "mujin-front-right-locomotion-v2.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-front-right-combat",
+    "jobId": "mujin-front-right",
+    "character": "mujin",
+    "view": 1,
+    "kind": "combat",
+    "source": "mujin-front-right-combat.png",
+    "prompt": "mujin-front-right-combat.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-right-locomotion",
+    "jobId": "mujin-right",
+    "character": "mujin",
+    "view": 2,
+    "kind": "locomotion",
+    "source": "mujin-right-locomotion.png",
+    "prompt": "mujin-right-locomotion-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-right-combat",
+    "jobId": "mujin-right",
+    "character": "mujin",
+    "view": 2,
+    "kind": "combat",
+    "source": "mujin-right-combat.png",
+    "prompt": "mujin-right-combat-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png",
+      "docs/source/snow-family-v1/mujin-front-right-contact-separated.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-rear-right-locomotion",
+    "jobId": "mujin-rear-right",
+    "character": "mujin",
+    "view": 3,
+    "kind": "locomotion",
+    "source": "mujin-rear-right-locomotion.png",
+    "prompt": "mujin-rear-right-locomotion-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-rear-right-combat",
+    "jobId": "mujin-rear-right",
+    "character": "mujin",
+    "view": 3,
+    "kind": "combat",
+    "source": "mujin-rear-right-combat.png",
+    "prompt": "mujin-rear-right-combat-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png",
+      "docs/source/snow-family-v1/mujin-front-right-contact-separated.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-back-locomotion",
+    "jobId": "mujin-back",
+    "character": "mujin",
+    "view": 4,
+    "kind": "locomotion",
+    "source": "mujin-back-locomotion.png",
+    "prompt": "mujin-back-locomotion-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "mujin-back-combat",
+    "jobId": "mujin-back",
+    "character": "mujin",
+    "view": 4,
+    "kind": "combat",
+    "source": "mujin-back-combat.png",
+    "prompt": "mujin-back-combat-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/mujin-front-right-locomotion-v2.png",
+      "docs/source/snow-family-v1/mujin-front-right-contact-separated.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "xuelan-front",
+    "jobId": "xuelan-front",
+    "character": "xuelan",
+    "view": 0,
+    "kind": "all",
+    "source": "xuelan-front.png",
+    "prompt": "xuelan-front-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/xuelan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "xuelan-front-right",
+    "jobId": "xuelan-front-right",
+    "character": "xuelan",
+    "view": 1,
+    "kind": "all",
+    "source": "xuelan-front-right.png",
+    "prompt": "xuelan-front-right.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "xuelan-right",
+    "jobId": "xuelan-right",
+    "character": "xuelan",
+    "view": 2,
+    "kind": "all",
+    "source": "xuelan-right.png",
+    "prompt": "xuelan-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/xuelan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "xuelan-rear-right",
+    "jobId": "xuelan-rear-right",
+    "character": "xuelan",
+    "view": 3,
+    "kind": "all",
+    "source": "xuelan-rear-right.png",
+    "prompt": "xuelan-rear-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/xuelan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "xuelan-back",
+    "jobId": "xuelan-back",
+    "character": "xuelan",
+    "view": 4,
+    "kind": "all",
+    "source": "xuelan-back.png",
+    "prompt": "xuelan-back-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/xuelan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "baixue-front",
+    "jobId": "baixue-front",
+    "character": "baixue",
+    "view": 0,
+    "kind": "all",
+    "source": "baixue-front.png",
+    "prompt": "baixue-front-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/baixue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "baixue-front-right",
+    "jobId": "baixue-front-right",
+    "character": "baixue",
+    "view": 1,
+    "kind": "all",
+    "source": "baixue-front-right.png",
+    "prompt": "baixue-front-right.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "baixue-right",
+    "jobId": "baixue-right",
+    "character": "baixue",
+    "view": 2,
+    "kind": "all",
+    "source": "baixue-right.png",
+    "prompt": "baixue-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/baixue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "baixue-rear-right",
+    "jobId": "baixue-rear-right",
+    "character": "baixue",
+    "view": 3,
+    "kind": "all",
+    "source": "baixue-rear-right.png",
+    "prompt": "baixue-rear-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/baixue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "baixue-back",
+    "jobId": "baixue-back",
+    "character": "baixue",
+    "view": 4,
+    "kind": "all",
+    "source": "baixue-back.png",
+    "prompt": "baixue-back-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/baixue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "hanxue-front",
+    "jobId": "hanxue-front",
+    "character": "hanxue",
+    "view": 0,
+    "kind": "all",
+    "source": "hanxue-front.png",
+    "prompt": "hanxue-front-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/hanxue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "hanxue-front-right",
+    "jobId": "hanxue-front-right",
+    "character": "hanxue",
+    "view": 1,
+    "kind": "all",
+    "source": "hanxue-front-right.png",
+    "prompt": "hanxue-front-right.prompt.txt",
+    "references": [
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png",
+      "public/art/regions-v1/3-actors.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "hanxue-right",
+    "jobId": "hanxue-right",
+    "character": "hanxue",
+    "view": 2,
+    "kind": "all",
+    "source": "hanxue-right.png",
+    "prompt": "hanxue-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/hanxue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "hanxue-rear-right",
+    "jobId": "hanxue-rear-right",
+    "character": "hanxue",
+    "view": 3,
+    "kind": "all",
+    "source": "hanxue-rear-right.png",
+    "prompt": "hanxue-rear-right-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/hanxue-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "hanxue-back",
+    "jobId": "hanxue-back",
+    "character": "hanxue",
+    "view": 4,
+    "kind": "all",
+    "source": "hanxue-back.png",
+    "prompt": "hanxue-back-camera.prompt.txt",
+    "references": [
+      "docs/source/snow-family-v1/hanxue-front-right.png"
+    ],
+    "status": "generated"
+  }
+]

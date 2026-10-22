@@ -1,0 +1,13 @@
+{
+  "jeokho-front-right": {"issue":"Extra arm at overhead load","resolution":"Replacement1 uses v2 cell1; other correct cells retained","status":"resolved-selected"},
+  "gwakgi-right": {"issue":"Wrench disappears during aiming","resolution":"Replacement1/4 use v2 cell1 with RIGHT wrench retained; original coherent repair cells preserved","status":"resolved-selected"},
+  "gwakgi-back": {"issue":"Front repair hands visible on back","resolution":"Replacement7/8/9 hide front hands behind torso","status":"resolved-selected"},
+  "wolryeong-rear-right": {"issue":"Duplicate idle sword/extra arm at load and command hand ownership","resolution":"Load uses v2 cell0 only; stance uses dedicated pair. Unused v2 cell11 clipped and excluded","status":"resolved-selected"},
+  "seokmun-rear-right": {"issue":"Guard uses hammer arm and loses hammer","resolution":"Dedicated LEFT shield / RIGHT hammer pair","status":"resolved-selected"},
+  "qingbi-right-rear-right-back": {"issue":"Needle arm incorrectly throws while LEFT dagger remains","resolution":"Dedicated load/release pairs. Rear/back first pair rejected, v2 selected. RIGHT needles retained, LEFT becomes EMPTY","status":"resolved-selected"},
+  "qingbi-front-right": {"issue":"Needles disappear at return","resolution":"Return uses intact source READY cell5","status":"resolved-selected"},
+  "yanqing-songwol-rear-right": {"issue":"Command creates extra arm or transfers equipment","resolution":"Dedicated LEFT command / stationary RIGHT equipment pair","status":"resolved-selected"},
+  "wolryeong-yanqing-back": {"issue":"Back command swaps sword or reveals wrong hand","resolution":"Dedicated pure-back LEFT command / RIGHT sword pair","status":"resolved-selected"},
+  "ground": {"issue":"Lowest alpha band picks weapon tips or distant boot","resolution":"80 explicit source-coordinate picks for Jeokho slam, Wolryeong dash, Nogae slam and Yanqing dash; all16 action boards visually reviewed","status":"resolved-selected"},
+  "scope": {"issue":"Other kit actions keep basic frames","remainingActions":23,"status":"outside-selected16"}
+}

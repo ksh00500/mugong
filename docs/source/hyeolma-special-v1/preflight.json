@@ -1,0 +1,514 @@
+{
+  "status": "40 generated base sheets, 18 correction attempts, 19 selected correction poses; draft preview only, no game installation",
+  "plannedBosses": 4,
+  "plannedMoves": 8,
+  "plannedSources": 40,
+  "timings": [
+    {
+      "bossId": "8-1",
+      "character": "jeogu",
+      "move": "dash",
+      "name": "혈흔 추격참",
+      "windup": 0.8,
+      "duration": 0.38,
+      "recovery": 0.75,
+      "contacts": [
+        0.3
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-1",
+      "character": "jeogu",
+      "move": "stance",
+      "name": "혈도 혈지 깔기",
+      "windup": 0.95,
+      "duration": 0.4,
+      "recovery": 0.8,
+      "contacts": [
+        0.2
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-2",
+      "character": "yeonsal",
+      "move": "dash",
+      "name": "혈각 어깨 돌파",
+      "windup": 0.75,
+      "duration": 0.38,
+      "recovery": 0.65,
+      "contacts": [
+        0.3
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-2",
+      "character": "yeonsal",
+      "move": "slam",
+      "name": "혈각 진각 파쇄",
+      "windup": 1,
+      "duration": 0.52,
+      "recovery": 0.95,
+      "contacts": [
+        0.28
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-3",
+      "character": "sohong",
+      "move": "fan",
+      "name": "혈화 부채 혈주",
+      "windup": 0.9,
+      "duration": 0.32,
+      "recovery": 0.85,
+      "contacts": [
+        0.1
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-3",
+      "character": "sohong",
+      "move": "stance",
+      "name": "혈화 회복 봉쇄 결박",
+      "windup": 1,
+      "duration": 0.48,
+      "recovery": 0.9,
+      "contacts": [
+        0.22
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-4",
+      "character": "jeokcheon",
+      "move": "dash",
+      "name": "혈마 섬혈 추격",
+      "windup": 0.9,
+      "duration": 0.43,
+      "recovery": 0.8,
+      "contacts": [
+        0.34
+      ],
+      "holdEligible": false
+    },
+    {
+      "bossId": "8-4",
+      "character": "jeokcheon",
+      "move": "stance",
+      "name": "혈마 체력 교환 인장",
+      "windup": 1.3,
+      "duration": 0.52,
+      "recovery": 1.1,
+      "contacts": [
+        0.24
+      ],
+      "holdEligible": false
+    }
+  ],
+  "promptRecords": [
+    {
+      "id": "jeogu-front-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-front.png",
+      "referenceSha256": "0cbf1b989f2e200aed054269e8678fbad3d386d06b44a82472227c5830f4d07c",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-front-dash.prompt.txt",
+      "promptSha256": "b717ec8c6d6d27db345a99817eed703714266c3e266b345ec9e559c3705da964",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-front.png",
+      "guideSha256": "58f3e6e1c90cb11bf9b8e7ce1a814afd91e894fef4e49d5c1df614a1287a689e",
+      "referenceHeight": 342
+    },
+    {
+      "id": "jeogu-front-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-front.png",
+      "referenceSha256": "0cbf1b989f2e200aed054269e8678fbad3d386d06b44a82472227c5830f4d07c",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-front-stance.prompt.txt",
+      "promptSha256": "a0fa53fac7058bc80bbb0920b41fe096c7779138a96c5f64971a9f1a46c2fc81",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-front.png",
+      "guideSha256": "58f3e6e1c90cb11bf9b8e7ce1a814afd91e894fef4e49d5c1df614a1287a689e",
+      "referenceHeight": 342
+    },
+    {
+      "id": "jeogu-front-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-front-right.png",
+      "referenceSha256": "2e7089dcab3f4425eace1ba727fefb16de0133c887c845bb945b7e54815a2839",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-front-right-dash.prompt.txt",
+      "promptSha256": "720b118da8d1318c4e12a380838706e2027360a67f467e631025dbbeda38adbf",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-front-right.png",
+      "guideSha256": "fbc86683af662e237d343a9ca7d02a49311fb3805feeb23a1b9dfdd5cf33f764",
+      "referenceHeight": 337
+    },
+    {
+      "id": "jeogu-front-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-front-right.png",
+      "referenceSha256": "2e7089dcab3f4425eace1ba727fefb16de0133c887c845bb945b7e54815a2839",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-front-right-stance.prompt.txt",
+      "promptSha256": "1ecceed555a3c4bf83db16a25977a2bf44708b8c2c542d40501ad5f09ab221a1",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-front-right.png",
+      "guideSha256": "fbc86683af662e237d343a9ca7d02a49311fb3805feeb23a1b9dfdd5cf33f764",
+      "referenceHeight": 337
+    },
+    {
+      "id": "jeogu-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-right.png",
+      "referenceSha256": "cad2bed47382a62658639c8f672f435fcd3422b3a9cddde505da955d854dae38",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-right-dash.prompt.txt",
+      "promptSha256": "66197b4e649eee70849aa68ee7b99b8ecb70e81eb99c193d38ac637e82b3ae37",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-right.png",
+      "guideSha256": "22755cf5937e4f44901f0877fcf47f16333a0002ea5784c177af6a92d9fd433f",
+      "referenceHeight": 340
+    },
+    {
+      "id": "jeogu-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-right.png",
+      "referenceSha256": "cad2bed47382a62658639c8f672f435fcd3422b3a9cddde505da955d854dae38",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-right-stance.prompt.txt",
+      "promptSha256": "87d5c05396b84fb7e494ee4bebf92363e24bec6250e18bd369a0244e5705fb85",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-right.png",
+      "guideSha256": "22755cf5937e4f44901f0877fcf47f16333a0002ea5784c177af6a92d9fd433f",
+      "referenceHeight": 340
+    },
+    {
+      "id": "jeogu-rear-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-rear-right.png",
+      "referenceSha256": "ce39b093fd86fda9fdeb036ebff82c7e48c43c329b09370a12f0648d6fd05400",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-rear-right-dash.prompt.txt",
+      "promptSha256": "1c6a968d225fc40106a239294ab4db09fa711c6bc73d60537a56f0f5ff92915b",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-rear-right.png",
+      "guideSha256": "9867e0aabce3ceca5657154279e68f628028c7e8db3608fd1debd73c0fc422ed",
+      "referenceHeight": 327
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-rear-right.png",
+      "referenceSha256": "ce39b093fd86fda9fdeb036ebff82c7e48c43c329b09370a12f0648d6fd05400",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-rear-right-stance.prompt.txt",
+      "promptSha256": "b5265289cb896ee9c9f23b30986118beec2e8ea75e035d487a1a815443d1b722",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-rear-right.png",
+      "guideSha256": "9867e0aabce3ceca5657154279e68f628028c7e8db3608fd1debd73c0fc422ed",
+      "referenceHeight": 327
+    },
+    {
+      "id": "jeogu-back-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-back.png",
+      "referenceSha256": "27b5e318b39e2d685b0c985a78ebb9aebea7aa8a3e8628565026ef426ad015fe",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-back-dash.prompt.txt",
+      "promptSha256": "4a743a2b0036c2d8ef2dd96e316bad464019821091287a85fa3b32811c48a627",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-back.png",
+      "guideSha256": "6440738ca1328ba3d5cfa1de9321a4e7e2023c257e6ac2570e6dc38c79d41eef",
+      "referenceHeight": 282
+    },
+    {
+      "id": "jeogu-back-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeogu-back.png",
+      "referenceSha256": "27b5e318b39e2d685b0c985a78ebb9aebea7aa8a3e8628565026ef426ad015fe",
+      "prompt": "docs/source/hyeolma-special-v1/jeogu-back-stance.prompt.txt",
+      "promptSha256": "7772972814d06190bf034595280e0263b0b9a36c4ed3d7d1b46258b648e28985",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeogu-back.png",
+      "guideSha256": "6440738ca1328ba3d5cfa1de9321a4e7e2023c257e6ac2570e6dc38c79d41eef",
+      "referenceHeight": 282
+    },
+    {
+      "id": "yeonsal-front-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front.png",
+      "referenceSha256": "06d7f6c3a49f198be143aa86330adab58784886276f4bd42ae58087482e05fac",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-front-dash.prompt.txt",
+      "promptSha256": "191e6c618de226d9df3bcc0ece0eb74ccd326036c38f21968cbf413b53ae1499",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-front.png",
+      "guideSha256": "0ab8e7f199e22c97b23102a2cb507aca1a69fd087fd07f8a85ab43b7c083b0fb",
+      "referenceHeight": 343
+    },
+    {
+      "id": "yeonsal-front-slam",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front.png",
+      "referenceSha256": "06d7f6c3a49f198be143aa86330adab58784886276f4bd42ae58087482e05fac",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-front-slam.prompt.txt",
+      "promptSha256": "32d876c78f2169e1ba9c254ea661188fba87621890e8498fb3c21315328b0a04",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-front.png",
+      "guideSha256": "0ab8e7f199e22c97b23102a2cb507aca1a69fd087fd07f8a85ab43b7c083b0fb",
+      "referenceHeight": 343
+    },
+    {
+      "id": "yeonsal-front-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front-right.png",
+      "referenceSha256": "86bb3513e98cd1ab2893cd4386c667592fef3a06e53911b26e957fba4453b539",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-front-right-dash.prompt.txt",
+      "promptSha256": "6cbc3f485568a1a8ea18874e3c5e5d8d3dea500e64e8d942fc37f93051b6c6f7",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-front-right.png",
+      "guideSha256": "a33f8c081b4dc4e9f00b49b5c559a86b993f8bda30abf1735d51013b7e6f7dfe",
+      "referenceHeight": 322
+    },
+    {
+      "id": "yeonsal-front-right-slam",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front-right.png",
+      "referenceSha256": "86bb3513e98cd1ab2893cd4386c667592fef3a06e53911b26e957fba4453b539",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-front-right-slam.prompt.txt",
+      "promptSha256": "288bc33c2aff095d6ee5e92b302ea8fbea7dad194067d1a406f03145976e11c0",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-front-right.png",
+      "guideSha256": "a33f8c081b4dc4e9f00b49b5c559a86b993f8bda30abf1735d51013b7e6f7dfe",
+      "referenceHeight": 322
+    },
+    {
+      "id": "yeonsal-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-right.png",
+      "referenceSha256": "b3abc94802a963804de3fef3716ce0e508b7a06fa3e901b72dbab8f910936e9e",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-right-dash.prompt.txt",
+      "promptSha256": "4360cfbd8f904668038782f1a5b3bc8aaac5bebb6aa2d658dd1e3c5a168b17a9",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-right.png",
+      "guideSha256": "952ea010751b30134a62fbf2578675278878acdbbf87d095ad73b21b3463c206",
+      "referenceHeight": 362
+    },
+    {
+      "id": "yeonsal-right-slam",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-right.png",
+      "referenceSha256": "b3abc94802a963804de3fef3716ce0e508b7a06fa3e901b72dbab8f910936e9e",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-right-slam.prompt.txt",
+      "promptSha256": "327583618c478b8da819f27d3b673620acfd10e3329358f745e4b838d6b8dc6d",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-right.png",
+      "guideSha256": "952ea010751b30134a62fbf2578675278878acdbbf87d095ad73b21b3463c206",
+      "referenceHeight": 362
+    },
+    {
+      "id": "yeonsal-rear-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-rear-right.png",
+      "referenceSha256": "cd352b5edbb66a0f3c2cb59e15b6485c0baa85b1f1163051d564e0f0b2861bb3",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-rear-right-dash.prompt.txt",
+      "promptSha256": "ba1f9122e87a5cc778e0336e3e7e3ff04ffdc23f5139e851ef16820f439f4f07",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-rear-right.png",
+      "guideSha256": "ff993d2fc3e1e38bd50efee245203be2d1a316b45319882cb43efbacdcdbd1d1",
+      "referenceHeight": 321
+    },
+    {
+      "id": "yeonsal-rear-right-slam",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-rear-right.png",
+      "referenceSha256": "cd352b5edbb66a0f3c2cb59e15b6485c0baa85b1f1163051d564e0f0b2861bb3",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-rear-right-slam.prompt.txt",
+      "promptSha256": "7e7cf817885168cd4587b6328c630fde1bda09c534cbb076781023a700cba335",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-rear-right.png",
+      "guideSha256": "ff993d2fc3e1e38bd50efee245203be2d1a316b45319882cb43efbacdcdbd1d1",
+      "referenceHeight": 321
+    },
+    {
+      "id": "yeonsal-back-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-back.png",
+      "referenceSha256": "1c5960ed83d29e980915784a04491404129b6669b225d0acf413fb92d248d212",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-back-dash.prompt.txt",
+      "promptSha256": "496f0c204fb140f9efa6afae3a37b2324775b3b87df0e6474336e8c4413af0cf",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-back.png",
+      "guideSha256": "adc2e47cf8a84276ba1e45d217146e0a082f7586b61fac5a20d61a1c33c5a319",
+      "referenceHeight": 367
+    },
+    {
+      "id": "yeonsal-back-slam",
+      "reference": "docs/source/hyeolma-special-v1/references/yeonsal-back.png",
+      "referenceSha256": "1c5960ed83d29e980915784a04491404129b6669b225d0acf413fb92d248d212",
+      "prompt": "docs/source/hyeolma-special-v1/yeonsal-back-slam.prompt.txt",
+      "promptSha256": "67704e5ba8ecb916aafd3992f882fea9a607fdcbd37c3cce90cd719e171573fe",
+      "guide": "docs/source/hyeolma-special-v1/guides/yeonsal-back.png",
+      "guideSha256": "adc2e47cf8a84276ba1e45d217146e0a082f7586b61fac5a20d61a1c33c5a319",
+      "referenceHeight": 367
+    },
+    {
+      "id": "sohong-front-fan",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-front.png",
+      "referenceSha256": "8788ae9557a75b3f931d48ae3ac30b5f3fe372390b2666e560cfe4d0ded7316a",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-front-fan.prompt.txt",
+      "promptSha256": "0e87ddaf77e7c0f3c580aaa2e948bb859dcc19ab986cfd2ee2ecc407025d6d24",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-front.png",
+      "guideSha256": "bffa83b4699a0b175e48c8f1b7d37884ccc271f8f10e89996a1b1ed9c34a25c6",
+      "referenceHeight": 341
+    },
+    {
+      "id": "sohong-front-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-front.png",
+      "referenceSha256": "8788ae9557a75b3f931d48ae3ac30b5f3fe372390b2666e560cfe4d0ded7316a",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-front-stance.prompt.txt",
+      "promptSha256": "d828378b89482249645a7e2fb7765bc3c4700ec3117e66e722bbacd8ef5101e1",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-front.png",
+      "guideSha256": "bffa83b4699a0b175e48c8f1b7d37884ccc271f8f10e89996a1b1ed9c34a25c6",
+      "referenceHeight": 341
+    },
+    {
+      "id": "sohong-front-right-fan",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-front-right.png",
+      "referenceSha256": "cb2ab3fe451e6a3a35f736211d3494b0625b02fb14349a76d284899a64b25b56",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-front-right-fan.prompt.txt",
+      "promptSha256": "bb03b5ce79f21ce0ab54728d14ec3dffe68e0448890fd50ad0be154862954a25",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-front-right.png",
+      "guideSha256": "7c2b4f3726e2ad03fbc65e3914acfc0c05bd4fcc9245e48de229bbc2ba4ec777",
+      "referenceHeight": 310
+    },
+    {
+      "id": "sohong-front-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-front-right.png",
+      "referenceSha256": "cb2ab3fe451e6a3a35f736211d3494b0625b02fb14349a76d284899a64b25b56",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-front-right-stance.prompt.txt",
+      "promptSha256": "8ec3b31b10648270fe0aaeb24c29c94045b4a300f9dcbdfa11348d0b113e9a4d",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-front-right.png",
+      "guideSha256": "7c2b4f3726e2ad03fbc65e3914acfc0c05bd4fcc9245e48de229bbc2ba4ec777",
+      "referenceHeight": 310
+    },
+    {
+      "id": "sohong-right-fan",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-right.png",
+      "referenceSha256": "004305e56932906b16d71967fa5d0be72a123d392e66b1a661b04b3ad25f4fb7",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-right-fan.prompt.txt",
+      "promptSha256": "5e1faa5d321047cd178b718c2641a5a46c4221393bfb22585fecf3b55e001c14",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-right.png",
+      "guideSha256": "975057d59ace43da844a81dbc5084385cce2279a177c014c9c5fe1bd3f1324f0",
+      "referenceHeight": 338
+    },
+    {
+      "id": "sohong-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-right.png",
+      "referenceSha256": "004305e56932906b16d71967fa5d0be72a123d392e66b1a661b04b3ad25f4fb7",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-right-stance.prompt.txt",
+      "promptSha256": "3440e015417ccbcbbea96a52cd16fc3170780068d27b23ef6f29f8cc9178786b",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-right.png",
+      "guideSha256": "975057d59ace43da844a81dbc5084385cce2279a177c014c9c5fe1bd3f1324f0",
+      "referenceHeight": 338
+    },
+    {
+      "id": "sohong-rear-right-fan",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-rear-right.png",
+      "referenceSha256": "dedb28fd36b19b01b0fc73f2b3cdfd30fefa01efa5b6e117ebddbcc30d421333",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-rear-right-fan.prompt.txt",
+      "promptSha256": "3335d205098099146e31e0e1643677c5d7c984aebddd37cb7effd7b59d3db689",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-rear-right.png",
+      "guideSha256": "f578c5fb185c447339c76c24690193b6cf630fa7a922cf57a31d7c935b154845",
+      "referenceHeight": 328
+    },
+    {
+      "id": "sohong-rear-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-rear-right.png",
+      "referenceSha256": "dedb28fd36b19b01b0fc73f2b3cdfd30fefa01efa5b6e117ebddbcc30d421333",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-rear-right-stance.prompt.txt",
+      "promptSha256": "784f3026a8b8d4b7f92535073d14e29146e9b3a007067f7a360b7e42f8e08dea",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-rear-right.png",
+      "guideSha256": "f578c5fb185c447339c76c24690193b6cf630fa7a922cf57a31d7c935b154845",
+      "referenceHeight": 328
+    },
+    {
+      "id": "sohong-back-fan",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-back.png",
+      "referenceSha256": "520fcfcbe0ad2226d601b0207c6542d06ec14014d476dfcac52eb11e3cd1e5a4",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-back-fan.prompt.txt",
+      "promptSha256": "5abf28d3451fc24ec30a492d8591607563682a6905910fd65ae8029e7b5b9a4f",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-back.png",
+      "guideSha256": "248b463d6fa050376b7dfeb737b0bd0ff9ce09f37301eaf4706b360b79190c09",
+      "referenceHeight": 313
+    },
+    {
+      "id": "sohong-back-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/sohong-back.png",
+      "referenceSha256": "520fcfcbe0ad2226d601b0207c6542d06ec14014d476dfcac52eb11e3cd1e5a4",
+      "prompt": "docs/source/hyeolma-special-v1/sohong-back-stance.prompt.txt",
+      "promptSha256": "e1395ab9180a14e45721c6ef89e1076aef42dfe44fced6a13be0737f5f6e3cd1",
+      "guide": "docs/source/hyeolma-special-v1/guides/sohong-back.png",
+      "guideSha256": "248b463d6fa050376b7dfeb737b0bd0ff9ce09f37301eaf4706b360b79190c09",
+      "referenceHeight": 313
+    },
+    {
+      "id": "jeokcheon-front-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front.png",
+      "referenceSha256": "0e6e0fbf45ad69988c93c51768648f29e117f661500b0fdaac1c2a1001925213",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-front-dash.prompt.txt",
+      "promptSha256": "515247507df24238e0b827267a96f0b377f8558f60fcfd1c7319ea42e0731d5c",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-front.png",
+      "guideSha256": "608364e276f928e63989aa7425edc141750e1eeea23b14008fbb9fece5929e19",
+      "referenceHeight": 360
+    },
+    {
+      "id": "jeokcheon-front-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front.png",
+      "referenceSha256": "0e6e0fbf45ad69988c93c51768648f29e117f661500b0fdaac1c2a1001925213",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-front-stance.prompt.txt",
+      "promptSha256": "465657821e242f643e3951f41a2785554c30289959fca1832d1b27848a7469a3",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-front.png",
+      "guideSha256": "608364e276f928e63989aa7425edc141750e1eeea23b14008fbb9fece5929e19",
+      "referenceHeight": 360
+    },
+    {
+      "id": "jeokcheon-front-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front-right.png",
+      "referenceSha256": "cc2bce7a5e6046e1d62a2780409b83706f314ffe5f827dcd0575250d4db7f43f",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-front-right-dash.prompt.txt",
+      "promptSha256": "ac796b07f99b179f777138673e52b35de25efdbb4305c3f40bb499a810556de0",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-front-right.png",
+      "guideSha256": "cd7679f9bb8711e92f5590daeb4c70e94a5da34c706b4bf9e8f3f305a8c34dff",
+      "referenceHeight": 339
+    },
+    {
+      "id": "jeokcheon-front-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front-right.png",
+      "referenceSha256": "cc2bce7a5e6046e1d62a2780409b83706f314ffe5f827dcd0575250d4db7f43f",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-front-right-stance.prompt.txt",
+      "promptSha256": "9afd64d409aadbf564a37f60da5c7e1375daa8bc289f70a0167cbcf7b1474427",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-front-right.png",
+      "guideSha256": "cd7679f9bb8711e92f5590daeb4c70e94a5da34c706b4bf9e8f3f305a8c34dff",
+      "referenceHeight": 339
+    },
+    {
+      "id": "jeokcheon-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-right.png",
+      "referenceSha256": "4c5e762229efd9d39b967cbfc9e7e3318abb23fe453aef103871434de58c586c",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-right-dash.prompt.txt",
+      "promptSha256": "0069cb4d553e6b8030613911f586306ca584c7baa54fa1978fdee3cd10008bbd",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-right.png",
+      "guideSha256": "18a323918c2337852205f31b2a21c97b0c66839e78ac8d1822a08c0925e2a816",
+      "referenceHeight": 354
+    },
+    {
+      "id": "jeokcheon-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-right.png",
+      "referenceSha256": "4c5e762229efd9d39b967cbfc9e7e3318abb23fe453aef103871434de58c586c",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-right-stance.prompt.txt",
+      "promptSha256": "51d58f1c39d3ae10d68d05d075aeff5895cca0bbec9b91b0be3e2c3a6366151f",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-right.png",
+      "guideSha256": "18a323918c2337852205f31b2a21c97b0c66839e78ac8d1822a08c0925e2a816",
+      "referenceHeight": 354
+    },
+    {
+      "id": "jeokcheon-rear-right-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-rear-right.png",
+      "referenceSha256": "09b164100e3e94afba86d50915e6875deb86b732610187a7e5051dd7a1b71e72",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-rear-right-dash.prompt.txt",
+      "promptSha256": "7cbb297740897f7c9b35fda5f61e226d506cebee9e49eaa233db6b08437de8c0",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-rear-right.png",
+      "guideSha256": "2d293e620c829054daf01df4e98ccd10a7e96e8ac58aaa105066cce7997a5bf4",
+      "referenceHeight": 352
+    },
+    {
+      "id": "jeokcheon-rear-right-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-rear-right.png",
+      "referenceSha256": "09b164100e3e94afba86d50915e6875deb86b732610187a7e5051dd7a1b71e72",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-rear-right-stance.prompt.txt",
+      "promptSha256": "a6a8a210fd88470971d93cd47d2b4c99fb9b8b7dbcfba2b36abdeb7cf2894891",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-rear-right.png",
+      "guideSha256": "2d293e620c829054daf01df4e98ccd10a7e96e8ac58aaa105066cce7997a5bf4",
+      "referenceHeight": 352
+    },
+    {
+      "id": "jeokcheon-back-dash",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-back.png",
+      "referenceSha256": "23818ee0eca0b86c9edfefbc031f282660e3944343807b827e4c806c3297707d",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-back-dash.prompt.txt",
+      "promptSha256": "e8856eda8201cb6ae195ba40e4fcc390b4c46cebb6d113274f20db2003abc777",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-back.png",
+      "guideSha256": "52261143f254c949c8fb5752e36a0c6d74b2e95bf2a541f17f7553961d6d5aa6",
+      "referenceHeight": 332
+    },
+    {
+      "id": "jeokcheon-back-stance",
+      "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-back.png",
+      "referenceSha256": "23818ee0eca0b86c9edfefbc031f282660e3944343807b827e4c806c3297707d",
+      "prompt": "docs/source/hyeolma-special-v1/jeokcheon-back-stance.prompt.txt",
+      "promptSha256": "fdc671fa37a8d22feac7d9429a73599ba29cf4ceea21ba934e90d11e3c67e74c",
+      "guide": "docs/source/hyeolma-special-v1/guides/jeokcheon-back.png",
+      "guideSha256": "52261143f254c949c8fb5752e36a0c6d74b2e95bf2a541f17f7553961d6d5aa6",
+      "referenceHeight": 332
+    }
+  ]
+}

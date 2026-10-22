@@ -1,0 +1,58 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 3830,
+    "sha256": "a9c742efc31a82b6575f9776466cad1b8379392768565fb2c20a9abc2a3cb0c3",
+    "matchesBuild": true,
+    "cacheControl": "no-cache"
+  },
+  {
+    "path": "assets/main-DyK-nl6x.js",
+    "status": 200,
+    "bytes": 251090,
+    "sha256": "7a2fa4849a5cba1d81968c50b898736472b0c9cf2db8ea3028b3b5c2a7964be1",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=31536000, immutable"
+  },
+  {
+    "path": "assets/main-BubqhRPQ.css",
+    "status": 200,
+    "bytes": 223855,
+    "sha256": "1a7b77f32a1256a42b7e39be5869181c177c8180bf1f0bf7c393e25b0fd58273",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=31536000, immutable"
+  },
+  {
+    "path": "art/delivery-v1/hero-unarmed-v1.webp",
+    "status": 200,
+    "bytes": 453108,
+    "sha256": "178ffa1f5cb6629e79e962ed058e8c3caba16eca842dde620e42a72c55401c44",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=3600"
+  },
+  {
+    "path": "art/ui/boss-loot-v1.png",
+    "status": 200,
+    "bytes": 1954123,
+    "sha256": "3022ad5d366c9aaf8a3d11c197d0f18212d3fc6b9b9444490ca2180ffed9d3ba",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=3600"
+  },
+  {
+    "path": "art/projectiles-v1.webp",
+    "status": 200,
+    "bytes": 440532,
+    "sha256": "31a910f2503f90dc8bd7c7881e0fdaead76b681aea7a5e3460b74bf8e3142f19",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=3600"
+  },
+  {
+    "path": "art/projectile-stone-v1.webp",
+    "status": 200,
+    "bytes": 24146,
+    "sha256": "61393fc92301df59238d3aaf2af09ecda3c4ec26ecbb2e4f478279088c1f9ddf",
+    "matchesBuild": true,
+    "cacheControl": "public, max-age=3600"
+  }
+]

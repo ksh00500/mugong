@@ -1,0 +1,12 @@
+Generate 6 complete independent MUGONG native sprites on a LANDSCAPE transparent canvas about1536x1024, EXACT 2 columns by 3 rows in row-major order. Use the supplied isolated native sprite as identity, palette, proportions and physical head-size reference. SOUTHEAST three-quarter FRONT-RIGHT, face mask visible, both shoulders and hips aim bottom-right. Input1 gives physical body size and identity, Input2 continuous spear construction ONLY. Do NOT copy front or side camera.
+CRITICAL OCCUPANCY: physical standing body approximately300-330px from head to boots, head90-110px. Each body takes only90% of its row height; wide768px cells leave room for full weapon. All figures have identical physical head/limb thickness, including bent pose. Never shrink the character to fit its tool. At least32px clear transparent alpha around all bodies AND complete tools. No ground shadow, background, aura, glow, VFX, trail, projectile, text or labels.
+Draw ONLY these poses in order:
+1. Logical0: idle guard.
+2. Logical1: left step.
+3. Logical2: passing step.
+4. Logical3: right step.
+5. Logical4: tiny hurt without falling.
+6. Logical5: prone death.
+Portrait2x3 candidate enlarges body440px and clips spear. Regenerate SIX poses in LANDSCAPE TWO COLUMNS THREE ROWS about1536x1024; body300-330px and head same approved front. Broad cells permit full shaft without changing body. ONE spearhead and red tassel only forward end. Preserve SE camera.
+
+Tools belong to their specified hands permanently. Exactly two anatomically connected shoulder-elbow-wrist chains. One continuous shaft with separated grips; one tool head. Keep spine, hips, grounded legs coherent. Combat follows anticipation -> quick forward/downward contact -> held low follow -> slower withdrawal; never an uppercut. For back-view contact, arms and tool go AWAY from viewer toward screenTOP, partially occluded by back/head, NEVER toward feet or screenBOTTOM. Give every pose a distinct drawing, even held followthrough has a tiny real shift.

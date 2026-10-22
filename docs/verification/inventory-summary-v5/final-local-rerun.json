@@ -1,0 +1,550 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/inventory-summary.spec.ts",
+      "tests/e2e/responsive.spec.ts",
+      "tests/e2e/unification.spec.ts",
+      "--grep",
+      "정보 전환|선택한 검|창 크기|긴 영어|WebGL",
+      "--reporter=list,json"
+    ],
+    "configFile": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\playwright.config.ts",
+    "rootDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/Documents/ChatGPT/MUGONG/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/user/Documents/ChatGPT/MUGONG/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "inventory-summary.spec.ts",
+      "file": "inventory-summary.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1920×1080",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3587,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:44:55.204Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-03ec8798efa270f13dc7",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1440×900",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:44:58.953Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-d2986d4b24ad003db090",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1366×768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:01.903Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-b5234ba60af5675a6ded",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1093×614",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:04.591Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-bd744b1e597a7a887745",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1000×620",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2776,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:07.325Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-bfa88d27ff61de95a082",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 1000×500",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:10.121Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-a5d5f21a887f6261a902",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 800×600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2316,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:12.472Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-308c259a535ca4b8504e",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "정보 전환 없이 상태·무공·장비·선택 정보 390×600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2209,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:14.801Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-4ada70332751404d1066",
+          "file": "inventory-summary.spec.ts",
+          "line": 113,
+          "column": 3
+        },
+        {
+          "title": "선택한 검을 탭 전환 없이 연결하고 작은 수납 미리보기로 이동한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:17.029Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86bf0596f8bcd250f08b-517672769f6d019e9f04",
+          "file": "inventory-summary.spec.ts",
+          "line": 147,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "responsive.spec.ts",
+      "file": "responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "창 크기 연속 변경: 긴 이름·네 무공·큰 HUD·가방·성장",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32504,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:20.115Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-80137d239850d736d967",
+          "file": "responsive.spec.ts",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9120,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts:279:20",
+                    "location": {
+                      "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                      "column": 20,
+                      "line": 279
+                    },
+                    "snippet": "  277 |     JSON.stringify({ checkedStates: 25, failures }, null, 2),\n  278 |   );\n> 279 |   expect(failures).toEqual([]);\n      |                    ^\n  280 | });\n  281 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                        "column": 20,
+                        "line": 279
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 34\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bag\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 500,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 1000,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"height\": 480,\u001b[39m\n\u001b[31m+     \"issues\": Array [\u001b[39m\n\u001b[31m+       \"box overflow: bag-usage 48×51/60×51\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"screen\": \"bindings\",\u001b[39m\n\u001b[31m+     \"width\": 640,\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  277 |     JSON.stringify({ checkedStates: 25, failures }, null, 2),\n  278 |   );\n> 279 |   expect(failures).toEqual([]);\n      |                    ^\n  280 | });\n  281 |\n    at C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts:279:20"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:45:52.637Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\responsive-긴-영어-문구-작은-창의-로비·가방·무공·설정·성장\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\test-results\\responsive-긴-영어-문구-작은-창의-로비·가방·무공·설정·성장\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\user\\Documents\\ChatGPT\\MUGONG\\tests\\e2e\\responsive.spec.ts",
+                    "column": 20,
+                    "line": 279
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e0223b006feb3d306446-68b0e831d22f9b19e531",
+          "file": "responsive.spec.ts",
+          "line": 214,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "unification.spec.ts",
+      "file": "unification.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WebGL 컨텍스트 손실은 정지·재시도로 복구하고 무인과 저장을 유지한다",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T15:46:03.644Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a68a8f81d234fba7036b-1e019ce9619d33367d7a",
+          "file": "unification.spec.ts",
+          "line": 528,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T15:44:54.121Z",
+    "duration": 73398.186,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

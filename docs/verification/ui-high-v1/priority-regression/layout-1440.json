@@ -1,0 +1,85 @@
+{
+  "width": 1440,
+  "height": 900,
+  "scan": {
+    "rows": [
+      {
+        "selector": ".health-line > span",
+        "text": "84 / 120",
+        "font": 15,
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "rect": {
+          "x": 249.9375,
+          "y": 79.09375,
+          "width": 58.0625,
+          "height": 15,
+          "top": 79.09375,
+          "right": 308,
+          "bottom": 94.09375,
+          "left": 249.9375
+        }
+      },
+      {
+        "selector": ".boss-health small",
+        "text": "622 / 1000",
+        "font": 15,
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "rect": {
+          "x": 535,
+          "y": 66,
+          "width": 330,
+          "height": 18,
+          "top": 66,
+          "right": 865,
+          "bottom": 84,
+          "left": 535
+        }
+      },
+      {
+        "selector": ".xp-line",
+        "text": "경험치\n0 / 100",
+        "font": 12,
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "rect": {
+          "x": 152,
+          "y": 114.59375,
+          "width": 156,
+          "height": 12,
+          "top": 114.59375,
+          "right": 308,
+          "bottom": 126.59375,
+          "left": 152
+        }
+      }
+    ],
+    "bars": [
+      {
+        "x": 152,
+        "y": 98.59375,
+        "width": 156,
+        "height": 11,
+        "top": 98.59375,
+        "right": 308,
+        "bottom": 109.59375,
+        "left": 152
+      },
+      {
+        "x": 535,
+        "y": 88,
+        "width": 330,
+        "height": 16,
+        "top": 88,
+        "right": 865,
+        "bottom": 104,
+        "left": 535
+      }
+    ]
+  },
+  "errors": [],
+  "recruitmentSelectionPersists": true,
+  "keyboardGrowthWorks": true,
+  "detailsDoNotOverlap": true
+}

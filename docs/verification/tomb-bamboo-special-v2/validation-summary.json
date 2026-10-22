@@ -1,0 +1,546 @@
+{
+  "date": "2026-10-18",
+  "typecheck": "passed",
+  "unit": {
+    "files": 65,
+    "tests": 1304
+  },
+  "render": {
+    "tests": 8,
+    "samples": 20512,
+    "records": [
+      {
+        "file": "5-canvas-full.json",
+        "count": 2560,
+        "contacts": 64,
+        "holds": 0,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 1,
+        "reduced": false
+      },
+      {
+        "file": "5-canvas-reduced.json",
+        "count": 2560,
+        "contacts": 64,
+        "holds": 0,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 1,
+        "reduced": true
+      },
+      {
+        "file": "5-webgl-full.json",
+        "count": 2560,
+        "contacts": 64,
+        "holds": 0,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 2,
+        "reduced": false
+      },
+      {
+        "file": "5-webgl-reduced.json",
+        "count": 2560,
+        "contacts": 64,
+        "holds": 0,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 2,
+        "reduced": true
+      },
+      {
+        "file": "6-canvas-full.json",
+        "count": 2568,
+        "contacts": 64,
+        "holds": 8,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 1,
+        "reduced": false
+      },
+      {
+        "file": "6-canvas-reduced.json",
+        "count": 2568,
+        "contacts": 64,
+        "holds": 8,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 1,
+        "reduced": true
+      },
+      {
+        "file": "6-webgl-full.json",
+        "count": 2568,
+        "contacts": 64,
+        "holds": 8,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 2,
+        "reduced": false
+      },
+      {
+        "file": "6-webgl-reduced.json",
+        "count": 2568,
+        "contacts": 64,
+        "holds": 8,
+        "failures": 0,
+        "unchanged": true,
+        "renderer": 2,
+        "reduced": true
+      }
+    ]
+  },
+  "compiledLocal": {
+    "tests": 8,
+    "port": 5199,
+    "outDir": "dist-tomb-bamboo-v2",
+    "independentContexts": true
+  },
+  "pixelAudit": {
+    "date": "2026-10-18",
+    "textures": 40,
+    "logicalSpecialFrames": 480,
+    "physicalCells": 315,
+    "minimumTransparentPadding": 32,
+    "failures": [],
+    "records": [
+      {
+        "texture": "tomb-bamboo-jeokho-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-jeokho-front.webp",
+        "width": 1248,
+        "height": 2048,
+        "physicalCells": 7,
+        "inkPixels": 464647,
+        "sha256": "f23ce9f3d317d89b162f7c09e3b5efbd48641ba84c3260c60e6690f25650e657",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-jeokho-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-jeokho-front-right.webp",
+        "width": 1344,
+        "height": 2048,
+        "physicalCells": 7,
+        "inkPixels": 485547,
+        "sha256": "0fda43b51bafc3847490f236c0ecf5a94ca3fd427b4bdf26ac58a5699e40243e",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-jeokho-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-jeokho-right.webp",
+        "width": 1536,
+        "height": 2048,
+        "physicalCells": 7,
+        "inkPixels": 490880,
+        "sha256": "1f316bb0d23e19cff1ae96c78ea0c29f390beaa7be4de919a4e3cf48b2c9b5df",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-jeokho-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-jeokho-rear-right.webp",
+        "width": 1344,
+        "height": 2048,
+        "physicalCells": 7,
+        "inkPixels": 433762,
+        "sha256": "7580cca733436e4468c213b99f0db304c9bc1f87a30206c8faff05eb37e20de5",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-jeokho-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-jeokho-back.webp",
+        "width": 1248,
+        "height": 1920,
+        "physicalCells": 7,
+        "inkPixels": 353005,
+        "sha256": "38f21b37ed3412fef3dbe87249ef516f74eeb9525943d49ecec2c100c1c38ed1",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-seokmun-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-seokmun-front.webp",
+        "width": 1248,
+        "height": 1664,
+        "physicalCells": 8,
+        "inkPixels": 445287,
+        "sha256": "6e5584e590cb39d3256a5bec4e64f250ec29b2bb0c2cf2988697298e0845ba74",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-seokmun-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-seokmun-front-right.webp",
+        "width": 1344,
+        "height": 1536,
+        "physicalCells": 8,
+        "inkPixels": 474394,
+        "sha256": "b663e9d9e92c47d9afb4a4d1b210ccac2fdf5eabf35e7b2a93b0361908e06ba8",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-seokmun-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-seokmun-right.webp",
+        "width": 1248,
+        "height": 1408,
+        "physicalCells": 8,
+        "inkPixels": 394452,
+        "sha256": "2e3aa25c2f3fc5c7ffb518f981675acbfa286aa08e7fd337f4702d34bf8f0ec9",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-seokmun-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-seokmun-rear-right.webp",
+        "width": 1152,
+        "height": 1536,
+        "physicalCells": 8,
+        "inkPixels": 358396,
+        "sha256": "49ab83ccf1aa473da0d64883eb256baaace26ccdb527646a0fb435df017b80eb",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-seokmun-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-seokmun-back.webp",
+        "width": 1152,
+        "height": 1536,
+        "physicalCells": 8,
+        "inkPixels": 370313,
+        "sha256": "130872d19e58b0c56ea6d3ddf548f872f7b126e5e3265617f59c399905cfeeed",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-gwakgi-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-gwakgi-front.webp",
+        "width": 1248,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 472535,
+        "sha256": "24b38e221f001def24e027371375e620bde5eec9ac5f3bb79da54b1f71346cdd",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-gwakgi-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-gwakgi-front-right.webp",
+        "width": 1344,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 513062,
+        "sha256": "dd342c33ee54adec7d2b4936e08f1ac3c65ef114c3029869e92132f9d6b0c32b",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-gwakgi-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-gwakgi-right.webp",
+        "width": 1056,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 413165,
+        "sha256": "20ded525b1ab2793adc41417bb79b6b660520d952cc4a230ee57debbe45c6478",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-gwakgi-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-gwakgi-rear-right.webp",
+        "width": 1152,
+        "height": 1664,
+        "physicalCells": 8,
+        "inkPixels": 422991,
+        "sha256": "930b36a6d15bc095c47c5c3c06d27e94c7aee28fc7e2d6fba77ca6022da543ac",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-gwakgi-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-gwakgi-back.webp",
+        "width": 1056,
+        "height": 1536,
+        "physicalCells": 8,
+        "inkPixels": 326814,
+        "sha256": "816ca8d35bb2176ef4b11b050f6a73632f362933feb3aeda747069596a1d26d3",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-wolryeong-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-wolryeong-front.webp",
+        "width": 1440,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 553694,
+        "sha256": "48bdc363ec842e8b0df2855d3e8f28152e1f1546a54459a6af6088305eb40aed",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-wolryeong-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-wolryeong-front-right.webp",
+        "width": 1536,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 560870,
+        "sha256": "979a0ad1db2d5e7f64da1695aac0711cb10ce0faf4e7fe05aa9485912c2f9733",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-wolryeong-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-wolryeong-right.webp",
+        "width": 1632,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 596499,
+        "sha256": "2d83a306b6722d63d78daeb1c27c98c8a17ccf562d9042dd5b88fa08c04a93a6",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-wolryeong-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-wolryeong-rear-right.webp",
+        "width": 1536,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 521006,
+        "sha256": "7b8824265b254542f0a4a8b1b793c5c558226a5a64bdea94cf673c762795bd73",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-wolryeong-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-wolryeong-back.webp",
+        "width": 1440,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 402511,
+        "sha256": "f39dc2a423c95f0e1daef134e2bf632976f947bc29e3491836cd5d7c7fed9b92",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-qingbi-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-qingbi-front.webp",
+        "width": 1152,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 529124,
+        "sha256": "87a76669ed2a3828bb50dd1b585fba1ffa1ba47db772d3899f55a70a8fd9e7f4",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-qingbi-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-qingbi-front-right.webp",
+        "width": 1344,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 528844,
+        "sha256": "eb1964e668cb22231e3406110de1b932c46caf5b5ed3c7b69ae021880276bacb",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-qingbi-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-qingbi-right.webp",
+        "width": 1248,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 482696,
+        "sha256": "bc0949c8cf7dc9f7de0370a6d7a3e2a5a5c091b37a78a02e596538656d099045",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-qingbi-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-qingbi-rear-right.webp",
+        "width": 1344,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 488896,
+        "sha256": "05f59353b941f846922692ec7f76330923da22bbc169d2c9f52d3174157a204a",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-qingbi-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-qingbi-back.webp",
+        "width": 1152,
+        "height": 1664,
+        "physicalCells": 8,
+        "inkPixels": 375414,
+        "sha256": "d14ac5842c6cf5a5b622a0ccbae50237b38958268d70889e6604a2a1ce4b6433",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-nogae-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-nogae-front.webp",
+        "width": 1920,
+        "height": 2688,
+        "physicalCells": 8,
+        "inkPixels": 889878,
+        "sha256": "100dcbd7753313dbf50053c9884a9e341013906fc9a13e24ca6bd20f598c69cf",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-nogae-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-nogae-front-right.webp",
+        "width": 1728,
+        "height": 2432,
+        "physicalCells": 8,
+        "inkPixels": 873910,
+        "sha256": "9fcb26d56504b881042593c8df92299c3ef030ef077b9e75a2fb4bb5f26fc874",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-nogae-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-nogae-right.webp",
+        "width": 1824,
+        "height": 2432,
+        "physicalCells": 8,
+        "inkPixels": 861208,
+        "sha256": "23e12135beebb9fa65de0229b674f74beb29d46340ad8f44d721f9e181eda801",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-nogae-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-nogae-rear-right.webp",
+        "width": 1728,
+        "height": 2304,
+        "physicalCells": 8,
+        "inkPixels": 690608,
+        "sha256": "b97ef3703a76a4f5d40d7ed76bd465d4aec3e30895df9b12c949b30c972ad6fe",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-nogae-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-nogae-back.webp",
+        "width": 1728,
+        "height": 2304,
+        "physicalCells": 8,
+        "inkPixels": 676007,
+        "sha256": "ce86f26ee38729e65969e758242632173f6ee6850c73e470b3c4fe9dfe47d387",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-yanqing-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-yanqing-front.webp",
+        "width": 1440,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 575012,
+        "sha256": "7a8c04be73dd59f81fc728bfa097600251b2f34d4e5f868197a216cc9d4365d8",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-yanqing-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-yanqing-front-right.webp",
+        "width": 1536,
+        "height": 2048,
+        "physicalCells": 8,
+        "inkPixels": 566485,
+        "sha256": "7ff71673bc74deec5be66155279ecd361d8edb77bd5b10d4f7d026ec03dd4b55",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-yanqing-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-yanqing-right.webp",
+        "width": 1728,
+        "height": 2048,
+        "physicalCells": 8,
+        "inkPixels": 580126,
+        "sha256": "4f739ca14c39a1366a10c48ed3243d09aeeea74972ffdd6292965474b46bde2e",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-yanqing-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-yanqing-rear-right.webp",
+        "width": 1632,
+        "height": 1920,
+        "physicalCells": 8,
+        "inkPixels": 470040,
+        "sha256": "4dbe2fa3da7dd13d1a66fd8348fafbfc125931d2cb07069319174f695c919143",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-yanqing-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-yanqing-back.webp",
+        "width": 1440,
+        "height": 2048,
+        "physicalCells": 8,
+        "inkPixels": 456294,
+        "sha256": "b21a6f3c8d87a46138d98c8a4c9ca45c95287be3b59dbde929e7b436a11be6d9",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-songwol-front",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-songwol-front.webp",
+        "width": 1440,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 631292,
+        "sha256": "73e2e6d1aa40e122ff46fd0626172b0de1f5a2aeb46df16ef7e0d4d6e7621b67",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-songwol-front-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-songwol-front-right.webp",
+        "width": 1536,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 635690,
+        "sha256": "82ec83b8b400eb740676d3be5fa13ea02a725d2f34f98f815c50d26cf3edf17e",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-songwol-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-songwol-right.webp",
+        "width": 1632,
+        "height": 1792,
+        "physicalCells": 8,
+        "inkPixels": 649425,
+        "sha256": "e1a71312dc135bdaeb5bb0a031a5254ea319c992a235fa838809906e8ca1225d",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-songwol-rear-right",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-songwol-rear-right.webp",
+        "width": 1440,
+        "height": 1664,
+        "physicalCells": 8,
+        "inkPixels": 542345,
+        "sha256": "1ac99521ced61a9a5f07f1211e1e7eaa8c5edcda5f7121fdb17e6829b9530efb",
+        "paddingTransparent": true
+      },
+      {
+        "texture": "tomb-bamboo-songwol-back",
+        "url": "/art/tomb-bamboo-special-v2/tomb-bamboo-songwol-back.webp",
+        "width": 1536,
+        "height": 1664,
+        "physicalCells": 8,
+        "inkPixels": 535939,
+        "sha256": "df3d7d3ecf68dbecef59866eb365c2154ed31a68d45945ca01c143fe95ae6028",
+        "paddingTransparent": true
+      }
+    ]
+  },
+  "coverage": {
+    "bosses": 40,
+    "kitActions": 185,
+    "specialActions": 131,
+    "logicalFrames": 4410,
+    "remaining": 54
+  },
+  "publicDeployment": false,
+  "sourceOnly": {
+    "files": 65,
+    "tests": 1304,
+    "mediaComparedAgainstManifest": true
+  },
+  "assets": {
+    "allMedia": 2676,
+    "runtimeMedia": 985,
+    "authoringMedia": 1691,
+    "runtimeFilesIncludingSvg": 1019,
+    "verification": "all-file bytes/SHA256 passed",
+    "runtimeBundle": {
+      "scope": "runtime",
+      "id": "50e2266d1f294fe8",
+      "file": "mugong-runtime-50e2266d1f294fe8.tar.gz",
+      "files": 985,
+      "bytes": 1133750372,
+      "sha256": "69bbebac03824554bb4bad4358945a48f139eca078c22b9540147a72cc6cdc9f"
+    },
+    "authoringBundle": {
+      "scope": "authoring",
+      "id": "855b7015b6b8f8b1",
+      "file": "mugong-authoring-855b7015b6b8f8b1.tar.gz",
+      "files": 1691,
+      "bytes": 2456056135,
+      "sha256": "67f1bc1a72b91e9248032a07151bcf2fc9e0df940492e398bec6519123899e6a"
+    }
+  }
+}

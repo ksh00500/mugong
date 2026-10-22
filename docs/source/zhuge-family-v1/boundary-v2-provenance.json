@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-06",
+  "tool": "built-in image_gen",
+  "edits": [
+    {
+      "id": "engineer-front-right",
+      "pose": 9,
+      "source": "engineer-front-right-boundary-v2.png",
+      "cell": {
+        "columns": 3,
+        "rows": 3,
+        "index": 3
+      },
+      "anchor": [
+        286,
+        347
+      ],
+      "generated": "exec-a2ecef60-1052-40bf-b964-56da75a976e6.png",
+      "prompt": "engineer-front-right-boundary-v2.prompt.txt",
+      "sha256": "f0612f234ae4d5458d438d35ba5ea82ad898f9495906f727fa91f314bd2c62bc"
+    },
+    {
+      "id": "engineer-front-right",
+      "pose": 10,
+      "source": "engineer-front-right-boundary-v2.png",
+      "cell": {
+        "columns": 3,
+        "rows": 3,
+        "index": 5
+      },
+      "anchor": [
+        215,
+        347
+      ],
+      "generated": "exec-a2ecef60-1052-40bf-b964-56da75a976e6.png",
+      "prompt": "engineer-front-right-boundary-v2.prompt.txt",
+      "sha256": "f0612f234ae4d5458d438d35ba5ea82ad898f9495906f727fa91f314bd2c62bc"
+    },
+    {
+      "id": "jingwal-right",
+      "pose": 5,
+      "source": "jingwal-right-prone-boundary-v2.png",
+      "cell": {
+        "columns": 1,
+        "rows": 1,
+        "index": 0,
+        "rectangle": [
+          684,
+          520,
+          1400,
+          805
+        ]
+      },
+      "anchor": [
+        349,
+        186
+      ],
+      "generated": "exec-7b1d6d27-b619-43ac-aa2b-a369a311d346.png",
+      "prompt": "jingwal-right-prone-boundary-v2.prompt.txt",
+      "sha256": "9c9d56abc2bf164f38c7e7e0da034e8ef96123e81e7ab3c3490e23fcab3d983f"
+    }
+  ],
+  "notes": "Generated sources selected without image resizing. Original sources and unaffected poses are retained; reviewed boot/body contact anchors."
+}

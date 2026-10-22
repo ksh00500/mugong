@@ -1,0 +1,4727 @@
+{
+  "note": "Geometric alpha audit only; not an anatomy, skull-size or motion approval.",
+  "sources": [
+    {
+      "file": "jingwal-back-dash.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            168,
+            131,
+            365,
+            484
+          ],
+          "area": 39903,
+          "componentId": 1,
+          "outerMargin": 131,
+          "cellMargins": [
+            168,
+            131,
+            178,
+            -2
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            640,
+            192,
+            1043,
+            485
+          ],
+          "area": 38962,
+          "componentId": 2,
+          "outerMargin": 43,
+          "cellMargins": [
+            97,
+            192,
+            43,
+            -3
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            80,
+            669,
+            533,
+            909
+          ],
+          "area": 36460,
+          "componentId": 3,
+          "outerMargin": 80,
+          "cellMargins": [
+            80,
+            187,
+            10,
+            56
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            665,
+            669,
+            1071,
+            916
+          ],
+          "area": 30782,
+          "componentId": 4,
+          "outerMargin": 15,
+          "cellMargins": [
+            122,
+            187,
+            15,
+            49
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            139,
+            1042,
+            463,
+            1373
+          ],
+          "area": 39126,
+          "componentId": 5,
+          "outerMargin": 75,
+          "cellMargins": [
+            139,
+            77,
+            80,
+            75
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            728,
+            1021,
+            926,
+            1374
+          ],
+          "area": 39802,
+          "componentId": 6,
+          "outerMargin": 74,
+          "cellMargins": [
+            185,
+            56,
+            160,
+            74
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "jingwal-back-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            197,
+            118,
+            388,
+            460
+          ],
+          "area": 36026,
+          "componentId": 1,
+          "outerMargin": 118,
+          "cellMargins": [
+            197,
+            118,
+            155,
+            22
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            713,
+            82,
+            938,
+            460
+          ],
+          "area": 38671,
+          "componentId": 2,
+          "outerMargin": 82,
+          "cellMargins": [
+            170,
+            82,
+            148,
+            22
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            197,
+            664,
+            392,
+            921
+          ],
+          "area": 32767,
+          "componentId": 3,
+          "outerMargin": 197,
+          "cellMargins": [
+            197,
+            182,
+            151,
+            44
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            718,
+            542,
+            950,
+            921
+          ],
+          "area": 39400,
+          "componentId": 4,
+          "outerMargin": 136,
+          "cellMargins": [
+            175,
+            60,
+            136,
+            44
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            199,
+            983,
+            410,
+            1339
+          ],
+          "area": 38303,
+          "componentId": 5,
+          "outerMargin": 109,
+          "cellMargins": [
+            199,
+            18,
+            133,
+            109
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            740,
+            985,
+            938,
+            1339
+          ],
+          "area": 37373,
+          "componentId": 6,
+          "outerMargin": 109,
+          "cellMargins": [
+            197,
+            20,
+            148,
+            109
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jingwal-front-dash.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            148,
+            148,
+            361,
+            446
+          ],
+          "area": 42394,
+          "componentId": 1,
+          "outerMargin": 148,
+          "cellMargins": [
+            148,
+            148,
+            182,
+            36
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            641,
+            191,
+            1048,
+            467
+          ],
+          "area": 43507,
+          "componentId": 2,
+          "outerMargin": 38,
+          "cellMargins": [
+            98,
+            191,
+            38,
+            15
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            86,
+            623,
+            578,
+            887
+          ],
+          "area": 42037,
+          "componentId": 3,
+          "outerMargin": 86,
+          "cellMargins": [
+            86,
+            141,
+            -35,
+            78
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            637,
+            623,
+            1083,
+            894
+          ],
+          "area": 39499,
+          "componentId": 4,
+          "outerMargin": 3,
+          "cellMargins": [
+            94,
+            141,
+            3,
+            71
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            134,
+            1054,
+            531,
+            1338
+          ],
+          "area": 43307,
+          "componentId": 5,
+          "outerMargin": 110,
+          "cellMargins": [
+            134,
+            89,
+            12,
+            110
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            692,
+            1053,
+            904,
+            1351
+          ],
+          "area": 42043,
+          "componentId": 6,
+          "outerMargin": 97,
+          "cellMargins": [
+            149,
+            88,
+            182,
+            97
+          ]
+        }
+      ],
+      "flags": [
+        2,
+        3
+      ]
+    },
+    {
+      "file": "jingwal-front-right-dash.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            118,
+            150,
+            401,
+            471
+          ],
+          "area": 49381,
+          "componentId": 1,
+          "outerMargin": 118,
+          "cellMargins": [
+            118,
+            150,
+            142,
+            11
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            629,
+            179,
+            1056,
+            482
+          ],
+          "area": 49333,
+          "componentId": 2,
+          "outerMargin": 30,
+          "cellMargins": [
+            86,
+            179,
+            30,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            53,
+            619,
+            556,
+            906
+          ],
+          "area": 47952,
+          "componentId": 3,
+          "outerMargin": 53,
+          "cellMargins": [
+            53,
+            137,
+            -13,
+            59
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            575,
+            617,
+            1059,
+            905
+          ],
+          "area": 46219,
+          "componentId": 4,
+          "outerMargin": 27,
+          "cellMargins": [
+            32,
+            135,
+            27,
+            60
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            117,
+            1011,
+            398,
+            1352
+          ],
+          "area": 51254,
+          "componentId": 5,
+          "outerMargin": 96,
+          "cellMargins": [
+            117,
+            46,
+            145,
+            96
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            651,
+            1032,
+            933,
+            1352
+          ],
+          "area": 49517,
+          "componentId": 6,
+          "outerMargin": 96,
+          "cellMargins": [
+            108,
+            67,
+            153,
+            96
+          ]
+        }
+      ],
+      "flags": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "jingwal-front-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            126,
+            127,
+            426,
+            470
+          ],
+          "area": 57655,
+          "componentId": 1,
+          "outerMargin": 126,
+          "cellMargins": [
+            126,
+            127,
+            117,
+            12
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            694,
+            73,
+            952,
+            469
+          ],
+          "area": 54565,
+          "componentId": 2,
+          "outerMargin": 73,
+          "cellMargins": [
+            151,
+            73,
+            134,
+            13
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            142,
+            521,
+            464,
+            920
+          ],
+          "area": 59185,
+          "componentId": 3,
+          "outerMargin": 142,
+          "cellMargins": [
+            142,
+            39,
+            79,
+            45
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            643,
+            572,
+            951,
+            925
+          ],
+          "area": 57860,
+          "componentId": 4,
+          "outerMargin": 135,
+          "cellMargins": [
+            100,
+            90,
+            135,
+            40
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            124,
+            1019,
+            428,
+            1368
+          ],
+          "area": 58869,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            124,
+            54,
+            115,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            649,
+            1027,
+            956,
+            1370
+          ],
+          "area": 58866,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            106,
+            62,
+            130,
+            78
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "jingwal-front-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            158,
+            145,
+            394,
+            478
+          ],
+          "area": 52352,
+          "componentId": 1,
+          "outerMargin": 145,
+          "cellMargins": [
+            158,
+            145,
+            149,
+            4
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            707,
+            147,
+            956,
+            493
+          ],
+          "area": 52171,
+          "componentId": 2,
+          "outerMargin": 130,
+          "cellMargins": [
+            164,
+            147,
+            130,
+            -11
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            170,
+            563,
+            419,
+            924
+          ],
+          "area": 51694,
+          "componentId": 3,
+          "outerMargin": 170,
+          "cellMargins": [
+            170,
+            81,
+            124,
+            41
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            693,
+            568,
+            930,
+            918
+          ],
+          "area": 51508,
+          "componentId": 4,
+          "outerMargin": 156,
+          "cellMargins": [
+            150,
+            86,
+            156,
+            47
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            163,
+            1030,
+            393,
+            1360
+          ],
+          "area": 50792,
+          "componentId": 5,
+          "outerMargin": 88,
+          "cellMargins": [
+            163,
+            65,
+            150,
+            88
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            693,
+            1033,
+            925,
+            1361
+          ],
+          "area": 50787,
+          "componentId": 6,
+          "outerMargin": 87,
+          "cellMargins": [
+            150,
+            68,
+            161,
+            87
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "jingwal-rear-right-dash.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            124,
+            171,
+            423,
+            458
+          ],
+          "area": 41009,
+          "componentId": 1,
+          "outerMargin": 124,
+          "cellMargins": [
+            124,
+            171,
+            120,
+            24
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            637,
+            185,
+            1054,
+            461
+          ],
+          "area": 44697,
+          "componentId": 2,
+          "outerMargin": 32,
+          "cellMargins": [
+            94,
+            185,
+            32,
+            21
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            59,
+            638,
+            585,
+            901
+          ],
+          "area": 43694,
+          "componentId": 3,
+          "outerMargin": 59,
+          "cellMargins": [
+            59,
+            156,
+            -42,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            663,
+            632,
+            1068,
+            909
+          ],
+          "area": 38064,
+          "componentId": 4,
+          "outerMargin": 18,
+          "cellMargins": [
+            120,
+            150,
+            18,
+            56
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            117,
+            1086,
+            496,
+            1360
+          ],
+          "area": 42528,
+          "componentId": 5,
+          "outerMargin": 88,
+          "cellMargins": [
+            117,
+            121,
+            47,
+            88
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            670,
+            1070,
+            969,
+            1357
+          ],
+          "area": 40775,
+          "componentId": 6,
+          "outerMargin": 91,
+          "cellMargins": [
+            127,
+            105,
+            117,
+            91
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "jingwal-rear-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            112,
+            176,
+            462,
+            510
+          ],
+          "area": 50034,
+          "componentId": 1,
+          "outerMargin": 112,
+          "cellMargins": [
+            112,
+            176,
+            81,
+            -28
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            658,
+            90,
+            945,
+            516
+          ],
+          "area": 50324,
+          "componentId": 2,
+          "outerMargin": 90,
+          "cellMargins": [
+            115,
+            90,
+            141,
+            -34
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            111,
+            545,
+            429,
+            962
+          ],
+          "area": 53778,
+          "componentId": 3,
+          "outerMargin": 111,
+          "cellMargins": [
+            111,
+            63,
+            114,
+            3
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            665,
+            610,
+            1046,
+            962
+          ],
+          "area": 49248,
+          "componentId": 4,
+          "outerMargin": 40,
+          "cellMargins": [
+            122,
+            128,
+            40,
+            3
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            112,
+            1060,
+            465,
+            1411
+          ],
+          "area": 50139,
+          "componentId": 5,
+          "outerMargin": 37,
+          "cellMargins": [
+            112,
+            95,
+            78,
+            37
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            665,
+            1071,
+            1014,
+            1412
+          ],
+          "area": 48566,
+          "componentId": 6,
+          "outerMargin": 36,
+          "cellMargins": [
+            122,
+            106,
+            72,
+            36
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "jingwal-right-dash.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            95,
+            168,
+            413,
+            471
+          ],
+          "area": 48130,
+          "componentId": 1,
+          "outerMargin": 95,
+          "cellMargins": [
+            95,
+            168,
+            130,
+            11
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            570,
+            180,
+            1005,
+            470
+          ],
+          "area": 51639,
+          "componentId": 2,
+          "outerMargin": 81,
+          "cellMargins": [
+            27,
+            180,
+            81,
+            12
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            52,
+            629,
+            553,
+            908
+          ],
+          "area": 50396,
+          "componentId": 3,
+          "outerMargin": 52,
+          "cellMargins": [
+            52,
+            147,
+            -10,
+            57
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            584,
+            634,
+            1074,
+            908
+          ],
+          "area": 47879,
+          "componentId": 4,
+          "outerMargin": 12,
+          "cellMargins": [
+            41,
+            152,
+            12,
+            57
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            86,
+            1034,
+            469,
+            1341
+          ],
+          "area": 52391,
+          "componentId": 5,
+          "outerMargin": 86,
+          "cellMargins": [
+            86,
+            69,
+            74,
+            107
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            634,
+            1045,
+            959,
+            1351
+          ],
+          "area": 49414,
+          "componentId": 6,
+          "outerMargin": 97,
+          "cellMargins": [
+            91,
+            80,
+            127,
+            97
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "jingwal-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            132,
+            184,
+            459,
+            495
+          ],
+          "area": 50913,
+          "componentId": 1,
+          "outerMargin": 132,
+          "cellMargins": [
+            132,
+            184,
+            84,
+            -13
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            674,
+            112,
+            967,
+            496
+          ],
+          "area": 54567,
+          "componentId": 2,
+          "outerMargin": 112,
+          "cellMargins": [
+            131,
+            112,
+            119,
+            -14
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            155,
+            568,
+            470,
+            947
+          ],
+          "area": 56781,
+          "componentId": 3,
+          "outerMargin": 155,
+          "cellMargins": [
+            155,
+            86,
+            73,
+            18
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            667,
+            632,
+            1003,
+            946
+          ],
+          "area": 52697,
+          "componentId": 4,
+          "outerMargin": 83,
+          "cellMargins": [
+            124,
+            150,
+            83,
+            19
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            131,
+            1063,
+            459,
+            1374
+          ],
+          "area": 51356,
+          "componentId": 5,
+          "outerMargin": 74,
+          "cellMargins": [
+            131,
+            98,
+            84,
+            74
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            669,
+            1063,
+            998,
+            1375
+          ],
+          "area": 51516,
+          "componentId": 6,
+          "outerMargin": 73,
+          "cellMargins": [
+            126,
+            98,
+            88,
+            73
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-back-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            188,
+            146,
+            404,
+            467
+          ],
+          "area": 41954,
+          "componentId": 1,
+          "outerMargin": 146,
+          "cellMargins": [
+            188,
+            146,
+            139,
+            15
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            696,
+            136,
+            898,
+            470
+          ],
+          "area": 42350,
+          "componentId": 2,
+          "outerMargin": 136,
+          "cellMargins": [
+            153,
+            136,
+            188,
+            12
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            177,
+            590,
+            401,
+            911
+          ],
+          "area": 42947,
+          "componentId": 3,
+          "outerMargin": 177,
+          "cellMargins": [
+            177,
+            108,
+            142,
+            54
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            697,
+            586,
+            898,
+            916
+          ],
+          "area": 42210,
+          "componentId": 4,
+          "outerMargin": 188,
+          "cellMargins": [
+            154,
+            104,
+            188,
+            49
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            195,
+            1037,
+            413,
+            1352
+          ],
+          "area": 42070,
+          "componentId": 5,
+          "outerMargin": 96,
+          "cellMargins": [
+            195,
+            72,
+            130,
+            96
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            718,
+            1032,
+            934,
+            1357
+          ],
+          "area": 42620,
+          "componentId": 6,
+          "outerMargin": 91,
+          "cellMargins": [
+            175,
+            67,
+            152,
+            91
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "mukyeon-back-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            146,
+            141,
+            418,
+            467
+          ],
+          "area": 43792,
+          "componentId": 1,
+          "outerMargin": 141,
+          "cellMargins": [
+            146,
+            141,
+            125,
+            15
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            732,
+            142,
+            998,
+            469
+          ],
+          "area": 47481,
+          "componentId": 2,
+          "outerMargin": 88,
+          "cellMargins": [
+            189,
+            142,
+            88,
+            13
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            193,
+            593,
+            477,
+            921
+          ],
+          "area": 48727,
+          "componentId": 3,
+          "outerMargin": 193,
+          "cellMargins": [
+            193,
+            111,
+            66,
+            44
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            699,
+            593,
+            969,
+            921
+          ],
+          "area": 44945,
+          "componentId": 4,
+          "outerMargin": 117,
+          "cellMargins": [
+            156,
+            111,
+            117,
+            44
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            147,
+            1047,
+            420,
+            1372
+          ],
+          "area": 44369,
+          "componentId": 5,
+          "outerMargin": 76,
+          "cellMargins": [
+            147,
+            82,
+            123,
+            76
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            688,
+            1046,
+            960,
+            1372
+          ],
+          "area": 43757,
+          "componentId": 6,
+          "outerMargin": 76,
+          "cellMargins": [
+            145,
+            81,
+            126,
+            76
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "mukyeon-front-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            138,
+            114,
+            402,
+            489
+          ],
+          "area": 64870,
+          "componentId": 1,
+          "outerMargin": 114,
+          "cellMargins": [
+            138,
+            114,
+            141,
+            -7
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            671,
+            114,
+            940,
+            488
+          ],
+          "area": 63848,
+          "componentId": 2,
+          "outerMargin": 114,
+          "cellMargins": [
+            128,
+            114,
+            146,
+            -6
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            151,
+            576,
+            420,
+            940
+          ],
+          "area": 63133,
+          "componentId": 3,
+          "outerMargin": 151,
+          "cellMargins": [
+            151,
+            94,
+            123,
+            25
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            672,
+            571,
+            940,
+            941
+          ],
+          "area": 64273,
+          "componentId": 4,
+          "outerMargin": 146,
+          "cellMargins": [
+            129,
+            89,
+            146,
+            24
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            140,
+            1017,
+            404,
+            1393
+          ],
+          "area": 65092,
+          "componentId": 5,
+          "outerMargin": 55,
+          "cellMargins": [
+            140,
+            52,
+            139,
+            55
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            668,
+            1020,
+            934,
+            1397
+          ],
+          "area": 65958,
+          "componentId": 6,
+          "outerMargin": 51,
+          "cellMargins": [
+            125,
+            55,
+            152,
+            51
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-front-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            148,
+            170,
+            408,
+            502
+          ],
+          "area": 51568,
+          "componentId": 1,
+          "outerMargin": 148,
+          "cellMargins": [
+            148,
+            170,
+            135,
+            -20
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            689,
+            171,
+            965,
+            513
+          ],
+          "area": 54384,
+          "componentId": 2,
+          "outerMargin": 121,
+          "cellMargins": [
+            146,
+            171,
+            121,
+            -31
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            168,
+            581,
+            473,
+            927
+          ],
+          "area": 56537,
+          "componentId": 3,
+          "outerMargin": 168,
+          "cellMargins": [
+            168,
+            99,
+            70,
+            38
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            689,
+            582,
+            967,
+            926
+          ],
+          "area": 55085,
+          "componentId": 4,
+          "outerMargin": 119,
+          "cellMargins": [
+            146,
+            100,
+            119,
+            39
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            161,
+            988,
+            427,
+            1333
+          ],
+          "area": 54306,
+          "componentId": 5,
+          "outerMargin": 115,
+          "cellMargins": [
+            161,
+            23,
+            116,
+            115
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            673,
+            1002,
+            933,
+            1333
+          ],
+          "area": 51607,
+          "componentId": 6,
+          "outerMargin": 115,
+          "cellMargins": [
+            130,
+            37,
+            153,
+            115
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-front-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            124,
+            131,
+            421,
+            508
+          ],
+          "area": 66520,
+          "componentId": 1,
+          "outerMargin": 124,
+          "cellMargins": [
+            124,
+            131,
+            122,
+            -26
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            650,
+            137,
+            988,
+            515
+          ],
+          "area": 68349,
+          "componentId": 2,
+          "outerMargin": 98,
+          "cellMargins": [
+            107,
+            137,
+            98,
+            -33
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            99,
+            575,
+            480,
+            953
+          ],
+          "area": 70025,
+          "componentId": 3,
+          "outerMargin": 99,
+          "cellMargins": [
+            99,
+            93,
+            63,
+            12
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            661,
+            594,
+            972,
+            953
+          ],
+          "area": 65395,
+          "componentId": 4,
+          "outerMargin": 114,
+          "cellMargins": [
+            118,
+            112,
+            114,
+            12
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            129,
+            1022,
+            425,
+            1395
+          ],
+          "area": 65595,
+          "componentId": 5,
+          "outerMargin": 53,
+          "cellMargins": [
+            129,
+            57,
+            118,
+            53
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            673,
+            1026,
+            969,
+            1399
+          ],
+          "area": 65466,
+          "componentId": 6,
+          "outerMargin": 49,
+          "cellMargins": [
+            130,
+            61,
+            117,
+            49
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-front-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            146,
+            118,
+            390,
+            468
+          ],
+          "area": 54996,
+          "componentId": 1,
+          "outerMargin": 118,
+          "cellMargins": [
+            146,
+            118,
+            153,
+            14
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            670,
+            124,
+            956,
+            470
+          ],
+          "area": 56224,
+          "componentId": 2,
+          "outerMargin": 124,
+          "cellMargins": [
+            127,
+            124,
+            130,
+            12
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            121,
+            573,
+            438,
+            926
+          ],
+          "area": 58552,
+          "componentId": 3,
+          "outerMargin": 121,
+          "cellMargins": [
+            121,
+            91,
+            105,
+            39
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            689,
+            571,
+            955,
+            926
+          ],
+          "area": 57739,
+          "componentId": 4,
+          "outerMargin": 131,
+          "cellMargins": [
+            146,
+            89,
+            131,
+            39
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            145,
+            1029,
+            389,
+            1375
+          ],
+          "area": 54263,
+          "componentId": 5,
+          "outerMargin": 73,
+          "cellMargins": [
+            145,
+            64,
+            154,
+            73
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            702,
+            1029,
+            945,
+            1375
+          ],
+          "area": 54222,
+          "componentId": 6,
+          "outerMargin": 73,
+          "cellMargins": [
+            159,
+            64,
+            141,
+            73
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "mukyeon-rear-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            127,
+            149,
+            427,
+            494
+          ],
+          "area": 59471,
+          "componentId": 1,
+          "outerMargin": 127,
+          "cellMargins": [
+            127,
+            149,
+            116,
+            -12
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            674,
+            147,
+            994,
+            489
+          ],
+          "area": 58190,
+          "componentId": 2,
+          "outerMargin": 92,
+          "cellMargins": [
+            131,
+            147,
+            92,
+            -7
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            144,
+            607,
+            453,
+            947
+          ],
+          "area": 59527,
+          "componentId": 3,
+          "outerMargin": 144,
+          "cellMargins": [
+            144,
+            125,
+            90,
+            18
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            681,
+            607,
+            994,
+            948
+          ],
+          "area": 58943,
+          "componentId": 4,
+          "outerMargin": 92,
+          "cellMargins": [
+            138,
+            125,
+            92,
+            17
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            145,
+            1055,
+            449,
+            1398
+          ],
+          "area": 60076,
+          "componentId": 5,
+          "outerMargin": 50,
+          "cellMargins": [
+            145,
+            90,
+            94,
+            50
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            674,
+            1056,
+            974,
+            1401
+          ],
+          "area": 59446,
+          "componentId": 6,
+          "outerMargin": 47,
+          "cellMargins": [
+            131,
+            91,
+            112,
+            47
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-rear-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            118,
+            134,
+            413,
+            469
+          ],
+          "area": 57932,
+          "componentId": 1,
+          "outerMargin": 118,
+          "cellMargins": [
+            118,
+            134,
+            130,
+            13
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            698,
+            135,
+            1009,
+            468
+          ],
+          "area": 59594,
+          "componentId": 2,
+          "outerMargin": 77,
+          "cellMargins": [
+            155,
+            135,
+            77,
+            14
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            110,
+            589,
+            428,
+            922
+          ],
+          "area": 59667,
+          "componentId": 3,
+          "outerMargin": 110,
+          "cellMargins": [
+            110,
+            107,
+            115,
+            43
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            698,
+            586,
+            1007,
+            921
+          ],
+          "area": 63373,
+          "componentId": 4,
+          "outerMargin": 79,
+          "cellMargins": [
+            155,
+            104,
+            79,
+            44
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            116,
+            1034,
+            413,
+            1367
+          ],
+          "area": 57641,
+          "componentId": 5,
+          "outerMargin": 81,
+          "cellMargins": [
+            116,
+            69,
+            130,
+            81
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            695,
+            1037,
+            990,
+            1370
+          ],
+          "area": 57896,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            152,
+            72,
+            96,
+            78
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "mukyeon-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            123,
+            121,
+            426,
+            493
+          ],
+          "area": 60971,
+          "componentId": 1,
+          "outerMargin": 121,
+          "cellMargins": [
+            123,
+            121,
+            117,
+            -11
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            656,
+            127,
+            1013,
+            494
+          ],
+          "area": 63531,
+          "componentId": 2,
+          "outerMargin": 73,
+          "cellMargins": [
+            113,
+            127,
+            73,
+            -12
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            117,
+            572,
+            471,
+            938
+          ],
+          "area": 64946,
+          "componentId": 3,
+          "outerMargin": 117,
+          "cellMargins": [
+            117,
+            90,
+            72,
+            27
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            654,
+            566,
+            1014,
+            936
+          ],
+          "area": 65108,
+          "componentId": 4,
+          "outerMargin": 72,
+          "cellMargins": [
+            111,
+            84,
+            72,
+            29
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            130,
+            994,
+            423,
+            1364
+          ],
+          "area": 61105,
+          "componentId": 5,
+          "outerMargin": 84,
+          "cellMargins": [
+            130,
+            29,
+            120,
+            84
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            664,
+            997,
+            970,
+            1369
+          ],
+          "area": 61156,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            121,
+            32,
+            116,
+            79
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "mukyeon-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            133,
+            57,
+            444,
+            452
+          ],
+          "area": 68184,
+          "componentId": 1,
+          "outerMargin": 57,
+          "cellMargins": [
+            133,
+            57,
+            99,
+            30
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            674,
+            58,
+            981,
+            453
+          ],
+          "area": 71759,
+          "componentId": 2,
+          "outerMargin": 58,
+          "cellMargins": [
+            131,
+            58,
+            105,
+            29
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            133,
+            513,
+            475,
+            910
+          ],
+          "area": 73492,
+          "componentId": 3,
+          "outerMargin": 133,
+          "cellMargins": [
+            133,
+            31,
+            68,
+            55
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            666,
+            513,
+            984,
+            909
+          ],
+          "area": 73293,
+          "componentId": 4,
+          "outerMargin": 102,
+          "cellMargins": [
+            123,
+            31,
+            102,
+            56
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            129,
+            979,
+            441,
+            1377
+          ],
+          "area": 68901,
+          "componentId": 5,
+          "outerMargin": 71,
+          "cellMargins": [
+            129,
+            14,
+            102,
+            71
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            670,
+            979,
+            981,
+            1377
+          ],
+          "area": 68810,
+          "componentId": 6,
+          "outerMargin": 71,
+          "cellMargins": [
+            127,
+            14,
+            105,
+            71
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yanggi-back-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            185,
+            170,
+            373,
+            503
+          ],
+          "area": 38531,
+          "componentId": 1,
+          "outerMargin": 170,
+          "cellMargins": [
+            185,
+            170,
+            170,
+            -21
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            706,
+            205,
+            926,
+            504
+          ],
+          "area": 41000,
+          "componentId": 2,
+          "outerMargin": 160,
+          "cellMargins": [
+            163,
+            205,
+            160,
+            -22
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            200,
+            643,
+            467,
+            933
+          ],
+          "area": 41928,
+          "componentId": 3,
+          "outerMargin": 200,
+          "cellMargins": [
+            200,
+            161,
+            76,
+            32
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            695,
+            643,
+            961,
+            932
+          ],
+          "area": 42052,
+          "componentId": 4,
+          "outerMargin": 125,
+          "cellMargins": [
+            152,
+            161,
+            125,
+            33
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            185,
+            1054,
+            373,
+            1388
+          ],
+          "area": 38704,
+          "componentId": 5,
+          "outerMargin": 60,
+          "cellMargins": [
+            185,
+            89,
+            170,
+            60
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            729,
+            1054,
+            917,
+            1388
+          ],
+          "area": 38548,
+          "componentId": 6,
+          "outerMargin": 60,
+          "cellMargins": [
+            186,
+            89,
+            169,
+            60
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "yanggi-back-sweep.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            210,
+            184,
+            351,
+            442
+          ],
+          "area": 21856,
+          "componentId": 1,
+          "outerMargin": 184,
+          "cellMargins": [
+            210,
+            184,
+            192,
+            40
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            718,
+            218,
+            1002,
+            448
+          ],
+          "area": 24968,
+          "componentId": 2,
+          "outerMargin": 84,
+          "cellMargins": [
+            175,
+            218,
+            84,
+            34
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            179,
+            662,
+            535,
+            893
+          ],
+          "area": 27229,
+          "componentId": 3,
+          "outerMargin": 179,
+          "cellMargins": [
+            179,
+            180,
+            8,
+            72
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            596,
+            668,
+            922,
+            911
+          ],
+          "area": 27050,
+          "componentId": 4,
+          "outerMargin": 164,
+          "cellMargins": [
+            53,
+            186,
+            164,
+            54
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            200,
+            1143,
+            483,
+            1373
+          ],
+          "area": 25059,
+          "componentId": 5,
+          "outerMargin": 75,
+          "cellMargins": [
+            200,
+            178,
+            60,
+            75
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            752,
+            1112,
+            893,
+            1369
+          ],
+          "area": 21828,
+          "componentId": 6,
+          "outerMargin": 79,
+          "cellMargins": [
+            209,
+            147,
+            193,
+            79
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yanggi-front-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            140,
+            127,
+            400,
+            433
+          ],
+          "area": 48847,
+          "componentId": 1,
+          "outerMargin": 127,
+          "cellMargins": [
+            140,
+            127,
+            143,
+            49
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            687,
+            128,
+            927,
+            433
+          ],
+          "area": 50770,
+          "componentId": 2,
+          "outerMargin": 128,
+          "cellMargins": [
+            144,
+            128,
+            159,
+            49
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            158,
+            585,
+            408,
+            885
+          ],
+          "area": 50622,
+          "componentId": 3,
+          "outerMargin": 158,
+          "cellMargins": [
+            158,
+            103,
+            135,
+            80
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            678,
+            585,
+            946,
+            886
+          ],
+          "area": 51570,
+          "componentId": 4,
+          "outerMargin": 140,
+          "cellMargins": [
+            135,
+            103,
+            140,
+            79
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            142,
+            1037,
+            401,
+            1342
+          ],
+          "area": 48466,
+          "componentId": 5,
+          "outerMargin": 106,
+          "cellMargins": [
+            142,
+            72,
+            142,
+            106
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            678,
+            1039,
+            936,
+            1344
+          ],
+          "area": 48321,
+          "componentId": 6,
+          "outerMargin": 104,
+          "cellMargins": [
+            135,
+            74,
+            150,
+            104
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yanggi-front-right-sweep.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            160,
+            158,
+            411,
+            450
+          ],
+          "area": 44574,
+          "componentId": 1,
+          "outerMargin": 158,
+          "cellMargins": [
+            160,
+            158,
+            132,
+            32
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            643,
+            162,
+            1006,
+            476
+          ],
+          "area": 49786,
+          "componentId": 2,
+          "outerMargin": 80,
+          "cellMargins": [
+            100,
+            162,
+            80,
+            6
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            134,
+            585,
+            583,
+            893
+          ],
+          "area": 49658,
+          "componentId": 3,
+          "outerMargin": 134,
+          "cellMargins": [
+            134,
+            103,
+            -40,
+            72
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            652,
+            584,
+            1061,
+            902
+          ],
+          "area": 49139,
+          "componentId": 4,
+          "outerMargin": 25,
+          "cellMargins": [
+            109,
+            102,
+            25,
+            63
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            166,
+            1045,
+            425,
+            1340
+          ],
+          "area": 46377,
+          "componentId": 5,
+          "outerMargin": 108,
+          "cellMargins": [
+            166,
+            80,
+            118,
+            108
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            694,
+            1045,
+            946,
+            1339
+          ],
+          "area": 45646,
+          "componentId": 6,
+          "outerMargin": 109,
+          "cellMargins": [
+            151,
+            80,
+            140,
+            109
+          ]
+        }
+      ],
+      "flags": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "yanggi-front-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            146,
+            156,
+            407,
+            496
+          ],
+          "area": 50226,
+          "componentId": 1,
+          "outerMargin": 146,
+          "cellMargins": [
+            146,
+            156,
+            136,
+            -14
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            704,
+            157,
+            942,
+            496
+          ],
+          "area": 53151,
+          "componentId": 2,
+          "outerMargin": 144,
+          "cellMargins": [
+            161,
+            157,
+            144,
+            -14
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            171,
+            588,
+            427,
+            927
+          ],
+          "area": 53807,
+          "componentId": 3,
+          "outerMargin": 171,
+          "cellMargins": [
+            171,
+            106,
+            116,
+            38
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            704,
+            597,
+            954,
+            932
+          ],
+          "area": 52343,
+          "componentId": 4,
+          "outerMargin": 132,
+          "cellMargins": [
+            161,
+            115,
+            132,
+            33
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            155,
+            1032,
+            414,
+            1368
+          ],
+          "area": 49490,
+          "componentId": 5,
+          "outerMargin": 80,
+          "cellMargins": [
+            155,
+            67,
+            129,
+            80
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            686,
+            1032,
+            947,
+            1370
+          ],
+          "area": 50364,
+          "componentId": 6,
+          "outerMargin": 78,
+          "cellMargins": [
+            143,
+            67,
+            139,
+            78
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "yanggi-front-sweep.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            166,
+            168,
+            406,
+            474
+          ],
+          "area": 41615,
+          "componentId": 1,
+          "outerMargin": 166,
+          "cellMargins": [
+            166,
+            168,
+            137,
+            8
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            698,
+            169,
+            1038,
+            480
+          ],
+          "area": 39288,
+          "componentId": 2,
+          "outerMargin": 48,
+          "cellMargins": [
+            155,
+            169,
+            48,
+            2
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            97,
+            587,
+            525,
+            921
+          ],
+          "area": 48739,
+          "componentId": 3,
+          "outerMargin": 97,
+          "cellMargins": [
+            97,
+            105,
+            18,
+            44
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            572,
+            595,
+            967,
+            921
+          ],
+          "area": 45204,
+          "componentId": 4,
+          "outerMargin": 119,
+          "cellMargins": [
+            29,
+            113,
+            119,
+            44
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            166,
+            1044,
+            406,
+            1353
+          ],
+          "area": 42157,
+          "componentId": 5,
+          "outerMargin": 95,
+          "cellMargins": [
+            166,
+            79,
+            137,
+            95
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            697,
+            1044,
+            937,
+            1353
+          ],
+          "area": 42230,
+          "componentId": 6,
+          "outerMargin": 95,
+          "cellMargins": [
+            154,
+            79,
+            149,
+            95
+          ]
+        }
+      ],
+      "flags": [
+        1
+      ]
+    },
+    {
+      "file": "yanggi-rear-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            138,
+            170,
+            388,
+            454
+          ],
+          "area": 39833,
+          "componentId": 1,
+          "outerMargin": 138,
+          "cellMargins": [
+            138,
+            170,
+            155,
+            28
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            702,
+            170,
+            923,
+            453
+          ],
+          "area": 42542,
+          "componentId": 2,
+          "outerMargin": 163,
+          "cellMargins": [
+            159,
+            170,
+            163,
+            29
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            148,
+            635,
+            433,
+            924
+          ],
+          "area": 46660,
+          "componentId": 3,
+          "outerMargin": 148,
+          "cellMargins": [
+            148,
+            153,
+            110,
+            41
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            692,
+            635,
+            976,
+            924
+          ],
+          "area": 46617,
+          "componentId": 4,
+          "outerMargin": 110,
+          "cellMargins": [
+            149,
+            153,
+            110,
+            41
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            147,
+            1087,
+            380,
+            1379
+          ],
+          "area": 45818,
+          "componentId": 5,
+          "outerMargin": 69,
+          "cellMargins": [
+            147,
+            122,
+            163,
+            69
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            693,
+            1088,
+            947,
+            1379
+          ],
+          "area": 41289,
+          "componentId": 6,
+          "outerMargin": 69,
+          "cellMargins": [
+            150,
+            123,
+            139,
+            69
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "yanggi-rear-right-sweep.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            118,
+            168,
+            400,
+            486
+          ],
+          "area": 50202,
+          "componentId": 1,
+          "outerMargin": 118,
+          "cellMargins": [
+            118,
+            168,
+            143,
+            -4
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            662,
+            174,
+            944,
+            489
+          ],
+          "area": 49499,
+          "componentId": 2,
+          "outerMargin": 142,
+          "cellMargins": [
+            119,
+            174,
+            142,
+            -7
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            116,
+            626,
+            546,
+            918
+          ],
+          "area": 50210,
+          "componentId": 3,
+          "outerMargin": 116,
+          "cellMargins": [
+            116,
+            144,
+            -3,
+            47
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            645,
+            609,
+            1044,
+            920
+          ],
+          "area": 49640,
+          "componentId": 4,
+          "outerMargin": 42,
+          "cellMargins": [
+            102,
+            127,
+            42,
+            45
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            127,
+            1037,
+            403,
+            1352
+          ],
+          "area": 48405,
+          "componentId": 5,
+          "outerMargin": 96,
+          "cellMargins": [
+            127,
+            72,
+            140,
+            96
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            701,
+            1038,
+            985,
+            1352
+          ],
+          "area": 49601,
+          "componentId": 6,
+          "outerMargin": 96,
+          "cellMargins": [
+            158,
+            73,
+            101,
+            96
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "file": "yanggi-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            122,
+            151,
+            433,
+            516
+          ],
+          "area": 61227,
+          "componentId": 1,
+          "outerMargin": 122,
+          "cellMargins": [
+            122,
+            151,
+            110,
+            -34
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            680,
+            151,
+            948,
+            516
+          ],
+          "area": 63096,
+          "componentId": 2,
+          "outerMargin": 138,
+          "cellMargins": [
+            137,
+            151,
+            138,
+            -34
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            148,
+            590,
+            507,
+            957
+          ],
+          "area": 67953,
+          "componentId": 3,
+          "outerMargin": 148,
+          "cellMargins": [
+            148,
+            108,
+            36,
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            670,
+            589,
+            1016,
+            957
+          ],
+          "area": 67174,
+          "componentId": 4,
+          "outerMargin": 70,
+          "cellMargins": [
+            127,
+            107,
+            70,
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            122,
+            1034,
+            433,
+            1400
+          ],
+          "area": 61577,
+          "componentId": 5,
+          "outerMargin": 48,
+          "cellMargins": [
+            122,
+            69,
+            110,
+            48
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            683,
+            1034,
+            993,
+            1400
+          ],
+          "area": 61674,
+          "componentId": 6,
+          "outerMargin": 48,
+          "cellMargins": [
+            140,
+            69,
+            93,
+            48
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "yanggi-right-sweep.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            142,
+            134,
+            424,
+            487
+          ],
+          "area": 55472,
+          "componentId": 1,
+          "outerMargin": 134,
+          "cellMargins": [
+            142,
+            134,
+            119,
+            -5
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            570,
+            144,
+            919,
+            493
+          ],
+          "area": 62244,
+          "componentId": 2,
+          "outerMargin": 144,
+          "cellMargins": [
+            27,
+            144,
+            167,
+            -11
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            90,
+            566,
+            558,
+            905
+          ],
+          "area": 59999,
+          "componentId": 3,
+          "outerMargin": 90,
+          "cellMargins": [
+            90,
+            84,
+            -15,
+            60
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            594,
+            567,
+            1076,
+            907
+          ],
+          "area": 57640,
+          "componentId": 4,
+          "outerMargin": 10,
+          "cellMargins": [
+            51,
+            85,
+            10,
+            58
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            118,
+            1003,
+            432,
+            1357
+          ],
+          "area": 60982,
+          "componentId": 5,
+          "outerMargin": 91,
+          "cellMargins": [
+            118,
+            38,
+            111,
+            91
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            683,
+            1006,
+            966,
+            1358
+          ],
+          "area": 55799,
+          "componentId": 6,
+          "outerMargin": 90,
+          "cellMargins": [
+            140,
+            41,
+            120,
+            90
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "file": "zhugehyeon-back-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            167,
+            102,
+            397,
+            441
+          ],
+          "area": 52923,
+          "componentId": 1,
+          "outerMargin": 102,
+          "cellMargins": [
+            167,
+            102,
+            146,
+            41
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            642,
+            102,
+            967,
+            443
+          ],
+          "area": 62648,
+          "componentId": 2,
+          "outerMargin": 102,
+          "cellMargins": [
+            99,
+            102,
+            119,
+            39
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            93,
+            571,
+            542,
+            901
+          ],
+          "area": 70230,
+          "componentId": 3,
+          "outerMargin": 93,
+          "cellMargins": [
+            93,
+            89,
+            1,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            601,
+            568,
+            1050,
+            910
+          ],
+          "area": 67794,
+          "componentId": 4,
+          "outerMargin": 36,
+          "cellMargins": [
+            58,
+            86,
+            36,
+            55
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            120,
+            1001,
+            418,
+            1340
+          ],
+          "area": 60572,
+          "componentId": 5,
+          "outerMargin": 108,
+          "cellMargins": [
+            120,
+            36,
+            125,
+            108
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            703,
+            1003,
+            934,
+            1342
+          ],
+          "area": 53027,
+          "componentId": 6,
+          "outerMargin": 106,
+          "cellMargins": [
+            160,
+            38,
+            152,
+            106
+          ]
+        }
+      ],
+      "flags": [
+        2
+      ]
+    },
+    {
+      "file": "zhugehyeon-back-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            163,
+            135,
+            390,
+            468
+          ],
+          "area": 51338,
+          "componentId": 1,
+          "outerMargin": 135,
+          "cellMargins": [
+            163,
+            135,
+            153,
+            14
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            682,
+            138,
+            935,
+            468
+          ],
+          "area": 54170,
+          "componentId": 2,
+          "outerMargin": 138,
+          "cellMargins": [
+            139,
+            138,
+            151,
+            14
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            142,
+            607,
+            421,
+            912
+          ],
+          "area": 51102,
+          "componentId": 3,
+          "outerMargin": 142,
+          "cellMargins": [
+            142,
+            125,
+            122,
+            53
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            683,
+            593,
+            946,
+            913
+          ],
+          "area": 53999,
+          "componentId": 4,
+          "outerMargin": 140,
+          "cellMargins": [
+            140,
+            111,
+            140,
+            52
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            133,
+            1029,
+            388,
+            1356
+          ],
+          "area": 51561,
+          "componentId": 5,
+          "outerMargin": 92,
+          "cellMargins": [
+            133,
+            64,
+            155,
+            92
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            707,
+            1034,
+            934,
+            1366
+          ],
+          "area": 51191,
+          "componentId": 6,
+          "outerMargin": 82,
+          "cellMargins": [
+            164,
+            69,
+            152,
+            82
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "zhugehyeon-front-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            139,
+            85,
+            435,
+            467
+          ],
+          "area": 71822,
+          "componentId": 1,
+          "outerMargin": 85,
+          "cellMargins": [
+            139,
+            85,
+            108,
+            15
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            629,
+            99,
+            996,
+            477
+          ],
+          "area": 84609,
+          "componentId": 2,
+          "outerMargin": 90,
+          "cellMargins": [
+            86,
+            99,
+            90,
+            5
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            80,
+            552,
+            473,
+            937
+          ],
+          "area": 80409,
+          "componentId": 3,
+          "outerMargin": 80,
+          "cellMargins": [
+            80,
+            70,
+            70,
+            28
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            547,
+            556,
+            1027,
+            937
+          ],
+          "area": 92178,
+          "componentId": 4,
+          "outerMargin": 59,
+          "cellMargins": [
+            4,
+            74,
+            59,
+            28
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            138,
+            996,
+            469,
+            1377
+          ],
+          "area": 82004,
+          "componentId": 5,
+          "outerMargin": 71,
+          "cellMargins": [
+            138,
+            31,
+            74,
+            71
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            660,
+            1013,
+            953,
+            1392
+          ],
+          "area": 70300,
+          "componentId": 6,
+          "outerMargin": 56,
+          "cellMargins": [
+            117,
+            48,
+            133,
+            56
+          ]
+        }
+      ],
+      "flags": [
+        1,
+        3
+      ]
+    },
+    {
+      "file": "zhugehyeon-front-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            134,
+            131,
+            421,
+            482
+          ],
+          "area": 65779,
+          "componentId": 1,
+          "outerMargin": 131,
+          "cellMargins": [
+            134,
+            131,
+            122,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            633,
+            135,
+            1000,
+            483
+          ],
+          "area": 81535,
+          "componentId": 2,
+          "outerMargin": 86,
+          "cellMargins": [
+            90,
+            135,
+            86,
+            -1
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            72,
+            576,
+            525,
+            916
+          ],
+          "area": 84647,
+          "componentId": 3,
+          "outerMargin": 72,
+          "cellMargins": [
+            72,
+            94,
+            18,
+            49
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            569,
+            574,
+            1031,
+            916
+          ],
+          "area": 77332,
+          "componentId": 4,
+          "outerMargin": 55,
+          "cellMargins": [
+            26,
+            92,
+            55,
+            49
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            147,
+            1032,
+            485,
+            1378
+          ],
+          "area": 74001,
+          "componentId": 5,
+          "outerMargin": 70,
+          "cellMargins": [
+            147,
+            67,
+            58,
+            70
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            667,
+            1036,
+            950,
+            1384
+          ],
+          "area": 64418,
+          "componentId": 6,
+          "outerMargin": 64,
+          "cellMargins": [
+            124,
+            71,
+            136,
+            64
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "zhugehyeon-front-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            142,
+            112,
+            418,
+            453
+          ],
+          "area": 61869,
+          "componentId": 1,
+          "outerMargin": 112,
+          "cellMargins": [
+            142,
+            112,
+            125,
+            29
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            681,
+            113,
+            992,
+            462
+          ],
+          "area": 68103,
+          "componentId": 2,
+          "outerMargin": 94,
+          "cellMargins": [
+            138,
+            113,
+            94,
+            20
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            132,
+            577,
+            472,
+            916
+          ],
+          "area": 62629,
+          "componentId": 3,
+          "outerMargin": 132,
+          "cellMargins": [
+            132,
+            95,
+            71,
+            49
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            696,
+            572,
+            1018,
+            917
+          ],
+          "area": 67842,
+          "componentId": 4,
+          "outerMargin": 68,
+          "cellMargins": [
+            153,
+            90,
+            68,
+            48
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            138,
+            1035,
+            463,
+            1382
+          ],
+          "area": 69753,
+          "componentId": 5,
+          "outerMargin": 66,
+          "cellMargins": [
+            138,
+            70,
+            80,
+            66
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            695,
+            1038,
+            975,
+            1382
+          ],
+          "area": 63268,
+          "componentId": 6,
+          "outerMargin": 66,
+          "cellMargins": [
+            152,
+            73,
+            111,
+            66
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "zhugehyeon-front-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            116,
+            130,
+            418,
+            522
+          ],
+          "area": 75939,
+          "componentId": 1,
+          "outerMargin": 116,
+          "cellMargins": [
+            116,
+            130,
+            125,
+            -40
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            617,
+            132,
+            979,
+            522
+          ],
+          "area": 84413,
+          "componentId": 2,
+          "outerMargin": 107,
+          "cellMargins": [
+            74,
+            132,
+            107,
+            -40
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            124,
+            576,
+            440,
+            949
+          ],
+          "area": 72789,
+          "componentId": 3,
+          "outerMargin": 124,
+          "cellMargins": [
+            124,
+            94,
+            103,
+            16
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            600,
+            563,
+            954,
+            939
+          ],
+          "area": 80852,
+          "componentId": 4,
+          "outerMargin": 132,
+          "cellMargins": [
+            57,
+            81,
+            132,
+            26
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            126,
+            1000,
+            419,
+            1387
+          ],
+          "area": 73029,
+          "componentId": 5,
+          "outerMargin": 61,
+          "cellMargins": [
+            126,
+            35,
+            124,
+            61
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            644,
+            1011,
+            950,
+            1402
+          ],
+          "area": 76691,
+          "componentId": 6,
+          "outerMargin": 46,
+          "cellMargins": [
+            101,
+            46,
+            136,
+            46
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "zhugehyeon-rear-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            146,
+            149,
+            409,
+            485
+          ],
+          "area": 55369,
+          "componentId": 1,
+          "outerMargin": 146,
+          "cellMargins": [
+            146,
+            149,
+            134,
+            -3
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            687,
+            166,
+            982,
+            485
+          ],
+          "area": 57798,
+          "componentId": 2,
+          "outerMargin": 104,
+          "cellMargins": [
+            144,
+            166,
+            104,
+            -3
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            126,
+            622,
+            544,
+            929
+          ],
+          "area": 64031,
+          "componentId": 3,
+          "outerMargin": 126,
+          "cellMargins": [
+            126,
+            140,
+            -1,
+            36
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            633,
+            613,
+            1050,
+            929
+          ],
+          "area": 65424,
+          "componentId": 4,
+          "outerMargin": 36,
+          "cellMargins": [
+            90,
+            131,
+            36,
+            36
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            150,
+            1051,
+            432,
+            1382
+          ],
+          "area": 57031,
+          "componentId": 5,
+          "outerMargin": 66,
+          "cellMargins": [
+            150,
+            86,
+            111,
+            66
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            694,
+            1048,
+            957,
+            1384
+          ],
+          "area": 55554,
+          "componentId": 6,
+          "outerMargin": 64,
+          "cellMargins": [
+            151,
+            83,
+            129,
+            64
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "file": "zhugehyeon-rear-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            144,
+            110,
+            414,
+            458
+          ],
+          "area": 59260,
+          "componentId": 1,
+          "outerMargin": 110,
+          "cellMargins": [
+            144,
+            110,
+            129,
+            24
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            665,
+            112,
+            988,
+            459
+          ],
+          "area": 68088,
+          "componentId": 2,
+          "outerMargin": 98,
+          "cellMargins": [
+            122,
+            112,
+            98,
+            23
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            109,
+            568,
+            506,
+            889
+          ],
+          "area": 69319,
+          "componentId": 3,
+          "outerMargin": 109,
+          "cellMargins": [
+            109,
+            86,
+            37,
+            76
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            643,
+            560,
+            1029,
+            909
+          ],
+          "area": 71562,
+          "componentId": 4,
+          "outerMargin": 57,
+          "cellMargins": [
+            100,
+            78,
+            57,
+            56
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            139,
+            994,
+            420,
+            1344
+          ],
+          "area": 63533,
+          "componentId": 5,
+          "outerMargin": 104,
+          "cellMargins": [
+            139,
+            29,
+            123,
+            104
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            684,
+            992,
+            956,
+            1342
+          ],
+          "area": 59772,
+          "componentId": 6,
+          "outerMargin": 106,
+          "cellMargins": [
+            141,
+            27,
+            130,
+            106
+          ]
+        }
+      ],
+      "flags": []
+    },
+    {
+      "file": "zhugehyeon-right-fan.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            131,
+            124,
+            416,
+            484
+          ],
+          "area": 64318,
+          "componentId": 1,
+          "outerMargin": 124,
+          "cellMargins": [
+            131,
+            124,
+            127,
+            -2
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            638,
+            135,
+            975,
+            485
+          ],
+          "area": 74764,
+          "componentId": 2,
+          "outerMargin": 111,
+          "cellMargins": [
+            95,
+            135,
+            111,
+            -3
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            97,
+            600,
+            514,
+            939
+          ],
+          "area": 74271,
+          "componentId": 3,
+          "outerMargin": 97,
+          "cellMargins": [
+            97,
+            118,
+            29,
+            26
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            630,
+            599,
+            1065,
+            936
+          ],
+          "area": 75048,
+          "componentId": 4,
+          "outerMargin": 21,
+          "cellMargins": [
+            87,
+            117,
+            21,
+            29
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            120,
+            1040,
+            439,
+            1389
+          ],
+          "area": 69504,
+          "componentId": 5,
+          "outerMargin": 59,
+          "cellMargins": [
+            120,
+            75,
+            104,
+            59
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            679,
+            1041,
+            959,
+            1393
+          ],
+          "area": 62536,
+          "componentId": 6,
+          "outerMargin": 55,
+          "cellMargins": [
+            136,
+            76,
+            127,
+            55
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "zhugehyeon-right-stance.png",
+      "width": 1086,
+      "height": 1448,
+      "poses": [
+        {
+          "index": 0,
+          "bounds": [
+            119,
+            144,
+            382,
+            486
+          ],
+          "area": 56537,
+          "componentId": 1,
+          "outerMargin": 119,
+          "cellMargins": [
+            119,
+            144,
+            161,
+            -4
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            682,
+            144,
+            997,
+            487
+          ],
+          "area": 63053,
+          "componentId": 2,
+          "outerMargin": 89,
+          "cellMargins": [
+            139,
+            144,
+            89,
+            -5
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            116,
+            600,
+            496,
+            926
+          ],
+          "area": 64556,
+          "componentId": 3,
+          "outerMargin": 116,
+          "cellMargins": [
+            116,
+            118,
+            47,
+            39
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            671,
+            585,
+            1018,
+            926
+          ],
+          "area": 66332,
+          "componentId": 4,
+          "outerMargin": 68,
+          "cellMargins": [
+            128,
+            103,
+            68,
+            39
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            116,
+            1024,
+            412,
+            1380
+          ],
+          "area": 68090,
+          "componentId": 5,
+          "outerMargin": 68,
+          "cellMargins": [
+            116,
+            59,
+            131,
+            68
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            688,
+            1047,
+            952,
+            1392
+          ],
+          "area": 57489,
+          "componentId": 6,
+          "outerMargin": 56,
+          "cellMargins": [
+            145,
+            82,
+            134,
+            56
+          ]
+        }
+      ],
+      "flags": [
+        0,
+        1
+      ]
+    }
+  ]
+}

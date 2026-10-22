@@ -1,0 +1,465 @@
+/* Rest and completion own these layouts. No changes to the bag or combat HUD. */
+.app-shell .journey-summary,
+.app-shell .journey-records {
+  width: min(680px, calc(100vw - 32px));
+  padding: 20px;
+}
+.app-shell .dialog.journey-summary {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  max-height: calc(100dvh - 24px);
+  gap: 12px;
+  overflow: visible;
+}
+.journey-summary-content {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+}
+.app-shell .journey-summary .death-result {
+  display: grid;
+  gap: 12px;
+  padding: 4px;
+  text-align: left;
+}
+.journey-summary-content h3 {
+  margin: 0;
+  font: 700 24px/1.4 var(--font-display);
+  overflow-wrap: anywhere;
+}
+.app-shell .journey-summary .journey-outcome-mark {
+  font: 700 36px/1 var(--font-display);
+  color: #9c3b2e;
+}
+.journey-summary-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.journey-summary-actions button {
+  min-height: 44px;
+  font-size: 17px;
+}
+.journey-summary-actions .action-hint {
+  flex: 1 1 180px;
+}
+.journey-retention {
+  padding: 10px 12px;
+  background: var(--surface-selected);
+  border-left: 3px solid var(--jade);
+  border-radius: 6px;
+  color: var(--ink);
+}
+.journey-next-hint {
+  color: var(--muted);
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header {
+  min-height: 64px;
+  padding: 8px 12px;
+  gap: 12px;
+  position: static;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header h2 {
+  margin: 0;
+  min-width: 0;
+  min-height: 48px;
+  font-size: 30px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-seal {
+  width: 36px;
+  height: 36px;
+}
+.app-shell :is(.rest-market, .journey-summary, .journey-records) .dialog-header > button {
+  min-height: 44px;
+  padding: 4px 12px;
+}
+.app-shell :is(.rest-market, .journey-summary) > button {
+  min-height: 44px;
+  padding: 8px 16px;
+  font-size: 18px;
+}
+.rest-market-status,
+.journey-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-block: 12px;
+}
+.app-shell .dialog.rest-market {
+  display: grid;
+  grid-template-rows: 64px auto minmax(0, 1fr) auto;
+  gap: 12px;
+  width: min(960px, calc(100vw - 24px));
+  height: min(650px, calc(100dvh - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: 20px;
+  overflow: visible;
+}
+.rest-market .rest-market-status {
+  margin: 0;
+  font-size: 18px;
+}
+.rest-market .market-keeper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.rest-market .market-keeper img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex: none;
+}
+.rest-market .market-keeper img[hidden] {
+  display: none;
+}
+.rest-market .market-keeper p {
+  margin: 4px 0 0;
+  font: 400 14px/1.4 var(--font-ui);
+  color: var(--muted);
+}
+.rest-market .rest-market-status > span {
+  flex: none;
+}
+.rest-market-content {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.9fr) minmax(0, 1.1fr);
+  gap: 16px;
+  min-height: 0;
+}
+.rest-market-stock {
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  min-height: 0;
+}
+.rest-market .market-stock-select {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 4px 10px;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 0;
+  min-width: 0;
+  padding: 10px;
+  background: var(--input-surface);
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  color: var(--ink);
+  font: 400 16px/1.35 var(--font-ui);
+  box-shadow: none;
+  transform: none;
+}
+.rest-market .market-stock-select[aria-pressed='true'] {
+  border: 2px solid var(--jade);
+  background: var(--surface-selected);
+  box-shadow: var(--shadow-selected);
+}
+.market-stock-select > .item-art {
+  width: 44px;
+  height: 54px;
+  grid-row: 1 / span 2;
+}
+.market-stock-select > span {
+  min-width: 0;
+}
+.market-stock-select b {
+  display: block;
+  font: 700 19px/1.3 var(--font-display);
+}
+.market-stock-select small {
+  display: block;
+  color: #5b6556;
+  font-size: 14px;
+}
+.market-stock-select .market-stock-state {
+  grid-column: 2;
+  font-size: 13px;
+  color: #685b40;
+}
+.market-detail {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  min-width: 0;
+  min-height: 0;
+  padding: 16px;
+  background: var(--surface-paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.market-item-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.market-item-heading > .item-art {
+  width: 50px;
+  height: 58px;
+  flex: none;
+}
+.market-item-heading h3 {
+  margin: 0;
+  font: 700 23px/1.3 var(--font-display);
+  overflow-wrap: anywhere;
+}
+.market-item-heading small {
+  font-size: 14px;
+}
+.market-detail-copy {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.rest-market .market-detail-copy p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+.market-destination {
+  color: #5b6556;
+}
+.market-purchase {
+  display: grid;
+  gap: 6px;
+}
+.market-purchase button {
+  width: 100%;
+  min-height: 46px;
+  padding: 8px;
+  font-size: 18px;
+}
+.rest-market .market-purchase p {
+  margin: 0;
+  font-size: 14px;
+}
+.market-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.market-actions span {
+  max-width: 65%;
+  font-size: 14px;
+  color: #5b6556;
+}
+.market-actions button {
+  min-height: 44px;
+  font-size: 17px;
+}
+.rest-market p,
+.journey-summary p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-block: 12px;
+}
+.journey-heading {
+  justify-content: start;
+}
+.journey-heading h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.journey-heading .ui-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.journey-totals {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+.journey-totals > div {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.journey-totals dt {
+  font-size: 16px;
+  color: var(--muted);
+}
+.journey-totals dd {
+  margin: 0;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-size: 23px;
+  overflow-wrap: anywhere;
+}
+.journey-route {
+  color: var(--jade);
+}
+.journey-records .home-records {
+  padding: 12px 0 0;
+}
+.journey-records .home-records > h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 8px 0 12px;
+}
+.journey-records .home-record-grid {
+  gap: 8px;
+}
+.journey-records .home-record-grid > div {
+  padding: 10px 14px;
+  gap: 4px;
+}
+.journey-records .home-record-grid b {
+  font-size: 34px;
+  line-height: 1.3;
+}
+.journey-records .home-record-grid > div > span {
+  font-size: 38px;
+  line-height: 1.3;
+  bottom: 8px;
+}
+.journey-records .home-record-summary {
+  margin-top: 12px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+.journey-records .home-records > p {
+  margin-block: 10px 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+@media (max-height: 660px) {
+  .app-shell .rest-market,
+  .app-shell .journey-summary,
+  .app-shell .journey-records {
+    padding: 12px 16px;
+  }
+  .app-shell .dialog.rest-market {
+    padding: 12px 16px;
+    gap: 8px;
+  }
+  .rest-market .market-stock-select {
+    padding: 8px;
+  }
+  .market-detail {
+    padding: 10px;
+    gap: 8px;
+  }
+  .market-item-heading h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 600px) {
+  .rest-market-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px minmax(0, 1fr);
+    gap: 8px;
+  }
+  .rest-market-stock {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: 1fr;
+  }
+  .rest-market .market-stock-select {
+    grid-template-columns: 1fr;
+    gap: 2px;
+    padding: 4px;
+    font-size: 12px;
+  }
+  .market-stock-select > .item-art,
+  .market-stock-select small,
+  .market-stock-state {
+    display: none;
+  }
+  .market-stock-select b {
+    font: 700 15px/1.35 var(--font-ui);
+  }
+  .journey-totals {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.combat-review {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  text-align: left;
+}
+.combat-review-totals {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+.combat-review-totals > div {
+  padding: 8px;
+  background: var(--surface-selected);
+  border-radius: 6px;
+}
+.combat-review-totals dt {
+  font-size: 13px;
+  color: var(--muted);
+}
+.combat-review-totals dd {
+  margin: 6px 0 0;
+  font: 700 18px var(--font-ui);
+}
+.combat-review summary,
+.journey-history > details > summary {
+  min-height: 44px;
+  padding: 12px 8px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--line);
+}
+.combat-review :is(ol, p) {
+  font: 400 14px/1.6 var(--font-ui);
+}
+.combat-review :is(.combat-wave-list, .combat-hit-list) {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+.combat-review li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  padding: 7px 0;
+}
+.combat-review .combat-fatal {
+  padding: 12px;
+  border-left: 4px solid #a64435;
+  background: #f3e4d8;
+}
+.journey-history {
+  display: grid;
+  gap: 8px;
+  max-height: 40dvh;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 4px;
+}
+.app-shell .dialog.journey-records {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  max-height: calc(100dvh - 24px);
+  overflow: visible;
+}
+.journey-records .home-records {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 4px;
+}
+.journey-records .journey-history {
+  max-height: none;
+  overflow: visible;
+}

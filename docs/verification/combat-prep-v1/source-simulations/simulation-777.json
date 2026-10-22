@@ -1,0 +1,171 @@
+{
+  "seed": 777,
+  "route": [
+    "죽림",
+    "청하현",
+    "천검산",
+    "폐사"
+  ],
+  "frames": 9822,
+  "upgrades": 4,
+  "waves": [
+    {
+      "wave": 1,
+      "phase": "loot",
+      "level": 1,
+      "hp": 109,
+      "gold": 16
+    },
+    {
+      "wave": 2,
+      "phase": "loot",
+      "level": 3,
+      "hp": 106,
+      "gold": 32
+    },
+    {
+      "wave": 3,
+      "phase": "loot",
+      "level": 4,
+      "hp": 105,
+      "gold": 52
+    },
+    {
+      "wave": 4,
+      "phase": "prep",
+      "level": 4,
+      "hp": 105,
+      "gold": 46
+    },
+    {
+      "wave": 5,
+      "phase": "loot",
+      "level": 6,
+      "hp": 119,
+      "gold": 71
+    },
+    {
+      "wave": 6,
+      "phase": "loot",
+      "level": 7,
+      "hp": 116,
+      "gold": 99
+    },
+    {
+      "wave": 7,
+      "phase": "loot",
+      "level": 7,
+      "hp": 115,
+      "gold": 127
+    },
+    {
+      "wave": 8,
+      "phase": "loot",
+      "level": 8,
+      "hp": 113,
+      "gold": 155
+    },
+    {
+      "wave": 9,
+      "phase": "prep",
+      "level": 8,
+      "hp": 113,
+      "gold": 152
+    },
+    {
+      "wave": 10,
+      "phase": "loot",
+      "level": 10,
+      "hp": 89,
+      "gold": 177
+    },
+    {
+      "wave": 11,
+      "phase": "loot",
+      "level": 10,
+      "hp": 100,
+      "gold": 213
+    },
+    {
+      "wave": 12,
+      "phase": "loot",
+      "level": 11,
+      "hp": 114,
+      "gold": 253
+    },
+    {
+      "wave": 13,
+      "phase": "loot",
+      "level": 11,
+      "hp": 120,
+      "gold": 293
+    },
+    {
+      "wave": 14,
+      "phase": "prep",
+      "level": 11,
+      "hp": 120,
+      "gold": 290
+    },
+    {
+      "wave": 15,
+      "phase": "loot",
+      "level": 12,
+      "hp": 120,
+      "gold": 315
+    },
+    {
+      "wave": 16,
+      "phase": "loot",
+      "level": 13,
+      "hp": 120,
+      "gold": 363
+    },
+    {
+      "wave": 17,
+      "phase": "loot",
+      "level": 13,
+      "hp": 120,
+      "gold": 411
+    },
+    {
+      "wave": 18,
+      "phase": "loot",
+      "level": 14,
+      "hp": 120,
+      "gold": 463
+    },
+    {
+      "wave": 19,
+      "phase": "prep",
+      "level": 14,
+      "hp": 120,
+      "gold": 460
+    },
+    {
+      "wave": 20,
+      "phase": "loot",
+      "level": 15,
+      "hp": 120,
+      "gold": 485
+    }
+  ],
+  "result": {
+    "id": "run-1-777",
+    "name": "시뮬레이션",
+    "outcome": "victory",
+    "wave": 20,
+    "level": 15,
+    "kills": 106,
+    "elapsed": 163.36666666668881,
+    "gold": 485,
+    "items": 17,
+    "route": [
+      "죽림",
+      "청하현",
+      "천검산",
+      "폐사"
+    ],
+    "endedAt": 1800000000000
+  }
+}

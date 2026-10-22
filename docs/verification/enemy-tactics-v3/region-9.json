@@ -1,0 +1,84 @@
+{
+  "hp": 99871.97,
+  "phase": "combat",
+  "finite": true,
+  "actors": [
+    {
+      "id": 500,
+      "role": "engineer",
+      "moved": 35.84809864144254,
+      "states": [
+        "windup",
+        "strike",
+        "recover",
+        "approach"
+      ]
+    },
+    {
+      "id": 501,
+      "role": "crossbow",
+      "moved": 93.44988073131438,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 502,
+      "role": "gatekeeper",
+      "moved": 381.75221442459224,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 503,
+      "bossId": "9-1",
+      "moved": 185.6125646907725,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 504,
+      "bossId": "9-2",
+      "moved": 111.73637772142865,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 505,
+      "bossId": "9-3",
+      "moved": 47.596681433764665,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    },
+    {
+      "id": 506,
+      "bossId": "9-4",
+      "moved": 170.65994916195248,
+      "states": [
+        "approach",
+        "windup",
+        "strike",
+        "recover"
+      ]
+    }
+  ]
+}

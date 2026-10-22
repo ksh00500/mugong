@@ -1,0 +1,185 @@
+[
+  {
+    "id": "snowhunter-front-right",
+    "key": "snowhunter-front-right-follow-padding",
+    "source": "snowhunter-front-right-follow-separated.png",
+    "poses": [
+      9
+    ],
+    "cell": {
+      "columns": 2,
+      "rows": 3,
+      "index": 3,
+      "rectangle": [
+        0,
+        512,
+        1024,
+        1024
+      ]
+    },
+    "existing": true,
+    "output": "snowhunter-front-right-follow-padding.png",
+    "promptFile": "snowhunter-front-right-follow-padding.prompt.txt",
+    "prompt": "Edit this1024x1536transparent sprite sheet. There is a warrior in row TWO right and row TWO left is EMPTY. The row TWO right warrior's silver spear tip TOUCHES the right canvas edge. Shift the ENTIRE middle-row warrior including complete spear, hands, feet, hair and cape exactly150pixels LEFT into the empty middle-row space. It is allowed to straddle the old center grid line. This is only a translation: preserve physical HEAD/BODY/SPEAR SIZE, pose, costume, neutral colors and alpha transparency. Restore any clipped leaf tip to the same single silver leaf shape. Keep at least100pixels clear alpha after the whole spear tip at the right canvas edge. Keep ONE forward spearhead with blue tassel, PLAIN wood rear butt and anatomically connected grips. Preserve the upper and lower rows unchanged. NO scaling, no background, effects or glow. Only the complete middle-row warrior will be extracted from this edit.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowhunter-front-right-follow-separated.png"
+    ]
+  },
+  {
+    "id": "snowhunter-front",
+    "key": "snowhunter-front-axial-thrust",
+    "source": "snowhunter-front-combat.png",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "wide": true,
+    "view": "front",
+    "owner": "Two separated CLOSED hand grips stay on ONE straight shaft, rear elbow loads beside ribs, front hand guides. Only FORWARD end has silver leaf and blue tassel; plain blunt wood rear end. Contact advances toward target and follows then retracts, never bends spear. Spear may be foreshortened but body is NOT miniaturized.",
+    "output": "snowhunter-front-axial-thrust.png",
+    "promptFile": "snowhunter-front-axial-thrust.prompt.txt",
+    "prompt": "SIX DRAWINGS ORDER:1early load,2maximum anticipation,3CONTACT,4followthrough,5withdraw,6return ready. All SIX are COMBAT, no walking or death.\nPRIORITY CAMERA: STRAIGHT FRONT facing SOUTH directly toward viewer and bottom. Both eyes evenly visible, nose centered, horizontal shoulders. Every attack points toward BOTTOM CENTER, foreshortened toward viewer. NEVER rightward or southeast attack.\nTwo separated CLOSED hand grips stay on ONE straight shaft, rear elbow loads beside ribs, front hand guides. Only FORWARD end has silver leaf and blue tassel; plain blunt wood rear end. Contact advances toward target and follows then retracts, never bends spear. Spear may be foreshortened but body is NOT miniaturized.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 2columns x3rows, SIX combat drawings. Redraw ALL SIX for corrected camera.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowhunter-front-combat.png"
+    ]
+  },
+  {
+    "id": "snowhunter-back",
+    "key": "snowhunter-back-axial-thrust",
+    "source": "snowhunter-back-combat.png",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "wide": true,
+    "view": "back",
+    "owner": "Two separated CLOSED hand grips stay on ONE straight shaft, rear elbow loads beside ribs, front hand guides. Only FORWARD end has silver leaf and blue tassel; plain blunt wood rear end. Contact advances toward target and follows then retracts, never bends spear. Spear may be foreshortened but body is NOT miniaturized.",
+    "output": "snowhunter-back-axial-thrust.png",
+    "promptFile": "snowhunter-back-axial-thrust.prompt.txt",
+    "prompt": "SIX DRAWINGS ORDER:1early load,2maximum anticipation,3CONTACT,4followthrough,5withdraw,6return ready. All SIX are COMBAT, no walking or death.\nPRIORITY CAMERA: STRAIGHT BACK facing NORTH. Symmetrical back of head and shoulders, centered spine. NO face or eyes. Every attack points toward TOP CENTER, foreshortened away from viewer. NEVER rightward or northeast attack.\nTwo separated CLOSED hand grips stay on ONE straight shaft, rear elbow loads beside ribs, front hand guides. Only FORWARD end has silver leaf and blue tassel; plain blunt wood rear end. Contact advances toward target and follows then retracts, never bends spear. Spear may be foreshortened but body is NOT miniaturized.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 2columns x3rows, SIX combat drawings. Redraw ALL SIX for corrected camera.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowhunter-back-combat.png"
+    ]
+  },
+  {
+    "id": "snowweaver-front-right",
+    "key": "snowweaver-front-right-cast-hand",
+    "source": "snowweaver-front-right.png",
+    "poses": [
+      8,
+      9
+    ],
+    "view": "front-right",
+    "owner": "The LEFT orb-supporting hand and shoulder must remain the SAME arm as source row3column2 maximum anticipation. Keep left orb palm visible on SCREEN RIGHT by the far-side hip. The empty RIGHT casting arm starts SCREEN LEFT (near shoulder), bends naturally then extends across front toward BOTTOM-RIGHT at contact. Never swap arms or move orb into right hand. Exactly two arms, no orb dropping out of frame.",
+    "output": "snowweaver-front-right-cast-hand.png",
+    "promptFile": "snowweaver-front-right-cast-hand.prompt.txt",
+    "prompt": "PRIORITY CAMERA: SOUTHEAST FRONT-RIGHT matching reference camera; attack BOTTOM-RIGHT.\nThe LEFT orb-supporting hand and shoulder must remain the SAME arm as source row3column2 maximum anticipation. Keep left orb palm visible on SCREEN RIGHT by the far-side hip. The empty RIGHT casting arm starts SCREEN LEFT (near shoulder), bends naturally then extends across front toward BOTTOM-RIGHT at contact. Never swap arms or move orb into right hand. Exactly two arms, no orb dropping out of frame.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 3columns x4rows, TWELVE drawings. Redraw ONLY selected row-major poses 9,10. Preserve other drawings.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowweaver-front-right.png"
+    ]
+  },
+  {
+    "id": "snowweaver-front",
+    "key": "snowweaver-front-axial-cast",
+    "source": "snowweaver-front.png",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "view": "front",
+    "owner": "LEFT hand supports ONE fixed ice orb on SCREEN RIGHT in EVERY selected pose. RIGHT empty palm on SCREEN LEFT loads close to ribs and extends straight toward viewer/BOTTOM at contact, then retracts. Never switch orb hand.",
+    "output": "snowweaver-front-axial-cast.png",
+    "promptFile": "snowweaver-front-axial-cast.prompt.txt",
+    "prompt": "PRIORITY CAMERA: STRAIGHT FRONT facing SOUTH directly toward viewer and bottom. Both eyes evenly visible, nose centered, horizontal shoulders. Every attack points toward BOTTOM CENTER, foreshortened toward viewer. NEVER rightward or southeast attack.\nLEFT hand supports ONE fixed ice orb on SCREEN RIGHT in EVERY selected pose. RIGHT empty palm on SCREEN LEFT loads close to ribs and extends straight toward viewer/BOTTOM at contact, then retracts. Never switch orb hand.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 3columns x4rows, TWELVE drawings. Redraw ONLY selected row-major poses 7,8,9,10,11,12. Preserve other drawings.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowweaver-front.png"
+    ]
+  },
+  {
+    "id": "snowweaver-back",
+    "key": "snowweaver-back-axial-cast",
+    "source": "snowweaver-back.png",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "view": "back",
+    "owner": "LEFT hand supports ONE fixed ice orb on SCREEN LEFT in EVERY drawing. RIGHT empty palm on SCREEN RIGHT loads close to ribs then extends toward TOP at contact, then retracts. Never switch orb hand.",
+    "output": "snowweaver-back-axial-cast.png",
+    "promptFile": "snowweaver-back-axial-cast.prompt.txt",
+    "prompt": "PRIORITY CAMERA: STRAIGHT BACK facing NORTH. Symmetrical back of head and shoulders, centered spine. NO face or eyes. Every attack points toward TOP CENTER, foreshortened away from viewer. NEVER rightward or northeast attack.\nLEFT hand supports ONE fixed ice orb on SCREEN LEFT in EVERY drawing. RIGHT empty palm on SCREEN RIGHT loads close to ribs then extends toward TOP at contact, then retracts. Never switch orb hand.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 3columns x4rows, TWELVE drawings. Redraw ALL TWELVE for correct camera and weapon hand.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowweaver-back.png"
+    ]
+  },
+  {
+    "id": "snowbowman-front",
+    "key": "snowbowman-front-axial-bow",
+    "source": "snowbowman-front.png",
+    "poses": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "view": "front",
+    "owner": "LEFT hand grips bow centre on SCREEN RIGHT, RIGHT hand draws string on SCREEN LEFT to cheek. Bow arm extends toward viewer/BOTTOM: strong axial foreshortening, arrow points toward viewer/down, NOT across sheet right. Release arrow disappears and right fingers relax near cheek; keep physical bow size and ONE taut string.",
+    "output": "snowbowman-front-axial-bow.png",
+    "promptFile": "snowbowman-front-axial-bow.prompt.txt",
+    "prompt": "PRIORITY CAMERA: STRAIGHT FRONT facing SOUTH directly toward viewer and bottom. Both eyes evenly visible, nose centered, horizontal shoulders. Every attack points toward BOTTOM CENTER, foreshortened toward viewer. NEVER rightward or southeast attack.\nLEFT hand grips bow centre on SCREEN RIGHT, RIGHT hand draws string on SCREEN LEFT to cheek. Bow arm extends toward viewer/BOTTOM: strong axial foreshortening, arrow points toward viewer/down, NOT across sheet right. Release arrow disappears and right fingers relax near cheek; keep physical bow size and ONE taut string.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 3columns x4rows, TWELVE drawings. Redraw ONLY selected row-major poses 7,8,9,10,11,12. Preserve other drawings.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowbowman-front.png"
+    ]
+  },
+  {
+    "id": "snowbowman-back",
+    "key": "snowbowman-back-axial-bow",
+    "source": "snowbowman-back.png",
+    "poses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "view": "back",
+    "owner": "LEFT hand grips bow centre on SCREEN LEFT in EVERY drawing, RIGHT hand draws string on SCREEN RIGHT to cheek. Bow arm extends away toward TOP CENTER, arrow foreshortened away from viewer/up, NOT toward right. Release arrow disappears and right fingers relax near cheek. Bow ALWAYS in left hand, quiver retained.",
+    "output": "snowbowman-back-axial-bow.png",
+    "promptFile": "snowbowman-back-axial-bow.prompt.txt",
+    "prompt": "PRIORITY CAMERA: STRAIGHT BACK facing NORTH. Symmetrical back of head and shoulders, centered spine. NO face or eyes. Every attack points toward TOP CENTER, foreshortened away from viewer. NEVER rightward or northeast attack.\nLEFT hand grips bow centre on SCREEN LEFT in EVERY drawing, RIGHT hand draws string on SCREEN RIGHT to cheek. Bow arm extends away toward TOP CENTER, arrow foreshortened away from viewer/up, NOT toward right. Release arrow disappears and right fingers relax near cheek. Bow ALWAYS in left hand, quiver retained.\nEDIT attached transparent sheet. Preserve1024x1536canvas, EXACT physical head/torso/limb/weapon size, costume and neutral colors. 3columns x4rows, TWELVE drawings. Redraw ALL TWELVE for correct camera and weapon hand.\nLogical poses:0idle,1left walk,2passing walk,3right walk,4tiny hurt,5prone,6early load,7maximum anticipation,8contact/release,9followthrough,10withdraw,11return. Attack uses connected joints and stable pelvis. Native body size does NOT change to fit. Alpha0 background, no neighboring touching, no canvas clipping, leave32px padding at canvas edges. NO glow, trails, effects or background. Reference defines identity and proportions; corrected camera and owning hands above override mistaken reference pose.\n",
+    "references": [
+      "C:/Users/user/Documents/ChatGPT/MUGONG/docs/source/snow-family-v1/snowbowman-back.png"
+    ]
+  }
+]

@@ -1,0 +1,545 @@
+[
+  {
+    "id": "rider-front-locomotion",
+    "jobId": "rider-front",
+    "character": "rider",
+    "view": 0,
+    "kind": "locomotion",
+    "source": "rider-front-locomotion.png",
+    "prompt": "rider-front-locomotion.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-locomotion.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-front-combat",
+    "jobId": "rider-front",
+    "character": "rider",
+    "view": 0,
+    "kind": "combat",
+    "source": "rider-front-combat.png",
+    "prompt": "rider-front-combat.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-combat.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-front-right-locomotion",
+    "jobId": "rider-front-right",
+    "character": "rider",
+    "view": 1,
+    "kind": "locomotion",
+    "source": "rider-front-right-locomotion.png",
+    "prompt": "rider-front-right-locomotion.alpha-repair.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hostile-consistency-v3/cavalry-directions.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-front-right-combat",
+    "jobId": "rider-front-right",
+    "character": "rider",
+    "view": 1,
+    "kind": "combat",
+    "source": "rider-front-right-combat.png",
+    "prompt": "rider-front-right-combat.alpha-repair.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hostile-consistency-v3/cavalry-directions.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-right-locomotion",
+    "jobId": "rider-right",
+    "character": "rider",
+    "view": 2,
+    "kind": "locomotion",
+    "source": "rider-right-locomotion.png",
+    "prompt": "rider-right-locomotion.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-locomotion.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-right-combat",
+    "jobId": "rider-right",
+    "character": "rider",
+    "view": 2,
+    "kind": "combat",
+    "source": "rider-right-combat.png",
+    "prompt": "rider-right-combat.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-combat.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-rear-right-locomotion",
+    "jobId": "rider-rear-right",
+    "character": "rider",
+    "view": 3,
+    "kind": "locomotion",
+    "source": "rider-rear-right-locomotion.png",
+    "prompt": "rider-rear-right-locomotion.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-locomotion.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-rear-right-combat",
+    "jobId": "rider-rear-right",
+    "character": "rider",
+    "view": 3,
+    "kind": "combat",
+    "source": "rider-rear-right-combat.png",
+    "prompt": "rider-rear-right-combat.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-combat.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-back-locomotion",
+    "jobId": "rider-back",
+    "character": "rider",
+    "view": 4,
+    "kind": "locomotion",
+    "source": "rider-back-locomotion.png",
+    "prompt": "rider-back-locomotion.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-locomotion.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "rider-back-combat",
+    "jobId": "rider-back",
+    "character": "rider",
+    "view": 4,
+    "kind": "combat",
+    "source": "rider-back-combat.png",
+    "prompt": "rider-back-combat.contact-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/rider-front-right-combat.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "assassin-front",
+    "jobId": "assassin-front",
+    "character": "assassin",
+    "view": 0,
+    "kind": "all",
+    "source": "assassin-front.png",
+    "prompt": "assassin-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/assassin-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "assassin-front-right",
+    "jobId": "assassin-front-right",
+    "character": "assassin",
+    "view": 1,
+    "kind": "all",
+    "source": "assassin-front-right.png",
+    "prompt": "assassin-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "assassin-right",
+    "jobId": "assassin-right",
+    "character": "assassin",
+    "view": 2,
+    "kind": "all",
+    "source": "assassin-right.png",
+    "prompt": "assassin-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/assassin-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "assassin-rear-right",
+    "jobId": "assassin-rear-right",
+    "character": "assassin",
+    "view": 3,
+    "kind": "all",
+    "source": "assassin-rear-right.png",
+    "prompt": "assassin-rear-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/assassin-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "assassin-back",
+    "jobId": "assassin-back",
+    "character": "assassin",
+    "view": 4,
+    "kind": "all",
+    "source": "assassin-back.png",
+    "prompt": "assassin-back.grip-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/assassin-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "ringblade-front",
+    "jobId": "ringblade-front",
+    "character": "ringblade",
+    "view": 0,
+    "kind": "all",
+    "source": "ringblade-front.png",
+    "prompt": "ringblade-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/ringblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "ringblade-front-right",
+    "jobId": "ringblade-front-right",
+    "character": "ringblade",
+    "view": 1,
+    "kind": "all",
+    "source": "ringblade-front-right.png",
+    "prompt": "ringblade-front-right.repair.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "ringblade-right",
+    "jobId": "ringblade-right",
+    "character": "ringblade",
+    "view": 2,
+    "kind": "all",
+    "source": "ringblade-right.png",
+    "prompt": "ringblade-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/ringblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "ringblade-rear-right",
+    "jobId": "ringblade-rear-right",
+    "character": "ringblade",
+    "view": 3,
+    "kind": "all",
+    "source": "ringblade-rear-right.png",
+    "prompt": "ringblade-rear-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/ringblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "ringblade-back",
+    "jobId": "ringblade-back",
+    "character": "ringblade",
+    "view": 4,
+    "kind": "all",
+    "source": "ringblade-back.png",
+    "prompt": "ringblade-back.grip-final.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/ringblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "asar-front",
+    "jobId": "asar-front",
+    "character": "asar",
+    "view": 0,
+    "kind": "all",
+    "source": "asar-front.png",
+    "prompt": "asar-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/asar-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "asar-front-right",
+    "jobId": "asar-front-right",
+    "character": "asar",
+    "view": 1,
+    "kind": "all",
+    "source": "asar-front-right.png",
+    "prompt": "asar-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "asar-right",
+    "jobId": "asar-right",
+    "character": "asar",
+    "view": 2,
+    "kind": "all",
+    "source": "asar-right.png",
+    "prompt": "asar-right.separation.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/asar-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "asar-rear-right",
+    "jobId": "asar-rear-right",
+    "character": "asar",
+    "view": 3,
+    "kind": "all",
+    "source": "asar-rear-right.png",
+    "prompt": "asar-rear-right.spacing-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/asar-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "asar-back",
+    "jobId": "asar-back",
+    "character": "asar",
+    "view": 4,
+    "kind": "all",
+    "source": "asar-back.png",
+    "prompt": "asar-back.grip-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/asar-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "naya-front",
+    "jobId": "naya-front",
+    "character": "naya",
+    "view": 0,
+    "kind": "all",
+    "source": "naya-front.png",
+    "prompt": "naya-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/naya-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "naya-front-right",
+    "jobId": "naya-front-right",
+    "character": "naya",
+    "view": 1,
+    "kind": "all",
+    "source": "naya-front-right.png",
+    "prompt": "naya-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "naya-right",
+    "jobId": "naya-right",
+    "character": "naya",
+    "view": 2,
+    "kind": "all",
+    "source": "naya-right.png",
+    "prompt": "naya-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/naya-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "naya-rear-right",
+    "jobId": "naya-rear-right",
+    "character": "naya",
+    "view": 3,
+    "kind": "all",
+    "source": "naya-rear-right.png",
+    "prompt": "naya-rear-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/naya-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "naya-back",
+    "jobId": "naya-back",
+    "character": "naya",
+    "view": 4,
+    "kind": "all",
+    "source": "naya-back.png",
+    "prompt": "naya-back.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/naya-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "balta-front",
+    "jobId": "balta-front",
+    "character": "balta",
+    "view": 0,
+    "kind": "all",
+    "source": "balta-front.png",
+    "prompt": "balta-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/balta-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "balta-front-right",
+    "jobId": "balta-front-right",
+    "character": "balta",
+    "view": 1,
+    "kind": "all",
+    "source": "balta-front-right.png",
+    "prompt": "balta-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "balta-right",
+    "jobId": "balta-right",
+    "character": "balta",
+    "view": 2,
+    "kind": "all",
+    "source": "balta-right.png",
+    "prompt": "balta-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/balta-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "balta-rear-right",
+    "jobId": "balta-rear-right",
+    "character": "balta",
+    "view": 3,
+    "kind": "all",
+    "source": "balta-rear-right.png",
+    "prompt": "balta-rear-right.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/balta-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "balta-back",
+    "jobId": "balta-back",
+    "character": "balta",
+    "view": 4,
+    "kind": "all",
+    "source": "balta-back.png",
+    "prompt": "balta-back.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/balta-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-front",
+    "jobId": "arkan-front",
+    "character": "arkan",
+    "view": 0,
+    "kind": "all",
+    "source": "arkan-front.png",
+    "prompt": "arkan-front.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/arkan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-front-right",
+    "jobId": "arkan-front-right",
+    "character": "arkan",
+    "view": 1,
+    "kind": "all",
+    "source": "arkan-front-right.png",
+    "prompt": "arkan-front-right.prompt.txt",
+    "references": [
+      "public/art/regions-v1/7-actors.png",
+      "docs/source/hyeolma-family-v1/bloodblade-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-right",
+    "jobId": "arkan-right",
+    "character": "arkan",
+    "view": 2,
+    "kind": "all",
+    "source": "arkan-right.png",
+    "prompt": "arkan-right.edge-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/arkan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-rear-right",
+    "jobId": "arkan-rear-right",
+    "character": "arkan",
+    "view": 3,
+    "kind": "all",
+    "source": "arkan-rear-right.png",
+    "prompt": "arkan-rear-right.edge-repair.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/arkan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-back",
+    "jobId": "arkan-back",
+    "character": "arkan",
+    "view": 4,
+    "kind": "all",
+    "source": "arkan-back.png",
+    "prompt": "arkan-back.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/arkan-front-right.png"
+    ],
+    "status": "generated"
+  },
+  {
+    "id": "arkan-rear-right-finish",
+    "jobId": "arkan-rear-right",
+    "character": "arkan",
+    "view": 3,
+    "kind": "combat-finish",
+    "source": "arkan-rear-right-finish.png",
+    "prompt": "arkan-rear-right-finish.uniform-size.prompt.txt",
+    "references": [
+      "docs/source/desert-family-v1/arkan-rear-right.png"
+    ],
+    "status": "generated"
+  }
+]

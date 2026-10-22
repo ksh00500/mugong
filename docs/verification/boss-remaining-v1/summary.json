@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-08",
+  "unitTests": 9,
+  "initialBrowserTests": 16,
+  "finalAffectedRerun": 8,
+  "finalCurrentConfigurations": 16,
+  "totalFinalSamples": 52864,
+  "reports": [
+    {
+      "name": "0-canvas-full.json",
+      "samples": 3856,
+      "contacts": 112,
+      "renderer": 1,
+      "reduced": false
+    },
+    {
+      "name": "0-canvas-reduced.json",
+      "samples": 3856,
+      "contacts": 112,
+      "renderer": 1,
+      "reduced": true
+    },
+    {
+      "name": "0-webgl-full.json",
+      "samples": 3856,
+      "contacts": 112,
+      "renderer": 2,
+      "reduced": false
+    },
+    {
+      "name": "0-webgl-reduced.json",
+      "samples": 3856,
+      "contacts": 112,
+      "renderer": 2,
+      "reduced": true
+    },
+    {
+      "name": "1-canvas-full.json",
+      "samples": 3208,
+      "contacts": 88,
+      "renderer": 1,
+      "reduced": false
+    },
+    {
+      "name": "1-canvas-reduced.json",
+      "samples": 3208,
+      "contacts": 88,
+      "renderer": 1,
+      "reduced": true
+    },
+    {
+      "name": "1-webgl-full.json",
+      "samples": 3208,
+      "contacts": 88,
+      "renderer": 2,
+      "reduced": false
+    },
+    {
+      "name": "1-webgl-reduced.json",
+      "samples": 3208,
+      "contacts": 88,
+      "renderer": 2,
+      "reduced": true
+    },
+    {
+      "name": "2-canvas-full.json",
+      "samples": 3568,
+      "contacts": 136,
+      "renderer": 1,
+      "reduced": false
+    },
+    {
+      "name": "2-canvas-reduced.json",
+      "samples": 3568,
+      "contacts": 136,
+      "renderer": 1,
+      "reduced": true
+    },
+    {
+      "name": "2-webgl-full.json",
+      "samples": 3568,
+      "contacts": 136,
+      "renderer": 2,
+      "reduced": false
+    },
+    {
+      "name": "2-webgl-reduced.json",
+      "samples": 3568,
+      "contacts": 136,
+      "renderer": 2,
+      "reduced": true
+    },
+    {
+      "name": "4-canvas-full.json",
+      "samples": 2584,
+      "contacts": 88,
+      "renderer": 1,
+      "reduced": false
+    },
+    {
+      "name": "4-canvas-reduced.json",
+      "samples": 2584,
+      "contacts": 88,
+      "renderer": 1,
+      "reduced": true
+    },
+    {
+      "name": "4-webgl-full.json",
+      "samples": 2584,
+      "contacts": 88,
+      "renderer": 2,
+      "reduced": false
+    },
+    {
+      "name": "4-webgl-reduced.json",
+      "samples": 2584,
+      "contacts": 88,
+      "renderer": 2,
+      "reduced": true
+    }
+  ],
+  "reviewUI": {
+    "date": "2026-10-08",
+    "independentContexts": true,
+    "results": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "samples": 328,
+        "keyboardStep": true,
+        "playPause": true,
+        "errors": []
+      },
+      {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "samples": 328,
+        "keyboardStep": true,
+        "playPause": true,
+        "errors": []
+      },
+      {
+        "viewport": {
+          "width": 1093,
+          "height": 614
+        },
+        "samples": 328,
+        "keyboardStep": true,
+        "playPause": true,
+        "errors": []
+      }
+    ]
+  },
+  "localCompiledTests": 5,
+  "localRegions": [
+    {
+      "region": 0,
+      "viewport": {
+        "width": 1093,
+        "height": 614
+      },
+      "expected": 60,
+      "loaded": 60,
+      "newRemainingLoaded": [
+        "/art/boss-remaining-v1/qingha-madabong-stomp.webp",
+        "/art/boss-remaining-v1/qingha-nojin-stomp.webp",
+        "/art/boss-remaining-v1/qingha-cheolmu-ground-chain.webp",
+        "/art/boss-remaining-v1/qingha-hanmugeuk-ground-cut.webp"
+      ],
+      "compiled": true,
+      "combatInput": true,
+      "bagOpenClose": true,
+      "errors": [],
+      "failed": [],
+      "independentContext": true
+    },
+    {
+      "region": 1,
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "expected": 61,
+      "loaded": 61,
+      "newRemainingLoaded": [
+        "/art/boss-remaining-v1/dokmu-cheongrin-straight-thrust.webp",
+        "/art/boss-remaining-v1/dokmu-cheongrin-horizontal-cut.webp",
+        "/art/boss-remaining-v1/dokmu-mukchil-bottle-hit.webp",
+        "/art/boss-remaining-v1/dokmu-yeonhwa-reverse-fan.webp",
+        "/art/boss-remaining-v1/dokmu-sagongyeom-staff-sweep.webp"
+      ],
+      "compiled": true,
+      "combatInput": true,
+      "bagOpenClose": true,
+      "errors": [],
+      "failed": [],
+      "independentContext": true
+    },
+    {
+      "region": 2,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "expected": 60,
+      "loaded": 60,
+      "newRemainingLoaded": [
+        "/art/boss-remaining-v1/tianjian-ujin-horizontal-cut.webp",
+        "/art/boss-remaining-v1/tianjian-baekhong-dual-thrust.webp",
+        "/art/boss-remaining-v1/tianjian-mumyeong-straight-thrust.webp",
+        "/art/boss-remaining-v1/tianjian-mumyeong-horizontal-cut.webp"
+      ],
+      "compiled": true,
+      "combatInput": true,
+      "bagOpenClose": true,
+      "errors": [],
+      "failed": [],
+      "independentContext": true
+    },
+    {
+      "region": 4,
+      "viewport": {
+        "width": 1093,
+        "height": 614
+      },
+      "expected": 66,
+      "loaded": 66,
+      "newRemainingLoaded": [
+        "/art/boss-remaining-v1/shaolin-gongheo-left-punch.webp",
+        "/art/boss-remaining-v1/shaolin-dowon-shoulder.webp",
+        "/art/boss-remaining-v1/shaolin-dowon-ground-fist.webp",
+        "/art/boss-remaining-v1/shaolin-bulmyeong-left-palm.webp",
+        "/art/boss-remaining-v1/shaolin-mujin-stomp.webp"
+      ],
+      "compiled": true,
+      "combatInput": true,
+      "bagOpenClose": true,
+      "errors": [],
+      "failed": [],
+      "independentContext": true
+    }
+  ],
+  "matchedPublicDistTextures": 133,
+  "notes": [
+    "Initial art snapshots retained under initial/. Regions1/2 overwritten only after final art corrections. Regions0/4 unchanged.",
+    "First affected-rerun startup failed waiting for webServer; retry passed8.",
+    "First review UI run failed rapid-selection image readiness. Fixed request ownership/disabled pending controls; final three viewports passed.",
+    "Visual human/model review is separate from coordinate assertions."
+  ]
+}

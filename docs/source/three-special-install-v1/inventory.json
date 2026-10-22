@@ -1,0 +1,4948 @@
+[
+  {
+    "family": "desert",
+    "actors": [
+      {
+        "id": "asar",
+        "bossId": "7-1",
+        "moves": [
+          "dash",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "naya",
+        "bossId": "7-2",
+        "moves": [
+          "ring",
+          "combo"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "balta",
+        "bossId": "7-3",
+        "moves": [
+          "dash",
+          "slam"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "arkan",
+        "bossId": "7-4",
+        "moves": [
+          "sweep",
+          "stance"
+        ],
+        "frames": 60
+      }
+    ],
+    "pending": [
+      "Native skull/body-size comparison against basic art, 240 ground anchors need deliberate review before installation.",
+      "Naya front-right release torso/arm continuity and rear-right loading anticipation need further review.",
+      "Naya combo uses one contact drawing for both game contacts; distinct left-hand second contact is not yet authored."
+    ],
+    "jobs": [
+      {
+        "id": "asar-front",
+        "source": "asar-front-dash.png",
+        "poseSources": [
+          "asar-front-dash.png",
+          "asar-front-dash.png",
+          "asar-front-dash.png",
+          "asar-front-dash.png",
+          "asar-front-dash.png",
+          "asar-front-dash.png",
+          "asar-front-stance.png",
+          "asar-front-stance.png",
+          "asar-front-stance.png",
+          "asar-front-stance.png",
+          "asar-front-stance.png",
+          "asar-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "asar-front-right",
+        "source": "asar-front-right-dash.png",
+        "poseSources": [
+          "asar-front-right-dash.png",
+          "asar-front-right-dash.png",
+          "asar-front-right-dash.png",
+          "asar-front-right-dash.png",
+          "asar-front-right-dash.png",
+          "asar-front-right-dash.png",
+          "asar-front-right-stance.png",
+          "asar-front-right-stance.png",
+          "asar-front-right-stance.png",
+          "asar-front-right-stance.png",
+          "asar-front-right-stance.png",
+          "asar-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "asar-right",
+        "source": "asar-right-dash.png",
+        "poseSources": [
+          "asar-right-dash.png",
+          "asar-right-dash.png",
+          "asar-right-dash.png",
+          "asar-right-dash.png",
+          "asar-right-dash.png",
+          "asar-right-dash.png",
+          "asar-right-stance.png",
+          "asar-right-stance.png",
+          "asar-right-stance.png",
+          "asar-right-stance.png",
+          "asar-right-stance.png",
+          "asar-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "asar-rear-right",
+        "source": "asar-rear-right-dash.png",
+        "poseSources": [
+          "asar-rear-right-dash.png",
+          "asar-rear-right-dash.png",
+          "asar-rear-right-dash.png",
+          "asar-rear-right-dash.png",
+          "asar-rear-right-dash.png",
+          "asar-rear-right-dash.png",
+          "asar-rear-right-stance.png",
+          "asar-rear-right-stance.png",
+          "asar-rear-right-stance.png",
+          "asar-rear-right-stance.png",
+          "asar-rear-right-stance.png",
+          "asar-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "asar-back",
+        "source": "asar-back-dash.png",
+        "poseSources": [
+          "asar-back-dash.png",
+          "asar-back-dash.png",
+          "asar-back-dash.png",
+          "asar-back-dash.png",
+          "asar-back-dash.png",
+          "asar-back-dash.png",
+          "asar-back-stance.png",
+          "asar-back-stance.png",
+          "asar-back-stance.png",
+          "asar-back-stance.png",
+          "asar-back-stance.png",
+          "asar-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "naya-front",
+        "source": "naya-front-ring.png",
+        "poseSources": [
+          "naya-front-ring.png",
+          "naya-front-ring.png",
+          "naya-front-ring.png",
+          "naya-front-ring.png",
+          "naya-front-ring.png",
+          "naya-front-ring.png",
+          "naya-front-combo.png",
+          "naya-front-combo.png",
+          "naya-front-combo.png",
+          "naya-front-combo.png",
+          "naya-front-combo.png",
+          "naya-front-combo.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "naya-front-right",
+        "source": "naya-front-right-ring.png",
+        "poseSources": [
+          "naya-front-right-ring.png",
+          "naya-front-right-ring.png",
+          "naya-front-right-ring.png",
+          "naya-front-right-ring.png",
+          "naya-front-right-ring.png",
+          "naya-front-right-ring.png",
+          "naya-front-right-combo.png",
+          "naya-front-right-combo.png",
+          "naya-front-right-combo.png",
+          "naya-front-right-combo.png",
+          "naya-front-right-combo.png",
+          "naya-front-right-combo.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "naya-right",
+        "source": "naya-right-ring.png",
+        "poseSources": [
+          "naya-right-ring.png",
+          "naya-right-ring.png",
+          "naya-right-ring.png",
+          "naya-right-ring.png",
+          "naya-right-ring.png",
+          "naya-right-ring.png",
+          "naya-right-combo.png",
+          "naya-right-combo.png",
+          "naya-right-combo.png",
+          "naya-right-combo.png",
+          "naya-right-combo.png",
+          "naya-right-combo.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "naya-rear-right",
+        "source": "naya-rear-right-ring.png",
+        "poseSources": [
+          "naya-rear-right-ring.png",
+          "naya-rear-right-ring.png",
+          "naya-rear-right-ring.png",
+          "naya-rear-right-ring.png",
+          "naya-rear-right-ring-repair-v2.png",
+          "naya-rear-right-ring.png",
+          "naya-rear-right-combo.png",
+          "naya-rear-right-combo.png",
+          "naya-rear-right-combo.png",
+          "naya-rear-right-combo.png",
+          "naya-rear-right-combo.png",
+          "naya-rear-right-combo.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "naya-back",
+        "source": "naya-back-ring.png",
+        "poseSources": [
+          "naya-back-ring.png",
+          "naya-back-ring.png",
+          "naya-back-ring.png",
+          "naya-back-ring.png",
+          "naya-back-ring-repair-v3.png",
+          "naya-back-ring.png",
+          "naya-back-combo.png",
+          "naya-back-combo.png",
+          "naya-back-combo.png",
+          "naya-back-combo.png",
+          "naya-back-combo.png",
+          "naya-back-combo.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "balta-front",
+        "source": "balta-front-dash.png",
+        "poseSources": [
+          "balta-front-dash.png",
+          "balta-front-dash.png",
+          "balta-front-dash.png",
+          "balta-front-dash.png",
+          "balta-front-dash.png",
+          "balta-front-dash.png",
+          "balta-front-slam.png",
+          "balta-front-slam.png",
+          "balta-front-slam.png",
+          "balta-front-slam.png",
+          "balta-front-slam.png",
+          "balta-front-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "balta-front-right",
+        "source": "balta-front-right-dash.png",
+        "poseSources": [
+          "balta-front-right-dash.png",
+          "balta-front-right-dash.png",
+          "balta-front-right-dash.png",
+          "balta-front-right-dash-repair-v1.png",
+          "balta-front-right-dash.png",
+          "balta-front-right-dash-repair-v1.png",
+          "balta-front-right-slam.png",
+          "balta-front-right-slam.png",
+          "balta-front-right-slam.png",
+          "balta-front-right-slam.png",
+          "balta-front-right-slam.png",
+          "balta-front-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "balta-right",
+        "source": "balta-right-dash.png",
+        "poseSources": [
+          "balta-right-dash.png",
+          "balta-right-dash.png",
+          "balta-right-dash.png",
+          "balta-right-dash.png",
+          "balta-right-dash.png",
+          "balta-right-dash.png",
+          "balta-right-slam.png",
+          "balta-right-slam.png",
+          "balta-right-slam.png",
+          "balta-right-slam.png",
+          "balta-right-slam.png",
+          "balta-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "balta-rear-right",
+        "source": "balta-rear-right-dash.png",
+        "poseSources": [
+          "balta-rear-right-dash.png",
+          "balta-rear-right-dash.png",
+          "balta-rear-right-dash.png",
+          "balta-rear-right-dash.png",
+          "balta-rear-right-dash.png",
+          "balta-rear-right-dash.png",
+          "balta-rear-right-slam.png",
+          "balta-rear-right-slam.png",
+          "balta-rear-right-slam.png",
+          "balta-rear-right-slam.png",
+          "balta-rear-right-slam.png",
+          "balta-rear-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "balta-back",
+        "source": "balta-back-dash.png",
+        "poseSources": [
+          "balta-back-dash.png",
+          "balta-back-dash.png",
+          "balta-back-dash.png",
+          "balta-back-dash.png",
+          "balta-back-dash.png",
+          "balta-back-dash.png",
+          "balta-back-slam.png",
+          "balta-back-slam.png",
+          "balta-back-slam.png",
+          "balta-back-slam.png",
+          "balta-back-slam.png",
+          "balta-back-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "arkan-front",
+        "source": "arkan-front-sweep.png",
+        "poseSources": [
+          "arkan-front-sweep.png",
+          "arkan-front-sweep-repair-v2.png",
+          "arkan-front-sweep.png",
+          "arkan-front-sweep.png",
+          "arkan-front-sweep.png",
+          "arkan-front-sweep.png",
+          "arkan-front-stance.png",
+          "arkan-front-stance.png",
+          "arkan-front-stance.png",
+          "arkan-front-stance.png",
+          "arkan-front-stance.png",
+          "arkan-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "arkan-front-right",
+        "source": "arkan-front-right-sweep.png",
+        "poseSources": [
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-sweep.png",
+          "arkan-front-right-stance.png",
+          "arkan-front-right-stance.png",
+          "arkan-front-right-stance.png",
+          "arkan-front-right-stance.png",
+          "arkan-front-right-stance.png",
+          "arkan-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "arkan-right",
+        "source": "arkan-right-sweep.png",
+        "poseSources": [
+          "arkan-right-sweep.png",
+          "arkan-right-sweep.png",
+          "arkan-right-sweep.png",
+          "arkan-right-sweep.png",
+          "arkan-right-sweep.png",
+          "arkan-right-sweep.png",
+          "arkan-right-stance.png",
+          "arkan-right-stance.png",
+          "arkan-right-stance.png",
+          "arkan-right-stance.png",
+          "arkan-right-stance.png",
+          "arkan-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "arkan-rear-right",
+        "source": "arkan-rear-right-sweep.png",
+        "poseSources": [
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-sweep.png",
+          "arkan-rear-right-stance.png",
+          "arkan-rear-right-stance.png",
+          "arkan-rear-right-stance.png",
+          "arkan-rear-right-stance-repair-v1.png",
+          "arkan-rear-right-stance.png",
+          "arkan-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "arkan-back",
+        "source": "arkan-back-sweep.png",
+        "poseSources": [
+          "arkan-back-sweep.png",
+          "arkan-back-sweep.png",
+          "arkan-back-sweep.png",
+          "arkan-back-sweep.png",
+          "arkan-back-sweep.png",
+          "arkan-back-sweep.png",
+          "arkan-back-stance.png",
+          "arkan-back-stance.png",
+          "arkan-back-stance.png",
+          "arkan-back-stance.png",
+          "arkan-back-stance.png",
+          "arkan-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "family": "hyeolma",
+    "actors": [
+      {
+        "id": "jeogu",
+        "bossId": "8-1",
+        "moves": [
+          "dash",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "yeonsal",
+        "bossId": "8-2",
+        "moves": [
+          "dash",
+          "slam"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "sohong",
+        "bossId": "8-3",
+        "moves": [
+          "fan",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "jeokcheon",
+        "bossId": "8-4",
+        "moves": [
+          "dash",
+          "stance"
+        ],
+        "frames": 60
+      }
+    ],
+    "pending": [
+      "Review all 240 automatic foot anchors and head/body consistency against base art before runtime registration",
+      "Jeogu rear-right ritual intentionally uses a restrained head/knee motion with fixed arms"
+    ],
+    "jobs": [
+      {
+        "id": "jeogu-front",
+        "source": "jeogu-front-dash.png",
+        "poseSources": [
+          "jeogu-front-dash.png",
+          "jeogu-front-dash.png",
+          "jeogu-front-dash.png",
+          "jeogu-front-dash.png",
+          "jeogu-front-dash.png",
+          "jeogu-front-dash.png",
+          "jeogu-front-stance.png",
+          "jeogu-front-stance.png",
+          "jeogu-front-stance.png",
+          "jeogu-front-stance.png",
+          "jeogu-front-stance.png",
+          "jeogu-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeogu-front-right",
+        "source": "jeogu-front-right-dash.png",
+        "poseSources": [
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-dash.png",
+          "jeogu-front-right-stance.png",
+          "jeogu-front-right-stance.png",
+          "jeogu-front-right-stance.png",
+          "jeogu-front-right-stance.png",
+          "jeogu-front-right-stance.png",
+          "jeogu-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeogu-right",
+        "source": "jeogu-right-dash.png",
+        "poseSources": [
+          "jeogu-right-dash.png",
+          "jeogu-right-dash.png",
+          "jeogu-right-dash.png",
+          "jeogu-right-dash.png",
+          "jeogu-right-dash.png",
+          "jeogu-right-dash.png",
+          "jeogu-right-stance.png",
+          "jeogu-right-stance.png",
+          "jeogu-right-stance.png",
+          "jeogu-right-stance.png",
+          "jeogu-right-stance.png",
+          "jeogu-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeogu-rear-right",
+        "source": "jeogu-rear-right-dash.png",
+        "poseSources": [
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-dash.png",
+          "jeogu-rear-right-stance.png",
+          "jeogu-rear-right-stance-repair-v6.png",
+          "jeogu-rear-right-stance-repair-v6.png",
+          "jeogu-rear-right-stance-repair-v6.png",
+          "jeogu-rear-right-stance-repair-v6.png",
+          "jeogu-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeogu-back",
+        "source": "jeogu-back-dash.png",
+        "poseSources": [
+          "jeogu-back-dash.png",
+          "jeogu-back-dash.png",
+          "jeogu-back-dash.png",
+          "jeogu-back-dash.png",
+          "jeogu-back-dash.png",
+          "jeogu-back-dash.png",
+          "jeogu-back-stance.png",
+          "jeogu-back-stance.png",
+          "jeogu-back-stance.png",
+          "jeogu-back-stance.png",
+          "jeogu-back-stance.png",
+          "jeogu-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yeonsal-front",
+        "source": "yeonsal-front-dash.png",
+        "poseSources": [
+          "yeonsal-front-dash.png",
+          "yeonsal-front-dash-repair-v2.png",
+          "yeonsal-front-dash-repair-v2.png",
+          "yeonsal-front-dash-repair-v2.png",
+          "yeonsal-front-dash.png",
+          "yeonsal-front-dash.png",
+          "yeonsal-front-slam.png",
+          "yeonsal-front-slam.png",
+          "yeonsal-front-slam.png",
+          "yeonsal-front-slam.png",
+          "yeonsal-front-slam.png",
+          "yeonsal-front-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yeonsal-front-right",
+        "source": "yeonsal-front-right-dash.png",
+        "poseSources": [
+          "yeonsal-front-right-dash.png",
+          "yeonsal-front-right-dash.png",
+          "yeonsal-front-right-dash-repair-v2.png",
+          "yeonsal-front-right-dash.png",
+          "yeonsal-front-right-dash.png",
+          "yeonsal-front-right-dash.png",
+          "yeonsal-front-right-slam.png",
+          "yeonsal-front-right-slam.png",
+          "yeonsal-front-right-slam.png",
+          "yeonsal-front-right-slam.png",
+          "yeonsal-front-right-slam.png",
+          "yeonsal-front-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yeonsal-right",
+        "source": "yeonsal-right-dash.png",
+        "poseSources": [
+          "yeonsal-right-dash.png",
+          "yeonsal-right-dash.png",
+          "yeonsal-right-dash.png",
+          "yeonsal-right-dash.png",
+          "yeonsal-right-dash.png",
+          "yeonsal-right-dash.png",
+          "yeonsal-right-slam.png",
+          "yeonsal-right-slam.png",
+          "yeonsal-right-slam.png",
+          "yeonsal-right-slam.png",
+          "yeonsal-right-slam.png",
+          "yeonsal-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yeonsal-rear-right",
+        "source": "yeonsal-rear-right-dash.png",
+        "poseSources": [
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-dash.png",
+          "yeonsal-rear-right-slam.png",
+          "yeonsal-rear-right-slam.png",
+          "yeonsal-rear-right-slam.png",
+          "yeonsal-rear-right-slam.png",
+          "yeonsal-rear-right-slam.png",
+          "yeonsal-rear-right-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yeonsal-back",
+        "source": "yeonsal-back-dash.png",
+        "poseSources": [
+          "yeonsal-back-dash.png",
+          "yeonsal-back-dash.png",
+          "yeonsal-back-dash.png",
+          "yeonsal-back-dash.png",
+          "yeonsal-back-dash.png",
+          "yeonsal-back-dash.png",
+          "yeonsal-back-slam.png",
+          "yeonsal-back-slam.png",
+          "yeonsal-back-slam.png",
+          "yeonsal-back-slam.png",
+          "yeonsal-back-slam.png",
+          "yeonsal-back-slam.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "sohong-front",
+        "source": "sohong-front-fan.png",
+        "poseSources": [
+          "sohong-front-fan.png",
+          "sohong-front-fan.png",
+          "sohong-front-fan.png",
+          "sohong-front-fan.png",
+          "sohong-front-fan.png",
+          "sohong-front-fan.png",
+          "sohong-front-stance.png",
+          "sohong-front-stance.png",
+          "sohong-front-stance.png",
+          "sohong-front-stance.png",
+          "sohong-front-stance.png",
+          "sohong-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "sohong-front-right",
+        "source": "sohong-front-right-fan.png",
+        "poseSources": [
+          "sohong-front-right-fan.png",
+          "sohong-front-right-fan.png",
+          "sohong-front-right-fan.png",
+          "sohong-front-right-fan.png",
+          "sohong-front-right-fan.png",
+          "sohong-front-right-fan.png",
+          "sohong-front-right-stance.png",
+          "sohong-front-right-stance.png",
+          "sohong-front-right-stance.png",
+          "sohong-front-right-stance.png",
+          "sohong-front-right-stance.png",
+          "sohong-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "sohong-right",
+        "source": "sohong-right-fan.png",
+        "poseSources": [
+          "sohong-right-fan.png",
+          "sohong-right-fan.png",
+          "sohong-right-fan.png",
+          "sohong-right-fan.png",
+          "sohong-right-fan.png",
+          "sohong-right-fan.png",
+          "sohong-right-stance.png",
+          "sohong-right-stance.png",
+          "sohong-right-stance-repair-v2.png",
+          "sohong-right-stance-repair-v2.png",
+          "sohong-right-stance-repair-v2.png",
+          "sohong-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "sohong-rear-right",
+        "source": "sohong-rear-right-fan.png",
+        "poseSources": [
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-fan.png",
+          "sohong-rear-right-stance.png",
+          "sohong-rear-right-stance-repair-v2.png",
+          "sohong-rear-right-stance-repair-v2.png",
+          "sohong-rear-right-stance-repair-v2.png",
+          "sohong-rear-right-stance-repair-v2.png",
+          "sohong-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "sohong-back",
+        "source": "sohong-back-fan.png",
+        "poseSources": [
+          "sohong-back-fan.png",
+          "sohong-back-fan.png",
+          "sohong-back-fan.png",
+          "sohong-back-fan-repair-v2.png",
+          "sohong-back-fan.png",
+          "sohong-back-fan.png",
+          "sohong-back-stance.png",
+          "sohong-back-stance.png",
+          "sohong-back-stance.png",
+          "sohong-back-stance.png",
+          "sohong-back-stance.png",
+          "sohong-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeokcheon-front",
+        "source": "jeokcheon-front-dash.png",
+        "poseSources": [
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-dash.png",
+          "jeokcheon-front-stance.png",
+          "jeokcheon-front-stance.png",
+          "jeokcheon-front-stance.png",
+          "jeokcheon-front-stance.png",
+          "jeokcheon-front-stance.png",
+          "jeokcheon-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeokcheon-front-right",
+        "source": "jeokcheon-front-right-dash.png",
+        "poseSources": [
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-dash.png",
+          "jeokcheon-front-right-stance.png",
+          "jeokcheon-front-right-stance.png",
+          "jeokcheon-front-right-stance.png",
+          "jeokcheon-front-right-stance.png",
+          "jeokcheon-front-right-stance.png",
+          "jeokcheon-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeokcheon-right",
+        "source": "jeokcheon-right-dash.png",
+        "poseSources": [
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-dash.png",
+          "jeokcheon-right-stance.png",
+          "jeokcheon-right-stance.png",
+          "jeokcheon-right-stance.png",
+          "jeokcheon-right-stance.png",
+          "jeokcheon-right-stance.png",
+          "jeokcheon-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeokcheon-rear-right",
+        "source": "jeokcheon-rear-right-dash.png",
+        "poseSources": [
+          "jeokcheon-rear-right-dash.png",
+          "jeokcheon-rear-right-dash-repair-v1.png",
+          "jeokcheon-rear-right-dash.png",
+          "jeokcheon-rear-right-dash.png",
+          "jeokcheon-rear-right-dash.png",
+          "jeokcheon-rear-right-dash.png",
+          "jeokcheon-rear-right-stance.png",
+          "jeokcheon-rear-right-stance.png",
+          "jeokcheon-rear-right-stance.png",
+          "jeokcheon-rear-right-stance.png",
+          "jeokcheon-rear-right-stance.png",
+          "jeokcheon-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jeokcheon-back",
+        "source": "jeokcheon-back-dash.png",
+        "poseSources": [
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-dash.png",
+          "jeokcheon-back-stance.png",
+          "jeokcheon-back-stance.png",
+          "jeokcheon-back-stance-repair-v1.png",
+          "jeokcheon-back-stance-repair-v1.png",
+          "jeokcheon-back-stance.png",
+          "jeokcheon-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "family": "zhuge",
+    "actors": [
+      {
+        "id": "yanggi",
+        "bossId": "9-1",
+        "moves": [
+          "sweep",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "mukyeon",
+        "bossId": "9-2",
+        "moves": [
+          "fan",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "jingwal",
+        "bossId": "9-3",
+        "moves": [
+          "dash",
+          "stance"
+        ],
+        "frames": 60
+      },
+      {
+        "id": "zhugehyeon",
+        "bossId": "9-4",
+        "moves": [
+          "fan",
+          "stance"
+        ],
+        "frames": 60
+      }
+    ],
+    "pending": [
+      "Special front-right artwork now faces southeast for Mukyeon, Jingwal and Zhugehyeon. Their existing BASIC motion source still faces left; base locomotion/attack must be reconciled before game registration.",
+      "Yanggi side body size improved. Mukyeon rear-right command and new front-right Mukyeon/Jingwal/Zhugehyeon bodies still appear larger than BASIC ready at identical scale; source proportions and all skull dimensions need review, never per-pose fitting.",
+      "Jingwal side command keeps connected support and empty arm but anatomical ownership is opposite original plan; final hand review pending.",
+      "Zhugehyeon rear-right fan selected new load pose only; contact/follow timing and body-size continuity require final review.",
+      "240 automatic ground-point proposals need boot-by-boot manual review. Weapon tips and robe edges can enter automatic lowest band.",
+      "Remaining 10 of 18 regional action keys still use basic artwork; selected 8 dedicated actions are draft, no runtime registration or public deployment."
+    ],
+    "jobs": [
+      {
+        "id": "yanggi-front",
+        "source": "yanggi-front-sweep.png",
+        "poseSources": [
+          "yanggi-front-sweep.png",
+          "yanggi-front-sweep.png",
+          "yanggi-front-sweep.png",
+          "yanggi-front-sweep.png",
+          "yanggi-front-sweep.png",
+          "yanggi-front-sweep.png",
+          "yanggi-front-stance.png",
+          "yanggi-front-stance.png",
+          "yanggi-front-stance.png",
+          "yanggi-front-stance.png",
+          "yanggi-front-stance.png",
+          "yanggi-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yanggi-front-right",
+        "source": "yanggi-front-right-sweep.png",
+        "poseSources": [
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-sweep.png",
+          "yanggi-front-right-stance.png",
+          "yanggi-front-right-stance.png",
+          "yanggi-front-right-stance.png",
+          "yanggi-front-right-stance.png",
+          "yanggi-front-right-stance.png",
+          "yanggi-front-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yanggi-right",
+        "source": "yanggi-right-sweep.png",
+        "poseSources": [
+          "yanggi-right-sweep.png",
+          "yanggi-right-sweep.png",
+          "yanggi-right-sweep.png",
+          "yanggi-right-sweep-repair-v1.png",
+          "yanggi-right-sweep.png",
+          "yanggi-right-sweep.png",
+          "correction-v2/yanggi-right-stance-v3.png",
+          "correction-v2/yanggi-right-stance-v3.png",
+          "correction-v2/yanggi-right-stance-v3.png",
+          "correction-v2/yanggi-right-stance-v3.png",
+          "correction-v2/yanggi-right-stance-v3.png",
+          "correction-v2/yanggi-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yanggi-rear-right",
+        "source": "yanggi-rear-right-sweep.png",
+        "poseSources": [
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-sweep.png",
+          "yanggi-rear-right-stance.png",
+          "yanggi-rear-right-stance-repair-v1.png",
+          "yanggi-rear-right-stance-repair-v1.png",
+          "yanggi-rear-right-stance-repair-v1.png",
+          "yanggi-rear-right-stance-repair-v1.png",
+          "yanggi-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "yanggi-back",
+        "source": "yanggi-back-sweep.png",
+        "poseSources": [
+          "yanggi-back-sweep.png",
+          "yanggi-back-sweep.png",
+          "yanggi-back-sweep.png",
+          "yanggi-back-sweep.png",
+          "yanggi-back-sweep.png",
+          "yanggi-back-sweep.png",
+          "yanggi-back-stance.png",
+          "yanggi-back-stance.png",
+          "yanggi-back-stance.png",
+          "yanggi-back-stance.png",
+          "yanggi-back-stance.png",
+          "yanggi-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "mukyeon-front",
+        "source": "mukyeon-front-fan.png",
+        "poseSources": [
+          "mukyeon-front-fan.png",
+          "mukyeon-front-fan-repair-v1.png",
+          "mukyeon-front-fan-repair-v1.png",
+          "mukyeon-front-fan-repair-v1.png",
+          "mukyeon-front-fan.png",
+          "mukyeon-front-fan.png",
+          "mukyeon-front-stance.png",
+          "mukyeon-front-stance.png",
+          "mukyeon-front-stance.png",
+          "mukyeon-front-stance.png",
+          "mukyeon-front-stance.png",
+          "mukyeon-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "mukyeon-front-right",
+        "source": "mukyeon-front-right-fan.png",
+        "poseSources": [
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-fan-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png",
+          "correction-v2/mukyeon-front-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "mukyeon-right",
+        "source": "mukyeon-right-fan.png",
+        "poseSources": [
+          "mukyeon-right-fan.png",
+          "mukyeon-right-fan.png",
+          "mukyeon-right-fan.png",
+          "mukyeon-right-fan.png",
+          "mukyeon-right-fan.png",
+          "mukyeon-right-fan.png",
+          "mukyeon-right-stance.png",
+          "mukyeon-right-stance.png",
+          "mukyeon-right-stance.png",
+          "mukyeon-right-stance.png",
+          "mukyeon-right-stance.png",
+          "mukyeon-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "mukyeon-rear-right",
+        "source": "mukyeon-rear-right-fan.png",
+        "poseSources": [
+          "mukyeon-rear-right-fan.png",
+          "mukyeon-rear-right-fan.png",
+          "mukyeon-rear-right-fan.png",
+          "mukyeon-rear-right-fan.png",
+          "mukyeon-rear-right-fan.png",
+          "mukyeon-rear-right-fan.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png",
+          "correction-v2/mukyeon-rear-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "mukyeon-back",
+        "source": "mukyeon-back-fan.png",
+        "poseSources": [
+          "mukyeon-back-fan.png",
+          "mukyeon-back-fan.png",
+          "mukyeon-back-fan.png",
+          "mukyeon-back-fan.png",
+          "mukyeon-back-fan.png",
+          "mukyeon-back-fan.png",
+          "mukyeon-back-stance.png",
+          "mukyeon-back-stance-repair-v1.png",
+          "mukyeon-back-stance-repair-v1.png",
+          "mukyeon-back-stance.png",
+          "mukyeon-back-stance.png",
+          "mukyeon-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jingwal-front",
+        "source": "jingwal-front-dash.png",
+        "poseSources": [
+          "jingwal-front-dash.png",
+          "jingwal-front-dash-repair-v1.png",
+          "jingwal-front-dash-repair-v1.png",
+          "jingwal-front-dash-repair-v1.png",
+          "jingwal-front-dash-repair-v1.png",
+          "jingwal-front-dash.png",
+          "jingwal-front-stance.png",
+          "jingwal-front-stance.png",
+          "jingwal-front-stance.png",
+          "jingwal-front-stance-repair-v1.png",
+          "jingwal-front-stance.png",
+          "jingwal-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jingwal-front-right",
+        "source": "jingwal-front-right-dash.png",
+        "poseSources": [
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-dash-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png",
+          "correction-v2/jingwal-front-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jingwal-right",
+        "source": "jingwal-right-dash.png",
+        "poseSources": [
+          "jingwal-right-dash.png",
+          "jingwal-right-dash.png",
+          "jingwal-right-dash.png",
+          "jingwal-right-dash.png",
+          "jingwal-right-dash.png",
+          "jingwal-right-dash.png",
+          "correction-v2/jingwal-right-stance-v3.png",
+          "correction-v2/jingwal-right-stance-v3.png",
+          "correction-v2/jingwal-right-stance-v3.png",
+          "correction-v2/jingwal-right-stance-v3.png",
+          "correction-v2/jingwal-right-stance-v3.png",
+          "correction-v2/jingwal-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jingwal-rear-right",
+        "source": "jingwal-rear-right-dash.png",
+        "poseSources": [
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-dash.png",
+          "jingwal-rear-right-stance.png",
+          "jingwal-rear-right-stance-repair-v1.png",
+          "jingwal-rear-right-stance-repair-v1.png",
+          "jingwal-rear-right-stance-repair-v1.png",
+          "jingwal-rear-right-stance.png",
+          "jingwal-rear-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "jingwal-back",
+        "source": "jingwal-back-dash.png",
+        "poseSources": [
+          "jingwal-back-dash.png",
+          "jingwal-back-dash-repair-v1.png",
+          "jingwal-back-dash-repair-v1.png",
+          "jingwal-back-dash-repair-v1.png",
+          "jingwal-back-dash-repair-v1.png",
+          "jingwal-back-dash.png",
+          "correction-v2/jingwal-back-stance-v3.png",
+          "correction-v2/jingwal-back-stance-v3.png",
+          "correction-v2/jingwal-back-stance-v3.png",
+          "correction-v2/jingwal-back-stance-v3.png",
+          "correction-v2/jingwal-back-stance-v3.png",
+          "correction-v2/jingwal-back-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "zhugehyeon-front",
+        "source": "zhugehyeon-front-fan.png",
+        "poseSources": [
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-fan.png",
+          "zhugehyeon-front-stance.png",
+          "zhugehyeon-front-stance.png",
+          "zhugehyeon-front-stance.png",
+          "zhugehyeon-front-stance.png",
+          "zhugehyeon-front-stance.png",
+          "zhugehyeon-front-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "zhugehyeon-front-right",
+        "source": "zhugehyeon-front-right-fan.png",
+        "poseSources": [
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-fan-v4.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png",
+          "correction-v2/zhugehyeon-front-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "zhugehyeon-right",
+        "source": "zhugehyeon-right-fan.png",
+        "poseSources": [
+          "zhugehyeon-right-fan.png",
+          "zhugehyeon-right-fan.png",
+          "zhugehyeon-right-fan-repair-v2.png",
+          "zhugehyeon-right-fan.png",
+          "zhugehyeon-right-fan.png",
+          "zhugehyeon-right-fan.png",
+          "zhugehyeon-right-stance.png",
+          "zhugehyeon-right-stance.png",
+          "zhugehyeon-right-stance.png",
+          "zhugehyeon-right-stance.png",
+          "zhugehyeon-right-stance.png",
+          "zhugehyeon-right-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "zhugehyeon-rear-right",
+        "source": "zhugehyeon-rear-right-fan.png",
+        "poseSources": [
+          "zhugehyeon-rear-right-fan.png",
+          "correction-v2/zhugehyeon-rear-right-fan-v3.png",
+          "zhugehyeon-rear-right-fan.png",
+          "zhugehyeon-rear-right-fan.png",
+          "zhugehyeon-rear-right-fan.png",
+          "zhugehyeon-rear-right-fan.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png",
+          "correction-v2/zhugehyeon-rear-right-stance-v3.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      },
+      {
+        "id": "zhugehyeon-back",
+        "source": "zhugehyeon-back-fan.png",
+        "poseSources": [
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-fan.png",
+          "zhugehyeon-back-stance.png",
+          "zhugehyeon-back-stance.png",
+          "zhugehyeon-back-stance-repair-v1.png",
+          "zhugehyeon-back-stance.png",
+          "zhugehyeon-back-stance.png",
+          "zhugehyeon-back-stance.png"
+        ],
+        "poseSourceCells": [
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 0
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 1
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 2
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 3
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 4
+          },
+          {
+            "columns": 2,
+            "rows": 3,
+            "index": 5
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+/* Lobby control states belong here; keep hover geometry and the selected page stable. */
+.home-nav {
+  align-items: center;
+}
+.home-nav button,
+.home-round-button {
+  transform: none;
+  filter: none;
+  transition:
+    background-color 140ms ease-out,
+    border-color 140ms ease-out,
+    box-shadow 140ms ease-out,
+    color 140ms ease-out;
+}
+.home-nav button {
+  height: min(64px, 100%);
+  min-height: 36px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: none;
+}
+.home-nav button.active {
+  background: #dbeadf;
+  border-color: #6c9b85;
+  box-shadow: inset 0 -3px #347866;
+  color: #214d3c;
+}
+.home-nav button:hover:not(:disabled) {
+  transform: none;
+  filter: none;
+  background: #94794c12;
+  border-color: #90764533;
+  box-shadow: none;
+  color: #2c503d;
+}
+.home-nav button.active:hover:not(:disabled) {
+  background: #697c4220;
+  box-shadow: inset 0 -3px #8b7148;
+}
+.home-round-button {
+  background: #fff8e624;
+  border-color: #a18a5b50;
+  box-shadow: none;
+}
+.home-round-button:hover:not(:disabled) {
+  transform: none;
+  filter: none;
+  background: #94794c16;
+  border-color: #8b714895;
+  box-shadow: inset 0 0 0 1px #fff8e660;
+}
+.home-nav button:active:not(:disabled),
+.home-round-button:active:not(:disabled) {
+  transform: none;
+  filter: none;
+  background-color: #94794c25;
+}
+.home-nav button:focus-visible,
+.home-round-button:focus-visible {
+  outline: 3px solid #397359;
+  outline-offset: 3px;
+}
+@media (max-width: 760px), (max-height: 480px) {
+  .home-nav button {
+    height: 40px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-nav button,
+  .home-round-button {
+    transition: none;
+  }
+}

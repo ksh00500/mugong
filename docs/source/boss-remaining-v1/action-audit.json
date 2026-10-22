@@ -1,0 +1,1594 @@
+[
+  {
+    "family": "shaolin",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "move": "thrust",
+    "spec": {
+      "name": "정권",
+      "shape": "line",
+      "range": 190,
+      "arc": 0.65,
+      "windup": 0.62,
+      "recovery": 0.46,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.15,
+      "width": 32
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "move": "dash",
+    "spec": {
+      "name": "어깨박치기",
+      "shape": "sector",
+      "range": 110,
+      "arc": 0.75,
+      "windup": 0.74,
+      "recovery": 0.46,
+      "duration": 0.35,
+      "contacts": [
+        0.3
+      ],
+      "damage": 1,
+      "dash": 200,
+      "knockback": 65
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "move": "combo",
+    "spec": {
+      "name": "좌우 취권",
+      "shape": "sector",
+      "range": 150,
+      "arc": 1,
+      "windup": 0.52,
+      "recovery": 0.65,
+      "duration": 0.82,
+      "contacts": [
+        0.12,
+        0.62
+      ],
+      "damage": 0.62
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "gongheo",
+    "bossId": "4-1",
+    "move": "slam",
+    "spec": {
+      "name": "취승 진각",
+      "shape": "circle",
+      "range": 180,
+      "arc": 0.65,
+      "windup": 0.92,
+      "recovery": 0.85,
+      "duration": 0.52,
+      "contacts": [
+        0.26
+      ],
+      "damage": 1.1,
+      "slow": 1.2
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "dowon",
+    "bossId": "4-2",
+    "move": "dash",
+    "spec": {
+      "name": "철산고",
+      "shape": "sector",
+      "range": 120,
+      "arc": 0.7,
+      "windup": 0.78,
+      "recovery": 0.46,
+      "duration": 0.4,
+      "contacts": [
+        0.35
+      ],
+      "damage": 1.25,
+      "dash": 250,
+      "knockback": 90
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "dowon",
+    "bossId": "4-2",
+    "move": "grab",
+    "spec": {
+      "name": "철완 포획",
+      "shape": "none",
+      "range": 78,
+      "arc": 0.65,
+      "windup": 0.68,
+      "recovery": 1.2,
+      "duration": 0.25,
+      "contacts": [
+        0.08
+      ],
+      "damage": 0,
+      "mechanic": "grab"
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "dowon",
+    "bossId": "4-2",
+    "move": "stance",
+    "spec": {
+      "name": "금강 자세",
+      "shape": "none",
+      "range": 190,
+      "arc": 0.65,
+      "windup": 0.38,
+      "recovery": 0.55,
+      "duration": 0.25,
+      "contacts": [
+        0.08
+      ],
+      "damage": 0,
+      "mechanic": "stance"
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "dowon",
+    "bossId": "4-2",
+    "move": "slam",
+    "spec": {
+      "name": "나한 지면 강타",
+      "shape": "circle",
+      "range": 215,
+      "arc": 0.65,
+      "windup": 1.05,
+      "recovery": 1,
+      "duration": 0.55,
+      "contacts": [
+        0.28
+      ],
+      "damage": 1.3,
+      "slow": 1.6
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "move": "bell",
+    "spec": {
+      "name": "금강 종 타격",
+      "shape": "none",
+      "range": 250,
+      "arc": 0.65,
+      "windup": 0.8,
+      "recovery": 0.45,
+      "duration": 0.3,
+      "contacts": [
+        0.12
+      ],
+      "damage": 0,
+      "mechanic": "bell"
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "move": "combo",
+    "spec": {
+      "name": "삼연 금강장",
+      "shape": "sector",
+      "range": 190,
+      "arc": 0.85,
+      "windup": 0.6,
+      "recovery": 0.72,
+      "duration": 1.2,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.55
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "move": "thrust",
+    "spec": {
+      "name": "쌍장 밀치기",
+      "shape": "line",
+      "range": 225,
+      "arc": 0.65,
+      "windup": 0.7,
+      "recovery": 0.46,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.1,
+      "width": 55,
+      "knockback": 75
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "bulmyeong",
+    "bossId": "4-3",
+    "move": "slam",
+    "spec": {
+      "name": "금강 진각",
+      "shape": "circle",
+      "range": 245,
+      "arc": 0.65,
+      "windup": 1,
+      "recovery": 0.95,
+      "duration": 0.52,
+      "contacts": [
+        0.26
+      ],
+      "damage": 1.2,
+      "slow": 1.5
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "mujin",
+    "bossId": "4-4",
+    "move": "stance",
+    "spec": {
+      "name": "주지 금강세",
+      "shape": "none",
+      "range": 220,
+      "arc": 0.65,
+      "windup": 0.4,
+      "recovery": 0.4,
+      "duration": 0.25,
+      "contacts": [
+        0.08
+      ],
+      "damage": 0,
+      "mechanic": "stance"
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "mujin",
+    "bossId": "4-4",
+    "move": "combo",
+    "spec": {
+      "name": "반격 연환봉",
+      "shape": "sector",
+      "range": 210,
+      "arc": 0.8,
+      "windup": 0.58,
+      "recovery": 0.75,
+      "duration": 1.2,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.6
+    },
+    "installed": true
+  },
+  {
+    "family": "shaolin",
+    "character": "mujin",
+    "bossId": "4-4",
+    "move": "sweep",
+    "spec": {
+      "name": "선장 횡소",
+      "shape": "sector",
+      "range": 270,
+      "arc": 1.8,
+      "windup": 0.78,
+      "recovery": 0.6,
+      "duration": 0.42,
+      "contacts": [
+        0.17
+      ],
+      "damage": 1.1
+    },
+    "installed": false
+  },
+  {
+    "family": "shaolin",
+    "character": "mujin",
+    "bossId": "4-4",
+    "move": "slam",
+    "spec": {
+      "name": "대범 진각",
+      "shape": "circle",
+      "range": 300,
+      "arc": 0.65,
+      "windup": 1.12,
+      "recovery": 1.1,
+      "duration": 0.58,
+      "contacts": [
+        0.3
+      ],
+      "damage": 1.35,
+      "slow": 2
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "ujin",
+    "bossId": "2-1",
+    "move": "stance",
+    "spec": {
+      "name": "낙검 수세",
+      "shape": "none",
+      "range": 230,
+      "arc": 0.65,
+      "windup": 0.42,
+      "recovery": 0.4,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 0,
+      "mechanic": "stance"
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "ujin",
+    "bossId": "2-1",
+    "move": "thrust",
+    "spec": {
+      "name": "낙검 반격 직자",
+      "shape": "line",
+      "range": 275,
+      "arc": 0.65,
+      "windup": 0.52,
+      "recovery": 0.65,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.15,
+      "width": 25
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "ujin",
+    "bossId": "2-1",
+    "move": "slash",
+    "spec": {
+      "name": "낙검 사선 베기",
+      "shape": "sector",
+      "range": 215,
+      "arc": 0.85,
+      "windup": 0.65,
+      "recovery": 0.46,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.1
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "ujin",
+    "bossId": "2-1",
+    "move": "dash",
+    "spec": {
+      "name": "낙검 보법 찌르기",
+      "shape": "line",
+      "range": 130,
+      "arc": 0.65,
+      "windup": 0.72,
+      "recovery": 0.75,
+      "duration": 0.35,
+      "contacts": [
+        0.28
+      ],
+      "damage": 1,
+      "width": 26,
+      "dash": 205
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "ujin",
+    "bossId": "2-1",
+    "move": "sweep",
+    "spec": {
+      "name": "검등 횡소",
+      "shape": "sector",
+      "range": 230,
+      "arc": 1.4,
+      "windup": 0.78,
+      "recovery": 0.8,
+      "duration": 0.4,
+      "contacts": [
+        0.18
+      ],
+      "damage": 1,
+      "knockback": 40
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "move": "combo",
+    "spec": {
+      "name": "좌우 교차 쌍검",
+      "shape": "sector",
+      "range": 180,
+      "arc": 1.05,
+      "windup": 0.5,
+      "recovery": 0.65,
+      "duration": 1.25,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.52
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "move": "dash",
+    "spec": {
+      "name": "회전 파고들기",
+      "shape": "sector",
+      "range": 135,
+      "arc": 1.05,
+      "windup": 0.65,
+      "recovery": 0.72,
+      "duration": 0.34,
+      "contacts": [
+        0.28
+      ],
+      "damage": 1,
+      "dash": 230
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "move": "sweep",
+    "spec": {
+      "name": "쌍검 주변 회전",
+      "shape": "circle",
+      "range": 210,
+      "arc": 0.65,
+      "windup": 0.8,
+      "recovery": 0.9,
+      "duration": 0.45,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "baekhong",
+    "bossId": "2-2",
+    "move": "thrust",
+    "spec": {
+      "name": "쌍검 교차 직자",
+      "shape": "line",
+      "range": 245,
+      "arc": 0.65,
+      "windup": 0.56,
+      "recovery": 0.5,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.1,
+      "width": 38
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "move": "dash",
+    "spec": {
+      "name": "잔상 추격",
+      "shape": "sector",
+      "range": 135,
+      "arc": 0.7,
+      "windup": 0.65,
+      "recovery": 0.6,
+      "duration": 0.36,
+      "contacts": [
+        0.3
+      ],
+      "damage": 1,
+      "dash": 300
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "move": "stance",
+    "spec": {
+      "name": "검귀 반격세",
+      "shape": "none",
+      "range": 240,
+      "arc": 0.65,
+      "windup": 0.4,
+      "recovery": 0.4,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 0,
+      "mechanic": "stance"
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "move": "combo",
+    "spec": {
+      "name": "검귀 삼연검",
+      "shape": "sector",
+      "range": 210,
+      "arc": 0.85,
+      "windup": 0.55,
+      "recovery": 0.8,
+      "duration": 1.25,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.62
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "move": "thrust",
+    "spec": {
+      "name": "검귀 심장 찌르기",
+      "shape": "line",
+      "range": 280,
+      "arc": 0.65,
+      "windup": 0.7,
+      "recovery": 0.75,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.35,
+      "width": 24
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "mumyeong",
+    "bossId": "2-3",
+    "move": "sweep",
+    "spec": {
+      "name": "검귀 후방 쓸기",
+      "shape": "sector",
+      "range": 245,
+      "arc": 1.85,
+      "windup": 0.82,
+      "recovery": 0.85,
+      "duration": 0.42,
+      "contacts": [
+        0.18
+      ],
+      "damage": 1
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekun",
+    "bossId": "2-4",
+    "move": "combo",
+    "spec": {
+      "name": "천검 삼초식",
+      "shape": "sector",
+      "range": 250,
+      "arc": 1.1,
+      "windup": 0.65,
+      "recovery": 0.85,
+      "duration": 1.25,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.68
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekun",
+    "bossId": "2-4",
+    "move": "thrust",
+    "spec": {
+      "name": "천검 장검 직자",
+      "shape": "line",
+      "range": 325,
+      "arc": 0.65,
+      "windup": 0.68,
+      "recovery": 0.7,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.25,
+      "width": 28
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekun",
+    "bossId": "2-4",
+    "move": "dash",
+    "spec": {
+      "name": "천검 운보 추격",
+      "shape": "sector",
+      "range": 145,
+      "arc": 0.75,
+      "windup": 0.8,
+      "recovery": 0.85,
+      "duration": 0.4,
+      "contacts": [
+        0.32
+      ],
+      "damage": 1,
+      "dash": 280
+    },
+    "installed": false
+  },
+  {
+    "family": "tianjian",
+    "character": "baekun",
+    "bossId": "2-4",
+    "move": "fan",
+    "spec": {
+      "name": "천검 일선 검기",
+      "shape": "none",
+      "range": 620,
+      "arc": 0.65,
+      "windup": 0.95,
+      "recovery": 1,
+      "duration": 0.42,
+      "contacts": [
+        0.18
+      ],
+      "damage": 0.9,
+      "minimum": 320,
+      "motion": "slash",
+      "shot": {
+        "visual": "sword-wave",
+        "count": 1,
+        "speed": 340
+      }
+    },
+    "installed": true
+  },
+  {
+    "family": "tianjian",
+    "character": "baekun",
+    "bossId": "2-4",
+    "move": "sweep",
+    "spec": {
+      "name": "천검 회풍",
+      "shape": "circle",
+      "range": 260,
+      "arc": 0.65,
+      "windup": 0.9,
+      "recovery": 0.95,
+      "duration": 0.48,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1.15
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "move": "slash",
+    "spec": {
+      "name": "독검 사선참",
+      "shape": "sector",
+      "range": 220,
+      "arc": 0.9,
+      "windup": 0.65,
+      "recovery": 0.46,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1,
+      "poison": 3.2
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "move": "thrust",
+    "spec": {
+      "name": "독검 혈맥 직자",
+      "shape": "line",
+      "range": 290,
+      "arc": 0.65,
+      "windup": 0.68,
+      "recovery": 0.46,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1.15,
+      "width": 25,
+      "poison": 3.2
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "move": "dash",
+    "spec": {
+      "name": "독검 청사 추격",
+      "shape": "sector",
+      "range": 135,
+      "arc": 0.7,
+      "windup": 0.8,
+      "recovery": 0.75,
+      "duration": 0.39,
+      "contacts": [
+        0.3
+      ],
+      "damage": 1,
+      "dash": 240
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "move": "sweep",
+    "spec": {
+      "name": "독검 주변 횡소",
+      "shape": "circle",
+      "range": 230,
+      "arc": 0.65,
+      "windup": 0.9,
+      "recovery": 0.85,
+      "duration": 0.46,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "move": "stance",
+    "spec": {
+      "name": "청사 독맥 전개",
+      "shape": "none",
+      "range": 360,
+      "arc": 0.65,
+      "windup": 1,
+      "recovery": 0.9,
+      "duration": 0.45,
+      "contacts": [
+        0.2
+      ],
+      "damage": 0,
+      "mechanic": "signature",
+      "motion": "cast"
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "move": "hazard",
+    "spec": {
+      "name": "약왕 독병 투척",
+      "shape": "none",
+      "range": 570,
+      "arc": 0.65,
+      "windup": 0.9,
+      "recovery": 0.85,
+      "duration": 0.42,
+      "contacts": [
+        0.18
+      ],
+      "damage": 0.85,
+      "minimum": 180,
+      "motion": "throw",
+      "zone": {
+        "kind": "poison",
+        "radius": 105
+      }
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "move": "fan",
+    "spec": {
+      "name": "약왕 독침 산개",
+      "shape": "none",
+      "range": 580,
+      "arc": 0.65,
+      "windup": 0.78,
+      "recovery": 0.85,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 0.7,
+      "minimum": 240,
+      "motion": "throw",
+      "shot": {
+        "visual": "jade-needle",
+        "count": 3,
+        "speed": 310,
+        "spread": 0.15,
+        "status": "poison"
+      }
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "move": "stance",
+    "spec": {
+      "name": "약왕 독함 배치",
+      "shape": "none",
+      "range": 440,
+      "arc": 0.65,
+      "windup": 1.1,
+      "recovery": 1,
+      "duration": 0.5,
+      "contacts": [
+        0.22
+      ],
+      "damage": 0,
+      "mechanic": "signature",
+      "motion": "cast"
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "move": "slash",
+    "spec": {
+      "name": "약왕 독병 근접 타격",
+      "shape": "sector",
+      "range": 125,
+      "arc": 1.2,
+      "windup": 0.6,
+      "recovery": 0.5,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1,
+      "poison": 2,
+      "knockback": 45
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "move": "fan",
+    "spec": {
+      "name": "독화 부채 침우",
+      "shape": "none",
+      "range": 590,
+      "arc": 0.65,
+      "windup": 0.8,
+      "recovery": 0.8,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 0.7,
+      "minimum": 200,
+      "motion": "throw",
+      "shot": {
+        "visual": "jade-needle",
+        "count": 3,
+        "speed": 345,
+        "spread": 0.18,
+        "status": "poison"
+      }
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "move": "hazard",
+    "spec": {
+      "name": "독화 분말 폭발",
+      "shape": "none",
+      "range": 480,
+      "arc": 0.65,
+      "windup": 1,
+      "recovery": 0.95,
+      "duration": 0.45,
+      "contacts": [
+        0.2
+      ],
+      "damage": 0,
+      "mechanic": "signature",
+      "variant": 1,
+      "motion": "cast"
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "move": "stance",
+    "spec": {
+      "name": "독화 자운 독무",
+      "shape": "none",
+      "range": 430,
+      "arc": 0.65,
+      "windup": 1.15,
+      "recovery": 1,
+      "duration": 0.5,
+      "contacts": [
+        0.2
+      ],
+      "damage": 0,
+      "mechanic": "signature",
+      "variant": 2,
+      "motion": "cast"
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "move": "combo",
+    "spec": {
+      "name": "독화 부채 쌍타",
+      "shape": "sector",
+      "range": 155,
+      "arc": 1.3,
+      "windup": 0.6,
+      "recovery": 0.65,
+      "duration": 0.88,
+      "contacts": [
+        0.1,
+        0.6
+      ],
+      "damage": 0.65,
+      "poison": 2.4
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "move": "fan",
+    "spec": {
+      "name": "만독 독주 삼연",
+      "shape": "none",
+      "range": 640,
+      "arc": 0.65,
+      "windup": 0.9,
+      "recovery": 0.9,
+      "duration": 1.3,
+      "contacts": [
+        0.12,
+        0.62,
+        1.12
+      ],
+      "damage": 0.55,
+      "minimum": 240,
+      "motion": "cast",
+      "shot": {
+        "visual": "jade-needle",
+        "count": 1,
+        "speed": 330,
+        "status": "poison"
+      }
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "move": "hazard",
+    "spec": {
+      "name": "만독 독기 응결",
+      "shape": "none",
+      "range": 580,
+      "arc": 0.65,
+      "windup": 1,
+      "recovery": 0.95,
+      "duration": 0.46,
+      "contacts": [
+        0.2
+      ],
+      "damage": 1,
+      "minimum": 200,
+      "motion": "cast",
+      "zone": {
+        "kind": "poison",
+        "radius": 130
+      }
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "move": "stance",
+    "spec": {
+      "name": "만독 해독초 시험",
+      "shape": "none",
+      "range": 550,
+      "arc": 0.65,
+      "windup": 1.2,
+      "recovery": 1,
+      "duration": 0.5,
+      "contacts": [
+        0.25
+      ],
+      "damage": 0,
+      "mechanic": "signature",
+      "motion": "cast"
+    },
+    "installed": true
+  },
+  {
+    "family": "dokmu",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "move": "thrust",
+    "spec": {
+      "name": "만독 지팡이 밀치기",
+      "shape": "line",
+      "range": 245,
+      "arc": 0.65,
+      "windup": 0.7,
+      "recovery": 0.65,
+      "duration": 0.32,
+      "contacts": [
+        0.1
+      ],
+      "damage": 1,
+      "width": 30,
+      "poison": 2.4,
+      "knockback": 60
+    },
+    "installed": false
+  },
+  {
+    "family": "dokmu",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "move": "sweep",
+    "spec": {
+      "name": "만독 지팡이 회전",
+      "shape": "circle",
+      "range": 200,
+      "arc": 0.65,
+      "windup": 0.85,
+      "recovery": 0.8,
+      "duration": 0.45,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "madabong",
+    "bossId": "0-1",
+    "move": "slash",
+    "spec": {
+      "name": "흑풍 내려베기",
+      "shape": "sector",
+      "range": 240,
+      "arc": 0.38,
+      "windup": 0.94,
+      "recovery": 0.85,
+      "duration": 0.42,
+      "contacts": [
+        0.18
+      ],
+      "damage": 1.5
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "madabong",
+    "bossId": "0-1",
+    "move": "sweep",
+    "spec": {
+      "name": "산채 횡베기",
+      "shape": "sector",
+      "range": 215,
+      "arc": 1.65,
+      "windup": 0.7,
+      "recovery": 0.65,
+      "duration": 0.4,
+      "contacts": [
+        0.16
+      ],
+      "damage": 1,
+      "knockback": 50
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "madabong",
+    "bossId": "0-1",
+    "move": "summon",
+    "spec": {
+      "name": "산채 호령",
+      "shape": "none",
+      "range": 320,
+      "arc": 0.65,
+      "windup": 0.95,
+      "recovery": 0.9,
+      "duration": 0.45,
+      "contacts": [
+        0.2
+      ],
+      "damage": 0,
+      "mechanic": "reinforcements"
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "madabong",
+    "bossId": "0-1",
+    "move": "slam",
+    "spec": {
+      "name": "흑풍 발구르기",
+      "shape": "circle",
+      "range": 175,
+      "arc": 0.65,
+      "windup": 0.85,
+      "recovery": 0.8,
+      "duration": 0.5,
+      "contacts": [
+        0.26
+      ],
+      "damage": 0.85,
+      "slow": 1.4
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "madabong",
+    "bossId": "0-1",
+    "move": "dash",
+    "spec": {
+      "name": "채주 들이받기",
+      "shape": "sector",
+      "range": 110,
+      "arc": 0.65,
+      "windup": 0.72,
+      "recovery": 0.7,
+      "duration": 0.35,
+      "contacts": [
+        0.3
+      ],
+      "damage": 0.9,
+      "dash": 210,
+      "knockback": 55
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "thrust",
+    "spec": {
+      "name": "표두 장창 직자",
+      "shape": "line",
+      "range": 365,
+      "arc": 0.65,
+      "windup": 0.52,
+      "recovery": 0.4,
+      "duration": 0.32,
+      "contacts": [
+        0.09
+      ],
+      "damage": 1.1,
+      "width": 24
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "combo",
+    "spec": {
+      "name": "삼연 찌르기",
+      "shape": "line",
+      "range": 305,
+      "arc": 0.65,
+      "windup": 0.65,
+      "recovery": 0.85,
+      "duration": 1.25,
+      "contacts": [
+        0.1,
+        0.6,
+        1.1
+      ],
+      "damage": 0.58,
+      "width": 30,
+      "motion": "thrust"
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "stance",
+    "spec": {
+      "name": "청하 호위기",
+      "shape": "none",
+      "range": 320,
+      "arc": 0.65,
+      "windup": 0.9,
+      "recovery": 0.75,
+      "duration": 0.4,
+      "contacts": [
+        0.2
+      ],
+      "damage": 0,
+      "mechanic": "flag"
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "sweep",
+    "spec": {
+      "name": "창대 밀어내기",
+      "shape": "sector",
+      "range": 200,
+      "arc": 1.3,
+      "windup": 0.65,
+      "recovery": 0.65,
+      "duration": 0.36,
+      "contacts": [
+        0.14
+      ],
+      "damage": 0.85,
+      "knockback": 85
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "slam",
+    "spec": {
+      "name": "창대 진각",
+      "shape": "circle",
+      "range": 155,
+      "arc": 0.65,
+      "windup": 0.85,
+      "recovery": 0.75,
+      "duration": 0.5,
+      "contacts": [
+        0.26
+      ],
+      "damage": 0.8,
+      "slow": 1.3
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "nojin",
+    "bossId": "0-2",
+    "move": "dash",
+    "spec": {
+      "name": "추격 돌진창",
+      "shape": "line",
+      "range": 165,
+      "arc": 0.65,
+      "windup": 0.82,
+      "recovery": 0.85,
+      "duration": 0.4,
+      "contacts": [
+        0.36
+      ],
+      "damage": 1.25,
+      "width": 28,
+      "dash": 245
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "move": "thrust",
+    "spec": {
+      "name": "쇄겸 포획",
+      "shape": "line",
+      "range": 355,
+      "arc": 0.65,
+      "windup": 0.82,
+      "recovery": 0.32,
+      "duration": 0.4,
+      "contacts": [
+        0.14
+      ],
+      "damage": 0.65,
+      "width": 22,
+      "visual": "chain",
+      "pull": 180
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "move": "combo",
+    "spec": {
+      "name": "쌍쇄 근접 연격",
+      "shape": "sector",
+      "range": 175,
+      "arc": 1.1,
+      "windup": 0.5,
+      "recovery": 0.65,
+      "duration": 0.85,
+      "contacts": [
+        0.1,
+        0.6
+      ],
+      "damage": 0.8
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "move": "sweep",
+    "spec": {
+      "name": "쇄겸 회전",
+      "shape": "circle",
+      "range": 225,
+      "arc": 0.65,
+      "windup": 0.88,
+      "recovery": 0.9,
+      "duration": 0.48,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "cheolmu",
+    "bossId": "0-3",
+    "move": "slam",
+    "spec": {
+      "name": "쇄추 지면 강타",
+      "shape": "circle",
+      "range": 165,
+      "arc": 0.65,
+      "windup": 0.94,
+      "recovery": 0.85,
+      "duration": 0.52,
+      "contacts": [
+        0.28
+      ],
+      "damage": 1.05,
+      "slow": 1.5
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "move": "slash",
+    "spec": {
+      "name": "패도 축적 참격",
+      "shape": "sector",
+      "range": 290,
+      "arc": 0.42,
+      "windup": 1.08,
+      "recovery": 1,
+      "duration": 0.48,
+      "contacts": [
+        0.2
+      ],
+      "damage": 1.65
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "move": "combo",
+    "spec": {
+      "name": "좌우 연환도",
+      "shape": "sector",
+      "range": 230,
+      "arc": 1.15,
+      "windup": 0.6,
+      "recovery": 0.7,
+      "duration": 0.87,
+      "contacts": [
+        0.12,
+        0.62
+      ],
+      "damage": 0.75
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "move": "dash",
+    "spec": {
+      "name": "패도 추격",
+      "shape": "sector",
+      "range": 150,
+      "arc": 0.75,
+      "windup": 0.72,
+      "recovery": 0.8,
+      "duration": 0.4,
+      "contacts": [
+        0.34
+      ],
+      "damage": 1.2,
+      "dash": 285
+    },
+    "installed": false
+  },
+  {
+    "family": "qingha",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "move": "sweep",
+    "spec": {
+      "name": "패도 대회전",
+      "shape": "circle",
+      "range": 265,
+      "arc": 0.65,
+      "windup": 0.92,
+      "recovery": 1,
+      "duration": 0.5,
+      "contacts": [
+        0.22
+      ],
+      "damage": 1.25,
+      "knockback": 45
+    },
+    "installed": true
+  },
+  {
+    "family": "qingha",
+    "character": "hanmugeuk",
+    "bossId": "0-4",
+    "move": "slam",
+    "spec": {
+      "name": "패도 지면 파쇄",
+      "shape": "circle",
+      "range": 220,
+      "arc": 0.65,
+      "windup": 1.05,
+      "recovery": 1,
+      "duration": 0.55,
+      "contacts": [
+        0.28
+      ],
+      "damage": 1.3,
+      "slow": 1.8
+    },
+    "installed": false
+  }
+]

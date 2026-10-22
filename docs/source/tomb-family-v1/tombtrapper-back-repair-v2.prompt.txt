@@ -1,0 +1,5 @@
+Edit the supplied transparent MUGONG sprite sheet. Retain native canvas dimensions and EXACT 4 columns x 3 rows. Preserve exact physical head diameter, body scale and palette of the idle pose in Input1. Same physical scale throughout; never fit bodies to weapon extent. At least32px clear alpha around every complete figure/tool. No text, background, shadows, gradient, aura, VFX, particles, trails or projectiles.
+Correct ONLY these poses, preserving other drawings unchanged:
+Drawing 1: logical pose 9, low followthrough, original cell {"columns":4,"rows":3,"index":9}.
+Followthrough left hand appears loose/open on pick grip; tighten left grip without changing right empty release or back camera.
+Input1 original candidate CAMERA and identity; Input2 approved front identity and PHYSICAL BODY SCALE ONLY, never copy its front camera. Camera must stay identical to Input1 idle for all poses. Exactly TWO connected shoulder-elbow-wrist chains, fixed weapon hands, stable spine and natural hip/knee/ankle chains. Grip meets hand. One continuous shaft, never extra handles or disconnected limbs.

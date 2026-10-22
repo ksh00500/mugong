@@ -1,0 +1,120 @@
+{
+  "actors": [
+    {
+      "role": "assassin",
+      "texture": "region-motion-5-isolated",
+      "frame": "0-2",
+      "expected": "region-motion-5-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "needle",
+      "texture": "region-motion-5-isolated",
+      "frame": "2-2",
+      "expected": "region-motion-5-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "role": "trapper",
+      "texture": "enemy-role-actions-isolated",
+      "frame": "1-2",
+      "expected": "enemy-role-actions-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "5-1",
+      "texture": "region-motion-5-isolated",
+      "frame": "3-2",
+      "expected": "region-motion-5-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "5-2",
+      "texture": "enemy-role-actions-isolated",
+      "frame": "3-2",
+      "expected": "enemy-role-actions-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "5-3",
+      "texture": "region-motion-5-isolated",
+      "frame": "5-2",
+      "expected": "region-motion-5-isolated",
+      "mounted": false,
+      "views": true
+    },
+    {
+      "bossId": "5-4",
+      "texture": "region-motion-5-isolated",
+      "frame": "6-2",
+      "expected": "region-motion-5-isolated",
+      "mounted": false,
+      "views": true
+    }
+  ],
+  "actions": [],
+  "reactions": [
+    {
+      "role": "assassin",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "role": "needle",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "role": "trapper",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "throw",
+      "changed": true
+    },
+    {
+      "bossId": "5-1",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "cast",
+      "changed": true
+    },
+    {
+      "bossId": "5-2",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "slash",
+      "changed": true
+    },
+    {
+      "bossId": "5-3",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "dash",
+      "changed": true
+    },
+    {
+      "bossId": "5-4",
+      "hurt": "hurt",
+      "death": "death",
+      "style": "cast",
+      "changed": true
+    }
+  ],
+  "calls": [],
+  "projectiles": [
+    {
+      "texture": "hostile-projectiles",
+      "frame": "spike-bomb"
+    }
+  ],
+  "atlas": "http://127.0.0.1:5181/art/zone-art-v2.png"
+}

@@ -1,0 +1,8262 @@
+[
+  {
+    "id": "rider-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6574516296386719,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          116,
+          14,
+          405,
+          527
+        ],
+        "area": 74471,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          124,
+          21,
+          407,
+          531
+        ],
+        "area": 77080,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          111,
+          27,
+          406,
+          548
+        ],
+        "area": 76492,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          126,
+          29,
+          447,
+          543
+        ],
+        "area": 76415,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          107,
+          38,
+          418,
+          484
+        ],
+        "area": 79875,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "rider-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -16,
+          179,
+          498,
+          442
+        ],
+        "area": 85132,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          138,
+          14,
+          447,
+          567
+        ],
+        "area": 83353,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          73,
+          19,
+          383,
+          575
+        ],
+        "area": 79697,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          126,
+          53,
+          459,
+          514
+        ],
+        "area": 75967,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          66,
+          76,
+          472,
+          519
+        ],
+        "area": 77532,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          57,
+          16,
+          469,
+          500
+        ],
+        "area": 83461,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "rider-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          96,
+          -29,
+          401,
+          501
+        ],
+        "area": 79919,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "rider-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6042143503824869,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          61,
+          52,
+          467,
+          542
+        ],
+        "area": 93181,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          92,
+          62,
+          476,
+          544
+        ],
+        "area": 90222,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          61,
+          39,
+          515,
+          526
+        ],
+        "area": 106468,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          75,
+          38,
+          485,
+          531
+        ],
+        "area": 95848,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          17,
+          457,
+          470
+        ],
+        "area": 92573,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "rider-front-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -36,
+          179,
+          492,
+          441
+        ],
+        "area": 86153,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          46,
+          29,
+          510,
+          553
+        ],
+        "area": 106888,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          27,
+          29,
+          496,
+          551
+        ],
+        "area": 103838,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          33,
+          51,
+          494,
+          491
+        ],
+        "area": 104096,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          12,
+          90,
+          498,
+          498
+        ],
+        "area": 99729,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          42,
+          29,
+          518,
+          481
+        ],
+        "area": 113555,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "rider-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          38,
+          -34,
+          493,
+          483
+        ],
+        "area": 109448,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "rider-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5607204437255859,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          31,
+          32,
+          516,
+          528
+        ],
+        "area": 106282,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          41,
+          46,
+          504,
+          528
+        ],
+        "area": 101975,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          41,
+          44,
+          529,
+          525
+        ],
+        "area": 107746,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          38,
+          42,
+          502,
+          526
+        ],
+        "area": 104609,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          35,
+          18,
+          492,
+          458
+        ],
+        "area": 97599,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "rider-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -29,
+          210,
+          497,
+          436
+        ],
+        "area": 81306,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          13,
+          42,
+          545,
+          521
+        ],
+        "area": 120088,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          31,
+          39,
+          511,
+          522
+        ],
+        "area": 109020,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          11,
+          79,
+          525,
+          472
+        ],
+        "area": 106019,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          9,
+          89,
+          510,
+          482
+        ],
+        "area": 99424,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          21,
+          35,
+          545,
+          466
+        ],
+        "area": 118892,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "rider-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          16,
+          -25,
+          494,
+          461
+        ],
+        "area": 113943,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "rider-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5786221822102865,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          81,
+          10,
+          473,
+          509
+        ],
+        "area": 96744,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          75,
+          22,
+          474,
+          512
+        ],
+        "area": 97917,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          64,
+          11,
+          485,
+          508
+        ],
+        "area": 102038,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          75,
+          17,
+          478,
+          520
+        ],
+        "area": 100534,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          62,
+          0,
+          490,
+          466
+        ],
+        "area": 96014,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "rider-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -35,
+          209,
+          502,
+          458
+        ],
+        "area": 80834,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          47,
+          26,
+          516,
+          530
+        ],
+        "area": 103191,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          58,
+          467,
+          539
+        ],
+        "area": 98421,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          45,
+          68,
+          561,
+          472
+        ],
+        "area": 97896,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          77,
+          498,
+          485
+        ],
+        "area": 97198,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          49,
+          34,
+          523,
+          458
+        ],
+        "area": 108954,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "rider-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          41,
+          -11,
+          481,
+          474
+        ],
+        "area": 97846,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "rider-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.7091102600097656,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          130,
+          16,
+          386,
+          492
+        ],
+        "area": 61753,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          131,
+          17,
+          394,
+          492
+        ],
+        "area": 62608,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          124,
+          16,
+          380,
+          507
+        ],
+        "area": 63585,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          133,
+          21,
+          418,
+          506
+        ],
+        "area": 67295,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          127,
+          44,
+          416,
+          487
+        ],
+        "area": 66300,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "rider-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          3,
+          168,
+          476,
+          445
+        ],
+        "area": 71248,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          187,
+          17,
+          448,
+          523
+        ],
+        "area": 64602,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          127,
+          12,
+          396,
+          527
+        ],
+        "area": 61790,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          185,
+          17,
+          413,
+          502
+        ],
+        "area": 57844,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          108,
+          19,
+          355,
+          497
+        ],
+        "area": 59700,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          169,
+          15,
+          525,
+          487
+        ],
+        "area": 66389,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "rider-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          152,
+          -10,
+          412,
+          487
+        ],
+        "area": 66470,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "assassin-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5456372124974558,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          37,
+          41,
+          338,
+          383
+        ],
+        "area": 56155,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          41,
+          44,
+          324,
+          398
+        ],
+        "area": 48644,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          9,
+          42,
+          305,
+          401
+        ],
+        "area": 50728,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          36,
+          52,
+          331,
+          397
+        ],
+        "area": 49765,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          31,
+          54,
+          313,
+          381
+        ],
+        "area": 54279,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          12,
+          184,
+          345,
+          380
+        ],
+        "area": 40726,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          32,
+          52,
+          351,
+          361
+        ],
+        "area": 54687,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          17,
+          48,
+          343,
+          358
+        ],
+        "area": 53603,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          26,
+          58,
+          324,
+          355
+        ],
+        "area": 48330,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          43,
+          5,
+          351,
+          328
+        ],
+        "area": 49833,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          30,
+          5,
+          326,
+          328
+        ],
+        "area": 52075,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "assassin-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          21,
+          4,
+          323,
+          334
+        ],
+        "area": 53292,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "assassin-front-right",
+    "width": 1088,
+    "height": 1446,
+    "clearFraction": 0.5824599808803189,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          35,
+          60,
+          327,
+          395
+        ],
+        "area": 48006,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          63,
+          324,
+          394
+        ],
+        "area": 44217,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          22,
+          70,
+          324,
+          401
+        ],
+        "area": 44868,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          35,
+          59,
+          338,
+          373
+        ],
+        "area": 41998,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          27,
+          64,
+          333,
+          374
+        ],
+        "area": 49894,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -10,
+          214,
+          358,
+          376
+        ],
+        "area": 33244,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          48,
+          59,
+          332,
+          350
+        ],
+        "area": 46808,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          16,
+          62,
+          345,
+          350
+        ],
+        "area": 48224,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          13,
+          59,
+          338,
+          354
+        ],
+        "area": 47903,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          59,
+          14,
+          382,
+          325
+        ],
+        "area": 48411,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          41,
+          14,
+          351,
+          322
+        ],
+        "area": 48119,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "assassin-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          25,
+          5,
+          334,
+          331
+        ],
+        "area": 48727,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "assassin-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5713031752493385,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          40,
+          46,
+          344,
+          398
+        ],
+        "area": 50972,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          39,
+          44,
+          334,
+          391
+        ],
+        "area": 49864,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          26,
+          46,
+          327,
+          399
+        ],
+        "area": 51732,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          60,
+          359,
+          410
+        ],
+        "area": 54037,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          32,
+          79,
+          296,
+          410
+        ],
+        "area": 46741,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -48,
+          251,
+          360,
+          408
+        ],
+        "area": 38463,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          36,
+          85,
+          337,
+          356
+        ],
+        "area": 45684,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          20,
+          79,
+          357,
+          361
+        ],
+        "area": 49735,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          16,
+          85,
+          357,
+          362
+        ],
+        "area": 46582,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          51,
+          17,
+          408,
+          333
+        ],
+        "area": 50043,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          57,
+          20,
+          341,
+          333
+        ],
+        "area": 48289,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "assassin-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          25,
+          18,
+          320,
+          342
+        ],
+        "area": 47705,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "assassin-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5927742723386933,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          33,
+          32,
+          343,
+          389
+        ],
+        "area": 49892,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          45,
+          37,
+          311,
+          384
+        ],
+        "area": 44757,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          45,
+          46,
+          341,
+          389
+        ],
+        "area": 44699,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          46,
+          332,
+          386
+        ],
+        "area": 45286,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          55,
+          67,
+          315,
+          381
+        ],
+        "area": 41242,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -25,
+          168,
+          359,
+          338
+        ],
+        "area": 37782,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          47,
+          40,
+          322,
+          340
+        ],
+        "area": 44782,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          46,
+          52,
+          366,
+          347
+        ],
+        "area": 47298,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          25,
+          51,
+          344,
+          356
+        ],
+        "area": 44242,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          33,
+          8,
+          372,
+          316
+        ],
+        "area": 47903,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          53,
+          8,
+          332,
+          327
+        ],
+        "area": 41822,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "assassin-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          37,
+          -6,
+          339,
+          331
+        ],
+        "area": 48939,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "assassin-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.6078662477101567,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          45,
+          37,
+          350,
+          353
+        ],
+        "area": 47946,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          34,
+          44,
+          336,
+          371
+        ],
+        "area": 42993,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          75,
+          37,
+          325,
+          364
+        ],
+        "area": 37569,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          54,
+          29,
+          362,
+          358
+        ],
+        "area": 42066,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          32,
+          40,
+          344,
+          349
+        ],
+        "area": 45722,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          16,
+          112,
+          348,
+          350
+        ],
+        "area": 38761,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          41,
+          41,
+          325,
+          336
+        ],
+        "area": 48259,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          80,
+          39,
+          339,
+          323
+        ],
+        "area": 44564,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          64,
+          3,
+          306,
+          354
+        ],
+        "area": 43786,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          42,
+          -13,
+          323,
+          326
+        ],
+        "area": 48315,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          28,
+          17,
+          370,
+          319
+        ],
+        "area": 49282,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "assassin-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          12,
+          345,
+          322
+        ],
+        "area": 48238,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "ringblade-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4985593069407694,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          27,
+          25,
+          320,
+          377
+        ],
+        "area": 57912,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          17,
+          27,
+          304,
+          393
+        ],
+        "area": 56517,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          27,
+          27,
+          310,
+          394
+        ],
+        "area": 54299,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          23,
+          44,
+          324,
+          391
+        ],
+        "area": 58652,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          39,
+          53,
+          317,
+          391
+        ],
+        "area": 51291,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -22,
+          185,
+          353,
+          380
+        ],
+        "area": 43865,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          15,
+          36,
+          350,
+          371
+        ],
+        "area": 62173,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          13,
+          28,
+          340,
+          376
+        ],
+        "area": 65150,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          0,
+          48,
+          349,
+          371
+        ],
+        "area": 59509,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          16,
+          9,
+          350,
+          344
+        ],
+        "area": 60214,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          12,
+          15,
+          339,
+          343
+        ],
+        "area": 58041,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "ringblade-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          9,
+          332,
+          344
+        ],
+        "area": 58437,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "ringblade-front-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.523328414410747,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          28,
+          37,
+          352,
+          376
+        ],
+        "area": 57304,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          48,
+          318,
+          375
+        ],
+        "area": 49683,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          35,
+          43,
+          332,
+          380
+        ],
+        "area": 49270,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          33,
+          44,
+          353,
+          381
+        ],
+        "area": 56255,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          37,
+          61,
+          338,
+          376
+        ],
+        "area": 48565,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -16,
+          187,
+          342,
+          362
+        ],
+        "area": 39252,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          26,
+          39,
+          379,
+          369
+        ],
+        "area": 61078,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          16,
+          32,
+          349,
+          371
+        ],
+        "area": 61483,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -7,
+          43,
+          357,
+          364
+        ],
+        "area": 57365,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          30,
+          10,
+          357,
+          331
+        ],
+        "area": 54512,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          26,
+          9,
+          343,
+          333
+        ],
+        "area": 54839,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "ringblade-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          33,
+          9,
+          347,
+          334
+        ],
+        "area": 55096,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "ringblade-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5360103297374313,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          26,
+          44,
+          346,
+          381
+        ],
+        "area": 57371,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          35,
+          56,
+          330,
+          380
+        ],
+        "area": 49430,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          25,
+          54,
+          328,
+          381
+        ],
+        "area": 51499,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          38,
+          51,
+          363,
+          376
+        ],
+        "area": 55686,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          36,
+          65,
+          322,
+          369
+        ],
+        "area": 47585,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -21,
+          232,
+          339,
+          365
+        ],
+        "area": 31515,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          28,
+          40,
+          358,
+          339
+        ],
+        "area": 58106,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          18,
+          36,
+          351,
+          348
+        ],
+        "area": 60261,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -6,
+          50,
+          357,
+          345
+        ],
+        "area": 53074,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          35,
+          7,
+          387,
+          317
+        ],
+        "area": 56153,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          44,
+          9,
+          343,
+          325
+        ],
+        "area": 51853,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "ringblade-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          11,
+          -1,
+          337,
+          329
+        ],
+        "area": 56120,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "ringblade-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5557983920211683,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          33,
+          22,
+          332,
+          382
+        ],
+        "area": 54774,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          34,
+          358,
+          381
+        ],
+        "area": 51295,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          21,
+          26,
+          345,
+          383
+        ],
+        "area": 50007,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          34,
+          41,
+          363,
+          391
+        ],
+        "area": 50713,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          46,
+          72,
+          331,
+          380
+        ],
+        "area": 47120,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -23,
+          180,
+          356,
+          369
+        ],
+        "area": 38916,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          34,
+          29,
+          349,
+          363
+        ],
+        "area": 57435,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          38,
+          40,
+          346,
+          362
+        ],
+        "area": 54056,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          4,
+          35,
+          346,
+          357
+        ],
+        "area": 51840,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          30,
+          6,
+          363,
+          329
+        ],
+        "area": 52612,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          44,
+          5,
+          313,
+          338
+        ],
+        "area": 48523,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "ringblade-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          -2,
+          336,
+          344
+        ],
+        "area": 50698,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "ringblade-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5996927793608793,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          38,
+          22,
+          321,
+          340
+        ],
+        "area": 46858,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          34,
+          25,
+          320,
+          364
+        ],
+        "area": 44823,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          59,
+          22,
+          314,
+          366
+        ],
+        "area": 41973,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          47,
+          18,
+          333,
+          354
+        ],
+        "area": 44303,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          38,
+          43,
+          304,
+          353
+        ],
+        "area": 47019,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -26,
+          120,
+          347,
+          337
+        ],
+        "area": 42855,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          28,
+          16,
+          332,
+          340
+        ],
+        "area": 53188,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          26,
+          17,
+          327,
+          339
+        ],
+        "area": 50369,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          22,
+          16,
+          338,
+          339
+        ],
+        "area": 50250,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          42,
+          6,
+          350,
+          331
+        ],
+        "area": 46824,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          41,
+          5,
+          311,
+          327
+        ],
+        "area": 45936,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "ringblade-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          35,
+          0,
+          330,
+          318
+        ],
+        "area": 48039,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "asar-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4321646651740281,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          18,
+          33,
+          351,
+          356
+        ],
+        "area": 69146,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          15,
+          33,
+          331,
+          366
+        ],
+        "area": 64046,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -3,
+          33,
+          343,
+          377
+        ],
+        "area": 66402,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          19,
+          16,
+          341,
+          336
+        ],
+        "area": 64031,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          18,
+          22,
+          330,
+          337
+        ],
+        "area": 63704,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -35,
+          142,
+          354,
+          353
+        ],
+        "area": 49874,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          10,
+          -13,
+          353,
+          336
+        ],
+        "area": 74163,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          6,
+          -24,
+          358,
+          333
+        ],
+        "area": 72284,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          9,
+          33,
+          345,
+          338
+        ],
+        "area": 67382,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          14,
+          10,
+          397,
+          310
+        ],
+        "area": 71072,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          20,
+          5,
+          337,
+          295
+        ],
+        "area": 62903,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "asar-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          6,
+          3,
+          344,
+          314
+        ],
+        "area": 69630,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "asar-front-right",
+    "width": 1088,
+    "height": 1446,
+    "clearFraction": 0.46175237470506875,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          23,
+          38,
+          356,
+          351
+        ],
+        "area": 67377,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          48,
+          324,
+          359
+        ],
+        "area": 57758,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          9,
+          42,
+          332,
+          364
+        ],
+        "area": 58916,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          17,
+          20,
+          354,
+          342
+        ],
+        "area": 62839,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          31,
+          35,
+          310,
+          345
+        ],
+        "area": 54448,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -39,
+          156,
+          355,
+          351
+        ],
+        "area": 47836,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          17,
+          -15,
+          362,
+          340
+        ],
+        "area": 74724,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          24,
+          -15,
+          368,
+          337
+        ],
+        "area": 71624,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          20,
+          50,
+          355,
+          339
+        ],
+        "area": 60876,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          18,
+          18,
+          416,
+          295
+        ],
+        "area": 64216,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          22,
+          6,
+          356,
+          296
+        ],
+        "area": 60328,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "asar-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          7,
+          -5,
+          343,
+          300
+        ],
+        "area": 67047,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "asar-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.45469672297984937,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          18,
+          42,
+          363,
+          362
+        ],
+        "area": 64639,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          3,
+          44,
+          344,
+          364
+        ],
+        "area": 66459,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          2,
+          45,
+          351,
+          369
+        ],
+        "area": 68025,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          17,
+          28,
+          358,
+          345
+        ],
+        "area": 65477,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          -10,
+          46,
+          336,
+          345
+        ],
+        "area": 60651,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -34,
+          165,
+          360,
+          355
+        ],
+        "area": 44587,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          15,
+          3,
+          364,
+          340
+        ],
+        "area": 70872,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          18,
+          -7,
+          355,
+          347
+        ],
+        "area": 69618,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          10,
+          58,
+          359,
+          355
+        ],
+        "area": 62192,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          8,
+          18,
+          452,
+          313
+        ],
+        "area": 71948,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          29,
+          12,
+          350,
+          310
+        ],
+        "area": 59526,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "asar-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          6,
+          8,
+          352,
+          320
+        ],
+        "area": 65511,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "asar-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4861852483207816,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          15,
+          31,
+          384,
+          371
+        ],
+        "area": 64332,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          43,
+          387,
+          374
+        ],
+        "area": 60716,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          7,
+          34,
+          356,
+          383
+        ],
+        "area": 63353,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          20,
+          29,
+          383,
+          353
+        ],
+        "area": 62347,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          -10,
+          43,
+          328,
+          351
+        ],
+        "area": 55076,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -48,
+          155,
+          358,
+          358
+        ],
+        "area": 46534,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          14,
+          6,
+          336,
+          358
+        ],
+        "area": 66050,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          14,
+          4,
+          333,
+          361
+        ],
+        "area": 66472,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          7,
+          51,
+          359,
+          361
+        ],
+        "area": 60399,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          15,
+          34,
+          428,
+          315
+        ],
+        "area": 63230,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          21,
+          16,
+          375,
+          331
+        ],
+        "area": 58090,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "asar-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          15,
+          11,
+          352,
+          325
+        ],
+        "area": 57276,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "asar-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5244243588438836,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          48,
+          28,
+          380,
+          344
+        ],
+        "area": 58647,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          52,
+          33,
+          361,
+          360
+        ],
+        "area": 52307,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          15,
+          35,
+          343,
+          359
+        ],
+        "area": 53375,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          50,
+          25,
+          379,
+          347
+        ],
+        "area": 53676,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          36,
+          40,
+          311,
+          337
+        ],
+        "area": 48447,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -27,
+          125,
+          361,
+          337
+        ],
+        "area": 47191,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          58,
+          -12,
+          381,
+          343
+        ],
+        "area": 70512,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          48,
+          -14,
+          347,
+          340
+        ],
+        "area": 58282,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -17,
+          64,
+          349,
+          367
+        ],
+        "area": 58327,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          26,
+          30,
+          432,
+          325
+        ],
+        "area": 57420,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          41,
+          2,
+          381,
+          315
+        ],
+        "area": 58059,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "asar-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          27,
+          6,
+          349,
+          313
+        ],
+        "area": 54323,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "naya-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.414706518420517,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          17,
+          37,
+          361,
+          406
+        ],
+        "area": 77636,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          20,
+          35,
+          335,
+          410
+        ],
+        "area": 70066,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          12,
+          40,
+          344,
+          411
+        ],
+        "area": 72543,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          35,
+          55,
+          343,
+          402
+        ],
+        "area": 69271,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          31,
+          59,
+          323,
+          399
+        ],
+        "area": 66030,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -22,
+          207,
+          343,
+          396
+        ],
+        "area": 48048,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          31,
+          50,
+          363,
+          381
+        ],
+        "area": 71707,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          25,
+          10,
+          354,
+          382
+        ],
+        "area": 74901,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          10,
+          48,
+          339,
+          385
+        ],
+        "area": 75302,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          19,
+          11,
+          362,
+          348
+        ],
+        "area": 71563,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          35,
+          12,
+          337,
+          343
+        ],
+        "area": 67107,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "naya-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          9,
+          10,
+          348,
+          352
+        ],
+        "area": 72668,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "naya-front-right",
+    "width": 1088,
+    "height": 1446,
+    "clearFraction": 0.4384629759580181,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          26,
+          38,
+          367,
+          387
+        ],
+        "area": 67898,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          29,
+          44,
+          347,
+          377
+        ],
+        "area": 58417,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          8,
+          44,
+          335,
+          386
+        ],
+        "area": 62036,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          35,
+          38,
+          366,
+          369
+        ],
+        "area": 63534,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          43,
+          31,
+          328,
+          364
+        ],
+        "area": 59584,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -34,
+          188,
+          349,
+          365
+        ],
+        "area": 43314,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          26,
+          18,
+          369,
+          351
+        ],
+        "area": 67433,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          15,
+          -4,
+          352,
+          339
+        ],
+        "area": 69585,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -4,
+          31,
+          334,
+          364
+        ],
+        "area": 68915,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          26,
+          0,
+          349,
+          342
+        ],
+        "area": 63264,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          13,
+          2,
+          351,
+          337
+        ],
+        "area": 64773,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "naya-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          5,
+          -2,
+          350,
+          347
+        ],
+        "area": 68437,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "naya-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4606509515570934,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          30,
+          34,
+          333,
+          398
+        ],
+        "area": 67472,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          7,
+          39,
+          316,
+          396
+        ],
+        "area": 65788,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -11,
+          39,
+          323,
+          398
+        ],
+        "area": 67484,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          36,
+          52,
+          339,
+          391
+        ],
+        "area": 61597,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          34,
+          74,
+          309,
+          389
+        ],
+        "area": 56394,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -54,
+          236,
+          358,
+          384
+        ],
+        "area": 40756,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          31,
+          37,
+          322,
+          364
+        ],
+        "area": 61450,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          3,
+          43,
+          342,
+          364
+        ],
+        "area": 68222,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -9,
+          43,
+          358,
+          367
+        ],
+        "area": 64487,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          17,
+          9,
+          374,
+          340
+        ],
+        "area": 68524,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          45,
+          12,
+          343,
+          346
+        ],
+        "area": 62104,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "naya-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          12,
+          10,
+          327,
+          347
+        ],
+        "area": 62447,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "naya-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4691036535721555,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          35,
+          26,
+          347,
+          391
+        ],
+        "area": 63069,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          22,
+          34,
+          335,
+          391
+        ],
+        "area": 62109,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          22,
+          38,
+          328,
+          402
+        ],
+        "area": 60917,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          26,
+          42,
+          336,
+          379
+        ],
+        "area": 60710,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          25,
+          56,
+          321,
+          385
+        ],
+        "area": 57846,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -29,
+          210,
+          358,
+          369
+        ],
+        "area": 40233,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          19,
+          28,
+          342,
+          362
+        ],
+        "area": 63978,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          39,
+          33,
+          336,
+          373
+        ],
+        "area": 64498,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          13,
+          45,
+          351,
+          364
+        ],
+        "area": 61129,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          18,
+          7,
+          357,
+          339
+        ],
+        "area": 65562,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          14,
+          10,
+          340,
+          343
+        ],
+        "area": 63217,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "naya-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          30,
+          8,
+          331,
+          347
+        ],
+        "area": 56173,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "naya-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5213413393038876,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          48,
+          34,
+          345,
+          372
+        ],
+        "area": 55956,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          45,
+          35,
+          339,
+          379
+        ],
+        "area": 48618,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          63,
+          35,
+          331,
+          385
+        ],
+        "area": 50710,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          45,
+          36,
+          350,
+          356
+        ],
+        "area": 53343,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          58,
+          39,
+          336,
+          360
+        ],
+        "area": 50883,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -10,
+          179,
+          349,
+          362
+        ],
+        "area": 43022,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          48,
+          9,
+          360,
+          336
+        ],
+        "area": 62440,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          42,
+          2,
+          338,
+          340
+        ],
+        "area": 57985,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          26,
+          3,
+          338,
+          340
+        ],
+        "area": 58607,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          49,
+          -8,
+          360,
+          327
+        ],
+        "area": 63735,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          38,
+          1,
+          351,
+          313
+        ],
+        "area": 57529,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "naya-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          38,
+          3,
+          334,
+          334
+        ],
+        "area": 59348,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "balta-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.558312131080806,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          57,
+          54,
+          340,
+          395
+        ],
+        "area": 59742,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          66,
+          54,
+          305,
+          411
+        ],
+        "area": 49953,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          32,
+          51,
+          281,
+          411
+        ],
+        "area": 51743,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          78,
+          62,
+          318,
+          399
+        ],
+        "area": 48332,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          57,
+          66,
+          317,
+          390
+        ],
+        "area": 52896,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -13,
+          202,
+          338,
+          387
+        ],
+        "area": 44590,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          61,
+          57,
+          350,
+          352
+        ],
+        "area": 51855,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          37,
+          59,
+          340,
+          352
+        ],
+        "area": 55182,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          24,
+          58,
+          325,
+          356
+        ],
+        "area": 51665,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          46,
+          5,
+          363,
+          330
+        ],
+        "area": 58239,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          45,
+          7,
+          336,
+          329
+        ],
+        "area": 55650,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "balta-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          20,
+          7,
+          319,
+          330
+        ],
+        "area": 57705,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "balta-front-right",
+    "width": 1088,
+    "height": 1446,
+    "clearFraction": 0.5946176318037588,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          50,
+          60,
+          320,
+          380
+        ],
+        "area": 49703,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          60,
+          56,
+          304,
+          382
+        ],
+        "area": 41642,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          56,
+          60,
+          273,
+          395
+        ],
+        "area": 41831,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          54,
+          47,
+          307,
+          360
+        ],
+        "area": 41433,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          44,
+          58,
+          309,
+          356
+        ],
+        "area": 45197,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -18,
+          180,
+          341,
+          342
+        ],
+        "area": 37339,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          34,
+          24,
+          349,
+          315
+        ],
+        "area": 51970,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          29,
+          26,
+          336,
+          334
+        ],
+        "area": 50801,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          8,
+          24,
+          325,
+          340
+        ],
+        "area": 52944,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          37,
+          -2,
+          367,
+          309
+        ],
+        "area": 56548,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          32,
+          -2,
+          335,
+          311
+        ],
+        "area": 50720,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "balta-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          40,
+          -3,
+          318,
+          316
+        ],
+        "area": 49559,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "balta-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.609621158151842,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          52,
+          54,
+          298,
+          400
+        ],
+        "area": 46558,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          59,
+          55,
+          298,
+          399
+        ],
+        "area": 44863,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          98,
+          58,
+          329,
+          398
+        ],
+        "area": 43177,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          67,
+          64,
+          301,
+          395
+        ],
+        "area": 42037,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          53,
+          84,
+          289,
+          395
+        ],
+        "area": 41182,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -52,
+          247,
+          350,
+          385
+        ],
+        "area": 36436,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          56,
+          45,
+          350,
+          360
+        ],
+        "area": 48610,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          28,
+          48,
+          357,
+          361
+        ],
+        "area": 51365,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          24,
+          50,
+          343,
+          360
+        ],
+        "area": 51255,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          42,
+          22,
+          384,
+          341
+        ],
+        "area": 56659,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          81,
+          15,
+          337,
+          341
+        ],
+        "area": 45883,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "balta-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          67,
+          19,
+          315,
+          341
+        ],
+        "area": 43959,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "balta-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.6117386271117443,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          52,
+          41,
+          305,
+          377
+        ],
+        "area": 45588,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          61,
+          41,
+          287,
+          373
+        ],
+        "area": 41627,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          49,
+          41,
+          297,
+          387
+        ],
+        "area": 44153,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          58,
+          53,
+          309,
+          383
+        ],
+        "area": 42191,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          37,
+          71,
+          279,
+          387
+        ],
+        "area": 44229,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -26,
+          199,
+          351,
+          363
+        ],
+        "area": 39137,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          49,
+          47,
+          335,
+          354
+        ],
+        "area": 47154,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          42,
+          54,
+          327,
+          351
+        ],
+        "area": 47489,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          23,
+          46,
+          337,
+          362
+        ],
+        "area": 51925,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          38,
+          19,
+          348,
+          328
+        ],
+        "area": 52531,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          45,
+          16,
+          316,
+          334
+        ],
+        "area": 46536,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "balta-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          46,
+          14,
+          303,
+          340
+        ],
+        "area": 44257,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "balta-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.6119288113169143,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          79,
+          55,
+          317,
+          377
+        ],
+        "area": 48486,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          87,
+          58,
+          331,
+          394
+        ],
+        "area": 41526,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          85,
+          57,
+          300,
+          404
+        ],
+        "area": 41703,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          67,
+          73,
+          323,
+          403
+        ],
+        "area": 41505,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          76,
+          77,
+          298,
+          381
+        ],
+        "area": 43407,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          22,
+          149,
+          337,
+          363
+        ],
+        "area": 37232,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          56,
+          57,
+          336,
+          354
+        ],
+        "area": 49648,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          60,
+          64,
+          346,
+          369
+        ],
+        "area": 47803,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          41,
+          60,
+          335,
+          355
+        ],
+        "area": 53477,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          52,
+          10,
+          370,
+          325
+        ],
+        "area": 54302,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          79,
+          9,
+          341,
+          324
+        ],
+        "area": 47622,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "balta-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          82,
+          7,
+          315,
+          326
+        ],
+        "area": 46940,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "arkan-front",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.4587338438835742,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          13,
+          37,
+          326,
+          386
+        ],
+        "area": 63763,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          25,
+          41,
+          331,
+          384
+        ],
+        "area": 58930,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          42,
+          40,
+          352,
+          386
+        ],
+        "area": 59983,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          18,
+          35,
+          324,
+          366
+        ],
+        "area": 59169,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          31,
+          36,
+          334,
+          356
+        ],
+        "area": 63421,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -18,
+          174,
+          352,
+          378
+        ],
+        "area": 46341,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          11,
+          12,
+          369,
+          363
+        ],
+        "area": 71523,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          13,
+          4,
+          378,
+          368
+        ],
+        "area": 69446,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          36,
+          56,
+          353,
+          387
+        ],
+        "area": 58688,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          14,
+          10,
+          379,
+          345
+        ],
+        "area": 68093,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          23,
+          14,
+          355,
+          311
+        ],
+        "area": 62697,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "arkan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          19,
+          9,
+          343,
+          344
+        ],
+        "area": 65340,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "arkan-front-right",
+    "width": 1088,
+    "height": 1446,
+    "clearFraction": 0.43919331217964364,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          18,
+          48,
+          362,
+          379
+        ],
+        "area": 68087,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          51,
+          64,
+          358,
+          381
+        ],
+        "area": 58894,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          38,
+          71,
+          347,
+          395
+        ],
+        "area": 59418,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          22,
+          42,
+          372,
+          376
+        ],
+        "area": 68056,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          46,
+          42,
+          356,
+          373
+        ],
+        "area": 63499,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -16,
+          200,
+          359,
+          391
+        ],
+        "area": 43848,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          15,
+          2,
+          367,
+          355
+        ],
+        "area": 71934,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          24,
+          16,
+          384,
+          364
+        ],
+        "area": 67430,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          33,
+          74,
+          357,
+          381
+        ],
+        "area": 58964,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          21,
+          13,
+          430,
+          349
+        ],
+        "area": 68066,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          42,
+          16,
+          362,
+          322
+        ],
+        "area": 63713,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "arkan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          16,
+          14,
+          340,
+          342
+        ],
+        "area": 65695,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "arkan-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.48879312538164055,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          16,
+          57,
+          360,
+          371
+        ],
+        "area": 64032,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          19,
+          59,
+          364,
+          370
+        ],
+        "area": 59671,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          19,
+          70,
+          349,
+          372
+        ],
+        "area": 59381,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          23,
+          48,
+          371,
+          364
+        ],
+        "area": 63743,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          29,
+          86,
+          317,
+          377
+        ],
+        "area": 54408,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -56,
+          248,
+          348,
+          406
+        ],
+        "area": 39389,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          16,
+          40,
+          358,
+          367
+        ],
+        "area": 64960,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          39,
+          41,
+          387,
+          368
+        ],
+        "area": 65158,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          33,
+          99,
+          361,
+          364
+        ],
+        "area": 52878,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          24,
+          57,
+          441,
+          335
+        ],
+        "area": 59666,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          43,
+          36,
+          358,
+          314
+        ],
+        "area": 54462,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "arkan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          11,
+          22,
+          348,
+          322
+        ],
+        "area": 59643,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "arkan-rear-right",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5057386016690413,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          10,
+          38,
+          386,
+          353
+        ],
+        "area": 55897,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          27,
+          39,
+          394,
+          353
+        ],
+        "area": 56092,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          18,
+          54,
+          360,
+          370
+        ],
+        "area": 52622,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          17,
+          31,
+          388,
+          345
+        ],
+        "area": 54930,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          22,
+          45,
+          373,
+          350
+        ],
+        "area": 54442,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -7,
+          187,
+          352,
+          374
+        ],
+        "area": 37391,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          14,
+          11,
+          344,
+          357
+        ],
+        "area": 63972,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "arkan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          22,
+          8,
+          337,
+          360
+        ],
+        "area": 65124,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "arkan-rear-right-finish.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 2,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          161,
+          220,
+          549,
+          512
+        ],
+        "area": 56963,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "arkan-rear-right-finish.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 2,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          135,
+          324,
+          551,
+          524
+        ],
+        "area": 42981,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "arkan-rear-right-finish.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 2,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          162,
+          172,
+          497,
+          493
+        ],
+        "area": 60586,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "arkan-rear-right-finish.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 2,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          153,
+          197,
+          541,
+          491
+        ],
+        "area": 57876,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "arkan-back",
+    "width": 1088,
+    "height": 1445,
+    "clearFraction": 0.5205150875228984,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          32,
+          36,
+          381,
+          351
+        ],
+        "area": 55529,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          51,
+          37,
+          373,
+          352
+        ],
+        "area": 49909,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          28,
+          45,
+          346,
+          356
+        ],
+        "area": 45740,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          51,
+          30,
+          403,
+          342
+        ],
+        "area": 52330,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          54,
+          42,
+          359,
+          343
+        ],
+        "area": 49843,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          5,
+          102,
+          362,
+          323
+        ],
+        "area": 45231,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          17,
+          -12,
+          374,
+          348
+        ],
+        "area": 60424,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          48,
+          -29,
+          383,
+          359
+        ],
+        "area": 67265,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          20,
+          -32,
+          332,
+          374
+        ],
+        "area": 54416,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          34,
+          16,
+          391,
+          329
+        ],
+        "area": 50511,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          46,
+          -7,
+          360,
+          328
+        ],
+        "area": 54708,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "arkan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          22,
+          22,
+          362,
+          341
+        ],
+        "area": 54511,
+        "clipped": false
+      }
+    ]
+  }
+]

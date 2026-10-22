@@ -1,0 +1,36 @@
+{
+  "result": {
+    "objects": [
+      {
+        "kind": "turret",
+        "x": 710,
+        "y": 520
+      },
+      {
+        "kind": "turret",
+        "x": 1090,
+        "y": 520
+      },
+      {
+        "kind": "flag",
+        "mechanic": "drone",
+        "stage": 0,
+        "x": 770.2119940506424,
+        "y": 488.30947681545155
+      }
+    ],
+    "images": [
+      {
+        "texture": "boss-mechanics",
+        "frame": "5",
+        "x": 770.2119940506424,
+        "y": 488.30947681545155,
+        "width": 65,
+        "height": 65
+      }
+    ],
+    "valid": true,
+    "alpha": "http://127.0.0.1:5173/art/boss-mechanics-v1.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,8286 @@
+[
+  {
+    "id": "snowhunter-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6335639953613281,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          105,
+          26,
+          335,
+          375
+        ],
+        "area": 48274,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          83,
+          20,
+          286,
+          394
+        ],
+        "area": 47283,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          75,
+          22,
+          256,
+          391
+        ],
+        "area": 44949,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          76,
+          15,
+          288,
+          377
+        ],
+        "area": 47088,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          83,
+          18,
+          269,
+          385
+        ],
+        "area": 45942,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -50,
+          175,
+          326,
+          378
+        ],
+        "area": 45292,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          82,
+          8,
+          293,
+          346
+        ],
+        "area": 45231,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          53,
+          11,
+          310,
+          348
+        ],
+        "area": 48101,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          70,
+          4,
+          271,
+          347
+        ],
+        "area": 45795,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          80,
+          -35,
+          299,
+          332
+        ],
+        "area": 51707,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          68,
+          -33,
+          296,
+          331
+        ],
+        "area": 48777,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowhunter-front-consistent-v4.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          68,
+          -33,
+          306,
+          325
+        ],
+        "area": 50289,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowhunter-front-right",
+    "width": 1536,
+    "height": 1024,
+    "clearFraction": 0.6456559499104818,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          61,
+          93,
+          497,
+          488
+        ],
+        "area": 66720,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          41,
+          104,
+          504,
+          498
+        ],
+        "area": 65820,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          81,
+          93,
+          534,
+          488
+        ],
+        "area": 72099,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          66,
+          98,
+          495,
+          491
+        ],
+        "area": 69948,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          77,
+          102,
+          473,
+          441
+        ],
+        "area": 61432,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowhunter-front-right-locomotion-v3.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -23,
+          203,
+          491,
+          444
+        ],
+        "area": 53410,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowhunter-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          45,
+          92,
+          526,
+          500
+        ],
+        "area": 82456,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowhunter-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          14,
+          102,
+          487,
+          521
+        ],
+        "area": 87091,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowhunter-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          33,
+          60,
+          576,
+          468
+        ],
+        "area": 82372,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowhunter-front-right-follow-padding.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3,
+          "rectangle": [
+            0,
+            512,
+            1024,
+            1024
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          158,
+          0,
+          713,
+          461
+        ],
+        "area": 117187,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowhunter-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 4,
+        "bounds": [
+          36,
+          18,
+          523,
+          443
+        ],
+        "area": 85884,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowhunter-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 5,
+        "bounds": [
+          23,
+          29,
+          504,
+          447
+        ],
+        "area": 83636,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowhunter-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6443519592285156,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          20,
+          78,
+          511,
+          516
+        ],
+        "area": 83292,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          82,
+          493,
+          521
+        ],
+        "area": 79196,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          54,
+          75,
+          518,
+          502
+        ],
+        "area": 80750,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          50,
+          75,
+          506,
+          510
+        ],
+        "area": 79995,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          25,
+          43,
+          478,
+          446
+        ],
+        "area": 79221,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowhunter-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -30,
+          200,
+          492,
+          464
+        ],
+        "area": 61380,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          56,
+          92,
+          521,
+          514
+        ],
+        "area": 87663,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          13,
+          122,
+          505,
+          514
+        ],
+        "area": 87749,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          35,
+          85,
+          617,
+          473
+        ],
+        "area": 88433,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          13,
+          107,
+          505,
+          477
+        ],
+        "area": 74523,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          40,
+          28,
+          509,
+          442
+        ],
+        "area": 85223,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowhunter-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          51,
+          30,
+          499,
+          451
+        ],
+        "area": 83044,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowhunter-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6324418385823568,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          56,
+          50,
+          513,
+          502
+        ],
+        "area": 80827,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          20,
+          59,
+          498,
+          512
+        ],
+        "area": 76327,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          49,
+          45,
+          508,
+          510
+        ],
+        "area": 83565,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          53,
+          56,
+          502,
+          510
+        ],
+        "area": 84839,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          62,
+          21,
+          527,
+          450
+        ],
+        "area": 85889,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowhunter-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -47,
+          155,
+          506,
+          446
+        ],
+        "area": 73208,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          35,
+          56,
+          519,
+          514
+        ],
+        "area": 94858,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          31,
+          88,
+          508,
+          514
+        ],
+        "area": 87527,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          20,
+          51,
+          561,
+          478
+        ],
+        "area": 93569,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          11,
+          63,
+          508,
+          476
+        ],
+        "area": 86536,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          38,
+          2,
+          524,
+          467
+        ],
+        "area": 98269,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowhunter-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          35,
+          -2,
+          502,
+          467
+        ],
+        "area": 100835,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowhunter-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.6979541778564453,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          53,
+          97,
+          505,
+          501
+        ],
+        "area": 67690,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          54,
+          100,
+          489,
+          523
+        ],
+        "area": 66408,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          69,
+          61,
+          499,
+          482
+        ],
+        "area": 64089,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          60,
+          69,
+          493,
+          482
+        ],
+        "area": 66961,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          79,
+          45,
+          496,
+          425
+        ],
+        "area": 66550,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowhunter-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          1,
+          138,
+          494,
+          448
+        ],
+        "area": 64999,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          90,
+          44,
+          465,
+          525
+        ],
+        "area": 81683,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          90,
+          4,
+          401,
+          514
+        ],
+        "area": 73034,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          115,
+          -2,
+          407,
+          517
+        ],
+        "area": 69467,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          95,
+          5,
+          359,
+          517
+        ],
+        "area": 66538,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          91,
+          8,
+          449,
+          496
+        ],
+        "area": 86857,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowhunter-back-axial-thrust.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          87,
+          29,
+          460,
+          496
+        ],
+        "area": 86992,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowweaver-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.435089111328125,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          23,
+          21,
+          293,
+          396
+        ],
+        "area": 63898,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          19,
+          22,
+          288,
+          398
+        ],
+        "area": 61562,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          21,
+          22,
+          285,
+          406
+        ],
+        "area": 60671,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          23,
+          22,
+          298,
+          391
+        ],
+        "area": 60706,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          12,
+          25,
+          278,
+          383
+        ],
+        "area": 59849,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowweaver-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -41,
+          163,
+          328,
+          379
+        ],
+        "area": 53399,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 1,
+        "bounds": [
+          24,
+          11,
+          323,
+          373
+        ],
+        "area": 68489,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 2,
+        "bounds": [
+          26,
+          11,
+          314,
+          373
+        ],
+        "area": 67831,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 3,
+        "bounds": [
+          0,
+          12,
+          315,
+          370
+        ],
+        "area": 72638,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 4,
+        "bounds": [
+          28,
+          -22,
+          329,
+          361
+        ],
+        "area": 71062,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 5,
+        "bounds": [
+          22,
+          -24,
+          305,
+          360
+        ],
+        "area": 69144,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowweaver-front-axial-cast.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 6,
+        "bounds": [
+          10,
+          -23,
+          295,
+          364
+        ],
+        "area": 69837,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowweaver-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.48781585693359375,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          54,
+          35,
+          308,
+          381
+        ],
+        "area": 53883,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          47,
+          35,
+          299,
+          387
+        ],
+        "area": 53449,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          40,
+          38,
+          295,
+          386
+        ],
+        "area": 52096,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          49,
+          30,
+          308,
+          385
+        ],
+        "area": 54210,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          35,
+          33,
+          284,
+          372
+        ],
+        "area": 51703,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -44,
+          176,
+          325,
+          369
+        ],
+        "area": 44611,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          40,
+          35,
+          303,
+          362
+        ],
+        "area": 50779,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          10,
+          26,
+          318,
+          368
+        ],
+        "area": 63473,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowweaver-front-right-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 1,
+        "bounds": [
+          15,
+          1,
+          320,
+          376
+        ],
+        "area": 74063,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowweaver-front-right-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 2,
+        "bounds": [
+          32,
+          -13,
+          335,
+          367
+        ],
+        "area": 74461,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 9,
+        "bounds": [
+          44,
+          -9,
+          296,
+          339
+        ],
+        "area": 55220,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowweaver-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 10,
+        "bounds": [
+          36,
+          -9,
+          289,
+          347
+        ],
+        "area": 57193,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowweaver-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.48183314005533856,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          42,
+          30,
+          309,
+          392
+        ],
+        "area": 56001,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          44,
+          27,
+          302,
+          390
+        ],
+        "area": 55812,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          41,
+          29,
+          306,
+          389
+        ],
+        "area": 55018,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          42,
+          17,
+          304,
+          378
+        ],
+        "area": 54883,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          40,
+          31,
+          291,
+          375
+        ],
+        "area": 51626,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -64,
+          198,
+          331,
+          369
+        ],
+        "area": 41664,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          31,
+          11,
+          298,
+          368
+        ],
+        "area": 57688,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          25,
+          14,
+          291,
+          360
+        ],
+        "area": 58936,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          14,
+          14,
+          336,
+          367
+        ],
+        "area": 61822,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          30,
+          -9,
+          361,
+          351
+        ],
+        "area": 64148,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          42,
+          -8,
+          302,
+          357
+        ],
+        "area": 58550,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowweaver-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          -11,
+          297,
+          358
+        ],
+        "area": 57552,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowweaver-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5059928894042969,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          49,
+          23,
+          312,
+          394
+        ],
+        "area": 55008,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          64,
+          27,
+          314,
+          392
+        ],
+        "area": 52565,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          67,
+          24,
+          318,
+          394
+        ],
+        "area": 53585,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          53,
+          28,
+          314,
+          390
+        ],
+        "area": 52004,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          42,
+          41,
+          302,
+          381
+        ],
+        "area": 48853,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -33,
+          150,
+          326,
+          364
+        ],
+        "area": 45771,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          32,
+          18,
+          306,
+          380
+        ],
+        "area": 56283,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          25,
+          13,
+          300,
+          367
+        ],
+        "area": 59603,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          29,
+          14,
+          333,
+          370
+        ],
+        "area": 57794,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          51,
+          -3,
+          366,
+          364
+        ],
+        "area": 60976,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          58,
+          -7,
+          312,
+          361
+        ],
+        "area": 54740,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowweaver-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          51,
+          -2,
+          303,
+          365
+        ],
+        "area": 54541,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowweaver-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5612691243489584,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          53,
+          9,
+          331,
+          389
+        ],
+        "area": 64289,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          52,
+          10,
+          321,
+          391
+        ],
+        "area": 62518,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          42,
+          10,
+          314,
+          393
+        ],
+        "area": 62505,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          49,
+          11,
+          332,
+          378
+        ],
+        "area": 62501,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          50,
+          29,
+          298,
+          363
+        ],
+        "area": 57727,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -38,
+          141,
+          335,
+          354
+        ],
+        "area": 48997,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          46,
+          -4,
+          329,
+          374
+        ],
+        "area": 66301,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          49,
+          -3,
+          308,
+          373
+        ],
+        "area": 62820,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          19,
+          -3,
+          330,
+          374
+        ],
+        "area": 67642,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          43,
+          -11,
+          370,
+          370
+        ],
+        "area": 69814,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          50,
+          -12,
+          317,
+          366
+        ],
+        "area": 62967,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowweaver-back-owner-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          41,
+          -12,
+          317,
+          367
+        ],
+        "area": 64663,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowbowman-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.43349583943684894,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          31,
+          29,
+          307,
+          404
+        ],
+        "area": 63093,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          14,
+          34,
+          292,
+          410
+        ],
+        "area": 60173,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          2,
+          31,
+          280,
+          414
+        ],
+        "area": 59275,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          45,
+          31,
+          306,
+          393
+        ],
+        "area": 55605,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          26,
+          39,
+          294,
+          390
+        ],
+        "area": 57992,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowbowman-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -22,
+          171,
+          339,
+          364
+        ],
+        "area": 43866,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowbowman-front-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 1,
+        "bounds": [
+          30,
+          9,
+          314,
+          373
+        ],
+        "area": 65921,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowbowman-front-draw-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 1,
+        "bounds": [
+          20,
+          15,
+          303,
+          372
+        ],
+        "area": 63353,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowbowman-front-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 2,
+        "bounds": [
+          16,
+          10,
+          306,
+          373
+        ],
+        "area": 65718,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowbowman-front-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 3,
+        "bounds": [
+          22,
+          -13,
+          323,
+          363
+        ],
+        "area": 70370,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowbowman-front-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 4,
+        "bounds": [
+          20,
+          -13,
+          306,
+          363
+        ],
+        "area": 69867,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowbowman-front-draw-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 2,
+        "bounds": [
+          23,
+          -13,
+          310,
+          366
+        ],
+        "area": 67127,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowbowman-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4863179524739583,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          40,
+          43,
+          291,
+          391
+        ],
+        "area": 53275,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          32,
+          51,
+          302,
+          404
+        ],
+        "area": 52448,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          6,
+          48,
+          305,
+          405
+        ],
+        "area": 54926,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          38,
+          291,
+          379
+        ],
+        "area": 48874,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          32,
+          45,
+          290,
+          379
+        ],
+        "area": 53013,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -17,
+          190,
+          341,
+          368
+        ],
+        "area": 37346,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          32,
+          1,
+          329,
+          356
+        ],
+        "area": 58647,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          15,
+          11,
+          328,
+          356
+        ],
+        "area": 60415,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          20,
+          12,
+          329,
+          355
+        ],
+        "area": 57177,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          29,
+          -13,
+          345,
+          337
+        ],
+        "area": 62994,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          51,
+          -17,
+          327,
+          344
+        ],
+        "area": 56365,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowbowman-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          31,
+          -15,
+          288,
+          337
+        ],
+        "area": 56207,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowbowman-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4431012471516927,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          31,
+          40,
+          301,
+          405
+        ],
+        "area": 55886,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          40,
+          299,
+          399
+        ],
+        "area": 57005,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -1,
+          42,
+          289,
+          405
+        ],
+        "area": 58604,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          26,
+          37,
+          311,
+          388
+        ],
+        "area": 56136,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          16,
+          38,
+          314,
+          385
+        ],
+        "area": 58365,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -43,
+          196,
+          340,
+          374
+        ],
+        "area": 40577,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          17,
+          -6,
+          334,
+          355
+        ],
+        "area": 62002,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          9,
+          2,
+          335,
+          358
+        ],
+        "area": 63659,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          13,
+          10,
+          331,
+          354
+        ],
+        "area": 60986,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          16,
+          -16,
+          331,
+          340
+        ],
+        "area": 62072,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          33,
+          -13,
+          301,
+          345
+        ],
+        "area": 58105,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowbowman-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          25,
+          -15,
+          301,
+          350
+        ],
+        "area": 56817,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowbowman-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4970283508300781,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          42,
+          24,
+          305,
+          375
+        ],
+        "area": 50583,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          33,
+          32,
+          301,
+          385
+        ],
+        "area": 51465,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          35,
+          316,
+          385
+        ],
+        "area": 49754,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          37,
+          11,
+          311,
+          357
+        ],
+        "area": 50770,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          28,
+          34,
+          297,
+          348
+        ],
+        "area": 49387,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -27,
+          143,
+          335,
+          332
+        ],
+        "area": 40221,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          29,
+          -24,
+          318,
+          334
+        ],
+        "area": 57777,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          18,
+          -32,
+          335,
+          345
+        ],
+        "area": 58055,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          18,
+          -35,
+          319,
+          345
+        ],
+        "area": 55596,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          37,
+          -10,
+          341,
+          338
+        ],
+        "area": 59440,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          40,
+          -24,
+          320,
+          347
+        ],
+        "area": 54621,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowbowman-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          26,
+          -14,
+          292,
+          338
+        ],
+        "area": 51774,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "snowbowman-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5303599039713541,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          73,
+          19,
+          278,
+          371
+        ],
+        "area": 44111,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          66,
+          16,
+          272,
+          394
+        ],
+        "area": 43691,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          63,
+          16,
+          270,
+          397
+        ],
+        "area": 43576,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          76,
+          9,
+          291,
+          374
+        ],
+        "area": 44970,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          67,
+          13,
+          283,
+          363
+        ],
+        "area": 45282,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          43,
+          33,
+          296,
+          363
+        ],
+        "area": 42997,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          72,
+          -8,
+          325,
+          353
+        ],
+        "area": 49813,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "snowbowman-back-string-v3.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 1,
+        "bounds": [
+          67,
+          -12,
+          309,
+          357
+        ],
+        "area": 48919,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 8,
+        "bounds": [
+          64,
+          -14,
+          304,
+          353
+        ],
+        "area": 48741,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          60,
+          -20,
+          320,
+          342
+        ],
+        "area": 50716,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          83,
+          -23,
+          306,
+          350
+        ],
+        "area": 49834,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "snowbowman-back-axial-bow.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 11,
+        "bounds": [
+          69,
+          -18,
+          279,
+          346
+        ],
+        "area": 45283,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mujin-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5094623565673828,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          44,
+          19,
+          575,
+          500
+        ],
+        "area": 113448,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          35,
+          23,
+          433,
+          541
+        ],
+        "area": 112460,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          68,
+          11,
+          476,
+          535
+        ],
+        "area": 112661,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          41,
+          22,
+          500,
+          519
+        ],
+        "area": 115481,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          53,
+          13,
+          539,
+          495
+        ],
+        "area": 114806,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "mujin-front-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -15,
+          140,
+          502,
+          509
+        ],
+        "area": 97883,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          61,
+          24,
+          472,
+          507
+        ],
+        "area": 109937,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          38,
+          7,
+          441,
+          519
+        ],
+        "area": 113280,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          53,
+          6,
+          505,
+          509
+        ],
+        "area": 120119,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          36,
+          19,
+          460,
+          503
+        ],
+        "area": 125123,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          53,
+          7,
+          492,
+          486
+        ],
+        "area": 117109,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "mujin-front-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          37,
+          3,
+          500,
+          502
+        ],
+        "area": 117774,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mujin-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5482654571533203,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          31,
+          35,
+          527,
+          495
+        ],
+        "area": 99155,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          -6,
+          53,
+          500,
+          496
+        ],
+        "area": 95753,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          23,
+          45,
+          539,
+          497
+        ],
+        "area": 106481,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          -5,
+          56,
+          505,
+          509
+        ],
+        "area": 108417,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          23,
+          26,
+          526,
+          485
+        ],
+        "area": 101311,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "mujin-front-right-locomotion-v2.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -34,
+          164,
+          499,
+          498
+        ],
+        "area": 82670,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "mujin-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          21,
+          38,
+          523,
+          506
+        ],
+        "area": 108378,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "mujin-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          4,
+          87,
+          497,
+          505
+        ],
+        "area": 97505,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "mujin-front-right-contact-separated.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 1,
+        "bounds": [
+          13,
+          61,
+          646,
+          470
+        ],
+        "area": 108617,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "mujin-front-right-follow-separated.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 1,
+        "bounds": [
+          -45,
+          66,
+          505,
+          491
+        ],
+        "area": 107983,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "mujin-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 3,
+        "bounds": [
+          23,
+          19,
+          518,
+          469
+        ],
+        "area": 107686,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "mujin-front-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 4,
+        "bounds": [
+          0,
+          24,
+          499,
+          482
+        ],
+        "area": 108001,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mujin-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5765724182128906,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          18,
+          72,
+          526,
+          509
+        ],
+        "area": 97832,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          17,
+          98,
+          494,
+          505
+        ],
+        "area": 86489,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          19,
+          60,
+          510,
+          489
+        ],
+        "area": 97438,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          14,
+          64,
+          500,
+          498
+        ],
+        "area": 96924,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          34,
+          24,
+          519,
+          452
+        ],
+        "area": 97405,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "mujin-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -12,
+          209,
+          506,
+          474
+        ],
+        "area": 67364,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "mujin-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          20,
+          104,
+          548,
+          503
+        ],
+        "area": 97973,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "mujin-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          47,
+          126,
+          490,
+          503
+        ],
+        "area": 91958,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "mujin-right-separate-p8.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            512,
+            1024,
+            1024
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          21,
+          94,
+          671,
+          456
+        ],
+        "area": 105151,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "mujin-right-separate-p9.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            512,
+            1024,
+            1024
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          454,
+          104,
+          1020,
+          463
+        ],
+        "area": 99329,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "mujin-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 3,
+        "bounds": [
+          40,
+          45,
+          519,
+          442
+        ],
+        "area": 97722,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "mujin-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 4,
+        "bounds": [
+          5,
+          32,
+          510,
+          440
+        ],
+        "area": 101279,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mujin-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5786355336507162,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          32,
+          70,
+          506,
+          489
+        ],
+        "area": 89686,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          -3,
+          83,
+          497,
+          496
+        ],
+        "area": 84273,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          18,
+          50,
+          519,
+          491
+        ],
+        "area": 93922,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          -2,
+          53,
+          492,
+          493
+        ],
+        "area": 92045,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          39,
+          38,
+          527,
+          446
+        ],
+        "area": 92269,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "mujin-rear-right-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -13,
+          111,
+          495,
+          440
+        ],
+        "area": 87524,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          20,
+          80,
+          488,
+          514
+        ],
+        "area": 103978,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          -5,
+          93,
+          506,
+          505
+        ],
+        "area": 100920,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          13,
+          80,
+          570,
+          505
+        ],
+        "area": 102627,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          8,
+          90,
+          502,
+          503
+        ],
+        "area": 96446,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          20,
+          54,
+          487,
+          475
+        ],
+        "area": 103391,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "mujin-rear-right-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          14,
+          50,
+          500,
+          481
+        ],
+        "area": 106459,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "mujin-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.5794073740641276,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          83,
+          6,
+          456,
+          484
+        ],
+        "area": 93062,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          84,
+          1,
+          433,
+          514
+        ],
+        "area": 83501,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          63,
+          4,
+          460,
+          516
+        ],
+        "area": 95391,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          84,
+          -6,
+          447,
+          512
+        ],
+        "area": 89439,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          47,
+          12,
+          442,
+          472
+        ],
+        "area": 102194,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "mujin-back-locomotion.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          9,
+          32,
+          491,
+          472
+        ],
+        "area": 93572,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          49,
+          32,
+          495,
+          482
+        ],
+        "area": 84544,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          59,
+          15,
+          427,
+          491
+        ],
+        "area": 82212,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          68,
+          -15,
+          486,
+          489
+        ],
+        "area": 86422,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          51,
+          19,
+          478,
+          467
+        ],
+        "area": 90598,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          57,
+          34,
+          498,
+          465
+        ],
+        "area": 95855,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "mujin-back-combat.png",
+        "sourceCell": {
+          "columns": 2,
+          "rows": 3,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          32,
+          13,
+          486,
+          466
+        ],
+        "area": 101188,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "xuelan-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.33173688252766925,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          17,
+          12,
+          335,
+          382
+        ],
+        "area": 76920,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          18,
+          12,
+          316,
+          388
+        ],
+        "area": 70470,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          2,
+          13,
+          309,
+          399
+        ],
+        "area": 74371,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          24,
+          4,
+          337,
+          377
+        ],
+        "area": 74013,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          21,
+          12,
+          311,
+          370
+        ],
+        "area": 68754,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -25,
+          143,
+          336,
+          373
+        ],
+        "area": 58898,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          11,
+          -3,
+          335,
+          367
+        ],
+        "area": 79496,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          4,
+          -3,
+          334,
+          366
+        ],
+        "area": 81784,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          5,
+          -4,
+          332,
+          367
+        ],
+        "area": 78995,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          15,
+          -22,
+          343,
+          367
+        ],
+        "area": 80738,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          18,
+          -22,
+          322,
+          362
+        ],
+        "area": 77865,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "xuelan-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          -4,
+          -22,
+          323,
+          365
+        ],
+        "area": 82539,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "xuelan-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4097716013590495,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          24,
+          13,
+          310,
+          377
+        ],
+        "area": 67488,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          25,
+          17,
+          277,
+          377
+        ],
+        "area": 59665,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          24,
+          20,
+          295,
+          376
+        ],
+        "area": 63040,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          29,
+          12,
+          314,
+          378
+        ],
+        "area": 65222,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          43,
+          16,
+          300,
+          362
+        ],
+        "area": 58710,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -35,
+          168,
+          336,
+          364
+        ],
+        "area": 50306,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          19,
+          6,
+          328,
+          364
+        ],
+        "area": 70066,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          14,
+          3,
+          331,
+          368
+        ],
+        "area": 76861,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          7,
+          16,
+          326,
+          371
+        ],
+        "area": 71377,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          27,
+          -3,
+          334,
+          369
+        ],
+        "area": 71990,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          30,
+          1,
+          316,
+          354
+        ],
+        "area": 65866,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "xuelan-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          13,
+          0,
+          317,
+          366
+        ],
+        "area": 69583,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "xuelan-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.3976891835530599,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          22,
+          7,
+          295,
+          383
+        ],
+        "area": 69103,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          21,
+          10,
+          292,
+          381
+        ],
+        "area": 64360,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          20,
+          11,
+          295,
+          384
+        ],
+        "area": 67274,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          25,
+          6,
+          314,
+          377
+        ],
+        "area": 68698,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          27,
+          17,
+          285,
+          371
+        ],
+        "area": 62288,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -56,
+          188,
+          336,
+          369
+        ],
+        "area": 52363,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          12,
+          2,
+          323,
+          362
+        ],
+        "area": 70639,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          20,
+          2,
+          321,
+          362
+        ],
+        "area": 72597,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          0,
+          7,
+          330,
+          362
+        ],
+        "area": 75449,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          21,
+          -12,
+          338,
+          365
+        ],
+        "area": 76481,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          27,
+          -10,
+          313,
+          360
+        ],
+        "area": 67687,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "xuelan-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          21,
+          -7,
+          300,
+          367
+        ],
+        "area": 67383,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "xuelan-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.3989969889322917,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          25,
+          16,
+          312,
+          394
+        ],
+        "area": 70105,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          27,
+          24,
+          314,
+          389
+        ],
+        "area": 63779,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          33,
+          22,
+          316,
+          386
+        ],
+        "area": 64546,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          30,
+          23,
+          320,
+          382
+        ],
+        "area": 66804,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          23,
+          27,
+          313,
+          373
+        ],
+        "area": 61179,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -19,
+          171,
+          336,
+          364
+        ],
+        "area": 47834,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          19,
+          11,
+          316,
+          377
+        ],
+        "area": 70536,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          20,
+          14,
+          323,
+          363
+        ],
+        "area": 69917,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          2,
+          13,
+          336,
+          378
+        ],
+        "area": 73197,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          28,
+          4,
+          359,
+          352
+        ],
+        "area": 72388,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          24,
+          -1,
+          331,
+          359
+        ],
+        "area": 68944,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "xuelan-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          34,
+          -1,
+          308,
+          368
+        ],
+        "area": 66554,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "xuelan-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4399840037027995,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          33,
+          15,
+          320,
+          375
+        ],
+        "area": 59678,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          49,
+          16,
+          320,
+          388
+        ],
+        "area": 57491,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          40,
+          16,
+          318,
+          388
+        ],
+        "area": 56978,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          38,
+          7,
+          327,
+          373
+        ],
+        "area": 59700,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          38,
+          26,
+          325,
+          353
+        ],
+        "area": 59684,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          6,
+          139,
+          328,
+          338
+        ],
+        "area": 45477,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          27,
+          4,
+          347,
+          352
+        ],
+        "area": 66847,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          31,
+          -8,
+          345,
+          352
+        ],
+        "area": 67086,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          46,
+          -13,
+          329,
+          352
+        ],
+        "area": 64973,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          17,
+          -13,
+          373,
+          351
+        ],
+        "area": 79204,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          31,
+          -15,
+          342,
+          350
+        ],
+        "area": 69033,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "xuelan-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          42,
+          -13,
+          328,
+          351
+        ],
+        "area": 61908,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "baixue-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.3458410898844401,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          17,
+          12,
+          339,
+          390
+        ],
+        "area": 81551,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          28,
+          12,
+          316,
+          399
+        ],
+        "area": 69049,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -2,
+          12,
+          315,
+          401
+        ],
+        "area": 71860,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          21,
+          -3,
+          344,
+          387
+        ],
+        "area": 76817,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          20,
+          18,
+          299,
+          377
+        ],
+        "area": 65513,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -30,
+          119,
+          332,
+          361
+        ],
+        "area": 59959,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          10,
+          3,
+          340,
+          365
+        ],
+        "area": 79277,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          26,
+          8,
+          324,
+          370
+        ],
+        "area": 76108,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -5,
+          8,
+          338,
+          370
+        ],
+        "area": 79989,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          13,
+          -29,
+          353,
+          356
+        ],
+        "area": 85649,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          18,
+          -25,
+          349,
+          355
+        ],
+        "area": 80886,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "baixue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          19,
+          -29,
+          333,
+          344
+        ],
+        "area": 79114,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "baixue-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.38071950276692706,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          30,
+          42,
+          330,
+          398
+        ],
+        "area": 73554,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          12,
+          49,
+          313,
+          410
+        ],
+        "area": 67097,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          26,
+          41,
+          310,
+          417
+        ],
+        "area": 68707,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          16,
+          31,
+          309,
+          404
+        ],
+        "area": 70568,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          18,
+          37,
+          300,
+          407
+        ],
+        "area": 70161,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -43,
+          209,
+          337,
+          404
+        ],
+        "area": 51409,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          13,
+          38,
+          328,
+          385
+        ],
+        "area": 72624,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          14,
+          35,
+          313,
+          386
+        ],
+        "area": 72289,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -13,
+          48,
+          332,
+          385
+        ],
+        "area": 74872,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          16,
+          8,
+          363,
+          358
+        ],
+        "area": 77775,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          27,
+          13,
+          329,
+          359
+        ],
+        "area": 67567,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "baixue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          1,
+          1,
+          317,
+          361
+        ],
+        "area": 74203,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "baixue-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.4102465311686198,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          27,
+          36,
+          319,
+          401
+        ],
+        "area": 70378,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          25,
+          43,
+          314,
+          408
+        ],
+        "area": 64687,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          30,
+          45,
+          319,
+          407
+        ],
+        "area": 66951,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          17,
+          30,
+          340,
+          398
+        ],
+        "area": 69590,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          17,
+          41,
+          285,
+          393
+        ],
+        "area": 63354,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -54,
+          214,
+          329,
+          391
+        ],
+        "area": 47174,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          17,
+          29,
+          322,
+          365
+        ],
+        "area": 69040,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          9,
+          34,
+          295,
+          365
+        ],
+        "area": 66234,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -17,
+          35,
+          329,
+          365
+        ],
+        "area": 72466,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          16,
+          0,
+          369,
+          353
+        ],
+        "area": 76737,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          27,
+          -1,
+          345,
+          354
+        ],
+        "area": 70726,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "baixue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          10,
+          -1,
+          328,
+          355
+        ],
+        "area": 73029,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "baixue-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.45603688557942706,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          29,
+          27,
+          308,
+          380
+        ],
+        "area": 62129,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          24,
+          32,
+          301,
+          380
+        ],
+        "area": 55700,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          36,
+          308,
+          380
+        ],
+        "area": 56064,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          35,
+          16,
+          327,
+          376
+        ],
+        "area": 62775,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          26,
+          14,
+          291,
+          371
+        ],
+        "area": 61787,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -38,
+          145,
+          332,
+          360
+        ],
+        "area": 42260,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          20,
+          0,
+          301,
+          340
+        ],
+        "area": 59937,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          -8,
+          3,
+          347,
+          348
+        ],
+        "area": 66297,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          6,
+          2,
+          337,
+          354
+        ],
+        "area": 62935,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          22,
+          -23,
+          377,
+          356
+        ],
+        "area": 68712,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          30,
+          -21,
+          314,
+          346
+        ],
+        "area": 65734,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "baixue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          22,
+          -13,
+          316,
+          349
+        ],
+        "area": 65745,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "baixue-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.44728724161783856,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          51,
+          28,
+          320,
+          380
+        ],
+        "area": 61925,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          50,
+          28,
+          328,
+          388
+        ],
+        "area": 56687,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          44,
+          30,
+          313,
+          387
+        ],
+        "area": 55280,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          14,
+          320,
+          374
+        ],
+        "area": 59506,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          50,
+          34,
+          317,
+          372
+        ],
+        "area": 57882,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -11,
+          156,
+          334,
+          369
+        ],
+        "area": 44053,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          12,
+          16,
+          337,
+          357
+        ],
+        "area": 66911,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          20,
+          15,
+          330,
+          361
+        ],
+        "area": 66411,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          19,
+          1,
+          337,
+          365
+        ],
+        "area": 66155,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          21,
+          -9,
+          361,
+          353
+        ],
+        "area": 74715,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          27,
+          -14,
+          331,
+          343
+        ],
+        "area": 66586,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "baixue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          38,
+          -15,
+          308,
+          347
+        ],
+        "area": 65244,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "hanxue-front",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.3705577850341797,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          47,
+          4,
+          351,
+          388
+        ],
+        "area": 74388,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          40,
+          8,
+          302,
+          404
+        ],
+        "area": 64738,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          -2,
+          7,
+          290,
+          408
+        ],
+        "area": 70929,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          48,
+          6,
+          331,
+          400
+        ],
+        "area": 69144,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          34,
+          24,
+          293,
+          386
+        ],
+        "area": 61635,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -39,
+          179,
+          326,
+          406
+        ],
+        "area": 55412,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          29,
+          11,
+          363,
+          372
+        ],
+        "area": 79927,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          43,
+          6,
+          346,
+          380
+        ],
+        "area": 73933,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "hanxue-front-contact-gap-v2.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 1,
+        "bounds": [
+          25,
+          53,
+          306,
+          374
+        ],
+        "area": 60569,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 9,
+        "bounds": [
+          19,
+          -12,
+          358,
+          362
+        ],
+        "area": 76925,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "hanxue-front.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 10,
+        "bounds": [
+          38,
+          -8,
+          327,
+          352
+        ],
+        "area": 67286,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "hanxue-front-separate-p11.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            1152,
+            1024,
+            1536
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          379,
+          -8,
+          674,
+          361
+        ],
+        "area": 70470,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "hanxue-front-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.378292719523112,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          24,
+          8,
+          345,
+          396
+        ],
+        "area": 74641,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          25,
+          13,
+          316,
+          398
+        ],
+        "area": 65261,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          8,
+          19,
+          309,
+          399
+        ],
+        "area": 67074,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          23,
+          12,
+          331,
+          372
+        ],
+        "area": 63921,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          26,
+          19,
+          297,
+          360
+        ],
+        "area": 57429,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -29,
+          152,
+          320,
+          374
+        ],
+        "area": 51228,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          18,
+          -12,
+          354,
+          352
+        ],
+        "area": 79128,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          19,
+          -5,
+          325,
+          356
+        ],
+        "area": 72917,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          -14,
+          9,
+          323,
+          351
+        ],
+        "area": 69328,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          12,
+          -27,
+          354,
+          354
+        ],
+        "area": 76184,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          24,
+          -22,
+          328,
+          347
+        ],
+        "area": 67116,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "hanxue-front-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          15,
+          -30,
+          317,
+          348
+        ],
+        "area": 71172,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "hanxue-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.3911794026692708,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          34,
+          15,
+          303,
+          404
+        ],
+        "area": 64046,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          2,
+          15,
+          300,
+          405
+        ],
+        "area": 67209,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          16,
+          19,
+          326,
+          403
+        ],
+        "area": 63519,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          27,
+          25,
+          331,
+          389
+        ],
+        "area": 62388,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          21,
+          33,
+          296,
+          381
+        ],
+        "area": 59127,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -45,
+          185,
+          333,
+          388
+        ],
+        "area": 47254,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          23,
+          -1,
+          351,
+          354
+        ],
+        "area": 77423,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          22,
+          0,
+          325,
+          356
+        ],
+        "area": 71057,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "hanxue-right-contact-v2.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            768,
+            1024,
+            1152
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          342,
+          -2,
+          726,
+          357
+        ],
+        "area": 72307,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "hanxue-right-separate-p9.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            1152,
+            1024,
+            1536
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          319,
+          -20,
+          705,
+          355
+        ],
+        "area": 77591,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "hanxue-right-separate-p10.png",
+        "sourceCell": {
+          "rectangle": [
+            0,
+            1152,
+            1024,
+            1536
+          ]
+        },
+        "id": 1,
+        "bounds": [
+          343,
+          -18,
+          682,
+          355
+        ],
+        "area": 74243,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "hanxue-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 9,
+        "bounds": [
+          7,
+          -34,
+          308,
+          365
+        ],
+        "area": 73361,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "hanxue-rear-right",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.42105547587076825,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          38,
+          13,
+          333,
+          389
+        ],
+        "area": 64108,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          29,
+          16,
+          323,
+          394
+        ],
+        "area": 59502,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          25,
+          18,
+          318,
+          394
+        ],
+        "area": 61809,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          28,
+          16,
+          341,
+          361
+        ],
+        "area": 60682,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          30,
+          22,
+          319,
+          349
+        ],
+        "area": 54575,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -16,
+          151,
+          335,
+          338
+        ],
+        "area": 41160,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          25,
+          -15,
+          346,
+          338
+        ],
+        "area": 72848,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          21,
+          -21,
+          328,
+          350
+        ],
+        "area": 69011,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          4,
+          -2,
+          336,
+          352
+        ],
+        "area": 65187,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          17,
+          -20,
+          375,
+          347
+        ],
+        "area": 70733,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          45,
+          -23,
+          332,
+          343
+        ],
+        "area": 61596,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "hanxue-rear-right.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          24,
+          -23,
+          319,
+          339
+        ],
+        "area": 65129,
+        "clipped": false
+      }
+    ]
+  },
+  {
+    "id": "hanxue-back",
+    "width": 1024,
+    "height": 1536,
+    "clearFraction": 0.466827392578125,
+    "poses": [
+      {
+        "pose": 0,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 0
+        },
+        "id": 1,
+        "bounds": [
+          48,
+          22,
+          341,
+          367
+        ],
+        "area": 58822,
+        "clipped": false
+      },
+      {
+        "pose": 1,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 1
+        },
+        "id": 2,
+        "bounds": [
+          57,
+          21,
+          303,
+          364
+        ],
+        "area": 50726,
+        "clipped": false
+      },
+      {
+        "pose": 2,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 2
+        },
+        "id": 3,
+        "bounds": [
+          37,
+          22,
+          305,
+          374
+        ],
+        "area": 54462,
+        "clipped": false
+      },
+      {
+        "pose": 3,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 3
+        },
+        "id": 4,
+        "bounds": [
+          44,
+          3,
+          320,
+          334
+        ],
+        "area": 50989,
+        "clipped": false
+      },
+      {
+        "pose": 4,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 4
+        },
+        "id": 5,
+        "bounds": [
+          50,
+          2,
+          303,
+          313
+        ],
+        "area": 48315,
+        "clipped": false
+      },
+      {
+        "pose": 5,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 5
+        },
+        "id": 6,
+        "bounds": [
+          -3,
+          114,
+          340,
+          323
+        ],
+        "area": 44635,
+        "clipped": false
+      },
+      {
+        "pose": 6,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 6
+        },
+        "id": 7,
+        "bounds": [
+          40,
+          -30,
+          328,
+          333
+        ],
+        "area": 68945,
+        "clipped": false
+      },
+      {
+        "pose": 7,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 7
+        },
+        "id": 8,
+        "bounds": [
+          50,
+          -47,
+          322,
+          335
+        ],
+        "area": 65415,
+        "clipped": false
+      },
+      {
+        "pose": 8,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 8
+        },
+        "id": 9,
+        "bounds": [
+          21,
+          -9,
+          324,
+          323
+        ],
+        "area": 56020,
+        "clipped": false
+      },
+      {
+        "pose": 9,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 9
+        },
+        "id": 10,
+        "bounds": [
+          40,
+          -35,
+          407,
+          332
+        ],
+        "area": 69300,
+        "clipped": false
+      },
+      {
+        "pose": 10,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 10
+        },
+        "id": 11,
+        "bounds": [
+          65,
+          -35,
+          327,
+          332
+        ],
+        "area": 56596,
+        "clipped": false
+      },
+      {
+        "pose": 11,
+        "reused": null,
+        "source": "hanxue-back.png",
+        "sourceCell": {
+          "columns": 3,
+          "rows": 4,
+          "index": 11
+        },
+        "id": 12,
+        "bounds": [
+          39,
+          -30,
+          329,
+          322
+        ],
+        "area": 59267,
+        "clipped": false
+      }
+    ]
+  }
+]

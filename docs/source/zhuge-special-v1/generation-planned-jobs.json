@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "yanggi-front",
+    "character": "yanggi",
+    "bossId": "9-1",
+    "view": 0,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/yanggi-front.png",
+    "source": "yanggi-front-sweep.png",
+    "sources": [
+      {
+        "id": "yanggi-front-sweep",
+        "source": "yanggi-front-sweep.png",
+        "prompt": "yanggi-front-sweep.prompt.txt"
+      },
+      {
+        "id": "yanggi-front-stance",
+        "source": "yanggi-front-stance.png",
+        "prompt": "yanggi-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanggi-front-sweep.png",
+      "yanggi-front-sweep.png",
+      "yanggi-front-sweep.png",
+      "yanggi-front-sweep.png",
+      "yanggi-front-sweep.png",
+      "yanggi-front-sweep.png",
+      "yanggi-front-stance.png",
+      "yanggi-front-stance.png",
+      "yanggi-front-stance.png",
+      "yanggi-front-stance.png",
+      "yanggi-front-stance.png",
+      "yanggi-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanggi-front-right",
+    "character": "yanggi",
+    "bossId": "9-1",
+    "view": 1,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/yanggi-front-right.png",
+    "source": "yanggi-front-right-sweep.png",
+    "sources": [
+      {
+        "id": "yanggi-front-right-sweep",
+        "source": "yanggi-front-right-sweep.png",
+        "prompt": "yanggi-front-right-sweep.prompt.txt"
+      },
+      {
+        "id": "yanggi-front-right-stance",
+        "source": "yanggi-front-right-stance.png",
+        "prompt": "yanggi-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-sweep.png",
+      "yanggi-front-right-stance.png",
+      "yanggi-front-right-stance.png",
+      "yanggi-front-right-stance.png",
+      "yanggi-front-right-stance.png",
+      "yanggi-front-right-stance.png",
+      "yanggi-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanggi-right",
+    "character": "yanggi",
+    "bossId": "9-1",
+    "view": 2,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/yanggi-right.png",
+    "source": "yanggi-right-sweep.png",
+    "sources": [
+      {
+        "id": "yanggi-right-sweep",
+        "source": "yanggi-right-sweep.png",
+        "prompt": "yanggi-right-sweep.prompt.txt"
+      },
+      {
+        "id": "yanggi-right-stance",
+        "source": "yanggi-right-stance.png",
+        "prompt": "yanggi-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanggi-right-sweep.png",
+      "yanggi-right-sweep.png",
+      "yanggi-right-sweep.png",
+      "yanggi-right-sweep.png",
+      "yanggi-right-sweep.png",
+      "yanggi-right-sweep.png",
+      "yanggi-right-stance.png",
+      "yanggi-right-stance.png",
+      "yanggi-right-stance.png",
+      "yanggi-right-stance.png",
+      "yanggi-right-stance.png",
+      "yanggi-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanggi-rear-right",
+    "character": "yanggi",
+    "bossId": "9-1",
+    "view": 3,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/yanggi-rear-right.png",
+    "source": "yanggi-rear-right-sweep.png",
+    "sources": [
+      {
+        "id": "yanggi-rear-right-sweep",
+        "source": "yanggi-rear-right-sweep.png",
+        "prompt": "yanggi-rear-right-sweep.prompt.txt"
+      },
+      {
+        "id": "yanggi-rear-right-stance",
+        "source": "yanggi-rear-right-stance.png",
+        "prompt": "yanggi-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-sweep.png",
+      "yanggi-rear-right-stance.png",
+      "yanggi-rear-right-stance.png",
+      "yanggi-rear-right-stance.png",
+      "yanggi-rear-right-stance.png",
+      "yanggi-rear-right-stance.png",
+      "yanggi-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yanggi-back",
+    "character": "yanggi",
+    "bossId": "9-1",
+    "view": 4,
+    "moves": [
+      "sweep",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/yanggi-back.png",
+    "source": "yanggi-back-sweep.png",
+    "sources": [
+      {
+        "id": "yanggi-back-sweep",
+        "source": "yanggi-back-sweep.png",
+        "prompt": "yanggi-back-sweep.prompt.txt"
+      },
+      {
+        "id": "yanggi-back-stance",
+        "source": "yanggi-back-stance.png",
+        "prompt": "yanggi-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yanggi-back-sweep.png",
+      "yanggi-back-sweep.png",
+      "yanggi-back-sweep.png",
+      "yanggi-back-sweep.png",
+      "yanggi-back-sweep.png",
+      "yanggi-back-sweep.png",
+      "yanggi-back-stance.png",
+      "yanggi-back-stance.png",
+      "yanggi-back-stance.png",
+      "yanggi-back-stance.png",
+      "yanggi-back-stance.png",
+      "yanggi-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukyeon-front",
+    "character": "mukyeon",
+    "bossId": "9-2",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/mukyeon-front.png",
+    "source": "mukyeon-front-fan.png",
+    "sources": [
+      {
+        "id": "mukyeon-front-fan",
+        "source": "mukyeon-front-fan.png",
+        "prompt": "mukyeon-front-fan.prompt.txt"
+      },
+      {
+        "id": "mukyeon-front-stance",
+        "source": "mukyeon-front-stance.png",
+        "prompt": "mukyeon-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukyeon-front-fan.png",
+      "mukyeon-front-fan.png",
+      "mukyeon-front-fan.png",
+      "mukyeon-front-fan.png",
+      "mukyeon-front-fan.png",
+      "mukyeon-front-fan.png",
+      "mukyeon-front-stance.png",
+      "mukyeon-front-stance.png",
+      "mukyeon-front-stance.png",
+      "mukyeon-front-stance.png",
+      "mukyeon-front-stance.png",
+      "mukyeon-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukyeon-front-right",
+    "character": "mukyeon",
+    "bossId": "9-2",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/mukyeon-front-right.png",
+    "source": "mukyeon-front-right-fan.png",
+    "sources": [
+      {
+        "id": "mukyeon-front-right-fan",
+        "source": "mukyeon-front-right-fan.png",
+        "prompt": "mukyeon-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "mukyeon-front-right-stance",
+        "source": "mukyeon-front-right-stance.png",
+        "prompt": "mukyeon-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-fan.png",
+      "mukyeon-front-right-stance.png",
+      "mukyeon-front-right-stance.png",
+      "mukyeon-front-right-stance.png",
+      "mukyeon-front-right-stance.png",
+      "mukyeon-front-right-stance.png",
+      "mukyeon-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukyeon-right",
+    "character": "mukyeon",
+    "bossId": "9-2",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/mukyeon-right.png",
+    "source": "mukyeon-right-fan.png",
+    "sources": [
+      {
+        "id": "mukyeon-right-fan",
+        "source": "mukyeon-right-fan.png",
+        "prompt": "mukyeon-right-fan.prompt.txt"
+      },
+      {
+        "id": "mukyeon-right-stance",
+        "source": "mukyeon-right-stance.png",
+        "prompt": "mukyeon-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukyeon-right-fan.png",
+      "mukyeon-right-fan.png",
+      "mukyeon-right-fan.png",
+      "mukyeon-right-fan.png",
+      "mukyeon-right-fan.png",
+      "mukyeon-right-fan.png",
+      "mukyeon-right-stance.png",
+      "mukyeon-right-stance.png",
+      "mukyeon-right-stance.png",
+      "mukyeon-right-stance.png",
+      "mukyeon-right-stance.png",
+      "mukyeon-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukyeon-rear-right",
+    "character": "mukyeon",
+    "bossId": "9-2",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/mukyeon-rear-right.png",
+    "source": "mukyeon-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "mukyeon-rear-right-fan",
+        "source": "mukyeon-rear-right-fan.png",
+        "prompt": "mukyeon-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "mukyeon-rear-right-stance",
+        "source": "mukyeon-rear-right-stance.png",
+        "prompt": "mukyeon-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-fan.png",
+      "mukyeon-rear-right-stance.png",
+      "mukyeon-rear-right-stance.png",
+      "mukyeon-rear-right-stance.png",
+      "mukyeon-rear-right-stance.png",
+      "mukyeon-rear-right-stance.png",
+      "mukyeon-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukyeon-back",
+    "character": "mukyeon",
+    "bossId": "9-2",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/mukyeon-back.png",
+    "source": "mukyeon-back-fan.png",
+    "sources": [
+      {
+        "id": "mukyeon-back-fan",
+        "source": "mukyeon-back-fan.png",
+        "prompt": "mukyeon-back-fan.prompt.txt"
+      },
+      {
+        "id": "mukyeon-back-stance",
+        "source": "mukyeon-back-stance.png",
+        "prompt": "mukyeon-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukyeon-back-fan.png",
+      "mukyeon-back-fan.png",
+      "mukyeon-back-fan.png",
+      "mukyeon-back-fan.png",
+      "mukyeon-back-fan.png",
+      "mukyeon-back-fan.png",
+      "mukyeon-back-stance.png",
+      "mukyeon-back-stance.png",
+      "mukyeon-back-stance.png",
+      "mukyeon-back-stance.png",
+      "mukyeon-back-stance.png",
+      "mukyeon-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jingwal-front",
+    "character": "jingwal",
+    "bossId": "9-3",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/jingwal-front.png",
+    "source": "jingwal-front-dash.png",
+    "sources": [
+      {
+        "id": "jingwal-front-dash",
+        "source": "jingwal-front-dash.png",
+        "prompt": "jingwal-front-dash.prompt.txt"
+      },
+      {
+        "id": "jingwal-front-stance",
+        "source": "jingwal-front-stance.png",
+        "prompt": "jingwal-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jingwal-front-dash.png",
+      "jingwal-front-dash.png",
+      "jingwal-front-dash.png",
+      "jingwal-front-dash.png",
+      "jingwal-front-dash.png",
+      "jingwal-front-dash.png",
+      "jingwal-front-stance.png",
+      "jingwal-front-stance.png",
+      "jingwal-front-stance.png",
+      "jingwal-front-stance.png",
+      "jingwal-front-stance.png",
+      "jingwal-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jingwal-front-right",
+    "character": "jingwal",
+    "bossId": "9-3",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/jingwal-front-right.png",
+    "source": "jingwal-front-right-dash.png",
+    "sources": [
+      {
+        "id": "jingwal-front-right-dash",
+        "source": "jingwal-front-right-dash.png",
+        "prompt": "jingwal-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "jingwal-front-right-stance",
+        "source": "jingwal-front-right-stance.png",
+        "prompt": "jingwal-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-dash.png",
+      "jingwal-front-right-stance.png",
+      "jingwal-front-right-stance.png",
+      "jingwal-front-right-stance.png",
+      "jingwal-front-right-stance.png",
+      "jingwal-front-right-stance.png",
+      "jingwal-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jingwal-right",
+    "character": "jingwal",
+    "bossId": "9-3",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/jingwal-right.png",
+    "source": "jingwal-right-dash.png",
+    "sources": [
+      {
+        "id": "jingwal-right-dash",
+        "source": "jingwal-right-dash.png",
+        "prompt": "jingwal-right-dash.prompt.txt"
+      },
+      {
+        "id": "jingwal-right-stance",
+        "source": "jingwal-right-stance.png",
+        "prompt": "jingwal-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jingwal-right-dash.png",
+      "jingwal-right-dash.png",
+      "jingwal-right-dash.png",
+      "jingwal-right-dash.png",
+      "jingwal-right-dash.png",
+      "jingwal-right-dash.png",
+      "jingwal-right-stance.png",
+      "jingwal-right-stance.png",
+      "jingwal-right-stance.png",
+      "jingwal-right-stance.png",
+      "jingwal-right-stance.png",
+      "jingwal-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jingwal-rear-right",
+    "character": "jingwal",
+    "bossId": "9-3",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/jingwal-rear-right.png",
+    "source": "jingwal-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "jingwal-rear-right-dash",
+        "source": "jingwal-rear-right-dash.png",
+        "prompt": "jingwal-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "jingwal-rear-right-stance",
+        "source": "jingwal-rear-right-stance.png",
+        "prompt": "jingwal-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-dash.png",
+      "jingwal-rear-right-stance.png",
+      "jingwal-rear-right-stance.png",
+      "jingwal-rear-right-stance.png",
+      "jingwal-rear-right-stance.png",
+      "jingwal-rear-right-stance.png",
+      "jingwal-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jingwal-back",
+    "character": "jingwal",
+    "bossId": "9-3",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/jingwal-back.png",
+    "source": "jingwal-back-dash.png",
+    "sources": [
+      {
+        "id": "jingwal-back-dash",
+        "source": "jingwal-back-dash.png",
+        "prompt": "jingwal-back-dash.prompt.txt"
+      },
+      {
+        "id": "jingwal-back-stance",
+        "source": "jingwal-back-stance.png",
+        "prompt": "jingwal-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jingwal-back-dash.png",
+      "jingwal-back-dash.png",
+      "jingwal-back-dash.png",
+      "jingwal-back-dash.png",
+      "jingwal-back-dash.png",
+      "jingwal-back-dash.png",
+      "jingwal-back-stance.png",
+      "jingwal-back-stance.png",
+      "jingwal-back-stance.png",
+      "jingwal-back-stance.png",
+      "jingwal-back-stance.png",
+      "jingwal-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "zhugehyeon-front",
+    "character": "zhugehyeon",
+    "bossId": "9-4",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front.png",
+    "source": "zhugehyeon-front-fan.png",
+    "sources": [
+      {
+        "id": "zhugehyeon-front-fan",
+        "source": "zhugehyeon-front-fan.png",
+        "prompt": "zhugehyeon-front-fan.prompt.txt"
+      },
+      {
+        "id": "zhugehyeon-front-stance",
+        "source": "zhugehyeon-front-stance.png",
+        "prompt": "zhugehyeon-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-fan.png",
+      "zhugehyeon-front-stance.png",
+      "zhugehyeon-front-stance.png",
+      "zhugehyeon-front-stance.png",
+      "zhugehyeon-front-stance.png",
+      "zhugehyeon-front-stance.png",
+      "zhugehyeon-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "zhugehyeon-front-right",
+    "character": "zhugehyeon",
+    "bossId": "9-4",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-front-right.png",
+    "source": "zhugehyeon-front-right-fan.png",
+    "sources": [
+      {
+        "id": "zhugehyeon-front-right-fan",
+        "source": "zhugehyeon-front-right-fan.png",
+        "prompt": "zhugehyeon-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "zhugehyeon-front-right-stance",
+        "source": "zhugehyeon-front-right-stance.png",
+        "prompt": "zhugehyeon-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-fan.png",
+      "zhugehyeon-front-right-stance.png",
+      "zhugehyeon-front-right-stance.png",
+      "zhugehyeon-front-right-stance.png",
+      "zhugehyeon-front-right-stance.png",
+      "zhugehyeon-front-right-stance.png",
+      "zhugehyeon-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "zhugehyeon-right",
+    "character": "zhugehyeon",
+    "bossId": "9-4",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-right.png",
+    "source": "zhugehyeon-right-fan.png",
+    "sources": [
+      {
+        "id": "zhugehyeon-right-fan",
+        "source": "zhugehyeon-right-fan.png",
+        "prompt": "zhugehyeon-right-fan.prompt.txt"
+      },
+      {
+        "id": "zhugehyeon-right-stance",
+        "source": "zhugehyeon-right-stance.png",
+        "prompt": "zhugehyeon-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-fan.png",
+      "zhugehyeon-right-stance.png",
+      "zhugehyeon-right-stance.png",
+      "zhugehyeon-right-stance.png",
+      "zhugehyeon-right-stance.png",
+      "zhugehyeon-right-stance.png",
+      "zhugehyeon-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "zhugehyeon-rear-right",
+    "character": "zhugehyeon",
+    "bossId": "9-4",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-rear-right.png",
+    "source": "zhugehyeon-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "zhugehyeon-rear-right-fan",
+        "source": "zhugehyeon-rear-right-fan.png",
+        "prompt": "zhugehyeon-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "zhugehyeon-rear-right-stance",
+        "source": "zhugehyeon-rear-right-stance.png",
+        "prompt": "zhugehyeon-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-fan.png",
+      "zhugehyeon-rear-right-stance.png",
+      "zhugehyeon-rear-right-stance.png",
+      "zhugehyeon-rear-right-stance.png",
+      "zhugehyeon-rear-right-stance.png",
+      "zhugehyeon-rear-right-stance.png",
+      "zhugehyeon-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "zhugehyeon-back",
+    "character": "zhugehyeon",
+    "bossId": "9-4",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/zhuge-special-v1/references/zhugehyeon-back.png",
+    "source": "zhugehyeon-back-fan.png",
+    "sources": [
+      {
+        "id": "zhugehyeon-back-fan",
+        "source": "zhugehyeon-back-fan.png",
+        "prompt": "zhugehyeon-back-fan.prompt.txt"
+      },
+      {
+        "id": "zhugehyeon-back-stance",
+        "source": "zhugehyeon-back-stance.png",
+        "prompt": "zhugehyeon-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-fan.png",
+      "zhugehyeon-back-stance.png",
+      "zhugehyeon-back-stance.png",
+      "zhugehyeon-back-stance.png",
+      "zhugehyeon-back-stance.png",
+      "zhugehyeon-back-stance.png",
+      "zhugehyeon-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

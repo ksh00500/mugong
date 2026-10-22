@@ -1,0 +1,32 @@
+/* Preserve old screen layouts within one layer; owned components override it explicitly. */
+@layer legacy, components;
+@import './styles.css' layer(legacy);
+@import './polish.css' layer(legacy);
+@import './home.css' layer(legacy);
+@import './design-system.css' layer(legacy);
+@import './service-ui.css' layer(legacy);
+@import './viewport-ui.css' layer(legacy);
+@import './graphic-ui.css' layer(legacy);
+@import './language.css' layer(legacy);
+@import './readability.css' layer(legacy);
+@import './text-loading.css' layer(legacy);
+@import './layout.css' layer(legacy);
+@import './glance-ui.css' layer(legacy);
+@import './ui/meters.css' layer(components);
+@import './ui/controls.css' layer(components);
+@import './combat-hud.css' layer(components);
+@import './ui/growth.css' layer(components);
+@import './ui/settings.css' layer(components);
+@import './ui/lobby-controls.css' layer(components);
+@import './ui/lobby-v3.css' layer(components);
+@import './ui/inventory-controls.css' layer(components);
+@import './ui/warehouse.css' layer(components);
+@import './ui/equipment-comparison.css' layer(components);
+@import './ui/quick-details.css' layer(components);
+@import './ui/journey.css' layer(components);
+@import './ui/prep-stop.css' layer(components);
+@import './ui/waystation-world.css' layer(components);
+
+@import './ui/recruitment.css' layer(components);
+@import './ui/character-info.css' layer(components);
+@import './ui/loading.css' layer(components);

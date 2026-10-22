@@ -1,0 +1,768 @@
+{
+  "date": "2026-10-18",
+  "global": {
+    "bosses": 40,
+    "kitActions": 185,
+    "specialActions": 154,
+    "logicalFrames": 5280,
+    "remaining": 31
+  },
+  "selected": {
+    "bosses": 8,
+    "actions": 23,
+    "logicalFrames": 870,
+    "uniqueSourceCells": 125,
+    "readyReuse": 290
+  },
+  "reviewCanvas": {
+    "width": 1200,
+    "height": 520,
+    "ground": 430,
+    "scale": 0.5,
+    "failures": []
+  },
+  "bosses": [
+    {
+      "bossId": "0-1",
+      "kitMoves": [
+        "slash",
+        "sweep",
+        "summon",
+        "slam",
+        "dash"
+      ],
+      "specialMoves": [
+        "summon",
+        "dash",
+        "slash",
+        "sweep",
+        "slam"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "0-2",
+      "kitMoves": [
+        "thrust",
+        "combo",
+        "stance",
+        "sweep",
+        "slam",
+        "dash"
+      ],
+      "specialMoves": [
+        "combo",
+        "stance",
+        "thrust",
+        "sweep",
+        "slam",
+        "dash"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "0-3",
+      "kitMoves": [
+        "thrust",
+        "combo",
+        "sweep",
+        "slam"
+      ],
+      "specialMoves": [
+        "thrust",
+        "sweep",
+        "combo",
+        "slam"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "0-4",
+      "kitMoves": [
+        "slash",
+        "combo",
+        "dash",
+        "sweep",
+        "slam"
+      ],
+      "specialMoves": [
+        "slash",
+        "sweep",
+        "combo",
+        "dash",
+        "slam"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "7-3",
+      "kitMoves": [
+        "thrust",
+        "dash",
+        "combo",
+        "slam"
+      ],
+      "specialMoves": [
+        "dash",
+        "slam"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "thrust",
+        "combo"
+      ]
+    },
+    {
+      "bossId": "4-1",
+      "kitMoves": [
+        "thrust",
+        "dash",
+        "combo",
+        "slam"
+      ],
+      "specialMoves": [
+        "slam",
+        "dash",
+        "thrust",
+        "combo"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "4-2",
+      "kitMoves": [
+        "dash",
+        "grab",
+        "stance",
+        "slam"
+      ],
+      "specialMoves": [
+        "grab",
+        "stance",
+        "dash",
+        "slam"
+      ],
+      "logicalFrames": 120,
+      "remaining": []
+    },
+    {
+      "bossId": "4-3",
+      "kitMoves": [
+        "bell",
+        "combo",
+        "thrust",
+        "slam"
+      ],
+      "specialMoves": [
+        "bell",
+        "slam",
+        "combo",
+        "thrust"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "4-4",
+      "kitMoves": [
+        "stance",
+        "combo",
+        "sweep",
+        "slam"
+      ],
+      "specialMoves": [
+        "stance",
+        "combo",
+        "sweep",
+        "slam"
+      ],
+      "logicalFrames": 120,
+      "remaining": []
+    },
+    {
+      "bossId": "5-2",
+      "kitMoves": [
+        "thrust",
+        "sweep",
+        "combo",
+        "slam",
+        "dash"
+      ],
+      "specialMoves": [
+        "sweep",
+        "slam",
+        "thrust",
+        "combo",
+        "dash"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "2-1",
+      "kitMoves": [
+        "stance",
+        "thrust",
+        "slash",
+        "dash",
+        "sweep"
+      ],
+      "specialMoves": [
+        "stance",
+        "dash",
+        "thrust",
+        "slash",
+        "sweep"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "2-2",
+      "kitMoves": [
+        "combo",
+        "dash",
+        "sweep",
+        "thrust"
+      ],
+      "specialMoves": [
+        "dash",
+        "sweep",
+        "combo",
+        "thrust"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "2-3",
+      "kitMoves": [
+        "dash",
+        "stance",
+        "combo",
+        "thrust",
+        "sweep"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance",
+        "combo",
+        "thrust",
+        "sweep"
+      ],
+      "logicalFrames": 210,
+      "remaining": []
+    },
+    {
+      "bossId": "2-4",
+      "kitMoves": [
+        "combo",
+        "thrust",
+        "dash",
+        "fan",
+        "sweep"
+      ],
+      "specialMoves": [
+        "fan",
+        "sweep",
+        "combo",
+        "thrust",
+        "dash"
+      ],
+      "logicalFrames": 210,
+      "remaining": []
+    },
+    {
+      "bossId": "3-1",
+      "kitMoves": [
+        "thrust",
+        "dash",
+        "sweep",
+        "slam",
+        "combo"
+      ],
+      "specialMoves": [
+        "dash",
+        "slam",
+        "thrust",
+        "sweep",
+        "combo"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "3-3",
+      "kitMoves": [
+        "stance",
+        "dash",
+        "combo",
+        "slam"
+      ],
+      "specialMoves": [
+        "stance",
+        "dash",
+        "combo",
+        "slam"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "5-3",
+      "kitMoves": [
+        "dash",
+        "thrust",
+        "combo",
+        "sweep",
+        "stance"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance",
+        "thrust",
+        "combo",
+        "sweep"
+      ],
+      "logicalFrames": 210,
+      "remaining": []
+    },
+    {
+      "bossId": "6-2",
+      "kitMoves": [
+        "stance",
+        "dash",
+        "slam",
+        "sweep",
+        "hazard"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance",
+        "slam",
+        "sweep",
+        "hazard"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "7-1",
+      "kitMoves": [
+        "dash",
+        "combo",
+        "sweep",
+        "stance",
+        "thrust"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "combo",
+        "sweep",
+        "thrust"
+      ]
+    },
+    {
+      "bossId": "7-4",
+      "kitMoves": [
+        "dash",
+        "slash",
+        "combo",
+        "sweep",
+        "stance"
+      ],
+      "specialMoves": [
+        "sweep",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "dash",
+        "slash",
+        "combo"
+      ]
+    },
+    {
+      "bossId": "8-1",
+      "kitMoves": [
+        "slash",
+        "dash",
+        "combo",
+        "sweep",
+        "stance"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "slash",
+        "combo",
+        "sweep"
+      ]
+    },
+    {
+      "bossId": "8-2",
+      "kitMoves": [
+        "stance",
+        "dash",
+        "combo",
+        "slam",
+        "thrust"
+      ],
+      "specialMoves": [
+        "dash",
+        "slam"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "stance",
+        "combo",
+        "thrust"
+      ]
+    },
+    {
+      "bossId": "9-3",
+      "kitMoves": [
+        "thrust",
+        "combo",
+        "sweep",
+        "dash",
+        "stance"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "thrust",
+        "combo",
+        "sweep"
+      ]
+    },
+    {
+      "bossId": "1-1",
+      "kitMoves": [
+        "slash",
+        "thrust",
+        "dash",
+        "sweep",
+        "stance"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance",
+        "slash",
+        "thrust",
+        "sweep"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "1-2",
+      "kitMoves": [
+        "hazard",
+        "fan",
+        "stance",
+        "slash"
+      ],
+      "specialMoves": [
+        "hazard",
+        "fan",
+        "stance",
+        "slash"
+      ],
+      "logicalFrames": 120,
+      "remaining": []
+    },
+    {
+      "bossId": "1-3",
+      "kitMoves": [
+        "fan",
+        "hazard",
+        "stance",
+        "combo"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance",
+        "hazard",
+        "combo"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "1-4",
+      "kitMoves": [
+        "fan",
+        "hazard",
+        "stance",
+        "thrust",
+        "sweep"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance",
+        "hazard",
+        "thrust",
+        "sweep"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "3-2",
+      "kitMoves": [
+        "fan",
+        "hazard",
+        "stance",
+        "thrust"
+      ],
+      "specialMoves": [
+        "hazard",
+        "stance",
+        "fan",
+        "thrust"
+      ],
+      "logicalFrames": 120,
+      "remaining": []
+    },
+    {
+      "bossId": "3-4",
+      "kitMoves": [
+        "fan",
+        "stance",
+        "hazard",
+        "sweep",
+        "combo"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance",
+        "hazard",
+        "sweep",
+        "combo"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "5-1",
+      "kitMoves": [
+        "fan",
+        "ring",
+        "stance",
+        "combo",
+        "dash"
+      ],
+      "specialMoves": [
+        "ring",
+        "stance",
+        "fan",
+        "combo",
+        "dash"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "5-4",
+      "kitMoves": [
+        "stance",
+        "fan",
+        "thrust",
+        "combo",
+        "dash"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance",
+        "thrust",
+        "combo",
+        "dash"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "6-1",
+      "kitMoves": [
+        "slash",
+        "thrust",
+        "slam",
+        "stance",
+        "dash"
+      ],
+      "specialMoves": [
+        "slam",
+        "stance",
+        "slash",
+        "thrust",
+        "dash"
+      ],
+      "logicalFrames": 150,
+      "remaining": []
+    },
+    {
+      "bossId": "6-3",
+      "kitMoves": [
+        "stance",
+        "fan",
+        "slash",
+        "slam"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance",
+        "slash",
+        "slam"
+      ],
+      "logicalFrames": 120,
+      "remaining": []
+    },
+    {
+      "bossId": "6-4",
+      "kitMoves": [
+        "combo",
+        "dash",
+        "thrust",
+        "stance",
+        "fan"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance",
+        "combo",
+        "thrust",
+        "fan"
+      ],
+      "logicalFrames": 180,
+      "remaining": []
+    },
+    {
+      "bossId": "7-2",
+      "kitMoves": [
+        "fan",
+        "ring",
+        "combo",
+        "dash"
+      ],
+      "specialMoves": [
+        "ring",
+        "combo"
+      ],
+      "logicalFrames": 90,
+      "remaining": [
+        "fan",
+        "dash"
+      ]
+    },
+    {
+      "bossId": "8-3",
+      "kitMoves": [
+        "fan",
+        "stance",
+        "hazard",
+        "sweep"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "hazard",
+        "sweep"
+      ]
+    },
+    {
+      "bossId": "8-4",
+      "kitMoves": [
+        "combo",
+        "dash",
+        "thrust",
+        "stance",
+        "fan"
+      ],
+      "specialMoves": [
+        "dash",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "combo",
+        "thrust",
+        "fan"
+      ]
+    },
+    {
+      "bossId": "9-1",
+      "kitMoves": [
+        "thrust",
+        "sweep",
+        "stance",
+        "combo"
+      ],
+      "specialMoves": [
+        "sweep",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "thrust",
+        "combo"
+      ]
+    },
+    {
+      "bossId": "9-2",
+      "kitMoves": [
+        "fan",
+        "combo",
+        "stance",
+        "thrust"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "combo",
+        "thrust"
+      ]
+    },
+    {
+      "bossId": "9-4",
+      "kitMoves": [
+        "stance",
+        "fan",
+        "hazard",
+        "combo",
+        "sweep"
+      ],
+      "specialMoves": [
+        "fan",
+        "stance"
+      ],
+      "logicalFrames": 60,
+      "remaining": [
+        "hazard",
+        "combo",
+        "sweep"
+      ]
+    }
+  ]
+}

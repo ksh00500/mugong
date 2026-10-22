@@ -1,0 +1,1768 @@
+/* Lobby: a departure desk, one hero, and the family register. */
+.home-scene {
+  background: radial-gradient(ellipse at 48% 40%, #fbf5e5 0%, #f0e7d2 54%, #d9ceb2 100%);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  color: #363b30;
+  overflow: hidden;
+}
+.home-scene:before {
+  opacity: 0.15;
+  inset: 80px 0 0;
+  background-position: center;
+  background-size: cover;
+  mask-image: linear-gradient(180deg, transparent, #000 28%, #000 65%, transparent);
+  z-index: -2;
+}
+.home-scene:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(115deg, transparent 0 5px, #79683e02 5px 6px);
+  z-index: -1;
+}
+.home-header {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding: 0 clamp(24px, 4vw, 70px);
+  height: 92px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #ac98696b;
+  background: #fbf5e5bf;
+  position: relative;
+  z-index: 1;
+}
+.home-brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 180px;
+}
+.home-brand-mark {
+  display: grid;
+  place-items: center;
+  width: 47px;
+  height: 48px;
+  border: 1px solid #bd9772;
+  background: #8d4c37;
+  color: #fff0ce;
+  box-shadow: inset 0 0 0 3px #d9af7b66;
+  transform: rotate(-4deg);
+  font:
+    42px 'Batang',
+    serif;
+}
+.home-brand > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.home-brand b {
+  font:
+    700 51px 'Batang',
+    serif;
+  letter-spacing: 0.17em;
+  line-height: 1;
+}
+.home-brand small {
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+  color: #94815a;
+}
+.home-nav {
+  display: flex;
+  align-self: stretch;
+  gap: 10px;
+}
+.home-nav button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 78px;
+  padding: 0 17px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+  font-size: 21px;
+  font-weight: 600;
+  color: #7b745e;
+}
+.home-nav button.active {
+  color: #375c48;
+  border-bottom-color: #836f40;
+  background: linear-gradient(0deg, #b5ab7522, transparent 65%);
+}
+.home-nav button:hover:not(:disabled) {
+  transform: none;
+  background: #b7a17314;
+  box-shadow: none;
+  color: #375642;
+}
+.home-nav button:disabled {
+  opacity: 0.42;
+}
+.home-nav .ui-icon {
+  width: 17px;
+  height: 17px;
+  opacity: 0.8;
+  margin-right: 3px;
+}
+.home-header-end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+.home-family {
+  font:
+    24px 'Batang',
+    serif;
+  letter-spacing: 0.12em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 17px;
+  text-align: right;
+  color: #797048;
+  white-space: nowrap;
+}
+.home-family small {
+  font:
+    13.5px 'Malgun Gothic',
+    sans-serif;
+  letter-spacing: 0.06em;
+  color: #988662;
+}
+.home-round-button {
+  width: 34px;
+  height: 34px;
+  min-height: 34px;
+  padding: 7px;
+  border: 1px solid #b8a47977;
+  border-radius: 50%;
+  background: #f8edce77;
+  box-shadow: none;
+  color: #847146;
+}
+.home-round-button .ui-icon {
+  margin: 0;
+  width: 17px;
+  height: 17px;
+}
+.home-stage {
+  display: grid;
+  grid-template-columns: minmax(290px, 0.95fr) minmax(250px, 1.14fr) minmax(290px, 0.94fr);
+  gap: 26px;
+  align-items: center;
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 36px clamp(24px, 4vw, 70px) 25px;
+  flex: 1;
+  min-height: calc(100dvh - 245px);
+  position: relative;
+}
+.home-departure {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+.home-section-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font:
+    16.5px 'Batang',
+    serif;
+  letter-spacing: 0.12em;
+  color: #897046;
+  margin-bottom: 24px;
+}
+.home-section-label > span {
+  display: block;
+  width: 23px;
+  height: 1px;
+  background: #a18a5e;
+}
+.home-departure h1 {
+  font:
+    700 clamp(52.5px, 5.025vw, 82.5px)/1.45 'Batang',
+    serif;
+  letter-spacing: -0.06em;
+  color: #333a2d;
+}
+.home-departure h1 em {
+  font-style: normal;
+  color: #4a624b;
+}
+.home-intro {
+  margin: 19px 0 25px;
+  color: #807356;
+  font-size: 18px;
+  line-height: 2;
+  word-break: keep-all;
+}
+.home-start-facts {
+  display: flex;
+  gap: 0;
+  border-top: 1px solid #b7a06d66;
+  border-bottom: 1px solid #b7a06d66;
+  padding: 15px 0;
+  max-width: 360px;
+  margin: 26px 0 28px;
+}
+.home-start-facts > span {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: 1;
+  align-items: flex-start;
+  padding-left: 20px;
+  font-size: 16.5px;
+  color: #90805c;
+  border-right: 1px solid #b7a06d44;
+}
+.home-start-facts > span:first-child {
+  align-items: flex-start;
+  padding-left: 0;
+}
+.home-start-facts > span:last-child {
+  border: 0;
+}
+.home-start-facts b {
+  font:
+    31.5px 'Batang',
+    serif;
+  color: #5d6749;
+}
+.home-launch {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px 19px;
+  min-height: 72px;
+  border-radius: 5px;
+  box-shadow:
+    inset 0 0 0 3px #baad6c2e,
+    0 5px 12px #233a2922 !important;
+}
+.home-launch > .ui-icon:first-child {
+  width: 25px;
+  height: 25px;
+  color: #d7c892;
+  flex-shrink: 0;
+}
+.home-launch > .ui-icon:last-child {
+  margin-left: auto;
+  margin-right: 0;
+  width: 21px;
+}
+.home-launch > span {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+}
+.home-launch b {
+  font:
+    700 25.5px 'Batang',
+    serif;
+  letter-spacing: 0.04em;
+}
+.home-launch small {
+  font-size: 15px;
+  color: #bcc8ac;
+  letter-spacing: 0.02em;
+}
+.home-launch-note {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #96845f;
+  margin-top: 12px;
+  max-width: 355px;
+  word-break: keep-all;
+}
+.home-path {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 27px;
+  font-size: 13.5px;
+  color: #8b805d;
+}
+.home-path span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.home-path i {
+  font:
+    15px 'Batang',
+    serif;
+  color: #a18b5d;
+}
+.home-path b {
+  font-weight: 400;
+  color: #b6a782;
+}
+.home-hero {
+  position: relative;
+  align-self: stretch;
+  min-height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  isolation: isolate;
+}
+.home-hero-script {
+  position: absolute;
+  top: 7%;
+  left: 0;
+  right: 0;
+  font:
+    clamp(270px, 34.5vw, 517.5px) 'Batang',
+    serif;
+  color: #6c704015;
+  text-align: center;
+  line-height: 1;
+  z-index: -2;
+  transform: rotate(-6deg);
+}
+.home-hero-ring {
+  position: absolute;
+  width: min(100%, 365px);
+  aspect-ratio: 1;
+  border: 1px solid #a8945838;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.home-hero-ring:before {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border: 1px dashed #a894582d;
+  border-radius: 50%;
+}
+.home-hero-ring:after {
+  content: '';
+  position: absolute;
+  inset: 26px;
+  border: 1px solid #a8945824;
+  border-radius: 50%;
+}
+.home-hero-ground {
+  position: absolute;
+  bottom: 11%;
+  left: 8%;
+  right: 4%;
+  height: 42px;
+  background: radial-gradient(ellipse, #52634830, transparent 68%);
+  z-index: -1;
+  transform: rotate(-5deg);
+}
+.home-hero-image {
+  width: calc(100% + 42px);
+  max-width: 470px;
+  height: clamp(420px, calc(100dvh - 300px), 590px);
+  object-fit: contain;
+  filter: drop-shadow(7px 12px 7px #39402514);
+  margin-left: -8px;
+}
+.home-hero-caption {
+  position: absolute;
+  bottom: 3%;
+  left: 12%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.home-name-seal {
+  font:
+    33px 'Batang',
+    serif;
+  border: 1px solid #967349;
+  padding: 6px;
+  color: #8a613e;
+  background: #f4e6c47a;
+  transform: rotate(-5deg);
+}
+.home-hero-caption > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.home-hero-caption small {
+  font-size: 13.5px;
+  color: #8f8059;
+  letter-spacing: 0.03em;
+}
+.home-hero-caption b {
+  font:
+    33px 'Batang',
+    serif;
+  letter-spacing: 0.16em;
+  color: #66533c;
+}
+.home-hero-caption-line {
+  height: 1px;
+  background: #a38e5c55;
+  flex: 1;
+  max-width: 65px;
+  margin-left: 4px;
+}
+.home-roster {
+  align-self: center;
+  min-height: 0;
+  padding: 0;
+  border-color: #b4a079;
+  background: linear-gradient(135deg, #fff9e9f2, #eee4cde8);
+  border-radius: 6px;
+  box-shadow:
+    inset 0 0 0 4px #f8f0da80,
+    0 10px 35px #53482c13;
+  overflow: hidden;
+}
+.home-roster > header {
+  padding: 20px 22px 16px;
+  margin: 0;
+  background: #e6d9b426;
+  border-bottom: 1px solid #b6a27266;
+  align-items: center;
+}
+.home-roster > header > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.home-roster .eyebrow {
+  font-size: 13.5px;
+  letter-spacing: 0.12em;
+}
+.home-roster h2 {
+  font-size: 31.5px;
+  font-weight: 600;
+}
+.home-roster header h2:before {
+  content: none;
+}
+.home-count {
+  font:
+    45px 'Batang',
+    serif;
+  color: #7e6b45;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
+.home-count small {
+  font:
+    16.5px 'Malgun Gothic',
+    sans-serif;
+  color: #9b8659;
+}
+.home-empty-roster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 20px 38px;
+  gap: 12px;
+}
+.home-empty-emblem {
+  width: 83px;
+  height: 83px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border: 1px solid #bba16c55;
+  border-radius: 50%;
+  background: #e6d8ad22;
+  margin-bottom: 3px;
+}
+.home-empty-emblem > .ui-icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  color: #b6a16d5c;
+  margin: 0;
+}
+.home-empty-emblem > span {
+  font:
+    37.5px 'Batang',
+    serif;
+  color: #ab8d55;
+  background: #f1e6cd;
+  padding: 2px 4px;
+}
+.home-empty-roster > b {
+  font:
+    25.5px 'Batang',
+    serif;
+  color: #635c40;
+}
+.home-empty-roster > p {
+  font-size: 19.5px;
+  color: #9a8761;
+  line-height: 1.9;
+}
+.home-empty-steps {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: #8c835e;
+  padding-top: 8px;
+}
+.home-empty-steps .ui-icon {
+  width: 14px;
+  margin: 0;
+  color: #b5a477;
+}
+.home-roster > footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 13px 20px;
+  background: #dcd0aa22;
+  border-top: 1px solid #c4af8055;
+  color: #8f7c51;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.home-roster > footer > .ui-icon {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+}
+.home-roster > footer > span {
+  margin-left: auto;
+  color: #a08a60;
+}
+.home-roster-list {
+  padding: 12px 14px 0;
+  max-height: 146px;
+  gap: 5px;
+}
+.home-roster-list > button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 10px;
+  border-color: #c1b08466;
+  border-radius: 4px;
+  background: #f7efdc55;
+  box-shadow: none;
+  min-height: 52px;
+}
+.home-roster-list > button.selected {
+  background: #dde4cf7a;
+  border-color: #94a17b;
+  box-shadow: inset 3px 0 0 #627a58;
+}
+.home-roster-list > button > span:nth-child(2) {
+  flex: 1;
+  gap: 5px;
+}
+.home-roster-list > button b {
+  font-size: 18px;
+}
+.home-roster-list > button small {
+  font-size: 13.5px;
+  color: #8b825d;
+}
+.home-roster-list > button em {
+  font-size: 13.5px;
+  color: #90815b;
+  white-space: nowrap;
+  font-style: normal;
+}
+.home-roster-list .home-roster-avatar {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 33px;
+  flex-shrink: 0;
+  border: 1px solid #b3a0797a;
+  border-radius: 3px;
+  font:
+    25.5px 'Batang',
+    serif;
+  color: #796240;
+  background: #e4d7b4;
+}
+.home-fighter-detail {
+  padding: 17px 20px 19px;
+}
+.home-detail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+  gap: 8px;
+}
+.home-detail-heading > b {
+  font:
+    27px 'Batang',
+    serif;
+  color: #526146;
+}
+.home-detail-heading > span {
+  display: flex;
+  align-items: center;
+  font-size: 13.5px;
+  color: #947953;
+  gap: 3px;
+}
+.home-detail-heading .ui-icon {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+.home-fighter-detail .health-line {
+  font-size: 15px;
+  color: #87734f;
+}
+.home-fighter-detail .health-line > b {
+  font-weight: 500;
+  color: #5f573e;
+}
+.home-art-list {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 18px;
+}
+.home-art-list > div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 15px;
+  color: #746142;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c4b18533;
+}
+.home-art-list .art-glyph {
+  width: 24px;
+  height: 24px;
+  font-size: 25.5px;
+  border-radius: 4px;
+  transform: none;
+}
+.home-art-list b {
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 500;
+  color: #796a49;
+}
+.home-bag-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  font-size: 15px;
+  padding: 9px 10px;
+  min-height: 38px;
+  background: #e8e8d888;
+  border-color: #a4a68580;
+  color: #57674b;
+}
+.home-bag-link > .ui-icon {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+.home-bag-link > .ui-icon:last-child {
+  margin-left: auto;
+}
+.home-roster-note {
+  font-size: 13.5px;
+  color: #a08965;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+.home-run-card {
+  background: #f6eed882;
+  border: 1px solid #b9a47b77;
+  border-left: 3px solid #718361;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  max-width: 360px;
+  box-shadow: 0 3px 10px #6554320a;
+}
+.home-run-heading {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 18px;
+}
+.home-run-heading > b {
+  font-family: 'Batang', serif;
+  font-size: 22.5px;
+}
+.home-run-heading > span:last-child {
+  margin-left: auto;
+  font-size: 15px;
+  color: #8c7752;
+}
+.home-live-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #728b5f;
+}
+.home-run-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 13px 0 11px;
+}
+.home-run-progress > strong {
+  font:
+    39px 'Batang',
+    serif;
+  color: #566148;
+}
+.home-run-progress small {
+  font:
+    15px 'Malgun Gothic',
+    sans-serif;
+  color: #8e7953;
+}
+.home-run-progress > span {
+  font-size: 13.5px;
+  border: 1px solid #a4af8e;
+  background: #dde4cf;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #6b7a52;
+}
+.home-wave-track {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 3px;
+  margin-bottom: 14px;
+}
+.home-wave-track i {
+  height: 6px;
+  border-radius: 1px;
+  background: #d1c5a74d;
+  border: 1px solid #b6a5774d;
+}
+.home-wave-track i.done {
+  background: #93a078;
+  border-color: #7c9164;
+}
+.home-wave-track i.current {
+  background: #c8a25b;
+  border-color: #98753d;
+}
+.home-run-card .health-line {
+  font-size: 15px;
+}
+.home-run-card .meter {
+  height: 7px;
+}
+.home-dock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: calc(100% - clamp(48px, 8vw, 140px));
+  max-width: 1400px;
+  margin: 0 auto 17px;
+  border: 1px solid #b9a67977;
+  border-radius: 5px;
+  background: #fbf4e4a6;
+  box-shadow: inset 0 0 0 3px #fff7df44;
+  position: relative;
+  z-index: 1;
+}
+.home-dock-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  padding: 20px 22px;
+  border: 0;
+  border-right: 1px solid #b8a67b55;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  min-width: 0;
+  min-height: 70px;
+}
+.home-dock-card:last-child {
+  border: 0;
+}
+.home-dock-card:hover:not(:disabled) {
+  transform: none;
+  box-shadow: none;
+  background: #ded8b53b;
+}
+.home-dock-card > span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+}
+.home-dock-card b {
+  font:
+    22.5px 'Batang',
+    serif;
+  color: #5b6147;
+}
+.home-dock-card small {
+  font-size: 13.5px;
+  color: #968259;
+  line-height: 1.4;
+}
+.home-dock-card > .ui-icon {
+  margin: 0 0 0 auto;
+  width: 16px;
+  color: #b39b64;
+  flex-shrink: 0;
+}
+.home-dock-icon {
+  display: grid;
+  place-items: center;
+  width: 39px;
+  height: 39px;
+  border: 1px solid #ab98675c;
+  border-radius: 4px;
+  background: #ddd4b535;
+  flex-shrink: 0;
+  transform: rotate(-3deg);
+}
+.home-dock-icon .ui-icon {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  color: #857244;
+}
+.home-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #9c8a5f;
+  padding: 0 clamp(24px, 4vw, 70px) 16px;
+  position: relative;
+}
+.home-save-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #85906b;
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+.home-save-status i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #8a9a6e;
+  border-radius: 50%;
+}
+.home-save-status i.failed {
+  background: #b06c45;
+}
+.home-create-form {
+  padding: 25px;
+}
+.home-create-preview {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #c0ab794d;
+  margin-bottom: 24px;
+}
+.home-create-preview > div {
+  width: 65px;
+  height: 106px;
+  flex-shrink: 0;
+  border: 1px solid #b29b6977;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse, #f8efd7, #d6caab);
+}
+.home-create-preview .item-art {
+  width: 38px;
+  height: 88px;
+  max-height: none;
+}
+.home-create-preview h3 {
+  font:
+    27px 'Batang',
+    serif;
+  margin: 9px 0 10px;
+}
+.home-create-preview p {
+  font-size: 16.5px;
+  line-height: 1.9;
+  color: #8b7752;
+}
+.home-create-form > label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #675e40;
+  margin-bottom: 10px;
+}
+.home-create-form > label > span {
+  font-size: 15px;
+  color: #a18c5d;
+}
+.home-create-form > input {
+  width: 100%;
+  padding: 13px 15px;
+  background: #fff9eb;
+  border: 1px solid #b9a170;
+  border-radius: 4px;
+  font-size: 22.5px;
+  color: #556247;
+  box-shadow: inset 0 2px 5px #6e573318;
+}
+.home-create-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 13px 0 26px;
+}
+.home-create-facts span {
+  font-size: 13.5px;
+  color: #94805c;
+  background: #e6dcc466;
+  padding: 5px 7px;
+  border: 1px solid #bbab7f3d;
+  border-radius: 3px;
+}
+.home-create-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.home-create-actions button {
+  padding: 11px 16px;
+  min-height: 42px;
+}
+.home-create-actions button.primary {
+  min-width: 180px;
+}
+.home-records {
+  padding: 27px;
+}
+.home-records > h3 {
+  font:
+    31.5px 'Batang',
+    serif;
+  margin: 13px 0 24px;
+}
+.home-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.home-record-grid > div {
+  position: relative;
+  padding: 19px;
+  border: 1px solid #bea57855;
+  border-radius: 4px;
+  background: linear-gradient(130deg, #fbf4df, #e7dbc055);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.home-record-grid > div > span {
+  position: absolute;
+  right: 14px;
+  bottom: 13px;
+  font:
+    57px 'Batang',
+    serif;
+  color: #baa4773a;
+}
+.home-record-grid small {
+  font-size: 16.5px;
+  color: #927b50;
+}
+.home-record-grid b {
+  font:
+    46.5px 'Batang',
+    serif;
+  color: #5b6448;
+}
+.home-record-summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16.5px;
+  color: #9c865a;
+  border-top: 1px solid #beaa784d;
+  padding-top: 16px;
+  margin-top: 21px;
+  gap: 10px;
+}
+.home-record-summary b {
+  font-weight: 500;
+  color: #626b4f;
+  margin-left: 6px;
+}
+.home-records > p {
+  font-size: 16.5px;
+  color: #a49069;
+  margin-top: 20px;
+}
+.home-guide {
+  padding: 25px;
+}
+.home-guide-intro {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-bottom: 1px solid #b7a07255;
+  padding-bottom: 19px;
+  margin-bottom: 20px;
+}
+.home-guide-intro > .ui-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  color: #8d7a4e;
+  flex-shrink: 0;
+}
+.home-guide-intro p {
+  font-size: 16.5px;
+  line-height: 1.9;
+  color: #8a7952;
+}
+.home-guide dl {
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  gap: 13px 10px;
+  font-size: 16.5px;
+  color: #7e6e4b;
+  margin: 0 0 23px;
+}
+.home-guide dt {
+  color: #687354;
+}
+.home-guide dd {
+  margin: 0;
+  line-height: 1.7;
+}
+.home-guide-rules {
+  border-left: 2px solid #a2a078;
+  background: #e6e6d14d;
+  padding: 13px 14px;
+  display: grid;
+  gap: 11px;
+}
+.home-guide-rules p {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 15px;
+  color: #94815d;
+  line-height: 1.7;
+}
+.home-guide-rules b {
+  font-size: 16.5px;
+  color: #6f7552;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .home-departure {
+    animation: paper-enter 0.45s var(--ease-out) both;
+  }
+  .home-roster {
+    animation: paper-enter 0.45s 0.08s var(--ease-out) both;
+  }
+  .home-dock {
+    animation: paper-enter 0.4s 0.12s var(--ease-out) both;
+  }
+}
+@media (min-width: 1600px) {
+  .home-stage {
+    gap: 45px;
+  }
+  .home-header {
+    padding-left: calc((100% - 1400px) / 2);
+    padding-right: calc((100% - 1400px) / 2);
+  }
+  .home-footer {
+    max-width: 1540px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .home-departure h1 {
+    font-size: 85.5px;
+  }
+}
+@media (max-width: 1190px) {
+  .home-header {
+    gap: 23px;
+    padding: 0 28px;
+  }
+  .home-brand {
+    min-width: 190px;
+  }
+  .home-brand small {
+    font-size: 12px;
+  }
+  .home-nav {
+    gap: 3px;
+  }
+  .home-nav button {
+    padding: 0 12px;
+    min-width: 65px;
+    font-size: 19.5px;
+  }
+  .home-family {
+    margin-right: 8px;
+    font-size: 21px;
+  }
+  .home-stage {
+    grid-template-columns: minmax(250px, 1fr) minmax(180px, 0.85fr) minmax(265px, 1fr);
+    gap: 16px;
+    padding: 30px 28px 24px;
+    min-height: calc(100dvh - 240px);
+  }
+  .home-departure h1 {
+    font-size: 57px;
+  }
+  .home-hero-image {
+    width: calc(100% + 70px);
+    height: 480px;
+    max-width: none;
+  }
+  .home-hero {
+    min-height: 440px;
+  }
+  .home-hero-caption {
+    left: 0;
+    right: 0;
+    bottom: 4%;
+  }
+  .home-roster > header {
+    padding: 17px;
+  }
+  .home-fighter-detail {
+    padding: 16px;
+  }
+  .home-roster > footer {
+    padding: 12px 16px;
+  }
+  .home-empty-roster {
+    padding: 28px 13px;
+  }
+  .home-dock {
+    width: calc(100% - 56px);
+    margin-bottom: 16px;
+  }
+  .home-dock-card {
+    gap: 11px;
+    padding: 17px;
+  }
+  .home-dock-icon {
+    width: 32px;
+    height: 34px;
+  }
+  .home-dock-card small {
+    font-size: 12px;
+  }
+  .home-dock-card b {
+    font-size: 19.5px;
+  }
+  .home-footer {
+    padding: 0 28px 14px;
+  }
+  .home-path {
+    gap: 8px;
+  }
+}
+@media (max-width: 920px) {
+  .home-brand {
+    min-width: 0;
+  }
+  .home-brand small {
+    display: none;
+  }
+  .home-brand b {
+    font-size: 45px;
+  }
+  .home-brand-mark {
+    width: 36px;
+    height: 39px;
+    font-size: 34.5px;
+  }
+  .home-family {
+    display: none;
+  }
+  .home-header {
+    gap: 24px;
+    height: 79px;
+  }
+  .home-header-end {
+    gap: 7px;
+  }
+  .home-nav button {
+    font-size: 18px;
+    padding: 0 10px;
+    min-width: 61px;
+  }
+  .home-stage {
+    grid-template-columns: minmax(235px, 1fr) minmax(170px, 0.8fr) minmax(225px, 1fr);
+    gap: 14px;
+    padding: 26px 23px 23px;
+  }
+  .home-departure h1 {
+    font-size: 48px;
+  }
+  .home-intro {
+    font-size: 16.5px;
+  }
+  .home-roster h2 {
+    font-size: 27px;
+  }
+  .home-empty-steps {
+    font-size: 12px;
+  }
+  .home-hero-image {
+    width: calc(100% + 45px);
+    height: 420px;
+  }
+  .home-hero {
+    min-height: 410px;
+  }
+  .home-launch {
+    padding: 15px 12px;
+    gap: 10px;
+    min-height: 70px;
+  }
+  .home-launch b {
+    font-size: 22.5px;
+  }
+  .home-launch small {
+    font-size: 13.5px;
+  }
+  .home-path {
+    gap: 6px;
+    font-size: 12px;
+  }
+  .home-path i {
+    font-size: 12px;
+  }
+  .home-dock {
+    width: calc(100% - 46px);
+  }
+  .home-dock-card {
+    gap: 9px;
+    padding: 16px 12px;
+  }
+  .home-dock-card > .ui-icon {
+    display: none;
+  }
+  .home-roster-list {
+    max-height: 120px;
+    padding: 9px 10px 0;
+  }
+  .home-roster-list > button {
+    gap: 6px;
+    padding: 8px;
+  }
+  .home-roster-avatar {
+    display: none !important;
+  }
+  .home-detail-heading > b {
+    font-size: 24px;
+  }
+  .home-fighter-detail {
+    padding: 14px;
+  }
+  .home-art-list > div {
+    font-size: 13.5px;
+    gap: 6px;
+  }
+  .home-footer {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+@media (max-width: 760px) {
+  .home-header {
+    height: 72px;
+    padding: 0 20px;
+    gap: 16px;
+  }
+  .home-brand b {
+    font-size: 40.5px;
+  }
+  .home-brand-mark {
+    display: none;
+  }
+  .home-nav {
+    gap: 0;
+  }
+  .home-nav button {
+    padding: 0 12px;
+    font-size: 18px;
+    min-width: 0;
+  }
+  .home-nav .ui-icon {
+    display: none;
+  }
+  .home-round-button {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 11px;
+  }
+  .home-round-button .ui-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .home-stage {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+    gap: 16px;
+    padding: 27px 24px 23px;
+    min-height: 0;
+    flex: none;
+  }
+  .home-departure {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .home-departure h1 {
+    font-size: clamp(43.5px, 7.05vw, 55.5px);
+  }
+  .home-intro {
+    font-size: 16.5px;
+    margin: 14px 0 20px;
+  }
+  .home-section-label {
+    font-size: 13.5px;
+    margin-bottom: 17px;
+  }
+  .home-hero {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 360px;
+    align-self: stretch;
+  }
+  .home-hero-image {
+    height: 360px;
+    width: calc(100% + 18px);
+  }
+  .home-hero-script {
+    font-size: 300px;
+    top: 19%;
+  }
+  .home-hero-caption {
+    bottom: 3%;
+    left: 1%;
+    gap: 8px;
+  }
+  .home-hero-caption small {
+    font-size: 12px;
+  }
+  .home-hero-caption b {
+    font-size: 27px;
+  }
+  .home-name-seal {
+    font-size: 28.5px;
+    padding: 5px;
+  }
+  .home-start-facts {
+    padding: 13px 0;
+    margin-bottom: 18px;
+  }
+  .home-start-facts b {
+    font-size: 28.5px;
+  }
+  .home-launch-note {
+    font-size: 13.5px;
+  }
+  .home-path {
+    font-size: 12px;
+    gap: 7px;
+    margin-top: 22px;
+  }
+  .home-roster {
+    grid-column: 1/-1;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 8px;
+  }
+  .home-empty-roster {
+    padding: 22px;
+    gap: 11px;
+  }
+  .home-empty-emblem {
+    width: 58px;
+    height: 58px;
+  }
+  .home-empty-emblem > .ui-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .home-empty-roster > b {
+    font-size: 24px;
+  }
+  .home-empty-roster > p br {
+    display: none;
+  }
+  .home-roster > header {
+    padding: 15px 18px;
+  }
+  .home-roster > header > div {
+    gap: 5px;
+  }
+  .home-count {
+    font-size: 37.5px;
+  }
+  .home-roster h2 {
+    font-size: 27px;
+  }
+  .home-dock {
+    width: calc(100% - 48px);
+    margin-bottom: 18px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-dock-card {
+    padding: 17px;
+  }
+  .home-guide-card {
+    grid-column: 1/-1;
+    border-top: 1px solid #b8a67b55 !important;
+    min-height: 67px;
+  }
+  .home-dock-card:nth-child(2) {
+    border-right: 0;
+  }
+  .home-dock-card small {
+    font-size: 13.5px;
+  }
+  .home-dock-card b {
+    font-size: 21px;
+  }
+  .home-dock-card > .ui-icon {
+    display: block;
+  }
+  .home-dock-icon {
+    width: 33px;
+    height: 33px;
+  }
+  .home-footer {
+    padding: 0 24px 18px;
+    font-size: 12px;
+  }
+  .home-roster-list {
+    max-height: 143px;
+    padding: 12px 16px 0;
+  }
+  .home-roster-avatar {
+    display: grid !important;
+  }
+  .home-fighter-detail {
+    padding: 17px 18px;
+  }
+  .home-art-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 9px 20px;
+  }
+  .home-bag-link {
+    max-width: 310px;
+  }
+  .home-roster > footer {
+    padding: 12px 18px;
+  }
+}
+@media (max-width: 460px) {
+  .home-header {
+    padding: 0 16px;
+    gap: 13px;
+    height: 65px;
+  }
+  .home-brand b {
+    font-size: 34.5px;
+    letter-spacing: 0.05em;
+  }
+  .home-nav button {
+    font-size: 18px;
+    padding: 0 9px;
+    min-width: 44px;
+  }
+  .home-header-end {
+    gap: 4px;
+  }
+  .home-round-button {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 13px;
+  }
+  .home-round-button .ui-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .home-stage {
+    padding: 25px 19px 20px;
+    gap: 12px;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.8fr);
+  }
+  .home-departure h1 {
+    font-size: 42px;
+  }
+  .home-section-label {
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    gap: 5px;
+  }
+  .home-section-label > span {
+    width: 14px;
+  }
+  .home-intro {
+    font-size: 15px;
+    line-height: 1.9;
+    margin: 14px 0 18px;
+  }
+  .home-start-facts {
+    padding: 10px 0;
+  }
+  .home-start-facts > span {
+    font-size: 15px;
+    gap: 5px;
+  }
+  .home-start-facts b {
+    font-size: 24px;
+  }
+  .home-launch {
+    min-height: 62px;
+    padding: 12px 10px;
+    gap: 7px;
+  }
+  .home-launch b {
+    font-size: 21px;
+  }
+  .home-launch small {
+    font-size: 12px;
+  }
+  .home-launch > .ui-icon:first-child {
+    display: none;
+  }
+  .home-launch > .ui-icon:last-child {
+    width: 15px;
+  }
+  .home-launch-note {
+    font-size: 12px;
+    margin-top: 9px;
+  }
+  .home-path {
+    gap: 4px;
+    font-size: 10.5px;
+  }
+  .home-path span {
+    gap: 3px;
+  }
+  .home-path i {
+    font-size: 10.5px;
+  }
+  .home-hero {
+    min-height: 320px;
+  }
+  .home-hero-image {
+    height: 302px;
+    width: calc(100% + 22px);
+    margin-left: 0;
+  }
+  .home-hero-ring {
+    top: 44%;
+    width: 140px;
+  }
+  .home-hero-script {
+    font-size: 229.5px;
+    top: 16%;
+  }
+  .home-hero-caption {
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    gap: 7px;
+  }
+  .home-name-seal {
+    font-size: 25.5px;
+    padding: 4px;
+  }
+  .home-hero-caption small {
+    font-size: 10.5px;
+    line-height: 1.7;
+  }
+  .home-hero-caption b {
+    font-size: 24px;
+  }
+  .home-hero-caption-line {
+    display: none;
+  }
+  .home-dock {
+    width: calc(100% - 38px);
+    grid-template-columns: 1fr;
+  }
+  .home-dock-card {
+    border-right: 0;
+    border-bottom: 1px solid #b8a67b55 !important;
+    min-height: 72px;
+    padding: 15px 17px;
+  }
+  .home-guide-card {
+    grid-column: 1;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+  .home-dock-card small {
+    font-size: 13.5px;
+  }
+  .home-footer {
+    padding: 0 19px 15px;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .home-run-card {
+    padding: 12px 10px;
+    margin-bottom: 13px;
+  }
+  .home-run-heading > b {
+    font-size: 19.5px;
+  }
+  .home-run-progress > strong {
+    font-size: 33px;
+  }
+  .home-run-progress small {
+    font-size: 12px;
+  }
+  .home-wave-track {
+    gap: 2px;
+  }
+  .home-run-heading > span:last-child {
+    font-size: 13.5px;
+  }
+  .home-run-card .health-line {
+    font-size: 13.5px;
+  }
+  .home-run-progress > span {
+    font-size: 12px;
+    padding: 2px 4px;
+  }
+  .home-create-form {
+    padding: 20px;
+  }
+  .home-create-preview {
+    gap: 13px;
+  }
+  .home-create-preview h3 {
+    font-size: 24px;
+  }
+  .home-create-preview p {
+    font-size: 15px;
+  }
+  .home-create-preview > div {
+    width: 53px;
+    height: 90px;
+  }
+  .home-create-actions button.primary {
+    min-width: 0;
+    flex: 1;
+  }
+  .home-records {
+    padding: 21px;
+  }
+  .home-records > h3 {
+    font-size: 27px;
+  }
+  .home-guide {
+    padding: 20px;
+  }
+  .home-guide dl {
+    grid-template-columns: 89px 1fr;
+    font-size: 15px;
+  }
+  .home-guide-intro p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 761px) and (max-height: 800px) {
+  .home-header {
+    height: 78px;
+  }
+  .home-stage {
+    padding-top: 22px;
+    padding-bottom: 20px;
+    min-height: calc(100dvh - 214px);
+  }
+  .home-departure h1 {
+    font-size: 57px;
+  }
+  .home-section-label {
+    margin-bottom: 17px;
+  }
+  .home-intro {
+    margin-top: 14px;
+    margin-bottom: 19px;
+  }
+  .home-start-facts {
+    padding: 12px 0;
+    margin-bottom: 20px;
+  }
+  .home-path {
+    margin-top: 19px;
+  }
+  .home-hero {
+    min-height: 380px;
+  }
+  .home-hero-image {
+    height: 390px;
+  }
+  .home-roster > header {
+    padding-top: 15px;
+    padding-bottom: 13px;
+  }
+  .home-art-list {
+    gap: 5px;
+    margin: 12px 0;
+  }
+  .home-fighter-detail {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .home-detail-heading {
+    margin-bottom: 12px;
+  }
+  .home-dock-card {
+    min-height: 72px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .home-dock {
+    margin-bottom: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-departure,
+  .home-roster,
+  .home-dock {
+    animation: none;
+  }
+}

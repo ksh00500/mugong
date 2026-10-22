@@ -1,0 +1,96 @@
+{
+  "verifiedAtUTC": "2026-10-05T15:17:26.134Z",
+  "family": "bamboo",
+  "unit": {
+    "files": 58,
+    "passed": 1274,
+    "success": true
+  },
+  "build": {
+    "passed": true,
+    "mainScript": "/assets/main-BWhVxm0n.js",
+    "log": "build.log"
+  },
+  "art": {
+    "characters": 7,
+    "nativeViews": 5,
+    "gameplayDirections": 8,
+    "frames": 420,
+    "selectedSources": 51,
+    "uniqueHashes": 420,
+    "encodedSheets": 35,
+    "scale": 0.225,
+    "padding": 32
+  },
+  "matrices": [
+    {
+      "id": "canvas-full",
+      "renderer": 1,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 200,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "canvas-reduced",
+      "renderer": 1,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 200,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-full",
+      "renderer": 2,
+      "reduced": false,
+      "states": 1960,
+      "contacts": 200,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    },
+    {
+      "id": "webgl-reduced",
+      "renderer": 2,
+      "reduced": true,
+      "states": 1960,
+      "contacts": 200,
+      "minHPGap": 11.224999999999966,
+      "errors": []
+    }
+  ],
+  "totalStateSamples": 7840,
+  "totalBossContacts": 800,
+  "actualReleaseCases": 24,
+  "production": [
+    {
+      "width": 1440,
+      "height": 900,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "uniqueAssets": 35,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "uniqueAssets": 35,
+      "errors": []
+    }
+  ],
+  "passedBrowserTests": 8,
+  "manualReview": "manual-review.json",
+  "limitations": [
+    "Boss skills use a representative authored attack cycle retimed to existing contacts, not unique new art for every individual skill.",
+    "Projectiles, traps and combat VFX are rendered separately. Death uses a single authored pose with fade.",
+    "Five drawn views are mirrored to eight gameplay directions, so screen-side hand positions mirror.",
+    "Visual anatomy and size assessment is judgment; connectivity, hashes and numeric render assertions do not certify art quality. Minor generated robe/palette variation can remain."
+  ],
+  "realUserSaveChanged": false,
+  "remoteDeployed": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "renderer": "canvas",
+    "beforeAfterImagesMs": 15060.0,
+    "afterAfterImagesMs": 2332.0,
+    "beforeCreateMs": 15031.099999964237,
+    "afterCreateMs": 2318.400000035763,
+    "imageCount": 22,
+    "pixelDifferences": 0,
+    "timingNote": "Before and final after samples use one browser worker without a concurrent build; forced WebGL is software rendered."
+  },
+  {
+    "renderer": "webgl",
+    "beforeAfterImagesMs": 17173.0,
+    "afterAfterImagesMs": 3716.5,
+    "beforeCreateMs": 15253.899999976158,
+    "afterCreateMs": 2529.899999976158,
+    "imageCount": 22,
+    "pixelDifferences": 0,
+    "timingNote": "Before and final after samples use one browser worker without a concurrent build; forced WebGL is software rendered."
+  }
+]

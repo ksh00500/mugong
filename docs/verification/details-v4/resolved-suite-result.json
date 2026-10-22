@@ -1,0 +1,666 @@
+{
+  "scope": "Latest observed result for each unique test, combining the full run and final affected-test rerun. This is not a new full-suite execution.",
+  "sources": [
+    "initial-full-result.json",
+    "final-targeted-result.json"
+  ],
+  "counts": {
+    "expected": 89,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "cases": [
+    {
+      "file": "audit.spec.ts",
+      "title": "손상된 무인 저장은 오류 안내를 표시하고 원본을 덮어쓰지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "audit.spec.ts",
+      "title": "설정 창은 배경 화면 초점과 입력을 차단하고 닫으면 원래 버튼으로 돌린다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "audit.spec.ts",
+      "title": "폐기 확인 중 가방의 회전 단축키가 뒤에서 실행되지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "audit.spec.ts",
+      "title": "뒤로가기 캐시의 pagehide 상태에서도 다른 탭에 저장 권한을 넘기지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "audit.spec.ts",
+      "title": "체력이 가득 차면 약 사용은 비활성화되어 소모되지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "audit.spec.ts",
+      "title": "가방에서 수련 후 성장 창이 열리면 R키가 뒤의 가방에 전달되지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-feel.spec.ts",
+      "title": "검격·회피 입력과 전투 가독성 1440×900",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-feel.spec.ts",
+      "title": "검격·회피 입력과 전투 가독성 1366×768",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-feel.spec.ts",
+      "title": "검격·회피 입력과 전투 가독성 1093×614",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-feel.spec.ts",
+      "title": "돌진·원형 발사·반격·방어와 움직임 줄이기 실제 캡처",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-hud.spec.ts",
+      "title": "무협 HUD 1440×900: Q/E 순환과 실제 회피 재사용",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-hud.spec.ts",
+      "title": "무협 HUD 1366×768: Q/E 순환과 실제 회피 재사용",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-hud.spec.ts",
+      "title": "무협 HUD 1093×614: Q/E 순환과 실제 회피 재사용",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-hud.spec.ts",
+      "title": "무공 0·1·4개, 보스·궁극 개방과 5개 언어에서 HUD가 화면에 남는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "combat-hud.spec.ts",
+      "title": "큰 글씨·고대비 설정과 움직임 줄이기에서 HUD 행동이 유지된다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "daytona.spec.ts",
+      "title": "Daytona 공개 빌드의 출전·전투·가방·저장 복원",
+      "status": "skipped",
+      "expected": "skipped",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공 hover·Shift·설명 버튼은 선택을 바꾸지 않는다 1440×900",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공 hover·Shift·설명 버튼은 선택을 바꾸지 않는다 1366×768",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공 hover·Shift·설명 버튼은 선택을 바꾸지 않는다 1093×614",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "전투 Shift 설명은 전환·회피를 막지 않고 가방 뒤에서 열리지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "전리품 약·비급은 수납 없이 사용하고 품질 수치·개수·경험치를 저장한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "전리품 비급으로 레벨이 오르면 성장하고 가방으로 돌아와 저장한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공·물품 상세 문구와 위치를 ko에서 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공·물품 상세 문구와 위치를 en에서 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공·물품 상세 문구와 위치를 ja에서 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공·물품 상세 문구와 위치를 zh-CN에서 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "무공·물품 상세 문구와 위치를 zh-TW에서 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "배치·간격 1440×900: 로비·생성·설정·기록·가방·HUD·성장 선택",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "배치·간격 1366×768: 로비·생성·설정·기록·가방·HUD·성장 선택",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "배치·간격 1093×614: 로비·생성·설정·기록·가방·HUD·성장 선택",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "생성·이동·전투 중 가방 제한·저장 복원",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "실제 공격으로 첫 레벨·증강 선택·전리품·다음 웨이브",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "정리판 폐기 취소·확인과 수납 회전",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "화면의 적 몸통을 클릭하면 좁은 찌르기도 적을 맞힌다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "최종 보스를 실제로 처치하고 명부·창고·수명에 반영",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "사망 결과를 새로고침해도 유지하고 명부에 등록하지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "여러 탭의 동시 저장을 막는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "베기·타격 숫자·HUD를 실제 공격 화면에서 검증한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "데스크톱·작은 화면에서 가로 스크롤 없이 표시한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "메인 로비에서 입문 안내·기록·음소거와 이름 입력을 조작한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "화면 가독성 설정을 저장하고 일시 정지 메뉴에서도 연다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "일시 종료한 강호의 웨이브와 체력을 로비에서 보고 이어간다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "전투 화면·가방·성장 선택 캡처와 프레임 시간 기록",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "전체 화면 가방은 노트북·125% 배율·좁은 화면에서 핵심 행동이 잘리지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "성장 선택과 전투는 노트북·125% 배율에서 전체 화면을 채우고 잘리지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "무공 설명을 바로 읽고 닫아도 성장 선택이 유지된다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "많은 창고 물품과 네 무공을 스크롤 없이 관리하고 이동 결과를 저장한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "화면 설정에서 네이티브 전체 화면으로 전환하고 나올 수 있다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "그림 에셋을 실제로 로드하고 일곱 물품과 네 무공을 가방에 표시한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "game.spec.ts",
+      "title": "150% UI에서 잡은 칸 기준 드래그·충돌·회전·키보드 수납과 착용·사용·창고를 검증한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "glance.spec.ts",
+      "title": "한눈에 가방 1440×900: 전리품·두 격자·수납·정리판",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "glance.spec.ts",
+      "title": "한눈에 가방 1366×768: 전리품·두 격자·수납·정리판",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "glance.spec.ts",
+      "title": "한눈에 가방 1093×614: 전리품·두 격자·수납·정리판",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "glance.spec.ts",
+      "title": "한눈에 가방 800×600: 전리품·두 격자·수납·정리판",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "glance.spec.ts",
+      "title": "한눈에 가방 390×600: 전리품·두 격자·수납·정리판",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "interactions.spec.ts",
+      "title": "로비 hover와 클릭 선택은 이동을 유발하지 않는다 1440×900",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "interactions.spec.ts",
+      "title": "로비 hover와 클릭 선택은 이동을 유발하지 않는다 1366×768",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "interactions.spec.ts",
+      "title": "로비 hover와 클릭 선택은 이동을 유발하지 않는다 1093×614",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "interactions.spec.ts",
+      "title": "드래그는 선택과 독립적으로 이동하고 충돌·경계·종류 제한 및 즉시 회전을 안내한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "interactions.spec.ts",
+      "title": "전투에서 가방·일시 정지로 진입하면 누르고 있던 공격과 이동을 비우고 관리 입력을 격리한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "ko: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "en: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "ja: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "zh-CN: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "zh-TW: 브라우저 감지 및 3개 화면 크기의 로비·설정·가방",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "언어 수동 선택·새로고침·자동 감지 복귀 및 저장된 무인 보존",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "language.spec.ts",
+      "title": "미지원 브라우저 언어는 영어로 표시한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "초기 JS가 늦어도 브라우저 언어의 시작 안내를 보여준다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "지연된 그림은 실제 완료 개수를 표시하고 모두 준비한 뒤 로비를 보여준다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "시작 모듈 실패에서도 브라우저 언어의 새로고침 행동을 제공한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "UI 그림 실패에서 재시도와 기본 화면 진입이 가능하다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "그림 장애가 지속되어도 기본 화면으로 창고와 설정을 사용할 수 있다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "전투 그림이 늦는 동안 HUD와 입력을 차단하고 준비 후 전투를 시작한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "전투 그림 실패 후 재시도해도 무인을 중복 생성하지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "loading.spec.ts",
+      "title": "전투 모듈 실패는 저장된 무인을 유지하며 새로고침으로 복구한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "release.spec.ts",
+      "title": "배포 파일 해시와 이전 모듈·음악의 HTTP 제공을 확인한다",
+      "status": "skipped",
+      "expected": "skipped",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "release.spec.ts",
+      "title": "공개 음악은 키보드로 시작하고 소리 설정을 저장하며 작은 창에 모두 표시한다",
+      "status": "skipped",
+      "expected": "skipped",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "release.spec.ts",
+      "title": "이전 로비 HTML을 남긴 탭에서도 지연 전투 모듈을 받아 출전한다",
+      "status": "skipped",
+      "expected": "skipped",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "responsive.spec.ts",
+      "title": "창 크기 연속 변경: 긴 이름·네 무공·큰 HUD·가방·성장",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "responsive.spec.ts",
+      "title": "긴 영어 문구: 작은 창의 로비·가방·무공·설정·성장",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "키보드 첫 입력으로 소리를 시작하고 음소거·네 음량을 재실행까지 유지한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "음악 파일 실패가 게임 진입을 막지 않고 다음 입력에서 재시도한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "지연된 자동 저장 중 실제 E 전환·이동을 받아들이고 마지막 상태를 저장한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "최신 검증 사본은 사망 결과를 유지하고 손상된 원본을 별도로 보존한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "최신 사본이 손상되면 더 오래된 정상 기록으로 돌아가지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "예상하지 못한 React 예외에서도 빈 화면 대신 원본 보관·새로고침을 제공한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "저장 잠금이 없는 브라우저에서 사용자 저장을 덮어쓰지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "다섯 언어·세 해상도에서 성장 세 후보와 큰 HUD의 실제 글씨를 확인한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "음량 설정은 다섯 언어와 작은 창에서도 네 채널과 닫기를 모두 보여준다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "손상된 Opus 파일도 WAV로 복구해 음악을 재생한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "WebGL 컨텍스트 손실은 정지·재시도로 복구하고 무인과 저장을 유지한다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "unification.spec.ts",
+      "title": "전투 화면을 여러 번 재진입해도 캔버스와 무공 전환 입력이 중복되지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "initial-full-result.json"
+    },
+    {
+      "file": "details.spec.ts",
+      "title": "가방과 로비의 각 무공 설명을 키보드로 읽고 숨긴 패널에는 남기지 않는다",
+      "status": "expected",
+      "expected": "passed",
+      "source": "final-targeted-result.json"
+    }
+  ]
+}

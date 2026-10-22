@@ -1,0 +1,69 @@
+[
+  {
+    "id": "jeogu-rear-right-stance",
+    "poses": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "detail": "Correct ARM OWNERSHIP in top-right, middle-left, middle-right and bottom-left figures. Preserve the ready figures. The visible NEAR anatomical RIGHT arm has bronze bracer and must continuously hold the saber at its hilt, safely low outside right hip exactly like ready reference. Anatomical LEFT arm is the far/opposite arm and wears the red-black gauntlet; LEFT gauntleted hand gestures toward target, partly occluded by torso if needed. Never put gauntlet on the near right arm. No floating saber/extra hands. Maintain skull/body native size and rear-right camera."
+  },
+  {
+    "id": "yeonsal-front-dash",
+    "poses": [
+      1,
+      2,
+      3
+    ],
+    "detail": "REMOVE the extra THIRD gauntlet/hand behind the rear shoulder in top-right and middle-left/middle-right. Each figure must have exactly TWO arms and TWO gauntlets. Keep one foreground folded forearm against ribs and opposite fist guarding chest. Delete rear orphan gauntlet and any associated third arm, restore clean red cloth/black torso beneath it. Leading shoulder, not an extra fist, does contact. Preserve ready figures, body size and all feet."
+  },
+  {
+    "id": "yeonsal-front-right-dash",
+    "poses": [
+      2
+    ],
+    "detail": "ONLY middle-left figure: REMOVE the small extra THIRD gauntlet behind the shoulder (screen-left behind the large foreground glove). It has THREE fists, must have exactly TWO. Keep large foreground glove folded at ribs and opposite glove before chest. Restore hair/cloth behind foreground shoulder; no third arm. Keep all other figures and native size unchanged."
+  },
+  {
+    "id": "sohong-right-stance",
+    "poses": [
+      2,
+      3,
+      4
+    ],
+    "detail": "Correct middle-left, middle-right and bottom-left ONLY. Fan belongs to anatomical LEFT FAR arm, the hand at the FRONT of torso near waist/chest in the original ready. Near anatomical RIGHT arm, whose shoulder is visibly on screen-left side of chest, must be EMPTY and perform the forward palm command. Currently fan transferred to near right arm and far arm is empty: swap fan ownership back by reposing TWO arms, fan held at root in far left hand near waist, EMPTY near right palm extends toward screen-right foreground. Fan stays visible all poses. Never mirror whole character; preserve EAST facing and native size."
+  },
+  {
+    "id": "sohong-rear-right-stance",
+    "poses": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "detail": "Fan must NEVER disappear. Correct four action figures, preserve ready two. LEFT original fan-holding FAR arm keeps ONE open red-black fan at original root grip just beside front chest/waist, visible to screen-right of upper torso. RIGHT original EMPTY NEAR arm performs command: draw right elbow beside ribs then extend right empty palm toward top-right target, following connected visible right shoulder, arm can project lower in foreground. Current middle-row has two empty hands and no fan, invalid. Exactly TWO arms and ONE held fan, no hand swap or extra arm. Keep rear-right camera/head/body size."
+  },
+  {
+    "id": "sohong-back-fan",
+    "poses": [
+      3
+    ],
+    "detail": "HORIZONTALLY MIRROR ONLY the MIDDLE-RIGHT figure inside its OWN512x512 slot. Leave five other figures entirely unchanged. Pure BACK camera remains BACK. This moves held fan back to anatomical LEFT, screen-left, correcting sole follow-through hand swap. Do not resize or rotate whole sheet, preserve dimensions and native alpha."
+  },
+  {
+    "id": "jeokcheon-rear-right-dash",
+    "poses": [
+      1
+    ],
+    "detail": "ONLY TOP-RIGHT windup figure: saber is incorrectly held by LEFT far arm. Repose arms to have RIGHT visible near arm (shoulder screen-right side of back) raised at screen-right beside head, RIGHT fingers on gold hilt, saber points up-back across empty overhead space. LEFT far arm EMPTY guards chest/front target and is partly occluded. Keep rear-right camera, torso/feet/head/crown native dimensions. Do NOT mirror character; leave five other figures unchanged."
+  },
+  {
+    "id": "jeokcheon-back-stance",
+    "poses": [
+      2,
+      3
+    ],
+    "detail": "ONLY middle-left and middle-right figures. Currently RIGHT sword fingers open and blade floats, invalid. RIGHT arm on screen-right MUST HOLD saber hilt firmly and stay safely low outside hip as in original ready. Command must come from LEFT arm on screen-left of back: extend EMPTY LEFT palm beside left side of head/torso toward screen-top target, foreshortened and partly hidden naturally, never sword-hand command. Exactly two arms, connected shoulder/elbow/wrist, no overlapping spare hand at hilt. Pure BACK and native skull/body dimensions unchanged. Preserve other four figures."
+  }
+]

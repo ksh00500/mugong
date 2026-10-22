@@ -1,0 +1,4882 @@
+[
+  {
+    "id": "ujin-front",
+    "sources": [
+      {
+        "file": "ujin-front-stance.png",
+        "sha256": "474410ab35d6d125de5c60f24c4a2557f4d993be908dbcf5cb957ab8c0eb3ab5"
+      },
+      {
+        "file": "ujin-front-dash.png",
+        "sha256": "4db1f197d4e70775a72269decf5c8c3eac037dd7d9e9e1175a89acc498e76061"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-stance-0",
+        "sourceBounds": {
+          "left": 268,
+          "top": 19,
+          "right": 519,
+          "bottom": 389
+        },
+        "foot": [
+          173,
+          400
+        ],
+        "padding": [
+          32,
+          32,
+          389,
+          78
+        ]
+      },
+      {
+        "name": "0-stance-1",
+        "sourceBounds": {
+          "left": 935,
+          "top": 45,
+          "right": 1189,
+          "bottom": 392
+        },
+        "foot": [
+          164,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          386,
+          101
+        ]
+      },
+      {
+        "name": "0-stance-2",
+        "sourceBounds": {
+          "left": 270,
+          "top": 404,
+          "right": 517,
+          "bottom": 736
+        },
+        "foot": [
+          183,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          393,
+          116
+        ]
+      },
+      {
+        "name": "0-stance-3",
+        "sourceBounds": {
+          "left": 935,
+          "top": 404,
+          "right": 1198,
+          "bottom": 737
+        },
+        "foot": [
+          173,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          377,
+          115
+        ]
+      },
+      {
+        "name": "0-stance-4",
+        "sourceBounds": {
+          "left": 270,
+          "top": 734,
+          "right": 533,
+          "bottom": 1077
+        },
+        "foot": [
+          181,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          377,
+          105
+        ]
+      },
+      {
+        "name": "0-stance-5",
+        "sourceBounds": {
+          "left": 939,
+          "top": 734,
+          "right": 1178,
+          "bottom": 1078
+        },
+        "foot": [
+          175,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          401,
+          104
+        ]
+      },
+      {
+        "name": "0-dash-0",
+        "sourceBounds": {
+          "left": 179,
+          "top": 20,
+          "right": 572,
+          "bottom": 364
+        },
+        "foot": [
+          317,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          247,
+          104
+        ]
+      },
+      {
+        "name": "0-dash-1",
+        "sourceBounds": {
+          "left": 858,
+          "top": 13,
+          "right": 1190,
+          "bottom": 367
+        },
+        "foot": [
+          176,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          308,
+          94
+        ]
+      },
+      {
+        "name": "0-dash-2",
+        "sourceBounds": {
+          "left": 254,
+          "top": 374,
+          "right": 566,
+          "bottom": 722
+        },
+        "foot": [
+          218,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          328,
+          100
+        ]
+      },
+      {
+        "name": "0-dash-3",
+        "sourceBounds": {
+          "left": 885,
+          "top": 376,
+          "right": 1141,
+          "bottom": 722
+        },
+        "foot": [
+          148,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          384,
+          102
+        ]
+      },
+      {
+        "name": "0-dash-4",
+        "sourceBounds": {
+          "left": 265,
+          "top": 736,
+          "right": 542,
+          "bottom": 1070
+        },
+        "foot": [
+          170,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          363,
+          114
+        ]
+      },
+      {
+        "name": "0-dash-5",
+        "sourceBounds": {
+          "left": 902,
+          "top": 728,
+          "right": 1139,
+          "bottom": 1082
+        },
+        "foot": [
+          166,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          403,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ujin-front-right",
+    "sources": [
+      {
+        "file": "ujin-front-right-stance.png",
+        "sha256": "172b83101809ac47de0fe181b3b3d5bef04f0b2b1714b6da204b0d4fec1526e0"
+      },
+      {
+        "file": "ujin-front-right-dash.png",
+        "sha256": "0e5894c12e15eb05d6dc53a92c9c0dd776dad75388a28a221d008839c94ed1f5"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-stance-0",
+        "sourceBounds": {
+          "left": 276,
+          "top": 17,
+          "right": 557,
+          "bottom": 402
+        },
+        "foot": [
+          178,
+          415
+        ],
+        "padding": [
+          32,
+          32,
+          359,
+          63
+        ]
+      },
+      {
+        "name": "1-stance-1",
+        "sourceBounds": {
+          "left": 950,
+          "top": 38,
+          "right": 1262,
+          "bottom": 403
+        },
+        "foot": [
+          191,
+          395
+        ],
+        "padding": [
+          32,
+          32,
+          328,
+          83
+        ]
+      },
+      {
+        "name": "1-stance-2",
+        "sourceBounds": {
+          "left": 260,
+          "top": 405,
+          "right": 585,
+          "bottom": 722
+        },
+        "foot": [
+          199,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          315,
+          131
+        ]
+      },
+      {
+        "name": "1-stance-3",
+        "sourceBounds": {
+          "left": 957,
+          "top": 409,
+          "right": 1281,
+          "bottom": 726
+        },
+        "foot": [
+          193,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          316,
+          131
+        ]
+      },
+      {
+        "name": "1-stance-4",
+        "sourceBounds": {
+          "left": 272,
+          "top": 714,
+          "right": 591,
+          "bottom": 1048
+        },
+        "foot": [
+          191,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          321,
+          114
+        ]
+      },
+      {
+        "name": "1-stance-5",
+        "sourceBounds": {
+          "left": 962,
+          "top": 712,
+          "right": 1244,
+          "bottom": 1044
+        },
+        "foot": [
+          191,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          358,
+          116
+        ]
+      },
+      {
+        "name": "1-dash-0",
+        "sourceBounds": {
+          "left": 167,
+          "top": 27,
+          "right": 540,
+          "bottom": 355
+        },
+        "foot": [
+          210,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          267,
+          120
+        ]
+      },
+      {
+        "name": "1-dash-1",
+        "sourceBounds": {
+          "left": 868,
+          "top": 43,
+          "right": 1202,
+          "bottom": 358
+        },
+        "foot": [
+          182,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          306,
+          133
+        ]
+      },
+      {
+        "name": "1-dash-2",
+        "sourceBounds": {
+          "left": 205,
+          "top": 393,
+          "right": 754,
+          "bottom": 712
+        },
+        "foot": [
+          167,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          91,
+          129
+        ]
+      },
+      {
+        "name": "1-dash-3",
+        "sourceBounds": {
+          "left": 862,
+          "top": 389,
+          "right": 1397,
+          "bottom": 713
+        },
+        "foot": [
+          178,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          105,
+          124
+        ]
+      },
+      {
+        "name": "1-dash-4",
+        "sourceBounds": {
+          "left": 212,
+          "top": 729,
+          "right": 543,
+          "bottom": 1057
+        },
+        "foot": [
+          187,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          309,
+          120
+        ]
+      },
+      {
+        "name": "1-dash-5",
+        "sourceBounds": {
+          "left": 862,
+          "top": 728,
+          "right": 1182,
+          "bottom": 1060
+        },
+        "foot": [
+          234,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          320,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ujin-right",
+    "sources": [
+      {
+        "file": "ujin-right-stance.png",
+        "sha256": "b6a31417916b45841a2b51430bc03b275596d5a3dac86f559922e37249313e7f"
+      },
+      {
+        "file": "ujin-right-dash.png",
+        "sha256": "08b7c08b39f9c371e5890bf68d59bc7d62675aebacf2b4410d6f44da776440ee"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-stance-0",
+        "sourceBounds": {
+          "left": 249,
+          "top": 7,
+          "right": 565,
+          "bottom": 393
+        },
+        "foot": [
+          217,
+          416
+        ],
+        "padding": [
+          32,
+          32,
+          324,
+          62
+        ]
+      },
+      {
+        "name": "2-stance-1",
+        "sourceBounds": {
+          "left": 959,
+          "top": 42,
+          "right": 1292,
+          "bottom": 393
+        },
+        "foot": [
+          193,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          307,
+          97
+        ]
+      },
+      {
+        "name": "2-stance-2",
+        "sourceBounds": {
+          "left": 271,
+          "top": 415,
+          "right": 626,
+          "bottom": 706
+        },
+        "foot": [
+          193,
+          321
+        ],
+        "padding": [
+          32,
+          32,
+          285,
+          157
+        ]
+      },
+      {
+        "name": "2-stance-3",
+        "sourceBounds": {
+          "left": 944,
+          "top": 407,
+          "right": 1312,
+          "bottom": 708
+        },
+        "foot": [
+          213,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          272,
+          147
+        ]
+      },
+      {
+        "name": "2-stance-4",
+        "sourceBounds": {
+          "left": 281,
+          "top": 711,
+          "right": 646,
+          "bottom": 1023
+        },
+        "foot": [
+          205,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          275,
+          136
+        ]
+      },
+      {
+        "name": "2-stance-5",
+        "sourceBounds": {
+          "left": 974,
+          "top": 700,
+          "right": 1322,
+          "bottom": 1023
+        },
+        "foot": [
+          202,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          292,
+          125
+        ]
+      },
+      {
+        "name": "2-dash-0",
+        "sourceBounds": {
+          "left": 172,
+          "top": 18,
+          "right": 541,
+          "bottom": 372
+        },
+        "foot": [
+          233,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          271,
+          94
+        ]
+      },
+      {
+        "name": "2-dash-1",
+        "sourceBounds": {
+          "left": 900,
+          "top": 35,
+          "right": 1226,
+          "bottom": 372
+        },
+        "foot": [
+          199,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          314,
+          111
+        ]
+      },
+      {
+        "name": "2-dash-2",
+        "sourceBounds": {
+          "left": 171,
+          "top": 377,
+          "right": 752,
+          "bottom": 716
+        },
+        "foot": [
+          239,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          59,
+          109
+        ]
+      },
+      {
+        "name": "2-dash-3",
+        "sourceBounds": {
+          "left": 852,
+          "top": 397,
+          "right": 1422,
+          "bottom": 719
+        },
+        "foot": [
+          208,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          70,
+          126
+        ]
+      },
+      {
+        "name": "2-dash-4",
+        "sourceBounds": {
+          "left": 208,
+          "top": 733,
+          "right": 544,
+          "bottom": 1072
+        },
+        "foot": [
+          207,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          304,
+          109
+        ]
+      },
+      {
+        "name": "2-dash-5",
+        "sourceBounds": {
+          "left": 871,
+          "top": 710,
+          "right": 1242,
+          "bottom": 1072
+        },
+        "foot": [
+          248,
+          392
+        ],
+        "padding": [
+          32,
+          32,
+          269,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ujin-rear-right",
+    "sources": [
+      {
+        "file": "ujin-rear-right-stance.png",
+        "sha256": "881799d57df4e4ed67f6048256a151ecf251264b8890136093d3e6674036c31d"
+      },
+      {
+        "file": "ujin-rear-right-dash.png",
+        "sha256": "7a486f379f93f09cde97d33b6bdcd178f7ab63bfb16e698cecc992fdde498f34"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-stance-0",
+        "sourceBounds": {
+          "left": 227,
+          "top": 2,
+          "right": 584,
+          "bottom": 400
+        },
+        "foot": [
+          289,
+          428
+        ],
+        "padding": [
+          32,
+          32,
+          283,
+          50
+        ]
+      },
+      {
+        "name": "3-stance-1",
+        "sourceBounds": {
+          "left": 883,
+          "top": 34,
+          "right": 1205,
+          "bottom": 398
+        },
+        "foot": [
+          219,
+          394
+        ],
+        "padding": [
+          32,
+          32,
+          318,
+          84
+        ]
+      },
+      {
+        "name": "3-stance-2",
+        "sourceBounds": {
+          "left": 244,
+          "top": 404,
+          "right": 616,
+          "bottom": 736
+        },
+        "foot": [
+          212,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          268,
+          116
+        ]
+      },
+      {
+        "name": "3-stance-3",
+        "sourceBounds": {
+          "left": 886,
+          "top": 406,
+          "right": 1249,
+          "bottom": 735
+        },
+        "foot": [
+          205,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          277,
+          119
+        ]
+      },
+      {
+        "name": "3-stance-4",
+        "sourceBounds": {
+          "left": 232,
+          "top": 728,
+          "right": 666,
+          "bottom": 1067
+        },
+        "foot": [
+          213,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          206,
+          109
+        ]
+      },
+      {
+        "name": "3-stance-5",
+        "sourceBounds": {
+          "left": 876,
+          "top": 728,
+          "right": 1280,
+          "bottom": 1082
+        },
+        "foot": [
+          211,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          236,
+          94
+        ]
+      },
+      {
+        "name": "3-dash-0",
+        "sourceBounds": {
+          "left": 213,
+          "top": 22,
+          "right": 591,
+          "bottom": 393
+        },
+        "foot": [
+          116,
+          401
+        ],
+        "padding": [
+          32,
+          32,
+          262,
+          77
+        ]
+      },
+      {
+        "name": "3-dash-1",
+        "sourceBounds": {
+          "left": 883,
+          "top": 59,
+          "right": 1249,
+          "bottom": 391
+        },
+        "foot": [
+          77,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          274,
+          116
+        ]
+      },
+      {
+        "name": "3-dash-2",
+        "sourceBounds": {
+          "left": 184,
+          "top": 393,
+          "right": 731,
+          "bottom": 735
+        },
+        "foot": [
+          53,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          93,
+          106
+        ]
+      },
+      {
+        "name": "3-dash-3",
+        "sourceBounds": {
+          "left": 863,
+          "top": 402,
+          "right": 1372,
+          "bottom": 743
+        },
+        "foot": [
+          75,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          131,
+          107
+        ]
+      },
+      {
+        "name": "3-dash-4",
+        "sourceBounds": {
+          "left": 217,
+          "top": 733,
+          "right": 581,
+          "bottom": 1076
+        },
+        "foot": [
+          90,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          276,
+          105
+        ]
+      },
+      {
+        "name": "3-dash-5",
+        "sourceBounds": {
+          "left": 894,
+          "top": 722,
+          "right": 1251,
+          "bottom": 1071
+        },
+        "foot": [
+          243,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          283,
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ujin-back",
+    "sources": [
+      {
+        "file": "ujin-back-stance.png",
+        "sha256": "1da6db0c8faffbb36a0de2e6b16a0464c5c6a07cab64647950645ccf9de13bb9"
+      },
+      {
+        "file": "ujin-back-dash.png",
+        "sha256": "78793eaefbc20d73ae6233566ef7cf046b77c6416e39b7908a15b296fd94b358"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-stance-0",
+        "sourceBounds": {
+          "left": 282,
+          "top": 7,
+          "right": 506,
+          "bottom": 418
+        },
+        "foot": [
+          168,
+          441
+        ],
+        "padding": [
+          32,
+          32,
+          416,
+          37
+        ]
+      },
+      {
+        "name": "4-stance-1",
+        "sourceBounds": {
+          "left": 918,
+          "top": 116,
+          "right": 1129,
+          "bottom": 420
+        },
+        "foot": [
+          79,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          429,
+          144
+        ]
+      },
+      {
+        "name": "4-stance-2",
+        "sourceBounds": {
+          "left": 301,
+          "top": 467,
+          "right": 532,
+          "bottom": 747
+        },
+        "foot": [
+          237,
+          310
+        ],
+        "padding": [
+          32,
+          32,
+          409,
+          168
+        ]
+      },
+      {
+        "name": "4-stance-3",
+        "sourceBounds": {
+          "left": 916,
+          "top": 467,
+          "right": 1139,
+          "bottom": 749
+        },
+        "foot": [
+          154,
+          312
+        ],
+        "padding": [
+          32,
+          32,
+          417,
+          166
+        ]
+      },
+      {
+        "name": "4-stance-4",
+        "sourceBounds": {
+          "left": 283,
+          "top": 767,
+          "right": 575,
+          "bottom": 1055
+        },
+        "foot": [
+          161,
+          318
+        ],
+        "padding": [
+          32,
+          32,
+          348,
+          160
+        ]
+      },
+      {
+        "name": "4-stance-5",
+        "sourceBounds": {
+          "left": 929,
+          "top": 764,
+          "right": 1207,
+          "bottom": 1062
+        },
+        "foot": [
+          138,
+          328
+        ],
+        "padding": [
+          32,
+          32,
+          362,
+          150
+        ]
+      },
+      {
+        "name": "4-dash-0",
+        "sourceBounds": {
+          "left": 241,
+          "top": 19,
+          "right": 543,
+          "bottom": 371
+        },
+        "foot": [
+          136,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          338,
+          96
+        ]
+      },
+      {
+        "name": "4-dash-1",
+        "sourceBounds": {
+          "left": 906,
+          "top": 30,
+          "right": 1219,
+          "bottom": 364
+        },
+        "foot": [
+          119,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          327,
+          114
+        ]
+      },
+      {
+        "name": "4-dash-2",
+        "sourceBounds": {
+          "left": 215,
+          "top": 379,
+          "right": 639,
+          "bottom": 711
+        },
+        "foot": [
+          158,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          216,
+          116
+        ]
+      },
+      {
+        "name": "4-dash-3",
+        "sourceBounds": {
+          "left": 894,
+          "top": 380,
+          "right": 1332,
+          "bottom": 701
+        },
+        "foot": [
+          136,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          202,
+          127
+        ]
+      },
+      {
+        "name": "4-dash-4",
+        "sourceBounds": {
+          "left": 236,
+          "top": 713,
+          "right": 569,
+          "bottom": 1062
+        },
+        "foot": [
+          136,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          307,
+          99
+        ]
+      },
+      {
+        "name": "4-dash-5",
+        "sourceBounds": {
+          "left": 932,
+          "top": 709,
+          "right": 1213,
+          "bottom": 1059
+        },
+        "foot": [
+          160,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          359,
+          98
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekhong-front",
+    "sources": [
+      {
+        "file": "baekhong-front-dash.png",
+        "sha256": "e941fb99372b70045b822714d6071791659ba7536163da14f9c6a710ef054808"
+      },
+      {
+        "file": "baekhong-front-sweep.png",
+        "sha256": "4332d5a5e06d407aae5dbe55b64ccb9cdebd13354482e49e7b7203042b02dcb3"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-dash-0",
+        "sourceBounds": {
+          "left": 264,
+          "top": 12,
+          "right": 621,
+          "bottom": 363
+        },
+        "foot": [
+          150,
+          381
+        ],
+        "padding": [
+          32,
+          32,
+          443,
+          65
+        ]
+      },
+      {
+        "name": "0-dash-1",
+        "sourceBounds": {
+          "left": 904,
+          "top": 33,
+          "right": 1281,
+          "bottom": 366
+        },
+        "foot": [
+          119,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          423,
+          83
+        ]
+      },
+      {
+        "name": "0-dash-2",
+        "sourceBounds": {
+          "left": 264,
+          "top": 374,
+          "right": 597,
+          "bottom": 696
+        },
+        "foot": [
+          160,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          467,
+          94
+        ]
+      },
+      {
+        "name": "0-dash-3",
+        "sourceBounds": {
+          "left": 821,
+          "top": 384,
+          "right": 1357,
+          "bottom": 700
+        },
+        "foot": [
+          244,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          264,
+          100
+        ]
+      },
+      {
+        "name": "0-dash-4",
+        "sourceBounds": {
+          "left": 271,
+          "top": 700,
+          "right": 647,
+          "bottom": 1043
+        },
+        "foot": [
+          114,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          424,
+          73
+        ]
+      },
+      {
+        "name": "0-dash-5",
+        "sourceBounds": {
+          "left": 913,
+          "top": 706,
+          "right": 1209,
+          "bottom": 1038
+        },
+        "foot": [
+          199,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          504,
+          84
+        ]
+      },
+      {
+        "name": "0-sweep-0",
+        "sourceBounds": {
+          "left": 122,
+          "top": 25,
+          "right": 703,
+          "bottom": 368
+        },
+        "foot": [
+          338,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          219,
+          73
+        ]
+      },
+      {
+        "name": "0-sweep-1",
+        "sourceBounds": {
+          "left": 933,
+          "top": 29,
+          "right": 1359,
+          "bottom": 370
+        },
+        "foot": [
+          175,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          374,
+          75
+        ]
+      },
+      {
+        "name": "0-sweep-2",
+        "sourceBounds": {
+          "left": 94,
+          "top": 385,
+          "right": 723,
+          "bottom": 724
+        },
+        "foot": [
+          342,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          171,
+          77
+        ]
+      },
+      {
+        "name": "0-sweep-3",
+        "sourceBounds": {
+          "left": 931,
+          "top": 385,
+          "right": 1370,
+          "bottom": 727
+        },
+        "foot": [
+          205,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          361,
+          74
+        ]
+      },
+      {
+        "name": "0-sweep-4",
+        "sourceBounds": {
+          "left": 182,
+          "top": 726,
+          "right": 636,
+          "bottom": 1062
+        },
+        "foot": [
+          268,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          346,
+          80
+        ]
+      },
+      {
+        "name": "0-sweep-5",
+        "sourceBounds": {
+          "left": 918,
+          "top": 731,
+          "right": 1279,
+          "bottom": 1067
+        },
+        "foot": [
+          212,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          439,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekhong-front-right",
+    "sources": [
+      {
+        "file": "baekhong-front-right-dash.png",
+        "sha256": "c60c230bd1608df1eb20f04cfe4e3001b82141ccf3865d4e462dfa620a9be1c6"
+      },
+      {
+        "file": "baekhong-front-right-sweep.png",
+        "sha256": "4633b8e9e296299490931db7cef0205637c40be00e51c4064b392bede8bd3627"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-dash-0",
+        "sourceBounds": {
+          "left": 229,
+          "top": 13,
+          "right": 633,
+          "bottom": 344
+        },
+        "foot": [
+          219,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          396,
+          85
+        ]
+      },
+      {
+        "name": "1-dash-1",
+        "sourceBounds": {
+          "left": 969,
+          "top": 21,
+          "right": 1400,
+          "bottom": 348
+        },
+        "foot": [
+          281,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          369,
+          89
+        ]
+      },
+      {
+        "name": "1-dash-2",
+        "sourceBounds": {
+          "left": 213,
+          "top": 358,
+          "right": 565,
+          "bottom": 686
+        },
+        "foot": [
+          323,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          448,
+          88
+        ]
+      },
+      {
+        "name": "1-dash-3",
+        "sourceBounds": {
+          "left": 848,
+          "top": 358,
+          "right": 1457,
+          "bottom": 690
+        },
+        "foot": [
+          419,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          191,
+          84
+        ]
+      },
+      {
+        "name": "1-dash-4",
+        "sourceBounds": {
+          "left": 173,
+          "top": 682,
+          "right": 685,
+          "bottom": 1008
+        },
+        "foot": [
+          362,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          288,
+          90
+        ]
+      },
+      {
+        "name": "1-dash-5",
+        "sourceBounds": {
+          "left": 946,
+          "top": 682,
+          "right": 1365,
+          "bottom": 1009
+        },
+        "foot": [
+          227,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          381,
+          89
+        ]
+      },
+      {
+        "name": "1-sweep-0",
+        "sourceBounds": {
+          "left": 155,
+          "top": 21,
+          "right": 799,
+          "bottom": 382
+        },
+        "foot": [
+          370,
+          391
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          55
+        ]
+      },
+      {
+        "name": "1-sweep-1",
+        "sourceBounds": {
+          "left": 877,
+          "top": 37,
+          "right": 1456,
+          "bottom": 381
+        },
+        "foot": [
+          379,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          221,
+          72
+        ]
+      },
+      {
+        "name": "1-sweep-2",
+        "sourceBounds": {
+          "left": 82,
+          "top": 380,
+          "right": 847,
+          "bottom": 722
+        },
+        "foot": [
+          396,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          35,
+          74
+        ]
+      },
+      {
+        "name": "1-sweep-3",
+        "sourceBounds": {
+          "left": 844,
+          "top": 390,
+          "right": 1518,
+          "bottom": 717
+        },
+        "foot": [
+          345,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          126,
+          89
+        ]
+      },
+      {
+        "name": "1-sweep-4",
+        "sourceBounds": {
+          "left": 190,
+          "top": 694,
+          "right": 758,
+          "bottom": 1015
+        },
+        "foot": [
+          314,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          232,
+          95
+        ]
+      },
+      {
+        "name": "1-sweep-5",
+        "sourceBounds": {
+          "left": 922,
+          "top": 698,
+          "right": 1300,
+          "bottom": 1015
+        },
+        "foot": [
+          258,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          422,
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekhong-right",
+    "sources": [
+      {
+        "file": "baekhong-right-dash.png",
+        "sha256": "c97148bf8bd13d2cf3c6acf55b25b3034a6476e24a858b50700fc5b7da0ddbe4"
+      },
+      {
+        "file": "baekhong-right-sweep.png",
+        "sha256": "4ffb68a43be059f0e282cb5402b2dc3182b742406fc86279276bf05702fcaa3e"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-dash-0",
+        "sourceBounds": {
+          "left": 196,
+          "top": 12,
+          "right": 682,
+          "bottom": 353
+        },
+        "foot": [
+          242,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          314,
+          75
+        ]
+      },
+      {
+        "name": "2-dash-1",
+        "sourceBounds": {
+          "left": 894,
+          "top": 35,
+          "right": 1349,
+          "bottom": 353
+        },
+        "foot": [
+          239,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          345,
+          98
+        ]
+      },
+      {
+        "name": "2-dash-2",
+        "sourceBounds": {
+          "left": 203,
+          "top": 371,
+          "right": 637,
+          "bottom": 677
+        },
+        "foot": [
+          201,
+          336
+        ],
+        "padding": [
+          32,
+          32,
+          366,
+          110
+        ]
+      },
+      {
+        "name": "2-dash-3",
+        "sourceBounds": {
+          "left": 909,
+          "top": 384,
+          "right": 1489,
+          "bottom": 678
+        },
+        "foot": [
+          205,
+          324
+        ],
+        "padding": [
+          32,
+          32,
+          220,
+          122
+        ]
+      },
+      {
+        "name": "2-dash-4",
+        "sourceBounds": {
+          "left": 215,
+          "top": 696,
+          "right": 567,
+          "bottom": 1010
+        },
+        "foot": [
+          218,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          448,
+          102
+        ]
+      },
+      {
+        "name": "2-dash-5",
+        "sourceBounds": {
+          "left": 925,
+          "top": 686,
+          "right": 1368,
+          "bottom": 1012
+        },
+        "foot": [
+          238,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          357,
+          90
+        ]
+      },
+      {
+        "name": "2-sweep-0",
+        "sourceBounds": {
+          "left": 168,
+          "top": 21,
+          "right": 708,
+          "bottom": 339
+        },
+        "foot": [
+          285,
+          348
+        ],
+        "padding": [
+          32,
+          32,
+          260,
+          98
+        ]
+      },
+      {
+        "name": "2-sweep-1",
+        "sourceBounds": {
+          "left": 900,
+          "top": 28,
+          "right": 1409,
+          "bottom": 340
+        },
+        "foot": [
+          297,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          291,
+          104
+        ]
+      },
+      {
+        "name": "2-sweep-2",
+        "sourceBounds": {
+          "left": 175,
+          "top": 359,
+          "right": 765,
+          "bottom": 676
+        },
+        "foot": [
+          294,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          210,
+          99
+        ]
+      },
+      {
+        "name": "2-sweep-3",
+        "sourceBounds": {
+          "left": 939,
+          "top": 360,
+          "right": 1435,
+          "bottom": 681
+        },
+        "foot": [
+          252,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          304,
+          95
+        ]
+      },
+      {
+        "name": "2-sweep-4",
+        "sourceBounds": {
+          "left": 243,
+          "top": 684,
+          "right": 770,
+          "bottom": 1008
+        },
+        "foot": [
+          226,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          273,
+          92
+        ]
+      },
+      {
+        "name": "2-sweep-5",
+        "sourceBounds": {
+          "left": 972,
+          "top": 685,
+          "right": 1411,
+          "bottom": 1013
+        },
+        "foot": [
+          241,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          361,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekhong-rear-right",
+    "sources": [
+      {
+        "file": "baekhong-rear-right-dash.png",
+        "sha256": "ee41a05b86b344f3f02e85635ccd4a196f2b596fa552a9bb8007acedb83902e4"
+      },
+      {
+        "file": "baekhong-rear-right-sweep.png",
+        "sha256": "f07a0e4a6181cf86fac54e3c15a21b3e91bac857809a2a76129986cc44c6f460"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-dash-0",
+        "sourceBounds": {
+          "left": 142,
+          "top": 35,
+          "right": 682,
+          "bottom": 367
+        },
+        "foot": [
+          399,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          260,
+          84
+        ]
+      },
+      {
+        "name": "3-dash-1",
+        "sourceBounds": {
+          "left": 882,
+          "top": 40,
+          "right": 1299,
+          "bottom": 369
+        },
+        "foot": [
+          291,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          383,
+          87
+        ]
+      },
+      {
+        "name": "3-dash-2",
+        "sourceBounds": {
+          "left": 210,
+          "top": 375,
+          "right": 628,
+          "bottom": 707
+        },
+        "foot": [
+          322,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          382,
+          84
+        ]
+      },
+      {
+        "name": "3-dash-3",
+        "sourceBounds": {
+          "left": 808,
+          "top": 387,
+          "right": 1360,
+          "bottom": 711
+        },
+        "foot": [
+          389,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          248,
+          92
+        ]
+      },
+      {
+        "name": "3-dash-4",
+        "sourceBounds": {
+          "left": 195,
+          "top": 712,
+          "right": 541,
+          "bottom": 1059
+        },
+        "foot": [
+          342,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          454,
+          69
+        ]
+      },
+      {
+        "name": "3-dash-5",
+        "sourceBounds": {
+          "left": 871,
+          "top": 731,
+          "right": 1351,
+          "bottom": 1062
+        },
+        "foot": [
+          317,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          320,
+          85
+        ]
+      },
+      {
+        "name": "3-sweep-0",
+        "sourceBounds": {
+          "left": 114,
+          "top": 12,
+          "right": 675,
+          "bottom": 366
+        },
+        "foot": [
+          409,
+          384
+        ],
+        "padding": [
+          32,
+          32,
+          239,
+          62
+        ]
+      },
+      {
+        "name": "3-sweep-1",
+        "sourceBounds": {
+          "left": 820,
+          "top": 40,
+          "right": 1368,
+          "bottom": 371
+        },
+        "foot": [
+          385,
+          361
+        ],
+        "padding": [
+          32,
+          32,
+          252,
+          85
+        ]
+      },
+      {
+        "name": "3-sweep-2",
+        "sourceBounds": {
+          "left": 123,
+          "top": 375,
+          "right": 764,
+          "bottom": 719
+        },
+        "foot": [
+          445,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          72
+        ]
+      },
+      {
+        "name": "3-sweep-3",
+        "sourceBounds": {
+          "left": 896,
+          "top": 375,
+          "right": 1366,
+          "bottom": 715
+        },
+        "foot": [
+          242,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          330,
+          76
+        ]
+      },
+      {
+        "name": "3-sweep-4",
+        "sourceBounds": {
+          "left": 123,
+          "top": 716,
+          "right": 709,
+          "bottom": 1055
+        },
+        "foot": [
+          418,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          214,
+          77
+        ]
+      },
+      {
+        "name": "3-sweep-5",
+        "sourceBounds": {
+          "left": 883,
+          "top": 712,
+          "right": 1354,
+          "bottom": 1064
+        },
+        "foot": [
+          331,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          329,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekhong-back",
+    "sources": [
+      {
+        "file": "baekhong-back-dash.png",
+        "sha256": "76b4f620e0677b8212fb266064efe435fb216c21510acd21fa113002d301056d"
+      },
+      {
+        "file": "baekhong-back-sweep.png",
+        "sha256": "b373c793b2ad4c3259943d53bc74eac58fcda42b5c303c7b1c7c3201afc86631"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-dash-0",
+        "sourceBounds": {
+          "left": 204,
+          "top": 48,
+          "right": 609,
+          "bottom": 378
+        },
+        "foot": [
+          234,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          395,
+          86
+        ]
+      },
+      {
+        "name": "4-dash-1",
+        "sourceBounds": {
+          "left": 881,
+          "top": 27,
+          "right": 1329,
+          "bottom": 393
+        },
+        "foot": [
+          172,
+          396
+        ],
+        "padding": [
+          32,
+          32,
+          352,
+          50
+        ]
+      },
+      {
+        "name": "4-dash-2",
+        "sourceBounds": {
+          "left": 254,
+          "top": 397,
+          "right": 576,
+          "bottom": 750
+        },
+        "foot": [
+          239,
+          383
+        ],
+        "padding": [
+          32,
+          32,
+          478,
+          63
+        ]
+      },
+      {
+        "name": "4-dash-3",
+        "sourceBounds": {
+          "left": 749,
+          "top": 385,
+          "right": 1299,
+          "bottom": 732
+        },
+        "foot": [
+          306,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          250,
+          69
+        ]
+      },
+      {
+        "name": "4-dash-4",
+        "sourceBounds": {
+          "left": 253,
+          "top": 730,
+          "right": 638,
+          "bottom": 1059
+        },
+        "foot": [
+          198,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          415,
+          87
+        ]
+      },
+      {
+        "name": "4-dash-5",
+        "sourceBounds": {
+          "left": 832,
+          "top": 743,
+          "right": 1251,
+          "bottom": 1059
+        },
+        "foot": [
+          237,
+          346
+        ],
+        "padding": [
+          32,
+          32,
+          381,
+          100
+        ]
+      },
+      {
+        "name": "4-sweep-0",
+        "sourceBounds": {
+          "left": 98,
+          "top": 34,
+          "right": 658,
+          "bottom": 343
+        },
+        "foot": [
+          320,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          240,
+          107
+        ]
+      },
+      {
+        "name": "4-sweep-1",
+        "sourceBounds": {
+          "left": 810,
+          "top": 30,
+          "right": 1326,
+          "bottom": 351
+        },
+        "foot": [
+          317,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          284,
+          95
+        ]
+      },
+      {
+        "name": "4-sweep-2",
+        "sourceBounds": {
+          "left": 68,
+          "top": 387,
+          "right": 709,
+          "bottom": 706
+        },
+        "foot": [
+          249,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          159,
+          97
+        ]
+      },
+      {
+        "name": "4-sweep-3",
+        "sourceBounds": {
+          "left": 825,
+          "top": 377,
+          "right": 1371,
+          "bottom": 703
+        },
+        "foot": [
+          199,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          254,
+          90
+        ]
+      },
+      {
+        "name": "4-sweep-4",
+        "sourceBounds": {
+          "left": 163,
+          "top": 726,
+          "right": 619,
+          "bottom": 1050
+        },
+        "foot": [
+          259,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          344,
+          92
+        ]
+      },
+      {
+        "name": "4-sweep-5",
+        "sourceBounds": {
+          "left": 881,
+          "top": 728,
+          "right": 1282,
+          "bottom": 1042
+        },
+        "foot": [
+          237,
+          344
+        ],
+        "padding": [
+          32,
+          32,
+          399,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-front",
+    "sources": [
+      {
+        "file": "mumyeong-front-dash.png",
+        "sha256": "28ba5d142c363d2d5d42c2f74d47252b24cbaaedb0b675f790e4c57d652a0567"
+      },
+      {
+        "file": "mumyeong-front-stance.png",
+        "sha256": "58a03d52d3bfb20c2f871178952f8e7bce69abeac213de302ab5d07eca166b3b"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-dash-0",
+        "sourceBounds": {
+          "left": 184,
+          "top": 44,
+          "right": 570,
+          "bottom": 355
+        },
+        "foot": [
+          232,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          254,
+          73
+        ]
+      },
+      {
+        "name": "0-dash-1",
+        "sourceBounds": {
+          "left": 900,
+          "top": 73,
+          "right": 1229,
+          "bottom": 382
+        },
+        "foot": [
+          212,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          311,
+          75
+        ]
+      },
+      {
+        "name": "0-dash-2",
+        "sourceBounds": {
+          "left": 232,
+          "top": 421,
+          "right": 582,
+          "bottom": 699
+        },
+        "foot": [
+          337,
+          308
+        ],
+        "padding": [
+          32,
+          32,
+          290,
+          106
+        ]
+      },
+      {
+        "name": "0-dash-3",
+        "sourceBounds": {
+          "left": 845,
+          "top": 464,
+          "right": 1346,
+          "bottom": 713
+        },
+        "foot": [
+          491,
+          279
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          135
+        ]
+      },
+      {
+        "name": "0-dash-4",
+        "sourceBounds": {
+          "left": 202,
+          "top": 729,
+          "right": 566,
+          "bottom": 1054
+        },
+        "foot": [
+          320,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          276,
+          59
+        ]
+      },
+      {
+        "name": "0-dash-5",
+        "sourceBounds": {
+          "left": 873,
+          "top": 733,
+          "right": 1201,
+          "bottom": 1054
+        },
+        "foot": [
+          178,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          312,
+          63
+        ]
+      },
+      {
+        "name": "0-stance-0",
+        "sourceBounds": {
+          "left": 227,
+          "top": 30,
+          "right": 560,
+          "bottom": 370
+        },
+        "foot": [
+          197,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          307,
+          44
+        ]
+      },
+      {
+        "name": "0-stance-1",
+        "sourceBounds": {
+          "left": 907,
+          "top": 58,
+          "right": 1245,
+          "bottom": 371
+        },
+        "foot": [
+          288,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          302,
+          71
+        ]
+      },
+      {
+        "name": "0-stance-2",
+        "sourceBounds": {
+          "left": 218,
+          "top": 394,
+          "right": 560,
+          "bottom": 718
+        },
+        "foot": [
+          288,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          298,
+          60
+        ]
+      },
+      {
+        "name": "0-stance-3",
+        "sourceBounds": {
+          "left": 891,
+          "top": 395,
+          "right": 1231,
+          "bottom": 718
+        },
+        "foot": [
+          287,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          300,
+          61
+        ]
+      },
+      {
+        "name": "0-stance-4",
+        "sourceBounds": {
+          "left": 213,
+          "top": 724,
+          "right": 557,
+          "bottom": 1049
+        },
+        "foot": [
+          211,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          296,
+          59
+        ]
+      },
+      {
+        "name": "0-stance-5",
+        "sourceBounds": {
+          "left": 879,
+          "top": 720,
+          "right": 1223,
+          "bottom": 1047
+        },
+        "foot": [
+          191,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          296,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-front-right",
+    "sources": [
+      {
+        "file": "mumyeong-front-right-dash.png",
+        "sha256": "9ab271caaacd7042d76ecc32bd78ad6af48d246cc9bf89f29d30a9c825bb82bd"
+      },
+      {
+        "file": "mumyeong-front-right-stance.png",
+        "sha256": "224f95fd861f15b3e26f9df6607310e48829d02647a29a3277075010c672b186"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-dash-0",
+        "sourceBounds": {
+          "left": 195,
+          "top": 29,
+          "right": 557,
+          "bottom": 358
+        },
+        "foot": [
+          337,
+          359
+        ],
+        "padding": [
+          32,
+          32,
+          278,
+          55
+        ]
+      },
+      {
+        "name": "1-dash-1",
+        "sourceBounds": {
+          "left": 825,
+          "top": 61,
+          "right": 1257,
+          "bottom": 358
+        },
+        "foot": [
+          288,
+          327
+        ],
+        "padding": [
+          32,
+          32,
+          208,
+          87
+        ]
+      },
+      {
+        "name": "1-dash-2",
+        "sourceBounds": {
+          "left": 229,
+          "top": 387,
+          "right": 713,
+          "bottom": 695
+        },
+        "foot": [
+          437,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          156,
+          76
+        ]
+      },
+      {
+        "name": "1-dash-3",
+        "sourceBounds": {
+          "left": 827,
+          "top": 419,
+          "right": 1431,
+          "bottom": 674
+        },
+        "foot": [
+          583,
+          285
+        ],
+        "padding": [
+          32,
+          32,
+          36,
+          129
+        ]
+      },
+      {
+        "name": "1-dash-4",
+        "sourceBounds": {
+          "left": 202,
+          "top": 702,
+          "right": 596,
+          "bottom": 1015
+        },
+        "foot": [
+          348,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          246,
+          71
+        ]
+      },
+      {
+        "name": "1-dash-5",
+        "sourceBounds": {
+          "left": 882,
+          "top": 702,
+          "right": 1235,
+          "bottom": 1013
+        },
+        "foot": [
+          214,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          287,
+          73
+        ]
+      },
+      {
+        "name": "1-stance-0",
+        "sourceBounds": {
+          "left": 244,
+          "top": 20,
+          "right": 579,
+          "bottom": 347
+        },
+        "foot": [
+          211,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          305,
+          57
+        ]
+      },
+      {
+        "name": "1-stance-1",
+        "sourceBounds": {
+          "left": 900,
+          "top": 52,
+          "right": 1281,
+          "bottom": 352
+        },
+        "foot": [
+          327,
+          330
+        ],
+        "padding": [
+          32,
+          32,
+          259,
+          84
+        ]
+      },
+      {
+        "name": "1-stance-2",
+        "sourceBounds": {
+          "left": 246,
+          "top": 368,
+          "right": 632,
+          "bottom": 675
+        },
+        "foot": [
+          230,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          254,
+          77
+        ]
+      },
+      {
+        "name": "1-stance-3",
+        "sourceBounds": {
+          "left": 912,
+          "top": 367,
+          "right": 1297,
+          "bottom": 675
+        },
+        "foot": [
+          232,
+          338
+        ],
+        "padding": [
+          32,
+          32,
+          255,
+          76
+        ]
+      },
+      {
+        "name": "1-stance-4",
+        "sourceBounds": {
+          "left": 238,
+          "top": 686,
+          "right": 610,
+          "bottom": 999
+        },
+        "foot": [
+          234,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          268,
+          71
+        ]
+      },
+      {
+        "name": "1-stance-5",
+        "sourceBounds": {
+          "left": 914,
+          "top": 684,
+          "right": 1248,
+          "bottom": 997
+        },
+        "foot": [
+          242,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          306,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-right",
+    "sources": [
+      {
+        "file": "mumyeong-right-dash.png",
+        "sha256": "073d383f083f07b77c0b99becc4febde7acb0f36c6726b19a9b5279aae53165f"
+      },
+      {
+        "file": "mumyeong-right-stance.png",
+        "sha256": "e1df58548ec1fd90753a6ebd01bcbdf7a5cbd77a096124a1e5ce03a937288b2f"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-dash-0",
+        "sourceBounds": {
+          "left": 153,
+          "top": 35,
+          "right": 527,
+          "bottom": 356
+        },
+        "foot": [
+          229,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          266,
+          63
+        ]
+      },
+      {
+        "name": "2-dash-1",
+        "sourceBounds": {
+          "left": 888,
+          "top": 56,
+          "right": 1319,
+          "bottom": 354
+        },
+        "foot": [
+          233,
+          328
+        ],
+        "padding": [
+          32,
+          32,
+          209,
+          86
+        ]
+      },
+      {
+        "name": "2-dash-2",
+        "sourceBounds": {
+          "left": 187,
+          "top": 381,
+          "right": 686,
+          "bottom": 680
+        },
+        "foot": [
+          239,
+          329
+        ],
+        "padding": [
+          32,
+          32,
+          141,
+          85
+        ]
+      },
+      {
+        "name": "2-dash-3",
+        "sourceBounds": {
+          "left": 886,
+          "top": 462,
+          "right": 1469,
+          "bottom": 679
+        },
+        "foot": [
+          193,
+          247
+        ],
+        "padding": [
+          32,
+          32,
+          57,
+          167
+        ]
+      },
+      {
+        "name": "2-dash-4",
+        "sourceBounds": {
+          "left": 164,
+          "top": 700,
+          "right": 544,
+          "bottom": 1013
+        },
+        "foot": [
+          235,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          260,
+          71
+        ]
+      },
+      {
+        "name": "2-dash-5",
+        "sourceBounds": {
+          "left": 934,
+          "top": 700,
+          "right": 1324,
+          "bottom": 1013
+        },
+        "foot": [
+          242,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          250,
+          71
+        ]
+      },
+      {
+        "name": "2-stance-0",
+        "sourceBounds": {
+          "left": 190,
+          "top": 16,
+          "right": 547,
+          "bottom": 362
+        },
+        "foot": [
+          243,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          283,
+          38
+        ]
+      },
+      {
+        "name": "2-stance-1",
+        "sourceBounds": {
+          "left": 869,
+          "top": 39,
+          "right": 1291,
+          "bottom": 362
+        },
+        "foot": [
+          240,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          218,
+          61
+        ]
+      },
+      {
+        "name": "2-stance-2",
+        "sourceBounds": {
+          "left": 175,
+          "top": 386,
+          "right": 676,
+          "bottom": 695
+        },
+        "foot": [
+          259,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          139,
+          75
+        ]
+      },
+      {
+        "name": "2-stance-3",
+        "sourceBounds": {
+          "left": 878,
+          "top": 385,
+          "right": 1380,
+          "bottom": 694
+        },
+        "foot": [
+          256,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          138,
+          75
+        ]
+      },
+      {
+        "name": "2-stance-4",
+        "sourceBounds": {
+          "left": 187,
+          "top": 704,
+          "right": 608,
+          "bottom": 1029
+        },
+        "foot": [
+          242,
+          355
+        ],
+        "padding": [
+          32,
+          32,
+          219,
+          59
+        ]
+      },
+      {
+        "name": "2-stance-5",
+        "sourceBounds": {
+          "left": 893,
+          "top": 704,
+          "right": 1231,
+          "bottom": 1034
+        },
+        "foot": [
+          226,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          302,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-rear-right",
+    "sources": [
+      {
+        "file": "mumyeong-rear-right-dash.png",
+        "sha256": "5633e26e6f44805b0adfd94bff5d19ba642d28fcd37ec3cf9ff5cd92441a5fe9"
+      },
+      {
+        "file": "mumyeong-rear-right-stance.png",
+        "sha256": "c174bc6b142564e03c14a07c9d2e4b740e646c02c901e7981dac10248a0cbac4"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-dash-0",
+        "sourceBounds": {
+          "left": 166,
+          "top": 40,
+          "right": 560,
+          "bottom": 374
+        },
+        "foot": [
+          376,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          246,
+          50
+        ]
+      },
+      {
+        "name": "3-dash-1",
+        "sourceBounds": {
+          "left": 824,
+          "top": 45,
+          "right": 1229,
+          "bottom": 378
+        },
+        "foot": [
+          109,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          235,
+          51
+        ]
+      },
+      {
+        "name": "3-dash-2",
+        "sourceBounds": {
+          "left": 200,
+          "top": 410,
+          "right": 664,
+          "bottom": 715
+        },
+        "foot": [
+          107,
+          335
+        ],
+        "padding": [
+          32,
+          32,
+          176,
+          79
+        ]
+      },
+      {
+        "name": "3-dash-3",
+        "sourceBounds": {
+          "left": 808,
+          "top": 438,
+          "right": 1408,
+          "bottom": 717
+        },
+        "foot": [
+          147,
+          309
+        ],
+        "padding": [
+          32,
+          32,
+          40,
+          105
+        ]
+      },
+      {
+        "name": "3-dash-4",
+        "sourceBounds": {
+          "left": 188,
+          "top": 728,
+          "right": 569,
+          "bottom": 1049
+        },
+        "foot": [
+          374,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          259,
+          63
+        ]
+      },
+      {
+        "name": "3-dash-5",
+        "sourceBounds": {
+          "left": 810,
+          "top": 727,
+          "right": 1258,
+          "bottom": 1048
+        },
+        "foot": [
+          352,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          192,
+          63
+        ]
+      },
+      {
+        "name": "3-stance-0",
+        "sourceBounds": {
+          "left": 189,
+          "top": 17,
+          "right": 583,
+          "bottom": 358
+        },
+        "foot": [
+          214,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          246,
+          43
+        ]
+      },
+      {
+        "name": "3-stance-1",
+        "sourceBounds": {
+          "left": 854,
+          "top": 35,
+          "right": 1243,
+          "bottom": 358
+        },
+        "foot": [
+          137,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          251,
+          61
+        ]
+      },
+      {
+        "name": "3-stance-2",
+        "sourceBounds": {
+          "left": 173,
+          "top": 388,
+          "right": 637,
+          "bottom": 712
+        },
+        "foot": [
+          149,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          176,
+          60
+        ]
+      },
+      {
+        "name": "3-stance-3",
+        "sourceBounds": {
+          "left": 853,
+          "top": 390,
+          "right": 1304,
+          "bottom": 712
+        },
+        "foot": [
+          126,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          189,
+          62
+        ]
+      },
+      {
+        "name": "3-stance-4",
+        "sourceBounds": {
+          "left": 192,
+          "top": 730,
+          "right": 674,
+          "bottom": 1071
+        },
+        "foot": [
+          147,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          158,
+          43
+        ]
+      },
+      {
+        "name": "3-stance-5",
+        "sourceBounds": {
+          "left": 861,
+          "top": 733,
+          "right": 1280,
+          "bottom": 1061
+        },
+        "foot": [
+          119,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          221,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mumyeong-back",
+    "sources": [
+      {
+        "file": "mumyeong-back-dash.png",
+        "sha256": "b6f0e4484c1cb3d5626d69db3bad8cbba3d8424b2cd4e8ac26d5dbde590a1cb4"
+      },
+      {
+        "file": "mumyeong-back-stance.png",
+        "sha256": "9527ade3a4405033db09957ddf0f39d68316b70ec6e0717c3389306cd9d5e684"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-dash-0",
+        "sourceBounds": {
+          "left": 231,
+          "top": 47,
+          "right": 573,
+          "bottom": 359
+        },
+        "foot": [
+          251,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          298,
+          72
+        ]
+      },
+      {
+        "name": "4-dash-1",
+        "sourceBounds": {
+          "left": 914,
+          "top": 31,
+          "right": 1221,
+          "bottom": 359
+        },
+        "foot": [
+          212,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          333,
+          56
+        ]
+      },
+      {
+        "name": "4-dash-2",
+        "sourceBounds": {
+          "left": 222,
+          "top": 395,
+          "right": 615,
+          "bottom": 697
+        },
+        "foot": [
+          272,
+          332
+        ],
+        "padding": [
+          32,
+          32,
+          247,
+          82
+        ]
+      },
+      {
+        "name": "4-dash-3",
+        "sourceBounds": {
+          "left": 895,
+          "top": 439,
+          "right": 1344,
+          "bottom": 674
+        },
+        "foot": [
+          146,
+          265
+        ],
+        "padding": [
+          32,
+          32,
+          191,
+          149
+        ]
+      },
+      {
+        "name": "4-dash-4",
+        "sourceBounds": {
+          "left": 241,
+          "top": 709,
+          "right": 542,
+          "bottom": 1049
+        },
+        "foot": [
+          240,
+          370
+        ],
+        "padding": [
+          32,
+          32,
+          339,
+          44
+        ]
+      },
+      {
+        "name": "4-dash-5",
+        "sourceBounds": {
+          "left": 933,
+          "top": 738,
+          "right": 1280,
+          "bottom": 1049
+        },
+        "foot": [
+          227,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          293,
+          73
+        ]
+      },
+      {
+        "name": "4-stance-0",
+        "sourceBounds": {
+          "left": 266,
+          "top": 31,
+          "right": 516,
+          "bottom": 354
+        },
+        "foot": [
+          236,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          390,
+          61
+        ]
+      },
+      {
+        "name": "4-stance-1",
+        "sourceBounds": {
+          "left": 948,
+          "top": 71,
+          "right": 1213,
+          "bottom": 353
+        },
+        "foot": [
+          265,
+          312
+        ],
+        "padding": [
+          32,
+          32,
+          375,
+          102
+        ]
+      },
+      {
+        "name": "4-stance-2",
+        "sourceBounds": {
+          "left": 268,
+          "top": 366,
+          "right": 505,
+          "bottom": 711
+        },
+        "foot": [
+          171,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          403,
+          39
+        ]
+      },
+      {
+        "name": "4-stance-3",
+        "sourceBounds": {
+          "left": 965,
+          "top": 365,
+          "right": 1199,
+          "bottom": 711
+        },
+        "foot": [
+          163,
+          376
+        ],
+        "padding": [
+          32,
+          32,
+          406,
+          38
+        ]
+      },
+      {
+        "name": "4-stance-4",
+        "sourceBounds": {
+          "left": 269,
+          "top": 740,
+          "right": 538,
+          "bottom": 1041
+        },
+        "foot": [
+          222,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          371,
+          83
+        ]
+      },
+      {
+        "name": "4-stance-5",
+        "sourceBounds": {
+          "left": 960,
+          "top": 756,
+          "right": 1281,
+          "bottom": 1044
+        },
+        "foot": [
+          175,
+          318
+        ],
+        "padding": [
+          32,
+          32,
+          319,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekun-front",
+    "sources": [
+      {
+        "file": "baekun-front-fan.png",
+        "sha256": "7270401ee611c86555dbee4c4ad2ebcfb7359c92921a57921616fa095d93b4a7"
+      },
+      {
+        "file": "baekun-front-sweep.png",
+        "sha256": "540f198ad16ca50a0b72757c69bddc4dc5ef1aa135e2ebcb5513945dae38c3b3"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "0-fan-0",
+        "sourceBounds": {
+          "left": 192,
+          "top": 27,
+          "right": 518,
+          "bottom": 371
+        },
+        "foot": [
+          201,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          346,
+          40
+        ]
+      },
+      {
+        "name": "0-fan-1",
+        "sourceBounds": {
+          "left": 959,
+          "top": 30,
+          "right": 1293,
+          "bottom": 375
+        },
+        "foot": [
+          301,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          338,
+          39
+        ]
+      },
+      {
+        "name": "0-fan-2",
+        "sourceBounds": {
+          "left": 204,
+          "top": 380,
+          "right": 569,
+          "bottom": 725
+        },
+        "foot": [
+          297,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          307,
+          39
+        ]
+      },
+      {
+        "name": "0-fan-3",
+        "sourceBounds": {
+          "left": 886,
+          "top": 410,
+          "right": 1388,
+          "bottom": 715
+        },
+        "foot": [
+          499,
+          335
+        ],
+        "padding": [
+          32,
+          32,
+          170,
+          79
+        ]
+      },
+      {
+        "name": "0-fan-4",
+        "sourceBounds": {
+          "left": 188,
+          "top": 723,
+          "right": 517,
+          "bottom": 1065
+        },
+        "foot": [
+          198,
+          372
+        ],
+        "padding": [
+          32,
+          32,
+          343,
+          42
+        ]
+      },
+      {
+        "name": "0-fan-5",
+        "sourceBounds": {
+          "left": 940,
+          "top": 720,
+          "right": 1232,
+          "bottom": 1067
+        },
+        "foot": [
+          171,
+          377
+        ],
+        "padding": [
+          32,
+          32,
+          380,
+          37
+        ]
+      },
+      {
+        "name": "0-sweep-0",
+        "sourceBounds": {
+          "left": 204,
+          "top": 23,
+          "right": 580,
+          "bottom": 357
+        },
+        "foot": [
+          288,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          296,
+          50
+        ]
+      },
+      {
+        "name": "0-sweep-1",
+        "sourceBounds": {
+          "left": 961,
+          "top": 34,
+          "right": 1321,
+          "bottom": 353
+        },
+        "foot": [
+          263,
+          349
+        ],
+        "padding": [
+          32,
+          32,
+          312,
+          65
+        ]
+      },
+      {
+        "name": "0-sweep-2",
+        "sourceBounds": {
+          "left": 76,
+          "top": 369,
+          "right": 580,
+          "bottom": 670
+        },
+        "foot": [
+          338,
+          331
+        ],
+        "padding": [
+          32,
+          32,
+          168,
+          83
+        ]
+      },
+      {
+        "name": "0-sweep-3",
+        "sourceBounds": {
+          "left": 964,
+          "top": 375,
+          "right": 1474,
+          "bottom": 670
+        },
+        "foot": [
+          183,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          162,
+          89
+        ]
+      },
+      {
+        "name": "0-sweep-4",
+        "sourceBounds": {
+          "left": 270,
+          "top": 677,
+          "right": 571,
+          "bottom": 1007
+        },
+        "foot": [
+          193,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          371,
+          54
+        ]
+      },
+      {
+        "name": "0-sweep-5",
+        "sourceBounds": {
+          "left": 988,
+          "top": 681,
+          "right": 1263,
+          "bottom": 1011
+        },
+        "foot": [
+          168,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          397,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekun-front-right",
+    "sources": [
+      {
+        "file": "baekun-front-right-fan.png",
+        "sha256": "cea972387d1ac7b70c7b2cdbccf2d5f1ac0109be07fe2612d10f5fe20ee2f2ea"
+      },
+      {
+        "file": "baekun-front-right-sweep.png",
+        "sha256": "230d8b45db9bffb5e40e1973bafc52f97cbbd92f85c49e2be93e150a1cb890c1"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "1-fan-0",
+        "sourceBounds": {
+          "left": 173,
+          "top": 40,
+          "right": 621,
+          "bottom": 373
+        },
+        "foot": [
+          282,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          224,
+          51
+        ]
+      },
+      {
+        "name": "1-fan-1",
+        "sourceBounds": {
+          "left": 837,
+          "top": 26,
+          "right": 1272,
+          "bottom": 376
+        },
+        "foot": [
+          271,
+          380
+        ],
+        "padding": [
+          32,
+          32,
+          237,
+          34
+        ]
+      },
+      {
+        "name": "1-fan-2",
+        "sourceBounds": {
+          "left": 224,
+          "top": 371,
+          "right": 699,
+          "bottom": 707
+        },
+        "foot": [
+          196,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          197,
+          48
+        ]
+      },
+      {
+        "name": "1-fan-3",
+        "sourceBounds": {
+          "left": 891,
+          "top": 388,
+          "right": 1394,
+          "bottom": 711
+        },
+        "foot": [
+          188,
+          353
+        ],
+        "padding": [
+          32,
+          32,
+          169,
+          61
+        ]
+      },
+      {
+        "name": "1-fan-4",
+        "sourceBounds": {
+          "left": 198,
+          "top": 701,
+          "right": 587,
+          "bottom": 1053
+        },
+        "foot": [
+          242,
+          382
+        ],
+        "padding": [
+          32,
+          32,
+          283,
+          32
+        ]
+      },
+      {
+        "name": "1-fan-5",
+        "sourceBounds": {
+          "left": 893,
+          "top": 706,
+          "right": 1308,
+          "bottom": 1051
+        },
+        "foot": [
+          208,
+          375
+        ],
+        "padding": [
+          32,
+          32,
+          257,
+          39
+        ]
+      },
+      {
+        "name": "1-sweep-0",
+        "sourceBounds": {
+          "left": 230,
+          "top": 27,
+          "right": 664,
+          "bottom": 371
+        },
+        "foot": [
+          216,
+          374
+        ],
+        "padding": [
+          32,
+          32,
+          238,
+          40
+        ]
+      },
+      {
+        "name": "1-sweep-1",
+        "sourceBounds": {
+          "left": 757,
+          "top": 33,
+          "right": 1237,
+          "bottom": 372
+        },
+        "foot": [
+          352,
+          369
+        ],
+        "padding": [
+          32,
+          32,
+          192,
+          45
+        ]
+      },
+      {
+        "name": "1-sweep-2",
+        "sourceBounds": {
+          "left": 170,
+          "top": 384,
+          "right": 761,
+          "bottom": 725
+        },
+        "foot": [
+          249,
+          371
+        ],
+        "padding": [
+          32,
+          32,
+          81,
+          43
+        ]
+      },
+      {
+        "name": "1-sweep-3",
+        "sourceBounds": {
+          "left": 835,
+          "top": 389,
+          "right": 1400,
+          "bottom": 722
+        },
+        "foot": [
+          259,
+          363
+        ],
+        "padding": [
+          32,
+          32,
+          107,
+          51
+        ]
+      },
+      {
+        "name": "1-sweep-4",
+        "sourceBounds": {
+          "left": 213,
+          "top": 724,
+          "right": 601,
+          "bottom": 1059
+        },
+        "foot": [
+          237,
+          365
+        ],
+        "padding": [
+          32,
+          32,
+          284,
+          49
+        ]
+      },
+      {
+        "name": "1-sweep-5",
+        "sourceBounds": {
+          "left": 863,
+          "top": 726,
+          "right": 1312,
+          "bottom": 1064
+        },
+        "foot": [
+          216,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          223,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekun-right",
+    "sources": [
+      {
+        "file": "baekun-right-fan.png",
+        "sha256": "e30c1f27912b87526f6ec8e59ab699b19787318bee2b67202b52046f54441d5c"
+      },
+      {
+        "file": "baekun-right-sweep.png",
+        "sha256": "fca6afe4a4ec55b9296e779e0d72ac2649464ff504e61a1150a0a241d7867933"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "2-fan-0",
+        "sourceBounds": {
+          "left": 171,
+          "top": 30,
+          "right": 603,
+          "bottom": 352
+        },
+        "foot": [
+          265,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          240,
+          62
+        ]
+      },
+      {
+        "name": "2-fan-1",
+        "sourceBounds": {
+          "left": 884,
+          "top": 12,
+          "right": 1288,
+          "bottom": 355
+        },
+        "foot": [
+          231,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          268,
+          41
+        ]
+      },
+      {
+        "name": "2-fan-2",
+        "sourceBounds": {
+          "left": 205,
+          "top": 359,
+          "right": 712,
+          "bottom": 676
+        },
+        "foot": [
+          194,
+          347
+        ],
+        "padding": [
+          32,
+          32,
+          165,
+          67
+        ]
+      },
+      {
+        "name": "2-fan-3",
+        "sourceBounds": {
+          "left": 900,
+          "top": 393,
+          "right": 1516,
+          "bottom": 679
+        },
+        "foot": [
+          187,
+          316
+        ],
+        "padding": [
+          32,
+          32,
+          56,
+          98
+        ]
+      },
+      {
+        "name": "2-fan-4",
+        "sourceBounds": {
+          "left": 211,
+          "top": 683,
+          "right": 606,
+          "bottom": 1010
+        },
+        "foot": [
+          232,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          277,
+          57
+        ]
+      },
+      {
+        "name": "2-fan-5",
+        "sourceBounds": {
+          "left": 909,
+          "top": 681,
+          "right": 1410,
+          "bottom": 1011
+        },
+        "foot": [
+          226,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          171,
+          54
+        ]
+      },
+      {
+        "name": "2-sweep-0",
+        "sourceBounds": {
+          "left": 236,
+          "top": 20,
+          "right": 703,
+          "bottom": 352
+        },
+        "foot": [
+          217,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          205,
+          52
+        ]
+      },
+      {
+        "name": "2-sweep-1",
+        "sourceBounds": {
+          "left": 918,
+          "top": 30,
+          "right": 1300,
+          "bottom": 352
+        },
+        "foot": [
+          258,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          290,
+          62
+        ]
+      },
+      {
+        "name": "2-sweep-2",
+        "sourceBounds": {
+          "left": 185,
+          "top": 366,
+          "right": 781,
+          "bottom": 681
+        },
+        "foot": [
+          239,
+          345
+        ],
+        "padding": [
+          32,
+          32,
+          76,
+          69
+        ]
+      },
+      {
+        "name": "2-sweep-3",
+        "sourceBounds": {
+          "left": 931,
+          "top": 376,
+          "right": 1521,
+          "bottom": 680
+        },
+        "foot": [
+          196,
+          334
+        ],
+        "padding": [
+          32,
+          32,
+          82,
+          80
+        ]
+      },
+      {
+        "name": "2-sweep-4",
+        "sourceBounds": {
+          "left": 224,
+          "top": 688,
+          "right": 653,
+          "bottom": 1012
+        },
+        "foot": [
+          230,
+          354
+        ],
+        "padding": [
+          32,
+          32,
+          243,
+          60
+        ]
+      },
+      {
+        "name": "2-sweep-5",
+        "sourceBounds": {
+          "left": 936,
+          "top": 688,
+          "right": 1400,
+          "bottom": 1015
+        },
+        "foot": [
+          215,
+          357
+        ],
+        "padding": [
+          32,
+          32,
+          208,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekun-rear-right",
+    "sources": [
+      {
+        "file": "baekun-rear-right-fan.png",
+        "sha256": "74405e2ea0c96538b39fd9e904c2b616ecdf96030071adee7e5b6cb57017ec14"
+      },
+      {
+        "file": "baekun-rear-right-sweep.png",
+        "sha256": "5963618ea9a04caed10cb40581ab6201021347db438410018d9ab66f3c816079"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "3-fan-0",
+        "sourceBounds": {
+          "left": 206,
+          "top": 37,
+          "right": 588,
+          "bottom": 385
+        },
+        "foot": [
+          214,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          290,
+          36
+        ]
+      },
+      {
+        "name": "3-fan-1",
+        "sourceBounds": {
+          "left": 850,
+          "top": 36,
+          "right": 1229,
+          "bottom": 385
+        },
+        "foot": [
+          172,
+          379
+        ],
+        "padding": [
+          32,
+          32,
+          293,
+          35
+        ]
+      },
+      {
+        "name": "3-fan-2",
+        "sourceBounds": {
+          "left": 185,
+          "top": 388,
+          "right": 709,
+          "bottom": 724
+        },
+        "foot": [
+          238,
+          366
+        ],
+        "padding": [
+          32,
+          32,
+          148,
+          48
+        ]
+      },
+      {
+        "name": "3-fan-3",
+        "sourceBounds": {
+          "left": 854,
+          "top": 449,
+          "right": 1415,
+          "bottom": 722
+        },
+        "foot": [
+          183,
+          303
+        ],
+        "padding": [
+          32,
+          32,
+          111,
+          111
+        ]
+      },
+      {
+        "name": "3-fan-4",
+        "sourceBounds": {
+          "left": 200,
+          "top": 729,
+          "right": 567,
+          "bottom": 1061
+        },
+        "foot": [
+          220,
+          362
+        ],
+        "padding": [
+          32,
+          32,
+          305,
+          52
+        ]
+      },
+      {
+        "name": "3-fan-5",
+        "sourceBounds": {
+          "left": 876,
+          "top": 729,
+          "right": 1381,
+          "bottom": 1063
+        },
+        "foot": [
+          222,
+          364
+        ],
+        "padding": [
+          32,
+          32,
+          167,
+          50
+        ]
+      },
+      {
+        "name": "3-sweep-0",
+        "sourceBounds": {
+          "left": 210,
+          "top": 31,
+          "right": 722,
+          "bottom": 374
+        },
+        "foot": [
+          275,
+          373
+        ],
+        "padding": [
+          32,
+          32,
+          160,
+          41
+        ]
+      },
+      {
+        "name": "3-sweep-1",
+        "sourceBounds": {
+          "left": 860,
+          "top": 36,
+          "right": 1230,
+          "bottom": 373
+        },
+        "foot": [
+          280,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          302,
+          47
+        ]
+      },
+      {
+        "name": "3-sweep-2",
+        "sourceBounds": {
+          "left": 166,
+          "top": 383,
+          "right": 770,
+          "bottom": 721
+        },
+        "foot": [
+          254,
+          368
+        ],
+        "padding": [
+          32,
+          32,
+          68,
+          46
+        ]
+      },
+      {
+        "name": "3-sweep-3",
+        "sourceBounds": {
+          "left": 908,
+          "top": 395,
+          "right": 1434,
+          "bottom": 725
+        },
+        "foot": [
+          201,
+          360
+        ],
+        "padding": [
+          32,
+          32,
+          146,
+          54
+        ]
+      },
+      {
+        "name": "3-sweep-4",
+        "sourceBounds": {
+          "left": 200,
+          "top": 730,
+          "right": 593,
+          "bottom": 1058
+        },
+        "foot": [
+          213,
+          358
+        ],
+        "padding": [
+          32,
+          32,
+          279,
+          56
+        ]
+      },
+      {
+        "name": "3-sweep-5",
+        "sourceBounds": {
+          "left": 899,
+          "top": 727,
+          "right": 1405,
+          "bottom": 1064
+        },
+        "foot": [
+          272,
+          367
+        ],
+        "padding": [
+          32,
+          32,
+          166,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baekun-back",
+    "sources": [
+      {
+        "file": "baekun-back-fan.png",
+        "sha256": "9bfe5a9815b06bc873322e372e8d53bdcd948dfaa957a08e1546eb9b2ea1fb41"
+      },
+      {
+        "file": "baekun-back-sweep.png",
+        "sha256": "bdb5e591a246fbaa5c8562865c3fac5a8d36e1e4025df0b945d93a248bd87bf7"
+      }
+    ],
+    "solidPixelsPreserved": true,
+    "frames": [
+      {
+        "name": "4-fan-0",
+        "sourceBounds": {
+          "left": 271,
+          "top": 20,
+          "right": 572,
+          "bottom": 368
+        },
+        "foot": [
+          104,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          371,
+          36
+        ]
+      },
+      {
+        "name": "4-fan-1",
+        "sourceBounds": {
+          "left": 954,
+          "top": 20,
+          "right": 1290,
+          "bottom": 368
+        },
+        "foot": [
+          93,
+          378
+        ],
+        "padding": [
+          32,
+          32,
+          336,
+          36
+        ]
+      },
+      {
+        "name": "4-fan-2",
+        "sourceBounds": {
+          "left": 299,
+          "top": 416,
+          "right": 665,
+          "bottom": 711
+        },
+        "foot": [
+          75,
+          325
+        ],
+        "padding": [
+          32,
+          32,
+          306,
+          89
+        ]
+      },
+      {
+        "name": "4-fan-3",
+        "sourceBounds": {
+          "left": 946,
+          "top": 444,
+          "right": 1336,
+          "bottom": 700
+        },
+        "foot": [
+          66,
+          286
+        ],
+        "padding": [
+          32,
+          32,
+          282,
+          128
+        ]
+      },
+      {
+        "name": "4-fan-4",
+        "sourceBounds": {
+          "left": 253,
+          "top": 737,
+          "right": 590,
+          "bottom": 1048
+        },
+        "foot": [
+          183,
+          341
+        ],
+        "padding": [
+          32,
+          32,
+          335,
+          73
+        ]
+      },
+      {
+        "name": "4-fan-5",
+        "sourceBounds": {
+          "left": 958,
+          "top": 734,
+          "right": 1276,
+          "bottom": 1041
+        },
+        "foot": [
+          164,
+          337
+        ],
+        "padding": [
+          32,
+          32,
+          354,
+          77
+        ]
+      },
+      {
+        "name": "4-sweep-0",
+        "sourceBounds": {
+          "left": 187,
+          "top": 29,
+          "right": 689,
+          "bottom": 351
+        },
+        "foot": [
+          178,
+          352
+        ],
+        "padding": [
+          32,
+          32,
+          170,
+          62
+        ]
+      },
+      {
+        "name": "4-sweep-1",
+        "sourceBounds": {
+          "left": 935,
+          "top": 43,
+          "right": 1287,
+          "bottom": 356
+        },
+        "foot": [
+          168,
+          343
+        ],
+        "padding": [
+          32,
+          32,
+          320,
+          71
+        ]
+      },
+      {
+        "name": "4-sweep-2",
+        "sourceBounds": {
+          "left": 184,
+          "top": 389,
+          "right": 734,
+          "bottom": 701
+        },
+        "foot": [
+          161,
+          342
+        ],
+        "padding": [
+          32,
+          32,
+          122,
+          72
+        ]
+      },
+      {
+        "name": "4-sweep-3",
+        "sourceBounds": {
+          "left": 893,
+          "top": 397,
+          "right": 1404,
+          "bottom": 706
+        },
+        "foot": [
+          155,
+          339
+        ],
+        "padding": [
+          32,
+          32,
+          161,
+          75
+        ]
+      },
+      {
+        "name": "4-sweep-4",
+        "sourceBounds": {
+          "left": 201,
+          "top": 731,
+          "right": 625,
+          "bottom": 1057
+        },
+        "foot": [
+          197,
+          356
+        ],
+        "padding": [
+          32,
+          32,
+          248,
+          58
+        ]
+      },
+      {
+        "name": "4-sweep-5",
+        "sourceBounds": {
+          "left": 926,
+          "top": 733,
+          "right": 1277,
+          "bottom": 1054
+        },
+        "foot": [
+          174,
+          351
+        ],
+        "padding": [
+          32,
+          32,
+          321,
+          63
+        ]
+      }
+    ]
+  }
+]

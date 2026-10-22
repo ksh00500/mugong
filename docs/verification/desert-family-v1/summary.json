@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-05",
+  "identities": 7,
+  "nativeViews": 5,
+  "directions": 8,
+  "selectedSourceSheets": 41,
+  "packedSheets": 35,
+  "frames": 420,
+  "unit": {
+    "files": 55,
+    "tests": 1261,
+    "passed": true
+  },
+  "build": true,
+  "browser": {
+    "renderAndRelease": 5,
+    "production": 3,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1093,
+        614
+      ]
+    ]
+  },
+  "render": [
+    {
+      "renderer": "canvas",
+      "motion": "full",
+      "states": 1960,
+      "contacts": 184,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "canvas",
+      "motion": "reduced",
+      "states": 1960,
+      "contacts": 184,
+      "minHealthGap": 11.224999999999994,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "webgl",
+      "motion": "full",
+      "states": 1960,
+      "contacts": 184,
+      "minHealthGap": 11.224999999999966,
+      "fixedScale": [
+        0.225
+      ]
+    },
+    {
+      "renderer": "webgl",
+      "motion": "reduced",
+      "states": 1960,
+      "contacts": 184,
+      "minHealthGap": 11.224999999999994,
+      "fixedScale": [
+        0.225
+      ]
+    }
+  ],
+  "actualReleaseCases": 40,
+  "actualReleaseIdentities": [
+    "rider",
+    "assassin",
+    "ringblade",
+    "naya-fan",
+    "naya-ring"
+  ],
+  "sourceScanIssues": 0,
+  "sourcePixelsPreserved": true,
+  "encodedTransparentPadding": true,
+  "userSaveUntouched": true,
+  "preview": "http://127.0.0.1:5173/art/desert-family-v1/review.html",
+  "limitations": [
+    "Boss patterns share representative character attack poses; dedicated stomp, sand stance and melee ring poses remain further art work.",
+    "Automated checks verify bounds, scale, direction, timing and padding; anatomy and physical head/body consistency are visual reviews."
+  ]
+}

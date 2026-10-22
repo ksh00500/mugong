@@ -1,0 +1,80 @@
+// English, Japanese, Simplified Chinese, Traditional Chinese.
+export const uiMediumMessages: Record<string, readonly [string, string, string, string]> = {
+  '{0}개': ['{0} items', '{0}個', '{0}件', '{0}件'],
+  '수명이 끝나면 무인의 물품은 세가 창고로 옮겨집니다.': [
+    'When the lifespan ends, the warrior’s items move to family storage.',
+    '寿命が尽きると、武人の品物は世家の倉庫に移ります。',
+    '寿命结束后，武人的物品会移入世家仓库。',
+    '壽命結束後，武人的物品會移入世家倉庫。',
+  ],
+  '여정을 이어 완주해 보세요.': [
+    'Continue your journey to its end.',
+    '旅を再開し、踏破を目指しましょう。',
+    '继续旅程，完成挑战。',
+    '繼續旅程，完成挑戰。',
+  ],
+  '새 무인으로 첫 여정을 시작하세요.': [
+    'Recruit a warrior for your first journey.',
+    '新たな武人と最初の旅へ。',
+    '招募武人，开启首次旅程。',
+    '招募武人，開啟首次旅程。',
+  ],
+  '20웨이브를 완주하면 무공·가방을 지닌 채 귀환합니다.': [
+    'Clear 20 waves to return with your arts and packed items.',
+    '20ウェーブ踏破で武功と収納品を持ち帰れます。',
+    '完成20波后，可携武功与背包物品归来。',
+    '完成20波後，可攜武功與背包物品歸來。',
+  ],
+  '귀환한 무인은 7일 동안 명부·가방·창고에서 관리합니다.': [
+    'Manage returning warriors, bags and storage for 7 days.',
+    '帰還した武人は7日間、名簿・鞄・倉庫で管理できます。',
+    '归来的武人可在7天内通过名册、背包与仓库管理。',
+    '歸來的武人可在7天內透過名冊、背包與倉庫管理。',
+  ],
+  '귀환·보존 규칙 보기': [
+    'Return and retention rules',
+    '帰還・保持ルールを見る',
+    '查看归来与保留规则',
+    '查看歸來與保留規則',
+  ],
+  '전사하면 해당 무인과 여정의 물품은 사라집니다. 세가 창고와 기존 자금은 유지됩니다.': [
+    'On death, the warrior and journey items are lost. Family storage and existing funds remain.',
+    '戦死すると武人と旅の品物は失われます。世家の倉庫と既存資金は保持されます。',
+    '阵亡后，该武人与本次旅程物品将失去，世家仓库与原有资金保留。',
+    '陣亡後，該武人與本次旅程物品將失去，世家倉庫與原有資金保留。',
+  ],
+  '여정 시간': ['Journey time', '旅の時間', '旅程时间', '旅程時間'],
+  '{0}분 {1}초': ['{0}m {1}s', '{0}分 {1}秒', '{0}分{1}秒', '{0}分{1}秒'],
+  '방문한 지역': ['Visited regions', '訪れた地域', '到访地区', '到訪地區'],
+  '세가 창고와 기존 자금은 유지됩니다. 돌아가서 새 무인을 모집하세요.': [
+    'Family storage and existing funds remain. Return to recruit a new warrior.',
+    '世家の倉庫と既存資金は保持されます。帰還して新たな武人を募集しましょう。',
+    '世家仓库与原有资金保留，返回后可招募新武人。',
+    '世家倉庫與原有資金保留，返回後可招募新武人。',
+  ],
+  '사망 기록을 저장하고 있습니다.': [
+    'Saving the death record.',
+    '戦死記録を保存中です。',
+    '正在保存阵亡记录。',
+    '正在儲存陣亡紀錄。',
+  ],
+  '돌아가면 이번 여정이 기록됩니다.': [
+    'Returning records this journey.',
+    '帰還すると今回の旅が記録されます。',
+    '返回后将记录本次旅程。',
+    '返回後將記錄本次旅程。',
+  ],
+  '체력·무공·착용·수납한 물품을 유지하며 귀환 시점부터 수명 7일이 시작됩니다.': [
+    'Health, arts, equipped and packed items remain. The 7-day lifespan starts upon return.',
+    '体力・武功・装備・収納品を保持し、帰還時から7日間の寿命が始まります。',
+    '保留体力、武功、装备与已收纳物品，7天寿命自归来时开始。',
+    '保留體力、武功、裝備與已收納物品，7天壽命自歸來時開始。',
+  ],
+  '먼저 가방을 정리하거나 명부에서 귀환한 무인을 확인하세요.': [
+    'Organize your bag or check the returning warrior in the roster.',
+    '鞄を整理するか、名簿で帰還した武人を確認しましょう。',
+    '可先整理背包，或在名册查看归来的武人。',
+    '可先整理背包，或在名冊查看歸來的武人。',
+  ],
+  '명부 확인': ['View roster', '名簿を確認', '查看名册', '查看名冊'],
+};

@@ -1,0 +1,451 @@
+{
+  "date": "2026-10-07",
+  "scope": "40 main sheets generated; selected repair poses exported for draft review only; no runtime installation",
+  "mainOutputs": [
+    {
+      "id": "jeogu-front-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-71ea26ff-dec4-45e8-afda-e335225e090f.png",
+      "pilot": true
+    },
+    {
+      "id": "jeogu-front-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3fec00aa-79b2-46fc-b595-ed09e18bb5a0.png"
+    },
+    {
+      "id": "jeogu-front-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-246a6baa-d6ac-4173-be57-b3b3acbb664a.png"
+    },
+    {
+      "id": "jeogu-front-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6aa81165-8179-4b59-ae38-017ed0701ddd.png"
+    },
+    {
+      "id": "jeogu-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ff804e49-0d83-4027-b99f-c6db05577bac.png"
+    },
+    {
+      "id": "jeogu-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bb9689db-3096-4097-aacb-7c5804fc58ea.png"
+    },
+    {
+      "id": "jeogu-rear-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e7f86874-758d-45b6-9e5f-f1967b0f9a34.png"
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a9ffe2cd-9598-45f3-95b8-078c34d23bd9.png"
+    },
+    {
+      "id": "jeogu-back-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-b92eb2f1-fd83-43c3-9a7f-b4bed1a6181d.png"
+    },
+    {
+      "id": "jeogu-back-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3c09a6b9-a4cb-40a3-a609-abfd553665ef.png"
+    },
+    {
+      "id": "yeonsal-front-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-cfa58107-c226-4061-93bf-8871c2f1b5e9.png"
+    },
+    {
+      "id": "yeonsal-front-slam",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ef418c10-b31b-452a-be19-09d27a8ba5b8.png"
+    },
+    {
+      "id": "yeonsal-front-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-f33acd60-7423-4440-b4c4-d0edb8e11314.png"
+    },
+    {
+      "id": "yeonsal-front-right-slam",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e9814063-85f6-46ed-9f24-5e13514e034a.png"
+    },
+    {
+      "id": "yeonsal-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6aa53737-6726-42fb-909c-63a0452c5559.png"
+    },
+    {
+      "id": "yeonsal-right-slam",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9ec2ca30-7473-483d-884b-54f5290c73ec.png"
+    },
+    {
+      "id": "yeonsal-rear-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5228c70b-e292-48ed-9062-ee8c3a06d923.png"
+    },
+    {
+      "id": "yeonsal-rear-right-slam",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-557a3e4e-983e-441b-b2b6-57a4dc1a478e.png"
+    },
+    {
+      "id": "yeonsal-back-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-1f445421-0229-4258-b7bd-08ae8ee8c4b7.png"
+    },
+    {
+      "id": "yeonsal-back-slam",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-360b447d-80c8-4d51-891e-1e0effd71bed.png"
+    },
+    {
+      "id": "sohong-front-fan",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ea4347b4-b455-459f-a639-d86a46312c5b.png"
+    },
+    {
+      "id": "sohong-front-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0da10c8f-cef1-4faf-8ccc-bc6d31d41f27.png"
+    },
+    {
+      "id": "sohong-front-right-fan",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9f3f4d89-b86d-4fff-b47b-48cb29d4171e.png"
+    },
+    {
+      "id": "sohong-front-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-db9f0d2f-552a-4385-8fec-6431eb4011c7.png"
+    },
+    {
+      "id": "sohong-right-fan",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-90b625f8-e97b-4e16-a594-dd2e6433b59a.png"
+    },
+    {
+      "id": "sohong-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-27767c22-2ae0-4f16-9b21-96864b4a4b37.png"
+    },
+    {
+      "id": "sohong-rear-right-fan",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-bfd38496-4cec-42ad-a34c-dc9917f4b68c.png"
+    },
+    {
+      "id": "sohong-rear-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e92ebb6b-97fb-4951-844c-cab8f7db9a17.png"
+    },
+    {
+      "id": "sohong-back-fan",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0b26e248-b678-444d-9574-5ac481822e5e.png"
+    },
+    {
+      "id": "sohong-back-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e2753933-718a-4d54-99d8-cfa98570a044.png"
+    },
+    {
+      "id": "jeokcheon-front-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-26df554a-2e75-4dc2-8ef0-101ffcae51a6.png"
+    },
+    {
+      "id": "jeokcheon-front-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6e280556-b6df-4144-86a1-6224c8fae06b.png"
+    },
+    {
+      "id": "jeokcheon-front-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-e5fc7d10-7cd1-4365-ab0e-ddbeac3b6a24.png"
+    },
+    {
+      "id": "jeokcheon-front-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-ca3b86fe-9abd-4cd2-bfb9-0db978c8e383.png"
+    },
+    {
+      "id": "jeokcheon-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-9b1e09b5-b3b8-4e9b-b6a0-aad9ac34c986.png"
+    },
+    {
+      "id": "jeokcheon-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-879906ab-7978-4213-ad96-c1e98f18e5d2.png"
+    },
+    {
+      "id": "jeokcheon-rear-right-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-88bc71c3-c07a-461f-b267-3da7530e91c2.png"
+    },
+    {
+      "id": "jeokcheon-rear-right-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3220576c-47e0-402f-b59b-617224570c66.png"
+    },
+    {
+      "id": "jeokcheon-back-dash",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-a6c594b5-21cd-4d8d-a1a0-126067e24a4e.png"
+    },
+    {
+      "id": "jeokcheon-back-stance",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-1fab0d65-10fd-4c9e-8035-f561dd6b0bd0.png"
+    }
+  ],
+  "repairAttempts": [
+    {
+      "id": "jeogu-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detail": "Correct ARM OWNERSHIP in top-right, middle-left, middle-right and bottom-left figures. Preserve the ready figures. The visible NEAR anatomical RIGHT arm has bronze bracer and must continuously hold the saber at its hilt, safely low outside right hip exactly like ready reference. Anatomical LEFT arm is the far/opposite arm and wears the red-black gauntlet; LEFT gauntleted hand gestures toward target, partly occluded by torso if needed. Never put gauntlet on the near right arm. No floating saber/extra hands. Maintain skull/body native size and rear-right camera.",
+      "source": "jeogu-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-2adf1b56-f587-4de2-9263-fbc30bb5909f.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. Correct ARM OWNERSHIP in top-right, middle-left, middle-right and bottom-left figures. Preserve the ready figures. The visible NEAR anatomical RIGHT arm has bronze bracer and must continuously hold the saber at its hilt, safely low outside right hip exactly like ready reference. Anatomical LEFT arm is the far/opposite arm and wears the red-black gauntlet; LEFT gauntleted hand gestures toward target, partly occluded by torso if needed. Never put gauntlet on the near right arm. No floating saber/extra hands. Maintain skull/body native size and rear-right camera. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "yeonsal-front-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "detail": "REMOVE the extra THIRD gauntlet/hand behind the rear shoulder in top-right and middle-left/middle-right. Each figure must have exactly TWO arms and TWO gauntlets. Keep one foreground folded forearm against ribs and opposite fist guarding chest. Delete rear orphan gauntlet and any associated third arm, restore clean red cloth/black torso beneath it. Leading shoulder, not an extra fist, does contact. Preserve ready figures, body size and all feet.",
+      "source": "yeonsal-front-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-df171492-99a0-4d5b-b946-a9690648e143.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. REMOVE the extra THIRD gauntlet/hand behind the rear shoulder in top-right and middle-left/middle-right. Each figure must have exactly TWO arms and TWO gauntlets. Keep one foreground folded forearm against ribs and opposite fist guarding chest. Delete rear orphan gauntlet and any associated third arm, restore clean red cloth/black torso beneath it. Leading shoulder, not an extra fist, does contact. Preserve ready figures, body size and all feet. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "yeonsal-front-right-dash",
+      "poses": [
+        2
+      ],
+      "detail": "ONLY middle-left figure: REMOVE the small extra THIRD gauntlet behind the shoulder (screen-left behind the large foreground glove). It has THREE fists, must have exactly TWO. Keep large foreground glove folded at ribs and opposite glove before chest. Restore hair/cloth behind foreground shoulder; no third arm. Keep all other figures and native size unchanged.",
+      "source": "yeonsal-front-right-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-98b8676f-9ca8-4138-b119-36eb33c0e098.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. ONLY middle-left figure: REMOVE the small extra THIRD gauntlet behind the shoulder (screen-left behind the large foreground glove). It has THREE fists, must have exactly TWO. Keep large foreground glove folded at ribs and opposite glove before chest. Restore hair/cloth behind foreground shoulder; no third arm. Keep all other figures and native size unchanged. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "sohong-right-stance",
+      "poses": [
+        2,
+        3,
+        4
+      ],
+      "detail": "Correct middle-left, middle-right and bottom-left ONLY. Fan belongs to anatomical LEFT FAR arm, the hand at the FRONT of torso near waist/chest in the original ready. Near anatomical RIGHT arm, whose shoulder is visibly on screen-left side of chest, must be EMPTY and perform the forward palm command. Currently fan transferred to near right arm and far arm is empty: swap fan ownership back by reposing TWO arms, fan held at root in far left hand near waist, EMPTY near right palm extends toward screen-right foreground. Fan stays visible all poses. Never mirror whole character; preserve EAST facing and native size.",
+      "source": "sohong-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-6d3e150d-8fe2-4c94-82b8-88aae02810ff.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. Correct middle-left, middle-right and bottom-left ONLY. Fan belongs to anatomical LEFT FAR arm, the hand at the FRONT of torso near waist/chest in the original ready. Near anatomical RIGHT arm, whose shoulder is visibly on screen-left side of chest, must be EMPTY and perform the forward palm command. Currently fan transferred to near right arm and far arm is empty: swap fan ownership back by reposing TWO arms, fan held at root in far left hand near waist, EMPTY near right palm extends toward screen-right foreground. Fan stays visible all poses. Never mirror whole character; preserve EAST facing and native size. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "sohong-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detail": "Fan must NEVER disappear. Correct four action figures, preserve ready two. LEFT original fan-holding FAR arm keeps ONE open red-black fan at original root grip just beside front chest/waist, visible to screen-right of upper torso. RIGHT original EMPTY NEAR arm performs command: draw right elbow beside ribs then extend right empty palm toward top-right target, following connected visible right shoulder, arm can project lower in foreground. Current middle-row has two empty hands and no fan, invalid. Exactly TWO arms and ONE held fan, no hand swap or extra arm. Keep rear-right camera/head/body size.",
+      "source": "sohong-rear-right-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-7279199e-2499-4f4c-824a-0eb66ef5cb0f.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. Fan must NEVER disappear. Correct four action figures, preserve ready two. LEFT original fan-holding FAR arm keeps ONE open red-black fan at original root grip just beside front chest/waist, visible to screen-right of upper torso. RIGHT original EMPTY NEAR arm performs command: draw right elbow beside ribs then extend right empty palm toward top-right target, following connected visible right shoulder, arm can project lower in foreground. Current middle-row has two empty hands and no fan, invalid. Exactly TWO arms and ONE held fan, no hand swap or extra arm. Keep rear-right camera/head/body size. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "sohong-back-fan",
+      "poses": [
+        3
+      ],
+      "detail": "HORIZONTALLY MIRROR ONLY the MIDDLE-RIGHT figure inside its OWN512x512 slot. Leave five other figures entirely unchanged. Pure BACK camera remains BACK. This moves held fan back to anatomical LEFT, screen-left, correcting sole follow-through hand swap. Do not resize or rotate whole sheet, preserve dimensions and native alpha.",
+      "source": "sohong-back-fan-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-69b38783-9a5d-48cb-9da7-bc67d940d4c7.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. HORIZONTALLY MIRROR ONLY the MIDDLE-RIGHT figure inside its OWN512x512 slot. Leave five other figures entirely unchanged. Pure BACK camera remains BACK. This moves held fan back to anatomical LEFT, screen-left, correcting sole follow-through hand swap. Do not resize or rotate whole sheet, preserve dimensions and native alpha. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "jeokcheon-rear-right-dash",
+      "poses": [
+        1
+      ],
+      "detail": "ONLY TOP-RIGHT windup figure: saber is incorrectly held by LEFT far arm. Repose arms to have RIGHT visible near arm (shoulder screen-right side of back) raised at screen-right beside head, RIGHT fingers on gold hilt, saber points up-back across empty overhead space. LEFT far arm EMPTY guards chest/front target and is partly occluded. Keep rear-right camera, torso/feet/head/crown native dimensions. Do NOT mirror character; leave five other figures unchanged.",
+      "source": "jeokcheon-rear-right-dash-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-3833a008-3524-4c82-888d-f067e5d66b16.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. ONLY TOP-RIGHT windup figure: saber is incorrectly held by LEFT far arm. Repose arms to have RIGHT visible near arm (shoulder screen-right side of back) raised at screen-right beside head, RIGHT fingers on gold hilt, saber points up-back across empty overhead space. LEFT far arm EMPTY guards chest/front target and is partly occluded. Keep rear-right camera, torso/feet/head/crown native dimensions. Do NOT mirror character; leave five other figures unchanged. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "jeokcheon-back-stance",
+      "poses": [
+        2,
+        3
+      ],
+      "detail": "ONLY middle-left and middle-right figures. Currently RIGHT sword fingers open and blade floats, invalid. RIGHT arm on screen-right MUST HOLD saber hilt firmly and stay safely low outside hip as in original ready. Command must come from LEFT arm on screen-left of back: extend EMPTY LEFT palm beside left side of head/torso toward screen-top target, foreshortened and partly hidden naturally, never sword-hand command. Exactly two arms, connected shoulder/elbow/wrist, no overlapping spare hand at hilt. Pure BACK and native skull/body dimensions unchanged. Preserve other four figures.",
+      "source": "jeokcheon-back-stance-repair-v1.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-10fdb82c-32a7-484e-a56e-1f287cdacd33.png",
+      "prompt": "Edit MUGONG six-pose sprite sheet. Transparent RGBA. ONLY middle-left and middle-right figures. Currently RIGHT sword fingers open and blade floats, invalid. RIGHT arm on screen-right MUST HOLD saber hilt firmly and stay safely low outside hip as in original ready. Command must come from LEFT arm on screen-left of back: extend EMPTY LEFT palm beside left side of head/torso toward screen-top target, foreshortened and partly hidden naturally, never sword-hand command. Exactly two arms, connected shoulder/elbow/wrist, no overlapping spare hand at hilt. Pure BACK and native skull/body dimensions unchanged. Preserve other four figures. No painted glow, trail, shadow or environment. Native body size stays unchanged; no pose fit. Output1024x1536, two columns three rows."
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detail": "Correct ARM OWNERSHIP in top-right, middle-left, middle-right and bottom-left figures. Preserve the ready figures. The visible NEAR anatomical RIGHT arm has bronze bracer and must continuously hold the saber at its hilt, safely low outside right hip exactly like ready reference. Anatomical LEFT arm is the far/opposite arm and wears the red-black gauntlet; LEFT gauntleted hand gestures toward target, partly occluded by torso if needed. Never put gauntlet on the near right arm. No floating saber/extra hands. Maintain skull/body native size and rear-right camera.",
+      "source": "jeogu-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-cab2f4ed-4728-429e-9397-8cb89243ab16.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row4 adult male black high ponytail red ribbon, sleeveless black wrap vest with red sash, crimson ragged shoulder cape, bronze bracer on sword arm, ONE red-black ordinary metal gauntlet on opposite arm. ONE curved steel blood saber in right hand.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, NORTHEAST top-right, rear-right three-quarter, face turned away. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 327px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 327px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: Blood-ground activation command, NOT held defense. 0 original ready. 1 draw LEFT gauntlet beside ribs, RIGHT saber low outside hip; knees load modestly. 2 LEFT gauntleted hand extends DOWN-FORWARD toward target ground, small coherent hip hinge, RIGHT saber remains safely outside limbs. 3 hold brief grounded command. 4 retract left arm to guard and settle knees. 5 original ready. Do not draw blood pool or aura; game supplies effect. One right saber and one left gauntlet throughout.\nActual production timing 혈도 혈지 깔기: windup 0.95s, strike 0.4s, contacts at 0.2s of strike, recovery 0.8s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 327px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: Correct ARM OWNERSHIP in top-right, middle-left, middle-right and bottom-left figures. Preserve the ready figures. The visible NEAR anatomical RIGHT arm has bronze bracer and must continuously hold the saber at its hilt, safely low outside right hip exactly like ready reference. Anatomical LEFT arm is the far/opposite arm and wears the red-black gauntlet; LEFT gauntleted hand gestures toward target, partly occluded by torso if needed. Never put gauntlet on the near right arm. No floating saber/extra hands. Maintain skull/body native size and rear-right camera. CRITICAL: Keep weapon-holding arm COMPLETELY in original READY position and grip for ALL exposures. ONLY move original EMPTY opposite arm (or gauntlet for Jeogu) and slightly knees. Weapon hand never becomes empty, exactly two arms. No arms crossing over torso. Copy skull and torso pixel dimensions from guide.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height327px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "yeonsal-front-dash",
+      "poses": [
+        1,
+        2,
+        3
+      ],
+      "detail": "REMOVE the extra THIRD gauntlet/hand behind the rear shoulder in top-right and middle-left/middle-right. Each figure must have exactly TWO arms and TWO gauntlets. Keep one foreground folded forearm against ribs and opposite fist guarding chest. Delete rear orphan gauntlet and any associated third arm, restore clean red cloth/black torso beneath it. Leading shoulder, not an extra fist, does contact. Preserve ready figures, body size and all feet.",
+      "source": "yeonsal-front-dash-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-0175a183-35ba-48d1-a728-6128ab9667bc.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row5 male black ponytail red ribbon, sleeveless black martial wrap and red sash, TWO dark red engraved gauntlets, black trousers brown boots. No sword, no weapon glow.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, SOUTH screen bottom, foreshortened FRONT. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 343px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 343px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: Gauntleted SHOULDER charge, NOT an uppercut or fist thrust. 0 original two gauntlets guarded. 1 rear knee loads, leading shoulder aims at target, leading elbow folded beside ribs and opposite fist guards chest. 2 rear foot drives forward into planted lead stride, SHOULDER makes contact while both wrists remain folded safely. 3 short forward grounded follow-through with continuous neck/spine/pelvis. 4 straighten knees and return fists to guard. 5 ready. No weapon, roll or full backspin; same skull, gauntlets and torso dimensions.\nActual production timing 혈각 어깨 돌파: windup 0.75s, strike 0.38s, contacts at 0.3s of strike, recovery 0.65s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 343px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: REMOVE the extra THIRD gauntlet/hand behind the rear shoulder in top-right and middle-left/middle-right. Each figure must have exactly TWO arms and TWO gauntlets. Keep one foreground folded forearm against ribs and opposite fist guarding chest. Delete rear orphan gauntlet and any associated third arm, restore clean red cloth/black torso beneath it. Leading shoulder, not an extra fist, does contact. Preserve ready figures, body size and all feet.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height343px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "yeonsal-front-right-dash",
+      "poses": [
+        2
+      ],
+      "detail": "ONLY middle-left figure: REMOVE the small extra THIRD gauntlet behind the shoulder (screen-left behind the large foreground glove). It has THREE fists, must have exactly TWO. Keep large foreground glove folded at ribs and opposite glove before chest. Restore hair/cloth behind foreground shoulder; no third arm. Keep all other figures and native size unchanged.",
+      "source": "yeonsal-front-right-dash-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-c3f1fb77-ea49-4492-a2da-bc7e7a90c0f2.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row5 male black ponytail red ribbon, sleeveless black martial wrap and red sash, TWO dark red engraved gauntlets, black trousers brown boots. No sword, no weapon glow.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, SOUTHEAST bottom-right, front-right three-quarter. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 322px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 322px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: Gauntleted SHOULDER charge, NOT an uppercut or fist thrust. 0 original two gauntlets guarded. 1 rear knee loads, leading shoulder aims at target, leading elbow folded beside ribs and opposite fist guards chest. 2 rear foot drives forward into planted lead stride, SHOULDER makes contact while both wrists remain folded safely. 3 short forward grounded follow-through with continuous neck/spine/pelvis. 4 straighten knees and return fists to guard. 5 ready. No weapon, roll or full backspin; same skull, gauntlets and torso dimensions.\nActual production timing 혈각 어깨 돌파: windup 0.75s, strike 0.38s, contacts at 0.3s of strike, recovery 0.65s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 322px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: ONLY middle-left figure: REMOVE the small extra THIRD gauntlet behind the shoulder (screen-left behind the large foreground glove). It has THREE fists, must have exactly TWO. Keep large foreground glove folded at ribs and opposite glove before chest. Restore hair/cloth behind foreground shoulder; no third arm. Keep all other figures and native size unchanged.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height322px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "sohong-right-stance",
+      "poses": [
+        2,
+        3,
+        4
+      ],
+      "detail": "Correct middle-left, middle-right and bottom-left ONLY. Fan belongs to anatomical LEFT FAR arm, the hand at the FRONT of torso near waist/chest in the original ready. Near anatomical RIGHT arm, whose shoulder is visibly on screen-left side of chest, must be EMPTY and perform the forward palm command. Currently fan transferred to near right arm and far arm is empty: swap fan ownership back by reposing TWO arms, fan held at root in far left hand near waist, EMPTY near right palm extends toward screen-right foreground. Fan stays visible all poses. Never mirror whole character; preserve EAST facing and native size.",
+      "source": "sohong-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-12efaf86-2b58-4dfd-afdb-c1723fafb239.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row6 adult woman long black flowing hair, red flower and small gold crown, ornate flowing crimson gown with gold trim black underlayer, brown/gold flat shoes. ONE open red-black folding fan held left hand.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, EAST screen right, true side. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 338px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 338px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: Healing-blocking binding spell command, NOT held guard. 0 original LEFT fan beside waist, RIGHT empty palm near chest. 1 bring empty RIGHT palm beside shoulder while right fan stays low outside hip, knees gently flex. 2 extend RIGHT palm FORWARD-DOWN toward target with naturally connected shoulder/elbow/wrist, chest/pelvis aligned; right fan stable in same root grip. 3 deliberate planted command. 4 withdraw left hand and settle shoulders. 5 original ready. No rope, blood pool, rune, particles or extra object; game supplies binding.\nActual production timing 혈화 회복 봉쇄 결박: windup 1s, strike 0.48s, contacts at 0.22s of strike, recovery 0.9s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 338px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: Correct middle-left, middle-right and bottom-left ONLY. Fan belongs to anatomical LEFT FAR arm, the hand at the FRONT of torso near waist/chest in the original ready. Near anatomical RIGHT arm, whose shoulder is visibly on screen-left side of chest, must be EMPTY and perform the forward palm command. Currently fan transferred to near right arm and far arm is empty: swap fan ownership back by reposing TWO arms, fan held at root in far left hand near waist, EMPTY near right palm extends toward screen-right foreground. Fan stays visible all poses. Never mirror whole character; preserve EAST facing and native size. CRITICAL: Keep weapon-holding arm COMPLETELY in original READY position and grip for ALL exposures. ONLY move original EMPTY opposite arm (or gauntlet for Jeogu) and slightly knees. Weapon hand never becomes empty, exactly two arms. No arms crossing over torso. Copy skull and torso pixel dimensions from guide.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height338px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "sohong-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detail": "Fan must NEVER disappear. Correct four action figures, preserve ready two. LEFT original fan-holding FAR arm keeps ONE open red-black fan at original root grip just beside front chest/waist, visible to screen-right of upper torso. RIGHT original EMPTY NEAR arm performs command: draw right elbow beside ribs then extend right empty palm toward top-right target, following connected visible right shoulder, arm can project lower in foreground. Current middle-row has two empty hands and no fan, invalid. Exactly TWO arms and ONE held fan, no hand swap or extra arm. Keep rear-right camera/head/body size.",
+      "source": "sohong-rear-right-stance-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-1a1890ec-f2c3-4f6c-b019-d4fb44f21037.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row6 adult woman long black flowing hair, red flower and small gold crown, ornate flowing crimson gown with gold trim black underlayer, brown/gold flat shoes. ONE open red-black folding fan held left hand.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, NORTHEAST top-right, rear-right three-quarter, face turned away. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 328px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 328px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: Healing-blocking binding spell command, NOT held guard. 0 original LEFT fan beside waist, RIGHT empty palm near chest. 1 bring empty RIGHT palm beside shoulder while right fan stays low outside hip, knees gently flex. 2 extend RIGHT palm FORWARD-DOWN toward target with naturally connected shoulder/elbow/wrist, chest/pelvis aligned; right fan stable in same root grip. 3 deliberate planted command. 4 withdraw left hand and settle shoulders. 5 original ready. No rope, blood pool, rune, particles or extra object; game supplies binding.\nActual production timing 혈화 회복 봉쇄 결박: windup 1s, strike 0.48s, contacts at 0.22s of strike, recovery 0.9s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 328px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: Fan must NEVER disappear. Correct four action figures, preserve ready two. LEFT original fan-holding FAR arm keeps ONE open red-black fan at original root grip just beside front chest/waist, visible to screen-right of upper torso. RIGHT original EMPTY NEAR arm performs command: draw right elbow beside ribs then extend right empty palm toward top-right target, following connected visible right shoulder, arm can project lower in foreground. Current middle-row has two empty hands and no fan, invalid. Exactly TWO arms and ONE held fan, no hand swap or extra arm. Keep rear-right camera/head/body size. CRITICAL: Keep weapon-holding arm COMPLETELY in original READY position and grip for ALL exposures. ONLY move original EMPTY opposite arm (or gauntlet for Jeogu) and slightly knees. Weapon hand never becomes empty, exactly two arms. No arms crossing over torso. Copy skull and torso pixel dimensions from guide.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height328px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "sohong-back-fan",
+      "poses": [
+        3
+      ],
+      "detail": "HORIZONTALLY MIRROR ONLY the MIDDLE-RIGHT figure inside its OWN512x512 slot. Leave five other figures entirely unchanged. Pure BACK camera remains BACK. This moves held fan back to anatomical LEFT, screen-left, correcting sole follow-through hand swap. Do not resize or rotate whole sheet, preserve dimensions and native alpha.",
+      "source": "sohong-back-fan-repair-v2.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-568842e0-9bdf-4cf8-94ed-ffe740af11af.png",
+      "prompt": "Use case: identity-preserve. Asset type: MUGONG production boss special animation sprite sheet. Input1 is the native READY actor. Input2 is a 1024x1536 composition guide with six IDENTICAL native-size READY figures in six slots. EDIT guide slots into the requested action. Preserve slots0 and5 exactly and maintain their skull/torso/limb/equipment pixel size in slots1-4.\nIDENTITY: Image1 row6 adult woman long black flowing hair, red flower and small gold crown, ornate flowing crimson gown with gold trim black underlayer, brown/gold flat shoes. ONE open red-black folding fan held left hand.\nExactly SIX independent full-body figures on PORTRAIT 3:4 transparent RGBA canvas, TWO columns by THREE rows, row-major 0,1 / 2,3 / 4,5. No actual labels/grid/background/shadow. Each figure owns generous empty cell padding, no shared silhouettes or neighboring limbs.\nCAMERA constant: mildly elevated game view matching reference, NORTH screen top, pure BACK, no frontal face. All heads/chest/pelvis/feet and contact aim this same direction, no opposite-facing contact. Chest-height front contact is foreshortened toward viewer, not sideways.\nNATIVE ANATOMICAL SCALE: ready silhouette is 313px high; match reference skull/torso/limbs/equipment size IN PIXELS throughout, not a thumbnail to enlarge. Output 1024x1536 matching the guide. Six512x512 slots. Body height around 313px matching guide, not512px. Huge transparent margin intentionally leaves motion travel space. Minimum40px empty inset from EVERY slot edge, no neighboring overlap. Do not fill slots by enlarging figures. Use guide at native1:1, no resizing. Do not put all six figures across three columns or crop tips. Never fill cell by enlarging body or shrink contact body to fit weapon; crouch bends joints while skull stays same size.\nSIX ACTION EXPOSURES: LEFT held open fan blood-orb volley. 0 original LEFT fan, RIGHT empty. 1 draw fan beside rear shoulder, elbow naturally bent, rear knee loads and torso coils slightly. 2 sweep fan DOWN-FORWARD across target at chest height, LEFT fingers visibly grip ONE fan root, RIGHT empty palm counterbalances away from ribs. 3 fan follows beyond target horizontally, shoulders/hips turn together. 4 retract fan outside torso and return elbow. 5 ready. Fan never leaves right hand; no emitted orb/needle/glow painted in sprite. Maintain fan ribs and width, gown/face size.\nActual production timing 혈화 부채 혈주: windup 0.9s, strike 0.32s, contacts at 0.1s of strike, recovery 0.85s. Art stages prepare, load, contact, follow-through, return, ready.\nKeep crisp outlined detailed chibi wuxia illustration, stable original costume colors, NEUTRAL diffuse lighting. No emitted glow, colored rim outline or halo. TWO arms and TWO feet, connected shoulder/elbow/wrist and hip/knee/ankle; at least one foot planted. Pelvis/torso/neck turn coherently, no reversed spine. Same equipment ownership and dimensions, plausible grip, no duplicate handle or hidden extra limbs. Full hair/feet/weapon ends visible in own cell; opaque material, transparent alpha ZERO outside clean silhouette. No motion smear/trail/projectile/mist/smoke/particles/magic circle/effect. Game draws effects separately.\n\nSTRICT SIZE: preserve guide READY skull/torso pixel dimensions. Standing equivalent height 313px. Do not enlarge any figure. Output same1024x1536 guide geometry.\n\r\n\nREVISED ARM CONSTRAINT: PURE BACK: held LEFT fan ALWAYS screen-left of body in all six poses, RIGHT empty hand ALWAYS screen-right. Execute controlled left fan sweep on left side without swapping objects, camera stays north. Do not mirror READY guide, use its exact LEFT fan ownership.\nThis is REGENERATION FROM READY GUIDE, not enlargement of the failed action. Keep first and last READY figures EXACT guide geometry. Native standing equivalent height313px, not450px. Portrait1024x1536. Enormous margins are intentional. Six figures with no effects."
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "source": "jeogu-rear-right-stance-repair-v3.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-58c6dc71-e8d2-4ce2-9063-b3e0cf2b32bd.png",
+      "prompt": "Edit this native six-slot guide into Jeogu's blood-ground ritual. Keep the exact chibi character proportions, head diameter, outfit, foot baseline and drawing scale of the reference in all six exposures. Transparent background, 1024x1536, two columns three rows of 512px slots. Keep first and sixth figures identical to guide. Do not add lighting haze, effects or new equipment.\nAnatomy constraint: EXACTLY TWO ARMS and TWO HANDS. RIGHT arm has bronze forearm guard and holds ONE curved saber continuously at the same lower diagonal READY position in all poses; copy that arm and saber unchanged. LEFT arm has ONE dark red black gauntlet. No second gauntlet, floating fists, extra shoulder arms or loose blades.\nDraw a deliberately restrained, believable ground-ritual motion without crossing arms: pose 1 ready; pose 2 both knees flex slightly and shoulders lean forward 5 degrees, LEFT gauntlet remains at original torso side; pose 3 LEFT gauntlet presses down a short distance beside the LEFT hip while knees load, RIGHT saber unchanged; pose 4 hold the same left fist pressing down beside hip, no extension across chest; pose 5 straighten knees and return left gauntlet; pose 6 ready. One visible contiguous upper-arm-elbow-forearm chain per arm. Maintain rear-right view throughout. Do not put any hand at shoulder or chin height. Hands never pass through torso. Keep all figures at the reference's native size, never fit each pose individually. Enough transparent padding around each figure, no neighbor crossing.",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "source": "jeogu-rear-right-stance-repair-v4.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-92f0bf33-b9a0-42cf-84c4-c260ff41ea2b.png",
+      "prompt": "Correct ONLY the middle row two figures in the attached sprite sheet. Both middle figures currently have an impossible duplicated left fist: a round black-red gauntlet under the chin AND another hanging left gauntlet by hip. REMOVE the round gauntlet under the face/chin from BOTH middle-row figures completely, replace that area with the natural red cape / empty space. The hanging left gauntlet is the ONLY left hand, it belongs to the FAR left shoulder behind the torso; show its arm naturally connected on far side of chest, do not add a third arm to the visible right shoulder. Keep the RIGHT bronze-bracer arm and curved saber unchanged. Exactly two hands per person: one bronze right hand gripping saber and one hanging black-red LEFT gauntlet. Make no other edits: all six heads, body and weapon sizes, layout, other four figures unchanged. Transparent background, no new glow.",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "jeogu-rear-right-stance-repair-v5.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-2e3f61b7-caa1-4472-9f7e-b6fef641897b.png",
+      "prompt": "Remove ALL background haze, gradients, glow and shadow from this sprite sheet. Pure transparent alpha=0 empty pixels around each of the six figures and between slots. Retain ONLY the six painted character-and-weapon cutouts, their exact colors, geometry, size and position. DO NOT redraw or modify any anatomy or character. This is background removal ONLY. No soft haze, no ground shadows, no lighting halos. Keep red cape and dark hair solid, preserve fine edge antialiasing. 1024x1536, six transparent separate figure cutouts."
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "jeogu-rear-right-stance-repair-v6.png",
+      "original": "C:\\Users\\user\\.codex\\generated_images\\01a0e1f0-638e-7b20-9e28-1f0d4d39d935\\exec-5e35c8ef-1665-4f88-98b2-d5d8e9674f90.png",
+      "prompt": "Create a restrained six-exposure rear-right ritual animation by editing this exact guide. All SIX exposures must retain the reference's TWO ARMS, SAME HAND POSES and SAME SINGLE SABER exactly, without moving either hand at all. RIGHT bronze arm grips curved sword downward; LEFT dark red gauntlet remains curled near face in every exposure. Never draw any other hand. Animate ONLY a small knee flex and head bow: pose0 originalready, pose1 bendknees5px/headbow4degrees, pose2 bendknees12px/headbow8degrees, pose3 hold, pose4 halfreturn, pose5 originalready. Both arm positions move with torso as one connected body; no arm extension, no lowered left hand, no new gauntlet or fist. Same exact skull diameter and native body scale as guide. The ritual energy will be a separate game effect, don'tpaintany. 1024x1536, 2columns3rows512cells. Completely TRANSPARENT background, alpha0 outside six separated character cutouts, no haze or glow. Keep guide native sizes and positions. Do not enlarge or fit poses. Do not make uppercuts or third arms."
+    }
+  ],
+  "selectedRepairs": [
+    {
+      "id": "jeokcheon-rear-right-dash",
+      "source": "jeokcheon-rear-right-dash-repair-v1.png",
+      "poses": [
+        1
+      ]
+    },
+    {
+      "id": "jeokcheon-back-stance",
+      "source": "jeokcheon-back-stance-repair-v1.png",
+      "poses": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "yeonsal-front-dash",
+      "source": "yeonsal-front-dash-repair-v2.png",
+      "poses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "yeonsal-front-right-dash",
+      "source": "yeonsal-front-right-dash-repair-v2.png",
+      "poses": [
+        2
+      ]
+    },
+    {
+      "id": "sohong-right-stance",
+      "source": "sohong-right-stance-repair-v2.png",
+      "poses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "sohong-rear-right-stance",
+      "source": "sohong-rear-right-stance-repair-v2.png",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "sohong-back-fan",
+      "source": "sohong-back-fan-repair-v2.png",
+      "poses": [
+        3
+      ]
+    },
+    {
+      "id": "jeogu-rear-right-stance",
+      "source": "jeogu-rear-right-stance-repair-v6.png",
+      "poses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "pending": [
+    "Review all 240 automatic foot anchors and head/body consistency against base art before runtime registration",
+    "Jeogu rear-right ritual intentionally uses a restrained head/knee motion with fixed arms"
+  ]
+}

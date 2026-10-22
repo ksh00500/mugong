@@ -1,0 +1,51 @@
+{
+  "sources": [
+    "/art/hero-roster-v1/portrait-0.webp",
+    "/art/hero-roster-v1/portrait-2.webp",
+    "/art/hero-roster-v1/portrait-7.webp"
+  ],
+  "audio": {
+    "status": "ready",
+    "context": "running",
+    "scene": "pause",
+    "track": "combat-v1",
+    "voices": 2,
+    "buffers": 22,
+    "recentSounds": [
+      "confirm",
+      "select",
+      "select",
+      "confirm",
+      "select",
+      "level",
+      "select",
+      "sword-swing",
+      "staff-swing",
+      "fist-swing",
+      "fan-swing",
+      "dart-shot",
+      "bow-shot",
+      "magic-shot",
+      "poison-burst",
+      "ice-burst",
+      "fire-burst",
+      "blood-burst",
+      "trap-snap",
+      "brew-splash",
+      "sand-burst",
+      "seal-pulse",
+      "health-exchange",
+      "drone-repair"
+    ],
+    "master": 0.75,
+    "preferences": {
+      "muted": false,
+      "master": 0.75,
+      "music": 0.35,
+      "effects": 0.8,
+      "ambient": 0.2
+    }
+  },
+  "errors": [],
+  "missing": []
+}

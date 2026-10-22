@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-29",
+  "scope": "Layout, padding, grouping, action alignment and active workspace hit areas in currently implemented screens",
+  "automatic": {
+    "finalProductionBuild": "passed: TypeScript and Vite",
+    "unit": { "passed": 32, "files": 4 },
+    "localFullRegression": {
+      "passed": 38,
+      "skipped": 1,
+      "skipReason": "Separate public Daytona test"
+    },
+    "followUpAfterGuideAndStickyHeader": { "passed": 11 },
+    "finalRosterPanelBoundaryChecks": { "passed": 3 },
+    "publicRegression": { "passed": 8, "result": "../daytona-20260929-layout/result.json" },
+    "requiredViewports": [
+      [1440, 900],
+      [1366, 768],
+      [1093, 614]
+    ],
+    "capturedScreensPerViewport": 13,
+    "screens": [
+      "Empty lobby",
+      "Creation",
+      "Settings",
+      "Records",
+      "Guide",
+      "Returned roster",
+      "General bag",
+      "Weapon bag",
+      "Fighter",
+      "Warehouse",
+      "Growth choices",
+      "Combat HUD",
+      "Pause"
+    ],
+    "fiveLanguageCoverage": "Empty lobby, settings, creation, guide and combat bag flows in ko/en/ja/zh-CN/zh-TW at three required sizes; not every character state in every language",
+    "geometryChecks": [
+      "Visible control overflow and viewport bounds",
+      "Overlapping active control hit areas",
+      "Lobby edge alignment",
+      "Returned roster panel clear of management dock",
+      "Bag grid and core actions remain visible",
+      "Aligned choice actions",
+      "Guide content fits required desktop sizes"
+    ]
+  },
+  "manual": {
+    "actualBrowsers": [
+      "Local lobby and keyboard opening/closing of settings",
+      "Public latest lobby and keyboard opening/closing of settings"
+    ],
+    "focusRestorationObserved": true,
+    "capturesReviewed": [
+      "1366/settings.png",
+      "1366/combat.png",
+      "1366/growth.png",
+      "1093/create.png",
+      "1093/bag.png",
+      "1093/roster.png",
+      "1093/guide.png",
+      "languages/guide-en.png"
+    ],
+    "note": "Visual inspection is separate from automated tests. No new-user discovery, task-time or accessibility certification claim"
+  },
+  "storage": "Test characters only in isolated Playwright contexts; actual user saves not seeded, erased or replaced",
+  "deployment": {
+    "url": "https://8080-aeae46c6-f6b0-455f-878b-f2381900a712.proxy.daytona.work/",
+    "release": "/srv/mugong/releases/20260929-layout-v3",
+    "archiveBytes": 15272783,
+    "sha256": "ef7fdf7ca9316eb2a1f3dd2669d45157c02185ecf4d0ad152fea4d5220404ff9",
+    "remoteHashMatches": true,
+    "observedPublicModule": "/assets/index-CeVabV-G.js",
+    "nginxSyntax": "passed",
+    "httpStatus": 200,
+    "previousReleasesPreserved": true
+  },
+  "remaining": [
+    "New-user usability sessions",
+    "Long-session device and assistive technology review",
+    "UI for future market, raid and PVP functionality"
+  ]
+}

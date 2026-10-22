@@ -1,0 +1,83 @@
+{
+  "viewport": {
+    "width": 1093,
+    "height": 614
+  },
+  "enabled": true,
+  "button": {
+    "x": 791.21875,
+    "y": 565,
+    "width": 194.28125,
+    "height": 56,
+    "top": 565,
+    "right": 985.5,
+    "bottom": 621,
+    "left": 791.21875
+  },
+  "ancestors": [
+    {
+      "class": "recruitment-actions",
+      "rect": {
+        "x": 107.5,
+        "y": 565,
+        "width": 878,
+        "height": 56,
+        "top": 565,
+        "right": 985.5,
+        "bottom": 621,
+        "left": 107.5
+      },
+      "overflow": "visible",
+      "scrollHeight": 56,
+      "clientHeight": 56
+    },
+    {
+      "class": "dialog  recruitment-dialog",
+      "rect": {
+        "x": 86.5,
+        "y": 12,
+        "width": 920,
+        "height": 590,
+        "top": 12,
+        "right": 1006.5,
+        "bottom": 602,
+        "left": 86.5
+      },
+      "overflow": "auto",
+      "scrollHeight": 620,
+      "clientHeight": 588
+    },
+    {
+      "class": "scrim",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1093,
+        "height": 614,
+        "top": 0,
+        "right": 1093,
+        "bottom": 614,
+        "left": 0
+      },
+      "overflow": "visible",
+      "scrollHeight": 614,
+      "clientHeight": 614
+    },
+    {
+      "class": "lobby home-scene home-v3",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1093,
+        "height": 614,
+        "top": 0,
+        "right": 1093,
+        "bottom": 614,
+        "left": 0
+      },
+      "overflow": "hidden",
+      "scrollHeight": 614,
+      "clientHeight": 614
+    }
+  ]
+}

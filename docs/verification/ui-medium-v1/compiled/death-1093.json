@@ -1,0 +1,62 @@
+{
+  "state": {
+    "version": 1,
+    "family": {
+      "roster": [],
+      "warehouse": [
+        {
+          "id": "kept-ore",
+          "kind": "ore",
+          "name": "정련철",
+          "w": 1,
+          "h": 1,
+          "place": "warehouse",
+          "x": 0,
+          "y": 0,
+          "rotated": false,
+          "count": 2,
+          "quality": 100,
+          "power": 0,
+          "templateId": "material-0",
+          "rarity": "common",
+          "upgrades": 0
+        }
+      ],
+      "runs": 1,
+      "victories": 0,
+      "deaths": 1,
+      "retired": 0,
+      "silver": 1234,
+      "recruitment": {
+        "tickets": 3,
+        "anchor": 1792470135599,
+        "observedAt": 1792470135599,
+        "sequence": 0,
+        "candidates": []
+      },
+      "journeys": [
+        {
+          "id": "run-1-123",
+          "name": "가나다라마바사아자차카타",
+          "outcome": "dead",
+          "wave": 7,
+          "level": 16,
+          "kills": 123456,
+          "elapsed": 125.8,
+          "gold": 0,
+          "items": 0,
+          "route": [
+            "청하현",
+            "독무곡",
+            "천검산",
+            "설산"
+          ],
+          "endedAt": 1792470139509
+        }
+      ]
+    },
+    "run": null,
+    "selectedId": null
+  },
+  "errors": []
+}

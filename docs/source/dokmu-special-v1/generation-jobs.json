@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "cheongrin-front",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/cheongrin-front.png",
+    "source": "cheongrin-front-dash.png",
+    "sources": [
+      {
+        "id": "cheongrin-front-dash",
+        "source": "cheongrin-front-dash.png",
+        "prompt": "cheongrin-front-dash.prompt.txt"
+      },
+      {
+        "id": "cheongrin-front-stance",
+        "source": "cheongrin-front-stance.png",
+        "prompt": "cheongrin-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheongrin-front-dash.png",
+      "cheongrin-front-dash.png",
+      "cheongrin-front-dash.png",
+      "cheongrin-front-dash.png",
+      "cheongrin-front-dash.png",
+      "cheongrin-front-dash.png",
+      "cheongrin-front-stance.png",
+      "cheongrin-front-stance.png",
+      "cheongrin-front-stance.png",
+      "cheongrin-front-stance.png",
+      "cheongrin-front-stance.png",
+      "cheongrin-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-front-right",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/cheongrin-front-right.png",
+    "source": "cheongrin-front-right-dash.png",
+    "sources": [
+      {
+        "id": "cheongrin-front-right-dash",
+        "source": "cheongrin-front-right-dash.png",
+        "prompt": "cheongrin-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "cheongrin-front-right-stance",
+        "source": "cheongrin-front-right-stance.png",
+        "prompt": "cheongrin-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-dash.png",
+      "cheongrin-front-right-stance.png",
+      "cheongrin-front-right-stance.png",
+      "cheongrin-front-right-stance.png",
+      "cheongrin-front-right-stance.png",
+      "cheongrin-front-right-stance.png",
+      "cheongrin-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-right",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/cheongrin-right.png",
+    "source": "cheongrin-right-dash.png",
+    "sources": [
+      {
+        "id": "cheongrin-right-dash",
+        "source": "cheongrin-right-dash.png",
+        "prompt": "cheongrin-right-dash.prompt.txt"
+      },
+      {
+        "id": "cheongrin-right-stance",
+        "source": "cheongrin-right-stance.png",
+        "prompt": "cheongrin-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheongrin-right-dash.png",
+      "cheongrin-right-dash.png",
+      "cheongrin-right-dash.png",
+      "cheongrin-right-dash.png",
+      "cheongrin-right-dash.png",
+      "cheongrin-right-dash.png",
+      "cheongrin-right-stance.png",
+      "cheongrin-right-stance.png",
+      "cheongrin-right-stance.png",
+      "cheongrin-right-stance.png",
+      "cheongrin-right-stance.png",
+      "cheongrin-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-rear-right",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/cheongrin-rear-right.png",
+    "source": "cheongrin-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "cheongrin-rear-right-dash",
+        "source": "cheongrin-rear-right-dash.png",
+        "prompt": "cheongrin-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "cheongrin-rear-right-stance",
+        "source": "cheongrin-rear-right-stance.png",
+        "prompt": "cheongrin-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-dash.png",
+      "cheongrin-rear-right-stance.png",
+      "cheongrin-rear-right-stance.png",
+      "cheongrin-rear-right-stance.png",
+      "cheongrin-rear-right-stance.png",
+      "cheongrin-rear-right-stance.png",
+      "cheongrin-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "cheongrin-back",
+    "character": "cheongrin",
+    "bossId": "1-1",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/cheongrin-back.png",
+    "source": "cheongrin-back-dash.png",
+    "sources": [
+      {
+        "id": "cheongrin-back-dash",
+        "source": "cheongrin-back-dash.png",
+        "prompt": "cheongrin-back-dash.prompt.txt"
+      },
+      {
+        "id": "cheongrin-back-stance",
+        "source": "cheongrin-back-stance.png",
+        "prompt": "cheongrin-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "cheongrin-back-dash.png",
+      "cheongrin-back-dash.png",
+      "cheongrin-back-dash.png",
+      "cheongrin-back-dash.png",
+      "cheongrin-back-dash.png",
+      "cheongrin-back-dash.png",
+      "cheongrin-back-stance.png",
+      "cheongrin-back-stance.png",
+      "cheongrin-back-stance.png",
+      "cheongrin-back-stance.png",
+      "cheongrin-back-stance.png",
+      "cheongrin-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukchil-front",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "view": 0,
+    "moves": [
+      "hazard",
+      "fan"
+    ],
+    "reference": "docs/source/dokmu-family-v1/mukchil-front.png",
+    "source": "mukchil-front-hazard.png",
+    "sources": [
+      {
+        "id": "mukchil-front-hazard",
+        "source": "mukchil-front-hazard.png",
+        "prompt": "mukchil-front-hazard.prompt.txt"
+      },
+      {
+        "id": "mukchil-front-fan",
+        "source": "mukchil-front-fan.png",
+        "prompt": "mukchil-front-fan.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukchil-front-hazard.png",
+      "mukchil-front-hazard.png",
+      "mukchil-front-hazard.png",
+      "mukchil-front-hazard.png",
+      "mukchil-front-hazard.png",
+      "mukchil-front-hazard.png",
+      "mukchil-front-fan.png",
+      "mukchil-front-fan.png",
+      "mukchil-front-fan.png",
+      "mukchil-front-fan.png",
+      "mukchil-front-fan.png",
+      "mukchil-front-fan.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukchil-front-right",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "view": 1,
+    "moves": [
+      "hazard",
+      "fan"
+    ],
+    "reference": "docs/source/dokmu-family-v1/mukchil-front-right.png",
+    "source": "mukchil-front-right-hazard.png",
+    "sources": [
+      {
+        "id": "mukchil-front-right-hazard",
+        "source": "mukchil-front-right-hazard.png",
+        "prompt": "mukchil-front-right-hazard.prompt.txt"
+      },
+      {
+        "id": "mukchil-front-right-fan",
+        "source": "mukchil-front-right-fan.png",
+        "prompt": "mukchil-front-right-fan.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-hazard.png",
+      "mukchil-front-right-fan.png",
+      "mukchil-front-right-fan.png",
+      "mukchil-front-right-fan.png",
+      "mukchil-front-right-fan.png",
+      "mukchil-front-right-fan.png",
+      "mukchil-front-right-fan.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukchil-right",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "view": 2,
+    "moves": [
+      "hazard",
+      "fan"
+    ],
+    "reference": "docs/source/dokmu-family-v1/mukchil-right.png",
+    "source": "mukchil-right-hazard.png",
+    "sources": [
+      {
+        "id": "mukchil-right-hazard",
+        "source": "mukchil-right-hazard.png",
+        "prompt": "mukchil-right-hazard.prompt.txt"
+      },
+      {
+        "id": "mukchil-right-fan",
+        "source": "mukchil-right-fan.png",
+        "prompt": "mukchil-right-fan.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukchil-right-hazard.png",
+      "mukchil-right-hazard.png",
+      "mukchil-right-hazard.png",
+      "mukchil-right-hazard.png",
+      "mukchil-right-hazard.png",
+      "mukchil-right-hazard.png",
+      "mukchil-right-fan.png",
+      "mukchil-right-fan.png",
+      "mukchil-right-fan.png",
+      "mukchil-right-fan.png",
+      "mukchil-right-fan.png",
+      "mukchil-right-fan.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukchil-rear-right",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "view": 3,
+    "moves": [
+      "hazard",
+      "fan"
+    ],
+    "reference": "docs/source/dokmu-family-v1/mukchil-rear-right.png",
+    "source": "mukchil-rear-right-hazard.png",
+    "sources": [
+      {
+        "id": "mukchil-rear-right-hazard",
+        "source": "mukchil-rear-right-hazard.png",
+        "prompt": "mukchil-rear-right-hazard.prompt.txt"
+      },
+      {
+        "id": "mukchil-rear-right-fan",
+        "source": "mukchil-rear-right-fan.png",
+        "prompt": "mukchil-rear-right-fan.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-hazard.png",
+      "mukchil-rear-right-fan.png",
+      "mukchil-rear-right-fan.png",
+      "mukchil-rear-right-fan.png",
+      "mukchil-rear-right-fan.png",
+      "mukchil-rear-right-fan.png",
+      "mukchil-rear-right-fan.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "mukchil-back",
+    "character": "mukchil",
+    "bossId": "1-2",
+    "view": 4,
+    "moves": [
+      "hazard",
+      "fan"
+    ],
+    "reference": "docs/source/dokmu-family-v1/mukchil-back.png",
+    "source": "mukchil-back-hazard.png",
+    "sources": [
+      {
+        "id": "mukchil-back-hazard",
+        "source": "mukchil-back-hazard.png",
+        "prompt": "mukchil-back-hazard.prompt.txt"
+      },
+      {
+        "id": "mukchil-back-fan",
+        "source": "mukchil-back-fan.png",
+        "prompt": "mukchil-back-fan.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "mukchil-back-hazard.png",
+      "mukchil-back-hazard.png",
+      "mukchil-back-hazard.png",
+      "mukchil-back-hazard.png",
+      "mukchil-back-hazard.png",
+      "mukchil-back-hazard.png",
+      "mukchil-back-fan.png",
+      "mukchil-back-fan.png",
+      "mukchil-back-fan.png",
+      "mukchil-back-fan.png",
+      "mukchil-back-fan.png",
+      "mukchil-back-fan.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-front",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/yeonhwa-front.png",
+    "source": "yeonhwa-front-fan.png",
+    "sources": [
+      {
+        "id": "yeonhwa-front-fan",
+        "source": "yeonhwa-front-fan.png",
+        "prompt": "yeonhwa-front-fan.prompt.txt"
+      },
+      {
+        "id": "yeonhwa-front-stance",
+        "source": "yeonhwa-front-stance.png",
+        "prompt": "yeonhwa-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-fan.png",
+      "yeonhwa-front-stance.png",
+      "yeonhwa-front-stance.png",
+      "yeonhwa-front-stance.png",
+      "yeonhwa-front-stance.png",
+      "yeonhwa-front-stance.png",
+      "yeonhwa-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-front-right",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/yeonhwa-front-right.png",
+    "source": "yeonhwa-front-right-fan.png",
+    "sources": [
+      {
+        "id": "yeonhwa-front-right-fan",
+        "source": "yeonhwa-front-right-fan.png",
+        "prompt": "yeonhwa-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "yeonhwa-front-right-stance",
+        "source": "yeonhwa-front-right-stance.png",
+        "prompt": "yeonhwa-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-fan.png",
+      "yeonhwa-front-right-stance.png",
+      "yeonhwa-front-right-stance.png",
+      "yeonhwa-front-right-stance.png",
+      "yeonhwa-front-right-stance.png",
+      "yeonhwa-front-right-stance.png",
+      "yeonhwa-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-right",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/yeonhwa-right.png",
+    "source": "yeonhwa-right-fan.png",
+    "sources": [
+      {
+        "id": "yeonhwa-right-fan",
+        "source": "yeonhwa-right-fan.png",
+        "prompt": "yeonhwa-right-fan.prompt.txt"
+      },
+      {
+        "id": "yeonhwa-right-stance",
+        "source": "yeonhwa-right-stance.png",
+        "prompt": "yeonhwa-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-fan.png",
+      "yeonhwa-right-stance.png",
+      "yeonhwa-right-stance.png",
+      "yeonhwa-right-stance.png",
+      "yeonhwa-right-stance.png",
+      "yeonhwa-right-stance.png",
+      "yeonhwa-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-rear-right",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/yeonhwa-rear-right.png",
+    "source": "yeonhwa-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "yeonhwa-rear-right-fan",
+        "source": "yeonhwa-rear-right-fan.png",
+        "prompt": "yeonhwa-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "yeonhwa-rear-right-stance",
+        "source": "yeonhwa-rear-right-stance.png",
+        "prompt": "yeonhwa-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-fan.png",
+      "yeonhwa-rear-right-stance.png",
+      "yeonhwa-rear-right-stance.png",
+      "yeonhwa-rear-right-stance.png",
+      "yeonhwa-rear-right-stance.png",
+      "yeonhwa-rear-right-stance.png",
+      "yeonhwa-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonhwa-back",
+    "character": "yeonhwa",
+    "bossId": "1-3",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/yeonhwa-back.png",
+    "source": "yeonhwa-back-fan.png",
+    "sources": [
+      {
+        "id": "yeonhwa-back-fan",
+        "source": "yeonhwa-back-fan.png",
+        "prompt": "yeonhwa-back-fan.prompt.txt"
+      },
+      {
+        "id": "yeonhwa-back-stance",
+        "source": "yeonhwa-back-stance.png",
+        "prompt": "yeonhwa-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-fan.png",
+      "yeonhwa-back-stance.png",
+      "yeonhwa-back-stance.png",
+      "yeonhwa-back-stance.png",
+      "yeonhwa-back-stance.png",
+      "yeonhwa-back-stance.png",
+      "yeonhwa-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-front",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/sagongyeom-front.png",
+    "source": "sagongyeom-front-fan.png",
+    "sources": [
+      {
+        "id": "sagongyeom-front-fan",
+        "source": "sagongyeom-front-fan.png",
+        "prompt": "sagongyeom-front-fan.prompt.txt"
+      },
+      {
+        "id": "sagongyeom-front-stance",
+        "source": "sagongyeom-front-stance.png",
+        "prompt": "sagongyeom-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-fan.png",
+      "sagongyeom-front-stance.png",
+      "sagongyeom-front-stance.png",
+      "sagongyeom-front-stance.png",
+      "sagongyeom-front-stance.png",
+      "sagongyeom-front-stance.png",
+      "sagongyeom-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-front-right",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/sagongyeom-front-right.png",
+    "source": "sagongyeom-front-right-fan.png",
+    "sources": [
+      {
+        "id": "sagongyeom-front-right-fan",
+        "source": "sagongyeom-front-right-fan.png",
+        "prompt": "sagongyeom-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "sagongyeom-front-right-stance",
+        "source": "sagongyeom-front-right-stance.png",
+        "prompt": "sagongyeom-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-fan.png",
+      "sagongyeom-front-right-stance.png",
+      "sagongyeom-front-right-stance.png",
+      "sagongyeom-front-right-stance.png",
+      "sagongyeom-front-right-stance.png",
+      "sagongyeom-front-right-stance.png",
+      "sagongyeom-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-right",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/sagongyeom-right.png",
+    "source": "sagongyeom-right-fan.png",
+    "sources": [
+      {
+        "id": "sagongyeom-right-fan",
+        "source": "sagongyeom-right-fan.png",
+        "prompt": "sagongyeom-right-fan.prompt.txt"
+      },
+      {
+        "id": "sagongyeom-right-stance",
+        "source": "sagongyeom-right-stance.png",
+        "prompt": "sagongyeom-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-fan.png",
+      "sagongyeom-right-stance.png",
+      "sagongyeom-right-stance.png",
+      "sagongyeom-right-stance.png",
+      "sagongyeom-right-stance.png",
+      "sagongyeom-right-stance.png",
+      "sagongyeom-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-rear-right",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/sagongyeom-rear-right.png",
+    "source": "sagongyeom-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "sagongyeom-rear-right-fan",
+        "source": "sagongyeom-rear-right-fan.png",
+        "prompt": "sagongyeom-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "sagongyeom-rear-right-stance",
+        "source": "sagongyeom-rear-right-stance.png",
+        "prompt": "sagongyeom-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-fan.png",
+      "sagongyeom-rear-right-stance.png",
+      "sagongyeom-rear-right-stance.png",
+      "sagongyeom-rear-right-stance.png",
+      "sagongyeom-rear-right-stance.png",
+      "sagongyeom-rear-right-stance.png",
+      "sagongyeom-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sagongyeom-back",
+    "character": "sagongyeom",
+    "bossId": "1-4",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/dokmu-family-v1/sagongyeom-back.png",
+    "source": "sagongyeom-back-fan.png",
+    "sources": [
+      {
+        "id": "sagongyeom-back-fan",
+        "source": "sagongyeom-back-fan.png",
+        "prompt": "sagongyeom-back-fan.prompt.txt"
+      },
+      {
+        "id": "sagongyeom-back-stance",
+        "source": "sagongyeom-back-stance.png",
+        "prompt": "sagongyeom-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-fan.png",
+      "sagongyeom-back-stance.png",
+      "sagongyeom-back-stance.png",
+      "sagongyeom-back-stance.png",
+      "sagongyeom-back-stance.png",
+      "sagongyeom-back-stance.png",
+      "sagongyeom-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

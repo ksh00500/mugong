@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-18",
+  "branch": "codex/ui-feedback-v1",
+  "baseCommit": "b63ae3147636a571f8d34e44fa58c5bf11bbeaa1",
+  "unit": { "files": 68, "passed": 1319 },
+  "sourceOnly": { "files": 68, "passed": 1319, "validatesMediaPixels": false },
+  "runtimePaths": { "files": 1043, "literalReferences": 337, "missing": 0, "lfsPointers": 0 },
+  "build": { "modules": 195, "seconds": 10.85, "largeChunkWarning": true },
+  "browserLatest": { "feedback": 6, "webgl": 1, "combatFeel": 5, "combatHud": 5, "compiled": 4, "total": 21, "singleRun": false },
+  "viewports": [[1440, 900], [1366, 768], [1093, 614]],
+  "languages": ["ko", "en", "ja", "zh-CN", "zh-TW"],
+  "compiledPreview": "http://127.0.0.1:5205/",
+  "independentTestContexts": true,
+  "realUserSaveChanged": false,
+  "newRasterAssets": 0,
+  "publicDeployment": false
+}

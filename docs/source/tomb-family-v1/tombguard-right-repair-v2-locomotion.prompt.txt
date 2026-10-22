@@ -1,0 +1,10 @@
+Regenerate the supplied transparent MUGONG sprite sheet. LANDSCAPE TWO columns THREE rows, SIX complete independent figures, approximately1536x1024. Head and standing body stay SAME native pixel size as approved front; wide cells accommodate the whole long spear. Do not enlarge bodies to fill cells. Physical head90-110px, standing300-330px, matching approved Input2 exactly. Same physical scale throughout; never fit bodies to weapon extent. At least32px clear alpha around every complete figure/tool. No text, background, shadows, gradient, aura, VFX, particles, trails or projectiles.
+Generate these poses in ROW-MAJOR order:
+Drawing 1: logical pose 0, idle guard.
+Drawing 2: logical pose 1, left-step walk.
+Drawing 3: logical pose 2, passing walk.
+Drawing 4: logical pose 3, right-step walk.
+Drawing 5: logical pose 4, TINY hurt.
+Drawing 6: logical pose 5, prone death.
+EAST full side profile. Original candidate body is too small to fit long spear. Draw same physical head90-100px / standing300-330px as approved front Input2, with ONE continuous spear shaft in BOTH separated grips, ONE silver point and red tassel at forward RIGHT end only; rear LEFT end plain wood. Level forward thrust contact, planted foot, coherent shoulders, no shrinking to tool bbox.
+Input1 original candidate CAMERA and identity; Input2 approved front identity and PHYSICAL BODY SCALE ONLY, never copy its front camera. Camera must stay identical to Input1 idle for all poses. Exactly TWO connected shoulder-elbow-wrist chains, fixed weapon hands, stable spine and natural hip/knee/ankle chains. Grip meets hand. One continuous shaft, never extra handles or disconnected limbs.

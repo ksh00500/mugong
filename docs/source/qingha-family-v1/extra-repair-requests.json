@@ -1,0 +1,66 @@
+[
+  {
+    "id": "madabong-right",
+    "key": "madabong-right-follow-spacious",
+    "poses": [
+      9
+    ],
+    "source": "madabong-right.png",
+    "cell": {
+      "rectangle": [
+        250,
+        1088,
+        1000,
+        1445
+      ]
+    },
+    "prompt": "Edit this transparent portrait sprite sheet, same canvas and native head/body/dao dimensions. Preserve first THREE rows pixel identity, camera EAST and black fur warrior. Replace the entire LAST ROW with ONE figure in the MIDDLE, leaving last-row LEFT and RIGHT positions completely TRANSPARENT. That SINGLE figure is the ORIGINAL last-row LEFT follow-through, moved to last-row MIDDLE at center x550. Keep same original head, muscle, boots and dao physical sizes. COMPLETE boots/cape and entire curved sword, no clipping. Follow-through body leans forward EAST, right hand in front drives broad dao DOWN-FORWARD low to screen-right, left fist balancing backward. Figure occupies approximately x330..850 y1100..1415, at least35px outer padding. Do not draw a ready pose or withdrawal; specifically recreate original last-row left follow-through. No glow/trail/text. Alpha transparent.",
+    "output": "madabong-right-follow-spacious.png",
+    "promptFile": "madabong-right-follow-spacious.prompt.txt"
+  },
+  {
+    "id": "madabong-back",
+    "key": "madabong-back-right-load",
+    "poses": [
+      6
+    ],
+    "source": "madabong-back.png",
+    "prompt": "Edit only row THREE column ONE of this transparent THREE-column FOUR-row sprite sheet (zero-based pose6). Preserve ALL other figures, original canvas, physical head/body/dao scale and NORTH rear camera. Fix weapon hand: draw RIGHT ARM raised on SCREEN-RIGHT side of back, muscular upper arm attached to RIGHT shoulder at x235,y850, elbow around x265,y790, RIGHT hand holding gold dao grip above right shoulder at x235,y765. Whole curved blade extends leftward across top of head from that RIGHT hand. LEFT arm on SCREEN-LEFT stays EMPTY, free left fist balances around x75,y900. Critically REMOVE the old raised left-arm sword grip on SCREEN-LEFT. Do not mirror the whole body or swap pose7. Back of head and shoulder silhouettes match idle N and pose7, right hand owns sword in both poses6 and7. Early load less raised than maximum load7, connected elbows/wrists/hip turn, both boots grounded. All pixels outside figures fully transparent, no glow or background.",
+    "output": "madabong-back-right-load.png",
+    "promptFile": "madabong-back-right-load.prompt.txt"
+  },
+  {
+    "id": "cheolmu-rear-right",
+    "key": "cheolmu-rear-right-load-right-arm",
+    "poses": [
+      6,
+      7
+    ],
+    "source": "cheolmu-rear-right-repair-18.png",
+    "prompt": "Edit this THREE-column FOUR-row transparent sprite sheet, same canvas, physical head/body scale and rear-right NORTHEAST camera. REPLACE row3 column1 and row3 column2 with corrected early/max loading drawings. Other10 figures unchanged. Each figure has TWO short chain weapons, one per hand. In BOTH new loading drawings, the raised ATTACKING RIGHT ARM must be on SCREEN-RIGHT side of the body. Row3col1 right shoulder x225,y870, right elbow x280,y815, right fist x255,y770, lifted short chain weight x295,y735. Row3col2 right shoulder x585,y870, elbow x645,y800, right fist x620,y755, chain weight x660,y725. Remove the old raised screen-LEFT arm and weight completely. Lower the other LEFT arm along screen-LEFT hip with its own chain gathered: left fist row3col1 x80,y965 and col2 x445,y965. This same raised near right arm extends forward-right at contact row3col3. Right shoulder/elbow/wrist connected; hips and back turn naturally; no weapon threading through torso. Preserve black official armor, tall hat, red cloth and native sizes. ZERO glow/background, transparent alpha, no zoom or frame shrink.\n",
+    "output": "cheolmu-rear-right-load-right-arm.png",
+    "promptFile": "cheolmu-rear-right-load-right-arm.prompt.txt"
+  },
+  {
+    "id": "cheolmu-back",
+    "key": "cheolmu-back-max-load-right-arm",
+    "poses": [
+      7
+    ],
+    "source": "cheolmu-back-repair-19.png",
+    "prompt": "Edit ONLY row3 column2, zero-based pose7, on this THREE-column FOUR-row transparent sprite sheet. Preserve every other figure and native physical head/body/short-chain dimensions. Rear NORTH camera means anatomical RIGHT arm is SCREEN RIGHT. REPLACE the old raised SCREEN LEFT chain arm: LEFT arm must be lowered along SCREEN LEFT hip, left fist x450,y965 holding its own short reserve chain and weight at x425,y1010. Raise RIGHT arm on SCREEN RIGHT: right shoulder x610,y880, right elbow x650,y815, right fist x630,y765, lifted right chain weight x670,y735. The right arm occupies right side of hat; remove all old raised-arm/weapon pixels on left side of hat. This is maximum load matching SAME RIGHT chain of row3col1 early load and row3col3 northward contact. Connected shoulder-elbow-wrist, no crossing spine. Body and head face straight NORTH, no face visible. Same armor, hat, red cloth, grounded boots; no zoom, glow, background, or labels. All outside figure pixels alpha transparent.\n",
+    "output": "cheolmu-back-max-load-right-arm.png",
+    "promptFile": "cheolmu-back-max-load-right-arm.prompt.txt"
+  },
+  {
+    "id": "qingharaider-back",
+    "key": "qingharaider-back-contact-down",
+    "poses": [
+      8
+    ],
+    "source": "qingharaider-back.png",
+    "prompt": "Edit ONLY ROW THREE COLUMN THREE (zero-based pose8, attack contact) in this transparent 3-column 4-row sprite sheet. Preserve all other eleven drawings, canvas, art style, native physical head/body/curved dao sizes and NORTH rear camera. Currently this contact pose erroneously looks like another overhead wind-up. Replace it with the COMPLETED DOWN-FORWARD CUT of the RIGHT-hand curved dao: rear-view raider's torso bends slightly forward toward NORTH away from viewer, hips turn naturally with planted boots, right shoulder rotates forward, right upper arm extends FORWARD on screen-right and elbow lowers to chest-height, right wrist continues past the right side of the torso toward the target. Curved blade goes DOWN and FORWARD from the hand and finishes LOW on the figure's SCREEN-RIGHT beside hip/knee, tip pointing slightly diagonally screen-right, not raised above shoulder. Head stays above shoulders normal neck, exactly same face-hidden rear hair/headband and head size as adjacent figures. Right hand grips the single gold hilt, left empty fist balances screen-left. The low blade trajectory, forward lean and lowered right elbow MUST clearly contrast the overhead pose in row3column2. Same muscular adult proportions, brown vest, red sash, dark boots, natural shoulder/elbow/wrist chain. Keep whole figure and entire dao inside the third cell with at least20px alpha padding, no neighbor collision, no glow, trails, effects, text or floor. Transparent background.\n",
+    "output": "qingharaider-back-contact-down.png",
+    "promptFile": "qingharaider-back-contact-down.prompt.txt"
+  }
+]

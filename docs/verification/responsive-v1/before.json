@@ -1,0 +1,574 @@
+{
+  "sizes": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1200,
+      700
+    ],
+    [
+      1093,
+      614
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1000,
+      620
+    ],
+    [
+      900,
+      600
+    ],
+    [
+      800,
+      600
+    ],
+    [
+      761,
+      614
+    ],
+    [
+      760,
+      600
+    ],
+    [
+      700,
+      600
+    ],
+    [
+      600,
+      546
+    ],
+    [
+      500,
+      700
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      1280,
+      600
+    ],
+    [
+      1000,
+      500
+    ],
+    [
+      800,
+      500
+    ],
+    [
+      640,
+      480
+    ],
+    [
+      390,
+      600
+    ]
+  ],
+  "failures": [
+    {
+      "screen": "lobby",
+      "width": 800,
+      "height": 600,
+      "issues": [
+        "overlap: 새 무인으로 출전 / 세가 창고",
+        "overlap: 새 무인으로 출전 / 세가의 기록",
+        "box overflow: home-stage 800×384/800×388"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 600,
+      "height": 546,
+      "issues": [
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가 창고",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가의 기록",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 강호 입문 안내",
+        "box overflow: home-stage 600×354/600×367"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 1280,
+      "height": 600,
+      "issues": [
+        "overlap: 새 무인으로 출전 / 세가 창고",
+        "box overflow: home-stage 1280×390/1280×397"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 1000,
+      "height": 500,
+      "issues": [
+        "overlap: 새 무인으로 출전 / 세가 창고",
+        "overlap: 새 무인으로 출전 / 세가의 기록",
+        "overlap: 무장과 가방 살펴보기 / 세가의 기록",
+        "overlap: 무장과 가방 살펴보기 / 강호 입문 안내",
+        "box overflow: home-stage 1000×290/1000×388"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 800,
+      "height": 500,
+      "issues": [
+        "overlap: 새 무인으로 출전 / 세가 창고",
+        "overlap: 새 무인으로 출전 / 세가의 기록",
+        "overlap: 무장과 가방 살펴보기 / 세가의 기록",
+        "overlap: 무장과 가방 살펴보기 / 강호 입문 안내",
+        "box overflow: home-stage 800×284/800×388"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 640,
+      "height": 480,
+      "issues": [
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가 창고",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가의 기록",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 강호 입문 안내",
+        "box overflow: home-stage 640×288/640×367"
+      ]
+    },
+    {
+      "screen": "lobby",
+      "width": 390,
+      "height": 600,
+      "issues": [
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가 창고",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 세가의 기록",
+        "overlap: 청청하연무림검객전설Lv.3 · 4개 무공7일 0시간 / 강호 입문 안내",
+        "box overflow: home-stage 390×343/390×367"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1440,
+      "height": 900,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1366,
+      "height": 768,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1280,
+      "height": 720,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1200,
+      "height": 700,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1093,
+      "height": 614,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1024,
+      "height": 768,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1000,
+      "height": 620,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 900,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 800,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 761,
+      "height": 614,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 760,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 700,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 600,
+      "height": 546,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 500,
+      "height": 700,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포",
+        "box overflow: inventory-columns 500×442/500×455"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 390,
+      "height": 844,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1280,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 1000,
+      "height": 500,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포",
+        "box overflow: inventory-columns 1000×296/1000×309"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 800,
+      "height": 500,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포",
+        "box overflow: inventory-columns 800×296/800×309"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 640,
+      "height": 480,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포",
+        "box overflow: inventory-columns 640×281/640×285"
+      ]
+    },
+    {
+      "screen": "bag",
+      "width": 390,
+      "height": 600,
+      "issues": [
+        "overlap:  / 금창약",
+        "overlap:  / 무명 도포",
+        "box overflow: inventory-columns 390×342/390×355"
+      ]
+    },
+    {
+      "screen": "item",
+      "width": 1000,
+      "height": 500,
+      "issues": [
+        "outside: 정리판으로",
+        "outside: 창고로",
+        "box overflow: dialog wide inventory-workspace 1000×500/1000×557",
+        "box overflow: inventory-columns 1000×296/1000×397"
+      ]
+    },
+    {
+      "screen": "item",
+      "width": 800,
+      "height": 500,
+      "issues": [
+        "outside: 정리판으로",
+        "outside: 창고로",
+        "box overflow: dialog wide inventory-workspace 800×500/800×557",
+        "box overflow: inventory-columns 800×296/800×397"
+      ]
+    },
+    {
+      "screen": "item",
+      "width": 640,
+      "height": 480,
+      "issues": [
+        "outside: 정리판으로",
+        "outside: 창고로",
+        "box overflow: inventory-columns 640×281/640×326"
+      ]
+    },
+    {
+      "screen": "item",
+      "width": 390,
+      "height": 600,
+      "issues": [
+        "box overflow: inventory-columns 390×342/390×387"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 1000,
+      "height": 620,
+      "issues": [
+        "box overflow: growth 952×588/952×596"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 900,
+      "height": 600,
+      "issues": [
+        "outside: 무공 자세히",
+        "box overflow: growth 852×568/852×620"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 800,
+      "height": 600,
+      "issues": [
+        "outside: 새 무공화산매화검법Lv.1 입문넓은 검로 · 빠른 회피횡베기Space 매화보 · 짧은 무적 회피선택하기 →",
+        "outside: 새 무공무당태극검법Lv.1 입문찌르기 · 반격직선 찌르기Space 흘려받기 · 타이밍 반격선택하기 →",
+        "outside: 새 무공천마검법Lv.1 입문강한 공격 · 체력 회복강한 내려베기Space 혈기탈취 · 적중 시 체력 회복선택하기 →",
+        "outside: 무공 자세히",
+        "box overflow: growth 752×568/752×658"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 761,
+      "height": 614,
+      "issues": [
+        "outside: 새 무공화산매화검법Lv.1 입문넓은 검로 · 빠른 회피횡베기Space 매화보 · 짧은 무적 회피선택하기 →",
+        "outside: 새 무공무당태극검법Lv.1 입문찌르기 · 반격직선 찌르기Space 흘려받기 · 타이밍 반격선택하기 →",
+        "outside: 새 무공천마검법Lv.1 입문강한 공격 · 체력 회복강한 내려베기Space 혈기탈취 · 적중 시 체력 회복선택하기 →",
+        "outside: 무공 자세히",
+        "box overflow: growth 713×582/713×716"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 1000,
+      "height": 500,
+      "issues": [
+        "outside: 새 무공화산매화검법Lv.1 입문넓은 검로 · 빠른 회피횡베기Space 매화보 · 짧은 무적 회피선택하기 →",
+        "outside: 새 무공무당태극검법Lv.1 입문찌르기 · 반격직선 찌르기Space 흘려받기 · 타이밍 반격선택하기 →",
+        "outside: 새 무공천마검법Lv.1 입문강한 공격 · 체력 회복강한 내려베기Space 혈기탈취 · 적중 시 체력 회복선택하기 →",
+        "outside: 무공 자세히",
+        "box overflow: growth 952×468/952×596"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 800,
+      "height": 500,
+      "issues": [
+        "outside: 새 무공화산매화검법Lv.1 입문넓은 검로 · 빠른 회피횡베기Space 매화보 · 짧은 무적 회피선택하기 →",
+        "outside: 새 무공무당태극검법Lv.1 입문찌르기 · 반격직선 찌르기Space 흘려받기 · 타이밍 반격선택하기 →",
+        "outside: 새 무공천마검법Lv.1 입문강한 공격 · 체력 회복강한 내려베기Space 혈기탈취 · 적중 시 체력 회복선택하기 →",
+        "outside: 무공 자세히",
+        "box overflow: growth 752×468/752×658"
+      ]
+    },
+    {
+      "screen": "growth",
+      "width": 640,
+      "height": 480,
+      "issues": [
+        "outside: 이전 무공 후보",
+        "outside: 다음 무공 후보",
+        "outside: 무공 자세히",
+        "box overflow: growth 592×448/592×486"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 800,
+      "height": 600,
+      "issues": [
+        "box overflow: hud 800×600/817×600"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 761,
+      "height": 614,
+      "issues": [
+        "outside: 일시 정지",
+        "box overflow: hud 761×614/817×614",
+        "box overflow: panel ultimate-panel  55×311/64×311"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 760,
+      "height": 600,
+      "issues": [
+        "outside: 일시 정지",
+        "box overflow: hud 760×600/793×600"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 700,
+      "height": 600,
+      "issues": [
+        "outside: 가방 Tab",
+        "outside: 일시 정지",
+        "box overflow: hud 700×600/793×600",
+        "box overflow: panel ultimate-panel  36×311/52×311"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 600,
+      "height": 546,
+      "issues": [
+        "outside: 가방 Tab",
+        "outside: 일시 정지",
+        "outside: 빈 무공 4",
+        "box overflow: hud 600×546/793×546",
+        "box overflow: panel ultimate-panel  24×311/52×311"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 500,
+      "height": 700,
+      "issues": [
+        "outside: 빈 무공 4",
+        "box overflow: hud 500×700/548×700",
+        "box overflow: panel progress-panel 24×296/105×296",
+        "box overflow: panel art-switch 24×243/251×243"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 390,
+      "height": 844,
+      "issues": [
+        "outside: 가방 Tab",
+        "outside: 일시 정지",
+        "outside: 빈 무공 2",
+        "outside: 빈 무공 3",
+        "outside: 빈 무공 4",
+        "box overflow: hud 390×844/548×844",
+        "box overflow: panel progress-panel 24×296/105×296",
+        "box overflow: panel art-switch 24×243/251×243"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 800,
+      "height": 500,
+      "issues": [
+        "box overflow: hud 800×500/817×500"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 640,
+      "height": 480,
+      "issues": [
+        "outside: 가방 Tab",
+        "outside: 일시 정지",
+        "outside: 빈 무공 4",
+        "box overflow: hud 640×480/793×480",
+        "box overflow: panel ultimate-panel  24×311/52×311"
+      ]
+    },
+    {
+      "screen": "hud",
+      "width": 390,
+      "height": 600,
+      "issues": [
+        "outside: 가방 Tab",
+        "outside: 일시 정지",
+        "outside: 빈 무공 2",
+        "outside: 빈 무공 3",
+        "outside: 빈 무공 4",
+        "box overflow: hud 390×600/548×600",
+        "box overflow: panel progress-panel 24×296/105×296",
+        "box overflow: panel art-switch 24×243/251×243"
+      ]
+    }
+  ]
+}

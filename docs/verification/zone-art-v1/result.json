@@ -1,0 +1,16 @@
+{
+  "unitTests": 324,
+  "localBrowserDistinctScenarios": 57,
+  "publicBrowserTests": 2,
+  "responsiveKoreanStates": 180,
+  "responsiveEnglishStates": 25,
+  "coreResolutions": [[1440,900],[1366,768],[1093,614]],
+  "languages": ["ko","en","ja","zh-CN","zh-TW"],
+  "zoneArtworkKinds": 12,
+  "publicVerifiedFiles": 10,
+  "typecheckAndBuild": "passed",
+  "finalResponsiveFailures": [],
+  "saveFixtures": "isolated Playwright browser contexts only",
+  "visualReview": ["generated atlases", "bag 1093x614", "bag 1366x768", "snow warmth and cold", "blood smoke seal safe", "fire and chain"],
+  "rerunNotes": "Final 37-scenario run: 32 passed, five 1093x614 button bounds were sampled during modal entry animation. Added finite-animation completion wait; all five passed on rerun. Existing 20 wave-progression scenarios passed in the preceding run. Final local unique covered scenarios: 57."
+}

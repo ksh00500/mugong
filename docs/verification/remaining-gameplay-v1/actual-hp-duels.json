@@ -1,0 +1,3840 @@
+{
+  "methodology": "320 actual-HP scripted boss duels, 120s cap, two small potions, fixed growth/equipment tiers, reactive circle/range policy. No HP replenishment or human win-rate claim. Environmental rules stay active.",
+  "virtualSeconds": 6496.166666666719,
+  "rows": [
+    {
+      "boss": "0-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 16.36666666666664,
+      "hp": 120.6,
+      "bossHp": 0,
+      "damageTaken": 39.400000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 15.833333333333288,
+      "hp": 90.89999999999998,
+      "bossHp": 0,
+      "damageTaken": 69.10000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 16.43333333333331,
+      "hp": 120.49060037050363,
+      "bossHp": 0,
+      "damageTaken": 140.26000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 17.533333333333363,
+      "hp": 0,
+      "bossHp": 70.61795840000008,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "흑풍채주 마대봉",
+        "bossId": "0-1"
+      }
+    },
+    {
+      "boss": "0-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 23.666666666667002,
+      "hp": 87.27999999999997,
+      "bossHp": 0,
+      "damageTaken": 72.72000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.799999999999955,
+      "hp": 104.62480000000001,
+      "bossHp": 0,
+      "damageTaken": 55.37519999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 17.70000000000004,
+      "hp": 41.22,
+      "bossHp": 0,
+      "damageTaken": 118.78,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 18.733333333333423,
+      "hp": 109.36600000000003,
+      "bossHp": 0,
+      "damageTaken": 50.63399999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 17.666666666666703,
+      "hp": 60.807999999999964,
+      "bossHp": 0,
+      "damageTaken": 139.19200000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 18.066666666666723,
+      "hp": 33.08,
+      "bossHp": 0,
+      "damageTaken": 166.91999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-2",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 15.899999999999954,
+      "hp": 0,
+      "bossHp": 43.38402300092086,
+      "damageTaken": 262.189184,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "청하표두 노진",
+        "bossId": "0-2"
+      }
+    },
+    {
+      "boss": "0-2",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 20.033333333333488,
+      "hp": 0,
+      "bossHp": 112.30420959999952,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "적의 근접 공격"
+      }
+    },
+    {
+      "boss": "0-2",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 16.36666666666664,
+      "hp": 0,
+      "bossHp": 535.6633041999967,
+      "damageTaken": 199.99999999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "적의 근접 공격"
+      }
+    },
+    {
+      "boss": "0-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 17.400000000000023,
+      "hp": 36.110719999999986,
+      "bossHp": 0,
+      "damageTaken": 163.88928,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-2",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 16.399999999999974,
+      "hp": 0,
+      "bossHp": 250.11374163940002,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "청하표두 노진",
+        "bossId": "0-2"
+      }
+    },
+    {
+      "boss": "0-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 22.233333333333597,
+      "hp": 57.651999999999994,
+      "bossHp": 0,
+      "damageTaken": 142.348,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 21.933333333333582,
+      "hp": 122.79999999999997,
+      "bossHp": 0,
+      "damageTaken": 117.20000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 18.900000000000098,
+      "hp": 181.39999999999998,
+      "bossHp": 0,
+      "damageTaken": 58.60000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 18.2333333333334,
+      "hp": 37.546489088000065,
+      "bossHp": 0,
+      "damageTaken": 270.4000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 15.799999999999955,
+      "hp": 119.60879999999999,
+      "bossHp": 0,
+      "damageTaken": 120.39120000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 24.433333333333707,
+      "hp": 240,
+      "bossHp": 0,
+      "damageTaken": 0,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 19.866666666666813,
+      "hp": 130.074,
+      "bossHp": 0,
+      "damageTaken": 109.92599999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.833333333333577,
+      "hp": 152.09999999999997,
+      "bossHp": 0,
+      "damageTaken": 87.90000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 36.76666666666714,
+      "hp": 228.81,
+      "bossHp": 0,
+      "damageTaken": 11.189999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 20.800000000000193,
+      "hp": 226.7,
+      "bossHp": 0,
+      "damageTaken": 53.30000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 23.400000000000322,
+      "hp": 229.29999999999998,
+      "bossHp": 0,
+      "damageTaken": 50.70000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "0-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 16.16666666666663,
+      "hp": 43.27716769278122,
+      "bossHp": 0,
+      "damageTaken": 292.92,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.466666666666693,
+      "hp": 146.0112,
+      "bossHp": 0,
+      "damageTaken": 133.9888,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 25.233333333333746,
+      "hp": 2.659999999999986,
+      "bossHp": 0,
+      "damageTaken": 277.34000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.933333333333287,
+      "hp": 162.76446999999996,
+      "bossHp": 0,
+      "damageTaken": 117.23553000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.500000000000227,
+      "hp": 105.89999999999998,
+      "bossHp": 0,
+      "damageTaken": 174.10000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "0-4",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 21.866666666666912,
+      "hp": 0,
+      "bossHp": 81.45031000000164,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "하북패도 한무극",
+        "bossId": "0-4"
+      }
+    },
+    {
+      "boss": "1-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 16.56666666666665,
+      "hp": 46.60000000000005,
+      "bossHp": 0,
+      "damageTaken": 113.39999999999995,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 15.633333333333288,
+      "hp": 86.40000000000003,
+      "bossHp": 0,
+      "damageTaken": 73.59999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 15.499999999999956,
+      "hp": 137.4956051886081,
+      "bossHp": 0,
+      "damageTaken": 134.69999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.266666666666783,
+      "hp": 26.88200000000003,
+      "bossHp": 0,
+      "damageTaken": 133.11799999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 21.333333333333552,
+      "hp": 0,
+      "bossHp": 121.94792499999953,
+      "damageTaken": 159.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "청린사왕",
+        "bossId": "1-1"
+      }
+    },
+    {
+      "boss": "1-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.633333333333288,
+      "hp": 68.63379999999997,
+      "bossHp": 0,
+      "damageTaken": 91.36620000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 16.533333333333314,
+      "hp": 54.80000000000004,
+      "bossHp": 0,
+      "damageTaken": 105.19999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.63333333333337,
+      "hp": 71.72000000000006,
+      "bossHp": 0,
+      "damageTaken": 88.27999999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 24.3333333333337,
+      "hp": 14.800000000000043,
+      "bossHp": 0,
+      "damageTaken": 185.1999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.93333333333378,
+      "hp": 104.20000000000014,
+      "bossHp": 0,
+      "damageTaken": 95.79999999999986,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 21.400000000000222,
+      "hp": 154.3908880097281,
+      "bossHp": 0,
+      "damageTaken": 78.19999999999985,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 26.633333333333816,
+      "hp": 80.80479999999987,
+      "bossHp": 0,
+      "damageTaken": 119.19520000000013,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 24.26666666666703,
+      "hp": 21.080000000000005,
+      "bossHp": 0,
+      "damageTaken": 178.9199999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 21.800000000000242,
+      "hp": 113.09599999999989,
+      "bossHp": 0,
+      "damageTaken": 86.90400000000011,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 22.666666666666952,
+      "hp": 26.799999999999986,
+      "bossHp": 0,
+      "damageTaken": 173.19999999999993,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-2",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 34.90000000000058,
+      "hp": 0,
+      "bossHp": 220.97096650000086,
+      "damageTaken": 199.99999999999983,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "hazard",
+        "label": "독의 묵칠",
+        "bossId": "1-2"
+      }
+    },
+    {
+      "boss": "1-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 23.93333333333368,
+      "hp": 177.04999999999976,
+      "bossHp": 0,
+      "damageTaken": 62.950000000000244,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.93333333333378,
+      "hp": 190.09999999999982,
+      "bossHp": 0,
+      "damageTaken": 49.900000000000176,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 22.100000000000257,
+      "hp": 151.7798828024629,
+      "bossHp": 0,
+      "damageTaken": 93.95000000000022,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.70000000000004,
+      "hp": 176.19799999999987,
+      "bossHp": 0,
+      "damageTaken": 63.802000000000135,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 27.73333333333387,
+      "hp": 131.0999999999997,
+      "bossHp": 0,
+      "damageTaken": 108.90000000000029,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 21.433333333333557,
+      "hp": 192.5160000000001,
+      "bossHp": 0,
+      "damageTaken": 47.483999999999895,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 23.633333333333667,
+      "hp": 144.6499999999998,
+      "bossHp": 0,
+      "damageTaken": 95.3500000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 48.0666666666665,
+      "hp": 51.099999999999746,
+      "bossHp": 0,
+      "damageTaken": 188.90000000000038,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 21.900000000000247,
+      "hp": 160.35999999999996,
+      "bossHp": 0,
+      "damageTaken": 119.64000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 27.53333333333386,
+      "hp": 161.40999999999997,
+      "bossHp": 0,
+      "damageTaken": 118.59000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 20.300000000000168,
+      "hp": 172.83029445553262,
+      "bossHp": 0,
+      "damageTaken": 131.04000000000008,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 16.76666666666666,
+      "hp": 167.70939999999993,
+      "bossHp": 0,
+      "damageTaken": 112.29060000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 28.3333333333339,
+      "hp": 0,
+      "bossHp": 406.37905999999214,
+      "damageTaken": 280.00000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "만독곡주 사공염",
+        "bossId": "1-4"
+      }
+    },
+    {
+      "boss": "1-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.566666666666748,
+      "hp": 178.33239999999995,
+      "bossHp": 0,
+      "damageTaken": 101.66760000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 23.466666666666992,
+      "hp": 128.26,
+      "bossHp": 0,
+      "damageTaken": 151.74,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "1-4",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 27.33333333333385,
+      "hp": 0,
+      "bossHp": 1894.3958874999996,
+      "damageTaken": 279.99999999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "만독곡주 사공염",
+        "bossId": "1-4"
+      }
+    },
+    {
+      "boss": "2-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 20.600000000000183,
+      "hp": 63.89999999999999,
+      "bossHp": 0,
+      "damageTaken": 96.10000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 17.30000000000002,
+      "hp": 63.89999999999999,
+      "bossHp": 0,
+      "damageTaken": 96.10000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 17.43333333333336,
+      "hp": 110.4646371840001,
+      "bossHp": 0,
+      "damageTaken": 187.64000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-1",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 14.033333333333294,
+      "hp": 0,
+      "bossHp": 473.9498508799997,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "낙검객 우진",
+        "bossId": "2-1"
+      }
+    },
+    {
+      "boss": "2-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 28.06666666666722,
+      "hp": 4.899999999999988,
+      "bossHp": 0,
+      "damageTaken": 155.10000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-1",
+      "art": "shaolin",
+      "outcome": "dead",
+      "seconds": 15.766666666666621,
+      "hp": 0,
+      "bossHp": 209.2318983919997,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "낙검객 우진",
+        "bossId": "2-1"
+      }
+    },
+    {
+      "boss": "2-1",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 19.466666666666793,
+      "hp": 0,
+      "bossHp": 240.08695825069995,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "낙검객 우진",
+        "bossId": "2-1"
+      }
+    },
+    {
+      "boss": "2-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 20.133333333333493,
+      "hp": 5.417999999999992,
+      "bossHp": 0,
+      "damageTaken": 154.582,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.033333333333438,
+      "hp": 0.775999999999982,
+      "bossHp": 0,
+      "damageTaken": 199.22400000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-2",
+      "art": "wudang",
+      "outcome": "dead",
+      "seconds": 16.49999999999998,
+      "hp": 0,
+      "bossHp": 198.39926749999972,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "쌍검 백홍",
+        "bossId": "2-2"
+      }
+    },
+    {
+      "boss": "2-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 15.766666666666621,
+      "hp": 42.95420415999996,
+      "bossHp": 0,
+      "damageTaken": 240.05600000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-2",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 20.866666666666863,
+      "hp": 0,
+      "bossHp": 48.224905479999734,
+      "damageTaken": 200.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "쌍검 백홍",
+        "bossId": "2-2"
+      }
+    },
+    {
+      "boss": "2-2",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 21.066666666666872,
+      "hp": 0,
+      "bossHp": 566.6621967999971,
+      "damageTaken": 200.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "쌍검 백홍",
+        "bossId": "2-2"
+      }
+    },
+    {
+      "boss": "2-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 17.50000000000003,
+      "hp": 40.381039999999985,
+      "bossHp": 0,
+      "damageTaken": 159.61896,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-2",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 20.233333333333498,
+      "hp": 0,
+      "bossHp": 27.753519949300046,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "쌍검 백홍",
+        "bossId": "2-2"
+      }
+    },
+    {
+      "boss": "2-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.76666666666671,
+      "hp": 36.33999999999996,
+      "bossHp": 0,
+      "damageTaken": 163.66000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 24.966666666667066,
+      "hp": 202.7,
+      "bossHp": 0,
+      "damageTaken": 37.30000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.33333333333375,
+      "hp": 136.4,
+      "bossHp": 0,
+      "damageTaken": 103.6,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 21.000000000000203,
+      "hp": 0,
+      "bossHp": 103.63252631666066,
+      "damageTaken": 265.8190583144448,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "검귀 무명",
+        "bossId": "2-3"
+      }
+    },
+    {
+      "boss": "2-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.200000000000113,
+      "hp": 20.27640000000003,
+      "bossHp": 0,
+      "damageTaken": 219.72359999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 28.3333333333339,
+      "hp": 90.79999999999997,
+      "bossHp": 0,
+      "damageTaken": 149.20000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 24.900000000000396,
+      "hp": 109.83300000000003,
+      "bossHp": 0,
+      "damageTaken": 130.16699999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 29.166666666667275,
+      "hp": 165.39999999999998,
+      "bossHp": 0,
+      "damageTaken": 74.60000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 24.93333333333373,
+      "hp": 146.75,
+      "bossHp": 0,
+      "damageTaken": 93.25,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 23.666666666667002,
+      "hp": 78.012,
+      "bossHp": 0,
+      "damageTaken": 201.988,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.900000000000446,
+      "hp": 105.78799999999998,
+      "bossHp": 0,
+      "damageTaken": 174.21200000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 15.733333333333288,
+      "hp": 0,
+      "bossHp": 445.0846007315542,
+      "damageTaken": 318.5584627540018,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "천검노인 백운",
+        "bossId": "2-4"
+      }
+    },
+    {
+      "boss": "2-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 20.700000000000188,
+      "hp": 24.340831999999963,
+      "bossHp": 0,
+      "damageTaken": 255.65916800000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 24.40000000000037,
+      "hp": 0,
+      "bossHp": 521.6391478749966,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "천검노인 백운",
+        "bossId": "2-4"
+      }
+    },
+    {
+      "boss": "2-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.566666666666748,
+      "hp": 146.050714,
+      "bossHp": 0,
+      "damageTaken": 133.949286,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 24.20000000000036,
+      "hp": 99.06799999999998,
+      "bossHp": 0,
+      "damageTaken": 180.93200000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "2-4",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 26.166666666667126,
+      "hp": 17.090000000000018,
+      "bossHp": 0,
+      "damageTaken": 262.90999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 17.36666666666669,
+      "hp": 51.120000000000005,
+      "bossHp": 0,
+      "damageTaken": 108.88,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 17.666666666666703,
+      "hp": 46.56,
+      "bossHp": 0,
+      "damageTaken": 113.44,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 16.29999999999997,
+      "hp": 90.32202470400007,
+      "bossHp": 0,
+      "damageTaken": 200.42000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-1",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 17.666666666666703,
+      "hp": 0,
+      "bossHp": 216.93393919999994,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "설원창객 목진",
+        "bossId": "3-1"
+      }
+    },
+    {
+      "boss": "3-1",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 21.866666666666912,
+      "hp": 0,
+      "bossHp": 38.64970999999946,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "설원창객 목진",
+        "bossId": "3-1"
+      }
+    },
+    {
+      "boss": "3-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.766666666666621,
+      "hp": 37.29219999999998,
+      "bossHp": 0,
+      "damageTaken": 122.70780000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-1",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 15.199999999999957,
+      "hp": 0,
+      "bossHp": 110.7896503340001,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "설원창객 목진",
+        "bossId": "3-1"
+      }
+    },
+    {
+      "boss": "3-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.533333333333363,
+      "hp": 38.89199999999999,
+      "bossHp": 0,
+      "damageTaken": 121.108,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.733333333333473,
+      "hp": 33,
+      "bossHp": 0,
+      "damageTaken": 166.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 20.766666666666858,
+      "hp": 99.80000000000004,
+      "bossHp": 0,
+      "damageTaken": 100.19999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 21.833333333333577,
+      "hp": 52.41219840000002,
+      "bossHp": 0,
+      "damageTaken": 167.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 22.566666666666947,
+      "hp": 46.35999999999996,
+      "bossHp": 0,
+      "damageTaken": 153.64000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 24.233333333333697,
+      "hp": 4,
+      "bossHp": 0,
+      "damageTaken": 195.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 19.900000000000148,
+      "hp": 49.70000000000002,
+      "bossHp": 0,
+      "damageTaken": 150.29999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.700000000000237,
+      "hp": 33,
+      "bossHp": 0,
+      "damageTaken": 166.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-2",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 24.433333333333707,
+      "hp": 0,
+      "bossHp": 765.3045745000011,
+      "damageTaken": 199.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "field",
+        "label": "한기 장판"
+      }
+    },
+    {
+      "boss": "3-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.566666666666947,
+      "hp": 54.39999999999995,
+      "bossHp": 0,
+      "damageTaken": 185.60000000000008,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 18.933333333333433,
+      "hp": 166.6,
+      "bossHp": 0,
+      "damageTaken": 73.4,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-3",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 16.399999999999974,
+      "hp": 0,
+      "bossHp": 178.68878151372408,
+      "damageTaken": 289.9965690880001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "백설노괴",
+        "bossId": "3-3"
+      }
+    },
+    {
+      "boss": "3-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 15.666666666666622,
+      "hp": 89.51559999999994,
+      "bossHp": 0,
+      "damageTaken": 150.4844000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-3",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 29.433333333333955,
+      "hp": 0,
+      "bossHp": 683.6447680000038,
+      "damageTaken": 240.00000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "백설노괴",
+        "bossId": "3-3"
+      }
+    },
+    {
+      "boss": "3-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.600000000000083,
+      "hp": 93.795,
+      "bossHp": 0,
+      "damageTaken": 146.20499999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.966666666666917,
+      "hp": 25.799999999999947,
+      "bossHp": 0,
+      "damageTaken": 214.20000000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 13.433333333333296,
+      "hp": 141.03,
+      "bossHp": 0,
+      "damageTaken": 98.97,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 24.40000000000037,
+      "hp": 10.40000000000003,
+      "bossHp": 0,
+      "damageTaken": 269.59999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 27.6666666666672,
+      "hp": 109.82000000000002,
+      "bossHp": 0,
+      "damageTaken": 170.17999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-4",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 20.400000000000173,
+      "hp": 0,
+      "bossHp": 153.07218567019513,
+      "damageTaken": 265.60164731862193,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "빙궁주 한설",
+        "bossId": "3-4"
+      }
+    },
+    {
+      "boss": "3-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.533333333333363,
+      "hp": 76.79224000000002,
+      "bossHp": 0,
+      "damageTaken": 203.20775999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-4",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 24.46666666666704,
+      "hp": 0,
+      "bossHp": 1081.3324299999913,
+      "damageTaken": 279.99999999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "빙궁주 한설",
+        "bossId": "3-4"
+      }
+    },
+    {
+      "boss": "3-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 20.266666666666833,
+      "hp": 130.58290000000002,
+      "bossHp": 0,
+      "damageTaken": 149.41709999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "3-4",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 20.400000000000173,
+      "hp": 0,
+      "bossHp": 861.3473580850005,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "빙궁주 한설",
+        "bossId": "3-4"
+      }
+    },
+    {
+      "boss": "3-4",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 24.46666666666704,
+      "hp": 0,
+      "bossHp": 2248.672135,
+      "damageTaken": 279.99999999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "빙궁주 한설",
+        "bossId": "3-4"
+      }
+    },
+    {
+      "boss": "4-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 16.09999999999996,
+      "hp": 55.98399999999998,
+      "bossHp": 0,
+      "damageTaken": 104.01600000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 15.03333333333329,
+      "hp": 39.55599999999997,
+      "bossHp": 0,
+      "damageTaken": 120.44400000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 15.03333333333329,
+      "hp": 98.98476288000005,
+      "bossHp": 0,
+      "damageTaken": 200.43200000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-1",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 17.16666666666668,
+      "hp": 0,
+      "bossHp": 87.42103040000003,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "파계승 공허",
+        "bossId": "4-1"
+      }
+    },
+    {
+      "boss": "4-1",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 19.166666666666778,
+      "hp": 0,
+      "bossHp": 251.10695499999946,
+      "damageTaken": 160.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "파계승 공허",
+        "bossId": "4-1"
+      }
+    },
+    {
+      "boss": "4-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.466666666666622,
+      "hp": 31.231599999999993,
+      "bossHp": 0,
+      "damageTaken": 128.76839999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-1",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 15.03333333333329,
+      "hp": 0,
+      "bossHp": 92.17519909400005,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "파계승 공허",
+        "bossId": "4-1"
+      }
+    },
+    {
+      "boss": "4-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 16.96666666666667,
+      "hp": 62.58199999999999,
+      "bossHp": 0,
+      "damageTaken": 97.418,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 20.900000000000198,
+      "hp": 133.84,
+      "bossHp": 0,
+      "damageTaken": 66.16,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 21.766666666666907,
+      "hp": 69.87999999999998,
+      "bossHp": 0,
+      "damageTaken": 130.12,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 19.433333333333458,
+      "hp": 75.54326868787197,
+      "bossHp": 0,
+      "damageTaken": 174.08,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 22.666666666666952,
+      "hp": 106.98063999999997,
+      "bossHp": 0,
+      "damageTaken": 93.01936000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 23.86666666666701,
+      "hp": 0,
+      "bossHp": 179.533930599997,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "철나한 도원",
+        "bossId": "4-2"
+      }
+    },
+    {
+      "boss": "4-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.666666666666753,
+      "hp": 148.56679999999997,
+      "bossHp": 0,
+      "damageTaken": 51.43320000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.200000000000212,
+      "hp": 45.91999999999997,
+      "bossHp": 0,
+      "damageTaken": 154.08000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 13.833333333333295,
+      "hp": 66.31999999999998,
+      "bossHp": 0,
+      "damageTaken": 133.68,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-3",
+      "art": "huashan",
+      "outcome": "dead",
+      "seconds": 21.266666666666882,
+      "hp": 0,
+      "bossHp": 81.82277632000114,
+      "damageTaken": 240.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "금강두타 불명",
+        "bossId": "4-3"
+      }
+    },
+    {
+      "boss": "4-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 21.366666666666887,
+      "hp": 21.699999999999974,
+      "bossHp": 0,
+      "damageTaken": 218.30000000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-3",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 16.96666666666667,
+      "hp": 0,
+      "bossHp": 373.0985005932731,
+      "damageTaken": 279.4733050880002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "금강두타 불명",
+        "bossId": "4-3"
+      }
+    },
+    {
+      "boss": "4-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.133333333333344,
+      "hp": 29.890399999999985,
+      "bossHp": 0,
+      "damageTaken": 210.10960000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-3",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 17.30000000000002,
+      "hp": 0,
+      "bossHp": 757.4774880000035,
+      "damageTaken": 240,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "금강두타 불명",
+        "bossId": "4-3"
+      }
+    },
+    {
+      "boss": "4-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 20.133333333333493,
+      "hp": 30.587999999999976,
+      "bossHp": 0,
+      "damageTaken": 209.41200000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-3",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 17.000000000000004,
+      "hp": 0,
+      "bossHp": 772.3787324671999,
+      "damageTaken": 240,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "금강두타 불명",
+        "bossId": "4-3"
+      }
+    },
+    {
+      "boss": "4-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 23.100000000000307,
+      "hp": 113.83000000000003,
+      "bossHp": 0,
+      "damageTaken": 126.16999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 23.400000000000322,
+      "hp": 231.64,
+      "bossHp": 0,
+      "damageTaken": 48.360000000000014,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 26.06666666666712,
+      "hp": 110.73999999999995,
+      "bossHp": 0,
+      "damageTaken": 169.26000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 16.49999999999998,
+      "hp": 0,
+      "bossHp": 204.98240717304742,
+      "damageTaken": 321.210078,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "폐사주지 무진",
+        "bossId": "4-4"
+      }
+    },
+    {
+      "boss": "4-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.066666666666674,
+      "hp": 132.91960000000006,
+      "bossHp": 0,
+      "damageTaken": 147.08039999999994,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 21.000000000000203,
+      "hp": 0,
+      "bossHp": 1035.118139999992,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "폐사주지 무진",
+        "bossId": "4-4"
+      }
+    },
+    {
+      "boss": "4-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.733333333333423,
+      "hp": 205.59285999999997,
+      "bossHp": 0,
+      "damageTaken": 74.40714000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 24.966666666667066,
+      "hp": 280,
+      "bossHp": 0,
+      "damageTaken": 0,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "4-4",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 28.433333333333906,
+      "hp": 0,
+      "bossHp": 33.048344875001916,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "폐사주지 무진",
+        "bossId": "4-4"
+      }
+    },
+    {
+      "boss": "5-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.366666666666788,
+      "hp": 17.34000000000001,
+      "bossHp": 0,
+      "damageTaken": 142.65999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 18.533333333333413,
+      "hp": 28.60000000000001,
+      "bossHp": 0,
+      "damageTaken": 131.39999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 19.200000000000113,
+      "hp": 105.99718630400007,
+      "bossHp": 0,
+      "damageTaken": 172.15999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 22.333333333333602,
+      "hp": 28.172000000000004,
+      "bossHp": 0,
+      "damageTaken": 131.82799999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 13.599999999999962,
+      "hp": 0,
+      "bossHp": 418.6393199999993,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "죽엽살수 청비",
+        "bossId": "5-1"
+      }
+    },
+    {
+      "boss": "5-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.49999999999998,
+      "hp": 78.03879999999998,
+      "bossHp": 0,
+      "damageTaken": 81.96120000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 17.50000000000003,
+      "hp": 17.34000000000001,
+      "bossHp": 0,
+      "damageTaken": 142.65999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-1",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 13.599999999999962,
+      "hp": 0,
+      "bossHp": 215.54142500000023,
+      "damageTaken": 160,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "죽엽살수 청비",
+        "bossId": "5-1"
+      }
+    },
+    {
+      "boss": "5-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.033333333333438,
+      "hp": 83.99999999999996,
+      "bossHp": 0,
+      "damageTaken": 116.00000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 17.76666666666671,
+      "hp": 29.339999999999975,
+      "bossHp": 0,
+      "damageTaken": 170.66000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-2",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 13.933333333333294,
+      "hp": 0,
+      "bossHp": 75.8464348841316,
+      "damageTaken": 247.288,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "취봉객 노개",
+        "bossId": "5-2"
+      }
+    },
+    {
+      "boss": "5-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.666666666666803,
+      "hp": 25.336159999999975,
+      "bossHp": 0,
+      "damageTaken": 174.66384000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-2",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 15.999999999999954,
+      "hp": 0,
+      "bossHp": 370.9782459999966,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "취봉객 노개",
+        "bossId": "5-2"
+      }
+    },
+    {
+      "boss": "5-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.666666666666654,
+      "hp": 64.58239999999998,
+      "bossHp": 0,
+      "damageTaken": 135.41760000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 19.366666666666788,
+      "hp": 6.639999999999976,
+      "bossHp": 0,
+      "damageTaken": 193.36000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 16.36666666666664,
+      "hp": 61.30399999999998,
+      "bossHp": 0,
+      "damageTaken": 138.69600000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.066666666666922,
+      "hp": 68.09999999999998,
+      "bossHp": 0,
+      "damageTaken": 171.90000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 20.433333333333508,
+      "hp": 112.69999999999999,
+      "bossHp": 0,
+      "damageTaken": 127.30000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 17.63333333333337,
+      "hp": 35.443194404044846,
+      "bossHp": 0,
+      "damageTaken": 288.20000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 15.199999999999957,
+      "hp": 121.85360000000001,
+      "bossHp": 0,
+      "damageTaken": 118.14639999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 19.533333333333463,
+      "hp": 0,
+      "bossHp": 548.3420160000039,
+      "damageTaken": 240.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "hazard",
+        "label": "청죽검객 연청",
+        "bossId": "5-3"
+      }
+    },
+    {
+      "boss": "5-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 19.266666666666783,
+      "hp": 60.64800000000002,
+      "bossHp": 0,
+      "damageTaken": 179.35199999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 22.033333333333587,
+      "hp": 143.2,
+      "bossHp": 0,
+      "damageTaken": 96.80000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 18.566666666666748,
+      "hp": 83.02999999999999,
+      "bossHp": 0,
+      "damageTaken": 156.97000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "5-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 23.233333333333647,
+      "hp": 34.49999999999996,
+      "bossHp": 0,
+      "damageTaken": 245.50000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 26.500000000000476,
+      "hp": 67.29999999999993,
+      "bossHp": 0,
+      "damageTaken": 212.70000000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 18.900000000000098,
+      "hp": 163.6532186936165,
+      "bossHp": 0,
+      "damageTaken": 142.20000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 18.333333333333403,
+      "hp": 107.38040000000004,
+      "bossHp": 0,
+      "damageTaken": 172.61959999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 29.06666666666727,
+      "hp": 18.040000000000013,
+      "bossHp": 0,
+      "damageTaken": 261.96000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 17.96666666666672,
+      "hp": 143.86149999999995,
+      "bossHp": 0,
+      "damageTaken": 136.13850000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 22.766666666666957,
+      "hp": 62.89999999999998,
+      "bossHp": 0,
+      "damageTaken": 217.10000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2
+    },
+    {
+      "boss": "5-4",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 28.86666666666726,
+      "hp": 0,
+      "bossHp": 328.77523750000057,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "죽림은사 송월",
+        "bossId": "5-4"
+      }
+    },
+    {
+      "boss": "6-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 18.03333333333339,
+      "hp": 68.62,
+      "bossHp": 0,
+      "damageTaken": 91.38,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 16.666666666666654,
+      "hp": 58.39999999999999,
+      "bossHp": 0,
+      "damageTaken": 101.6,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 16.69999999999999,
+      "hp": 119.46122112000005,
+      "bossHp": 0,
+      "damageTaken": 114.89999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.566666666666798,
+      "hp": 16.079999999999984,
+      "bossHp": 0,
+      "damageTaken": 143.92,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 22.100000000000257,
+      "hp": 17.699999999999996,
+      "bossHp": 0,
+      "damageTaken": 142.29999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.066666666666624,
+      "hp": 67.88499999999996,
+      "bossHp": 0,
+      "damageTaken": 92.11500000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 17.733333333333373,
+      "hp": 79.74000000000004,
+      "bossHp": 0,
+      "damageTaken": 80.25999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.466666666666693,
+      "hp": 96.21000000000001,
+      "bossHp": 0,
+      "damageTaken": 63.78999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.000000000000103,
+      "hp": 99.63999999999997,
+      "bossHp": 0,
+      "damageTaken": 100.36000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 17.96666666666672,
+      "hp": 200,
+      "bossHp": 0,
+      "damageTaken": 0,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 17.90000000000005,
+      "hp": 85.18863240314876,
+      "bossHp": 0,
+      "damageTaken": 172.32000000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 20.833333333333528,
+      "hp": 87.73423999999996,
+      "bossHp": 0,
+      "damageTaken": 112.26576000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 23.766666666667007,
+      "hp": 118.99999999999999,
+      "bossHp": 0,
+      "damageTaken": 81.00000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.133333333333393,
+      "hp": 90.17479999999999,
+      "bossHp": 0,
+      "damageTaken": 109.82520000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 19.900000000000148,
+      "hp": 113.83999999999997,
+      "bossHp": 0,
+      "damageTaken": 86.16000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 15.96666666666662,
+      "hp": 156.57999999999998,
+      "bossHp": 0,
+      "damageTaken": 43.420000000000016,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 21.766666666666907,
+      "hp": 9.19999999999995,
+      "bossHp": 0,
+      "damageTaken": 230.80000000000018,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 20.566666666666848,
+      "hp": 87.6999999999999,
+      "bossHp": 0,
+      "damageTaken": 152.30000000000013,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 19.766666666666808,
+      "hp": 36.1326400000001,
+      "bossHp": 0,
+      "damageTaken": 272.10000000000014,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 16.69999999999999,
+      "hp": 103.21439999999988,
+      "bossHp": 0,
+      "damageTaken": 136.7856000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 26.60000000000048,
+      "hp": 13.099999999999934,
+      "bossHp": 0,
+      "damageTaken": 226.9000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 20.633333333333518,
+      "hp": 49.23599999999992,
+      "bossHp": 0,
+      "damageTaken": 190.76400000000012,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-3",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 14.39999999999996,
+      "hp": 0,
+      "bossHp": 1177.5718228160001,
+      "damageTaken": 240.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "hazard",
+        "label": "기관장인 곽기",
+        "bossId": "6-3"
+      }
+    },
+    {
+      "boss": "6-3",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 29.033333333333935,
+      "hp": 0,
+      "bossHp": 1170.0557840000026,
+      "damageTaken": 240.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "기관장인 곽기",
+        "bossId": "6-3"
+      }
+    },
+    {
+      "boss": "6-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.500000000000277,
+      "hp": 180.58000000000004,
+      "bossHp": 0,
+      "damageTaken": 99.41999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.13333333333374,
+      "hp": 162.66000000000003,
+      "bossHp": 0,
+      "damageTaken": 117.33999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 18.03333333333339,
+      "hp": 90.06631504498421,
+      "bossHp": 0,
+      "damageTaken": 241.35999999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.600000000000033,
+      "hp": 178.71352000000005,
+      "bossHp": 0,
+      "damageTaken": 101.28647999999995,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 24.033333333333687,
+      "hp": 0,
+      "bossHp": 1581.5570474999938,
+      "damageTaken": 280,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "고묘후인 월령",
+        "bossId": "6-4"
+      }
+    },
+    {
+      "boss": "6-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 17.96666666666672,
+      "hp": 215.09533,
+      "bossHp": 0,
+      "damageTaken": 64.90467000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 22.500000000000277,
+      "hp": 49.94000000000001,
+      "bossHp": 0,
+      "damageTaken": 230.05999999999995,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "6-4",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 18.300000000000068,
+      "hp": 139.99,
+      "bossHp": 0,
+      "damageTaken": 140.01,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 15.999999999999954,
+      "hp": 66.31999999999998,
+      "bossHp": 0,
+      "damageTaken": 93.68000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 15.43333333333329,
+      "hp": 54.15999999999998,
+      "bossHp": 0,
+      "damageTaken": 105.84000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 14.766666666666625,
+      "hp": 78.75772288000006,
+      "bossHp": 0,
+      "damageTaken": 216.24,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.566666666666798,
+      "hp": 16.445999999999994,
+      "bossHp": 0,
+      "damageTaken": 143.554,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 22.600000000000282,
+      "hp": 71.5,
+      "bossHp": 0,
+      "damageTaken": 88.5,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.43333333333329,
+      "hp": 53.52099999999997,
+      "bossHp": 0,
+      "damageTaken": 106.47900000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 16.333333333333304,
+      "hp": 66.31999999999998,
+      "bossHp": 0,
+      "damageTaken": 93.68000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.36666666666669,
+      "hp": 17.392,
+      "bossHp": 0,
+      "damageTaken": 142.608,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 19.333333333333453,
+      "hp": 40.119999999999976,
+      "bossHp": 0,
+      "damageTaken": 159.88000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 17.000000000000004,
+      "hp": 108.63999999999999,
+      "bossHp": 0,
+      "damageTaken": 91.36000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 15.399999999999956,
+      "hp": 38.22915532799999,
+      "bossHp": 0,
+      "damageTaken": 216.12000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 20.066666666666823,
+      "hp": 10.07152,
+      "bossHp": 0,
+      "damageTaken": 189.92847999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 23.233333333333647,
+      "hp": 18.999999999999975,
+      "bossHp": 0,
+      "damageTaken": 181.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.933333333333334,
+      "hp": 84.0908,
+      "bossHp": 0,
+      "damageTaken": 115.9092,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-2",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 18.500000000000078,
+      "hp": 0,
+      "bossHp": 84.97538975440001,
+      "damageTaken": 200,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "쌍환무희 나야",
+        "bossId": "7-2"
+      }
+    },
+    {
+      "boss": "7-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 21.866666666666912,
+      "hp": 22.33999999999997,
+      "bossHp": 0,
+      "damageTaken": 177.66000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-3",
+      "art": "huashan",
+      "outcome": "dead",
+      "seconds": 18.833333333333428,
+      "hp": 0,
+      "bossHp": 440.44956224000083,
+      "damageTaken": 240,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "흑사마승 발타",
+        "bossId": "7-3"
+      }
+    },
+    {
+      "boss": "7-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 18.866666666666763,
+      "hp": 176.09999999999997,
+      "bossHp": 0,
+      "damageTaken": 63.900000000000034,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-3",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 16.36666666666664,
+      "hp": 0,
+      "bossHp": 193.12358542458284,
+      "damageTaken": 293.87329920000013,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "흑사마승 발타",
+        "bossId": "7-3"
+      }
+    },
+    {
+      "boss": "7-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 15.23333333333329,
+      "hp": 87.96079999999996,
+      "bossHp": 0,
+      "damageTaken": 152.03920000000005,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-3",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 18.300000000000068,
+      "hp": 0,
+      "bossHp": 1800.407584000002,
+      "damageTaken": 240.00000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "흑사마승 발타",
+        "bossId": "7-3"
+      }
+    },
+    {
+      "boss": "7-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 18.966666666666768,
+      "hp": 41.75699999999995,
+      "bossHp": 0,
+      "damageTaken": 198.2430000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-3",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 20.100000000000158,
+      "hp": 0,
+      "bossHp": 275.9781045439999,
+      "damageTaken": 240.00000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "흑사마승 발타",
+        "bossId": "7-3"
+      }
+    },
+    {
+      "boss": "7-3",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 14.999999999999957,
+      "hp": 111.45999999999998,
+      "bossHp": 0,
+      "damageTaken": 128.54000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.833333333333627,
+      "hp": 180.12,
+      "bossHp": 0,
+      "damageTaken": 99.88,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 24.500000000000377,
+      "hp": 209.24,
+      "bossHp": 0,
+      "damageTaken": 70.75999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 18.03333333333339,
+      "hp": 124.93895081337635,
+      "bossHp": 0,
+      "damageTaken": 177.35999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 18.266666666666733,
+      "hp": 166.72592,
+      "bossHp": 0,
+      "damageTaken": 113.27408,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 27.06666666666717,
+      "hp": 33.19999999999999,
+      "bossHp": 0,
+      "damageTaken": 246.8,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.36666666666664,
+      "hp": 234.56025999999997,
+      "bossHp": 0,
+      "damageTaken": 45.43974000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 21.466666666666892,
+      "hp": 89.66000000000003,
+      "bossHp": 0,
+      "damageTaken": 190.33999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "7-4",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 24.966666666667066,
+      "hp": 167.52999999999997,
+      "bossHp": 0,
+      "damageTaken": 112.47000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 16.399999999999974,
+      "hp": 51.86000000000001,
+      "bossHp": 0,
+      "damageTaken": 108.13999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 14.966666666666624,
+      "hp": 67.16000000000001,
+      "bossHp": 0,
+      "damageTaken": 92.83999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 16.29999999999997,
+      "hp": 106.77849830400007,
+      "bossHp": 0,
+      "damageTaken": 196.89999999999998,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 17.30000000000002,
+      "hp": 0,
+      "bossHp": 158.13196159999976,
+      "damageTaken": 159.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "혈도객 적우",
+        "bossId": "8-1"
+      }
+    },
+    {
+      "boss": "8-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 23.900000000000347,
+      "hp": 7.900000000000006,
+      "bossHp": 0,
+      "damageTaken": 152.09999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.666666666666622,
+      "hp": 31.148800000000005,
+      "bossHp": 0,
+      "damageTaken": 128.8512,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 16.933333333333334,
+      "hp": 51.86000000000001,
+      "bossHp": 0,
+      "damageTaken": 108.13999999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 17.76666666666671,
+      "hp": 13.782000000000016,
+      "bossHp": 0,
+      "damageTaken": 146.21799999999996,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 17.43333333333336,
+      "hp": 18.080000000000013,
+      "bossHp": 0,
+      "damageTaken": 181.92,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 15.599999999999955,
+      "hp": 117.44000000000003,
+      "bossHp": 0,
+      "damageTaken": 82.55999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 14.666666666666625,
+      "hp": 77.92490199613444,
+      "bossHp": 0,
+      "damageTaken": 198.6,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "samja",
+      "outcome": "dead",
+      "seconds": 18.03333333333339,
+      "hp": 0,
+      "bossHp": 58.32017007999942,
+      "damageTaken": 200.00000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "혈마제자 연살",
+        "bossId": "8-2"
+      }
+    },
+    {
+      "boss": "8-2",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 19.500000000000128,
+      "hp": 200,
+      "bossHp": 0,
+      "damageTaken": 0,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 15.533333333333289,
+      "hp": 30.9044,
+      "bossHp": 0,
+      "damageTaken": 169.0956,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 17.96666666666672,
+      "hp": 18.080000000000013,
+      "bossHp": 0,
+      "damageTaken": 181.92,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-2",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 15.43333333333329,
+      "hp": 122.46,
+      "bossHp": 0,
+      "damageTaken": 77.54,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.533333333333612,
+      "hp": 38.149999999999906,
+      "bossHp": 0,
+      "damageTaken": 201.85000000000014,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 23.966666666667017,
+      "hp": 64.84999999999991,
+      "bossHp": 0,
+      "damageTaken": 175.15000000000015,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "tianmo",
+      "outcome": "dead",
+      "seconds": 17.866666666666713,
+      "hp": 0,
+      "bossHp": 393.6983647748023,
+      "damageTaken": 199.05696492800024,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "홍의마녀 소홍",
+        "bossId": "8-3"
+      }
+    },
+    {
+      "boss": "8-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 17.10000000000001,
+      "hp": 83.73799999999991,
+      "bossHp": 0,
+      "damageTaken": 156.26200000000009,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 26.900000000000496,
+      "hp": 60.199999999999875,
+      "bossHp": 0,
+      "damageTaken": 179.8000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 21.433333333333557,
+      "hp": 47.56650000000005,
+      "bossHp": 0,
+      "damageTaken": 192.43349999999995,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-3",
+      "art": "gaebang",
+      "outcome": "dead",
+      "seconds": 22.000000000000252,
+      "hp": 0,
+      "bossHp": 98.0438381119998,
+      "damageTaken": 240.0000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "홍의마녀 소홍",
+        "bossId": "8-3"
+      }
+    },
+    {
+      "boss": "8-3",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 30.53333333333401,
+      "hp": 0,
+      "bossHp": 1082.0833040000027,
+      "damageTaken": 240.0000000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "projectile",
+        "label": "홍의마녀 소홍",
+        "bossId": "8-3"
+      }
+    },
+    {
+      "boss": "8-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 20.900000000000198,
+      "hp": 251.47999999999996,
+      "bossHp": 0,
+      "damageTaken": 28.52000000000004,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 25.833333333333776,
+      "hp": 197.58999999999992,
+      "bossHp": 0,
+      "damageTaken": 82.41000000000008,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 18.03333333333339,
+      "hp": 141.68796035312224,
+      "bossHp": 0,
+      "damageTaken": 162.72000000000014,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 19.100000000000108,
+      "hp": 142.60627999999994,
+      "bossHp": 0,
+      "damageTaken": 137.39372000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 25.566666666667096,
+      "hp": 81.98999999999991,
+      "bossHp": 0,
+      "damageTaken": 198.01000000000016,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 17.30000000000002,
+      "hp": 226.63229500000003,
+      "bossHp": 0,
+      "damageTaken": 53.36770499999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 23.600000000000332,
+      "hp": 222.95999999999992,
+      "bossHp": 0,
+      "damageTaken": 57.04000000000008,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "8-4",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 21.400000000000222,
+      "hp": 157.378,
+      "bossHp": 0,
+      "damageTaken": 122.62200000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 17.066666666666674,
+      "hp": 71.48,
+      "bossHp": 0,
+      "damageTaken": 88.52,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 16.09999999999996,
+      "hp": 77.55999999999999,
+      "bossHp": 0,
+      "damageTaken": 82.44000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 17.066666666666674,
+      "hp": 98.07297278976004,
+      "bossHp": 0,
+      "damageTaken": 188.28000000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 20.800000000000193,
+      "hp": 16.307999999999975,
+      "bossHp": 0,
+      "damageTaken": 143.692,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 28.53333333333391,
+      "hp": 42,
+      "bossHp": 0,
+      "damageTaken": 118,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 16.466666666666644,
+      "hp": 68.9668,
+      "bossHp": 0,
+      "damageTaken": 91.0332,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 16.2333333333333,
+      "hp": 41.959999999999994,
+      "bossHp": 0,
+      "damageTaken": 118.04,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-1",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 21.166666666666877,
+      "hp": 101,
+      "bossHp": 0,
+      "damageTaken": 59,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 18.400000000000073,
+      "hp": 58.359999999999985,
+      "bossHp": 0,
+      "damageTaken": 141.64000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 21.700000000000237,
+      "hp": 91.75999999999999,
+      "bossHp": 0,
+      "damageTaken": 108.24000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 20.400000000000173,
+      "hp": 65.08509440000002,
+      "bossHp": 0,
+      "damageTaken": 178.04,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 23.000000000000302,
+      "hp": 74.47519999999999,
+      "bossHp": 0,
+      "damageTaken": 125.52480000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 17.50000000000003,
+      "hp": 0,
+      "bossHp": 519.6407859999969,
+      "damageTaken": 199.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "field",
+        "label": "기관 장판"
+      }
+    },
+    {
+      "boss": "9-2",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 20.666666666666853,
+      "hp": 54.52399999999997,
+      "bossHp": 0,
+      "damageTaken": 145.47600000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 19.133333333333443,
+      "hp": 63.55999999999999,
+      "bossHp": 0,
+      "damageTaken": 136.44,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-2",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 17.50000000000003,
+      "hp": 0,
+      "bossHp": 1143.536383000001,
+      "damageTaken": 199.99999999999997,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "field",
+        "label": "기관 장판"
+      }
+    },
+    {
+      "boss": "9-3",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.233333333333597,
+      "hp": 114.59999999999994,
+      "bossHp": 0,
+      "damageTaken": 125.40000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 23.600000000000332,
+      "hp": 149.89999999999992,
+      "bossHp": 0,
+      "damageTaken": 90.10000000000008,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 19.700000000000138,
+      "hp": 28.973491456000136,
+      "bossHp": 0,
+      "damageTaken": 270.60000000000014,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 15.833333333333288,
+      "hp": 125.29440000000001,
+      "bossHp": 0,
+      "damageTaken": 114.70559999999999,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "tang",
+      "outcome": "dead",
+      "seconds": 24.300000000000367,
+      "hp": 0,
+      "bossHp": 229.6593920000039,
+      "damageTaken": 240,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "melee",
+        "label": "팔문장군 진괄",
+        "bossId": "9-3"
+      }
+    },
+    {
+      "boss": "9-3",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 20.700000000000188,
+      "hp": 92.43599999999996,
+      "bossHp": 0,
+      "damageTaken": 147.56400000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 22.500000000000277,
+      "hp": 129.19999999999993,
+      "bossHp": 0,
+      "damageTaken": 110.80000000000007,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-3",
+      "art": "jegal",
+      "outcome": "dead",
+      "seconds": 20.833333333333528,
+      "hp": 0,
+      "bossHp": 1364.7681200000013,
+      "damageTaken": 240.00000000000006,
+      "potionsUsed": 0,
+      "remainingMedicine": 2,
+      "finalHit": {
+        "kind": "field",
+        "label": "기관 장판"
+      }
+    },
+    {
+      "boss": "9-4",
+      "art": "huashan",
+      "outcome": "boss-defeated",
+      "seconds": 22.733333333333622,
+      "hp": 186.79999999999987,
+      "bossHp": 0,
+      "damageTaken": 93.20000000000013,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "wudang",
+      "outcome": "boss-defeated",
+      "seconds": 28.366666666667236,
+      "hp": 179.0999999999999,
+      "bossHp": 0,
+      "damageTaken": 100.90000000000009,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "tianmo",
+      "outcome": "boss-defeated",
+      "seconds": 20.533333333333513,
+      "hp": 176.14335182000488,
+      "bossHp": 0,
+      "damageTaken": 140.40000000000012,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "samja",
+      "outcome": "boss-defeated",
+      "seconds": 16.933333333333334,
+      "hp": 217.17319999999998,
+      "bossHp": 0,
+      "damageTaken": 62.82680000000002,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "tang",
+      "outcome": "boss-defeated",
+      "seconds": 31.566666666667395,
+      "hp": 138.59999999999968,
+      "bossHp": 0,
+      "damageTaken": 141.40000000000032,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "shaolin",
+      "outcome": "boss-defeated",
+      "seconds": 19.933333333333483,
+      "hp": 207.84384999999997,
+      "bossHp": 0,
+      "damageTaken": 72.15615000000003,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "gaebang",
+      "outcome": "boss-defeated",
+      "seconds": 23.133333333333642,
+      "hp": 71.6999999999999,
+      "bossHp": 0,
+      "damageTaken": 208.3000000000001,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    },
+    {
+      "boss": "9-4",
+      "art": "jegal",
+      "outcome": "boss-defeated",
+      "seconds": 52.333333333332924,
+      "hp": 4.459999999999703,
+      "bossHp": 0,
+      "damageTaken": 275.54000000000053,
+      "potionsUsed": 0,
+      "remainingMedicine": 3
+    }
+  ]
+}

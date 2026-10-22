@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-02",
+  "storage": "isolated Playwright contexts only",
+  "unitTests": 406,
+  "localBrowserScenarios": 30,
+  "publicBrowserScenarios": 4,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1093,
+      614
+    ]
+  ],
+  "locales": [
+    "ko",
+    "en",
+    "ja",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "checks": [
+    "warehouse-only rendering",
+    "pagination and search",
+    "Ctrl+click and F transfers",
+    "T arrange",
+    "full bag item preservation",
+    "no returned fighter",
+    "save reload",
+    "focus return",
+    "drag/equip/use regression",
+    "combat input isolation"
+  ],
+  "visualReview": [
+    "warehouse-ko-1093x614.png",
+    "warehouse-en-1093x614.png",
+    "bag-shortcuts.png"
+  ],
+  "notes": "Development hot reload and a browser session interruption required reruns; final affected scenarios passed. Automated checks are separate from screenshot inspection."
+}

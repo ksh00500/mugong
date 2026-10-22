@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "jeogu-front",
+    "character": "jeogu",
+    "bossId": "8-1",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeogu-front.png",
+    "source": "jeogu-front-dash.png",
+    "sources": [
+      {
+        "id": "jeogu-front-dash",
+        "source": "jeogu-front-dash.png",
+        "prompt": "jeogu-front-dash.prompt.txt"
+      },
+      {
+        "id": "jeogu-front-stance",
+        "source": "jeogu-front-stance.png",
+        "prompt": "jeogu-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeogu-front-dash.png",
+      "jeogu-front-dash.png",
+      "jeogu-front-dash.png",
+      "jeogu-front-dash.png",
+      "jeogu-front-dash.png",
+      "jeogu-front-dash.png",
+      "jeogu-front-stance.png",
+      "jeogu-front-stance.png",
+      "jeogu-front-stance.png",
+      "jeogu-front-stance.png",
+      "jeogu-front-stance.png",
+      "jeogu-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeogu-front-right",
+    "character": "jeogu",
+    "bossId": "8-1",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeogu-front-right.png",
+    "source": "jeogu-front-right-dash.png",
+    "sources": [
+      {
+        "id": "jeogu-front-right-dash",
+        "source": "jeogu-front-right-dash.png",
+        "prompt": "jeogu-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeogu-front-right-stance",
+        "source": "jeogu-front-right-stance.png",
+        "prompt": "jeogu-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-dash.png",
+      "jeogu-front-right-stance.png",
+      "jeogu-front-right-stance.png",
+      "jeogu-front-right-stance.png",
+      "jeogu-front-right-stance.png",
+      "jeogu-front-right-stance.png",
+      "jeogu-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeogu-right",
+    "character": "jeogu",
+    "bossId": "8-1",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeogu-right.png",
+    "source": "jeogu-right-dash.png",
+    "sources": [
+      {
+        "id": "jeogu-right-dash",
+        "source": "jeogu-right-dash.png",
+        "prompt": "jeogu-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeogu-right-stance",
+        "source": "jeogu-right-stance.png",
+        "prompt": "jeogu-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeogu-right-dash.png",
+      "jeogu-right-dash.png",
+      "jeogu-right-dash.png",
+      "jeogu-right-dash.png",
+      "jeogu-right-dash.png",
+      "jeogu-right-dash.png",
+      "jeogu-right-stance.png",
+      "jeogu-right-stance.png",
+      "jeogu-right-stance.png",
+      "jeogu-right-stance.png",
+      "jeogu-right-stance.png",
+      "jeogu-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeogu-rear-right",
+    "character": "jeogu",
+    "bossId": "8-1",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeogu-rear-right.png",
+    "source": "jeogu-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "jeogu-rear-right-dash",
+        "source": "jeogu-rear-right-dash.png",
+        "prompt": "jeogu-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeogu-rear-right-stance",
+        "source": "jeogu-rear-right-stance.png",
+        "prompt": "jeogu-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-dash.png",
+      "jeogu-rear-right-stance.png",
+      "jeogu-rear-right-stance-repair-v6.png",
+      "jeogu-rear-right-stance-repair-v6.png",
+      "jeogu-rear-right-stance-repair-v6.png",
+      "jeogu-rear-right-stance-repair-v6.png",
+      "jeogu-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeogu-back",
+    "character": "jeogu",
+    "bossId": "8-1",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeogu-back.png",
+    "source": "jeogu-back-dash.png",
+    "sources": [
+      {
+        "id": "jeogu-back-dash",
+        "source": "jeogu-back-dash.png",
+        "prompt": "jeogu-back-dash.prompt.txt"
+      },
+      {
+        "id": "jeogu-back-stance",
+        "source": "jeogu-back-stance.png",
+        "prompt": "jeogu-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeogu-back-dash.png",
+      "jeogu-back-dash.png",
+      "jeogu-back-dash.png",
+      "jeogu-back-dash.png",
+      "jeogu-back-dash.png",
+      "jeogu-back-dash.png",
+      "jeogu-back-stance.png",
+      "jeogu-back-stance.png",
+      "jeogu-back-stance.png",
+      "jeogu-back-stance.png",
+      "jeogu-back-stance.png",
+      "jeogu-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-front",
+    "character": "yeonsal",
+    "bossId": "8-2",
+    "view": 0,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front.png",
+    "source": "yeonsal-front-dash.png",
+    "sources": [
+      {
+        "id": "yeonsal-front-dash",
+        "source": "yeonsal-front-dash.png",
+        "prompt": "yeonsal-front-dash.prompt.txt"
+      },
+      {
+        "id": "yeonsal-front-slam",
+        "source": "yeonsal-front-slam.png",
+        "prompt": "yeonsal-front-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonsal-front-dash.png",
+      "yeonsal-front-dash-repair-v2.png",
+      "yeonsal-front-dash-repair-v2.png",
+      "yeonsal-front-dash-repair-v2.png",
+      "yeonsal-front-dash.png",
+      "yeonsal-front-dash.png",
+      "yeonsal-front-slam.png",
+      "yeonsal-front-slam.png",
+      "yeonsal-front-slam.png",
+      "yeonsal-front-slam.png",
+      "yeonsal-front-slam.png",
+      "yeonsal-front-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-front-right",
+    "character": "yeonsal",
+    "bossId": "8-2",
+    "view": 1,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/yeonsal-front-right.png",
+    "source": "yeonsal-front-right-dash.png",
+    "sources": [
+      {
+        "id": "yeonsal-front-right-dash",
+        "source": "yeonsal-front-right-dash.png",
+        "prompt": "yeonsal-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "yeonsal-front-right-slam",
+        "source": "yeonsal-front-right-slam.png",
+        "prompt": "yeonsal-front-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonsal-front-right-dash.png",
+      "yeonsal-front-right-dash.png",
+      "yeonsal-front-right-dash-repair-v2.png",
+      "yeonsal-front-right-dash.png",
+      "yeonsal-front-right-dash.png",
+      "yeonsal-front-right-dash.png",
+      "yeonsal-front-right-slam.png",
+      "yeonsal-front-right-slam.png",
+      "yeonsal-front-right-slam.png",
+      "yeonsal-front-right-slam.png",
+      "yeonsal-front-right-slam.png",
+      "yeonsal-front-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-right",
+    "character": "yeonsal",
+    "bossId": "8-2",
+    "view": 2,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/yeonsal-right.png",
+    "source": "yeonsal-right-dash.png",
+    "sources": [
+      {
+        "id": "yeonsal-right-dash",
+        "source": "yeonsal-right-dash.png",
+        "prompt": "yeonsal-right-dash.prompt.txt"
+      },
+      {
+        "id": "yeonsal-right-slam",
+        "source": "yeonsal-right-slam.png",
+        "prompt": "yeonsal-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonsal-right-dash.png",
+      "yeonsal-right-dash.png",
+      "yeonsal-right-dash.png",
+      "yeonsal-right-dash.png",
+      "yeonsal-right-dash.png",
+      "yeonsal-right-dash.png",
+      "yeonsal-right-slam.png",
+      "yeonsal-right-slam.png",
+      "yeonsal-right-slam.png",
+      "yeonsal-right-slam.png",
+      "yeonsal-right-slam.png",
+      "yeonsal-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-rear-right",
+    "character": "yeonsal",
+    "bossId": "8-2",
+    "view": 3,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/yeonsal-rear-right.png",
+    "source": "yeonsal-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "yeonsal-rear-right-dash",
+        "source": "yeonsal-rear-right-dash.png",
+        "prompt": "yeonsal-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "yeonsal-rear-right-slam",
+        "source": "yeonsal-rear-right-slam.png",
+        "prompt": "yeonsal-rear-right-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-dash.png",
+      "yeonsal-rear-right-slam.png",
+      "yeonsal-rear-right-slam.png",
+      "yeonsal-rear-right-slam.png",
+      "yeonsal-rear-right-slam.png",
+      "yeonsal-rear-right-slam.png",
+      "yeonsal-rear-right-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "yeonsal-back",
+    "character": "yeonsal",
+    "bossId": "8-2",
+    "view": 4,
+    "moves": [
+      "dash",
+      "slam"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/yeonsal-back.png",
+    "source": "yeonsal-back-dash.png",
+    "sources": [
+      {
+        "id": "yeonsal-back-dash",
+        "source": "yeonsal-back-dash.png",
+        "prompt": "yeonsal-back-dash.prompt.txt"
+      },
+      {
+        "id": "yeonsal-back-slam",
+        "source": "yeonsal-back-slam.png",
+        "prompt": "yeonsal-back-slam.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "yeonsal-back-dash.png",
+      "yeonsal-back-dash.png",
+      "yeonsal-back-dash.png",
+      "yeonsal-back-dash.png",
+      "yeonsal-back-dash.png",
+      "yeonsal-back-dash.png",
+      "yeonsal-back-slam.png",
+      "yeonsal-back-slam.png",
+      "yeonsal-back-slam.png",
+      "yeonsal-back-slam.png",
+      "yeonsal-back-slam.png",
+      "yeonsal-back-slam.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sohong-front",
+    "character": "sohong",
+    "bossId": "8-3",
+    "view": 0,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/sohong-front.png",
+    "source": "sohong-front-fan.png",
+    "sources": [
+      {
+        "id": "sohong-front-fan",
+        "source": "sohong-front-fan.png",
+        "prompt": "sohong-front-fan.prompt.txt"
+      },
+      {
+        "id": "sohong-front-stance",
+        "source": "sohong-front-stance.png",
+        "prompt": "sohong-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sohong-front-fan.png",
+      "sohong-front-fan.png",
+      "sohong-front-fan.png",
+      "sohong-front-fan.png",
+      "sohong-front-fan.png",
+      "sohong-front-fan.png",
+      "sohong-front-stance.png",
+      "sohong-front-stance.png",
+      "sohong-front-stance.png",
+      "sohong-front-stance.png",
+      "sohong-front-stance.png",
+      "sohong-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sohong-front-right",
+    "character": "sohong",
+    "bossId": "8-3",
+    "view": 1,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/sohong-front-right.png",
+    "source": "sohong-front-right-fan.png",
+    "sources": [
+      {
+        "id": "sohong-front-right-fan",
+        "source": "sohong-front-right-fan.png",
+        "prompt": "sohong-front-right-fan.prompt.txt"
+      },
+      {
+        "id": "sohong-front-right-stance",
+        "source": "sohong-front-right-stance.png",
+        "prompt": "sohong-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sohong-front-right-fan.png",
+      "sohong-front-right-fan.png",
+      "sohong-front-right-fan.png",
+      "sohong-front-right-fan.png",
+      "sohong-front-right-fan.png",
+      "sohong-front-right-fan.png",
+      "sohong-front-right-stance.png",
+      "sohong-front-right-stance.png",
+      "sohong-front-right-stance.png",
+      "sohong-front-right-stance.png",
+      "sohong-front-right-stance.png",
+      "sohong-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sohong-right",
+    "character": "sohong",
+    "bossId": "8-3",
+    "view": 2,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/sohong-right.png",
+    "source": "sohong-right-fan.png",
+    "sources": [
+      {
+        "id": "sohong-right-fan",
+        "source": "sohong-right-fan.png",
+        "prompt": "sohong-right-fan.prompt.txt"
+      },
+      {
+        "id": "sohong-right-stance",
+        "source": "sohong-right-stance.png",
+        "prompt": "sohong-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sohong-right-fan.png",
+      "sohong-right-fan.png",
+      "sohong-right-fan.png",
+      "sohong-right-fan.png",
+      "sohong-right-fan.png",
+      "sohong-right-fan.png",
+      "sohong-right-stance.png",
+      "sohong-right-stance.png",
+      "sohong-right-stance-repair-v2.png",
+      "sohong-right-stance-repair-v2.png",
+      "sohong-right-stance-repair-v2.png",
+      "sohong-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sohong-rear-right",
+    "character": "sohong",
+    "bossId": "8-3",
+    "view": 3,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/sohong-rear-right.png",
+    "source": "sohong-rear-right-fan.png",
+    "sources": [
+      {
+        "id": "sohong-rear-right-fan",
+        "source": "sohong-rear-right-fan.png",
+        "prompt": "sohong-rear-right-fan.prompt.txt"
+      },
+      {
+        "id": "sohong-rear-right-stance",
+        "source": "sohong-rear-right-stance.png",
+        "prompt": "sohong-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-fan.png",
+      "sohong-rear-right-stance.png",
+      "sohong-rear-right-stance-repair-v2.png",
+      "sohong-rear-right-stance-repair-v2.png",
+      "sohong-rear-right-stance-repair-v2.png",
+      "sohong-rear-right-stance-repair-v2.png",
+      "sohong-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "sohong-back",
+    "character": "sohong",
+    "bossId": "8-3",
+    "view": 4,
+    "moves": [
+      "fan",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/sohong-back.png",
+    "source": "sohong-back-fan.png",
+    "sources": [
+      {
+        "id": "sohong-back-fan",
+        "source": "sohong-back-fan.png",
+        "prompt": "sohong-back-fan.prompt.txt"
+      },
+      {
+        "id": "sohong-back-stance",
+        "source": "sohong-back-stance.png",
+        "prompt": "sohong-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "sohong-back-fan.png",
+      "sohong-back-fan.png",
+      "sohong-back-fan.png",
+      "sohong-back-fan-repair-v2.png",
+      "sohong-back-fan.png",
+      "sohong-back-fan.png",
+      "sohong-back-stance.png",
+      "sohong-back-stance.png",
+      "sohong-back-stance.png",
+      "sohong-back-stance.png",
+      "sohong-back-stance.png",
+      "sohong-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-front",
+    "character": "jeokcheon",
+    "bossId": "8-4",
+    "view": 0,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front.png",
+    "source": "jeokcheon-front-dash.png",
+    "sources": [
+      {
+        "id": "jeokcheon-front-dash",
+        "source": "jeokcheon-front-dash.png",
+        "prompt": "jeokcheon-front-dash.prompt.txt"
+      },
+      {
+        "id": "jeokcheon-front-stance",
+        "source": "jeokcheon-front-stance.png",
+        "prompt": "jeokcheon-front-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-dash.png",
+      "jeokcheon-front-stance.png",
+      "jeokcheon-front-stance.png",
+      "jeokcheon-front-stance.png",
+      "jeokcheon-front-stance.png",
+      "jeokcheon-front-stance.png",
+      "jeokcheon-front-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-front-right",
+    "character": "jeokcheon",
+    "bossId": "8-4",
+    "view": 1,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-front-right.png",
+    "source": "jeokcheon-front-right-dash.png",
+    "sources": [
+      {
+        "id": "jeokcheon-front-right-dash",
+        "source": "jeokcheon-front-right-dash.png",
+        "prompt": "jeokcheon-front-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeokcheon-front-right-stance",
+        "source": "jeokcheon-front-right-stance.png",
+        "prompt": "jeokcheon-front-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-dash.png",
+      "jeokcheon-front-right-stance.png",
+      "jeokcheon-front-right-stance.png",
+      "jeokcheon-front-right-stance.png",
+      "jeokcheon-front-right-stance.png",
+      "jeokcheon-front-right-stance.png",
+      "jeokcheon-front-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-right",
+    "character": "jeokcheon",
+    "bossId": "8-4",
+    "view": 2,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-right.png",
+    "source": "jeokcheon-right-dash.png",
+    "sources": [
+      {
+        "id": "jeokcheon-right-dash",
+        "source": "jeokcheon-right-dash.png",
+        "prompt": "jeokcheon-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeokcheon-right-stance",
+        "source": "jeokcheon-right-stance.png",
+        "prompt": "jeokcheon-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-dash.png",
+      "jeokcheon-right-stance.png",
+      "jeokcheon-right-stance.png",
+      "jeokcheon-right-stance.png",
+      "jeokcheon-right-stance.png",
+      "jeokcheon-right-stance.png",
+      "jeokcheon-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-rear-right",
+    "character": "jeokcheon",
+    "bossId": "8-4",
+    "view": 3,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-rear-right.png",
+    "source": "jeokcheon-rear-right-dash.png",
+    "sources": [
+      {
+        "id": "jeokcheon-rear-right-dash",
+        "source": "jeokcheon-rear-right-dash.png",
+        "prompt": "jeokcheon-rear-right-dash.prompt.txt"
+      },
+      {
+        "id": "jeokcheon-rear-right-stance",
+        "source": "jeokcheon-rear-right-stance.png",
+        "prompt": "jeokcheon-rear-right-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokcheon-rear-right-dash.png",
+      "jeokcheon-rear-right-dash-repair-v1.png",
+      "jeokcheon-rear-right-dash.png",
+      "jeokcheon-rear-right-dash.png",
+      "jeokcheon-rear-right-dash.png",
+      "jeokcheon-rear-right-dash.png",
+      "jeokcheon-rear-right-stance.png",
+      "jeokcheon-rear-right-stance.png",
+      "jeokcheon-rear-right-stance.png",
+      "jeokcheon-rear-right-stance.png",
+      "jeokcheon-rear-right-stance.png",
+      "jeokcheon-rear-right-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  },
+  {
+    "id": "jeokcheon-back",
+    "character": "jeokcheon",
+    "bossId": "8-4",
+    "view": 4,
+    "moves": [
+      "dash",
+      "stance"
+    ],
+    "reference": "docs/source/hyeolma-special-v1/references/jeokcheon-back.png",
+    "source": "jeokcheon-back-dash.png",
+    "sources": [
+      {
+        "id": "jeokcheon-back-dash",
+        "source": "jeokcheon-back-dash.png",
+        "prompt": "jeokcheon-back-dash.prompt.txt"
+      },
+      {
+        "id": "jeokcheon-back-stance",
+        "source": "jeokcheon-back-stance.png",
+        "prompt": "jeokcheon-back-stance.prompt.txt"
+      }
+    ],
+    "poseSources": [
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-dash.png",
+      "jeokcheon-back-stance.png",
+      "jeokcheon-back-stance.png",
+      "jeokcheon-back-stance-repair-v1.png",
+      "jeokcheon-back-stance-repair-v1.png",
+      "jeokcheon-back-stance.png",
+      "jeokcheon-back-stance.png"
+    ],
+    "poseSourceCells": [
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 0
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 1
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 2
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 3
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 4
+      },
+      {
+        "columns": 2,
+        "rows": 3,
+        "index": 5
+      }
+    ]
+  }
+]

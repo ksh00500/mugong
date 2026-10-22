@@ -1,0 +1,15 @@
+import { readFile,writeFile } from 'node:fs/promises';
+let source=await readFile('tests/e2e/qingha-special.spec.ts','utf8');
+source=source.replace("const proof = 'docs/verification/qingha-special-v1';","const proof = 'docs/verification/boss-remaining-v1';\nfor (const region of [0, 1, 2, 4])");
+source=source.replace('Qingha special poses','region ${region} remaining poses');
+source=source.replace('await seedRegion(page, 0);','await seedRegion(page, region);');
+source=source.replace('await page.evaluate(async () => {','await page.evaluate(async (region) => {');
+source=source.replaceAll('QINGHA_SPECIAL_ART','BOSS_REMAINING_ART');
+source=source.replaceAll('BOSS_REMAINING_ART.characters','BOSS_REMAINING_ART.characters.filter((a: any) => Number(a.bossId.split(\'-\')[0]) === region)');
+source=source.replace('n <= 60','n <= 12').replace('n / 60','n / 12');
+source=source.replace('pose: frame.pose,','pose: frame.pose,\n            cycle: frame.cycle,');
+source=source.replace('height:1160px','height:1840px').replace('resize(1440, 1160)','resize(1440, 1840)').replace('centerOn(720, 580)','centerOn(720, 920)');
+source=source.replace('reduced: scene.reducedMotion,\n        };\n      });','reduced: scene.reducedMotion,\n        };\n      }, region);');
+source=source.replace('expect(c.contact).toBe(c.expected);','expect(c.contact).toBe(c.expected);\n        expect(c.cycle).toBe(c.expected);');
+source=source.replace('`${proof}/${webgl','`${proof}/${region}-${webgl');
+await writeFile('tests/e2e/boss-remaining.spec.ts',source);

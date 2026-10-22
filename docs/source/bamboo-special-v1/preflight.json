@@ -1,0 +1,378 @@
+{
+  "status": "prepared only; no generated or installed art",
+  "plannedBosses": 4,
+  "plannedMoves": 8,
+  "plannedSources": 40,
+  "timings": [
+    {
+      "bossId": "5-1",
+      "character": "qingbi",
+      "move": "ring",
+      "name": "청죽 귀환 단도",
+      "windup": 0.8,
+      "duration": 0.32,
+      "recovery": 0.9,
+      "contacts": [0.1],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-1",
+      "character": "qingbi",
+      "move": "stance",
+      "name": "청죽 은신 연막",
+      "windup": 0.85,
+      "duration": 0.4,
+      "recovery": 0.7,
+      "contacts": [0.18],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-2",
+      "character": "nogae",
+      "move": "sweep",
+      "name": "취봉 회전 횡소",
+      "windup": 0.88,
+      "duration": 0.55,
+      "recovery": 0.8,
+      "contacts": [0.24],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-2",
+      "character": "nogae",
+      "move": "slam",
+      "name": "봉끝 지면 강타",
+      "windup": 1.02,
+      "duration": 0.56,
+      "recovery": 0.95,
+      "contacts": [0.28],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-3",
+      "character": "yanqing",
+      "move": "dash",
+      "name": "죽영 숲길 추격",
+      "windup": 0.75,
+      "duration": 0.38,
+      "recovery": 0.7,
+      "contacts": [0.3],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-3",
+      "character": "yanqing",
+      "move": "stance",
+      "name": "죽영 낙죽 유도",
+      "windup": 0.95,
+      "duration": 0.45,
+      "recovery": 0.95,
+      "contacts": [0.2],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-4",
+      "character": "songwol",
+      "move": "fan",
+      "name": "죽림 부채 침우",
+      "windup": 0.8,
+      "duration": 0.32,
+      "recovery": 0.8,
+      "contacts": [0.1],
+      "holdEligible": false
+    },
+    {
+      "bossId": "5-4",
+      "character": "songwol",
+      "move": "stance",
+      "name": "죽림 반사 죽벽",
+      "windup": 1.15,
+      "duration": 0.48,
+      "recovery": 1,
+      "contacts": [0.22],
+      "holdEligible": false
+    }
+  ],
+  "promptRecords": [
+    {
+      "id": "qingbi-front-ring",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-front.png",
+      "referenceSha256": "7695981aa7c0ce0682c1c1a2832a8d4a6472fb7ad143e4edecde9ddb3cfe52d0",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-front-ring.prompt.txt",
+      "promptSha256": "92cd2f3ef337393cadb1d23306d5932d0058e7b1ccd2415676cd9cf98f1ce417"
+    },
+    {
+      "id": "qingbi-front-stance",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-front.png",
+      "referenceSha256": "7695981aa7c0ce0682c1c1a2832a8d4a6472fb7ad143e4edecde9ddb3cfe52d0",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-front-stance.prompt.txt",
+      "promptSha256": "58ae0509eda55356e7383d4442d3f6b04658a67f52b6b01b7b8a2c3612c81b45"
+    },
+    {
+      "id": "qingbi-front-right-ring",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-front-right.png",
+      "referenceSha256": "18e7836be8b286e2bd9298dd19a2c220d9d3d6145ddbd904270712831e785b89",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-front-right-ring.prompt.txt",
+      "promptSha256": "ae671d2da148603cb63f454428a3a947c7b37c9a2977a6b4644ea4b4afd98f38"
+    },
+    {
+      "id": "qingbi-front-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-front-right.png",
+      "referenceSha256": "18e7836be8b286e2bd9298dd19a2c220d9d3d6145ddbd904270712831e785b89",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-front-right-stance.prompt.txt",
+      "promptSha256": "3cfbefa3f50f24e7e3d5c366805a23f8045c8b39843a6e7f6ed55ad4549658b7"
+    },
+    {
+      "id": "qingbi-right-ring",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-right.png",
+      "referenceSha256": "d6ced7eb63e3864f3ccdbfd45d455e1a1ccb74fa5b81f9b7d604ad7edcbd23af",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-right-ring.prompt.txt",
+      "promptSha256": "da965e06ea36af76ad8519838b5fbf29d46b93a2b28ca9224ea5535ad28eba4b"
+    },
+    {
+      "id": "qingbi-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-right.png",
+      "referenceSha256": "d6ced7eb63e3864f3ccdbfd45d455e1a1ccb74fa5b81f9b7d604ad7edcbd23af",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-right-stance.prompt.txt",
+      "promptSha256": "fb9163b168fc61a33a0d61ca9f13c726fa52802975ad6217a99ac6b982fef8d7"
+    },
+    {
+      "id": "qingbi-rear-right-ring",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-rear-right.png",
+      "referenceSha256": "fc7cbef30a6d3914d76abdc6a4773f922e488a0be378acb9ad41b93762a29aa6",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-rear-right-ring.prompt.txt",
+      "promptSha256": "2e58874451e513841f3822f88ca11bf93fac320f0453c5f9ac5d653fb507e7f5"
+    },
+    {
+      "id": "qingbi-rear-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-rear-right.png",
+      "referenceSha256": "fc7cbef30a6d3914d76abdc6a4773f922e488a0be378acb9ad41b93762a29aa6",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-rear-right-stance.prompt.txt",
+      "promptSha256": "ae8b021404df0e291213f2b5af662013247121e026bbb79594433ad0a9e0304a"
+    },
+    {
+      "id": "qingbi-back-ring",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-back.png",
+      "referenceSha256": "be1fb785ed1a99752c5e998e04d8d608e6853cf69c08765c0f99ec8cbf6fcdf5",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-back-ring.prompt.txt",
+      "promptSha256": "38b1de1f6adddc123fe759471388fec8059902ed1d7ce1030089eaf604dbf1a7"
+    },
+    {
+      "id": "qingbi-back-stance",
+      "reference": "docs/source/bamboo-special-v1/references/qingbi-back.png",
+      "referenceSha256": "be1fb785ed1a99752c5e998e04d8d608e6853cf69c08765c0f99ec8cbf6fcdf5",
+      "prompt": "docs/source/bamboo-special-v1/qingbi-back-stance.prompt.txt",
+      "promptSha256": "e4a0a746caa0478be2d66b03ec8d7c91d24d9f8db6a93cc615f810fef526cbaf"
+    },
+    {
+      "id": "nogae-front-sweep",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-front.png",
+      "referenceSha256": "fa748da1172e9585b35a381306988b601dcddb06e0c12e45482ea58ee72a6f00",
+      "prompt": "docs/source/bamboo-special-v1/nogae-front-sweep.prompt.txt",
+      "promptSha256": "352d993fb40953883a8c0947f90ac8e00dffd038e5887506c55ccf75b67e18be"
+    },
+    {
+      "id": "nogae-front-slam",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-front.png",
+      "referenceSha256": "fa748da1172e9585b35a381306988b601dcddb06e0c12e45482ea58ee72a6f00",
+      "prompt": "docs/source/bamboo-special-v1/nogae-front-slam.prompt.txt",
+      "promptSha256": "1e030f06cc651b3aa49ab1486c273b3bddcf0a3752486f8d61cafc0fefed8acc"
+    },
+    {
+      "id": "nogae-front-right-sweep",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-front-right.png",
+      "referenceSha256": "9a50656eb09e3c54410c1f630bbaac2698ad6882bccc524bc55357a18ef41c80",
+      "prompt": "docs/source/bamboo-special-v1/nogae-front-right-sweep.prompt.txt",
+      "promptSha256": "f543146ce342f372024d2eab1f696d2068217a233c8dd7a54a6716a351a0d0ca"
+    },
+    {
+      "id": "nogae-front-right-slam",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-front-right.png",
+      "referenceSha256": "9a50656eb09e3c54410c1f630bbaac2698ad6882bccc524bc55357a18ef41c80",
+      "prompt": "docs/source/bamboo-special-v1/nogae-front-right-slam.prompt.txt",
+      "promptSha256": "e1435423da731156cb3524790256d39c6f661fc0a5b1c9c021661317461abfbb"
+    },
+    {
+      "id": "nogae-right-sweep",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-right.png",
+      "referenceSha256": "2c2c091aa6b6298550e7842c1609b416fef25bd63192a28e0aced21689019723",
+      "prompt": "docs/source/bamboo-special-v1/nogae-right-sweep.prompt.txt",
+      "promptSha256": "a5cbf23d9d02c4d1e787378d78a47d1be8d775c7bfbc52f8df28201160a82125"
+    },
+    {
+      "id": "nogae-right-slam",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-right.png",
+      "referenceSha256": "2c2c091aa6b6298550e7842c1609b416fef25bd63192a28e0aced21689019723",
+      "prompt": "docs/source/bamboo-special-v1/nogae-right-slam.prompt.txt",
+      "promptSha256": "70b9cdd619b8601068c0f9458d98f7ca88218c2f17324a0a0b83d283d516dc0f"
+    },
+    {
+      "id": "nogae-rear-right-sweep",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-rear-right.png",
+      "referenceSha256": "4802c79e17c1aaf30bdd4f9281088ffd1544dc7ecfdc78392bd799fc563b759f",
+      "prompt": "docs/source/bamboo-special-v1/nogae-rear-right-sweep.prompt.txt",
+      "promptSha256": "0f6db057cd404b9edbea2d2dd54f7955262373a278751c585612ca46870aa4ee"
+    },
+    {
+      "id": "nogae-rear-right-slam",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-rear-right.png",
+      "referenceSha256": "4802c79e17c1aaf30bdd4f9281088ffd1544dc7ecfdc78392bd799fc563b759f",
+      "prompt": "docs/source/bamboo-special-v1/nogae-rear-right-slam.prompt.txt",
+      "promptSha256": "7956145446250ba3e847360d21f349860972883ba45838d593d0d2970c3b838e"
+    },
+    {
+      "id": "nogae-back-sweep",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-back.png",
+      "referenceSha256": "31e22fd956276a20340631bf63639b5f108582e9750d85a4fd290d9f87dbb87f",
+      "prompt": "docs/source/bamboo-special-v1/nogae-back-sweep.prompt.txt",
+      "promptSha256": "45741e1a3a9d7587738a9642007d907d9257ddd94baabfd21afe470840c56f3b"
+    },
+    {
+      "id": "nogae-back-slam",
+      "reference": "docs/source/bamboo-special-v1/references/nogae-back.png",
+      "referenceSha256": "31e22fd956276a20340631bf63639b5f108582e9750d85a4fd290d9f87dbb87f",
+      "prompt": "docs/source/bamboo-special-v1/nogae-back-slam.prompt.txt",
+      "promptSha256": "695ae942853ed2bed81e27efc631e45c9e9a88a62cd987eb474af1e071658976"
+    },
+    {
+      "id": "yanqing-front-dash",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-front.png",
+      "referenceSha256": "760aa15892beed42b1908ef1c4e6a2a4077a4fad813783ab46f99817a4c9ab50",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-front-dash.prompt.txt",
+      "promptSha256": "fb2520688c022f6e97fb9a19dbf192980be90786a4f4be5af7ae8e015545bdbc"
+    },
+    {
+      "id": "yanqing-front-stance",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-front.png",
+      "referenceSha256": "760aa15892beed42b1908ef1c4e6a2a4077a4fad813783ab46f99817a4c9ab50",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-front-stance.prompt.txt",
+      "promptSha256": "d09b1ed6d225b7b1efb8d7b94b9185780b69e64f2198aada258d530a90ddaaed"
+    },
+    {
+      "id": "yanqing-front-right-dash",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-front-right.png",
+      "referenceSha256": "3bc9e34323650fd79d1f2e107a57d10e036eab35b4c341848d8e81fbb04ea61b",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-front-right-dash.prompt.txt",
+      "promptSha256": "39339f8c4855d6fd0a7447632ab3b90a6f51d601db99512a5dd189efef1af8fa"
+    },
+    {
+      "id": "yanqing-front-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-front-right.png",
+      "referenceSha256": "3bc9e34323650fd79d1f2e107a57d10e036eab35b4c341848d8e81fbb04ea61b",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-front-right-stance.prompt.txt",
+      "promptSha256": "b15f6f9b893ddfaa0d5af52a77ad67e02158a5bdaf419a95354237a3222a3da5"
+    },
+    {
+      "id": "yanqing-right-dash",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-right.png",
+      "referenceSha256": "ffbca061021e2e848ddfc16451bda617ad6b4c53c6836665b9e6fa17854d183d",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-right-dash.prompt.txt",
+      "promptSha256": "fc7d88b59f94eb11b27eefd76e09488607fc8bf297e40a0c129445d35afeab87"
+    },
+    {
+      "id": "yanqing-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-right.png",
+      "referenceSha256": "ffbca061021e2e848ddfc16451bda617ad6b4c53c6836665b9e6fa17854d183d",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-right-stance.prompt.txt",
+      "promptSha256": "993ac9f9788d9275f5b707ce96e334eef7417132d81891fca1b18e6f6aa4566d"
+    },
+    {
+      "id": "yanqing-rear-right-dash",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-rear-right.png",
+      "referenceSha256": "865eb0ec59e6fcbd0e564c50e9106f9e02ede89968ad5109afea54bb9f2da377",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-rear-right-dash.prompt.txt",
+      "promptSha256": "823cf6440b376c4b518d58fe06c92256979f7efe8eb35adc795a3bfec5efd63a"
+    },
+    {
+      "id": "yanqing-rear-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-rear-right.png",
+      "referenceSha256": "865eb0ec59e6fcbd0e564c50e9106f9e02ede89968ad5109afea54bb9f2da377",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-rear-right-stance.prompt.txt",
+      "promptSha256": "9e156cd907eb978d92a5c4f3a820f3e055bfe58cfde61e7be1a6a7f722c0d260"
+    },
+    {
+      "id": "yanqing-back-dash",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-back.png",
+      "referenceSha256": "975b3343114037449fad5cdb4db8037736333a8424bcd9518065d2e59a233777",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-back-dash.prompt.txt",
+      "promptSha256": "3376274fc605c2fc41999ab3d0e507274e80c469f8f1da6a1fbca289afc975e8"
+    },
+    {
+      "id": "yanqing-back-stance",
+      "reference": "docs/source/bamboo-special-v1/references/yanqing-back.png",
+      "referenceSha256": "975b3343114037449fad5cdb4db8037736333a8424bcd9518065d2e59a233777",
+      "prompt": "docs/source/bamboo-special-v1/yanqing-back-stance.prompt.txt",
+      "promptSha256": "579a0c1d5296e2d94df75dd7949145346f60f53e2bff3b27f1aae1f7ba949e02"
+    },
+    {
+      "id": "songwol-front-fan",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-front.png",
+      "referenceSha256": "f5f0d34bef5b6094cba1928b70115c496e13e8e5d94ef059a46b8ba52e9b4af0",
+      "prompt": "docs/source/bamboo-special-v1/songwol-front-fan.prompt.txt",
+      "promptSha256": "eebdc96b241452520c65406c1abd5d5de68b460a45b69f29b8fb66f78215e404"
+    },
+    {
+      "id": "songwol-front-stance",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-front.png",
+      "referenceSha256": "f5f0d34bef5b6094cba1928b70115c496e13e8e5d94ef059a46b8ba52e9b4af0",
+      "prompt": "docs/source/bamboo-special-v1/songwol-front-stance.prompt.txt",
+      "promptSha256": "0ac64a1bfd8abf99bbdb0884a29e869245d15eac994616445db9ac18e01a1412"
+    },
+    {
+      "id": "songwol-front-right-fan",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-front-right.png",
+      "referenceSha256": "0d67467a475c4b09192d7147c0922596585f05fbbaceb63046d4a3fda900a9e1",
+      "prompt": "docs/source/bamboo-special-v1/songwol-front-right-fan.prompt.txt",
+      "promptSha256": "3d1c0abd6038991806c78edb474f13898348d207dd019aa58daa0d6d87f14299"
+    },
+    {
+      "id": "songwol-front-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-front-right.png",
+      "referenceSha256": "0d67467a475c4b09192d7147c0922596585f05fbbaceb63046d4a3fda900a9e1",
+      "prompt": "docs/source/bamboo-special-v1/songwol-front-right-stance.prompt.txt",
+      "promptSha256": "ebe418e654bc0f6dad21ee22db989029b3f716089da9f5804487e3f778740a3c"
+    },
+    {
+      "id": "songwol-right-fan",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-right.png",
+      "referenceSha256": "c00f7fc39ae4ff7e44679eaf1983058e7a22ee16eecc8d836237ec4d7488a31c",
+      "prompt": "docs/source/bamboo-special-v1/songwol-right-fan.prompt.txt",
+      "promptSha256": "7aaf198b7dc5b6fcd503a2282ca0a548938c236ae723a5e789db6f1c91a971b0"
+    },
+    {
+      "id": "songwol-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-right.png",
+      "referenceSha256": "c00f7fc39ae4ff7e44679eaf1983058e7a22ee16eecc8d836237ec4d7488a31c",
+      "prompt": "docs/source/bamboo-special-v1/songwol-right-stance.prompt.txt",
+      "promptSha256": "02c2b2a9706449d17426c4f195ae581c7cee1c9c41117442c0bb7346058fa46d"
+    },
+    {
+      "id": "songwol-rear-right-fan",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-rear-right.png",
+      "referenceSha256": "e555c9ae8903c84676f92b8bc9bf359ba0794a27ad7982666dc4fbb0f4f1d43a",
+      "prompt": "docs/source/bamboo-special-v1/songwol-rear-right-fan.prompt.txt",
+      "promptSha256": "b1fc075832dd2c1868f89f8d03380613ebad1e7a71bdb0c89473d3d26414626f"
+    },
+    {
+      "id": "songwol-rear-right-stance",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-rear-right.png",
+      "referenceSha256": "e555c9ae8903c84676f92b8bc9bf359ba0794a27ad7982666dc4fbb0f4f1d43a",
+      "prompt": "docs/source/bamboo-special-v1/songwol-rear-right-stance.prompt.txt",
+      "promptSha256": "76881af8d6071455b86c5ffcf58893ee3f3d2e7a4986391c36d42dda680b4fb9"
+    },
+    {
+      "id": "songwol-back-fan",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-back.png",
+      "referenceSha256": "f212034b9b0562f2d9c7c33abe8333a84fbcf7fb8b09c4326b862ce4c2dacb2c",
+      "prompt": "docs/source/bamboo-special-v1/songwol-back-fan.prompt.txt",
+      "promptSha256": "05a9a0593f78b99e1343fd529faa9780c1c56b12d983c17c9c346f2df4581cbe"
+    },
+    {
+      "id": "songwol-back-stance",
+      "reference": "docs/source/bamboo-special-v1/references/songwol-back.png",
+      "referenceSha256": "f212034b9b0562f2d9c7c33abe8333a84fbcf7fb8b09c4326b862ce4c2dacb2c",
+      "prompt": "docs/source/bamboo-special-v1/songwol-back-stance.prompt.txt",
+      "promptSha256": "b8f5478ed504f21f2e6be0d7cc3dfafd9583cdf7feee4e6e1084ff85ef51b775"
+    }
+  ]
+}
