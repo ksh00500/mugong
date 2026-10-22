@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+2026-10-23: `/raid/` 실제1~4인 표준 무인 협동 레이드를 추가했다. 같은 보스·5층·아군 피해 없음·개인 귀환·구성 변경 후 재준비·관전·재접속·서버 기록을 사용한다. 개인 무인/장비/XP/유품 이전은 아직 지원하지 않으며 기존 여정은 보존한다. [기능·범위](docs/cooperative-raid-v1.md) · [이번 검증](docs/verification/cooperative-raid-v1/README.md).
+
 2026-10-23: 실제 두 사람의 친선 비무·계정 Elo 순위전을 `/pvp/`에 구현했다. 방 코드·준비/라운드·서버 판정·재접속·SQLite 기록을 사용한다. 표준 무인4종/무공8계열로 겨루며 기존 브라우저의 무인·장비·체력은 보존한다. [기능·실행·후속](docs/realtime-biwu-v1.md) · [이번 검증](docs/verification/realtime-biwu-v1/README.md). 공개 집 서버 배포는 별도다.
 
 2026-10-22: 사망 원인·웨이브/보스 전투 기록, 기연6종, 저장 성공 후 NPC 작업 모션을 추가했다. 현재 지역만 모션 표를 읽도록 분리해 mount를5,461.89KB에서444.98KB로 줄였다. [구현·호환 경계](docs/remaining-gameplay-v1.md) · [이번 검증](docs/verification/remaining-gameplay-v1/README.md). 집 Linux PC의 Docker + Cloudflare Tunnel 설치는 [서버 안내](docs/home-server-cloudflare.md)를 따른다. 실제 집 서버 연결과 공개 주소 확인은 별도다. 로컬 최신 빌드는 http://127.0.0.1:5205/ 이다.
@@ -37,7 +39,7 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/realtime-biwu-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/cooperative-raid-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build
@@ -46,7 +48,7 @@ curl -f http://127.0.0.1:8080/healthz
 
 Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,026개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
 
-여정 저장은 각 브라우저의 IndexedDB를 사용한다. 온라인 비무 계정·점수·경기 기록은 별도 서버 SQLite 볼륨에 저장한다. 여정의 기기 간 공유와 온라인 레이드는 아직 지원하지 않는다. 공개 HTTPS 주소는 `.env`의 `MUGONG_PUBLIC_ORIGIN`에 정확히 설정한다.
+여정 저장은 각 브라우저의 IndexedDB를 사용한다. 온라인 계정·비무 점수·비무/표준 레이드 기록은 별도 서버 SQLite 볼륨에 저장한다. 여정의 기기 간 공유와 개인 소유 무인의 온라인 레이드는 아직 지원하지 않는다. 공개 HTTPS 주소는 `.env`의 `MUGONG_PUBLIC_ORIGIN`에 정확히 설정한다.
 
 ## 개발과 검사
 
@@ -77,6 +79,7 @@ npm run pvp:start
 | `src/game` | Phaser 렌더링·방향·프레임/접지 메타데이터 |
 | `src/platform`, `src/ui` | 저장·로딩·소리·사용자 화면 |
 | `src/pvp`, `pvp/` | 온라인 비무 화면·공유 규칙·HTTP/WS 서버·SQLite |
+| `src/raid`, `raid/` | 표준 협동 레이드·파티/층 진행·동일 서버의 레이드 방 |
 | `public` | 실행·호환·검토용 미디어·메타데이터·라이선스 |
 | `assets`, `docs/source` | 제작 프롬프트·교정 이력. 원본 미디어는 보관용 묶음 |
 | `asset-manifest.json` | 전체 미디어2,836개 경로·바이트 수·SHA256 |
@@ -90,7 +93,7 @@ npm run pvp:start
 - 10지역·40보스·8계열 무공·6무기, 모집·성장·20웨이브·가방/창고·정비·강화·정산.
 - 소림·천검산·독무곡·청하현73행동, 설산18행동, 서역사막·혈마전·제갈55행동, 고묘·죽림39행동을 합쳐40보스185행동·6,660논리 프레임에 특별 그림을 연결했다. 준비·회수 일부는 기존 원화를 사용한다. [최신 적용·검증](docs/three-complete-v3.md).
 - 실제185키트 행동 모두 행동별 시퀀스를 연결했다. 새 접촉과 기존 준비·회수 원화를 조합하며, 모든 논리 프레임이 독립 생성 그림이라는 뜻은 아니다.
-- 온라인 비무 계정·친선/순위전·점수/기록 저장을 구현했다. 여정 온라인 저장·다인 레이드·거래·생사결은 후속이며 `/next-stage/`의 해당 화면은 설계 시안이다.
+- 온라인 계정·친선/순위전·표준1~4인 협동 레이드·점수/기록 저장을 구현했다. 개인 무인의 온라인 육성·장비/전리품/유품·거래·생사결은 후속이며 `/next-stage/`의 개인 자산/생사결 화면은 설계 시안이다.
 
 WASD 이동, 좌클릭 공격, 우클릭 궁극 행동, Q/E 무공 전환, Space 방어 행동, Tab/I 가방, Esc 일시 정지. 가방은 R 회전과 클릭·키보드 이동도 지원한다.
 

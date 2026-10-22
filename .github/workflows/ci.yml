@@ -66,6 +66,14 @@ jobs:
       - name: Container logs
         if: failure()
         run: docker compose -p mugong-ci logs --tail 80 web pvp || true
+      - name: Cooperative raid with unmodified server rules
+        run: npx playwright test --config playwright.raid.config.ts --grep 'normal HP server'
+        env:
+          MUGONG_RAID_URL: http://127.0.0.1:5190
+          MUGONG_RAID_MODE: normal
+      - name: Raid failure logs
+        if: failure()
+        run: docker compose -p mugong-ci logs --tail 80 web pvp || true
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()
         with:
@@ -74,5 +82,7 @@ jobs:
             test-results-hosting/
             test-results-pvp-ci/
             docs/verification/realtime-biwu-v1/ci/
+            test-results-raid-normal/
+            docs/verification/cooperative-raid-v1/normal/
           retention-days: 7
           if-no-files-found: ignore

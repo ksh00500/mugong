@@ -5,6 +5,8 @@ import { PvpDatabase } from './database';
 import { createPvpMatch, finishPvp, stepPvp } from '../engine';
 import { parsePvpMessage } from '../protocol';
 import { PVP_RULES as R } from '../rules';
+import { RaidHub } from '../../raid/server';
+import type { createRaid } from '../../raid/engine';
 import {
   neutralInput,
   type ClientMessage,
@@ -50,6 +52,8 @@ export function createPvpServer(options: {
   databasePath: string;
   origins: string[];
   reconnectMs?: number;
+  raidReconnectMs?: number;
+  raidFactory?: typeof createRaid;
 }) {
   const db = new PvpDatabase(options.databasePath),
     connections = new Set<Connection>(),
@@ -123,6 +127,16 @@ export function createPvpServer(options: {
     }
     return null;
   }
+  const raids = new RaidHub(
+    db,
+    (hash) =>
+      !!db.db
+        .prepare('SELECT token FROM sessions WHERE token=? AND expires>?')
+        .get(hash, Date.now()),
+    (id) => !!accountRoom(id) || [...queued].some((c) => c.account.id === id),
+    options.raidReconnectMs,
+    options.raidFactory,
+  );
   function attach(c: Connection, room: Room, seat: Seat) {
     const p = room.seats[seat]!;
     if (p.connection && p.connection !== c) {
@@ -265,6 +279,7 @@ export function createPvpServer(options: {
       return;
     }
     if (['create', 'join', 'queue'].includes(message.type)) {
+      if (raids.hasAccount(c.account.id)) throw Error('레이드 출전을 마치고 참가하세요');
       if (c.room || accountRoom(c.account.id))
         throw Error('현재 대전을 마치거나 나가기를 선택하세요');
       if (c.queued) throw Error('이미 상대를 찾고 있습니다');
@@ -355,6 +370,15 @@ export function createPvpServer(options: {
         json(res, 200, { rankings: db.rankings() });
         return;
       }
+      if (req.method === 'GET' && path === '/api/pvp/raids') {
+        const s = session(req);
+        if (!s) {
+          json(res, 401, { error: '로그인이 필요합니다' });
+          return;
+        }
+        json(res, 200, { history: db.raidHistory(s.account.id) });
+        return;
+      }
       if (
         req.method !== 'POST' ||
         !['/api/pvp/register', '/api/pvp/login', '/api/pvp/logout'].includes(path)
@@ -377,6 +401,7 @@ export function createPvpServer(options: {
           db.db.prepare('DELETE FROM sessions WHERE token=?').run(s.hash);
           for (const c of connections)
             if (c.tokenHash === s.hash) c.socket.close(4003, 'Signed out');
+          raids.logout(s.hash);
         }
         res.setHeader(
           'Set-Cookie',
@@ -461,15 +486,19 @@ export function createPvpServer(options: {
   server.on('upgrade', (req, socket, head) => {
     const s = session(req);
     if (
-      req.url !== '/api/pvp/socket' ||
+      !['/api/pvp/socket', '/api/pvp/raid-socket'].includes(req.url ?? '') ||
       !origins.has(req.headers.origin ?? '') ||
       !s ||
-      connections.size >= 128
+      wss.clients.size >= 128
     ) {
       socket.end('HTTP/1.1 403 Forbidden\r\nConnection: close\r\n\r\n');
       return;
     }
     wss.handleUpgrade(req, socket, head, (ws) => {
+      if (req.url === '/api/pvp/raid-socket') {
+        raids.accept(ws, s.account, s.hash);
+        return;
+      }
       const c: Connection = {
         socket: ws,
         account: s.account,
@@ -637,6 +666,7 @@ export function createPvpServer(options: {
     async close() {
       closed = true;
       clearInterval(timer);
+      raids.close();
       for (const c of connections) c.socket.terminate();
       await new Promise<void>((resolve) => wss.close(() => resolve()));
       await new Promise<void>((resolve) => server.close(() => resolve()));

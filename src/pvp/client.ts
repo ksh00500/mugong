@@ -1,8 +1,8 @@
 import type { ClientMessage, OnlineAccount, RoomState, Seat, ServerMessage } from './model';
-export interface OnlineView {
+export interface OnlineView<Room = RoomState, Index extends number = Seat> {
   account: OnlineAccount | null;
-  room: RoomState | null;
-  seat: Seat;
+  room: Room | null;
+  seat: Index;
   connected: boolean;
   connecting: boolean;
   queuedSince: number | null;
@@ -10,11 +10,12 @@ export interface OnlineView {
   rtt: number;
   receivedAt: number;
 }
-export class PvpClient {
-  private view: OnlineView = {
+export class OnlineClient<Room = RoomState, Index extends number = Seat, Intent = ClientMessage> {
+  constructor(private socketPath = '/api/pvp/socket') {}
+  private view: OnlineView<Room, Index> = {
     account: null,
     room: null,
-    seat: 0,
+    seat: 0 as Index,
     connected: false,
     connecting: false,
     queuedSince: null,
@@ -35,7 +36,7 @@ export class PvpClient {
     };
   };
   getSnapshot = () => this.view;
-  private update(values: Partial<OnlineView>) {
+  private update(values: Partial<OnlineView<Room, Index>>) {
     this.view = { ...this.view, ...values };
     for (const fn of this.listeners) fn();
   }
@@ -76,7 +77,7 @@ export class PvpClient {
     this.stopped = false;
     if (this.retry) clearTimeout(this.retry);
     this.update({ connecting: true, error: '' });
-    const url = new URL('/api/pvp/socket', location.href);
+    const url = new URL(this.socketPath, location.href);
     url.protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
     const ws = new WebSocket(url);
     this.socket = ws;
@@ -89,7 +90,8 @@ export class PvpClient {
     };
     ws.onmessage = (event) => {
       if (this.socket !== ws) return;
-      let message: ServerMessage;
+      let message:
+        Exclude<ServerMessage, { type: 'room' }> | { type: 'room'; room: Room; seat: Index };
       try {
         message = JSON.parse(event.data);
       } catch {
@@ -133,7 +135,7 @@ export class PvpClient {
       /* onclose owns reconnect; no simulated success state. */
     };
   };
-  send = (message: ClientMessage) => {
+  send = (message: Intent | { type: 'resume' } | { type: 'ping'; sent: number }) => {
     if (this.socket?.readyState !== WebSocket.OPEN) return false;
     if (this.socket.bufferedAmount > 16384) return false;
     this.socket.send(JSON.stringify(message));
@@ -148,3 +150,5 @@ export class PvpClient {
     this.socket = undefined;
   }
 }
+
+export class PvpClient extends OnlineClient<RoomState, Seat, ClientMessage> {}

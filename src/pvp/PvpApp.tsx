@@ -10,7 +10,13 @@ import { ARTS } from '../domain/content';
 import { combatActionBlock } from '../domain/combat-actions';
 import { t, useLanguage } from '../platform/i18n';
 import { preloadFonts } from '../platform/assets';
-function Auth({ client }: { client: PvpClient }) {
+export function Auth({
+  client,
+  raid = false,
+}: {
+  client: Pick<PvpClient, 'authenticate'>;
+  raid?: boolean;
+}) {
   const [kind, setKind] = useState<'login' | 'register'>('login'),
     [busy, setBusy] = useState(false),
     [error, setError] = useState('');
@@ -20,8 +26,14 @@ function Auth({ client }: { client: PvpClient }) {
   return (
     <section className="pvp-auth" aria-label={t('온라인 비무 계정')}>
       <span className="pvp-eyebrow">武 · {t('실시간 1:1')}</span>
-      <h1>{t('비무장에 들어서다')}</h1>
-      <p>{t('친선 비무와 순위전. 로컬 여정과 자산은 그대로 보존됩니다.')}</p>
+      <h1>{t(raid ? '레이드에 들어서다' : '비무장에 들어서다')}</h1>
+      <p>
+        {t(
+          raid
+            ? '같은 온라인 계정으로 협동합니다. 로컬 여정과 자산은 그대로 보존됩니다.'
+            : '친선 비무와 순위전. 로컬 여정과 자산은 그대로 보존됩니다.',
+        )}
+      </p>
       <form
         onSubmit={async (e) => {
           e.preventDefault();
@@ -93,7 +105,7 @@ function Auth({ client }: { client: PvpClient }) {
           </p>
         )}
         <button className="primary" disabled={busy}>
-          {t(busy ? '접속 중' : '비무장 입장')}
+          {t(busy ? '접속 중' : raid ? '레이드 입장' : '비무장 입장')}
         </button>
         <button
           type="button"
@@ -310,6 +322,7 @@ export function PvpApp() {
         </a>
         <span>{t('비무장')}</span>
         <div className="pvp-header-actions">
+          <a href="/raid/">{t('협동 레이드')}</a>
           <button onClick={() => setPanel('rules')}>{t('대전 규칙')}</button>
           {v.account && (
             <>

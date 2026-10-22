@@ -3,6 +3,7 @@ import { randomBytes, randomUUID, scrypt, timingSafeEqual } from 'node:crypto';
 import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import type { OnlineAccount, PvpMatch, MatchReceipt } from '../model';
+import type { RaidReceipt } from '../../raid/model';
 const derive = (password: string, salt: string) =>
   new Promise<Buffer>((resolve, reject) =>
     scrypt(password, salt, 64, { N: 16384, r: 8, p: 1, maxmem: 64 * 1024 * 1024 }, (e, key) =>
@@ -21,15 +22,18 @@ export class PvpDatabase {
         'PRAGMA busy_timeout=1000; PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA synchronous=FULL;',
       );
       const version = this.db.prepare('PRAGMA user_version').get()!.user_version as number;
-      if (version > 1) throw Error('Unsupported online database version');
+      if (version > 2) throw Error('Unsupported online database version');
       this.db.exec(`
       CREATE TABLE IF NOT EXISTS accounts(id TEXT PRIMARY KEY, login TEXT NOT NULL UNIQUE, name TEXT NOT NULL, salt TEXT NOT NULL, hash TEXT NOT NULL, rating INTEGER NOT NULL DEFAULT 1000, wins INTEGER NOT NULL DEFAULT 0, losses INTEGER NOT NULL DEFAULT 0, draws INTEGER NOT NULL DEFAULT 0, matches INTEGER NOT NULL DEFAULT 0);
       CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY, account TEXT NOT NULL REFERENCES accounts(id), expires INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS results(id TEXT PRIMARY KEY, a TEXT NOT NULL REFERENCES accounts(id), b TEXT NOT NULL REFERENCES accounts(id), state TEXT NOT NULL, mode TEXT NOT NULL, receipt TEXT, created INTEGER NOT NULL);
-      CREATE INDEX IF NOT EXISTS result_a ON results(a,created); CREATE INDEX IF NOT EXISTS result_b ON results(b,created);`);
+      CREATE INDEX IF NOT EXISTS result_a ON results(a,created); CREATE INDEX IF NOT EXISTS result_b ON results(b,created);
+      CREATE TABLE IF NOT EXISTS raid_results(run TEXT NOT NULL, account TEXT NOT NULL REFERENCES accounts(id), state TEXT NOT NULL, floor INTEGER NOT NULL DEFAULT 0, receipt TEXT, created INTEGER NOT NULL, PRIMARY KEY(run,account));
+      CREATE INDEX IF NOT EXISTS raid_account ON raid_results(account,created);`);
       // In-memory rooms cannot survive a process restart. Never invent a winner.
       this.db.prepare("UPDATE results SET state='void' WHERE state='playing'").run();
-      this.db.exec('PRAGMA user_version=1');
+      this.db.prepare("UPDATE raid_results SET state='void' WHERE state='playing'").run();
+      this.db.exec('PRAGMA user_version=2');
     } catch (e) {
       this.db.close();
       throw e;
@@ -156,6 +160,61 @@ export class PvpDatabase {
         'SELECT id,name,rating,wins,losses,draws,matches FROM accounts WHERE matches>0 ORDER BY rating DESC,wins DESC,id ASC LIMIT 100',
       )
       .all() as unknown as OnlineAccount[];
+  }
+  beginRaid(run: string, accounts: readonly string[]) {
+    this.db.exec('BEGIN IMMEDIATE');
+    try {
+      for (const account of accounts)
+        this.db
+          .prepare("INSERT INTO raid_results(run,account,state,created) VALUES(?,?,'playing',?)")
+          .run(run, account, Date.now());
+      this.db.exec('COMMIT');
+    } catch (e) {
+      this.db.exec('ROLLBACK');
+      throw e;
+    }
+  }
+  checkpointRaid(run: string, floor: number) {
+    this.db
+      .prepare("UPDATE raid_results SET floor=MAX(floor,?) WHERE run=? AND state='playing'")
+      .run(floor, run);
+  }
+  settleRaid(account: string, receipt: RaidReceipt): RaidReceipt {
+    this.db.exec('BEGIN IMMEDIATE');
+    try {
+      const row = this.db
+        .prepare('SELECT state,receipt FROM raid_results WHERE run=? AND account=?')
+        .get(receipt.runId, account);
+      if (!row || row.state === 'void') throw Error('Raid ledger unavailable');
+      if (row.state === 'complete') {
+        this.db.exec('COMMIT');
+        return JSON.parse(row.receipt as string);
+      }
+      this.db
+        .prepare(
+          "UPDATE raid_results SET state='complete',floor=?,receipt=? WHERE run=? AND account=?",
+        )
+        .run(receipt.floor, JSON.stringify(receipt), receipt.runId, account);
+      this.db.exec('COMMIT');
+      return receipt;
+    } catch (e) {
+      this.db.exec('ROLLBACK');
+      throw e;
+    }
+  }
+  raidHistory(account: string) {
+    return this.db
+      .prepare(
+        'SELECT run,state,floor,receipt,created FROM raid_results WHERE account=? ORDER BY created DESC LIMIT 20',
+      )
+      .all(account)
+      .map((r) => ({
+        run: String(r.run),
+        state: String(r.state),
+        floor: Number(r.floor),
+        created: Number(r.created),
+        receipt: r.receipt ? (JSON.parse(r.receipt as string) as RaidReceipt) : null,
+      }));
   }
   close() {
     this.db.close();

@@ -23,19 +23,28 @@ export const neutralInput = (): PvpInput => ({
   ultimate: false,
   switch: 0,
 });
-export interface PvpActor {
-  seat: Seat;
+export interface CombatActor {
+  seat: number;
+  team?: number;
+  passive?: boolean;
+  inactive?: boolean;
+  damageDealt?: number;
+  damageTaken?: number;
   preset: PresetId;
   fighter: BoundFighter;
   maxHp: number;
   poison: number;
   poisonClock: number;
+  poisonSource?: number;
   buff: number;
   hurt: number;
 }
+export interface PvpActor extends CombatActor {
+  seat: Seat;
+}
 export interface PvpAttack {
   id: number;
-  owner: Seat;
+  owner: number;
   art: ArtId;
   shape: 'sector' | 'shot' | 'burst';
   x: number;
@@ -54,7 +63,7 @@ export interface PvpAttack {
 export interface PvpEffect {
   id: number;
   kind: 'hit' | 'guard' | 'evade' | 'ultimate';
-  seat: Seat;
+  seat: number;
   x: number;
   y: number;
   amount: number;
@@ -78,6 +87,12 @@ export interface PvpMatch {
   roundWinner: Seat | null;
   winner: Seat | null;
   reason?: EndReason;
+}
+export interface CombatWorld {
+  players: CombatActor[];
+  attacks: PvpAttack[];
+  effects: PvpEffect[];
+  sequence: number;
 }
 export interface OnlineAccount {
   id: string;

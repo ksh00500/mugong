@@ -1,0 +1,300 @@
+.raid-app .pvp-header-actions > a {
+  color: #2e5645;
+  text-underline-offset: 4px;
+}
+.raid-top {
+  position: absolute;
+  inset: 14px 20px auto;
+  display: grid;
+  grid-template-columns: 260px minmax(240px, 550px) 1fr;
+  gap: 24px;
+  pointer-events: none;
+  z-index: 3;
+}
+.raid-personal,
+.raid-boss-hud {
+  padding: 10px 14px;
+  background: #173128ed;
+  color: #fff1cf;
+  border: 1px solid #bca576;
+  border-radius: 8px;
+  font-size: 14px;
+  min-width: 0;
+}
+.raid-personal {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px 10px;
+}
+.raid-personal > b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.raid-personal > .meter,
+.raid-party {
+  grid-column: 1/-1;
+}
+.raid-party {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 11px;
+}
+.raid-party .meter {
+  height: 6px;
+  margin-top: 2px;
+}
+.raid-party span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.raid-boss-hud {
+  text-align: center;
+  align-self: start;
+  display: grid;
+  gap: 5px;
+}
+.raid-boss-hud .meter {
+  height: 14px;
+}
+.raid-boss-hud small {
+  color: #f2e6c7;
+}
+.raid-threat {
+  color: #ffe2a1;
+  font-weight: 700;
+  font-size: 14px;
+}
+.raid-ready-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.raid-ready-grid article {
+  display: grid;
+  place-items: center;
+  gap: 5px;
+  background: #e7ebd9;
+  border: 1px solid #a1ad8c;
+  border-radius: 8px;
+  padding: 12px 6px;
+  min-width: 0;
+}
+.raid-ready-grid img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.raid-ready-grid b {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.raid-ready-grid small {
+  font-size: 12px;
+}
+.raid-app .raid-panel {
+  width: min(760px, calc(100% - 32px));
+  left: 50%;
+  right: auto;
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  max-height: calc(100% - 80px);
+  overflow: auto;
+  background: #fff5de;
+  color: #284536;
+  border: 1px solid #a48c57;
+  padding: 24px;
+  z-index: 4;
+  box-sizing: border-box;
+}
+.raid-panel h1 {
+  font-size: 28px;
+}
+.raid-panel > p {
+  margin: 10px 0 16px;
+}
+.raid-panel strong {
+  user-select: all;
+  letter-spacing: 0.1em;
+}
+.raid-panel .pvp-ready-actions {
+  flex-wrap: wrap;
+}
+.raid-route li {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 4px !important;
+}
+.raid-rest-members {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  font-size: 14px;
+  margin: 16px 0;
+}
+.raid-controls {
+  position: absolute;
+  inset: auto 20px 58px;
+  display: grid;
+  grid-template-columns: minmax(230px, 1fr) minmax(260px, 1.2fr) minmax(180px, 1fr);
+  gap: 16px;
+  align-items: end;
+  pointer-events: none;
+  z-index: 3;
+}
+.raid-controls > section {
+  background: #173128ed;
+  color: #fff1cf;
+  border: 1px solid #bca576;
+  border-radius: 8px;
+  padding: 8px;
+  pointer-events: auto;
+  min-width: 0;
+}
+.raid-controls button {
+  min-height: 42px;
+}
+.raid-controls small {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  min-height: 20px;
+  color: #fff1cf;
+  margin-top: 4px;
+}
+.raid-arts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.raid-arts .art-glyph {
+  width: 38px;
+  height: 38px;
+  flex: none;
+}
+.raid-arts > b {
+  font-size: 13px;
+  flex: 1;
+  min-width: 0;
+}
+.raid-controls .raid-ultimate > button {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  width: 100%;
+  font-size: 14px;
+}
+.raid-ultimate .meter {
+  grid-column: 1/-1;
+}
+.raid-defense > button {
+  width: 100%;
+  font-size: 14px;
+}
+.raid-spectator {
+  position: absolute;
+  right: 20px;
+  top: 145px;
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  background: #173128ed;
+  color: #fff1cf;
+  border: 1px solid #bca576;
+  border-radius: 8px;
+  max-width: 300px;
+  z-index: 4;
+}
+.raid-spectator small {
+  font-size: 13px;
+}
+@media (max-width: 1150px) {
+  .raid-top {
+    grid-template-columns: 210px minmax(260px, 1fr);
+    gap: 20px;
+  }
+  .raid-boss-hud {
+    margin-right: 80px;
+  }
+  .raid-controls {
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .raid-arts {
+    gap: 4px;
+  }
+  .raid-arts > b {
+    font-size: 11px;
+  }
+  .raid-controls .raid-arts > button {
+    padding: 6px;
+  }
+  .raid-controls .raid-ultimate > button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .raid-top {
+    inset: 10px 10px auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+  }
+  .raid-boss-hud {
+    margin: 0;
+  }
+  .raid-personal,
+  .raid-boss-hud {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .raid-controls {
+    inset: auto 10px 52px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .raid-arts {
+    grid-column: 1/-1;
+  }
+  .raid-app .raid-panel {
+    padding: 14px;
+  }
+  .raid-ready-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .raid-spectator {
+    max-width: 200px;
+    font-size: 13px;
+    right: 10px;
+    top: 190px;
+  }
+  .raid-rest-members {
+    grid-template-columns: 1fr;
+  }
+}
+.raid-countdown-actions {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 5;
+}
+.raid-receipt-stats {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.raid-receipt-stats dt {
+  font-size: 13px;
+}
+.raid-receipt-stats dd {
+  margin: 4px 0;
+  font-size: 22px;
+}

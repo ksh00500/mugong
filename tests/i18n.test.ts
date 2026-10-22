@@ -44,6 +44,9 @@ it('화면·무공·물품·상태 문구에 네 번역과 동일한 변수가 �
   const keys = new Set<string>();
   const files = [
     'src/App.tsx',
+    'src/pvp/PvpApp.tsx',
+    'src/raid/RaidApp.tsx',
+    'src/raid/model.ts',
     ...readdirSync('src/ui')
       .filter((f) => f.endsWith('.tsx'))
       .map((f) => `src/ui/${f}`),
