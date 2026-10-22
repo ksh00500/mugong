@@ -17,6 +17,37 @@ import { waystationMessages } from './waystation-messages';
 import { globalBalanceMessages } from './global-balance-messages';
 import { restExpansionMessages } from './rest-expansion-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
+  '전투 입력 대기 중': ['Combat input paused', '戦闘入力を待機中', '战斗输入暂停', '戰鬥輸入暫停'],
+  '전투 중에 사용': ['Available in combat', '戦闘中に使用', '战斗中使用', '戰鬥中使用'],
+  '무공을 먼저 선택하세요': [
+    'Learn an art first',
+    '先に武功を習得',
+    '请先习得武功',
+    '請先習得武功',
+  ],
+  '행동 불가 상태': ['Unable to act', '行動不能', '无法行动', '無法行動'],
+  '공격 후 회복 중': ['Recovering from attack', '攻撃後の硬直中', '攻击后恢复中', '攻擊後恢復中'],
+  '강화 예약 2/2': ['Boosts queued 2/2', '強化予約 2/2', '强化已预约 2/2', '強化已預約 2/2'],
+  '궁극 행동 사용': ['Use ultimate', '奥義を使用', '使用奥义', '使用奧義'],
+  '방어 행동 사용': ['Use defense', '防御を使用', '使用防御', '使用防禦'],
+  '클릭 또는 우클릭으로 사용': [
+    'Click or right-click to use',
+    'クリック／右クリックで使用',
+    '点击或右键使用',
+    '點擊或右鍵使用',
+  ],
+  '클릭 또는 Space로 사용': [
+    'Click or Space to use',
+    'クリック／Spaceで使用',
+    '点击或空格使用',
+    '點擊或空格使用',
+  ],
+  '클릭으로 강화 예약 · {0}/2': [
+    'Click to queue boost · {0}/2',
+    'クリックで強化予約 · {0}/2',
+    '点击预约强化 · {0}/2',
+    '點擊預約強化 · {0}/2',
+  ],
   ...completionMessages,
   ...restExpansionMessages,
   ...globalBalanceMessages,

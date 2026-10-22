@@ -17,6 +17,8 @@ import { bossCombatPhase, BOSS_PHASE_LABELS, isBossEnemy } from '../domain/boss-
 import { bossOpening } from '../domain/boss-recovery';
 import { CombatConditions } from './CombatConditions';
 import { isWalkablePreparation } from '../domain/waystation';
+import { combatActionBlock, type CombatAction } from '../domain/combat-actions';
+import type { BoundFighter } from '../domain/model';
 export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const scope = useRef<HTMLDivElement>(null);
   const f = run.fighter,
@@ -28,6 +30,29 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
   const unlocked = !!art && art.level >= techniqueStats(art.id, art.level).ultimateLevel;
   const gaugeMax = art?.id === 'gaebang' ? 200 : 100;
   const canSwitch = !busy && f.actionTime <= 0 && !pendingChoices(run);
+  const actionReason = (action: CombatAction) => {
+    if (busy || pendingChoices(run)) return t('전투 입력 대기 중');
+    if (run.phase !== 'combat') return t('전투 중에 사용');
+    const reason = combatActionBlock(f as BoundFighter, action);
+    if (!reason) return '';
+    if (reason === 'locked')
+      return t('무공 Lv.{0} 개방', {
+        0: art ? techniqueStats(art.id, art.level).ultimateLevel : 5,
+      });
+    if (reason === 'cooling') return t('재사용 {0}초', { 0: art.defenseCd.toFixed(1) });
+    return t(
+      {
+        untrained: '무공을 먼저 선택하세요',
+        restrained: '행동 불가 상태',
+        unarmed: '무장 필요',
+        charging: '현재 무공으로 적을 타격해 충전',
+        recovering: '공격 후 회복 중',
+        full: '강화 예약 2/2',
+      }[reason],
+    );
+  };
+  const defenseReason = actionReason('defense'),
+    ultimateReason = actionReason('ultimate');
   const slots = f.arts.length
     ? f.arts.map((_, index) => {
         const offset = index - Math.floor(f.arts.length / 2);
@@ -231,9 +256,16 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             })}
           </div>
         </section>
-        <section
-          className={`ultimate-panel ${unlocked && art.gauge >= 100 ? 'ultimate-ready' : ''}`}
-        >
+        <section className={`ultimate-panel ${!ultimateReason ? 'ultimate-ready' : ''}`}>
+          <button
+            type="button"
+            className="hud-combat-action ultimate-trigger"
+            aria-label={t('궁극 행동 사용')}
+            aria-disabled={!!ultimateReason}
+            aria-describedby="ultimate-action-state"
+            title={ultimateReason || t('클릭 또는 우클릭으로 사용')}
+            onClick={() => gameStore.requestCombatAction('ultimate')}
+          />
           <HudArtwork shape="gauge" />
           <div className="ultimate-heading">
             <b>{t(art?.id === 'gaebang' ? '취기' : '궁극')}</b>
@@ -245,23 +277,28 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             max={gaugeMax}
             kind="ultimate"
           />
-          <small>
-            {unlocked
-              ? art.gauge >= 100
-                ? art.id === 'gaebang'
-                  ? t('우클릭으로 강화 예약 · {0}/2', { 0: art.queuedBoosts ?? 0 })
-                  : t('우클릭으로 궁극 행동')
-                : t('현재 무공으로 적을 타격해 충전')
-              : t('무공 Lv.{0} 개방', {
-                  0: art ? techniqueStats(art.id, art.level).ultimateLevel : 5,
-                })}
+          <small id="ultimate-action-state">
+            {ultimateReason ||
+              (art?.id === 'gaebang'
+                ? t('클릭으로 강화 예약 · {0}/2', { 0: art.queuedBoosts ?? 0 })
+                : t('클릭 또는 우클릭으로 사용'))}
           </small>
         </section>
         <section className="defense-panel" aria-label={t('방어 행동')}>
           <header>
             <HudArtwork shape="ribbon" />
-            <b>{art ? t(ARTS[art.id].defense.split(' · ')[0]) : t('방어 행동')}</b>
-            <kbd>Space</kbd>
+            <button
+              type="button"
+              className="hud-combat-action defense-trigger"
+              aria-label={t('방어 행동 사용')}
+              aria-disabled={!!defenseReason}
+              aria-describedby="defense-action-state"
+              title={defenseReason || t('클릭 또는 Space로 사용')}
+              onClick={() => gameStore.requestCombatAction('defense')}
+            >
+              <b>{art ? t(ARTS[art.id].defense.split(' · ')[0]) : t('방어 행동')}</b>
+              <kbd>Space</kbd>
+            </button>
           </header>
           <div className="defense-cooldowns">
             {f.arts.map((a, index) => {
@@ -297,15 +334,9 @@ export function Hud({ run, busy }: { run: Run; busy: boolean }) {
             })}
             {!art && <span className="defense-empty">{t('첫 레벨에서 무공을 선택합니다')}</span>}
           </div>
-          {art && (
-            <small className="defense-state">
-              {!hasWeapon(f, art.id)
-                ? t('무장 필요')
-                : art.defenseCd > 0
-                  ? t('재사용 중')
-                  : t('준비')}
-            </small>
-          )}
+          <small className="defense-state" id="defense-action-state">
+            {defenseReason || t('클릭 또는 Space로 사용')}
+          </small>
         </section>
       </div>
       <QuickDetails scope={scope} fighter={f} />
