@@ -175,7 +175,18 @@ export default function App() {
           <div className="game-frame" data-region={r ? Math.floor((r.wave - 1) / 5) : 0}>
             <div className="game-backdrop" />
             <Field onReadyChange={setFieldReady} />
-            {r && fieldReady && <Hud run={r} busy={view.busy} />}
+            {r && fieldReady && (
+              <Hud
+                run={r}
+                busy={
+                  view.busy ||
+                  view.paused ||
+                  view.bagOpen ||
+                  !!view.error ||
+                  !!view.waystationDialogue
+                }
+              />
+            )}
             {r && fieldReady && isWalkablePreparation(r) && !pendingChoices(r) && (
               <WaystationWorld
                 view={view}
@@ -323,7 +334,7 @@ export default function App() {
         !view.bagOpen &&
         !pendingChoices(r) &&
         r?.phase !== 'dead' && (
-          <Modal title={t('여정을 잠시 멈추다')}>
+          <Modal title={t('여정을 잠시 멈추다')} onClose={() => gameStore.pause(false)}>
             <div className="pause-menu">
               <button
                 className="primary"

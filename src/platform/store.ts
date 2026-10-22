@@ -1,4 +1,6 @@
 import { pendingChoices } from '../domain/character';
+import { combatActionBlock, type CombatAction } from '../domain/combat-actions';
+import type { BoundFighter } from '../domain/model';
 import { recruitmentView } from '../domain/recruitment';
 import { command, emptyGame, expireFighters, selectedFighter, tick } from '../domain/game';
 import type { Command, GameState, InputFrame } from '../domain/model';
@@ -52,6 +54,12 @@ export class GameStore {
   private pendingSave?: GameState;
   private saveBlockers = 0;
   private lastRequestedSave = 0;
+  private combatAction?: {
+    action: CombatAction;
+    runId: string;
+    artId: string;
+    requestedAt: number;
+  };
   private snapshot: View;
   constructor() {
     this.snapshot = this.makeView();
@@ -146,6 +154,7 @@ export class GameStore {
     }
   }
   async dispatch(cmd: Command) {
+    this.clearCombatAction();
     if (!this.ready || this.busy || this.error) return false;
     if (isWalkablePreparation(this.state.run)) {
       const service = (
@@ -257,6 +266,7 @@ export class GameStore {
     return !this.error;
   }
   openBag(value: boolean) {
+    this.clearCombatAction();
     // Capture before saving disables the opener and the browser drops its focus.
     if (value && !this.bagOpen) this.bagOpener = document.activeElement as HTMLElement | null;
     if (this.error || pendingChoices(this.state.run)) return;
@@ -266,6 +276,7 @@ export class GameStore {
     if (value) void this.persist();
   }
   pause(value: boolean) {
+    this.clearCombatAction();
     this.paused = value;
     this.notify();
     if (value) void this.persist();
@@ -363,10 +374,32 @@ export class GameStore {
       this.paused ||
       this.waystationDialogue ||
       document.hidden
-    )
+    ) {
+      this.clearCombatAction();
       return;
+    }
     const r = this.state.run;
     if (!r) return;
+    const requested = this.combatAction;
+    this.clearCombatAction();
+    if (
+      requested &&
+      requested.runId === r.id &&
+      requested.artId === r.fighter.arts[r.fighter.active]?.id &&
+      performance.now() - requested.requestedAt <= 250 &&
+      r.phase === 'combat' &&
+      !pendingChoices(r) &&
+      !combatActionBlock(r.fighter as BoundFighter, requested.action)
+    ) {
+      // A HUD click follows the fighter's facing, never the button's screen position.
+      input = {
+        ...input,
+        aim: r.fighter.facing,
+        attack: false,
+        defense: requested.action === 'defense',
+        ultimate: requested.action === 'ultimate',
+      };
+    }
     if (isWalkablePreparation(r) && this.waystationTarget) {
       if (input.dx || input.dy) this.waystationTarget = null;
       else {
@@ -421,6 +454,35 @@ export class GameStore {
       if (!this.fighter()) this.bagOpen = false;
       void this.persist();
     }
+  }
+  requestCombatAction(action: CombatAction) {
+    const r = this.state.run;
+    if (
+      !r ||
+      r.phase !== 'combat' ||
+      pendingChoices(r) ||
+      !this.rendererReady ||
+      !this.ready ||
+      this.busy ||
+      this.error ||
+      this.screen !== 'field' ||
+      this.bagOpen ||
+      this.paused ||
+      this.waystationDialogue ||
+      document.hidden ||
+      combatActionBlock(r.fighter as BoundFighter, action)
+    )
+      return false;
+    this.combatAction = {
+      action,
+      runId: r.id,
+      artId: r.fighter.arts[r.fighter.active].id,
+      requestedAt: performance.now(),
+    };
+    return true;
+  }
+  clearCombatAction() {
+    this.combatAction = undefined;
   }
   fighter() {
     return selectedFighter(this.state);

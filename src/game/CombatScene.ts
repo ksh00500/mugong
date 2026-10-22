@@ -334,6 +334,12 @@ export class CombatScene extends Phaser.Scene {
       if (!gameStore.rendererReady) return;
       if ((event.target as HTMLElement)?.closest('input,select,textarea,[role="dialog"]')) return;
       const key = event.key.toLowerCase();
+      // Space/Enter on a focused HUD control belong to its native button action.
+      if (
+        (key === ' ' || key === 'enter') &&
+        (event.target as HTMLElement)?.closest('button,a,[role="button"]')
+      )
+        return;
       const resting = isWalkablePreparation(gameStore.state.run);
       // Native Tab reaches NPC markers; I and the HUD bag button remain available.
       if (resting && key === 'tab') return;
@@ -428,6 +434,7 @@ export class CombatScene extends Phaser.Scene {
     this.onReady();
   }
   private clearMouse() {
+    gameStore.clearCombatAction();
     this.left = false;
     this.right = false;
     this.attackPressed = false;

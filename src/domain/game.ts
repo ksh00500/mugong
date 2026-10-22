@@ -8,6 +8,7 @@ import {
   TRAIT_IDS,
 } from './character';
 import { recruitmentAction, recruitmentView } from './recruitment';
+import { combatActionBlock } from './combat-actions';
 import { isWalkablePreparation, walkWaystation } from './waystation';
 import { resolveRestEvent } from './rest-event';
 import {
@@ -913,7 +914,7 @@ function attack(r: Run, input: InputFrame) {
 function defend(r: Run, input: InputFrame, emit?: CombatCueSink) {
   const f = r.fighter,
     art = f.arts[f.active];
-  if (!art || art.defenseCd > 0 || !hasWeapon(f as BoundFighter, art.id)) return;
+  if (!art || combatActionBlock(f as BoundFighter, 'defense')) return;
   const moveAngle = input.dx || input.dy ? Math.atan2(input.dy, input.dx) : f.facing;
   f.action = 'defense';
   f.actionTime = 0.3;
@@ -964,14 +965,7 @@ function defend(r: Run, input: InputFrame, emit?: CombatCueSink) {
 function ultimate(r: Run, input: InputFrame, emit?: CombatCueSink) {
   const f = r.fighter,
     art = f.arts[f.active];
-  if (
-    !art ||
-    art.level < techniqueStats(art.id, art.level).ultimateLevel ||
-    art.gauge < 100 ||
-    (f.cooldown > 0 && art.id !== 'huashan') ||
-    !hasWeapon(f as BoundFighter, art.id)
-  )
-    return;
+  if (!art || combatActionBlock(f as BoundFighter, 'ultimate')) return;
   if (art.id === 'gaebang') {
     if ((art.queuedBoosts ?? 0) >= 2) return;
     if (f.innate === 'circulation')

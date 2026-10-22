@@ -625,6 +625,44 @@
   width: 100%;
   color: var(--hud-ivory);
 }
+.app-shell .wuxia-hud .hud-combat-action {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.app-shell .wuxia-hud .ultimate-trigger {
+  z-index: 3;
+}
+.app-shell .wuxia-hud .defense-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  padding: inherit;
+  text-align: left;
+}
+.app-shell .wuxia-hud .hud-combat-action[aria-disabled='true'] {
+  cursor: default;
+}
+.app-shell .wuxia-hud .hud-combat-action:hover:not([aria-disabled='true']) {
+  border-color: #c8e8d4;
+  background: #d8fff015;
+  transform: none;
+}
+.app-shell .wuxia-hud .hud-combat-action:active:not([aria-disabled='true']) {
+  background: #d8fff030;
+  transform: none;
+}
 .app-shell .wuxia-hud .ultimate-heading {
   position: absolute;
   inset: 14px 31px auto 93px;

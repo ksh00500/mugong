@@ -1,5 +1,5 @@
 import { beforeEach, expect, it, vi } from 'vitest';
-import { emptyGame, spawnWave } from '../src/domain/game';
+import { emptyGame, spawnWave, startRun } from '../src/domain/game';
 import type { GameState } from '../src/domain/model';
 const disk = vi.hoisted(() => ({
   saved: null as GameState | null,
@@ -37,6 +37,113 @@ beforeEach(() => {
   disk.active = 0;
   disk.maxActive = 0;
   vi.stubGlobal('document', { hidden: false });
+});
+function combatStore() {
+  const store = new GameStore();
+  startRun(store.state, '전투 버튼', 123);
+  const r = store.state.run!,
+    f = r.fighter as BoundFighter;
+  f.arts = (['wudang', 'huashan'] as const).map((id) => ({
+    id,
+    level: 5,
+    gauge: 100,
+    combo: 0,
+    defenseCd: 0,
+  }));
+  f.items = [makeWeapon('sword', 'hud-sword', 'weapon')];
+  f.bindings = { wudang: 'hud-sword', huashan: 'hud-sword' };
+  f.augmentOffers = [];
+  r.offers = [];
+  r.enemies.forEach((e) => {
+    e.timer = 100;
+    e.state = 'windup';
+  });
+  store.ready = store.rendererReady = true;
+  store.screen = 'field';
+  return store;
+}
+const idleInput = { dx: 0, dy: 0, aim: 2.2, attack: false, defense: false, ultimate: false };
+it.each(['defense', 'ultimate'] as const)(
+  'HUD %s consumes one input in the simulation and preserves battlefield aim',
+  (action) => {
+    const store = combatStore(),
+      r = store.state.run!,
+      f = r.fighter;
+    f.facing = 0.7;
+    expect(store.requestCombatAction(action)).toBe(true);
+    expect(f.action).not.toBe(action);
+    store.advance(idleInput, 1 / 60, 0);
+    expect(f.action).toBe(action);
+    if (action === 'defense') expect(f.arts[0].defenseCd).toBeGreaterThan(0);
+    else {
+      expect(f.arts[0].gauge).toBe(0);
+      expect(f.facing).toBe(0.7);
+    }
+    f.action = 'idle';
+    f.actionTime = 0;
+    f.cooldown = 0;
+    f.arts[0].defenseCd = 0;
+    f.arts[0].gauge = 100;
+    store.advance(idleInput, 1 / 60, 1);
+    expect(f.action).toBe('idle');
+  },
+);
+it.each(['pause', 'bag', 'switch', 'hidden', 'renderer', 'expiry', 'restraint', 'gauge'] as const)(
+  'HUD intent never fires later after %s',
+  async (condition) => {
+    const store = combatStore(),
+      f = store.state.run!.fighter;
+    expect(store.requestCombatAction('ultimate')).toBe(true);
+    if (condition === 'pause') store.pause(true);
+    if (condition === 'bag') store.openBag(true);
+    if (condition === 'switch') await store.dispatch({ type: 'switch', delta: 1 });
+    if (condition === 'hidden') vi.stubGlobal('document', { hidden: true });
+    if (condition === 'renderer') store.rendererReady = false;
+    if (condition === 'restraint') f.capturedTime = 1;
+    if (condition === 'gauge') f.arts[0].gauge = 0;
+    const clock =
+      condition === 'expiry'
+        ? vi.spyOn(performance, 'now').mockReturnValue(performance.now() + 300)
+        : undefined;
+    store.advance(idleInput, 1 / 60, 0);
+    clock?.mockRestore();
+    await store.persist(false);
+    store.paused = store.bagOpen = false;
+    store.rendererReady = true;
+    vi.stubGlobal('document', { hidden: false });
+    f.capturedTime = 0;
+    f.cooldown = 0;
+    f.arts.forEach((a) => (a.gauge = 100));
+    store.advance(idleInput, 1 / 60, 1);
+    expect(f.arts.every((a) => a.gauge === 100)).toBe(true);
+    expect(f.action).not.toBe('ultimate');
+    expect(disk.saved).not.toHaveProperty('combatAction');
+  },
+);
+it('HUD requests respect actual weapon, unlock, cooldown, gauge and boost limits', () => {
+  const store = combatStore(),
+    f = store.state.run!.fighter as BoundFighter,
+    art = f.arts[0];
+  delete f.bindings!.wudang;
+  expect(store.requestCombatAction('defense')).toBe(false);
+  f.bindings!.wudang = 'hud-sword';
+  art.level = 1;
+  expect(store.requestCombatAction('ultimate')).toBe(false);
+  art.level = 5;
+  art.gauge = 99;
+  expect(store.requestCombatAction('ultimate')).toBe(false);
+  art.gauge = 100;
+  f.cooldown = 1;
+  expect(store.requestCombatAction('ultimate')).toBe(false);
+  f.cooldown = 0;
+  art.defenseCd = 1;
+  expect(store.requestCombatAction('defense')).toBe(false);
+  f.arts[0] = { ...art, id: 'gaebang', gauge: 200, queuedBoosts: 2 };
+  f.items = [makeWeapon('staff', 'hud-staff', 'weapon')];
+  f.bindings!.gaebang = 'hud-staff';
+  expect(store.requestCombatAction('ultimate')).toBe(false);
+  f.arts[0].queuedBoosts = 1;
+  expect(store.requestCombatAction('ultimate')).toBe(true);
 });
 for (const wave of [4, 9, 14, 19])
   it(`${wave}: event reward requires a nearby conversation and is committed once`, async () => {
