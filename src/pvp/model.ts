@@ -1,0 +1,139 @@
+import type { ArtId, BoundFighter } from '../domain/model';
+export type Seat = 0 | 1;
+export type PvpMode = 'friendly' | 'ranked';
+export type PresetId = 'sword' | 'monk' | 'shadow' | 'mystic';
+export type PvpPhase = 'waiting' | 'countdown' | 'fighting' | 'interval' | 'finished';
+export type EndReason =
+  'knockout' | 'time' | 'surrender' | 'disconnect' | 'round-limit' | 'server-restart' | 'abandoned';
+export interface PvpInput {
+  dx: number;
+  dy: number;
+  aim: number;
+  attack: boolean;
+  defense: boolean;
+  ultimate: boolean;
+  switch: -1 | 0 | 1;
+}
+export const neutralInput = (): PvpInput => ({
+  dx: 0,
+  dy: 0,
+  aim: 0,
+  attack: false,
+  defense: false,
+  ultimate: false,
+  switch: 0,
+});
+export interface PvpActor {
+  seat: Seat;
+  preset: PresetId;
+  fighter: BoundFighter;
+  maxHp: number;
+  poison: number;
+  poisonClock: number;
+  buff: number;
+  hurt: number;
+}
+export interface PvpAttack {
+  id: number;
+  owner: Seat;
+  art: ArtId;
+  shape: 'sector' | 'shot' | 'burst';
+  x: number;
+  y: number;
+  angle: number;
+  range: number;
+  arc: number;
+  damage: number;
+  delay: number;
+  life: number;
+  speed: number;
+  radius: number;
+  heal: number;
+  poison: boolean;
+}
+export interface PvpEffect {
+  id: number;
+  kind: 'hit' | 'guard' | 'evade' | 'ultimate';
+  seat: Seat;
+  x: number;
+  y: number;
+  amount: number;
+  life: number;
+}
+export interface PvpMatch {
+  id: string;
+  mode: PvpMode;
+  phase: PvpPhase;
+  tick: number;
+  epoch: number;
+  round: number;
+  phaseTicks: number;
+  roundTicks: number;
+  totalTicks: number;
+  wins: [number, number];
+  players: [PvpActor, PvpActor];
+  attacks: PvpAttack[];
+  effects: PvpEffect[];
+  sequence: number;
+  roundWinner: Seat | null;
+  winner: Seat | null;
+  reason?: EndReason;
+}
+export interface OnlineAccount {
+  id: string;
+  name: string;
+  rating: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  matches: number;
+}
+export interface MatchReceipt {
+  id: string;
+  mode: PvpMode;
+  winner: Seat | null;
+  reason: EndReason;
+  names: [string, string];
+  scores: [number, number];
+  ratings: [number, number];
+  deltas: [number, number];
+  finishedAt: number;
+}
+export interface RoomState {
+  code: string;
+  mode: PvpMode;
+  seats: [
+    null | {
+      name: string;
+      preset: PresetId;
+      ready: boolean;
+      connected: boolean;
+      rating: number;
+      ack: number;
+    },
+    null | {
+      name: string;
+      preset: PresetId;
+      ready: boolean;
+      connected: boolean;
+      rating: number;
+      ack: number;
+    },
+  ];
+  match: PvpMatch | null;
+  receipt: MatchReceipt | null;
+  settling: boolean;
+}
+export type ClientMessage =
+  | { type: 'create'; preset: PresetId }
+  | { type: 'join'; code: string; preset: PresetId }
+  | { type: 'queue'; preset: PresetId }
+  | { type: 'cancel' | 'resume' | 'ready' | 'leave' | 'surrender' }
+  | { type: 'ping'; sent: number }
+  | ({ type: 'input'; epoch: number; seq: number } & PvpInput);
+export type ServerMessage =
+  | { type: 'room'; seat: Seat; room: RoomState }
+  | { type: 'queue'; since: number }
+  | { type: 'idle' }
+  | { type: 'error'; message: string }
+  | { type: 'pong'; sent: number };

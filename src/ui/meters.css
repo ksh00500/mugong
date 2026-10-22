@@ -1,5 +1,5 @@
 /* Shared resource meters: lobby, inventory and combat use the same color language. */
-.app-shell .meter.feedback-meter {
+:is(.app-shell, .pvp-app) .meter.feedback-meter {
   --meter-top: #ff906d;
   --meter-bottom: #db3449;
   --meter-edge: #8c4b41;
@@ -15,8 +15,8 @@
     0 1px 0 #fff7;
   font-variant-numeric: tabular-nums;
 }
-.app-shell .feedback-meter > .meter-fill,
-.app-shell .feedback-meter > .meter-trail {
+:is(.app-shell, .pvp-app) .feedback-meter > .meter-fill,
+:is(.app-shell, .pvp-app) .feedback-meter > .meter-trail {
   display: block;
   position: absolute;
   inset: 0;
@@ -26,7 +26,7 @@
   border-radius: inherit;
   pointer-events: none;
 }
-.app-shell .feedback-meter > .meter-fill {
+:is(.app-shell, .pvp-app) .feedback-meter > .meter-fill {
   z-index: 2;
   transform: scaleX(var(--meter-value, 0));
   background: linear-gradient(180deg, var(--meter-top), var(--meter-bottom));
@@ -35,18 +35,18 @@
     inset 0 -1px 0 #0003;
   transition: transform 180ms var(--ease-ui);
 }
-.app-shell .feedback-meter.health > .meter-fill {
+:is(.app-shell, .pvp-app) .feedback-meter.health > .meter-fill {
   transition: none;
 }
-.app-shell .feedback-meter > .meter-trail {
+:is(.app-shell, .pvp-app) .feedback-meter > .meter-trail {
   z-index: 1;
   transform: scaleX(var(--meter-trail, 0));
   background: linear-gradient(#fffdf0, #f6c479);
 }
-.app-shell .feedback-meter[data-feedback='hit'] > .meter-trail {
+:is(.app-shell, .pvp-app) .feedback-meter[data-feedback='hit'] > .meter-trail {
   background: #fffdf7;
 }
-.app-shell .feedback-meter > .meter-sheen {
+:is(.app-shell, .pvp-app) .feedback-meter > .meter-sheen {
   position: absolute;
   inset: 0;
   z-index: 3;
@@ -54,40 +54,40 @@
   box-shadow: inset 0 1px #fff4;
   background: linear-gradient(90deg, transparent, #fff2 65%, transparent);
 }
-.app-shell .feedback-meter[data-feedback='heal'] {
+:is(.app-shell, .pvp-app) .feedback-meter[data-feedback='heal'] {
   --meter-top: #79edbf;
   --meter-bottom: #168a73;
 }
-.app-shell .feedback-meter[data-health='critical'] {
+:is(.app-shell, .pvp-app) .feedback-meter[data-health='critical'] {
   --meter-top: #ff6f79;
   --meter-bottom: #ca2145;
   --meter-edge: #e36668;
 }
-.app-shell .feedback-meter.experience {
+:is(.app-shell, .pvp-app) .feedback-meter.experience {
   --meter-top: #ffdf8e;
   --meter-bottom: #d59b37;
   --meter-edge: #a67c38;
 }
-.app-shell .feedback-meter.ultimate {
+:is(.app-shell, .pvp-app) .feedback-meter.ultimate {
   --meter-top: #7de9ef;
   --meter-bottom: #218fb8;
   --meter-edge: #7fc6ca;
 }
-.app-shell[data-high-contrast='true'] .feedback-meter {
+:is(.app-shell, .pvp-app)[data-high-contrast='true'] .feedback-meter {
   --meter-track: #071016;
   border-color: #f7e7bc;
   box-shadow:
     inset 0 0 0 1px #000,
     0 0 0 1px #172823;
 }
-.app-shell[data-high-contrast='true'] .feedback-meter > .meter-sheen {
+:is(.app-shell, .pvp-app)[data-high-contrast='true'] .feedback-meter > .meter-sheen {
   background: none;
 }
 @media (prefers-reduced-motion: reduce) {
-  .app-shell .feedback-meter > .meter-fill {
+  :is(.app-shell, .pvp-app) .feedback-meter > .meter-fill {
     transition: none;
   }
-  .app-shell .feedback-meter > .meter-trail {
+  :is(.app-shell, .pvp-app) .feedback-meter > .meter-trail {
     display: none;
   }
 }

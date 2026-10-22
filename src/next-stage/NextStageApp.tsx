@@ -324,7 +324,7 @@ function PvpPrep({
         <SectionTitle
           eyebrow={lethal ? '생사결 준비' : '비무 준비'}
           title={lethal ? '돌아올 수 없는 승부' : '실력을 겨룰 시간'}
-          aside={lethal ? '위험 경기' : '시즌 순위 경기'}
+          aside={lethal ? '위험 경기' : '실시간 1:1 · 친선 / 순위전'}
         />
         <div className={`ns-pvp-feature ${lethal ? 'lethal' : ''}`}>
           <div className="ns-pvp-feature-art">
@@ -359,9 +359,9 @@ function PvpPrep({
           </div>
         ) : (
           <div className="ns-season">
-            <span>현재 시즌</span>
-            <b>순위 측정 전</b>
-            <small>보상은 시즌이 끝난 뒤 순위에 따라 지급됩니다.</small>
+            <span>현재 순위전</span>
+            <b>서버 계정 Elo</b>
+            <small>표준 무인으로 대전하며 경기별 경험치·물품 보상은 없습니다.</small>
           </div>
         )}
       </div>
@@ -372,7 +372,7 @@ function PvpPrep({
           <p>
             {lethal
               ? '실제 손실을 이해한 뒤에만 출전할 수 있습니다.'
-              : '승패는 시즌 순위에 반영됩니다.'}
+              : '승패는 서버의 계정 Elo 점수에 반영됩니다.'}
           </p>
           <div className="ns-rule-points">
             {lethal ? (
@@ -396,14 +396,14 @@ function PvpPrep({
                   <b>성장</b>경기별 경험치·물품 없음
                 </span>
                 <span>
-                  <b>보상</b>시즌 종료 후 순위에 따라 지급
+                  <b>보상</b>경기별 재화·물품 지급 없음
                 </span>
               </>
             )}
           </div>
         </div>
         <Action tone={lethal ? 'danger' : 'jade'} className="ns-primary-wide" onClick={enter}>
-          {lethal ? '위험 확인 시안 보기' : '매칭 대기 시안 보기'} <Icon name="arrow" />
+          {lethal ? '위험 확인 시안 보기' : '실시간 비무장으로'} <Icon name="arrow" />
         </Action>
       </aside>
     </div>
@@ -807,7 +807,7 @@ export function NextStageApp() {
           <span className="ns-work-label">다음 단계 UI 시안</span>
         </div>
         <div className="ns-header-side">
-          <span className="ns-preview-badge">화면 시안 · 온라인 기능 미연결</span>
+          <span className="ns-preview-badge">레이드·생사결 시안 · 비무장 별도 연결</span>
           <a href="/" className="ns-back-game">
             현재 게임으로 <Icon name="arrow" />
           </a>
@@ -856,7 +856,7 @@ export function NextStageApp() {
             lethal={false}
             wager={wager}
             setWager={setWager}
-            enter={() => setWaiting(true)}
+            enter={() => window.location.assign('/pvp/')}
           />
         )}
         {screen === 'deathmatch' && (

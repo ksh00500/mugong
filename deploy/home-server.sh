@@ -11,19 +11,21 @@ case "$action" in
       exit 2
     fi
     "${compose[@]}" config --quiet
-    "${compose[@]}" build web
+    "${compose[@]}" build web pvp
     "${compose[@]}" up -d --wait web
     "${compose[@]}" exec -T web wget -q -O - http://127.0.0.1:8080/healthz
+    "${compose[@]}" exec -T web wget -q -O - http://127.0.0.1:8080/api/pvp/health
     "${compose[@]}" up -d tunnel
     "${compose[@]}" ps
     ;;
   status) "${compose[@]}" ps; "${compose[@]}" exec -T web wget -q -O - http://127.0.0.1:8080/healthz ;;
-  logs) "${compose[@]}" logs --tail 80 web ;;
+  logs) "${compose[@]}" logs --tail 80 web pvp ;;
   down) "${compose[@]}" down ;;
   rollback)
     tag="${2:?Pass a previously built image tag}"
     [[ "$tag" =~ ^[a-zA-Z0-9_.-]+$ ]] || exit 2
     docker image inspect "mugong:$tag" --format '{{.Id}}' >/dev/null
+    docker image inspect "mugong-pvp:$tag" --format '{{.Id}}' >/dev/null
     MUGONG_TAG="$tag" "${compose[@]}" up -d --no-build --wait web
     ;;
   *) printf 'Usage: bash deploy/home-server.sh {up|update|status|logs|down|rollback IMAGE_TAG}\n' >&2; exit 2 ;;

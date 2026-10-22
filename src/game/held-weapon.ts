@@ -66,7 +66,8 @@ export class HeldWeapon {
       ['held-darts', 4],
       ['held-gauntlets', 5],
     ] as const)
-      if (scene.textures.exists(key)) registerEnemyMotion(scene.textures.get(key), [0], columns);
+      if (scene.textures.exists(key) && !scene.textures.exists(`${key}-isolated`))
+        registerEnemyMotion(scene.textures.get(key), [0], columns);
     for (const [id, art] of Object.entries(ITEM_ARTWORK)) {
       const key = `held-${id}`;
       if (scene.textures.exists(key))

@@ -190,6 +190,11 @@ export function Lobby({
             </span>
             <Icon name="arrow" />
           </button>
+          <a className="home-online-entry" href="/pvp/">
+            <Icon name="sword" />
+            {t('실시간 비무 · 친선 / 순위전')}
+            <Icon name="arrow" />
+          </a>
         </section>
 
         <section className="home-hero" aria-label={t('무인 초상')}>

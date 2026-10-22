@@ -1,5 +1,7 @@
 # 현재 구현과 남은 제작
 
+2026-10-23 최신: `/pvp/` 실제 1:1 친선·계정 Elo 순위전, HTTP/WS 서버 판정, 준비/라운드·재접속·SQLite 단일 정산을 구현했다. 표준4무인/8계열이며 오프라인 여정 저장은 건드리지 않는다. 로컬5205에 적용하며 Docker 구성은 web+pvp+영속 볼륨을 사용한다. 공개 집 서버 연결, Docker 실행 재검증, 지연/손실·부하·사람 대상 밸런스는 후속이다. [구현](realtime-biwu-v1.md) · [이번 검증](verification/realtime-biwu-v1/README.md). 아래 온라인 전체 미구현 기록은 당시 상태다.
+
 2026-10-22 최신: 사망 원인/실제 피해/웨이브 시간·무공/회복약 기록, 기연6종과 이전 여정 결정 보존, 의원·상인·대장장이 작업 원화3장·저장 후 재생을 구현했다. 지역 모션 표 동적 로딩으로 mount5,461.89KB→444.98KB, ES2022빌드·실패 재시도를 연결했다. Linux Docker + Cloudflare Tunnel 설치 구성을 추가했다. [현재 구현](remaining-gameplay-v1.md) · [이번 검사와 배포 경계](verification/remaining-gameplay-v1/README.md) · [집 서버 설치](home-server-cloudflare.md). 실제 공개 연결·장시간 인간 플레이/실물GPU는 별도이며 아래 기록은 당시 범위다.
 
 2026-10-20 UI 최우선 U01–U05: HP 숫자의 검은 패치/이중 그림자 제거와 별도 정보 줄·15px(큰HUD16px), 경험치12/14px, 모집의 고정 제목/닫기·이름/출전, 성장 설명 옆 영역, Phaser 카메라 해제 순서 오류 수정을 구현했다. 로컬5205는 dist-ui-priority-v1로 교체했다. [변경](ui-priority-v1.md) · [이번 검증](verification/ui-priority-v1/README.md). 아래 감사는 수정 이전 기록이며 U06–U24는 후속이다.
