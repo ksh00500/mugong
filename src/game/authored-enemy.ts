@@ -1,32 +1,39 @@
 import type Phaser from 'phaser';
 import type { Enemy } from '../domain/model';
 import { MOTION_DIRECTIONS, type MotionAction } from './directional-motion';
-import staff from './shaolin-staff-frames.json' with { type: 'json' };
-import family from './shaolin-family-frames.json' with { type: 'json' };
-import zhuge from './zhuge-family-frames.json' with { type: 'json' };
-import tianjian from './tianjian-family-frames.json' with { type: 'json' };
-import dokmu from './dokmu-family-frames.json' with { type: 'json' };
-import hyeolma from './hyeolma-family-frames.json' with { type: 'json' };
-import desert from './desert-family-frames.json' with { type: 'json' };
-import qingha from './qingha-family-frames.json' with { type: 'json' };
-import snow from './snow-family-frames.json' with { type: 'json' };
-import bamboo from './bamboo-family-frames.json' with { type: 'json' };
-import tomb from './tomb-family-frames.json' with { type: 'json' };
+import type staffType from './shaolin-staff-frames.json';
+let staff = {
+  version: 1,
+  id: 'unloaded',
+  pixelScale: 0.225,
+  cell: { width: 0, height: 0, padding: 32 },
+  healthClearance: 0,
+  frames: [],
+} as typeof staffType;
+import type familyType from './shaolin-family-frames.json';
+let family = { version: 1, characters: [] } as typeof familyType;
+import type zhugeType from './zhuge-family-frames.json';
+let zhuge = { version: 1, characters: [] } as typeof zhugeType;
+import type tianjianType from './tianjian-family-frames.json';
+let tianjian = { version: 1, characters: [] } as typeof tianjianType;
+import type dokmuType from './dokmu-family-frames.json';
+let dokmu = { version: 1, characters: [] } as typeof dokmuType;
+import type hyeolmaType from './hyeolma-family-frames.json';
+let hyeolma = { version: 1, characters: [] } as typeof hyeolmaType;
+import type desertType from './desert-family-frames.json';
+let desert = { version: 1, characters: [] } as typeof desertType;
+import type qinghaType from './qingha-family-frames.json';
+let qingha = { version: 1, characters: [] } as typeof qinghaType;
+import type snowType from './snow-family-frames.json';
+let snow = { version: 1, characters: [] } as typeof snowType;
+import type bambooType from './bamboo-family-frames.json';
+let bamboo = { version: 1, characters: [] } as typeof bambooType;
+import type tombType from './tomb-family-frames.json';
+let tomb = { version: 1, characters: [] } as typeof tombType;
 import { enemyArtSlot } from '../platform/region-art';
 import { registerBossSpecial } from './boss-special';
 import { bossMotionClock } from './boss-motion';
 
-export const STAFF_ART = staff;
-export const SHAOLIN_FAMILY_ART = family;
-export const ZHUGE_FAMILY_ART = zhuge;
-export const TIANJIAN_FAMILY_ART = tianjian;
-export const DOKMU_FAMILY_ART = dokmu;
-export const HYEOLMA_FAMILY_ART = hyeolma;
-export const DESERT_FAMILY_ART = desert;
-export const QINGHA_FAMILY_ART = qingha;
-export const SNOW_FAMILY_ART = snow;
-export const BAMBOO_FAMILY_ART = bamboo;
-export const TOMB_FAMILY_ART = tomb;
 export type AuthoredEnemyFrame = (typeof staff.frames)[number];
 const frames = new Map(staff.frames.map((frame) => [frame.name, frame]));
 // Source texture also identifies the family; identical display IDs in another
@@ -47,6 +54,85 @@ const familyFrames = new Map(
     ...tomb.characters,
   ].map((art) => [familyFrameKey(art), new Map(art.frames.map((f) => [f.name, f]))]),
 );
+const familyLoaders = import.meta.glob('./*-family-frames.json', { import: 'default' });
+const nativeRegions = [
+  'qingha',
+  'dokmu',
+  'tianjian',
+  'snow',
+  'shaolin',
+  'bamboo',
+  'tomb',
+  'desert',
+  'hyeolma',
+  'zhuge',
+];
+const nativeRequests = new Map<number, Promise<void>>();
+const nativeReadyRegions = new Set<number>();
+export const nativeFamilyReady = (region: number) => region < 0 || nativeReadyRegions.has(region);
+export async function prepareNativeFamily(region = -1): Promise<void> {
+  if (region < 0) {
+    await Promise.all(nativeRegions.map((_, i) => prepareNativeFamily(i)));
+    return;
+  }
+  const previous = nativeRequests.get(region);
+  if (previous) return previous;
+  const loader = familyLoaders['./' + nativeRegions[region] + '-family-frames.json'];
+  if (!loader) throw Error('Unknown native region ' + region);
+  const request = Promise.all([
+    loader(),
+    region === 4
+      ? import('./shaolin-staff-frames.json').then((m) => m.default)
+      : Promise.resolve(null),
+  ]).then(([raw, staffRaw]) => {
+    switch (region) {
+      case 0:
+        qingha = raw as typeof qingha;
+        break;
+      case 1:
+        dokmu = raw as typeof dokmu;
+        break;
+      case 2:
+        tianjian = raw as typeof tianjian;
+        break;
+      case 3:
+        snow = raw as typeof snow;
+        break;
+      case 4:
+        family = raw as typeof family;
+        break;
+      case 5:
+        bamboo = raw as typeof bamboo;
+        break;
+      case 6:
+        tomb = raw as typeof tomb;
+        break;
+      case 7:
+        desert = raw as typeof desert;
+        break;
+      case 8:
+        hyeolma = raw as typeof hyeolma;
+        break;
+      case 9:
+        zhuge = raw as typeof zhuge;
+        break;
+    }
+    for (const art of (raw as typeof family).characters)
+      familyFrames.set(
+        familyFrameKey(art),
+        new Map(art.frames.map((frame) => [frame.name, frame])),
+      );
+    if (staffRaw) {
+      staff = staffRaw;
+      for (const frame of staff.frames) frames.set(frame.name, frame);
+    }
+    nativeReadyRegions.add(region);
+  });
+  nativeRequests.set(region, request);
+  void request.catch(() => nativeRequests.delete(region));
+  return request;
+}
+if (typeof window === 'undefined') await prepareNativeFamily();
 const clamp = (value: number) => Math.max(0, Math.min(1, value));
 
 export function usesAuthoredStaff(enemy: Pick<Enemy, 'kind' | 'bossId'>, region: number) {

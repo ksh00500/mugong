@@ -39,6 +39,7 @@ function stateFor(wave: number, region: number, seed = 123) {
   const s = emptyGame();
   startRun(s, '기연·쉼터 검사', seed);
   const r = s.run!;
+  delete r.restEventRevision; // Exercise the saved revision-1 encounters unchanged.
   r.regionRoute = REGIONS.filter((_, n) => n !== region)
     .slice(0, 4)
     .map((x) => x.name);

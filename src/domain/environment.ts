@@ -36,7 +36,7 @@ export function stepEnvironment(
   r: Run,
   dt: number,
   random: () => number,
-  damage: (amount: number) => void,
+  damage: (amount: number, zone?: FieldZone) => void,
   impact?: (zone: FieldZone) => void,
   contact?: (zone: FieldZone) => void,
 ) {
@@ -96,13 +96,14 @@ export function stepEnvironment(
       zone.impactDamage = undefined;
       zone.pulse = 0.8;
       impact?.(zone);
-      if (inside && blastDamage > 0 && !(zone.kind === 'cold' && zone.id === 0)) damage(blastDamage);
+      if (inside && blastDamage > 0 && !(zone.kind === 'cold' && zone.id === 0))
+        damage(blastDamage, zone);
       if (r.phase !== 'combat' || pendingChoices(r)) break;
     }
     if (!inside) continue;
     if (!(zone.kind === 'cold' && zone.id === 0) && zone.pulse <= 0) {
       zone.pulse = FIELD_EFFECTS[zone.kind].interval;
-      const loss = applyFieldContact(r, zone.kind, damage);
+      const loss = applyFieldContact(r, zone.kind, (amount) => damage(amount, zone));
       if (loss > 0 || zone.kind === 'brew') contact?.(zone);
       if (zone.kind === 'blood') {
         const owner = r.enemies.find((e) => e.id === zone.owner && e.hp > 0);

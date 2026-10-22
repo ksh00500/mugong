@@ -3,6 +3,11 @@ import { CombatScene } from './CombatScene';
 import { H, W } from '../domain/content';
 import type { ImageProgress, PreparedImages } from '../platform/assets';
 import { gameStore } from '../platform/store';
+import { prepareBossSpecial } from './boss-special';
+import { prepareNativeFamily } from './authored-enemy';
+export async function prepareCombatMetadata(region: number) {
+  await Promise.all([prepareBossSpecial(region), prepareNativeFamily(region)]);
+}
 export function mountGame(
   parent: HTMLElement,
   images: PreparedImages,

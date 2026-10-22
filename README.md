@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+2026-10-22: 사망 원인·웨이브/보스 전투 기록, 기연6종, 저장 성공 후 NPC 작업 모션을 추가했다. 현재 지역만 모션 표를 읽도록 분리해 mount를5,461.89KB에서444.98KB로 줄였다. [구현·호환 경계](docs/remaining-gameplay-v1.md) · [이번 검증](docs/verification/remaining-gameplay-v1/README.md). 집 Linux PC의 Docker + Cloudflare Tunnel 설치는 [서버 안내](docs/home-server-cloudflare.md)를 따른다. 실제 집 서버 연결과 공개 주소 확인은 별도다. 로컬 최신 빌드는 http://127.0.0.1:5205/ 이다.
+
 2026-10-21 추천 2·3·4: 혼잡 전투의 공격 예고·장판 경계·화면 밖 사격 방향을 강화하고, 비용/보상/한 번의 선택을 저장하는 맵 기연 3종을 연결했다. 4·9·14·19웨이브 모두 가까이 이동해 NPC·기연·출구와 상호작용한다. 후반 쉼터는 현재 지역의 배경과 배치를 사용한다. [구현·저장 경계](docs/rest-clarity-v1.md) · [이번 검증](docs/verification/rest-clarity-v1/README.md).
 
 2026-10-21 일반 적 협공: 근접 압박/측면 접근·창병의 이동 방향 견제·다른 각도의 사격을 연결했다. 먼 사격자도 공격 슬롯을 차지하고 일반 적의 새 준비 시작을 최소0.22초씩 나눈다. [동작·예고·저장 경계·전후 비교](docs/enemy-coordination-v1.md) · [검증](docs/verification/enemy-coordination-v1/README.md).

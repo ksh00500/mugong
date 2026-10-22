@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { authoredEnemyArt, authoredEnemyFrame, ZHUGE_FAMILY_ART } from '../src/game/authored-enemy';
+import { authoredEnemyArt, authoredEnemyFrame } from '../src/game/authored-enemy';
+import { ZHUGE_FAMILY_ART } from '../src/game/authored-enemy-data';
 import { enemyAttack } from '../src/domain/combat';
 import type { Enemy } from '../src/domain/model';
 import { regionArtManifest } from '../src/platform/region-art';
@@ -33,7 +34,9 @@ describe('whole Zhuge authored family', () => {
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/zhuge-family-v1/')),
     ).toHaveLength(34);
-    expect(Object.values(manifest).filter(path => path.startsWith('/art/native-size-v1/'))).toHaveLength(8);
+    expect(
+      Object.values(manifest).filter((path) => path.startsWith('/art/native-size-v1/')),
+    ).toHaveLength(8);
     for (const key of ['region-actors-9', 'region-direction-9', 'region-motion-9', 'region-rear-9'])
       expect(manifest).not.toHaveProperty(key);
   });

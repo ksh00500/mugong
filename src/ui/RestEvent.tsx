@@ -18,7 +18,11 @@ export function RestEvent({ run, busy }: { run: Run; busy: boolean }) {
         <div>
           <dt>{t('지불')}</dt>
           <dd>
-            {event.hpCost ? t('체력 {0}', { 0: event.hpCost }) : t('{0}전', { 0: event.goldCost })}
+            {event.itemCost
+              ? `${t(itemDefinition(event.itemCost.templateId)!.name)} ×${event.itemCost.count} (${event.heldCount})`
+              : event.hpCost
+                ? t('체력 {0}', { 0: event.hpCost })
+                : t('{0}전', { 0: event.goldCost })}
           </dd>
         </div>
         <div>
@@ -37,7 +41,13 @@ export function RestEvent({ run, busy }: { run: Run; busy: boolean }) {
                 : '이번 기연을 지나쳤습니다.',
             )
           : !event.available
-            ? t(event.hpCost ? '체력이 부족합니다. 체력은 1 이상 남아야 합니다.' : '금전 부족')
+            ? t(
+                event.itemCost
+                  ? '교환할 물품이 부족합니다.'
+                  : event.hpCost
+                    ? '체력이 부족합니다. 체력은 1 이상 남아야 합니다.'
+                    : '금전 부족',
+              )
             : t('한 번 선택하면 이 쉼터에서는 바꿀 수 없습니다.')}
       </p>
       {!event.record && (

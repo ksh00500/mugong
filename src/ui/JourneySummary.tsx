@@ -3,6 +3,7 @@ import { t, formatNumber } from '../platform/i18n';
 import { Modal } from './shared';
 import { Icon } from './Icons';
 import { gameStore } from '../platform/store';
+import { CombatReview } from './CombatReview';
 
 function JourneyFacts({
   wave,
@@ -53,6 +54,7 @@ export function DeathSummary({ run, busy }: { run: Run; busy: boolean }) {
           {t('{0}, 강호에서 쓰러지다', { 0: run.fighter.name })} · Lv.{run.fighter.level}
         </h3>
         <JourneyFacts wave={run.wave} kills={run.kills} elapsed={run.elapsed} />
+        <CombatReview report={run.combatReport} />
         {!!run.regionRoute?.length && (
           <p className="journey-route" aria-label={t('방문한 지역')}>
             {run.regionRoute
@@ -99,6 +101,7 @@ export function JourneySummary({
           </h3>
         </div>
         <JourneyFacts {...result} />
+        <CombatReview report={result.combatReport} />
         <p className="journey-route" aria-label={t('방문한 지역')}>
           {result.route.map((region) => t(region)).join(' → ')}
         </p>

@@ -2,15 +2,14 @@ import { describe, it, expect } from 'vitest';
 import { runtimeAssetPresent as existsSync } from './support/runtime-asset';
 import { BOSS_KITS } from '../src/domain/boss-melee';
 import { bossMotionClock } from '../src/game/boss-motion';
+import { bossSpecialFrame, bossHealthClearance } from '../src/game/boss-special';
 import {
-  bossSpecialFrame,
-  bossHealthClearance,
   SHAOLIN_SPECIAL_ART,
   TIANJIAN_SPECIAL_ART,
   DOKMU_SPECIAL_ART,
   QINGHA_SPECIAL_ART,
   SNOW_SPECIAL_ART,
-} from '../src/game/boss-special';
+} from '../src/game/boss-special-data';
 import { authoredEnemyArt } from '../src/game/authored-enemy';
 import type { Enemy, EncounterObject } from '../src/domain/model';
 import { regionArtManifest } from '../src/platform/region-art';

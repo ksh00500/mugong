@@ -1,4 +1,5 @@
 import { characterMessages } from './character-messages';
+import { completionMessages } from './completion-messages';
 import { trainingMessages } from './training-messages';
 import { recruitmentMessages } from './recruitment-messages';
 // [English, Japanese, Simplified Chinese, Traditional Chinese]
@@ -16,6 +17,7 @@ import { waystationMessages } from './waystation-messages';
 import { globalBalanceMessages } from './global-balance-messages';
 import { restExpansionMessages } from './rest-expansion-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
+  ...completionMessages,
   ...restExpansionMessages,
   ...globalBalanceMessages,
   ...waystationMessages,

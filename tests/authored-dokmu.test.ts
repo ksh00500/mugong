@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { authoredEnemyArt, authoredEnemyFrame, DOKMU_FAMILY_ART } from '../src/game/authored-enemy';
+import { authoredEnemyArt, authoredEnemyFrame } from '../src/game/authored-enemy';
+import { DOKMU_FAMILY_ART } from '../src/game/authored-enemy-data';
 import { enemyAttack } from '../src/domain/combat';
 import type { Enemy } from '../src/domain/model';
 import { regionArtManifest } from '../src/platform/region-art';
@@ -30,7 +31,9 @@ describe('whole Dokmu authored family', () => {
   it('loads 35 basic, 20 special, 5 remaining-action sheets and the floor', () => {
     const manifest = regionArtManifest(1);
     expect(Object.keys(manifest)).toHaveLength(61);
-    expect(Object.values(manifest).filter(path=>path.startsWith('/art/boss-remaining-v1/'))).toHaveLength(5);
+    expect(
+      Object.values(manifest).filter((path) => path.startsWith('/art/boss-remaining-v1/')),
+    ).toHaveLength(5);
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/dokmu-family-v1/')),
     ).toHaveLength(35);

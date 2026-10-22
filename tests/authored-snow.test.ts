@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { authoredEnemyArt, authoredEnemyFrame, SNOW_FAMILY_ART } from '../src/game/authored-enemy';
+import { authoredEnemyArt, authoredEnemyFrame } from '../src/game/authored-enemy';
+import { SNOW_FAMILY_ART } from '../src/game/authored-enemy-data';
 import { enemyAttack } from '../src/domain/combat';
 import type { Enemy } from '../src/domain/model';
 import { regionArtManifest } from '../src/platform/region-art';
@@ -47,7 +48,9 @@ describe('whole Snow authored family', () => {
     expect(
       Object.values(manifest).filter((path) => path.startsWith('/art/snow-family-v1/')),
     ).toHaveLength(30);
-    expect(Object.values(manifest).filter(path => path.startsWith('/art/native-size-v1/'))).toHaveLength(5);
+    expect(
+      Object.values(manifest).filter((path) => path.startsWith('/art/native-size-v1/')),
+    ).toHaveLength(5);
     for (const key of ['region-actors-3', 'region-direction-3', 'region-motion-3', 'region-rear-3'])
       expect(manifest).not.toHaveProperty(key);
   });

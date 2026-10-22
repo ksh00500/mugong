@@ -30,6 +30,7 @@ export interface View {
 const errorText = (error: unknown) =>
   error instanceof Error ? error.message : '저장 공간에 접근할 수 없습니다.';
 export class GameStore {
+  waystationWork?: { id: 'physician' | 'merchant' | 'blacksmith'; startedAt?: number };
   state = emptyGame();
   ready = false;
   busy = false;
@@ -197,6 +198,19 @@ export class GameStore {
     if (cmd.type === 'openTraining') this.bagOpen = false;
     // Art switching is combat input. Saving its result must not freeze the fight.
     await this.persist(cmd.type !== 'switch');
+    if (!this.error && isWalkablePreparation(this.state.run)) {
+      const work = {
+        heal: 'physician',
+        refine: 'blacksmith',
+        buySupply: 'merchant',
+        sellMaterial: 'merchant',
+      }[cmd.type as 'heal' | 'refine' | 'buySupply' | 'sellMaterial'];
+      if (work)
+        this.waystationWork = {
+          id: work as 'physician' | 'merchant' | 'blacksmith',
+          ...(this.waystationDialogue ? {} : { startedAt: performance.now() }),
+        };
+    }
     if (
       (cmd.type === 'choose' || cmd.type === 'chooseAugment' || cmd.type === 'deferTraining') &&
       !this.error &&
@@ -318,6 +332,8 @@ export class GameStore {
     this.notify();
   }
   closeWaystation() {
+    if (this.waystationWork && !this.waystationWork.startedAt)
+      this.waystationWork.startedAt = performance.now();
     this.waystationDialogue = null;
     this.waystationTarget = null;
     this.notify();

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-22",
+  "mode": "built-in image_gen, reference-guided generation, transparent_background=true",
+  "promptRecord": "Production brief reconstructed from the authored requirements; this is not a verbatim archive of tool prompts.",
+  "commonBrief": "Create one transparent horizontal four-frame work-animation strip of the referenced MUGONG NPC. Hand-painted chibi wuxia, elevated three-quarter camera, consistent identity, anatomy, proportions, camera and lighting. Four equal cells with complete silhouettes and generous transparent padding. Keep body size and feet baseline constant; no text, background, floor, UI, glow or watermark. Anticipation, preparation, work contact, recovery. Tools stay attached to the correct hands, with anatomically credible joints.",
+  "sheet": {"width": 2172, "height": 724, "columns": 4, "cellWidth": 543},
+  "processing": "Generated RGBA PNGs copied byte-for-byte to public. No raster editing, resizing or background stripping. Renderer uses explicit source rectangles and per-frame foot origins with a single fixed body scale per NPC.",
+  "assets": [
+    {"name": "physician", "brief": "Elderly jade-and-ivory herbal physician grinding herbs in one mortar with one pestle, both hands anatomically connected.", "reference": "public/art/waystation-world-v1/physician.png", "path": "public/art/waystation-work-v1/physician.png", "source": "C:/Users/user/.codex/generated_images/01a0e1f0-638e-7b20-9e28-1f0d4d39d935/exec-c8f9b251-039f-4864-83ec-6637331e6eaf.png"},
+    {"name": "merchant", "brief": "Burgundy-and-teal woman merchant counting beads on one wooden abacus, holding it consistently with the other hand.", "reference": "public/art/waystation-world-v1/merchant.png", "path": "public/art/waystation-work-v1/merchant.png", "source": "C:/Users/user/.codex/generated_images/01a0e1f0-638e-7b20-9e28-1f0d4d39d935/exec-d32e9ebd-0b17-4777-abcc-fe2e15076e5b.png"},
+    {"name": "blacksmith", "brief": "Stocky apron-wearing blacksmith working with one short hammer and tongs at a small anvil, raise, strike and recover without extra handles or glow.", "reference": "public/art/waystation-world-v1/blacksmith.png", "path": "public/art/waystation-work-v1/blacksmith.png", "source": "C:/Users/user/.codex/generated_images/01a0e1f0-638e-7b20-9e28-1f0d4d39d935/exec-512d0004-5964-4d47-ae89-523c135e5770.png"}
+  ],
+  "review": "All generated strips inspected, then actual in-game normal/reduced work paths captured. Merchant raw frames drift horizontally; explicit foot anchors in src/game/waystation-work.ts compensate without body deformation. Existing idle sprites remain outside work and on loading failure. SHA256 and sizes are recorded in asset-manifest.json. No claim of all animation state combinations reviewed."
+}

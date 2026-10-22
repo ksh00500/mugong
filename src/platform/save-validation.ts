@@ -26,6 +26,77 @@ const artId = (value: unknown): value is keyof typeof ARTS => member(value, ART_
 const uniqueIds = (values: unknown[]) =>
   new Set(values.map((value) => (value as RecordValue).id)).size === values.length;
 
+function damageRecord(value: unknown) {
+  return (
+    record(value) &&
+    nonnegative(value.time) &&
+    integer(value.wave) &&
+    Number(value.wave) >= 1 &&
+    Number(value.wave) <= 20 &&
+    nonnegative(value.amount) &&
+    Number(value.amount) > 0 &&
+    nonnegative(value.hpAfter) &&
+    record(value.source) &&
+    member(value.source.kind, ['melee', 'projectile', 'field', 'hazard', 'status', 'unknown']) &&
+    text(value.source.label) &&
+    value.source.label.length <= 80 &&
+    optional(value.source.bossId, (id) => text(id) && !!bossById(id))
+  );
+}
+function validCombatReport(value: unknown) {
+  if (
+    !record(value) ||
+    !['startedAt', 'waveStartedAt', 'waveDamageStart', 'damageTaken'].every((key) =>
+      nonnegative(value[key]),
+    ) ||
+    !integer(value.potionsUsed) ||
+    !record(value.attacks)
+  )
+    return false;
+  if (
+    ![value.startWave, value.activeWave].every(
+      (n) => integer(n) && Number(n) >= 1 && Number(n) <= 20,
+    ) ||
+    Number(value.startWave) > Number(value.activeWave)
+  )
+    return false;
+  if (
+    !Object.entries(value.attacks).every(
+      ([key, count]) =>
+        (key === 'basic' || ART_IDS.includes(key as (typeof ART_IDS)[number])) && integer(count),
+    )
+  )
+    return false;
+  if (
+    !list(value.hits, damageRecord) ||
+    value.hits.length > 12 ||
+    !list(
+      value.waves,
+      (w) =>
+        record(w) &&
+        integer(w.wave) &&
+        Number(w.wave) >= 1 &&
+        Number(w.wave) <= 20 &&
+        nonnegative(w.seconds) &&
+        nonnegative(w.damageTaken),
+    ) ||
+    value.waves.length > 20
+  )
+    return false;
+  const waves = value.waves as RecordValue[];
+  if (new Set(waves.map((w) => w.wave)).size !== waves.length) return false;
+  return (
+    optional(value.remainingMedicine, integer) &&
+    optional(value.fatal, (v) => damageRecord(v) && record(v) && v.hpAfter === 0) &&
+    optional(
+      value.loadout,
+      (v) =>
+        list(v, (a) => record(a) && artId(a.id) && integer(a.level) && Number(a.level) <= 10) &&
+        v.length <= 8,
+    )
+  );
+}
+
 function item(value: unknown) {
   return (
     record(value) &&
@@ -497,6 +568,8 @@ function run(value: unknown) {
     nonnegative(value.elapsed) &&
     text(value.message) &&
     integer(value.merchantStock) &&
+    optional(value.restEventRevision, (revision) => revision === 2) &&
+    optional(value.combatReport, validCombatReport) &&
     optional(
       value.restEvents,
       (events) =>
@@ -508,7 +581,14 @@ function run(value: unknown) {
             [4, 9, 14, 19].includes(Number(event.wave)) &&
             integer(event.wave) &&
             Number(event.wave) <= Number(value.wave) &&
-            member(event.kind, ['herbalist', 'manuscript', 'salvage']) &&
+            member(event.kind, [
+              'herbalist',
+              'manuscript',
+              'salvage',
+              'pilgrim',
+              'duelist',
+              'caravan',
+            ]) &&
             member(event.choice, ['accept', 'leave']),
         ) &&
         new Set(events.map((event) => (event as RecordValue).wave)).size === events.length,
@@ -563,6 +643,7 @@ export function isGameSave(value: unknown): value is GameState {
             (journey.wave as number) <= 20 &&
             ['level', 'kills', 'gold', 'items'].every((key) => integer(journey[key])) &&
             nonnegative(journey.elapsed) &&
+            optional(journey.combatReport, validCombatReport) &&
             nonnegative(journey.endedAt) &&
             list(journey.route, text) &&
             journey.route.length <= 4,

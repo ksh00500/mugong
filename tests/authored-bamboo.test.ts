@@ -1,9 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import {
-  authoredEnemyArt,
-  authoredEnemyFrame,
-  BAMBOO_FAMILY_ART,
-} from '../src/game/authored-enemy';
+import { authoredEnemyArt, authoredEnemyFrame } from '../src/game/authored-enemy';
+import { BAMBOO_FAMILY_ART } from '../src/game/authored-enemy-data';
 import { enemyAttack } from '../src/domain/combat';
 import type { Enemy } from '../src/domain/model';
 import { regionArtManifest } from '../src/platform/region-art';

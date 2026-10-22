@@ -1,0 +1,227 @@
+{
+  "method": "3 fresh isolated browser contexts per variant, interleaved, region3 wave5, identical Docker Nginx/art/host/viewport; local unthrottled not WAN",
+  "samples": [
+    {
+      "variant": "after",
+      "sample": 0,
+      "region": 3,
+      "readyMs": 3248.7999999998137,
+      "decodedJsBytes": 3151911,
+      "encodedJsBytes": 881367,
+      "js": [
+        {
+          "path": "/assets/main-Y3Y5mM8B.js",
+          "decoded": 512324,
+          "encoded": 178943
+        },
+        {
+          "path": "/assets/Icons-B3pcI90h.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-CxwL--l0.js",
+          "decoded": 444976,
+          "encoded": 91704
+        },
+        {
+          "path": "/assets/phaser-D3izK-R_.js",
+          "decoded": 1387437,
+          "encoded": 441558
+        },
+        {
+          "path": "/assets/region-3-Dy8lgunk.js",
+          "decoded": 315949,
+          "encoded": 30192
+        },
+        {
+          "path": "/assets/snow-family-frames-BM7NvTHG.js",
+          "decoded": 175000,
+          "encoded": 24048
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "sample": 1,
+      "region": 3,
+      "readyMs": 3310.7999999998137,
+      "decodedJsBytes": 3151911,
+      "encodedJsBytes": 881367,
+      "js": [
+        {
+          "path": "/assets/main-Y3Y5mM8B.js",
+          "decoded": 512324,
+          "encoded": 178943
+        },
+        {
+          "path": "/assets/Icons-B3pcI90h.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-CxwL--l0.js",
+          "decoded": 444976,
+          "encoded": 91704
+        },
+        {
+          "path": "/assets/phaser-D3izK-R_.js",
+          "decoded": 1387437,
+          "encoded": 441558
+        },
+        {
+          "path": "/assets/region-3-Dy8lgunk.js",
+          "decoded": 315949,
+          "encoded": 30192
+        },
+        {
+          "path": "/assets/snow-family-frames-BM7NvTHG.js",
+          "decoded": 175000,
+          "encoded": 24048
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "sample": 2,
+      "region": 3,
+      "readyMs": 3373.399999999441,
+      "decodedJsBytes": 3151911,
+      "encodedJsBytes": 881367,
+      "js": [
+        {
+          "path": "/assets/main-Y3Y5mM8B.js",
+          "decoded": 512324,
+          "encoded": 178943
+        },
+        {
+          "path": "/assets/Icons-B3pcI90h.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-CxwL--l0.js",
+          "decoded": 444976,
+          "encoded": 91704
+        },
+        {
+          "path": "/assets/phaser-D3izK-R_.js",
+          "decoded": 1387437,
+          "encoded": 441558
+        },
+        {
+          "path": "/assets/region-3-Dy8lgunk.js",
+          "decoded": 315949,
+          "encoded": 30192
+        },
+        {
+          "path": "/assets/snow-family-frames-BM7NvTHG.js",
+          "decoded": 175000,
+          "encoded": 24048
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "sample": 0,
+      "region": 3,
+      "readyMs": 3586.100000000559,
+      "decodedJsBytes": 7665949,
+      "encodedJsBytes": 1391190,
+      "js": [
+        {
+          "path": "/assets/main-DoIfU6QL.js",
+          "decoded": 500392,
+          "encoded": 174046
+        },
+        {
+          "path": "/assets/Icons-d7cbsbe6.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-BOtEDneL.js",
+          "decoded": 5461891,
+          "encoded": 660663
+        },
+        {
+          "path": "/assets/phaser-BTGbtjln.js",
+          "decoded": 1387441,
+          "encoded": 441559
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "sample": 1,
+      "region": 3,
+      "readyMs": 3520.7999999998137,
+      "decodedJsBytes": 7665949,
+      "encodedJsBytes": 1391190,
+      "js": [
+        {
+          "path": "/assets/main-DoIfU6QL.js",
+          "decoded": 500392,
+          "encoded": 174046
+        },
+        {
+          "path": "/assets/Icons-d7cbsbe6.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-BOtEDneL.js",
+          "decoded": 5461891,
+          "encoded": 660663
+        },
+        {
+          "path": "/assets/phaser-BTGbtjln.js",
+          "decoded": 1387441,
+          "encoded": 441559
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "sample": 2,
+      "region": 3,
+      "readyMs": 3100.0999999996275,
+      "decodedJsBytes": 7665949,
+      "encodedJsBytes": 1391190,
+      "js": [
+        {
+          "path": "/assets/main-DoIfU6QL.js",
+          "decoded": 500392,
+          "encoded": 174046
+        },
+        {
+          "path": "/assets/Icons-d7cbsbe6.js",
+          "decoded": 316225,
+          "encoded": 114922
+        },
+        {
+          "path": "/assets/mount-BOtEDneL.js",
+          "decoded": 5461891,
+          "encoded": 660663
+        },
+        {
+          "path": "/assets/phaser-BTGbtjln.js",
+          "decoded": 1387441,
+          "encoded": 441559
+        }
+      ]
+    }
+  ],
+  "median": {
+    "before": {
+      "readyMs": 3520.7999999998137,
+      "decodedJsBytes": 7665949,
+      "encodedJsBytes": 1391190
+    },
+    "after": {
+      "readyMs": 3310.7999999998137,
+      "decodedJsBytes": 3151911,
+      "encodedJsBytes": 881367
+    }
+  }
+}

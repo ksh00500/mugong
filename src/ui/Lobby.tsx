@@ -1,4 +1,5 @@
 import { RecruitmentDialog } from './RecruitmentDialog';
+import { CombatReview } from './CombatReview';
 import { t, gameTitle, warriorUnit, formatNumber } from '../platform/i18n';
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { QuickDetails } from './QuickDetails';
@@ -408,6 +409,19 @@ export function Lobby({
                 {t('최근 여정')} · {family.journeys[0].name} · Lv.{family.journeys[0].level} ·{' '}
                 {t(family.journeys[0].outcome === 'victory' ? '강호 완주' : '강호 전사')}
               </p>
+            )}
+            {!!family.journeys?.length && (
+              <div className="journey-history">
+                {family.journeys.map((journey) => (
+                  <details key={journey.id}>
+                    <summary>
+                      {journey.name} · {journey.wave}
+                      {t('웨이브')} · {t(journey.outcome === 'dead' ? '강호 전사' : '강호 완주')}
+                    </summary>
+                    <CombatReview report={journey.combatReport} />
+                  </details>
+                ))}
+              </div>
             )}
           </div>
         </Modal>

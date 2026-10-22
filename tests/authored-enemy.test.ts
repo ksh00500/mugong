@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { STAFF_ART, authoredStaffFrame, usesAuthoredStaff } from '../src/game/authored-enemy';
+import { authoredStaffFrame, usesAuthoredStaff } from '../src/game/authored-enemy';
+import { STAFF_ART } from '../src/game/authored-enemy-data';
 import { STRIKE_TIMING } from '../src/domain/combat';
 
 describe('authored Shaolin staff animation', () => {

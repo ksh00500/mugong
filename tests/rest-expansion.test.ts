@@ -17,6 +17,7 @@ function fixture(wave = 4, seed = 123, region = 0) {
   const s = emptyGame();
   startRun(s, '기연 검사', seed);
   const r = s.run!;
+  delete r.restEventRevision; // Historical revision-1 contract remains supported.
   r.regionRoute = REGIONS.filter((_, n) => n !== region)
     .slice(0, 4)
     .map((x) => x.name);

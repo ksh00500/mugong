@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { THREE_SPECIAL_ART, bossSpecialFrame, bossHealthClearance } from '../src/game/boss-special';
+import { bossSpecialFrame, bossHealthClearance } from '../src/game/boss-special';
+import { THREE_SPECIAL_ART } from '../src/game/boss-special-data';
 import { authoredEnemyArt } from '../src/game/authored-enemy';
 import { enemyAttack } from '../src/domain/combat';
 import { regionArtManifest } from '../src/platform/region-art';

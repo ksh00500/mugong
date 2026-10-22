@@ -386,3 +386,80 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+.combat-review {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  text-align: left;
+}
+.combat-review-totals {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+.combat-review-totals > div {
+  padding: 8px;
+  background: var(--surface-selected);
+  border-radius: 6px;
+}
+.combat-review-totals dt {
+  font-size: 13px;
+  color: var(--muted);
+}
+.combat-review-totals dd {
+  margin: 6px 0 0;
+  font: 700 18px var(--font-ui);
+}
+.combat-review summary,
+.journey-history > details > summary {
+  min-height: 44px;
+  padding: 12px 8px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--line);
+}
+.combat-review :is(ol, p) {
+  font: 400 14px/1.6 var(--font-ui);
+}
+.combat-review :is(.combat-wave-list, .combat-hit-list) {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+.combat-review li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  padding: 7px 0;
+}
+.combat-review .combat-fatal {
+  padding: 12px;
+  border-left: 4px solid #a64435;
+  background: #f3e4d8;
+}
+.journey-history {
+  display: grid;
+  gap: 8px;
+  max-height: 40dvh;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 4px;
+}
+.app-shell .dialog.journey-records {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  max-height: calc(100dvh - 24px);
+  overflow: visible;
+}
+.journey-records .home-records {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 4px;
+}
+.journey-records .journey-history {
+  max-height: none;
+  overflow: visible;
+}

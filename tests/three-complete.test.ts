@@ -1,12 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { BOSS_KITS } from '../src/domain/boss-melee';
-import {
-  bossSpecialArt,
-  bossSpecialFrame,
-  bossHealthClearance,
-  THREE_COMPLETE_ART,
-  THREE_SPECIAL_ART,
-} from '../src/game/boss-special';
+import { bossSpecialArt, bossSpecialFrame, bossHealthClearance } from '../src/game/boss-special';
+import { THREE_COMPLETE_ART, THREE_SPECIAL_ART } from '../src/game/boss-special-data';
 import { authoredEnemyArt } from '../src/game/authored-enemy';
 import { regionArtManifest } from '../src/platform/region-art';
 import type { Enemy } from '../src/domain/model';

@@ -223,6 +223,8 @@ export interface PendingAttack {
   seq?: number;
 }
 export interface Run {
+  combatReport?: import('./combat-report').CombatReport;
+  restEventRevision?: 2;
   restEvents?: import('./rest-event').RestEventRecord[];
   id: string;
   seed: number;
@@ -350,6 +352,7 @@ export interface Family {
   training?: { fighterId: string; offers: Offer[]; seed: number };
 }
 export interface JourneyResult {
+  combatReport?: import('./combat-report').CombatReport;
   id: string;
   name: string;
   outcome: 'victory' | 'dead';

@@ -4,9 +4,18 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
-    watch: { ignored: ['**/test-results*/**', '**/docs/verification/**', '**/.local-preview/**', '**/dist/**', '**/dist-*/**'] },
+    watch: {
+      ignored: [
+        '**/test-results*/**',
+        '**/docs/verification/**',
+        '**/.local-preview/**',
+        '**/dist/**',
+        '**/dist-*/**',
+      ],
+    },
   },
   build: {
+    target: 'es2022',
     chunkSizeWarningLimit: 1800,
     rollupOptions: {
       input: {

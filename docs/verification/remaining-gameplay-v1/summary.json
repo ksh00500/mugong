@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-22",
+  "unit": {
+    "files": 88,
+    "passed": 1491,
+    "failed": 0,
+    "startTime": 1792632102006
+  },
+  "browser": {
+    "source": {
+      "expected": 18,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 211368.155,
+      "startTime": "2026-10-22T01:23:19.573Z"
+    },
+    "compiled": {
+      "expected": 27,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 238284.57,
+      "startTime": "2026-10-22T01:29:27.205Z"
+    },
+    "hosting": {
+      "expected": 5,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 14463.091,
+      "startTime": "2026-10-22T01:34:16.494Z"
+    },
+    "world-regression": {
+      "expected": 14,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 128712.575,
+      "startTime": "2026-10-22T01:35:16.006Z"
+    },
+    "loading": {
+      "expected": 6,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 22443.648,
+      "startTime": "2026-10-22T01:38:12.086Z"
+    },
+    "local": {
+      "expected": 4,
+      "unexpected": 0,
+      "skipped": 0,
+      "durationMs": 42457.556,
+      "startTime": "2026-10-22T03:56:08.766Z"
+    }
+  },
+  "loading": {
+    "before": {
+      "readyMs": 3520.7999999998137,
+      "decodedJsBytes": 7665949,
+      "encodedJsBytes": 1391190
+    },
+    "after": {
+      "readyMs": 3310.7999999998137,
+      "decodedJsBytes": 3151911,
+      "encodedJsBytes": 881367
+    }
+  },
+  "duels": {
+    "conditions": 320,
+    "virtualSeconds": 6496.166666666719,
+    "outcomes": {
+      "boss-defeated": 256,
+      "dead": 64
+    },
+    "limitations": "320 actual-HP scripted boss duels, 120s cap, two small potions, fixed growth/equipment tiers, reactive circle/range policy. No HP replenishment or human win-rate claim. Environmental rules stay active."
+  },
+  "assets": {
+    "runtimeFiles": 1069,
+    "literalReferences": 803,
+    "mediaFiles": 1029,
+    "mediaBytes": 1202029541,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "deployment": {
+    "indexSha256": "87d09b0033f8090d953deefbfb0149199688d0a3032fe2abf54f2ca4264c1918",
+    "results": [
+      {
+        "port": 5205,
+        "files": [
+          {
+            "path": "/index.html",
+            "bytes": 3830,
+            "sha256": "87d09b0033f8090d953deefbfb0149199688d0a3032fe2abf54f2ca4264c1918"
+          },
+          {
+            "path": "/assets/main-Y3Y5mM8B.js",
+            "bytes": 512324,
+            "sha256": "e62a65fcf9ee35ea476c9608af5e8467425771d920d1f406fe6016c2fc16a0a0"
+          },
+          {
+            "path": "/assets/Icons-B3pcI90h.js",
+            "bytes": 316225,
+            "sha256": "6dc55541e7ad7adc4be4a3587fd48ec672c763e5eb66f615360830e724722028"
+          },
+          {
+            "path": "/assets/main-DFJI69ID.css",
+            "bytes": 275817,
+            "sha256": "878b03c4dcca938568fb34d0d20f61824b7f134dcbb81fe62adb2de1f4f34e34"
+          }
+        ]
+      },
+      {
+        "port": 5229,
+        "files": [
+          {
+            "path": "/index.html",
+            "bytes": 3830,
+            "sha256": "87d09b0033f8090d953deefbfb0149199688d0a3032fe2abf54f2ca4264c1918"
+          },
+          {
+            "path": "/assets/main-Y3Y5mM8B.js",
+            "bytes": 512324,
+            "sha256": "e62a65fcf9ee35ea476c9608af5e8467425771d920d1f406fe6016c2fc16a0a0"
+          },
+          {
+            "path": "/assets/Icons-B3pcI90h.js",
+            "bytes": 316225,
+            "sha256": "6dc55541e7ad7adc4be4a3587fd48ec672c763e5eb66f615360830e724722028"
+          },
+          {
+            "path": "/assets/main-DFJI69ID.css",
+            "bytes": 275817,
+            "sha256": "878b03c4dcca938568fb34d0d20f61824b7f134dcbb81fe62adb2de1f4f34e34"
+          }
+        ]
+      }
+    ]
+  },
+  "docker": {
+    "image": "mugong:remaining-v1",
+    "digest": "sha256:a7dc8e9be22c65f5354e2ff1ba38dcffdb181558e6024f19d2b9d7edc5642370",
+    "user": "nginx",
+    "readOnly": true,
+    "health": "healthy",
+    "homeServerConnected": false
+  }
+}

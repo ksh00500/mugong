@@ -222,7 +222,7 @@ export function signatureCast(r: Run, e: Enemy, target = r.fighter as { x: numbe
 export function stepEncounters(
   r: Run,
   dt: number,
-  damage: (amount: number) => void,
+  damage: (amount: number, object?: EncounterObject) => void,
   emit?: CombatCueSink,
 ) {
   for (const e of r.enemies) {
@@ -253,7 +253,8 @@ export function stepEncounters(
     object.warning = Math.max(0, object.warning - dt);
     if (object.life <= 0 || object.warning > 0) continue;
     object.pulse -= dt;
-    if (stepMechanic(r, object, owner, dt, damage, emit)) continue;
+    const objectDamage = (amount: number) => damage(amount, object);
+    if (stepMechanic(r, object, owner, dt, objectDamage, emit)) continue;
     const inside = dist(object, f) < object.radius + 18;
     if (object.kind === 'wall' || object.kind === 'ice') {
       if (inside && object.hp > 0) {
@@ -262,7 +263,7 @@ export function stepEncounters(
         f.y = clamp(object.y + Math.sin(angle) * (object.radius + 19), FIELD.top, FIELD.bottom);
         if (object.kind === 'ice' && object.pulse <= 0) {
           object.pulse = 1;
-          applyFieldContact(r, 'cold', damage);
+          applyFieldContact(r, 'cold', objectDamage);
         }
       }
     } else if (object.kind === 'tether') {
@@ -282,7 +283,7 @@ export function stepEncounters(
       if (object.aim === 1) f.slowTime = 0.5;
       if (owner.bossId === '3-2' && object.pulse <= 0) {
         object.pulse = 1;
-        applyFieldContact(r, 'cold', damage);
+        applyFieldContact(r, 'cold', objectDamage);
       }
       if (object.aim === 2) f.healSuppression = 3;
     } else if (object.kind === 'herb') {
@@ -332,7 +333,7 @@ export function stepEncounters(
       if (dist(object, owner) < object.radius + 18) owner.veilTime = 0.12;
       if (inside && effect === 'cold' && object.pulse <= 0) {
         object.pulse = FIELD_EFFECTS.cold.interval;
-        applyFieldContact(r, 'cold', damage);
+        applyFieldContact(r, 'cold', objectDamage);
       }
     } else if (
       (object.kind === 'safe' ? !inside : inside) &&
@@ -340,7 +341,7 @@ export function stepEncounters(
       !['flag', 'smoke'].includes(object.kind)
     ) {
       if (object.kind === 'chest') {
-        damage(14);
+        objectDamage(14);
         object.life = 0;
       } else {
         const effect = encounterEffect(r, object);
@@ -348,7 +349,7 @@ export function stepEncounters(
         const contact = effect as keyof typeof FIELD_EFFECTS;
         object.pulse = FIELD_EFFECTS[contact].interval;
         const loss = applyFieldContact(r, contact, (amount) =>
-          damage(object.kind === 'mine' && contact === 'poison' ? amount * 3 : amount),
+          objectDamage(object.kind === 'mine' && contact === 'poison' ? amount * 3 : amount),
         );
         if (loss > 0 || contact === 'brew')
           emit?.({

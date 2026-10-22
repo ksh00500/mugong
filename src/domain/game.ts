@@ -11,6 +11,14 @@ import { recruitmentAction, recruitmentView } from './recruitment';
 import { isWalkablePreparation, walkWaystation } from './waystation';
 import { resolveRestEvent } from './rest-event';
 import {
+  combatReport,
+  trackCombatWave,
+  finishCombatWave,
+  recordDamage,
+  enemyDamageSource,
+  type DamageSource,
+} from './combat-report';
+import {
   BALANCE,
   encounterHp,
   balanceStage,
@@ -265,6 +273,7 @@ export function startRun(
     attackSeq: 0,
   };
   const r: Run = {
+    restEventRevision: 2,
     id,
     seed,
     wave: 1,
@@ -569,7 +578,7 @@ function hitEnemy(
   if (heal) recoverRally(r, 0.2, emit);
   if (!e.hp) killEnemy(r, e);
 }
-function damagePlayer(r: Run, amount: number, emit?: CombatCueSink) {
+function damagePlayer(r: Run, amount: number, emit?: CombatCueSink, source?: DamageSource) {
   const f = r.fighter,
     art = f.arts[f.active];
   const support = supportStats(f);
@@ -620,6 +629,7 @@ function damagePlayer(r: Run, amount: number, emit?: CombatCueSink) {
     amount: before - f.hp,
     killed: f.hp === 0,
   });
+  recordDamage(r, before - f.hp, source);
   f.invulnerable = 0.45;
   if (!f.fortify && !(support.resistAttackStagger && f.action === 'attack')) {
     f.action = 'hurt';
@@ -637,6 +647,9 @@ function damagePlayer(r: Run, amount: number, emit?: CombatCueSink) {
   }
 }
 function resolveAttack(r: Run, a: Run['attacks'][number], emit?: CombatCueSink) {
+  const report = combatReport(r),
+    technique = a.art ?? 'basic';
+  report.attacks[technique] = (report.attacks[technique] ?? 0) + 1;
   const f = r.fighter,
     color = a.art ? ARTS[a.art].color : 0xf4e0af,
     art = f.arts.find((known) => known.id === a.art);
@@ -1230,7 +1243,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
         fx(r, center.x, center.y - 20, 'burst', 0, radius, 0xd6513e, 0.36);
         if (distance(center, target) < radius + 18) {
           if (confusedTarget) hitEnemy(r, confusedTarget, damage, false, emit, false);
-          else damagePlayer(r, damage, emit);
+          else damagePlayer(r, damage, emit, enemyDamageSource(e, 'hazard'));
         }
       }
     } else if (profile.ranged && !profile.melee) {
@@ -1439,7 +1452,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
                 hitEnemy(r, victim as Enemy, strike.damage, false, emit, false);
               else {
                 const before = f.hp;
-                damagePlayer(r, strike.damage, emit);
+                damagePlayer(r, strike.damage, emit, enemyDamageSource(e, 'melee'));
                 if (f.hp > 0 && f.hp < before) {
                   if (spec.bleed) f.bleedTime = Math.max(f.bleedTime ?? 0, spec.bleed);
                   if (spec.poison) f.poisonTime = Math.max(f.poisonTime ?? 0, spec.poison);
@@ -1491,7 +1504,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
               hitEnemy(r, victim as Enemy, strike.damage, false, emit, false);
             else {
               const before = f.hp;
-              damagePlayer(r, strike.damage, emit);
+              damagePlayer(r, strike.damage, emit, enemyDamageSource(e, 'melee'));
               if (f.hp > 0 && f.hp < before && e.bossId === '8-1') f.bleedTime = 3.2;
             }
           }
@@ -1514,6 +1527,7 @@ function enemyStep(r: Run, e: Enemy, dt: number, emit?: CombatCueSink) {
   e.y = clamp(e.y, FIELD.top, FIELD.bottom);
 }
 function clearWave(r: Run) {
+  finishCombatWave(r);
   if (r.fighter.progressionVersion === 2) {
     r.fighter.trainingPoints = (r.fighter.trainingPoints ?? 0) + (isBoss(r.wave) ? 3 : 1);
     rollOffers(r);
@@ -1545,6 +1559,7 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
     return;
   }
   dt = clamp(dt, 0, 1 / 30);
+  trackCombatWave(r);
   r.elapsed += dt;
   const f = r.fighter;
   stepTraits(f, dt);
@@ -1555,7 +1570,9 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
   f.fortify = Math.max(0, (f.fortify ?? 0) - dt);
   f.slowTime = Math.max(0, (f.slowTime ?? 0) - dt);
   f.healSuppression = Math.max(0, (f.healSuppression ?? 0) - dt);
-  stepFieldStatuses(r, dt, (amount) => damagePlayer(r, amount, emit));
+  stepFieldStatuses(r, dt, (amount) =>
+    damagePlayer(r, amount, emit, { kind: 'status', label: '지속 피해' }),
+  );
   if (r.phase !== 'combat' || pendingChoices(r)) return;
   for (const a of f.arts) {
     a.defenseCd = Math.max(0, a.defenseCd - dt);
@@ -1634,7 +1651,23 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
     r,
     dt,
     () => random(r),
-    (damage) => damagePlayer(r, damage, emit),
+    (damage, zone) =>
+      damagePlayer(r, damage, emit, {
+        kind: 'field',
+        label: zone
+          ? (
+              {
+                poison: '독 장판',
+                cold: '한기 장판',
+                fire: '화염 장판',
+                blood: '혈기 장판',
+                trap: '함정',
+                gate: '기관 장판',
+                brew: '술 장판',
+              } as const
+            )[zone.kind]
+          : '위험 장판',
+      }),
     (zone) => {
       emit?.({ kind: 'field', action: zone.kind, x: zone.x, y: zone.y });
       fx(
@@ -1651,7 +1684,23 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
     (zone) => emit?.({ kind: 'field', action: zone.kind, x: zone.x, y: zone.y }),
   );
   if (r.fighter.hp <= 0) return;
-  stepEncounters(r, dt, (damage) => damagePlayer(r, damage, emit), emit);
+  stepEncounters(
+    r,
+    dt,
+    (damage, object) =>
+      damagePlayer(
+        r,
+        damage,
+        emit,
+        object
+          ? enemyDamageSource(
+              r.enemies.find((e) => e.id === object.owner),
+              'hazard',
+            )
+          : { kind: 'hazard', label: '보스 기믹' },
+      ),
+    emit,
+  );
   if (r.fighter.hp <= 0 || pendingChoices(r)) return;
   // Stop simulation as soon as a reward opens or death occurs, including within a tick.
   observeTarget(r, dt);
@@ -1826,7 +1875,15 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
       }
     } else if (!p.friendly && !p.hostileToEnemies && projectileHitsBody(previous, p, f, p.radius)) {
       const before = f.hp;
-      damagePlayer(r, p.damage, emit);
+      damagePlayer(
+        r,
+        p.damage,
+        emit,
+        enemyDamageSource(
+          r.enemies.find((e) => e.id === p.owner),
+          'projectile',
+        ),
+      );
       if (f.hp > 0 && f.hp < before) {
         if (p.status === 'poison') f.poisonTime = 3.2;
         if (p.status === 'bleed') f.bleedTime = 3.2;
@@ -2179,6 +2236,7 @@ export function command(state: GameState, cmd: Command, now = Date.now()): boole
   if (r && item.place === 'warehouse') return false;
   if (cmd.type === 'use') {
     if (item.place === 'warehouse' || !useItem(f, item)) return false;
+    if (r && item.kind === 'medicine') combatReport(r).potionsUsed++;
     if (item.kind === 'manual') {
       if (r) grantXp(r, item.power);
       else {
@@ -2260,7 +2318,14 @@ export function command(state: GameState, cmd: Command, now = Date.now()): boole
   return true;
 }
 function recordJourney(state: GameState, r: Run, outcome: 'victory' | 'dead', now: number) {
+  if (outcome === 'victory' && r.combatReport) {
+    r.combatReport.loadout = r.fighter.arts.map(({ id, level }) => ({ id, level }));
+    r.combatReport.remainingMedicine = r.fighter.items
+      .filter((i) => i.kind === 'medicine' && i.place !== 'warehouse')
+      .reduce((sum, i) => sum + i.count, 0);
+  }
   const result = {
+    ...(r.combatReport ? { combatReport: structuredClone(r.combatReport) } : {}),
     id: r.id,
     name: r.fighter.name,
     outcome,

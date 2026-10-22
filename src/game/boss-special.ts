@@ -4,64 +4,46 @@ import type { MotionAction } from './directional-motion';
 import { MOTION_DIRECTIONS } from './directional-motion';
 import { bossMotionClock } from './boss-motion';
 import { bossMotionCycle } from './boss-motion-cycle';
-import remaining from './boss-remaining-frames.json' with { type: 'json' };
-import special from './shaolin-special-frames.json' with { type: 'json' };
-import tianjian from './tianjian-special-frames.json' with { type: 'json' };
-import dokmu from './dokmu-special-frames.json' with { type: 'json' };
-import qingha from './qingha-special-frames.json' with { type: 'json' };
-import three from './three-special-frames.json' with { type: 'json' };
-import threeComplete from './three-complete-frames.json' with { type: 'json' };
-
-import snow from './snow-special-frames.json' with { type: 'json' };
-import snowComplete from './snow-special-complete-frames.json' with { type: 'json' };
-import tombBamboo from './tomb-bamboo-special-frames.json' with { type: 'json' };
-import tombBambooComplete from './tomb-bamboo-complete-frames.json' with { type: 'json' };
-
-export const SNOW_SPECIAL_ART = snow;
-/** Additional Snow actions; existing Mokjin dash/slam retain their source frames. */
-export const SNOW_COMPLETE_ART = snowComplete;
-export const TOMB_BAMBOO_SPECIAL_ART = tombBamboo;
-export const TOMB_BAMBOO_COMPLETE_ART = tombBambooComplete;
-export const SHAOLIN_SPECIAL_ART = special;
-export const TIANJIAN_SPECIAL_ART = tianjian;
-export const DOKMU_SPECIAL_ART = dokmu;
-export const QINGHA_SPECIAL_ART = qingha;
-export const BOSS_REMAINING_ART = remaining;
-export const THREE_SPECIAL_ART = three;
-export const THREE_COMPLETE_ART = threeComplete;
-const remainingRegistry = new Map(remaining.characters.map((art) => [art.bossId, art]));
-const originals = [
-  ...special.characters,
-  ...tianjian.characters,
-  ...dokmu.characters,
-  ...qingha.characters,
-  ...snow.characters,
-  ...three.characters,
-  ...tombBamboo.characters,
-];
-const snowRegistry = new Map(snowComplete.characters.map((art) => [art.bossId, art]));
-const tombBambooRegistry = new Map(tombBambooComplete.characters.map((art) => [art.bossId, art]));
-const threeCompleteRegistry = new Map(threeComplete.characters.map((art) => [art.bossId, art]));
-const characters = [
-  ...originals,
-  ...snowComplete.characters.filter((a) => !originals.some((b) => b.bossId === a.bossId)),
-].map((art) => {
-  const extra =
-    remainingRegistry.get(art.bossId) ??
-    (originals.some((a) => a.bossId === art.bossId) ? snowRegistry.get(art.bossId) : undefined) ??
-    tombBambooRegistry.get(art.bossId) ??
-    threeCompleteRegistry.get(art.bossId);
-  return {
-    ...art,
-    moves: [...art.moves, ...(extra?.moves ?? [])],
-    frames: [...art.frames, ...(extra?.frames ?? [])],
-    healthClearance: Math.max(art.healthClearance, extra?.healthClearance ?? 0),
-  };
-});
-const registry = new Map(characters.map((art) => [art.bossId, art]));
-const frames = new Map(
-  characters.map((art) => [art.bossId, new Map(art.frames.map((f) => [f.name, f]))]),
-);
+import type { SpecialArt } from './boss-special-data';
+const characters: SpecialArt[] = [];
+const registry = new Map<string, SpecialArt>();
+const frames = new Map<string, Map<string, SpecialArt['frames'][number]>>();
+const remainingRegistry = new Map<string, { moves: string[] }>();
+const loaders = import.meta.glob('./boss-special-regions/region-*.json', { import: 'default' });
+const requests = new Map<number, Promise<void>>();
+const readyRegions = new Set<number>();
+export const bossSpecialReady = (region: number) => region < 0 || readyRegions.has(region);
+export async function prepareBossSpecial(region = -1): Promise<void> {
+  if (region < 0) {
+    await Promise.all(Array.from({ length: 10 }, (_, i) => prepareBossSpecial(i)));
+    return;
+  }
+  const previous = requests.get(region);
+  if (previous) return previous;
+  const loader = loaders['./boss-special-regions/region-' + region + '.json'];
+  if (!loader) throw Error('Unknown boss region ' + region);
+  const request = loader().then((raw) => {
+    const data = raw as {
+      region: number;
+      characters: SpecialArt[];
+      remaining: { bossId: string; moves: string[] }[];
+    };
+    if (data.region !== region || data.characters.length !== 4)
+      throw Error('Invalid reviewed boss metadata');
+    for (const art of data.characters) {
+      characters.push(art);
+      registry.set(art.bossId, art);
+      frames.set(art.bossId, new Map(art.frames.map((frame) => [frame.name, frame])));
+    }
+    for (const art of data.remaining) remainingRegistry.set(art.bossId, art);
+    readyRegions.add(region);
+  });
+  requests.set(region, request);
+  void request.catch(() => requests.delete(region));
+  return request;
+}
+// Node audits keep their synchronous drawing API after module evaluation.
+if (typeof window === 'undefined') await prepareBossSpecial();
 
 export function bossSpecialArt(enemy: Pick<Enemy, 'bossId'>, region: number) {
   return enemy.bossId && Number(enemy.bossId.split('-')[0]) === region

@@ -27,6 +27,8 @@ import { makeWeapon } from '../src/domain/content';
 import type { BoundFighter } from '../src/domain/model';
 import { signatureCast } from '../src/domain/boss-encounters';
 import { waystationApproach } from '../src/domain/waystation';
+import { restEvent } from '../src/domain/rest-event';
+import { makeLootItem } from '../src/domain/items';
 beforeEach(() => {
   disk.saved = null;
   disk.fail = false;
@@ -47,6 +49,12 @@ for (const wave of [4, 9, 14, 19])
     r.offers = [];
     r.fighter.augmentOffers = [];
     r.gold = 100;
+    const payment = restEvent(r).itemCost;
+    if (payment)
+      r.fighter.items.push({
+        ...makeLootItem(payment.templateId, 'event-payment', 'ground'),
+        count: payment.count,
+      });
     store.rendererReady = true;
     expect(await store.dispatch({ type: 'restEvent', choice: 'accept' })).toBe(false);
     Object.assign(r.fighter, waystationApproach('fortune', r));

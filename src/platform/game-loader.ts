@@ -29,7 +29,12 @@ export async function prepareCombat(onProgress?: (progress: ImageProgress) => vo
   // Download the engine and pictures together, instead of waiting for the engine first.
   const [module, images] = await Promise.all([
     loadModule().then(
-      (module) => {
+      async (module) => {
+        try {
+          await module.prepareCombatMetadata(regionArtIndex(gameStore.state.run));
+        } catch (error) {
+          throw new CombatPreparationError('engine', error);
+        }
         engineReady = true;
         return module;
       },

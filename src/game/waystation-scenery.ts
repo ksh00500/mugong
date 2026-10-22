@@ -11,6 +11,7 @@ import { prepareImages } from '../platform/assets';
 import { WAYSTATION_ART } from '../platform/waystation-art';
 import sizes from '../platform/waystation-art-sizes.json';
 import { gameStore } from '../platform/store';
+import { WORK_ART, WORK_CALIBRATION, workPose, type WorkNpc } from './waystation-work';
 
 export class WaystationScenery {
   private requested = false;
@@ -18,6 +19,8 @@ export class WaystationScenery {
   private figures = new Map<string, Phaser.GameObjects.Image>();
   private background?: Phaser.GameObjects.Image;
   private floor: Phaser.GameObjects.Graphics;
+  private workers = new Map<WorkNpc, Phaser.GameObjects.Image>();
+  private reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   constructor(
     private scene: Phaser.Scene,
     private combatBackdrop: Phaser.GameObjects.Image,
@@ -27,6 +30,38 @@ export class WaystationScenery {
   private load() {
     if (this.requested) return;
     this.requested = true;
+    for (const [id, url] of Object.entries(WORK_ART)) {
+      const key = `waystation-work-${id}`;
+      void prepareImages({ [key]: url }, undefined, { priority: 'low', concurrency: 1 })
+        .then((images) => {
+          if (this.disposed) return;
+          if (!this.scene.textures.exists(key)) this.scene.textures.addImage(key, images[key]);
+          const texture = this.scene.textures.get(key),
+            source = texture.source[0];
+          for (let frame = 0; frame < 4; frame++)
+            if (!texture.has(String(frame)))
+              texture.add(
+                String(frame),
+                0,
+                (frame * source.width) / 4,
+                0,
+                source.width / 4,
+                source.height,
+              );
+          const npc = id as WorkNpc,
+            c = WORK_CALIBRATION[npc];
+          this.workers.set(
+            npc,
+            this.scene.add
+              .image(0, 0, key, '0')
+              .setScale(95 / c.bodyHeight)
+              .setOrigin(c.feet[0][0] / (source.width / 4), c.feet[0][1] / source.height)
+              .setVisible(false),
+          );
+          this.scene.game.canvas.parentElement?.setAttribute(`data-rest-work-${id}`, 'ready');
+        })
+        .catch(() => {});
+    }
     for (const [id, url] of Object.entries(WAYSTATION_ART)) {
       const key = `waystation-${id}`;
       void prepareImages({ [key]: url })
@@ -68,8 +103,17 @@ export class WaystationScenery {
     this.combatBackdrop.setVisible(!active || (run?.wave ?? 4) > 4);
     this.background?.setVisible(active && run?.wave === 4);
     for (const figure of this.figures.values()) figure.setVisible(false);
+    for (const worker of this.workers.values()) worker.setVisible(false);
     if (!active || !run) return;
     this.load();
+    const job = gameStore.waystationWork;
+    const working =
+      job?.startedAt !== undefined &&
+      workPose((performance.now() - job.startedAt) / 1000, this.reduced.matches) !== null
+        ? job.id
+        : '';
+    const root = this.scene.game.canvas.parentElement;
+    if (root && root.dataset.restWorking !== working) root.dataset.restWorking = working;
     const g = this.floor;
     const theme = waystationTheme(run);
     if (!this.background && run.wave === 4) g.fillStyle(0xd4c6a0).fillRect(0, 0, W, H);
@@ -105,7 +149,22 @@ export class WaystationScenery {
         continue;
       }
       const figure = this.figures.get(stop.id);
-      if (figure) figure.setPosition(stop.x, stop.y).setDepth(stop.y).setVisible(true);
+      const job = gameStore.waystationWork;
+      const pose =
+        job?.id === stop.id && job.startedAt !== undefined
+          ? workPose((performance.now() - job.startedAt) / 1000, this.reduced.matches)
+          : null;
+      const worker = this.workers.get(stop.id as WorkNpc);
+      if (worker && pose !== null) {
+        const frame = worker.texture.get(String(pose)),
+          feet = WORK_CALIBRATION[stop.id as WorkNpc].feet[pose];
+        worker
+          .setPosition(stop.x, stop.y)
+          .setFrame(String(pose))
+          .setOrigin(feet[0] / frame.width, feet[1] / frame.height)
+          .setDepth(stop.y)
+          .setVisible(true);
+      } else if (figure) figure.setPosition(stop.x, stop.y).setDepth(stop.y).setVisible(true);
       else if (stop.id !== 'exit') {
         g.fillStyle(color, 0.9)
           .fillCircle(stop.x, stop.y - 58, 16)
@@ -128,5 +187,6 @@ export class WaystationScenery {
     this.floor.destroy();
     this.background?.destroy();
     for (const figure of this.figures.values()) figure.destroy();
+    for (const worker of this.workers.values()) worker.destroy();
   }
 }

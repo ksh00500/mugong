@@ -46,8 +46,19 @@ import { registerCavalry } from './cavalry';
 import { PaintedZones } from './painted-zones';
 import { hostileMotion, sampleHostileRig } from './hostile-motion';
 import { registerCharacterSheet, type CharacterFrame } from './character-sheet';
-import { authoredEnemyFrame, registerAuthoredEnemy, authoredEnemyArt } from './authored-enemy';
-import { bossSpecialFrame, bossHealthClearance } from './boss-special';
+import {
+  authoredEnemyFrame,
+  registerAuthoredEnemy,
+  authoredEnemyArt,
+  prepareNativeFamily,
+  nativeFamilyReady,
+} from './authored-enemy';
+import {
+  bossSpecialFrame,
+  bossHealthClearance,
+  prepareBossSpecial,
+  bossSpecialReady,
+} from './boss-special';
 import { bossMotionClock } from './boss-motion';
 import { PLAYER_VISUAL_SCALE } from './player-visual';
 import { HealthTrail } from './health-trail';
@@ -526,15 +537,23 @@ export class CombatScene extends Phaser.Scene {
     return actor;
   }
   private loadRegion(index: number, manifest = regionArtManifest(index)) {
-    if (index < 0 || Object.keys(manifest).every((key) => this.textures.exists(key)))
+    if (
+      index < 0 ||
+      (bossSpecialReady(index) &&
+        nativeFamilyReady(index) &&
+        Object.keys(manifest).every((key) => this.textures.exists(key)))
+    )
       return Promise.resolve();
     const requestKey = `${index}/${Object.keys(manifest).join(',')}`;
     const existing = this.regionRequests.get(requestKey);
     if (existing) return existing;
-    const request = prepareImages(manifest, (progress) => {
-      if (!this.disposed && this.artLoading && regionArtIndex(gameStore.state.run) === index)
-        this.onRegionProgress?.(progress);
-    }).then((images) => {
+    const request = Promise.all([
+      Promise.all([prepareBossSpecial(index), prepareNativeFamily(index)]),
+      prepareImages(manifest, (progress) => {
+        if (!this.disposed && this.artLoading && regionArtIndex(gameStore.state.run) === index)
+          this.onRegionProgress?.(progress);
+      }),
+    ]).then(([, images]) => {
       if (this.disposed) return;
       for (const [key, image] of Object.entries(images)) {
         if (!this.textures.exists(key)) this.textures.addImage(key, image);
@@ -583,7 +602,12 @@ export class CombatScene extends Phaser.Scene {
       return;
     }
     const manifest = runArtManifest(run);
-    if (index >= 0 && !Object.keys(manifest).every((key) => this.textures.exists(key))) {
+    if (
+      index >= 0 &&
+      (!bossSpecialReady(index) ||
+        !nativeFamilyReady(index) ||
+        !Object.keys(manifest).every((key) => this.textures.exists(key)))
+    ) {
       this.artLoading = true;
       if (this.requestedArt !== scope) {
         this.requestedArt = scope;
