@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-22",
+  "browser": {
+    "before": {
+      "expected": 8,
+      "unexpected": 0,
+      "skipped": 0,
+      "startTime": "2026-10-22T04:31:24.088Z",
+      "durationMs": 37923.075000000004
+    },
+    "source-final": {
+      "expected": 12,
+      "unexpected": 0,
+      "skipped": 0,
+      "startTime": "2026-10-22T04:53:29.161Z",
+      "durationMs": 66834.69799999999
+    },
+    "compiled": {
+      "expected": 12,
+      "unexpected": 0,
+      "skipped": 0,
+      "startTime": "2026-10-22T04:56:19.087Z",
+      "durationMs": 58729.549999999996
+    },
+    "local": {
+      "expected": 5,
+      "unexpected": 0,
+      "skipped": 0,
+      "startTime": "2026-10-22T04:58:25.154Z",
+      "durationMs": 26185.906000000003
+    }
+  },
+  "beforeObservationOnly": true,
+  "final": [
+    {
+      "width": 1440,
+      "height": 900,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 440.25,
+      "trayTop": 702,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 458.25,
+      "trayTop": 588.484375,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 422.890625,
+      "trayTop": 448,
+      "errors": []
+    },
+    {
+      "width": 1000,
+      "height": 650,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 422.890625,
+      "trayTop": 484,
+      "errors": []
+    },
+    {
+      "width": 900,
+      "height": 650,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 404.46875,
+      "trayTop": 480,
+      "errors": []
+    },
+    {
+      "width": 800,
+      "height": 650,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 403.859375,
+      "trayTop": 480,
+      "errors": []
+    },
+    {
+      "width": 700,
+      "height": 650,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 420.109375,
+      "trayTop": 480,
+      "errors": []
+    },
+    {
+      "width": 600,
+      "height": 650,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 420.109375,
+      "trayTop": 480,
+      "errors": []
+    },
+    {
+      "width": 1093,
+      "height": 560,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 377.96875,
+      "trayTop": 440,
+      "errors": []
+    },
+    {
+      "width": 800,
+      "height": 560,
+      "missing": [],
+      "covered": [],
+      "detailBottom": 379.359375,
+      "trayTop": 406,
+      "errors": []
+    }
+  ],
+  "unit": "Not rerun: CSS changes verified with browser, typecheck and build; no previous unit counts claimed as current.",
+  "build": {
+    "modules": 227,
+    "runtimeFiles": 1069,
+    "literalReferences": 803,
+    "missingFiles": 0,
+    "lfsPointers": 0
+  },
+  "indexSha256": "d1f427a22a36a1c54a8df14c5e1d068329ebd86de72fc511fcb20291f7cff67b",
+  "actualUserSaveTouched": false,
+  "scope": "Current Korean UI sample. 480px verifies bag/pause combat controls only, not whole-mobile support. No public deployment."
+}

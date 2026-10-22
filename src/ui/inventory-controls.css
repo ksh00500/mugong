@@ -1,4 +1,11 @@
 /* This component owns the complete bag workspace, including compact layouts. */
+.app-shell .glance-workspace .item-actions .ui-icon {
+  display: inline-block;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
 .app-shell .glance-workspace .item-tile.selected {
   background: var(--surface-selected);
   border-color: var(--jade);
@@ -492,16 +499,26 @@
   .app-shell .glance-workspace .bag-column:not(.general-column) .bag-usage-heading {
     min-height: 0;
   }
-  /* Compact windows keep the action beside the workspace title, above both bags. */
+  /* Keep this in its bag heading so it cannot cover the character's art icons. */
   .app-shell .glance-workspace .bag-arrange {
-    position: absolute;
-    top: 3px;
-    right: 106px;
-    min-width: 122px;
-    min-height: 38px;
-    height: 38px;
-    font-size: 14px;
-    padding: 4px;
+    position: static;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    min-width: 0;
+    width: 100%;
+    min-height: 32px;
+    height: 32px;
+    font-size: 12px;
+    gap: 4px;
+    padding: 2px;
+  }
+  .app-shell .glance-workspace .bag-arrange .ui-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .app-shell .glance-workspace .general-column .bag-dimensions {
+    grid-column: 2;
+    grid-row: 1;
   }
   .app-shell .glance-workspace {
     --cell: min(40px, calc((100dvh - 506px) / 8), calc((100vw - 40px) / 14));
@@ -535,8 +552,8 @@
     display: none;
   }
   .app-shell .glance-workspace .inventory-columns {
-    grid-template-columns: calc(var(--cell) * 4) calc(var(--cell) * 10);
-    grid-template-rows: auto auto minmax(0, 1fr);
+    grid-template-columns: calc(var(--cell) * 4) calc(var(--cell) * 10) minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
     gap: 6px 12px;
     padding: 0;
   }
@@ -560,8 +577,9 @@
     display: grid;
     grid-column: 1 / -1;
     grid-row: 1;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    align-items: start;
     gap: 4px 12px;
     width: calc(100vw - 20px);
     justify-self: center;
@@ -569,6 +587,7 @@
     border: 0;
   }
   .app-shell .glance-workspace .inventory-identity {
+    grid-area: 1 / 1;
     display: flex;
     align-items: baseline;
     gap: 8px;
@@ -578,6 +597,7 @@
     font-size: 18px;
   }
   .app-shell .glance-workspace .character-status {
+    grid-area: 1 / 2;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -599,6 +619,8 @@
     margin-bottom: 2px;
   }
   .app-shell .glance-workspace .character-info {
+    grid-area: 2 / 2 / 4 / 3;
+    min-width: 0;
     display: flex;
     align-items: start;
     gap: 4px;
@@ -619,8 +641,39 @@
     font-size: 11px;
   }
   .app-shell .glance-workspace .character-equipment {
+    grid-area: 3 / 1;
+    min-width: 0;
     display: flex;
     align-items: start;
+    gap: 4px;
+  }
+  /* Explicit slots prevent the added profile from creating a tall implicit row. */
+  .app-shell .glance-workspace .inventory-character > .character-profile {
+    grid-area: 2 / 1;
+    min-width: 0;
+    margin: 0;
+  }
+  .app-shell .glance-workspace .character-profile dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2px 8px;
+    margin: 0;
+  }
+  .app-shell .glance-workspace .character-profile dl > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+    min-width: 0;
+  }
+  .app-shell .glance-workspace .character-profile :is(dt, dd) {
+    margin: 0;
+    font-size: 12px;
+  }
+  .app-shell .glance-workspace .character-profile-attributes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 4px;
   }
   .app-shell .glance-workspace .equipped-list {
@@ -647,25 +700,44 @@
   }
   .app-shell .glance-workspace .inventory-columns > .item-detail {
     display: grid;
-    grid-column: 1 / -1;
-    grid-row: 3;
-    width: calc(100vw - 20px);
-    justify-self: center;
+    grid-template-columns: minmax(0, 1fr);
+    grid-column: 3;
+    grid-row: 2;
+    width: auto;
+    min-width: 0;
+    justify-self: stretch;
     padding: 0;
     border: 0;
     gap: 2px;
+  }
+  .app-shell .glance-workspace .item-detail > * {
+    grid-area: auto;
   }
   .app-shell .glance-workspace .item-detail > h3 {
     display: none;
   }
   .app-shell .glance-workspace .detail-icon {
-    display: none;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    flex: none;
+  }
+  .app-shell .glance-workspace .detail-icon .item-art {
+    width: 30px;
+    height: 30px;
   }
   .app-shell .glance-workspace .detail-heading {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
   }
   .app-shell .glance-workspace .detail-heading > div:last-child {
+    min-width: 0;
+    flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     gap: 6px;
@@ -676,7 +748,7 @@
   .app-shell .glance-workspace .item-location {
     display: none;
   }
-  .app-shell .glance-workspace .item-actions :is(.ui-icon, kbd) {
+  .app-shell .glance-workspace .item-actions kbd {
     display: none;
   }
   .app-shell .glance-workspace .item-detail h4 {
@@ -688,22 +760,26 @@
     line-height: 1.25;
   }
   .app-shell .glance-workspace .item-detail dl {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    margin: 4px 0;
     font-size: 13px;
-    gap: 4px;
+    gap: 2px 6px;
   }
-  .app-shell .glance-workspace .item-detail dl :is(dt, dd):nth-of-type(2) {
-    display: none;
+  .app-shell .glance-workspace .item-detail dl :is(dt, dd) {
+    display: block;
   }
   .app-shell .glance-workspace .item-actions {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 4px;
     margin-top: 2px;
   }
   .app-shell .glance-workspace .item-actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
     min-height: 32px;
     font-size: 13px;
     padding: 2px 4px;

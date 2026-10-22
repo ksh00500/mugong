@@ -1,0 +1,351 @@
+{
+  "width": 1366,
+  "height": 768,
+  "lobby": [
+    {
+      "className": "painted-sprite ui-icon icon-sword",
+      "owner": "출전",
+      "display": "block",
+      "width": 22,
+      "height": 22,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-bag",
+      "owner": "가방",
+      "display": "block",
+      "width": 22,
+      "height": 22,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-warehouse",
+      "owner": "창고",
+      "display": "block",
+      "width": 22,
+      "height": 22,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-record",
+      "owner": "기록",
+      "display": "block",
+      "width": 22,
+      "height": 22,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-sound",
+      "owner": "",
+      "display": "inline-block",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-settings",
+      "owner": "",
+      "display": "inline-block",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-sword",
+      "owner": "새 무인으로 출전",
+      "display": "block",
+      "width": 28.879783630371094,
+      "height": 28.879791259765625,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-arrow",
+      "owner": "새 무인으로 출전",
+      "display": "block",
+      "width": 24.8963623046875,
+      "height": 24.8963623046875,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    }
+  ],
+  "combat": [
+    {
+      "className": "painted-sprite ui-icon icon-bag",
+      "owner": "가방 Tab",
+      "display": "block",
+      "width": 23,
+      "height": 23,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-pause",
+      "owner": "",
+      "display": "block",
+      "width": 23,
+      "height": 23,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph huashan",
+      "owner": "매화Lv.1",
+      "display": "block",
+      "width": 42,
+      "height": 42,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph tianmo",
+      "owner": "천마Lv.1",
+      "display": "block",
+      "width": 42,
+      "height": 42,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph samja",
+      "owner": "삼재Lv.1",
+      "display": "block",
+      "width": 42,
+      "height": 42,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph wudang",
+      "owner": "태극Lv.1",
+      "display": "block",
+      "width": 42,
+      "height": 42,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph samja",
+      "owner": "✓",
+      "display": "inline-block",
+      "width": 40,
+      "height": 40,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": false,
+      "uncovered": false,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph wudang",
+      "owner": "✓",
+      "display": "inline-block",
+      "width": 27,
+      "height": 27,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": false,
+      "uncovered": false,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph huashan",
+      "owner": "✓",
+      "display": "inline-block",
+      "width": 27,
+      "height": 27,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": false,
+      "uncovered": false,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph tianmo",
+      "owner": "—",
+      "display": "inline-block",
+      "width": 27,
+      "height": 27,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": false,
+      "uncovered": false,
+      "fits": true
+    }
+  ],
+  "bag": [
+    {
+      "className": "painted-sprite art-glyph samja",
+      "owner": "Lv.1연결됨",
+      "display": "block",
+      "width": 36,
+      "height": 36,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph wudang",
+      "owner": "Lv.1연결됨",
+      "display": "block",
+      "width": 36,
+      "height": 36,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph huashan",
+      "owner": "Lv.1연결됨",
+      "display": "block",
+      "width": 36,
+      "height": 36,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite art-glyph tianmo",
+      "owner": "Lv.1",
+      "display": "block",
+      "width": 36,
+      "height": 36,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite item-art sword sword",
+      "owner": "수련검1×3 · 3칸",
+      "display": "block",
+      "width": 60,
+      "height": 60,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    },
+    {
+      "className": "painted-sprite ui-icon icon-rotate",
+      "owner": "회전 R",
+      "display": "inline-block",
+      "width": 20,
+      "height": 20,
+      "visible": true,
+      "ownerVisible": true,
+      "hitTestable": true,
+      "uncovered": true,
+      "fits": true
+    }
+  ],
+  "detailBottom": 458.25,
+  "trayTop": 588.484375,
+  "detailAreas": [
+    {
+      "tag": "DIV",
+      "className": "detail-heading",
+      "x": 1029.6875,
+      "y": 76,
+      "right": 1299.546875,
+      "bottom": 141.09375
+    },
+    {
+      "tag": "DIV",
+      "className": "item-location",
+      "x": 1029.6875,
+      "y": 145.09375,
+      "right": 1299.546875,
+      "bottom": 175.09375
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "x": 1029.6875,
+      "y": 181.09375,
+      "right": 1299.546875,
+      "bottom": 230.375
+    },
+    {
+      "tag": "DL",
+      "className": "",
+      "x": 1029.6875,
+      "y": 238.375,
+      "right": 1299.546875,
+      "bottom": 295.65625
+    },
+    {
+      "tag": "DIV",
+      "className": "item-actions",
+      "x": 1029.6875,
+      "y": 303.65625,
+      "right": 1299.546875,
+      "bottom": 411.65625
+    },
+    {
+      "tag": "P",
+      "className": "action-hint",
+      "x": 1029.6875,
+      "y": 417.65625,
+      "right": 1299.546875,
+      "bottom": 458.25
+    }
+  ],
+  "errors": []
+}

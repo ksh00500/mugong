@@ -44,6 +44,8 @@
 }
 
 .app-shell .home-v3 .home-nav .ui-icon {
+  display: block;
+  flex: none;
   width: var(--icon-control);
   height: var(--icon-control);
   margin: 0;
