@@ -1,6 +1,7 @@
 # Only production build inputs enter the Docker context.
 **
 !Dockerfile
+!Dockerfile.pvp
 !package.json
 !package-lock.json
 !asset-manifest.json
@@ -12,10 +13,13 @@
 !src/**
 !next-stage/
 !next-stage/index.html
+!pvp/
+!pvp/index.html
 !public/
 !public/**
 !scripts/
 !scripts/check-runtime-assets.mjs
+!scripts/build-pvp-server.mjs
 !scripts/asset-bundles.mjs
 !deploy/
 !deploy/docker/

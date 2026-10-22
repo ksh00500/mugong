@@ -6,9 +6,27 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: unless-stopped
+    depends_on:
+      pvp: {condition: service_healthy}
     read_only: true
     tmpfs:
       - /tmp:rw,noexec,nosuid,size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  pvp:
+    image: mugong-pvp:${MUGONG_TAG:-home}
+    build:
+      context: .
+      dockerfile: Dockerfile.pvp
+    environment:
+      PVP_ORIGINS: "${MUGONG_PUBLIC_ORIGIN:?Set MUGONG_PUBLIC_ORIGIN to the public HTTPS origin}"
+    volumes: [pvp-data:/app/data]
+    restart: unless-stopped
+    read_only: true
+    tmpfs: ["/tmp:rw,noexec,nosuid,size=32m,mode=1777"]
     cap_drop: [ALL]
     security_opt: [no-new-privileges:true]
     logging:
@@ -30,3 +48,5 @@ services:
 secrets:
   tunnel_token:
     file: ${CLOUDFLARE_TOKEN_FILE:-./.secrets/cloudflared-token}
+volumes:
+  pvp-data:

@@ -46,22 +46,33 @@ jobs:
       - run: npm ci
       - run: npm run check:assets
       - run: npm test
-      - name: Build and start production container
+      - name: Build and start isolated web and PvP containers
         run: |
-          docker build --tag mugong:ci .
-          docker run -d --name mugong-ci -p 127.0.0.1:5190:8080 --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m,mode=1777 --cap-drop ALL --security-opt no-new-privileges:true mugong:ci
+          docker compose -p mugong-ci up -d --build --wait
+        env:
+          MUGONG_TAG: ci
+          MUGONG_PORT: '5190'
+          MUGONG_PUBLIC_ORIGIN: http://127.0.0.1:5190
       - run: npx playwright install --with-deps chromium
       - run: npm run test:hosting
         env:
           MUGONG_HOSTING_URL: http://127.0.0.1:5190
           MUGONG_HOSTING_NGINX: '1'
+      - name: Two-player friendly and ranked verification on the isolated CI database
+        run: npx playwright test --config playwright.pvp.config.ts
+        env:
+          MUGONG_PVP_URL: http://127.0.0.1:5190
+          MUGONG_PVP_MODE: ci
       - name: Container logs
         if: failure()
-        run: docker logs mugong-ci || true
+        run: docker compose -p mugong-ci logs --tail 80 web pvp || true
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()
         with:
           name: hosting-verification
-          path: test-results-hosting/
+          path: |
+            test-results-hosting/
+            test-results-pvp-ci/
+            docs/verification/realtime-biwu-v1/ci/
           retention-days: 7
           if-no-files-found: ignore

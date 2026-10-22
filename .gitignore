@@ -3,6 +3,10 @@ node_modules/
 /.secrets/
 /dist/
 /dist-*/
+/.local-online/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 coverage/
 *.tsbuildinfo
 

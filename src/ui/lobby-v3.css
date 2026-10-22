@@ -176,6 +176,33 @@
   white-space: normal;
   line-height: 1.2;
 }
+.app-shell .home-v3 .home-online-entry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid #879e78;
+  border-radius: 8px;
+  background: #f8f0df;
+  color: #254c3c;
+  text-decoration: none;
+  font-size: 14px;
+}
+.app-shell .home-v3 .home-online-entry .ui-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex: none;
+}
+.app-shell .home-v3 .home-online-entry .ui-icon:last-child {
+  margin-left: auto;
+}
+.app-shell .home-v3 .home-online-entry:focus-visible {
+  outline: 3px solid #1f6b50;
+  outline-offset: 3px;
+}
 
 .app-shell .home-v3 .home-launch > .ui-icon:first-child {
   width: 29px;
