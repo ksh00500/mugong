@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22",
+  "snapshotCommit": "3ef1c8c0a721013a5813a5280e38b572e1bfb084",
+  "snapshotMethod": "git archive HEAD, extracted into a disposable Linux Alpine Docker container; Linux node_modules from the production build stage; fresh Git index for snapshot audit",
+  "commands": ["npm run assets:catalog", "node scripts/audit-github-snapshot.mjs", "npm run check:assets", "npm run typecheck", "npm run test:source", "npm run build"],
+  "exitCode": 0,
+  "unit": {"files": 88, "passed": 1491, "failed": 0},
+  "assets": {"catalogFiles": 2847, "runtimeMedia": 1029, "missing": 0, "lfsPointers": 0, "auditFailures": []},
+  "build": {"modules": 227, "mountKB": 444.98, "mainChunk": "main-Y3Y5mM8B.js"},
+  "limitations": "Local Docker Linux verification, not a GitHub Ubuntu Actions run. Remote CI remained blocked before any steps by account billing. Source-only tests use catalogue paths; actual media SHA and browser paths were separately validated locally."
+}

@@ -43,4 +43,6 @@ Docker `mugong:remaining-v1` digest `sha256:a7dc8e9be22c65f5354e2ff1ba38dcffdb18
 
 ## 기록 경계
 
+GitHub PR은 [#3](https://github.com/ksh00500/mugong/pull/3)이며 기능 커밋은 `3ef1c8c0a721013a5813a5280e38b572e1bfb084`다. [원격 CI 상태](github-ci.json): Actions source 작업은 **계정 결제 잠금**으로 시작하지 못했으며 steps가 없다. 이를 코드 검사 실패나 CI 통과로 해석하지 않는다. 독립 Linux Docker에서 같은 소스 검사 명령을 보완 실행해 catalog/audit/에셋/타입/88파일·1,491단위/227모듈 빌드가 모두 통과했다. [보완 실행 결과](linux-source-check.json). Alpine Docker 실행은 GitHub Ubuntu runner 실행 완료와 구분한다. Windows 전체 단위와 Linux source-only 단위는 별개 실행이며 합산하지 않는다.
+
 이번 연결에는 basic_memory_remote 도구가 없어 MCP 반영을 주장하지 않는다. 지정 로컬 옵시디언은 GitHub 반영 결과를 확인한 뒤 갱신한다. 공개 배포·장시간 인간 플레이·실물GPU·NPC 전용 걷기/지역별 전체 신규 원화·미확인 이전 에셋 삭제는 완료 항목에 포함하지 않는다.
