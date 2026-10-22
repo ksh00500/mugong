@@ -1,0 +1,164 @@
+{
+  "recordedAt": "2026-10-22T17:58:10.614Z",
+  "branch": "codex/cooperative-raid-v1",
+  "base": "98162c5bac51818644989cf209abae1847a5f02e",
+  "scope": "Standard fighters only; no personal character/gear/XP/heirloom transfers",
+  "unit": {
+    "files": 94,
+    "tests": 1547,
+    "passed": 1547,
+    "failed": 0,
+    "success": true
+  },
+  "afterCopyChanges": {
+    "typecheck": "passed",
+    "focusedFiles": 3,
+    "focusedTests": 17
+  },
+  "browser": {
+    "source": {
+      "startTime": "2026-10-22T17:31:48.069Z",
+      "duration": 83273.527,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "compiled": {
+      "startTime": "2026-10-22T17:39:42.763Z",
+      "duration": 89446.683,
+      "expected": 5,
+      "skipped": 1,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "normal": {
+      "startTime": "2026-10-22T17:39:42.846Z",
+      "duration": 19449.251,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "countdown": {
+      "startTime": "2026-10-22T17:43:06.445Z",
+      "duration": 17829.46,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "final-ui": {
+      "startTime": "2026-10-22T17:51:25.054Z",
+      "duration": 17421.766000000003,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "pvpRegression": {
+    "startTime": "2026-10-22T17:40:47.442Z",
+    "duration": 65161.74999999999,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "existingGameIcons": {
+    "startTime": "2026-10-22T17:41:51.763Z",
+    "duration": 51928.822,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "normalRules": {
+    "bossMax": 2640,
+    "bossHP": 2565.24,
+    "patterns": [
+      "cleave",
+      "charge"
+    ],
+    "party": 2,
+    "noRulesOverrides": true,
+    "errors": []
+  },
+  "normalProbe": [
+    {
+      "party": 1,
+      "cleared": 1,
+      "result": "wipe",
+      "ticks": 3383,
+      "hp": [
+        0
+      ],
+      "normalRules": true
+    },
+    {
+      "party": 2,
+      "cleared": 5,
+      "result": "complete",
+      "ticks": 11511,
+      "hp": [
+        23,
+        0
+      ],
+      "normalRules": true
+    },
+    {
+      "party": 3,
+      "cleared": 4,
+      "result": "wipe",
+      "ticks": 11508,
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "normalRules": true
+    },
+    {
+      "party": 4,
+      "cleared": 5,
+      "result": "complete",
+      "ticks": 11759,
+      "hp": [
+        0,
+        0,
+        0,
+        39
+      ],
+      "normalRules": true
+    }
+  ],
+  "local": {
+    "base": "http://127.0.0.1:5205",
+    "build": "dist-cooperative-raid-v1",
+    "hashPaths": 20,
+    "layouts": 3,
+    "pageErrors": [],
+    "backup": {
+      "backupPresent": true,
+      "integrity": "ok",
+      "scope": "Read-only integrity of this turn pre-raid backup; no account values recorded"
+    }
+  },
+  "assets": {
+    "runtimeFiles": 1069,
+    "literalReferences": 803,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "docker": {
+    "latestImage": "not verified",
+    "runtime": "daemon inspection timed out at 10s; only own CLI stopped",
+    "publicHomeHost": "not deployed"
+  },
+  "limits": [
+    "Standard trial roster and records only",
+    "No persistent personal fighters, gear, XP, loot or heirlooms",
+    "No human PvP/raid balance, load or latency qualification",
+    "No main merge"
+  ]
+}

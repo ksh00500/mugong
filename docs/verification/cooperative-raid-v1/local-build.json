@@ -1,0 +1,148 @@
+{
+  "checkedAt": "2026-10-22T17:50:39.535Z",
+  "base": "http://127.0.0.1:5205",
+  "build": "dist-cooperative-raid-v1",
+  "files": [
+    {
+      "path": "/index.html",
+      "bytes": 3982,
+      "sha256": "f2e2573c6d7b61e1909794972c38a3c83cb0cb95801532a545b5af3067f33bb6"
+    },
+    {
+      "path": "/pvp/index.html",
+      "bytes": 751,
+      "sha256": "bc703855ad1170187027fb74ea303367a6a638da4ca434a66823e56afd348e67"
+    },
+    {
+      "path": "/raid/index.html",
+      "bytes": 772,
+      "sha256": "e251c371652bb3bbd559814c16a580de10f9b99f75c54c5bc23e8e41647b5322"
+    },
+    {
+      "path": "/next-stage/index.html",
+      "bytes": 552,
+      "sha256": "ec81bc427317fb1f0808c15d337f55ac39a4b9ef5416631d37d05254fc11f6c0"
+    },
+    {
+      "path": "/assets/main-CSqvpxQ9.js",
+      "bytes": 242803,
+      "sha256": "4dbf2215e9bedb07f632927e69f8db93485627c262fd4a74f21e44c2c543a6db"
+    },
+    {
+      "path": "/assets/Icons-CWtaw67W.js",
+      "bytes": 316234,
+      "sha256": "49060e3e8f5728c7983a22340ca34c373ced3ce01b174f40aba9b24f2768c104"
+    },
+    {
+      "path": "/assets/ui-D9267FuF.js",
+      "bytes": 199491,
+      "sha256": "4677ef02dc926df8213958569b3346be98c49dc3a7bea7ffadfd74ba2bf1599f"
+    },
+    {
+      "path": "/assets/region-art-Dzy56fdG.js",
+      "bytes": 100377,
+      "sha256": "2634ca7d84047c485d27ea653e1cba40b9955d87e07ffe829120f386127fffb9"
+    },
+    {
+      "path": "/assets/ui-BqLLFD0U.css",
+      "bytes": 278754,
+      "sha256": "11cc0b3318997f89b120c6aa865832f2adf29648289a95d92736b650273b66a4"
+    },
+    {
+      "path": "/assets/pvp-CTouSZt5.js",
+      "bytes": 179,
+      "sha256": "cc555a0df1a8855e1451ff254bb5c5ae4048a9f5cc64db64594665fd59d40ff2"
+    },
+    {
+      "path": "/assets/pvp-zyevYRqo.js",
+      "bytes": 25791,
+      "sha256": "e064950331616bfec5e93ad65443adaf85d484c5d4daab3b49affe33b903b3f5"
+    },
+    {
+      "path": "/assets/pvp-D1yLEkRz.css",
+      "bytes": 12588,
+      "sha256": "7fd7b5f0678e8d8e93109cc6154016164db71d904d33b8cc97c8e81bd0acd673"
+    },
+    {
+      "path": "/assets/raid-C_1s-O6B.js",
+      "bytes": 16601,
+      "sha256": "62a4f6ac76bf12f5c2a4d14e6f316f266ba67174cf118829a8957d7929e2b104"
+    },
+    {
+      "path": "/assets/raid-BfsEfgyg.css",
+      "bytes": 4212,
+      "sha256": "bb0085a5c5ae5dbe27eb43aa6ce544368045ed4bf0a274ad69322b2001110973"
+    },
+    {
+      "path": "/assets/nextStage-DAjPx_EO.js",
+      "bytes": 20767,
+      "sha256": "66f9c4547a1befbb6aa4512b5abe0afe67126b45c88d7eef40981116c5bd6551"
+    },
+    {
+      "path": "/assets/nextStage-BizRtYhy.css",
+      "bytes": 30507,
+      "sha256": "472cc6b14a6537830ff6be41188240797612fa0a394f6d7c14ad4f02be5cb548"
+    },
+    {
+      "path": "/art/bamboo-family-v1/bambooassassin-front.webp",
+      "bytes": 1323290,
+      "sha256": "5e1f9241da71b7db8b396307d2632875e29e4097d4a3159dbf4f0fc673ddb6a2"
+    },
+    {
+      "path": "/art/bamboo-family-v1/bambooassassin-front-right.webp",
+      "bytes": 1515458,
+      "sha256": "aafacc41c4f7e273321778bdd2366d673efb4b4dc2580098ead6bb88ecbf4fa7"
+    },
+    {
+      "path": "/art/bamboo-family-v1/bambooassassin-right.webp",
+      "bytes": 1233376,
+      "sha256": "c451636237765716313ce24ece207947e2a3be9730c1b276133fba3eede18316"
+    },
+    {
+      "path": "/art/bamboo-family-v1/bambooassassin-rear-right.webp",
+      "bytes": 1138114,
+      "sha256": "87b48d7c34f9ab3617899756dc46a964a52fc41f38a3517bfd15b15e5ff21051"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "rules": 1
+  },
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "raidEntry": {
+        "x": 44.5906982421875,
+        "y": 607.9948120117188,
+        "width": 417.974853515625,
+        "height": 41.71990966796875
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "raidEntry": {
+        "x": 42.30096435546875,
+        "y": 539.8721923828125,
+        "width": 396.4918212890625,
+        "height": 41.71966552734375
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "raidEntry": {
+        "x": 32.78125,
+        "y": 412.03125,
+        "width": 349.171875,
+        "height": 42
+      },
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "scope": "Read-only API and independent UI; no live account registration or user save access"
+}

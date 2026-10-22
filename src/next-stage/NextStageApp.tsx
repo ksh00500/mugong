@@ -299,8 +299,14 @@ function RaidPrep({
             </span>
           </div>
         </div>
-        <Action tone="jade" className="ns-primary-wide" onClick={enter}>
-          전투 HUD 시안 보기 <Icon name="arrow" />
+        <Action
+          tone="jade"
+          className="ns-primary-wide"
+          onClick={() => {
+            window.location.href = '/raid/';
+          }}
+        >
+          실제 표준 협동 레이드로 <Icon name="arrow" />
         </Action>
       </aside>
     </div>
@@ -807,7 +813,9 @@ export function NextStageApp() {
           <span className="ns-work-label">다음 단계 UI 시안</span>
         </div>
         <div className="ns-header-side">
-          <span className="ns-preview-badge">레이드·생사결 시안 · 비무장 별도 연결</span>
+          <span className="ns-preview-badge">
+            개인 자산·생사결 시안 · 표준 레이드/비무 별도 연결
+          </span>
           <a href="/" className="ns-back-game">
             현재 게임으로 <Icon name="arrow" />
           </a>

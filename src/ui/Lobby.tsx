@@ -195,6 +195,11 @@ export function Lobby({
             {t('실시간 비무 · 친선 / 순위전')}
             <Icon name="arrow" />
           </a>
+          <a className="home-online-entry home-raid-entry" href="/raid/">
+            <Icon name="compass" />
+            {t('실시간 레이드 · 1~4인')}
+            <Icon name="arrow" />
+          </a>
         </section>
 
         <section className="home-hero" aria-label={t('무인 초상')}>

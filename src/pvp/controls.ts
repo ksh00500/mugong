@@ -1,4 +1,20 @@
-import type { PvpClient } from './client';
+import type { ClientMessage } from './model';
+export interface ControlClient {
+  getSnapshot(): {
+    connected: boolean;
+    seat: number;
+    room: {
+      match: {
+        id: string;
+        epoch: number;
+        phase: string;
+        tick: number;
+        players: readonly { fighter: BoundFighter }[];
+      } | null;
+    } | null;
+  };
+  send(message: Extract<ClientMessage, { type: 'input' }>): boolean;
+}
 import { neutralInput, type PvpInput } from './model';
 import { PVP_RULES as R } from './rules';
 import type { BoundFighter } from '../domain/model';
@@ -12,7 +28,7 @@ export class PvpControls {
   private history: { seq: number; at: number; input: PvpInput }[] = [];
   private prediction = { key: '', tick: -1, x: 0, y: 0, at: 0 };
   constructor(
-    private client: PvpClient,
+    private client: ControlClient,
     private blocked: () => boolean,
   ) {}
   start() {

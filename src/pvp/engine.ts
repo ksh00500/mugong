@@ -4,6 +4,8 @@ import type { ArtId } from '../domain/model';
 import { PVP_RULES as R, pvpFighter } from './rules';
 import type {
   PvpMatch,
+  CombatActor,
+  CombatWorld,
   PvpActor,
   PvpInput,
   Seat,
@@ -14,8 +16,16 @@ import type {
 } from './model';
 const DT = 1 / 60,
   clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
-const other = (s: Seat) => (1 - s) as Seat;
-function effect(m: PvpMatch, seat: Seat, kind: 'hit' | 'guard' | 'evade' | 'ultimate', amount = 0) {
+const enemies = (m: CombatWorld, a: CombatActor) =>
+  m.players.filter(
+    (b) => !b.inactive && b.fighter.hp > 0 && (b.team ?? b.seat) !== (a.team ?? a.seat),
+  );
+function effect(
+  m: CombatWorld,
+  seat: number,
+  kind: 'hit' | 'guard' | 'evade' | 'ultimate',
+  amount = 0,
+) {
   const f = m.players[seat].fighter;
   m.effects.push({ id: ++m.sequence, seat, kind, x: f.x, y: f.y - 34, amount, life: 0.42 });
 }
@@ -76,14 +86,14 @@ function finishRound(m: PvpMatch, winner: Seat | null, reason: EndReason) {
   m.phaseTicks = R.interval;
   m.reason = reason;
 }
-function move(a: PvpActor, angle: number, distance: number) {
+function move(a: CombatActor, angle: number, distance: number) {
   const f = a.fighter;
   f.x = clamp(f.x + Math.cos(angle) * distance, R.left, R.right);
   f.y = clamp(f.y + Math.sin(angle) * distance, R.top, R.bottom);
 }
 function spawn(
-  m: PvpMatch,
-  a: PvpActor,
+  m: CombatWorld,
+  a: CombatActor,
   art: ArtId,
   damage: number,
   options: Partial<PvpAttack> = {},
@@ -110,7 +120,7 @@ function spawn(
     ...options,
   });
 }
-function defend(m: PvpMatch, a: PvpActor, input: PvpInput) {
+function defend(m: CombatWorld, a: CombatActor, input: PvpInput) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (art.defenseCd > 0) return;
@@ -133,7 +143,7 @@ function defend(m: PvpMatch, a: PvpActor, input: PvpInput) {
     effect(m, a.seat, 'guard');
   }
 }
-function ultimate(m: PvpMatch, a: PvpActor) {
+function ultimate(m: CombatWorld, a: CombatActor) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (
@@ -183,13 +193,13 @@ function ultimate(m: PvpMatch, a: PvpActor) {
     return;
   }
   if (art.id === 'tang') {
-    const target = m.players[other(a.seat)];
-    spawn(m, a, art.id, 28 + target.poison * 12, { shape: 'burst', range: 280 });
+    const poison = Math.max(0, ...enemies(m, a).map((t) => t.poison));
+    spawn(m, a, art.id, 28 + poison * 12, { shape: 'burst', range: 280 });
     return;
   }
   spawn(m, a, art.id, 58, { shape: 'burst', range: 220, heal: 0.25 });
 }
-function attack(m: PvpMatch, a: PvpActor) {
+function attack(m: CombatWorld, a: CombatActor) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (f.cooldown > 0) return;
@@ -219,8 +229,8 @@ function attack(m: PvpMatch, a: PvpActor) {
     });
 }
 type Contact = {
-  source: Seat;
-  target: Seat;
+  source: number;
+  target: number;
   damage: number;
   heal: number;
   poison: boolean;
@@ -228,9 +238,11 @@ type Contact = {
   dot?: boolean;
 };
 /** Both sides' contacts are gathered before HP changes; simultaneous KOs stay draws. */
-function resolveContacts(m: PvpMatch, contacts: Contact[]) {
-  const loss = [0, 0],
-    healing = [0, 0];
+function resolveContacts(m: CombatWorld, contacts: Contact[]) {
+  const loss = m.players.map(() => 0),
+    healing = m.players.map(() => 0);
+  const heals: { source: number; target: number; amount: number }[] = [];
+  const applied: { source: number; target: number; amount: number }[] = [];
   for (const c of contacts) {
     const a = m.players[c.source],
       target = m.players[c.target],
@@ -244,24 +256,36 @@ function resolveContacts(m: PvpMatch, contacts: Contact[]) {
       effect(m, c.target, 'guard');
       if (f.arts[f.active].id === 'wudang') {
         loss[c.source] += 18;
+        applied.push({ source: c.target, target: c.source, amount: 18 });
         f.guard = 0;
         f.arts[f.active].gauge = Math.min(100, f.arts[f.active].gauge + 12);
       }
     }
     if ((f.fortify ?? 0) > 0) damage *= 0.65;
     loss[c.target] += damage;
-    healing[c.source] += damage * c.heal;
+    applied.push({ source: c.source, target: c.target, amount: damage });
+    heals.push({ source: c.source, target: c.target, amount: damage * c.heal });
     if (c.poison) {
       target.poison = Math.min(3, target.poison + 1);
       target.poisonClock = 3;
+      target.poisonSource = c.source;
     }
     const art = a.fighter.arts.find((at) => at.id === c.art);
     if (art && !c.dot) art.gauge = Math.min(c.art === 'gaebang' ? 200 : 100, art.gauge + 12);
   }
+  for (const h of heals)
+    healing[h.source] +=
+      h.amount * Math.min(1, m.players[h.target].fighter.hp / (loss[h.target] || 1));
+  for (const hit of applied) {
+    const a = m.players[hit.source];
+    a.damageDealt =
+      (a.damageDealt ?? 0) +
+      hit.amount * Math.min(1, m.players[hit.target].fighter.hp / (loss[hit.target] || 1));
+  }
   for (const a of m.players) {
     const amount = Math.min(a.fighter.hp, loss[a.seat]);
-    if (loss[a.seat] > 0) healing[other(a.seat)] *= amount / loss[a.seat];
     a.fighter.hp = Math.max(0, a.fighter.hp - amount);
+    a.damageTaken = (a.damageTaken ?? 0) + amount;
     if (amount > 0) {
       a.hurt = 0.12;
       effect(m, a.seat, 'hit', Math.round(amount));
@@ -299,10 +323,36 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
     return;
   }
   m.roundTicks--;
+  stepCombat(m, inputs);
+  if (m.players.some((a) => a.fighter.hp <= 0)) {
+    finishRound(
+      m,
+      m.players.every((a) => a.fighter.hp <= 0) ? null : m.players[0].fighter.hp > 0 ? 0 : 1,
+      'knockout',
+    );
+    return;
+  }
+  if (m.roundTicks <= 0 || m.totalTicks >= 8 * 60 * 60) {
+    const [a, b] = m.players.map((p) => p.fighter.hp / p.maxHp);
+    finishRound(m, Math.abs(a - b) < 0.000001 ? null : a > b ? 0 : 1, 'time');
+  }
+}
+
+/** Team-filtered combat. Seats are stable indices; allied bodies never block shots. */
+export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefined)[]) {
   const contacts: Contact[] = [];
   for (const a of m.players) {
     const f = a.fighter,
-      input = inputs[a.seat];
+      input = inputs[a.seat] ?? {
+        dx: 0,
+        dy: 0,
+        aim: f.facing,
+        attack: false,
+        defense: false,
+        ultimate: false,
+        switch: 0,
+      };
+    if (f.hp <= 0 || a.inactive) continue;
     f.cooldown = Math.max(0, f.cooldown - DT);
     f.actionTime = Math.max(0, f.actionTime - DT);
     f.invulnerable = Math.max(0, f.invulnerable - DT);
@@ -316,7 +366,7 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
       a.poisonClock = Math.max(0, a.poisonClock - DT);
       if (Math.floor(a.poisonClock) < before)
         contacts.push({
-          source: other(a.seat),
+          source: a.poisonSource ?? enemies(m, a)[0]?.seat ?? a.seat,
           target: a.seat,
           damage: a.poison * 2,
           heal: 0,
@@ -326,6 +376,7 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
         });
       if (!a.poisonClock) a.poison = 0;
     }
+    if (a.passive) continue;
     if (f.actionTime <= 0) {
       f.action = 'idle';
       if (input.switch) f.active = (f.active + input.switch + f.arts.length) % f.arts.length;
@@ -351,14 +402,19 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
     const before = at.delay;
     at.delay -= DT;
     if (at.delay > 0) continue;
-    const a = m.players[at.owner],
-      target = m.players[other(at.owner)],
-      f = target.fighter;
+    const a = m.players[at.owner];
     if (at.shape === 'shot') {
       const from = { x: at.x, y: at.y };
       at.x += Math.cos(at.angle) * at.speed * DT;
       at.y += Math.sin(at.angle) * at.speed * DT;
-      if (projectileHitsBody(from, at, f, at.radius)) {
+      const target = enemies(m, a)
+        .filter((t) => projectileHitsBody(from, at, t.fighter, at.radius))
+        .sort(
+          (x, y) =>
+            Math.hypot(x.fighter.x - from.x, x.fighter.y - 34 - from.y) -
+            Math.hypot(y.fighter.x - from.x, y.fighter.y - 34 - from.y),
+        )[0];
+      if (target) {
         contacts.push({
           source: at.owner,
           target: target.seat,
@@ -369,13 +425,13 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
         });
         at.life = 0;
       }
-      at.life -= DT;
-    } else {
-      if (before > 0) {
+    } else if (before > 0) {
+      for (const target of enemies(m, a)) {
+        const f = target.fighter;
         const hit =
           at.shape === 'burst'
-            ? Math.hypot(a.fighter.x - f.x, a.fighter.y - f.y) <= at.range
-            : sectorHitsBody(a.fighter, f, at.angle, at.range, at.arc);
+            ? projectileHitsBody(at, at, f, at.range)
+            : sectorHitsBody({ x: at.x, y: at.y + 34 }, f, at.angle, at.range, at.arc);
         if (hit)
           contacts.push({
             source: at.owner,
@@ -386,8 +442,8 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
             art: at.art,
           });
       }
-      at.life -= DT;
     }
+    at.life -= DT;
   }
   m.attacks = m.attacks
     .filter(
@@ -396,16 +452,4 @@ export function stepPvp(m: PvpMatch, inputs: readonly [PvpInput, PvpInput]) {
     )
     .slice(-64);
   resolveContacts(m, contacts);
-  if (m.players.some((a) => a.fighter.hp <= 0)) {
-    finishRound(
-      m,
-      m.players.every((a) => a.fighter.hp <= 0) ? null : m.players[0].fighter.hp > 0 ? 0 : 1,
-      'knockout',
-    );
-    return;
-  }
-  if (m.roundTicks <= 0 || m.totalTicks >= 8 * 60 * 60) {
-    const [a, b] = m.players.map((p) => p.fighter.hp / p.maxHp);
-    finishRound(m, Math.abs(a - b) < 0.000001 ? null : a > b ? 0 : 1, 'time');
-  }
 }
