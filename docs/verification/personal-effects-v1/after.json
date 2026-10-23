@@ -1,0 +1,2022 @@
+{
+  "runDate": "2026-10-24",
+  "probeSchemaDate": "2026-10-23",
+  "rawSha256": "f090a7b81b570f82a26128cbeed27a0aa2e2b4df1fb82ab30f50637a5a1f0375",
+  "methodology": "Deterministic saved candidates; real 60Hz natural combat and legal choices/items/rests; no HP/phase/XP/loot edits. Reactive omniscient bots, not human win rates. The raids array is engine-only without floor rewards. The persistent array uses actual owned survivors, their carried HP/medicine, real reservation/reward/growth/return transactions in a disposable memory SQLite database.",
+  "journeys": [
+    {
+      "seed": 123,
+      "preferred": "huashan",
+      "route": [
+        "고묘",
+        "죽림",
+        "혈마전",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1.2,
+        "inner": 1.3
+      },
+      "innate": "unyielding",
+      "seconds": 62.03,
+      "lastWave": 5,
+      "incoming": 236,
+      "outgoing": 1574.41,
+      "survivor": null
+    },
+    {
+      "seed": 123,
+      "preferred": "tang",
+      "route": [
+        "고묘",
+        "죽림",
+        "혈마전",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1.2,
+        "inner": 1.3
+      },
+      "innate": "unyielding",
+      "seconds": 182.65,
+      "lastWave": 18,
+      "incoming": 1125.8,
+      "outgoing": 16640.49,
+      "survivor": null
+    },
+    {
+      "seed": 123,
+      "preferred": "tianmo",
+      "route": [
+        "고묘",
+        "죽림",
+        "혈마전",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1.2,
+        "inner": 1.3
+      },
+      "innate": "unyielding",
+      "seconds": 88.7,
+      "lastWave": 10,
+      "incoming": 708.53,
+      "outgoing": 5376,
+      "survivor": null
+    },
+    {
+      "seed": 123,
+      "preferred": "jegal",
+      "route": [
+        "고묘",
+        "죽림",
+        "혈마전",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1.2,
+        "inner": 1.3
+      },
+      "innate": "unyielding",
+      "seconds": 137.58,
+      "lastWave": 15,
+      "incoming": 751.52,
+      "outgoing": 11598.63,
+      "survivor": null
+    },
+    {
+      "seed": 222,
+      "preferred": "huashan",
+      "route": [
+        "고묘",
+        "죽림",
+        "독무곡",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1,
+        "inner": 1.5
+      },
+      "innate": "herbal",
+      "seconds": 54.22,
+      "lastWave": 5,
+      "incoming": 280.4,
+      "outgoing": 1286.74,
+      "survivor": null
+    },
+    {
+      "seed": 222,
+      "preferred": "tang",
+      "route": [
+        "고묘",
+        "죽림",
+        "독무곡",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1,
+        "inner": 1.5
+      },
+      "innate": "herbal",
+      "seconds": 48.07,
+      "lastWave": 5,
+      "incoming": 271.2,
+      "outgoing": 1483.83,
+      "survivor": null
+    },
+    {
+      "seed": 222,
+      "preferred": "tianmo",
+      "route": [
+        "고묘",
+        "죽림",
+        "독무곡",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1,
+        "inner": 1.5
+      },
+      "innate": "herbal",
+      "seconds": 54.22,
+      "lastWave": 5,
+      "incoming": 280.4,
+      "outgoing": 1286.74,
+      "survivor": null
+    },
+    {
+      "seed": 222,
+      "preferred": "jegal",
+      "route": [
+        "고묘",
+        "죽림",
+        "독무곡",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.2,
+        "agility": 1,
+        "inner": 1.5
+      },
+      "innate": "herbal",
+      "seconds": 110.7,
+      "lastWave": 12,
+      "incoming": 741.25,
+      "outgoing": 7449.44,
+      "survivor": null
+    },
+    {
+      "seed": 777,
+      "preferred": "huashan",
+      "route": [
+        "죽림",
+        "청하현",
+        "천검산",
+        "폐사"
+      ],
+      "growth": {
+        "constitution": 1.4,
+        "strength": 1.1,
+        "agility": 1.3,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 322.13,
+      "lastWave": 20,
+      "incoming": 1299.52,
+      "outgoing": 21456.48,
+      "survivor": null
+    },
+    {
+      "seed": 777,
+      "preferred": "tang",
+      "route": [
+        "죽림",
+        "청하현",
+        "천검산",
+        "폐사"
+      ],
+      "growth": {
+        "constitution": 1.4,
+        "strength": 1.1,
+        "agility": 1.3,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 46.42,
+      "lastWave": 5,
+      "incoming": 247.6,
+      "outgoing": 1773.51,
+      "survivor": null
+    },
+    {
+      "seed": 777,
+      "preferred": "tianmo",
+      "route": [
+        "죽림",
+        "청하현",
+        "천검산",
+        "폐사"
+      ],
+      "growth": {
+        "constitution": 1.4,
+        "strength": 1.1,
+        "agility": 1.3,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 107.48,
+      "lastWave": 10,
+      "incoming": 711.99,
+      "outgoing": 5314.48,
+      "survivor": null
+    },
+    {
+      "seed": 777,
+      "preferred": "jegal",
+      "route": [
+        "죽림",
+        "청하현",
+        "천검산",
+        "폐사"
+      ],
+      "growth": {
+        "constitution": 1.4,
+        "strength": 1.1,
+        "agility": 1.3,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 190.03,
+      "lastWave": 20,
+      "incoming": 950.66,
+      "outgoing": 22054,
+      "survivor": {
+        "hp": 245.59,
+        "maxHp": 330,
+        "level": 15,
+        "arts": [
+          {
+            "id": "jegal",
+            "level": 4
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 3
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "seed": 2026,
+      "preferred": "huashan",
+      "route": [
+        "서역사막",
+        "독무곡",
+        "혈마전",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 0.9,
+        "strength": 0.9,
+        "agility": 1.4,
+        "inner": 1.4
+      },
+      "innate": "unyielding",
+      "seconds": 99.3,
+      "lastWave": 7,
+      "incoming": 419.2,
+      "outgoing": 2913.52,
+      "survivor": null
+    },
+    {
+      "seed": 2026,
+      "preferred": "tang",
+      "route": [
+        "서역사막",
+        "독무곡",
+        "혈마전",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 0.9,
+        "strength": 0.9,
+        "agility": 1.4,
+        "inner": 1.4
+      },
+      "innate": "unyielding",
+      "seconds": 150.35,
+      "lastWave": 16,
+      "incoming": 904.33,
+      "outgoing": 13483.71,
+      "survivor": null
+    },
+    {
+      "seed": 2026,
+      "preferred": "tianmo",
+      "route": [
+        "서역사막",
+        "독무곡",
+        "혈마전",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 0.9,
+        "strength": 0.9,
+        "agility": 1.4,
+        "inner": 1.4
+      },
+      "innate": "unyielding",
+      "seconds": 38.2,
+      "lastWave": 5,
+      "incoming": 315.27,
+      "outgoing": 1622.41,
+      "survivor": null
+    },
+    {
+      "seed": 2026,
+      "preferred": "jegal",
+      "route": [
+        "서역사막",
+        "독무곡",
+        "혈마전",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 0.9,
+        "strength": 0.9,
+        "agility": 1.4,
+        "inner": 1.4
+      },
+      "innate": "unyielding",
+      "seconds": 91.88,
+      "lastWave": 10,
+      "incoming": 508,
+      "outgoing": 4769.59,
+      "survivor": null
+    },
+    {
+      "seed": 4099,
+      "preferred": "huashan",
+      "route": [
+        "고묘",
+        "폐사",
+        "죽림",
+        "서역사막"
+      ],
+      "growth": {
+        "constitution": 1,
+        "strength": 1.5,
+        "agility": 1.4,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 216.72,
+      "lastWave": 20,
+      "incoming": 1106,
+      "outgoing": 22148,
+      "survivor": {
+        "hp": 229,
+        "maxHp": 280,
+        "level": 16,
+        "arts": [
+          {
+            "id": "tang",
+            "level": 2
+          },
+          {
+            "id": "huashan",
+            "level": 5
+          },
+          {
+            "id": "tianmo",
+            "level": 3
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "seed": 4099,
+      "preferred": "tang",
+      "route": [
+        "고묘",
+        "폐사",
+        "죽림",
+        "서역사막"
+      ],
+      "growth": {
+        "constitution": 1,
+        "strength": 1.5,
+        "agility": 1.4,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 43.62,
+      "lastWave": 5,
+      "incoming": 308.8,
+      "outgoing": 1606.17,
+      "survivor": null
+    },
+    {
+      "seed": 4099,
+      "preferred": "tianmo",
+      "route": [
+        "고묘",
+        "폐사",
+        "죽림",
+        "서역사막"
+      ],
+      "growth": {
+        "constitution": 1,
+        "strength": 1.5,
+        "agility": 1.4,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 183.75,
+      "lastWave": 20,
+      "incoming": 1353.03,
+      "outgoing": 21382.38,
+      "survivor": null
+    },
+    {
+      "seed": 4099,
+      "preferred": "jegal",
+      "route": [
+        "고묘",
+        "폐사",
+        "죽림",
+        "서역사막"
+      ],
+      "growth": {
+        "constitution": 1,
+        "strength": 1.5,
+        "agility": 1.4,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 208.08,
+      "lastWave": 20,
+      "incoming": 874.86,
+      "outgoing": 22100,
+      "survivor": {
+        "hp": 220.14,
+        "maxHp": 280,
+        "level": 16,
+        "arts": [
+          {
+            "id": "tang",
+            "level": 3
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "jegal",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "seed": 8713,
+      "preferred": "huashan",
+      "route": [
+        "서역사막",
+        "설산",
+        "팔진고성",
+        "청하현"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.4,
+        "inner": 1.1
+      },
+      "innate": "focus",
+      "seconds": 217.28,
+      "lastWave": 20,
+      "incoming": 1314.2,
+      "outgoing": 19519.11,
+      "survivor": null
+    },
+    {
+      "seed": 8713,
+      "preferred": "tang",
+      "route": [
+        "서역사막",
+        "설산",
+        "팔진고성",
+        "청하현"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.4,
+        "inner": 1.1
+      },
+      "innate": "focus",
+      "seconds": 87.38,
+      "lastWave": 10,
+      "incoming": 454,
+      "outgoing": 5154.3,
+      "survivor": null
+    },
+    {
+      "seed": 8713,
+      "preferred": "tianmo",
+      "route": [
+        "서역사막",
+        "설산",
+        "팔진고성",
+        "청하현"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.4,
+        "inner": 1.1
+      },
+      "innate": "focus",
+      "seconds": 186.98,
+      "lastWave": 20,
+      "incoming": 1601.92,
+      "outgoing": 20803.3,
+      "survivor": null
+    },
+    {
+      "seed": 8713,
+      "preferred": "jegal",
+      "route": [
+        "서역사막",
+        "설산",
+        "팔진고성",
+        "청하현"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.4,
+        "inner": 1.1
+      },
+      "innate": "focus",
+      "seconds": 91.52,
+      "lastWave": 11,
+      "incoming": 500.24,
+      "outgoing": 6453,
+      "survivor": null
+    },
+    {
+      "seed": 19087,
+      "preferred": "huashan",
+      "route": [
+        "폐사",
+        "청하현",
+        "설산",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.2,
+        "agility": 1.5,
+        "inner": 1.1
+      },
+      "innate": "herbal",
+      "seconds": 52.98,
+      "lastWave": 5,
+      "incoming": 257.34,
+      "outgoing": 1468.15,
+      "survivor": null
+    },
+    {
+      "seed": 19087,
+      "preferred": "tang",
+      "route": [
+        "폐사",
+        "청하현",
+        "설산",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.2,
+        "agility": 1.5,
+        "inner": 1.1
+      },
+      "innate": "herbal",
+      "seconds": 235.08,
+      "lastWave": 20,
+      "incoming": 1136.84,
+      "outgoing": 22019,
+      "survivor": {
+        "hp": 291.91,
+        "maxHp": 375,
+        "level": 15,
+        "arts": [
+          {
+            "id": "tang",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 19087,
+      "preferred": "tianmo",
+      "route": [
+        "폐사",
+        "청하현",
+        "설산",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.2,
+        "agility": 1.5,
+        "inner": 1.1
+      },
+      "innate": "herbal",
+      "seconds": 224.23,
+      "lastWave": 20,
+      "incoming": 1545.07,
+      "outgoing": 22019,
+      "survivor": {
+        "hp": 240.07,
+        "maxHp": 315,
+        "level": 15,
+        "arts": [
+          {
+            "id": "samja",
+            "level": 3
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "seed": 19087,
+      "preferred": "jegal",
+      "route": [
+        "폐사",
+        "청하현",
+        "설산",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.2,
+        "agility": 1.5,
+        "inner": 1.1
+      },
+      "innate": "herbal",
+      "seconds": 222.48,
+      "lastWave": 20,
+      "incoming": 1098.88,
+      "outgoing": 22019,
+      "survivor": {
+        "hp": 207.37,
+        "maxHp": 315,
+        "level": 15,
+        "arts": [
+          {
+            "id": "jegal",
+            "level": 5
+          },
+          {
+            "id": "wudang",
+            "level": 3
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "samja",
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "seed": 30011,
+      "preferred": "huashan",
+      "route": [
+        "고묘",
+        "천검산",
+        "팔진고성",
+        "혈마전"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.7,
+        "agility": 0.8,
+        "inner": 1.5
+      },
+      "innate": "flexible",
+      "seconds": 55.13,
+      "lastWave": 5,
+      "incoming": 283,
+      "outgoing": 1380.81,
+      "survivor": null
+    },
+    {
+      "seed": 30011,
+      "preferred": "tang",
+      "route": [
+        "고묘",
+        "천검산",
+        "팔진고성",
+        "혈마전"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.7,
+        "agility": 0.8,
+        "inner": 1.5
+      },
+      "innate": "flexible",
+      "seconds": 45.2,
+      "lastWave": 5,
+      "incoming": 248,
+      "outgoing": 1797.09,
+      "survivor": null
+    },
+    {
+      "seed": 30011,
+      "preferred": "tianmo",
+      "route": [
+        "고묘",
+        "천검산",
+        "팔진고성",
+        "혈마전"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.7,
+        "agility": 0.8,
+        "inner": 1.5
+      },
+      "innate": "flexible",
+      "seconds": 168.9,
+      "lastWave": 15,
+      "incoming": 1294.2,
+      "outgoing": 11728.76,
+      "survivor": null
+    },
+    {
+      "seed": 30011,
+      "preferred": "jegal",
+      "route": [
+        "고묘",
+        "천검산",
+        "팔진고성",
+        "혈마전"
+      ],
+      "growth": {
+        "constitution": 1.2,
+        "strength": 1.7,
+        "agility": 0.8,
+        "inner": 1.5
+      },
+      "innate": "flexible",
+      "seconds": 117.15,
+      "lastWave": 13,
+      "incoming": 769,
+      "outgoing": 8236.55,
+      "survivor": null
+    },
+    {
+      "seed": 481516,
+      "preferred": "huashan",
+      "route": [
+        "청하현",
+        "독무곡",
+        "폐사",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 235.67,
+      "lastWave": 20,
+      "incoming": 1104.2,
+      "outgoing": 22350,
+      "survivor": {
+        "hp": 228.1,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 5
+          },
+          {
+            "id": "tianmo",
+            "level": 3
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "tang",
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "seed": 481516,
+      "preferred": "tang",
+      "route": [
+        "청하현",
+        "독무곡",
+        "폐사",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 222.87,
+      "lastWave": 20,
+      "incoming": 1099.32,
+      "outgoing": 22318,
+      "survivor": {
+        "hp": 279.93,
+        "maxHp": 388,
+        "level": 16,
+        "arts": [
+          {
+            "id": "tang",
+            "level": 4
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "shaolin",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 481516,
+      "preferred": "tianmo",
+      "route": [
+        "청하현",
+        "독무곡",
+        "폐사",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 216.05,
+      "lastWave": 20,
+      "incoming": 1616.94,
+      "outgoing": 22318,
+      "survivor": {
+        "hp": 313.57,
+        "maxHp": 388,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "samja",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 481516,
+      "preferred": "jegal",
+      "route": [
+        "청하현",
+        "독무곡",
+        "폐사",
+        "고묘"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "herbal",
+      "seconds": 213.33,
+      "lastWave": 20,
+      "incoming": 1226.94,
+      "outgoing": 22318,
+      "survivor": {
+        "hp": 270.79,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "jegal",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "tang",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 90101,
+      "preferred": "huashan",
+      "route": [
+        "천검산",
+        "혈마전",
+        "죽림",
+        "설산"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.4,
+        "agility": 1.1,
+        "inner": 1
+      },
+      "innate": "momentum",
+      "seconds": 50.45,
+      "lastWave": 5,
+      "incoming": 246.61,
+      "outgoing": 1152.52,
+      "survivor": null
+    },
+    {
+      "seed": 90101,
+      "preferred": "tang",
+      "route": [
+        "천검산",
+        "혈마전",
+        "죽림",
+        "설산"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.4,
+        "agility": 1.1,
+        "inner": 1
+      },
+      "innate": "momentum",
+      "seconds": 47.7,
+      "lastWave": 5,
+      "incoming": 253.01,
+      "outgoing": 1387.65,
+      "survivor": null
+    },
+    {
+      "seed": 90101,
+      "preferred": "tianmo",
+      "route": [
+        "천검산",
+        "혈마전",
+        "죽림",
+        "설산"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.4,
+        "agility": 1.1,
+        "inner": 1
+      },
+      "innate": "momentum",
+      "seconds": 43.47,
+      "lastWave": 5,
+      "incoming": 344.59,
+      "outgoing": 1476.14,
+      "survivor": null
+    },
+    {
+      "seed": 90101,
+      "preferred": "jegal",
+      "route": [
+        "천검산",
+        "혈마전",
+        "죽림",
+        "설산"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.4,
+        "agility": 1.1,
+        "inner": 1
+      },
+      "innate": "momentum",
+      "seconds": 163.12,
+      "lastWave": 17,
+      "incoming": 1061.56,
+      "outgoing": 14709.2,
+      "survivor": null
+    },
+    {
+      "seed": 104729,
+      "preferred": "huashan",
+      "route": [
+        "고묘",
+        "청하현",
+        "폐사",
+        "독무곡"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "focus",
+      "seconds": 263.68,
+      "lastWave": 20,
+      "incoming": 1069.3,
+      "outgoing": 22023,
+      "survivor": {
+        "hp": 227.3,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "shaolin",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 104729,
+      "preferred": "tang",
+      "route": [
+        "고묘",
+        "청하현",
+        "폐사",
+        "독무곡"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "focus",
+      "seconds": 201.07,
+      "lastWave": 20,
+      "incoming": 1152.87,
+      "outgoing": 22023,
+      "survivor": {
+        "hp": 144.33,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "tang",
+            "level": 5
+          },
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 3
+          },
+          {
+            "id": "samja",
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "seed": 104729,
+      "preferred": "tianmo",
+      "route": [
+        "고묘",
+        "청하현",
+        "폐사",
+        "독무곡"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "focus",
+      "seconds": 221.08,
+      "lastWave": 20,
+      "incoming": 1634.28,
+      "outgoing": 22023,
+      "survivor": {
+        "hp": 222.16,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 4
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "shaolin",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 104729,
+      "preferred": "jegal",
+      "route": [
+        "고묘",
+        "청하현",
+        "폐사",
+        "독무곡"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.6,
+        "agility": 1.1,
+        "inner": 1.2
+      },
+      "innate": "focus",
+      "seconds": 173.52,
+      "lastWave": 17,
+      "incoming": 957.8,
+      "outgoing": 15501,
+      "survivor": null
+    },
+    {
+      "seed": 999983,
+      "preferred": "huashan",
+      "route": [
+        "독무곡",
+        "서역사막",
+        "고묘",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.3,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 181.9,
+      "lastWave": 15,
+      "incoming": 944.4,
+      "outgoing": 11123.36,
+      "survivor": null
+    },
+    {
+      "seed": 999983,
+      "preferred": "tang",
+      "route": [
+        "독무곡",
+        "서역사막",
+        "고묘",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.3,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 163.8,
+      "lastWave": 17,
+      "incoming": 1101.2,
+      "outgoing": 14847.87,
+      "survivor": null
+    },
+    {
+      "seed": 999983,
+      "preferred": "tianmo",
+      "route": [
+        "독무곡",
+        "서역사막",
+        "고묘",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.3,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 234.22,
+      "lastWave": 20,
+      "incoming": 1832.88,
+      "outgoing": 22019,
+      "survivor": {
+        "hp": 271.69,
+        "maxHp": 328,
+        "level": 16,
+        "arts": [
+          {
+            "id": "huashan",
+            "level": 5
+          },
+          {
+            "id": "shaolin",
+            "level": 2
+          },
+          {
+            "id": "tianmo",
+            "level": 4
+          },
+          {
+            "id": "wudang",
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "seed": 999983,
+      "preferred": "jegal",
+      "route": [
+        "독무곡",
+        "서역사막",
+        "고묘",
+        "팔진고성"
+      ],
+      "growth": {
+        "constitution": 1.3,
+        "strength": 1.3,
+        "agility": 1.3,
+        "inner": 1.3
+      },
+      "innate": "counter",
+      "seconds": 131.37,
+      "lastWave": 13,
+      "incoming": 807.4,
+      "outgoing": 8543.43,
+      "survivor": null
+    }
+  ],
+  "raids": [
+    {
+      "preset": "sword",
+      "party": 1,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 212.55,
+      "hp": [
+        206
+      ],
+      "taken": [
+        172,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        10100,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "sword",
+      "party": 2,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 176.7,
+      "hp": [
+        174,
+        84
+      ],
+      "taken": [
+        211,
+        276,
+        0,
+        0
+      ],
+      "damage": [
+        8129.08,
+        8535.92,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "sword",
+      "party": 3,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 167.93,
+      "hp": [
+        172,
+        172,
+        136
+      ],
+      "taken": [
+        138,
+        180,
+        104,
+        0
+      ],
+      "damage": [
+        7636.08,
+        7762.69,
+        7831.24,
+        0
+      ]
+    },
+    {
+      "preset": "sword",
+      "party": 4,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 161.68,
+      "hp": [
+        160,
+        68,
+        143,
+        0
+      ],
+      "taken": [
+        155,
+        292,
+        172,
+        360
+      ],
+      "damage": [
+        7452.41,
+        7670.2,
+        7533.92,
+        7138.47
+      ]
+    },
+    {
+      "preset": "shadow",
+      "party": 1,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 1,
+      "seconds": 53.38,
+      "hp": [
+        0
+      ],
+      "taken": [
+        240,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        2582.69,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "shadow",
+      "party": 2,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 1,
+      "seconds": 68.75,
+      "hp": [
+        0,
+        0
+      ],
+      "taken": [
+        240,
+        240,
+        0,
+        0
+      ],
+      "damage": [
+        2654.36,
+        2717.2,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "shadow",
+      "party": 3,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 4,
+      "seconds": 178.77,
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "taken": [
+        369,
+        376,
+        387,
+        0
+      ],
+      "damage": [
+        5988.78,
+        7050.97,
+        6526.54,
+        0
+      ]
+    },
+    {
+      "preset": "shadow",
+      "party": 4,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 3,
+      "seconds": 147.18,
+      "hp": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "taken": [
+        390,
+        379,
+        383,
+        315
+      ],
+      "damage": [
+        5369.67,
+        5375.29,
+        5230.24,
+        5687.56
+      ]
+    },
+    {
+      "preset": "monk",
+      "party": 1,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 4,
+      "seconds": 230.27,
+      "hp": [
+        0
+      ],
+      "taken": [
+        376.76,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        9493.84,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "monk",
+      "party": 2,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 3,
+      "seconds": 143.33,
+      "hp": [
+        0,
+        0
+      ],
+      "taken": [
+        362.06,
+        382.8,
+        0,
+        0
+      ],
+      "damage": [
+        5701.87,
+        5103.11,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "monk",
+      "party": 3,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 3,
+      "seconds": 155.52,
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "taken": [
+        369.34,
+        390,
+        360.38,
+        0
+      ],
+      "damage": [
+        5166.15,
+        5450.79,
+        6166.58,
+        0
+      ]
+    },
+    {
+      "preset": "monk",
+      "party": 4,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 4,
+      "seconds": 161.67,
+      "hp": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "taken": [
+        390,
+        382.8,
+        384.81,
+        359.61
+      ],
+      "damage": [
+        6110.89,
+        5669.69,
+        6315.16,
+        5888.03
+      ]
+    },
+    {
+      "preset": "mystic",
+      "party": 1,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 4,
+      "seconds": 236.87,
+      "hp": [
+        0
+      ],
+      "taken": [
+        390,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        9393.1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "mystic",
+      "party": 2,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 221.57,
+      "hp": [
+        67,
+        0
+      ],
+      "taken": [
+        293,
+        390,
+        0,
+        0
+      ],
+      "damage": [
+        8932.32,
+        6107.68,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "mystic",
+      "party": 3,
+      "personal": false,
+      "policy": "reactive",
+      "result": "wipe",
+      "cleared": 4,
+      "seconds": 197.8,
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "taken": [
+        390,
+        390,
+        378,
+        0
+      ],
+      "damage": [
+        7555.95,
+        5719.71,
+        7425.06,
+        0
+      ]
+    },
+    {
+      "preset": "mystic",
+      "party": 4,
+      "personal": false,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 188.35,
+      "hp": [
+        79,
+        119,
+        38,
+        67
+      ],
+      "taken": [
+        311,
+        241,
+        345,
+        285
+      ],
+      "damage": [
+        7555.2,
+        7361.25,
+        7532.15,
+        7346.41
+      ]
+    },
+    {
+      "preset": "natural",
+      "party": 1,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 91.22,
+      "hp": [
+        222.3
+      ],
+      "taken": [
+        218.7,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        10100,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "natural",
+      "party": 2,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 64.47,
+      "hp": [
+        311.22,
+        131.5
+      ],
+      "taken": [
+        142.14,
+        179.4,
+        0,
+        0
+      ],
+      "damage": [
+        6715.86,
+        9949.14,
+        0,
+        0
+      ]
+    },
+    {
+      "preset": "natural",
+      "party": 3,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 65.1,
+      "hp": [
+        301.83,
+        194.3,
+        269.88
+      ],
+      "taken": [
+        68.76,
+        116.6,
+        50.26,
+        0
+      ],
+      "damage": [
+        6182.21,
+        9256.22,
+        7791.57,
+        0
+      ]
+    },
+    {
+      "preset": "natural",
+      "party": 4,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 62.48,
+      "hp": [
+        279.03,
+        226.2,
+        269.88,
+        344
+      ],
+      "taken": [
+        91.56,
+        84.7,
+        50.26,
+        31
+      ],
+      "damage": [
+        6000.2,
+        9402.03,
+        8303.68,
+        6089.08
+      ]
+    }
+  ],
+  "persistent": [
+    {
+      "party": 1,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 88.52,
+      "hp": [
+        273.1
+      ],
+      "taken": [
+        207.06,
+        0,
+        0,
+        0
+      ],
+      "damage": [
+        10100,
+        0,
+        0,
+        0
+      ],
+      "startingSilver": 393,
+      "finalSilver": 493,
+      "startingXp": 875,
+      "finalLivingXp": 1170,
+      "deaths": [
+        0
+      ],
+      "unlocked": true
+    },
+    {
+      "party": 2,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 65.25,
+      "hp": [
+        353.22,
+        310
+      ],
+      "taken": [
+        142.14,
+        30.9,
+        0,
+        0
+      ],
+      "damage": [
+        6976,
+        9689,
+        0,
+        0
+      ],
+      "startingSilver": 771,
+      "finalSilver": 971,
+      "startingXp": 1828,
+      "finalLivingXp": 2425,
+      "deaths": [
+        0,
+        0
+      ],
+      "unlocked": true
+    },
+    {
+      "party": 3,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 62.38,
+      "hp": [
+        345.83,
+        228.3,
+        277.28
+      ],
+      "taken": [
+        68.76,
+        116.6,
+        72.86,
+        0
+      ],
+      "damage": [
+        6205.65,
+        9313.23,
+        7711.12,
+        0
+      ],
+      "startingSilver": 1164,
+      "finalSilver": 1464,
+      "startingXp": 2781,
+      "finalLivingXp": 3673,
+      "deaths": [
+        0,
+        0,
+        0
+      ],
+      "unlocked": true
+    },
+    {
+      "party": 4,
+      "personal": true,
+      "policy": "reactive",
+      "result": "complete",
+      "cleared": 5,
+      "seconds": 61.77,
+      "hp": [
+        316.03,
+        256.2,
+        277.28,
+        414
+      ],
+      "taken": [
+        100.56,
+        84.7,
+        72.86,
+        0
+      ],
+      "damage": [
+        6147.58,
+        9483.8,
+        8055.82,
+        6107.8
+      ],
+      "startingSilver": 1538,
+      "finalSilver": 1938,
+      "startingXp": 3682,
+      "finalLivingXp": 4869,
+      "deaths": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlocked": true
+    }
+  ]
+}

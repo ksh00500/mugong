@@ -32,9 +32,10 @@ import { heroSlashGrip } from '../game/hero-slash';
 import { directionIndex, sampleRig } from '../game/directional-motion';
 import { activeWeapon } from '../domain/inventory';
 import { ITEM_ARTWORK } from '../platform/item-art';
+import { ensureHeldWeaponTexture } from '../game/held-weapon-textures';
 import type { PresetId, Seat } from './model';
 import type { BoundFighter } from '../domain/model';
-class Arena extends Phaser.Scene {
+export class Arena extends Phaser.Scene {
   private frames = new Map<string, Map<string, MotionFrame>>();
   private actors: Phaser.GameObjects.Image[] = [];
   private weapons: HeldWeapon[] = [];
@@ -219,6 +220,7 @@ class Arena extends Phaser.Scene {
       .setData('motionReduced', this.reduced);
     if (striking && placement.row >= 0)
       body.setData('heldHand', heroSlashGrip(appearance, placement.row, placement.view));
+    ensureHeldWeaponTexture(this, activeWeapon(f));
     this.weapons[seat].draw(f, body, 0, dir, sampleRig('idle', 0, 0, 0, true), f.hp <= 0);
     this.labels[seat]
       .setText(f.name)
@@ -259,7 +261,7 @@ class Arena extends Phaser.Scene {
         pvpFighter(p.preset, seat === 1 ? 1 : 0, p.name);
       const position =
         seat === v.seat && m?.phase === 'fighting' && v.connected
-          ? this.controls.position(f, m.tick, p.ack)
+          ? this.controls.position(f, m.tick, p.ack, !!m.players[seat].personal)
           : { x: f.x, y: f.y };
       this.actor(f, seat, position.x, position.y);
       if (m && m.players[seat].hurt > 0) this.actors[seat].setTint(0xffb2a0);

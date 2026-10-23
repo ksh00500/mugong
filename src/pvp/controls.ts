@@ -18,6 +18,8 @@ export interface ControlClient {
 import { neutralInput, type PvpInput } from './model';
 import { PVP_RULES as R } from './rules';
 import type { BoundFighter } from '../domain/model';
+import { fighterMoveSpeed } from '../domain/fighter-combat-values';
+import { supportStats } from '../domain/support';
 export class PvpControls {
   readonly input = neutralInput();
   private keys = new Set<string>();
@@ -110,14 +112,16 @@ export class PvpControls {
     this.flush();
   }
   /** Predict only movement; HP, contacts, defenses and results stay authoritative. */
-  position(f: BoundFighter, tick: number, ack: number) {
+  position(f: BoundFighter, tick: number, ack: number, personal = false) {
     const now = performance.now(),
       key = this.epochKey,
       p = this.prediction;
     const integrate = (input: PvpInput, dt: number) => {
       if (!input.dx && !input.dy) return;
       const n = Math.hypot(input.dx, input.dy),
-        speed = R.speed * (f.action === 'attack' ? 0.6 : 1);
+        speed =
+          (personal ? fighterMoveSpeed(f) : R.speed) *
+          (f.action === 'attack' ? (personal ? supportStats(f).attackMovementFactor : 0.6) : 1);
       if (f.actionTime > 0 && f.action !== 'attack') return;
       p.x += (input.dx / n) * speed * dt;
       p.y += (input.dy / n) * speed * dt;

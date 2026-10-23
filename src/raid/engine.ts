@@ -119,6 +119,7 @@ export function nextRaidFloor(m: RaidState) {
   b.fighter.guard = 0;
   b.fighter.invulnerable = 0;
   b.poison = b.poisonClock = 0;
+  b.ownedPoison = undefined;
   Object.assign(b.fighter, { kind: 'chief' });
   m.boss = {
     pattern: spec.patterns[0],
@@ -134,12 +135,14 @@ export function nextRaidFloor(m: RaidState) {
     nextCharge: 0,
   };
   for (const a of alive(m)) {
+    if (a.personal) a.fighter.traitState = {};
     a.fighter.x = 300 + (a.seat % 2) * 120;
     a.fighter.y = 310 + Math.floor(a.seat / 2) * 160;
     a.fighter.cooldown = 0;
     a.fighter.guard = a.fighter.invulnerable = 0;
     a.fighter.fortify = 0;
     a.poison = a.poisonClock = a.buff = 0;
+    a.ownedPoison = undefined;
     for (const art of a.fighter.arts) art.defenseCd = 0;
     a.fighter.action = 'idle';
     a.fighter.actionTime = 0;

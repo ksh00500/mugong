@@ -37,6 +37,8 @@ export interface CombatActor {
   poison: number;
   poisonClock: number;
   poisonSource?: number;
+  /** Personal-raid poison follows the owned technique's 0.5s pulse and 3/5-stack cap. */
+  ownedPoison?: { damage: number; level: number; pulse: number };
   buff: number;
   hurt: number;
 }
@@ -60,6 +62,8 @@ export interface PvpAttack {
   radius: number;
   heal: number;
   poison: boolean;
+  /** Owned-fighter basic sequence; absent in old durable attacks and standard PvP. */
+  basicSequence?: number;
 }
 export interface PvpEffect {
   id: number;
