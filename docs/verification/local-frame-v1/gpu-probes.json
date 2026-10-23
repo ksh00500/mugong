@@ -1,0 +1,97 @@
+{
+  "method": "Alternating before/after, three approximately 3-second runs each; 1440x900; wave18/13 active enemies. Headless SwiftShader WebGL forced by masking WEBGL_debug_renderer_info. Old mount options reconstructed with a Playwright response route; same interpolation in both arms. Not native GPU results.",
+  "before": [
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 130,
+      "seconds": 3.4544000000059603,
+      "positionChanges": 124,
+      "changeRatio": 0.9612403100775194,
+      "updateP95": 2,
+      "frameIntervalP95": 30.799999997019768,
+      "errors": [],
+      "fps": 37.3436776284673
+    },
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 119,
+      "seconds": 3.3892999999970197,
+      "positionChanges": 113,
+      "changeRatio": 0.9576271186440678,
+      "updateP95": 2.300000011920929,
+      "frameIntervalP95": 34.1000000089407,
+      "errors": [],
+      "fps": 34.815448617739285
+    },
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 125,
+      "seconds": 3.2622000000029803,
+      "positionChanges": 119,
+      "changeRatio": 0.9596774193548387,
+      "updateP95": 2.2000000029802322,
+      "frameIntervalP95": 30.100000008940697,
+      "errors": [],
+      "fps": 38.011158114121365
+    }
+  ],
+  "after": [
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 167,
+      "seconds": 3.3229000000059603,
+      "positionChanges": 133,
+      "changeRatio": 0.8012048192771084,
+      "updateP95": 2.4000000059604645,
+      "frameIntervalP95": 23.700000002980232,
+      "errors": [],
+      "fps": 49.95636341740716
+    },
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 175,
+      "seconds": 3.2160999999940394,
+      "positionChanges": 141,
+      "changeRatio": 0.8103448275862069,
+      "updateP95": 2.4000000059604645,
+      "frameIntervalP95": 22.399999991059303,
+      "errors": [],
+      "fps": 54.10279531119134
+    },
+    {
+      "online": false,
+      "renderer": "WebGL / AUTO",
+      "graphics": "WebGL unavailable",
+      "frames": 172,
+      "seconds": 3.20970000000298,
+      "positionChanges": 138,
+      "changeRatio": 0.8070175438596491,
+      "updateP95": 2.5,
+      "frameIntervalP95": 22.30000001192093,
+      "errors": [],
+      "fps": 53.27600710341815
+    }
+  ],
+  "medians": {
+    "before": {
+      "fps": 37.3436776284673,
+      "frameIntervalP95": 30.799999997019768,
+      "updateP95": 2.2000000029802322
+    },
+    "after": {
+      "fps": 53.27600710341815,
+      "frameIntervalP95": 22.399999991059303,
+      "updateP95": 2.4000000059604645
+    }
+  }
+}

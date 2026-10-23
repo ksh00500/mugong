@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-23",
+  "baseCommit": "e0b2420364362d8edf4eab0e807d478c7d5bdadf",
+  "scope": "local single-player field drawing only",
+  "unit": {
+    "files": 100,
+    "passed": 1579,
+    "failed": 0,
+    "success": true,
+    "followup": "Same runtime; six presentation tests rerun after strengthening clone/new entity/wave assertions, all passed."
+  },
+  "browser": {
+    "source": {
+      "startTime": "2026-10-23T07:42:28.261Z",
+      "duration": 32733.295,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "compiled": {
+      "startTime": "2026-10-23T07:42:40.509Z",
+      "duration": 23509.011,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "build": {
+    "typecheck": true,
+    "assetFiles": 1069,
+    "literalReferences": 803,
+    "missing": 0,
+    "lfs": 0,
+    "viteModules": 254,
+    "output": "dist-local-frame-v1",
+    "localOnlyMediaJunctions": true,
+    "backendChanged": false
+  },
+  "gpuMedians": {
+    "before": {
+      "fps": 37.3436776284673,
+      "frameIntervalP95": 30.799999997019768,
+      "updateP95": 2.2000000029802322
+    },
+    "after": {
+      "fps": 53.27600710341815,
+      "frameIntervalP95": 22.399999991059303,
+      "updateP95": 2.4000000059604645
+    }
+  },
+  "refreshMethod": "Controlled Scene.update schedule, not a native monitor FPS measurement. Startup history fill excluded in regression assertions; all warmed frames advance. Before/after raw elapsed origins differ due to warmup and must not be compared as a determinism claim. Unit tests compare equal fixed tick counts against a control.",
+  "graphics1093": {
+    "width": 1088,
+    "height": 612,
+    "attributes": {
+      "alpha": false,
+      "antialias": false,
+      "depth": true,
+      "desynchronized": false,
+      "failIfMajorPerformanceCaveat": false,
+      "powerPreference": "high-performance",
+      "premultipliedAlpha": true,
+      "preserveDrawingBuffer": false,
+      "stencil": true,
+      "xrCompatible": false
+    }
+  },
+  "failures": "Initial source smoke 3 failed because test exact accessible name used 가방 instead of 가방 Tab. Test locator corrected; latest full source 5/compiled 3 passed, including attackSeq persistence. Initial probe hook and 144Hz boundary assertion errors were corrected before valid measurement; earlier failures not counted as passes.",
+  "visualReview": [
+    "compiled1093 HUD and actors",
+    "1440 dense wave18 WebGL screenshot"
+  ],
+  "limits": [
+    "Exact continuous 10–20 FPS on user native GPU not reproduced. Ordinary Canvas scene was approximately60FPS.",
+    "Software WebGL benchmark is short and synthetic; no universal or native hardware performance guarantee.",
+    "No online10Hz interpolation, Docker or public deployment changes or tests.",
+    "No edits to actual user IndexedDB, SQLite, original media or historical builds."
+  ]
+}
