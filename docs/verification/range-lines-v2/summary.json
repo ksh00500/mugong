@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-24",
+  "baseCommit": "792a68fb86afe4d36b089dc94b9bf1fc67179c3f",
+  "unit": {
+    "files": 4,
+    "passed": 19,
+    "failed": 0,
+    "bossActions": 185
+  },
+  "source": {
+    "startTime": "2026-10-23T15:05:41.328Z",
+    "duration": 27594.422000000002,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "compiled": {
+    "startTime": "2026-10-23T15:06:20.350Z",
+    "duration": 23885.834000000003,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "typecheck": true,
+  "viteModules": 254,
+  "build": "dist-range-lines-v2",
+  "localOnlyMediaJunctions": true,
+  "gameplayAndSavedStateChanged": false,
+  "priorFailures": "Mock canvas missing, wrong pose information key, fixture typing and Vite CLI option; corrected and rerun. No previous tests relabelled as this run."
+}

@@ -229,7 +229,7 @@ for (const locale of ['ko', 'en', 'ja', 'zh-CN', 'zh-TW'])
   });
 
 for (const webgl of [false, true])
-  test(`crowded warnings, shot cues and safe field ${webgl ? 'WebGL' : 'Canvas'}`, async ({
+  test(`crowded effects and shot direction cues without range lines ${webgl ? 'WebGL' : 'Canvas'}`, async ({
     page,
   }) => {
     test.skip(mode !== 'source', 'Source-only render observation');
@@ -301,18 +301,16 @@ for (const webgl of [false, true])
       const dimmed = s.paintedEffects.pool.filter((p: any) => p.visible).map((p: any) => p.alpha);
       return {
         renderer: s.game.renderer.type,
-        warningDepth: s.clarity.ink.depth,
+        rangeLayerRemoved: s.clarity.ink === undefined,
         edgeDepth: s.clarity.edges.depth,
         hpDepth: s.graphics.depth,
-        warningCommands: s.clarity.ink.commandBuffer.length,
         edgeCommands: s.clarity.edges.commandBuffer.length,
         dimmed,
       };
     });
     expect(result.renderer).toBe(webgl ? 2 : 1);
-    expect(result.warningDepth).toBeGreaterThan(5003);
-    expect(result.hpDepth).toBeGreaterThan(result.warningDepth);
-    expect(result.warningCommands).toBeGreaterThan(0);
+    expect(result.rangeLayerRemoved).toBe(true);
+    expect(result.hpDepth).toBeGreaterThan(result.edgeDepth);
     expect(result.edgeCommands).toBeGreaterThan(0);
     expect(result.dimmed).toHaveLength(10);
     expect(result.dimmed.every((a: number) => a <= 0.55)).toBe(true);

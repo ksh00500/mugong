@@ -290,12 +290,12 @@ test('네 종류 경고·실제 상태 전환 효과·가방 복귀', async ({ p
     s.animationTime += 0.14;
     s.draw(r);
     return {
-      phase: s.bossReadability.phases.get(e.id).phase,
-      age: s.animationTime - s.bossReadability.phases.get(e.id).at,
+      phase: s.actors.get(String(e.id)).getData('combatPhase'),
+      rangeLayerRemoved: s.bossReadability.ground === undefined,
     };
   });
   expect(phase.phase).toBe('enraged');
-  expect(phase.age).toBeCloseTo(0.14);
+  expect(phase.rangeLayerRemoved).toBe(true);
   await expect(page.locator('.boss-panel')).toHaveAttribute('data-boss-phase', 'enraged');
   await page.screenshot({ path: `${proof}/phase-enraged.png` });
   await page.keyboard.press('Tab');
