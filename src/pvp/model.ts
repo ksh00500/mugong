@@ -1,4 +1,4 @@
-import type { ArtId, BoundFighter } from '../domain/model';
+import type { ArtId, BoundFighter, Formation } from '../domain/model';
 export type Seat = 0 | 1;
 export type PvpMode = 'friendly' | 'ranked';
 export type PresetId = 'sword' | 'monk' | 'shadow' | 'mystic';
@@ -39,6 +39,9 @@ export interface CombatActor {
   poisonSource?: number;
   /** Personal-raid poison follows the owned technique's 0.5s pulse and 3/5-stack cap. */
   ownedPoison?: { damage: number; level: number; pulse: number };
+  /** Bounded, expiring per-caster volley history survives interleaved darts/reconnects. */
+  ownedPoisonVolleys?: { source: number; sequence: number; hits: number; life: number }[];
+  ownedFormations?: Formation[];
   buff: number;
   hurt: number;
 }
@@ -64,10 +67,13 @@ export interface PvpAttack {
   poison: boolean;
   /** Owned-fighter basic sequence; absent in old durable attacks and standard PvP. */
   basicSequence?: number;
+  ownedTechnique?: { variant: 'a' | 'b'; level: number };
+  /** Release from the current hand origin after preparation, keeping the accepted aim. */
+  releaseFromOwner?: boolean;
 }
 export interface PvpEffect {
   id: number;
-  kind: 'hit' | 'guard' | 'evade' | 'ultimate';
+  kind: 'hit' | 'guard' | 'evade' | 'ultimate' | 'poison-burst';
   seat: number;
   x: number;
   y: number;

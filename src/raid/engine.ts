@@ -24,6 +24,7 @@ export function expirePersonalRaid(m: RaidState, now: number) {
     ) {
       m.status[i] = 'expired';
       a.inactive = true;
+      a.ownedFormations = undefined;
       changed = true;
       m.attacks = m.attacks.filter((at) => at.owner !== i);
     }
@@ -109,6 +110,10 @@ export function nextRaidFloor(m: RaidState) {
   m.epoch++;
   m.attacks = [];
   m.effects = [];
+  for (const a of m.players) {
+    a.ownedFormations = undefined;
+    a.ownedPoisonVolleys = undefined;
+  }
   const b = m.players[4],
     spec = RAID_FLOORS[m.floor - 1];
   b.fighter.hp = b.maxHp = Math.round(spec.hp * raidScale(m.scaledFor));
@@ -295,12 +300,14 @@ export function finishRaid(m: RaidState, result: NonNullable<RaidState['result']
   m.phase = 'finished';
   m.result = result;
   m.attacks = [];
+  for (const a of m.players) a.ownedFormations = undefined;
   m.epoch++;
 }
 export function returnRaidPlayer(m: RaidState, seat: number) {
   if (m.phase !== 'rest' || m.status[seat] !== 'active') return false;
   m.status[seat] = 'returned';
   m.players[seat].inactive = true;
+  m.players[seat].ownedFormations = undefined;
   if (!alive(m).length) finishRaid(m, 'retreat');
   return true;
 }

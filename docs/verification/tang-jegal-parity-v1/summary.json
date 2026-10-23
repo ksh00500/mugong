@@ -1,0 +1,87 @@
+{
+  "runDate": "2026-10-24",
+  "baselineEngineCommit": "7c590c0167c85a843b3ed136d0c70ec213a10e10",
+  "baselineScope": "Only previous PvP/raid engines injected into current probe, not full historical checkout",
+  "checks": {
+    "unitFiles": 104,
+    "unitTests": 1613,
+    "unitFailed": 0,
+    "afterMultiTargetFixture": "20 focused tests rechecked",
+    "sourceBrowser": 3,
+    "realTechniqueHttpWs": 2,
+    "compiledNormalHttpWs": 3,
+    "browserUnexpected": 0,
+    "types": true,
+    "runtimeFiles": 1069,
+    "literalRefs": 803,
+    "missing": 0,
+    "lfsPointers": 0,
+    "clientModules": 258,
+    "nodeServerBuilt": true
+  },
+  "journeys": {
+    "count": 48,
+    "graduates": 14,
+    "exactRawResultsEqual": true
+  },
+  "standardRaids": {
+    "count": 16,
+    "exactRawResultsEqual": true
+  },
+  "personalRaids": [
+    {
+      "party": 1,
+      "result": "complete",
+      "cleared": 5,
+      "secondsBefore": 88.52,
+      "secondsAfter": 68.03,
+      "partyTakenBefore": 207.06,
+      "partyTakenAfter": 135.96,
+      "unlocked": true,
+      "silverDelta": 100
+    },
+    {
+      "party": 2,
+      "result": "complete",
+      "cleared": 5,
+      "secondsBefore": 65.25,
+      "secondsAfter": 64.27,
+      "partyTakenBefore": 173.04,
+      "partyTakenAfter": 194.7,
+      "unlocked": true,
+      "silverDelta": 200
+    },
+    {
+      "party": 3,
+      "result": "complete",
+      "cleared": 5,
+      "secondsBefore": 62.38,
+      "secondsAfter": 59.57,
+      "partyTakenBefore": 258.22,
+      "partyTakenAfter": 267.52,
+      "unlocked": true,
+      "silverDelta": 300
+    },
+    {
+      "party": 4,
+      "result": "complete",
+      "cleared": 5,
+      "secondsBefore": 61.77,
+      "secondsAfter": 58.8,
+      "partyTakenBefore": 258.12,
+      "partyTakenAfter": 236.52,
+      "unlocked": true,
+      "silverDelta": 400
+    }
+  ],
+  "boundaries": [
+    "Owned fighters only; standard PvP/trial numerics unchanged",
+    "No new attack range previews; existing online boss previews are outside this change",
+    "Other six arts, future trash-mob poison transfer, human balance and real GPU remain follow-ups",
+    "Local-only media junction output; Docker/home Linux/Cloudflare not exercised"
+  ],
+  "failuresResolved": [
+    "Distant-ultimate fixture used standard poison clock; explicitly initialized owned poison clock",
+    "First visual capture found fields behind background; corrected depth and reran all three render cases"
+  ]
+}
