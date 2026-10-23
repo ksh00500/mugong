@@ -60,6 +60,8 @@ export interface RaidState extends CombatWorld {
     aim: number;
     chargeLeft: number;
     nextCharge: number;
+    /** Time spent outside combat distance; absent in older durable snapshots. */
+    pursuitTime?: number;
   };
 }
 export interface RaidReceipt {

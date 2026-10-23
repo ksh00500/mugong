@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-23",
+  "feature": "online-balance-v1",
+  "beforeCommit": "b25cdd0ec9feed0715fbae75a48ae8a4cb53fbc7",
+  "baselineMethod": "The same current probe uses that commit’s raid and pvp engine source via esbuild onLoad; not a complete historical checkout.",
+  "unit": {
+    "files": 99,
+    "passed": 1573,
+    "failed": 0
+  },
+  "compiledBrowser": {
+    "startTime": "2026-10-23T06:47:15.728Z",
+    "duration": 46475.971000000005,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "normalBrowser": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "maxBossHp": 1600,
+      "damage": 37.25904,
+      "taken": 50.3875968992248,
+      "chargeWarnings": 19,
+      "pageErrors": 0
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "maxBossHp": 1600,
+      "damage": 58.127250000000004,
+      "taken": 32.977691561590696,
+      "chargeWarnings": 18,
+      "pageErrors": 0
+    },
+    {
+      "viewport": {
+        "width": 1093,
+        "height": 614
+      },
+      "maxBossHp": 1600,
+      "damage": 41.23392000000001,
+      "taken": 32.88201160541586,
+      "chargeWarnings": 19,
+      "pageErrors": 0
+    }
+  ],
+  "journeyObservation": {
+    "runs": 48,
+    "graduates": 14,
+    "firstBossDeaths": 13,
+    "sameBeforeAfter": true
+  },
+  "persistentParties": [
+    {
+      "party": 1,
+      "result": "complete",
+      "cleared": 5,
+      "beforeSeconds": 130.27,
+      "afterSeconds": 128.68,
+      "beforeTaken": [
+        396.22,
+        0,
+        0,
+        0
+      ],
+      "afterTaken": [
+        436.63,
+        0,
+        0,
+        0
+      ],
+      "netSilver": 100,
+      "netLivingXp": 295,
+      "unlocked": true
+    },
+    {
+      "party": 2,
+      "result": "complete",
+      "cleared": 5,
+      "beforeSeconds": 96.78,
+      "afterSeconds": 94.03,
+      "beforeTaken": [
+        203.59,
+        150.34,
+        0,
+        0
+      ],
+      "afterTaken": [
+        293.51,
+        225.99,
+        0,
+        0
+      ],
+      "netSilver": 200,
+      "netLivingXp": 597,
+      "unlocked": true
+    },
+    {
+      "party": 3,
+      "result": "complete",
+      "cleared": 5,
+      "beforeSeconds": 92.17,
+      "afterSeconds": 91.57,
+      "beforeTaken": [
+        240.02,
+        152.28,
+        212.96,
+        0
+      ],
+      "afterTaken": [
+        139.15,
+        151.31,
+        96.42,
+        0
+      ],
+      "netSilver": 300,
+      "netLivingXp": 892,
+      "unlocked": true
+    },
+    {
+      "party": 4,
+      "result": "complete",
+      "cleared": 5,
+      "beforeSeconds": 91.62,
+      "afterSeconds": 93.12,
+      "beforeTaken": [
+        215.99,
+        0,
+        188.97,
+        50.96
+      ],
+      "afterTaken": [
+        97.97,
+        99.9,
+        72.73,
+        100.96
+      ],
+      "netSilver": 400,
+      "netLivingXp": 1187,
+      "unlocked": true
+    }
+  ],
+  "build": {
+    "typecheck": true,
+    "runtimeFiles": 1069,
+    "literalReferences": 803,
+    "missingFiles": 0,
+    "lfsPointers": 0,
+    "viteModules": 253,
+    "nodeBundle": true,
+    "localOnlyJunctions": true
+  },
+  "live": {
+    "base": "http://127.0.0.1:5205",
+    "build": "dist-online-balance-v1",
+    "paths": 21,
+    "layouts": 3,
+    "health": {
+      "ok": true,
+      "rules": 1
+    },
+    "realAccountRegistration": false,
+    "databaseSchema": 3,
+    "backupQuickCheck": "ok"
+  },
+  "sourceHashes": {
+    "src/raid/engine.ts": "f516b5d13224558d49f811db8816ee51a2063c1160e0bc3c4c6dcf0666db1af2",
+    "src/raid/balance.ts": "b39807d1fa9ae494ea2d12f4ce1da8dfa28dd205b6bef54055cc5e8ab19fe359",
+    "src/raid/model.ts": "d313c89386b61341f91e58700e559b37438ce706a484ef579edadc5ce4b7612d",
+    "src/pvp/engine.ts": "884464ef1cf8ce16edb6805d8adf5a58ba5992206597e5ea9752c143c6f3490e",
+    "dist-server/pvp.mjs": "0c1656755cd5e35162c4d3f9661d636fc356bafef37c33e116ca862ae43c6fd9"
+  },
+  "visualReview": [
+    ".local-preview/balance-browser/normal-warning-1093.png",
+    ".local-preview/balance-browser/normal-contact-1440.png"
+  ],
+  "limitations": [
+    "Reactive bots read positions and windup clocks; no human win rate or exhaustive effect/balance claim.",
+    "48 deterministic candidates cover four preference orders, and the owned 1–4-player samples use the first surviving graduates; not all parties/regions/builds.",
+    "Engine-only personal samples omit rewards; persistent samples use real memory-DB transactions and floor rewards.",
+    "Browser uses prepared natural graduate copies with normal first-boss HP1600; it does not play twenty waves or all five floors in a browser.",
+    "Docker/container, public Linux/Cloudflare, real latency/loss/load, all-art/equipment/trait parity and long-term economy remain separate."
+  ]
+}

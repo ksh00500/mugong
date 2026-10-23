@@ -5,6 +5,7 @@ import { RAID_FLOORS, type RaidState, type RaidPattern } from './model';
 import type { BoundFighter } from '../domain/model';
 import { maximumHp } from '../domain/content';
 import { useItem } from '../domain/inventory';
+import { RAID_PRESSURE } from './balance';
 const dt = 1 / 60,
   clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
 const alive = (m: RaidState) =>
@@ -167,7 +168,7 @@ function spawn(m: RaidState, opts: Partial<PvpAttack>) {
     ...opts,
   });
 }
-function windup(m: RaidState) {
+function windup(m: RaidState, pursuitCharge = false) {
   const b = m.boss,
     f = m.players[4].fighter,
     targets = alive(m).sort((a, c) => a.seat - c.seat);
@@ -175,12 +176,15 @@ function windup(m: RaidState) {
   const t = targets[b.cycle % targets.length];
   b.target = t.seat;
   const spec = RAID_FLOORS[m.floor - 1];
-  b.pattern = spec.patterns[b.cycle % spec.patterns.length] as RaidPattern;
+  b.pattern = pursuitCharge
+    ? 'charge'
+    : (spec.patterns[b.cycle % spec.patterns.length] as RaidPattern);
   b.cycle++;
+  b.pursuitTime = 0;
   b.aim = Math.atan2(t.fighter.y - f.y, t.fighter.x - f.x);
   f.facing = b.aim;
   b.phase = 'windup';
-  b.clock = b.duration = 1.05;
+  b.clock = b.duration = RAID_PRESSURE.windup;
   b.x = f.x;
   b.y = f.y;
   f.action = 'attack';
@@ -237,11 +241,24 @@ function bossStep(m: RaidState) {
       d = Math.hypot(f.x - t.fighter.x, f.y - t.fighter.y);
     f.facing = angle;
     f.action = d > 145 ? 'walk' : 'idle';
+    const pursuit = d > RAID_PRESSURE.pursuitDistance;
+    b.pursuitTime = pursuit ? (b.pursuitTime ?? 0) + dt : 0;
     if (d > 145) {
-      f.x = clamp(f.x + Math.cos(angle) * 145 * dt, R.left, R.right);
-      f.y = clamp(f.y + Math.sin(angle) * 145 * dt, R.top, R.bottom);
+      const speed = pursuit ? RAID_PRESSURE.pursuitSpeed : RAID_PRESSURE.combatSpeed;
+      f.x = clamp(f.x + Math.cos(angle) * speed * dt, R.left, R.right);
+      f.y = clamp(f.y + Math.sin(angle) * speed * dt, R.top, R.bottom);
     }
-    if (b.clock <= 0) windup(m);
+    if (b.clock <= 0) {
+      const patterns = RAID_FLOORS[m.floor - 1].patterns,
+        next = patterns[b.cycle % patterns.length];
+      // Do not spend a melee turn swinging into empty space. A distant runner
+      // gets the same locked, fully telegraphed charge as a normal charge turn.
+      const reach =
+        next === 'guard' ? 155 : next === 'cleave' ? 210 : next === 'charge' ? 320 : 650;
+      if (d <= reach) windup(m);
+      else if (d > RAID_PRESSURE.chargeDistance && b.pursuitTime >= RAID_PRESSURE.chargeAfter)
+        windup(m, true);
+    }
   } else if (b.phase === 'windup' && b.clock <= 0) {
     b.phase = 'strike';
     b.clock = b.duration = b.pattern === 'charge' ? 0.6 : 0.28;
@@ -261,7 +278,7 @@ function bossStep(m: RaidState) {
     }
     if (b.clock <= 0) {
       b.phase = 'recover';
-      b.clock = b.duration = 1.1;
+      b.clock = b.duration = RAID_PRESSURE.recover;
       f.action = 'idle';
       f.actionTime = 0;
     }

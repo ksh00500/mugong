@@ -125,7 +125,7 @@ function spawn(
 function defend(m: CombatWorld, a: CombatActor, input: PvpInput) {
   const f = a.fighter,
     art = f.arts[f.active];
-  if (art.defenseCd > 0) return;
+  if (art.defenseCd > 0 || (a.personal && !hasWeapon(f, art.id))) return;
   art.defenseCd = techniqueStats(art.id, art.level, f).defenseCooldown;
   f.action = 'defense';
   f.actionTime = 0.3;
@@ -149,6 +149,8 @@ function ultimate(m: CombatWorld, a: CombatActor) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (
+    (a.personal &&
+      (!hasWeapon(f, art.id) || art.level < techniqueStats(art.id, art.level, f).ultimateLevel)) ||
     art.gauge < 100 ||
     (f.cooldown > 0 && art.id !== 'huashan') ||
     (art.id === 'gaebang' && (art.queuedBoosts ?? 0) >= 2)
@@ -205,7 +207,7 @@ function attack(m: CombatWorld, a: CombatActor) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (f.cooldown > 0) return;
-  if (a.personal && !hasWeapon(f)) return;
+  if (a.personal && !hasWeapon(f, art.id)) return;
   const stats = techniqueStats(art.id, art.level, f),
     boosted = art.id === 'gaebang' && (art.queuedBoosts ?? 0) > 0;
   if (boosted) art.queuedBoosts!--;
