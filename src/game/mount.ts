@@ -16,7 +16,7 @@ export function mountGame(
   onRegionProgress?: (progress: ImageProgress | null) => void,
 ) {
   const probe = document.createElement('canvas');
-  const gl = probe.getContext('webgl2');
+  const gl = probe.getContext('webgl2', { powerPreference: 'high-performance' });
   const extension = gl?.getExtension('WEBGL_debug_renderer_info');
   const renderer = extension ? String(gl?.getParameter(extension.UNMASKED_RENDERER_WEBGL)) : '';
   const software = !gl || /SwiftShader|llvmpipe|software/i.test(renderer);
@@ -31,12 +31,19 @@ export function mountGame(
     parent,
     width,
     height: (width / W) * H,
-    transparent: !software,
+    // The battlefield background covers the whole canvas. An alpha backbuffer
+    // and multisampling only add compositor/GPU work; texture filtering stays on.
+    transparent: false,
     backgroundColor: '#354b3d',
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
     scene: [new CombatScene(images, onReady, () => lost('images'), onRegionProgress)],
     audio: { noAudio: true },
-    render: { antialias: true, pixelArt: false },
+    render: {
+      antialias: true,
+      antialiasGL: false,
+      pixelArt: false,
+      powerPreference: 'high-performance',
+    },
     banner: false,
   });
   const lost = (reason: 'images' | 'graphics' = 'graphics') => {

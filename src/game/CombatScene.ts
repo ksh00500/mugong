@@ -65,6 +65,7 @@ import { HealthTrail } from './health-trail';
 import { COMBAT_HEIGHT } from '../domain/combat-body';
 import { isWalkablePreparation } from '../domain/waystation';
 import { WaystationScenery } from './waystation-scenery';
+import { CombatPresentation } from './combat-presentation';
 import { CombatClarity, combatCrowding, COMBAT_LAYERS } from './combat-clarity';
 
 export class CombatScene extends Phaser.Scene {
@@ -87,6 +88,7 @@ export class CombatScene extends Phaser.Scene {
   private ultimatePressed = false;
   private defense = false;
   private accumulator = 0;
+  private presentation = new CombatPresentation();
   private animationTime = 0;
   private lastLevel = 0;
   private wasDead = false;
@@ -466,6 +468,7 @@ export class CombatScene extends Phaser.Scene {
       this.deaths.clear();
       this.motionClock.reset();
       this.poseTransition.reset();
+      this.presentation.reset();
       this.heardProjectiles = new WeakSet<object>();
       this.heroDeathAt = -1;
     }
@@ -492,6 +495,7 @@ export class CombatScene extends Phaser.Scene {
     }
     while (this.accumulator >= 1 / 60) {
       const before = gameStore.state.run?.elapsed;
+      if (!gameStore.online) this.presentation.capture(gameStore.state.run);
       gameStore.advance(
         {
           dx: Number(this.keys.has('d')) - Number(this.keys.has('a')),
@@ -521,7 +525,23 @@ export class CombatScene extends Phaser.Scene {
         sound('step');
       }
     }
-    this.draw(gameStore.state.run);
+    const canInterpolate =
+      !gameStore.online &&
+      gameStore.ready &&
+      gameStore.rendererReady &&
+      !gameStore.busy &&
+      !gameStore.error &&
+      !gameStore.paused &&
+      !gameStore.bagOpen &&
+      !gameStore.waystationDialogue &&
+      !document.hidden &&
+      gameStore.screen === 'field' &&
+      !pendingChoices(gameStore.state.run);
+    this.draw(
+      canInterpolate
+        ? this.presentation.sample(gameStore.state.run, this.accumulator * 60)
+        : gameStore.state.run,
+    );
     this.feedback.updateCamera(
       this.animationTime,
       this.reducedMotion ||
