@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-23",
+  "base": "http://127.0.0.1:5205",
+  "build": "dist-online-balance-v1",
+  "localOnlyJunctions": true,
+  "health": {
+    "ok": true,
+    "rules": 1
+  },
+  "anonymousOnlineStatus": 401,
+  "files": [
+    {
+      "path": "/index.html",
+      "sha256": "1733b561e9d0ec9c45da61be6426dae0967e31d02c6de17eac7b266e8b37dbf1",
+      "bytes": 4149
+    },
+    {
+      "path": "/online/index.html",
+      "sha256": "7c0aa612270e43e3dfbaf651769cc810b463717548176104c2429ac5fb39c89e",
+      "bytes": 1027
+    },
+    {
+      "path": "/raid/index.html",
+      "sha256": "ff5f8444163141b51974a9e8d4a90337dd467049655fe592d44403fc07fdd2e4",
+      "bytes": 852
+    },
+    {
+      "path": "/pvp/index.html",
+      "sha256": "649f40eaba8d90db7c9ad901acb42085619378c3988cc95d6153f373f72cb22e",
+      "bytes": 751
+    },
+    {
+      "path": "/next-stage/index.html",
+      "sha256": "5ee2b5c1a77fc213b5b59f7e486779ef3fb022c63c65879aaa1bbe85e06e10be",
+      "bytes": 552
+    },
+    {
+      "path": "/assets/main-ETk8MbGk.js",
+      "sha256": "37fa8f3466b7801b3d46842fa27f6fb0d93223c4ea7fff6388e91d954c5e9aa2",
+      "bytes": 282
+    },
+    {
+      "path": "/assets/Icons-C6vaBuqn.js",
+      "sha256": "be3f5312956e63eff2568d52ad3c2d196ed67b00af75b03e45eb9fabcba3cc71",
+      "bytes": 316234
+    },
+    {
+      "path": "/assets/ui-DJLahGWN.js",
+      "sha256": "367dfd4140d4bd2374dccb1b368afdfa09b775e3d9f4eadf44b2ac1733112c1f",
+      "bytes": 208845
+    },
+    {
+      "path": "/assets/Inventory-C-xqn2pL.js",
+      "sha256": "d1faf669913eb794b5657e4034cc90a4ce35075ea2a043a94eb485d04f54fed2",
+      "bytes": 176402
+    },
+    {
+      "path": "/assets/region-art-CZAZT8SB.js",
+      "sha256": "9e7a6549cabaa9f7017cd98bee872a6f3e5d91c4909d5fc2e2e7db0527c13836",
+      "bytes": 100377
+    },
+    {
+      "path": "/assets/RecoveryBoundary-BqJQUBnP.js",
+      "sha256": "4bc2bc27b98562ae2bd6f229e5b162cd520b51abd565ecee4ace475f8873d7d9",
+      "bytes": 71479
+    },
+    {
+      "path": "/assets/ui-BqLLFD0U.css",
+      "sha256": "11cc0b3318997f89b120c6aa865832f2adf29648289a95d92736b650273b66a4",
+      "bytes": 278754
+    },
+    {
+      "path": "/assets/online-D_w-X_UT.js",
+      "sha256": "e85d7f66613476c09a26f4d3e669faf7e04893f23d399bfb581afb69abd13302",
+      "bytes": 1493
+    },
+    {
+      "path": "/assets/pvp-DMRdWOVQ.js",
+      "sha256": "91f23357d5e243fb0546abc9cd3b6c22fbde37894af2b4575c58838a85ca8031",
+      "bytes": 26019
+    },
+    {
+      "path": "/assets/pvp-D1yLEkRz.css",
+      "sha256": "7fd7b5f0678e8d8e93109cc6154016164db71d904d33b8cc97c8e81bd0acd673",
+      "bytes": 12588
+    },
+    {
+      "path": "/assets/online-Fr-SZaOP.css",
+      "sha256": "4959b0916f0239a02fd0515d445d7ab4c8a7ac0200dc626fd1ed1b2831746537",
+      "bytes": 656
+    },
+    {
+      "path": "/assets/raid-B1ropa23.js",
+      "sha256": "10cb2c69764236fd5f666e68faa0fceda22991a1842cc66542499ac3f70e0f3e",
+      "bytes": 21847
+    },
+    {
+      "path": "/assets/raid-Bb0DZEW8.css",
+      "sha256": "737c173880705bd26859d07e843fe95f3cadce19b501c873368dc8bd014abbaa",
+      "bytes": 5011
+    },
+    {
+      "path": "/assets/pvp-BM1vuxid.js",
+      "sha256": "793a1ef9d2302c4b05f371b93f32f17541bd5b516e072d1d1e7969c2ce4ee011",
+      "bytes": 177
+    },
+    {
+      "path": "/assets/nextStage-BUmTStvv.js",
+      "sha256": "93984f47a0ee27b2a215e8699ea5fb2b1063e20a78771c930854b219d76fbad5",
+      "bytes": 20762
+    },
+    {
+      "path": "/assets/nextStage-BizRtYhy.css",
+      "sha256": "472cc6b14a6537830ff6be41188240797612fa0a394f6d7c14ad4f02be5cb548",
+      "bytes": 30507
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "errors": 0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "errors": 0
+    },
+    {
+      "width": 1093,
+      "height": 614,
+      "errors": 0
+    }
+  ],
+  "realAccountRegistration": false
+}

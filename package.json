@@ -20,6 +20,7 @@
     "test:hosting": "playwright test --config playwright.hosting.config.ts",
     "test": "vitest run",
     "test:source": "node scripts/test-source.mjs",
+    "probe:online-balance": "node scripts/run-online-balance.mjs",
     "test:e2e": "playwright test",
     "preview": "vite preview --host 127.0.0.1",
     "format": "prettier --write src tests *.ts *.json index.html"
