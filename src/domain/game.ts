@@ -11,6 +11,7 @@ import {
   damagedTrait,
 } from './character';
 import { fighterAttackPower, fighterMoveSpeed, fighterDamageTaken } from './fighter-combat-values';
+import { addJegalFormation, jegalUltimate } from './tang-jegal';
 import { recruitmentAction, recruitmentView } from './recruitment';
 import { combatActionBlock } from './combat-actions';
 import { isWalkablePreparation, walkWaystation } from './waystation';
@@ -782,28 +783,7 @@ function addFormation(
   damage: number,
   level: number,
 ) {
-  const nodes = (r.formations ??= []);
-  const same = nodes.filter((node) => node.kind === kind);
-  if (same.length >= 2) nodes.splice(nodes.indexOf(same[0]), 1);
-  if (nodes.length >= 4) nodes.shift();
-  const link =
-    level >= 3 && nodes.some((node) => node.kind !== kind && distance(node, { x, y }) < 230);
-  nodes.push({
-    x,
-    y,
-    kind,
-    life: 4,
-    pulse: 0.4,
-    damage: link ? damage * 0.65 : 0,
-    pulses: link ? 2 : 0,
-  });
-  if (link)
-    for (const node of nodes)
-      if (node.kind !== kind && distance(node, { x, y }) < 230) {
-        node.pulses = 2;
-        node.damage = damage * 0.65;
-        node.pulse = 0.4;
-      }
+  addJegalFormation((r.formations ??= []), x, y, kind, damage, level);
 }
 function attack(r: Run, input: InputFrame) {
   const f = r.fighter,
@@ -1002,20 +982,7 @@ function ultimate(r: Run, input: InputFrame, emit?: CombatCueSink) {
     return;
   }
   if (art.id === 'jegal') {
-    const formations = (r.formations ??= []);
-    formations.length = 0;
-    for (let n = 0; n < 4; n++) {
-      const angle = input.aim + (n * Math.PI) / 2;
-      formations.push({
-        x: clamp(f.x + Math.cos(angle) * 130, FIELD.left, FIELD.right),
-        y: clamp(f.y + Math.sin(angle) * 130, FIELD.top, FIELD.bottom),
-        life: 5,
-        pulse: 0.3,
-        damage: stats.ultimateDamage,
-        kind: 'ultimate',
-        pulses: 7,
-      });
-    }
+    r.formations = jegalUltimate(f.x, f.y, input.aim, stats.ultimateDamage, FIELD);
     fx(r, f.x, f.y, 'burst', 0, radius, ARTS.jegal.color, 0.45);
     return;
   }

@@ -33,6 +33,7 @@ import { directionIndex, sampleRig } from '../game/directional-motion';
 import { activeWeapon } from '../domain/inventory';
 import { ITEM_ARTWORK } from '../platform/item-art';
 import { ensureHeldWeaponTexture } from '../game/held-weapon-textures';
+import { OwnedFields } from './owned-fields';
 import type { PresetId, Seat } from './model';
 import type { BoundFighter } from '../domain/model';
 export class Arena extends Phaser.Scene {
@@ -44,6 +45,7 @@ export class Arena extends Phaser.Scene {
   private numbers = new Map<number, Phaser.GameObjects.Text>();
   private reduced = false;
   private loadFailed = false;
+  private ownedFields!: OwnedFields;
   constructor(
     private client: ArenaClient,
     private controls: PvpControls,
@@ -56,6 +58,7 @@ export class Arena extends Phaser.Scene {
   }
   preload() {
     this.raidArt?.preload(this);
+    if (this.raidArt) this.load.image('owned-fields', '/art/boss-fields-v1.png');
     this.load.image('arena', '/art/regions-v1/1-floor.webp');
     for (const sheet of [0, 1]) {
       this.load.image(`directions-${sheet}`, `/art/hero-roster-v1/directions-${sheet}.webp`);
@@ -105,8 +108,23 @@ export class Arena extends Phaser.Scene {
     this.add
       .image(R.width / 2, R.height / 2, 'arena')
       .setDisplaySize(R.width, R.height)
+      .setDepth(-10)
       .setAlpha(0.9);
     this.raidArt?.create(this);
+    if (this.raidArt) {
+      const texture = this.textures.get('owned-fields'),
+        source = texture.source[0];
+      for (let n = 0; n < 8; n++)
+        texture.add(
+          String(n),
+          0,
+          ((n % 4) * source.width) / 4,
+          (Math.floor(n / 4) * source.height) / 2,
+          source.width / 4,
+          source.height / 2,
+        );
+      this.ownedFields = new OwnedFields(this);
+    }
     this.g = this.add.graphics().setDepth(1000);
     for (let seat = 0; seat < (this.raidArt ? 5 : 2); seat++) {
       this.actors.push(this.add.image(0, 0, 'hero'));
@@ -240,6 +258,7 @@ export class Arena extends Phaser.Scene {
       room = v.room,
       m = room?.match;
     this.g.clear();
+    this.ownedFields?.draw(m, this.reduced);
     for (let seat = 0; seat < (this.raidArt ? 5 : 2); seat++) {
       const p =
         seat === 4 && m
@@ -292,6 +311,7 @@ export class Arena extends Phaser.Scene {
       } else if (at.shape === 'burst') {
         this.g.lineStyle(at.delay > 0 ? 2 : 5, color, 0.65).strokeCircle(at.x, at.y, at.range);
       } else {
+        if (at.ownedTechnique) continue;
         const f = m!.players[at.owner].fighter;
         this.g.lineStyle(at.delay > 0 ? 2 : 5, color, 0.85);
         this.g.beginPath();
@@ -301,6 +321,15 @@ export class Arena extends Phaser.Scene {
     }
     const present = new Set<number>();
     for (const e of m?.effects ?? []) {
+      if (
+        e.kind === 'poison-burst' ||
+        (e.kind === 'ultimate' &&
+          m?.players[e.seat].personal &&
+          ['tang', 'jegal'].includes(
+            m.players[e.seat].fighter.arts[m.players[e.seat].fighter.active]?.id,
+          ))
+      )
+        continue;
       if (e.kind !== 'hit') {
         this.g
           .lineStyle(3, e.kind === 'guard' ? 0xffe2a2 : 0x9ee8eb, e.life / 0.42)

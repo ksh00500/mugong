@@ -16,6 +16,7 @@ import {
 } from '../domain/fighter-combat-values';
 import { supportStats } from '../domain/support';
 import { maximumHp } from '../domain/content';
+import { addJegalFormation, jegalUltimate, tangJegalBasic } from '../domain/tang-jegal';
 import { combatOrigin, sectorHitsBody, projectileHitsBody } from '../domain/combat-body';
 import type { ArtId } from '../domain/model';
 import { PVP_RULES as R, pvpFighter } from './rules';
@@ -161,7 +162,7 @@ function defend(m: CombatWorld, a: CombatActor, input: PvpInput) {
     effect(m, a.seat, 'guard');
   }
 }
-function ultimate(m: CombatWorld, a: CombatActor) {
+function ultimate(m: CombatWorld, a: CombatActor, contacts: Contact[]) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (
@@ -183,6 +184,42 @@ function ultimate(m: CombatWorld, a: CombatActor) {
   }
   f.action = 'ultimate';
   f.actionTime = 0.6;
+  if (a.personal && art.id === 'jegal') {
+    const stats = techniqueStats(art.id, art.level, f);
+    a.ownedFormations = jegalUltimate(f.x, f.y, f.facing, stats.ultimateDamage, R);
+    return;
+  }
+  if (a.personal && art.id === 'tang') {
+    const stats = techniqueStats(art.id, art.level, f);
+    for (const target of enemies(m, a)) {
+      if (
+        Math.hypot(target.fighter.x - f.x, target.fighter.y - f.y) >= stats.ultimateRadius ||
+        target.poison <= 0
+      )
+        continue;
+      const stacks = target.poison;
+      target.poison = Math.floor(stacks / 2);
+      contacts.push({
+        source: a.seat,
+        target: target.seat,
+        damage: stats.ultimateDamage * stacks,
+        art: 'tang',
+        heal: 0,
+        poison: false,
+        noCharge: true,
+      });
+      m.effects.push({
+        id: ++m.sequence,
+        kind: 'poison-burst',
+        seat: a.seat,
+        x: target.fighter.x,
+        y: target.fighter.y,
+        amount: stacks,
+        life: 0.42,
+      });
+    }
+    return;
+  }
   if (art.id === 'wudang') {
     a.buff = 4;
     f.guard = 0.35;
@@ -233,10 +270,38 @@ function attack(m: CombatWorld, a: CombatActor) {
   f.action = 'attack';
   f.actionTime = 0.28;
   f.attackSeq++;
-  art.combo = (art.combo + 1) % 3;
+  const plan =
+    a.personal && (art.id === 'tang' || art.id === 'jegal')
+      ? tangJegalBasic(art.id, art.level, art.combo)
+      : undefined;
+  art.combo = plan ? (art.combo + 1) % 2 : (art.combo + 1) % 3;
   const base = a.personal ? fighterAttackPower(f) * innateAttack(f, a.maxHp) : 9;
   const damage = base * stats.multiplier * (boosted ? 1.5 : 1) * (a.buff > 0 ? 1.25 : 1);
   const owned = a.personal ? { basicSequence: f.attackSeq } : {};
+  if (plan) {
+    const melee = art.id === 'jegal' && plan.variant === 'b';
+    for (let n = 0; n < (melee ? 1 : plan.shots); n++)
+      spawn(
+        m,
+        a,
+        art.id,
+        base * stats.multiplier * plan.coefficient * (melee ? 1 : plan.shotFactor),
+        {
+          ...owned,
+          ownedTechnique: { variant: plan.variant, level: art.level },
+          releaseFromOwner: true,
+          shape: melee ? 'sector' : 'shot',
+          angle: f.facing + (n - (plan.shots - 1) / 2) * 0.18,
+          range: 165 * supportStats(f).attackRangeFactor,
+          arc: 1.1,
+          life: melee ? 0.11 : plan.life * supportStats(f).attackRangeFactor,
+          speed: melee ? 0 : 680,
+          radius: plan.radius,
+          poison: art.id === 'tang',
+        },
+      );
+    return;
+  }
   if (art.id === 'tang' || art.id === 'jegal')
     spawn(m, a, art.id, damage * 0.8, {
       shape: 'shot',
@@ -265,6 +330,8 @@ type Contact = {
   art: ArtId;
   dot?: boolean;
   basicSequence?: number;
+  ownedTechnique?: PvpAttack['ownedTechnique'];
+  noCharge?: boolean;
 };
 /** Both sides' contacts are gathered before HP changes; simultaneous KOs stay draws. */
 function resolveContacts(m: CombatWorld, contacts: Contact[]) {
@@ -314,8 +381,35 @@ function resolveContacts(m: CombatWorld, contacts: Contact[]) {
     loss[c.target] += damage;
     applied.push({ source: c.source, target: c.target, amount: damage });
     heals.push({ source: c.source, target: c.target, amount: damage * c.heal });
+    if (a.personal && c.art === 'jegal' && c.ownedTechnique)
+      addJegalFormation(
+        (a.ownedFormations ??= []),
+        f.x,
+        f.y,
+        c.ownedTechnique.variant === 'b' ? 'earth' : 'heaven',
+        c.damage,
+        c.ownedTechnique.level,
+      );
     const poisonLevel = a.personal ? supportStats(a.fighter).poisonLevel : 0;
-    if (a.personal && !c.dot && c.basicSequence !== undefined && (c.poison || poisonLevel)) {
+    let allowPoison = true;
+    if (a.personal && c.poison && c.basicSequence !== undefined && c.ownedTechnique) {
+      const volleys = (target.ownedPoisonVolleys ??= []);
+      let volley = volleys.find((v) => v.source === c.source && v.sequence === c.basicSequence);
+      if (!volley) {
+        volley = { source: c.source, sequence: c.basicSequence, hits: 0, life: 3 };
+        volleys.push(volley);
+        if (volleys.length > 64) volleys.shift();
+      }
+      allowPoison = volley.hits < (c.ownedTechnique.variant === 'b' ? 2 : 1);
+      if (allowPoison) volley.hits++;
+    }
+    if (
+      a.personal &&
+      allowPoison &&
+      !c.dot &&
+      c.basicSequence !== undefined &&
+      (c.poison || poisonLevel)
+    ) {
       const level = Math.max(
         poisonLevel || 1,
         target.poisonClock > 0 ? (target.ownedPoison?.level ?? 0) : 0,
@@ -336,13 +430,13 @@ function resolveContacts(m: CombatWorld, contacts: Contact[]) {
       };
       target.poisonClock = 3;
       target.poisonSource = c.source;
-    } else if (c.poison) {
+    } else if (c.poison && !a.personal) {
       target.poison = Math.min(3, target.poison + 1);
       target.poisonClock = 3;
       target.poisonSource = c.source;
     }
     const art = a.fighter.arts.find((at) => at.id === c.art);
-    if (art && !c.dot)
+    if (art && !c.dot && !c.noCharge)
       art.gauge = Math.min(
         c.art === 'gaebang' ? 200 : 100,
         art.gauge +
@@ -459,7 +553,33 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
         ultimate: false,
         switch: 0,
       };
-    if (f.hp <= 0 || a.inactive) continue;
+    if (f.hp <= 0 || a.inactive) {
+      a.ownedFormations = undefined;
+      continue;
+    }
+    if (a.ownedPoisonVolleys)
+      a.ownedPoisonVolleys = a.ownedPoisonVolleys.filter((v) => (v.life -= DT) > 0);
+    if (a.personal && a.ownedFormations) {
+      for (const node of a.ownedFormations) {
+        node.life -= DT;
+        node.pulse -= DT;
+        if (node.life <= 0 || node.pulse > 0 || (node.pulses ?? 0) <= 0) continue;
+        node.pulses!--;
+        node.pulse += 0.7;
+        for (const target of enemies(m, a))
+          if (Math.hypot(target.fighter.x - node.x, target.fighter.y - node.y) < 105)
+            contacts.push({
+              source: a.seat,
+              target: target.seat,
+              damage: node.damage,
+              art: 'jegal',
+              heal: 0,
+              poison: false,
+              noCharge: true,
+            });
+      }
+      a.ownedFormations = a.ownedFormations.filter((n) => n.life > 0);
+    }
     if (a.personal) stepTraits(f, DT);
     f.cooldown = Math.max(0, f.cooldown - DT);
     f.actionTime = Math.max(0, f.actionTime - DT);
@@ -515,7 +635,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
     if (input.defense) defend(m, a, input);
     else if (input.ultimate) {
       f.facing = input.aim;
-      ultimate(m, a);
+      ultimate(m, a, contacts);
     } else if (input.attack) {
       if (f.cooldown <= 0) f.facing = input.aim;
       attack(m, a);
@@ -526,6 +646,17 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
     at.delay -= DT;
     if (at.delay > 0) continue;
     const a = m.players[at.owner];
+    if (at.ownedTechnique && (a.inactive || a.fighter.hp <= 0)) {
+      at.life = 0;
+      continue;
+    }
+    if (at.releaseFromOwner && before > 0) {
+      const o = combatOrigin(a.fighter),
+        offset = at.shape === 'shot' ? 42 : 0;
+      at.x = o.x + Math.cos(at.angle) * offset;
+      at.y = o.y + Math.sin(at.angle) * offset;
+      at.releaseFromOwner = false;
+    }
     if (at.shape === 'shot') {
       const from = { x: at.x, y: at.y };
       at.x += Math.cos(at.angle) * at.speed * DT;
@@ -546,6 +677,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
           poison: at.poison,
           art: at.art,
           basicSequence: at.basicSequence,
+          ownedTechnique: at.ownedTechnique,
         });
         at.life = 0;
       }
@@ -565,6 +697,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
             poison: at.poison,
             art: at.art,
             basicSequence: at.basicSequence,
+            ownedTechnique: at.ownedTechnique,
           });
       }
     }
@@ -577,4 +710,5 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
     )
     .slice(-64);
   resolveContacts(m, contacts);
+  for (const a of m.players) if (a.inactive || a.fighter.hp <= 0) a.ownedFormations = undefined;
 }
