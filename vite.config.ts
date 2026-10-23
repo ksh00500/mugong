@@ -31,6 +31,7 @@ export default defineConfig({
         nextStage: resolve(import.meta.dirname, 'next-stage/index.html'),
         pvp: resolve(import.meta.dirname, 'pvp/index.html'),
         raid: resolve(import.meta.dirname, 'raid/index.html'),
+        online: resolve(import.meta.dirname, 'online/index.html'),
       },
       output: { manualChunks: { phaser: ['phaser'] } },
     },

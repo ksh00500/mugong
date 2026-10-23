@@ -10,6 +10,9 @@ import { combatActionBlock } from '../domain/combat-actions';
 import { ArtGlyph, Meter, Modal } from '../ui/shared';
 import { t, useLanguage } from '../platform/i18n';
 import { preloadFonts } from '../platform/assets';
+import type { OnlineSave } from '../online/protocol';
+import { PersonalManagement } from './PersonalManagement';
+import { characterPortrait } from '../platform/character-art';
 function RaidArena({
   client,
   controls,
@@ -70,10 +73,16 @@ function RaidArena({
     </>
   );
 }
-function Rules() {
+function Rules({ personal = false }: { personal?: boolean }) {
   return (
     <div className="pvp-rule-text">
-      <p>{t('표준 무인 1~4인 · 흑풍산채 5층 · 아군 피해 없음')}</p>
+      <p>
+        {t(
+          personal
+            ? '개인 무인 1~4인 · 흑풍산채 5층 · 영구 사망'
+            : '표준 무인 1~4인 · 흑풍산채 5층 · 아군 피해 없음',
+        )}
+      </p>
       <p>{t('보스 체력은 층 시작 인원으로 고정됩니다. 사망한 무인은 부활하지 않습니다.')}</p>
       <p>
         {t(
@@ -87,7 +96,9 @@ function Rules() {
       </p>
       <p>
         {t(
-          '표준 출전은 도전 기록만 저장합니다. 개인 무인·장비·경험치·유품 이전은 지원하지 않습니다.',
+          personal
+            ? '개인 출전은 온라인 강호에서 키운 무인을 사용합니다. 수명 만료 시 자기 물품은 창고로 돌아갑니다.'
+            : '표준 출전은 도전 기록만 저장합니다. 개인 무인·장비·경험치·유품 이전은 지원하지 않습니다.',
         )}
       </p>
       <p>
@@ -112,6 +123,9 @@ export function RaidApp() {
   const [history, setHistory] = useState<
     { run: string; state: string; floor: number; receipt: RaidReceipt | null }[]
   >([]);
+  const [personal, setPersonal] = useState(false),
+    [save, setSave] = useState<OnlineSave | null>(null),
+    [fighterId, setFighterId] = useState('');
   const block = useRef(true),
     [controls] = useState(() => new PvpControls(client, () => block.current)),
     battle = useRef<HTMLElement>(null);
@@ -169,6 +183,31 @@ export function RaidApp() {
       cancelled = true;
     };
   }, [view.account?.id, room?.receipt?.id]);
+  useEffect(() => {
+    if (!view.account || room) return;
+    let active = true;
+    fetch('/api/pvp/online', { cache: 'no-store' })
+      .then((r) => {
+        if (!r.ok) throw Error();
+        return r.json();
+      })
+      .then((s: OnlineSave) => {
+        if (active) {
+          setSave(s);
+          setFighterId((id) =>
+            s.state.family.roster.some((f) => f.id === id)
+              ? id
+              : (s.state.family.roster[0]?.id ?? ''),
+          );
+        }
+      })
+      .catch(() => {
+        if (active) setError(t('온라인 세가를 불러오지 못했습니다'));
+      });
+    return () => {
+      active = false;
+    };
+  }, [view.account?.id, !!room]);
   const send = (message: RaidMessage) => {
     client.clearError();
     controls.clear();
@@ -193,11 +232,13 @@ export function RaidApp() {
             : t('지금은 사용할 수 없습니다');
   };
   const resultTitle =
-    room?.receipt?.outcome === 'complete'
-      ? t('산채 돌파')
-      : room?.receipt?.outcome === 'returned'
-        ? t('귀환 완료')
-        : t('도전 종료');
+    room?.receipt?.outcome === 'expired'
+      ? t('수명 만료 · 장비 회수')
+      : room?.receipt?.outcome === 'complete'
+        ? t('산채 돌파')
+        : room?.receipt?.outcome === 'returned'
+          ? t('귀환 완료')
+          : t('도전 종료');
   return (
     <div className="pvp-app raid-app" data-phase={m?.phase ?? (room ? 'waiting' : 'lobby')}>
       <header className="pvp-header">
@@ -206,6 +247,7 @@ export function RaidApp() {
         </a>
         <span>{t('협동 레이드')}</span>
         <div className="pvp-header-actions">
+          <a href="/online/">{t('온라인 세가')}</a>
           <a href="/pvp/">{t('비무장')}</a>
           <button onClick={() => setPanel('rules')}>{t('레이드 규칙')}</button>
           {view.account && (
@@ -247,45 +289,90 @@ export function RaidApp() {
       ) : !room ? (
         <main className="pvp-lobby">
           <section className="pvp-selection">
-            <span className="pvp-eyebrow">{t('표준 무인 · 로컬 저장 보존')}</span>
+            <span className="pvp-eyebrow">
+              {personal ? t('개인 무인 · 서버 저장') : t('표준 무인 · 로컬 저장 보존')}
+            </span>
             <h1>{t('함께 산채를 돌파')}</h1>
             <p>{t('표준 무인 1~4인 · 흑풍산채 5층 · 아군 피해 없음')}</p>
-            <p>
-              {t(
-                '표준 출전은 도전 기록만 저장합니다. 개인 무인·장비·경험치·유품 이전은 지원하지 않습니다.',
-              )}
-            </p>
-            <fieldset>
-              <legend>{t('출전 무인 선택')}</legend>
-              <div className="pvp-presets">
-                {Object.entries(PVP_PRESETS).map(([id, p]) => (
-                  <button
-                    key={id}
-                    type="button"
-                    className={preset === id ? 'selected' : ''}
-                    aria-pressed={preset === id}
-                    onClick={() => setPreset(id as PresetId)}
-                  >
-                    <img src={`/art/hero-roster-v1/portrait-${p.appearance}.webp`} alt="" />
-                    <b>{t(p.name)}</b>
-                    <span>{t(p.description)}</span>
-                    <div>
-                      {p.arts.map((a) => (
-                        <ArtGlyph key={a} id={a} />
-                      ))}
-                    </div>
-                  </button>
-                ))}
-              </div>
-            </fieldset>
+            <div className="raid-mode-picker">
+              <button aria-pressed={!personal} onClick={() => setPersonal(false)}>
+                {t('표준 체험')}
+              </button>
+              <button aria-pressed={personal} onClick={() => setPersonal(true)}>
+                {t('개인 무인 출전')}
+              </button>
+            </div>
+            {personal ? (
+              <section className="raid-personal-selection">
+                <p>
+                  {t(
+                    '온라인 강호 20웨이브를 완주한 무인으로 출전합니다. 사망 시 무인과 미수습 장비를 잃습니다. 로컬 무인은 이전하지 않습니다.',
+                  )}
+                </p>
+                <a href="/online/">{t('온라인 무인 육성 · 가방 · 창고')}</a>
+                {save?.state.run && <p>{t('진행 중인 강호를 먼저 마치세요.')}</p>}
+                <label>
+                  {t('출전할 개인 무인')}
+                  <select value={fighterId} onChange={(e) => setFighterId(e.target.value)}>
+                    <option value="">{t('무인 선택')}</option>
+                    {save?.state.family.roster.map((f) => (
+                      <option value={f.id} key={f.id}>
+                        {f.name} · Lv.{f.level} · HP {Math.ceil(f.hp)}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                {!save?.state.family.roster.length && <p>{t('등록한 온라인 무인이 없습니다.')}</p>}
+              </section>
+            ) : (
+              <>
+                <p>
+                  {t(
+                    '표준 출전은 도전 기록만 저장합니다. 개인 무인·장비·경험치·유품 이전은 지원하지 않습니다.',
+                  )}
+                </p>
+                <fieldset>
+                  <legend>{t('출전 무인 선택')}</legend>
+                  <div className="pvp-presets">
+                    {Object.entries(PVP_PRESETS).map(([id, p]) => (
+                      <button
+                        key={id}
+                        type="button"
+                        className={preset === id ? 'selected' : ''}
+                        aria-pressed={preset === id}
+                        onClick={() => setPreset(id as PresetId)}
+                      >
+                        <img src={`/art/hero-roster-v1/portrait-${p.appearance}.webp`} alt="" />
+                        <b>{t(p.name)}</b>
+                        <span>{t(p.description)}</span>
+                        <div>
+                          {p.arts.map((a) => (
+                            <ArtGlyph key={a} id={a} />
+                          ))}
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </fieldset>
+              </>
+            )}
             <div className="pvp-mode-actions">
               <section>
                 <h2>{t('파티 만들기')}</h2>
                 <p>{t('혼자 또는 최대 네 명이 함께 출전합니다.')}</p>
                 <button
                   className="primary"
-                  disabled={!view.connected}
-                  onClick={() => send({ type: 'create', preset })}
+                  disabled={
+                    !view.connected ||
+                    (personal &&
+                      (!fighterId ||
+                        !!save?.locked ||
+                        !!save?.state.run ||
+                        !!save?.state.family.training))
+                  }
+                  onClick={() =>
+                    send({ type: 'create', preset, ...(personal ? { fighterId } : {}) })
+                  }
                 >
                   {t('레이드 방 만들기')}
                 </button>
@@ -295,7 +382,12 @@ export function RaidApp() {
                 <form
                   onSubmit={(e) => {
                     e.preventDefault();
-                    send({ type: 'join', preset, code: code.trim().toUpperCase() });
+                    send({
+                      type: 'join',
+                      preset,
+                      code: code.trim().toUpperCase(),
+                      ...(personal ? { fighterId } : {}),
+                    });
                   }}
                 >
                   <label>
@@ -309,7 +401,18 @@ export function RaidApp() {
                       autoComplete="off"
                     />
                   </label>
-                  <button disabled={!view.connected}>{t('레이드 방 참가')}</button>
+                  <button
+                    disabled={
+                      !view.connected ||
+                      (personal &&
+                        (!fighterId ||
+                          !!save?.locked ||
+                          !!save?.state.run ||
+                          !!save?.state.family.training))
+                    }
+                  >
+                    {t('레이드 방 참가')}
+                  </button>
                 </form>
               </section>
             </div>
@@ -366,10 +469,12 @@ export function RaidApp() {
           <div className="raid-top">
             <section className="raid-personal">
               <b>{view.account.name}</b>
-              <span>{Math.ceil(me?.fighter.hp ?? 240)} / 240</span>
+              <span>
+                {Math.ceil(me?.fighter.hp ?? 240)} / {me?.maxHp ?? 240}
+              </span>
               <Meter
                 value={me?.fighter.hp ?? 240}
-                max={240}
+                max={me?.maxHp ?? 240}
                 label={t('내 경기 체력')}
                 identity={`${m?.id}-me`}
               />
@@ -382,16 +487,18 @@ export function RaidApp() {
                         {t(
                           !p.connected
                             ? '연결 끊김'
-                            : p.status === 'dead'
-                              ? '쓰러짐'
-                              : p.status === 'returned'
-                                ? '귀환'
-                                : '참가 중',
+                            : p.status === 'expired'
+                              ? '수명 만료 · 장비 회수'
+                              : p.status === 'dead'
+                                ? '쓰러짐'
+                                : p.status === 'returned'
+                                  ? '귀환'
+                                  : '참가 중',
                         )}
                       </span>
                       <Meter
                         value={m?.players[i].fighter.hp ?? 240}
-                        max={240}
+                        max={m?.players[i].maxHp ?? 240}
                         label={t('{0} 체력', { 0: p.name })}
                         identity={`${m?.id}-${i}`}
                       />
@@ -434,7 +541,11 @@ export function RaidApp() {
           </div>
           {!room.match && (
             <section className="pvp-ready-panel raid-panel">
-              <span className="pvp-eyebrow">{t('표준 무인 · 로컬 저장 보존')}</span>
+              <span className="pvp-eyebrow">
+                {room.personal
+                  ? t('개인 무인 · 영구 사망 · 서버 저장')
+                  : t('표준 무인 · 로컬 저장 보존')}
+              </span>
               <h1>{t('레이드 출전 준비')}</h1>
               <p>
                 {t('방 코드')} <strong data-testid="raid-code">{room.code}</strong> ·{' '}
@@ -446,7 +557,11 @@ export function RaidApp() {
                     {p ? (
                       <>
                         <img
-                          src={`/art/hero-roster-v1/portrait-${PVP_PRESETS[p.preset].appearance}.webp`}
+                          src={
+                            p.fighter
+                              ? characterPortrait(p.fighter)
+                              : `/art/hero-roster-v1/portrait-${PVP_PRESETS[p.preset].appearance}.webp`
+                          }
                           alt=""
                         />
                         <b>{p.name}</b>
@@ -513,13 +628,15 @@ export function RaidApp() {
                       <div key={i}>
                         {p.name} ·{' '}
                         {t(
-                          p.status === 'dead'
-                            ? '쓰러짐'
-                            : p.status === 'returned'
-                              ? '귀환'
-                              : p.ready
-                                ? '대전 준비 완료'
-                                : '준비 중',
+                          p.status === 'expired'
+                            ? '수명 만료 · 장비 회수'
+                            : p.status === 'dead'
+                              ? '쓰러짐'
+                              : p.status === 'returned'
+                                ? '귀환'
+                                : p.ready
+                                  ? '대전 준비 완료'
+                                  : '준비 중',
                         )}
                       </div>
                     ),
@@ -530,12 +647,17 @@ export function RaidApp() {
                   disabled={
                     !view.connected ||
                     room.settling ||
-                    !m.medicine[view.seat] ||
-                    me!.fighter.hp >= 240
+                    (room.personal
+                      ? !me?.fighter.items.some(
+                          (i) => i.kind === 'medicine' && i.place === 'general',
+                        )
+                      : !m.medicine[view.seat]) ||
+                    me!.fighter.hp >= me!.maxHp
                   }
                   onClick={() => command('medicine')}
                 >
-                  {t('회복약')} {m.medicine[view.seat]}/2 · +75
+                  {t('회복약')}{' '}
+                  {room.personal ? t('소지 약 사용') : `${m.medicine[view.seat]}/2 · +75`}
                 </button>
                 <button
                   disabled={!view.connected || room.settling || !artReady}
@@ -552,28 +674,37 @@ export function RaidApp() {
                 </button>
               </div>
               {room.settling && <p role="status">{t('레이드 기록 저장 중')}</p>}
+              {room.personal && <PersonalManagement client={client} />}
             </section>
           )}
-          {(m?.phase === 'finished' || (room.receipt && status === 'returned')) && (
+          {(m?.phase === 'finished' ||
+            (room.receipt && (status === 'returned' || status === 'expired'))) && (
             <section className="pvp-result raid-panel">
               <h1>{resultTitle}</h1>
               <p>
                 {t('완료 층')} · {room.receipt?.floor ?? m?.cleared ?? 0}/5
               </p>
-              <p>{t('로컬 무인·체력·장비는 그대로 보존되었습니다.')}</p>
+              <p>
+                {room.personal
+                  ? t('개인 무인·성장·장비와 귀환 결과를 서버에 저장했습니다.')
+                  : t('로컬 무인·체력·장비는 그대로 보존되었습니다.')}
+              </p>
+              {room.personal && <a href="/online/">{t('온라인 세가 · 성장 · 장비 확인')}</a>}
               {room.receipt ? (
                 <>
                   <p>
                     {t(
-                      room.receipt.outcome === 'dead'
-                        ? '쓰러짐'
-                        : room.receipt.outcome === 'time'
-                          ? '시간 초과'
-                          : room.receipt.outcome === 'abandoned'
-                            ? '전원 연결 종료'
-                            : room.receipt.outcome === 'complete'
-                              ? '산채 돌파'
-                              : '귀환 완료',
+                      room.receipt.outcome === 'expired'
+                        ? '수명 만료 · 장비 회수'
+                        : room.receipt.outcome === 'dead'
+                          ? '쓰러짐'
+                          : room.receipt.outcome === 'time'
+                            ? '시간 초과'
+                            : room.receipt.outcome === 'abandoned'
+                              ? '전원 연결 종료'
+                              : room.receipt.outcome === 'complete'
+                                ? '산채 돌파'
+                                : '귀환 완료',
                     )}
                   </p>
                   <dl className="raid-receipt-stats">
@@ -676,7 +807,7 @@ export function RaidApp() {
           onClose={() => setPanel(null)}
         >
           {panel === 'rules' ? (
-            <Rules />
+            <Rules personal={room?.personal ?? personal} />
           ) : (
             <>
               <p>

@@ -11,6 +11,7 @@ export function SaveRecovery({ busy, onRecovered }: { busy: boolean; onRecovered
   const available = copyState === 'available';
   const [notice, setNotice] = useState('');
   useEffect(() => {
+    if (gameStore.online) return;
     let active = true;
     void readRecoveryCopy().then(
       (copy) => {
@@ -24,6 +25,12 @@ export function SaveRecovery({ busy, onRecovered }: { busy: boolean; onRecovered
       active = false;
     };
   }, []);
+  if (gameStore.online)
+    return (
+      <p role="status">
+        {t('서버의 마지막 확정 결과를 다시 확인합니다. 로컬 저장은 사용하지 않습니다.')}
+      </p>
+    );
   return (
     <div className="save-recovery">
       <ol className="recovery-steps">

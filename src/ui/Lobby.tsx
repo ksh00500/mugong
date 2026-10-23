@@ -200,6 +200,13 @@ export function Lobby({
             {t('실시간 레이드 · 1~4인')}
             <Icon name="arrow" />
           </a>
+          {!gameStore.online && (
+            <a className="home-online-entry" href="/online/">
+              <Icon name="compass" />
+              {t('온라인 세가 · 무인 육성')}
+              <Icon name="arrow" />
+            </a>
+          )}
         </section>
 
         <section className="home-hero" aria-label={t('무인 초상')}>

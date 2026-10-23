@@ -1,5 +1,7 @@
 # 집 Linux PC · Docker · Cloudflare Tunnel
 
+2026-10-23 개인 온라인: `/online/`과 `/api/pvp/online-socket`도 같은 web/pvp 경로로 제공한다. DB 스키마3의 세가·무인/장비·개인 방/유품 저장이 추가됐다. 배포 전 일관된 백업을 보관하고, 이전 스키마2 서버로 단순 롤백하지 않는다. 최신 Docker 데몬 조회는10초 무응답으로 이미지/컨테이너 실행이 미검증이다. [구현/제약](online-personal-v1.md).
+
 2026-10-23 레이드: 같은pvp 서비스와 DB 볼륨이 표준 협동 레이드도 제공한다. `/raid/`와 `/api/pvp/raid-socket`에 별도 공개 포트를 열지 않는다. 배포 전 DB 스키마2/백업 호환성과 기존 계정 보존을 확인한다. [협동 레이드 범위](cooperative-raid-v1.md), [최신 검증](verification/cooperative-raid-v1/README.md). 이전 비무 이미지 빌드 성공을 최신 레이드 이미지/공개 배포 성공으로 해석하지 않는다.
 
 사용자 확정 환경: 개인 Linux PC에서 Docker로 실행하고 Cloudflare Tunnel로 공개한다. `compose.cloudflare.yaml`은 web과 tunnel 사이의 Docker 내부 통신만 사용한다. 공유기 포트 포워딩은 이 구성에 필요하지 않다. 원격 관리형 Tunnel과 `--token-file`은 [Cloudflare 시작 안내](https://developers.cloudflare.com/tunnel/get-started/)와 [실행 매개변수](https://developers.cloudflare.com/tunnel/reference/run-parameters/#token-file)를 기준으로 했다.

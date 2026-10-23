@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-23",
+  "feature": "online-personal-v1",
+  "unit": {
+    "files": 98,
+    "passed": 1560,
+    "failed": 0
+  },
+  "compiledBrowser": {
+    "startTime": "2026-10-23T06:05:43.907Z",
+    "duration": 103710.531,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "hudFollowup": {
+    "startTime": "2026-10-23T06:12:03.141Z",
+    "duration": 39840.268000000004,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "existingResponsiveRegression": {
+    "startTime": "2026-10-23T06:05:43.907Z",
+    "duration": 69630.741,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "live": {
+    "base": "http://127.0.0.1:5205",
+    "build": "dist-online-personal-v1",
+    "paths": 21,
+    "layouts": 3,
+    "errors": 0,
+    "health": {
+      "ok": true,
+      "rules": 1
+    },
+    "realAccountRegistration": false
+  },
+  "build": {
+    "typecheck": true,
+    "viteModules": 253,
+    "nodeBundle": true,
+    "runtimeFiles": 1069,
+    "literalReferences": 803,
+    "missingFiles": 0,
+    "lfsPointers": 0,
+    "localOnlyJunctions": true
+  },
+  "database": {
+    "schema": 3,
+    "backupQuickCheck": "ok",
+    "previousSchema": 2
+  },
+  "limitations": [
+    "Browser raid fixture uses first boss HP1 and server-prepared owned fighters; no claim of normal 20-wave or five-floor natural completion.",
+    "Docker daemon query timed out after 10 seconds; current image/container and public Linux/Cloudflare deployment unverified.",
+    "Personal raid expiry and fault handling are unit/integration tested; not a real power-loss or multi-host load certification.",
+    "Full art/effect/weapon parity, public latency/loss, account recovery, market, seasons and personal fighter PvP remain separate."
+  ],
+  "visualReview": [
+    "compiled-final/raid-bag-1093.png",
+    "compiled-final/online-combat-1093.png",
+    "hud-final/online-combat-1093.png"
+  ]
+}

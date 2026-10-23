@@ -8,6 +8,7 @@ import type { CombatCueSink } from '../domain/combat';
 import { readSave, writeSave, recoverLatestCopy } from './storage';
 import { claimSession } from './session';
 import { sound } from './audio';
+import { isOnlineGame, PersonalClient } from '../online/client';
 import { migratePendingItems } from '../domain/pending-items';
 import {
   isWalkablePreparation,
@@ -16,6 +17,7 @@ import {
   type WaystationStop,
 } from '../domain/waystation';
 export interface View {
+  reservedItemIds?: string[];
   state: GameState;
   ready: boolean;
   busy: boolean;
@@ -32,6 +34,47 @@ export interface View {
 const errorText = (error: unknown) =>
   error instanceof Error ? error.message : '저장 공간에 접근할 수 없습니다.';
 export class GameStore {
+  private networkCues: import('../domain/combat').CombatCue[] = [];
+  private externalCommand?: (cmd: Command) => Promise<boolean>;
+  attachExternal(state: GameState, execute: (cmd: Command) => Promise<boolean>) {
+    this.externalCommand = execute;
+    this.state = state;
+    this.ready = true;
+    this.notify();
+  }
+  detachExternal() {
+    this.externalCommand = undefined;
+    this.ready = false;
+    this.state = emptyGame();
+    this.bagOpen = false;
+    this.notify();
+  }
+  readonly online = isOnlineGame;
+  onlineLock: string | null = null;
+  private remote = this.online
+    ? new PersonalClient(
+        (save) => {
+          const before = this.state.run?.phase;
+          this.state = save.state;
+          this.onlineLock = save.locked;
+          this.error = '';
+          this.ready = true;
+          if (
+            before !== 'loot' &&
+            this.state.run?.phase === 'loot' &&
+            !pendingChoices(this.state.run)
+          )
+            this.bagOpen = true;
+          this.notify();
+        },
+        (message) => {
+          this.error = message;
+          this.paused = true;
+          this.notify();
+        },
+        (cues) => this.networkCues.push(...cues),
+      )
+    : undefined;
   waystationWork?: { id: 'physician' | 'merchant' | 'blacksmith'; startedAt?: number };
   state = emptyGame();
   ready = false;
@@ -96,6 +139,12 @@ export class GameStore {
     this.busy = true;
     this.notify();
     try {
+      if (this.remote) {
+        await this.remote.connect();
+        this.screen = this.state.run ? 'field' : 'lobby';
+        this.paused = false;
+        return;
+      }
       if (!(await claimSession()))
         throw new Error('다른 탭에서 이 세가를 열고 있습니다. 그 탭을 닫은 뒤 다시 시도해 주세요.');
       this.state = (await readSave()) ?? emptyGame();
@@ -114,6 +163,11 @@ export class GameStore {
     }
   }
   async persist(blocking = true) {
+    if (this.externalCommand) return;
+    if (this.remote) {
+      this.remote.pause(this.paused || this.bagOpen || this.screen !== 'field');
+      return;
+    }
     if (!this.ready) return;
     // Coalesce queued snapshots, but never let an older write overwrite a newer result.
     this.pendingSave = structuredClone(this.state);
@@ -154,6 +208,7 @@ export class GameStore {
     }
   }
   async dispatch(cmd: Command) {
+    if (this.externalCommand) return this.externalCommand(cmd);
     this.clearCombatAction();
     if (!this.ready || this.busy || this.error) return false;
     if (isWalkablePreparation(this.state.run)) {
@@ -178,7 +233,17 @@ export class GameStore {
       cmd.type === 'use'
         ? this.fighter()?.items.find((item) => item.id === cmd.id)?.kind
         : undefined;
-    const changed = command(this.state, cmd);
+    let changed: boolean;
+    if (this.remote) {
+      this.busy = true;
+      this.notify();
+      try {
+        changed = await this.remote.command(cmd);
+      } finally {
+        this.busy = false;
+        this.notify();
+      }
+    } else changed = command(this.state, cmd);
     if (!changed) {
       this.notice =
         cmd.type === 'moveItem'
@@ -300,6 +365,16 @@ export class GameStore {
     this.notify();
   }
   async retry() {
+    if (this.remote) {
+      if (this.ready) this.remote.send({ type: 'read' });
+      try {
+        await this.remote.connect();
+      } catch (e) {
+        this.error = errorText(e);
+        this.notify();
+      }
+      return;
+    }
     if (this.ready) await this.persist();
     else await this.load();
     if (!this.error && this.state.run?.phase === 'loot' && !pendingChoices(this.state.run)) {
@@ -308,6 +383,10 @@ export class GameStore {
     }
   }
   async recover() {
+    if (this.remote) {
+      await this.load();
+      return;
+    }
     if (this.busy) return;
     this.busy = true;
     this.notify();
@@ -364,6 +443,9 @@ export class GameStore {
     );
   }
   advance(input: InputFrame, dt: number, now: number, emit?: CombatCueSink) {
+    if (emit && this.networkCues.length) {
+      for (const cue of this.networkCues.splice(0)) emit(cue);
+    }
     if (
       !this.rendererReady ||
       !this.ready ||
@@ -375,6 +457,7 @@ export class GameStore {
       this.waystationDialogue ||
       document.hidden
     ) {
+      this.remote?.pause(true);
       this.clearCombatAction();
       return;
     }
@@ -414,6 +497,10 @@ export class GameStore {
       beforeLevel = r.fighter.level,
       beforeKills = r.kills,
       beforeExchange = r.exchangeSeq;
+    if (this.remote) {
+      this.remote.input(input, false);
+      return;
+    }
     tick(r, input, dt, emit);
     if (
       r.phase !== beforePhase ||
@@ -449,6 +536,10 @@ export class GameStore {
     }
   }
   checkExpiry() {
+    if (this.remote) {
+      this.remote.send({ type: 'read' });
+      return;
+    }
     if (!this.ready || this.busy || this.error) return;
     if (expireFighters(this.state, Date.now())) {
       if (!this.fighter()) this.bagOpen = false;

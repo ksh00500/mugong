@@ -2,29 +2,58 @@ import { pvpFighter, PVP_RULES as R } from '../pvp/rules';
 import type { CombatActor, PresetId, PvpAttack, PvpInput } from '../pvp/model';
 import { stepCombat } from '../pvp/engine';
 import { RAID_FLOORS, type RaidState, type RaidPattern } from './model';
+import type { BoundFighter } from '../domain/model';
+import { maximumHp } from '../domain/content';
+import { useItem } from '../domain/inventory';
 const dt = 1 / 60,
   clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
 const alive = (m: RaidState) =>
   m.players.slice(0, 4).filter((a, i) => m.status[i] === 'active' && a.fighter.hp > 0);
 export const raidScale = (n: number) => 1 + 0.65 * (clamp(n, 1, 4) - 1);
+/** Server UTC expiry precedes this tick's contacts; confirmed deaths are never converted to expiry. */
+export function expirePersonalRaid(m: RaidState, now: number) {
+  if (!m.personal || m.phase === 'finished') return false;
+  let changed = false;
+  for (let i = 0; i < 4; i++) {
+    const a = m.players[i];
+    if (
+      m.status[i] === 'active' &&
+      a.fighter.expiresAt !== undefined &&
+      a.fighter.expiresAt <= now
+    ) {
+      m.status[i] = 'expired';
+      a.inactive = true;
+      changed = true;
+      m.attacks = m.attacks.filter((at) => at.owner !== i);
+    }
+  }
+  if (changed) {
+    m.epoch++;
+    if (!alive(m).length) finishRaid(m, 'retreat');
+  }
+  return changed;
+}
 export function createRaid(
   id: string,
-  participants: readonly (null | { name: string; preset: PresetId })[],
+  participants: readonly (null | { name: string; preset: PresetId; fighter?: BoundFighter })[],
 ): RaidState {
   const players: CombatActor[] = Array.from({ length: 5 }, (_, seat) => {
     const p = participants[seat],
-      fighter = pvpFighter(p?.preset ?? 'monk', 0, p?.name ?? '');
+      fighter = p?.fighter
+        ? structuredClone(p.fighter)
+        : pvpFighter(p?.preset ?? 'monk', 0, p?.name ?? '');
     fighter.x = 320 + (seat % 2) * 140;
     fighter.y = 340 + Math.floor(seat / 2) * 160;
-    fighter.hp = p ? R.hp : 0;
+    fighter.hp = p ? (p.fighter?.hp ?? R.hp) : 0;
     return {
       seat,
       team: seat === 4 ? 1 : 0,
       passive: seat === 4,
       inactive: !p && seat !== 4,
       preset: p?.preset ?? 'monk',
+      personal: !!p?.fighter,
       fighter,
-      maxHp: R.hp,
+      maxHp: p?.fighter ? maximumHp(p.fighter) : R.hp,
       poison: 0,
       poisonClock: 0,
       buff: 0,
@@ -32,6 +61,9 @@ export function createRaid(
     };
   });
   const m: RaidState = {
+    personal: participants.some((p) => !!p?.fighter),
+    rewardFloor: 0,
+    heirs: [],
     id,
     players,
     attacks: [],
@@ -263,6 +295,13 @@ export function cancelRaidCountdown(m: RaidState) {
 }
 export function raidMedicine(m: RaidState, seat: number) {
   const a = m.players[seat];
+  if (m.personal) {
+    if (m.phase !== 'rest' || m.status[seat] !== 'active') return false;
+    const item = a.fighter.items.find(
+      (i) => i.kind === 'medicine' && i.place === 'general' && i.count > 0,
+    );
+    return !!item && useItem(a.fighter, item);
+  }
   if (
     m.phase !== 'rest' ||
     m.status[seat] !== 'active' ||

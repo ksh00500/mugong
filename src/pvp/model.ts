@@ -24,6 +24,7 @@ export const neutralInput = (): PvpInput => ({
   switch: 0,
 });
 export interface CombatActor {
+  personal?: boolean;
   seat: number;
   team?: number;
   passive?: boolean;

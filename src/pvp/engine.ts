@@ -1,4 +1,6 @@
 import { techniqueStats, DEFENSE_RULES } from '../domain/techniques';
+import { weaponPower, equipmentBonus, hasWeapon } from '../domain/inventory';
+import { characterStats } from '../domain/character';
 import { combatOrigin, sectorHitsBody, projectileHitsBody } from '../domain/combat-body';
 import type { ArtId } from '../domain/model';
 import { PVP_RULES as R, pvpFighter } from './rules';
@@ -203,6 +205,7 @@ function attack(m: CombatWorld, a: CombatActor) {
   const f = a.fighter,
     art = f.arts[f.active];
   if (f.cooldown > 0) return;
+  if (a.personal && !hasWeapon(f)) return;
   const stats = techniqueStats(art.id, art.level, f),
     boosted = art.id === 'gaebang' && (art.queuedBoosts ?? 0) > 0;
   if (boosted) art.queuedBoosts!--;
@@ -211,7 +214,8 @@ function attack(m: CombatWorld, a: CombatActor) {
   f.actionTime = 0.28;
   f.attackSeq++;
   art.combo = (art.combo + 1) % 3;
-  const damage = 9 * stats.multiplier * (boosted ? 1.5 : 1) * (a.buff > 0 ? 1.25 : 1);
+  const base = a.personal ? 9 + weaponPower(f) + characterStats(f).strength / 20 : 9;
+  const damage = base * stats.multiplier * (boosted ? 1.5 : 1) * (a.buff > 0 ? 1.25 : 1);
   if (art.id === 'tang' || art.id === 'jegal')
     spawn(m, a, art.id, damage * 0.8, {
       shape: 'shot',
@@ -251,6 +255,8 @@ function resolveContacts(m: CombatWorld, contacts: Contact[]) {
     const angle = Math.atan2(a.fighter.y - f.y, a.fighter.x - f.x),
       front = Math.abs(Math.atan2(Math.sin(angle - f.facing), Math.cos(angle - f.facing))) <= 1.35;
     let damage = c.damage;
+    if (target.personal)
+      damage *= (f.augments?.includes('iron') ? 0.9 : 1) / (1 + equipmentBonus(f, 'robe') / 100);
     if (f.guard > 0 && front && !c.dot) {
       damage *= DEFENSE_RULES.guardDamageFactor;
       effect(m, c.target, 'guard');
@@ -383,7 +389,13 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
     }
     const length = Math.hypot(input.dx, input.dy);
     if (length && (f.actionTime <= 0 || f.action === 'attack')) {
-      move(a, Math.atan2(input.dy, input.dx), R.speed * DT * (f.action === 'attack' ? 0.6 : 1));
+      move(
+        a,
+        Math.atan2(input.dy, input.dx),
+        (R.speed + (a.personal ? equipmentBonus(f, 'boots') + characterStats(f).agility / 10 : 0)) *
+          DT *
+          (f.action === 'attack' ? 0.6 : 1),
+      );
       if (f.actionTime <= 0) {
         f.action = 'walk';
         f.facing = Math.atan2(input.dy, input.dx);

@@ -4,6 +4,7 @@ import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import type { OnlineAccount, PvpMatch, MatchReceipt } from '../model';
 import type { RaidReceipt } from '../../raid/model';
+import { OnlineRepository } from '../../online/repository';
 const derive = (password: string, salt: string) =>
   new Promise<Buffer>((resolve, reject) =>
     scrypt(password, salt, 64, { N: 16384, r: 8, p: 1, maxmem: 64 * 1024 * 1024 }, (e, key) =>
@@ -13,6 +14,7 @@ const derive = (password: string, salt: string) =>
 type AccountRow = OnlineAccount & { login: string; salt: string; hash: string };
 export class PvpDatabase {
   readonly db: DatabaseSync;
+  readonly online: OnlineRepository;
   constructor(path: string) {
     if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true, mode: 0o700 });
     this.db = new DatabaseSync(path);
@@ -22,18 +24,28 @@ export class PvpDatabase {
         'PRAGMA busy_timeout=1000; PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA synchronous=FULL;',
       );
       const version = this.db.prepare('PRAGMA user_version').get()!.user_version as number;
-      if (version > 2) throw Error('Unsupported online database version');
+      if (version > 3) throw Error('Unsupported online database version');
       this.db.exec(`
       CREATE TABLE IF NOT EXISTS accounts(id TEXT PRIMARY KEY, login TEXT NOT NULL UNIQUE, name TEXT NOT NULL, salt TEXT NOT NULL, hash TEXT NOT NULL, rating INTEGER NOT NULL DEFAULT 1000, wins INTEGER NOT NULL DEFAULT 0, losses INTEGER NOT NULL DEFAULT 0, draws INTEGER NOT NULL DEFAULT 0, matches INTEGER NOT NULL DEFAULT 0);
       CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY, account TEXT NOT NULL REFERENCES accounts(id), expires INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS results(id TEXT PRIMARY KEY, a TEXT NOT NULL REFERENCES accounts(id), b TEXT NOT NULL REFERENCES accounts(id), state TEXT NOT NULL, mode TEXT NOT NULL, receipt TEXT, created INTEGER NOT NULL);
       CREATE INDEX IF NOT EXISTS result_a ON results(a,created); CREATE INDEX IF NOT EXISTS result_b ON results(b,created);
       CREATE TABLE IF NOT EXISTS raid_results(run TEXT NOT NULL, account TEXT NOT NULL REFERENCES accounts(id), state TEXT NOT NULL, floor INTEGER NOT NULL DEFAULT 0, receipt TEXT, created INTEGER NOT NULL, PRIMARY KEY(run,account));
-      CREATE INDEX IF NOT EXISTS raid_account ON raid_results(account,created);`);
+      CREATE INDEX IF NOT EXISTS raid_account ON raid_results(account,created);
+      CREATE TABLE IF NOT EXISTS online_families(account TEXT PRIMARY KEY REFERENCES accounts(id),revision INTEGER NOT NULL,commit_id TEXT NOT NULL,state TEXT NOT NULL);
+      CREATE TABLE IF NOT EXISTS online_operations(account TEXT NOT NULL REFERENCES accounts(id),op TEXT NOT NULL,intent TEXT NOT NULL,revision INTEGER NOT NULL,PRIMARY KEY(account,op));
+      CREATE TABLE IF NOT EXISTS online_reservations(account TEXT PRIMARY KEY REFERENCES accounts(id),fighter TEXT NOT NULL,room TEXT NOT NULL);
+      CREATE TABLE IF NOT EXISTS online_raids(code TEXT PRIMARY KEY,run TEXT,state TEXT NOT NULL);
+      `);
       // In-memory rooms cannot survive a process restart. Never invent a winner.
       this.db.prepare("UPDATE results SET state='void' WHERE state='playing'").run();
-      this.db.prepare("UPDATE raid_results SET state='void' WHERE state='playing'").run();
-      this.db.exec('PRAGMA user_version=2');
+      this.db
+        .prepare(
+          "UPDATE raid_results SET state='void' WHERE state='playing' AND run NOT IN (SELECT run FROM online_raids WHERE run IS NOT NULL)",
+        )
+        .run();
+      this.db.exec('PRAGMA user_version=3');
+      this.online = new OnlineRepository(this.db);
     } catch (e) {
       this.db.close();
       throw e;

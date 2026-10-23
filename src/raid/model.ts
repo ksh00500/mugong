@@ -1,5 +1,6 @@
 import type { CombatWorld, PvpInput, PresetId } from '../pvp/model';
-export type RaidStatus = 'active' | 'dead' | 'returned';
+import type { Item, Fighter } from '../domain/model';
+export type RaidStatus = 'active' | 'dead' | 'returned' | 'expired';
 export type RaidPattern = 'cleave' | 'volley' | 'guard' | 'charge' | 'marks';
 export const RAID_FLOORS = [
   { name: '외곽 경계', boss: '죽림 경계장', art: 3, hp: 1600, patterns: ['cleave', 'charge'] },
@@ -21,6 +22,18 @@ export const RAID_FLOORS = [
   },
 ] as const;
 export interface RaidState extends CombatWorld {
+  personal?: boolean;
+  rewardFloor?: number;
+  heirs?: {
+    id: string;
+    owner: number;
+    item: Item;
+    carrier?: number;
+    x?: number;
+    y?: number;
+    returned?: boolean;
+    lost?: boolean;
+  }[];
   id: string;
   phase: 'countdown' | 'fighting' | 'rest' | 'finished';
   tick: number;
@@ -60,6 +73,9 @@ export interface RaidReceipt {
   finishedAt: number;
 }
 export interface RaidRoom {
+  operation?: string;
+  personal?: boolean;
+  ownSave?: import('../online/protocol').OnlineSave;
   code: string;
   revision: number;
   host: number;
@@ -70,14 +86,17 @@ export interface RaidRoom {
     connected: boolean;
     ack: number;
     status: RaidStatus;
+    fighter?: Fighter;
   })[];
   match: RaidState | null;
   receipt: RaidReceipt | null;
   settling: boolean;
 }
 export type RaidMessage =
-  | { type: 'create'; preset: PresetId }
-  | { type: 'join'; preset: PresetId; code: string }
+  | { type: 'create'; preset: PresetId; fighterId?: string }
+  | { type: 'join'; preset: PresetId; code: string; fighterId?: string }
+  | { type: 'personal'; revision: number; op: string; command: import('../domain/model').Command }
+  | { type: 'recoverHeir'; revision: number; id: string }
   | { type: 'resume' | 'leave' }
   | { type: 'ready' | 'unready' | 'start' | 'return' | 'medicine'; revision: number }
   | { type: 'ping'; sent: number }

@@ -60,12 +60,18 @@ class Arena extends Phaser.Scene {
       this.load.image(`directions-${sheet}`, `/art/hero-roster-v1/directions-${sheet}.webp`);
       this.load.image(`actions-${sheet}`, `/art/hero-roster-v1/actions-${sheet}.webp`);
     }
-    for (const p of Object.values(PVP_PRESETS))
-      this.load.image(`slash-${p.appearance}`, `/art/hero-slash-v1/hero-${p.appearance}.webp`);
+    for (let appearance = 0; appearance < 10; appearance++)
+      this.load.image(`slash-${appearance}`, `/art/hero-slash-v1/hero-${appearance}.webp`);
     const items = Object.keys(PVP_PRESETS).flatMap(
       (p) => pvpFighter(p as PresetId, 0, '비무').items,
     );
-    for (const id of new Set(items.map((i) => i.templateId!)))
+    const personalItems =
+      this.client
+        .getSnapshot()
+        .room?.seats.flatMap((p) => (p as { fighter?: BoundFighter })?.fighter?.items ?? []) ?? [];
+    for (const id of new Set(
+      [...items, ...personalItems].map((i) => i.templateId!).filter((id) => !!ITEM_ARTWORK[id]),
+    ))
       this.load.image(`held-${id}`, ITEM_ARTWORK[id].src);
     this.load.image('held-darts', '/art/held-darts-v1.webp');
     this.load.image('held-gauntlets', '/art/held-gauntlets-v1.webp');
@@ -90,10 +96,10 @@ class Arena extends Phaser.Scene {
         registerEnemyMotion(this.textures.get(`actions-${sheet}`), [0, 1, 2, 3, 4], 6),
       );
     }
-    for (const p of Object.values(PVP_PRESETS))
+    for (let appearance = 0; appearance < 10; appearance++)
       this.frames.set(
-        `slash-${p.appearance}`,
-        registerEnemyMotion(this.textures.get(`slash-${p.appearance}`), [0, 1, 2], 5, false),
+        `slash-${appearance}`,
+        registerEnemyMotion(this.textures.get(`slash-${appearance}`), [0, 1, 2], 5, false),
       );
     this.add
       .image(R.width / 2, R.height / 2, 'arena')
@@ -155,7 +161,7 @@ class Arena extends Phaser.Scene {
     this.ready();
   }
   private actor(f: BoundFighter, seat: number, x: number, y: number) {
-    const appearance = f.appearance!,
+    const appearance = f.appearance ?? 0,
       sheet = Math.floor(appearance / 5),
       slot = appearance % 5,
       dir = directionIndex(f.facing),
@@ -247,7 +253,10 @@ class Arena extends Phaser.Scene {
         this.raidArt.draw(this, this.actors[4], this.labels[4], this.g, m, this.reduced);
         continue;
       }
-      const f = m?.players[seat].fighter ?? pvpFighter(p.preset, seat === 1 ? 1 : 0, p.name);
+      const f =
+        m?.players[seat].fighter ??
+        (p as { fighter?: BoundFighter }).fighter ??
+        pvpFighter(p.preset, seat === 1 ? 1 : 0, p.name);
       const position =
         seat === v.seat && m?.phase === 'fighting' && v.connected
           ? this.controls.position(f, m.tick, p.ack)
