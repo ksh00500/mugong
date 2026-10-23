@@ -1,6 +1,21 @@
 import { techniqueStats, DEFENSE_RULES } from '../domain/techniques';
-import { weaponPower, equipmentBonus, hasWeapon } from '../domain/inventory';
-import { characterStats } from '../domain/character';
+import { hasWeapon } from '../domain/inventory';
+import {
+  stepTraits,
+  innateAttack,
+  innateHit,
+  switchTrait,
+  evadeTrait,
+  counterTrait,
+  damagedTrait,
+} from '../domain/character';
+import {
+  fighterAttackPower,
+  fighterMoveSpeed,
+  fighterDamageTaken,
+} from '../domain/fighter-combat-values';
+import { supportStats } from '../domain/support';
+import { maximumHp } from '../domain/content';
 import { combatOrigin, sectorHitsBody, projectileHitsBody } from '../domain/combat-body';
 import type { ArtId } from '../domain/model';
 import { PVP_RULES as R, pvpFighter } from './rules';
@@ -135,6 +150,7 @@ function defend(m: CombatWorld, a: CombatActor, input: PvpInput) {
   if (['huashan', 'tang', 'gaebang'].includes(art.id)) {
     move(a, angle, art.id === 'huashan' ? 145 : 115);
     f.invulnerable = art.id === 'huashan' ? DEFENSE_RULES.evadeDuration : 0.22;
+    if (a.personal) evadeTrait(f);
     effect(m, a.seat, 'evade');
   } else if (art.id === 'tianmo') {
     f.facing = input.aim;
@@ -156,6 +172,8 @@ function ultimate(m: CombatWorld, a: CombatActor) {
     (art.id === 'gaebang' && (art.queuedBoosts ?? 0) >= 2)
   )
     return;
+  if (a.personal && f.innate === 'circulation')
+    f.hp = Math.min(a.maxHp, f.hp + maximumHp(f) * 0.05 * ((f.healSuppression ?? 0) > 0 ? 0.5 : 1));
   art.gauge -= 100;
   f.cooldown = art.id === 'gaebang' ? 0.18 : 0.65;
   effect(m, a.seat, 'ultimate');
@@ -216,22 +234,26 @@ function attack(m: CombatWorld, a: CombatActor) {
   f.actionTime = 0.28;
   f.attackSeq++;
   art.combo = (art.combo + 1) % 3;
-  const base = a.personal ? 9 + weaponPower(f) + characterStats(f).strength / 20 : 9;
+  const base = a.personal ? fighterAttackPower(f) * innateAttack(f, a.maxHp) : 9;
   const damage = base * stats.multiplier * (boosted ? 1.5 : 1) * (a.buff > 0 ? 1.25 : 1);
+  const owned = a.personal ? { basicSequence: f.attackSeq } : {};
   if (art.id === 'tang' || art.id === 'jegal')
     spawn(m, a, art.id, damage * 0.8, {
       shape: 'shot',
-      life: 1.0,
+      life: a.personal ? supportStats(f).attackRangeFactor : 1,
       speed: 650,
       radius: art.id === 'tang' ? 6 : 12,
       poison: art.id === 'tang',
+      ...owned,
     });
   else
     spawn(m, a, art.id, damage, {
       range:
-        art.id === 'gaebang' ? 190 : art.id === 'samja' ? 160 : art.id === 'shaolin' ? 105 : 140,
+        (art.id === 'gaebang' ? 190 : art.id === 'samja' ? 160 : art.id === 'shaolin' ? 105 : 140) *
+        (a.personal ? supportStats(f).attackRangeFactor : 1),
       arc: art.id === 'gaebang' ? 0.45 : 0.9,
       heal: art.id === 'tianmo' ? 0.1 : 0,
+      ...owned,
     });
 }
 type Contact = {
@@ -242,6 +264,7 @@ type Contact = {
   poison: boolean;
   art: ArtId;
   dot?: boolean;
+  basicSequence?: number;
 };
 /** Both sides' contacts are gathered before HP changes; simultaneous KOs stay draws. */
 function resolveContacts(m: CombatWorld, contacts: Contact[]) {
@@ -253,13 +276,31 @@ function resolveContacts(m: CombatWorld, contacts: Contact[]) {
     const a = m.players[c.source],
       target = m.players[c.target],
       f = target.fighter;
-    if (f.invulnerable > 0 && !c.dot) continue;
+    if (f.invulnerable > 0 && (!c.dot || target.personal)) continue;
     const angle = Math.atan2(a.fighter.y - f.y, a.fighter.x - f.x),
       front = Math.abs(Math.atan2(Math.sin(angle - f.facing), Math.cos(angle - f.facing))) <= 1.35;
     let damage = c.damage;
-    if (target.personal)
-      damage *= (f.augments?.includes('iron') ? 0.9 : 1) / (1 + equipmentBonus(f, 'robe') / 100);
-    if (f.guard > 0 && front && !c.dot) {
+    if (a.personal && c.basicSequence !== undefined && !c.dot) {
+      damage *= innateHit(a.fighter, c.target, c.basicSequence);
+      // This raid's bosses remain control immune; an evade bonus cannot stagger them.
+      if (target.passive && a.fighter.traitState) a.fighter.traitState.staggerBoost = 0;
+    }
+    if (target.personal && f.guard > 0 && f.arts[f.active]?.id === 'wudang' && !c.dot) {
+      const stats = techniqueStats('wudang', f.arts[f.active].level, f);
+      loss[c.source] += stats.counterDamage;
+      applied.push({ source: c.target, target: c.source, amount: stats.counterDamage });
+      f.guard = 0;
+      f.invulnerable = 0.3;
+      counterTrait(f);
+      f.arts[f.active].gauge = Math.min(
+        100,
+        f.arts[f.active].gauge + stats.counterGauge + 9 * supportStats(f).gaugeFactor,
+      );
+      effect(m, c.target, 'guard');
+      continue;
+    }
+    if (target.personal) damage = fighterDamageTaken(f, damage);
+    else if (f.guard > 0 && front && !c.dot) {
       damage *= DEFENSE_RULES.guardDamageFactor;
       effect(m, c.target, 'guard');
       if (f.arts[f.active].id === 'wudang') {
@@ -269,36 +310,94 @@ function resolveContacts(m: CombatWorld, contacts: Contact[]) {
         f.arts[f.active].gauge = Math.min(100, f.arts[f.active].gauge + 12);
       }
     }
-    if ((f.fortify ?? 0) > 0) damage *= 0.65;
+    if (!target.personal && (f.fortify ?? 0) > 0) damage *= 0.65;
     loss[c.target] += damage;
     applied.push({ source: c.source, target: c.target, amount: damage });
     heals.push({ source: c.source, target: c.target, amount: damage * c.heal });
-    if (c.poison) {
+    const poisonLevel = a.personal ? supportStats(a.fighter).poisonLevel : 0;
+    if (a.personal && !c.dot && c.basicSequence !== undefined && (c.poison || poisonLevel)) {
+      const level = Math.max(
+        poisonLevel || 1,
+        target.poisonClock > 0 ? (target.ownedPoison?.level ?? 0) : 0,
+      );
+      const damage = Math.max(
+        c.poison ? 2 : 1,
+        c.damage * (c.poison ? 0.15 : 0.04),
+        target.poisonClock > 0 ? (target.ownedPoison?.damage ?? 0) : 0,
+      );
+      target.poison = Math.min(
+        level >= 4 ? 5 : 3,
+        (target.poisonClock > 0 ? target.poison : 0) + 1,
+      );
+      target.ownedPoison = {
+        damage,
+        level,
+        pulse: target.poisonClock > 0 ? (target.ownedPoison?.pulse ?? 0.5) : 0.5,
+      };
+      target.poisonClock = 3;
+      target.poisonSource = c.source;
+    } else if (c.poison) {
       target.poison = Math.min(3, target.poison + 1);
       target.poisonClock = 3;
       target.poisonSource = c.source;
     }
     const art = a.fighter.arts.find((at) => at.id === c.art);
-    if (art && !c.dot) art.gauge = Math.min(c.art === 'gaebang' ? 200 : 100, art.gauge + 12);
+    if (art && !c.dot)
+      art.gauge = Math.min(
+        c.art === 'gaebang' ? 200 : 100,
+        art.gauge +
+          (a.personal
+            ? (c.art === 'gaebang' && c.basicSequence !== undefined ? 14 : 9) *
+              supportStats(a.fighter).gaugeFactor
+            : 12),
+      );
+  }
+  const actualLoss = m.players.map(() => 0);
+  for (const a of m.players) {
+    const before = a.fighter.hp;
+    const planned = Math.min(before, loss[a.seat]);
+    a.fighter.hp = Math.max(0, before - planned);
+    if (a.personal && loss[a.seat] > 0) damagedTrait(a.fighter);
+    // Preserve the standard engine's exact arithmetic as well as its rules.
+    const amount = (actualLoss[a.seat] = a.personal ? before - a.fighter.hp : planned);
+    a.damageTaken = (a.damageTaken ?? 0) + amount;
+    if (amount > 0) {
+      a.hurt = 0.12;
+      if (a.personal) {
+        a.fighter.invulnerable = Math.max(a.fighter.invulnerable, 0.45);
+        if (
+          !(a.fighter.fortify ?? 0) &&
+          !(supportStats(a.fighter).resistAttackStagger && a.fighter.action === 'attack')
+        ) {
+          a.fighter.action = 'hurt';
+          a.fighter.actionTime = 0.18;
+        }
+      }
+      effect(m, a.seat, 'hit', Math.round(amount));
+    }
   }
   for (const h of heals)
-    healing[h.source] +=
-      h.amount * Math.min(1, m.players[h.target].fighter.hp / (loss[h.target] || 1));
+    healing[h.source] += h.amount * Math.min(1, actualLoss[h.target] / (loss[h.target] || 1));
   for (const hit of applied) {
     const a = m.players[hit.source];
     a.damageDealt =
       (a.damageDealt ?? 0) +
-      hit.amount * Math.min(1, m.players[hit.target].fighter.hp / (loss[hit.target] || 1));
+      hit.amount * Math.min(1, actualLoss[hit.target] / (loss[hit.target] || 1));
   }
-  for (const a of m.players) {
-    const amount = Math.min(a.fighter.hp, loss[a.seat]);
-    a.fighter.hp = Math.max(0, a.fighter.hp - amount);
-    a.damageTaken = (a.damageTaken ?? 0) + amount;
-    if (amount > 0) {
-      a.hurt = 0.12;
-      effect(m, a.seat, 'hit', Math.round(amount));
+  for (const target of m.players)
+    if (target.fighter.hp <= 0 && actualLoss[target.seat] > 0) {
+      const hit = [...applied].reverse().find((h) => h.target === target.seat);
+      const source = hit && m.players[hit.source];
+      if (source?.personal && source.fighter.hp > 0) {
+        const f = source.fighter,
+          support = supportStats(f),
+          art = f.arts[f.active];
+        if (f.innate === 'momentum') (f.traitState ??= {}).momentum = 2;
+        healing[source.seat] += support.killHealing * ((f.healSuppression ?? 0) > 0 ? 0.5 : 1);
+        if (art)
+          art.gauge = Math.min(art.id === 'gaebang' ? 200 : 100, art.gauge + support.killGauge);
+      }
     }
-  }
   for (const a of m.players)
     if (a.fighter.hp > 0) a.fighter.hp = Math.min(a.maxHp, a.fighter.hp + healing[a.seat]);
 }
@@ -361,6 +460,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
         switch: 0,
       };
     if (f.hp <= 0 || a.inactive) continue;
+    if (a.personal) stepTraits(f, DT);
     f.cooldown = Math.max(0, f.cooldown - DT);
     f.actionTime = Math.max(0, f.actionTime - DT);
     f.invulnerable = Math.max(0, f.invulnerable - DT);
@@ -372,31 +472,40 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
     if (a.poisonClock > 0) {
       const before = Math.floor(a.poisonClock);
       a.poisonClock = Math.max(0, a.poisonClock - DT);
-      if (Math.floor(a.poisonClock) < before)
+      if (a.ownedPoison) a.ownedPoison.pulse -= DT;
+      if (a.ownedPoison ? a.ownedPoison.pulse <= 0 : Math.floor(a.poisonClock) < before) {
         contacts.push({
           source: a.poisonSource ?? enemies(m, a)[0]?.seat ?? a.seat,
           target: a.seat,
-          damage: a.poison * 2,
+          damage: a.ownedPoison ? a.ownedPoison.damage * (a.poison >= 5 ? 2 : 1) : a.poison * 2,
           heal: 0,
           poison: false,
           art: 'tang',
           dot: true,
         });
-      if (!a.poisonClock) a.poison = 0;
+        if (a.ownedPoison) a.ownedPoison.pulse += 0.5;
+      }
+      if (!a.poisonClock) {
+        a.poison = 0;
+        a.ownedPoison = undefined;
+      }
     }
     if (a.passive) continue;
     if (f.actionTime <= 0) {
       f.action = 'idle';
-      if (input.switch) f.active = (f.active + input.switch + f.arts.length) % f.arts.length;
+      if (input.switch && f.arts.length > 1) {
+        if (a.personal) switchTrait(f);
+        f.active = (f.active + input.switch + f.arts.length) % f.arts.length;
+      }
     }
     const length = Math.hypot(input.dx, input.dy);
     if (length && (f.actionTime <= 0 || f.action === 'attack')) {
       move(
         a,
         Math.atan2(input.dy, input.dx),
-        (R.speed + (a.personal ? equipmentBonus(f, 'boots') + characterStats(f).agility / 10 : 0)) *
+        (a.personal ? fighterMoveSpeed(f) : R.speed) *
           DT *
-          (f.action === 'attack' ? 0.6 : 1),
+          (f.action === 'attack' ? (a.personal ? supportStats(f).attackMovementFactor : 0.6) : 1),
       );
       if (f.actionTime <= 0) {
         f.action = 'walk';
@@ -436,6 +545,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
           heal: at.heal,
           poison: at.poison,
           art: at.art,
+          basicSequence: at.basicSequence,
         });
         at.life = 0;
       }
@@ -454,6 +564,7 @@ export function stepCombat(m: CombatWorld, inputs: readonly (PvpInput | undefine
             heal: at.heal,
             poison: at.poison,
             art: at.art,
+            basicSequence: at.basicSequence,
           });
       }
     }

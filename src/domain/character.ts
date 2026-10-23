@@ -78,3 +78,26 @@ export function stepTraits(f: Fighter, dt: number) {
   state.switchCd = Math.max(0, (state.switchCd ?? 0) - dt);
   state.momentum = Math.max(0, (state.momentum ?? 0) - dt);
 }
+export function switchTrait(f: Fighter) {
+  if (f.innate !== 'quickhands' || (f.traitState?.switchCd ?? 0) > 0) return;
+  const state = (f.traitState ??= {});
+  state.attackBoost = 0.25;
+  state.switchCd = 4;
+}
+export function evadeTrait(f: Fighter) {
+  if (f.innate === 'flexible') (f.traitState ??= {}).staggerBoost = 0.12;
+}
+export function counterTrait(f: Fighter) {
+  if (f.innate === 'counter') (f.traitState ??= {}).attackBoost = 0.35;
+}
+/** Called after actual HP loss, before death/attribution/persistence. */
+export function damagedTrait(f: Fighter) {
+  if (!f.innate) return;
+  const state = (f.traitState ??= {});
+  state.untouched = 0;
+  if (f.hp <= 0 && f.innate === 'unyielding' && !state.survived) {
+    state.survived = true;
+    f.hp = 1;
+    f.invulnerable = 0.6;
+  }
+}

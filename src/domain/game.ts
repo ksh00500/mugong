@@ -1,12 +1,16 @@
 import {
   augmentOffers,
-  characterStats,
   innateAttack,
   innateHit,
   pendingChoices,
   stepTraits,
   TRAIT_IDS,
+  switchTrait,
+  evadeTrait,
+  counterTrait,
+  damagedTrait,
 } from './character';
+import { fighterAttackPower, fighterMoveSpeed, fighterDamageTaken } from './fighter-combat-values';
 import { recruitmentAction, recruitmentView } from './recruitment';
 import { combatActionBlock } from './combat-actions';
 import { isWalkablePreparation, walkWaystation } from './waystation';
@@ -95,12 +99,10 @@ import {
   compatibleWeapon,
   compactBags,
   equipmentSwapPlan,
-  equipmentBonus,
   firstSpace,
   hasWeapon,
   removeBindings,
   useItem,
-  weaponPower,
 } from './inventory';
 import type {
   ArtId,
@@ -586,7 +588,7 @@ function damagePlayer(r: Run, amount: number, emit?: CombatCueSink, source?: Dam
   if (f.invulnerable > 0 || f.hp <= 0) return;
   if (f.guard > 0 && art?.id === 'wudang') {
     f.guard = 0;
-    if (f.innate === 'counter') (f.traitState ??= {}).attackBoost = 0.35;
+    counterTrait(f);
     f.invulnerable = 0.3;
     emit?.({ kind: 'defense', x: f.x, y: f.y, angle: f.facing, action: 'counter' });
     fx(r, f.x, f.y, 'burst', 0, 125, ARTS.wudang.color);
@@ -596,23 +598,11 @@ function damagePlayer(r: Run, amount: number, emit?: CombatCueSink, source?: Dam
     art.gauge = Math.min(100, art.gauge + techniqueStats(art.id, art.level, f).counterGauge);
     return;
   }
-  const actual =
-    Math.max(1, amount * BALANCE.armourMinimumDamageFactor, amount - equipmentBonus(f, 'robe')) *
-    (f.guard > 0 ? DEFENSE_RULES.guardDamageFactor : 1) *
-    (f.fortify && f.fortify > 0 ? 0.65 : 1) *
-    support.incomingDamageFactor;
+  const actual = fighterDamageTaken(f as BoundFighter, amount);
   if (f.guard > 0) emit?.({ kind: 'defense', x: f.x, y: f.y, angle: f.facing, action: 'block' });
   const before = f.hp;
   f.hp = Math.max(0, f.hp - actual);
-  if (f.innate) {
-    const state = (f.traitState ??= {});
-    state.untouched = 0;
-    if (f.hp <= 0 && f.innate === 'unyielding' && !state.survived) {
-      state.survived = true;
-      f.hp = 1;
-      f.invulnerable = 0.6;
-    }
-  }
+  damagedTrait(f);
   if (art?.id === 'tianmo') {
     art.rally = Math.min(maximumHp(f) * 0.2, (art.rally ?? 0) + before - f.hp);
     art.rallyTime = 4;
@@ -827,11 +817,7 @@ function attack(r: Run, input: InputFrame) {
   const comboB = !!art && art.level >= 3 && art.combo % (samjaCycle ? 3 : 2) === 1;
   const comboC = !!art && samjaCycle && art.combo % 3 === 2;
   if (art) art.combo++;
-  const power =
-    14 +
-    characterStats(f).strength * 0.1 +
-    weaponPower(f as BoundFighter) +
-    equipmentBonus(f, 'charm');
+  const power = fighterAttackPower(f as BoundFighter);
   const stats = techniqueStats(art?.id, art?.level, f);
   const mult = stats.multiplier;
   const empowered = (art?.buffTime ?? 0) > 0;
@@ -929,7 +915,7 @@ function defend(r: Run, input: InputFrame, emit?: CombatCueSink) {
     f.y = clamp(f.y + Math.sin(moveAngle) * 145, FIELD.top, FIELD.bottom);
     emit?.({ kind: 'defense', x: f.x, y: f.y, fromX, fromY, angle: moveAngle, action: 'evade' });
     f.invulnerable = DEFENSE_RULES.evadeDuration;
-    if (f.innate === 'flexible') (f.traitState ??= {}).staggerBoost = 0.12;
+    evadeTrait(f);
     fx(r, f.x, f.y, 'guard', moveAngle, 55, ARTS.huashan.color);
   } else if (art.id === 'wudang') {
     emit?.({ kind: 'defense', x: f.x, y: f.y, angle: f.facing, action: 'guard' });
@@ -945,7 +931,7 @@ function defend(r: Run, input: InputFrame, emit?: CombatCueSink) {
     f.x = clamp(f.x + Math.cos(moveAngle) * 115, FIELD.left, FIELD.right);
     f.y = clamp(f.y + Math.sin(moveAngle) * 115, FIELD.top, FIELD.bottom);
     f.invulnerable = 0.22;
-    if (f.innate === 'flexible') (f.traitState ??= {}).staggerBoost = 0.12;
+    evadeTrait(f);
     fx(r, f.x, f.y, 'guard', moveAngle, 45, ARTS[art.id].color);
     emit?.({ kind: 'defense', x: f.x, y: f.y, fromX, fromY, angle: moveAngle, action: 'evade' });
   } else {
@@ -1590,8 +1576,7 @@ export function tick(r: Run, input: InputFrame, dt: number, emit?: CombatCueSink
   }
   if (length && !restrained && (f.actionTime <= 0 || f.action === 'attack')) {
     const speed =
-      (265 + Math.min(80, characterStats(f).agility) + equipmentBonus(f, 'boots') * 8) *
-      supportStats(f).movementFactor *
+      fighterMoveSpeed(f as BoundFighter) *
       movementFactor(r) *
       ((f.slowTime ?? 0) > 0 ? 0.7 : 1) *
       (f.action === 'attack' &&
@@ -2080,11 +2065,7 @@ export function command(state: GameState, cmd: Command, now = Date.now()): boole
   if (cmd.type === 'switch') {
     if (!r || pendingChoices(r) || r.fighter.arts.length < 2 || r.fighter.actionTime > 0)
       return false;
-    if (r.fighter.innate === 'quickhands' && (r.fighter.traitState?.switchCd ?? 0) <= 0) {
-      const state = (r.fighter.traitState ??= {});
-      state.attackBoost = 0.25;
-      state.switchCd = 4;
-    }
+    switchTrait(r.fighter);
     r.fighter.active =
       (r.fighter.active + cmd.delta + r.fighter.arts.length) % r.fighter.arts.length;
     return true;

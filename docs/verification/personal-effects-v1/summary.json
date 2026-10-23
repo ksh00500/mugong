@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-24",
+  "baseCommit": "828803b915745214576d114063c1a61f50e006c3",
+  "unit": {
+    "files": 103,
+    "passed": 1593,
+    "failed": 0
+  },
+  "artBrowser": {
+    "startTime": "2026-10-23T15:31:43.442Z",
+    "duration": 10961.646999999999,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "networkBrowser": {
+    "startTime": "2026-10-23T15:35:04.673Z",
+    "duration": 46194.175,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "comparison": {
+    "journeysEqual": true,
+    "standardRaidsEqual": true,
+    "personal": [
+      {
+        "party": 1,
+        "beforeSeconds": 128.68,
+        "afterSeconds": 88.52,
+        "beforeTaken": [
+          436.63,
+          0,
+          0,
+          0
+        ],
+        "afterTaken": [
+          207.06,
+          0,
+          0,
+          0
+        ],
+        "result": "complete",
+        "cleared": 5,
+        "unlocked": true,
+        "silverGain": 100
+      },
+      {
+        "party": 2,
+        "beforeSeconds": 94.03,
+        "afterSeconds": 65.25,
+        "beforeTaken": [
+          293.51,
+          225.99,
+          0,
+          0
+        ],
+        "afterTaken": [
+          142.14,
+          30.9,
+          0,
+          0
+        ],
+        "result": "complete",
+        "cleared": 5,
+        "unlocked": true,
+        "silverGain": 200
+      },
+      {
+        "party": 3,
+        "beforeSeconds": 91.57,
+        "afterSeconds": 62.38,
+        "beforeTaken": [
+          139.15,
+          151.31,
+          96.42,
+          0
+        ],
+        "afterTaken": [
+          68.76,
+          116.6,
+          72.86,
+          0
+        ],
+        "result": "complete",
+        "cleared": 5,
+        "unlocked": true,
+        "silverGain": 300
+      },
+      {
+        "party": 4,
+        "beforeSeconds": 93.12,
+        "afterSeconds": 61.77,
+        "beforeTaken": [
+          97.97,
+          99.9,
+          72.73,
+          100.96
+        ],
+        "afterTaken": [
+          100.56,
+          84.7,
+          72.86,
+          0
+        ],
+        "result": "complete",
+        "cleared": 5,
+        "unlocked": true,
+        "silverGain": 400
+      }
+    ]
+  },
+  "backup": {
+    "copiedFiles": 2,
+    "quickCheck": "ok",
+    "previousSchema": 3
+  },
+  "build": {
+    "typecheck": true,
+    "viteModules": 256,
+    "nodeServer": true,
+    "assets": 1069,
+    "references": 803,
+    "missing": 0,
+    "lfs": 0,
+    "output": "dist-personal-effects-v1",
+    "localOnlyJunctions": true
+  },
+  "limits": [
+    "Individual eight-art action parity still incomplete; see audit table.",
+    "Render snapshot test and real HTTP/WS/SQLite test are separate.",
+    "No native GPU, public Docker/Linux/Cloudflare or human balance verification."
+  ]
+}
