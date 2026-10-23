@@ -1,5 +1,7 @@
 # 무공 · MUGONG
 
+2026-10-23 개인 무인 확장: `/online/` 서버 모집·20웨이브 육성·성장·가방/장비/창고 저장을 추가하고 `/raid/` 개인 무인 출전·영구 사망·유품·귀환 보상·수명 만료를 연결했다. 로컬 세가를 업로드하지 않는다. 아래 표준 레이드 당시의 개인 자산 미지원 문구보다 [현재 범위](docs/online-personal-v1.md)와 [이번 검증](docs/verification/online-personal-v1/README.md)이 우선한다. 공개 서버 배포는 별도다.
+
 2026-10-23: `/raid/` 실제1~4인 표준 무인 협동 레이드를 추가했다. 같은 보스·5층·아군 피해 없음·개인 귀환·구성 변경 후 재준비·관전·재접속·서버 기록을 사용한다. 개인 무인/장비/XP/유품 이전은 아직 지원하지 않으며 기존 여정은 보존한다. [기능·범위](docs/cooperative-raid-v1.md) · [이번 검증](docs/verification/cooperative-raid-v1/README.md).
 
 2026-10-23: 실제 두 사람의 친선 비무·계정 Elo 순위전을 `/pvp/`에 구현했다. 방 코드·준비/라운드·서버 판정·재접속·SQLite 기록을 사용한다. 표준 무인4종/무공8계열로 겨루며 기존 브라우저의 무인·장비·체력은 보존한다. [기능·실행·후속](docs/realtime-biwu-v1.md) · [이번 검증](docs/verification/realtime-biwu-v1/README.md). 공개 집 서버 배포는 별도다.
@@ -39,7 +41,7 @@ UI 감사의 높음15항목(U06–U20)은 행동/입력/비활성 사유, 가방
 Docker Engine·Compose가 필요하다. 이 브랜치는 실행 미디어를 포함한다.
 
 ```sh
-git clone --branch codex/cooperative-raid-v1 https://github.com/ksh00500/mugong.git
+git clone --branch codex/online-personal-progression-v1 https://github.com/ksh00500/mugong.git
 cd mugong
 cp .env.example .env
 docker compose up -d --build
@@ -48,7 +50,7 @@ curl -f http://127.0.0.1:8080/healthz
 
 Docker 빌드는 `asset-manifest.json`과 실행용 에셋1,026개를 SHA256으로 대조한 뒤 진행한다. 기본 접속 주소는 서버의 `127.0.0.1:8080`이며 HTTPS 프록시에서 연결한다. [서버 설치·업데이트·복귀](docs/self-hosting.md) · [에셋 보관·복원](docs/external-assets.md).
 
-여정 저장은 각 브라우저의 IndexedDB를 사용한다. 온라인 계정·비무 점수·비무/표준 레이드 기록은 별도 서버 SQLite 볼륨에 저장한다. 여정의 기기 간 공유와 개인 소유 무인의 온라인 레이드는 아직 지원하지 않는다. 공개 HTTPS 주소는 `.env`의 `MUGONG_PUBLIC_ORIGIN`에 정확히 설정한다.
+로컬 강호는 각 브라우저의 IndexedDB를 사용한다. 온라인 계정·비무·레이드 기록과 온라인 개인 세가/무인/장비는 별도 서버 SQLite 볼륨에 저장한다. 온라인 세가는 같은 계정으로 다시 접속하며 로컬 세가와 합치지 않는다. 공개 HTTPS 주소는 `.env`의 `MUGONG_PUBLIC_ORIGIN`에 정확히 설정한다.
 
 ## 개발과 검사
 

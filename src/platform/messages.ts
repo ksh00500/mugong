@@ -18,9 +18,11 @@ import { globalBalanceMessages } from './global-balance-messages';
 import { restExpansionMessages } from './rest-expansion-messages';
 import { pvpMessages } from './pvp-messages';
 import { raidMessages } from './raid-messages';
+import { onlineMessages } from './online-messages';
 export const messages: Record<string, readonly [string, string, string, string]> = {
   ...pvpMessages,
   ...raidMessages,
+  ...onlineMessages,
   '전투 입력 대기 중': ['Combat input paused', '戦闘入力を待機中', '战斗输入暂停', '戰鬥輸入暫停'],
   '전투 중에 사용': ['Available in combat', '戦闘中に使用', '战斗中使用', '戰鬥中使用'],
   '무공을 먼저 선택하세요': [

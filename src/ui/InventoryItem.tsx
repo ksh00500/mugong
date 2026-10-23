@@ -11,6 +11,7 @@ export const BagDrag = createContext<{
   readDrag: () => DragItem | null;
   rotated: boolean;
   quickMove: (item: Item) => void;
+  reserved?:ReadonlySet<string>;
 } | null>(null);
 
 export function ItemTile({
@@ -29,6 +30,7 @@ export function ItemTile({
   locked: boolean;
 }) {
   const dragging = useContext(BagDrag);
+  locked=locked||!!dragging?.reserved?.has(item.id);
   const grabbed = useRef({ x: 0, y: 0 });
   const orientation = selected ? (dragging?.rotated ?? item.rotated) : item.rotated;
   return (

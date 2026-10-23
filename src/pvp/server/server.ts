@@ -6,6 +6,7 @@ import { createPvpMatch, finishPvp, stepPvp } from '../engine';
 import { parsePvpMessage } from '../protocol';
 import { PVP_RULES as R } from '../rules';
 import { RaidHub } from '../../raid/server';
+import { OnlineHub } from '../../online/server';
 import type { createRaid } from '../../raid/engine';
 import {
   neutralInput,
@@ -127,15 +128,26 @@ export function createPvpServer(options: {
     }
     return null;
   }
+  let online: OnlineHub;
   const raids = new RaidHub(
     db,
     (hash) =>
       !!db.db
         .prepare('SELECT token FROM sessions WHERE token=? AND expires>?')
         .get(hash, Date.now()),
-    (id) => !!accountRoom(id) || [...queued].some((c) => c.account.id === id),
+    (id) =>
+      !!accountRoom(id) || [...queued].some((c) => c.account.id === id) || !!online?.hasPending(id),
     options.raidReconnectMs,
     options.raidFactory,
+  );
+  online = new OnlineHub(
+    db.online,
+    (hash) =>
+      !!db.db
+        .prepare('SELECT token FROM sessions WHERE token=? AND expires>?')
+        .get(hash, Date.now()),
+    (id) =>
+      raids.hasAccount(id) || !!accountRoom(id) || [...queued].some((c) => c.account.id === id),
   );
   function attach(c: Connection, room: Room, seat: Seat) {
     const p = room.seats[seat]!;
@@ -379,6 +391,19 @@ export function createPvpServer(options: {
         json(res, 200, { history: db.raidHistory(s.account.id) });
         return;
       }
+      if (req.method === 'GET' && path === '/api/pvp/online') {
+        const s = session(req);
+        if (!s) {
+          json(res, 401, { error: '로그인이 필요합니다' });
+          return;
+        }
+        if (online.hasPending(s.account.id)) {
+          json(res, 503, { error: '서버 저장 재시도 중입니다' });
+          return;
+        }
+        json(res, 200, online.read(s.account.id));
+        return;
+      }
       if (
         req.method !== 'POST' ||
         !['/api/pvp/register', '/api/pvp/login', '/api/pvp/logout'].includes(path)
@@ -402,6 +427,7 @@ export function createPvpServer(options: {
           for (const c of connections)
             if (c.tokenHash === s.hash) c.socket.close(4003, 'Signed out');
           raids.logout(s.hash);
+          online.logout(s.hash);
         }
         res.setHeader(
           'Set-Cookie',
@@ -486,7 +512,9 @@ export function createPvpServer(options: {
   server.on('upgrade', (req, socket, head) => {
     const s = session(req);
     if (
-      !['/api/pvp/socket', '/api/pvp/raid-socket'].includes(req.url ?? '') ||
+      !['/api/pvp/socket', '/api/pvp/raid-socket', '/api/pvp/online-socket'].includes(
+        req.url ?? '',
+      ) ||
       !origins.has(req.headers.origin ?? '') ||
       !s ||
       wss.clients.size >= 128
@@ -495,6 +523,10 @@ export function createPvpServer(options: {
       return;
     }
     wss.handleUpgrade(req, socket, head, (ws) => {
+      if (req.url === '/api/pvp/online-socket') {
+        online.accept(ws, s.account.id, s.hash);
+        return;
+      }
       if (req.url === '/api/pvp/raid-socket') {
         raids.accept(ws, s.account, s.hash);
         return;
@@ -667,6 +699,7 @@ export function createPvpServer(options: {
       closed = true;
       clearInterval(timer);
       raids.close();
+      online.close();
       for (const c of connections) c.socket.terminate();
       await new Promise<void>((resolve) => wss.close(() => resolve()));
       await new Promise<void>((resolve) => server.close(() => resolve()));

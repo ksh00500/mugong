@@ -505,7 +505,7 @@ export class CombatScene extends Phaser.Scene {
         time,
         (cue) => this.cues.push(cue),
       );
-      if (gameStore.state.run?.elapsed !== before) {
+      if (gameStore.state.run?.elapsed !== before || gameStore.online) {
         this.defense = false;
         this.attackPressed = false;
         this.ultimatePressed = false;

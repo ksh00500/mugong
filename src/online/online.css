@@ -1,0 +1,41 @@
+.online-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  min-height: 44px;
+  height: 44px;
+  box-sizing: border-box;
+}
+.online-banner nav {
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+  gap: 16px;
+}
+body:has(.online-banner) .app-shell {
+  height: calc(100dvh - 44px);
+  min-height: 0;
+}
+body:has(.online-banner) .app-shell :is(.field-shell, .home-v3) {
+  height: calc(100dvh - 44px);
+  min-height: 0;
+}
+.online-banner a {
+  color: var(--jade);
+}
+.online-banner button {
+  min-height: 28px;
+  height: 28px;
+  padding: 2px 8px;
+  font: inherit;
+}
+@media (max-width: 800px) {
+  .online-banner > span {
+    display: none;
+  }
+}

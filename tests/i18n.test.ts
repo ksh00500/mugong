@@ -47,6 +47,8 @@ it('화면·무공·물품·상태 문구에 네 번역과 동일한 변수가 �
     'src/pvp/PvpApp.tsx',
     'src/raid/RaidApp.tsx',
     'src/raid/model.ts',
+    'src/online/main.tsx',
+    'src/raid/PersonalManagement.tsx',
     ...readdirSync('src/ui')
       .filter((f) => f.endsWith('.tsx'))
       .map((f) => `src/ui/${f}`),

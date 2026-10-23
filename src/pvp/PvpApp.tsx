@@ -13,9 +13,11 @@ import { preloadFonts } from '../platform/assets';
 export function Auth({
   client,
   raid = false,
+  personal = false,
 }: {
   client: Pick<PvpClient, 'authenticate'>;
   raid?: boolean;
+  personal?: boolean;
 }) {
   const [kind, setKind] = useState<'login' | 'register'>('login'),
     [busy, setBusy] = useState(false),
@@ -25,14 +27,18 @@ export function Auth({
     [password, setPassword] = useState('');
   return (
     <section className="pvp-auth" aria-label={t('온라인 비무 계정')}>
-      <span className="pvp-eyebrow">武 · {t('실시간 1:1')}</span>
-      <h1>{t(raid ? '레이드에 들어서다' : '비무장에 들어서다')}</h1>
+      <span className="pvp-eyebrow">武 · {personal ? t('온라인 무인 육성') : t('실시간 1:1')}</span>
+      <h1>
+        {personal ? t('온라인 강호에 나서다') : t(raid ? '레이드에 들어서다' : '비무장에 들어서다')}
+      </h1>
       <p>
-        {t(
-          raid
-            ? '같은 온라인 계정으로 협동합니다. 로컬 여정과 자산은 그대로 보존됩니다.'
-            : '친선 비무와 순위전. 로컬 여정과 자산은 그대로 보존됩니다.',
-        )}
+        {personal
+          ? t('온라인 세가에서 새 무인을 육성합니다. 로컬 세가는 별도로 보존합니다.')
+          : t(
+              raid
+                ? '같은 온라인 계정으로 협동합니다. 로컬 여정과 자산은 그대로 보존됩니다.'
+                : '친선 비무와 순위전. 로컬 여정과 자산은 그대로 보존됩니다.',
+            )}
       </p>
       <form
         onSubmit={async (e) => {
@@ -105,7 +111,9 @@ export function Auth({
           </p>
         )}
         <button className="primary" disabled={busy}>
-          {t(busy ? '접속 중' : raid ? '레이드 입장' : '비무장 입장')}
+          {personal && !busy
+            ? t('온라인 세가 입장')
+            : t(busy ? '접속 중' : raid ? '레이드 입장' : '비무장 입장')}
         </button>
         <button
           type="button"

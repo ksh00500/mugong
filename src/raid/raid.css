@@ -298,3 +298,49 @@
   margin: 4px 0;
   font-size: 22px;
 }
+.raid-mode-picker {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+}
+.raid-mode-picker [aria-pressed='true'] {
+  background: var(--jade);
+  color: var(--paper-light);
+}
+.raid-personal-selection {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.raid-personal-selection select {
+  width: 100%;
+  padding: 10px;
+  color: var(--ink);
+  background: var(--paper-light);
+  font: inherit;
+}
+.raid-personal-management {
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.raid-personal-management section[aria-label='유품 수습'] {
+  max-height: 120px;
+  overflow: auto;
+}
+.raid-app .raid-panel:has(.raid-personal-management) {
+  max-height: calc(100dvh - 110px);
+  overflow: auto;
+}
+.raid-personal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  background: transparent;
+}
+.raid-personal-overlay .scrim {
+  pointer-events: auto;
+}

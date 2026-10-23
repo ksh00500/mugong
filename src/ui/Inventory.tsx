@@ -276,7 +276,7 @@ export function Inventory({
   const selected =
       f?.items.find((i) => i.id === selectedId) ??
       (!view.state.run ? view.state.family.warehouse.find((i) => i.id === selectedId) : undefined),
-    locked = view.state.run?.phase === 'combat' || view.busy;
+    locked = view.state.run?.phase === 'combat' || view.busy || !!view.reservedItemIds?.includes(selectedId);
   useEffect(() => {
     setActionNotice('');
   }, [selected?.place, selected?.x, selected?.y, selected?.rotated]);
@@ -450,7 +450,7 @@ export function Inventory({
   ] as const;
   return (
     <BagDrag.Provider
-      value={{ drag, setDrag, readDrag: () => dragRef.current, rotated, quickMove }}
+      value={{ drag, setDrag, readDrag: () => dragRef.current, rotated, quickMove,reserved:new Set(view.reservedItemIds) }}
     >
       <Modal
         title={view.state.run?.phase === 'combat' ? t('가방 · 정보 확인') : t('무인의 가방')}
