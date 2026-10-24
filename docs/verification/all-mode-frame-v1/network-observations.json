@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-24",
+  "method": "Private source browser hooks, real HTTP/WS, separate from final compiled suite. Source combined run had first 1440 readiness failure; subsequent standalone 1440 passed. Do not sum as a consolidated six-case source pass.",
+  "observations": [
+    {
+      "name": "gangho-1093.json",
+      "realHttpWs": true,
+      "frames": 34,
+      "drawSteps": 32,
+      "stateSteps": 6
+    },
+    {
+      "name": "pvp-1093.json",
+      "realHttpWs": true,
+      "frames": 51,
+      "drawSteps": 50,
+      "stateSteps": 18
+    },
+    {
+      "name": "raid-1093.json",
+      "realHttpWs": true,
+      "frames": 46,
+      "drawSteps": 43,
+      "stateSteps": 14
+    },
+    {
+      "name": "raid-1366.json",
+      "realHttpWs": true,
+      "frames": 45,
+      "drawSteps": 41,
+      "stateSteps": 14
+    },
+    {
+      "name": "raid-1440.json",
+      "realHttpWs": true,
+      "frames": 45,
+      "drawSteps": 41,
+      "stateSteps": 13
+    }
+  ]
+}

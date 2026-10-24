@@ -66,6 +66,7 @@ import { COMBAT_HEIGHT } from '../domain/combat-body';
 import { isWalkablePreparation } from '../domain/waystation';
 import { WaystationScenery } from './waystation-scenery';
 import { CombatPresentation } from './combat-presentation';
+import { NetworkPresentation } from './network-presentation';
 import { CombatClarity, combatCrowding, COMBAT_LAYERS } from './combat-clarity';
 
 export class CombatScene extends Phaser.Scene {
@@ -89,6 +90,7 @@ export class CombatScene extends Phaser.Scene {
   private defense = false;
   private accumulator = 0;
   private presentation = new CombatPresentation();
+  private networkPresentation = new NetworkPresentation();
   private animationTime = 0;
   private lastLevel = 0;
   private wasDead = false;
@@ -469,6 +471,7 @@ export class CombatScene extends Phaser.Scene {
       this.motionClock.reset();
       this.poseTransition.reset();
       this.presentation.reset();
+      this.networkPresentation.reset();
       this.heardProjectiles = new WeakSet<object>();
       this.heroDeathAt = -1;
     }
@@ -526,7 +529,6 @@ export class CombatScene extends Phaser.Scene {
       }
     }
     const canInterpolate =
-      !gameStore.online &&
       gameStore.ready &&
       gameStore.rendererReady &&
       !gameStore.busy &&
@@ -539,9 +541,12 @@ export class CombatScene extends Phaser.Scene {
       !pendingChoices(gameStore.state.run);
     this.draw(
       canInterpolate
-        ? this.presentation.sample(gameStore.state.run, this.accumulator * 60)
+        ? gameStore.online
+          ? this.networkPresentation.sample(gameStore.state.run, time, true)
+          : this.presentation.sample(gameStore.state.run, this.accumulator * 60)
         : gameStore.state.run,
     );
+    if (!canInterpolate) this.networkPresentation.reset();
     this.feedback.updateCamera(
       this.animationTime,
       this.reducedMotion ||

@@ -29,6 +29,7 @@ export class PvpControls {
   private disposeFns: (() => void)[] = [];
   private history: { seq: number; at: number; input: PvpInput }[] = [];
   private prediction = { key: '', tick: -1, x: 0, y: 0, at: 0 };
+  private rendering = true;
   constructor(
     private client: ControlClient,
     private blocked: () => boolean,
@@ -38,7 +39,8 @@ export class PvpControls {
     const down = (e: KeyboardEvent) => {
       if (
         (e.target as HTMLElement)?.closest('input,select,textarea,button,a,[role="dialog"]') ||
-        this.blocked()
+        this.blocked() ||
+        !this.rendering
       )
         return;
       const k = e.key.toLowerCase();
@@ -89,7 +91,7 @@ export class PvpControls {
       this.history = [];
     }
     if (!m || m.phase !== 'fighting' || !view.connected) return;
-    const input = this.blocked() ? neutralInput() : { ...this.input };
+    const input = this.blocked() || !this.rendering ? neutralInput() : { ...this.input };
     if (this.client.send({ type: 'input', epoch: m.epoch, seq: this.seq, ...input })) {
       this.history.push({ seq: this.seq++, at: performance.now(), input });
       this.history = this.history.slice(-12);
@@ -98,7 +100,7 @@ export class PvpControls {
     }
   }
   action(action: 'defense' | 'ultimate' | 'previous' | 'next') {
-    if (this.blocked()) return;
+    if (this.blocked() || !this.rendering) return;
     // Synchronize the epoch before inserting a new one-shot action.
     this.flush();
     if (action === 'previous' || action === 'next')
@@ -110,6 +112,10 @@ export class PvpControls {
     this.keys.clear();
     Object.assign(this.input, neutralInput(), { aim: this.input.aim });
     this.flush();
+  }
+  setRendering(value: boolean) {
+    this.rendering = value;
+    if (!value) this.clear();
   }
   /** Predict only movement; HP, contacts, defenses and results stay authoritative. */
   position(f: BoundFighter, tick: number, ack: number, personal = false) {

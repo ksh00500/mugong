@@ -1,7 +1,14 @@
 import { test, expect, type Page } from '@playwright/test';
 import { mkdir } from 'node:fs/promises';
 import type { RaidRoom } from '../../src/raid/model';
-const proof = `docs/verification/online-personal-v1/${process.env.MUGONG_ONLINE_MODE ?? 'source'}`;
+import {
+  startNetworkFrames,
+  stopNetworkFrames,
+  observeNetworkFrames,
+} from './support/network-frames';
+const proof =
+  process.env.MUGONG_ONLINE_PROOF ??
+  `docs/verification/online-personal-v1/${process.env.MUGONG_ONLINE_MODE ?? 'source'}`;
 async function login(page: Page, name: string, raid = false) {
   await page.goto(raid ? '/raid/' : '/online/');
   await page.getByLabel('아이디', { exact: true }).fill(name);
@@ -111,6 +118,7 @@ test('fresh account uses server recruitment, growth and combat; reload retains p
     page = await context.newPage(),
     errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
+  page.on('console',message=>{if(/Texture .*has no frame/.test(message.text()))errors.push(message.text());});
   try {
     await mkdir(proof, { recursive: true });
     await page.goto('/online/');
@@ -141,9 +149,11 @@ test('fresh account uses server recruitment, growth and combat; reload retains p
       expect(box!.y + box!.height).toBeLessThanOrEqual(614);
     }
     const first = await (await page.request.get('/api/pvp/online')).json();
+    await startNetworkFrames(page, 'gangho');
     await page.keyboard.down('d');
-    await page.waitForTimeout(400);
+    await page.waitForTimeout(observeNetworkFrames ? 700 : 400);
     await page.keyboard.up('d');
+    await stopNetworkFrames(page, 'gangho-1093');
     await page.waitForTimeout(300);
     const moved = await (await page.request.get('/api/pvp/online')).json();
     expect(moved.state.run.fighter.x).toBeGreaterThan(first.state.run.fighter.x);

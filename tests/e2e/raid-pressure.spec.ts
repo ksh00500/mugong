@@ -1,7 +1,12 @@
 import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import type { RaidRoom } from '../../src/raid/model';
-const proof = '.local-preview/balance-browser';
+import {
+  startNetworkFrames,
+  stopNetworkFrames,
+  observeNetworkFrames,
+} from './support/network-frames';
+const proof = process.env.MUGONG_RAID_PROOF ?? '.local-preview/balance-browser';
 
 // Separate server/memory DB seeded from unmodified natural 20-wave graduates.
 // No reduced boss HP, uploaded state, or actual local-account registration.
@@ -17,18 +22,30 @@ for (const [width, height, login] of [
     const page = await context.newPage(),
       errors: string[] = [];
     let room: RaidRoom | undefined;
+    const readyTransport: unknown[] = [];
     const warnings: { pattern: string; tick: number; aim: number }[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
-    page.on('websocket', (ws) =>
+    page.on('websocket', (ws) => {
+      ws.on('framesent', (event) => {
+        const message = JSON.parse(event.payload.toString());
+        if (['ready', 'unready', 'start'].includes(message.type))
+          readyTransport.push({
+            direction: 'sent',
+            type: message.type,
+            revision: message.revision,
+          });
+      });
       ws.on('framereceived', (event) => {
         const message = JSON.parse(event.payload.toString());
+        if (message.type === 'error')
+          readyTransport.push({ direction: 'error', message: message.message });
         if (message.type !== 'room') return;
         room = message.room;
         const match = room?.match;
         if (match?.boss.phase === 'windup')
           warnings.push({ pattern: match.boss.pattern, tick: match.tick, aim: match.boss.aim });
-      }),
-    );
+      });
+    });
     try {
       await mkdir(proof, { recursive: true });
       await page.goto('/raid/');
@@ -44,11 +61,17 @@ for (const [width, height, login] of [
         timeout: 90000,
       });
       await page.getByRole('button', { name: '대전 준비', exact: true }).click();
+      await expect.poll(() => room?.seats[0]?.ready).toBe(true);
       await page.getByRole('button', { name: '산채 출발', exact: true }).click();
       await expect(page.locator('.raid-app')).toHaveAttribute('data-phase', 'fighting');
       expect(room!.match!.players[4].maxHp).toBe(1600);
       expect(room!.match!.personal).toBe(true);
+      await startNetworkFrames(page, 'arena', 4);
       await page.keyboard.down('a');
+      if (observeNetworkFrames) {
+        await page.waitForTimeout(900);
+        await stopNetworkFrames(page, `raid-${width}`);
+      }
       await expect
         .poll(() => warnings.some((w) => w.pattern === 'charge'), { timeout: 12000 })
         .toBe(true);
@@ -99,6 +122,20 @@ for (const [width, height, login] of [
         ),
       );
     } finally {
+      await mkdir(proof, { recursive: true });
+      await writeFile(
+        `${proof}/ready-${width}.json`,
+        JSON.stringify(
+          {
+            transport: readyTransport,
+            ready: room?.seats[0]?.ready,
+            phase: room?.match?.phase,
+            revision: room?.revision,
+          },
+          null,
+          2,
+        ),
+      );
       await context.close();
     }
   });

@@ -34,6 +34,8 @@ import { activeWeapon } from '../domain/inventory';
 import { ITEM_ARTWORK } from '../platform/item-art';
 import { ensureHeldWeaponTexture } from '../game/held-weapon-textures';
 import { OwnedFields } from './owned-fields';
+import { ArenaPresentation } from './presentation';
+import { combatRenderer } from '../game/renderer';
 import type { PresetId, Seat } from './model';
 import type { BoundFighter } from '../domain/model';
 export class Arena extends Phaser.Scene {
@@ -46,6 +48,7 @@ export class Arena extends Phaser.Scene {
   private reduced = false;
   private loadFailed = false;
   private ownedFields!: OwnedFields;
+  private presentation = new ArenaPresentation();
   constructor(
     private client: ArenaClient,
     private controls: PvpControls,
@@ -256,7 +259,7 @@ export class Arena extends Phaser.Scene {
     if (!this.g) return;
     const v = this.client.getSnapshot(),
       room = v.room,
-      m = room?.match;
+      m = this.presentation.sample(room?.match, _time, v.connected);
     this.g.clear();
     this.ownedFields?.draw(m, this.reduced);
     for (let seat = 0; seat < (this.raidArt ? 5 : 2); seat++) {
@@ -280,7 +283,12 @@ export class Arena extends Phaser.Scene {
         pvpFighter(p.preset, seat === 1 ? 1 : 0, p.name);
       const position =
         seat === v.seat && m?.phase === 'fighting' && v.connected
-          ? this.controls.position(f, m.tick, p.ack, !!m.players[seat].personal)
+          ? this.controls.position(
+              room!.match!.players[seat].fighter,
+              m.tick,
+              p.ack,
+              !!m.players[seat].personal,
+            )
           : { x: f.x, y: f.y };
       this.actor(f, seat, position.x, position.y);
       if (m && m.players[seat].hurt > 0) this.actors[seat].setTint(0xffb2a0);
@@ -372,17 +380,41 @@ export function mountPvpArena(
   onProgress: (v: number) => void,
   raidArt?: RaidArtwork,
 ) {
+  const renderer = combatRenderer(parent);
+  controls.setRendering(false);
   const game = new Phaser.Game({
-    type: Phaser.CANVAS,
+    type: renderer.type,
     parent,
     width: R.width,
     height: R.height,
     backgroundColor: '#213427',
+    transparent: false,
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
-    scene: [new Arena(client, controls, onReady, onError, onProgress, raidArt)],
+    scene: [
+      new Arena(
+        client,
+        controls,
+        () => {
+          controls.setRendering(true);
+          onReady();
+        },
+        onError,
+        onProgress,
+        raidArt,
+      ),
+    ],
     audio: { noAudio: true },
     banner: false,
-    render: { antialias: true },
+    render: renderer.render,
   });
-  return () => game.destroy(true);
+  const lost = () => {
+    controls.setRendering(false);
+    onError();
+  };
+  game.renderer.on(Phaser.Renderer.Events.LOSE_WEBGL, lost);
+  return () => {
+    game.renderer.off(Phaser.Renderer.Events.LOSE_WEBGL, lost);
+    controls.setRendering(false);
+    game.destroy(true);
+  };
 }

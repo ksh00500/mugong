@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-24",
+  "method": "Same current scene and renderer; baseline bypasses only new network presentation. Controlled snapshots, not actual network or native GPU benchmark.",
+  "cases": [
+    {
+      "mode": "local",
+      "scenario": "local",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.75,
+          "drawCpuMs": 37.39999994635582,
+          "authorityX": 885
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.375,
+          "drawCpuMs": 52.80000004172325,
+          "authorityX": 885
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.9791666666667425,
+          "drawCpuMs": 49.10000005364418,
+          "authorityX": 885
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.1875,
+          "drawCpuMs": 69.60000005364418,
+          "authorityX": 885
+        }
+      ],
+      "perf": {
+        "frames": 148,
+        "seconds": 3.0042000000178812,
+        "fps": 48.93149590544073,
+        "intervalP95": 43.70000001788139,
+        "drawP95": 1,
+        "renderer": 1
+      },
+      "graphics": null,
+      "errors": [],
+      "rawSha256": "8e5b905c1e1de46a3c5af21b85e431a0a4ce1710aa527d0562a75dcb7603008d"
+    },
+    {
+      "mode": "online",
+      "scenario": "online",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.333333333333371,
+          "drawCpuMs": 37.399999886751175,
+          "authorityX": 834
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.1666666666667425,
+          "drawCpuMs": 44.49999997019768,
+          "authorityX": 834
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.8571030521263765,
+          "drawCpuMs": 45.50000002980232,
+          "authorityX": 834
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.0833333333333712,
+          "drawCpuMs": 74.60000002384186,
+          "authorityX": 834
+        }
+      ],
+      "perf": {
+        "frames": 151,
+        "seconds": 3.0065,
+        "fps": 49.89190088142358,
+        "intervalP95": 23.30000001192093,
+        "drawP95": 0.9000000059604645,
+        "renderer": 1
+      },
+      "graphics": null,
+      "errors": [],
+      "rawSha256": "aa1677edc94be0d5cd4c3e632ec54c29449bf94b8e6ad7201918b2375a4d96b2"
+    },
+    {
+      "mode": "pvp",
+      "scenario": "pvp",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.333333333333371,
+          "drawCpuMs": 2.9999999701976776,
+          "authorityX": 677
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.1666666666667425,
+          "drawCpuMs": 4.000000059604645,
+          "authorityX": 677
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.8571428264292535,
+          "drawCpuMs": 3.200000137090683,
+          "authorityX": 677
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.0833333333333712,
+          "drawCpuMs": 5.600000023841858,
+          "authorityX": 677
+        }
+      ],
+      "perf": {
+        "frames": 177,
+        "seconds": 2.9945,
+        "fps": 58.774419769577555,
+        "intervalP95": 20.5,
+        "drawP95": 0.30000001192092896,
+        "renderer": 1
+      },
+      "graphics": null,
+      "errors": [],
+      "rawSha256": "67993a614af4ac4acacffab122501defa876cfcaeb462d3802ef1e6e0adbf7b4"
+    },
+    {
+      "mode": "raid",
+      "scenario": "raid",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.333333333333371,
+          "drawCpuMs": 11.700000077486038,
+          "authorityX": 677
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.1666666666667425,
+          "drawCpuMs": 15.199999928474426,
+          "authorityX": 677
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.8571428264292535,
+          "drawCpuMs": 13.799999952316284,
+          "authorityX": 677
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.0833333333333712,
+          "drawCpuMs": 25.59999990463257,
+          "authorityX": 677
+        }
+      ],
+      "perf": {
+        "frames": 178,
+        "seconds": 3,
+        "fps": 59,
+        "intervalP95": 21.69999998807907,
+        "drawP95": 0.4000000059604645,
+        "renderer": 1
+      },
+      "graphics": null,
+      "errors": [],
+      "rawSha256": "eeb69de9d435efb22b726ad28e40076c8769b26bcdf0c26dc36ce10b3ba7eda4"
+    },
+    {
+      "mode": "pvp",
+      "scenario": "pvp-webgl",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.333333333333371,
+          "drawCpuMs": 6.300000041723251,
+          "authorityX": 677
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.1666666666667425,
+          "drawCpuMs": 10.60000005364418,
+          "authorityX": 677
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.8571428264292535,
+          "drawCpuMs": 10.500000149011612,
+          "authorityX": 677
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.0833333333333712,
+          "drawCpuMs": 12.200000017881393,
+          "authorityX": 677
+        }
+      ],
+      "perf": {
+        "frames": 158,
+        "seconds": 2.9995999999940395,
+        "fps": 52.34031204170955,
+        "intervalP95": 22.30000001192093,
+        "drawP95": 0.30000001192092896,
+        "renderer": 2
+      },
+      "graphics": {
+        "attributes": {
+          "alpha": false,
+          "antialias": false,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "high-performance",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": true,
+          "xrCompatible": false
+        },
+        "failed": true,
+        "rendering": false,
+        "defense": false
+      },
+      "errors": [],
+      "rawSha256": "50c5b37ed6bee790535e83a3435aae44a6410825e99ac69d476dd3badf130809"
+    },
+    {
+      "mode": "raid",
+      "scenario": "raid-webgl",
+      "stage": "final",
+      "syntheticNetwork": true,
+      "schedule": [
+        {
+          "hz": 60,
+          "frames": 44,
+          "changes": 44,
+          "changeRatio": 1,
+          "maxJump": 4.333333333333371,
+          "drawCpuMs": 11.600000083446503,
+          "authorityX": 677
+        },
+        {
+          "hz": 120,
+          "frames": 89,
+          "changes": 89,
+          "changeRatio": 1,
+          "maxJump": 2.1666666666667425,
+          "drawCpuMs": 16.19999983906746,
+          "authorityX": 677
+        },
+        {
+          "hz": 144,
+          "frames": 107,
+          "changes": 107,
+          "changeRatio": 1,
+          "maxJump": 1.8571428264292535,
+          "drawCpuMs": 18.29999989271164,
+          "authorityX": 677
+        },
+        {
+          "hz": 240,
+          "frames": 179,
+          "changes": 179,
+          "changeRatio": 1,
+          "maxJump": 1.0833333333333712,
+          "drawCpuMs": 27.5999998152256,
+          "authorityX": 677
+        }
+      ],
+      "perf": {
+        "frames": 160,
+        "seconds": 3.0595999999940395,
+        "fps": 51.96757746120726,
+        "intervalP95": 21.5,
+        "drawP95": 0.4000000059604645,
+        "renderer": 2
+      },
+      "graphics": {
+        "attributes": {
+          "alpha": false,
+          "antialias": false,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "high-performance",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": true,
+          "xrCompatible": false
+        },
+        "failed": true,
+        "rendering": false,
+        "defense": false
+      },
+      "errors": [],
+      "rawSha256": "b2365a2e59e958e6d22d08103e14ced64afe857058f788b37e39586805125f7e"
+    }
+  ]
+}

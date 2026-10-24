@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-24",
+  "baseCommit": "a9ab5e9b76a8e330441e9b113b6fc99f91a80847",
+  "unit": {
+    "files": 107,
+    "tests": 1633,
+    "passed": 1633,
+    "failed": 0,
+    "success": true
+  },
+  "typecheck": "passed",
+  "runtimeAssets": {
+    "files": 1069,
+    "literalReferences": 803,
+    "missing": 0,
+    "lfsPointers": 0
+  },
+  "build": {
+    "outDir": "dist-all-mode-frame-v1",
+    "client": "passed",
+    "server": "unchanged",
+    "publicMediaJunctions": "local only"
+  },
+  "controlledBaseline": {
+    "startTime": "2026-10-24T04:05:01.652Z",
+    "duration": 26737.670000000002,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "controlledFinal": {
+    "startTime": "2026-10-24T04:05:29.136Z",
+    "duration": 51168.636,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "actualCompiledHttpWs": {
+    "startTime": "2026-10-24T04:01:57.000Z",
+    "duration": 111850.859,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "directVisualReview": [
+    "final PvP 1093x614 combat HUD",
+    "final normal raid 1093x614 damage HUD",
+    "controlled four-person raid software WebGL"
+  ],
+  "limitations": [
+    "No native hardware GPU FPS guarantee",
+    "No real internet packet-loss or many-party long-load measurement",
+    "No public Linux/Docker/Cloudflare deployment"
+  ],
+  "failedRuns": [
+    "Initial 144/240Hz correction jump and test fixture issues corrected before final controlled run",
+    "Source hook duplicate import/cached update corrected; interrupted and HMR runs not counted",
+    "Initial raid readiness click failure corrected; final compiled all six passed",
+    "First final unit attempt: 107 suites could not load due sandbox temp-cache EPERM; rerun outside sandbox recorded here"
+  ]
+}

@@ -2,7 +2,10 @@ import { test, expect, type Browser, type Page, type BrowserContext } from '@pla
 import { mkdir, writeFile } from 'node:fs/promises';
 import type { RoomState, ServerMessage } from '../../src/pvp/model';
 import { emptyGame } from '../../src/domain/game';
-const proof = `docs/verification/realtime-biwu-v1/${process.env.MUGONG_PVP_MODE ?? 'source'}`;
+import { startNetworkFrames, stopNetworkFrames } from './support/network-frames';
+const proof =
+  process.env.MUGONG_PVP_PROOF ??
+  `docs/verification/realtime-biwu-v1/${process.env.MUGONG_PVP_MODE ?? 'source'}`;
 let unique = 0;
 async function player(browser: Browser, width: number, height: number, tag: string) {
   const context = await browser.newContext({
@@ -102,10 +105,12 @@ for (const [width, height] of [
       await b.page.getByLabel('방 코드', { exact: true }).fill(code);
       await b.page.getByRole('button', { name: '친선 방 참가', exact: true }).click();
       await ready(a.page, b.page);
+      await startNetworkFrames(b.page, 'arena', 0);
       await a.page.locator('.pvp-battle').focus();
       await a.page.keyboard.down('d');
       await a.page.waitForTimeout(1100);
       await a.page.keyboard.up('d');
+      await stopNetworkFrames(b.page, `pvp-${width}`);
       await expect.poll(() => a.state()?.match?.players[0].fighter.x ?? 0).toBeGreaterThan(650);
       const opponent = a.state()!.match!.players[1].fighter,
         canvas = (await a.page.locator('.pvp-canvas canvas').boundingBox())!;
