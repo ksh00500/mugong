@@ -303,7 +303,7 @@ export function PvpApp() {
     else send({ type: 'leave' });
   };
   const roomReady = !!room && room.seats.every((p) => p?.connected),
-    canAct = v.connected && m?.phase === 'fighting' && !panel;
+    canAct = artReady && v.connected && m?.phase === 'fighting' && !panel;
   const disabledReason = (action: 'defense' | 'ultimate') => {
     if (!canAct || !me) return t('전투 중에 사용');
     const reason = combatActionBlock(me.fighter, action);

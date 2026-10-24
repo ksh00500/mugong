@@ -579,7 +579,13 @@ export function RaidApp() {
                   <button onClick={() => setAttempt((v) => v + 1)}>{t('다시 준비')}</button>
                 </p>
               ) : (
-                !artReady && <p role="status">{t('레이드 그림 준비')}</p>
+                <p
+                  role={artReady ? undefined : 'status'}
+                  aria-hidden={artReady}
+                  style={{ visibility: artReady ? 'hidden' : 'visible' }}
+                >
+                  {t('레이드 그림 준비')}
+                </p>
               )}
               <div className="pvp-ready-actions">
                 <button

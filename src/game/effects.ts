@@ -215,14 +215,14 @@ export class PaintedEffects {
       const visual = projectileVisual(p);
       const angle = Math.atan2(p.vy, p.vx);
       const width = projectileWidths[visual] * (p.visualScale ?? 1);
-      const stone = this.scene.textures.get('painted-stone').source[0];
+      const stone =
+        visual === 'stone' ? this.scene.textures.get('painted-stone').source[0] : undefined;
       const special = visual in HOSTILE_PROJECTILE_FRAMES;
-      const bomb = this.scene.textures.get('hostile-projectiles').get(visual);
       const frame =
         visual === 'stone'
-          ? [0, 0, stone.width, stone.height]
+          ? [0, 0, stone!.width, stone!.height]
           : special
-            ? [0, 0, bomb.width, bomb.height]
+            ? hostileFrames[visual as keyof typeof hostileFrames]
             : visual === 'palm-wave'
               ? [0, 0, 1, 1]
               : projectileFrames[visual as keyof typeof projectileFrames];
